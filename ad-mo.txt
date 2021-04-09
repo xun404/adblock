@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fsfS7QI0bWvBaVgcBsyr+A
+! Checksum: f5BNJM7i0Bqi8RZf+YoRHA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104091514
-! Last Modified: 2021年04月09日 15:14
+! Version: 202104091612
+! Last Modified: 2021年04月09日 16:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -77356,6 +77356,7 @@ fqsousou.com,kengso.com#@#.user-share
 /clicktracking-global.
 /clicktracking.
 /clicktracking/*
+/clickTrackingAjaxController?
 /ClickTracks_
 /ClickTracksCookies.
 /clicktrends/*
@@ -97894,6 +97895,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
+@@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$~third-party
+@@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$~third-party
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||rtoaster.jp^$script,domain=melonbooks.co.jp

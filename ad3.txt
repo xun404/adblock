@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z+dFTqIUZfKbJHLxb0zOJw
+! Checksum: uVKYu/pO0tUcv/Qv5vWdIg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202104091514
-! Last Modified: 2021年04月09日 15:14
+! Version: 202104091612
+! Last Modified: 2021年04月09日 16:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22314,6 +22314,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /clicktracking-global.
 /clicktracking.
 /clicktracking/*
+/clickTrackingAjaxController?
 /ClickTracks_
 /ClickTracksCookies.
 /clicktrends/*
@@ -42852,6 +42853,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
+@@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$~third-party
+@@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$~third-party
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||rtoaster.jp^$script,domain=melonbooks.co.jp
