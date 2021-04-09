@@ -146,8 +146,8 @@ jobs:
         run: |
           cd ./old
           sed -i '/url =/d' ./.git/config
-          git config --local user.name "${{ secrets.GIT_USER }}"
-          git config --local user.email "${{ secrets.GIT_EMAIL }}"
+          git config --local user.name "xnt-bot"
+          git config --local user.email "bot@rmbz.net"
           git add .
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote set-url --add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
