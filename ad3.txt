@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tIneIoa7w0idAO4aCZQywg
+! Checksum: YdDQg/7qE6KKJDvi9v9LwQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202104100123
-! Last Modified: 2021年04月10日 01:23
+! Version: 202104100711
+! Last Modified: 2021年04月10日 07:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -41426,6 +41426,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||center.tv/counter/
 ||chefkoch.de/counter
 ||chefkoch.de/statistic_service/
+||chefkoch.de/tracking/
 ||chefkoch.de^*/pixel/
 ||chip.de/collect
 ||chip.de/stats?
@@ -41635,6 +41636,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||tracking.krone.at^
 ||tracking.linda.de^
 ||tracking.mobile.de^
+||tracking.noen.at^
 ||tracking.oe24.at^
 ||tracking.sport1.de^
 ||tracking.statravel.de^
@@ -42540,6 +42542,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||lenovo.com/fea/js/adobeAnalytics/adobeAnalytics-searchComponent.js$xmlhttprequest,domain=lenovo.com
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
+@@||uniqlo.com^*/trackingservice/$~third-party
 @@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script

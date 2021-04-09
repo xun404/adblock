@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HmLo68xgx3SIBU7KHwq3rQ
+! Checksum: T0m6kkXDzltseOpzOZUkEA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104100123
-! Last Modified: 2021年04月10日 01:23
+! Version: 202104100711
+! Last Modified: 2021年04月10日 07:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31212,9 +31212,11 @@ _popunder+$popup
 ##div[class^="pane-google-admanager-"]
 ##div[class^="proadszone-"]
 ##div[data-ad-underplayer]
+##div[data-adname]
 ##div[data-adservice-param-tagid="contentad"]
 ##div[data-adunit-path]
 ##div[data-adunit]
+##div[data-adzone]
 ##div[data-content="Advertisement"]
 ##div[data-id-advertdfpconf]
 ##div[data-mediatype="advertising"]
@@ -96476,6 +96478,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||center.tv/counter/
 ||chefkoch.de/counter
 ||chefkoch.de/statistic_service/
+||chefkoch.de/tracking/
 ||chefkoch.de^*/pixel/
 ||chip.de/collect
 ||chip.de/stats?
@@ -96685,6 +96688,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||tracking.krone.at^
 ||tracking.linda.de^
 ||tracking.mobile.de^
+||tracking.noen.at^
 ||tracking.oe24.at^
 ||tracking.sport1.de^
 ||tracking.statravel.de^
@@ -97590,6 +97594,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||lenovo.com/fea/js/adobeAnalytics/adobeAnalytics-searchComponent.js$xmlhttprequest,domain=lenovo.com
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
+@@||uniqlo.com^*/trackingservice/$~third-party
 @@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
