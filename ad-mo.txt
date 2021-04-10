@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i5gadInA9olOIz3qVd++zA
+! Checksum: 1FIO3Zn7aSKogtKLeFsbMw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104100833
-! Last Modified: 2021年04月10日 08:33
+! Version: 202104101037
+! Last Modified: 2021年04月10日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3827,7 +3827,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertguruonline1.
 /adverth.
 /adverthorisontalfullwidth.
-/advertical.
+/advertical.$domain=~advertical.hu
 /advertise-$domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
 /advertise/*$domain=~legl.co
 /advertise125x125.
@@ -75852,6 +75852,9 @@ zol.com.cn##span[class^="jisu-down"]
 coolpc.com.tw#@##mycookie
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 dota2.com.cn#@##bdshare
+189.cn#@#.share-panel
+189.cn#@##linkShare
+@@||189.cn^*/shareBox.
 eastday.com#@##leftShare
 gfan.com,gfan.net.cn#@##shareBox
 sogou.com#@##shareContent
