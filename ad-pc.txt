@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I5ssfivqgxRp+8lebMTc3g
+! Checksum: UqcQgIFMlXfwNcf2gMTI9w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202104111611
-! Last Modified: 2021年04月11日 16:11
+! Version: 202104111810
+! Last Modified: 2021年04月11日 18:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -50825,7 +50825,7 @@ menstennisforums.com#@#.top_ads
 ||zip2save.com/widget.php?
 ||ads.yahoo.com^
 /^https?:\/\/[a-z0-9]{7,}\.online\/[a-z0-9]{7,}\.js$/$script,third-party
-/^https?:\/\/.*.cloudfront.net\/[0-9a-zA-Z-\/]{60,}/$script,third-party,xmlhttprequest,domain=~amazon.com
+/^https?:\/\/.*.cloudfront.net\/[0-9a-zA-Z]{50,}/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/secure\.js/$script,third-party,xmlhttprequest,domain=~amazon.com
 ||tsbluebox.com^$third-party
