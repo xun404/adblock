@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yw6Oh6SXAMTpE4EtU7GD7A
+! Checksum: it14/I9jM3gx9nOkXSJ71Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104170943
-! Last Modified: 2021年04月17日 09:43
+! Version: 202104171059
+! Last Modified: 2021年04月17日 10:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -34715,6 +34715,7 @@ menstennisforums.com#@#.top_ads
 ||conderful.club^
 ||condindered.club^
 ||conditionstray.com^
+||conditionwildest.com^
 ||conditurer.club^
 ||condolencesinflamepoint.com^
 ||conduit-banners.com^
@@ -36336,6 +36337,7 @@ menstennisforums.com#@#.top_ads
 ||fixchidie.com^
 ||fixedlyuncoveradjoin.com^
 ||fixpass.net^
+||fixproteinnotch.com^
 ||fixsirrod.site^
 ||fjioh.com^
 ||fjmsdaswvhktht.com^
@@ -36343,6 +36345,7 @@ menstennisforums.com#@#.top_ads
 ||fkbwtoopwg.com^
 ||fkgbxlgcnzf.com^
 ||fkjmjybn.com^
+||fkreylsnefmepi.com^
 ||fl-ads.com^
 ||flagads.net^
 ||flagros2sii8fdbrh09.com^
@@ -37546,6 +37549,7 @@ menstennisforums.com#@#.top_ads
 ||jetx.info^
 ||jevqbzflcbcpz.com^
 ||jewellerywoolsqueeze.com^
+||jewhouca.net^
 ||jf71qh5v14.com^
 ||jfavhjmb.com^
 ||jfiqsfsh.com^
@@ -38012,6 +38016,7 @@ menstennisforums.com#@#.top_ads
 ||lidsfoalliving.com^
 ||lie2anyone.com^
 ||liersmagne.club^
+||lieutenantsaviourtones.com^
 ||lifeseatbird.com^
 ||lifzpefv.com^
 ||ligatus.com^
@@ -38821,6 +38826,7 @@ menstennisforums.com#@#.top_ads
 ||myadstack.net^
 ||myagkiy2sviter11f.com^
 ||mybestdc.com^
+||mybtbafrjpfi.com^
 ||mycasinoaccounts.com^
 ||mycdn.co^
 ||mycdn2.co^
@@ -55654,7 +55660,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------Allowlists to fix broken sites------------------------!
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
-@@||4cdn.org/adv/$image,xmlhttprequest,domain=boards.4channel.org
+@@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||abcnews.com/assets/js/prebid.min.js$~third-party
 @@||abcnews.com/assets/player/$script,~third-party
 @@||accuweather.com/bundles/prebid.$script
@@ -56916,11 +56922,13 @@ www.google.com#@##videoads
 @@||uvcdn.com^$image,script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|youporn.com
 @@||widget.uservoice.com^$script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|youporn.com
 @@||xmpp-chat.pornhub.com^$script,~third-party,websocket
+@@||you-porn.com/api/video/media_definitions/$~third-party,xmlhttprequest
 @@||youporn.com/_Incapsula_Resource?$image,subdocument,xmlhttprequest
 @@||youporn.com/ajax/$xmlhttprequest
+@@||youporn.com/api/video/media_definitions/$~third-party,xmlhttprequest
 @@||youporn.com/api/videos/related/$xmlhttprequest
 @@||youporn.com/beingwatchedrightnow.php$xmlhttprequest
-@@||youporn.com/bundles/$image,~third-party
+@@||youporn.com/bundles/$image,~third-party$~third-party,xmlhttprequest
 @@||youporn.com/change/$xmlhttprequest
 @@||youporn.com/esi_home/$xmlhttprequest
 @@||youporn.com/mycollections.json$xmlhttprequest
@@ -56932,12 +56940,14 @@ www.google.com#@##videoads
 @@||youporn.com/watch/$xmlhttprequest
 @@||youporn.com/watch_postroll/$xmlhttprequest
 @@||youporngay.com/_Incapsula_Resource?$image,subdocument,xmlhttprequest
+@@||youporngay.com/api/video/media_definitions/$~third-party,xmlhttprequest
 @@||youporngay.com/api/videos/related/$xmlhttprequest
 @@||youporngay.com/beingwatchedrightnow.php$xmlhttprequest
 @@||youporngay.com/bundles/$image,~third-party
 @@||youporngay.com/elements/$xmlhttprequest
 @@||youporngay.com/recommendedtoyou.php$xmlhttprequest
 @@||youporngay.com/search/autocomplete/$xmlhttprequest
+@@||youpornru.com/api/video/media_definitions/$~third-party,xmlhttprequest
 @@||ypncdn.com/cb/assets/js/$script,domain=youporn.com|youporngay.com|youpornru.com
 @@||ypncdn.com^$image,media,other,domain=redtube.com|redtube.com.br|youporn.com|youporngay.com|youpornru.com
 @@.jpg#$domain=palaotog.net
@@ -78291,10 +78301,12 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics/init?
 /metrics/metrics$domain=~spatineo.com
 /metrics/onload
+/metrics/ping?
 /metrics/rum
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
+/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
@@ -89224,6 +89236,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymail.co.uk/tracking/
+||dailymotion.com/history/log/
 ||dailymotion.com/logger/
 ||dailymotion.com/track-
 ||dailymotion.com/track/
@@ -89234,6 +89247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.ninemsn.com.au/*GetAdCalls
 ||data.webullfintech.com/event/
 ||data.younow.com^
+||datagroup-reporting.shopeemobile.com^
 ||datehookup.com/strk/dateadvertreg?
 ||daum.net^*/dwi.js
 ||db.com^*/stats.js?
@@ -95884,6 +95898,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||feed-reader.net/tracking.php
 ||fireball.de/statistikframe.asp?
 ||fr-online.de/analytics/
+||froglytics.eventfrog.ch^
 ||ftd.de^*/track.php?
 ||g.silicon.de^
 ||gala.de/js/tracking-

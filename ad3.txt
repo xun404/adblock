@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hm9LdWbZFYJrhpgIcYK75w
+! Checksum: DB4EvF/8//MRmZBIl7NxkQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202104170943
-! Last Modified: 2021年04月17日 09:43
+! Version: 202104171059
+! Last Modified: 2021年04月17日 10:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23603,10 +23603,12 @@ weibo.com##.apps_PCD_reco_detail_right
 /metrics/init?
 /metrics/metrics$domain=~spatineo.com
 /metrics/onload
+/metrics/ping?
 /metrics/rum
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
+/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
@@ -34536,6 +34538,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymail.co.uk/tracking/
+||dailymotion.com/history/log/
 ||dailymotion.com/logger/
 ||dailymotion.com/track-
 ||dailymotion.com/track/
@@ -34546,6 +34549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.ninemsn.com.au/*GetAdCalls
 ||data.webullfintech.com/event/
 ||data.younow.com^
+||datagroup-reporting.shopeemobile.com^
 ||datehookup.com/strk/dateadvertreg?
 ||daum.net^*/dwi.js
 ||db.com^*/stats.js?
@@ -41196,6 +41200,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||feed-reader.net/tracking.php
 ||fireball.de/statistikframe.asp?
 ||fr-online.de/analytics/
+||froglytics.eventfrog.ch^
 ||ftd.de^*/track.php?
 ||g.silicon.de^
 ||gala.de/js/tracking-
