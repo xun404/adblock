@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: epezGPreVmqwhLBDzYCHWw
+! Checksum: zl/Vewj8bkuY7P/v0TR5Fg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202104191846
-! Last Modified: 2021年04月19日 18:46
+! Version: 202104191942
+! Last Modified: 2021年04月19日 19:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4237,7 +4237,6 @@ tieba.baidu.com##.tuijian-wrap
 /alternativeads/*
 /alternet.ad?
 /alwebad_
-/am/ads.
 /amazon-ad-
 /amazon-apstag.
 /amazon-associates-link-$~stylesheet
@@ -18658,6 +18657,7 @@ _popunder+$popup
 ##.TopLeaderboardAdPanel
 ##.TopRightRadvertisement
 ##.Top_Ad
+##.TrackedBannerPromo
 ##.TrafficAd
 ##.U210-adv-column
 ##.UFSquareAd
@@ -55873,6 +55873,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||yimg.com/ss/rapid-3.53.3.js$domain=aol.com
 @@||yimg.com/ss/rapid3.js$script,domain=aol.com
+@@||z.moatads.com^$script,domain=reuters.com
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 @@||hwcdn.net^$script,domain=mp4upload.com
@@ -69002,7 +69003,7 @@ baidu.com##.optimus
 jdwx.info,motobuy.com.tw##.other
 6parknews.com##.other_list_ad
 cnbeta.com##.other_news
-wenxuecity.com##.otherposts
+wenxuecity.com##.otherposts > UL > LI > A[target="_blank"]
 bbs.my0511.com##.outertxt > tbody > tr > td[height="80"][align="right"]
 avsuggest.com,qiaobutang.com##.overlay
 udn.com##.overlay-container
