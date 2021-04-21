@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +6HJmZwZDYH1pjlgT2YguA
+! Checksum: Epgq1ytwsGCK6SVLuECQwQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202104211101
-! Last Modified: 2021年04月21日 11:01
+! Version: 202104211254
+! Last Modified: 2021年04月21日 12:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -11,6 +11,7 @@
 !
 ! 乘风 视频广告过滤规则
 v.youku.com##.control-phonewatch,#right-title-ad-banner
+youku.com##+js(aeld,dblclick,ykplayer.switchFullscreen)
 !v.youku.com##+js(nano-stb)
 ||atm.youku.com/
 ||cibntv.net/youku/$media
@@ -48,8 +49,10 @@ bilibili.com##.gg-floor-module,#slide_ad,#slide_ad+a[data-target-url]
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
 ||aixifan.com/static/*/appGuide/
 cctv.com###bgAd_div
+cctv.com,ddrk.me##+js(aeld,dblclick,isImmediatePropagationStopped)
 ||imall.cctv.com/$subdocument
 ||bjcathay.com/
+!||player.cntv.cn/h5vod/$script
 pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game
 ||synacast.com
 ||de.as.pptv.com^
@@ -107,7 +110,7 @@ haitur.com##.left-content:style(width:77%!important)
 dyjihe.com,hehua.net,imomoe.*,kakadm.com,milimili.tv,qiqidongman.com,vodxc.in##+js(ra, target, a[href^="/"])
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
-yatu.tv###loadtop,[id^=myas],#myds1,#daohang
+yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv##+js(set,document.oncontextmenu,null)
 ||tracker.$xhr,websocket,script,ping
 3z9e.cn
@@ -120,6 +123,16 @@ fourier.taobao.com
 v4dwkcv.com
 weizhenwx.com
 youle55.com
+bmbaike.cn
+buzx53.cn
+cqqc3.com
+dacedsfa.cn
+qdwght.com
+quickapp.cn
+xcsci.cn
+xixiqiu.com
+xv5b.com
+xz6d.com
 ||www.yatu.tv:88/image/*.gif^$image
 ||www.yatu.tv:88/m/images/$image
 ! EasyList China
