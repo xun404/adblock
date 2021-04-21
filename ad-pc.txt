@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PIJZc/Jmyu6iQMtnGaMz6Q
+! Checksum: NdUoAYrMOrSASAEEZHMKSA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202104220444
-! Last Modified: 2021年04月22日 04:44
+! Version: 202104220749
+! Last Modified: 2021年04月22日 07:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55945,6 +55945,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||z.moatads.com^$script,domain=reuters.com
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
+@@||ps.w.org^$image,domain=wordpress.org
+@@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
+@@||wordpress.org/plugins/$domain=wordpress.org
+@@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||hwcdn.net^$script,domain=mp4upload.com
 @@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
 @@||ads.memo2.nl/banners/$subdocument
@@ -86062,6 +86066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cod.bitrec.com^
 ||coinbase.com/assets/application-*.js$third-party
 ||collect.*.miui.com^
+||collect.igodigital.com^
 ||collect.rewardstyle.com^
 ||collect.usefathom.com^
 ||collector-*.elb.amazonaws.com^$image,third-party
