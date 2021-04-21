@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GQc/BnQfb31bg+XM0Y55dg
+! Checksum: sYQFgfFehpr04Y9OweDHug
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202104212148
-! Last Modified: 2021年04月21日 21:48
+! Version: 202104220125
+! Last Modified: 2021年04月22日 01:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22543,6 +22543,7 @@ _popunder+$popup
 ##.adunitrd
 ##.adup-ad-container
 ##.adv--desktop-top
+##.adv--h600
 ##.adv--intermingled
 ##.adv--leaderboard
 ##.adv--square
@@ -35182,6 +35183,7 @@ menstennisforums.com#@#.top_ads
 ||damsoloist.com^
 ||dana123.com^
 ||danachings.club^
+||dangerinsignificantinvent.com^
 ||dangerprickly.com^
 ||danmeneldur.com^
 ||dantbritingd.club^
@@ -47779,6 +47781,7 @@ menstennisforums.com#@#.top_ads
 ||shinebliss.com^$popup
 ||shopeasy.by^$popup
 ||shortpixel.ai^$popup
+||shoubsee.net^$popup
 ||showcasead.com^$popup
 ||sifuglie.com^$popup
 ||significantlyentering.com^$popup
@@ -51807,7 +51810,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||yieldlab.net^$domain=spiegel.de
 @@||jetzt.de^$generichide
 ||slacker.com^*/getspot/?spotid=$media,rewrite=abp-resource:blank-mp3,domain=slacker.com
-$popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
+$popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
 :text^$popup,domain=zippyshare.com
 ||adf.ly/_$popup
 ||beap.gemini.yahoo.com^$popup,domain=mail.yahoo.com
@@ -54528,6 +54531,7 @@ thesearchenginelist.com##a[href^="http://www.kqzyfj.com/"]
 2x4u.de##a[href^="http://www.myfreecams.com/?baf="]
 rpg.net##a[href^="http://www.rpg.net/ads/"]
 tundraheadquarters.com##a[href^="http://www.tkqlhce.com/"]
+qwant.com##a[href^="https://api.taboola.com/"]
 japantoday.com##a[href^="https://go.injapan.com/"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 mmos.com##a[href^="https://mmos.com/play/"]
@@ -54565,6 +54569,7 @@ games.dailymail.co.uk##div[class^="DisplayAd_"]
 issuu.com##div[class^="ExploreShelf__ad"]
 games.dailymail.co.uk##div[class^="GameTemplate__displayAdTop_"]
 games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
+qwant.com##div[class^="HomeFlag-module__CommercialFlagContainer"]
 games.dailymail.co.uk##div[class^="HomeTemplate__afterCategoryAd_"]
 versus.com##div[class^="LegendSingle__show"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
