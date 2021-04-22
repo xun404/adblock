@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JIia8Ye61fs7xkTiBDXAoQ
+! Checksum: 0qqk2qUQksZXQsEHPrykNQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202104222351
-! Last Modified: 2021年04月22日 23:51
+! Version: 202104230128
+! Last Modified: 2021年04月23日 01:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19074,6 +19074,7 @@ _popunder+$popup
 ##.ad-box-2
 ##.ad-box-300x250
 ##.ad-box-adsea
+##.ad-box-auto
 ##.ad-box-caption
 ##.ad-box-container
 ##.ad-box-title
@@ -27946,6 +27947,7 @@ _popunder+$popup
 ##.player_hide_ad
 ##.player_hover_ad
 ##.player_page_ad_box
+##.playerdads
 ##.playlist-row-ad
 ##.plistaList > .itemLinkPET
 ##.plistaList > .plista_widget_underArticle_item[data-type="pet"]
@@ -31293,6 +31295,8 @@ _popunder+$popup
 ##a[href^="https://www.pornhat.com/"][rel="nofollow"]
 ##a[href^="https://www.securegfm.com/"]
 ##a[href^="https://www.share-online.biz/affiliate/"]
+##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
+##a[href^="https://www.sheetmusicplus.com/?aff_id="]
 ##a[href^="https://www.spyoff.com/"]
 ##a[href^="https://www.travelzoo.com/oascampaignclick/"]
 ##a[href^="https://www.vewwrmp.com/"]
@@ -35320,6 +35324,7 @@ menstennisforums.com#@#.top_ads
 ||dentalsadness.com^
 ||dentedporc.club^
 ||deparabides.club^
+||departureweathertraces.com^
 ||depictlicencegrandmother.com^
 ||depicturalki.club^
 ||deplaisamment.xyz^
@@ -48894,6 +48899,7 @@ menstennisforums.com#@#.top_ads
 ||artistdirect.com/partner/
 ||as.jivox.com/jivox/serverapis/getcampaignbysite.php?$object
 ||assets.betterbills.com/widgets/
+||assets.sheetmusicplus.com^$third-party
 ||associmg.com^*.gif?tag-
 ||astrology.com/partnerpages/
 ||augine.com/widget|$third-party
@@ -50354,6 +50360,8 @@ menstennisforums.com#@#.top_ads
 ||worldofjudaica.com/static/show/external/
 ||wp.com/*.postaffiliatepro.com/$third-party
 ||wp.com/adnetsreview.com/wp-content/uploads/*banner
+||wp.com/assets.sheetmusicplus.com/banner/
+||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/stripe.rs-stripe.com/
 ||wp.com^*/linkwidgets/$domain=coedmagazine.com
 ||wpzoom.com/images/aff/$third-party
@@ -54383,6 +54391,7 @@ filefleck.com,sadeempc.com,upload4earn.org##a[href*="javascript:"]
 twitter.com##a[href*="src=promoted_trend_click"]
 twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
+apkpure.com##a[href="https://www.macblurayplayer.com/spyhunter-malware-removal-windows.htm"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 facebook.com,shroomery.org##a[href^="/ads/"]
 lightreading.com##a[href^="/lg_redirect.asp?piddl_lgid_docid="]
