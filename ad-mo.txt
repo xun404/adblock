@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KsPobFgG8+9diWZmYz3dTw
+! Checksum: 1DdSrxnAe4I6E/Ne7tdf/w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104230652
-! Last Modified: 2021年04月23日 06:52
+! Version: 202104230951
+! Last Modified: 2021年04月23日 09:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2465,7 +2465,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /admatcherclient.
 /admatik.
 /admaven.
-/admax.$domain=~admax.cn|~admax.co|~admax.eu|~admax.fi|~admax.hu|~admax.info|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.us
+/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
 /admax/*
 /admaxads.
 /admcoreext.
@@ -55552,7 +55552,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||flying-lines.com/banners/$image,~third-party
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
 @@||freelitecoin.vip/assets/img/ad_$~third-party
-@@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au
+@@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||fwmrm.net^*/AdManager.js$script
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=gamespot.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
@@ -65353,6 +65353,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cotton.pink##.adsbyfalcon
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -98576,7 +98577,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
-@@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
 @@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
@@ -99126,6 +99126,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
+@@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|kakuyomu.jp|sankei.com
@@ -99264,6 +99265,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
 !---------- Spanish ----------
 @@||acb.com/javascripts/jv_feeder_stats.js
+@@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.cat|fcbarcelona.es
 @@||adobedtm.com^*/satelliteLib-$script,domain=crackle.com.ar|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|fcbarcelona.cat|fcbarcelona.es|laredoute.es|vtr.com
 @@||amplitude.com/libs/$script,domain=elconfidencial.com
