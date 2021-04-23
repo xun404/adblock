@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M3q4CjvJZf0IyMhpZJbDBg
+! Checksum: KrLmgQKkdAnckWgHY4Mfog
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104232147
-! Last Modified: 2021年04月23日 21:47
+! Version: 202104232244
+! Last Modified: 2021年04月23日 22:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20259,6 +20259,8 @@ _popunder+$popup
 ##.adSide
 ##.adSide203
 ##.adSide230
+##.adSideBarMPU
+##.adSideBarMPUTop
 ##.adSidebarButtons
 ##.adSidetileplus
 ##.adSize_MedRec
@@ -88220,7 +88222,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ppstatic.pl^*/track.js
 ||px.wp.pl^
 ||scontent.services.tvn.pl^
-||sgqcvfjvr.onet.pl^
 ||stats.asp24.pl^
 ||stats.media.onet.pl^
 ||stats.ulixes.pl^
@@ -99141,7 +99142,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||olx.pl^*/js/tracking/ninja.js$domain=olx.pl
 @@||pataks.pl/core,_assets$script,~third-party
 @@||polfan.pl/*/fingerprint2.min.js$script,~third-party
-@@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl|newsweek.pl
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
