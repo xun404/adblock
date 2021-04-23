@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lsFXh+7TQ6p2rCUvszkYrQ
+! Checksum: tn3JY9RYy14K1WmWJ/eqCw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104231100
-! Last Modified: 2021年04月23日 11:00
+! Version: 202104231152
+! Last Modified: 2021年04月23日 11:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4870,7 +4870,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /display/ads?
 /display?ad_
 /display_ad
-/displayad.$~script,domain=~displayad.naver.com
+/displayad.$~script
 /displayad/*
 /displayad?
 /displayadbanner_
@@ -6760,7 +6760,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /search/ads?
 /search/ads_
 /search_ads.
-/searchad.$domain=~searchad.naver.com
+/searchad.
 /searchad_
 /searchads/*
 /searchAdsIframe.
@@ -17657,7 +17657,9 @@ _popunder+$popup
 ###topadcontainer
 ###topaddwide
 ###topadh
+###topadleft
 ###topadone
+###topadright
 ###topads-spacer
 ###topads-wrapper
 ###topadsblock
@@ -18293,6 +18295,7 @@ _popunder+$popup
 ##.ContentTextAd
 ##.DAWRadvertisement
 ##.DFP_AD_UNIT
+##.DFPad
 ##.DartAdvert
 ##.DeptAd
 ##.DetachedAd
@@ -50945,6 +50948,7 @@ menstennisforums.com#@#.top_ads
 ||canyoublockit.com/wp-content/uploads/nzraxtwifgbg/
 ||carfinderph.com/popup/
 ||carmag.co.za/upload/dmx_banners/
+||catholicregister.org/images/banners/
 ||cd1025.com/www/assets/a/
 ||cdjapan.co.jp/aff/tmpl/big_banner_728x90i.js
 ||ceforum.co.uk/images/misc/PartnerLinks
@@ -53052,7 +53056,7 @@ arcadebomb.com##.bannerext
 saigoneer.com##.bannergroup-main
 malaysiandigest.com##.bannergroup_sideBanner2
 dailynews.co.tz##.bannergroup_text
-asianmirror.lk,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
+asianmirror.lk,catholicregister.org,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
 mtvindia.com##.bannermain
 mtvindia.com##.bannermain2
 c21media.net,carfinderph.com,classicsdujour.com,igirlsgames.com,jobstreet.com.my,jobstreet.com.sg,lolroflmao.com,marinetechnologynews.com,maritimeprofessional.com,maritimepropulsion.com,mumbrella.com.au,petapixel.com,phuketgazette.net,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
@@ -55862,6 +55866,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
 @@||discordapp.com/banners/$image
+@@||displayad.naver.com^$~third-party
 @@||dmm.com/p/general/$image,~third-party
 @@||dmm.com^*/display_ad.js$~third-party
 @@||downol.dr.dk/download/*&clicktag=http$document,subdocument,domain=dr.dk
@@ -55912,6 +55917,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||samplefan.com/img/ad/$image
 @@||sascdn.com/diff/templates/ts/dist/banner/sas-banner-$script,domain=dr.dk
 @@||scan-manga.eu/*pageID=$~third-party
+@@||searchad.naver.com^$~third-party
 @@||smartadserver.com/3310/call$xmlhttprequest,domain=dr.dk
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
