@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4A8CfYzH/0OsSoRCyLl9/A
+! Checksum: eU6p2GZrBr200E48z6ZQmQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104242102
-! Last Modified: 2021年04月24日 21:02
+! Version: 202104242243
+! Last Modified: 2021年04月24日 22:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2465,7 +2465,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /admatcherclient.
 /admatik.
 /admaven.
-/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
+/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|~admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
 /admax/*
 /admaxads.
 /admcoreext.
@@ -21015,6 +21015,7 @@ _popunder+$popup
 ##.adb-728x90
 ##.adb-bottom-outer
 ##.adb-top
+##.adbTrkWt
 ##.adback
 ##.adbadge
 ##.adban-hold-narrow
@@ -50856,6 +50857,7 @@ menstennisforums.com#@#.top_ads
 ||extremefuse.com/out.php?$popup
 ||fakehub.com/tour/$popup
 ||fantasti.cc/ajax/gw.php?$popup
+||fapcandy.com^$popup,third-party
 ||fleshlight-international.eu^*?link=$popup,third-party
 ||fling.com/enter.php?$popup
 ||flirt4free.com/_special/pops/$popup,third-party
@@ -51933,6 +51935,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||pornvideoq.com/zCpWaxDcYr.js
 ||pornxp.com/*.vtt
 ||pornxp.com/sp
+||pururin.io/assets/js/pop.js
 ||realgfporn.com/js/bbbasdffdddf.php
 ||redtube.com^$subdocument,~third-party
 ||rencontre31.fr/wp-content/themes/rencontre31/images/popupPerso/
@@ -55878,6 +55881,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||politiken.dk/static/$script
 @@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
+@@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js$domain=yahoo.co.jp
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=tilt.fi
 @@||samplefan.com/img/ad/$image
@@ -98979,6 +98983,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||static.s-sfr.fr/eTagP/$image,~third-party
 @@||static.s-sfr.fr/stats/footer.js$script,~third-party
 @@||static.s-sfr.fr/stats/header.js$script,~third-party
+@@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
 @@||tag.aticdn.net^*/smarttag.js$domain=mon.compteczam.fr
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
