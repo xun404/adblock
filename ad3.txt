@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vrYuPnGquR3Dnw3HEr5k5w
+! Checksum: yCnmBiFqESICcQbMbu9j4w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202104241152
-! Last Modified: 2021年04月24日 11:52
+! Version: 202104241256
+! Last Modified: 2021年04月24日 12:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21108,6 +21108,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /?livehit=
 /?mob.ct=
 /?record&key=
+/?sentry_key=
 /?swift-performance-tracking
 /_/lite/performance/*
 /__analytics/*
@@ -24578,8 +24579,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
-/sentry.*/?sentry_key=
-/sentry/*/?sentry_key=
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -24625,6 +24624,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /sfCounter/*
 /share/analytics?
 /shareCounts.
+/shared/sentry/*
 /shareTrackClient.
 /sherlock.gif?
 /shinystat.
@@ -28641,6 +28641,7 @@ _mongo_stats/
 ||semasio.net^$third-party
 ||sematext.com^$third-party
 ||sendtraffic.com^$third-party
+||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
 ||seomonitor.ro^$third-party
 ||seomoz.org^$third-party
@@ -31322,7 +31323,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||breakingburner.com/stats.html?
 ||breakmedia.com/track.jpg?
 ||bright.bncnt.com^
-||browser.sentry-cdn.com^
 ||browserscope.org/user/beacon/
 ||bs.yandex.ru^
 ||btn.clickability.com^
@@ -34965,6 +34965,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.com/globalelements/utils/tracking
 ||go.com/stat/
 ||go.com^*/analytics.js
+||go.pardot.com^
 ||go.theregister.com^$image
 ||golfsmith.com/ci/
 ||google.*/api/sclk?

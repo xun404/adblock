@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TBF+gZ3cK+NrH7bSgWfOKQ
+! Checksum: XF7WL8SkpcuXw9tw2gxEYw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104241152
-! Last Modified: 2021年04月24日 11:52
+! Version: 202104241256
+! Last Modified: 2021年04月24日 12:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -75448,6 +75448,7 @@ fqsousou.com,kengso.com#@#.user-share
 /?livehit=
 /?mob.ct=
 /?record&key=
+/?sentry_key=
 /?swift-performance-tracking
 /_/lite/performance/*
 /__analytics/*
@@ -78918,8 +78919,6 @@ fqsousou.com,kengso.com#@#.user-share
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
-/sentry.*/?sentry_key=
-/sentry/*/?sentry_key=
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -78965,6 +78964,7 @@ fqsousou.com,kengso.com#@#.user-share
 /sfCounter/*
 /share/analytics?
 /shareCounts.
+/shared/sentry/*
 /shareTrackClient.
 /sherlock.gif?
 /shinystat.
@@ -82981,6 +82981,7 @@ _mongo_stats/
 ||semasio.net^$third-party
 ||sematext.com^$third-party
 ||sendtraffic.com^$third-party
+||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
 ||seomonitor.ro^$third-party
 ||seomoz.org^$third-party
@@ -85662,7 +85663,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||breakingburner.com/stats.html?
 ||breakmedia.com/track.jpg?
 ||bright.bncnt.com^
-||browser.sentry-cdn.com^
 ||browserscope.org/user/beacon/
 ||bs.yandex.ru^
 ||btn.clickability.com^
@@ -89305,6 +89305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.com/globalelements/utils/tracking
 ||go.com/stat/
 ||go.com^*/analytics.js
+||go.pardot.com^
 ||go.theregister.com^$image
 ||golfsmith.com/ci/
 ||google.*/api/sclk?
