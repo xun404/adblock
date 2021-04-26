@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3/etxScM3cktlDOu2dbGAw
+! Checksum: gH1ktaTCVEP8yhiGtKjm0Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104260952
-! Last Modified: 2021年04月26日 09:52
+! Version: 202104261103
+! Last Modified: 2021年04月26日 11:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56653,6 +56653,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/iframe_pfbad/*
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -61251,7 +61252,6 @@ _yad_jsonp_
 ||agoda.com/Dynamic/index/
 ||agogo.tv/images//uploads/ad/
 ||ah.sina.com.cn/iframe/
-||ahd.ruten.com.tw^
 ||ahgame.com/js/new_ad.js
 ||ahlife.com/api.php?mod=adv&
 ||ahtt.cc/Runtime/js/
@@ -65272,8 +65272,10 @@ _yad_jsonp_
 ||9999961.com/JS/bofang.js
 ||9999961.com/JS/daohang.js
 ||9999961.com/JS/lianmeng.js
+||pchome.com.tw/js/overlay_ad.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ruten.com.tw###AdRelatedTitle
 baidu.com##.ec_pc_ad
 szxx.com.cn###A1
 szxx.com.cn###A2
