@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EqcBur3kZrutF3a/p0VeBg
+! Checksum: S6UMDMiraZS/hokrhD7o2Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104272103
-! Last Modified: 2021年04月27日 21:03
+! Version: 202104272147
+! Last Modified: 2021年04月27日 21:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -6516,7 +6516,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pub/ad/*
 /pub/ads/*
 /pub/js/ad.
-/pubad.
+/pubad.$domain=~pubad.gov.lk
 /pubads.
 /pubads_
 /public/ad/*
@@ -26291,6 +26291,7 @@ _popunder+$popup
 ##.in-page-ad
 ##.in-story-ads
 ##.in-story-text-ad
+##.in-text-ad
 ##.inArticleAdInner
 ##.inPageAd
 ##.inStoryAd-news2
@@ -29765,6 +29766,7 @@ _popunder+$popup
 ##.topAdIn
 ##.topAdLeft
 ##.topAdRight
+##.topAdSpacer
 ##.topAdWrap
 ##.topAdWrapper
 ##.topAdd
@@ -55444,6 +55446,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.muxiv.com/address/$xmlhttprequest
 @@||ads.nationmedia.com/webfonts/$font
+@@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rubiconproject.com/prebid/$script,domain=everydayhealth.com
 @@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=quotidiano.net
 @@||ads1.atpclick.com/atpClick.aspx?$image,script,domain=jobnet.co.il|jobs-israel.com
@@ -72733,6 +72736,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||hnxinkejg.com^
+||flmcju.cn^
+||suhusushi.com^
 ||mbxt.net^
 bxwx3.org###addiv3
 bxwx3.org###bdstatic
