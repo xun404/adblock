@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yHRGB4YS/JPTJx4wsd86JQ
+! Checksum: 1ShkFYLZg0oao9z8ECZ2cQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202104290748
-! Last Modified: 2021年04月29日 07:48
+! Version: 202104290944
+! Last Modified: 2021年04月29日 09:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2703,7 +2703,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads-module.
 /ads-module/*
 /ads-mopub?
-/ads-net.
+/ads-net.$domain=~ads-net.org
 /ads-new.
 /ads-no-
 /ads-nodep.
@@ -31344,6 +31344,7 @@ _popunder+$popup
 ##a[href^="http://get.slickvpn.com/"]
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
 ##a[href^="https://affiliate.rusvpn.com/click.php?"]
+##a[href^="https://billing.purevpn.com/aff.php"] > img
 ##a[href^="https://go.nordvpn.net/aff"] > img
 ##a[href^="https://go.nordvpn.net/aff"] img
 ##a[href^="https://torguard.net/aff.php"] > img
@@ -52587,6 +52588,7 @@ mashable.com###sticky-spacer
 fool.com###sticky-wrapper
 afr.com###stickyLeaderboard
 semiconductor-today.com###storyHorAdd
+web-capture.net###stw_ad
 gsmarena.com###subHeader
 ebaumsworld.com###subheader_atf_wrapper
 streams.tv###sunGarden
@@ -60127,7 +60129,7 @@ ubmcmm.baidustatic.com
 ||ysgsq.cn^
 ||ysjkbk.com^
 ||ysjwj.com^
-||yskanba.com^
+||yskanba.com^$script,third-party
 ||ysm.ezprice.net^$third-party
 ||ysnj74ed.com^
 ||ysyjg.com^
@@ -88859,6 +88861,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clk.about.com^
 ||clkstat.china.cn^
 ||clog.go.com^
+||cloudflare.com/.cloudflare/ga
+||cloudflare.com/_cf/analytics.js
 ||cloudfront.net/amznUrchin.js
 ||cloudfront.net/bbc-filter.js
 ||cloudfront.net/dm.js$domain=dailymotion.com
@@ -89105,6 +89109,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||etui.fs.ml.com^
 ||etx.indiatimes.com^
 ||eu.groupondata.com^
+||euclid.kuula.co^
 ||ev.kck.st^
 ||event-api.reverb.com^
 ||event-collector.udsrv.com^
