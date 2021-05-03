@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ahkdC1WkKZ4p+t8pCVmoMw
+! Checksum: E6tO7DlwP+pMGa+16+YEaA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202105031455
-! Last Modified: 2021年05月03日 14:55
+! Version: 202105031649
+! Last Modified: 2021年05月03日 16:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18712,6 +18712,11 @@ thzk.cc##style + div[style="margin-bottom:5px"]
 ||chuantu.biz^$domain=thzk.cc
 ||sinaimg.cn^$domain=thzk.cc
 !#theporn.xyz
+##.ads > #video_playr_sider
+##.pull-right > #video_playr_sider
+##.video-player-container > #player_bottom_banner
+##.bottom-gg
+###wp > div > #top_banner
 ##div[data-gg-zone]
 ||3337735.com^
 ||3337736.com^
