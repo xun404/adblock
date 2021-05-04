@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HxLD84OGPxaQe2m9rbqVkw
+! Checksum: /mUPrqvXl9Z6N4EoVInIRA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202105041845
-! Last Modified: 2021年05月04日 18:45
+! Version: 202105042101
+! Last Modified: 2021年05月04日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10689,7 +10689,7 @@ jdbbs.com##.adyihifi
 baidu.com##.afd-item
 11px.cn##.ag
 weiyun001.com##.agency-list
-13mv.com,xoiof.com##.aggd
+13mv.com##.aggd
 33lc.com##.ags
 wmzhe.com##.aibyte_ad
 moe.best##.alert
@@ -11004,7 +11004,7 @@ mpyit.com##.cboxElement + center[style=" padding-top:10px; "]
 cnbeta.com##.cbv810
 cnbeta.com##.cbv:not(#cb_share)
 meizhou.com##.cc_z1
-mabiji.com,xinshouzhanzhang.com##.celan
+mabiji.com##.celan
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 11luba.com,niluba.cc##.center > div:last-child
@@ -11800,7 +11800,6 @@ jbtalks.cc,jbtalks.com##.jbt-ad-region
 guandianzhiku.com##.jconfirm-open
 ifeng.com##.jcsp
 pconline.com.cn##.jcz-focus
-xinshouzhanzhang.com##.jinlila
 95ziyuan.cn##.jiuwu
 oschina.net##.jj
 soyunpan.com##.jmwb
@@ -13460,7 +13459,6 @@ duba.com##a[w="topad"]
 ainuody.com#?#.post:-abp-has(> .article > .entry_post > p:-abp-contains(/红包|淘宝/))
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 idanmu.im##aside > div[class="widget "]
-xinshouzhanzhang.com##aside[id^="text-"]
 assbbs.com#?#.top_3:-abp-has(a:-abp-contains(广告))
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
@@ -44891,6 +44889,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
+@@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
+@@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
