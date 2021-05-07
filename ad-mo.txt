@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +G16MfhHoddJ3//bf9/YcA
+! Checksum: lowjYk1jKyq6GuZpE1e2qg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202105072242
-! Last Modified: 2021年05月07日 22:42
+! Version: 202105072351
+! Last Modified: 2021年05月07日 23:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30590,6 +30590,7 @@ _popunder+$popup
 ##LEADERBOARD-AD
 ##[ad-id^="googlead"]
 ##[class^="div-gpt-ad"]
+##[data-ad-manager-id]
 ##[data-ad-module]
 ##[data-dynamic-ads]
 ##[data-freestar-ad]
@@ -56708,6 +56709,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/91porny/jiuse@main/ad/*
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -57908,6 +57910,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.adv-g1
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -74981,6 +74984,7 @@ coolpc.com.tw#@##mycookie
 dota2.com.cn#@##bdshare
 eastday.com#@##leftShare
 189.cn#@##linkShare
+ghxi.com#@#.social-item
 pcsoft.com.cn#@#.share_box
 gfan.com,gfan.net.cn#@##shareBox
 sogou.com#@##shareContent
@@ -99745,7 +99749,7 @@ ytics.disneyplus.com^
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
