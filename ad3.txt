@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gNXhn0D5J3RDMWA3TtLURw
+! Checksum: g0emlIBQiXria73koNOcfg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202105081253
-! Last Modified: 2021年05月08日 12:53
+! Version: 202105081344
+! Last Modified: 2021年05月08日 13:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16271,6 +16271,7 @@ duanwenxue.com##.qgzdwx
 @@||31xiaoshuo.org/style/pxne5d.js
 @@||dzz8.com/public/ptcms/*.js?g=$domain=m.daizhuzai.com
 @@||meiwenfen.com^$xmlhttprequest,domain=520tingshu.com
+##[class][onclick^="window.location.href"][onclick*="%AF%B4.apk"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://luodijs.gz.bcebos.com/index.html'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
@@ -45609,7 +45610,7 @@ ytics.disneyplus.com^
 @@||static.s-sfr.fr/stats/footer.js$script,~third-party
 @@||static.s-sfr.fr/stats/header.js$script,~third-party
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
-@@||tag.aticdn.net^*/smarttag.js$domain=mon.compteczam.fr
+@@||tag.aticdn.net^*/smarttag.js$domain=gouv.fr|mon.compteczam.fr
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=voici.fr
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
