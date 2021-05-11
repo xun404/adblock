@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XQOiJP1Zx2loapBNZFENRg
+! Checksum: jQM6KaQSKMS0KxnO2Rx2Zw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202105110947
-! Last Modified: 2021年05月11日 09:47
+! Version: 202105111103
+! Last Modified: 2021年05月11日 11:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -99467,6 +99467,7 @@ ytics.disneyplus.com^
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
+@@||api.cxense.com/public/widget/data?$domain=marketwatch.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
@@ -99489,6 +99490,7 @@ ytics.disneyplus.com^
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
@@ -99503,6 +99505,7 @@ ytics.disneyplus.com^
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party
+@@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
