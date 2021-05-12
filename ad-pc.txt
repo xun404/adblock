@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pFKXpeETfAGCfo7DAWiaVA
+! Checksum: DJO4oHW77MyuJ7xtd//KSQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202105121259
-! Last Modified: 2021年05月12日 12:59
+! Version: 202105121351
+! Last Modified: 2021年05月12日 13:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54083,8 +54083,6 @@ tbs.com##.smallBanners
 cio-today.com,data-storage-today.com,mobile-tech-today.com,toptechnews.com##.smallText
 monhyip.net##.small_banner
 ndtv.com##.sp_ad-t
-kcsoftwares.com##.span2.well
-kcsoftwares.com##.span3.well
 fark.com##.spau
 fashionmagazine.com##.special-messages
 informer.com##.spnsd
@@ -102151,8 +102149,7 @@ iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 ||ssports.iqiyi.com/json/shop/shopInfo
 show.ssports.com
 ||ssports.iqiyi.com/app/$object-subrequest
-qq.com##.mod_ad
-v.qq.com##.txp_ad
+qq.com##.mod_ad, .txp_ad
 v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||video.qq.com/fcgi-bin/
