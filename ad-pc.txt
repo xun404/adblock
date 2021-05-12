@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TRtpaOmUZOSXoKdYy97tVg
+! Checksum: N+2yfPe17XSG0cq5IXkCoA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202105121943
-! Last Modified: 2021年05月12日 19:43
+! Version: 202105122106
+! Last Modified: 2021年05月12日 21:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31519,6 +31519,7 @@ _popunder+$popup
 ##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
 ##span[data-component-type="s-ads-metrics"]
 ##topadblock
+##.pbs__player
 ##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
 ##a[href*="get-express-vpn.xyz"]
