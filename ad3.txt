@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /ptbszYzsrj5C/6Q2n/y+g
+! Checksum: /3y2LTMwdOVfjMobqMqgKw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202105131300
-! Last Modified: 2021年05月13日 13:00
+! Version: 202105131350
+! Last Modified: 2021年05月13日 13:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20917,6 +20917,7 @@ weibo.com##.apps_PCD_reco_detail_right
 -action/ping?
 -ad-targeting?
 -adobe-analytics.
+-adobeDatalayer_
 -ads-tracking-
 -AdTracking.
 -amp-error-reporting.
@@ -20944,6 +20945,7 @@ weibo.com##.apps_PCD_reco_detail_right
 -conversion-tracking-
 -criteo.
 -datacollection.
+-didomi.js
 -dspcookiematching.
 -dtaectolog-
 -event-tracking.
@@ -30553,11 +30555,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cr-nielsen.com^$third-party
 ||ctags.cn^$third-party
 ||datamaster.com.cn^$third-party
+||datayi.cn^$third-party
 ||elevenmedia.cn^$third-party
 ||emarbox.com^$third-party
 ||eyeota.net^$third-party
 ||fraudmetrix.cn^$third-party
 ||ggxt.net^$third-party
+||giocdn.com^$third-party
 ||gm99.com^$third-party
 ||gostats.cn^$third-party
 ||gridsum.com^$third-party
@@ -30749,7 +30753,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
 ||deteql.net^$third-party
-||digitiminimi.com^$third-party
 ||docodoco.jp^$third-party
 ||e-click.jp^$third-party
 ||e-kaiseki.com^$third-party
@@ -34386,6 +34389,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.chase.com^
 ||analytics.ecosia.org^
 ||analytics.eip.telegraph.co.uk^
+||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com

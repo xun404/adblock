@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8jUGmQPLzh5kldtOTULhCg
+! Checksum: 0VLrb3hihRWviOqorZQP8g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202105131300
-! Last Modified: 2021年05月13日 13:00
+! Version: 202105131350
+! Last Modified: 2021年05月13日 13:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -15482,6 +15482,7 @@ _popunder+$popup
 ###hp-mpu
 ###hp-right-ad
 ###hp-store-ad
+###hpAdVideo
 ###hpSponsor
 ###hpV2_300x250Ad
 ###hpV2_googAds
@@ -52865,6 +52866,7 @@ theportugalnews.com##.banners-250
 propertyfinderph.com##.banners-wrapper
 rt.com##.banners__border
 unixmen.com##.banners_home
+euronews.com##.base-leaderboard
 teamfortress.tv##.bau
 washingtonpost.com##.bb.b-ns.b-none
 washingtonpost.com##.bb.dn-hp-xs
@@ -75087,6 +75089,7 @@ fqsousou.com,kengso.com#@#.user-share
 -action/ping?
 -ad-targeting?
 -adobe-analytics.
+-adobeDatalayer_
 -ads-tracking-
 -AdTracking.
 -amp-error-reporting.
@@ -75114,6 +75117,7 @@ fqsousou.com,kengso.com#@#.user-share
 -conversion-tracking-
 -criteo.
 -datacollection.
+-didomi.js
 -dspcookiematching.
 -dtaectolog-
 -event-tracking.
@@ -84723,11 +84727,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cr-nielsen.com^$third-party
 ||ctags.cn^$third-party
 ||datamaster.com.cn^$third-party
+||datayi.cn^$third-party
 ||elevenmedia.cn^$third-party
 ||emarbox.com^$third-party
 ||eyeota.net^$third-party
 ||fraudmetrix.cn^$third-party
 ||ggxt.net^$third-party
+||giocdn.com^$third-party
 ||gm99.com^$third-party
 ||gostats.cn^$third-party
 ||gridsum.com^$third-party
@@ -84919,7 +84925,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
 ||deteql.net^$third-party
-||digitiminimi.com^$third-party
 ||docodoco.jp^$third-party
 ||e-click.jp^$third-party
 ||e-kaiseki.com^$third-party
@@ -88556,6 +88561,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.chase.com^
 ||analytics.ecosia.org^
 ||analytics.eip.telegraph.co.uk^
+||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
