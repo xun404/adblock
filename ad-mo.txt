@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VXrk9iDgbEYHBJcU0K6HGQ
+! Checksum: s+ZA8G8E2g6poW2qepeZNw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202105170344
-! Last Modified: 2021年05月17日 03:44
+! Version: 202105170444
+! Last Modified: 2021年05月17日 04:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21537,6 +21537,7 @@ _popunder+$popup
 ##.ads-content
 ##.ads-core-placer
 ##.ads-custom
+##.ads-decorator
 ##.ads-div
 ##.ads-divider
 ##.ads-express
@@ -50907,6 +50908,8 @@ menstennisforums.com#@#.top_ads
 ||eteknix.com/wp-content/uploads/*skin
 ||eurochannel.com/images/banners/
 ||europeonline-magazine.eu/banner/
+||eurovision.tv/dist/assets/images/esc_partner_
+||eurovision.tv^*/sponsor_
 ||exchangerates.org.uk/images/200x200_
 ||expatexchange.com/banner/
 ||f1i.com^*/hype/
@@ -51931,6 +51934,7 @@ webmd.com###ContentPane40
 new-kissanime.me###CvBNILUxis
 healthline.com###DMR1__slot
 tweaktown.com###DesktopTop
+linkfang.org###LinkFang_Horizontal
 audioz.download###PromoHead
 daringfireball.net###SidebarMartini
 imcdb.org###SiteLifeSupport
@@ -53628,6 +53632,9 @@ mma-core.com##.outVidAd
 golfweather.com##.ox300x250
 beermoneyforum.com##.p-body-sidebar
 worldoftanks-wot.com##.p2small
+republicworld.com##.pad3010.txtcenter
+republicworld.com##.padtop10.padright10.padleft10.minheight90
+republicworld.com##.padtop20.txtcenter.minheight90
 manilastandard.net##.page-category-contents-adds
 technobuffalo.com##.page-header
 oversixty.co.nz##.page-heading-wrap
@@ -55467,6 +55474,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||glos.ac.uk/DataRepository/CourseDatabase/*/adv/$image,~third-party
@@ -55744,12 +55752,13 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|video.tv-tokyo.co.jp|voici.fr
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|pccomponentes.com|voici.fr
 @@||gakushuin.ac.jp/ad/common/$~third-party
+@@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|klix.ba|locipo.jp|maharashtratimes.com|nettavisen.no|niusdiario.es|rtlnieuws.nl|sportsport.ba|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wtk.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|niusdiario.es|rtlnieuws.nl|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wtk.pl
 @@||ingrossoprofumitester.it/img/ad-profumeria-$image,~third-party
 @@||jmedj.co.jp/files/$image,~third-party
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
@@ -55762,12 +55771,15 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||mbank.sk/Adv/Scripts/$~third-party
 @@||meduza.io/static/ads/$media,~third-party
 @@||minhacontachevroletsf.com.br^*/CampaignImageProcessor.bon?*&BannerID=$image,~third-party
+@@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
+@@||minigame.aeriagames.jp/css/videoad.css
 @@||mjhobbymassan.se/r/annonser/$image,~third-party
 @@||netmile.co.jp/ad/images/$image
 @@||news24.jp/ad-navi/$domain=search.news24.jp
 @@||nintendo.co.jp/ring/*/adv$~third-party
 @@||nnmclub.to/forum/misc/html/advert.html$~third-party
 @@||ntv.co.jp/ad-navi/$domain=search.news24.jp
+@@||pia.jp/feature/rss/ad.xml|$~third-party,xmlhttprequest
 @@||player-feedback.p7s1video.net^$script,domain=kabeleins.de|sat1.de
 @@||player.vodgc.net^*/videojs-contrib-ads/dist/videojs.ads.min.js$script
 @@||politiken.dk/static/$script
@@ -55785,6 +55797,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
+@@||success-games.net/*/hold_ad.png?
 @@||tabiat.gov.tr/KACMS/Files/ad-$image,~third-party
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||uze-ads.com/ads/$~third-party
@@ -76953,8 +76966,6 @@ fqsousou.com,kengso.com#@#.user-share
 /EndpointTracker/*
 /engine/ping?
 /ent_counter?
-/entry.count.image?
-/entry.count?
 /entry_stats?
 /envoy.sb?sbaid
 /epf_v1_95.js
@@ -99902,7 +99913,7 @@ ytics.disneyplus.com^
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
-@@||rtoaster.jp^$script,domain=melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -100063,11 +100074,13 @@ ytics.disneyplus.com^
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
+@@||api.cxense.com/public/widget/data?$script,domain=wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
+@@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||cm-beacon.nakanohito.jp/at/ranking/$script
@@ -100090,6 +100103,7 @@ ytics.disneyplus.com^
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
+@@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
