@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: depUOsao3lhg6C23b6DgWA
+! Checksum: c4aOs4sae4JpzDeH5orgcQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202105180957
-! Last Modified: 2021年05月18日 09:57
+! Version: 202105181109
+! Last Modified: 2021年05月18日 11:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10534,6 +10534,7 @@ _popunder+$popup
 ###ad-leader
 ###ad-leader-atf
 ###ad-leader-container
+###ad-leader-wrapper
 ###ad-leaderboard
 ###ad-leaderboard-1
 ###ad-leaderboard-1-container
@@ -22189,6 +22190,7 @@ _popunder+$popup
 ##.adsanity-group
 ##.adsanity-single
 ##.adsarea
+##.adsartical
 ##.adsbantop
 ##.adsbar
 ##.adsbg300
@@ -25064,6 +25066,7 @@ _popunder+$popup
 ##.dfp-ad-container
 ##.dfp-ad-full
 ##.dfp-ad-hideempty
+##.dfp-ad-placeholder
 ##.dfp-ad-rect
 ##.dfp-ad-tags
 ##.dfp-ad-unit
@@ -25180,6 +25183,7 @@ _popunder+$popup
 ##.double-ad
 ##.double-ads
 ##.double-click-ad
+##.double-mpu-unit
 ##.double-square-ad
 ##.doubleClickAd
 ##.doubleGoogleTextAd
@@ -27831,6 +27835,7 @@ _popunder+$popup
 ##.pa_ads_label
 ##.padAdvx
 ##.padd-adv
+##.padded-ad
 ##.paddingBotAd
 ##.pads2
 ##.pads_bulk_widget
@@ -28697,6 +28702,7 @@ _popunder+$popup
 ##.sc_ad
 ##.sc_iframe_ad
 ##.scad
+##.scads-ad-placed
 ##.scanAd
 ##.scb-ad
 ##.scc_adbar
@@ -52117,7 +52123,7 @@ convertinmp4.com###b728l
 gayvegas.com###background
 wallpapersmania.com###backgroundPopup
 soccerbase.com###ball_splash_holder
-allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,farmtrader.co.nz,moviesfoundonline.com,openstreetmap.org###banner
+allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,farmtrader.co.nz,greatbritishchefs.com,moviesfoundonline.com,openstreetmap.org###banner
 thecarconnection.com###banner-container
 ncaa.com###banner-purse
 gocdkeys.com###banner-sidebar
@@ -54349,6 +54355,7 @@ python-graph-gallery.com##div > [href^="https://www.datacamp.com"]
 python-graph-gallery.com##div > [href^="https://www.dataquest.io/course/"]
 healthline.com##div.css-0 > div[class]:not([id])
 guru99.com##div.custom > .hidden-phone
+cdromance.com##div.game-container[style="grid-column: span 2;"]
 designtaxi.com##div.masonry-brick.nt
 website.informer.com##div[align="center"]
 nexusradio.com##div[align=center]
@@ -79633,6 +79640,7 @@ fqsousou.com,kengso.com#@#.user-share
 /thirdPartyTags.js
 /thirdPartyTagscachebuster.js
 /ThirdPartyTracking.
+/thixel.js
 /thuzianayltics.
 /ti.gif?slotid=
 /tiara/tracker/*
@@ -83534,6 +83542,7 @@ _mongo_stats/
 ||track-server-100.com^$third-party
 ||track-web.net^$third-party
 ||track2.me^$third-party
+||trackadm.com^$third-party
 ||trackalyzer.com^$third-party
 ||trackcb.com^$third-party
 ||trackcdn.com^$third-party
@@ -85659,6 +85668,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amplifypixel.outbrain.com^
 ||an.yandex.ru^
 ||analyse.bcovery.com^
+||analytic.rollout.io^
 ||analytic.xingcloud.com^$third-party
 ||analyticcdn.globalmailer.com^
 ||analytics-beacon-*.amazonaws.com^
@@ -87069,6 +87079,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prism.app-us1.com^$script,third-party
 ||prismaconnect.fr/prd/ping
 ||privacy-center.org^*/events
+||privacy.outdoorsg.com^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
 ||processor.asccommunications.com^
 ||production-mcs.lvp.llnw.net^
@@ -87095,6 +87106,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pv.pjtsu.com^
 ||px-cdn.net/*main.min.js
 ||px-cdn.net/b/s
+||px-cdn.net^*/collector
 ||px.excitedigitalmedia.com^
 ||px.marchex.io^
 ||px.owneriq.net^
