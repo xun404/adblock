@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gTexsJF8/HzgiOulBYupEA
+! Checksum: mNrkSxs6XDrBJQ9dmILeXA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202105181201
-! Last Modified: 2021年05月18日 12:01
+! Version: 202105181301
+! Last Modified: 2021年05月18日 13:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55651,6 +55651,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
 @@||wordpress.org/plugins/$domain=wordpress.org
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
+@@||fingerprintjs.com^$generichide
+@@||schemeflood.com^$generichide
 @@||hwcdn.net^$script,domain=mp4upload.com
 @@||www-cultofmac-com.ezoic.net^$domain=cultofmac.com
 @@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
@@ -89325,6 +89327,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ez.no/statjs/
 ||ezinearticles.com/blank/
 ||f-secure.com^*/wtsdc.js
+||f.schemeflood.com^
 ||f.staticlp.com^
 ||facebook.com/a/bz?
 ||facebook.com/ajax/*/log.php
