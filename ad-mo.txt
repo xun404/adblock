@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JG/T7C0oWbvN1NnH5v/VCw
+! Checksum: qkTBeTzdVMFBkIhVLyv8rg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202105231943
-! Last Modified: 2021年05月23日 19:43
+! Version: 202105232153
+! Last Modified: 2021年05月23日 21:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -345,7 +345,6 @@ m.youtube.com###koya_child_6
 pan.baidu.com##.upload-bar.global-clearfix
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
-&act=ads_
 &ad.vid=$~xmlhttprequest
 &ad_block=
 &ad_box_
@@ -32131,7 +32130,7 @@ elledecor.com,nydailynews.com,tvland.com#@#.ad_728x90
 globest.com#@#.ad_960
 nirmaltv.com#@#.ad_Right
 iejima.org#@#.ad_banner
-focustaiwan.tw,lavozdegalicia.es#@#.ad_block
+focustaiwan.tw,lavozdegalicia.es,sozai-good.com#@#.ad_block
 panarmenian.net#@#.ad_body
 joins.com#@#.ad_bottom
 go.com,robhasawebsite.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
@@ -54645,6 +54644,7 @@ guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 metabomb.net#?#.trc-content-sponsored
+mirrored.to#?#tr:-abp-has([alt="UseNet"])
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
 multiup.eu,multiup.org#?#.alert:-abp-contains(VPN)
 multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
