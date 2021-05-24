@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8v6bjAHwgjLcD+hR8JHFUA
+! Checksum: lGcC9ni0V3mZqdSW/0oKCQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202105241854
-! Last Modified: 2021年05月24日 18:54
+! Version: 202105241947
+! Last Modified: 2021年05月24日 19:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9289,8 +9289,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kugoucdn.com/rest/*?_t=
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+olgame.tw##.nex_floor_banner
+olgame.tw##.nex_index_ads
+olgame.tw##.nex_mid_ads
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14800,6 +14804,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||chaintv.xyz/homestatic/js/adjs.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
