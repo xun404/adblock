@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oduHKv/ILL8rBkM7GWctXg
+! Checksum: 5rsU/c7DsDrYuI4zS/SJTw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202105241306
-! Last Modified: 2021年05月24日 13:06
+! Version: 202105241500
+! Last Modified: 2021年05月24日 15:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21009,6 +21009,7 @@ weibo.com###Pl_Core_P7MultiPicPlay__7
 weibo.com##.apps_PCD_reco_detail_right
 ! EasyPrivacy
 !-----------------General tracking systems-----------------!
+&action=confection_send_data&
 &action=js_stats&
 &action=js_stats_
 &callback=hitStats_
@@ -29013,6 +29014,7 @@ _mongo_stats/
 ||sni-dat.com^$third-party
 ||sniperlog.ru^$third-party
 ||sniphub.com^$third-party
+||snitcher.com^$third-party
 ||snoobi.com^$third-party
 ||snowsignal.com^$third-party
 ||social-sb.com^$third-party
@@ -37081,6 +37083,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zylom.com/pixel.jsp
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
+||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
+||substation.confection.io^
 ||dns.whatleaks.com^
 ||p0f.whatleaks.com
 ||whatleaks.com/check_ports/?
