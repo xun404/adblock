@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hCJ5pEyNqAZT9yWY1fcBig
+! Checksum: cCQgJ+XvTvglubyo/+Nizg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202105271236
-! Last Modified: 2021年05月27日 12:36
+! Version: 202105271422
+! Last Modified: 2021年05月27日 14:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1063,6 +1063,7 @@ _xiuno_com_ad/
 ##.iHead960x90
 ##.ibtad
 ##.index-top-aassd
+##.indexnews-ad
 ##.index-top-ad
 ##.index-top-gg
 ##.index-wz-ad
@@ -8852,6 +8853,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xd0.com##A[href^="/ad."]
 164580.com##.ads
 164580.com##A[class^="listindex"]
 164580.com##TABLE[width="950"] > TBODY > TR > TD[width="105"]
@@ -18352,6 +18354,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
 !#onemanhua.com
+||cocomanhua.com/sw.js
 @@.com/js/$domain=cocomanhua.com
 @@||cocomanhua.com^$generichide
 !#playno1.club
