@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EfHm5XgWmL60LHAAlz7l9g
+! Checksum: 3B3QM6ezNUwO5RtCWk516w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202105291126
-! Last Modified: 2021年05月29日 11:26
+! Version: 202105291337
+! Last Modified: 2021年05月29日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -19610,6 +19610,8 @@ _popunder+$popup
 ##.ad-vertical-container
 ##.ad-vertical-stack-ad
 ##.ad-vtu
+##.ad-w-300
+##.ad-w-728
 ##.ad-w300
 ##.ad-wall-3-wrapper
 ##.ad-wall-4
@@ -52808,6 +52810,7 @@ dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
 msn.com##.bing-native-ad
 bundesliga.com##.bl-broadcaster
 nowsci.com##.black_overlay
+tvmaze.com##.blad
 fastpic.ru##.bleft
 wearedore.com##.bloc-pub
 rpgsite.net##.block
@@ -53534,6 +53537,7 @@ reddit.com##.promotedlink
 racingtv.com,twitter.com,wral.com##.promotion
 bostonreview.net##.promotop
 kathmandupost.com##.pt-0
+washingtonpost.com##.pt-0.dn-hp-xs
 news.abplive.com##.pt-2.mt-4.card
 1980-games.com,flash-mp3-player.net,larousse.com,theportugalnews.com,tolonews.com##.pub
 yabiladi.com##.pub2
@@ -76796,6 +76800,7 @@ fqsousou.com,kengso.com#@#.user-share
 /fingerprint3.js
 /fingerprint3.min.js
 /fingerprintjs2.
+/firebase-performance-
 /firestats/*
 /firm_tracking.js
 /fkounter/*
@@ -78158,6 +78163,7 @@ fqsousou.com,kengso.com#@#.user-share
 /Peermap/Log/*
 /pepperjam.js
 /perf-beacon-
+/perf-vitals_
 /perflog/*
 /perfmetrics.js
 /perfops-cc.
@@ -80891,6 +80897,7 @@ _mongo_stats/
 ||air2s.com^$third-party
 ||airpr.com^$third-party
 ||airserve.net^$third-party
+||aivalabs.com^$third-party
 ||akanoo.com^$third-party
 ||akstat.com^$third-party
 ||akstat.io^$third-party
@@ -82779,6 +82786,7 @@ _mongo_stats/
 ||semanticverses.com^$third-party
 ||semasio.net^$third-party
 ||sematext.com^$third-party
+||sendbird.com^$third-party,websocket
 ||sendtraffic.com^$third-party
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
@@ -86600,6 +86608,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.solvemedia.com^
 ||pixel.sprinklr.com^
 ||pixel.tree.com^
+||pixel.videohub.tv^
 ||pixel.widgetly.com^
 ||pixel.wp.com^
 ||pixel.xmladfeed.com^$third-party
@@ -87232,6 +87241,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uplynk.com/session/ping/
 ||upt.graphiq.com^
 ||uptime.com/static/rum/$third-party
+||uriports.com/reports/$third-party
 ||usercentrics.eu/session/$image
 ||userexperience.thehut.net^
 ||users.techtarget.com^*/GetCookiesWithCallback?
@@ -88381,6 +88391,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazon.*/batch/*uedata=$image
 ||amazon.*/gp/r.html?
 ||amazon.*/uedata/
+||amazon.com/1/remote-weblab-triggers/
 ||amazon.com/clog/
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
@@ -90286,6 +90297,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srt.pch.com^
 ||srtb.msn.com^
 ||ssc.api.bbc.com^
+||ssl-images-amazon.com^*/31PaR7mjhbL.js
 ||st.arte.tv^
 ||stan.xing.com^
 ||startpage.*/avtc?
@@ -90625,6 +90637,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tunein.com^*/log/
 ||turn.com/js/module.tracking.js
 ||turnsocial.com/track/
+||tvmaze.com/script.js
 ||tvshark.com/stats.js
 ||tw.i.hulu.com^
 ||tweakers.net/ajax/ping/
@@ -90921,6 +90934,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yuku.com/stats?
 ||yupptv.com/yupptvreports/stats.php^
 ||yyv.co/track/
+||z.cdp-dev.cnn.com^
 ||zap.dw-world.de^$image
 ||zap2it.com^*/editorial-partner/
 ||zappos.com/*.cgi?
