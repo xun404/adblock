@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C/qU0Qvl1dV+4ob/Z8vnRw
+! Checksum: scg+xAH3nsjxTVd3onb+qQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202106011832
-! Last Modified: 2021年06月01日 18:32
+! Version: 202106012202
+! Last Modified: 2021年06月01日 22:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -8866,6 +8866,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+susongbbs.com###diynavtop
+susongbbs.com###diy1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14385,12 +14387,14 @@ perfectmatch.tw#@#.right_ad
 zdface.com#@#.top-ad
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 i-cable.com#@#.video_ad
+susongbbs.com#@#.ad_banner
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 1point3acres.com,android-doc.com,apk.tw,battlecats-db.com,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,shenfendaquan.com,tingfm.com,yabook.org#@#div > .adsbygoogle
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
