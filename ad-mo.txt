@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CtvsQwbbwR9ztBxVwsExSw
+! Checksum: Ok3fFwHa5ssDh4aD21SlHw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202106022027
-! Last Modified: 2021年06月02日 20:27
+! Version: 202106022215
+! Last Modified: 2021年06月02日 22:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12714,6 +12714,7 @@ _popunder+$popup
 ###adv-top-inside-page
 ###adv-top-page
 ###adv-top-side
+###adv-top-skin
 ###adv-x34
 ###adv-x35
 ###adv-x36
@@ -22489,6 +22490,7 @@ _popunder+$popup
 ##.adv-top
 ##.adv-top-container
 ##.adv-top-page
+##.adv-top-skin
 ##.adv-under-video
 ##.adv-unit
 ##.adv-videoad
@@ -52409,6 +52411,7 @@ carmag.co.za###sidebar-primary
 scotsman.com###sidebarMPU1
 scotsman.com###sidebarMPU2
 opendocument.xml.org###sidebarright
+inoreader.com###sinner_container
 2oceansvibe.com###skin
 lambgoat.com###skinoverlay
 dafont.com###sky
@@ -57477,6 +57480,10 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##A[href*="/ly0909.com"]
+##.uk-width-1-1.adbox
+##A[href*="/hth377.com/"]
+##A[href*="/odty55.cc"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -64997,6 +65004,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2345.com###J_hot_event
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72478,6 +72486,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||nanofine.cn^
+||888lianmeng.com^
+||wetips.cn^
+||xmcs99888.cn^
+||sydswxx.com^
 bxwx3.org###addiv3
 bxwx3.org###bdstatic
 55shuba.com###botDiv
