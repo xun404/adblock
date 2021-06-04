@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZdoAzxDaeUQCT4kdzJeM/g
+! Checksum: HLwb/e7gTEueWLe1czwWGw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202106040727
-! Last Modified: 2021年06月04日 07:27
+! Version: 202106041154
+! Last Modified: 2021年06月04日 11:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55419,6 +55419,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||mobygames.com/images/promo/$image,~third-party
 @@||moremoney.io/promo/Advertise.svg$~third-party
 @@||motortrader.com.my/advert/$image,~third-party
+@@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
 @@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nflcdn.com/static/site/$script,domain=nfl.com
@@ -65051,8 +65052,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||cjw123.com/jx/static/picture/tm.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cjw123.com##A[href="http://tb.cjw123.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
