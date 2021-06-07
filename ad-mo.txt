@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YWGDRbmacWeY7Hqos9d4fA
+! Checksum: 6yvxgn3R9v/ZedmMNTUbNA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202106071701
-! Last Modified: 2021年06月07日 17:01
+! Version: 202106071836
+! Last Modified: 2021年06月07日 18:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7810,8 +7810,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 ?wpproads-
 ?wpproadszoneid=
 ?zoneid=*&ext=$script
-?ZoneID=*&PageID=*&SiteID=
-?ZoneID=*&SiteID=*&PageID=
+?ZoneID=*&PageID=*&SiteID=$~image
+?ZoneID=*&SiteID=*&PageID=$~image
 ^fp=*&prvtof=
 ^mod=wms&do=view_*&zone=
 ^pid=Ads^
@@ -24338,6 +24338,7 @@ _popunder+$popup
 ##.cactus-img-ads
 ##.cactus-mutil-ads
 ##.calendarAd
+##.callout-a-ad-box
 ##.calloutAd
 ##.calls-to-action__sidebar-ad-container
 ##.can_ad_slug
@@ -52777,6 +52778,7 @@ consequenceofsound.net##.acm-module-300-250
 techrepublic.com##.ad-active
 apkcombo.com,journalism.co.uk,metrolyrics.com,thehindu.com,where.ca##.ad-box
 9news.com,9to5google.com,9to5mac.com,abc7ny.com,ack.net,bizjournals.com,biznews.com,boonevilledemocrat.com,boston.com,businessinsider.com.au,cheapism.com,computerworld.com,dnainfo.com,driven.co.nz,dronedj.com,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,firehouse.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ft.com,funkidslive.com,gamesindustry.biz,gfinityesports.com,glamour.com,gmanetwork.com,greenwooddemocrat.com,hbr.org,hollywoodreporter.com,insidehook.com,intouchweekly.com,ksdk.com,ktvu.com,macstories.net,miningweekly.com,mobilesyrup.com,modernhealthcare.com,morningstar.com,mpnnow.com,my9nj.com,myfitnesspal.com,nbcnews.com,news18.com,nzherald.co.nz,ocala.com,opb.org,pixiv.net,pjstar.com,pressargus.com,pulaskinews.net,radicalresearch.co.uk,radio531pi.com,realsport101.com,recordnet.com,recordonline.com,ridgecrestca.com,scroll.in,seattletimes.com,spaceexplored.com,sportskeeda.com,stackexchange.com,starfl.com,stockhouse.com,stuff.co.nz,talk.collegeconfidential.com,telegram.com,teutopolispress.com,the-dispatch.com,theaustralian.com.au,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themercury.com.au,thesuntimes.com,thetimesnews.com,toofab.com,vice.com,waltonsun.com,wogx.com##.ad-container
+mobilesyrup.com##.ad-goes-here
 spanishdict.com##.ad-wrapper
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,iamgujarat.com,indiatimes.com,lolcounter.com,mpog100.com,samayam.com,timesofindia.com,vijaykarnataka.com##.ad1
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,khaama.com,mpog100.com##.ad2
@@ -56400,6 +56402,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/css/78dfj/*.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -65158,6 +65161,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||lycc72.com/resources/js/content.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
