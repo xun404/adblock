@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EqfNrvHv23kW++MJeuCIZg
+! Checksum: yWjYl2+eEcPqzgTzEYDfYA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106082354
-! Last Modified: 2021年06月08日 23:54
+! Version: 202106090135
+! Last Modified: 2021年06月09日 01:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31173,6 +31173,7 @@ _popunder+$popup
 ##a[href^="https://aaucwbe.com/"]
 ##a[href^="https://ad.atdmt.com/"]
 ##a[href^="https://ad.doubleclick.net/"]
+##a[href^="https://ad.zanox.com/ppc/"] > img
 ##a[href^="https://ad13.adfarm1.adition.com/"]
 ##a[href^="https://adclick.g.doubleclick.net/"]
 ##a[href^="https://adhealers.com/"]
@@ -51186,6 +51187,7 @@ menstennisforums.com#@#.top_ads
 ||calguns.net/images/ad
 ||canyoublockit.com/wp-content/uploads/nzraxtwifgbg/
 ||carfinderph.com/popup/
+||cdn.thejournal.ie/media/hpto/*TakeoverSkinsTheJournal.jpeg$image,domain=thejournal.ie
 ||celebjihad.com/celeb-jihad/pu_stc.js
 ||celebstoner.com/assets/components/bdlistings/uploads/
 ||celebstoner.com/assets/images/img/sidebar/$image
@@ -80898,7 +80900,7 @@ cgi-bin/counter
 /click.*/q/*$image
 /click.email.$image
 /clicks.email.$image
-/cmail2.com/t/
+/cmail2.com/t/*
 /email-pixel?
 /email/open?
 /emimp/*$image
@@ -80907,7 +80909,7 @@ cgi-bin/counter
 /gate.amnesty-international.*/open.php?
 /gp/r.html?$image
 /link.coindesk.com/img/*
-/link.e-mail.*/mo/$image
+/link.e-mail.*/mo/*$image
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
