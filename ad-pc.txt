@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: El0DzkJ5a/1t3qXW/OZYgw
+! Checksum: 1vxXW2i6ocKLyEJkp66AWA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106091213
-! Last Modified: 2021年06月09日 12:13
+! Version: 202106091318
+! Last Modified: 2021年06月09日 13:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51615,7 +51615,7 @@ menstennisforums.com#@#.top_ads
 ||zdnet.com/m3d0s1/
 ||zkillboard.com/img/brave_switch.png
 /^https?:\/\/.*.(club|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|biz|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
-/^https?:\/\/[0-9a-z]{8,25}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|cloudvideo.tv|dood.watch|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strcloud.in|strtape.cloud|strtape.tech|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
+/^https?:\/\/[0-9a-z]{8,29}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|cloudvideo.tv|dood.watch|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strcloud.in|strtape.cloud|strtape.tech|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
 /^https?:\/\/[a-z0-9]{4,}\.(dotabuff|trackdota|speedrun|overbuff|dotabuff)\.com\/[a-z0-9]{1,6}.*/$script,~third-party,xmlhttprequest
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
@@ -52343,6 +52343,7 @@ leader.co.za###ctl00_ctl00_cphBody_cphColumnBody_cphBannerBodyHeader_userBannerB
 leader.co.za###ctl00_ctl00_cphBody_cphColumnBody_cphColumnMiddleParent_cphNavigationRight_userNavigationRight_userBannerSponsor_pnBanners
 miloserdov.org,wpneon.com###custom_html-10
 isekaiscan.com,miloserdov.org###custom_html-11
+theregister.co.nz###custom_html-13
 miloserdov.org,mostlyblogging.com###custom_html-14
 mostlyblogging.com###custom_html-15
 miloserdov.org###custom_html-16
@@ -57807,6 +57808,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##A[href$="/od567.net"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
