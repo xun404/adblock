@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0S9Qs7m64W/uriDxs2aTMA
+! Checksum: cGGBpygekJ9xFctv97bWuA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106091650
-! Last Modified: 2021年06月09日 16:50
+! Version: 202106092112
+! Last Modified: 2021年06月09日 21:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55671,6 +55671,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||itv.com/itv/hserver/*/site=itv/$xmlhttprequest
 @@||itv.com/itv/jserver/$script,domain=itv.com
 @@||jiji.co.ke/api_web/v1/advert/$~third-party,xmlhttprequest
+@@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
+@@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
 @@||jwpcdn.com/player/plugins/googima/$script,domain=iheart.com|video.vice.com
 @@||kotaku.com^*/assets/new-client/adManager.$script,~third-party
 @@||lastpass.com/ads.php$subdocument,~third-party
@@ -65372,6 +65374,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bimiacg.net##.ssr1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -80568,6 +80571,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wsStats_
 /wstat.pl
 /wstats.php?
+/wsTracking.
 /wt.js?http
 /wt.pl?p=
 /wt?p=
@@ -86520,6 +86524,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.audiate.me^
 ||events.brightline.tv^
 ||events.demoup.com^
+||events.jokerly.com^
 ||events.jotform.com^
 ||events.launchdarkly.com^$third-party
 ||events.matterport.com^
@@ -100230,7 +100235,6 @@ ytics.disneyplus.com^
 @@||adobedtm.com^*/satelliteLib-$script,domain=dhl.de|sbb.ch
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
-@@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
