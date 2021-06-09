@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Jm60UMzHilnHvVCsvk1m4A
+! Checksum: OlZAU8Gah+QUQ8fQG97uRQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202106100647
-! Last Modified: 2021年06月10日 06:47
+! Version: 202106100746
+! Last Modified: 2021年06月10日 07:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1372,6 +1372,7 @@ _xiuno_com_ad/
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
+##A[href*="/odnb.vip"]
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
@@ -37328,6 +37329,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zylom.com/pixel.jsp
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+||jeremiahlee.com/p/js/script.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
 ||substation.confection.io^
