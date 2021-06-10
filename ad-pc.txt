@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V3m3bhCA5JGUcaobJ8xJ0g
+! Checksum: Tqa7yEZmHQrbuHP0f393gA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106102157
-! Last Modified: 2021年06月10日 21:57
+! Version: 202106102358
+! Last Modified: 2021年06月10日 23:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22601,6 +22601,7 @@ _popunder+$popup
 ##.adv-lshaped-wrapper
 ##.adv-mid-rect
 ##.adv-mid-rect--right
+##.adv-mobile-wrapper
 ##.adv-mpu
 ##.adv-mpu-shoulder
 ##.adv-outer
@@ -24254,6 +24255,7 @@ _popunder+$popup
 ##.box-ads
 ##.box-ads-small
 ##.box-adsense
+##.box-adsense-top
 ##.box-adv-300-home
 ##.box-adv-300-text-bottom
 ##.box-adv-social
@@ -72945,6 +72947,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||totoc.top^
+||totoh.top^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
