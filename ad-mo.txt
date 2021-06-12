@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G6ezY9QLDr5xvFfqy7VZgA
+! Checksum: DcDf+GJ+rr0oVwoUGG3O2g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202106130109
-! Last Modified: 2021年06月13日 01:09
+! Version: 202106130254
+! Last Modified: 2021年06月13日 02:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -963,7 +963,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 .com/ads?
 .com/ads_
-.com/adv/$domain=~advantabankcorp.com|~archiproducts.com|~tritondigital.com
+.com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~archiproducts.com|~tritondigital.com
 .com/adv3/
 .com/adv?
 .com/adv_
@@ -56104,6 +56104,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.taboola.com^$popup
 @@||ads.tiktok.com^$popup
 @@||ads.twitter.com^$popup,~third-party
+@@||adv.asahi.com^$popup
 @@||adv.blogupp.com^$popup
 @@||adv.cr^$popup
 @@||adv.gg^$popup
@@ -89827,7 +89828,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.*/ping?
 ||google.*/stats?frame=
 ||google.com/_/DotsSplashUi/browserinfo
-||google.com/_/DotsSplashUi/data/batchexecute?
 ||google.com/appserve/mkt/img/*.gif
 ||google.com/dssw.js
 ||google.com/insights/$script
