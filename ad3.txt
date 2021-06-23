@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6EiaEPkFoR1pVdv9EiQBJQ
+! Checksum: vmgQxUDKDYlkbGlJvVtdrQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202106231647
-! Last Modified: 2021年06月23日 16:47
+! Version: 202106231845
+! Last Modified: 2021年06月23日 18:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26636,6 +26636,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?act=counter&
 ?action=event&
 ?action=log_promo_impression
+?action=statsjs&
 ?action=track_visitor&
 ?action=tracking_script
 ?ad_played=
@@ -46365,6 +46366,8 @@ ytics.disneyplus.com^
 @@||video.repubblica.it^*/nielsen.js
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 !---------- Indonesian ----------
+@@||anteraja.id/api/api/tracking/api/captchaImg$~third-party
+@@||anteraja.id/api/api/tracking/api/reloadCaptchaImg$~third-party
 @@||detik.com/urchin.js
 !---------- Japanese ----------
 @@||a8.net/svt/$image,domain=samplefan.com

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q48RTVIswYUUAde6k1iSjA
+! Checksum: ucVMxWwU9NMnRhXqfCJz6w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106231647
-! Last Modified: 2021年06月23日 16:47
+! Version: 202106231845
+! Last Modified: 2021年06月23日 18:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1614,7 +1614,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/count.
 /ad/cpmstar/*
 /ad/cross-
-/ad/css/*$domain=~cspace.com
 /ad/dfp/*
 /ad/directcall/*
 /ad/empty.
@@ -80917,6 +80916,7 @@ fqsousou.com,kengso.com#@#.user-share
 ?act=counter&
 ?action=event&
 ?action=log_promo_impression
+?action=statsjs&
 ?action=track_visitor&
 ?action=tracking_script
 ?ad_played=
@@ -100646,6 +100646,8 @@ ytics.disneyplus.com^
 @@||video.repubblica.it^*/nielsen.js
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 !---------- Indonesian ----------
+@@||anteraja.id/api/api/tracking/api/captchaImg$~third-party
+@@||anteraja.id/api/api/tracking/api/reloadCaptchaImg$~third-party
 @@||detik.com/urchin.js
 !---------- Japanese ----------
 @@||a8.net/svt/$image,domain=samplefan.com
