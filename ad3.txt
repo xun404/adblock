@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vxaz2tKvIl9VJpjWjYbCtQ
+! Checksum: 6OGxsMWWzh6jCi1Iv1wR9Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202106230739
-! Last Modified: 2021年06月23日 07:39
+! Version: 202106230931
+! Last Modified: 2021年06月23日 09:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1395,6 +1395,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##A[href*=".hthvip22.com"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -28339,6 +28340,7 @@ _mongo_stats/
 ||imrworldwide.com^$third-party
 ||imtwjwoasak.com^$third-party
 ||inboxtag.com^$third-party
+||incapdns.net^$third-party
 ||incentivesnetwork.net^$third-party
 ||index.ru^$third-party
 ||indexstats.com^$third-party
@@ -32272,6 +32274,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
 ||d31bfnnwekbny6.cloudfront.net/customers/
+||d31qbv1cthcecs.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
@@ -45850,6 +45853,7 @@ ytics.disneyplus.com^
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
+@@||glenat.com^*/static/analytics.js$script,~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||humaninterest.com/api/analytics/$script,~third-party
@@ -46507,6 +46511,7 @@ ytics.disneyplus.com^
 @@||mts.ru/app/vendor/angular-google-analytics.min.js
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||online.bcs.ru^*/piwik.bcs.js$script
+@@||pl.smotrim.ru/js/stat.js$script,domain=player.vgtrk.com
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
