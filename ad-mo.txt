@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +RQmF3/pyeCk8a0Bf3sUjA
+! Checksum: wbqg74Pjn/Zo8OpTwGWFFQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202106271842
-! Last Modified: 2021年06月27日 18:42
+! Version: 202106271937
+! Last Modified: 2021年06月27日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -26496,6 +26496,7 @@ _popunder+$popup
 ##.inside_ad_box
 ##.insideads
 ##.inslide-ad
+##.insticator-ads
 ##.instoryAdBlock
 ##.instoryAdNoBlock
 ##.instructionAdvHeadline
@@ -44091,6 +44092,7 @@ menstennisforums.com#@#.top_ads
 ||admanmedia.com^$third-party
 ||admarketplace.net^$third-party
 ||admaster.net^$third-party
+||admatic.com.tr^$third-party
 ||admaxim.com^$third-party
 ||admaya.in^$third-party
 ||admaza.in^$third-party
@@ -52583,6 +52585,10 @@ my.juno.com###newsCarousel
 livelaw.in###news_on_exit
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
+techraptor.net###nn_lb1
+techraptor.net###nn_lb2
+techraptor.net###nn_lb3
+techraptor.net###nn_lb4
 forums.somethingawful.com###notregistered
 onlinemschool.com###oms_left
 powvideo.net,streamplay.to###overlay
@@ -56578,6 +56584,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
+/template/znfls/asd/*
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -65430,6 +65437,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||manhuadb.com/assets/js/mdb-comm.js
+||55imgs.com/upload/banner/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -76708,6 +76717,7 @@ fqsousou.com,kengso.com#@#.user-share
 /cdcVanity?
 /cdn-cgi/bm/cv/*
 /cdn-cgi/ping?$image
+/cdn-cgi/rum?
 /cdn-monitoring-pixel.
 /cdn.stats2?
 /cdn5.js?
