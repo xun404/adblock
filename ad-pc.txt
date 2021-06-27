@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /nMDdIJonCw5k9eozvGTbQ
+! Checksum: ir0KEWNlPE18slDxKn3AcQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106270101
-! Last Modified: 2021年06月27日 01:01
+! Version: 202106270945
+! Last Modified: 2021年06月27日 09:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18338,6 +18338,7 @@ _popunder+$popup
 ##.BottomGoogleAds
 ##.BoxAd
 ##.BoxAdWrap
+##.BoxRail-ad
 ##.BoxSponsorBottom
 ##.BtmAd
 ##.BtmSponsAd
@@ -52836,6 +52837,7 @@ yahoo.com###sda-MAST
 abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,scripts.com,symbols.com###sela-container
 filedropper.com###sidebar
 whatsondisneyplus.com###sidebar > .widget_text.amy-widget
+mashable.com###sidebar-1
 ftvlive.com###sidebar-one-wrapper
 carmag.co.za###sidebar-primary
 scotsman.com###sidebarMPU1
@@ -52921,6 +52923,9 @@ chattanooganow.com###toDoWrap
 rssing.com###toi
 toonix.com###toonix-adleaderboard
 accuweather.com,iconeye.com,phonescoop.com###top
+mashable.com###top-1
+mashable.com###top-2
+mashable.com###top-3
 cheese.com,chip.eu,coingecko.com,corkindependent.com,foodlovers.co.nz,foodnetwork.ca,galwayindependent.com,honesttopaws.com,infrastructurene.ws,inthenews.co.uk,investorplace.com,kurocore.com,maclife.com,skift.com,thedailymash.co.uk,thedailywtf.com,theportugalnews.com,thespiritsbusiness.com###top-banner
 theberrics.com###top-banner-container
 if-not-true-then-false.com###top-banner-wrapper
@@ -53493,6 +53498,7 @@ binnews.com,iheart.com##.component-pushdown
 binnews.com,iheart.com##.component-recommendation
 washingtontimes.com##.connatixcontainer
 spoonyexperiment.com##.cont_adv
+redditsave.com##.container > center
 marketwatch.com##.container--sponsored
 miniclip.com##.container-300x250
 villagesoup.com##.container-popup
@@ -53942,7 +53948,6 @@ scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 stripes.com##.min-h90
-techpowerup.com##.mnnuzjsddc
 investopedia.com##.mntl-leaderboard-spacer
 islamicfinder.org##.mobile-cards
 pcmacstore.com##.mobileHide
@@ -54543,6 +54548,7 @@ geeksforgeeks.org##[id^="bsa-zone"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
+techpowerup.com##[rel="nofollow"] img
 audioz.download##[src*="/promo/"]
 manganelo.com##[src^="/ads/"]
 ice.hockey##[src^="/images/banners/"]
@@ -54785,6 +54791,8 @@ adblock-tester.com##object[width="240"]
 opensubtitles.org##p[style="font-size:130%; font-weight:bold; margin-top:3px; text-decoration: underline;"], p[style="font-size:130%; font-weight:bold; margin-top:3px; text-decoration: underline;"] + div[style="text-align: left"]
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
+techpowerup.com##span > a[href] > div img
+techpowerup.com##span > a[rel="nofollow"][target="_blаnk"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id="MAIN-CARDS-0"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[class*="widgetId=loom-desktop-brand-footer-slot_hsa-id"]
@@ -82683,6 +82691,7 @@ _mongo_stats/
 ||ingage.tech^$third-party
 ||inimbus.com.au^$third-party
 ||inmoment.com^$third-party
+||innertrends.com^$third-party
 ||innomdc.com^$third-party
 ||innovateads.com^$third-party
 ||inphonic.com^$third-party
