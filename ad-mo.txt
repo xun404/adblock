@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YOPCQTMsGweoZ7V7En6Qqg
+! Checksum: /jwU8nsPNq8jDtm44iKk0Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202106271050
-! Last Modified: 2021年06月27日 10:50
+! Version: 202106271145
+! Last Modified: 2021年06月27日 11:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20218,6 +20218,8 @@ _popunder+$popup
 ##.adRecommendRight
 ##.adRect
 ##.adRectangle
+##.adRectangle-pos-medium
+##.adRectangle-pos-small-inline
 ##.adRectangleBanner
 ##.adRectangleUnit
 ##.adRegionSelector
@@ -31776,6 +31778,7 @@ _popunder+$popup
 ###taboola-mid-article-thumbnails
 ###taboola-placeholder
 ###taboola-right-rail
+###taboola-right-rail-express
 ###taboola-right-rail-stream-2nd
 ###taboola-right-rail-thumbnails-1st
 ###taboola-top-banner-abp
@@ -31794,6 +31797,7 @@ _popunder+$popup
 ##.reading-list-rail-taboola
 ##.tablet_ad_box
 ##.tablet_ad_head
+##.taboola-above-article
 ##.taboola-above-article-thumbnails
 ##.taboola-ad
 ##.taboola-block
@@ -31807,6 +31811,7 @@ _popunder+$popup
 ##.taboola-single-asset-ads
 ##.taboola-unit
 ##.taboola-widget
+##.taboolaArticle
 ##.taboola_advertising
 ##.taboola_blk
 ##.taboola_block1
@@ -53126,6 +53131,7 @@ thehackernews.com##.av-side-box
 gameplanet.co.nz##.avt-mr
 gameplanet.co.nz##.avt-placement
 whatsondisneyplus.com##.awac-wrapper
+express.co.uk##.ayl-native
 doubleviking.com##.az
 auctionzip.com##.az-header-ads-container
 digitaltrends.com##.b-anterior
@@ -54336,6 +54342,7 @@ cnx-software.com,techdows.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
 bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
+faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
 deshdoaba.com,washingtonmonthly.com##.widget_media_image
 chtupdate.net##.widget_media_image.widget
@@ -89621,6 +89628,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dmp.marketgid.com^
 ||dmtracking2.alibaba.com^
 ||dmtrk.com/*/o.gif
+||docs.github.com/events
 ||docs.google.com/stat|$xmlhttprequest
 ||docstoc.com/metrics/
 ||dogpile.com/__kl.gif
