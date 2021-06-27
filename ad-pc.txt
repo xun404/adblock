@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oxnGBQlMnCnF0gKMGNgmCQ
+! Checksum: Z8mAl3Il0b9zbkdZ940Uzw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106272100
-! Last Modified: 2021年06月27日 21:00
+! Version: 202106272140
+! Last Modified: 2021年06月27日 21:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -65556,6 +65556,8 @@ _yad_jsonp_
 ||55imgs.com/upload/banner/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+assbbs.com###ass_adv
+oneinstack.com##.w-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -67534,7 +67536,6 @@ ssr.tools##.asb
 ssr.tools,woniupai.net,zhujiwiki.com##.asb-post-footer
 lzep.cn##.aside
 btyingshi.com##.aside > .card:last-child
-assbbs.com##.aside > style + div[class]
 78dm.net##.aside-add
 baidu.com##.aside-inner > div[style*="height:"]
 jingyan.baidu.com##.aside-pro-container
@@ -68904,7 +68905,6 @@ ccoo.cn##.n_adbox
 123cha.com##.n_ads_box
 123cha.com##.n_ads_box + .box > .tbl > tbody > tr:last-child > td[bgcolor="#eeeeee"][width="350"]:last-child
 moyu16.com##.nav-banner
-assbbs.com##.nav-link[href^="http"][target="_blank"]
 youxiduo.com##.navAd
 lenovo.com.cn##.nav_ad1
 lenovo.com.cn##.nav_ad2
@@ -70281,7 +70281,6 @@ duba.com##a[w="topad"]
 ainuody.com#?#.post:-abp-has(> .article > .entry_post > p:-abp-contains(/红包|淘宝/))
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 idanmu.im##aside > div[class="widget "]
-assbbs.com#?#.top_3:-abp-has(a:-abp-contains(广告))
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
