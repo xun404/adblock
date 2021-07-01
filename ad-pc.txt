@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nwCrpitjS+UG0kcBqR7LMQ
+! Checksum: gPZUUTrcWToi8HCWlo7jow
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107010942
-! Last Modified: 2021年07月01日 09:42
+! Version: 202107011145
+! Last Modified: 2021年07月01日 11:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19744,6 +19744,7 @@ _popunder+$popup
 ##.ad-towers
 ##.ad-transition
 ##.ad-two
+##.ad-twos
 ##.ad-txt
 ##.ad-type
 ##.ad-type-branding
@@ -21471,6 +21472,7 @@ _popunder+$popup
 ##.adpic
 ##.adplace
 ##.adplace_center
+##.adplaceholder-top
 ##.adplacement
 ##.adplate-background
 ##.adpod
@@ -27494,6 +27496,7 @@ _popunder+$popup
 ##.mosaicAd
 ##.mostpop_sponsored_ad
 ##.motherboard-ad
+##.movv-ad
 ##.mp-ad
 ##.mpsponsor
 ##.mpu-ad
@@ -31682,6 +31685,7 @@ _popunder+$popup
 ##img[alt^="Fuckbook"]
 ##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
 ##span[data-component-type="s-ads-metrics"]
+##span[title="Ads by Google"]
 ##topadblock
 ###mplayer-embed
 ##.pbs__player
@@ -51789,7 +51793,7 @@ menstennisforums.com#@#.top_ads
 ||tb.turbocap.net/a637rw3.js
 ||techhive.com/ads/
 ||technewsworld.com/images/sda/
-||techpowerup.com/gjizhgdreg/
+||techpowerup.com/gjlzhgdreg/
 ||techrepublic.com/leadgen/
 ||theage.com.au/assets/europa.
 ||thecenturion.co.za^*/banners/
@@ -91120,7 +91124,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||redtube.com/trackimps
 ||redtube.com/trackplay?
 ||redtube.com^*/jscount.php
-||reelgood.com/gnikcart/track/
+||reelgood.com/*/checkip
 ||reference.com/track/
 ||refinery29.com/api/stats?
 ||register.it/scripts/track_
