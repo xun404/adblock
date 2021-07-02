@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kvDyjYoLM4VJ2IRCC10yVw
+! Checksum: rq0fg3OC2G5hvZ18eTX1mw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107021743
-! Last Modified: 2021年07月02日 17:43
+! Version: 202107021842
+! Last Modified: 2021年07月02日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -8937,6 +8937,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xianzhenyuan.cn##.bm.a_c
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14485,6 +14486,7 @@ bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
+@@||jiav000.com^$generichide
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
