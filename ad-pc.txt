@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +VUqzTqGASZSU9jPB7h+bA
+! Checksum: HPIoUMadXl052gsK8weUag
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107082149
-! Last Modified: 2021年07月08日 21:49
+! Version: 202107082242
+! Last Modified: 2021年07月08日 22:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30646,6 +30646,7 @@ _popunder+$popup
 ##.widget_adswidget3-quick-adsense
 ##.widget_adswidget4-quick-adsense
 ##.widget_adv_location
+##.widget_adv_text
 ##.widget_advads_ad_widget
 ##.widget_advert
 ##.widget_advert_content
@@ -57925,6 +57926,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||887251.com^
+||joannalaura.com^
 ||vainews.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -65442,6 +65445,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||ssp.21ic.com^
+||pstatp.com/origin/pgc-image/bb2ebb31f0964de3b36ba5f5b6fcc521
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 youzhidy.com##IFRAME[src^="data"]
@@ -70495,8 +70499,7 @@ eyuyao.com##div[id^="x_ad_"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
-mp4er.com##div[onclick*=".exing101.com"]
-mp4er.com##div[onclick*=".exing113.com"]
+mp4er.com##div[onclick*="exing"]
 mp4er.com##div[onclick*="exvip23.com"]
 jsr9.com##div[onclick*="location"]
 nfmovies.com##div[onclick="openurl()"]
