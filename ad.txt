@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dVX/5sv4wKYHfX1qgk4zSg
+! Checksum: avvqT0D6Eehxkxr1YtuXYQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202107111742
-! Last Modified: 2021年07月11日 17:42
+! Version: 202107111841
+! Last Modified: 2021年07月11日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -584,6 +584,7 @@ xz6d.com
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
+.com:9120/discor_list.js
 /fawu999/*.js$script,third-party
 -90mh-gg.
 .bid/ads/
@@ -1858,6 +1859,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.newstyle > A > IMG[src*="img.com/i/"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -1865,6 +1867,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||3338676.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
@@ -9392,8 +9395,13 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||abczxw.com/skin/bbb/pc/js/bd.js
 ||ih336.com^*a.js
+||iimh.net/skin/footer.js
+||iimh.net/skin/iymbl-app.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+11px.cn##.date
+11px.cn##.date_nr
+pcbeta.com#?#div[class]:-abp-properties(height: 169px;*padding-top: 10px;)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10488,7 +10496,6 @@ firefoxchina.cn###promo
 firefox.com.cn,firefoxchina.cn###promote-top-list
 sina.cn###promotionCover
 tmsf.com###property_listf
-bbs.pcbeta.com###pt + div[style] > div[style^="clear:both;"]
 xiazaizhijia.com###public_right_mid_ad
 bestopview.com###pubtextnone
 hao123.com###puzzleBox
@@ -12052,7 +12059,6 @@ iciba.com##.footer_baidu
 yaolan.com##.footer_float_box
 image.baidu.com##.ford-tag
 chineseinla.com##.forum_banner_ads
-pcbeta.com##.forum_top ~ div[class]
 880sy.com##.fot_btom
 win7xzb.com##.four_box
 v2ex.com##.fr > a[href^="https://www.digitalocean.com/"]
@@ -13811,7 +13817,7 @@ kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
-onlinedown.net##a.qrcode_show
+onlinedown.net##.qrcode_show:not([href^="https://www.onlinedown."])
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
