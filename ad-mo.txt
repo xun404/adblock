@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ydfLKam2QBCoSi8UhhoRRQ
+! Checksum: 4vdp3SZ1CYam6bNCZcU3Hw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107111841
-! Last Modified: 2021年07月11日 18:41
+! Version: 202107111937
+! Last Modified: 2021年07月11日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -26923,6 +26923,7 @@ _popunder+$popup
 ##.leftAdsEnabled
 ##.leftAdsFix
 ##.leftAdsFix1
+##.leftAdvDiv
 ##.leftAdvert
 ##.leftCol_advert
 ##.leftColumnAd
@@ -32339,6 +32340,7 @@ iejima.org#@#.ad_banner
 focustaiwan.tw,lavozdegalicia.es,sozai-good.com#@#.ad_block
 panarmenian.net#@#.ad_body
 joins.com#@#.ad_bottom
+m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimokki.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivaraosa.com,m.nettivene.com,m.nettivuokraus.com#@#.ad_caption
 go.com,robhasawebsite.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
 environmentjob.co.uk,lowcarbonjobs.com,myhouseabroad.com#@#.ad_description
 318racing.org,linuxforums.org,modelhorseblab.com#@#.ad_global_header
@@ -57762,10 +57764,11 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||aw21.top^
 ||3338676.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
-.cn/d/*-*-*.ap|$script,third-party
+/d/*-*-*.ap|$script,third-party
 .cn/s.php?id=$script,third-party
 .cn/sc/3694?
 .cn/show?id=$script,third-party
@@ -69983,6 +69986,8 @@ halitv.com##a[href^="https://www.halitv.com/api/go."]
 howbuy.com##a[href^="https://www.howbuy.com/advertisement/"]
 sojson.com##a[href^="https://www.sojson.com/ad/"]
 zhiboba.org##a[href^="igg."]
+suibiankan.cc##a[href^="javascript"]
+suibiankan.cc##a[href^="javascript"] + img
 jisuyingyuan.info##A[href^="javascript"]
 hzjzxh.org##a[href^="javascript"]
 ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
