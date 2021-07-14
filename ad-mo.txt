@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tgAUGSRf9aQsUsYtTBS6RQ
+! Checksum: WH9GaheYwbRZmVefp8+pOQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107141451
-! Last Modified: 2021年07月14日 14:51
+! Version: 202107141642
+! Last Modified: 2021年07月14日 16:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -10212,7 +10212,9 @@ _popunder+$popup
 ###ad-cube-Middle
 ###ad-cube-sec
 ###ad-cube-top
+###ad-desktop-bottom
 ###ad-desktop-footer
+###ad-desktop-top
 ###ad-desktop-wrap
 ###ad-discover
 ###ad-display-ad
@@ -51204,6 +51206,7 @@ menstennisforums.com#@#.top_ads
 ||cinemablend.com/static/js/batsignal/
 ||clarksvilleonline.com/cols/
 ||click.livedoor.com^
+||cloudfront.net^*/sponsors/$domain=pbs.org
 ||cnn.com/ad/
 ||codelist.cc/bluehostbanner.jpg
 ||coincheck.com/images/affiliates/
@@ -51270,6 +51273,7 @@ menstennisforums.com#@#.top_ads
 ||freedownloadmanager.org/js/achecker.js
 ||freeworldgroup.com/banner
 ||funnyjunk.com/site/js/extra/pre
+||gamasexual.com/a/i/$image
 ||gamecopyworld.com/games/js/p1.js
 ||gamecopyworld.eu/games/js/p1.js
 ||goal.com/img/sponsor/
@@ -52155,7 +52159,7 @@ imagebam.com###aad-header-3
 uinterview.com###above-content
 amazon.com,campusrn.com,fivethirtyeight.com,jigzone.com,theoswatch.com,xe.com,ytmp3.cc###ad
 informer.com###ad0
-pimpandhost.com,timeanddate.com,wordreference.com###ad1
+boards.net,pimpandhost.com,timeanddate.com,wordreference.com###ad1
 pimpandhost.com###ad2
 exchangerates.org.uk###ad3
 adnetworkdirectory.com###adA
@@ -53045,7 +53049,6 @@ audizine.com##.articleIMG
 wallpaper.com##.articleSidebar
 news18.com##.article_mad
 1movies.best##.asdjyA
-cnx-software.com##.asensor-single
 techweez.com##.asspp-single
 animalcrossingworld.com##.at-sidebar-1
 alternativeto.net##.atf2
@@ -53521,8 +53524,8 @@ moviemaker.com##.g-4.g
 businessofapps.com##.g-single
 yellowise.com##.g-widget-block
 titantv.com##.gAd
-gamasexual.com##.game-preview-wrapper
 monstertruckgames.org##.gamecatbox
+cnx-software.com##.gcorals-single
 investing.com##.generalOverlay
 uefa.com##.geoTargetSponsor
 ksl.com##.gfp-slot
@@ -53554,7 +53557,6 @@ mma-core.com##.grec
 sportingnews.com##.grid-aside
 teamrock.com##.grid-container-300x250
 groovypost.com##.groov-adlabel
-cnx-software.com##.gsensor-single
 gtaforums.com##.gtaforums-ad
 thelakewoodscoop.com##.gtlsad
 wheels24.co.za##.gumtree_component
@@ -54378,7 +54380,7 @@ manganelo.com##[href^="https://oackoubs.com/"]
 analyticsindiamag.com##[href^="https://praxis.ac.in/"]
 analyticsindiamag.com##[href^="https://programs.upgrad.com/"]
 highshortinterest.com##[href^="https://tinyurl.com/"]
-cnx-software.com##[href^="https://www.amazon.com/"]
+cnx-software.com##[href^="https://url.cnx-software.com/"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
 complaintsingapore.com##[href^="https://www.bullionstar.com/"]
@@ -90670,7 +90672,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quora.com/ajax/batched_log_
 ||quotesonic.com/vendor/pixel.cfm
 ||qwant.com/*/api/ux/surveys?
+||qwant.com/action/
 ||qwant.com/apm/intake/*/rum/events
+||qwant.com/impression/
 ||qz.com/log
 ||r.bbci.co.uk^
 ||r.my.com^
