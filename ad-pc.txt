@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WwzomE6lvTZ+Q41cyzZuJw
+! Checksum: fPjemoHxONySbVttgTLa3A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107171841
-! Last Modified: 2021年07月17日 18:41
+! Version: 202107172138
+! Last Modified: 2021年07月17日 21:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -73049,6 +73049,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;margin-right:0px;margin-left:0px;"]
 ##.layui-row[style="height:160px;border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
 ##.readerListADbox
+ahzww.net##script + div[style]
+##a[href*=".woyicanyin.com"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
 ##[class][onclick^="window.location.href"][onclick*="%AF%B4.apk"]
