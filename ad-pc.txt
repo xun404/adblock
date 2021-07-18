@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YNlP/Prv/3h0vpKTH8NiLw
+! Checksum: LC+nzHtKJDdWOWlRF0UdbA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107181537
-! Last Modified: 2021年07月18日 15:37
+! Version: 202107181641
+! Last Modified: 2021年07月18日 16:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -23764,6 +23764,7 @@ _popunder+$popup
 ##.atcode_wp_bnn
 ##.atf-ad-medRect
 ##.atf-ad-medrec
+##.atf-wrapper
 ##.atfAds
 ##.atf_ad300
 ##.atf_ad_box
@@ -25176,6 +25177,7 @@ _popunder+$popup
 ##.dfp-ad-container
 ##.dfp-ad-full
 ##.dfp-ad-hideempty
+##.dfp-ad-midbreaker-wrap
 ##.dfp-ad-placeholder
 ##.dfp-ad-rect
 ##.dfp-ad-tags
@@ -28645,6 +28647,7 @@ _popunder+$popup
 ##.rhs-advert-container
 ##.rhs-advert-link
 ##.rhs-advert-title
+##.rhs-mrec-wrapper
 ##.rhs_ad_title
 ##.rhs_ads
 ##.rhsad
@@ -54113,6 +54116,7 @@ al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.
 reviewparking.com##.revie-widget
 sociologyguide.com##.rgt_banners
 siteslike.com##.rif
+africanews.com##.right-legend
 jta.org##.right-rail-container
 huffpost.com##.right-rail-placeholder
 jpost.com##.right-side-banner
@@ -76036,6 +76040,7 @@ fqsousou.com,kengso.com#@#.user-share
 /admantx/*
 /admonitoring.
 /admp-
+/adobe-analytics-
 /adobe-analytics.
 /adobe-analytics/*
 /adobe-prd/*
@@ -78387,6 +78392,7 @@ fqsousou.com,kengso.com#@#.user-share
 /logHandler.
 /LogImpression.
 /LogImpression?
+/LogImpressions.
 /logImpressions?
 /logjs.php
 /logLoad/?
@@ -78642,6 +78648,7 @@ fqsousou.com,kengso.com#@#.user-share
 /newrelic.iframe.
 /newrelic.js
 /newrelic.min.js
+/newrelic/*
 /newrelicKpis-
 /newrelicKpisFooter-
 /newscount/*
@@ -88487,6 +88494,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||videostat-new.index.hu^
 ||videostat.index.hu^
 ||indiatimes.com/pixel?
+||tvid.in/log/
 ||mediaquark.com/tracker.js
 ||alice.it/cnt/
 ||analytics.competitoor.com^
@@ -90911,6 +90919,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||staticwhich.co.uk/assets/*/track.js
 ||staticworld.net/pixel.gif
 ||statistics.crowdynews.com^
+||statnews.com/DG/DEFAULT/
 ||statravel.co.uk/static/uk_division_web_live/Javascript/wt_gets.js
 ||statravel.com^*/Javascript/wt_gets.js
 ||stats.aplus.com^
