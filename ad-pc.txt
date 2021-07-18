@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rzuS4QYat3cKaLhwQUr6Kg
+! Checksum: JggvKLKnfSwbCSVyexdlhw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107181337
-! Last Modified: 2021年07月18日 13:37
+! Version: 202107181450
+! Last Modified: 2021年07月18日 14:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -86022,9 +86022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bonsai.internetbrands.com^
 ||bpath.com/count.dll?
 ||brain.foresee.com^
-||branch.io/branch-latest.min.js$script,third-party
-||branch.io^*/pageview
-||branch.io^*_fingerprint_id=$third-party
+||branch.io^$third-party
 ||brandaffinity.net/icetrack/
 ||brandcdn.com/pixel/
 ||bravenet.com/counter/
@@ -89208,6 +89206,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||broadbandchoices.co.uk/track.js
 ||broadwayworld.com/regionalbug.cfm?
 ||brobible.com/?ACT
+||browser.mi-img.com^
 ||builder.io/api/v1/track
 ||bulb.76.my^
 ||bulgari.com/bulgari/wireframe_script/BulgariGa.js
@@ -101553,6 +101552,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||wkctj.baidu.com^
 ||wl.jd.com^
 ||wumii.com/images/pixel.png
+||xcar.com.cn/exp/
 ||xiaomi.com/js/mstr.js?
 ||youdao.com/cf.gif?
 ||youdao.com/imp/cac.js
@@ -101564,6 +101564,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||youku.com^*/click.php?
 ||yxdown.com/count.js
 ||zhihu-web-analytics.zhihu.com^
+||zio.xcar.com.cn^
 ||zz.bdstatic.com^
 ||avaz.ba/update/hits/
 ||jutarnji.hr/template/js/eph_analytics.js
