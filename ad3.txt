@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zThPe6oWe2qy/xUQOMbQ+w
+! Checksum: IRfysOedpAVQPGeCaCW3Gw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107181641
-! Last Modified: 2021年07月18日 16:41
+! Version: 202107181743
+! Last Modified: 2021年07月18日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21325,8 +21325,6 @@ weibo.com##.apps_PCD_reco_detail_right
 &action=js_stats&
 &action=js_stats_
 &callback=hitStats_
-&ctxId=*&pubId=*&clientDT=
-&ctxId=*&pubId=*&objId=
 &event=view&
 &EventType=Impression&
 &http_referer=$script,xmlhttprequest,domain=~facebook.com
@@ -21502,11 +21500,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .gif?ad=
 .gif?event=
 .gif?hit_
-.gif?page_refer_
-.gif?pixels=
-.gif?pixelToken=
-.gif?track_
-.gif?uri=
 .Google.Tracker.js
 .googleanalytics.js
 .googleanalytics.prod.
@@ -21564,8 +21557,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .pixel?record_
 .PixelNedstatStatistic/
 .pl?trans.gif&ref=
-.png?cpn=
-.png?uid=*&tag=
 .pt/n.gif?
 .redux-logger-
 .ro/c.gif?
@@ -21631,17 +21622,12 @@ weibo.com##.apps_PCD_reco_detail_right
 /__utm.js
 /__varnish_geoip
 /__wsm.gif
-/_bm/abd-
-/_bm/bd-
-/_bm/cbd-
-/_dts.gif?
 /_hcms/perf
 /_lib/ga.js
 /_owa.gif?
 /_sess/script.js
 /_stat/log/*
 /_stat/log_
-/_t.gif?*&u=
 /_t.gif?url=
 /_topic_stats?
 /_tracking/*
@@ -21649,7 +21635,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /A-LogAnalyzer/*
 /a-stat.
 /a.gif?
-/a.logrequest.yolx?
 /a.php?ref=
 /a/analytics/*
 /a8c-analytics.
@@ -21659,7 +21644,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /ablank.gif?
 /abp-analytics.
 /abp.gif?
-/abppx-*.gif?
 /abstat.
 /abtestInit-
 /abtshield-snippet.js
@@ -21675,7 +21659,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /accip_script.js
 /acclog.cgi?
 /account-stats/*
-/ace.*/?cookie
 /acecounter/*
 /acecounter_
 /acfp.js
@@ -21743,7 +21726,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /admantx.
 /admantx/*
 /admonitoring.
-/admp-
 /adobe-analytics-
 /adobe-analytics.
 /adobe-analytics/*
@@ -21790,7 +21772,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /advstats/*
 /adwords-conversion-tracking.
 /adwords-tracker.
-/adx/*.gifx?
 /adx_remote.
 /aegis_tracking.
 /aff_i?offer_id=
@@ -35919,6 +35900,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mms.theroot.com^
 ||modernsalon.com/includes/sc_video_tracking.js
 ||momtastic.com/libraries/pebblebed/js/pb.track.js
+||moneycontrol.com/news/services/get_comscore_pageview/
 ||moneysupermarket.com^*/ProphetInsert.js
 ||monitor.channel4.com^
 ||monitor.ebay.com^

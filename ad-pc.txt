@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LC+nzHtKJDdWOWlRF0UdbA
+! Checksum: y7c3bSJcZSoTE3Dkad3YJQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107181641
-! Last Modified: 2021年07月18日 16:41
+! Version: 202107181743
+! Last Modified: 2021年07月18日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18152,6 +18152,7 @@ _popunder+$popup
 ##.ADmid
 ##.ADouter_div
 ##.ADwidget
+##.ATF_wrapper
 ##.A__smallSuperbannerAdvert-main
 ##.AcceptableTextAds
 ##.Accordion_ad
@@ -18196,6 +18197,7 @@ _popunder+$popup
 ##.AdBoxStyle
 ##.AdBoxStyleHome
 ##.AdCaption
+##.AdCenter
 ##.AdCommercial
 ##.AdContainer-Banner
 ##.AdContainer-Sidebar
@@ -21532,6 +21534,7 @@ _popunder+$popup
 ##.adpic
 ##.adplace
 ##.adplace_center
+##.adplaceholder
 ##.adplaceholder-top
 ##.adplacement
 ##.adplate-background
@@ -25003,6 +25006,7 @@ _popunder+$popup
 ##.contentadstartpage
 ##.contentadstop1
 ##.contentadvside
+##.contentbox_ad
 ##.contentleftad
 ##.contentpage_searchad
 ##.contents-ads-bottom-left
@@ -25205,6 +25209,7 @@ _popunder+$popup
 ##.dfp-top1-container
 ##.dfp-wrapper
 ##.dfpAd
+##.dfpAds
 ##.dfpAdvert
 ##.dfp_ATF_wrapper
 ##.dfp_ad
@@ -26473,6 +26478,7 @@ _popunder+$popup
 ##.hor-ad
 ##.hor_ad
 ##.hori-play-page-adver
+##.horiAd
 ##.horisont_ads
 ##.horiz_adspace
 ##.horizontal-ad
@@ -28857,7 +28863,9 @@ _popunder+$popup
 ##.rtmad
 ##.rtmm_right_ad
 ##.runner-ad
+##.rwSideAd
 ##.rw_ad
+##.rwdArticleOuterAdBlock
 ##.s-ad
 ##.s-ads
 ##.s-ads-metrics
@@ -29887,6 +29895,7 @@ _popunder+$popup
 ##.syAd
 ##.syHdrBnrAd
 ##.sykscraper-ad
+##.symphony_ad
 ##.syndicatedAds
 ##.szoAdBox
 ##.szoSponsoredPost
@@ -53522,6 +53531,7 @@ kickasstorrents.to##.dssdffds
 designtaxi.com##.dt_rcjs
 digitaltrends.com##.dtads-slot
 googleping.com##.dtext
+indiatimes.com##.dunia-slider
 yts.mx##.durs-bordered
 daniweb.com##.dw-inject-bsa
 mygaming.co.za##.dw_focus_videos
@@ -53888,6 +53898,7 @@ allnurses.com##.medrec
 techrepublic.com##.medusa_right-rail
 2ip.me##.menu_banner
 eawaz.com##.metaslider
+moneycontrol.com##.mf_radarad
 palestinechronicle.com##.mh-header-widget-2
 investing.com##.midHeader
 newsday.com##.midPg
@@ -75621,8 +75632,6 @@ fqsousou.com,kengso.com#@#.user-share
 &action=js_stats&
 &action=js_stats_
 &callback=hitStats_
-&ctxId=*&pubId=*&clientDT=
-&ctxId=*&pubId=*&objId=
 &event=view&
 &EventType=Impression&
 &http_referer=$script,xmlhttprequest,domain=~facebook.com
@@ -75798,11 +75807,6 @@ fqsousou.com,kengso.com#@#.user-share
 .gif?ad=
 .gif?event=
 .gif?hit_
-.gif?page_refer_
-.gif?pixels=
-.gif?pixelToken=
-.gif?track_
-.gif?uri=
 .Google.Tracker.js
 .googleanalytics.js
 .googleanalytics.prod.
@@ -75860,8 +75864,6 @@ fqsousou.com,kengso.com#@#.user-share
 .pixel?record_
 .PixelNedstatStatistic/
 .pl?trans.gif&ref=
-.png?cpn=
-.png?uid=*&tag=
 .pt/n.gif?
 .redux-logger-
 .ro/c.gif?
@@ -75927,17 +75929,12 @@ fqsousou.com,kengso.com#@#.user-share
 /__utm.js
 /__varnish_geoip
 /__wsm.gif
-/_bm/abd-
-/_bm/bd-
-/_bm/cbd-
-/_dts.gif?
 /_hcms/perf
 /_lib/ga.js
 /_owa.gif?
 /_sess/script.js
 /_stat/log/*
 /_stat/log_
-/_t.gif?*&u=
 /_t.gif?url=
 /_topic_stats?
 /_tracking/*
@@ -75945,7 +75942,6 @@ fqsousou.com,kengso.com#@#.user-share
 /A-LogAnalyzer/*
 /a-stat.
 /a.gif?
-/a.logrequest.yolx?
 /a.php?ref=
 /a/analytics/*
 /a8c-analytics.
@@ -75955,7 +75951,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ablank.gif?
 /abp-analytics.
 /abp.gif?
-/abppx-*.gif?
 /abstat.
 /abtestInit-
 /abtshield-snippet.js
@@ -75971,7 +75966,6 @@ fqsousou.com,kengso.com#@#.user-share
 /accip_script.js
 /acclog.cgi?
 /account-stats/*
-/ace.*/?cookie
 /acecounter/*
 /acecounter_
 /acfp.js
@@ -76039,7 +76033,6 @@ fqsousou.com,kengso.com#@#.user-share
 /admantx.
 /admantx/*
 /admonitoring.
-/admp-
 /adobe-analytics-
 /adobe-analytics.
 /adobe-analytics/*
@@ -76086,7 +76079,6 @@ fqsousou.com,kengso.com#@#.user-share
 /advstats/*
 /adwords-conversion-tracking.
 /adwords-tracker.
-/adx/*.gifx?
 /adx_remote.
 /aegis_tracking.
 /aff_i?offer_id=
@@ -90215,6 +90207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mms.theroot.com^
 ||modernsalon.com/includes/sc_video_tracking.js
 ||momtastic.com/libraries/pebblebed/js/pb.track.js
+||moneycontrol.com/news/services/get_comscore_pageview/
 ||moneysupermarket.com^*/ProphetInsert.js
 ||monitor.channel4.com^
 ||monitor.ebay.com^
