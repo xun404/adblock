@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UqwsjSkYv4STEm07BTsVag
+! Checksum: 4CKv0zCO/ztGU4EjfKMBbg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107190739
-! Last Modified: 2021年07月19日 07:39
+! Version: 202107190940
+! Last Modified: 2021年07月19日 09:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16519,6 +16519,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30sy.com|33yq.com|39shubao.com|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugemm.com|biqugesc.com|biqusan.com|biquyi.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|damengzhu1.com|dashenxiaoshuo.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|farpop.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwtxt.net|lwxstxt.com|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qishusk.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||wangqilin.xyz^
+||wanglc.vip^
 bxwx3.org###addiv3
 bxwx3.org###bdstatic
 55shuba.com###botDiv
@@ -16572,6 +16574,7 @@ duanwenxue.com##.qgzdwx
 @@||31xiaoshuo.org/style/pxne5d.js
 @@||dzz8.com/public/ptcms/*.js?g=$domain=m.daizhuzai.com
 @@||meiwenfen.com^$xmlhttprequest,domain=520tingshu.com
+##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
 ##[class][onclick^="window.location.href"][onclick*="%AF%B4.apk"]
@@ -21338,6 +21341,7 @@ weibo.com##.apps_PCD_reco_detail_right
 &event=view&
 &EventType=Impression&
 &http_referer=$script,xmlhttprequest,domain=~facebook.com
+&mf_referrer=
 &pageReferrer=
 &ref=*&tag=
 &refer=http$script
@@ -21414,7 +21418,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .asis?Log=
 .asp?t=*&c=$image
 .aspx?trackid=
-.au/c.gif?
 .au/t.ashx?
 .be/uts/
 .beacon.min.js
@@ -21422,31 +21425,20 @@ weibo.com##.apps_PCD_reco_detail_right
 .cc/s.gif?
 .cdn-tracking.js
 .click/track?
-.cn/0.gif?
-.cn/1.gif?
-.cn/2.gif?
-.cn/b.gif?
 .cn/jc.gif?
 .cn/pv.gif?
 .cn/r.gif?
 .cn/s.gif?
 .cn/sl.gif?
-.cn/z.gif?
 .com.au/HG?hc=
 .com.com/redir?timestamp
-.com/0.gif?
-.com/1.gif?
-.com/2.gif?
-.com/3.gif?
 .com/?epl=$image,script
 .com/?livehit
 .com/_.gif?
 .com/__kl.gif?
 .com/analytics?
-.com/b.gif?
 .com/blank.aspx?
 .com/bt/s.png?b=
-.com/c.gif?
 .com/clk?
 .com/cm?ci=
 .com/cm?tid
@@ -21460,7 +21452,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .com/geo_ip
 .com/HG?
 .com/hitlog?
-.com/i.gif?
 .com/js/ga-*.js
 .com/js/ga.js
 .com/log/?
@@ -21490,21 +21481,17 @@ weibo.com##.apps_PCD_reco_detail_right
 .com/vtrack|
 .com/w.gif?
 .com/www.gif?
-.com/x.gif?
 .com/x0.gif?
-.com/z.gif?
 .content_tracking.
 .d-engine.js
 .de/h.gif?
 .de/l.gif?
 .de/o.gif?
-.de/z.gif?
 .drive-analytics.
 .eloqua.js
 .emsecure.min.js
 .EventTracking.
 .EventTrackingPlugins.
-.fr/z.gif?
 .gatracker.
 .gatracking.js
 .gif?ad=
@@ -21520,8 +21507,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .html?wpl=
 .idge/js/analytics/
 .iframetracker/
-.in/c.gif?
-.io/0.gif?
 .io/track?
 .io/w.gif?
 .it/s.gif?
@@ -21532,10 +21517,7 @@ weibo.com##.apps_PCD_reco_detail_right
 .lms-analytics/
 .me/geoip/
 .me/l.gif?
-.net/0.gif?
-.net/c.gif?
 .net/HG?hc=&hb=
-.net/i.gif?
 .net/l.gif?
 .net/p.gif?
 .net/ping.php?
@@ -21543,7 +21525,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .net/s.gif?
 .net/trck/
 .net/vtrack|
-.net/z.gif?
 .ntpagetag.
 .org/?js|
 .org/js/ga-
@@ -21570,8 +21551,6 @@ weibo.com##.apps_PCD_reco_detail_right
 .pl?trans.gif&ref=
 .pt/n.gif?
 .redux-logger-
-.ro/c.gif?
-.ru/0.gif?
 .sharecounter.$third-party
 .sitecatalyst.js
 .siteclarity.
@@ -21594,14 +21573,14 @@ weibo.com##.apps_PCD_reco_detail_right
 .tv/t.png?
 .uk/o.gif?
 .v4.analytics.
-.vn/0.gif?
 .vsTracking.
 .web-vitals-reporting.
 .webmetrics.js
 .webstats.
 .wxAdTargeting.
+/0.gif?
 /0pixel.php?
-/1.gif?n=
+/1.gif?
 /1px.gif?
 /1px.php?
 /1x1.a?
@@ -21612,7 +21591,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /1x1_imp.gif?
 /1x1p.gif?
 /1x1tracker.
+/2.gif?
 /2x2.gif?$image
+/3.gif?
 /500b-bench.jpg?
 /?dsp_uid=
 /?essb_counter_
@@ -22115,7 +22096,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
-/api/x.gif?
 /apilog?
 /apis/cpt.php?
 /apitracking.
@@ -22218,6 +22198,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /aztrack.
 /aztracker.
 /azure-perfops.
+/b.gif?
 /b/s/beacon
 /b/ss/*&aqe=
 /b/ss/*&ce=iso-8859-1&
@@ -22262,7 +22243,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /bc/clk?
 /bcbot-nomin.js
 /bcn.gif?
-/bcn/b.gif?
 /bcn?
 /bcsensor.js
 /bctrackers/*
@@ -22401,8 +22381,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /bypassmajs|
 /bypasspiphp?
 /byside_webcare.
-/c.gif?daid
-/c.gif?id=
+/c.gif?
 /c.php?r=
 /c.wrating.com/*
 /c2_count.js
@@ -22522,7 +22501,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /clear.gif?
 /Clear.HTML?ctx=
 /Clear.PNG?ctx=
-/clear/c.gif?
 /clicevent.php?
 /click-analytics.
 /click-count.
@@ -23625,10 +23603,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /hstrck-detect.
 /hubspot_tracking.
 /HuShenGangTong.js
+/i.gif?
 /i.php?i=
 /i.png?id=
-/i/b.gif?
-/i/i.gif?
 /i2a.js
 /i2yesCounter.js
 /i?_SB_stm=
@@ -23982,7 +23959,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /log.php?*http
 /log.php?id
 /log.php?owa_timestamp=
-/log/1.gif?
 /log/?pixel=
 /log/ad-
 /log/analytics
@@ -24915,7 +24891,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /RecordHit?
 /recstatsv2.
 /redirectexittrack.php?
-/redx/c.gif?
 /reelevant.js
 /ref_analytics.
 /refer-tracking.
@@ -24955,7 +24930,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /reporting/campaignresolution/?
 /request_tracker+
 /RequestTrackerServlet?
-/res/x.gif?
 /resmeter.js
 /resonance.js
 /ResonateAnalytics.
@@ -25023,7 +24997,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /rtt-log-data?
 /rtu-monitoring.
 /rubics_trk
-/rubicsimp/c.gif?
 /rudder-analytics.
 /rum-dytrc.
 /rum-telemetry/*
@@ -26429,7 +26402,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wxhawkeye.js
 /wysistat.js
 /wz_logging.
-/x/x.gif?
+/x.gif?
 /x_track.php?
 /xgemius.
 /xgemius_lv.
@@ -26471,6 +26444,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ystat.js
 /yt-track-streamer
 /YuduStatistics/*
+/z.gif?
 /z.inc.php?
 /zag.gif?
 /zagcookie.
@@ -33290,6 +33264,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tm-awx.com/felix.min.js
 ||tm.tradetracker.net^
 ||tm.vendemore.com^
+||tms.fmm.io^
 ||to.getnitropack.com^
 ||toast.com/log
 ||toast.com/sendid?
@@ -47281,6 +47256,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||zz.bdstatic.com^
 ||avaz.ba/update/hits/
 ||jutarnji.hr/template/js/eph_analytics.js
+||jslog.post.cz^
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||report.novinky.cz^
 ||stat.novinky.cz^
