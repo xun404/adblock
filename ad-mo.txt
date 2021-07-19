@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IjUAPOuz9oTWgueoMpT0Og
+! Checksum: +WdFCvG+lNBdFFCJL7ZSug
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107191842
-! Last Modified: 2021年07月19日 18:42
+! Version: 202107192101
+! Last Modified: 2021年07月19日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -79873,6 +79873,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track/visitors/?
 /track/visits/?
 /track2.php
+/track?*&event=
 /track?_event=
 /track?browserId
 /track?cb=
@@ -88062,6 +88063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||myv-img.de/m2/e?
 ||nct.ui-portal.de/gmx/gmx/s?$image,ping
 ||newelements.de/tracker/
+||nexx.cloud/play/beacon.
 ||ntmb.de/count.html?
 ||oe-static.de^*/wws.js
 ||omniture.eaeurope.eu^
@@ -100899,6 +100901,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||stargate-planet.de^*counter*/c$image,script
 ||statistics.raiffeisen.ch^
 ||statistics.riskommunal.net^
+||statistik.mitmischen.de^
 ||stats.autoscout24.ch^
 ||stats.bmw.de^
 ||stats.t-online.de/include-ivw-agof-szmng-js/
