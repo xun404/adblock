@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xTxRbshPntaLMjNKLi4iFg
+! Checksum: 7C9kGbGFxYlNBC3kLgVMlQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107191537
-! Last Modified: 2021年07月19日 15:37
+! Version: 202107191645
+! Last Modified: 2021年07月19日 16:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25075,6 +25075,8 @@ weibo.com##.apps_PCD_reco_detail_right
 /securetracker.
 /seed.gif?
 /seedtag-detector.
+/segment/api/*
+/segment/js/*
 /segmentio.js
 /segmentIoTrackingProvider.js
 /SellathonCounterService.
@@ -27843,6 +27845,7 @@ _mongo_stats/
 ||forkcdn.com^$third-party
 ||formalyzer.com^$third-party
 ||formisimo.com^$third-party
+||forter.com^$third-party
 ||fouanalytics.com^$third-party
 ||foundry42.com^$third-party
 ||fout.jp^$third-party
@@ -31775,6 +31778,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chtah.com/a/*/spacer-0.gif$third-party
 ||chtah.com^*/1x1.gif
 ||chtah.net/a/*/spacer-0.gif$third-party
+||cimage.adobe.com^
 ||circonus.com/hit?
 ||citygridmedia.com/tracker/
 ||citysearch.com/tracker/
@@ -32826,6 +32830,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.glimr.io^
 ||pixel.indieclicktv.com/annonymous/
 ||pixel.mintigo.com^
+||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
@@ -34588,11 +34593,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ai.inmdata.io^
 ||ai.iol.io^
 ||airbnb.*/tracking/
-||airfrance.com/s/?tcs=
-||airnewzealand.eu^$ping
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
-||akamai.net^$script,domain=argos.co.uk|newscientist.com|upwork.com
 ||akamai.net^*/button.clickability.com/
 ||akamaihd.net/pixelkabam/
 ||akamaihd.net^$image,domain=inquirer.net
@@ -35412,7 +35414,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=10play.com.au|allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -36749,7 +36751,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinyupload.com^*/ct_adkontekst.js
 ||tivo.com/__ssobj/track?
 ||tk.kargo.com^
-||tkpi.delta.com^
 ||tmagazine.com/js/track_
 ||tms.eharmony.ca^
 ||tms.eharmony.co.uk^
@@ -37259,10 +37260,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newegg.com/pfssl.js
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||tipsport.org/scripts/closure.js
-/^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
-||forter.com/events
-||forter.com/prop.json$ping
-||forter.com/vchk2
 ||airbnb.*/facebook_advanced_matchings?
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
@@ -37294,6 +37291,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kiehls.com^*/init.js
 ||kiva.org/r3pNVz1F/init.js
 ||lancome-usa.com^*/init.js
+||lulus.com/px/client/main.min.js
 ||madlan.co.il/o4wPDYYd/init.js
 ||nyxcosmetics.com^*/init.js
 ||octopart.com/kdRQnL15/init.js
@@ -37347,6 +37345,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sourcepoint-mms.mylifetime.com^
 ||sourcepoint.theguardian.com^
 ||sourcepoint.vice.com^
+||sourcepointcmp.bloomberg.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
 ||twch.20min.ch^
