@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P0k3ICd+17syJVrW6CdpyA
+! Checksum: 4+x4/LBREb/a7kp1eb5yRQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107191337
-! Last Modified: 2021年07月19日 13:37
+! Version: 202107191452
+! Last Modified: 2021年07月19日 14:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1875,6 +1875,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_medium_
 /ad_mini_
 /ad_mobile.
+/ad_mobile_
 /ad_mpu.
 /ad_multi_
 /ad_navigbar_
@@ -79339,6 +79340,7 @@ fqsousou.com,kengso.com#@#.user-share
 /SetSabreAnalyticsCookie.
 /setTDUID.do?
 /sfCounter/*
+/sgtracker.js
 /share/analytics?
 /shareCounts.
 /shared/sentry/*
@@ -80070,6 +80072,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tracking/tracking.
 /tracking/tracking_
 /Tracking/TrackPage
+/tracking/traffic_log
 /tracking/trk-
 /tracking/ts?
 /tracking/tynt_
@@ -88751,42 +88754,22 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fpt.shop/fa_tracking.js
 ||tracking.aita.gov.vn^
 !-----------------Individual tracking systems-----------------!
-||123rf.com/tk/
 ||1337x.to/ip3.php
-||192.com/log/
-||37signals.com/ga.js
-||3dmark.com^*/ruxitbeacon
 ||4hds.com/js/camstats.js
-||4info.com/alert/listeners/
-||6waves.com/trker/
-||99bitcoins.com/_load/
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
 ||a.huluad.com/beacons/
-||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
 ||ab-machine.forbes.com^
-||abc.net.au/counters/
-||abc.net.au^*/stats/
 ||abcnews.com/assets/dtci/js/at.js
 ||abebooks.com/timer.gif?
-||about.me/wf/open?
-||abplive.in/analytics/
+||about.me/track?
 ||academia.edu/record_hit
-||accountnow.com/SyslogWriter.ashx
-||accuradio.com/static/track/
-||accuratefiles.com/stat
 ||accuterm.com/data/stat.js
-||aclst.com/ping.php?
-||aclu.org/aclu_statistics_image.php
-||acookie.alibaba.com^
 ||acronymfinder.com/~/st/af.js
 ||activate.latimes.com/pc/caltimes/?pulse2001=
-||activity.frequency.com^
-||ad2links.com/lpajax.php?
-||adapd.com/addon/upixel/
 ||adc-js.nine.com.au^
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
@@ -88825,7 +88808,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||akamaihd.net^$image,domain=inquirer.net
 ||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alb.reddit.com^
-||alibaba.com/js/beacon_
 ||alicdn.com/AWSC/et/
 ||alicdn.com/js/aplus_*.js
 ||aliexpress.com/js/beacon_
@@ -88962,7 +88944,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||associatedcontent.com/action_cookie
 ||astrology.com/visits/
 ||atax.gamermetrics.com^
-||atax.teamxbox.com^
 ||athenatmpbeacon.theglobeandmail.ca^
 ||atlantafalcons.com/wp-content/*/metrics.js
 ||atlantis.com/_scripts/tsedge/pagemarker.gif?
@@ -89020,6 +89001,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bbc.co.uk^*/vs.js
 ||bbci.co.uk/archive_stats/
 ||bbci.co.uk^*/analytics.js
+||bdt.123rf.com^
 ||beacon-1.newrelic.com^
 ||beacon.ehow.com^
 ||beacon.examiner.com^
@@ -89113,6 +89095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.paypal.com^$script
 ||c.wort-suche.com^
 ||c.x.oanda.com^
+||c.xbox.com^
 ||c.ypcdn.com^*/webyp?rid=
 ||caller.com/metrics/
 ||candy.com/3droi/
@@ -89199,7 +89182,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/vis_opt_no_jquery.js
 ||clvk.viki.io^
 ||clyp.it^*/log^
-||cmap.alibaba.com^
 ||cmstrendslog.timesnow.tv^
 ||cnn.com/analytics/
 ||cnt.iceporn.com^
@@ -89340,7 +89322,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dl.meliacloud.com^
 ||dmcdn.net/track/$domain=dailymotion.com
 ||dmp.marketgid.com^
-||dmtracking2.alibaba.com^
 ||dmtrk.com/*/o.gif
 ||docs.github.com/events
 ||docs.google.com/stat|$xmlhttprequest
@@ -89495,7 +89476,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fark.net/imagesnoc/
 ||farmville.com/trackaction.php?
 ||farsnews.com/stcs.js.aspx?
-||fast.forbes.com^
 ||fastexercise.com/logging.js
 ||fathom.app.silverbeak.com^
 ||fathom.status.im^
@@ -89540,8 +89520,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fns.modanisa.com^*/analytics.js
 ||foodcouture.net/public_html/ra/script.php$script
 ||foodnavigator.com/tracker/
-||forbes.com/fps/cookie_backup.php?
-||forbes.com^*/track.php?
 ||forbesimg.com/assets/js/forbes/fast_pixel.js
 ||ford.com/ngtemplates/ngassets/com/forddirect/ng/newMetrics.js
 ||ford.com/ngtemplates/ngassets/ford/general/scripts/js/galleryMetrics.js
@@ -89912,7 +89890,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastpass.com/analytics2.php
 ||lastpass.com^*/analyticsjs$script,~third-party
 ||lastpass.com^*/loadanalytics.js
-||latimes.com/images/pixel.gif
 ||lcs.naver.
 ||legalmatch.com/scripts/lmtracker.js
 ||lendingtree.com/forms/eventtracking?
@@ -90781,7 +90758,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||startpage.*/do/smt?
 ||startpage.*/elp?
 ||startpage.*/pelp?
-||stat.alibaba.com^
 ||stat.dealtime.com^
 ||stat.kbs.co.kr^
 ||stat.pubhtml5.com^
@@ -91012,7 +90988,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tp.ranker.com^
 ||tqn.com/px/?
 ||tr.snapchat.com^
-||tracelog.www.alibaba.com^
 ||track.briskfile.com^
 ||track.catalogs.com^
 ||track.cbs.com^
@@ -91339,10 +91314,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wwe.com/sites/all/modules/wwe/wwe_analytics/
 ||www.google.*/imghover?$image
 ||www.imdb.*/rd/?q=
-||xbox.com/tags?
-||xbox.com^*/vortex_tracking.js
-||xda-cdn.com/analytics.js
-||xda-developers.com/ping.php
 ||xfinity.com/event/
 ||xfinity.com/prod/event/
 ||xfinity.com/z8ufpC5q/
