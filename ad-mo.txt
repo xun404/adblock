@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: peObEbPnTkQ2GaU7l0GUhg
+! Checksum: VKU7KPI2lXuS4lPyCkJDHA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107192145
-! Last Modified: 2021年07月19日 21:45
+! Version: 202107192242
+! Last Modified: 2021年07月19日 22:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -10213,6 +10213,8 @@ _popunder+$popup
 ###ad-cube-top
 ###ad-desktop-bottom
 ###ad-desktop-footer
+###ad-desktop-takeover-home
+###ad-desktop-takeover-int
 ###ad-desktop-top
 ###ad-desktop-wrap
 ###ad-discover
@@ -10388,6 +10390,8 @@ _popunder+$popup
 ###ad-plate
 ###ad-player
 ###ad-popup
+###ad-popup-home
+###ad-popup-int
 ###ad-popup1
 ###ad-position-a
 ###ad-position1
@@ -19388,6 +19392,7 @@ _popunder+$popup
 ##.ad-panel__googlead
 ##.ad-panorama
 ##.ad-panorama-outer-container
+##.ad-parallax
 ##.ad-parallax-wrap
 ##.ad-parent-hockey
 ##.ad-passback-o-rama
@@ -21429,6 +21434,7 @@ _popunder+$popup
 ##.adplacement
 ##.adplate-background
 ##.adpod
+##.adpopup
 ##.adpos-19
 ##.adpos-20
 ##.adpos-25
@@ -21681,6 +21687,8 @@ _popunder+$popup
 ##.ads-sign
 ##.ads-single
 ##.ads-site
+##.ads-skin
+##.ads-skin-mobile
 ##.ads-sky
 ##.ads-skyscraper
 ##.ads-skyscraper-container-left
@@ -27935,6 +27943,7 @@ _popunder+$popup
 ##.page-header_ad
 ##.page-pencil-ad-container-bottom
 ##.pageAdSkin
+##.pageAdSkinMobile
 ##.pageAdSkinUrl
 ##.pageAds
 ##.pageBottomGoogleAd
@@ -36703,6 +36712,7 @@ menstennisforums.com#@#.top_ads
 ||ffkdxymyji.com^
 ||ffonavzh.com^
 ||fftpzrscirdagr.com^
+||fgafkk.com^
 ||fgangstsur.club^
 ||fgaqwtr.com^
 ||fgddl9szdof7.com^
@@ -39477,6 +39487,7 @@ menstennisforums.com#@#.top_ads
 ||newmayads.com^
 ||newnovads.com^
 ||newoctads.com^
+||news-easy.org^
 ||news-headlines.co^
 ||news-jupiter.com^
 ||news-mars.com^
@@ -40518,6 +40529,7 @@ menstennisforums.com#@#.top_ads
 ||premium-members.com^
 ||premium4kflix.club^
 ||premium4kflix.top^
+||premiumbros.com^
 ||premiumvertising.com^
 ||prepairoo.club^
 ||preparecanyonpendulous.com^
@@ -40783,6 +40795,7 @@ menstennisforums.com#@#.top_ads
 ||qbddhjrwe.com^
 ||qbgrlltue.com^
 ||qbkzvophvva.com^
+||qcdnxq.com^
 ||qd3u5eeuos.com^
 ||qdatasales.com^
 ||qdayipnsir.com^
@@ -40852,6 +40865,7 @@ menstennisforums.com#@#.top_ads
 ||qudcsysviowa.com^
 ||questionsunpleasantaborigines.com^
 ||qugdtlps.com^
+||quicklisti.com^
 ||quickorange.com^
 ||quiptenrice.casa^
 ||quite-bag-seed-catch.xyz^
@@ -88756,82 +88770,38 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.nine.com.au^
 ||adf.ly/omni*.swf
 ||adguard.com/-/event/
-||adidas.com/analytics/
-||adidas.com^*/analytics/
-||adroll.com/pixel/
 ||adv.drtuber.com^
 ||advancedmp3players.co.uk/support/visitor/index.php?
-||advancedtracker.appspot.com^
-||advfn.com/space.gif?
-||affiliate.resellerclub.com^
-||affiliates.genealogybank.com^
-||affiliates.londonmarketing.com^
-||affiliates.myfax.com^
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
-||afterdawn.com/views.cfm?
-||agendize.com/analytics.js
-||agg.inquisitr.com^
-||agg.lifedaily.com^
-||aggregator.inquisitr.com^
-||agoda.net/js/abtest/analytics.js
-||ai.inmdata.io^
 ||ai.iol.io^
 ||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
 ||akamai.net^*/button.clickability.com/
 ||akamaihd.net/pixelkabam/
-||akamaihd.net^$image,domain=inquirer.net
-||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alb.reddit.com^
 ||alicdn.com/AWSC/et/
-||alicdn.com/js/aplus_*.js
-||aliexpress.com/js/beacon_
 ||alipay.com/web/bi.do?ref=
 ||allaboutberlin.com/whoisthere.js
-||allcarpictures.com/stat/
-||allexperts.com/px/
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
-||alljapanesepass.com/t/
-||allmodern.com^*/sessioned_reqs.asp?
 ||als-svc.nytimes.com^
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
-||amazon.*/batch/*/oe/$ping
-||amazon.*/batch/*uedata=$image
-||amazon.*/gp/r.html?
-||amazon.*/uedata/
 ||amazon.com/1/remote-weblab-triggers/
-||amazon.com/clog/
-||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
-||amazon.com/gp/yourstore/recs/
-||amazon.com^*/amazon-clicks/
 ||amazon.com^*/events/$domain=~aws.amazon.com
 ||amazon.com^*/impress.html
-||amazon.com^*/token/
-||amazon.com^*/vap-metrics/
-||amazonaws.com/beacon/vtpixpc.gif?
-||amazonaws.com^*/pzyche.js
-||amcnets.com/cgi-bin/true-ip.cgi
-||amd.com/us/as/vwo/vwo_
 ||americanexpress.com/beacon
-||americanexpress.com/monitoring/
 ||amnesty.org/collect/
-||amy.gs/track/
-||analytic.imlive.com^
 ||analytics-proxy.springboard.com^
 ||analytics.adfreetime.com^
-||analytics.amplitude.com^$domain=~analytics.amplitude.com
 ||analytics.archive.org^
-||analytics.bloomberg.com^
 ||analytics.brave.com^
 ||analytics.chase.com^
 ||analytics.designspiration.com^
 ||analytics.ecosia.org^
-||analytics.eip.telegraph.co.uk^
 ||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
@@ -89170,6 +89140,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coherentpath.com/tracker/
 ||coinmarketcap.com/static/cloud/js/le.min.js
 ||collarity.com/ucs/tracker.js
+||collect.alipay.com^
 ||collector-cdn.github.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.fiverr.com^
