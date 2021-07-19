@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BhvB1UYkgI1FJTb9qObkkg
+! Checksum: RpoeRUHX18fqJSSGFfs2hw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107200147
-! Last Modified: 2021年07月20日 01:47
+! Version: 202107200251
+! Last Modified: 2021年07月20日 02:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9869,6 +9869,8 @@ _popunder+$popup
 ###LM_ad_unit
 ###LS-google-ad
 ###LargeRectangleAd
+###LayoutBottomAdBox
+###LayoutHomeAdBoxBottom
 ###LeaderTop-ad
 ###LeaderboardAdvertising
 ###LeaderboardNav_ad_placeholder
@@ -9930,6 +9932,7 @@ _popunder+$popup
 ###PhotoAd1
 ###PostSponsorshipContainer
 ###PreRollAd
+###PromotionAdBox
 ###PushDownAd
 ###RHS2Adslot
 ###RadAdSkyscraper
@@ -18473,6 +18476,10 @@ _popunder+$popup
 ##.LargeOuterBoxAdsense
 ##.LargeRightAd
 ##.LastAd
+##.LayoutBottomAds
+##.LayoutHomeAds
+##.LayoutHomeAdsAd
+##.LayoutPromotionAdsNew
 ##.LazyLoadAd
 ##.LeaderAd
 ##.LeaderAdvertisement
@@ -31860,6 +31867,7 @@ _popunder+$popup
 ##img[alt^="Fuckbook"]
 ##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
 ##span[data-component-type="s-ads-metrics"]
+##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
 ###mplayer-embed
