@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cvqwWgRJuAilKpjb6OXSfA
+! Checksum: mGifX06Wo4uuCjJ2UB7/3g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107212141
-! Last Modified: 2021年07月21日 21:41
+! Version: 202107212241
+! Last Modified: 2021年07月21日 22:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12440,6 +12440,7 @@ _popunder+$popup
 ###ads_mads_r2
 ###ads_medrect
 ###ads_notice
+###ads_overlay
 ###ads_page_top
 ###ads_pave
 ###ads_place
@@ -14450,6 +14451,7 @@ _popunder+$popup
 ###desktop-aside-ad-container
 ###desktop-atf_sidebar_sticky
 ###desktop-unrec-ad
+###desktop_ads_block
 ###detail_page_vid_topads
 ###devil-ad
 ###dfp-ad-1
@@ -16110,6 +16112,7 @@ _popunder+$popup
 ###mobileAdContainer
 ###mobileAd_holder
 ###mobile_ad_spot_header
+###mobile_ads_block
 ###mochila-column-right-ad-300x250
 ###mod-ad-gemini-rm-1
 ###mod-ad-msu-1
@@ -53457,6 +53460,7 @@ androidsage.com##.code-block-5
 geekspin.co,thedriven.io##.code-block-7
 getdroidtips.com##.code-block-8
 androidsage.com##.code-block-9
+estnn.com##.code-block-label
 link-base.org##.col-lg-12
 roseindia.net##.col-md-4
 tineye.com##.col-md-4.sidebar
@@ -53590,6 +53594,7 @@ newagebd.net##.editorialMid
 experts-exchange.com##.eeAD
 notebooks.com##.efbleft
 ctvnews.ca##.election-leaderboard
+estnn.com##.elementor-widget-wp-widget-ai_widget
 onmsft.com##.enhanced-text-widget
 kupondo.com##.entry-content > .row
 technipages.com##.entry-content > div
@@ -65569,6 +65574,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||baidu.com/forum/pic/item/4610b912c8fcc3ce4fb4db858545d688d43f200b.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
@@ -71180,6 +71186,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement_ads_$domain=tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
+@@/adview_pic_$domain=1090ys2.com
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
@@ -101150,6 +101157,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||stat.novinky.cz^
 ||analytics.rambla.be^
 ||bol.com/tracking/
+||folderz.nl/clickstream/
 ||klik.nrc.nl/ping?
 ||logs.ggweb.nl^
 ||marktplaats.nl/add_counter_image.
