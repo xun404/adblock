@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FRQZa1laJY57qWuwSvn1zw
+! Checksum: M+Xo8k1iS+6+EER4s+MymA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107220145
-! Last Modified: 2021年07月22日 01:45
+! Version: 202107220249
+! Last Modified: 2021年07月22日 02:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18586,6 +18586,7 @@ _popunder+$popup
 ##.RightRailTop300x250Ad
 ##.RightSponsoredAdTitle
 ##.RightTowerAd
+##.SAAG-promoAdContainer
 ##.SBAArticle
 ##.SBABottom
 ##.SBABottom1
@@ -90230,7 +90231,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||playstation.com/beacon/
 ||playstation.net/event/
 ||plentyoffish.com/tracking.js
-||pnc.com/content/
 ||pnet.co.za/js/ga.js
 ||pocket-lint.com/media/pf304.js
 ||pokernews.com/track-views.php?
@@ -102100,7 +102100,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 !---------- French ----------
 @@||actiris.be/urchin.js
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.fr
-@@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|icimusique.ca|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
+@@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
