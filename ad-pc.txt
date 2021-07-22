@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B4Fak+W2eHGair3hD3NUew
+! Checksum: 0t9my43G3JODPnJ3asKcIA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107220944
-! Last Modified: 2021年07月22日 09:44
+! Version: 202107221049
+! Last Modified: 2021年07月22日 10:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -58030,6 +58030,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.wrapper > A[target="_blank"] > .ads
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -65583,6 +65584,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||4399sj.com^*/mask-ad
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 mamecn.com##.jjMain_bg
@@ -71151,6 +71153,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||4399sj.com^*/adview_pic_
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
