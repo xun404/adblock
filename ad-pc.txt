@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: g5xpqAOxSRoMTP/vh1hfMA
+! Checksum: 7WtfwGNj35vWJFwcdC8KHw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107221537
-! Last Modified: 2021年07月22日 15:37
+! Version: 202107221642
+! Last Modified: 2021年07月22日 16:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54549,7 +54549,6 @@ audiobookbay.nl##[href^="/dl-now"]
 nzbindex.com##[href^="/i/c/"]
 steroid.com##[href^="/out.php"]
 myabandonware.com##[href^="/visual/r-2/"]
-elitepvpers.com##[href^="https://aimexcheats.com/"]
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
 coingolive.com##[href^="https://bitpreco.com/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
@@ -54561,10 +54560,8 @@ headfonics.com##[href^="https://headfonics.com/linkout/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
 kreationnext.com##[href^="https://kreationnext.com/servers-and-hosting/"]
 manganelo.com##[href^="https://oackoubs.com/"]
-elitepvpers.com##[href^="https://pasino.com/"]
 analyticsindiamag.com##[href^="https://praxis.ac.in/"]
 analyticsindiamag.com##[href^="https://programs.upgrad.com/"]
-elitepvpers.com##[href^="https://proofcore.io/"]
 highshortinterest.com##[href^="https://tinyurl.com/"]
 cnx-software.com##[href^="https://url.cnx-software.com/"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
@@ -54628,7 +54625,10 @@ twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
 himovies.to##a[href="https://sflix.to/"]
 apkpure.com##a[href="https://www.macblurayplayer.com/spyhunter-malware-removal-windows.htm"]
+elitepvpers.com##a[href] > img[src][height]
+elitepvpers.com##a[href] > img[src][width]
 techporn.ph##a[href][target*="blank"]
+elitepvpers.com##a[href][target*="blank"] > img[src]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 lightreading.com##a[href^="/lg_redirect.asp?piddl_lgid_docid="]
 tehrantimes.com##a[href^="/redirect/ads/"]
@@ -54814,9 +54814,9 @@ prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
 german-way.com,power987.co.za,qsaltlake.com,tfetimes.com##img[height="250"]
 newyorkyimby.com##img[height="280"]
 ciiradio.com,hapskorea.com,thetruthwins.com##img[height="300"]
-pointblanknews.com,sharktankblog.com##img[height="60"]
+elitepvpers.com,pointblanknews.com,sharktankblog.com##img[height="60"]
 newswireni.com,power987.co.za##img[height="600"]
-airplaydirect.com,economicconfidential.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
+airplaydirect.com,economicconfidential.com,elitepvpers.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
 windycitymediagroup.com,windycitytimes.com##img[name="Sponsor"]
 modelhorseblab.com##img[name="js_ad"]
 forum.blackhairmedia.com##img[src*="/?AdID="]
@@ -54832,6 +54832,7 @@ boxthislap.org##img[width="300px"]
 independent.co.ug##img[width="320"]
 chat-avenue.com,flashx.cc,flashx.co,flashx.pw,forum.gsmhosting.com,themediaonline.co.za,topprepperwebsites.com##img[width="468"]
 thedailysheeple.com##img[width="560"]
+elitepvpers.com##img[width="600"]
 autoaction.com.au,cryptoreporter.info,irishcatholic.com##img[width="728"]
 boxthislap.org##img[width="728px"][height="90px"]
 dailyuploads.net##input[value^="Download From Server"]
@@ -61381,7 +61382,7 @@ _yad_jsonp_
 ||9999961.com/JS/daohang.js
 ||9999961.com/JS/lianmeng.js
 ||999meiju.com/js/tj
-||99danji.com/otherhtml/
+||99danji.com/kchtml/
 ||99down.com/index.php?m=poster&
 ||99kubo.tv/static/img/adsfree.png
 ||99mst.com/upfiles/adv/main02.jpg
@@ -89099,6 +89100,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.prod.expedia.com^
 ||collector.statowl.com^
 ||collector.xhamster.com^
+||collector.xhamster.desi^
 ||collector.xhamster2.com^
 ||colvk.viki.io^
 ||confiant.msn.com^
@@ -102749,7 +102751,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||jishulink.com/images/activity/invite_
 ||codenong.com/c1.js
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
+||olevod.com/template/conch/asset/js/hlhtml.js
 !------------------------Specific element hiding rules------------------------!
+360kan.com##.eb-mini
+66law.cn##.consult-bottom-fixed
+ifeng.com,~mall.ifeng.com##A[href*="mall.ifeng.com"]
 tgbus.com###guide-download
 pcbaby.com.cn###jpopWinBottom
 zhideqiang.com##A[href*="quan.zhideqiang.com"]
