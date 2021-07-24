@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R9GMOyhF1Ri3dCu0p1bWGQ
+! Checksum: deRMMf6vlCi8x1zVGO2QOg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107242347
-! Last Modified: 2021年07月24日 23:47
+! Version: 202107250101
+! Last Modified: 2021年07月25日 01:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -8997,6 +8997,7 @@ _yad_jsonp_
 ||toutiaoimg.com^$domain=1024x6.com
 ||u3c3.org/3.png
 ||u3c3.org^*.gif
+||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 soft-down.net##.box-top-xiazai
@@ -18744,7 +18745,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
 !#onemanhua.com
-@@.com/js/$domain=cocomanhua.com
+@@.com/js/*.js$domain=cocomanhua.com
 @@||cocomanhua.com^$generichide
 ||cocomanhua.com/sw.js
 !#playno1.club
