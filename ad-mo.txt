@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 57/2rvcayXB6f+YQD+QBrQ
+! Checksum: CuuaL3AWUxxQNeWHMtO+wQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107241250
-! Last Modified: 2021年07月24日 12:50
+! Version: 202107241337
+! Last Modified: 2021年07月24日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17317,6 +17317,7 @@ _popunder+$popup
 ###sticky-ad-bottom
 ###sticky-ad-container
 ###sticky-ad-header
+###sticky-ads-top
 ###sticky-footer-ad
 ###sticky-rail-ad
 ###sticky-top-ad-spacer
@@ -24149,6 +24150,7 @@ _popunder+$popup
 ##.block__advertising-content
 ##.block__advertising-header
 ##.block_ad
+##.block_ad1
 ##.block_ad303x1000_left
 ##.block_ad303x1000_right
 ##.block_ad_floating_bar
@@ -30764,6 +30766,7 @@ _popunder+$popup
 ##.wnMultiAd
 ##.wnad
 ##.worldplus-ad
+##.wp-ads-target
 ##.wp-block-tpd-block-tpd-ads
 ##.wp125_write_ads_widget
 ##.wp125ad
@@ -53044,6 +53047,7 @@ daijiworld.com##.a2
 supercheats.com##.a300
 localtiger.com##.a9gy_lt
 opensubtitles.org##.a_1.a.p
+informer.com##.aa-728
 ncomputers.org,servertest.online##.ab
 imdb.com##.ab_zergnet
 slickdeals.net##.abc
@@ -53101,6 +53105,7 @@ iamwire.com##.adr
 1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,browardpalmbeach.com,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,dummies.com,energyforecastonline.co.za,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,idiva.com,indiatimes.com,knowyourmeme.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,miaminewtimes.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,mypaper.sg,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,phoenixnewtimes.com,roadaheadonline.co.za,russia-insider.com,russian-faith.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tcm.com,tech2.com,tehrantimes.com,tellerreport.com,thecatholicuniverse.com,thedailysheeple.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,westword.com,y8.com,yummy.ph##.ads
 roblox.com,spotify.com##.ads-container
 giveawayoftheday.com##.ads_wrap
+informer.com##.adsbygoogle
 looktothestars.org,nintandbox.net,plurk.com,tolonews.com##.adsense
 search.b1.org##.adslabel
 miamitodaynews.com##.adtext
@@ -53896,6 +53901,7 @@ vg247.com##.low-leader-container
 tigerdroppings.com##.lowLead
 bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
+si.com##.m-balloon-header--spacer
 politifact.com##.m-billboard
 aol.com##.m-jac-ad
 euronews.com##.m-object--is-branded
@@ -79420,6 +79426,7 @@ fqsousou.com,kengso.com#@#.user-share
 /rum_cmp?
 /rumstat.
 /rumtag.
+/run/perf
 /runtimejs/intercept/*
 /ruxitagentjs_
 /rwtag.gif?
@@ -81375,6 +81382,7 @@ _mongo_stats/
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
+||r42tag.com^
 ||sbgsodufuosmmvsdf.info^
 ||site24x7rum.eu^
 ||truffle.bid^
@@ -86571,6 +86579,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.jokerly.com^
 ||events.jotform.com^
 ||events.launchdarkly.com^$third-party
+||events.mapbox.com^
 ||events.matterport.com^
 ||events.medio.com^
 ||events.ocdn.eu^
@@ -89844,7 +89853,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rte.ie/player/playertracker.js
 ||rtn.thestar.com^
 ||rum.kobo.com^
-||rumble.com/l/$image
+||rumble.com/l/
 ||runnersworld.com^*/universalpixel.html
 ||russellgrant.com/hostedsearch/panelcounter.aspx
 ||rv.modanisa.com^$script
@@ -90750,7 +90759,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zylom.com/pixel.jsp
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
-||jeremiahlee.com/p/js/script.js
+||jeremiahlee.com/fanboynz.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
 ||substation.confection.io^
@@ -90893,10 +90902,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twch.20min.ch^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 /yozons-lib/*$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
-://media.*/escenic$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
-://media.*/micb.js|$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 ://media.*/misites/$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
-/^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||aerlingus.com/ahktqsewxjhguuxexhr.js
 ||greenmangaming.com/omnopfddrdlevbbh.js
