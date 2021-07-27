@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 76JMvMNJrpt+6IxngOK6uw
+! Checksum: O0HixRLIkB0nX/ow7s6pBA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107271937
-! Last Modified: 2021年07月27日 19:37
+! Version: 202107272100
+! Last Modified: 2021年07月27日 21:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51830,8 +51830,8 @@ menstennisforums.com#@#.top_ads
 ||overbuff.com/a.js
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
-/^https?:\/\/.*techpowerup\.com\/[a-z0-9].{1,3}\/.{3,7}/$image,domain=techpowerup.com
-/^https?:\/\/.*tpucdn\.com\/[a-z0-9].{1,3}\/.{3,20}/$image,domain=techpowerup.com
+/^https?:\/\/.*techpowerup\.com\/[a-z0-9\d\D].{1,3}\/.{3,7}/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D].{1,3}\/.{3,20}/$image,domain=techpowerup.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
@@ -54662,7 +54662,6 @@ medicalnewstoday.com##[data-empty="true"]
 washingtonpost.com##[data-sc-c="adslot"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 gadgetsnow.com##[data-type="mtf"]
-techpowerup.com##[data-width]
 myabandonware.com##[data-x725-ad]
 naturalnews.com##[href*="/WBA-"]
 naturalnewsblogs.com##[href*="/WBA/"]
@@ -65775,6 +65774,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||baidu.com/forum/pic/item/42a98226cffc1e17be150f845d90f603728de9d9.jpg
+||yyrtv.com/static/js/dsp.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
