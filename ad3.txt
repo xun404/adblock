@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KbaANwnc3UbRbkGLT61TWA
+! Checksum: DbdGgQmT3hXp9lPoKb6c/Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107282353
-! Last Modified: 2021年07月28日 23:53
+! Version: 202107290541
+! Last Modified: 2021年07月29日 05:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -35580,6 +35580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.microsoft.com^$xmlhttprequest
 ||target.nationwide.com^
 ||target.nejm.org^
+||targeting.washpost.nile.works^
 ||targetspot.com/track/
 ||tarot.com/stats/
 ||taskulu.com/mtc/event
@@ -46809,7 +46810,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.com/geolocation.gif$domain=welt.de

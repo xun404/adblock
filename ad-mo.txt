@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EI/EasrBNyw0nfTB1twvgg
+! Checksum: IaNcVGRq67oLHvZowqleyg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107290249
-! Last Modified: 2021年07月29日 02:49
+! Version: 202107290541
+! Last Modified: 2021年07月29日 05:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32617,6 +32617,7 @@ accounts.google.com,staircase.pl#@#.adwords
 consumerist.com#@#.after-post-ad
 thisismoney.co.uk#@#.article-advert
 deluxemusic.tv#@#.article_ad
+adeam.com#@#.atf-wrapper
 jiji.ng#@#.b-advert
 rubtech.xyz#@#.banner-468x60
 pbs.org#@#.banner-ad
@@ -52881,6 +52882,7 @@ washingtonpost.com###slug_leaderboard
 footballtransfertavern.com###snack_ldb
 ghacks.net###snhb-snhb_ghacks_bottom-0
 soccer24.co.zw###soccer24-ad
+wcny.org###soliloquy-12716
 toumpano.net###sp-feature
 toumpano.net###sp-right
 searchenginejournal.com###spcat_ifr
@@ -53861,6 +53863,7 @@ tripadvisor.com##.iab_medRec
 infobetting.com##.ibBanner
 ice.hockey##.ice_ner
 ice.hockey##.ice_werbung
+gamepressure.com##.if-no-baner
 pocket-lint.com##.im-desktop
 intomobile.com##.im_970x90
 searchenginejournal.com##.img-mmax-100
@@ -54568,8 +54571,10 @@ coinmarketcap.com##[class^="sponsoredMark_"]
 torlock.com##[class^="wrn"]
 medicalnewstoday.com##[data-ad]
 medicalnewstoday.com##[data-empty="true"]
+washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-sc-c="adslot"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
+washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
 myabandonware.com##[data-x725-ad]
 naturalnews.com##[href*="/WBA-"]
@@ -90017,6 +90022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.microsoft.com^$xmlhttprequest
 ||target.nationwide.com^
 ||target.nejm.org^
+||targeting.washpost.nile.works^
 ||targetspot.com/track/
 ||tarot.com/stats/
 ||taskulu.com/mtc/event
@@ -101246,7 +101252,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.com/geolocation.gif$domain=welt.de
