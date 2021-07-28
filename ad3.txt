@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KTQjvj7y8n7B5Rhj6Oa06Q
+! Checksum: 4MWOx9qpcIRlRsg+ijUSDA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107281337
-! Last Modified: 2021年07月28日 13:37
+! Version: 202107281452
+! Last Modified: 2021年07月28日 14:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22673,6 +22673,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /client-metrics/?target
 /client_pathlog.asp?
 /clientdatacollector/*
+/clientEventLog/*
 /clientlib-analytics-
 /clientlibs/analytics.
 /clientlibs/ga.js
@@ -27077,6 +27078,7 @@ _mongo_stats/
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||ldnlyap.com^
 ||lltrck.com^
 ||loloclicks.biz^
 ||mors22.com^
@@ -28712,6 +28714,7 @@ _mongo_stats/
 ||nr7.us^$third-party
 ||nrich.ai^$third-party
 ||ns1p.net^$third-party
+||ns8.com^$third-party
 ||ns8ds.com^$third-party
 ||nstracking.com^$third-party
 ||nuconomy.com^$third-party
@@ -29133,6 +29136,7 @@ _mongo_stats/
 ||segment.com^$third-party
 ||segment.io^$third-party
 ||segmentify.com^$third-party
+||segmetrics.io^$third-party
 ||selaris.com^$third-party
 ||selectmedia.asia^$third-party
 ||sellebrity.com^$third-party
@@ -29494,6 +29498,7 @@ _mongo_stats/
 ||trafficguard.ai^$third-party
 ||trafficjoint.com^$third-party
 ||trafficregenerator.com^$third-party
+||trafficroots.com^$third-party
 ||trafic.ro^$third-party
 ||trail-web.com^$third-party
 ||trailheadapp.com^$third-party
@@ -31952,6 +31957,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cmail19.com/t/$image,third-party
 ||cmmeglobal.com/evt?
 ||cmmeglobal.com^*/page-view?
+||cnetcontent.com/jsc/h.js
 ||cnetcontent.com/log?
 ||cnevids.com/metrics/
 ||cnnx.io^*/tracker.js
@@ -34790,6 +34796,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.x.oanda.com^
 ||c.xbox.com^
 ||c.ypcdn.com^$domain=yellowpages.com
+||campsaver.com/nelmio-js-logger/
 ||canstockphoto.com/monitor/
 ||canstockphoto.com/server.php?rqst=track
 ||capitalone.com/collector/
@@ -34919,6 +34926,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/ct.php
 ||facebook.com/search/web/instrumentation.php?
 ||facebook.com/xti.php?
+||fanatics.com/api/track
+||fansedge.com/api/track
 ||fansshare.com/t.gif
 ||fastexercise.com/logging.js
 ||fathom.app.silverbeak.com^
@@ -35118,6 +35127,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newser.com/utility.aspx?
 ||newzit.com/setABframe.html
 ||nextdoor.com/events/
+||nflshop.com/api/track
 ||nhk.jp^*/bc.gif?
 ||nm.newegg.com^
 ||noodle.backmarket.io^
@@ -35172,6 +35182,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||princetonreview.com/logging/
 ||privacy-api.9gag.com^
 ||privacyfriendly.netlify.app^
+||privacypolicies.com/track/
 ||publish0x.com/www.google-analytics.com/analytics.js
 ||quibids.com/marketing/pixels/
 ||quickmeme.com/tracker/
@@ -36234,6 +36245,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||auctionzip.com/eKtvxkQ2/init.js
 ||bloomberg.com/8FCGYgk4/init.js
 ||booktopia.com.au/Ns7aBMIv/init.js
+||build.com/2Ztkihy4/init.js
 ||carbon38.com/A44kxi5a/init.js
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||couchsurfing.com/bEcn7fQX/init.js
@@ -46559,6 +46571,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||starbucks.ca/weblx/static/optimizely.$script
 @@||starbucks.com/weblx/static/optimizely.$script
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
