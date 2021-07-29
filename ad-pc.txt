@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1fu/WCFRrHh93tiBgVU8Ww
+! Checksum: qDDZuwEVA6vqVsiQ3tAy5Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107291537
-! Last Modified: 2021年07月29日 15:37
+! Version: 202107291842
+! Last Modified: 2021年07月29日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51857,7 +51857,7 @@ menstennisforums.com#@#.top_ads
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
 /^https?:\/\/.*techpowerup\.com\/[a-z0-9\d\D].{1,3}\/.{3,7}/$image,domain=techpowerup.com
-/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D].{1,6}\/.[a-zA-Z0-9\d\D]{3,7}/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D]{1,6}\/[a-z0-9_-]{5,14}/$image,domain=techpowerup.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
@@ -89436,6 +89436,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dcf.espn.com/privacy/
 ||dd.lendup.com^
 ||dealnews.com/lw/ul.php
+||deepl.com/php/backend/clientState.php?
 ||deepl.com/web/statistics
 ||deliver.ptgncdn.com^
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
