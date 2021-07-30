@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /8V6JEGVeUt60P7LT+yvFQ
+! Checksum: EWIlJi3EUsQDHqKmD9hOJg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107301451
-! Last Modified: 2021年07月30日 14:51
+! Version: 202107301743
+! Last Modified: 2021年07月30日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4258,7 +4258,6 @@ tieba.baidu.com##.tuijian-wrap
 /annonser.
 /annonser/*$domain=~billink.no
 /announce/adv/*
-/anyad.js
 /ape-ad-
 /api-ads.
 /api.ad.
@@ -7801,7 +7800,6 @@ tieba.baidu.com##.tuijian-wrap
 =adunit&
 =advanced-ads-
 =advert/
-=advertiser.
 =advertiser/
 =advertorial&$domain=~linkpizza.com
 =adView&$domain=~adview.online
@@ -52002,7 +52000,7 @@ menstennisforums.com#@#.top_ads
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
 /^https?:\/\/.*techpowerup\.com\/[a-z0-9\d\D].{1,3}\/.{3,7}/$image,domain=techpowerup.com
-/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D]{7,}\/[a-z0-9]{5,14}/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D]{1,2}\/[a-z0-9]{5,14}/$image,domain=techpowerup.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
