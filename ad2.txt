@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lv/CVw0+PDRz4oU/e6KmBw
+! Checksum: J0DWb1Pyd+GgIAVkRsMQOw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202107302347
-! Last Modified: 2021年07月30日 23:47
+! Version: 202107310102
+! Last Modified: 2021年07月31日 01:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -14583,6 +14583,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||5w8.fun/myads/img/*.gif
+@@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -14712,8 +14714,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||58huanbao.com/skin/defaultcs2660/images/ad
 @@||590103.idv.tw/advertisement.js
 @@||5qidgde.com^$generichide
-@@||5w8s.com/myads/img/otherwp.gif
-@@||5w8s.com^*/thunder$image
 @@||61.164.108.184/tb/*.gif
 @@||70.86.24.120:8060/*/
 @@||75.125.41.29:8080/*/
