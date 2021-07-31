@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SG333QuSOPrfhIUiHCkw/w
+! Checksum: 0FivED3+pzYygbgB9OdumQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107311337
-! Last Modified: 2021年07月31日 13:37
+! Version: 202107311537
+! Last Modified: 2021年07月31日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31942,6 +31942,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clnk.me/_t.gif?
 ||cloudapp.net/l/
 ||clouderrorreporting.googleapis.com^
+||cloudflare.com/cdn-cgi/trace
 ||cloudfront-labs.amazonaws.com^
 ||cloudfront.net*/keywee.min.js
 ||cloudfront.net*/sp.js|
@@ -46025,6 +46026,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||glenat.com^*/static/analytics.js$script,~third-party
+@@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||humaninterest.com/api/analytics/$script,~third-party
