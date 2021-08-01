@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GJ9sxUqnNvhh/elVdjTnHA
+! Checksum: 2qm7om4lSE5FNG7EM7UwzQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108011144
-! Last Modified: 2021年08月01日 11:44
+! Version: 202108011250
+! Last Modified: 2021年08月01日 12:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -65978,6 +65978,10 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+chunyuyisheng.com##.ad-modal-left
+chunyuyisheng.com###ad_overlay
+chunyuyisheng.com###ad_modal
+chunyuyisheng.com##.ui-grid + .fixed-layer
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -77081,6 +77085,7 @@ fqsousou.com,kengso.com#@#.user-share
 /batch.gif?
 /batch/1/OE/*
 /batch/1/OP/*
+/batch/action/_:
 /baynote-$script
 /baynote.
 /baynote/*
@@ -79951,6 +79956,7 @@ fqsousou.com,kengso.com#@#.user-share
 /SEMTracking.
 /send-impressions.html
 /sendLogs?cid
+/sensor.modern.ncl.
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
@@ -79981,6 +79987,7 @@ fqsousou.com,kengso.com#@#.user-share
 /session-hit.
 /session-tracker/tracking-
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
+/session/referer
 /session/update-beacon
 /sessioncam.min.$script
 /sessioncam.recorder.js
@@ -85461,6 +85468,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prnetwork.de^$third-party
 ||productsup.com^$third-party
 ||prudsys-rde.de^$third-party
+||ptadsrv.de^$third-party
 ||r.movad.de^$third-party
 ||rank-power.com^$third-party
 ||rank4all.eu^$third-party
@@ -99491,6 +99499,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !-----------------International individual tracking systems-----------------!
 ||adtm.chip.de^
 ||analytics.moviepilot.de^
+||arlt.com/analytics/
 ||as.mirapodo.de^
 ||as.mytoys.de^
 ||as.saechsische.de^
