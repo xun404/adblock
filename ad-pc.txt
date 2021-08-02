@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 02Rw62MdJtGw19eROaknnA
+! Checksum: 7kYVwkX8Ze3HqXU/yolFPQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108021647
-! Last Modified: 2021年08月02日 16:47
+! Version: 202108021743
+! Last Modified: 2021年08月02日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -45642,8 +45642,7 @@ menstennisforums.com#@#.top_ads
 ||gooblesdd.com^$third-party
 ||goodadvert.ru^$third-party
 ||goodtag.it^$third-party
-||googletagservices.com/tag/js/gpt_$third-party
-||googletagservices.com/tag/static/$third-party
+||googletagservices.com^$third-party
 ||googletrackmanager.com^$third-party
 ||goraps.com^$third-party
 ||goreleetren.com^$third-party
@@ -50188,7 +50187,6 @@ menstennisforums.com#@#.top_ads
 ||googlesyndication.com^*/click_to_buy/$object,third-party
 ||googlesyndication.com^*/domainpark.cgi?
 ||googlesyndication.com^*/simgad/
-||googletagservices.com/dcm/dcmads.js
 ||gopjn.com/b/$third-party
 ||gopjn.com/i/$third-party
 ||gotraffic.net^*/sponsors/
@@ -56379,14 +56377,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||friends.ponta.jp/app/assets/images/$~third-party
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
-@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gentside.com|pccomponentes.com|vogue.de|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
-@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
+@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gamestar.de|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
@@ -77790,6 +77788,7 @@ fqsousou.com,kengso.com#@#.user-share
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
+/dynatrace-
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -86167,6 +86166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||addthiscdn.com/live/
 ||addthisedge.com/live/
 ||addtoany.com/menu/transparent.gif
+||adf.ly/js/link-converter.js
 ||adfox.yandex.ru^
 ||adlog.com.com^
 ||ads-trk.vidible.tv^
@@ -86943,6 +86943,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ensighten.com/error/e.php?
 ||epimg.net/js/gdt/
 ||epl.paypal-communication.com^$script
+||epnt.ebay.com^
 ||epromote.co.za/track/
 ||erne.co/tags?
 ||errors.snackly.co^
@@ -89119,6 +89120,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
 ||rlog.popin.cc^
+||s.dc-tag.jp^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||sankei-digital.co.jp/log?
 ||sankei.co.jp/js/privacy/sando.js
@@ -89405,6 +89407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advancedmp3players.co.uk/support/visitor/index.php?
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
+||agoda.com/api/pixel/
 ||ai.iol.io^
 ||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
@@ -100669,6 +100672,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
+@@||getjad.io/library/$script,domain=gamestar.de
+@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
