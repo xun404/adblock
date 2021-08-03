@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Efyc2No0ZtMvt8gvw61UHA
+! Checksum: kx+W/Cm3c8xFMhsnhnpCzg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108032105
-! Last Modified: 2021年08月03日 21:05
+! Version: 202108032146
+! Last Modified: 2021年08月03日 21:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -79852,6 +79852,7 @@ fqsousou.com,kengso.com#@#.user-share
 /softpage/stats_registerhit.asp?
 /solarcode.js
 /sometrics/*
+/somtag/loader/*
 /somtag/logs/*
 /sophus.js
 /sophus/logging.js
@@ -99491,6 +99492,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mp.weixin.qq.com/mp/report?
 ||mp.weixin.qq.com/mp/webcommreport?
 ||msgsndr.com/funnel/event
+||mtrace.qq.com^
 ||music.163.com/weapi/feedback/weblog
 ||music.163.com/weapi/pl/count
 ||narutom.com/stat.js
@@ -100519,6 +100521,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
+@@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
