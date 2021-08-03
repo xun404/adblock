@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xhFn4jYqyDizxzw6oAHSAg
+! Checksum: 743OVeTucPal7vfcRbTUtQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108031938
-! Last Modified: 2021年08月03日 19:38
+! Version: 202108032105
+! Last Modified: 2021年08月03日 21:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -44832,6 +44832,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wikipedia.de/tracking.js
 ||wlw.de/unified_search_backend/api/v1/tracking/
 ||ymprove.web.de^
+||zdf.de/atinternet/live/smarttag.js
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
@@ -46012,7 +46013,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||getjad.io/library/$script,domain=gamestar.de
-@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
