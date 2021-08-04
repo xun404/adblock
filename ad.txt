@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Cwb5RX47CPUNj1+weWA52Q
+! Checksum: 9aFpMjMZUDV3l9SXoNNgjw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202108042145
-! Last Modified: 2021年08月04日 21:45
+! Version: 202108042353
+! Last Modified: 2021年08月04日 23:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9477,7 +9477,10 @@ _yad_jsonp_
 ||pan.baidu.com/act/api/activityentry?
 ||yun.baidu.com/act/api/activityentry?
 ||jsdelivr.net/gh/vip888vip/*960x80
+||9k9k.com/jscode/js/
 !------------------------Specific element hiding rules------------------------!
+hit180.com##.widget_ui_orbui:nth-child(-n+2)
+mp4er.com##div[onclick*="register"]
 szxx.com.cn###A0
 baidu.com##.recommend-goods-card
 dytt5.net##.fly-case-list
