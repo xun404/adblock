@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 453jMCVMxSdKw97EYAL1pQ
+! Checksum: cexTY6+jEm9ZyWdQUtz3eQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108041337
-! Last Modified: 2021年08月04日 13:37
+! Version: 202108041451
+! Last Modified: 2021年08月04日 14:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49638,7 +49638,6 @@ menstennisforums.com#@#.top_ads
 ||amazonaws.com/mailcache.appinthestore.com/
 ||amazonaws.com^$script,subdocument,xmlhttprequest,domain=downloadpirate.com|vshare.eu|yify-movies.net
 ||an.yandex.ru^$domain=~e.mail.ru
-||analytics.disneyinternational.com^
 ||any.gs/visitScript/$third-party
 ||ao-freegeoip.herokuapp.com^
 ||api.140proof.com^$third-party
@@ -51357,10 +51356,9 @@ menstennisforums.com#@#.top_ads
 ||artdaily.cc/banners/
 ||as.inbox.com^
 ||ascii-art-generator.org/cnc/$xmlhttprequest
-||atptour.com^*/rolex/
+||atptour.com/assets/atpwt/third-party/
 ||atptour.com^*/sponsors/
 ||audiobookbay.nl/images/d-t.gif
-||audiobookbay.nl/images/direct.gif
 ||audiotag.info/images/banner_
 ||aurn.com/wp-content/banners/
 ||aveherald.com/images/banners/
@@ -51759,6 +51757,7 @@ menstennisforums.com#@#.top_ads
 ||jwplatform.com/libraries/tdeymorh.js
 ||wsj.net/pb/pb.js
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
+||channelexco.com/player/$third-party
 ||connatix.com/connatix.player.js$script,third-party
 ||connatix.com/connatix.playspace.js$script,third-party
 ||connatix.com^*/connatix.player.js$script,third-party
@@ -52513,6 +52512,7 @@ semiconductor-today.com###homeright
 nutritioninsight.com###horizontalblk
 cd1025.com###hp-leader
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
+nzbindex.com###i > .inner
 hltv.org###i3_middle
 weloma.net###id-custom_banner
 unitconversion.org###ileft
@@ -54408,6 +54408,7 @@ debka.com##.top-full-width-sidebar
 1071thepeak.com,gpfans.com##.top-leaderboard
 speedtest.net##.top-placeholder
 donedeal.ie##.top-placement-container
+playbuzz.com##.top-stickyplayer-container
 globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 tutorviacomputer.com##.topMargin15
 click2houston.com,clickondetroit.com,clickorlando.com##.topWrapper
@@ -54547,8 +54548,7 @@ jagoroniya.com##[href="https://www.virtuanic.com/"]
 bittools.net##[href^="//www.bittools.net/binance"]
 shroomery.org##[href^="//www.shroomery.org/ads/"]
 yoursports.stream##[href^="/bet"]
-audiobookbay.nl##[href^="/dl-now"]
-nzbindex.com##[href^="/i/c/"]
+audiobookbay.nl##[href^="/down-"]
 steroid.com##[href^="/out.php"]
 myabandonware.com##[href^="/visual/r-2/"]
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
@@ -86013,6 +86013,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.dev.htmedia.in^
 ||analytics.dev.springboardvideo.com^
 ||analytics.developer.riotgames.com^
+||analytics.disneyinternational.com^
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
 ||analytics.edgesuite.net^
