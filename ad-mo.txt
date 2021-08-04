@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gPfqGOqysGdZYTKVr0ENsA
+! Checksum: byrl+1qexfv5+IdGqWFPIQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108041538
-! Last Modified: 2021年08月04日 15:38
+! Version: 202108041748
+! Last Modified: 2021年08月04日 17:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -384,7 +384,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 &adstrade=
 &adstype=
 &AdType=
-&adunits=$xmlhttprequest
 &adurl=
 &adv_keywords=
 &advert_
@@ -51730,13 +51729,9 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||ads.viralize.tv^$domain=spiegel.de
 ||adsafeprotected.com^$domain=spiegel.de
 ||amazon-adsystem.com^$domain=spiegel.de
-||bidder.criteo.com^$domain=spiegel.de
 ||cas.*.criteo.com^$domain=spiegel.de
-||cas.criteo.com^$domain=spiegel.de
-||caw.*.criteo.com^$domain=spiegel.de
 ||ced.sascdn.com^$domain=spiegel.de
 ||conative.de^$domain=spiegel.de
-||criteo.com/delivery/$domain=spiegel.de
 ||emsservice.de^$domain=spiegel.de
 ||g.doubleclick.net^$domain=spiegel.de
 ||googlesyndication.com/pagead/$domain=spiegel.de
@@ -51752,9 +51747,6 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||pagead2.googlesyndication.com^$domain=spiegel.de
 ||partner.googleadservices.com^$domain=spiegel.de
 ||pubmatic.com^$domain=spiegel.de
-||rdi.*.criteo.com^$domain=spiegel.de
-||rdi.criteo.com^$domain=spiegel.de
-||rtax.criteo.com^$domain=spiegel.de
 ||serving-sys.com^$domain=spiegel.de
 ||smartadserver.com^$domain=spiegel.de
 ||smartstream.tv^$domain=spiegel.de
@@ -55888,7 +55880,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||getjad.io/prebid/$script,domain=gamestar.de
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
-@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
+@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gamestar.de|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
@@ -89347,6 +89339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||modanisa.com/al/j/analytics.js
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||monitor.channel4.com^
+||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
 ||msn.com/collect/
 ||msn.com/OneCollector/
 ||my.com/v1/hit/
@@ -89965,6 +89958,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||cpx.to^$domain=quoka.de
+||criteo.com^$domain=spiegel.de
 ||crwdcntrl.net^$domain=disqus.com
 ||cxense.com^$domain=focus.de
 ||disqus.com/api/ping?$domain=autobild.de
