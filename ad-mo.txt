@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lslQqwYev/j2erDYsmT/dA
+! Checksum: DqB0aLpAiKp0jhDuHy1dYA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108051537
-! Last Modified: 2021年08月05日 15:37
+! Version: 202108051645
+! Last Modified: 2021年08月05日 16:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57882,6 +57882,7 @@ _xiuno_com_ad/
 ##img[onclick*="/c7.net/"]
 ##img[onclick*="/statics/js/"]
 ##img[onclick="window.open(this.url)"][src*="qq.com"]
+##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
@@ -73066,6 +73067,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||jm166.cn^
+||9b0v.cn^
+||taobso.cn^
+||wangzhenzhi.cn^
+||luojianrong.cn^
 ||icefog.xyz^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
