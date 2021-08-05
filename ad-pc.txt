@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iooUAX9AWE7d3U3K0zcy/A
+! Checksum: 7Qw5Bjog7YRRxy3OB5NwcQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108051045
-! Last Modified: 2021年08月05日 10:45
+! Version: 202108051144
+! Last Modified: 2021年08月05日 11:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5839,6 +5839,7 @@ tieba.baidu.com##.tuijian-wrap
 /js/ppu.$script
 /js/youmuffpu.js
 /js2.ad/size=
+/js3caf.js
 /js_ad_utf8.
 /js_ads/*
 /js_ads_
@@ -31114,6 +31115,7 @@ _popunder+$popup
 ##[href^="https://ptwmjmp.com/"]
 ##[href^="https://pulsetrack.biz/"]
 ##[href^="https://r.kraken.com/"]
+##[href^="https://rapidgator.net/article/premium/ref/"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
 ##[href^="https://shiftnetwork.infusionsoft.com/go/"]
@@ -50130,6 +50132,7 @@ menstennisforums.com#@#.top_ads
 ||future-fie.co.uk^$subdocument,third-party
 ||futuresite.register.com/us?$third-party
 ||fxcc.com/promo/
+||gadgets360.com/pricee/assets/affiliate/
 ||gamblingwages.com/images/$third-party
 ||gameduell.com/res/affiliate/
 ||gameorc.net/a.html
@@ -50676,6 +50679,7 @@ menstennisforums.com#@#.top_ads
 ||ultimedia.com/api/widget/$xmlhttprequest
 ||unsereuni.at/resources/img/$third-party
 ||upload2.com/upload2.html
+||uploaded.net/img/public/$third-party
 ||upsales.com^*/visit/v.js
 ||urtig.net/scripts/js3caf.js
 ||usfine.com/images/sty_img/usfine.gif
@@ -78161,6 +78165,7 @@ fqsousou.com,kengso.com#@#.user-share
 /imgevent?
 /imgtracker.
 /imp.gif?
+/imp.php?
 /imp/rtm?
 /imp/www.
 /imp2.js?
@@ -80095,6 +80100,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track.aspx?
 /track.cgi?
 /track.gif^
+/track.php?domain=
 /track.php?referrer=
 /track.png?
 /track.srv.
@@ -81439,6 +81445,7 @@ _mongo_stats/
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||irs01.com^
 ||ldnlyap.com^
 ||liveyield.com^
 ||lltrck.com^
@@ -86103,6 +86110,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bacon.getcarro.com^
 ||bacon.section.io^
 ||baidu.com/pixel?
+||baidu.com/push.js
 ||bamgrid.com/dust
 ||bamgrid.com/telemetry
 ||bango.net/exid/*.gif?
@@ -88590,6 +88598,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pstatp.com^*/raven.js
 ||pstatp.com^*/ttstatistics.
 ||pv.hd.sohu.com^
+||pv.kuaizhan.com^
 ||pv.sohu.com^
 ||px.effirst.com^
 ||qbox.me/vds.js
@@ -99257,6 +99266,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||btrace.qq.com^
 ||cherry.le.com^
 ||click.gamersky.com^
+||cmstool.youku.com^
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
