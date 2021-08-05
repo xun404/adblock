@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MGXKcvcwWa51kxusddHozw
+! Checksum: ZPfe2jKYZOw5LEwpAuVPTA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108051842
-! Last Modified: 2021年08月05日 18:42
+! Version: 202108052108
+! Last Modified: 2021年08月05日 21:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65490,6 +65490,9 @@ _yad_jsonp_
 ||nanrenvip2021.com/old.html
 !------------------------Specific element hiding rules------------------------!
 bljiex.com###player_pause
+ruanyifeng.com##A[href*=".ke.qq.com"]
+dytt5.net##BODY > DIV[style="overflow: hidden;"]:nth-child(3)
+dytt5.net##.detail-body > .fly-panel
 szxx.com.cn###A0
 daniao.org##.sponsor
 daniao.org##.tg-site
@@ -68138,7 +68141,6 @@ rrys2020.com##.float_middel_ad_bk
 pic.sogou.com##.floating
 107cine.com##.flow-other
 107cine.com##.flow_right > div[style="margin-top:20px;"]
-dytt5.net##.fly-case-list
 sojson.com##.fly-hezuo
 followme.cn##.fm-banner-social
 1fzw.com##.focus-bots
@@ -79783,6 +79785,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats/pv.
 /stats/record.php?
 /stats/services/*
+/stats/survey.
 /stats/track.asp?
 /stats/tracker.js
 /stats/tracking.
@@ -86511,6 +86514,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com^*/pulsar.js
 ||ebaystatic.com^*/rover_$script
 ||ebaystatic.com^*/tracking_RaptorheaderJS.js
+||ec.walkme.com^
 ||ecomm.events^
 ||ecommstats.s3.amazonaws.com^$third-party
 ||ecustomeropinions.com/survey/nojs.php?
@@ -100312,6 +100316,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||dynamicyield.com/api/$script,domain=zalora.com.hk|zalora.com.tw
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
+@@||hk.on.cc/js/v4/urchin.js
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
