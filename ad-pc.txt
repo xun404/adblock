@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kjafj3xz3EN7lxjddgp/UQ
+! Checksum: OrlXTyzS/hsD/GBfsr1DTA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108051645
-! Last Modified: 2021年08月05日 16:45
+! Version: 202108051748
+! Last Modified: 2021年08月05日 17:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31109,6 +31109,7 @@ _popunder+$popup
 ##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
+##[href^="https://join.playboyplus.com/track/"]
 ##[href^="https://join3.bannedsextapes.com"]
 ##[href^="https://mylead.global/stl/"] > img
 ##[href^="https://mysbitl.com"]
@@ -51674,8 +51675,8 @@ menstennisforums.com#@#.top_ads
 ||overbuff.com/a.js
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
-/^https?:\/\/.*techpowerup\.com\/(?!.*images|img|gallery|review|forums|favicon).*/$image,domain=techpowerup.com
-/^https?:\/\/.*tpucdn\.com\/(?!.*images|img|gallery|review|forums|favicon).*/$image,domain=techpowerup.com
+/^https?:\/\/.*techpowerup\.com\/(?!.*images|img|gallery|review|forums).*/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/(?!.*images|img|gallery|review|forums).*/$image,domain=techpowerup.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
 ||jwplatform.com/libraries/tdeymorh.js
@@ -89479,6 +89480,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.hypebeast.com^
 ||log.mappy.net^
 ||log.optimizely.com^
+||log.quora.com^
 ||log.snapdeal.com^
 ||log.webnovel.com^
 ||logg.kiwi.com^
