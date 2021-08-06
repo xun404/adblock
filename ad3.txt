@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xVJbLOUusS0HHKeyQ2hrlg
+! Checksum: iFwl56jP0pUwFIwQ9GwTDg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108062146
-! Last Modified: 2021年08月06日 21:46
+! Version: 202108062352
+! Last Modified: 2021年08月06日 23:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -6887,7 +6887,6 @@ _yad_jsonp_
 ||jsdelivr.net/gh/cdnjsdelivr001/182cdn*.js
 ||jsdelivr.net/gh/ekmov/cache@master/tbk.js
 ||jsdelivr.net/gh/fzdm/st*/js/fzwap-
-||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||jsdelivr.net/gh/sex169hub/
 ||jsdelivr.net/gh/supfree/supfree/top.gif
 ||jsdelivr.net/gh/vip888vip/*960x80
@@ -9042,6 +9041,8 @@ _yad_jsonp_
 ||3dmgame.com/tools/gamead?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
+weibo.com#?#.wbpro-side-panel:-abp-has(.wbpro-icon-search-tp4:-abp-contains(商))
 3dmgame.com##.addvide300
 szxx.com.cn###A1
 szxx.com.cn###A2
