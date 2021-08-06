@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k0LDXLnlELplSkqzufO4tQ
+! Checksum: bcZUoM4p9zAiLjFNG73aMA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108061937
-! Last Modified: 2021年08月06日 19:37
+! Version: 202108062105
+! Last Modified: 2021年08月06日 21:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22081,6 +22081,7 @@ _popunder+$popup
 ##.ads__header
 ##.ads__horizontal
 ##.ads__hyperleaderboard--hyperleaderboard
+##.ads__inline
 ##.ads__interstitial
 ##.ads__leaderboard--footer
 ##.ads__leaderboard--header
@@ -22091,6 +22092,9 @@ _popunder+$popup
 ##.ads__listing--small_center
 ##.ads__listing--small_left
 ##.ads__listing--small_right
+##.ads__midpage-fullwidth
+##.ads__native
+##.ads__right-rail-ad
 ##.ads__sidebar
 ##.ads__sidebar--home_column
 ##.ads__sidebar--sidebar_first
@@ -23725,6 +23729,7 @@ _popunder+$popup
 ##.article-google-adsense
 ##.article-grid__item--advert
 ##.article-header-ad
+##.article-header__railAd
 ##.article-inline-ad
 ##.article-mid-ad
 ##.article-news-videoad
@@ -32212,6 +32217,7 @@ _popunder+$popup
 ##.taboola-item
 ##.taboola-left-rail-wrapper
 ##.taboola-partnerlinks-ad
+##.taboola-placeholder
 ##.taboola-placement
 ##.taboola-single-asset-ads
 ##.taboola-unit
@@ -52569,6 +52575,7 @@ my.juno.com###newsCarousel
 livelaw.in###news_on_exit
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
+pcgamesn.com###nn_bfa_wrapper
 techraptor.net###nn_lb1
 techraptor.net###nn_lb2
 techraptor.net###nn_lb3
@@ -53015,6 +53022,7 @@ allscrabblewords.com,mpog100.com##.ad3
 khaama.com##.ad8
 cvs.com,digitalartsonline.co.uk,economictimes.com,emarketer.com,flightradar24.com,globaltv.com,glosbe.com,hgtv.ca,newspakistan.pk,petagadget.com,yakimaherald.com##.adContainer
 interestingengineering.com##.adW
+auto-data.net##.ad_incar
 tellymix.co.uk##.adb_top
 wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com##.adblock
@@ -53035,6 +53043,7 @@ edutourism.in##.add1
 muslimobserver.com##.add2
 projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
+auto-data.net##.adin
 animalfactguide.com,portlandmonthlymag.com,sportsmediawatch.com##.adlabel
 ebookbrowse.com##.adleft
 corona.help##.adlg
@@ -53895,6 +53904,7 @@ islamicfinder.org##.mobile-cards
 pcmacstore.com##.mobileHide
 thedailybeast.com##.mobiledoc-sizer
 livelaw.in##.modal_wrapper_frame
+autoevolution.com##.modeladmid
 webmd.com##.module-f-hs
 pcworld.idg.com.au##.module-rhs-brandpost
 thisismoney.co.uk##.mol-fe-vouchercodes-puff
@@ -65630,8 +65640,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||3dmgame.com/tools/gamead?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.addvide300
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -77608,6 +77620,7 @@ fqsousou.com,kengso.com#@#.user-share
 /event-log?
 /event-report?*&uid=
 /event-tracking.
+/event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
@@ -89604,6 +89617,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.ctpost.com/article?
 ||pardot.com/pd.js
 ||paypal.com/platform/tealeaftarget
+||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||perf.mouser.com^
 ||pexa.realestate.com.au^

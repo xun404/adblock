@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hi11b/L1xVh57wrEQqMTlA
+! Checksum: PysYMGcnVBN3U1VOBTTs4Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108061937
-! Last Modified: 2021年08月06日 19:37
+! Version: 202108062105
+! Last Modified: 2021年08月06日 21:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9039,8 +9039,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||3dmgame.com/tools/gamead?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.addvide300
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -23262,6 +23264,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /event-log?
 /event-report?*&uid=
 /event-tracking.
+/event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
@@ -35258,6 +35261,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.ctpost.com/article?
 ||pardot.com/pd.js
 ||paypal.com/platform/tealeaftarget
+||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||perf.mouser.com^
 ||pexa.realestate.com.au^
