@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +2+WHkuFoOATrdwbwwIl5Q
+! Checksum: hKRvuoOPw2KuNNKK3wg9CQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108061647
-! Last Modified: 2021年08月06日 16:47
+! Version: 202108061937
+! Last Modified: 2021年08月06日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -49473,6 +49473,7 @@ menstennisforums.com#@#.top_ads
 ||libedgolart.com^$popup
 ||lofv.xyz^$popup
 ||loltrk.com^$popup,third-party
+||lowtyroguer.com^$popup
 ||misspkl.com^$popup
 ||moradu.com^$popup
 ||mptentry.com^$popup
@@ -56450,6 +56451,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pornhub.com/users/$xmlhttprequest
 @@||pornhub.com/video/$xmlhttprequest
 @@||pornhub.com/video_selector/$script,xmlhttprequest
+@@||pornhub.com/videocertify/paging$script,~third-party,xmlhttprequest
 @@||pornhub.com/videos/$media,other
 @@||pornhub.com/videouploading3/$xmlhttprequest
 @@||pornhub.com/www-static/flash/gate.swf$other
@@ -99159,6 +99161,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
+||p.kolplay.com^
 ||p.pagesjaunes.fr^
 ||pixel.ionos.fr^
 ||shemsfm.net/ar/setStats/
