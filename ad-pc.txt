@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 58NRCVVjNWmFmEbNLJXF1Q
+! Checksum: CNOGrQ2Cz0iuxqdTJ8VDLw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108071337
-! Last Modified: 2021年08月07日 13:37
+! Version: 202108071641
+! Last Modified: 2021年08月07日 16:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -50031,6 +50031,7 @@ menstennisforums.com#@#.top_ads
 ||dmkdtkad2jyb9.cloudfront.net^
 ||dmx.districtm.io^$third-party
 ||dn3nmb5yt1ysw.cloudfront.net^
+||dnved6ocs3pa4.cloudfront.net^
 ||do69ll745l27z.cloudfront.net^
 ||dojx47ab4dyxi.cloudfront.net^
 ||domain.com.au/widget/$subdocument,third-party
@@ -51700,7 +51701,7 @@ menstennisforums.com#@#.top_ads
 ||tethered-realms.valorbuff.com^
 /^https?:\/\/.*techpowerup\.com\/(?!.*img\/|review\/|forums\/).*/$image,domain=techpowerup.com
 /^https?:\/\/.*tpucdn\.com\/(?!.*images\/|img\/|review\/|forums\/).*/$image,domain=techpowerup.com
-||www.techpowerup.com/images/willrunoutofdirssoon$image,domain=techpowerup.com
+||tpucdn.com/images/iwillrunoutofdirssoon$image,domain=techpowerup.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
 ||jwplatform.com/libraries/tdeymorh.js
@@ -51772,10 +51773,6 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=vidtodo.c
 @@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
 |http://$script,third-party,xmlhttprequest,domain=bc.vc
 |https://$script,third-party,xmlhttprequest,domain=bc.vc
-@@||adf.ly/static/image/$image,~third-party
-@@||s1-adfly.com/show.php?$subdocument,third-party,domain=adf.ly
-|http://$third-party,domain=adf.ly|s1-adfly.com
-|https://$third-party,domain=adf.ly|s1-adfly.com
 $media,domain=damimage.com|imagedecode.com|imageteam.org
 |http://$image,script,third-party,xmlhttprequest,domain=damimage.com|imagedecode.com|imageteam.org
 |https://$image,script,third-party,xmlhttprequest,domain=damimage.com|imagedecode.com|imageteam.org
@@ -52584,6 +52581,7 @@ techraptor.net###nn_lb4
 forums.somethingawful.com###notregistered
 onlinemschool.com###oms_left
 powvideo.net,streamplay.to###overlay
+rapid-cloud.ru,streamrapid.ru###overlay-container
 seeklogo.com###panelAdShutterStockPromo
 hwbot.org###partner-tiles
 hbr.org###partnerCenter
@@ -76051,7 +76049,6 @@ fqsousou.com,kengso.com#@#.user-share
 .com/mm.gif?
 .com/pagelogger/
 .com/pvlog?
-.com/px.js?
 .com/s/at?site
 .com/ss/*sessionId=
 .com/stats.ashx?
@@ -76100,7 +76097,6 @@ fqsousou.com,kengso.com#@#.user-share
 .net/HG?hc=&hb=
 .net/l.gif?
 .net/ping.php?
-.net/px.js?
 .net/trck/
 .net/vtrack|
 .ntpagetag.
