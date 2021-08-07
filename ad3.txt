@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +9UyE07ad8c0UU+/D2xO3g
+! Checksum: gp6MUuT2PeNvmeB5qik0nw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108072237
-! Last Modified: 2021年08月07日 22:37
+! Version: 202108080100
+! Last Modified: 2021年08月08日 01:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1444,6 +1444,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||172.121.4.251^
+||172.121.4.252^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9045,8 +9047,12 @@ _yad_jsonp_
 ||eastmoney.com/public/js/left.js
 ||mg21.com/wp-content/uploads/ad/
 ||jsdelivr.net/gh/pizcat/static@master/goods_ad.js
+||xchina.co/upload/ad/
+||xchina.co/plugins/jquery.modal/
+||gg.huahaimi.work^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xchina.co##.push-top
 mg21.com##A[href="https://www.mg21.com/zunjiazq"]
 szxx.com.cn###A1
 szxx.com.cn###A2
