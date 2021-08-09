@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NsDMGCSccPxBSh00rR1pAQ
+! Checksum: SCaxuxLH24ayYpIm7IIuBQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108091537
-! Last Modified: 2021年08月09日 15:37
+! Version: 202108091647
+! Last Modified: 2021年08月09日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18819,6 +18819,7 @@ _popunder+$popup
 ##.ad--mobile
 ##.ad--mpu
 ##.ad--native
+##.ad--nativeFlex
 ##.ad--no-bg
 ##.ad--noscroll
 ##.ad--object
@@ -18844,6 +18845,7 @@ _popunder+$popup
 ##.ad--stripe
 ##.ad--stroer
 ##.ad--subcontainer
+##.ad--tabletDesktop
 ##.ad--top
 ##.ad--top-label
 ##.ad--top-leaderboard
@@ -29426,6 +29428,7 @@ _popunder+$popup
 ##.sl_ad6
 ##.sl_ad7
 ##.sl_admarker
+##.slate-ad
 ##.sleekadbubble
 ##.slide-ad
 ##.slide-advert
@@ -51623,6 +51626,7 @@ menstennisforums.com#@#.top_ads
 ||tethered-realms.valorbuff.com^
 /^https?:\/\/.*techpowerup\.com\/(?!.*img\/|review\/|forums\/).*/$image,domain=techpowerup.com
 /^https?:\/\/.*tpucdn\.com\/(?!.*images\/|img\/|review\/|forums\/).*/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/images\/[a-z0-9\d]{4,4}\/.*/$image,domain=techpowerup.com
 /^https?:\/\/.*tpucdn\.com\/images\/[a-z0-9\d]{5,}\/.*/$image,domain=techpowerup.com
 @@||techpowerup.com/images/logo.svg|$image,domain=techpowerup.com
 ||tpucdn.com/images/8ewillrunoutofdirssoon$image,domain=techpowerup.com
@@ -65580,6 +65584,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xueqiu.com##.ad-right-aside
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
