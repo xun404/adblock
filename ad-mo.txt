@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9ZsX6N3bblTsHiuMbSE/9g
+! Checksum: C40cvZHRDh0HEDD/Ii9AHA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108101451
-! Last Modified: 2021年08月10日 14:51
+! Version: 202108101646
+! Last Modified: 2021年08月10日 16:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -26402,7 +26402,10 @@ _popunder+$popup
 ##.homepage-banner-ad
 ##.homepage-footer-ad
 ##.homepage-footer-ads
+##.homepage-page__all-ad-container
 ##.homepage-page__ff-ad-container
+##.homepage-page__tag-ad-container
+##.homepage-page__video-ad-container
 ##.homepage-right-rail-ad
 ##.homepage-small-touts-ad
 ##.homepage-sponsoredlinks-container
@@ -50319,40 +50322,21 @@ menstennisforums.com#@#.top_ads
 ||promotions.iasbet.com^
 ||propgoluxury.com/partners/$third-party
 ||proxies2u.com/images/btn/$third-party
-||proxify.com/i/$third-party
-||proxy.org/blasts.gif
 ||proxynoid.com/images/referrals/
-||proxyroll.com/proxybanner.php
 ||proxysolutions.net/affiliates/
-||pub.admedia.io^
-||pub.dreamboxcart.com^$third-party
 ||public.porn.fr^$third-party
 ||publish0x.com^$image,script,third-party
-||pubs.hiddennetwork.com^
-||puntersparadise.com.au/banners/
-||purevpn.com/affiliates/$third-party
-||qualoo.net/now/interstitial/
+||purevpn.com/affiliates/
 ||racebets.com/media.php?
-||rack.bauermedia.co.uk^
-||ratecity.com.au/widgets/$third-party
 ||ratesupermarket.ca/widgets/
-||rbth.ru/widget/$third-party
 ||rcm*.amazon.$third-party
 ||readme.ru/informer/$third-party
-||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redirect-ads.com^$~subdocument,third-party
 ||redtram.com^$script,third-party
-||refer.wordpress.com^$third-party
 ||regnow.com/vendor/
-||remax-malta.com/widget/$third-party
-||rentalcars.com/partners/$third-party
+||rentalcars.com/partners/
 ||res3.feedsportal.com^
-||ribbon.india.com^$third-party
 ||rmgserving.com/rmgdsc/$script
-||roadcomponentsdb.com^$subdocument,third-party
-||roadrecord.co.uk/widget.js?
-||roia.hutchmedia.com^$third-party
-||roshantv.com/adad.
 ||rotabanner.kulichki.net^
 ||rotator.tradetracker.net^
 ||russian-dreams.net/static/js/$third-party
@@ -51716,12 +51700,9 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||vpnfortorrents.*?$popup
 /about:blank#/$popup,domain=22pixx.xyz|9anime.to|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|fmovies.to|gowatchseries.bz|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 /^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|bunnycdn.ru|cmovies.ac|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|fmovies.to|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
-/^https?:\/\/.*\.(info|pro|icu|app|xyz|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml)\.?(\/|:|$)/$popup,domain=dood.watch|fcdn.stream|fmovies.to|idup.io|mixdrop.co|mixdrop.to|mp4upload.com|powvideo.net|powvldeo.cc|putlocker.style|streamsb.net|strtape.cloud|thepiratebay.org|upstream.to|uptostream.com|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vortez.net|vshare.eu
 /^https?:\/\/.*\/[?]/$popup,domain=9anime.ru|flixhq.ru|kickass2.cc|movies7.to|tvshows88.com
-/^https?:\/\/.*[&%+=]/$popup,domain=dood.to|dood.video|dood.watch|fcdn.stream|jawcloud.co|mixdrop.co|powvideo.net|powvldeo.cc|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.fm|putlockers.mn|putlockers.movie|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgunblock.org|rarbgway.org|repelis.net|sbplay.one|seehd.pl|sendit.cloud|sendvid.com|sportp2p.com|steamplay.cc|streamani.net|streamplay.to|streamtape.com|thepiratebay.org|thepiratebay10.org|torlock.com|torrentdownloads.me|torrentfunk2.com|uiz.io|up-load.io|upload.ac|uploadproper.com|uploadproper.net|upstream.to|uptobox.com|userscloud.com|vidbull.tv|videobin.co|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vipbox.live|vipstand.se|vshare.eu|y2mate.com|yify-movies.net|youwatch.org|zippyshare.com
 |data^$popup,domain=1337x.to|zippyshare.com
 |javascript^$popup,domain=1337x.to|eztv.tf|eztv.yt|flashx.tv
-/^https?:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}/$popup,domain=0dt.net|123movies.net|adyou.me|bonstreams.net|briansarmiento.website|bro.adca.st|buzzfil.net|clik.pw|ddlvalley.me|firstrowsports.eu|flashx.co|flashx.to|flashx.tv|gounlimited.to|itdmusic.com|janjua.pw|janjua.tv|kinox.to|opensubtitles.org|pirateproxy.live|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgway.org|sawlive.tv|stream2watch.sx|thehiddenbay.com|thepiratebay.vip|toros.co|uploadproper.com|uptobox.com|vidlox.me|vidtodo.me|vidup.me|vidup.tv|webfirstrow.eu|yts.gs|zooqle.com
 |http://$image,media,script,third-party,domain=~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 |http://$image,script,third-party,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 |http://$image,xmlhttprequest,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
@@ -87372,6 +87353,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reevoo.com/track_url/
 ||reevoo.com^*/track/
 ||refer.ccbill.com^
+||refer.wordpress.com^$third-party
 ||referrer.disqus.com^
 ||reflow.tv/pixels/
 ||rejoiner.com/tracker/
