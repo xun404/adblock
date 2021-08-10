@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PpkTk4byMcLDCqyE9E7tOg
+! Checksum: IQkGEJfTzWAIFE268bKpzg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108101250
-! Last Modified: 2021年08月10日 12:50
+! Version: 202108101337
+! Last Modified: 2021年08月10日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22631,6 +22631,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /bypassmajs|
 /bypasspiphp?
 /byside_webcare.
+/bz?*__comet_req=
 /c.gif?
 /c.php?r=
 /c.wrating.com/*
@@ -26710,6 +26711,8 @@ weibo.com##.apps_PCD_reco_detail_right
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://segment-api.
+://segment-cdn.
 ://stats.*/index.js
 ://stats.*/script.js
 ://stats.*/stats.aspx
@@ -31055,6 +31058,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ipinyou.com^$third-party
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
+||jpush.cn^$third-party
 ||lndata.com^$third-party
 ||logly.co.jp^$third-party
 ||mediav.com^$third-party
@@ -32450,7 +32454,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com*/impression.php
 ||facebook.com/adnw_request?
 ||facebook.com/ai.php?
-||facebook.com/ajax/bz?*__comet_req=
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
@@ -34383,6 +34386,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||toruk.tanx.com^
 ||tr.n2.hk^
 ||track.ra.icast.cn^
+||track.tomwx.net^
 ||tracking.cat898.com^
 ||union.360.cn/1899.js
 ||useg.nextdigital.com.hk^
@@ -45016,6 +45020,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mosoah.com/analytics.js
 ||tags.aljazeera.net^
 ||tracking.alarabiya.net^
+||104.com.tw/log/
 ||17173.com/ping.js
 ||17173.com/pv?
 ||55bbs.com/east.html
@@ -45041,6 +45046,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
+||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eclick.baidu.com^
 ||event.csdn.net^
@@ -45051,6 +45057,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
+||i-cable.com/ci/tracking/
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
 ||jcm.jd.com^$script,third-party
