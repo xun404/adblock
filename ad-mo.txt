@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tZGLfQzxko/rfEcbXRpYzQ
+! Checksum: H7yoJwV26pE02xhtoqPe1A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108110106
-! Last Modified: 2021年08月11日 01:06
+! Version: 202108110706
+! Last Modified: 2021年08月11日 07:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -26210,6 +26210,7 @@ _popunder+$popup
 ##.header-advert-container
 ##.header-advert-wrapper
 ##.header-advertisement
+##.header-and-footer--banner-ad
 ##.header-article-ads
 ##.header-banner-ad
 ##.header-banner-ads
@@ -51476,7 +51477,6 @@ menstennisforums.com#@#.top_ads
 /^https?:\/\/.*tpucdn\.com\/(?!.*images\/|img\/|forums\/).*/$image,domain=techpowerup.com
 /^https?:\/\/.*tpucdn\.com\/images\/[a-z0-9@\-\d]{1,4}\/.*/$image,domain=techpowerup.com
 /^https?:\/\/.*tpucdn\.com\/images\/[a-z0-9@\-\d]{5,}\/.*/$image,domain=techpowerup.com
-@@/^https?:\/\/.*techpowerup.com\/review\/[a-z0-9]{3,8}-.*\/.*/$image,domain=techpowerup.com
 @@||techpowerup.com/images/logo.svg|$image,domain=techpowerup.com
 ||www.techpowerup.com/review/hnxs8e20633753548ehnxs$image,domain=techpowerup.com
 ||www.techpowerup.com/review/vjwfhla8e20633753548evjwfhla$image,domain=techpowerup.com
