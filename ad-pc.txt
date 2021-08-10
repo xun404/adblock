@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: alSonIG0gqFhE0F1PEP8EQ
+! Checksum: ypEDvRTHDRm9d26+2OsKJQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108101143
-! Last Modified: 2021年08月10日 11:43
+! Version: 202108101250
+! Last Modified: 2021年08月10日 12:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1377,7 +1377,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad-assets/*
 /ad-audit.
 /ad-background.
-/ad-banner-$~script
+/ad-banner-$~image,~script
 /ad-banner.
 /ad-bckg.
 /ad-bin/*
@@ -1816,6 +1816,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad_960x90_
 /ad_agency/*
 /ad_announce.
+/ad_app_settings/*
 /ad_area.
 /ad_art/*
 /ad_article_
@@ -8620,7 +8621,7 @@ _prx/ba_$script
 /porpoiseant/*
 /prebid-worker/*
 /prebid.$domain=~prebid.org
-/prebid/*$~image
+/prebid/*
 /prebid1.
 /prebid14.js
 /prebid2.
@@ -8632,7 +8633,7 @@ _prx/ba_$script
 /prebid_$script,third-party
 /prebid_v4.
 /prebidAdcall.
-/prebidjs/*
+/prebidjs/*$~image
 /prebidlink/*
 /prebidtest.
 /prodprebidheader-
@@ -36637,6 +36638,7 @@ menstennisforums.com#@#.top_ads
 ||entertainedshook.com^
 ||entertaininglarge.com^
 ||enthusiasmturnipflare.com^
+||enthusiastgaming.net^
 ||entiregraterfurs.com^
 ||entpressent.top^
 ||entractta.top^
@@ -51161,6 +51163,7 @@ menstennisforums.com#@#.top_ads
 ||2oceansvibe.com/?custom=takeover
 ||9gag.com/embed/featured-videos.html
 ||a.w3techs.com^
+||abcvideo.cc/javascript/formula.js
 ||aboutmyarea.co.uk/images/imgstore/
 ||ad.itweb.co.za^
 ||ad.khan.co.kr^
@@ -52004,6 +52007,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||sextubebox.com/js/239eka836.js
 ||sextubebox.com/js/580eka426.js
 ||sextvx.com/static/images/tpd-
+||sexybabepics.net/re/sbpre.js
 ||sexytorrents.info/njUFyPRXaC7H.js
 ||socaseiras.com.br/banners.php?
 ||sonorousporn.com/nb/
@@ -52136,7 +52140,7 @@ gayvegas.com###background
 wallpapersmania.com###backgroundPopup
 soccerbase.com###ball_splash_holder
 gamepressure.com###baner-outer
-allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,farmtrader.co.nz,freealts.pw,greatbritishchefs.com,moviesfoundonline.com,openstreetmap.org###banner
+allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,eth-converter.com,farmtrader.co.nz,freealts.pw,greatbritishchefs.com,moviesfoundonline.com,openstreetmap.org###banner
 bolor-toli.com###banner-clear
 thecarconnection.com###banner-container
 ncaa.com###banner-purse
@@ -52845,6 +52849,7 @@ israelnationalnews.com##.InfoIn
 israelnationalnews.com##.InfoIn2
 kentonline.co.uk##.LeaderBack
 morningstar.com##.LeaderWrap
+apnews.com##.Leaderboard
 israelnationalnews.com##.LeftInfo
 autosport.com##.MPU_container
 ask.com##.PartialKelkooResults
@@ -53277,7 +53282,7 @@ coinmarketcap.com##.cmc-native-ad-row
 news18.com##.cn-add-section-1
 thisismoney.co.uk##.cnr5
 iotwreport.com##.code-block
-ets2.lt,geekspin.co,getdroidtips.com,kanonitv.net,whats-on-netflix.com##.code-block-1
+ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,whats-on-netflix.com##.code-block-1
 getdroidtips.com##.code-block-13
 getdroidtips.com##.code-block-15
 geekspin.co,kanonitv.net,mikeprg.com##.code-block-2
@@ -53516,6 +53521,7 @@ yellowise.com##.g-widget-block
 titantv.com##.gAd
 monstertruckgames.org##.gamecatbox
 cnx-software.com##.gcorals-single
+geekdashboard.com##.gd-ads
 investing.com##.generalOverlay
 uefa.com##.geoTargetSponsor
 ksl.com##.gfp-slot
@@ -54416,6 +54422,7 @@ seganerds.com##[href^="https://www.casinonic.com/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 unknowncheats.me##[href^="https://www.iwantcheats.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
+weberblog.net##[href^="https://www.neox-networks.com/"]
 nwanime.tv##[href^="https://www.nutaku.net/signup/landing/"]
 ftv-news.com##[href^="https://www.outsourcingall.com/"]
 ownedcore.com##[href^="https://www.ownedcore.com/forums/b.php"]
@@ -54576,6 +54583,7 @@ windowsreport.com##div[data-insertion]
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 qwant.com##div[data-testid^="snippet"]
 quora.com##div[id$="content_box"]
+javacodegeeks.com##div[id^"adngin-"]
 buzzfeednews.com##div[id^="BF_ADX_"]
 weather.com##div[id^="Taboola-main-"]
 kisshentai.net##div[id^="ad"]
@@ -54886,6 +54894,8 @@ pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pintere
 pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorisée par"])
 pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorizzato da"])
 pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Рекламодатель:"])
+porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
+porn-w.org#?#.row:-abp-contains(Promotion Bot)
 radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
 mtgarena.pro#?##root > div > div:-abp-has( > .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
@@ -55076,7 +55086,7 @@ pornburst.xxx##.banners-frase
 paradisehill.cc##.banners4
 ratemymelons.com##.bannus
 yourdarkdesires.com##.battery
-fap18.net,fuck55.net,tube.bz##.bb_desktop
+fap18.net,fuck55.net,tube.ac,tube.bz##.bb_desktop
 pornhat.com##.before-player
 bangyoulater.com##.big-box-border
 tubewolf.com##.block-banner
@@ -77458,7 +77468,7 @@ fqsousou.com,kengso.com#@#.user-share
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-
+/dynatrace-$domain=~dynatrace.com
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -78810,10 +78820,10 @@ fqsousou.com,kengso.com#@#.user-share
 /newlog.php?
 /newrelic-google-
 /newrelic-gpt.
+/newrelic.browser.
 /newrelic.iframe.
 /newrelic.js
 /newrelic.min.js
-/newrelic/*
 /newrelicKpis-
 /newrelicKpisFooter-
 /newscount/*
@@ -87337,7 +87347,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
 ||pixel.safe-installation.com^
-||pixel.snapsmedia.io^
 ||pixel.solvemedia.com^
 ||pixel.sprinklr.com^
 ||pixel.tree.com^
@@ -89647,6 +89656,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||servedby.o2.co.uk^
 ||sexu.com/api/events
 ||sexu.com/api/ttrack
+||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||shopeemobile.com/ph/tr
 ||shopmetric.rediff.com^

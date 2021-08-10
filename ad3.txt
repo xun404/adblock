@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vSWuct3jjt3weGubFBDIpA
+! Checksum: PpkTk4byMcLDCqyE9E7tOg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108101143
-! Last Modified: 2021年08月10日 11:43
+! Version: 202108101250
+! Last Modified: 2021年08月10日 12:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23210,7 +23210,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-
+/dynatrace-$domain=~dynatrace.com
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -24562,10 +24562,10 @@ weibo.com##.apps_PCD_reco_detail_right
 /newlog.php?
 /newrelic-google-
 /newrelic-gpt.
+/newrelic.browser.
 /newrelic.iframe.
 /newrelic.js
 /newrelic.min.js
-/newrelic/*
 /newrelicKpis-
 /newrelicKpisFooter-
 /newscount/*
@@ -33089,7 +33089,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
 ||pixel.safe-installation.com^
-||pixel.snapsmedia.io^
 ||pixel.solvemedia.com^
 ||pixel.sprinklr.com^
 ||pixel.tree.com^
@@ -35399,6 +35398,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||servedby.o2.co.uk^
 ||sexu.com/api/events
 ||sexu.com/api/ttrack
+||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||shopeemobile.com/ph/tr
 ||shopmetric.rediff.com^
