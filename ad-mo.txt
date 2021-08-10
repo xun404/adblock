@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wkPYIBvTeDvydmRyZasBJQ
+! Checksum: pQuexQaKwUTR2Snl1MVsUQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108101744
-! Last Modified: 2021年08月10日 17:44
+! Version: 202108101847
+! Last Modified: 2021年08月10日 18:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -50344,7 +50344,6 @@ menstennisforums.com#@#.top_ads
 ||rotator.tradetracker.net^
 ||russian-dreams.net/static/js/$third-party
 ||s1.wp.com^$subdocument,third-party
-||s3.amazonaws.com^*/f10ac63cd7
 ||saambaa.com^$third-party
 ||safarinow.com/affiliate-zone/
 ||sailthru.com^*/horizon.js
@@ -50566,7 +50565,8 @@ menstennisforums.com#@#.top_ads
 ||ads.yahoo.com^
 /^https?:\/\/[a-z0-9]{7,}\.online\/[a-z0-9]{7,}\.js$/$script,third-party
 /^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
-/^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{45,}\/secure\.js/$script,third-party,xmlhttprequest,domain=~amazon.com
+||s3.amazonaws.com^*/f10ac63cd7
+||s3.amazonaws.com^*/secure.js
 ||tsbluebox.com^$third-party
 ||vidoplay.com^$third-party
 ||whichtalk.com^$third-party
