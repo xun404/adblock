@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NrlD7mvsFsTHbT9sxBvXRw
+! Checksum: 3Y+e6vg8XKE2e8NNuaNNkg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108111843
-! Last Modified: 2021年08月11日 18:43
+! Version: 202108112104
+! Last Modified: 2021年08月11日 21:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -46013,6 +46013,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
+@@||s.btstatic.com/tag.js$domain=sephora.com
+@@||s.thebrighttag.com/tag?site=$domain=sephora.com
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
 @@||sahibinden.com/assets/analytics*.js$script
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hzooE6qvlxv6KAGu+Ow20A
+! Checksum: FUqXeDMlbH/NRX/5rhG6oQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108111937
-! Last Modified: 2021年08月11日 19:37
+! Version: 202108112104
+! Last Modified: 2021年08月11日 21:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55587,6 +55587,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
 @@||moatads.com/*/moatwrapper.js$script,domain=hulu.com
+@@||mobygames.com/images/covers/$image,~third-party
 @@||mobygames.com/images/promo/$image,~third-party
 @@||moremoney.io/promo/Advertise.svg$~third-party
 @@||motortrader.com.my/advert/$image,~third-party
@@ -100148,6 +100149,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
+@@||s.btstatic.com/tag.js$domain=sephora.com
+@@||s.thebrighttag.com/tag?site=$domain=sephora.com
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
 @@||sahibinden.com/assets/analytics*.js$script
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
