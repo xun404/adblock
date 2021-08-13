@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S/TgCKGV1aD0AUdraMME6g
+! Checksum: 6a8ppbizguAO1mE7a2H2bA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202108132241
-! Last Modified: 2021年08月13日 22:41
+! Version: 202108132350
+! Last Modified: 2021年08月13日 23:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9500,8 +9500,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||serengeseba.com/static/view.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+serengeseba.com##.content > LI > A[href^="http"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14198,7 +14200,7 @@ netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
 fun1shot.com##a[href^="https://kenio.cn/"]
 linux.cn##a[href^="https://linux.cn/go/"]
-423down.com##a[href^="https://mp.weixin.qq.com/"]
+423down.com##.content > .entry + H3
 github.com##a[href^="https://openwrite.cn/"]
 xblian.com##a[href^="https://page.pe/"]
 cjjjs.com,cnblogs.com,fastadmin.net##a[href^="https://promotion.aliyun.com/"]
