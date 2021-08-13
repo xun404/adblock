@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hL7UlBlcIIMV5s7W2HsPcw
+! Checksum: pEDnn9BVGZiWsHSz1z7FhQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108132350
-! Last Modified: 2021年08月13日 23:50
+! Version: 202108140106
+! Last Modified: 2021年08月14日 01:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21719,6 +21719,7 @@ _popunder+$popup
 ##.ads-cars-larger
 ##.ads-cars-top2
 ##.ads-categories-bsa
+##.ads-centered
 ##.ads-cnt
 ##.ads-code
 ##.ads-col
@@ -55487,6 +55488,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||apple.com^*/images/ads_$image,domain=apple.com
 @@||apple.com^*/includes/ads
 @@||apple.com^*/video-ad.html
+@@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
 @@||auctionzip.com/cgi-bin/showimage.cgi?
 @@||autotrader.co.uk^*/advert$~third-party
@@ -57858,6 +57860,9 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||fensifuligo.com^
+||gaomingbo.com^
+||qixedu.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -81026,6 +81031,7 @@ cgi-bin/counter
 .app.returnpath.net/
 .awstrack.me/$image
 .backblaze.com/e2t/$image
+.bahn.de/op/$image
 .bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
 .cmail19.com/t/$image
@@ -99985,11 +99991,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
+@@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||glenat.com^*/static/analytics.js$script,~third-party
 @@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
+@@||googletagmanager.com/gtm.js$domain=ads.spotify.com
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
