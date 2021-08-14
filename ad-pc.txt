@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l2sdtNc2WUpD7fQEU77LKA
+! Checksum: +MHds37PIm68IGkaEW7O3g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108141641
-! Last Modified: 2021年08月14日 16:41
+! Version: 202108141741
+! Last Modified: 2021年08月14日 17:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -76745,8 +76745,6 @@ fqsousou.com,kengso.com#@#.user-share
 /collect/stats?
 /collect/tracking.
 /collect/view?
-/collect?*&cid=
-/collect?*&tid=
 /collect?appName
 /collect?callback=
 /collect?d=
@@ -76762,7 +76760,6 @@ fqsousou.com,kengso.com#@#.user-share
 /collect_v3.
 /collection.php?data=
 /collector.php?
-/collector/*/*?*&euidl=*&url=
 /collector/beacon
 /collector/hit?
 /collector/pageview
@@ -76844,7 +76841,6 @@ fqsousou.com,kengso.com#@#.user-share
 /count.png?
 /count/?ad=
 /count/count.cgi?
-/count?*&url=
 /count?pid=
 /count?type=
 /count_DB/*
@@ -77024,7 +77020,6 @@ fqsousou.com,kengso.com#@#.user-share
 /dmp/pixel.js
 /dmpcollector.js
 /dmpmetrics.
-/dmtk.*_tag=
 /dmtracking2.
 /DNATracking.
 /dni_reporting.js
@@ -77037,7 +77032,6 @@ fqsousou.com,kengso.com#@#.user-share
 /dot.asp?
 /dot.gif?
 /dotmetrics.min.
-/dotn?*&pg=http
 /Dotomi.
 /dotomi_abandon.
 /dotomi_tracking/*
@@ -77149,9 +77143,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ent_counter?
 /entry_stats?
 /envoy.sb?sbaid
-/epf_v1_95.js
 /epvplytics.
-/error/*.gif?msg=
 /error/js/log?
 /est.pl?
 /estat.$domain=~estat.ly|~estat.stat.ee
@@ -77164,17 +77156,15 @@ fqsousou.com,kengso.com#@#.user-share
 /etracker/*
 /etrackercode.
 /eu-survey.js
-/ev/co/*?eventid=
 /eva-analytics.
 /event-log/*
 /event-log?
-/event-report?*&uid=
+/event-report?
 /event-tracking.
 /event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
-/event/*/*?*&euidl=*&url=
 /event/?ra=
 /event/beacon|
 /event/fingerprint
@@ -77195,7 +77185,6 @@ fqsousou.com,kengso.com#@#.user-share
 /event?pmo=
 /event?ref=
 /event?stat_
-/event?t=*&__seed=
 /event?t=view&
 /event?token=
 /event?tub_id=
@@ -77204,14 +77193,11 @@ fqsousou.com,kengso.com#@#.user-share
 /event_tracker?_
 /eventcnt.php?
 /EventhubStats.js
-/eventing/v1/*/current|
-/eventing/v1/*/session|
 /EventLog.axd?
 /eventlog.js
 /eventLogServlet?
 /events-collector.
 /events.gif?
-/events/*?event=
 /events/analytics/*
 /events/capture?
 /events/counter?
@@ -77220,8 +77206,6 @@ fqsousou.com,kengso.com#@#.user-share
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
-/events?*&referrer=
-/events?_trigger=
 /events?data=
 /events?rpId=
 /eventsBeacon?
@@ -77358,7 +77342,6 @@ fqsousou.com,kengso.com#@#.user-share
 /g2insights.
 /g=analytics&
 /g_track.php?
-/ga*.js?PID=
 /ga-affiliates.
 /ga-async-
 /ga-audiences?
@@ -77393,7 +77376,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ga.php?$image
 /GA.swf?gaId=
 /ga.swf?gid=
-/ga/*.gif?
 /ga/trackevent.
 /ga/yap.js
 /ga1.js
@@ -77510,11 +77492,7 @@ fqsousou.com,kengso.com#@#.user-share
 /get-tracking-data
 /get?affid=$script
 /get_browser_info.
-/get_cdns?$third-party,xmlhttprequest
 /get_geoip?
-/get_site_data?*&cookie=
-/get_site_data?*&href=
-/get_statistics.php?screen_width=
 /get_tracking_id?
 /get_tracking_url.
 /getbglog.js
@@ -77525,7 +77503,6 @@ fqsousou.com,kengso.com#@#.user-share
 /getIbleStats?
 /getlog.gif?
 /getnortonsealimaget.js
-/getPixels?*&referer=
 /getPixelSso
 /getRemoteDomainCookies?
 /getsidpixeltag?sid=
@@ -77553,8 +77530,6 @@ fqsousou.com,kengso.com#@#.user-share
 /gn_analytics.
 /gn_tracking.
 /goAnalytics.
-/gomez.js
-/gomez/*$script
 /GomezTracking.
 /google-analyticator/*
 /google-analytics-$~image
@@ -77587,11 +77562,9 @@ fqsousou.com,kengso.com#@#.user-share
 /GoogleAnalyticActionLib.
 /googleanalytics-
 /googleanalytics.js
-/GoogleAnalytics.swf
 /googleanalytics/*
 /googleAnalytics1.
 /googleAnalytics2.
-/GoogleAnalytics2|
 /GoogleAnalytics?utmac=
 /googleAnalytics_
 /googleAnalyticsBase_
@@ -77599,14 +77572,12 @@ fqsousou.com,kengso.com#@#.user-share
 /googleAnalyticsBottom.
 /googleAnalyticsDataLayer.
 /googleanalyticsevents?
-/googleanalyticsmanagement.swf
 /GoogleAnalyticsModule.
 /googleAnalyticsOutgoingLinks.
 /GoogleAnalyticsPlugIn.
 /GoogleAnalyticsPlus/*
 /googleAnalyticsTracking.
 /GoogleAnalyticsTrackingProvider.js
-/GoogleAnalytics|
 /googleanalyze1.
 /googleanalyze2.
 /googleasynctrack.
@@ -77712,8 +77683,6 @@ fqsousou.com,kengso.com#@#.user-share
 /honeybadger.min.js$third-party
 /horizon-pageview?
 /horizon-track.
-/horizon.*/track?
-/horizon.*/watch?
 /horizon/track?
 /host-analyticsjs-local/*
 /hotmobtag_
@@ -77731,8 +77700,6 @@ fqsousou.com,kengso.com#@#.user-share
 /i2a.js
 /i2yesCounter.js
 /i?_SB_stm=
-/i?e=*&page=*&cookie=
-/i?redir=*&page=*&cookie=
 /i?siteid=
 /i?stm=
 /ibeat.min.js
@@ -77812,7 +77779,6 @@ fqsousou.com,kengso.com#@#.user-share
 /impressions?
 /ImpressionsEvent.js
 /impressionTrackerV2.
-/in.cgi?*http
 /in.getclicky.com/*
 /in.gif?url=
 /in.php?*&referer=
@@ -77825,7 +77791,6 @@ fqsousou.com,kengso.com#@#.user-share
 /includes/tracking_
 /increment_page_counter.
 /incrementVisits_get?
-/index.php?_m=livesupport*&referrer=
 /index.track?
 /indextools.js
 /indraeventsapi.
@@ -77888,13 +77853,11 @@ fqsousou.com,kengso.com#@#.user-share
 /ivw_analytics_
 /IVWAnalytics.
 /ivwbox/*
-/IVWTracker.swf
 /iwa.js
 /iwstat.js
 /j.gif?
 /javascript/Analytics.
 /javascript/analytics/*
-/javascript/ci/*landing.js$script
 /Javascript/ga.js
 /JavaScriptErrorCollector?
 /javascripts/ga.js
@@ -78003,8 +77966,6 @@ fqsousou.com,kengso.com#@#.user-share
 /krux-sass-helper.
 /krux.js
 /ktag/*
-/ktrace/ktrace$script
-/l1v.ly/*$third-party
 /landings-pixel?
 /LastClick/js?
 /layer_log.php?p=
@@ -78023,7 +77984,6 @@ fqsousou.com,kengso.com#@#.user-share
 /lib/ga.js
 /lib/snowplow-
 /lib/tracking/*
-/library/svy/*/broker.js
 /library/svy/broker.js
 /library_analytics.
 /librato-collector.
@@ -78097,7 +78057,6 @@ fqsousou.com,kengso.com#@#.user-share
 /log/ux_analytics^
 /log/web?
 /log2.php?
-/Log?*&adID=
 /Log?act=$image
 /log?action=
 /log?count=
@@ -78133,7 +78092,6 @@ fqsousou.com,kengso.com#@#.user-share
 /logactions.gif?
 /logadhit.
 /logAdv.
-/logAdvertisements|
 /logaholictracker.
 /logAjaxErr_
 /LogAnalysisTracker/*
@@ -78157,7 +78115,6 @@ fqsousou.com,kengso.com#@#.user-share
 /logger.pageperf?
 /logger.performance?
 /logger.screensize?
-/logger/*&referer=
 /logger/?et=
 /logger/?referer=
 /logger?d=
@@ -89099,6 +89056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kloth.net/images/pixel.gif
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
+||kompass.com/logAdvertisements
 ||lastpass.com/dist/scripts/analyticsjs
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
