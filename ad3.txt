@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8zA1VdWOcfsroOUCKfzrtg
+! Checksum: LzjoEEa2bxzBU0sg9zzjuw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108151449
-! Last Modified: 2021年08月15日 14:49
+! Version: 202108152058
+! Last Modified: 2021年08月15日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14649,6 +14649,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||genesyslogic.com^*/ads$~third-party
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -16655,6 +16656,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||yhaizy.cn^
 ||ipxjps.cn^
+||fjshxjs.cn^
 bxwx3.org###addiv3
 bxwx3.org###bdstatic
 55shuba.com###botDiv
@@ -23296,6 +23298,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /efxanalytics.js
 /ehcorp.tracking.
 /eheat.js
+/eht.js?site_id=
 /electrode/api/logger
 /elex.track.
 /eloqua.
@@ -33502,6 +33505,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tcheck.outbrainimg.com^
 ||te.supportfreecontent.com^
 ||technorati.com/technoratimedia-pixel.js
+||techtarget.com^*/GetCookiesWithCallback?
 ||techweb.com/beacon/
 ||telemetrics.klaviyo.com^
 ||telemetry.reembed.com^
@@ -34332,6 +34336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitemaji.com/nownews.php?
 ||sobeycloud.com/Services/Stat.
 ||sohu.com/pvpb.gif?
+||sohu.com/stat/
 ||stargame.com/g.js
 ||stat.ws.126.net^
 ||statics.itc.cn^*/spm.js$script,domain=sohu.com
