@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AQutKd6vRBQSjIxz9uMEbg
+! Checksum: x7UDv0CrkSl+0064v0HeAQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108160936
-! Last Modified: 2021年08月16日 09:36
+! Version: 202108161045
+! Last Modified: 2021年08月16日 10:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21899,6 +21899,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /500b-bench.jpg?
 /?dsp_uid=
 /?essb_counter_
+/?fp=*&prvtof=
 /?livehit=
 /?mob.ct=
 /?record&key=
@@ -24104,6 +24105,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /js/tracking.js
 /js/tracking.min.js?
 /js/tracking/*
+/js/tracking?
 /js/tracking_
 /js/trk_
 /js_event_tracking/*
@@ -27132,10 +27134,10 @@ _sdcTrackingCode.
 ?proxy=*?pools=
 ?proxy=ws://$script,websocket
 ?proxy=wss://$script,websocket
-/client_204?$image,other,ping,script
-/csi_204?$image,other,ping,script
-/gen_204?$image,other,ping,script
-/generate_204$image,other,ping,script
+/client_204?
+/csi_204?
+/gen_204?
+/generate_204
 ,adb=*&referer=
 -logabpstatus.
 /ab_test/*
@@ -28254,10 +28256,7 @@ _mongo_stats/
 ||googleadservices.com^$third-party
 ||googleoptimize.com^$third-party
 ||googlerank.info^$third-party
-||googletagmanager.com/gtag/$third-party
-||googletagmanager.com/gtm/$third-party
-||googletagmanager.com^$image,third-party
-||googletagservices.com/tag/$third-party
+||googletagmanager.com^$third-party
 ||gooo.al^$third-party
 ||gopjn.com^$third-party
 ||gostats.com^$third-party
@@ -32592,11 +32591,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||googleapis.com/aam.js
 ||googleapis.com/gadasource/gada.js
 ||googleapis.com/ivc.js
-||googleapis.com^*/gen_204?
 ||googlecode.com^*/tracker.js
-||googletagmanager.com/ns.html?$third-party
-||googletagservices.com^*/osd.js$third-party
-||googletagservices.com^*/osd_listener.js$third-party
 ||googleusercontent.com/tracker/
 ||gotdns.com/track/blank.aspx?
 ||gotmojo.com/track/
@@ -32610,7 +32605,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gsn.chameleon.ad^$~script
 ||gsp1.baidu.com^
 ||gstatic.com/gadf/ga_dyn.js
-||gstatic.com/gen_204?
 ||gstatic.com/wcm/impl-
 ||gstatic.com/wcm/loader.js
 ||gtrk.s3.amazonaws.com^
@@ -35125,6 +35119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.theregister.com^$image
 ||gofundme.com/track
 ||google.com/dssw.js
+||google.com/images/phd/px.gif
 ||google.com/log?
 ||goseek.com/session-
 ||goseek.com/track-
@@ -46074,7 +46069,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data$xmlhttprequest,domain=bloomberg.co.jp|bloomberg.com
-@@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 @@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
