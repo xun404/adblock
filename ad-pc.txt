@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gZBIbrlFnxPHdBaEuJWtSA
+! Checksum: kpUdlVyYPG7qO5rysIIGpg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108170936
-! Last Modified: 2021年08月17日 09:36
+! Version: 202108171045
+! Last Modified: 2021年08月17日 10:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -88565,6 +88565,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
 ||kompass.com/logAdvertisements
+||lastminute.com/ose/tracking/
+||lastminute.com/service/track/
+||lastminute.com^*/metrics
 ||lastpass.com/dist/scripts/analyticsjs
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
@@ -99440,6 +99443,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
