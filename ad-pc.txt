@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aSZJVeSqtxfLjW/1xNMD3A
+! Checksum: 5VfOT1A4jEcZKvJsRKGCAg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108190148
-! Last Modified: 2021年08月19日 01:48
+! Version: 202108190438
+! Last Modified: 2021年08月19日 04:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18281,6 +18281,7 @@ _800x80_
 ##.ad-box-container
 ##.ad-box-title
 ##.ad-box-up
+##.ad-box-video
 ##.ad-box-wrapper
 ##.ad-box1
 ##.ad-box2
@@ -31412,8 +31413,8 @@ _800x80_
 ###taboola-top-banner-abp
 ###taboola_related
 ###taboola_responsive_wrapper
-##.ab_taboola
 ##.ad-container--taboola
+##.ab_taboola
 ##.article-footer--taboola
 ##.box-taboola-content
 ##.dart-ad-taboola
@@ -52704,6 +52705,7 @@ allnurses.com##.ipsSpacer_both
 twitter.com##.is-promoted
 speedcheck.org##.isg-container
 2ip.me##.item-384
+alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,dawsoncreekmirror.ca,delta-optimist.com,moosejawtoday.com,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com,tricitynews.com##.item-sponsored
 947.co.za##.itunes
 kfm.co.za##.itunes-sml
 itweb.co.za##.itw-content-zone
@@ -53196,6 +53198,7 @@ foodfacts.com##.slimBanner
 ecommercetimes.com##.slink-text
 ecommercetimes.com##.slink-title
 inbox.com##.slinks
+alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,dawsoncreekmirror.ca,delta-optimist.com,moosejawtoday.com,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com,tricitynews.com,vancouverisawesome.com##.slot
 independent.ie##.slot1
 independent.ie##.slot4
 imdb.com##.slot_wrapper
@@ -53528,7 +53531,7 @@ movie-censorship.com##a[href*="/out.php?"]
 imagetwist.com##a[href*="/par/"]
 civilserviceindia.com##a[href*="/red.php?bu="]
 sundayworld.co.za,universityaffairs.ca##a[href*="/sponsored-content/"]
-biznews.com,businessdailyafrica.com,financialexpress.com,irishtimes.com,komonews.com,seattletimes.com,spokesman.com##a[href*="/sponsored/"]
+biznews.com,burnabynow.com,businessdailyafrica.com,coastreporter.net,financialexpress.com,irishtimes.com,komonews.com,newwestrecord.ca,nsnews.com,prpeak.com,richmond-news.com,seattletimes.com,spokesman.com##a[href*="/sponsored/"]
 isaidubb.net,orutamil.com##a[href*="/ucdownloader.php?"]
 isaidubb.net,orutamil.com##a[href*="/ucmini.php?"]
 distrowatch.com##a[href*="3cx.com"]
@@ -53641,6 +53644,7 @@ reddit.com##div[data-before-content="advertisement"]
 pushsquare.com##div[data-dfp-id]
 livejournal.com##div[data-google-query-id]
 windowsreport.com##div[data-insertion]
+independent.co.uk##div[data-mpu1]
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 qwant.com##div[data-testid^="snippet"]
 quora.com##div[id$="content_box"]
@@ -85004,6 +85008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||conversions.genieventures.co.uk^
 ||convertflow.co^*/visitors/
 ||convertkit.com^*/visit
+||cookie-guard-erdee.ey.r.appspot.com^
 ||cookies.livepartners.com^
 ||cookiex.ngd.yahoo.com^
 ||count.asnetworks.de^
