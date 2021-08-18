@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eRQtIpJSbqKUbv9fbNgFjg
+! Checksum: YiQKfwZITGvC+XfFXYKdJg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108182105
-! Last Modified: 2021年08月18日 21:05
+! Version: 202108182144
+! Last Modified: 2021年08月18日 21:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -35915,6 +35915,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wt-safetag.com^$domain=stern.de
 ||xplosion.de^$domain=spiegel.de|stern.de
 !-----------------Individual cname tracking systems-----------------!
+||clickmail.stubhub.com^$image,script
 ||a8.01cloud.jp^
 ||a8.cyclemarket.jp^
 ||a8.denwa-hikari.com^
@@ -44639,7 +44640,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||click1.e.thechive.com^
 ||click1.mail.paltalkpeople.com^
 ||click2.email.ticketmaster.com^
-||clickmail.stubhub.com^
 ||clicks-test.info.theiconic.com.au^
 ||clicks.6thstreet.com^
 ||clicks.burgerking.co.uk^
