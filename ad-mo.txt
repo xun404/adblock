@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BCOl6ocf05TUu72o5F1nbw
+! Checksum: 7PTFnHijz+zCIdg/YuL2Lg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108191337
-! Last Modified: 2021年08月19日 13:37
+! Version: 202108191449
+! Last Modified: 2021年08月19日 14:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2269,7 +2269,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adparts/*
 /adpatch.
 /adpeeps.
-/adpeeps/*
+/adpeeps/*$~image
 /adperf_
 /adperfdemo.
 /adphoto.$domain=~adphoto.eu|~adphoto.fr|~adphoto.pl
@@ -39762,6 +39762,7 @@ menstennisforums.com#@#.top_ads
 ||p78lld1s.top^
 ||p7m1rc80jdum.com^
 ||p9oqu.com^
+||pa5ka.com^
 ||pachminas.xyz^
 ||pacifoos.net^
 ||pacitiesbo.info^
@@ -41351,6 +41352,7 @@ menstennisforums.com#@#.top_ads
 ||sdsttt.com^
 ||seaboblit.com^
 ||searchdims.network^
+||searchenhancements.com^
 ||searchmulty.com^
 ||searchsecurer.com^
 ||searsbushelbus.com^
@@ -41848,6 +41850,7 @@ menstennisforums.com#@#.top_ads
 ||stargoug.com^
 ||starkpropagandaattacks.com^
 ||starkunfinisheddestroyed.com^
+||start-xyz.com^
 ||start3dd0wnload.com^
 ||startappexchange.com^
 ||startsmajesty.com^
@@ -43370,6 +43373,7 @@ menstennisforums.com#@#.top_ads
 ||wpu.sh^
 ||wpyjkfcucjpuwh.com^
 ||wqgdajjozr.com^
+||wqmfbqpbnmgyi.com^
 ||wqnmbecaugfpl.com^
 ||wqpeltrb.com^
 ||wqpoqalozlciw.com^
@@ -47616,6 +47620,7 @@ menstennisforums.com#@#.top_ads
 ||overturs.com^$popup
 ||oyi9f1kbaj.com^$popup
 ||ozora.work^$popup
+||pa5ka.com^$popup
 ||padsdel.com^$popup
 ||padssup.com^$popup
 ||pagne4cham4hrobl.com^$popup
@@ -47783,6 +47788,7 @@ menstennisforums.com#@#.top_ads
 ||sasontnwc.net^$popup
 ||sautemoo.net^$popup
 ||scenbe.com^$popup
+||searchenhancements.com^$popup
 ||searchmulty.com^$popup
 ||searchsecurer.com^$popup
 ||secureclickers.com^$popup
@@ -47847,6 +47853,7 @@ menstennisforums.com#@#.top_ads
 ||srvbytrking.com^$popup
 ||srvpub.com^$popup
 ||ssl2anyone3.com^$popup
+||start-xyz.com^$popup
 ||start3dd0wnload.com^$popup
 ||statsmobi.com^$popup
 ||statuewas.com^$popup
@@ -49930,6 +49937,7 @@ menstennisforums.com#@#.top_ads
 ||gfrevenge.com/vbanners/
 ||girlsfuck-tube.com/js/aobj.js
 ||go.bshrdr.com^
+||go.clicknplay.to^
 ||go.mshago.com^
 ||go.tmrjmp.com^
 ||go2cdn.org/brand/$third-party
@@ -50869,6 +50877,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||hornygamer.com/includes/gamefile/sw3d_hornygamer.gif
 ||hornygamer.com/play_horny_games/
 ||hotgirlsdream.com/tf40bbdd1767.js
+||hotscopes.to/TWHrtg5.js
 ||hottystop.com/t33638ba5008.js
 ||hqpornstream.com/pub/
 ||hypnohub.net/assets/hub.js
@@ -50960,6 +50969,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||toppixxx.com/images/banner-
 ||toppixxx.com/images/gotoshop.jpg
 ||tryboobs.com/bf/
+||upornia.com/opcivdsnz/
 ||vikiporn.com/jsb/
 ||vipergirls.to/clientscript/poptrigger_
 ||vrsmash.com/assets/script
@@ -54579,12 +54589,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||experienceleague.corp.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
-@@||facebook.com/ads/ajax/ads_stats_dialog/$~third-party,xmlhttprequest
-@@||facebook.com/ads/api/preview_iframe.php$subdocument,~third-party
-@@||facebook.com/ads/profile/advertisers/$~third-party,xmlhttprequest
-@@||facebook.com/ads/profile/interests/$~third-party,xmlhttprequest
-@@||facebook.com/ajax/settings/account/advertising_email.php$~third-party,xmlhttprequest
-@@||fbcdn.net/rsrc.php/*.css$stylesheet,~third-party
+@@||facebook.com/ads/profile/$~third-party,xmlhttprequest
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||files.slack.com^$image,~third-party
 @@||flying-lines.com/banners/$image,~third-party
@@ -54599,7 +54604,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
-@@||glos.ac.uk/DataRepository/CourseDatabase/*/adv/$image,~third-party
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
 @@||google.*/s?*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/search?sclient=*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
@@ -54621,17 +54625,13 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
-@@||indiaresults.com/advertisements/submit.png
 @@||infotel.ca/images/ads/$image,~third-party
-@@||infoworld.com/www/js/ads/gpt_includes.js
+@@||infoworld.com/www/js/ads/gpt_includes.js$~third-party
 @@||island.lk/userfiles/image/danweem/island.gif
 @@||itv.com/itv/hserver/*/site=itv/$xmlhttprequest
-@@||itv.com/itv/jserver/$script,domain=itv.com
-@@||jiji.co.ke/api_web/v1/advert/$~third-party,xmlhttprequest
-@@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
-@@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
+@@||itv.com/itv/tserver/$~third-party
 @@||jwpcdn.com/player/plugins/googima/$script,domain=iheart.com|video.vice.com
-@@||kotaku.com^*/assets/new-client/adManager.$script,~third-party
+@@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
 @@||lastpass.com/ads.php$subdocument,~third-party
 @@||lastpass.com/images/ads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
