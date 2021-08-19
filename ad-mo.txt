@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vu5z85dYOzXUHxWPriXkJw
+! Checksum: 9pEtqn/YO8MR/aYhLv5rog
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108191143
-! Last Modified: 2021年08月19日 11:43
+! Version: 202108191251
+! Last Modified: 2021年08月19日 12:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17460,7 +17460,9 @@ _800x80_
 ##.ContentAd
 ##.ContentAd2
 ##.ContentAds
+##.ContentBottomAd
 ##.ContentTextAd
+##.ContentTopAd
 ##.DAWRadvertisement
 ##.DFP_AD_UNIT
 ##.DFPad
@@ -32385,6 +32387,7 @@ menstennisforums.com#@#.top_ads
 ||42297df5c090.com^
 ||42837932b3d.com^
 ||42a5d530ec972d8994.com^
+||42d61f012e27b36d53.com^
 ||42eed1a0d9c129.com^
 ||43137c93a82b0e81da.com^
 ||43d6f284d10bfbbb3.com^
@@ -35103,6 +35106,7 @@ menstennisforums.com#@#.top_ads
 ||defpush.com^
 ||defutohy.pro^
 ||defyraspypuke.com^
+||degrtdqvaansd.com^
 ||degryrubi.com^
 ||dehtxweiq.com^
 ||dehydratedpredestinationplenty.com^
@@ -39037,6 +39041,7 @@ menstennisforums.com#@#.top_ads
 ||mycostaso.com^
 ||mydiethub.com^
 ||myfastcdn.com^
+||myfineartde.biz^
 ||myfizvybnhsquv.com^
 ||mygoodlives.com^
 ||mykhtesikvuz.com^
@@ -42243,6 +42248,7 @@ menstennisforums.com#@#.top_ads
 ||thomageothe.club^
 ||thompaur.com^
 ||thongaspredo.com^
+||thongcivic.com^
 ||thoodsoy.net^
 ||thoorest.com^
 ||thoovoay.net^
@@ -43356,6 +43362,7 @@ menstennisforums.com#@#.top_ads
 ||wowjogsot.com^
 ||wowreality.info^
 ||woymebsi.com^
+||wpadmngr.com^
 ||wpadsx.com^
 ||wpnjrm.com^
 ||wpnjs.com^
@@ -54494,10 +54501,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.dollartree.com/SneakPeek/$~third-party
-@@||ads.emarketer.com/adserve/;ID=176831;size=1170x117;setID=377294;type=json;$xmlhttprequest,domain=emarketer.com
-@@||ads.emarketer.com/adserve/;ID=176831;size=1170x117;setID=377297;type=json;$xmlhttprequest,domain=emarketer.com
-@@||ads.emarketer.com/adserve/;ID=176831;size=1170x293;setID=377298;type=json;$xmlhttprequest,domain=emarketer.com
-@@||ads.emarketer.com/getad.img/;libID=$image,domain=emarketer.com
 @@||ads.exoclick.com/*.js$script,domain=gelbooru.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.muxiv.com/address/$xmlhttprequest
@@ -54539,42 +54542,29 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||banmancounselling.com/wp-content/themes/banman/
 @@||banner.yt^$image,domain=socialblade.com
 @@||bannersnack.com/banners/$document,subdocument,domain=adventcards.co.uk|charitychristmascards.org|christmascardpacks.co.uk|kingsmead.com|kingsmeadcards.co.uk|nativitycards.co.uk|printedchristmascards.co.uk
-@@||basinnow.com^*/advertise-$image,domain=basinnow.com
+@@||basinnow.com/admin/upload/settings/advertise-img.jpg
+@@||basinnow.com/upload/settings/advertise-img.jpg
 @@||bbc.co.uk^*/adverts.js
 @@||bbc.gscontxt.net^$script,domain=bbc.com
-@@||bigfishaudio.com/banners/$image
+@@||bigfishaudio.com/banners/$image,~third-party
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
-@@||boats.com/ad/$~third-party,xmlhttprequest
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
-@@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg
-@@||btcmanager.com/wp-content/uploads/wp-banners/banner_cf0c55bbe3e654b2e631fd0552e0322b.png
-@@||canadianlisted.com/css/*/ad/index.css
-@@||candystand.com/assets/images/ads/$image
-@@||capertongillett.com/glp?r=$script,~third-party
+@@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
+@@||canadianlisted.com/img/ad_img/$~third-party
+@@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
-@@||caranddriver.com/assets/js/ads/ads-combined.min.js
-@@||caranddriver.com/tools/iframe/?$subdocument
 @@||cbsi.com/dist/optanon.js$script,domain=cbsnews.com|zdnet.com
-@@||cctv.com/js/cntv_Advertise.js
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
-@@||cdn.betrad.com/pub/icon1.png$domain=usanetwork.com
-@@||cdn.inskinmedia.com^*/brightcove3.js$domain=virginmedia.com
-@@||chase.com/content/*/ads/$image,~third-party
-@@||chase.com^*/adserving/
-@@||chotot.com/v1/public/user_ads/$xmlhttprequest
-@@||cio.com/www/js/ads/gpt_includes.js
+@@||cio.com/www/js/ads/gpt_includes.js$~third-party
 @@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
 @@||cloud.google.com^$~third-party
-@@||cloudfront.net/ad/$image,domain=buzzmath.com|netmaths.net|scolab.com
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||connatix.com/connatix.player.js$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
 @@||connatix.com^*/connatix.player.js$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
 @@||crackle.com/vendor/AdManager.js$script,~third-party
-@@||css.wpdigital.net/wpost/css/combo?*/ads.css
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
-@@||d12prgon3aw7l1.cloudfront.net^$image,domain=jiji.co.ke
 @@||dailymotion.com/embed/$subdocument,domain=~gum-gum-streaming.co|~gum-gum-streaming.com|~gum-gum-streaming.tv|~mavanimes.co|~streaming-vostfr.com
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
@@ -54732,6 +54722,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||stream.playbuzz.com/player/$script,domain=lbry.tv
 @@||summitracing.com/global/images/bannerads/
+@@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||theweathernetwork.com/js/*/prebid_twn/$script,~third-party
@@ -55118,13 +55109,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||3movs.com/sd3/s/s/js/m/pr-before.js$script,~third-party
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||iafd.com/graphics/headshots/thumbs/th_iafd_ad.gif$~third-party
-@@||sundaysportclassifieds.co.uk/ads/$image,~third-party
 @@||gaybeeg.info^$generichide
 @@||milfzr.com^$generichide
 @@||pornbraze.com^$generichide
 @@||rule34hentai.net^$generichide
 @@||urlgalleries.net^$generichide
-@@||ads.b10f.jp/flv/$~third-party
 @@||as.sexad.net^*?p=*&v=$popup,domain=keezmovies.com|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|tube8.es|tube8.fr
 @@||download.pornhub.phncdn.com/videos/$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||pornhublive.com/?AFNO=$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
