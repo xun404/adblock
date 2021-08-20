@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KzOnIk3G6V9lVhj+rT7ulA
+! Checksum: oyHjBstLMl3JIfyUQm0bHg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108201449
-! Last Modified: 2021年08月20日 14:49
+! Version: 202108201537
+! Last Modified: 2021年08月20日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56311,6 +56311,7 @@ _xiuno_com_ad/
 ##a[href="https://8646543.com"]
 ##a[href="https://87nn.cc/"]
 ##a[href="https://www.ybvip1879.vip"]
+##a[href="javascript:window.GoTp();"]
 ##a[href="javascript:GoDb();"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
@@ -56360,10 +56361,13 @@ _xiuno_com_ad/
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
+##.ec-ad
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||kzxsrxf.cn^
+||pl8la42.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -63973,6 +63977,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vipmv.tv##DIV[style^="position: fixed;bottom: -10px;"]
+xunlei.com##.mini-pop
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -66501,7 +66507,6 @@ so.com##.e_idea_wenda_spread
 solidot.org##.e_reply > .fr
 easou.com##.easou_banner
 360kan.com##.eb-rightbox
-baidu.com,yanetflix.com##.ec-ad
 baidu.com##.ec-ads-container
 baidu.com##.ec-fc-ad-results
 sm.cn##.ec-goods-list
