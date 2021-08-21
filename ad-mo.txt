@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z2DXTY4FUYLA7kev/aXGNA
+! Checksum: hIbMx9+sBnIR3THXolIFWQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108211448
-! Last Modified: 2021年08月21日 14:48
+! Version: 202108211841
+! Last Modified: 2021年08月21日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51873,6 +51873,7 @@ thehackernews.com##.av-side-box
 gameplanet.co.nz##.avt-mr
 gameplanet.co.nz##.avt-placement
 whatsondisneyplus.com##.awac-wrapper
+siasat.com##.awt_ad_code
 express.co.uk##.ayl-native
 doubleviking.com##.az
 auctionzip.com##.az-header-ads-container
@@ -52989,7 +52990,9 @@ litecoin-faucet.com##.sticky-top1
 theloadout.com##.sticky_rail600
 dailyherald.com##.stnContainer
 politico.com##.story-continued
+siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
+siasat.com##.stream-item-inline-post
 todayuknews.com##.stream-item-top-wrapper
 twitter.com##.stream-item[data-item-type="tweet"][data-item-id*=":"]
 twitter.com##.stream-tweet[label="promoted"]
@@ -54428,8 +54431,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hackread.com/wp-content/uploads/$image,~third-party
 @@||hotstar.com/vs/getad.php$domain=hotstar.com
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
-@@||hulu.com/published/*.flv
-@@||hulu.com/published/*.mp4
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
@@ -54455,7 +54456,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||manageengine.com/products/ad-manager/$~third-party
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
-@@||moatads.com/*/moatwrapper.js$script,domain=hulu.com
 @@||mobygames.com/images/covers/$image,~third-party
 @@||mobygames.com/images/promo/$image,~third-party
 @@||moremoney.io/promo/Advertise.svg$~third-party
@@ -87364,7 +87364,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||4hds.com/js/camstats.js
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
-||a.huluad.com/beacons/
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
@@ -87697,8 +87696,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hqq.tv/cdn-cgi/trace
 ||html5games.com/event/
 ||hulkshare.com/ajax/tracker.php
-||hulu.com/beacon/
-||hulu.com/google_conversion_video_view_tracking.html
+||hulu.com/api/v1/page-hit
 ||hulu.com/metricsconfig
 ||i.pokernews.com^
 ||ibt.com/front/js/counter.js
@@ -88100,7 +88098,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.blinkist.com^
 ||t.dailymail.co.uk^
 ||t.freelancer.com^
-||t.hulu.com/beacon/
 ||t.imgur.com^
 ||t.indeed.com^
 ||t.jossandmain.com^
@@ -88112,7 +88109,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.wayfair.co.uk^
 ||t.wayfair.com^
 ||t2.hulu.com^
-||t2.huluim.com^
 ||tagger.ope.scmp.com^
 ||tags.aljazeera.com^
 ||tags.news.com.au^$script
