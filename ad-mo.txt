@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jz5TvDLFnnLxC/Qqw9p7+w
+! Checksum: mTFv1yAy42yrhc/yW59WQg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108220936
-! Last Modified: 2021年08月22日 09:36
+! Version: 202108221044
+! Last Modified: 2021年08月22日 10:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -947,7 +947,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .net/ads?
 .net/ads_
 .net/adt?
-.net/adv/
 .net/bnr/
 .net/flashads
 .net/gads/
@@ -2274,9 +2273,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adperfdemo.
 /adphoto.$domain=~adphoto.eu|~adphoto.fr|~adphoto.pl
 /adpic.
-/adpic/*$~image
+/adpic/*
 /adpicture.
-/adpictures/*
+/adpictures/*$~image
 /adping.
 /adpix/*
 /adplace/*
@@ -18972,6 +18971,7 @@ _800x80_
 ##.ad-wrapper--articletop
 ##.ad-wrapper--flexibleportrait
 ##.ad-wrapper--slideshowhalfpage
+##.ad-wrapper-bg
 ##.ad-wrapper-left
 ##.ad-wrapper-sticky
 ##.ad-wrapper-top
@@ -31309,6 +31309,7 @@ _800x80_
 ###taboola-below-home-thumbnails-homepage
 ###taboola-content
 ###taboola-footer-ad
+###taboola-main-container
 ###taboola-mid-article-thumbnails
 ###taboola-placeholder
 ###taboola-right-rail
@@ -39575,6 +39576,7 @@ menstennisforums.com#@#.top_ads
 ||oiqpgawl.com^
 ||oiycak.com^
 ||ojbhoukw.com^
+||ojhmakoqg.com^
 ||okaoqyvdgoozbt.com^
 ||okayarab.com^
 ||okhfyyfgw.com^
@@ -41141,6 +41143,7 @@ menstennisforums.com#@#.top_ads
 ||roastclap.com^
 ||robberets.site^
 ||robovoiz.com^
+||robsbogsrouse.com^
 ||robspabah.com^
 ||rocketstars.online^
 ||rockynoderearrange.com^
@@ -43255,6 +43258,7 @@ menstennisforums.com#@#.top_ads
 ||whatisuptodaynow.com^
 ||whattoexpectheal.com^
 ||whaudsur.net^
+||whaulids.com^
 ||whaustou.net^
 ||whautsel.net^
 ||whaxanso.net^
@@ -50570,12 +50574,10 @@ menstennisforums.com#@#.top_ads
 ||viewdeos.com^$script,third-party
 ||vms-players.minutemediaservices.com^$script,third-party
 ||vplayer.newseveryday.com^
-||mimecast.com^$domain=motorcycleshows.com
 ||centent.streamp1ay.
 ||cintent.streanplay.
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 ||m.youtube.com/get_midroll_$domain=youtube.com
-||pagead2.googlesyndication.com^$domain=youtube.com
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||youtube.com/get_video_info?*adunit$~third-party
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com
