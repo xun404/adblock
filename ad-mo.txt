@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pBuWTnmcib+Fu0uTZ3lrRQ
+! Checksum: t2DjML96ehqHgaCrRSH2lA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108252242
-! Last Modified: 2021年08月25日 22:42
+! Version: 202108260102
+! Last Modified: 2021年08月26日 01:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -63387,7 +63387,6 @@ _yad_jsonp_
 ||wuhaozhan.net/img/sponsors-
 ||wuliao.epro.sogou.com^
 ||wuseng.net/script/fixdown.js
-||wuyong.fun^$csp=script-src 'self' * 'unsafe-inline'
 ||wuyulou.com^*.php
 ||ww7814.win/pic
 ||ww9874.com/asset/playerInit.js
@@ -63869,6 +63868,7 @@ _yad_jsonp_
 ||pgcm58.com/files/h5/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+fanyi.youdao.com##.dict-download-guide
 boce.com##.banner
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -73858,6 +73858,22 @@ getrelax.cc,sexylove.club##.loaded-popup-wrapper
 ||huizeyoupin.com^
 ||jsdelivr.net/gh/*/960x60.
 ||wrkdih.com^
+!#Porn-dbhf.js
+/ttgg/*.js$script,third-party
+/dbhf.js$script,third-party
+/sbhf.js$script,third-party
+/xbhf.js$script,third-party
+/js/db.js$script,third-party
+/js/lm.js$script,third-party
+/js/xb.js$script,third-party
+/js/zb.js$script,third-party
+||107.148.199.181^
+||107.165.206.26^
+||137.175.69.92^
+||142.0.129.74^
+||156.232.37.2^
+||216.172.154.226^
+||muer.cdn-baidu.fs-sywh.com^
 !#Qq.com
 qq.com#@#.adsbox
 qq.com#@#.side_ad
