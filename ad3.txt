@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i/HgAjJLw2DBJJ9SyffNvQ
+! Checksum: rIvSbE4hRYj3j/uxsFMkuw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108261941
-! Last Modified: 2021年08月26日 19:41
+! Version: 202108262144
+! Last Modified: 2021年08月26日 21:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26642,6 +26642,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wadsAdsLoaded/*
 /wanalytics/*
 /watchonline_cookies.
+/wbstats/index/*
 /wcount.php?
 /wdg/tracking-
 /wdg_tracking-
@@ -36003,7 +36004,6 @@ techxplore.com##.embed-responsive-trendmd
 ||sourcepoint-mms.mylifetime.com^
 ||sourcepoint.theguardian.com^
 ||sourcepoint.vice.com^
-||sourcepointcmp.bloomberg.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
 ||twch.20min.ch^
@@ -46246,7 +46246,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
-@@||sourcepointcmp.bloomberg.*/mms/get_site_data$xmlhttprequest,domain=bloomberg.co.jp|bloomberg.com
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 @@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
@@ -46392,7 +46391,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !---------- Finnish ----------
 @@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
-@@||api.etherscan.io/api$domain=sushiswap.fi
 @@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||certona.net^*/resonance.js$domain=zooplus.fi
 @@||d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js$domain=lippu.fi
@@ -46467,6 +46465,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||detik.com/urchin.js
 !---------- Japanese ----------
 @@||a8.net/svt/$image,domain=samplefan.com
+@@||ad.pr.ameba.jp/tpc/list/$xmlhttprequest
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp|sony.jp
@@ -46497,7 +46496,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||game-tsutaya.tsite.jp/pc/common/scripts/analytics/s_code_ggame.js
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
-@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|cyclestyle.net|hatenacorp.jp|kakuyomu.jp|nap-camp.com|radiko.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|hatenacorp.jp|kakuyomu.jp|nap-camp.com|radiko.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||k-img.com/javascripts/modules/rst/analytics.js?$domain=tabelog.com
