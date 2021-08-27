@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nwV9yaNr7Hcumcd3pI3aWA
+! Checksum: Uw/tFmGPaYoM1/dLz5ZITg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108271251
-! Last Modified: 2021年08月27日 12:51
+! Version: 202108271337
+! Last Modified: 2021年08月27日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3470,7 +3470,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertisements/*$domain=~ellefanningfan.net
 /advertisements?
 /advertisements_
-/advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
+/advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.pinterest.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
 /advertisers.$image,script,subdocument,domain=~advertisers.adgoal.de|~advertisers.adversense.com|~advertisers.careerone.com.au|~advertisers.ch|~advertisers.dk|~advertisers.easyweddings.com.au|~advertisers.io|~advertisers.leadia.ru|~advertisers.ypfboost.ph|~panel.rightflow.com
 /advertisers/*$domain=~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertiserwidget.
@@ -7076,7 +7076,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 ?advurl=
 ?adx=
 ?banner.id=
-?banner_id=
 ?bannerid=
 ?bannerXGroupId=
 ?canp=adv_
@@ -18829,6 +18828,7 @@ _800x80_
 ##.ad-stack
 ##.ad-statement
 ##.ad-sticky
+##.ad-sticky-banner
 ##.ad-sticky-container
 ##.ad-sticky-slot
 ##.ad-stickyhero
@@ -25796,6 +25796,7 @@ _800x80_
 ##.imageads
 ##.images-adv
 ##.imagetable_ad
+##.img-ad-container
 ##.img-advert
 ##.img_ad
 ##.img_ads
@@ -50723,7 +50724,7 @@ menstennisforums.com#@#.top_ads
 ||m.youtube.com/get_midroll_$domain=youtube.com
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||youtube.com/get_video_info?*adunit$~third-party
-/^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com
+/^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|cryptobriefing.com|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com
 /^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=123films.cc|123proxy.biz|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.co|mp3-convert.org|newser.com|nutritioninsight.com|ouo.press|powvideo.net|powvldeo.cc|primewire.sc|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|zippyshare.com
 /^https?:\/\/.*\/sw.js?.[a-zA-Z0-9%]{50,}/$script,~third-party
 $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -52157,7 +52158,7 @@ iotwreport.com##.code-block
 cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,whats-on-netflix.com##.code-block-1
 getdroidtips.com##.code-block-13
 getdroidtips.com##.code-block-15
-cryptoreporter.info,geekspin.co,kanonitv.net,mikeprg.com##.code-block-2
+cryptobriefing.com,cryptoreporter.info,geekspin.co,kanonitv.net,mikeprg.com##.code-block-2
 cryptoreporter.info##.code-block-3
 getdroidtips.com,thegayuk.com##.code-block-4
 androidsage.com##.code-block-5
