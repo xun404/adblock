@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A95e48Ep81n6KClh0t9eJQ
+! Checksum: uJFpVSlYbSn15PNb5VyrKA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108291937
-! Last Modified: 2021年08月29日 19:37
+! Version: 202108292057
+! Last Modified: 2021年08月29日 20:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30267,6 +30267,7 @@ _800x80_
 ##[ad-id^="googlead"]
 ##[class*="-slot_ad-placements-"]
 ##[class*="auto-bottom-advertising-"]
+##[class^="Ad-adContainer"]
 ##[class^="div-gpt-ad"]
 ##[data-ad-manager-id]
 ##[data-ad-module]
@@ -31470,6 +31471,7 @@ _800x80_
 ##.zergnetpower
 ##.zergpowered
 ##a[href^="http://www.zergnet.com/i/"]
+##display-ad-component
 ##div[id^="zergnet-widget"]
 thedailygreen.com#@##AD_banner
 webmail.verizon.net#@##AdColumn
@@ -35591,6 +35593,7 @@ menstennisforums.com#@#.top_ads
 ||dqulcczd.com^
 ||dragonsniffcashmere.com^
 ||drako2sha8de09.com^
+||dramaco.xyz^
 ||drapefabric.com^
 ||drasticdifferentfoetus.com^
 ||draulinehandon.info^
@@ -43493,6 +43496,7 @@ menstennisforums.com#@#.top_ads
 ||weptpremisedefined.com^
 ||weredadmitt.club^
 ||wergad.com^
+||weshuhori.com^
 ||westerdayeol.site^
 ||wethornsprecede.com^
 ||wfawhfxe.com^
@@ -43850,6 +43854,7 @@ menstennisforums.com#@#.top_ads
 ||xts7fgss.com^
 ||xu5ctufltn.com^
 ||xubob.com^
+||xuhycaphe.com^
 ||xuossk3tu6hb.com^
 ||xuteketa.com^
 ||xuveiai.ru^
@@ -49612,6 +49617,7 @@ menstennisforums.com#@#.top_ads
 ||missnowmrs.com/images/banners/
 ||mmosale.com/baner_images/
 ||mmwebhandler.888.com^
+||msn.com/images/v9/en-us/game/tw48/960x300_$third-party
 ||mydirtyhobby.com^$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
 ||namecheap.com/graphics/linkus/
 ||nativly.com/tds/widget?
@@ -50551,6 +50557,8 @@ menstennisforums.com#@#.top_ads
 ||freedownloadmanager.org/js/achecker.js
 ||freeworldgroup.com/banner
 ||funnyjunk.com/site/js/extra/pre
+||g2a.com/assets/g2a.affiliate.
+||g2a.com/js/affiliate.
 ||gamasexual.com/a/i/$image
 ||gamecopyworld.com/games/js/p1.js
 ||gamecopyworld.eu/games/js/p1.js
@@ -51062,6 +51070,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||anybunny.tv/js/main.ex.js
 ||anyporn.com/aa/
 ||anysex.com/*/serv
+||anysex.com/2-2-temparoryp/
 ||assfuck.xxx/uploads/banners/
 ||assfuck.xxx/uploads/provider-banners/
 ||atescorts.com/img-banners/
@@ -51125,6 +51134,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||fuckuh.com/pyzkyustptvj.php
 ||galleries-pornstar.com/thumb_top/
 ||gapeandfist.com/uploads/thumbs/
+||gayboystube.com/templates/gayboystube2017/js/gbtpop.js
 ||girlsofdesire.org/sea/
 ||gloryholegirlz.com/images/banners/
 ||go.pornav.net^
@@ -51258,6 +51268,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||yotta.scrolller.com^
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||yourlust.com*/serve
+||yourlust.com/assets/script.js
 ||youtubelike.com/ftt2/
 ||yporn.tv/yp/yptv.php
 ||zazzybabes.com/istr/t2eff4d92a2d.js
@@ -53262,6 +53273,7 @@ audiobookbay.nl##[href^="/down-"]
 steroid.com##[href^="/out.php"]
 myabandonware.com##[href^="/visual/r-2/"]
 radiotoday.co.uk##[href^="http://go.radiotoday.co.uk/"]
+igg-games.com##[href^="http://s.igg-games.com/index.php"]
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
 coingolive.com##[href^="https://bitpreco.com/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
@@ -98440,6 +98452,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||api.cxense.com/public/widget/data?$domain=marketwatch.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
+@@||api.ipify.org^$script,domain=right-on.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au|speedcheck.ky
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
