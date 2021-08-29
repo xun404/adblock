@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XCFwITcfd1egdYvapkOPUw
+! Checksum: +evwnWiXNmYkxsa0d3Ia5Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108291739
-! Last Modified: 2021年08月29日 17:39
+! Version: 202108291841
+! Last Modified: 2021年08月29日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -15695,6 +15695,7 @@ _800x80_
 ###postpageaddiv
 ###pp-ad-slot
 ###ppcAdverts
+###ppvideoadvertisement
 ###pr_ad
 ###pr_advertising
 ###pre-adv
@@ -17083,6 +17084,7 @@ _800x80_
 ###video-in-player-ad
 ###video-in-player-ad-container
 ###video-side-adv
+###video-sponsor-links
 ###video-under-player-ad
 ###videoAd
 ###videoAdContainer
@@ -26071,6 +26073,7 @@ _800x80_
 ##.insticator-ads
 ##.instoryAdBlock
 ##.instoryAdNoBlock
+##.instream_ad
 ##.instructionAdvHeadline
 ##.insurance-ad
 ##.intad
@@ -46642,7 +46645,6 @@ menstennisforums.com#@#.top_ads
 ||servicegetbook.net^$third-party
 ||serving-sys.com^$third-party
 ||serving-system.com^$third-party
-||setupad.com^$third-party
 ||sev4ifmxa.com^$third-party
 ||sevenads.net^$third-party
 ||sevendaystart.com^$third-party
@@ -49513,6 +49515,7 @@ menstennisforums.com#@#.top_ads
 ||click.aliexpress.com^$subdocument,third-party
 ||clickfunnels.com/assets/cfpop.js
 ||clipcentric-a.akamaihd.net/ad/
+||cloud.setupad.com^
 ||cloudbet.com/ad/
 ||cloudzer.net/ref/
 ||cngroup.co.uk/service/creative/
@@ -51957,6 +51960,7 @@ tribunnews.com###wideskyscraper
 wallpapersmania.com###wm_cpa
 rediff.com###world_right1
 rediff.com###world_top
+worldrecipes.eu###worldrecipeseu_970x90_desktop_sticky_no_closeplaceholder
 eteknix.com###wrapper > header
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wrapper_banners
 blasternation.com###xobda
@@ -53376,6 +53380,7 @@ analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 highdemandskills.com##[href^="https://click.linksynergy.com/"]
 coingolive.com##[href^="https://coinext.com.br/"]
 wccftech.com##[href^="https://cutt.ly/"]
+torrentgalaxy.to##[href^="https://gen4ever.com/"]
 pimylifeup.com##[href^="https://go.pimylifeup.com/"]
 thehackernews.com##[href^="https://go.thn.li/"]
 headfonics.com##[href^="https://headfonics.com/linkout/"]
@@ -71520,6 +71525,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||yujianli.top^
+||hyhfsj.com^
+||lgygy.cn^
 ||2f0jlqc.cn^
 ||mnszpr.cn^
 ||zhylm.cn^
