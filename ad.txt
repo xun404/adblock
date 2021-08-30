@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 40K39yy4PCygF+x4SMsDUA
+! Checksum: 0vdKc+E2LavneUnYavbg6Q
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202108300738
-! Last Modified: 2021年08月30日 07:38
+! Version: 202108300936
+! Last Modified: 2021年08月30日 09:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1911,6 +1911,7 @@ _xiuno_com_ad/
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
+||1w5ddx.cn^
 .8ox.cn
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -9564,8 +9565,15 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||xyzmh.xyz/mg/
+||rouman5.com/a2/*.gif
+||rouman5.com/cps/*.gif
+||rouman5.com/hlw.jpg
+||d4vd.life/love/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+rouman5.com##.fixed-bottom
+rouman5.com##A[href*=".tapdb.net"]
+rouman5.com##A[href*="tyrantdb.com"]
 zh-xth.net##.art-content > A[target="_blank"]
 szxx.com.cn###A1
 szxx.com.cn###A2
