@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z6jnqLOKjy8Ym87S987pAg
+! Checksum: mBWhA5WogFW1DCtAR+9Dqw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108311942
-! Last Modified: 2021年08月31日 19:42
+! Version: 202108312106
+! Last Modified: 2021年08月31日 21:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -46002,7 +46002,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
-@@||adobedtm.com/launch-$script
+@@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
 @@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
@@ -46022,7 +46022,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
-@@||api.cxense.com/public/widget/data?$domain=marketwatch.com
+@@||api.cxense.com/public/widget/data?$domain=marketwatch.com|wsj.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=right-on.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au|speedcheck.ky
