@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nY8gdcWzaW7SXCx++jeUIQ
+! Checksum: IP32VHwSyRZTpCzkxlMUEg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109020739
-! Last Modified: 2021年09月02日 07:39
+! Version: 202109020937
+! Last Modified: 2021年09月02日 09:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9517,6 +9517,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
+bilibili.com##.eva-banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2

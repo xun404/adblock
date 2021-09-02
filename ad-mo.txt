@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vMkpyFGGX9NvJ24AS5rqPQ
+! Checksum: ReyeU8nYEKvMGhYO8dmwvw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109020739
-! Last Modified: 2021年09月02日 07:39
+! Version: 202109020937
+! Last Modified: 2021年09月02日 09:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -25331,6 +25331,7 @@ _800x80_
 ##.gpt-ad-container
 ##.gpt-ads
 ##.gpt-billboard
+##.gpt-container
 ##.gpt-leaderboard-banner
 ##.gpt-mpu-banner
 ##.gpt-sticky-sidebar
@@ -49959,6 +49960,7 @@ tf2r.com#@#.adverts
 ||a.w3techs.com^
 ||abcvideo.cc/javascript/formula.js
 ||aboutmyarea.co.uk/images/imgstore/
+||ad.animehub.ac^
 ||ad.clipcentric.com^
 ||ad.itweb.co.za^
 ||ad.khan.co.kr^
@@ -52758,7 +52760,7 @@ bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-deshdoaba.com,patriotfetch.com,washingtonmonthly.com##.widget_media_image
+deshdoaba.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
 chtupdate.net##.widget_media_image.widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
@@ -63380,6 +63382,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
+bilibili.com##.eva-banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
