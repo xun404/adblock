@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FXIPezZ+ApnkwC7/mEp4TQ
+! Checksum: GAfBYj0Lt2YzK4FQLzkLsQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109030143
-! Last Modified: 2021年09月03日 01:43
+! Version: 202109030246
+! Last Modified: 2021年09月03日 02:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3322,7 +3322,7 @@ tieba.baidu.com##.tuijian-wrap
 /adtagtranslator.
 /adtaily_
 /adtaobao.
-/adTargeting.
+/adTargeting.$domain=~adtargeting.com
 /adtech-
 /adtech.$domain=~adtech.co.uk|~adtech.md
 /adtech/*
@@ -22405,6 +22405,7 @@ _800x80_
 ##.advertisebtn
 ##.advertisedBy
 ##.advertisement--appnexus
+##.advertisement--leaderboard
 ##.advertisement--title
 ##.advertisement-1
 ##.advertisement-160-600
@@ -22498,6 +22499,7 @@ _800x80_
 ##.advertisement_728x90
 ##.advertisement__728x90
 ##.advertisement__full
+##.advertisement__header
 ##.advertisement__label
 ##.advertisement__leaderboard
 ##.advertisement__line
