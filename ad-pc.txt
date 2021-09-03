@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QMmod+XdTYb/0QVS8OANQg
+! Checksum: sAzkNGez4U63tsSXZujVqQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109030739
-! Last Modified: 2021年09月03日 07:39
+! Version: 202109031045
+! Last Modified: 2021年09月03日 10:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18227,6 +18227,7 @@ _800x80_
 ##.ad-block-wide
 ##.ad-block-wk
 ##.ad-block-wrapper
+##.ad-block-wrapper-dev
 ##.ad-block__ad300
 ##.ad-block__inner
 ##.ad-blog2biz
@@ -31190,6 +31191,8 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+##.gnt_tb.gnt_tbb
+##.gnt_tbr.gnt_tb
 ###mplayer-embed
 ##.pbs__player
 ##.van_vid_carousel
@@ -31678,7 +31681,7 @@ songlyrics.com#@#.footer-ad
 freenet.de#@#.frn_contAdHead
 guloggratis.dk#@#.gallery-ad
 davidsilverspares.co.uk#@#.greyAd
-marketwatch.com#@#.has-ad
+forums.digitalspy.com,marketwatch.com#@#.has-ad
 mobiili.fi#@#.header_ad
 iedrc.org#@#.home-ad
 economist.com,flightcentre.co.uk,payback.pl,ripley.cl,ripley.com.pe,wsj.com#@#.img_ad
@@ -33274,6 +33277,7 @@ tf2r.com#@#.adverts
 ||benoopto.com^
 ||beonixom.com^
 ||berningbegi.club^
+||bepiletussar.casa^
 ||berryborrowing.com^
 ||bertekoa.net^
 ||berthgenerousheap.com^
@@ -33385,6 +33389,7 @@ tf2r.com#@#.adverts
 ||bkjjepbwwgef.com^
 ||bl0uxepb4o.com^
 ||bl1mp.com^
+||blabhorol.com^
 ||blackforce.club^
 ||blackname.biz^
 ||blacknessversiondan.com^
@@ -37356,6 +37361,7 @@ tf2r.com#@#.adverts
 ||iphumiki.com^
 ||ipiech.com^
 ||ipmbnqqaon.com^
+||ipp1s.xyz^
 ||iprom.net^
 ||ipromcloud.com^
 ||ipsoorel.com^
@@ -40633,6 +40639,7 @@ tf2r.com#@#.adverts
 ||ramatering.club^
 ||ramponneraient.xyz^
 ||ramptariff.com^
+||ramsonhunk.com^
 ||ranacrelegalize.com^
 ||rancidloss.com^
 ||randalieren6.live^
@@ -50874,6 +50881,8 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 ||videowood.tv/pop?$popup
 /about:blank.*/$popup,domain=bitporno.com|iceporn.com|katestube.com|videowood.tv
 !------------------------Specific element hiding rules------------------------!
+animehub.ac##.sb-subs
+animehub.ac###main-content > center
 magnet.so###AD
 webcarstory.com###Ads
 search.snapdo.com###AfloatingD
@@ -76521,6 +76530,7 @@ fqsousou.com,kengso.com#@#.user-share
 /log?format=
 /log?id=
 /log?kc=
+/log?method=
 /log?ref=
 /log?sLog=
 /log?tag=
@@ -98053,7 +98063,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
-@@||ampproject.org/v0/amp-geo-$script,domain=napavalleyregister.com|pantagraph.com|tasty.co
+@@||ampproject.org/v0/amp-geo-$script,domain=9to5google.com|9to5mac.com|dronedj.com|electrek.co|napavalleyregister.com|pantagraph.com|spaceexplored.com|tasty.co
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
