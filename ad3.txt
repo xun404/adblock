@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0xLESvKFVX5HD43vz8JwUA
+! Checksum: Lgdg0M0aUAkjs0DHihgJwg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109050738
-! Last Modified: 2021年09月05日 07:38
+! Version: 202109050940
+! Last Modified: 2021年09月05日 09:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20136,7 +20136,6 @@ _box_ad_
 ||meiqia.com^$third-party
 ||miduoke.net^$third-party
 ||mylikechat.com^$third-party
-||ntalker.com^
 ||pop800.com^$third-party
 ||soperson.com^$third-party
 ||tawk.to^$third-party
@@ -20512,6 +20511,11 @@ _box_ad_
 ||pcbeta.com/data/cache/bdglpqryAOTW.js
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
+zuoyebang.com##div[class*="moreDialog_"]
+zuoyebang.com##div[class^="answerAnalyzeAd_"]
+zuoyebang.com##img[class^="bottomBanner_"]
+zuoyebang.com##DIV[class^="questionQRCodeWrap_"]
+zuoyebang.com##div[class^="adCard_"]
 baidu.com##.app-side-banner
 sg169.com##.Mappdiv
 sg169.com##.jy-pos-3

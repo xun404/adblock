@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E+lg6bU9wa7fAKysQxbNdg
+! Checksum: 0X6ZfokyR0DqfUrtIspEPg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109050738
-! Last Modified: 2021年09月05日 07:38
+! Version: 202109050940
+! Last Modified: 2021年09月05日 09:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49013,18 +49013,8 @@ tf2r.com#@#.adverts
 ||bravenet.com/cserv.php
 ||brettterpstra.com/wp-content/uploads/$third-party
 ||broadbandgenie.co.uk/widget?$third-party
-||bruteforceseo.com/affiliates/
-||bruteforcesocialmedia.com/affiliates/
 ||btguard.com/images/$third-party
 ||btr.domywife.com^
-||btrd.net/assets/interstitial$script
-||bubbles-uk.com/banner/$third-party
-||burnside.dtcn.com^$third-party
-||burst.net/aff/
-||burstnet.akadns.net^$image
-||businessnewswatch.ca/images/nnwbanner/
-||butter.to^$subdocument,third-party
-||buyhatke.com/widgetBack/
 ||bza.co^$subdocument,third-party
 ||c.bannerflow.net^
 ||c.netu.tv^
@@ -49422,7 +49412,6 @@ tf2r.com#@#.adverts
 ||wpzoom.com/images/aff/
 ||ws.amazon.*/widgets/$third-party
 ||yahoo.com/bidRequest?
-||yahoo.net^*/ads/
 ||yeas.yahoo.co.jp^
 ||yield-op-idsync.live.streamtheworld.com^
 ||yieldmanager.edgesuite.net^$third-party
@@ -52508,6 +52497,7 @@ thedirect.com##.pw-ph-sky
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
+quora.com##.qu-pb--medium.q-box .qu-pt--medium
 modernghana.com##.quikr_banner
 tgstat.com##.r1-aors
 decoist.com##.r300
@@ -98930,7 +98920,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||meiqia.com^$third-party
 ||miduoke.net^$third-party
 ||mylikechat.com^$third-party
-||ntalker.com^
 ||pop800.com^$third-party
 ||soperson.com^$third-party
 ||tawk.to^$third-party
@@ -99306,6 +99295,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pcbeta.com/data/cache/bdglpqryAOTW.js
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
+zuoyebang.com##div[class*="moreDialog_"]
+zuoyebang.com##div[class^="answerAnalyzeAd_"]
+zuoyebang.com##img[class^="bottomBanner_"]
+zuoyebang.com##DIV[class^="questionQRCodeWrap_"]
+zuoyebang.com##div[class^="adCard_"]
 baidu.com##.app-side-banner
 sg169.com##.Mappdiv
 sg169.com##.jy-pos-3
