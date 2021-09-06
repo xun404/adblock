@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rbc4hcSt47s1/RbH6oe9tQ
+! Checksum: fiJ+HIimysoMYsfvAFtghg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109061537
-! Last Modified: 2021年09月06日 15:37
+! Version: 202109061647
+! Last Modified: 2021年09月06日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26834,6 +26834,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /WTFarmersSite.
 /wtid.js
 /wtinit.js
+/wtrack?event=
 /wtstats/*
 /ww-analytics-
 /ww-performance-
@@ -33033,31 +33034,19 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||luminate.com/track/
 ||lunametrics.wpengine.netdna-cdn.com^
 ||lycos.com/hb.js
-||m.addthisedge.com^$third-party
-||m.media-amazon.com/images/S/sash/vwLyXu6TGZtLm9M.js$domain=imdb.com
-||m30w.net/engine/$image,third-party
-||madmimi.com/view?id=$image
+||m.addthisedge.com^
+||m.media-amazon.com/images/S/sash/PNsNtF7MLhjOEin.js$domain=imdb.com
 ||magnify.net/decor/track/
 ||mail-app.com/pvtracker/
-||mail.ebay.com/img/*.gif
 ||mail.ru/grstat?
 ||mail.ru/k?
-||mailmax.co.nz/login/open.php$third-party
 ||makantime.tv/analytics.js
 ||make.cohesionapps.com^
 ||mandrillapp.com/track/
-||mangomolo.com/tracking/
-||mansion.com/mts.tracker.js
-||mantisadnetwork.com/sync?
-||mapquestapi.com/logger/
-||maps.google.com^*/stats.js
 ||maptrackpro.com/track/
-||marketingautomation.services/koi$third-party
-||marketingautomation.services/net?$third-party
+||marketingautomation.services/koi
 ||marketo.com/gw1/
 ||marketo.com/rtp-api/
-||marsflag.com^*/tr.js
-||marsflag.com^*/tr.min.js
 ||martech.condenastdigital.com^
 ||mas.nth.ch^
 ||mashery.com/analytics/
@@ -35192,6 +35181,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flirt4free.com/pixel/
 ||flyasiana.com/ykjEIhcZLYg2zoOOoA/
 ||foodcouture.net/public_html/ra/script.php
+||foursquare.com/v2/private/logactions
 ||foxsports.com.au/akam/
 ||fp.measure.office.com^
 ||fpa-cdn.arstechnica.com^
@@ -35359,6 +35349,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||messari.io/js/wutangtrack.js
 ||metacrawler.com/pingback
 ||metrics.bangbros.com^
+||metrics.hackerrank.com^
 ||metrics.spkt.io^
 ||metricsishare.rediff.com^
 ||metro.co.uk/base/rta/
@@ -35688,6 +35679,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
 ||ted.dailymail.co.uk^
+||telemetry.adobe.io^
 ||telemetry.api.playstation.com^
 ||telemetry.tradingview.com^
 ||tellerreport.com/react/pixel
@@ -35889,6 +35881,7 @@ techxplore.com##.embed-responsive-trendmd
 ||foodpanda.pk/lJuB4eTB/init.js
 ||foodpanda.ro/lJuB4eTB/init.js
 ||foodpanda.sg/lJuB4eTB/init.js
+||foursquare.com/0UqK4c76/init.js
 ||hotpads.com/xOR1K5b6/init.js
 ||joann.com/qXTWmr91/init.js
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
