@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zl9MZ7vNR+jIpsm0bCMwAg
+! Checksum: NOcDORlEec80zj86Lx0RBA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109060739
-! Last Modified: 2021年09月06日 07:39
+! Version: 202109060943
+! Last Modified: 2021年09月06日 09:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2355,10 +2355,10 @@ tieba.baidu.com##.tuijian-wrap
 /adpic.
 /adpic/*
 /adpicture.
-/adpictures/*$~image
+/adpictures/*
 /adping.
 /adpix/*
-/adplace/*$~image
+/adplace/*
 /adplace5_
 /adPlaceholder.
 /adplacement.
@@ -2366,7 +2366,7 @@ tieba.baidu.com##.tuijian-wrap
 /adplay.
 /adplayer-
 /adplayer.$domain=~adplayer.media|~adplayer.pro
-/adplayer/*
+/adplayer/*$~image
 /adplugin.
 /adplugin/*
 /adplugin_
@@ -33004,6 +33004,7 @@ tf2r.com#@#.adverts
 ||awhootoa.net^
 ||awhoufob.com^
 ||awkmzvii39ei4.xyz^
+||awltovhc.com^
 ||awmserve.com^
 ||awokedoubtless.com^
 ||awptjmp.com^
@@ -44845,7 +44846,6 @@ tf2r.com#@#.adverts
 ||awempire.com^$third-party
 ||aweproto.com^$third-party
 ||awestatic.com^$third-party
-||awltovhc.com^$third-party
 ||aws-ajax.com^$third-party
 ||awsmer.com^$third-party
 ||awstaticdn.net^$third-party
@@ -85534,7 +85534,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||recs.atgsvcs.com^$third-party
 ||redditstatic.com/ads/pixel.js
 ||redfast.com/ping/
-||redplum.com^*&pixid=$third-party
 ||reelevant.dev/tracker
 ||reevoo.com/assets/ga.$script
 ||reevoo.com/track/
@@ -85576,6 +85575,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.azion.com^
 ||rum.azioncdn.net^
 ||rum.conde.io^
+||rum.ingress.layer0.co^
+||rum.layer0.co^
 ||rum.minutemediaservices.com^
 ||rum.nccgroup-webperf.com^
 ||rum.perfops.net^
@@ -86029,6 +86030,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vcita.com/tr_
 ||vdo.ai/core/logger.php?
 ||vdo.ai/core/scantrad-net/
+||vdrn.redplum.com^
 ||vee24.com/c/PageBehaviour?
 ||veeseo.com/tracking/
 ||ventunotech.com/beacon/
@@ -88040,25 +88042,13 @@ techxplore.com##.embed-responsive-trendmd
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
-||rottentomatoes.com/f-TJoC/
-||rottentomatoes.com/hya7JT/
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
-/^https?:\/\/www\.gumtree\.com\/[0-9a-f]{3,}\-[0-9a-f]{2,}\-?/$domain=gumtree.com
-/^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
-/^https?:\/\/www\.ugg\.com\/static\/[a-z0-9]{15,}/$domain=ugg.com
-||bcicdn.com/js-min/*/chunks/8.*.js
-||chronicle.com/865d04b047df4fabeaf436609fc85eab
-||cvs.com/tnadstlinj.js
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
-||eightieskids.com/cqaa2nlyb6jwvhk7amtptg4vak59chpgji9z9gd0dvrgby-pbhj2vyzsb7ttlmqp
 ||halifax-online.co.uk/scripts/16c9d93d/
-||newegg.com/pfssl.js
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||tilt.bankofamerica.com^
-||tipsport.org/scripts/closure.js
-||airbnb.*/facebook_advanced_matchings?
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
 ||bloomberg.com/8FCGYgk4/init.js
@@ -88106,7 +88096,6 @@ techxplore.com##.embed-responsive-trendmd
 ||zazzle.com/a0o07ort/init.js
 ||zillow.com/HYx10rg3/init.js
 ://a02342.
-||baltimorefishbowl.com/detroitchicago/cmb.js
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
 ||cmp.courrierinternational.com^
@@ -88119,19 +88108,11 @@ techxplore.com##.embed-responsive-trendmd
 ||cmp.tek.no^
 ||cmp.telerama.fr^
 ||commsvc.stern.de^
-||consent.api.osano.com^
-||consent.inm.ie^
 ||d.sourcepoint.capitalfm.com^
 ||fuse.forbes.com^
-||gamesradar-gb.gamesradar.com^
 ||h-bid.com^$third-party
 ||isgprivacy.cbsi.com^
-||itpuk-mms.itpro.co.uk^
-||mms.blick.ch^
-||mms.gocomics.com^
 ||mms.wwe.com^
-||orionis.techradar.com^
-||pcgamer-gb.pcgamer.com^
 ||quantcast.mgr.consensu.org/cmp.js
 ||quantcast.mgr.consensu.org^*/cmp.js
 ||services.hmhost.co.uk^
@@ -88139,19 +88120,14 @@ techxplore.com##.embed-responsive-trendmd
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
 ||sourcepoint.theguardian.com^
-||sourcepoint.vice.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
-||twch.20min.ch^
 ||twus-mms.theweek.com^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 /misites/*
 /yozons-lib/*
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||aerlingus.com/ahktqsewxjhguuxexhr.js
-||greenmangaming.com/omnopfddrdlevbbh.js
-||paxful.com/bmlsclxndnomunnk.js
-||teepublic.com/binfgkxpxaizujgk.js
 $third-party,xmlhttprequest,domain=alltube.pl|alltube.tv
 $websocket,domain=123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|btstors.com|centrum-dramy.pl|cinemafacil.com|clipwatching.com|coinfaucet.eu|coinhub.win|crictime.com|crictime.is|deltabit.co|djs.sk|dragonballzpolo.blogspot.com|estream.to|estream.xyz|fileone.tv|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|idope.tv|jkanime.net|kinokrad.co|kinoprofi.org|kinostuff.com|lafmacun.net|lewd.ninja|love-drama.pl|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|sherlockonline.ru|shrink-service.it|skyback.ru|skytorrents.me|sleeptimer.org|sorteosrd.com|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|theappguruz.com|thepiratebay.org|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|void.cat|wallpoper.com|wearesaudis.net|yazilir.com|zenexplayer.com
 $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|szukajka.tv
@@ -97182,6 +97158,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wl.spotify.com^
 !-----------------International individual tracking systems-----------------!
 ||adtm.chip.de^
+||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
 ||arlt.com/analytics/
 ||as.mirapodo.de^
