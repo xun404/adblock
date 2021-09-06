@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NdoB74juJdcF7T2PxlWlAw
+! Checksum: cw285I9LdeH2J3DAAsVadw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202109061537
-! Last Modified: 2021年09月06日 15:37
+! Version: 202109061745
+! Last Modified: 2021年09月06日 17:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1461,6 +1461,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*="/yhbet50.vip"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -9073,6 +9074,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||sogoucdn.com/app/a/100540022/2021012518561139502233.png
+||olevod.com/upload/site/20210906-1/05052051368e2e65af936b819fbb688d.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 mtrend.cn##.daogou-foot
@@ -16646,6 +16648,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bayno.cn^
 ||jsdelivr.net/gh/diyibanzhu/
 ||unimr0k7em.cn^
+||dhipc.cn^
 ||13owamwp6c.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
@@ -20520,6 +20523,7 @@ _box_ad_
 ||pcbeta.com/data/cache/bdglpqryAOTW.js
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.school-promotion-pop-wrap
 zuoyebang.com##div[class*="moreDialog_"]
 zuoyebang.com##div[class^="answerAnalyzeAd_"]
 zuoyebang.com##img[class^="bottomBanner_"]
