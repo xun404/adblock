@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A9vUcPvl6sTp+ytw4ffWAw
+! Checksum: WV3DgmRgM8uXuMptP1iUOg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109061048
-! Last Modified: 2021年09月06日 10:48
+! Version: 202109061141
+! Last Modified: 2021年09月06日 11:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25443,6 +25443,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /rum.min.
 /rum/events
 /rum/id?
+/rum/performance
 /rum_cmp?
 /rumstat.
 /rumtag.
@@ -33415,43 +33416,26 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||response.pure360.com^
 ||rest.wildstar-online.com^
 ||reverbnation.com/widgets/trk/
-||rhapsody.com^*/pixel?
 ||ria.ru/counter?
 ||richrelevance.com/rrserver/tracking?
 ||rlinks.one.in^
 ||rodale.com/ga/
-||rodalenl.com/imp?$third-party
-||rokt.com/pixel/
-||routeapp.io/route-analytics/
-||royalecms.com/statistics.php?
 ||rs.sinajs.cn^
-||rss.tmgrup.com.tr^
 ||rt.flix360.com^
-||rtg-endpoint.global.ssl.fastly.net^
-||rtt.campanja.com^
-||ru4.com/click?
 ||rum.azion.com^
 ||rum.azioncdn.net^
-||rum.conde.io^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
-||rum.minutemediaservices.com^
 ||rum.nccgroup-webperf.com^
 ||rum.perfops.net^
-||rum.uptime.com^$third-party
-||rum.vhwrz.net^
-||rva.outbrain.com^
+||rum.uptime.com^
 ||s-microsoft.com/mscc/$~stylesheet
-||s-vop.sundaysky.com^$third-party
 ||s.beop.io^
 ||s.clickability.com^
 ||s.clickiocdn.com^
 ||s.pinimg.com/ct/core.js
 ||s.sniphub.com^
 ||s.srvsynd.com^
-||s24cloud.net/log^
-||s24cloud.net/metrics/
-||sadv.dadapro.com^$third-party
 ||sail-horizon.com/horizon/$third-party
 ||sail-horizon.com/spm/
 ||sailthru.com/img/$image,third-party
@@ -33996,6 +33980,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yimg.com/aaq/vzm/$script,domain=news.yahoo.com
 ||yimg.com/cx/vzm/cs.js
 ||yimg.com/ss/vops.js
+||yimg.com/wi/ytc.js
 ||yottaa.com/rapid.min.js
 ||z.opmnstr.com^$xmlhttprequest
 ||zapcdn.space/zapret.js
@@ -35535,6 +35520,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rumble.com/l/
 ||rv.modanisa.com^$script
 ||s.infogram.com^
+||sciencechannel.com/events/
 ||scoot.co.uk/ajax/log_
 ||search.aol.com/beacon/
 ||search.ch/audit/
