@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zMD2mDAbj9RYJZP1Ubu+HQ
+! Checksum: IK7mFUSVPK+uyedShkfRxQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109071448
-! Last Modified: 2021年09月07日 14:48
+! Version: 202109071647
+! Last Modified: 2021年09月07日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -63372,6 +63372,11 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ikjzd.com##.article-banner-wrap
+ikjzd.com##.foot-advert-box
+ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
+ikjzd.com##.wv-right-content > .imgTop-right
+ikjzd.com##A[href*="/redirect-ad-url?"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -68957,6 +68962,7 @@ perfectmatch.tw#@#.right_ad
 360zbz.com#@#.rightad
 zdface.com#@#.top-ad
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
+ikjzd.com#@#.ad-content
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
@@ -70946,6 +70952,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lihailin.vip^
 ||haosdhc.cn^
 ||syybmy.cn^
+||haitv.top^
+||pijiagui.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
