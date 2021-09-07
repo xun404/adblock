@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0LAko0PyQy2TU6GTjvrJ7A
+! Checksum: 34hlzw23cOe9p9knZ1SK5w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109070738
-! Last Modified: 2021年09月07日 07:38
+! Version: 202109070935
+! Last Modified: 2021年09月07日 09:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14675,6 +14675,9 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||ygodl.com/images/ads.jpg
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=ygodl.com
+@@||ygodl.com^$generichide
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -33063,6 +33066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marketingautomation.services/koi
 ||marketo.com/gw1/
 ||marketo.com/rtp-api/
+||marsflag.com/mf2file/site/ext/tr.js
 ||martech.condenastdigital.com^
 ||mas.nth.ch^
 ||mashery.com/analytics/
@@ -46347,6 +46351,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||high.auriro.net/http/600x400/$image,domain=afterdawn.com|hardware.fi
 @@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$domain=kauppahalli24.fi
+@@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|seura.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
