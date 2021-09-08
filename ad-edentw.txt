@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C2dljMza2VhbX/1xGb6RNg
+! Checksum: IwtOWksmv1ADKVvWiNezlg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109082140
-! Last Modified: 2021年09月08日 21:40
+! Version: 202109090101
+! Last Modified: 2021年09月09日 01:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1574,6 +1574,7 @@ www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@cla
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indian.txt ***
 ! #CV-761
 www.facebook.com#$#hide-if-matches-xpath './/a[@aria-label]/span/span//b[text()="प्रायोजित"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="ਸੁਨੇਹਾ ਭੇਜੋ" or text()="ਸਾਈਨ ਅੱਪ ਕਰੋ" or text()="ਹੁਣੇ ਖਰੀਦੋ" or text()="ਹੋਰ ਜਾਣੋ" or text()="ਡਾਉਨਲੋਡ ਕਰੋ" or text()="ਉਧਾਰਣ ਲਓ" or text()="ਹੁਣ ਸੁਣੋ"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-741
 ! jvpnews.com#$#abort-current-inline-script atob TextDecoder
 ! #CV-669
@@ -1796,7 +1797,7 @@ gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 !animefenix.com#$#abort-current-inline-script document.createElement _yzvesi
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/turkish.txt ***
 ! #CV-761
-www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Teklifi Al" or text()="Sayfayı Beğen" or text()="Daha Fazla Bilgi Al" or text()="Şimdi Başvur" or text()="Kaydol" or text()="Şimdi Alışveriş Yap"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Teklifi Al" or text()="Sayfayı Beğen" or text()="Daha Fazla Bilgi Al" or text()="Şimdi Başvur" or text()="Kaydol" or text()="Şimdi Alışveriş Yap" or text()="Takip Et" or text()="Şimdi Bağışta Bulun" or text()="Oyna" or text()="Şimdi Rezervasyon Yap" or text()="Bilet Al" or text()="Bizimle İletişime Geç"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-717
 yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
 ! #CV-667
