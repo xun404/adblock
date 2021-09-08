@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9McK3PlrjOSF0tyGawmV5w
+! Checksum: FEUyEt75lzkF30XEp1Y0gg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109081642
-! Last Modified: 2021年09月08日 16:42
+! Version: 202109081842
+! Last Modified: 2021年09月08日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7643,6 +7643,8 @@ takeover_banner_
 ||online.*/promoredirect?key=
 ||ox-d.*^auid=
 ||serve.*/promoload?
+/cmbdv2.js
+/cmbv2.js
 /contents/other/player/*
 /2market.php?
 ://rs-stripe.wsj.com/stripe/image?
@@ -24594,8 +24596,10 @@ _800x80_
 ##.ezAdsWidget
 ##.ezAdsense
 ##.ezmob-footer
+##.ezmob-footer-desktop
 ##.ezo_ad
 ##.ezoic-ad
+##.ezoic-ad-adaptive
 ##.ezoic-floating-bottom
 ##.f-ad
 ##.f-item-ad
@@ -35648,7 +35652,6 @@ tf2r.com#@#.adverts
 ||eyzu80g9xcxa.com^
 ||ezexfzek.com^
 ||ezhefg9gbhgh10.com^
-||ezoic.net^
 ||ezojs.com^
 ||ezpuqqahvr.com^
 ||ezrvmxshalr.com^
@@ -52893,6 +52896,7 @@ techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
 audioz.download##[src*="/promo/"]
 brmangas.com##[src="https://manjiroinflu.com/streams.php"]
+webcamtests.com##[src^="/MyShowroom/view.php?medium="]
 manganelo.com##[src^="/ads/"]
 ice.hockey##[src^="/images/banners/"]
 linuxtopia.org##[src^="/includes/index.php/?img="]
@@ -63418,6 +63422,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.Gmaeinfobtn_tab > .tab2
+3dmgame.com##.newdow_box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
