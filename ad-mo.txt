@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5S/GPVtcCrmJD8LOcpd+ow
+! Checksum: R7Oy4UmbzWMG8DEjpvM3ag
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109091047
-! Last Modified: 2021年09月09日 10:47
+! Version: 202109091141
+! Last Modified: 2021年09月09日 11:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7793,6 +7793,7 @@ _prebid_
 /abDetector.js
 /abp_detection/*
 /abtest_ab.js
+/ad-blocking-advisor/*
 /ad-blocking-alert/*
 /adb.min.js
 /adb_detector.
@@ -18701,6 +18702,7 @@ _800x80_
 ##.ad-skyscraper3
 ##.ad-slider
 ##.ad-slot
+##.ad-slot--billboard--article--wrapper
 ##.ad-slot--container-inline
 ##.ad-slot--inline
 ##.ad-slot--leaderboard--article--wrapper
@@ -50062,6 +50064,7 @@ tf2r.com#@#.adverts
 ||cricketireland.ie//images/sponsors/
 ||crmbuyer.com/images/sda/
 ||crn.com.au/scripts/js_$script
+||cyberscoop.com/advertising/
 ||daily-sun.com/assets/images/banner/
 ||dailymail.co.uk^*/linkListItem-$domain=thisismoney.co.uk
 ||daniweb.com/js/articles/bsa/
@@ -52458,6 +52461,7 @@ tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
 modernghana.com##.quikr_banner
+surfline.com##.quiver-google-dfp
 tgstat.com##.r1-aors
 decoist.com##.r300
 periscopepost.com##.r72890
@@ -71025,6 +71029,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||rtrete.store^
 ||hswfj.cn^
+||venber.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -99195,7 +99200,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-||pcbeta.com/data/cache/bdglpqryAOTW.js
+||pcbeta.com/data/cache/blstGHLORZ.js
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.school-promotion-pop-wrap
