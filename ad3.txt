@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hITtxaa3kY6OiNKGGUeQiQ
+! Checksum: pgaXEhiAnprpMMOlJ93n4A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109091141
-! Last Modified: 2021年09月09日 11:41
+! Version: 202109091252
+! Last Modified: 2021年09月09日 12:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20572,7 +20572,7 @@ _box_ad_
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-||pcbeta.com/data/cache/blstGHLORZ.js
+/\/data\/cache\/(?!(common|forum|home|portal))[a-zA-Z]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.school-promotion-pop-wrap
@@ -25154,11 +25154,13 @@ weibo.com##.apps_PCD_reco_detail_right
 /pixel/email/*$image
 /pixel/ga-
 /pixel/gtm-
+/pixel/host/?
 /pixel/img/*
 /pixel/impression/*
 /pixel/js/*$third-party
 /pixel/sbs?
 /Pixel/Script/Behavior?
+/pixel/stats/?
 /pixel/stream/*
 /pixel/view?
 /pixel/visit?
