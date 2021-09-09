@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Dkbz4Qugw63E3MQaFDpQbw
+! Checksum: reQP77oJjN/EG2svOYTfzA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109092100
-! Last Modified: 2021年09月09日 21:00
+! Version: 202109092238
+! Last Modified: 2021年09月09日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9090,6 +9090,10 @@ _yad_jsonp_
 ||3dmgame.com/page/hlbt/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vpsmm.com###uc
+vpsmm.com###media
+vpsmm.com###featured1
+landian.vip##.content-gg
 lusongsong.com###main > CENTER
 dzbhdm.com##A[href^="https://www.dzbhdm.com/news/"] > IMG[src^="https://www.dzbhdm.com/"]
 szxx.com.cn###A1
@@ -16680,6 +16684,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shua66.vip^
 ||iscreen.top^
 ||weiweitop.top^
+||leejongsuk.top^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -24079,7 +24084,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /headupstats.gif?
 /healthanalytics.js
 /heatmap_log.js
-/HeatmapSessionRecording/*
+/HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WzgZCnZFHrowh90asTj2ng
+! Checksum: 6kJtJXX9rfdIqD6ODCpHww
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109092100
-! Last Modified: 2021年09月09日 21:00
+! Version: 202109092238
+! Last Modified: 2021年09月09日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18006,6 +18006,7 @@ _800x80_
 ##.ad-adlink-side
 ##.ad-adsense-block-250
 ##.ad-advertisement-horizontal
+##.ad-affiliate
 ##.ad-after-content
 ##.ad-align-none
 ##.ad-alsorectangle
@@ -53019,6 +53020,7 @@ issuu.com##div[class*="adSkyscraper"]
 keengamer.com##div[class*="gameon-above-"]
 topgear.com##div[class^="AdContainer-"]
 usnews.com##div[class^="Ad__Container-"]
+poki.com##div[class^="Advertisement_"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
 apnews.com##div[class^="Component-adTitle-"]
@@ -53189,7 +53191,6 @@ eurometeo.com##td[width="738"]
 planetinsane.com,radiosurvivor.com##text-18
 trademe.co.nz##tm-display-ad
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##tr > td + td[style*="height:"]
-poki.com##div[class^="Advertisement_"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg###nav-swmslot
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg###sponsoredProducts2_feature_div
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##.a-link-normal[href*="&adId="]
@@ -63475,6 +63476,10 @@ _yad_jsonp_
 ||3dmgame.com/page/hlbt/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vpsmm.com###uc
+vpsmm.com###media
+vpsmm.com###featured1
+landian.vip##.content-gg
 lusongsong.com###main > CENTER
 dzbhdm.com##A[href^="https://www.dzbhdm.com/news/"] > IMG[src^="https://www.dzbhdm.com/"]
 szxx.com.cn###A1
@@ -71065,6 +71070,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shua66.vip^
 ||iscreen.top^
 ||weiweitop.top^
+||leejongsuk.top^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -76201,7 +76207,7 @@ fqsousou.com,kengso.com#@#.user-share
 /headupstats.gif?
 /healthanalytics.js
 /heatmap_log.js
-/HeatmapSessionRecording/*
+/HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
