@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H6WJnAG2U36Qgp3BgeUgDA
+! Checksum: Ro5BnaRyqML7DaVqabOJOA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109091741
-! Last Modified: 2021年09月09日 17:41
+! Version: 202109091937
+! Last Modified: 2021年09月09日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -611,6 +611,8 @@ egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.c
 ! arabseed.me,baramjak.com,egynow.live,hawak.net,movizland.com,movizland.online,egyanime.com,egydead.com#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
 ! #CV-754
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
+A: #CV-761
+www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="تعرف على المزيد" or text()="تقديم طلب الآن" or text()="إرسال رسالة" or text()="تسوق الآن" or text()="الحصول على العرض" or text()="تبرّع الآن" or text()="تسجيل"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
 ! #CV-667
 ! gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
