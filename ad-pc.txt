@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zm3zt9WxMBSoDkmGQNjYOA
+! Checksum: a1bHtrK1rv9NplqAlLrA0g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109132238
-! Last Modified: 2021年09月13日 22:38
+! Version: 202109132344
+! Last Modified: 2021年09月13日 23:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -39962,6 +39962,7 @@ tf2r.com#@#.adverts
 ||pdn-2.com^
 ||pdvacde.com^
 ||pdxgfnnoan.com^
+||peacebanana.com^
 ||peacepowder.com^
 ||peachsquat.com^
 ||pealdudley.com^
@@ -41358,6 +41359,7 @@ tf2r.com#@#.adverts
 ||rufflycouncil.com^
 ||rukoval.com^
 ||rulejanuary.com^
+||rumerrand.com^
 ||run-syndicate.com^
 ||runative-syndicate.com^
 ||runbornto.com^
@@ -45870,6 +45872,7 @@ tf2r.com#@#.adverts
 ||motominer.com^$third-party
 ||mottnow.com^$third-party
 ||movie-streams-online.com^$third-party
+||mp3zik.net^$third-party
 ||mpuls.ru^$third-party
 ||multiview.com^$third-party
 ||myaffiliates.com^$third-party
@@ -50976,6 +50979,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||spankbang.com/api/livecam
 ||stream-69.com/code/script/
 ||sunporno.com/bl.php
+||sunporno.com/bs.php
 ||sxyprn.net/b/
 ||t.winpbnp.com^
 ||taxidrivermovie.com^$~third-party,xmlhttprequest
@@ -73839,9 +73843,6 @@ qq.com#@#.side_ad
 ||*^sdtfrom=^$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 ||lts*.qq.com^*.ts?index=$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 !#Rewrite filters
-!#Rjno1.com
-rjno1.com##div[style="display:none"]
-||rjno1.com^$csp=script-src 'self' *;style-src
 !#Sejie.com
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
