@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MeJlEP2ObyMIO1T1qUthZQ
+! Checksum: 314kGZBh7lHMPoD6BwBBaQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109140940
-! Last Modified: 2021年09月14日 09:40
+! Version: 202109141045
+! Last Modified: 2021年09月14日 10:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30367,6 +30367,13 @@ _800x80_
 ##[href*="prayuserparka.com/"]
 ##[href*="wap4dollar.com/"]
 ##[href^="http://advertisesimple.info/"]
+##[href^="http://join.hardcoreshemalevideo.com/"]
+##[href^="http://join.michelle-austin.com/"]
+##[href^="http://join.shemale.xxx/"]
+##[href^="http://join.shemalepornstar.com/"]
+##[href^="http://join.shemalesfromhell.com/"]
+##[href^="http://join.trannies-fuck.com/"]
+##[href^="http://join.ts-dominopresley.com/"]
 ##[href^="http://raboninco.com/"]
 ##[href^="http://stvkr.com/"]
 ##[href^="http://www.star-clicks.com/"]
@@ -40599,6 +40606,7 @@ tf2r.com#@#.adverts
 ||ptipsixo.com^
 ||ptipsout.net^
 ||ptirgaux.com^
+||ptlwm.com^
 ||ptoafauz.net^
 ||ptoahaistais.com^
 ||ptoangir.com^
@@ -50578,6 +50586,7 @@ tf2r.com#@#.adverts
 /^https?:\/\/.*.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|fun|website|biz|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|downloadpirate.com|flashx.net|flashx.tv|powvideo.net|powvldeo.me|slreamplay.cc|steanplay.cc|streanplay.cc|videobin.co
 /^https?:\/\/[0-9a-z]{8,29}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|cloudvideo.tv|dood.watch|flashx.net|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strcloud.in|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
 /^https?:\/\/.*\.[0-9a-z]{3,6}\.xyz\/.*/$script,third-party
+/^https?:\/\/[0-9a-z]{3,6}\.xyz\/.*/$script,third-party
 ||dotabuff.com/a.js
 ||elder-dragon.tracklol.com^
 ||magic-stick.trackdota.com^
@@ -53553,6 +53562,7 @@ ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 mirrored.to#?#tr:-abp-has([alt="UseNet"])
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
+moonastro.com#?#div[style^="background-color:"]:-abp-contains(Advertisement)
 multiup.eu,multiup.org#?#.alert:-abp-contains(VPN)
 multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
 multiup.eu,multiup.org#?#.trtbl:-abp-has(.warnIp)
@@ -53741,6 +53751,7 @@ ok.porn,pornhat.com##.bn
 alphaporno.com,hellporno.com,tubewolf.com,xcum.com##.bnnrs-player
 pornogratisdiario.com,xcafe.com##.bnr
 ok.porn,ok.xxx,oldmaturemilf.com,pornhat.com##.bns-bl
+sexsbarrel.com,zingyporntube.com##.bns-place-ob
 xnxxvideoporn.com##.bot_bns
 xbabe.com##.bottom-banner
 teenpornvideo.xxx##.bottom-spots
@@ -54297,6 +54308,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rumble.com/embedJS/$script,domain=usawatchdog.com
 @@||rumble.com/j/p/$script,domain=usawatchdog.com
+@@||runescape.wiki^$image,~third-party
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
 @@||schwab.com/scripts/appdynamic/adrum-ext.$script,~third-party
 @@||scrippsdigital.com/cms/videojs/$stylesheet,domain=scrippsdigital.com
