@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lXvfdW5BJ4inRSLIGS6ttA
+! Checksum: O+1xuetv7NSCXCcuIhnzjQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109161141
-! Last Modified: 2021年09月16日 11:41
+! Version: 202109161249
+! Last Modified: 2021年09月16日 12:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27587,6 +27587,9 @@ _800x80_
 ##.post--native-ad
 ##.post-ad
 ##.post-ads
+##.post-ads-detalhe
+##.post-ads-detalhe-1
+##.post-ads-top
 ##.post-adsense-bottom
 ##.post-advert
 ##.post-advert-row
@@ -49665,6 +49668,7 @@ tf2r.com#@#.adverts
 ||d15kdpgjg3unno.cloudfront.net^
 ||d162nnmwf9bggr.cloudfront.net^
 ||d188elxamt3utn.cloudfront.net^
+||d188m5xxcpvuue.cloudfront.net^
 ||d18g6t7whf8ejf.cloudfront.net^
 ||d18mealirgdbbz.cloudfront.net^
 ||d18t35yyry2k49.cloudfront.net^
@@ -54210,7 +54214,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||airplaydirect.com/openx/www/images/$image
 @@||akamaized.net^*.stream/$domain=naver.com
 @@||akamaized.net^*/playlist.m3u8?$domain=naver.com
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|go.cnn.com|history.com|keloland.com|radio.com|rd.com|thehealthy.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|history.com|keloland.com|radio.com|rd.com|thehealthy.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||aone-soft.com/style/images/ad2.jpg
 @@||api.adinplay.com^*/tag.min.js$script,domain=bigescapegames.com|findcat.io|squadd.io
@@ -71357,6 +71361,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ###asdw3 + img + :not(div)
 ###asdw3
 ||wjlzs.cn^
+||hxfree.vip^
+||duier.top^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -78356,6 +78362,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats.php?format=
 /stats.php?type=
 /stats.php?uri=
+/stats.wp.com/*
 /stats/*?category=$image
 /stats/?js
 /stats/?ref=
@@ -79969,6 +79976,7 @@ _mongo_stats/
 ||mt48.net^
 ||nxakpj4ac8gkd53.info^
 ||pdflive.org^
+||progmxs.com^
 ||propeller-tracking.com^
 ||r42tag.com^
 ||sbgsodufuosmmvsdf.info^
@@ -86027,6 +86035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
 ||statm.the-adult-company.com^
+||stats-bq.stylight.net^
 ||stats-messages.gifs.com^
 ||stats-newyork1.bloxcms.com^
 ||stats.big-boards.com^
@@ -88434,6 +88443,7 @@ techxplore.com##.embed-responsive-trendmd
 ||foodpanda.ro/lJuB4eTB/init.js
 ||foodpanda.sg/lJuB4eTB/init.js
 ||foursquare.com/0UqK4c76/init.js
+||freepeople.com/tN88Q85M/init.js
 ||hotpads.com/xOR1K5b6/init.js
 ||joann.com/qXTWmr91/init.js
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
