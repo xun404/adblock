@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y0GToxipasHIDh2sbgGyZQ
+! Checksum: DbVf1kwHUpxzxpYOgTb/tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109171937
-! Last Modified: 2021年09月17日 19:37
+! Version: 202109172059
+! Last Modified: 2021年09月17日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -22774,8 +22774,10 @@ _800x80_
 ##.article-ad-bottom
 ##.article-ad-box
 ##.article-ad-cont
+##.article-ad-holder
 ##.article-ad-horizontal
 ##.article-ad-left
+##.article-ad-legend
 ##.article-ad-main
 ##.article-ad-placeholder
 ##.article-ad-primary
@@ -52322,6 +52324,8 @@ crash.net##.inarticle-wrapper
 mail.com##.indeed
 brudirect.com##.index-banner
 theinertia.com##.inertia-ad-300x250
+inews.co.uk##.inews__advert
+inews.co.uk##.inews__mpu
 bab.la##.info-panel
 bestlifeonline.com,eatthis.com##.inline
 pcgamesn.com,theloadout.com##.inlinerail
@@ -52416,6 +52420,7 @@ ggrecon.com##.mainVenatusBannerContainer
 color-hex.com##.margin10
 designtaxi.com##.masonry-brick.nt
 pushsquare.com,songlyrics.com##.masthead
+racgp.org.au##.mb-1.small
 gamedev.net##.mb-3.align-items-center.justify-content-start
 indiatimes.com##.mb-36 > .top-trending
 themoscowtimes.com##.mb-4.py-3
@@ -52441,7 +52446,7 @@ tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 thefastmode.com##.middlebanner
 stripes.com##.min-h90
-byrdie.com,investopedia.com##.mntl-leaderboard-spacer
+byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 pcmacstore.com##.mobileHide
 thedailybeast.com##.mobiledoc-sizer
 livelaw.in##.modal_wrapper_frame
@@ -71263,6 +71268,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiasheng-china.cn^
 ||jmhai.com^
 ||jinyingbaozhuang.com^
+||qiyix.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -74676,6 +74682,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adobe/VisitorAPI-
 /adobeAnalytics/*
 /AdobeAnalyticsAndTargetOverwrites.
+/AdobeAnalyticsBundle.
 /AdobeAnalyticsEvent.
 /AdobeAnalyticsSDK.
 /AdobeCustomVideoMeasurement.swf
@@ -79878,6 +79885,7 @@ _mongo_stats/
 ||glimr.io^
 ||i218435.net^
 ||impactcdn.com^
+||innerskinresearch.com^
 ||irs01.com^
 ||ldnlyap.com^
 ||liveyield.com^
@@ -83165,6 +83173,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||homelycrown.com^$third-party
 ||honorableland.com^$third-party
 ||horsenectar.com^$third-party
+||hystericalcloth.com^
 ||immensehoney.com^$third-party
 ||importedincrease.com^$third-party
 ||importedinsect.com^$third-party
@@ -84605,6 +84614,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bmrg.reflected.net^
 ||bobparsons.com/image.aspx?
 ||bolt.com/v1/log?
+||botdetection.hbrsd.com^
 ||bpath.com/count.dll?
 ||branch.io^$third-party
 ||brandcdn.com/pixel/
@@ -84919,7 +84929,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
+||d36u3psykfwy91.cloudfront.net^
+||d36upaw912d02q.cloudfront.net^
 ||d39yds8oe4n4jq.cloudfront.net^
+||d3bj8nkfly20uo.cloudfront.net^
 ||d3cgm8py10hi0z.cloudfront.net^
 ||d3cxv97fi8q177.cloudfront.net^
 ||d3hb14vkzrxvla.cloudfront.net/health-check
@@ -84932,6 +84945,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3mskfhorhi2fb.cloudfront.net^
 ||d3n6i6eorggdxk.cloudfront.net^
 ||d3q7vxy7usqoub.cloudfront.net^
+||d3qfdthu9f51gu.cloudfront.net^
 ||d3qxef4rp70elm.cloudfront.net/m.js
 ||d3qxwzhswv93jk.cloudfront.net^
 ||d3r7h55ola878c.cloudfront.net^
@@ -85168,6 +85182,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||future-price.co.uk^
 ||futurecdn.net/bordeaux.js$xmlhttprequest
 ||futurecdn.net^*/abp.js
+||futurehybrid.tech^$third-party
 ||fw.tv/embed/impressions
 ||fwcdn1.com/js/fwn.js
 ||fwix.com/ref.js
@@ -85846,6 +85861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.azioncdn.net^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
+||rum.minutemediaservices.com^
 ||rum.nccgroup-webperf.com^
 ||rum.perfops.net^
 ||rum.uptime.com^
