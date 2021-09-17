@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ob2wNQaRrUq4YUFuOTJ0Ig
+! Checksum: p1VSTIA7+09L1bzQUEuMfw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109170945
-! Last Modified: 2021年09月17日 09:45
+! Version: 202109171048
+! Last Modified: 2021年09月17日 10:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30439,6 +30439,7 @@ _800x80_
 ##[src^="http://api.lanistaads.com/ServeAd?"]
 ##a[class="RBAd"]
 ##a[data-redirect^="http://click.plista.com/pets"]
+##a[href$="/5-"][target="_blank"][rel="nofollow"]
 ##a[href$="/vghd.shtml"]
 ##a[href*=".ad-center.com/"]
 ##a[href*=".adform.net/"]
@@ -34244,6 +34245,7 @@ tf2r.com#@#.adverts
 ||clutchsavage.com^
 ||clxgmlpfkoj.com^
 ||cm-trk3.com^
+||cm-trk5.com^
 ||cmbestsrv.com^
 ||cmfads.com^
 ||cmllk1.info^
@@ -71374,6 +71376,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||paluofen.shop^
 ||597txt1.com^*.php
+||bizhub-cloud.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -97716,6 +97719,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
+||csdnimg.cn/common/csdn-report/$domain=csdn.net
 ||gia.jd.com^
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
