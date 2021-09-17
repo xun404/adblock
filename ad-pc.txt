@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hsjq1YaMIjCgBceLNqqMHA
+! Checksum: BWkl6ryz0wM4v1vWH9P1xg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109171642
-! Last Modified: 2021年09月17日 16:42
+! Version: 202109171841
+! Last Modified: 2021年09月17日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18365,6 +18365,7 @@ _800x80_
 ##.ad-diver
 ##.ad-divider
 ##.ad-dog
+##.ad-dog__cnx-container
 ##.ad-dt
 ##.ad-dx_wrp
 ##.ad-dynamic-showcase-top
@@ -24500,6 +24501,7 @@ _800x80_
 ##.display-ad
 ##.display-ad--border-container
 ##.display-ad-block
+##.display-adhorizontal
 ##.display-ads-block
 ##.display-advertisement
 ##.displayAd
@@ -54375,6 +54377,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
 @@||pcworld.com/www/js/ads/jquery.lazyload-ad.js
 @@||pepperjamnetwork.com/banners/$image,domain=extrarebates.com
+@@||phatcatmedia.net/images/ad.jpg$image,domain=allsonicgames.net
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
@@ -71388,6 +71391,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ccioo.vip^
 ||duofulai.vip^
 ||jiasheng-china.cn^
+||jmhai.com^
+||jinyingbaozhuang.com^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
