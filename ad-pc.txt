@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p1VSTIA7+09L1bzQUEuMfw
+! Checksum: dmMABi0dMeQJiv1csRP1YA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109171048
-! Last Modified: 2021年09月17日 10:48
+! Version: 202109171141
+! Last Modified: 2021年09月17日 11:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19527,6 +19527,7 @@ _800x80_
 ##.adMarkerBlock
 ##.adMastheadLeft
 ##.adMastheadRight
+##.adMed
 ##.adMedRectBox
 ##.adMedRectBoxLeft
 ##.adMediaMiddle
@@ -24619,6 +24620,7 @@ _800x80_
 ##.dw-sticky-ad-inner
 ##.dw-sticky-ad-left
 ##.dwn_link_adv
+##.dyn-sidebar-ad
 ##.dynamic-ad-wrap-b
 ##.dynamic-ads
 ##.dynamicAdvertContainer
@@ -52392,6 +52394,7 @@ tmrzoo.com##.headbanner
 kolompc.com##.header-area
 worldpress.org##.header-b
 adswikia.com,americanfreepress.net,cookinglight.com,freemalaysiatoday.com,gameplayinside.com,kodicommunity.com,landandfarm.com,pointblanknews.com,runt-of-the-web.com##.header-banner
+thinksimplenow.com##.header-banner-container
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
 vapingunderground.com##.header-block
 worldpress.org##.header-bnr
@@ -53016,6 +53019,7 @@ gadgetstouse.com##.td-ss-main-sidebar
 ssbcrack.com##.td_spot_img_all
 tech-latest.com##.tdi_102_e06
 justjared.com,justjaredjr.com##.team_med_shell
+justjared.com##.team_med_shell_flex
 itproportal.com##.teaser
 macrumors.com##.tertiary
 businessonhome.com##.text-info
@@ -53390,6 +53394,7 @@ filesharingtalk.com##div[style="background-color: white; border-width: 2px; bord
 fansshare.com##div[style="background-image:url(http://img23.fansshare.com/media/img/advertisement.png);width:335px;height:282px;"]
 hints.macworld.com##div[style="border-bottom: 2px solid #7B7B7B; padding-bottom:8px; margin-bottom:5px;"]
 askdifference.com##div[style="color: #aaa"]
+english-hindi.net##div[style="height:250px !important; background:#ccc;"]
 sentinelnews.com,theandersonnews.com##div[style="height:620px;width:279px;margin:auto;margin-top:5px;background-color:#eaeaea;"]
 gizbot.com,goodreturns.in##div[style="min-height: 250px;"]
 askdifference.com##div[style="min-height:280px;"]
@@ -71377,6 +71382,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||paluofen.shop^
 ||597txt1.com^*.php
 ||bizhub-cloud.cn^
+||abjjsc.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -97712,6 +97718,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
+||csdnimg.cn/common/csdn-report/$domain=csdn.net
 ||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eclick.baidu.com^
@@ -97719,7 +97726,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
-||csdnimg.cn/common/csdn-report/$domain=csdn.net
 ||gia.jd.com^
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
@@ -99101,6 +99107,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !---------- Portuguese ----------
 @@||77.91.202.130/js/20050/xiti.js$domain=custojusto.pt
 @@||adobedtm.com^*/satelliteLib-$script,domain=crackle.com.br|laredoute.pt
+@@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJ.js?$domain=social.economico.pt
