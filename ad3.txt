@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vVmMURfJzXVGvHTDpTf21w
+! Checksum: Y6t+GdsuqbhFwj3p62dmkA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109181141
-! Last Modified: 2021年09月18日 11:41
+! Version: 202109181337
+! Last Modified: 2021年09月18日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9116,6 +9116,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||zhongyao1.com/ad580.jpg
+||ebioweb.com/newsf/js/news_top_banner.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16706,6 +16707,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qiuchuanling.cn^
 ||gsb9.cn^
 ||yzjihang.cn^
+||zgctig.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -32866,6 +32868,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feedify.net/thirdparty/json/track/
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
+||fiorenetwork.com/aparatvast/log.php?
 ||firebaselogging-pa.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
 ||fitanalytics.com/metrics/
