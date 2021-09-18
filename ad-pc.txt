@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OQuWylYSRCFWZDOofWSGYQ
+! Checksum: Lxv22mO4Y6Ve1X9XWZUuFQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109181739
-! Last Modified: 2021年09月18日 17:39
+! Version: 202109181841
+! Last Modified: 2021年09月18日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60784,8 +60784,6 @@ _yad_jsonp_
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
 ||faquanya.com/weixin/
-||fashangji.com/api/ggzz.js
-||fashangji.com/gunews/*.js
 ||fast8.com/skin/default/images/63065.png
 ||fast8.com/skin/default/js/jquery.filetree
 ||fastadmin.net/uploads/store/aliyun
@@ -62415,7 +62413,6 @@ _yad_jsonp_
 ||qiyipic.com/zongyi/fix/runningman20141008_bg02.jpg
 ||qiyipic.com/zongyi/fix/runningman20141008_bg03.jpg
 ||qiyun.org/images/js/*.htm
-||qiyuzy.com/static/js/publicad.js
 ||qk6.org/file/script/
 ||qksapp.net/gif/
 ||qlogo.cn/qqmail_head/6HA8T4Db69wfmKdwlCCubfibzXiaYnnvO872SCeO17s4NrfYZuqj3NDFsSturT8ibh0sPrzzelt0mY/0
@@ -63733,8 +63730,13 @@ _yad_jsonp_
 ||wandhi.com/img/
 ||9jsp.com/pay.png
 ||bavei.com/img/*.png
+||cgown.com^*/peiyinquan
+||tbvv.net/qr.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+qinbing.cn###slideBox
+qinbing.cn##.left-adv
+smzy.com##.u-gs-btn
 rsdown.cn##.bendown
 rsdown.cn##.listaddr
 opdown.com##.gxxz-btn
@@ -66094,7 +66096,6 @@ serengeseba.com##.content > li > a[href^="http"]
 cnbeta.com##.content > p:last-child > a[href]
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
 baidu.com##.content-adv
-hao.su##.content-copyright
 landian.vip##.content-gg
 it1352.com##.content-wrap > .hidden-sm:nth-child(-n+2)
 ptbus.com##.content14
@@ -66693,7 +66694,7 @@ xitongcheng.com##.hzj_adv
 zjk169.net##.iContentLeft
 zjk169.net##.iContentRight
 tieba.baidu.com,wapp.baidu.com##.iSlider-wrapper-container-hot-thread
-qiyuzy.com##.iad
+qyw0.com##.iad
 ibaotu.com##.ibaotu-md-click[ibaotu-md-value="detail_top_ad"]
 hao.360.cn##.icon-text-nav
 167k.com##.icon_ad
@@ -67304,7 +67305,6 @@ pzzc.net##.portal_block_summary
 tgfcer.com##.portalbox
 netbardh.com##.pos-navbar-ad
 vmovier.com##.post-ad-bottom
-hao.su##.post-content > div[class^="a"]
 mop.com##.post-content[href*=".taobao.com"]
 vmovier.com##.post-right-item + a[target="_blank"]
 163.com##.post_adtop_main
@@ -67465,7 +67465,7 @@ uc123.com##.s-left
 baidu.com##.s-nativead-item
 baidu.com##.s-news-special[data-url^="http://vip.baidu.com/"]
 uc123.com##.s-right
-qiyuzy.com##.s11
+qyw0.com##.s11
 2345.com##.s11-fixNav
 2345.com##.s11-logowall
 2345.com##.s11-side
@@ -68479,7 +68479,8 @@ mse.360.cn##a[id^="banner"]
 moxing.net##a[marked][href*=".taobao.com"]
 frdic.com,godic.net##a[onclick*="/ads/"]
 pcsoft.com.cn##a[onclick*="_ad"]
-caibaojian.com,cnblogs.com##a[onclick*="aliyun"]
+caibaojian.com##a[onclick*="aliyun"]
+cnblogs.com##A[href*=".gridsumdissector.com/"]
 caibaojian.com##a[onclick*="aly"]
 jokerlu.com,jokerlu1.com##a[onclick^="_czc."]
 52pk.com##a[onclick^="ga"]
@@ -71323,6 +71324,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zgctig.cn^
 ||50milan.xyz^
 ||laorncp.xyz^
+||just4kira.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
