@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fYz0PXhPD8Fbs+AuKvenTQ
+! Checksum: dCU1xNMgJGqnYGAUvk15OA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109190738
-! Last Modified: 2021年09月19日 07:38
+! Version: 202109190941
+! Last Modified: 2021年09月19日 09:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9116,8 +9116,14 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||4gamers.com.tw/ads-
+||4gamers.com.tw/site/iframe-aols/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+4gamers.com.tw##.scroller-ads-wrapper
+4gamers.com.tw##.vue-portal-target > div[style="min-height: 210px;"]
+4gamers.com.tw##.mobile-bottom-ads
+4gamers.com.tw##.interstitial-ads
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16698,6 +16704,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||ningmengshenhuo.com^
+||zzbbjh.cn^
+||guigankj.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -25182,6 +25190,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pcookie_get_key
 /pcount.asp
 /pdst-events-prod-sink
+/peach-collector.min.js
 /Peermap/Log/*
 /pepperjam.js
 /perf-beacon-
@@ -27528,6 +27537,7 @@ _sdcTrackingCode.
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204$image,other,ping,script
+||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
 ,adb=*&referer=
@@ -34718,6 +34728,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ugent.be/js/log.js
 ||counter.zone.ee^$third-party
 ||almamedia.fi^*/scroll-monitor.min.js
+||dnt-userreport.com^
 ||inpref.s3.amazonaws.com^$third-party
 ||insight.fonecta.fi^
 ||tags.op-palvelut.fi^
@@ -45289,12 +45300,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||developpez.com/public/js/track.js
 ||ecranlarge.com/stat
 ||franceculture.fr/static/js/xtcore-
+||franceinter.fr/vendor/track.js
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
 ||ianimes.org/img/tracker.gif
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||k.kolplay.com^
+||l.franceculture.fr^
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
 ||lecho.be/fb2?
 ||lecho.be/track/
