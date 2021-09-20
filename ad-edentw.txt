@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i5B7YpKyQDmxY7bflRpkQg
+! Checksum: XXWfRkIerr2xjDC5MzsMiQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109201537
-! Last Modified: 2021年09月20日 15:37
+! Version: 202109201740
+! Last Modified: 2021年09月20日 17:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1200,7 +1200,7 @@ zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
 ! Popup/Popunder
 dlouha-videa.cz#$#abort-on-property-read _0x4c29
-*$popup,third-party,domain=expres.cz,idnes.cz
+*$popup,third-party,domain=expres.cz|idnes.cz
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/dutch.txt ***
 ! #CV-660
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
