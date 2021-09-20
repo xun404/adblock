@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 11dUFqw0Uiwu09N21M3ctg
+! Checksum: uSxTWmdGCMPLvP2B/mTODg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109201937
-! Last Modified: 2021年09月20日 19:37
+! Version: 202109202101
+! Last Modified: 2021年09月20日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7867,6 +7867,7 @@ _prx/ba_$script
 /pbjsandwich-
 /pbjsandwich.
 /porpoiseant/*
+/prebid-min-
 /prebid-worker/*
 /prebid.$domain=~prebid.org
 /prebid/*
@@ -47955,6 +47956,7 @@ tf2r.com#@#.adverts
 ||prmtracking.com^$popup
 ||probns.com^$popup
 ||profi-para.com^$popup
+||profitabletrustednetwork.com^$popup
 ||promo-bc.com^$popup
 ||promo-market.net^$popup
 ||promotions.sportsbet.com.au^$popup
@@ -49610,6 +49612,7 @@ tf2r.com#@#.adverts
 ||thefreesite.com/nov99bannov.gif
 ||ti.tradetracker.net^
 ||tillertag-a.akamaihd.net^
+||torrindex.net/static/tinysort.min.js
 ||track.effiliation.com^
 ||travel.mediaalpha.com/js/serve.js
 ||tremorhub.com/pubsync?
@@ -49946,6 +49949,7 @@ tf2r.com#@#.adverts
 ||allnewmembers.com^$popup
 ||amazing-dating.com^$popup
 ||avatrade.io/ads/$popup
+||bestanimegame.com^$popup
 ||bet365.com^*affiliate=$popup
 ||brazzers.com/click/$popup
 ||canyoublockit.com^$popup,third-party
@@ -99315,6 +99319,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=butterfieldonline.com|uber.com|ubereats.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
+@@||cdn.segment.com/analytics.js/$script,domain=fender.com
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||check.ddos-guard.net/check.js$script
