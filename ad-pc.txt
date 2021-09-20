@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mcbvI7bO7Xz7ujAzKhC7RQ
+! Checksum: 11dUFqw0Uiwu09N21M3ctg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109201841
-! Last Modified: 2021年09月20日 18:41
+! Version: 202109201937
+! Last Modified: 2021年09月20日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3543,12 +3543,10 @@ tieba.baidu.com##.tuijian-wrap
 /advertisebanners/*
 /advertisehere.
 /advertisement-$~script,domain=~berlin-airport.de
-/advertisement/*
 /advertisement160.
 /advertisement?zoneid=
 /advertisement_$~script
 /advertisements-
-/advertisements.
 /advertisements/*$domain=~ellefanningfan.net
 /advertisements?
 /advertisements_
@@ -9628,6 +9626,7 @@ _800x80_
 ###ad-sla-sidebar300x250
 ###ad-slideshow
 ###ad-slideshow2
+###ad-slot
 ###ad-slot--header-banner
 ###ad-slot--leaderboard-bottom
 ###ad-slot--leaderboard-top
@@ -32818,6 +32817,7 @@ tf2r.com#@#.adverts
 ||amazon-adsystem.com^
 ||ambientaboveboard.com^
 ||ambushdonut.com^
+||ambushinjure.com^
 ||amenddroopingpharmacy.com^
 ||amerallyluke.club^
 ||amexcadrillon.com^
@@ -33378,6 +33378,7 @@ tf2r.com#@#.adverts
 ||begrudgecorrespondence.com^
 ||begunprescription.com^
 ||behalfplead.com^
+||behangneurin.casa^
 ||beharmalted.info^
 ||behavingsali.club^
 ||behybmunweid.com^
@@ -37792,6 +37793,7 @@ tf2r.com#@#.adverts
 ||jafosachi.pro^
 ||jaftouja.net^
 ||jaidennegros.pro^
+||jailershowmen.com^
 ||jamcdn.pro^
 ||jamdomn.pro^
 ||jamsoulsfriday.com^
@@ -42010,6 +42012,7 @@ tf2r.com#@#.adverts
 ||searsbushelbus.com^
 ||seativeflypa.top^
 ||seatsactadvantages.com^
+||seaweedludicrous.com^
 ||seayipsex.com^
 ||sebadu.com^
 ||sebpmnltgd.com^
@@ -79626,6 +79629,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
+://matomo.
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -80130,6 +80134,8 @@ _mongo_stats/
 ||glimr.io^
 ||go-mpulse.net^
 ||googletagmanager.com^
+||hs-analytics.net^
+||hsadspixel.net^
 ||i218435.net^
 ||id5-sync.com^
 ||impactcdn.com^
@@ -81255,8 +81261,6 @@ _mongo_stats/
 ||hotjar.com^$third-party
 ||hotjar.io^$third-party
 ||hotlog.ru^$third-party
-||hs-analytics.net^$third-party
-||hsadspixel.net^$third-party
 ||hscta.net^$third-party
 ||htlbid.com^$third-party
 ||hubvisor.io^$third-party
