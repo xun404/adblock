@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uoo6xMWGJB4ImQOWyuCFsQ
+! Checksum: ikSDloq62tkUyaxgXaVXSw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109211447
-! Last Modified: 2021年09月21日 14:47
+! Version: 202109211537
+! Last Modified: 2021年09月21日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1661,7 +1661,7 @@ naekranie.pl#$#abort-on-property-read adQueue
 !filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/portuguese.txt ***
 ! #CV-761
-www.facebook.com#$#hide-if-matches-xpath './/div[@data-visualcompletion="ignore-late-mutation" or starts-with(@data-pagelet,"FeedUnit_")]//span[@class][not(@style) and not(@id)][text()="Saber mais" or text()="Saiba mais" or text()="Gostar da Página" or text()="Curtir Página" or text()="Baixar" or text()="Cadastre-se" or text()="Solicitar agora" or text()="Assistir mais" or text()="Comprar agora" or text()="Obter oferta" or text()="Obter ingressos" or text()="Reservar agora" or text()="Doar agora"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
+www.facebook.com#$#hide-if-matches-xpath './/div[@data-visualcompletion="ignore-late-mutation" or starts-with(@data-pagelet,"FeedUnit_")]//span[@class][not(@style) and not(@id)][text()="Saber mais" or text()="Saiba mais" or text()="Gostar da Página" or text()="Curtir Página" or text()="Baixar" or text()="Cadastre-se" or text()="Solicitar agora" or text()="Assistir mais" or text()="Comprar agora" or text()="Obter oferta" or text()="Obter ingressos" or text()="Reservar agora" or text()="Doar agora" or text()="Assinar" or text()="Ver mais"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 ! #CV-741
 diariodocentrodomundo.com.br#$#abort-on-property-read TextDecoder
 ! #CV-692
