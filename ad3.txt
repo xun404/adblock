@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y2xmQWGHqw57ppkzLINfjg
+! Checksum: 04uDeRqsAC/hmAz4535nww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109211740
-! Last Modified: 2021年09月21日 17:40
+! Version: 202109212059
+! Last Modified: 2021年09月21日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16715,6 +16715,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bxwx00.com|00ksw
 ||tinkshop.cn^
 ||ccymzg.cn^
 ||woxts.cn^
+||hongdejituan.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -47438,6 +47439,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||pataks.pl/core,_assets$script,~third-party
 @@||polfan.pl/*/fingerprint2.min.js$script,~third-party
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
+@@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
 !---------- Portuguese ----------
