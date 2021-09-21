@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lV9++cP/816PboC0gvrT+Q
+! Checksum: 8E2hxc+Bjamo7L8XjsXDfA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109212343
-! Last Modified: 2021年09月21日 23:43
+! Version: 202109220100
+! Last Modified: 2021年09月22日 01:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56302,6 +56302,13 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*="/x5092.com"]
+##A[href*="/t4078.com:"]
+##A[href$="/hg6ee.com"]
+##A[href$="/88hjd7.com"]
+##A[href$="/aa8a1j.com"]
+##A[href$="/xh8k.vip"]
+##A[href$="/244017.cc"]
 ##A[href*=".madeqr.com/"] > IMG[src*=".pstatp.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
@@ -100580,6 +100587,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||pconline.com.cn/global/footer/index.html
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.bottom-right-dsp-ad-wrap
+epinv.com##A[href="http://www.epinv.com/post/10450.html"]
 finance.sina.com.cn##DIV[class*="game"]
 ssuip.com###mask
 baidu.com##.school-promotion-pop-wrap
