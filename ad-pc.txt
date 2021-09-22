@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Gz9XP/QTfd0hfFxJWu6B7g
+! Checksum: TEFKNENzEE5Pn7taVu1RZw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109220739
-! Last Modified: 2021年09月22日 07:39
+! Version: 202109221047
+! Last Modified: 2021年09月22日 10:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -37658,7 +37658,6 @@ tf2r.com#@#.adverts
 ||hrtyc.com^
 ||hrtye.com^
 ||hsh51nvkrv.com^
-||hsoub.com^
 ||hsrvt.com^
 ||hsslx.com^
 ||hstpnetwork.com^
@@ -46276,6 +46275,7 @@ tf2r.com#@#.adverts
 ||hotwords.com^$third-party
 ||hover.in^$third-party
 ||hprofits.com^$third-party
+||hsoub.com^$third-party
 ||httpool.com^$third-party
 ||ibannerexchange.com^$third-party
 ||ibillboard.com^$third-party
@@ -56317,6 +56317,9 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||bd55f6d385.com^
+/\/[0-9a-z]{32}\.js/$script,domain=tokyomotion.net
+||agathaedith.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -63974,6 +63977,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+caoni29.com###ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71564,6 +71568,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||lz-legal-aid.cn^
 ||nmwbank.cn^
+||oberry.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
