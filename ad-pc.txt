@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FlPLqWM/Oxl125/iS7RXwA
+! Checksum: kp24HBNQsFTTJ4XALaCL1Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109231251
-! Last Modified: 2021年09月23日 12:51
+! Version: 202109231448
+! Last Modified: 2021年09月23日 14:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53464,6 +53464,8 @@ qwant.com##div[class^="ProductAdsMicrosoft-"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
 gq.com##div[class^="StickyHeroAdWrapper-"]
 topgear.com##div[class^="TopContainer-"]
+timeout.com##div[class^="_inlineAdWrapper_"]
+timeout.com##div[class^="_sponsoredContainer_"]
 fodors.com##div[class^="ad-placeholder"]
 barandbench.com##div[class^="ad-service-"]
 barandbench.com##div[class^="ad-slot"]
@@ -53495,6 +53497,8 @@ qwant.com##div[data-testid^="snippet"]
 buzzfeednews.com##div[id^="BF_ADX_"]
 weather.com##div[id^="Taboola-main-"]
 kisshentai.net##div[id^="ad"]
+timeout.com##div[id^="ad-promo-"]
+timeout.com##div[id^="ad-side-"]
 azcentral.com,detroitnews.com,freep.com##div[id^="ad-slot-"]
 javacodegeeks.com##div[id^="adngin-"]
 amgreatness.com##div[id^="ag-front-"]
@@ -56342,10 +56346,14 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+###to_top + #wp.pt-70 > DIV[id]:first-child
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||shijixinrui.cn^
+||xinbo-lora.cn^
+||fjctlnn.top^
+||thallus.net^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -59277,7 +59285,6 @@ _yad_jsonp_
 ||188soft.com/js/PCsoftDetailAD.js
 ||189.cn/dns/
 ||18avday.*/aa/
-||191ys.co/Public/html/191.html
 ||19216811.la/net/advert
 ||195315.com/storage/tpl/tj.js
 ||1990tu.com/i/*.gif
@@ -71600,6 +71607,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mcfpsn.xyz^
 ||zhipet.cn^
 ||zzgyly.cn^
+||jcmagnet.com.cn^
+||dryraw.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
