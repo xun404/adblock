@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wTY4JXAP6HokRhRxTHzoDQ
+! Checksum: K6VRiq8n6KfaLSVcTUAmPQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109260940
-! Last Modified: 2021年09月26日 09:40
+! Version: 202109261046
+! Last Modified: 2021年09月26日 10:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16765,6 +16765,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||guofuhaohua.club^
 ||31du.wang^
 ||zxucii.com^
+||hnjinruda.xyz^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -47306,7 +47307,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
-@@||gdpr-tcfv2.sp-prod.net^$script,domain=businessinsider.fr|voici.fr
+@@||gdpr-tcfv2.sp-prod.net^$script,domain=voici.fr
 @@||getviously.com/js$script,domain=consoglobe.com|futura-sciences.com|gentsu.fr|gossip-room.fr|wamiz.com
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
@@ -47323,7 +47324,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.s-sfr.fr/stats/header.js$script,~third-party
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
 @@||tag.aticdn.net^*/smarttag.js$domain=gouv.fr|mon.compteczam.fr
-@@||tra.scds.pmdstatic.net/sourcepoint/$domain=voici.fr
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|voici.fr
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
 @@||vuplay.co.uk/stats/adobe/*/VisitorAPI.js$script,domain=radioplus.be
