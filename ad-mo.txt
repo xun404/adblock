@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S6ab9HvMk3+Sk32WC6VbEg
+! Checksum: 60ZGC8K+EvpblMy0WobOKA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109271250
-! Last Modified: 2021年09月27日 12:50
+! Version: 202109271337
+! Last Modified: 2021年09月27日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -49327,7 +49327,6 @@ tf2r.com#@#.adverts
 ||cas.*.criteo.com^
 ||cas.clickability.com^
 ||casalemedia.com/cygnus?
-||cdn.mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||cdnpub.info^$subdocument,third-party,domain=~iqbroker.co|~iqbroker.com|~iqoption.co.th|~iqoption.com|~tr-iqoption.com
 ||cdnservices.net/megatag.js
 ||cex.io/img/b/
@@ -49459,7 +49458,6 @@ tf2r.com#@#.adverts
 ||instantpaysites.com/banner/
 ||jinx.com/content/banner/
 ||jobtarget.com/distrib_pages/
-||jsc.mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||jvzoo.com/assets/widget/
 ||jwpcdn.com/player/plugins/bidding/
 ||jwpcdn.com/player/plugins/googima/
@@ -50719,7 +50717,6 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
-@@||google.com/recaptcha/$csp,domain=vidoza.co|vidoza.net
 @@||vidoza.net^$image,script,domain=heapfiles.com|vidoza.co|vidoza.net
 $script,third-party,xmlhttprequest,domain=govid.co
 @@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
@@ -71531,6 +71528,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ikxcep.xyz^
 ||weifengi.xyz^
 ||novaleafgroup.cn^
+||tiantianwl.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -79785,6 +79783,7 @@ fqsousou.com,kengso.com#@#.user-share
 ?[AQB]&ndh=1&t=
 ?act=counter&
 ?action=event&
+?action=impression&
 ?action=log_promo_impression
 ?action=statsjs&
 ?action=track_visitor&
@@ -84501,7 +84500,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
 ||metrika-informer.com^$third-party
-||mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||mokuz.ru^$third-party
 ||more-data.ru^$third-party
 ||musiccounter.ru^$third-party
