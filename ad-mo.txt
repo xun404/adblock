@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: efWyweQB/cQu3Eo82NCApg
+! Checksum: GK9jtEspJBZIap2rw6JFQA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109291841
-! Last Modified: 2021年09月29日 18:41
+! Version: 202109291937
+! Last Modified: 2021年09月29日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4604,6 +4604,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /full/ads/*
 /fullad.
 /fulladbazee.
+/funcript*.php?pub=
 /fuseads/*
 /fwadmanager.
 /gadgets/ad/*
@@ -54449,6 +54450,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||dailymotion.com/embed/*?ads_params=$subdocument
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
+@@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
@@ -54947,6 +54949,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
 @@||reastatic.net/150x200-$domain=realestate.com.au
+@@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@||accounts.google.com^$popup
@@ -71642,6 +71645,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bupt.info^
 ||mageti.cn^
 ||lntx.shop^
+||jianchajingmk.net^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
