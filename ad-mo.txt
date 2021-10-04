@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j1h9OHDtuPCTFVoQkWwkew
+! Checksum: iC+Cm/Zvgc1SerIqIMUGuw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110042344
-! Last Modified: 2021年10月04日 23:44
+! Version: 202110050101
+! Last Modified: 2021年10月05日 01:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20761,6 +20761,7 @@ _800x80_
 ##.ads-header-right
 ##.ads-here
 ##.ads-holder
+##.ads-home
 ##.ads-home-top-buttons-wrap
 ##.ads-homepage-leaderboard-btf
 ##.ads-horizontal
@@ -28468,7 +28469,9 @@ _800x80_
 ##.single-item-page-ads
 ##.single-mpu
 ##.single-post-ad
+##.single-post-ads
 ##.single-post-ads-750x90
+##.single-post-bottom-ads
 ##.single-top-ad
 ##.singleAd
 ##.singleAdBox
@@ -51311,6 +51314,8 @@ downloadsafer.com###homebannerbottom
 semiconductor-today.com###homeright
 nutritioninsight.com###horizontalblk
 cd1025.com###hp-leader
+trakt.tv###hu-ck-s-t-er-de-sk-top-sidenav
+trakt.tv###hu-ck-s-t-er-de-sk-top-wrapper
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
 nzbindex.com###i > .inner
 hltv.org###i3_middle
@@ -53176,6 +53181,7 @@ facebook.com##a[aria-label="Advertiser"]
 alibaba.com##a[campaignid][target="_blank"]
 bernama.com##a[class^="banner_photo_"]
 probuilds.net##a[class^="dl-blitz-"]
+trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 3dnatives.com##a[data-bid][target="_blank"]
 msn.com##a[href*=".booking.com/"]
 beforeitsnews.com,in5d.com##a[href*=".hop.clickbank.net"]
@@ -56121,6 +56127,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||lm343.com^
 ||xingxingdm.com^
 ||tj-yijiajing.com^
 .cc/s.php?id=$script,third-party
@@ -71426,6 +71433,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||9860775.com^
 ||zhongxiangjin.vip^
 ||kaocha.net^
+||huojuf.com^
+||hengyisoft.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -99523,7 +99532,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||getjad.io/library/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.com/geolocation.gif$domain=welt.de
