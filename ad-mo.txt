@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fMacsTtTAmDjhQeO/+4swA
+! Checksum: OFsZBa3RYR34iHeOyd0Z6g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110071337
-! Last Modified: 2021年10月07日 13:37
+! Version: 202110071643
+! Last Modified: 2021年10月07日 16:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56289,6 +56289,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.gg_pc
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -69601,6 +69602,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||bchangtai.vip/static/ad/main.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -100589,7 +100591,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||pconline.com.cn/global/footer/index.html
 ||ali213.net/news/kx/ali213-kx-data.js
+||cnki.com.cn/cnki/js/adimgdetail.js
+||cnki.com.cn/cnki/js/adrightdetail.js
 !------------------------Specific element hiding rules------------------------!
+cnki.com.cn##.adList
+cnki.com.cn##.ad-right-default
+cnki.com.cn##.mainboxconbanner
 edrawsoft.cn##.publicity-entrance
 edrawsoft.cn##.new-year__cn__master
 9game.cn##.guide-app-fix
