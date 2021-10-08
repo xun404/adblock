@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CdE5DaTdk7cGIL7n6VK8RA
+! Checksum: GusiekLpZ4XH+h6lp9TDWg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110081249
-! Last Modified: 2021年10月08日 12:49
+! Version: 202110081337
+! Last Modified: 2021年10月08日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7825,6 +7825,7 @@ _prebid_
 /adblockkiller.
 /adblockpopup.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
+/ads-blocking-detector.
 /adsblocker.
 /anti-adblock/*$~stylesheet
 /anti_ab.
@@ -71641,6 +71642,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||d2robot.com.cn^
 ||fx2lh9m.cn^
+||ytlkmy.cn^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -88277,7 +88279,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infoq.com/metrics/
 ||informer.com/ajax/article_log.php
 ||ino.com/img/sites/mkt/click.gif
-||inq.com/tagserver/
+||inq.com/tagserver/logging/logline
 ||instagram.com/ajax/bz
 ||instructables.com/counter
 ||intent.cmo.com.au^
@@ -88762,6 +88764,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ultimate-guitar.com/components/ab/event?
 ||ultimedia.com/deliver/statistiques/
 ||umami.wakarimasen.moe^
+||ups.com/img/icp.gif
 ||urs.metacritic.com^
 ||userfly.com^
 ||usmetric.rediff.com^
