@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uwSA0vnDW7mryu98rT0caQ
+! Checksum: aboY8kMrErDxht32dSa0+A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110110739
-! Last Modified: 2021年10月11日 07:39
+! Version: 202110110944
+! Last Modified: 2021年10月11日 09:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14572,7 +14572,6 @@ ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 gdot.me,sc115.com##script + a
-wnacg.com,wnacg.org,wnacgs.com##script + a > div
 logo160.com##script + a[href="/"]
 xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
@@ -35599,6 +35598,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||discord.com/api/*/science
 ||discover-metrics.cloud.seek.com.au^
 ||discover.com/QaiuqHH6L7OpQ2dSZzdDRhs6/
+||dmtgvn.com/wrapper/js/common-engine.js$domain=rt.com
 ||docs.github.com/events
 ||domainit.com/scripts/track.js
 ||dominos.co.uk/qRgAwS/
@@ -36198,6 +36198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thedailybeast.com/static/js/thirdparty.
 ||thefreedictionary.com/_/tr.ashx?
+||thriftbooks.com/scripts/sp.js
 ||tiktok.com/captcha/report
 ||tilanalytics.timesinternet.in^
 ||time.is/img/nod.png
@@ -46797,6 +46798,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||target.ukr.net^
 ||log.ttbc-hcm.gov.vn^
 ||logsbin.dantri.com.vn^
+||pixel.coccoc.com^
 ||stats.muasamcong.gov.vn^
 ||track-srv.vietnamnet.vn^
 /ping.gif?$domain=gamestar.de
