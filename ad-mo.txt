@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vEczgRJEVDCrabNyVbpS5g
+! Checksum: pm6jgtYP8gY2xwg1eNZo/Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110111337
-! Last Modified: 2021年10月11日 13:37
+! Version: 202110111447
+! Last Modified: 2021年10月11日 14:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -63853,8 +63853,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mydrivers.com/news/taobao_tab.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.tab[style^="background"]
+3dmgame.com#?#div[class]:-abp-has(> .bt:-abp-contains(高速))
+mydrivers.com##.taobao_tab
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71469,6 +71473,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||svwsvn.top^
 ||nloader.xyz^
+||wydong.top^
+||jinhaitun888.xyz^
+||yswuen.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
