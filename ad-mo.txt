@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KlzmDEhBG7iXhle+tuuWqA
+! Checksum: tjaK5X82RYIJMbrgklOU2A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110111049
-! Last Modified: 2021年10月11日 10:49
+! Version: 202110111141
+! Last Modified: 2021年10月11日 11:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2327,7 +2327,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adrun.
 /adrunner.
 /adruptive.
-/ads-01.
 /ads-03.
 /ads-04.
 /ads-05.
@@ -7654,8 +7653,6 @@ takeover_banner_
 /full-page-script.js$script
 /earn.php?z=$popup,subdocument
 /pop2.js
-/\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$third-party,xmlhttprequest
-.webp?*&cb=$script,~third-party
 /banger.js
 /detroitchicago/anaheim.js
 /detroitchicago/boise.js
@@ -7672,59 +7669,6 @@ takeover_banner_
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
 /ezoic/*$script,~third-party
 /jellyfish.webp$script
-/ima3.js
-/imasdk/*
-.php?mg=$image
-/_b*.php?img=$image
-/_p*.php?img=$image
-/_p4.php$script
-/_ra_lib*.js$script
-/ab_fl.js$script
-/ac/rep.php$script
-/b3.php?*=$script
-/b3.php?img=$image
-/ba_*/?fel=$script
-/backend_loader.php$script,~third-party
-/baha.php
-/be568.js
-/bl.php?*=$image,script
-/dg.php?wr=
-/ebldr.php
-/ebloader.
-/ex/b.php
-/exads-
-/exbl.js?
-/exbl.min.js?
-/exbl.php?
-/exbls1.js?
-/exblss1.js?
-/exo-force-
-/exo-loader/*
-/exo/ExoNative
-/exo_frnd_
-/exo_na/*$script,subdocument
-/fel456.js
-/fload.js
-/floader.js$script
-/fro_lo.js$script
-/frontend_loader.js$script
-/frontend_loador.js$script
-/iamback.php$script
-/lib/?img=$image
-/misc/ex_loader.
-/nb-back-sol?
-/nb/avanti.
-/nb/b_lo.php
-/nb/frontale.
-/nb/frontend.js
-/nb_front.js$script
-/netblock/netblock.js$script
-/neverblock/*
-/nvr_bcknd.
-/nvrblck.
-/scripts/sweet/*$script
-_nb_sys.$script,~third-party
-_prx/ba_$script
 -prebid-
 -prebid.$script
 -prebid/
