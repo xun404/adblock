@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MIL4/WC6WNJ+WKZ+z/nEQg
+! Checksum: /jjNWrFWniDTz2yM9lIcSw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110120142
-! Last Modified: 2021年10月12日 01:42
+! Version: 202110120245
+! Last Modified: 2021年10月12日 02:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1990,6 +1990,7 @@ tieba.baidu.com##.tuijian-wrap
 /adcreatives/*
 /adcss/*
 /adctrl/*
+/adCustom-
 /adcxtnew_
 /adcycle.
 /adcycle/*
@@ -12018,6 +12019,7 @@ _800x80_
 ###advertiseGoogle
 ###advertiseHere
 ###advertiseLink
+###advertisePlacement
 ###advertise_top
 ###advertisediv
 ###advertiseheretop
@@ -15765,6 +15767,7 @@ _800x80_
 ###rxgrightbar
 ###sAdsBox
 ###s_ads_header
+###sabavisionIframeAds
 ###say-center-contentad
 ###sb-ad-sq
 ###sb_ad_links
@@ -18324,6 +18327,7 @@ _800x80_
 ##.ad-island
 ##.ad-item
 ##.ad-item-related
+##.ad-itself
 ##.ad-label
 ##.ad-lable
 ##.ad-landscape
@@ -22197,6 +22201,7 @@ _800x80_
 ##.advertis-right
 ##.advertise-1
 ##.advertise-2
+##.advertise-band
 ##.advertise-box
 ##.advertise-here
 ##.advertise-homestrip
@@ -24443,6 +24448,7 @@ _800x80_
 ##.ds-ad-inner
 ##.ds-ad-ros
 ##.dsk-box-ad-d
+##.dsp-under-video-ad
 ##.dsq_ad
 ##.dt-ad-top-content
 ##.dual-ads
@@ -28064,6 +28070,7 @@ _800x80_
 ##.s_sponsored_ads
 ##.sa-mainad
 ##.sa_AdAnnouncement
+##.sabavision-ads
 ##.sad_posterad
 ##.sadvert
 ##.sagreklam
@@ -50930,6 +50937,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||bit.ly^$popup,domain=dexerto.com|elitepvpers.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
 ||bitcoins-update.blogspot.com^$popup,domain=lineageos18.com
 ||bitly.com^$popup,domain=elitepvpers.com
+||bitskins.com^$popup,domain=hltv.org
 ||cdnqq.net/out.php$popup
 ||embed.mystream.to^$popup
 ||flixhq.ru/?$popup
@@ -85258,7 +85266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cllctr.roistat.com^
 ||cloudapp.net/l/
 ||clouderrorreporting.googleapis.com^
-||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com
+||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
 ||cloudfront-labs.amazonaws.com^
 ||cloudfront.net*/keywee.min.js
 ||cloudfront.net*/sp.js|
