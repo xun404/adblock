@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XqTPf4uxd6Z9DAe2weH8vQ
+! Checksum: vMs0bfFqs4ZxtwGMqPA9Dw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110121841
-! Last Modified: 2021年10月12日 18:41
+! Version: 202110121937
+! Last Modified: 2021年10月12日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25318,6 +25318,7 @@ _800x80_
 ##.halfpage_ad_container
 ##.happy-inline-ad
 ##.has-ad
+##.has-fixed-bottom-ad
 ##.hasAD
 ##.hasads
 ##.hbPostAd
@@ -26892,6 +26893,7 @@ _800x80_
 ##.my_ad
 ##.myadmid
 ##.myimg-advert
+##.myinarticlead
 ##.mypicadsarea
 ##.myplate_ad
 ##.nSponsoredLcContent
@@ -51528,7 +51530,7 @@ iphonic.tv,kontraband.com,motherproof.com,nutritioncuisine.com,sansabanews.com,t
 thepostmillennial.com###leader-mot
 agriland.ie,ballitonews.co.za,blackburnnews.com,football-talk.co.uk,irishpost.co.uk,mobiletoday.co.uk,morningledger.com,pcgamerhub.com,soccersouls.com,thenextmiami.com,todaysgeneralcounsel.com,urbanmecca.net,youngzimbabwe.com###leader-wrapper
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
-bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,theserverside.com,whitepages.ae###leaderboard
+bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 vocm.com###leaderboard-area
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
@@ -52108,6 +52110,7 @@ autocar.co.uk##.block-autocar-ads-lazyloaded-mpu2
 autocar.co.uk##.block-autocar-ads-mpu-flexible1
 autocar.co.uk##.block-autocar-ads-mpu-flexible2
 autocar.co.uk##.block-autocar-ads-mpu1
+stuff.tv##.block-hcm-external-blocks
 newsweek.com##.block-ibtmedia-dfp
 pocket-lint.com##.block-inline
 pocket-lint.com##.block-mpu
@@ -52515,6 +52518,7 @@ provideocoalition.com##.hero-promotions
 freeads.co.uk##.hero_banner1
 daijiworld.com##.hidden-xs > [href]
 moneycontrol.com##.hide-mobile
+johncodeos.com##.hide-on-mobile
 designtaxi.com##.highlight-news-notice
 majorgeeks.com##.highlight.content > center > font
 duckduckgo.com##.highlight_sponsored
@@ -52571,6 +52575,7 @@ tumblr.com##.j3_kY
 distractify.com##.jRAIxB.sc-1o6mqs2-0
 psypost.org##.jeg_midbar
 romania-insider.com##.job-item
+johncodeos.com##.johnc-widget
 marinelink.com,maritimejobs.com,maritimepropulsion.com,yachtingjournal.com##.jq-banner
 demonslayermanga.com,readjujutsukaisen.com##.js-a-container
 ultimate-guitar.com##.js-ab-regular
@@ -56340,6 +56345,7 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||lm335.com^
 ||govyunfu.cn^
 ||botsforger.com.cn^
 .cc/s.php?id=$script,third-party
@@ -66501,7 +66507,6 @@ chineseinla.com##.deal_discount
 pan.baidu.com##.decrease-active
 xianshuabao.com##.demand-dialog
 xianshuabao.com##.demand-fixed
-czjx8.com##.desc
 sm.ms##.detail-advert
 dytt5.net##.detail-body > .fly-panel
 17qingsong.com##.detail-gads
@@ -67676,7 +67681,6 @@ baobao.baidu.com##.qb-relate-box
 qidian.com##.qd-game
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
-czjx8.com##.qktz
 717dyi.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
 htcui.com##.qqanimate
@@ -71676,6 +71680,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ocexikc.cn^
 ||dianyingmi1.cn^
 ||cloudassistant.vip^
+||liuyansha.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -74796,7 +74801,7 @@ fqsousou.com,kengso.com#@#.user-share
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
-@@/beacon.min.js$domain=tianqi.qq.com
+@@/beacon.min.js$domain=qq.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
 @@/fingerprintjs2.min.js$domain=imooc.com
@@ -82804,7 +82809,6 @@ _mongo_stats/
 ||surveyscout.com^$third-party
 ||surveywriter.com^$third-party
 ||survicate.com^$third-party
-||swcs.jp^$third-party
 ||swfstats.com^$third-party
 ||swiss-counter.com^$third-party
 ||synergy-e.com^$third-party
@@ -86429,6 +86433,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qzzr.com/_uid.gif
 ||r.mail.ru^$script
 ||rackcdn.com/gate.js
+||rackcdn.com/stf.js
 ||radiotime.com/Report.ashx?
 ||radiotime.com/reports/
 ||ramp.purch.com^
