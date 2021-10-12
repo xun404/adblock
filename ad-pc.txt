@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V0RPAk8EZdUaFN9osnuQdg
+! Checksum: XqTPf4uxd6Z9DAe2weH8vQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110121740
-! Last Modified: 2021年10月12日 17:40
+! Version: 202110121841
+! Last Modified: 2021年10月12日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3326,7 +3326,6 @@ tieba.baidu.com##.tuijian-wrap
 /adtaily_
 /adtaobao.
 /adTargeting.$domain=~adtargeting.com
-/adtech-$domain=~adtech-tokyo.com
 /adtech.$domain=~adtech.co.uk|~adtech.md
 /adtech/*
 /adtech;
@@ -30273,7 +30272,6 @@ _800x80_
 ##[href^="http://raboninco.com/"]
 ##[href^="http://stvkr.com/"]
 ##[href^="http://www.star-clicks.com/"]
-##[href^="https://1.envato.market/"]
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://detachedbates.com/"]
@@ -53296,6 +53294,7 @@ steroid.com##[href*="https://www.anabolics.com"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
 daijiworld.com##[href="http://www.expertclasses.org/"]
+dafontfree.io##[href="https://1.envato.market/c/"]
 seganerds.com##[href="https://casino.betway.com/"]
 isekaiscan.com##[href="https://comichub.net/"]
 sqlfiddle.com##[href="https://entityframework-extensions.net/"]
@@ -53929,7 +53928,7 @@ xtube.com##.adContainer
 sex3.com##.add-box
 babesandstars.com,gosexy.mobi,javseen.tv,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
 tube8.com,tube8.es,tube8.fr##.adsbytrafficjunky
-anyporn.com,cartoon-sex.tv,pervertslut.com,webanddesigners.com##.adv
+anyporn.com,cartoon-sex.tv,pervertslut.com,theyarehuge.com,webanddesigners.com##.adv
 sex3.com##.adv-leftside
 reddflix.com##.advbox
 hungangels.com##.advert
@@ -54829,6 +54828,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||tcm-koko.ed.jp/images/ad.jpg
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||trj.valuecommerce.com/vcushion.js
+@@||tubecorp.com/vs/vs.js$domain=hentaihd.xyz
 @@||uze-ads.com/ads/$~third-party
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||velet.jp/images/adv/$image,~third-party
@@ -100726,7 +100726,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(bbcode|common|editor|forum|home|portal|seditor|smilies))[a-zA-Z]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(common|forum|home\.|portal|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
@@ -100735,7 +100735,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ali213.net/news/kx/ali213-kx-data.js
 ||cnki.com.cn/cnki/js/adimgdetail.js
 ||cnki.com.cn/cnki/js/adrightdetail.js
+||mydrivers.com^*/xianshitehui.png
+||mydrivers.com/m/images/v1/kkjapp_down.gif
 !------------------------Specific element hiding rules------------------------!
+mydrivers.com##.ab
+mydrivers.com##.bb
 meijumi.net##.couplet_app
 cnki.com.cn##.adList
 cnki.com.cn##.ad-right-default

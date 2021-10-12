@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ezg/fjD0vSkvyoxKyVzo7A
+! Checksum: ZPuiQvvv3GkB3CQM1OJX3A
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202110121643
-! Last Modified: 2021年10月12日 16:43
+! Version: 202110121841
+! Last Modified: 2021年10月12日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -21036,7 +21036,7 @@ _box_ad_
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(bbcode|common|editor|forum|home|portal|seditor|smilies))[a-zA-Z]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(common|forum|home\.|portal|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
@@ -21045,7 +21045,11 @@ _box_ad_
 ||ali213.net/news/kx/ali213-kx-data.js
 ||cnki.com.cn/cnki/js/adimgdetail.js
 ||cnki.com.cn/cnki/js/adrightdetail.js
+||mydrivers.com^*/xianshitehui.png
+||mydrivers.com/m/images/v1/kkjapp_down.gif
 !------------------------Specific element hiding rules------------------------!
+mydrivers.com##.ab
+mydrivers.com##.bb
 meijumi.net##.couplet_app
 cnki.com.cn##.adList
 cnki.com.cn##.ad-right-default
