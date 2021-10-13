@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8hOXZ4nLneXFVJKz8o6diQ
+! Checksum: 9X/KdFcljZH6lvVy9R1DVw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110131447
-! Last Modified: 2021年10月13日 14:47
+! Version: 202110131537
+! Last Modified: 2021年10月13日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -25459,7 +25459,6 @@ _800x80_
 ##.home_top_right_ad_label
 ##.homead
 ##.homeadnews
-##.homeadv
 ##.homeadwrapper
 ##.homefront468Ad
 ##.homepage--sponsor-content
@@ -52433,6 +52432,7 @@ duckduckgo.com##.highlight_sponsored
 skins.be##.hint
 highwayradio.com##.hiway-widget
 bizarrepedia.com##.holder
+pcgamingwiki.com##.home-search-examples
 newagebd.net##.homeSlideRightSecTwo
 pbs.org##.home__logo-pond
 geekwire.com##.home_listing
@@ -53671,6 +53671,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[role="navigation"] + c-wiz > div > .kxhcC
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="pane.place.carousel.card"]:-abp-has(span.ARktye-badge)
 testpages.adblockplus.org###abptest
+3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
@@ -99467,6 +99468,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||humaninterest.com/api/analytics/$script,~third-party
+@@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
