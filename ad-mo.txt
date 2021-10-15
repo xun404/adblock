@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rss/r4BBiKnQ0sPyM3XF5g
+! Checksum: xQuHMNxNKNy2fJKip6hLGA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110150739
-! Last Modified: 2021年10月15日 07:39
+! Version: 202110150943
+! Last Modified: 2021年10月15日 09:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20259,7 +20259,6 @@ _800x80_
 ##.add300top
 ##.add300x250
 ##.add768
-##.addHead
 ##.addResources
 ##.add_300_250
 ##.add_300x250
@@ -22390,6 +22389,7 @@ _800x80_
 ##.advertorial-block
 ##.advertorial-image
 ##.advertorial-promo-box
+##.advertorial-teaser
 ##.advertorial-wrapper
 ##.advertorial2
 ##.advertorial_728x90
@@ -30147,6 +30147,8 @@ _800x80_
 ##LEADERBOARD-AD
 ##[ad-id^="googlead"]
 ##[class*="-slot_ad-placements-"]
+##[class*="__adspot-title-container"]
+##[class*="__adv-block"]
 ##[class*="auto-bottom-advertising-"]
 ##[class^="Ad-adContainer"]
 ##[class^="div-gpt-ad"]
@@ -54431,6 +54433,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com|k2radio.com|koel.com|kowb1290.com|nbcsports.com|uefa.com|vimeo.com|windalert.com
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||guim.co.uk/uploader/$image,~third-party
+@@||gumtree.co.za/my/ads.html$~third-party
 @@||hackread.com/wp-content/uploads/$image,~third-party
 @@||hotstar.com/vs/getad.php$domain=hotstar.com
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
@@ -71625,6 +71628,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|v63xs.com|vipsk.org|wanwenhui.com|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||cfyao.club^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -75139,7 +75143,7 @@ fqsousou.com,kengso.com#@#.user-share
 .statData-eup.
 .stats?action=
 .svc/?tracking_id=
-.tealium.
+.tealium.$domain=~tealium.com
 .track.actions.get?
 .track_Visit?
 .trackArticleAction&
@@ -86479,6 +86483,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.nccgroup-webperf.com^
 ||rum.perfops.net^
 ||rum.uptime.com^
+||run.app/data.log?
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.beop.io^
 ||s.clickability.com^
@@ -99971,6 +99976,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
+@@||hm.baidu.com/hm.gif$image,domain=clgod.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
