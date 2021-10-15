@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9mik5LCmgINfNTKdoEG1Nw
+! Checksum: ayNXDljYy9j2NgMnllWtww
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110152240
-! Last Modified: 2021年10月15日 22:40
+! Version: 202110160142
+! Last Modified: 2021年10月16日 01:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1706,7 +1706,7 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
-liveinternet.ru#$#abort-on-property-read Object.prototype.parseResponseData
+/^https?://www\.liveinternet\.ru/[^\s]{100,}/$header=content-type=application/json
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 ||sdamgia.ru/$header=content-type=text/javascript
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
