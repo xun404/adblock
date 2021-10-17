@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TPgSajaDDPVPcujm8BIATQ
+! Checksum: 40ii4OFZWZeCPXozj7iD/A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110172237
-! Last Modified: 2021年10月17日 22:37
+! Version: 202110180639
+! Last Modified: 2021年10月18日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -10854,6 +10854,11 @@ _800x80_
 ###admiddle3center
 ###admiddle3left
 ###admiddleCenter
+###admobilefoot
+###admobilefootinside
+###admobilemiddle
+###admobiletop
+###admobiletopinside
 ###admod2
 ###admon-300x250
 ###admon-728x90
@@ -14338,6 +14343,7 @@ _800x80_
 ###idSponsoredresultend
 ###idSponsoredresultstart
 ###id_SearchAds
+###ifadmiddle
 ###ifmSocAd
 ###iframe-ad
 ###iframe-ad-container-Top3
@@ -33455,6 +33461,7 @@ tf2r.com#@#.adverts
 ||bclheggx.com^
 ||bcloudhost.com^
 ||bcnewltd.club^
+||bcprm.com^
 ||bcuuipewdz.com^
 ||bcvutcks.com^
 ||bcxamyjtnzuf.com^
@@ -43937,6 +43944,7 @@ tf2r.com#@#.adverts
 ||traffic.adexprtz.com^
 ||traffic.club^
 ||trafficdok.com^
+||trafficlide.com^
 ||trafficmoon.com^
 ||trafficmoose.com^
 ||trafficoverus.com^
@@ -46318,6 +46326,7 @@ tf2r.com#@#.adverts
 ||content.ad^$third-party
 ||contentiq.com^$third-party
 ||contenture.com^$third-party
+||contextads.live^$third-party
 ||contextuads.com^$third-party
 ||coolerads.com^$third-party
 ||coull.com^$third-party
@@ -51812,6 +51821,7 @@ yahoo.com###viewer-LREC2-iframe
 gumtree.com###vipBanner
 browserleaks.com###vpn_img
 browserleaks.com###vpn_text
+ettvcentral.com###vpnvpn
 censor.net###w1001
 censor.net###w1031
 eeweb.com###wallpaper_image
@@ -80131,6 +80141,7 @@ fqsousou.com,kengso.com#@#.user-share
 ?action=event&
 ?action=impression&
 ?action=log_promo_impression
+?action=saveViewStat&
 ?action=statsjs&
 ?action=track_visitor&
 ?action=tracking_script
@@ -82476,6 +82487,7 @@ _mongo_stats/
 ||quintesse.io^$third-party
 ||quitsnap-blue.com^$third-party
 ||qzlog.com^$third-party
+||r2b2.io^$third-party
 ||r7ls.net^$third-party
 ||radarstats.com^$third-party
 ||radarurl.com^$third-party
@@ -85903,6 +85915,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||getkudos.me/a?$image
 ||getpos.de/ext/
 ||getrockerbox.com/pixel?
+||gi-client-tracking.goodgamestudios.com^
 ||gigya.com^*/cimp.gif?
 ||giosg.com^*/public/trace/
 ||glam.com/cece/agof/
@@ -88499,6 +88512,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logs.naukri.com^
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
+||lookawoman.com/t/
 ||ma.redhat.com^
 ||mailing.enews.extremetech.com^$image
 ||mapquest.com/logger
@@ -88821,6 +88835,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wordpress.com^
 ||stats.wwitv.com^
 ||streamstats.prd.dlive.tv^
+||streamta.pe/stat/
+||streamtape.com/stat/
 ||strtapeadblock.club/stat/
 ||stubhub.com/bfx/api/logging
 ||substack.com/api/v1/firehose?
