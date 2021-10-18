@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ljt4Lv4XVwAcfOCDnKWpWw
+! Checksum: Nii9bKBL3ZQulTbGBXFGtg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110181447
-! Last Modified: 2021年10月18日 14:47
+! Version: 202110181643
+! Last Modified: 2021年10月18日 16:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24141,6 +24141,7 @@ _800x80_
 ##.contextual_ad_unit
 ##.continuous-flow-mid-ad
 ##.convert-media-ad
+##.converter-ad
 ##.copy-adChoices
 ##.core-adplace
 ##.coreAdsPlacer
@@ -29665,6 +29666,7 @@ _800x80_
 ##.type_promoads
 ##.tz_ad300_widget
 ##.tz_ad_widget
+##.u-ads
 ##.u-lazy-ad-wrapper
 ##.uds-ad
 ##.uds-ads
@@ -43203,7 +43205,6 @@ tf2r.com#@#.adverts
 ||sommons.co^
 ||sonlessmagmata.com^
 ||sonnerie.net^
-||sonobi.com^
 ||sonsitself.com^
 ||soofeest.net^
 ||soonbigo.com^
@@ -47170,6 +47171,7 @@ tf2r.com#@#.adverts
 ||socialreach.com^$third-party
 ||socialspark.com^$third-party
 ||societingna.info^$third-party
+||sonobi.com^$third-party
 ||sotuktraffic.com^$third-party
 ||speakol.com^$third-party
 ||splinky.com^$third-party
@@ -51148,7 +51150,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||vpnfortorrents.*?$popup
 ||waaw.to/out.php$popup
 /about:blank#.*/$popup,domain=22pixx.xyz|9anime.to|adblockstrtape.link|animepahe.com|bitporno.com|cdnqq.net|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|flashx.net|fmovies.to|gowatchseries.bz|hqq.tv|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mixdrop.sx|mp4upload.com|mstream.xyz|onlystream.tv|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblock.me|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidxhot.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
-/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=2embed.ru|5movies.fm|9anime.to|adblockstrtape.link|adf.ly|animepahe.com|asianload.me|bunnycdn.ru|cmovies.ac|cricfree.live|dailyuploads.net|databasegdriveplayer.co|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|flashx.net|fmovies.to|fmovies.world|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|playemulator.online|player.cineflixtv.com|putlockers.fm|putlockers.gs|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|streamzz.to|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
+/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=2embed.ru|5movies.fm|9anime.to|adblockstrtape.link|adf.ly|animepahe.com|asianload.me|bunnycdn.ru|cmovies.ac|cricfree.live|dailyuploads.net|databasegdriveplayer.co|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|flashx.net|fmovies.to|fmovies.world|gogoanimes.tv|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|playemulator.online|player.cineflixtv.com|putlockers.fm|putlockers.gs|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|streamzz.to|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 ||18porn.sex/ptr18.js
 ||3movs.com/sd3/
 ||3naked.com/nb/
@@ -53432,6 +53434,7 @@ mcpmag.com##.xContent
 drivehub.in##.xc449bad4854773ff
 livejournal.com##.xhtml_banner
 bit-tech.net##.xtag_container
+247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
 pravda.ru##.yaRtbBlock
 shockwave.com##.ympb_target_banner
 ign.com##.zad
@@ -71810,6 +71813,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||52lty.store^
 ||axfvv.cn^
 ||lszwj.top^
+||eduszft.cn^
+||aliweimeng.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -80268,6 +80273,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://stats.*/stats.aspx
 ://temptation.*/temptation.js
 ://track.*/collect
+://track.*/dye?
 ://track.*/visitor/
 ://tracker.*/pageview
 ://tracking.*/beacon/
@@ -89037,6 +89043,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||toyota.com/analytics/
 ||tr.clickstay.com^
 ||track.dictionary.com^
+||track.kueez.com^
 ||track.lexico.com^
 ||track.netzero.net^
 ||track.thesaurus.com^
