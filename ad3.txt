@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ziaYYGMMAhdNbcCqmHkadg
+! Checksum: BSrmmtysX8cBqlee1PjY0w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110191050
-! Last Modified: 2021年10月19日 10:50
+! Version: 202110191249
+! Last Modified: 2021年10月19日 12:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -138,6 +138,7 @@ xz6d.com
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
+/gg7f5kv/*
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -36649,7 +36650,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
 ||primate.dmarcdigests.com^
+||161.35.245.96^
+||64.225.81.20^
 ||creative-banana.tk^
+||ddns.dataunlocker.com^
 ||funny-morning.tk^
 ||kick-lake.ga^
 ||smartproxy.dataunlocker.com^
