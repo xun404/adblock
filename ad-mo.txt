@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sFFrMXC34SrqyRx5cD7mWg
+! Checksum: 8wMKAemRD2+bO1iH4gUWpQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110192102
-! Last Modified: 2021年10月19日 21:02
+! Version: 202110192140
+! Last Modified: 2021年10月19日 21:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -80273,6 +80273,7 @@ fqsousou.com,kengso.com#@#.user-share
 ?event=tracking:ajax
 ?eventtype=impression&pid=
 ?eventtype=request&pid=
+?local_ga_js=
 ?log=stats-
 ?logType=impression&
 ?logType=trackEvent&
@@ -100123,6 +100124,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cm-widget.nakanohito.jp/cm/$script,stylesheet
 @@||cm-widget.nakanohito.jp/img/$image
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
+@@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
@@ -100151,6 +100153,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
+@@||staff-start.com/js/track/$domain=enoteca.co.jp|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
