@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WIGI2GoupgaS0qQk7ecyKg
+! Checksum: X9ZaD1I8iroGf+Y3in/pyg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110221840
-! Last Modified: 2021年10月22日 18:40
+! Version: 202110221937
+! Last Modified: 2021年10月22日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -53549,6 +53549,7 @@ tampermonkey.net##[src^="data:image"]
 medicalnewstoday.com##[style*="line-height: 0;"]
 wahm.com##[style="min-height:250px;"]
 guru99.com##[style^="float"]
+9gag.com##[style^="width: 640px; min-height: 360px;"]
 torrentresource.com##[width="150"]:last-child
 drwealth.com##[width="640"]
 4chan.org##[width="728"]
@@ -64228,6 +64229,11 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cpnn.com.cn###myimg
+cpnn.com.cn##.leftewm
+cpnn.com.cn##.leftgg
+cpnn.com.cn##.rightewm
+cpnn.com.cn##.rightgg
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71845,6 +71851,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||yybnk.cn^
 ||lyytc.cn^
+||lhyang.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
