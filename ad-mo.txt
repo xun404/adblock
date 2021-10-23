@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WwiIQ4Tfezuon88bsUfIdA
+! Checksum: MTubXJZvgPQRg8V6dR2jiw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110240439
-! Last Modified: 2021年10月24日 04:39
+! Version: 202110240538
+! Last Modified: 2021年10月24日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31005,6 +31005,7 @@ _800x80_
 ##div[data-adunit]
 ##div[data-adzone]
 ##div[data-content="Advertisement"]
+##div[data-contentexchange-widget]
 ##div[data-id-advertdfpconf]
 ##div[data-mediatype="advertising"]
 ##div[data-native_ad]
@@ -80817,6 +80818,7 @@ _mongo_stats/
 ://top.*/count/cnt.php?
 ://top.*/hit/
 !-----------------Third-party tracking domains-----------------!
+||a2z.com^
 ||adnext.co^
 ||adrtx.net^
 ||affvantage.com^
@@ -99176,6 +99178,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||analytics.rambla.be^
 ||bol.com/tracking/
 ||businessinsider.nl^*/tr.php
+||coolblue.nl/monitoring/
 ||ds2.independer.nl^
 ||expert.nl/daix.js
 ||folderz.nl/clickstream/
