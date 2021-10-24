@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Eyx7mU1BtXeQrZ7Rtuy6pA
+! Checksum: gJCZa4VRNvdAmh6euzHnsA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110241937
-! Last Modified: 2021年10月24日 19:37
+! Version: 202110242057
+! Last Modified: 2021年10月24日 20:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1597,7 +1597,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_bsb.
 /ad_button.
 /ad_cache/*
-/ad_campaign/*
 /ad_campaign?
 /ad_campaigns/*
 /ad_caption.
@@ -1920,7 +1919,6 @@ tieba.baidu.com##.tuijian-wrap
 /adcall.$domain=~adcall.cz
 /adcall?
 /adcalloverride.
-/adcampaigns/*
 /adcase.$domain=~adcase.ru
 /adcash-
 /adcash.$domain=~adcash.com
@@ -3410,7 +3408,6 @@ tieba.baidu.com##.tuijian-wrap
 /adv.png
 /adv/?rad_$domain=~rakuten.co.jp
 /adv/adriver
-/adv/adv_
 /adv/background/*
 /adv/banner/*
 /adv/banner1/*
@@ -3545,7 +3542,6 @@ tieba.baidu.com##.tuijian-wrap
 /advertisement?zoneid=
 /advertisement_$~script
 /advertisements-
-/advertisements/*$domain=~ellefanningfan.net
 /advertisements?
 /advertisements_
 /advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.pinterest.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
@@ -5063,7 +5059,6 @@ tieba.baidu.com##.tuijian-wrap
 /images.ads.
 /images.adv/*
 /images/ad-$domain=~slimjet.com
-/images/ad.$domain=~ngohq.com
 /images/ad/*
 /images/ad2/*
 /images/adds/*
@@ -5946,7 +5941,6 @@ tieba.baidu.com##.tuijian-wrap
 /previews/ad/*
 /printad.
 /printad/*
-/printads/*
 /prism_ad/*
 /private-ads-
 /PRNAd300x150.
@@ -72037,6 +72031,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||n258.cc^
 ||tszhongtianshiji.com^
 ||guangzhengtwo.top^
+||z-xiao.xyz^
+||hxf1688.xyz^
+||huaxiaozhang.club^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
