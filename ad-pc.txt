@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8ZRhVk5jTgVpqca1g6JxtA
+! Checksum: lQ8THOawpIqQlHgpfpT/3w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110260937
-! Last Modified: 2021年10月26日 09:37
+! Version: 202110261250
+! Last Modified: 2021年10月26日 12:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8259,7 +8259,6 @@ _800x80_
 /adx.php?source=$popup
 /aff_ad?$popup
 /afu.php?$popup
-/click.track?$popup
 /click?adv=$popup
 /links/popad$popup
 /open?shu=$popup
@@ -54606,6 +54605,8 @@ rpclip.com##.widget-item-wrap
 gifsauce.com##.widget_live
 totsantcugat.info##.widget_meta.widget.col-sm-3
 xhamster.com##.wio-cbanner
+xhamster2.com##.wio-xbanner
+xhamster2.com##.wio-xspa
 pornrabbit.com##.wrap-spots
 pussy.org##.zone
 momxxxfun.com##.zone-2
@@ -72056,6 +72057,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||powerchase.online^
 ||ke94.com^
 ||sgaga.xyz^
+||jdiaveu.cn^
+||jyigozm.cn^
+||dfggb.cc^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -86933,6 +86937,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||publicbroadcasting.net/analytics/
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
+||pushpro.io/api/logging/
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
 ||pv.pjtsu.com^
@@ -87007,6 +87012,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.perfops.net^
 ||rum.uptime.com^
 ||run.app/data.log?
+||run.app/metrics/
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.beop.io^
 ||s.clickability.com^
@@ -99155,6 +99161,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||eastmoney.com/web/prd/jump_tracker.js
 ||eclick.baidu.com^
 ||event.csdn.net^
+||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
@@ -99224,6 +99231,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pinkoi.com/_log/
 ||pptv.com/stg/add?
 ||pptv.com/webdelivery/
+||pressplay.cc/marketing/event
 ||pv.ltn.com.tw^
 ||pv.udn.com^
 ||pv.xcar.com.cn^
@@ -100679,6 +100687,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
+@@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||segundamano.mx^*/tealium.js
