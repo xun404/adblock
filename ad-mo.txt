@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JWt5iMJMZcWCGUVx8ZHoHg
+! Checksum: Fz8a9WyswWW277gtIQndhA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110290539
-! Last Modified: 2021年10月29日 05:39
+! Version: 202110290640
+! Last Modified: 2021年10月29日 06:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -9153,6 +9153,7 @@ _800x80_
 ###ad-header-right
 ###ad-holder
 ###ad-home-cookie-popup-holder
+###ad-homepage-bottom-adhesion
 ###ad-homepage-content-well
 ###ad-homepage-top-wrapper
 ###ad-horizontal
@@ -19584,6 +19585,7 @@ _800x80_
 ##.ad__label
 ##.ad__leaderboard
 ##.ad__mobi
+##.ad__mobile-footer
 ##.ad__mpu
 ##.ad__placeholder
 ##.ad__rectangle
@@ -31093,10 +31095,13 @@ _800x80_
 ##.gnt_tbr.gnt_tb
 ###mplayer-embed
 ##.js-widget-send-to-news
+##.legion_primiswrapper
 ##.pbs__player
+##.primis-player
 ##.send-to-news
 ##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
+##.BeOpWidget
 ##a[href*="get-express-vpn.xyz"]
 ##a[href^="http://get.slickvpn.com/"]
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
@@ -54128,6 +54133,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 testpages.adblockplus.org###abptest
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
+nytimes.com#?##app > div > div:-abp-has(div[data-testid="StandardAd"])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
 ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
@@ -72080,6 +72086,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jnxiacha.cn^
 ||zhongte62802.cn^
 ||jun01.oss-cn-beijing.aliyuncs.com^
+||flyly.cc^
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
