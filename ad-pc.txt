@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: njBRkmXvTkjqPnvvEERQHg
+! Checksum: tj2Q4LCDc4eSDGoQ1FCKVQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110290337
-! Last Modified: 2021年10月29日 03:37
+! Version: 202110290539
+! Last Modified: 2021年10月29日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27173,6 +27173,7 @@ _800x80_
 ##.online-ad
 ##.onsite-ads-728w
 ##.opaAd
+##.opd_adsticky
 ##.open-ad-container-mobile
 ##.openads
 ##.openadstext_after
@@ -52058,6 +52059,7 @@ thestreamable.com###promo-signup-bottom-sheet
 bnnbloomberg.ca###promotions
 frequence-radio.com###pub_listing_top
 skyrock.com###pub_up
+unogs.com###purevpninfo
 howtogermany.com###quaranvino
 unfair.co###r_sidebarwidgeted
 comicbookrealm.com###rad
@@ -53782,6 +53784,7 @@ jagoroniya.com##[href="https://www.virtuanic.com/"]
 himovies.to,musichq.net##[href="https://zoro.to"]
 bittools.net##[href^="//www.bittools.net/binance"]
 shroomery.org##[href^="//www.shroomery.org/ads/"]
+unogs.com##[href^="/ad/"]
 discord.me##[href^="/cr/"]
 audiobookbay.nl##[href^="/down-"]
 steroid.com##[href^="/out.php"]
@@ -54480,6 +54483,7 @@ peekvids.com##.card-deck-promotion
 sxyprn.com##.cbd
 thefappeningblog.com##.cl-exl
 bigtitsgallery.net##.classifiedAd
+sunporno.com##.close-invid
 fyptt.to,japaneseasmr.com##.code-block
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
 playvids.com##.col-lg-6.col-xl-4
@@ -76091,7 +76095,7 @@ fqsousou.com,kengso.com#@#.user-share
 /amp/log.json
 /amp/pingback?
 /amp_ping/*
-/amplitude-*.js$script
+/amplitude-*.js$script,domain=~amplitude.com
 /ampmetrics.
 /amptrack.
 /amunglite.
@@ -100136,6 +100140,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
+@@||tennispro.eu/min/?$script,~third-party
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party

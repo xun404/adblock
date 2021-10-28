@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mxutXfozxKPKkHa7sXAI3Q
+! Checksum: G5T/nrMfmi66DzLbZUYdIQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110282145
-! Last Modified: 2021年10月28日 21:45
+! Version: 202110290539
+! Last Modified: 2021年10月29日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23044,7 +23044,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /amp/log.json
 /amp/pingback?
 /amp_ping/*
-/amplitude-*.js$script
+/amplitude-*.js$script,domain=~amplitude.com
 /ampmetrics.
 /amptrack.
 /amunglite.
@@ -47089,6 +47089,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
+@@||tennispro.eu/min/?$script,~third-party
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party
