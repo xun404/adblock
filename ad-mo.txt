@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ON77t60Z//MNdXPeb1g7Fw
+! Checksum: w5iv2N4X+oYTQgAvZgy5Tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110301250
-! Last Modified: 2021年10月30日 12:50
+! Version: 202110301337
+! Last Modified: 2021年10月30日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31095,6 +31095,7 @@ _800x80_
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
 ###mplayer-embed
+##.inline-iframe.article--content-embed
 ##.js-widget-send-to-news
 ##.legion_primiswrapper
 ##.pbs__player
@@ -51211,6 +51212,7 @@ tf2r.com#@#.adverts
 ||playbuzz.com/player/$script,third-party
 ||player.anyclip.com/anyclip-widget/$script,third-party
 ||player.avplayer.com^$third-party
+||player.ex.co^$script,third-party
 ||playwire.com/bolt/js/$script,third-party
 ||rumble.com^$domain=tiphero.com
 ||ultimedia.com/js/common/smart.js$script,third-party
@@ -54137,7 +54139,6 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 realclearpolitics.com###realclear_jwplayer_container
 newseveryday.com###vplayer_large
 digitaltrends.com##.dtvideos-container
-sfgate.com##.inline-iframe
 dexerto.com##.jwplayer
 ##.section-subheader > .section-hotel-prices-header
 mail.yahoo.com###slot_LREC
