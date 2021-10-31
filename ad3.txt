@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: upzemvn6NXs/dWDdcFq+VA
+! Checksum: 6FAcrGqf8RTWb08A9jjYBw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110311937
-! Last Modified: 2021年10月31日 19:37
+! Version: 202110312238
+! Last Modified: 2021年10月31日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9215,6 +9215,9 @@ _yad_jsonp_
 ||dinggling.com/gmifr_lei.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jpsub.com##.floatbar_div
+lenovo.com.cn##.adver-bg
+lenovo.com.cn#?#.imgText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 smallpopo.com##.fabox
@@ -14849,6 +14852,7 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+ilive.lenovo.com.cn#@#.adTop
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com

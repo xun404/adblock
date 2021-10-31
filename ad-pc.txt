@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xkwcailPYCZEAox1soaCjQ
+! Checksum: IjK+QeV8tj5uBeIWV9Y0Mw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110311937
-! Last Modified: 2021年10月31日 19:37
+! Version: 202110312238
+! Last Modified: 2021年10月31日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30970,6 +30970,7 @@ _800x80_
 ##a[href^="https://syndication.dynsrvtbg.com/splash.php?"]
 ##a[href^="https://syndication.exoclick.com/splash.php?"]
 ##a[href^="https://syndication.optimizesrv.com/splash.php?"]
+##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.grtyi.com/"]
 ##a[href^="https://t.hrtye.com/"]
 ##a[href^="https://t.hrtyj.com/"]
@@ -31009,6 +31010,7 @@ _800x80_
 ##a[href^="https://uncensored3d.com/"]
 ##a[href^="https://unreshiramor.com/"]
 ##a[href^="https://usenetxs.website/"]
+##a[href^="https://vlnk.me/"]
 ##a[href^="https://vo2.qrlsx.com/"]
 ##a[href^="https://vod09197d7.club/"]
 ##a[href^="https://wantopticalfreelance.com/"]
@@ -45124,6 +45126,7 @@ tf2r.com#@#.adverts
 ||vkjmljhcdn.com^
 ||vknrfwwxhxaxupqp.pro^
 ||vlitag.com^
+||vlnk.me^
 ||vloudsze.com^
 ||vlrzhoueyoxw.com^
 ||vltwox7zl7h1wv.com^
@@ -64735,6 +64738,9 @@ _yad_jsonp_
 ||dinggling.com/gmifr_lei.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jpsub.com##.floatbar_div
+lenovo.com.cn##.adver-bg
+lenovo.com.cn#?#.imgText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 smallpopo.com##.fabox
@@ -70369,6 +70375,7 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+ilive.lenovo.com.cn#@#.adTop
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
