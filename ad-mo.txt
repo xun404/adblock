@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nMbL+fQ4rK4njTvim5f7Bg
+! Checksum: Gbl3qQZW1yU2LES/1IXR5w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110311841
-! Last Modified: 2021年10月31日 18:41
+! Version: 202110311937
+! Last Modified: 2021年10月31日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -19368,6 +19368,7 @@ _800x80_
 ##.adSlice
 ##.adSlide
 ##.adSlot
+##.adSlot-container
 ##.adSlotAdition
 ##.adSlotCnt
 ##.adSlotContainer
@@ -25396,6 +25397,7 @@ _800x80_
 ##.headline_advert
 ##.heatmapthemead_ad_widget
 ##.heavy_ad
+##.hederAd
 ##.herald-ad
 ##.hero-ad
 ##.hero-ad-special
@@ -52241,8 +52243,9 @@ ssbcrack.com###text-11
 cathnews.co.nz,cryptoreporter.info,net-load.com###text-12
 radiosurvivor.com###text-13
 planetinsane.com###text-14
-electronicshub.org,thesurvivalistblog.net###text-16
-weekender.com.sg###text-17
+geeksforgeeks.org###text-15
+electronicshub.org,geeksforgeeks.org,thesurvivalistblog.net###text-16
+geeksforgeeks.org,weekender.com.sg###text-17
 ganzworld.com###text-18
 ganzworld.com###text-19
 electronicshub.org,net-load.com###text-25
@@ -52251,7 +52254,7 @@ electronicshub.org,net-load.com###text-25
 2smsupernetwork.com,zambiareports.com###text-3
 electronicshub.org###text-34
 ssbcrack.com###text-37
-theairportnews.com,vgleaks.com###text-4
+learntodance.com,theairportnews.com,vgleaks.com###text-4
 bigblueball.com###text-416290631
 electronicshub.org,technipages.com###text-5
 2smsupernetwork.com,khaama.com###text-50
@@ -53758,7 +53761,7 @@ fijisun.com.fj##.widget-1
 fijisun.com.fj##.widget-3
 miniclip.com##.widget-mpu
 wplift.com##.widget_bsa
-cnx-software.com,metalsucks.net,robloxhackscripts.com,techdows.com##.widget_custom_html
+cnx-software.com,metalsucks.net,mmoculture.com,robloxhackscripts.com,techdows.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
 bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
@@ -53810,6 +53813,7 @@ medicalnewstoday.com##[data-ad]
 jobstreet.com.sg##[data-automation="homepage-banner-ads"]
 jobstreet.com.sg##[data-automation="homepage-marketing-banner-ads"]
 medicalnewstoday.com##[data-empty="true"]
+greatist.com##[data-empty]
 phoneia.com##[data-index]
 namepros.com##[data-np-ga-event="ad"]
 washingtonpost.com##[data-qa="article-body-ad"]
@@ -53968,6 +53972,7 @@ himovies.to,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
 earlygame.com##a[rel*="sponsored"]
 themoviesflix.io##a[rel="noopener"]
 facebook.com,facebookcorewwwi.onion##article[data-ft*="\"ei\":\""]
+greatist.com##aside
 goal.com##aside[class^="layouts_asideContentCommercial_"]
 dictionary.com,thesaurus.com##aside[id$="728x90"]
 psycom.net##center > .vh-quiz-qborder
@@ -54107,6 +54112,7 @@ adblock-tester.com##embed[width="240"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
 law.com,topcultured.com##h3
+greatist.com##hl-adsense
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
@@ -83429,6 +83435,7 @@ _mongo_stats/
 ||shinystat.com^$third-party
 ||shippinginsights.com^$third-party
 ||shoelace.com^$third-party
+||shoplytics.com^$third-party
 ||shoptimally.com^$third-party
 ||showheroes.com^$third-party
 ||showroomlogic.com^$third-party
@@ -89976,7 +89983,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||primate.dmarcdigests.com^
 ||042qge73l5aw.app.polymersearch.com^
 ||161.35.245.96^
-||164fi5kesvt.www.usa-corporate.com^
 ||1796kpkzuwj.www.hawpar.com^
 ||1kpv4njzilv.community.intersystems.com^
 ||1q6ck0lrhrr.www.newsinside.org^
@@ -89987,23 +89993,28 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||3wn3w3skxpym.round.t3.gg^
 ||4ntug5jhu0t8.furucombo.app^
 ||64.225.81.20^
+||8n8rarw7yjvy.www.cybernetman.com^
 ||8p0kiyq5mq1d.flex.team^
 ||9kkjfywjz50v.www.eventus.io^
 ||b5j6itccyluq.nofluffjobs.com^
+||bj5gprgxq6y7.franchiseplus.nl^
 ||c5ai4b502b.www.chandlerorchards.com^
 ||creative-banana.tk^
 ||crystal-toxic.cf^
 ||ddns.dataunlocker.com^
 ||dz0969r6p006.www.botcomics.com^
 ||fp84rw0jinz7.blanc.ru^
+||friendly-community.tk^
 ||funny-morning.tk^
+||gbg22hfdkdip.www.logology.co^
 ||gl5g98t0vfjb.panprices.com^
-||i0gx8avj0e5r.www.cybernetman.com^
+||grxkwphx0yk5.stoic.ai^
+||h5nmx7qrncrp.mailfloss.com^
 ||kick-lake.ga^
 ||lh3pvljbkong.www.nookgaming.com^
 ||ok2691lw4w3g.www.word.com.au^
+||ooyk93cxdqv8.www.usa-corporate.com^
 ||ouc82i67pytg.www.emanualonline.com^
-||p7qebe2odmlm.franchiseplus.nl^
 ||p9jhxqlkmn.miniso.com.gr^
 ||qt5jl7r111h7.allesvoormijnvakantie.nl^
 ||qwcp5tza48tt.xpollinate.io^
@@ -90013,7 +90024,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||smartproxy.dataunlocker.com^
 ||u7eij7sroji7.fjlaboratories.com^
 ||umhadn49kldc.www.jeddd.com^
-||vzpe9y8ru2e0.www.logology.co^
 ||welcoming-carpets.tk^
 ||x2l5lsn8rvsq.li.finance^
 ||xlvvy4msxr.coolinastore.com^
