@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cgq/mN0DgehxPOYly9e9Dw
+! Checksum: l8CzC3tOHRzN5jD6QyS+0A
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202111010940
-! Last Modified: 2021年11月01日 09:40
+! Version: 202111011050
+! Last Modified: 2021年11月01日 10:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -9216,8 +9216,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ilxdh.com##.show-container
+ilxdh.com##.v-modal
+ilxdh.com##.double-eleven-container
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14861,6 +14865,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||feilusw.com/search.html$generichide,genericblock
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
