@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P7Dy28EL4hnSHjoc8vQ2Jw
+! Checksum: tLg8M3NEGyX/27RROvj3Kg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111020538
-! Last Modified: 2021年11月02日 05:38
+! Version: 202111020639
+! Last Modified: 2021年11月02日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -76471,6 +76471,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics?http_referer
 /analytics?token=
 /analytics?url=
+/analytics?vv_events=
 /analytics_embed.
 /analytics_frame.
 /analytics_functions.
@@ -100324,6 +100325,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.cxense.com^$script,domain=bizjournals.com|marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
+@@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
