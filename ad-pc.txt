@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qAaO3iHAM4Y65xxBRpJF+w
+! Checksum: 7N3K4/FPec1EzcGHFjZNbw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111020941
-! Last Modified: 2021年11月02日 09:41
+! Version: 202111021050
+! Last Modified: 2021年11月02日 10:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3504,7 +3504,6 @@ tieba.baidu.com##.tuijian-wrap
 /adversting?
 /advert-$domain=~advert-solutions.com|~advert-technology.com|~advert-technology.ru
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.ee|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
-/advert/*$domain=~skymedia.de
 /advert01.
 /advert1-
 /advert1.
@@ -3587,7 +3586,7 @@ tieba.baidu.com##.tuijian-wrap
 /advertrail.
 /advertright.
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
-/adverts/*
+/adverts/*$~xmlhttprequest
 /adverts_
 /advertserve.
 /advertsky.
@@ -21632,6 +21631,7 @@ _800x80_
 ##.adspost
 ##.adspot
 ##.adspot-300x250-pos1-container
+##.adspot-desk
 ##.adspot-title
 ##.adspot1
 ##.adspot200x90
@@ -21804,6 +21804,7 @@ _800x80_
 ##.adv-gpt-wrapper-desktop
 ##.adv-halfpage
 ##.adv-header
+##.adv-holder
 ##.adv-home-300x600
 ##.adv-in-body
 ##.adv-inset
@@ -51568,6 +51569,8 @@ $webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepir
 /^https?:\/\/(.+?\.)?menrec\.com\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/
 /^https?:\/\/(.+?\.)?naturalblaze\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{14,}\.*/
 /^https?:\/\/(.+?\.)?patriotnationpress\.com[\/][\/a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{4,}\/.*/
+/^https?:\/\/(.+?\.)?populist\.press[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/$image
+/^https?:\/\/(.+?\.)?populist\.press\/[a-zA-Z0-9]{1,3}\/.*/$image
 /^https?:\/\/(.+?\.)?reviveusa\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
 /^https?:\/\/(.+?\.)?rightwingnews\.com[\/]{1,9}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/$image
 /^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z0-9]{6,}\/[a-zA-Z0-9]{3,}\/.*/
@@ -52456,6 +52459,7 @@ geeksforgeeks.org,weekender.com.sg###text-17
 ganzworld.com###text-18
 ganzworld.com###text-19
 populist.press###text-2
+freecourseweb.com###text-20
 electronicshub.org,net-load.com###text-25
 2smsupernetwork.com,cryptoreporter.info,net-load.com###text-26
 2smsupernetwork.com###text-28
@@ -54820,7 +54824,7 @@ sexseeimage.com,yporn.tv##.happy-inside-player
 sexseeimage.com##.happy-player-beside
 sexseeimage.com##.happy-player-under
 sexseeimage.com##.happy-section
-gigapornmovies.com##.happy-under-player
+camgirl-video.com,gigapornmovies.com##.happy-under-player
 redtube.com##.hd
 mansurfer.com##.headerbanner
 txxx.com##.hgggchjcxja
@@ -54945,7 +54949,7 @@ lewdninja.com##.stargate
 definebabe.com##.subheader
 pornmd.com##.suggestions-box
 simply-hentai.com##.superbanner
-18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xxxshake.com##.table
+18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xxxshake.com##.table
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 pronpic.org##.teaser
@@ -84979,6 +84983,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squeakzinc.com^$third-party
 ||squealingturn.com^$third-party
 ||squirrelhands.com^$third-party
+||stakingsmile.com^
 ||staleshow.com^$third-party
 ||stalesummer.com^$third-party
 ||steadfastsound.com^$third-party
