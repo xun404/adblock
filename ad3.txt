@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yO9GXeM22YEunt3e35X7Zw
+! Checksum: RPHy8U0bOnrvr88Gz8UGDQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111031337
-! Last Modified: 2021年11月03日 13:37
+! Version: 202111031643
+! Last Modified: 2021年11月03日 16:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9210,6 +9210,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||hexun.com/hxpage_jrtj2020/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com#?#span[class]:-abp-has(> div[class]:-abp-contains(高速下载))
+423down.com###text-2
+423down.com###text-3
+423down.com##.content > a
 hexun.com###bottom_extension
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -11580,7 +11584,6 @@ rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
 91porny.com##.container-fluid.p-0[class*="mb-"]
-423down.com##.content > .entry + font[size]
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
 cnbeta.com##.content > p:last-child > a[href]
@@ -14866,7 +14869,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/ad-close.png$domain=ch.com
-@@/ad/images/*$domain=37-express.com
+@@/ad/images/*$domain=37-express.com|vnnox.com
 @@/ad_banner/*$domain=donnaart.com.tw
 @@/ad_file/*$domain=7-11.com.tw|pxmart.com.tw
 @@/adaffiliate_$image,domain=ipfs-lab.com
