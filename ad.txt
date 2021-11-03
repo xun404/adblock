@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YSyUNJKgHy3it/fMYCqHjw
+! Checksum: 65W8Od8Go5jh104PEQJfWQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111032103
-! Last Modified: 2021年11月03日 21:03
+! Version: 202111032238
+! Last Modified: 2021年11月03日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1951,10 +1951,14 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*="/7267224.com/"]
+##A[href*="/7763349.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 .8ox.cn
+||yitongfang.com^
+||hnyishidengbao.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -20449,9 +20453,9 @@ t66y.com##.tips
 ###toptb + div[align="center"]
 ##.it618_firstad_flex
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
-||360buyimg.com$domain=27th.cc
+||360buyimg.com$domain=28th.cc
 ||alicdn.com/kf/HTB1pS6Zel1D3KVjSZFy5jbuFpXaO.gif
-||alicdn.com^$domain=27th.cc
+||alicdn.com^$domain=28th.cc
 !#theporn.xyz
 ###ad-ft
 ###wp > div > #top_banner
