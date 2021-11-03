@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MdgDlIY3cvfqqd85ihTW/g
+! Checksum: YIU0ECRvoXfQf/ern0gu7g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111031744
-! Last Modified: 2021年11月03日 17:44
+! Version: 202111031847
+! Last Modified: 2021年11月03日 18:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18163,8 +18163,10 @@ _800x80_
 ##.ad-container-dk
 ##.ad-container-embedded
 ##.ad-container-header
+##.ad-container-inthread
 ##.ad-container-leaderboard
 ##.ad-container-left
+##.ad-container-m
 ##.ad-container-medium-rectangle
 ##.ad-container-multiple
 ##.ad-container-pave
@@ -47131,6 +47133,7 @@ tf2r.com#@#.adverts
 ||h12-media.com^$third-party
 ||havetohave.com^$third-party
 ||headbidder.net^$third-party
+||headerbiddr.net^$third-party
 ||headerlift.com^$third-party
 ||healthaffiliatesnetwork.com^$third-party
 ||healthcarestars.com^$third-party
@@ -52156,7 +52159,6 @@ designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
 energyforecastonline.co.za###endorsers
 geekwire.com###engineering-centers-sidebar
-gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,toptenreviews.com###expanding-articles
 jigzone.com###fH
 fxsforexsrbijaforum.com###fa_ticker_container
 thedrinknation.com###fcBanner
@@ -52270,7 +52272,6 @@ gpsreview.net###lead
 steroid.com###lead_area_opener
 iphonic.tv,kontraband.com,motherproof.com,nutritioncuisine.com,sansabanews.com,thestreet.com###leader
 thepostmillennial.com###leader-mot
-agriland.ie,ballitonews.co.za,blackburnnews.com,football-talk.co.uk,irishpost.co.uk,mobiletoday.co.uk,morningledger.com,pcgamerhub.com,soccersouls.com,thenextmiami.com,todaysgeneralcounsel.com,urbanmecca.net,youngzimbabwe.com###leader-wrapper
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
 bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 vocm.com###leaderboard-area
@@ -53672,7 +53673,6 @@ w3newspapers.com##.rads
 mydorpie.com##.rbancont
 forebet.com##.rbannerDiv
 reverso.net##.rcacontent
-gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,toptenreviews.com##.read-more-container
 just-dice.com##.realcontent
 bettycrocker.com##.recipeAd
 nypost.com,pagesix.com##.recirc
@@ -53692,7 +53692,6 @@ al-monitor.com##.region--header-banner
 eneuro.org,jneurosci.org#@#.region-ad-top
 middleeasteye.net##.region-before-navigation
 futbol24.com##.rek
-gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,toptenreviews.com##.related-articles-wrap
 4shared.com##.remove-rekl
 keengamer.com##.reserved-970
 guru99.com##.responsive-guru99-mobile-devices
@@ -71578,6 +71577,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||80juqing.com^
 ||8131.qizhihaotian.cn^
 ||8961.jianbihua.com^
+||olive.ergeapp.com^
 ||91friend.com^$third-party
 ||94ab.com^$third-party
 ||999d.com^$third-party
@@ -72547,6 +72547,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xiaoxiaoyd.cn^
 ||hnpxsm.com.cn^
 ||woniu1314520.vip^
+||weixisiwang.com^
+||yjwl.ltd^
+||076lvz.xyz^
+||jiujiinc.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
