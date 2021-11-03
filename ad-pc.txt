@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YIU0ECRvoXfQf/ern0gu7g
+! Checksum: ZL4Qgulg2NGchGrI1EpNmQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111031847
-! Last Modified: 2021年11月03日 18:47
+! Version: 202111032103
+! Last Modified: 2021年11月03日 21:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49539,7 +49539,7 @@ tf2r.com#@#.adverts
 ||imglnka.com^$third-party
 ||imglnkb.com^$third-party
 ||imglnkc.com^$third-party
-||imlive.com^$third-party
+||imlive.com^$script,third-party,domain=~imnude.com
 ||impactslam.com^$third-party
 ||impressionmonster.com^$third-party
 ||incrediblevideosvst.com^$third-party
@@ -53324,6 +53324,7 @@ inews.co.uk##.inews__advert
 inews.co.uk##.inews__mpu
 bab.la##.info-panel
 bestlifeonline.com,eatthis.com##.inline
+engadget.com##.inline-emphasis
 pcgamesn.com,theloadout.com##.inlinerail
 nintendolife.com##.insert
 flixboss.com##.instream-dynamic
@@ -72551,6 +72552,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yjwl.ltd^
 ||076lvz.xyz^
 ||jiujiinc.top^
+||g1kb9u.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
