@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MxY2yUfDO0fMKsEpjVKEUw
+! Checksum: tQtIYJQv8FE9+f0OVZ6kfQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202111042238
-! Last Modified: 2021年11月04日 22:38
+! Version: 202111042344
+! Last Modified: 2021年11月04日 23:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -16889,6 +16889,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tg745.cn^
 ||2kjg.xyz^
 ||beautylamp.cn^
+||f4082.cn^
+||lzjc.shop^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -16928,6 +16930,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href="/ad2.html"]
+##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
+||36yoo.net^
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
