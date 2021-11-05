@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p5qLpxaLhhEKi7gVgX2iXQ
+! Checksum: nuHbB1q1wJ1ejWBwSkuaGw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202111051337
-! Last Modified: 2021年11月05日 13:37
+! Version: 202111051643
+! Last Modified: 2021年11月05日 16:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -7582,7 +7582,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||myqcloud.com/ad/
 ||myqqjd.com/wp-content/plugins/*.js
 ||myqqjd.com^$csp=script-src 'self' * 'unsafe-inline'
-||mysteelcdn.com/gg/
+||mysteelcdn.com/advert/
 ||myweb.hinet.net/menu.htm
 ||myyan.cc/js/qz.js
 ||myyan.cc/js/sj
@@ -16883,6 +16883,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||go07.cc^
 ||aifishing.cn^
 ||u5274.cn^
+||poedlov.cn^
+||hnfxhx.xyz^
+||whwfcm.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
