@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XCuM+7J5MBmfKUzUf3lG0g
+! Checksum: S44AGOc705rNRvcA3vpCfg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111080439
-! Last Modified: 2021年11月08日 04:39
+! Version: 202111080539
+! Last Modified: 2021年11月08日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -29082,6 +29082,7 @@ _800x80_
 ##.sticky-ad
 ##.sticky-ad-bottom
 ##.sticky-ad-container
+##.sticky-ad-footer
 ##.sticky-ad-header
 ##.sticky-ad-slot--homepage--wrapper
 ##.sticky-ad-unit-default
@@ -47283,6 +47284,7 @@ tf2r.com#@#.adverts
 ||mdialog.com^$third-party
 ||meadigital.com^$third-party
 ||media.net^$third-party
+||mediaad.org^$third-party
 ||mediaffiliation.com^$third-party
 ||mediaforce.com^$third-party
 ||mediafuse.com^$third-party
@@ -51350,6 +51352,7 @@ tf2r.com#@#.adverts
 ||optics.org/banners/
 ||ownedcore.com/forums/ocpbanners/
 ||pengenanu.files.im^
+||persianleague.com/images/banners/
 ||phuketwan.com/img/b/
 ||pimpandhost.com/static/html/
 ||planetlotus.org/images/partners/
@@ -55242,7 +55245,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|history.com|keloland.com|radio.com|rd.com|thehealthy.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||aone-soft.com/style/images/ad2.jpg
-@@||api.adinplay.com^*/tag.min.js$script,domain=bigescapegames.com|findcat.io|squadd.io
+@@||api.adinplay.com/libs/aiptag/$script,domain=bigescapegames.com|brofist.io|findcat.io|squadd.io
 @@||api.adnetmedia.lt/api/$~third-party
 @@||api.paymentwall.com^$domain=adguard.com
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
@@ -89189,7 +89192,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rambler.ru/counter.js
 ||rbc.magna.ru^
 ||redtram.com/px/
-||retailrocket.ru/content/javascript/tracking.js
 ||s.agava.ru^
 ||s.holm.ru/stat/
 ||scnt.rambler.ru^
