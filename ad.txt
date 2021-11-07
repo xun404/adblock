@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0l8UY21iSxj3JFQqI5SwdA
+! Checksum: vrHOYoS8mtnUMpJUgp5fww
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111070740
-! Last Modified: 2021年11月07日 07:40
+! Version: 202111071642
+! Last Modified: 2021年11月07日 16:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -15016,7 +15016,7 @@ ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
-lenovo.com.cn#?#.imgText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
+lenovo.com.cn#?#.imgNewText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 lenovo.com.cn#?#a:-abp-has(>div>p:-abp-contains(广告))
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
 yahoo.com##li[class^="gemini-ad-"]
@@ -17317,6 +17317,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jmdardu.cn^
 ||kjhzwvq.cn^
 ||sxgbwlkjkj.xyz^
+||b00.xyz^
+||yuanwei.ltd^
+||2312s.cn^
+||hbscjh.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
