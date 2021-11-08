@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZuzpdzqwUoWGTSCwEbEbxQ
+! Checksum: BMCH9YzC5ng4plnwkS83JA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111081648
-! Last Modified: 2021年11月08日 16:48
+! Version: 202111081746
+! Last Modified: 2021年11月08日 17:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21587,6 +21587,7 @@ _800x80_
 ##.adslot__ad-wrapper
 ##.adslot_blurred
 ##.adslot_bot_300x250
+##.adslot_collapse
 ##.adslot_popup
 ##.adslot_side1
 ##.adslothead
@@ -24076,6 +24077,7 @@ _800x80_
 ##.container-rectangle-ad
 ##.container-top-adv
 ##.container-type-banner-advert
+##.container-with-ad
 ##.containerAdsense
 ##.containerSqAd
 ##.container__box--ads
@@ -72589,6 +72591,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||benwfw.cn^
 ||bjymall.cn^
 ||idmee.cn^
+||ki47.com^
+##a[href*=".vldbd.com/"]
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
