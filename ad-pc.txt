@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xmkHTr70p3pajG/XvJeFnQ
+! Checksum: Lh+3ZX/RpenFUlgF8Wj5BA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111081142
-! Last Modified: 2021年11月08日 11:42
+! Version: 202111081251
+! Last Modified: 2021年11月08日 12:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31122,7 +31122,6 @@ _800x80_
 ##div[class*="-storyBodyAd-"]
 ##div[class*="_AdInArticle_"]
 ##div[class*="_browserAdOuterContainer_"]
-##div[class*="margin-Advert"]
 ##div[class^="AdBannerWrapper-"]
 ##div[class^="AdCard_"]
 ##div[class^="AdEmbeded__AddWrapper"]
@@ -53053,6 +53052,7 @@ irishtimes.com##.cs-teaser
 c-span.org##.cspan-ad-still-wrapper
 healthline.com##.css-0 + div:not([class]):last-of-type
 healthline.com##.css-12efcmn
+ladbible.com##.css-1dgm0zi-Advert
 stylist.co.uk##.css-1fz837r
 infowars.com##.css-1upmbem
 healthline.com##.css-1vcjrad
@@ -53062,6 +53062,7 @@ healthline.com##.css-1y1s420
 businessnewsdaily.com##.css-5d7ylg-AdContainer
 stylist.co.uk##.css-8me5ln
 healthline.com##.css-rjh5b
+ladbible.com##.css-salf17-margin-Advert
 izismile.com##.css-widget-item-wrap
 comparitech.com##.ct_popup_modal
 androidcentral.com,techspot.com##.cta
@@ -54248,7 +54249,6 @@ osbot.org##custom > a[href]
 healthline.com##div.css-0 > div[class]:not([id])
 guru99.com##div.custom > .hidden-phone
 nexusradio.com##div[align=center]
-ladbible.com##div[class$="-Advert"]
 pcgamer.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
 issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
@@ -72581,6 +72581,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tzjovzs.cn^
 ||awleo.cn^
 ||sunmartkj.cn^
+||quqianlai.cn^
+||tccb71h.cn^
+||benwfw.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
