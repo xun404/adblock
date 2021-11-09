@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F/bY8OyCVQnctTM6Pd5PGg
+! Checksum: MZZ65JBF/gpU+zjb9zVxjw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111091250
-! Last Modified: 2021年11月09日 12:50
+! Version: 202111091337
+! Last Modified: 2021年11月09日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22809,6 +22809,7 @@ _800x80_
 ##.article-header-ad
 ##.article-header__railAd
 ##.article-inline-ad
+##.article-list__list-item--ad
 ##.article-mid-ad
 ##.article-news-videoad
 ##.article-sidebar__advert
@@ -55358,8 +55359,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=api.screen9.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|distro.tv|einthusan.tv|embed.comicbook.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|truvid.com|zeebiz.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|distro.tv|einthusan.tv|embed.comicbook.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|truvid.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
 @@||infotel.ca/images/ads/$image,~third-party
@@ -72605,7 +72606,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xiaofashi.top^
 ||baowf.com^
 ||lingquan.vip^
-$domain=119.23.145.154
+$domain=119.23.145.154|120.25.149.196
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -84969,6 +84970,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazingairplane.com^$third-party
 ||ancientact.com^$third-party
 ||annoyedairport.com^$third-party
+||annoyingacoustics.com^
 ||anxiousapples.com^$third-party
 ||attractivecap.com^$third-party
 ||audioarctic.com^$third-party
@@ -100723,7 +100725,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=right-on.co.jp
-@@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au|speedcheck.ky
+@@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|speedcheck.ky
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
