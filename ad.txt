@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SON+PUO5ESQMEGFnTgUn8A
+! Checksum: LwLRLaLahCh3HFqUMwMeaA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111101250
-! Last Modified: 2021年11月10日 12:50
+! Version: 202111101337
+! Last Modified: 2021年11月10日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1956,6 +1956,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##a[href*=".ex068.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
@@ -9668,6 +9669,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tgys.tv###bottommob
 1kkk.com###lb-win
 lenovo.com.cn##.ad-calender
 coderutil.com##.head-recommend-adv
@@ -17334,6 +17336,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yaznkj.cn^
 ||baowt.com^
 ||benfkw.cn^
+||3-2g38cfo0l.cn^
+||w25e.top^
+||ya1vg3w.cn^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
