@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +pHCeraLQu6z9bmRr0C/3Q
+! Checksum: B5IqzJU/gUI/CdiTS8xkxg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111100937
-! Last Modified: 2021年11月10日 09:37
+! Version: 202111101049
+! Last Modified: 2021年11月10日 10:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51541,7 +51541,7 @@ tf2r.com#@#.adverts
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||channelexco.com/player/$third-party
 ||connatix.com^$script,third-party
-||embed.sendtonews.com^$script,third-party
+||embed.sendtonews.com^$third-party
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
 ||fwcdn2.com^$third-party
@@ -53803,6 +53803,7 @@ newstrackindia.com##.rt-add336x280
 nextofwindows.com##.rtsidebar-cm
 itweb.co.za##.s-logos
 hope1032.com.au##.s-supported-by
+nydailynews.com##.s2nPlayer
 aniwatcher.com##.sa
 nodejs.libhunt.com##.saashub-ad
 9gag.com##.salt-container
@@ -65004,6 +65005,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+1kkk.com###lb-win
+lenovo.com.cn##.ad-calender
+coderutil.com##.head-recommend-adv
+coderutil.com##.search-module + a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -83484,7 +83489,6 @@ _mongo_stats/
 ||nakanohito.jp^$third-party
 ||nalook.com^$third-party
 ||nanovisor.io^$third-party
-||narrativ.com^$third-party
 ||natero.com^$third-party
 ||native.ai^$third-party
 ||natpal.com^$third-party
@@ -102066,6 +102070,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cnki.com.cn/cnki/js/adrightdetail.js
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
+||ydstatic.com/fanyi/fanyi-ad-place/
 !------------------------Specific element hiding rules------------------------!
 sina.com.cn##A[href="https://touzi.sina.com.cn/"]
 finance.sina.com.cn##DIV[class*="game"]
