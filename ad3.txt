@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vYBdNOAi8c9H5wBisGdEmA
+! Checksum: ZN3dqNKyF3nMixbdsoL/iw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111111937
-! Last Modified: 2021年11月11日 19:37
+! Version: 202111112139
+! Last Modified: 2021年11月11日 21:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1516,11 +1516,13 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.tab-content + .col-pd
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 ||fcheng.top^
 .8ox.cn
+||lm882.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9235,6 +9237,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yesky.com##.gsxz
+bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
+bt1207ma.xyz##a[href*="/uuribao.com/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13246,7 +13251,6 @@ suizhoushi.com##.sznew_ad_top
 suopao.org##.t5[style^="margin-top:8px;"]
 1024wc.com##.t[style="margin-top:8px"]
 bbs.fobshanghai.com##.t_infoline
-555dy.fun##.tab-content + .col-pd
 douyu.com##.tab-content.promote
 3dmgame.com##.tab.downsd
 3dmgame.com##.tab[style^="background"]
@@ -36122,6 +36126,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||colvk.viki.io^
 ||confiant.msn.com^
 ||consent.ghostery.com/v1.js
+||console-telemetry.oci.oraclecloud.com^
 ||contents2.00110.citi.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
@@ -46644,6 +46649,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||logx.mtime.cn^
 ||logx.mtime.com^
 ||luobo.tv/staticts.html
+||mail.qq.com/cgi-bin/getinvestigate?
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
 ||mar.vip.com^
 ||monitor.music.qq.com^
@@ -47843,6 +47849,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
 @@||centprod.com/nd/assets/js/analytics.js$script,domain=centprod.com
+@@||collectandgo.be^*/utag.sync.js
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
@@ -47853,7 +47860,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||assets.adobedtm.com^$script,domain=mtvuutiset.fi
 @@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||certona.net^*/resonance.js$domain=zooplus.fi
-@@||collectandgo.be^*/utag.sync.js
 @@||d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js$domain=lippu.fi
 @@||dynamicyield.com/api/$script,domain=gigantti.fi
 @@||frosmo.com/recoApi/$xmlhttprequest,domain=lily.fi|meillakotona.fi|terve.fi

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nAGhPDWZZr35ClkOkNFaJQ
+! Checksum: uIMA0QrFflJ6udXGlXOfmg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111111937
-! Last Modified: 2021年11月11日 19:37
+! Version: 202111112139
+! Last Modified: 2021年11月11日 21:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1962,11 +1962,13 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.tab-content + .col-pd
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 ||fcheng.top^
 .8ox.cn
+||lm882.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9681,6 +9683,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yesky.com##.gsxz
+bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
+bt1207ma.xyz##a[href*="/uuribao.com/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13692,7 +13697,6 @@ suizhoushi.com##.sznew_ad_top
 suopao.org##.t5[style^="margin-top:8px;"]
 1024wc.com##.t[style="margin-top:8px"]
 bbs.fobshanghai.com##.t_infoline
-555dy.fun##.tab-content + .col-pd
 douyu.com##.tab-content.promote
 3dmgame.com##.tab.downsd
 3dmgame.com##.tab[style^="background"]
