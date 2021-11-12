@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PV4p9gUZzHnayakKcMTEqA
+! Checksum: 5oDePBYyj5ODGcZx7/f8TA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111121741
-! Last Modified: 2021年11月12日 17:41
+! Version: 202111121842
+! Last Modified: 2021年11月12日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -80469,6 +80469,7 @@ fqsousou.com,kengso.com#@#.user-share
 /t/event?
 /t?referer=
 /t?tcid=
+/tab_impression_logging/*
 /tablytics.
 /tacoda.
 /tacoda_
@@ -86890,6 +86891,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contactatonce.com/VisitorContext.aspx?
 ||container.pepperjam.com^$third-party
 ||content.cpcache.com^*/js/ga.js
+||contentdriver.com/api/impression
 ||contentpass.net/stats?$third-party
 ||contents-tracking.beop.io^
 ||control.cityofcairns.com^$third-party
@@ -89826,6 +89828,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||harryrosen.com/analytics/
 ||healthline.com/api/metrics
+||heap.drop.com^
 ||hilton.com/zJbufaUX/
 ||hindustantimes.com/res/images/one-pixel.png
 ||hltv.org/scripts/hltv-tracking.js
