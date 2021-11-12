@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 79YXwbDJcYISmZ9XCtU9kA
+! Checksum: PV4p9gUZzHnayakKcMTEqA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111121644
-! Last Modified: 2021年11月12日 16:44
+! Version: 202111121741
+! Last Modified: 2021年11月12日 17:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51510,7 +51510,7 @@ tf2r.com#@#.adverts
 ||youtube.com/ad_companion
 ||youtube.com/pagead/
 ||zdnet.com/leadgen/
-/^https?:\/\/.*.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|fun|website|biz|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|downloadpirate.com|flashx.net|flashx.tv|powvideo.net|powvldeo.me|slreamplay.cc|steanplay.cc|streanplay.cc|videobin.co
+/^https?:\/\/.*.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|fun|website|biz|re|me|casa|top|one|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=123proxy.biz|9xupload.xyz|baomay01.com|bdupload.asia|desiupload.co|downloadpirate.com|filmesviatorrents.tv|flashx.net|flashx.tv|powvideo.net|powvldeo.me|slreamplay.cc|sportsbayk.xyz|steanplay.cc|streanplay.cc|videobin.co
 /^https?:\/\/[0-9a-z]{8,29}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|cloudvideo.tv|dood.watch|flashx.net|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strcloud.in|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
 /^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
 ||dotabuff.com/a.js
@@ -52113,6 +52113,7 @@ cryptofeeds.news###block-8
 wionews.com###block-adv
 webosnation.com###block-block-21
 slideme.org###block-block-31
+indiatoday.in###block-block-64
 infoplease.com###block-ipabovethefold
 infoplease.com###block-ipbtfad
 infoplease.com###block-ipleaderboardad
@@ -52153,6 +52154,8 @@ whocallsme.com###cnt_btm
 linuxinsider.com###colorbox
 smbc-comics.com###comicright > div[style]
 cpuid.com###console_log
+gearspace.com###container__DesktopFDAdBanner
+gearspace.com###container__DesktopForumdisplayHalfway
 modshost.com###content > .ast-container > .ast-row
 scanboat.com###content > .margin-tb-25
 allnewspipeline.com###content > [href]
@@ -52383,6 +52386,7 @@ myabandonware.com###myabandonware_medrec_left_atf
 myabandonware.com###myabandonware_medrec_right_atf
 myabandonware.com###myabandonware_medrec_right_btf
 mediaupdate.co.za###mycarousel
+gearspace.com###navbar_notice_617
 nbcsports.com###nbcsports-leaderboard
 my.juno.com###newsCarousel
 livelaw.in###news_on_exit
@@ -52938,6 +52942,7 @@ gametracker.com##.blocknewnopad
 simkl.com##.blockplacecente
 wowway.net##.blocks_container-size_containerSize
 weather-forecast.com##.bn-placeholder
+gearspace.com##.bnb--inline
 bnonews.com##.bnone-widget
 mediamanager.co.za##.bnr
 armenpress.am##.bnrcontainer
@@ -53969,6 +53974,7 @@ dailyherald.com##.stnContainer
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.story > .placeholderWrapper
 politico.com##.story-continued
 climbingbusinessjournal.com##.strack_bnr
+indiatoday.in##.stradds
 siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 siasat.com##.stream-item-inline-post
@@ -72704,6 +72710,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||baisb.com^
 ||leqfgnb.cn^
 ||ens-sh.cn^
+||baizb.com^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -78746,6 +78753,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ists.tag?
 /item/tracking/*
 /ItemStats.ajax?
+/itgdtracksdk.
 /itmdp_code.
 /itrack.php?
 /iva_analytics.
