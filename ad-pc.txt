@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +kRbS9nP75zfS57n5GQi6Q
+! Checksum: MGJdSH1d+oa/5mJZwD4Sgg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111140059
-! Last Modified: 2021年11月14日 00:59
+! Version: 202111140142
+! Last Modified: 2021年11月14日 01:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57374,6 +57374,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.stui-pannel > .recommend-two
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
@@ -65103,8 +65104,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||lovek01.com/gif/97-
 ||yinghuacd.com/bar/
+||wnacgs.com/data/game/
+||hentaicomic.org/data/game/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+10besty.com##.banner
+zhenbuka3.com###player_pause
 3dmgame.com##div[class$=" downl_list"]
 nfmovies.com##[onclick^="openurl()"]
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
@@ -70757,6 +70762,8 @@ fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 360zbz.com#@#.rightad
 zdface.com#@#.top-ad
+hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@#.google-ads
+hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@##adsbox
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
