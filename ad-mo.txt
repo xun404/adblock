@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ljWL+3QbE32zyIwqpwpRDQ
+! Checksum: ItA27kI7iESkERQop9ZSnA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111180145
-! Last Modified: 2021年11月18日 01:45
+! Version: 202111180240
+! Last Modified: 2021年11月18日 02:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -8944,6 +8944,7 @@ _800x80_
 ###ad-Content_2
 ###ad-Rectangle_1
 ###ad-Rectangle_2
+###ad-Superbanner
 ###ad-a
 ###ad-a1
 ###ad-abs-b-0
@@ -25481,11 +25482,13 @@ _800x80_
 ##.hl-ad-row__mrec
 ##.hl-ads-holder-0
 ##.hl-post-center-ad
+##.hm-ad
 ##.hm-sec-ads
 ##.hm_adlist
 ##.hm_advertisment
 ##.hm_top_right_google_ads
 ##.hm_top_right_google_ads_budget
+##.hmad
 ##.hn-ads
 ##.holder-ad
 ##.holder-ads
@@ -51809,6 +51812,9 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||bitly.com^$popup,domain=elitepvpers.com
 ||bitskins.com^$popup,domain=hltv.org
 ||cdnqq.net/out.php$popup
+||csgfst.com^$popup,domain=hltv.org
+||csgofast.cash^$popup,domain=hltv.org
+||csgofastx.com/?clickid=$popup,domain=hltv.org
 ||embed.mystream.to^$popup
 ||flixhq.ru/?$popup
 ||gg.bet^$popup,domain=cq-esports.com
