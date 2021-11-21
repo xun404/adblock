@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Nc5jZbgl/K/rrRDEA+k0/g
+! Checksum: 6RHWUqrvF+QFOSSUq28V9w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111212344
-! Last Modified: 2021年11月21日 23:44
+! Version: 202111220740
+! Last Modified: 2021年11月22日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -697,7 +697,6 @@ tieba.baidu.com##.tuijian-wrap
 -ContentAd-
 -contest-ad.
 -contrib-ads.$~stylesheet
--contrib-ads/
 -core-ads.
 -cpm-ad.
 -cpm-ads.
@@ -85177,7 +85176,6 @@ _mongo_stats/
 ||woopra-ns.com^$third-party
 ||woopra.com^$third-party
 ||wootric.com^$third-party
-||workers.dev^$third-party
 ||worldflagcounter.com^$third-party
 ||worldlogger.com^$third-party
 ||wowanalytics.co.uk^$third-party
@@ -89193,6 +89191,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||platform.twitter.com/impressions.js
 ||plausible.io/js/p.js
 ||plausible.io/js/plausible.
+||plausibleio.workers.dev^$third-party
 ||player.ooyala.com/errors/report?
 ||playtomic.com/Tracker/
 ||plista.com/activity
@@ -89841,6 +89840,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wn.com/count.js
 ||wondershare.es/jslibs/track.js
 ||wordpress.com/geo/
+||workers.dev/api/event
+||workers.dev/js/script.js
 ||worldssl.net/reporting.js
 ||worldztool.com^*/dotraceuser.php
 ||wowza.com/v1/analytics
@@ -103041,6 +103042,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
+@@||player.vodgc.net^$script,domain=tn.com.ar
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||scdn.cxense.com/cx.cce.js$domain=tn.com.ar
