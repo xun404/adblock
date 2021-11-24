@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AFsmVOiVeMvBry/FOudzQQ
+! Checksum: RMzf2G4OqxZTRHO6zWPBtg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111241142
-! Last Modified: 2021年11月24日 11:42
+! Version: 202111241251
+! Last Modified: 2021年11月24日 12:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -15766,6 +15766,7 @@ $webrtc,domain=avgle.com
 ||jads.co^$domain=avgle.com
 ||olmsoneenh.info^$domain=avgle.com
 !#BaiduPromotion
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [style*="important"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])
