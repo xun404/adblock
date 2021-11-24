@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uPLSy2waMwaXSloWqR7Bnw
+! Checksum: YE0dLTVhGUCLsaqPHacp0g
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202111241448
-! Last Modified: 2021年11月24日 14:48
+! Version: 202111241644
+! Last Modified: 2021年11月24日 16:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -9275,8 +9275,16 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||domp4.cc/Style/*/images/640200.gif
 ||jsdelivr.net/npm/@bootcss/*/assets/img/aliyun
+||py.cn/static/images/advert/
+||py.cn/src/img/pyy/
+||pixabay.com/static/img/publisher/*_ad_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+pixabay.com##div[class*="sponsoredWithResults"]
+py.cn##.index-advert
+pixabay.com##.carbon-ad
+py.cn##.right-pops
+avgle.com###avyc
 unikoshardware.com##.widget_jnews_popular ~ .uniko-widget
 unikoshardware.com##.elementor-popup-modal
 szxx.com.cn###A1
@@ -21720,6 +21728,8 @@ _box_ad_
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
 ||ydstatic.com/fanyi/fanyi-ad-place/
+||feedou.com/nzq/style/pc/js/popbig.js
+||feedou.com/nzq/style/pc/js/zt_bottom.js
 !------------------------Specific element hiding rules------------------------!
 360kuai.com###task__modal__container
 360kuai.com##.taskbar
