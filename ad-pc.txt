@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lba5QP00azoxii8W9BRZyQ
+! Checksum: OkOrMV+FHMusDgqVLU8wvg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111251937
-! Last Modified: 2021年11月25日 19:37
+! Version: 202111252059
+! Last Modified: 2021年11月25日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -58065,6 +58065,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||jnzhongding.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -73411,6 +73412,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||beifb.com^
 ||fxkycvo.cn^
 ||simastudio.cn^
+||gbbcraf.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -103828,6 +103830,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||feedou.com/nzq/style/pc/js/popbig.js
 ||feedou.com/nzq/style/pc/js/zt_bottom.js
 !------------------------Specific element hiding rules------------------------!
+luogu.com.cn##.side > div:last-child
+sonkwo.hk##.store-ad-waist
 360kuai.com###task__modal__container
 360kuai.com##.taskbar
 bjd.com.cn##.screenad

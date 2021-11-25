@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oJglCJ/bE10VvhF11MZhKQ
+! Checksum: wmrhZcERX3RVyg6tS8dtfw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202111251742
-! Last Modified: 2021年11月25日 17:42
+! Version: 202111252059
+! Last Modified: 2021年11月25日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1686,6 +1686,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||jnzhongding.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17032,6 +17033,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||beifb.com^
 ||fxkycvo.cn^
 ||simastudio.cn^
+||gbbcraf.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21753,6 +21755,8 @@ _box_ad_
 ||feedou.com/nzq/style/pc/js/popbig.js
 ||feedou.com/nzq/style/pc/js/zt_bottom.js
 !------------------------Specific element hiding rules------------------------!
+luogu.com.cn##.side > div:last-child
+sonkwo.hk##.store-ad-waist
 360kuai.com###task__modal__container
 360kuai.com##.taskbar
 bjd.com.cn##.screenad
