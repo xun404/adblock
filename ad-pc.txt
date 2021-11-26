@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H8cbaycuqgz/EGW/t6hftw
+! Checksum: Ex8cZk4XssI0Nn5T0kJfxw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111261842
-! Last Modified: 2021年11月26日 18:42
+! Version: 202111261937
+! Last Modified: 2021年11月26日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -73483,6 +73483,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||3932161.xyz^
 ||jlc001.com^
 ||pzdlfww.cn^
+||tjhjtoyy.cn^
+||zcsdbj.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
@@ -79726,6 +79728,7 @@ fqsousou.com,kengso.com#@#.user-share
 /js/google_stats.
 /js/hbx.js
 /js/indextools/*
+/js/lead-tracking
 /js/livestats_
 /js/logger?
 /js/perimeter-x
@@ -80929,6 +80932,7 @@ fqsousou.com,kengso.com#@#.user-share
 /salog.js
 /SAPOWebAnalytics/*
 /satismeter.js
+/sauron-analytics/*
 /save_stats.php?
 /saveStats.php?
 /savetracking?
@@ -87881,7 +87885,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||orquideassp.com^$third-party
 ||percycle.com^$third-party
 ||premiumads.com.br^$third-party
-||rdstation.com.br^$third-party
 ||retargeter.com.br^$third-party
 ||sambaads.com^$third-party
 ||tailtarget.com^$third-party
@@ -88882,6 +88885,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.contactatonce.co.uk^
 ||event-api.contactatonce.com.au^
 ||event-api.contactatonce.com^
+||event-api.rdstation.com.br^
 ||event-listener.air.tv^
 ||event.api.drift.com^
 ||event.getblue.io^
@@ -103347,7 +103351,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJ.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJCore.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/ortc.js$domain=social.economico.pt
-@@||forms.rdstation.com.br^$xmlhttprequest
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
@@ -103356,7 +103359,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||laredoute.pt/js/byside_webcare.js
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||nostv.pt^*/angulartics-google-analytics.js?
-@@||popups.rdstation.com.br/popup/show.json$domain=piaui.folha.uol.com.br
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||splunk-heavyforwarder-public.vtex.com:8088/services/collector/event$xmlhttprequest,domain=loja3m.com.br
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
