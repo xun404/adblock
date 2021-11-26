@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W1MCka9TlHL6GojnlzieFA
+! Checksum: H8cbaycuqgz/EGW/t6hftw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111261742
-! Last Modified: 2021年11月26日 17:42
+! Version: 202111261842
+! Last Modified: 2021年11月26日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55338,6 +55338,7 @@ rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reddit.com#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
 mtgarena.pro#?##root > div > div:-abp-has( > .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
+stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 twitter.com#?#div[data-testid="UserCell"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
 twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
@@ -65729,6 +65730,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+itdog.cn##.thanks
 itdog.cn##.do_not_block_thanks
 wealth.com.tw#?#div[class]:-abp-has(>div[class]>div[class*="-ad-manager-"])
 szxx.com.cn###A1
@@ -73478,6 +73480,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jyrwen.cn^
 ||csjs.ltd^
 ||grggkas.cn^
+||3932161.xyz^
+||jlc001.com^
+||pzdlfww.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
@@ -92258,6 +92263,7 @@ techxplore.com##.embed-responsive-trendmd
 ||skechers.com/dL6GOSf9/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
 ||therealreal.com/ev56mY37/init.js
+||tumi.com/4i06uv8M/init.js
 ||twentytwowords.com/static/clients/twentytwowords/3CVQBi14_init.js
 ||upwork.com/Ss13U803/init.js
 ||walmart.ca/px/PXnp9B16Cq/init.js
