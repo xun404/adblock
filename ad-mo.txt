@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7/MB+q0M3b5Gu4eYBl0M8g
+! Checksum: Mii5C7BZno9D6RNEhaWpiQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111281842
-! Last Modified: 2021年11月28日 18:42
+! Version: 202111281937
+! Last Modified: 2021年11月28日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -28037,6 +28037,7 @@ _800x80_
 ##.riverAdsLoaded
 ##.riverSponsor
 ##.rj-ads-wrap-sq
+##.rj-ads-wrapper
 ##.rm-adslot
 ##.rmp-ad-container
 ##.rmx-ad
@@ -31105,7 +31106,6 @@ _800x80_
 ##div[class^="ResponsiveAd-"]
 ##div[class^="SponsoredAds"]
 ##div[class^="StickyHeroAdWrapper-"]
-##div[class^="ad-slot__"]
 ##div[class^="adUnit_"]
 ##div[class^="ad_border_"]
 ##div[class^="ad_position_"]
@@ -31227,6 +31227,8 @@ _800x80_
 ##.js-widget-distroscale.distroscale
 ##.js-widget-send-to-news
 ##.legion_primiswrapper
+##.mm-embed--sendtonews
+##.mm-widget--sendtonews
 ##.pbs__player
 ##.pop-out-eplayer-container
 ##.primis-custom
@@ -52013,6 +52015,7 @@ tf2r.com#@#.adverts
 ||player.anyclip.com/anyclip-widget/$script,third-party
 ||player.avplayer.com^$third-party
 ||player.ex.co^$script,third-party
+||player.sendtonews.com^$third-party
 ||players.brightcove.net^$script,domain=pedestrian.tv
 ||playwire.com/bolt/js/$script,third-party
 ||rumble.com^$domain=tiphero.com
@@ -54466,7 +54469,7 @@ cd1025.com,domainincite.com,europages.co.uk,gamingcloud.com,kpbs.org,phillyvoice
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,timeslive.co.za##.sponsored
 washingtontimes.com##.sponsored-heading
 hellomagazine.com##.sponsored-news
 coinmarketcap.com##.sponsoredMark
@@ -54902,6 +54905,7 @@ timeout.com##div[class^="_sponsoredContainer_"]
 fodors.com##div[class^="ad-placeholder"]
 barandbench.com##div[class^="ad-service-"]
 barandbench.com##div[class^="ad-slot"]
+reuters.com##div[class^="ad-slot__"]
 usnews.com##div[class^="ad-spacer"]
 kijiji.ca##div[class^="adChoices-"]
 goodrx.com##div[class^="adContainer"]
@@ -55965,7 +55969,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nbcsports.com|physicianspractice.com|scotsman.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
-@@||embed.sendtonews.com^$domain=si.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||experienceleague.adobe.com^$~third-party
 @@||experienceleague.corp.adobe.com^$~third-party
