@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /fkSuHxDtUcvjxxILeNyrQ
+! Checksum: Ki2UqkAg0N2q+p7FyTn9ww
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111300933
-! Last Modified: 2021年11月30日 09:33
+! Version: 202111301137
+! Last Modified: 2021年11月30日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -73616,6 +73616,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sxyyedu.cn^
 ||bnd-ybb.cn^
 ||tj-yyy.cn^
+||xcms.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -102342,7 +102343,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||marktplaats.nl/add_counter_image.
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
+||njam.tv/tracking/
 ||npo-data.nl/tag/v3/npotag.js
+||npo-data.nl/tags/tag.min.js
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
 ||rtl.nl/system/track/
@@ -103375,6 +103378,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js?$domain=grandhood.dk
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 !---------- Dutch ----------
+@@||2doc.nl^*/vpro-analytics/Analytics.js$xmlhttprequest
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
 @@||centprod.com/nd/assets/js/analytics.js$script,domain=centprod.com
