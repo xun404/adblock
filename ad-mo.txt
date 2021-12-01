@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +mpv2Dwkvqa/bkMHu3EXzw
+! Checksum: MBOhJOTiIGIfcnXN8NGuGA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112010740
-! Last Modified: 2021年12月01日 07:40
+! Version: 202112010943
+! Last Modified: 2021年12月01日 09:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65653,6 +65653,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||localau.vip/tccenter/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+141jj.com##.category-wrapper > ul > div[style="line-height:24px;"] > a
+141jj.com#?#li:-abp-contains(贊助)
+141jj.com##.moboad + .webad
 gw54.com#?#li:-abp-has(>.ads)
 gw54.com##.index-ad
 szxx.com.cn###A1
@@ -73409,6 +73412,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||czxym168.cn^
 ||manggo.fun^
 ||bt-xd.com^
+||sanyoon.cn^
+||ychbgss.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
