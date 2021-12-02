@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vyMIvjENrzH6LDBh9hYP2Q
+! Checksum: ahU4Z8s0qm5Rl7V5yiYYbA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202112021051
-! Last Modified: 2021年12月02日 10:51
+! Version: 202112021251
+! Last Modified: 2021年12月02日 12:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1686,6 +1686,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||zhouwutrip.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -4543,7 +4544,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||360.cn/int/getadurls?
 ||360.cn/popup/popinfo/
 ||360buyimg.com/jzt/temp/js/
-||360buyimg.com^$domain=1024ju.com|12580sky.com|qianggou5.com
+||360buyimg.com^$domain=1024ju.com|qianggou5.com
 ||360doc.com^*.html?t=
 ||360kan.com/special/
 ||365kl.net/data/attachment/portal/
@@ -9163,6 +9164,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||360buyimg.com^$domain=gw54.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 mo.fish##.list-item-content-ad
@@ -11029,7 +11031,7 @@ jsphp.net##.adleft-wrap
 cww.net.cn##.adlinkL
 cww.net.cn##.adlinkR
 mobile01.com##.admicrobtn
-12580sky.com,ccoo.cn,hackhome.com,vipcn.com##.adn
+gw54.com,ccoo.cn,hackhome.com,vipcn.com##.adn
 zj.com##.adnav
 zj.com##.adnav2
 gaokao.com##.adout116
@@ -11059,7 +11061,7 @@ lenovo.com.cn##.adsense-wrap
 3dmgame.com##.adshop
 qinbing.cn##.adspic_mid2
 av.movie##.adss-160x600
-12580sky.com,chinaz.com,ofweek.com,yawin.cn##.adtext
+gw54.com,chinaz.com,ofweek.com,yawin.cn##.adtext
 92sucai.com##.adtg2
 gdmm.com##.adtop > .module
 nfuwow.com##.adtopnewnewbox
@@ -16923,6 +16925,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||oxqoney.cn^
+||pwfhjjh.cn^
+||sayilxa.cn^
+||plgfzyp.cn^
+||olkptgo.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
