@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tvbgngNlZpY0Z6Pgd19OYg
+! Checksum: cySFFHynFbhF4FQDxMqxDA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112030538
-! Last Modified: 2021年12月03日 05:38
+! Version: 202112030641
+! Last Modified: 2021年12月03日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56226,6 +56226,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
+@@||player.avplayer.com^$script,domain=explosm.net
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
 @@||pntrac.com/b/$image,domain=extrarebates.com
 @@||pntrs.com/b/$image,domain=extrarebates.com
@@ -78540,6 +78541,7 @@ fqsousou.com,kengso.com#@#.user-share
 /clickheat.js
 /clickheat^
 /clicklog.
+/clicklog/*
 /clicklog4pc.
 /clicklog_
 /clickLogger?
@@ -102016,6 +102018,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.qq.com^
 ||btrace.qq.com^
 ||cherry.le.com^
+||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click.gamersky.com^
 ||cmstool.youku.com^
 ||collect.tianya.cn^
