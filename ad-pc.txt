@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gkq6hb2gwKZDMokUowYxZQ
+! Checksum: 5HZTSyLJVuqQNdYxQKxORg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112032239
-! Last Modified: 2021年12月03日 22:39
+! Version: 202112032343
+! Last Modified: 2021年12月03日 23:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3540,7 +3540,7 @@ tieba.baidu.com##.tuijian-wrap
 /advertisements_
 /advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.pinterest.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
 /advertisers.$image,script,subdocument,domain=~advertisers.adgoal.de|~advertisers.adversense.com|~advertisers.careerone.com.au|~advertisers.ch|~advertisers.dk|~advertisers.easyweddings.com.au|~advertisers.io|~advertisers.leadia.ru|~advertisers.ypfboost.ph|~panel.rightflow.com
-/advertisers/*$domain=~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
+/advertisers/*$domain=~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
 /advertiserwidget.
 /advertises/*
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
@@ -7089,7 +7089,7 @@ tieba.baidu.com##.tuijian-wrap
 ?advert_key=
 ?advertisement=
 ?advertiser=
-?advertiser_id=$domain=~panel.rightflow.com
+?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?advertiserid=$domain=~adadyn.com|~outbrain.com|~seek.co.nz|~seek.com.au
 ?advsystem=
 ?advtile=
@@ -55534,6 +55534,7 @@ ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
 ebay.co.uk,ebay.com,ebay.com.au#?#.s-item:-abp-has(span[class^="s-item__title--tagblock__SPONSORED"])
 etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="&plkey="])
+etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="?plkey="])
 facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 facebook.com,facebookcorewwwi.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 gankrin.org#?#.code-block:-abp-has(.adsbygoogle)
