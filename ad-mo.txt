@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T93ZEoEpak3VJJnmfeH6Ww
+! Checksum: O5yatup6OcKfgyxfNSZQsw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112052238
-! Last Modified: 2021年12月05日 22:38
+! Version: 202112060440
+! Last Modified: 2021年12月06日 04:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3524,7 +3524,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advweb.$domain=~advweb.com.br
 /AdvWindow/*
 /advzones/*
-/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl
+/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org
 /adweb.$domain=~adweb.clarkson.edu|~adweb.com.au|~adweb.cz|~adweb.pro
 /adweb2.
 /adweb33.
@@ -51791,6 +51791,7 @@ tf2r.com#@#.adverts
 ||services.fandom.com/knowledge-graph/affiliates/
 ||sgtreport.com/wp-content/uploads/*Banner
 ||sharecad.org/content/banners/
+||shellshock.io/data/img/promo/
 ||siberiantimes.com/upload/banners/
 ||sicilianelmondo.com/banner/
 ||sketchucation.com/images/banners/
@@ -52498,6 +52499,7 @@ uinterview.com###below-content
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com###below-toprail
 animixplay.to###belowcomment
 fightful.com###betway-sports
+shellshock.io###big-house-ad
 bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com,duquoin.com,randolphcountyheraldtribune.com###billBoardATF
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
 whoscored.com###billboard-container
@@ -102661,6 +102663,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
+@@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
@@ -103251,6 +103254,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||mediaweaver.jp^$image,domain=ismedia.jp
+@@||muumuu-domain.com/common/js/ga_social_tracking.js
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com

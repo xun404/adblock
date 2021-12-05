@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ij+AEall9hBJaByhwTEMYw
+! Checksum: nxS6iBOEYxai2wrZX3jk0g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112052238
-! Last Modified: 2021年12月05日 22:38
+! Version: 202112060440
+! Last Modified: 2021年12月06日 04:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -48655,6 +48655,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
+@@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
@@ -49245,6 +49246,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||mediaweaver.jp^$image,domain=ismedia.jp
+@@||muumuu-domain.com/common/js/ga_social_tracking.js
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
