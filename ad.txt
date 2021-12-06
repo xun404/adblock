@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2zyQAY5sdbizoc2LqQSIKA
+! Checksum: lrLjHI1fyemh352ET8j1HQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112061448
-! Last Modified: 2021年12月06日 14:48
+! Version: 202112061645
+! Last Modified: 2021年12月06日 16:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -15330,10 +15330,13 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+tangdoucdn.com#@#.video-ad
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=tangdoucdn.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -17381,6 +17384,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||beixcw.cn^
+||mebtc.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
