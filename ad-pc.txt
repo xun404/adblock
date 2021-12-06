@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EPzcE9NW7ujVXbUa0EpFDg
+! Checksum: Nrf8ajrQXGcumgtBdhsJYg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112070241
-! Last Modified: 2021年12月07日 02:41
+! Version: 202112070337
+! Last Modified: 2021年12月07日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -52318,6 +52318,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||adalliance.io^$domain=spiegel.de
 ||adform.net^$domain=spiegel.de
 ||adition.com^$domain=spiegel.de
+||admob.com^$domain=spiegel.de
 ||adnxs.com^$domain=spiegel.de
 ||ads.viralize.tv^$domain=spiegel.de
 ||adsafeprotected.com^$domain=spiegel.de
@@ -52326,6 +52327,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||ced.sascdn.com^$domain=spiegel.de
 ||conative.de^$domain=spiegel.de
 ||emsservice.de^$domain=spiegel.de
+||finative.cloud^$domain=spiegel.de
 ||g.doubleclick.net^$domain=spiegel.de
 ||googlesyndication.com/pagead/$domain=spiegel.de
 ||googlesyndication.com/safeframe/$domain=spiegel.de
@@ -52340,6 +52342,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||pagead2.googlesyndication.com^$domain=spiegel.de
 ||partner.googleadservices.com^$domain=spiegel.de
 ||pubmatic.com^$domain=spiegel.de
+||rubiconproject.com^$domain=spiegel.de
 ||serving-sys.com^$domain=spiegel.de
 ||smartadserver.com^$domain=spiegel.de
 ||smartstream.tv^$domain=spiegel.de
@@ -103285,9 +103288,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/mbox-contents-$script,domain=dhl.de
 @@||adobedtm.com^*/satelliteLib-$script,domain=dhl.de|sbb.ch
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
+@@||api.cxense.com/public/widget/data?$script,domain=handelsblatt.com
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
+@@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||derwesten.de/resources/*/img/transparent_pixel.png$image,~third-party
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
@@ -103312,6 +103317,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
+@@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
