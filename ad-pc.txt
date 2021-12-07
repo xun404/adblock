@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xOl+hE1xbVgMujO96hjf5A
+! Checksum: R9qHXLc+FI63fm/sTnd4Tw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112071143
-! Last Modified: 2021年12月07日 11:43
+! Version: 202112071253
+! Last Modified: 2021年12月07日 12:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -52172,7 +52172,7 @@ tf2r.com#@#.adverts
 ||player.avplayer.com^$third-party
 ||player.ex.co^$script,third-party
 ||player.sendtonews.com^$third-party
-||players.brightcove.net^$script,domain=pedestrian.tv
+||players.brightcove.net^$script,domain=businessinsider.com.au|gizmodo.com.au|kotaku.com.au|lifehacker.com.au|pedestrian.tv
 ||playwire.com/bolt/js/$script,third-party
 ||rumble.com^$domain=tiphero.com
 ||services.brid.tv^$script,domain=spin.com
@@ -55219,6 +55219,7 @@ imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
 law.com,topcultured.com##h3
 greatist.com##hl-adsense
+drive.com.au##hr
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
@@ -73535,6 +73536,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||beixbw.cn^
 ||blsenpg.cn^
 ||skfqxkk.cn^
+||xsgkjsb.cn^
+||qusiwang.top^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
@@ -79329,6 +79332,7 @@ fqsousou.com,kengso.com#@#.user-share
 /firebase-performance-
 /firestats/*
 /firm_tracking.js
+/fit?analyticsSession=
 /fkounter/*
 /fkounter5/*
 /flash-cookies/*
@@ -79970,6 +79974,7 @@ fqsousou.com,kengso.com#@#.user-share
 /jsnlog.min.js
 /json/stats?
 /json/tracking/*
+/json?mbox=
 /json?referer=
 /jsonp_geoip?
 /jsstat.
@@ -91697,6 +91702,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.younow.com^
 ||dc.banggood.com^
 ||dcf.espn.com/privacy/
+||dd.auspost.com.au^
 ||dd.lendup.com^
 ||dealnews.com/lw/ul.php
 ||deepl.com/web/statistics
