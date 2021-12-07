@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +wtfpRiqMoDmGCCMS01UAA
+! Checksum: tUgSu4i9reAjbgBOyJwaIQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202112071939
-! Last Modified: 2021年12月07日 19:39
+! Version: 202112072104
+! Last Modified: 2021年12月07日 21:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1283,8 +1283,7 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[aria-posinset] span
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label="label"][string-length(@class) <= 225]//span[(count(descendant::span) > 40)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]/self::div[starts-with(@data-pagelet,"FeedUnit_1") or starts-with(@aria-posinset,"2")]'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//*[@aria-label][string-length(@class) >= 225][(count(descendant::*) > 8)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_1")]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label="label"][string-length(@class) <= 225]//span[(count(descendant::span) > 40)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]/ancestor-or-self::div[@data-pagelet="FeedUnit_1" or @aria-posinset="2"]'
 www.facebook.com,web.facebook.com#$#json-override 'data.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text data.viewer.news_feed.edges.0.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text' 14213549526573598 '' /SPONSORED/; hide-if-matches-xpath '//*[contains(text(),"14213549526573598")]/ancestor::div[@class]/div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[data-pagelet^="FeedUnit_"] span
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@class]/a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Patrocinado" or .="Publicidad" or .="Sponsa" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ"]]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
