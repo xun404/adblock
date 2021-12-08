@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: blEHkTgoCp2g7KkB8ms+fQ
+! Checksum: hy2sBNUsLSrafX636eDWuQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202112081742
-! Last Modified: 2021年12月08日 17:42
+! Version: 202112081843
+! Last Modified: 2021年12月08日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1362,6 +1362,7 @@ ubmcmm.baidustatic.com
 ##.top-read-ad
 ##.topSponsor
 ##.top_ad_ban
+##.playtop.col-pd
 ##.top_box > #foot
 ##.top_box > #indextop
 ##.top_box > #news
@@ -1640,6 +1641,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/mdapp03.com/"]
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
+##a[href*=".wuyichunqiu.com/"]
 ##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/od005.cn"]
@@ -1693,6 +1695,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##a[href*=".lacquermall.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -9193,8 +9196,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bixingjia.com/js/hf.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cchvc.net##.myui-player__acc
 so.com##a[data-log*="cpc"]
 so.com##li[data-cpc_query]
 so.com###e_map_idea_detail_lists
@@ -16957,6 +16962,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jyzae.cn^
 ||benwzw.cn^
 ||kusol.club^
+||mpzls.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zKd40EOUNkmTgh8fNTHVaQ
+! Checksum: KlYaBB3suiGMQt0eGod4pA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112081742
-! Last Modified: 2021年12月08日 17:42
+! Version: 202112081843
+! Last Modified: 2021年12月08日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -52837,6 +52837,7 @@ cloudwards.net###cbox
 linuxinsider.com###cboxOverlay
 curseforge.com###cdm-zone-03
 ndtv.com###checked
+xcalibrscans.com###close-teaser
 drivespark.com###cmscontent-right1
 whocallsme.com###cnt_1
 whocallsme.com###cnt_2
@@ -55074,6 +55075,7 @@ msn.com##a[href^="https://amzn.to/"]
 qwant.com##a[href^="https://api.taboola.com/"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 qwant.com##a[href^="https://qwa.qwant.com/ck.php"]
+richardvigilantebooks.com##a[href^="https://rebrand.ly/"]
 scaredstiffreviews.com##a[href^="https://www.amazon."][href*="ref="]
 ancient-origins.net,catholicculture.org,deadspin.com,electrek.co,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
 sociologyguide.com##a[href^="https://www.baghvillas.com/"]
@@ -57988,6 +57990,7 @@ ubmcmm.baidustatic.com
 ##.top-read-ad
 ##.topSponsor
 ##.top_ad_ban
+##.playtop.col-pd
 ##.top_box > #foot
 ##.top_box > #indextop
 ##.top_box > #news
@@ -58266,6 +58269,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/mdapp03.com/"]
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
+##a[href*=".wuyichunqiu.com/"]
 ##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/od005.cn"]
@@ -58319,6 +58323,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##a[href*=".lacquermall.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -65819,8 +65824,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bixingjia.com/js/hf.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cchvc.net##.myui-player__acc
 so.com##a[data-log*="cpc"]
 so.com##li[data-cpc_query]
 so.com###e_map_idea_detail_lists
@@ -73583,6 +73590,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jyzae.cn^
 ||benwzw.cn^
 ||kusol.club^
+||mpzls.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -92759,7 +92767,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
 ||primate.dmarcdigests.com^
-||0c0l6l9v72hq.mailfloss.com^
 ||161.35.245.96^
 ||1796kpkzuwj.www.hawpar.com^
 ||1iy4gu0lpkp.my.gloryleague.basketball^
@@ -92773,7 +92780,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||4tiz3b7uvzv5.app.polymersearch.com^
 ||5jr6laiorl0y.www.chandlerorchards.com^
 ||64.225.81.20^
+||6d5a81guuve4.anydebrid.com^
 ||77mxl6z40n3u.www.cybernetman.com^
+||7bmfgesnryrc.stoic.ai^
 ||88bs5dlqb6m5.npm-explorer.tk^
 ||8p0kiyq5mq1d.flex.team^
 ||8rqwuq2dtrki.www.botcomics.com^
@@ -92783,30 +92792,34 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||crystal-toxic.cf^
 ||ddns.dataunlocker.com^
 ||delightful-development.ml^
-||ekpnog9km4am.www.word.com.au^
+||din1j0su0u99.artwallstreet.io^
+||f5q72e2o8r5f.www.word.com.au^
 ||fp84rw0jinz7.blanc.ru^
 ||friendly-community.tk^
 ||funny-morning.tk^
 ||gl5g98t0vfjb.panprices.com^
-||grxkwphx0yk5.stoic.ai^
 ||kick-lake.ga^
 ||lh3pvljbkong.www.nookgaming.com^
 ||lis39l95rq1s.furucombo.app^
 ||lrkd5qph0yt6.franchiseplus.nl^
-||ooyk93cxdqv8.www.usa-corporate.com^
 ||ouc82i67pytg.www.emanualonline.com^
 ||p9jhxqlkmn.miniso.com.gr^
 ||qt5jl7r111h7.allesvoormijnvakantie.nl^
 ||qwcp5tza48tt.xpollinate.io^
+||reckoning-internet.tk^
 ||ros3d4dbs3px.salud-masculina.info^
 ||s2whyufxmzam.chatpay.com.br^
 ||sk02vstg6yfu.www.earthclassmail.com^
 ||smartproxy.dataunlocker.com^
+||spaghetti-noodles.ml^
 ||umhadn49kldc.www.jeddd.com^
+||v87p9d3uxu13.fjlaboratories.com^
+||vlwutxd95syk.www.usa-corporate.com^
 ||welcoming-carpets.tk^
-||wy886nacmkg2.fjlaboratories.com^
 ||x2l5lsn8rvsq.li.finance^
 ||xlvvy4msxr.coolinastore.com^
+||ym1kiez6wc40.mailfloss.com^
+||yodunmnmr3dc.www.cefirates.com^
 ||zv7sm29ebr0i.www.logology.co^
 ||a8.01cloud.jp^
 ||a8.cyclemarket.jp^
