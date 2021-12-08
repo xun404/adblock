@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i/kehNQ4GuemG+rbpcmY5A
+! Checksum: JXt7j6VBry2pnj3mQt/jdA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112090641
-! Last Modified: 2021年12月09日 06:41
+! Version: 202112090741
+! Last Modified: 2021年12月09日 07:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16547,6 +16547,7 @@ _800x80_
 ###top-advertisements
 ###top-banner-ad
 ###top-banner-ad-browser
+###top-buy-sell-ads
 ###top-dfp
 ###top-head-ad
 ###top-leaderboard-ad
@@ -28590,6 +28591,7 @@ _800x80_
 ##.sidebar__block--ad
 ##.sidebar__block-advertisement
 ##.sidebar__item-spacer--advert-top
+##.sidebar__module--ad
 ##.sidebar_ad
 ##.sidebar_ad_1
 ##.sidebar_ad_2
@@ -29185,6 +29187,7 @@ _800x80_
 ##.sticky-top-ad-wrap
 ##.stickyAd
 ##.stickyAdLink
+##.stickyAdWrapper
 ##.stickyAdsGroup
 ##.stickyContainerMpu
 ##.stickyMultiAd-processed
@@ -31201,6 +31204,7 @@ _800x80_
 ##a[href^="https://www.travelzoo.com/oascampaignclick/"]
 ##a[href^="https://www.vewwrmp.com/"]
 ##a[href^="https://www.what-sexdating.com/"]
+##a[href^="https://www.xvinlink.com/?a_fid="]
 ##a[href^="https://zononi.com/"]
 ##a[id^="ads_banner_"]
 ##a[onclick*="//m.economictimes.com/etmack/click.htm"]
@@ -52200,6 +52204,7 @@ tf2r.com#@#.adverts
 ||channelexco.com/player/$third-party
 ||connatix.com^$script,third-party
 ||delivery.vidible.tv/jsonp/
+||dywolfer.de^
 ||embed.sendtonews.com^$third-party
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
@@ -52512,6 +52517,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||definebabe.com/sponsor_
 ||delivery.porn.com^
 ||dixyporn.com/include/
+||dpfantasy.org/k2s.gif
 ||dragonthumbs.com/adcode.js
 ||drtuber.com/footer_
 ||dyn.empflix.com^
@@ -52613,6 +52619,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||porn300.com/nbjs/
 ||pornbay.re/k2sbanner
 ||pornerbros.com/nativeexternal/
+||porngals4.com/img/b/
 ||pornhat.com/banner/
 ||pornicom.com/jsb/
 ||pornj.com/gabril/
@@ -52722,6 +52729,7 @@ daringfireball.net###SidebarMartini
 imcdb.org###SiteLifeSupport
 thecourier.com###TCFO_Middle2_300x250
 thecourier.com###TCFO_Middle_300x250
+techadvisor.com###TNrsRmAx
 today.az###TODAY_Slot_Top_1000x120
 today.az###TODAY_Slot_Vertical_01_240x400
 road.cc###Top-Billboard
@@ -52918,7 +52926,7 @@ thedrinknation.com###fcBanner
 investing.com###findABroker
 thisismoney.co.uk###fiveDealsWidget
 cnx-software.com###fixeddbar
-goodgearguide.com.au###float_leaderboard_bottom
+goodgearguide.com.au,pcworld.idg.com.au###float_leaderboard_bottom
 kissanime9.net###floatcenter
 streams.tv###flowerInGarden
 spectator.co.uk###footer-banner
@@ -53317,6 +53325,7 @@ google.com###topstuff > #wmxmsg
 pcworld.com,techhive.com###tso
 kuklaskorner.com###ultimate
 my.juno.com###usWorldTile
+macworld.co.uk###vTXbybUFn
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 forums.tomsguide.com###video_ad
@@ -53342,6 +53351,7 @@ wallpapersmania.com###wm_cpa
 rediff.com###world_right1
 rediff.com###world_top
 worldrecipes.eu###worldrecipeseu_970x90_desktop_sticky_no_closeplaceholder
+techadvisor.com###wrapper > div > [class] > [src]
 eteknix.com###wrapper > header
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wrapper_banners
 blasternation.com###xobda
@@ -53743,6 +53753,7 @@ challonge.com##.cake-unit
 dllme.com##.captchabox > div
 u.today##.card--something
 classicauctionreview.co.uk##.carlogobox
+macworld.co.uk,techadvisor.com##.carouselEmbeddableDeal
 gumtree.com.au##.cars__side-mrec-wrapper
 supercheats.com##.cboth_sm
 ccm.net##.ccm_pugoo__sponso
@@ -54922,8 +54933,6 @@ ign.com##.zad
 thehackernews.com##.zoho-box
 swarajyamag.com##[class*="page-top-adv-wrapper"]
 thetimes.co.uk##[class*="responsiveweb__NativeAd"]
-macworld.co.uk,techadvisor.com##[class] > [class] > img[src]
-macworld.co.uk,techadvisor.com##[class] > [id] > img[src]
 zerohedge.com##[class^="Advert_"]
 duplichecker.com##[class^="adefaee"]
 uploader.link##[class^="ads"]
@@ -55091,6 +55100,7 @@ qwant.com##a[href^="https://api.taboola.com/"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 qwant.com##a[href^="https://qwa.qwant.com/ck.php"]
 richardvigilantebooks.com##a[href^="https://rebrand.ly/"]
+everybithelps.co.uk##a[href^="https://shop.trezor.io/"]
 scaredstiffreviews.com##a[href^="https://www.amazon."][href*="ref="]
 ancient-origins.net,catholicculture.org,deadspin.com,electrek.co,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
 sociologyguide.com##a[href^="https://www.baghvillas.com/"]
@@ -55277,6 +55287,7 @@ thecuttingedgenews.com##img[alt="Ad by The Cutting Edge News"]
 nta.ng##img[alt="Online Ads WeConnect Platform"]
 therainbowtimesmass.com##img[alt="banner ad"]
 thebradentontimes.com##img[class^="custom_adgroup_"]
+everybithelps.co.uk##img[data-orig-size="728,90"]
 wjr.com##img[height="100"]
 prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
 german-way.com,power987.co.za,qsaltlake.com,tfetimes.com##img[height="250"]
@@ -55287,6 +55298,7 @@ cryptofeeds.news,newswireni.com,power987.co.za##img[height="600"]
 airplaydirect.com,economicconfidential.com,elitepvpers.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
 windycitymediagroup.com,windycitytimes.com##img[name="Sponsor"]
 modelhorseblab.com##img[name="js_ad"]
+macworld.co.uk,techadvisor.com##img[referrerpolicy]
 forum.blackhairmedia.com##img[src*="/?AdID="]
 nsfwyoutube.com##img[src*="data"]
 bcmagazine.net##img[style^="width:300px;"]
@@ -55295,6 +55307,7 @@ howtogermany.com##img[width="120"]
 elitepvpers.com,lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,newswireni.com,webhostingtalk.com##img[width="160"]
 fashionpulis.com##img[width="250"]
 afrivibes.net,airplaydirect.com,bigeye.ug,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,forexmt4indicators.com,freedomhacker.net,gameplayinside.com,goodcarbadcar.net,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,onislandtimes.com,punchng.com,radiobiz.co.za,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,wantedinafrica.com,wantedinrome.com##img[width="300"]
+everybithelps.co.uk##img[width="300"][height="300"]
 boxthislap.org##img[width="300px"]
 independent.co.ug##img[width="320"]
 chat-avenue.com,flashx.cc,flashx.co,flashx.pw,forum.gsmhosting.com,themediaonline.co.za,topprepperwebsites.com##img[width="468"]
@@ -55359,6 +55372,7 @@ dexerto.com##.jwplayer
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 kidspot.com.au##.secondary-video
+macworld.co.uk##.videoContainer
 ##.section-subheader > .section-hotel-prices-header
 mail.yahoo.com###slot_LREC
 yahoo.com##.Feedback
@@ -55570,7 +55584,7 @@ toppixxx.com###bottom
 xxxdan.com###bottom-line
 eporner.com###btasd
 celebritymovieblog.com,interracial-girls.com###custom_html-2
-hotcelebshome.com###custom_html-4
+dpfantasy.org,hotcelebshome.com###custom_html-4
 eporner.com###deskadmiddle
 hentai-cosplays.com###display_image_detail > span
 thehun.net###dyk_right
@@ -55681,6 +55695,9 @@ hungangels.com##.advert
 flyingjizz.com,gotporn.com,japan-whores.com,porntube.com##.advertisement
 sleazyneasy.com##.advertising
 4kpornvideos.tv,flashtranny.com,gaymovievids.com,gayporno.fm,igayporn.tv,machogaytube.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
+porngals4.com##.afb0
+porngals4.com##.afb1
+porngals4.com##.afb2
 hentai2w.com##.aff-col
 hentai2w.com##.aff-content-col
 porngals4.com##.affl
@@ -91998,7 +92015,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||instructables.com/counter
 ||intent.cmo.com.au^
 ||intent.goodgearguide.com.au^
+||intent.macworld.co.uk^
 ||intent.pcworld.idg.com.au^
+||intent.techadvisor.com^
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuitcdn.net/analytics/
