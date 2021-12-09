@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kMQ7wXCTphc3K174e/h79w
+! Checksum: hvsS6PqJF7leh2DyYFVBYQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112092239
-! Last Modified: 2021年12月09日 22:39
+! Version: 202112092346
+! Last Modified: 2021年12月09日 23:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24289,6 +24289,7 @@ _800x80_
 ##.ct-ad-article
 ##.ct-ad-article-wrapper
 ##.ct-ads
+##.ct-advertising-footer
 ##.ct-bottom-ads
 ##.ct_ad
 ##.cta-ad
@@ -48500,7 +48501,6 @@ tf2r.com#@#.adverts
 ||ad.lgappstv.com^
 ||ad.nettvservices.com^
 ||ads.samsung.com^
-||gpm.samsungqbe.com^
 ||lgad.cjpowercast.com.edgesuite.net^
 ||lgsmartad.com^
 ||samsungacr.com^
@@ -55737,7 +55737,7 @@ xtube.com##.bm6LRcdKEZAE
 ok.porn,pornhat.com##.bn
 ok.xxx##.bn-title
 xbabe.com##.bnnrs-aside
-alphaporno.com,hellporno.com,tubewolf.com,xbabe.com,xcum.com##.bnnrs-player
+alphaporno.com,crocotube.com,hellporno.com,tubewolf.com,xbabe.com,xcum.com##.bnnrs-player
 pornogratisdiario.com,xcafe.com##.bnr
 ok.porn,ok.xxx,oldmaturemilf.com,pornhat.com##.bns-bl
 sexsbarrel.com,zingyporntube.com##.bns-place-ob
@@ -55783,6 +55783,7 @@ hqasianporn.org##.coverup
 3movs.com,fapality.com##.cs
 mylust.com##.cs-bnr
 watchmygf.me##.cs_text_link
+crocotube.com##.ct-video-ntvs
 worldsex.com##.currently-blokje-block-inner
 sexygirlspics.com##.custom-spot
 vxxx.com##.cykstkkakayycc
@@ -56137,10 +56138,6 @@ redtube.com,youporn.com,youporngay.com##img[src^="bLob:" i]
 pornhub.com,pornhubthbh7ap3u.onion##img[width="300"]
 adultwork.com,babepicture.co.uk,sexmummy.com,tvgirlsgallery.co.uk##img[width="468"]
 babeshows.co.uk,jessie-rogers.com##img[width="728"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 koreanstreamer.xyz##section.korea-widget
 porngifs2u.com##section[class*="elementor-hidden-"]
 redtube.com##svg
@@ -56150,7 +56147,13 @@ motherless.com##table[style*="max-width:"]
 exoav.com##td > a[href]
 foxhq.com##video
 redtube.com,youporn.com,youporngay.com##video[loop][src^="bLob:" i]
+crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
+crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
 pornhub.com,pornhubthbh7ap3u.onion#?#:-abp-properties(height: 300px; width: 315px;)
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
 youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------Allowlists to fix broken sites------------------------!
@@ -104382,7 +104385,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(common|forum|home\.|portal|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(common\.|common_extra\.|forum|home\.|portal|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
