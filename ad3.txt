@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lL0smWNnqX2HzLR25CspJQ
+! Checksum: n007PlUGXeUAgSR3ePtHHg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112101051
-! Last Modified: 2021年12月10日 10:51
+! Version: 202112101142
+! Last Modified: 2021年12月10日 11:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25891,6 +25891,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /log/report/*
 /log/sentry/*
 /log/server?
+/log/track/*
 /log/ux_analytics^
 /log/web?
 /log2.php?
@@ -48940,6 +48941,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kentucky.com/mistats/finalizestats.js$~third-party
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com/on/demandware.static/*/click-analytics.js$~third-party
+@@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||linksynergy.com/minified_logic.js$third-party,xmlhttprequest
@@ -49200,13 +49202,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||s-sfr.fr/stats/header.js$script,domain=sfr.fr
+@@||s-sfr.fr/stats/header.js$script,domain=sfr.fr|red-by-sfr.fr
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||static.lci.fr/assets/scripts/common/tracker.js?$script,~third-party
 @@||static.lci.fr/assets/scripts/common/user-agent-analyzer.js$script,~third-party
-@@||static.s-sfr.fr/eTagP/$image,~third-party
-@@||static.s-sfr.fr/stats/footer.js$script,~third-party
-@@||static.s-sfr.fr/stats/header.js$script,~third-party
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
 @@||tag.aticdn.net^*/smarttag.js$domain=gouv.fr|mon.compteczam.fr
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|voici.fr
