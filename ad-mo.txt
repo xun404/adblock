@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x7fhLTntvOBySCBI5+NFtQ
+! Checksum: BK589izf6a0JgfLAVcIwHQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112102239
-! Last Modified: 2021年12月10日 22:39
+! Version: 202112102345
+! Last Modified: 2021年12月10日 23:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31620,6 +31620,7 @@ juicesky.com#@#.ads-title
 mastersclub.jp#@#.ads.widget
 getwallpapers.com,wallpaperset.com#@#.ads1
 jw.org#@#.adsBlock
+cars.mitula.ae#@#.adsList
 trustnet.com#@#.ads_right
 quebarato.com.br,search.conduit.com#@#.ads_wrapper
 alluc.org#@#.adsbottombox
@@ -56446,6 +56447,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adf.ly^$generichide
 @@||adtng.com/get/$subdocument,domain=hanime.tv
 @@||avforums.com/*ad$script
+@@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
+@@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||cdnqq.net/ad/api/popunder.js$script
 @@||centro.co.il^$generichide
 @@||crunchyroll.com^*/ads_$script
@@ -58317,6 +58320,7 @@ ubmcmm.baidustatic.com
 ||beishangdichan.com^
 ||cchvc.net^
 ||autotrading.com.cn^
+||rongnuo.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -103523,7 +103527,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||s-sfr.fr/stats/header.js$script,domain=sfr.fr|red-by-sfr.fr
+@@||s-sfr.fr/stats/header.js$script,domain=red-by-sfr.fr|sfr.fr
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||static.lci.fr/assets/scripts/common/tracker.js?$script,~third-party
 @@||static.lci.fr/assets/scripts/common/user-agent-analyzer.js$script,~third-party
