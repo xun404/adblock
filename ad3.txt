@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p0LaZsYVfyt2kzNr49Ismw
+! Checksum: HtNUG+zr+IupTDztkC5NhQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112140105
-! Last Modified: 2021年12月14日 01:05
+! Version: 202112140144
+! Last Modified: 2021年12月14日 01:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -49271,7 +49271,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||stroeerdigitalgroup.de/metatag/live/bauer-autozeitung/metaTag.min.js$domain=autozeitung.de
 @@||sunday.de/skin/*/googleanalytics.js$script
-@@||taboola.com/libtrc/$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
+@@||taboola.com/libtrc/$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
+@@||taboola.com^*/json?tim=$domain=sueddeutsche.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
