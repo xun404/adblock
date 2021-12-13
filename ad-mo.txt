@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A3TTw8k3LDsrnVFqJGx3jA
+! Checksum: nQwPnoCg2mVHXG+QHQ8Dbw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112140539
-! Last Modified: 2021年12月14日 05:39
+! Version: 202112140740
+! Last Modified: 2021年12月14日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -52243,7 +52243,7 @@ tf2r.com#@#.adverts
 ||zdnet.com/leadgen/
 /^https?:\/\/.*\.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|website|biz|re|casa|top|one|space|network|live|systems|ml|world|life|co)\/.*/$~image,~subdocument,third-party,domain=123movies-one.com|123proxy.biz|2embed.ru|animebee.to|baomay01.com|bdupload.asia|clipconverter.cc|daddylive.click|desiupload.co|dood.la|dood.to|dood.watch|dood.ws|downloadpirate.com|embedstream.me|extreme-down.plus|fclecteur.com|filmesviatorrents.tv|flashx.net|flashx.tv|gdtot.top|gogoplay1.com|gospeljingle.com|hdfilme.cx|krunkercentral.com|moviepapa.sbs|noob4cast.com|pkcast123.me|powvideo.net|powvldeo.me|slreamplay.cc|socolive.pro|steanplay.cc|streamtape.com|streanplay.cc|vidembed.cc|vidembed.io|videobin.co|videovard.sx|vidoo.org|vipbox.lc|wawacity.work
 /^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.asia|allsports.icu|cloudvideo.tv|daddylive.click|deltabit.co|dood.to|dood.watch|dum.to|embedstream.me|evoload.io|flashx.net|gaybeeg.info|hdfilme.cx|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|rojadirecta.watch|soccerstreamslive.co|strcloud.in|streamsport.icu|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|videovard.sx|vidlox.me|vidsrc.me|vidsrc.stream|vivo.sx|voe.sx|vupload.com|wowlive.info
-/^https?:\/\/.*\/(bundle|warning|style|bootstrap|brand|reset|jquery-ui|styles|error|logo|index|favicon|star|header)\.(png|css)\?[A-Za-z0-9]{30,}.*/$third-party
+/^https?:\/\/.*(com|net|top|xyz)\/(bundle|warning|style|bootstrap|brand|reset|jquery-ui|styles|error|logo|index|favicon|star|header)\.(png|css)\?[A-Za-z0-9]{30,}.*/$third-party
 /^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
 ||dotabuff.com/a.js
 ||elder-dragon.tracklol.com^
@@ -53816,6 +53816,7 @@ u.today##.card--something
 classicauctionreview.co.uk##.carlogobox
 macworld.co.uk,techadvisor.com##.carouselEmbeddableDeal
 gumtree.com.au##.cars__side-mrec-wrapper
+chemistwarehouse.com.au##.category-product-mrec
 supercheats.com##.cboth_sm
 ccm.net##.ccm_pugoo__sponso
 digit.in##.center-add
@@ -103444,10 +103445,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
-@@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|tracking.narvar.com|westernunion.com
+@@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|easternbank.com|fortune.com|nflgamepass.com|nordvpn.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|easternbank.com|fortune.com|nflgamepass.com|nordvpn.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
@@ -103490,6 +103491,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||logging.apache.org^$domain=apache.org
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
+@@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
@@ -104048,7 +104050,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 @@||google-analytics.com/analytics.js$domain=nabortu.ru|poiskstroek.ru|rzd.ru|teddyfood.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=teddyfood.com
-@@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|sportmaster.ru|teddyfood.com
+@@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||itv.1tv.ru/stat.php?
 @@||k12-company.ru^*/statistics.js$script
 @@||komus.ru/_ui/shared/js/ga/googleTagManager.js$script,~third-party
