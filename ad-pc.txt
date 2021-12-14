@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +tSmPa4ZWn56ER/0mpec+g
+! Checksum: pJhhOWreI/eiLTaYwiQuXQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112150140
-! Last Modified: 2021年12月15日 01:40
+! Version: 202112150538
+! Last Modified: 2021年12月15日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -824,7 +824,6 @@ tieba.baidu.com##.tuijian-wrap
 .ad.final.
 .ad.footer.
 .ad.page.
-.ad.php
 .ad.premiere.
 .ad.wrapper.
 .ad/tag.
@@ -922,9 +921,7 @@ tieba.baidu.com##.tuijian-wrap
 .co/ads?
 .com/?ad=
 .com/?wid=
-.com/a?network
 .com/a?pagetype
-.com/a?size
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com
 .com/ad1/
 .com/ad2/
@@ -932,7 +929,6 @@ tieba.baidu.com##.tuijian-wrap
 .com/ad?
 .com/adclk?
 .com/adds/
-.com/adgallery
 .com/adinf/
 .com/adlib/
 .com/ads-
@@ -1020,7 +1016,6 @@ tieba.baidu.com##.tuijian-wrap
 .net/ads_
 .net/adt?
 .net/bnr/
-.net/flashads
 .net/gads/
 .net/noidadx/
 .net/pfadj/
@@ -3085,7 +3080,6 @@ tieba.baidu.com##.tuijian-wrap
 /adsfix.
 /adsfloat.
 /adsfolder/*
-/adsfooter
 /adsforwp-
 /adsframe.
 /adsframework/*
@@ -4555,7 +4549,6 @@ tieba.baidu.com##.tuijian-wrap
 /exads/*
 /excellence/ads/*
 /exchange_banner_
-/exit_popup
 /exitpop.
 /exitpopunder.
 /exitpopunder_
@@ -4707,6 +4700,7 @@ tieba.baidu.com##.tuijian-wrap
 /gam_ad_
 /gam_ads.
 /gamads/*
+/gdpr-ad-script.
 /geminivideoads/*
 /gen-ad-
 /gen_ads_
@@ -6532,6 +6526,8 @@ tieba.baidu.com##.tuijian-wrap
 /systemad_
 /t-ads.$domain=~t-ads.org
 /tabads/*
+/taboola-footer.
+/taboola-header.
 /tag-adv.
 /tag_adv/*
 /tag_oas.
@@ -20411,7 +20407,10 @@ _800x80_
 ##.adcode
 ##.adcode-widget
 ##.adcode2
+##.adcode300x250
+##.adcode728x90
 ##.adcode_container
+##.adcodetextwrap300x250
 ##.adcodetop
 ##.adcol1
 ##.adcol2
@@ -50920,7 +50919,7 @@ tf2r.com#@#.adverts
 ||ak.imgaft.com^
 ||alpsat.com/banner/
 ||amazonaws.com/mailcache.appinthestore.com/
-||amazonaws.com^$script,subdocument,xmlhttprequest,domain=1337x.to|1337xx.to|daddylive.click|downloadpirate.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentmac.net|vshare.eu|yify-movies.net
+||amazonaws.com^$domain=1337x.to|1337xx.to|daddylive.click|downloadpirate.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentmac.net|vshare.eu|yify-movies.net
 ||an.yandex.ru^$domain=~e.mail.ru
 ||any.gs/visitScript/
 ||api.140proof.com^
@@ -55699,7 +55698,6 @@ outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
-wikiprocedure.com##div:-abp-contains(/^Advertisement$/)
 ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
@@ -55757,6 +55755,7 @@ twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Pr
 twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
 twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+wikiprocedure.com#?#div:-abp-contains(/^Advertisement$/)
 windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"])
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
@@ -89951,6 +89950,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jotform.io/getReferrer/$third-party
 ||js-agent.newrelic.com^
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
+||jsdelivr.net^*/fp.min.js
 ||jsrdn.com/s/1.js
 ||k.keyade.com^
 ||k.streamrail.com^
