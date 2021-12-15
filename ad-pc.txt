@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vID91Sd0k/OpuoyN86ROow
+! Checksum: Wkw2s1UHyFYnuNELNh0Unw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112160247
-! Last Modified: 2021年12月16日 02:47
+! Version: 202112160641
+! Last Modified: 2021年12月16日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7718,7 +7718,7 @@ takeover_banner_
 /e/ir?$image,script
 /cmbdv2.js
 /contents/other/player/*
-/2market.php?
+/2market_bidshow.php?
 ://rs-stripe.wsj.com/stripe/image?
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
 /push-skin/skin.min.js
@@ -35482,6 +35482,7 @@ tf2r.com#@#.adverts
 ||curvecaressmean.com^
 ||curveconjure.com^
 ||custodyabsolutiondrawback.com^
+||customads.co^
 ||cuterbond.com^
 ||cutescale.online^
 ||cutestpotting.com^
@@ -81550,7 +81551,6 @@ fqsousou.com,kengso.com#@#.user-share
 /referadd?
 /referal-cookie.
 /referer.gif?
-/referer_frame.$domain=~developers.facebook.com
 /refererRecord.
 /referral_tracker.
 /referral_tracking.
@@ -103305,6 +103305,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ok.ru/dk?cmd=videoStatNew
 ||ozon.ru/tracker/
 ||pixels.boxberry.ru^
+||pulsarback.mail.ru^
 ||rabota.by/analytics?
 ||rabota.by/stat?
 ||radar.imgsmail.ru^
