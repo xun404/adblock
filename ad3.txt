@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X5KZPoYOAovZKOh+1M67pQ
+! Checksum: BZ9r0LGo+4axgyuopq99yw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112182344
-! Last Modified: 2021年12月18日 23:44
+! Version: 202112190740
+! Last Modified: 2021年12月19日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25266,6 +25266,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /fe/track/*
 /fe_logger?
 /federated-analytics.
+/fender_analytics.
 /figanalytics.
 /figanalytics/*
 /files/ga.js
@@ -31208,7 +31209,9 @@ _mongo_stats/
 ||silverpop.com^$third-party
 ||silverpush.co^$third-party
 ||simonsignal.com^$third-party
+||simpleanalytics.com^$third-party
 ||simpleanalytics.io^$third-party
+||simpleanalyticsbadge.com^$third-party
 ||simpleanalyticscdn.com^$third-party
 ||simpleheatmaps.com^$third-party
 ||simplehitcounter.com^$third-party
@@ -35316,6 +35319,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||happen.spkt.io^
 ||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
+||hb.vhsrv.com^
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||heg-cp.com/upm/$third-party
 ||hello.myfonts.net/count/
@@ -36023,6 +36027,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.segitek.hu^
 ||stat.web-regie.com^
 ||statdb.pressflex.com^
+||static-tracking.klaviyo.com^
 ||static.parsely.com^$third-party
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
@@ -48428,6 +48433,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||huuto.net/js/analytic/
 ||ilcdn.fi^*/Bootstrap.js
 ||is.fi/stats/
+||mha.fi/simple.gif?
 ||mtv3.fi/remarketing.js
 ||nelonenmedia.fi/hitcounter$image
 ||omataloyhtio.fi/ffsw-pushcrew.js
