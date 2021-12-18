@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vCkqOYzXNsNEHCYetaVg1Q
+! Checksum: gQDu9XA1VDDKMHGyBPNWDA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112180945
-! Last Modified: 2021年12月18日 09:45
+! Version: 202112181057
+! Last Modified: 2021年12月18日 10:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26367,6 +26367,7 @@ _800x80_
 ##.leaderboard-advertisement
 ##.leaderboard.ad
 ##.leaderboard.advert
+##.leaderboard1AdWrapper
 ##.leaderboardAd
 ##.leaderboardAdContainer
 ##.leaderboardAdContainerInner
@@ -31392,6 +31393,7 @@ _800x80_
 ##.js-widget-distroscale.distroscale
 ##.js-widget-send-to-news
 ##.legion_primiswrapper
+##.m-video-wafer
 ##.mm-embed--sendtonews
 ##.mm-widget--sendtonews
 ##.pbs__player
@@ -52485,6 +52487,7 @@ tf2r.com#@#.adverts
 ||sportrecs.com/redirect/embed/
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
+||video-api.yql.yahoo.com^*/wf-channel=related-videos?
 ||vidora.com^$third-party
 ||viewdeos.com^$script,third-party
 ||vms-players.minutemediaservices.com^$script,third-party
@@ -54523,6 +54526,7 @@ greatbritishlife.co.uk##.lp_track_vertical2
 thestreet.com##.m-balloon-header
 si.com##.m-balloon-header--spacer
 politifact.com##.m-billboard
+aol.com##.m-healthgrades
 euronews.com##.m-object--is-branded
 tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
@@ -55625,6 +55629,7 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 aniwatcher.com##main > [href] > [src]
 hentai-foundry.com##main > p
 adblock-tester.com##object[width="240"]
+healthgrades.com##ps-action-intercept
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
 torlock.com##table.hidden-xs
@@ -56562,6 +56567,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||dailymotion.com/embed/*?ads_params=$subdocument
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
+@@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
 @@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||dilbert.com/assets/ad-vendor-$script,~third-party
@@ -78824,6 +78830,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/analytics?
 /api/analytics|
 /api/cmp_tracker
+/api/ComScorePageView
 /api/log?
 /api/lt/ref?
 /api/metrics$other
@@ -85250,6 +85257,7 @@ _mongo_stats/
 ||mediaforgews.com^$third-party
 ||mediagauge.com^$third-party
 ||mediaglacier.com^$third-party
+||mediago.io^$third-party
 ||mediametrics.ru^$third-party
 ||mediaplex.com^$third-party
 ||mediarithmics.com^$third-party
@@ -92248,6 +92256,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
 ||beam-ws.giraffe360.com^
+||beam.bankrate.com^
 ||beam.giraffe360.com^
 ||bfp.capitalone.com^
 ||bing.com/fd/ls/GLinkPing.aspx?
