@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h1Vwb+M4PALvYQd2JMMvbA
+! Checksum: scyyjZvxm+Ou9xrD77/Hsg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112200441
-! Last Modified: 2021年12月20日 04:41
+! Version: 202112200740
+! Last Modified: 2021年12月20日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -29714,6 +29714,7 @@ _800x80_
 ##.type_promoads
 ##.tz_ad300_widget
 ##.tz_ad_widget
+##.u-ad-leaderboard__bg
 ##.u-ads
 ##.u-lazy-ad-wrapper
 ##.uds-ad
@@ -38973,6 +38974,7 @@ tf2r.com#@#.adverts
 ||jqueryserve.org^
 ||jqueryserver.com^
 ||jrpkizae.com^
+||js7k.com^
 ||jsbevhlplmdan.xyz^
 ||jscdn.online^
 ||jscloud.org^
@@ -51025,6 +51027,7 @@ tf2r.com#@#.adverts
 ||google.com/dp/ads
 ||google.com/pagead/
 ||googleadapis.l.google.com^$third-party
+||googleads.github.io^
 ||googlesyndication.com/ddm/
 ||googlesyndication.com/pagead/
 ||googlesyndication.com/safeframe/
@@ -53753,8 +53756,13 @@ soccerway.com##.banner-content
 411mania.com##.banner-homebottom-all
 security.org##.banner-img-container
 wireshark.org##.banner-img-downloads
+news12.com##.banner-leaderboard-area
+news12.com##.banner-leaderboardArticle-area
+news12.com##.banner-midContent-area
+news12.com##.banner-middleboard-area
 timesofisrael.com##.banner-placeholder
 tweakreviews.com##.banner-placement__article
+news12.com##.banner-sidebar-area
 pwinsider.com,usahealthcareguide.com##.banner-top
 licenseglobal.com##.banner-top-wrapper
 wpneon.com##.banner-week
@@ -82317,12 +82325,15 @@ fqsousou.com,kengso.com#@#.user-share
 /track/alooma-
 /track/batch?
 /Track/Capture.aspx?
+/track/client-event/*
+/track/client-events
 /track/cm?
 /track/component/*
 /track/count*js
 /track/count/*
 /track/event/*
 /track/hit.gif
+/track/identity?
 /track/imp?
 /track/impression/*
 /track/impression?
@@ -92256,6 +92267,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crayfish.thingelstad.com^
 ||creately.com/static/js/creately-analytics-
 ||crta.metro.co.uk^
+||crunchyroll.com/tracker?
 ||cstats.sankakucomplex.com^
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
