@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3DfibkgYHViM5HIKmE5/Ow
+! Checksum: /2gCT5ZyW/7g6etv/h/qJQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112202143
-! Last Modified: 2021年12月20日 21:43
+! Version: 202112202345
+! Last Modified: 2021年12月20日 23:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -53354,6 +53354,7 @@ wowway.net###sc_read_header_banner
 my.juno.com###scienceTile
 yahoo.com###sda-LDRB
 yahoo.com###sda-LDRB2
+yahoo.com###sda-LREC
 yahoo.com###sda-MAST
 yahoo.com###sda-WFPAD
 abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,scripts.com,symbols.com###sela-container
@@ -55710,6 +55711,7 @@ outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 psychcentral.com##aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
+cnn.com#?#.zn__containers:-abp-has(a[href^="https://www.fool.com/"])
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
@@ -66153,6 +66155,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||toutiaoyule.com/n/dspshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+oeeee.com###adImg
+oeeee.com##.homeAD
 swoole.com##.swoole-resource
 swoole.com##.wiki-resource
 mengzhan123.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
