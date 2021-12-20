@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 27PJCGQm1G+aAS7qNkBydw
+! Checksum: LfLprs/WJksiYCc1/tK0+g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112200944
-! Last Modified: 2021年12月20日 09:44
+! Version: 202112201055
+! Last Modified: 2021年12月20日 10:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55112,6 +55112,7 @@ trademe.co.nz##.tm-display-ad__wrapper
 last.fm##.tonefuze
 duplichecker.com##.tool_bg.col-md-12 > div
 euobserver.com##.top
+mashable.com##.top-0.sticky > div
 artistdirect.com##.top-add
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
 gptoday.net##.top-banner-leaderboard
@@ -55642,6 +55643,7 @@ aniwatcher.com##main > [href] > [src]
 hentai-foundry.com##main > p
 adblock-tester.com##object[width="240"]
 healthgrades.com##ps-action-intercept
+mashable.com##section.mt-4 > div
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
 torlock.com##table.hidden-xs
@@ -66257,6 +66259,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mengzhan123.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
+mengzhan123.com##.ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
