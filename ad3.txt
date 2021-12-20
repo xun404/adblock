@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VZGRqcRKhNW7SPInVNVmmA
+! Checksum: /P5tV+Y8PLxYUlamrAMg6w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112201539
-! Last Modified: 2021年12月20日 15:39
+! Version: 202112201646
+! Last Modified: 2021年12月20日 16:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9247,6 +9247,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||baidu.com/ndcore/interface/searchTop?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 mengzhan123.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
@@ -14917,7 +14918,7 @@ jd.com#@#.ads-item
 gsxt.gov.cn#@#.ads-right
 159i.com,movieffm.net,techroomage.com,zhaopin.com#@#.adsBox
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
-android-doc.com,apk.tw,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,reh.tw,shenfendaquan.com,tingfm.com,vaptcha.com,yabook.org#@#.adsbygoogle
+android-doc.com,apk.tw,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com,yabook.org#@#.adsbygoogle
 qq.com#@#.adside
 ruten.com.tw#@#.adslot
 gdmm.com,gkstk.com,youquba.net#@#.adtop
@@ -15045,7 +15046,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn
 @@_cpm_cpa_$domain=52xkdy.com
 @@u-ads.adap.tv*youku.$domain=youku.com
-@@|http*://$image,script,subdocument,third-party,xmlhttprequest,domain=tingfm.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
@@ -22094,7 +22094,6 @@ sonkwo.hk##.store-ad-waist
 360kuai.com##.taskbar
 bjd.com.cn##.screenad
 sina.com.cn##A[href="https://touzi.sina.com.cn/"]
-finance.sina.com.cn##DIV[class*="game"]
 weimob.com###active-entrance
 pconline.com.cn##.fixLeftQRcode
 cheetahfun.com##.guide
