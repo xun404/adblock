@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: awlB8ogNTBcLw9IOGD0hmg
+! Checksum: kp5mKtYFgDW69sioXqKjGg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112220147
-! Last Modified: 2021年12月22日 01:47
+! Version: 202112220247
+! Last Modified: 2021年12月22日 02:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7039,6 +7039,7 @@ tieba.baidu.com##.tuijian-wrap
 =oas_tag.
 =PAGE_AD_
 =partnerad&
+=PencilAd&
 =pm_ads&
 =rightAds_
 =showsearchgoogleads&
@@ -27718,6 +27719,7 @@ _800x80_
 ##.prod_grid_ad
 ##.product-ad
 ##.product-ads
+##.product-ads-carousel
 ##.product-bar-ads
 ##.product-inlist-ad
 ##.profile-ad-container
@@ -37560,6 +37562,7 @@ tf2r.com#@#.adverts
 ||getdonspeg.work^
 ||getiluda.com^
 ||getinclinarss.xyz^
+||getjad.io^
 ||getoptad360.com^
 ||getp.xyz^
 ||getpdaiddaily.com^
@@ -48812,9 +48815,7 @@ tf2r.com#@#.adverts
 ||6kup12tgxx.com^$popup
 ||72b8869dfc34690.com^$popup
 ||87159d7b62fc885.com^$popup
-||888games.com^$popup,third-party
 ||888media.net^$popup,third-party
-||888poker.com^$popup,third-party
 ||888promos.com^$popup,third-party
 ||8baf7ae42000024.com^$popup
 ||900bets10.com^$popup
@@ -53521,11 +53522,6 @@ wowway.net###sc_home_news_banner
 wowway.net###sc_home_recommended_banner
 wowway.net###sc_read_header_banner
 my.juno.com###scienceTile
-yahoo.com###sda-LDRB
-yahoo.com###sda-LDRB2
-yahoo.com###sda-LREC
-yahoo.com###sda-MAST
-yahoo.com###sda-WFPAD
 abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,scripts.com,symbols.com###sela-container
 triblive.com###shopsWidget
 thefastmode.com###side_ads_small
@@ -53658,7 +53654,6 @@ macworld.co.uk###vTXbybUFn
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 forums.tomsguide.com###video_ad
-yahoo.com###viewer-LREC2-iframe
 gumtree.com###vipBanner
 playstationtrophies.org###vnt-lb-a
 browserleaks.com###vpn_img
@@ -55238,7 +55233,6 @@ videogameschronicle.com##.vgc-boxout
 bestlifeonline.com,eatthis.com##.vi-video-wrapper
 vice.com##.vice-ad__container
 nasdaq.com##.video-placeholder
-yahoo.com##.viewer-sda-container
 variety.com##.vip-banner
 visualcapitalist.com##.visua-target
 roosterteeth.com##.vjs-marker
@@ -55592,7 +55586,6 @@ gadgetsnow.com##div[id^="div-u-id-"]
 thewrap.com##div[id^="dsk-box-ad"]
 whatsondisneyplus.com##div[id^="extra_mpu_"]
 micast.tv##div[id^="floatLayer"]
-yahoo.com##div[id^="gemini-item-"]
 mangatigre.com##div[id^="i-d-cr-page"]
 medicalnewstoday.com##div[id^="inline3"]
 dexerto.com##div[id^="jwplayer_"]
@@ -55706,7 +55699,7 @@ autoaction.com.au,cryptoreporter.info,dafont.com,forexmt4indicators.com,irishcat
 boxthislap.org##img[width="728px"][height="90px"]
 dailyuploads.net##input[value^="Download From Server"]
 broadbandforum.co##ins[data-ad-client]
-yahoo.com##li[data-test-locator="stream-related-ad-item"]
+linkedin.com##li[data-is-sponsored="true"]
 aniwatcher.com##main > [href] > [src]
 hentai-foundry.com##main > p
 adblock-tester.com##object[width="240"]
@@ -55770,7 +55763,15 @@ bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 kidspot.com.au##.secondary-video
 macworld.co.uk##.videoContainer
 ##.section-subheader > .section-hotel-prices-header
+yahoo.com###defaultLREC
+yahoo.com###sda-LDRB
+yahoo.com###sda-LDRB2
+yahoo.com###sda-LREC
+yahoo.com###sda-LREC2
+yahoo.com###sda-MAST
+yahoo.com###sda-WFPAD
 mail.yahoo.com###slot_LREC
+yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 yahoo.com##.ads
 yahoo.com##.darla
@@ -55781,7 +55782,9 @@ yahoo.com##.ds_promo_ymobile
 yahoo.com##.gemini-ad
 yahoo.com##.gemini-ad-feedback
 yahoo.com##.item-beacon
+yahoo.com##.ntk-ad-item
 yahoo.com##.sys_shopleguide
+yahoo.com##.viewer-sda-container
 mail.yahoo.com##[data-test-id^="pencil-ad"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##div[class*="ads-"]
@@ -55790,7 +55793,9 @@ yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
 yahoo.com##div[id*="ComboAd"]
 yahoo.com##div[id^="LeadAd-"]
 yahoo.com##div[id^="darla-ad"]
+yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
+yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
