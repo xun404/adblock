@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GSTwCJxK90P/2vD98KPbdw
+! Checksum: aYrj+VzPTmoc3EwVl3PUqg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112231843
-! Last Modified: 2021年12月23日 18:43
+! Version: 202112231937
+! Last Modified: 2021年12月23日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -78279,7 +78279,7 @@ fqsousou.com,kengso.com#@#.user-share
 -ga-tracking/
 -gatracker.
 -geoIP.js
--google-analytics-$domain=~wordpress.org
+-google-analytics-$script,domain=~wordpress.org
 -google-analytics.
 -google-analytics/$domain=~wordpress.org
 -heatmaps-analytics/
@@ -102995,6 +102995,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||al.autohome.com.cn^
 ||alarm.youku.com/api/sendAlarm
 ||alicdn.com/f/pcdn/i.php?
+||analytics-gw.games.wanmei.com^
 ||analytics.126.net^
 ||analytics.163.com^
 ||analytics.oneplus.cn^
@@ -103203,6 +103204,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||v.blog.sohu.com/dostat.do?
 ||vatrack.hinet.net^
 ||vipstatic.com/mars/
+||wanmei.com/public/js/stat.js
 ||weather.com.cn/a1.js
 ||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^

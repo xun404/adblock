@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sIfmMMZ0eHBOyGIu2DI6Ag
+! Checksum: sb1SZHcdnAz2gfaFDx4lQw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112231744
-! Last Modified: 2021年12月23日 17:44
+! Version: 202112231937
+! Last Modified: 2021年12月23日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23551,7 +23551,7 @@ weibo.com##.apps_PCD_reco_detail_right
 -ga-tracking/
 -gatracker.
 -geoIP.js
--google-analytics-$domain=~wordpress.org
+-google-analytics-$script,domain=~wordpress.org
 -google-analytics.
 -google-analytics/$domain=~wordpress.org
 -heatmaps-analytics/
@@ -48267,6 +48267,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||al.autohome.com.cn^
 ||alarm.youku.com/api/sendAlarm
 ||alicdn.com/f/pcdn/i.php?
+||analytics-gw.games.wanmei.com^
 ||analytics.126.net^
 ||analytics.163.com^
 ||analytics.oneplus.cn^
@@ -48475,6 +48476,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||v.blog.sohu.com/dostat.do?
 ||vatrack.hinet.net^
 ||vipstatic.com/mars/
+||wanmei.com/public/js/stat.js
 ||weather.com.cn/a1.js
 ||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^
