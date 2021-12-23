@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /K38a6vGrHcZuzmy0j4CIA
+! Checksum: tpKeGoWVXGrJbrBku5BRqA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112230943
-! Last Modified: 2021年12月23日 09:43
+! Version: 202112231055
+! Last Modified: 2021年12月23日 10:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12540,6 +12540,7 @@ _800x80_
 ###bigbox-ad
 ###bigsidead
 ###billboard-ad-container
+###billboard-atf
 ###billboard_ad
 ###bingadcontainer2
 ###bl11adv
@@ -19724,6 +19725,7 @@ _800x80_
 ##.ad__mpu
 ##.ad__placeholder
 ##.ad__rectangle
+##.ad__sidebar
 ##.ad__sticky-desktop
 ##.ad__superbanner
 ##.ad__width-by-height
@@ -55635,6 +55637,7 @@ mangatigre.com##div[id^="i-d-cr-page"]
 medicalnewstoday.com##div[id^="inline3"]
 dexerto.com##div[id^="jwplayer_"]
 mediabiasfactcheck.com##div[id^="media-"]
+gamebyte.com##div[id^="mpu"]
 ebay.co.uk,ebay.com,ebay.com.au,ebay.de##div[id^="plmt_html_"]:not(#plmt_html_101113):not(#plmt_html_101224)
 yopmail.com,yopmail.fr,yopmail.net##div[id^="pub"]
 howtogeek.com##div[id^="purch_"]
