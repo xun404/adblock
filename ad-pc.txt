@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tpKeGoWVXGrJbrBku5BRqA
+! Checksum: lB3tSzdaDJPu2FipYh674w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112231055
-! Last Modified: 2021年12月23日 10:55
+! Version: 202112231143
+! Last Modified: 2021年12月23日 11:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7066,7 +7066,6 @@ tieba.baidu.com##.tuijian-wrap
 ?adname=
 ?adPageCd=
 ?adpartner=
-?ads_params=
 ?adsdata=
 ?adsite=
 ?adsize=
@@ -56712,7 +56711,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
-@@||dailymotion.com/embed/*?ads_params=$subdocument
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
@@ -69070,8 +69068,8 @@ firefoxchina.cn##.feed-tm11
 kalvin.cn##.fell_advertisement_box
 3dmgame.com##.fell_left_advertisement
 ytbbs.com##.fend_ad
-baidu.com##.fengchao-wrap
-baidu.com##.fengchao-wrap-feed
+baidu.com,bdimg.com##.fengchao-wrap
+baidu.com,bdimg.com##.fengchao-wrap-feed
 home.ifeng.com##.fengjc02
 hao.360.cn##.festival_snatch
 firefoxchina.cn##.ff-banner
@@ -70489,7 +70487,7 @@ qq.com##.tb12-activity
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_info.poster_success
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_placeholder
 emumax.com##.tbanner
-1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tbui_aside_float_bar + .clearfix
+1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com,wefan.baidu.com##.tbui_aside_float_bar + .clearfix
 9u8u.com##.tc-box
 baidu.com##.tc-card[tpl="fc_before_fixads"]
 52pk.com##.tcgg
@@ -74194,6 +74192,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fajuer.xyz^
 ||lujingyu.fun^
 ||jx3yixi.club^
+||banbw.com^
+||bdwst1.xyz^
+||meshare.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
