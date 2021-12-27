@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rrh9kiBNj1L8aNoj/O0QEw
+! Checksum: jSef4PzV5u30tjE7uSdR1Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112271539
-! Last Modified: 2021年12月27日 15:39
+! Version: 202112271648
+! Last Modified: 2021年12月27日 16:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57222,6 +57222,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/css/gg.js
 -880-80-4.jpg
 /js/ads/hf*.js
 -90mh-gg.
@@ -65625,8 +65626,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tui.gtimg.com//res/
 ||tuicool.com/images/upload/aliyun
-||tujigu.com/css/gg.js
-||tujigu.net/css/gg.js
 ||tupian55.com^*.gif
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
@@ -66363,6 +66362,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jable.tv/assets/images/*-slider.
 ||jsdelivr.net/gh/cloud-files-cdn/jsfiles/lieqi.
 ||cnprint.org/bbs/images/gg/
+||bolecdn.com/button/txt.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 jable.tv###jimds-slider
