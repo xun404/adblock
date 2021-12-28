@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zWoWA9S7bXygN16SuRz3DA
+! Checksum: 5YJT2k55W7SHXix2xd55qA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112282239
-! Last Modified: 2021年12月28日 22:39
+! Version: 202112282345
+! Last Modified: 2021年12月28日 23:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55726,6 +55726,8 @@ adblock-tester.com##object[width="240"]
 bitref.com##picture > img[src]
 healthgrades.com##ps-action-intercept
 mashable.com##section.mt-4 > div
+thefreedictionary.com##section:nth-of-type(1)
+thefreedictionary.com##section:nth-of-type(5)
 bbc.com##section[data-e2e="advertisement"]
 reddit.com##shreddit-comments-page-ad
 tempostorm.com##side-banners
@@ -61340,6 +61342,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+||coconutsumptuousreseptivereseptive.com^$popup
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
 /htmm/20*.php$popup
@@ -66100,7 +66103,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
 ||yatu.tv/m/images/*300_100
-||ybbs.ca/index/js/advReplay_
 ||yccz.net/xml/
 ||yczbb.*/ggimg/
 ||ydss.cn/static/js/autoAd.js
@@ -66177,7 +66179,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
 ||yoka.com/s?z=
 ||yongjiuzy.cc/yongjiu.gif
-||yorkbbs.ca/yorkads/
 ||you85.net/ck2/
 ||youaima.com/rest/
 ||youaima.com/zz/
@@ -66407,6 +66408,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||2114.com/zb_users/script/advertise.js
+||yorkbbs.ca/crm/section/v1/get/list/open
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 router.houzi-blog.top##.img
@@ -70511,7 +70513,6 @@ chineseinla.com##.text-ads-col
 baidu.com##.text-advertise
 fastadmin.net##.text-center > .carousel
 baidu.com##.text-link-ads
-yorkbbs.ca##.textNewsBorder
 auto-online.com.tw##.text_links_h
 jiyingw.net##.textwidget > p > a > img
 maomaomom.com##.textwidget > table[width="1050"]
