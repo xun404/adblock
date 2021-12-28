@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hnP7pbJ7LI6PcIf0whvmdQ
+! Checksum: ZTwKWtJPlb9fN9Se8VhZnQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202112281646
-! Last Modified: 2021年12月28日 16:46
+! Version: 202112282141
+! Last Modified: 2021年12月28日 21:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -9288,6 +9288,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||2114.com/zb_users/script/advertise.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+router.houzi-blog.top##.img
+v2rayssr.com###gg-box
 bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 szxx.com.cn###A1
@@ -21073,9 +21075,7 @@ softblog.tw#@#.dshare
 carousell.com#@#.fb-b
 sui.com#@#.fb-btn
 douyu.com,oschina.net#@#.follow-btn
-bilibili.com#@#.follow-wrapper
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
-gamersky.com#@#.like2
 readmoo.com#@#.navbar-social
 youdao.com#@#.open-share
 music.163.com#@#.p-share
