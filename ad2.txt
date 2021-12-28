@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /x6mYIXA6POdYM+O9RE9wg
+! Checksum: PoV96mLvkA0F0r1LB8jjxw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202112280146
-! Last Modified: 2021年12月28日 01:46
+! Version: 202112280943
+! Last Modified: 2021年12月28日 09:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1250,6 +1250,7 @@ ubmcmm.baidustatic.com
 ##.ggpost-below
 ##.ggtop
 ##.ggw
+##.txp_ad[data-role="txpad-interact-pause"]
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
@@ -9284,6 +9285,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||2114.com/zb_users/script/advertise.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17070,6 +17072,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||zixiaxianhua.shop^
+||yumu.pro^
+||bcjxwlkj.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
