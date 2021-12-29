@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +ip2OrddhFhsMOnWg41oYg
+! Checksum: sAZ2bKx5JZGosaLxw65Hrg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112291742
-! Last Modified: 2021年12月29日 17:42
+! Version: 202112291843
+! Last Modified: 2021年12月29日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27083,6 +27083,7 @@ _800x80_
 ##.native-ad-placeholder
 ##.native-ad-promoted-provider
 ##.native-ad-slot
+##.native-ad__first
 ##.native-adv
 ##.native-advts
 ##.native-leaderboard-ad
@@ -52692,6 +52693,7 @@ tf2r.com#@#.adverts
 ||vms-players.minutemediaservices.com^$script,third-party
 ||voqally.com/hub/app/
 ||vplayer.newseveryday.com^
+||widgets.outbrain.com^$domain=cnn.com
 ||centent.streamp1ay.
 ||cintent.streanplay.
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
@@ -84994,6 +84996,7 @@ _mongo_stats/
 ||datazoom.io^$third-party
 ||datvantage.com^$third-party
 ||daylogs.com^$third-party
+||db-ip.com^$third-party
 ||dc-storm.com^$third-party
 ||dc.tremormedia.com^$third-party
 ||dcmn.com^$third-party
@@ -87074,6 +87077,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||notifadz.com^$third-party
 ||notifpush.com^$third-party
 ||notify.solutions^$third-party
+||notix.io^$third-party
 ||olgtex.com^$third-party
 ||on-push.com^$third-party
 ||onepush.app^$third-party
@@ -89766,6 +89770,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||az693360.vo.msecnd.net^
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/track
+||azurewebsites.net/api/views?
 ||azurewebsites.net/TrackView/
 ||azurewebsites.net^*/telemetry.js
 ||b-aws.aol.com^
@@ -92939,6 +92944,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||exr-mms.expertreviews.co.uk^
 ||extendoffice.com/analytics.js
 ||extremetech.com/cszn/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
+||f362.nola.com^
 ||facebook.com/a/bz?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
