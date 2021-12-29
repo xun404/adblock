@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DoXXhDeGhPY99vywGgNkhQ
+! Checksum: dFzZmR3PXU9PBlXL6oX7kA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112292142
-! Last Modified: 2021年12月29日 21:42
+! Version: 202112300103
+! Last Modified: 2021年12月30日 01:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -26332,6 +26332,7 @@ _800x80_
 ##.lg-ads-skin-container
 ##.lgRecAd
 ##.lg_ad
+##.liberty-ad-renderer-iframe
 ##.liboxads
 ##.ligatus
 ##.lightad
@@ -58875,6 +58876,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||xiaodongjun.com^
+||qzi-ggjsyuming.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -66447,8 +66449,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
 ||yc58.com/tencent
+||kisssub.*/public/imgbed/gg/
+||91hs005.xyz/p/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hsex.men###container > div:not([class])
 36kr.com##.home-ad-flow-banner
 36kr.com##.kr-ad-home-flow-banner
 yc58.com###contain1
