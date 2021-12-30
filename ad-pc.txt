@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a8eD0k1Q75gsbUBuw8cgsw
+! Checksum: ugYcn38q8nHcx4u88sQjEg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112301142
-! Last Modified: 2021年12月30日 11:42
+! Version: 202112301253
+! Last Modified: 2021年12月30日 12:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18199,6 +18199,7 @@ _800x80_
 ##.ad-dfp-row
 ##.ad-disclaimer
 ##.ad-disclaimer-container
+##.ad-disclaimer-text
 ##.ad-display
 ##.ad-displayed
 ##.ad-div
@@ -24312,6 +24313,7 @@ _800x80_
 ##.custom-ads
 ##.custom-advert-banner
 ##.custom-banner-leaderboard-ad
+##.custom-sticky-ad-container
 ##.customAd
 ##.custom_ad
 ##.custom_ads
@@ -52677,6 +52679,7 @@ tf2r.com#@#.adverts
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
 ||embed.sendtonews.com^$third-party
+||fqtag.com^$third-party
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
 ||fwcdn2.com^$third-party
@@ -55937,6 +55940,7 @@ ginx.tv###ginx-floatingvod-containerspacer
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
+sciencetimes.com##.article-videoplayer
 techwalla.com##.component-article-section-jwplayer-wrapper
 digitaltrends.com##.dtvideos-container
 thestar.co.uk##.gOoqzH
@@ -55944,6 +55948,7 @@ radaronline.com##.hIlCTc
 dexerto.com##.jwplayer
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
+sciencetimes.com##.player
 kidspot.com.au##.secondary-video
 petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
@@ -74382,6 +74387,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||artisan-digital.cn^
 ||dhejr.cn^
+||ma716.cn^
+||ncgywud.cn^
+||fengyiwc.xyz^
+||tong.pub^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85263,7 +85272,6 @@ _mongo_stats/
 ||fpjs.io^$third-party
 ||fprnt.com^$third-party
 ||fqsecure.com^$third-party
-||fqtag.com^$third-party
 ||fraudjs.io^$third-party
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
