@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UHCrvwYI8Pn1nC5ytwwHRw
+! Checksum: kkNstfYmPel76t+G0r8mMg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201030539
-! Last Modified: 2022年01月03日 05:39
+! Version: 202201030641
+! Last Modified: 2022年01月03日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -23850,6 +23850,8 @@ _800x80_
 ##.cactus-header-ads
 ##.cactus-img-ads
 ##.cactus-mutil-ads
+##.cafemedia-ad-slot-right1
+##.cafemedia-ad-slot-top
 ##.caja_ad
 ##.calendarAd
 ##.california-ad
@@ -55579,6 +55581,7 @@ theblaze.com##[data-category="SPONSORED"]
 medicalnewstoday.com##[data-empty="true"]
 greatist.com,psychcentral.com##[data-empty]
 phoneia.com##[data-index]
+howtogeek.com##[data-nosnippet="data-nosnippet"]
 namepros.com##[data-np-ga-event="ad"]
 washingtonpost.com##[data-qa="article-body-ad"]
 ginx.tv##[data-ref]
@@ -55623,6 +55626,7 @@ audiobookbay.nl##[href^="/down-"]
 steroid.com##[href^="/out.php"]
 myabandonware.com##[href^="/visual/r-2/"]
 radiotoday.co.uk##[href^="http://go.radiotoday.co.uk/"]
+howtogeek.com##[href^="http://macpaw.7eer.net/"]
 hltv.org##[href^="http://out.hltv.org/"]
 igg-games.com##[href^="http://s2.igg-games.com/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
@@ -82214,7 +82218,7 @@ fqsousou.com,kengso.com#@#.user-share
 /public/visitor/create?
 /publisher:getClientId?key=
 /publishertag.js
-/pubstats.
+/pubstats.$domain=~pubstats.dev
 /pubtag.js?
 /pulsario.js
 /push/page-view/*
@@ -82247,6 +82251,7 @@ fqsousou.com,kengso.com#@#.user-share
 /px.gif?
 /px.js?ch=$script
 /px/*/blank.gif?
+/px/client/main.min.js
 /px?t=
 /px_trans.gif
 /pxa.min.js
