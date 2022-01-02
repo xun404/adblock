@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3JY/CMu6caUi4DLdGr6mpg
+! Checksum: UHCrvwYI8Pn1nC5ytwwHRw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201022238
-! Last Modified: 2022年01月02日 22:38
+! Version: 202201030539
+! Last Modified: 2022年01月03日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26207,6 +26207,7 @@ _800x80_
 ##.js-advert-container
 ##.js-advert-upsell-popup
 ##.js-advertising__placeholder1
+##.js-anchor-ad
 ##.js-billboard-advert
 ##.js-cardview_ad-320x180
 ##.js-cardview_ad-320x50
@@ -54602,6 +54603,7 @@ satbeams.com##.footer_banner
 tiresandparts.net##.footer_top_banner
 eurocupbasketball.com,euroleague.net##.footersponsors-container
 nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
+myanimelist.net##.for-sp
 permies.com##.forum-top-banner
 newsroom.co.nz##.foundingpartners
 theiphoneappreview.com##.frame
@@ -82464,6 +82466,7 @@ fqsousou.com,kengso.com#@#.user-share
 /sc_trackingid.
 /sclanalyticstag.
 /scmetrics.*/b/ss/*
+/screencount?vcid=
 /scribd_events?
 /script/analytics.
 /script/analytics/*
@@ -83672,6 +83675,7 @@ fqsousou.com,kengso.com#@#.user-share
 /visitorCookie.
 /visitorcountry.svc/*
 /VisitorIdentification.js
+/visitors/screencount?
 /visitortrack?
 /visitortracker.pl?
 /visits/pixel?
