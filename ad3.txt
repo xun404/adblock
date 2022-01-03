@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XZqlZiziHggnxLxKwQlSow
+! Checksum: wIMcPWLkzqN6N52CFFWpYg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201030944
-! Last Modified: 2022年01月03日 09:44
+! Version: 202201031056
+! Last Modified: 2022年01月03日 10:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23711,6 +23711,7 @@ weibo.com##.apps_PCD_reco_detail_right
 &ref=*&tag=
 &refer=http$script
 &refererPageDetail=
+&stats_tkn=
 &t=pageview&
 &tag=IMPRESSION&
 &trackingserver=
@@ -23947,6 +23948,8 @@ weibo.com##.apps_PCD_reco_detail_right
 /?essb_counter_
 /?fp=*&prvtof=
 /?livehit=
+/?log=experiment&
+/?log=performance-
 /?mob.ct=
 /?record&key=
 /?sentry_key=
@@ -49928,6 +49931,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cdn.cxense.com/cx.cce.js$domain=tarzanweb.jp
 @@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|wpb.shueisha.co.jp
+@@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||cm-beacon.nakanohito.jp/at/ranking/$script
@@ -49944,6 +49948,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||fast.appcues.com^$script,domain=initial.inc
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||game-tsutaya.tsite.jp/pc/common/scripts/analytics/s_code_ggame.js
+@@||google-analytics.com/analytics.js$domain=cmoa.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mangaseek.net|nap-camp.com|radiko.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
@@ -49960,6 +49965,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
+@@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||s.yjtag.jp/tag.js$script,domain=www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
