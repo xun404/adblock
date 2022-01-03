@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G7UNjDFnF+QgglzTLCHrrQ
+! Checksum: twuTjexRzUBkt6KDd9qHNQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201040641
-! Last Modified: 2022年01月04日 06:41
+! Version: 202201040741
+! Last Modified: 2022年01月04日 07:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30059,6 +30059,7 @@ _mongo_stats/
 ||coremetrics.com^$third-party
 ||coremotives.com^$third-party
 ||cost1action.com^$third-party
+||count.ly^$third-party
 ||countby.com^$third-party
 ||counter.dev^$third-party
 ||counter.gd^$third-party
@@ -49315,6 +49316,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
+@@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||atl-paas.net/analytics/event
 @@||atptour.com/assets/atpwt/scripts/util/googleAnalytics.js$~third-party
