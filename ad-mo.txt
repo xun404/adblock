@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1ujmsdbFwfnk/TUIiIJ3cQ
+! Checksum: Fr6b+U0wEE9DK49Avih0Rg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201040337
-! Last Modified: 2022年01月04日 03:37
+! Version: 202201040641
+! Last Modified: 2022年01月04日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31691,6 +31691,7 @@ t3.com#@#.ads-inline
 hatenacorp.jp#@#.ads-link
 circus-dev.com#@#.ads-list
 juicesky.com#@#.ads-title
+pop-music.ir#@#.ads-top
 mastersclub.jp#@#.ads.widget
 getwallpapers.com,wallpaperset.com#@#.ads1
 jw.org#@#.adsBlock
@@ -35369,7 +35370,6 @@ tf2r.com#@#.adverts
 ||creasureeffe.club^
 ||create2fear.com^
 ||creative-serving.com^
-||creativecdn.com^
 ||creativedisplayformat.com^
 ||creativeformatsnetwork.com^
 ||credentialpetrolenglish.com^
@@ -47916,6 +47916,7 @@ tf2r.com#@#.adverts
 ||cpm.media^$third-party
 ||cpmleader.com^$third-party
 ||crakmedia.com^$third-party
+||creativecdn.com^$third-party
 ||crispads.com^$third-party
 ||croea.com^$third-party
 ||cryptoads.space^$third-party
@@ -93186,6 +93187,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/log?
 ||goseek.com/session-
 ||goseek.com/track-
+||grabify.link/api/js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
 ||gsght.com/twizards.js
@@ -104392,6 +104394,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||smartrevise.online/css/analytics.min.css$~third-party
+@@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
