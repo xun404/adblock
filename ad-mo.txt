@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tV1Bt9mnk4Lmw8lVXOr00A
+! Checksum: k3C63vP9swng1qT1IEI8jw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201041539
-! Last Modified: 2022年01月04日 15:39
+! Version: 202201041646
+! Last Modified: 2022年01月04日 16:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55389,6 +55389,10 @@ businessonhome.com##.text-info
 sciencedaily.com##.textrule
 evilbeetgossip.com##.textwidget
 tftcentral.co.uk##.tftce-adlabel
+thedailyusnews.com##.theda-id-1
+thedailyusnews.com##.theda-id-2
+thedailyusnews.com##.theda-id-3
+thedailyusnews.com##.theda-id-4
 steelersdepot.com##.theiaStickySidebar
 check-host.net##.thold10xr
 duplichecker.com##.tikimon
@@ -105688,6 +105692,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||docer.org/static/utils/jquery.min.js
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||kf.qingwk.com^
+||423down.com^$csp=script-src
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
