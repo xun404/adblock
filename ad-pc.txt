@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YU6u3+uIrQdWxKCNqOjnig
+! Checksum: Ol2P0Qh0SzISnVIKqh+EtA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201051743
-! Last Modified: 2022年01月05日 17:43
+! Version: 202201051843
+! Last Modified: 2022年01月05日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24236,6 +24236,7 @@ _800x80_
 ##.contentTopAdSmall
 ##.contentTopAds
 ##.content_468_ad
+##.content__ad__content
 ##.content_ad
 ##.content_ad_728
 ##.content_ad_head
@@ -55018,7 +55019,7 @@ syfy.com##.mps-container
 edarabia.com##.mpu-300
 arabiaweather.com##.mpu-card
 dailymail.co.uk##.mpu_puff_wrapper
-ebay.com,geo.tv,jozifm.co.za,nwherald.com,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
+10play.com.au,ebay.com,geo.tv,jozifm.co.za,nwherald.com,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
 motorsport.com##.ms-ap
 autosport.com##.ms-apb
 motorsport.com##.ms-apb-dmpu
@@ -105873,7 +105874,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||docer.org/static/utils/jquery.min.js
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||kf.qingwk.com^
-||423down.com^$csp=script-src
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
