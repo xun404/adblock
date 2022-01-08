@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WmnAYUURxrnyLIzZG/gPXA
+! Checksum: OdtCqtVWRtCL0abvIwdmEg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201081538
-! Last Modified: 2022年01月08日 15:38
+! Version: 202201081843
+! Last Modified: 2022年01月08日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55080,6 +55080,7 @@ tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 thefastmode.com##.middlebanner
 stripes.com##.min-h90
+revolutionsoccer.net##.mls-o-adv-container
 inhabitat.com##.mn-wrapper
 byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 pcmacstore.com##.mobileHide
@@ -55785,6 +55786,7 @@ zerohedge.com##[class^="Advert_"]
 games.washingtonpost.com##[class^="DisplayAd_"]
 duplichecker.com##[class^="adefaee"]
 uploader.link##[class^="ads"]
+goal.com##[class^="article_rhrCommercial_"]
 swarajyamag.com##[class^="banner-ad-"]
 romhustler.org##[class^="leaderboard_ad"]
 coinmarketcap.com##[class^="sponsoredMark_"]
@@ -55796,6 +55798,7 @@ theblaze.com##[data-category="SPONSORED"]
 medicalnewstoday.com##[data-empty="true"]
 greatist.com,psychcentral.com##[data-empty]
 phoneia.com##[data-index]
+goal.com##[data-name="ad-leaderboard"]
 namepros.com##[data-np-ga-event="ad"]
 washingtonpost.com##[data-qa="article-body-ad"]
 ginx.tv##[data-ref]
@@ -55905,6 +55908,7 @@ publish0x.com##[src^="blob:"]
 tampermonkey.net##[src^="data:image"]
 forum.ragezone.com##[src^="https://clients.ragezone.com/"]
 mql5.com##[src^="https://www.mql5.com/fz/"]
+goal.com##[style*="--card-group-item:ad"]
 medicalnewstoday.com##[style*="line-height: 0;"]
 wahm.com##[style="min-height:250px;"]
 guru99.com##[style^="float"]
@@ -56260,6 +56264,7 @@ southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 sciencetimes.com##.player
 kidspot.com.au##.secondary-video
+goal.com##.semantic-player-embed
 petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
 ##.section-subheader > .section-hotel-prices-header
@@ -59325,11 +59330,14 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/2e9c9aa9.com"]
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
+##a[href$="/186ob.com"]
+##a[href*=".cgn8j9f4j3g.com:"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||yuanlianghui.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -66944,6 +66952,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||hdslb.com/bfs/album/98fecea447de9c557051a00bce0a7adb831c155f.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+141jj.com##a[href*="bit.ly"]
 ifenpaidy.com##a[href*=".taobao.com"]
 ifenpaidy.com##.modal-body
 ifenpaidy.com###new_a
@@ -71477,7 +71486,7 @@ wanyx.com##.zx_box
 11px.cn##.zz
 iqiyi.com##.zzVideo
 11px.cn##.zz_nr
-141jj.com#?#li:-abp-contains(贊助)
+141jj.com#?#li:-abp-contains(/贊助|推廣/)
 159i.com#?#.style15:-abp-has(> img[src="//159i.com/images/arrow3.gif"])
 159i.com#?#:-abp-has(> img[src*="gif"])
 159i.com#?#div:-abp-has(> img+a)
@@ -74756,6 +74765,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||topn.xyz^
 ||smh.ink^
+||edetzmh.cn^
+||etfprj.cn^
+||hnthink.vip^
+||rctxjbv.cn^
+||mkoh.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -79077,6 +79091,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||tracklog.58.com/referrer$~third-party
 @@||udn.com/mall/images/spacer.gif?
 @@||viu.com^*/tracking/
+@@||ss999.me/i.php?i=
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
@@ -106022,6 +106037,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||docer.org/static/utils/jquery.min.js
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||kf.qingwk.com^
+||ypojie.com/wp-content/uploads/*.js
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
