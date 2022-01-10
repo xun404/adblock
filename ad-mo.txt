@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +eUVtWuEexpbMCjvH/RpIw
+! Checksum: p6Pj0Z74POFcM+7l6bjLBg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201102144
-! Last Modified: 2022年01月10日 21:44
+! Version: 202201102245
+! Last Modified: 2022年01月10日 22:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -66868,6 +66868,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+chuandong.com##div[class*="-ad"]
+chuandong.com##A[href*="/ad/"]
+maidi.me###diy15
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -74688,6 +74691,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jameschan.info^
 ||x56za02.cn^
 ||bdtao.vip^
+||piwvk.cn^
+||cyperjs.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -79801,6 +79806,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/tracing?
 /api/track?guid
 /api/tracking/*
+/api/trk?
 /api/v1/collector
 /api/v1/metrics
 /api/v1/stat?
@@ -83401,6 +83407,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track/view|
 /track/visitors/?
 /track/visits/?
+/track/w-pixel?
 /track2.php
 /track?*&event=
 /track?_event=
@@ -83761,6 +83768,7 @@ fqsousou.com,kengso.com#@#.user-share
 /trk.*/tracking.
 /trk.gif?
 /trk.php?
+/trk/api/*
 /trk2.*/open?$image
 /trk?t=$image
 /trk_tb.
