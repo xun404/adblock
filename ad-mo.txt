@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ufsS67BAH731Rpy/erIT/w
+! Checksum: SbefGjDu+Bs/yxQ6NIe4hA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201101844
-! Last Modified: 2022年01月10日 18:44
+! Version: 202201101938
+! Last Modified: 2022年01月10日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -52832,6 +52832,7 @@ tf2r.com#@#.adverts
 ||connatix.com^$script,third-party
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
+||embed.comicbook.com^$subdocument
 ||embed.sendtonews.com^$third-party
 ||fqtag.com^$third-party
 ||fwcdn1.com/js/fwn.js
@@ -53757,6 +53758,8 @@ myabandonware.com###myabandonware_medrec_left_atf
 myabandonware.com###myabandonware_medrec_right_atf
 myabandonware.com###myabandonware_medrec_right_btf
 mediaupdate.co.za###mycarousel
+comicbook.com###native-plus-top1
+comicbook.com###native-plus-top2
 gearspace.com###navbar_notice_617
 nbcsports.com###nbcsports-leaderboard
 my.juno.com###newsCarousel
@@ -56173,6 +56176,7 @@ dexerto.com##.jwplayer
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 sciencetimes.com##.player
+comicbook.com##.popculture-embed
 kidspot.com.au##.secondary-video
 goal.com##.semantic-player-embed
 petapixel.com##.video-aspect-wrapper
@@ -87483,7 +87487,7 @@ _mongo_stats/
 ||ztsrv.com^$third-party
 ||zuyapixel.com^$third-party
 ||zuzab.com^$third-party
-$ping,domain=~hey.com
+$ping,third-party
 $third-party,xmlhttprequest,domain=opensubtitles.org
 ||artfin.club^
 ||bemarts.club^
