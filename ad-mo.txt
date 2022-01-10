@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vivucRWXEDRdpXdBthLn5A
+! Checksum: LuKTnfNBB/9buG7LGf8Mbg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201110337
-! Last Modified: 2022年01月11日 03:37
+! Version: 202201110641
+! Last Modified: 2022年01月11日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -29258,6 +29258,7 @@ _800x80_
 ##.super-ad
 ##.super-leaderboard-advert
 ##.super-section__ads-wrapper
+##.super-section__header-ad-slot-wrapper
 ##.superLeaderOverallAdArea
 ##.superbanner-adcontent
 ##.supercommentad_left
@@ -30461,6 +30462,7 @@ _800x80_
 ##[href*="https://www.jmbullion.com/gold/"]
 ##[href*="maskip.co/"]
 ##[href*="prayuserparka.com/"]
+##[href*="propu.sh/"]
 ##[href*="wap4dollar.com/"]
 ##[href^="http://advertisesimple.info/"]
 ##[href^="http://globsads.com/"]
@@ -31563,6 +31565,7 @@ _800x80_
 ###taboola_responsive_wrapper
 ##.ab_taboola
 ##.ad-container--taboola
+##.article-body__suppl_content--taboola-mid-article
 ##.article-footer--taboola
 ##.box-taboola-content
 ##.dart-ad-taboola
@@ -55080,7 +55083,7 @@ bizasialive.com##.nipl_add_banners_inner
 tumblr.com##.njwip
 newsmax.com##.nmsponsorlink
 newsmax.com##.nmsponsorlink + [class]
-androidcentral.com,imore.com,windowscentral.com##.no-amazon
+androidcentral.com,imore.com##.no-amazon
 fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
 chipchick.com##.noskim.ntv-moap
@@ -57110,6 +57113,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
+@@||brave.com/static-assets/$image,~third-party
 @@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
 @@||canadianlisted.com/img/ad_img/$~third-party
 @@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
