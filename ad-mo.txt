@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hMSKhBxuI4AHQ27zhZqsmw
+! Checksum: i0EiXf/rE/q+ksT1PLamzA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201101340
-! Last Modified: 2022年01月10日 13:40
+! Version: 202201101539
+! Last Modified: 2022年01月10日 15:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30476,6 +30476,7 @@ _800x80_
 ##[href^="http://join.ts-dominopresley.com/"]
 ##[href^="http://raboninco.com/"]
 ##[href^="http://stvkr.com/"]
+##[href^="http://trafficare.net/"]
 ##[href^="http://www.star-clicks.com/"]
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://awbbjmp.com/"]
@@ -74681,6 +74682,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bgelvy.cn^
 ||rctxpks.cn^
 ||jycwqeo.cn^
+||esp-12f.xyz^
+||jameschan.info^
+||x56za02.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -104711,6 +104715,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party
+@@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||nike.com^*/optimizely.browser.umd.min.js$~third-party
