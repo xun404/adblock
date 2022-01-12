@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DaDQ6eMK9pKeXn8edYVFXQ
+! Checksum: 9lRFxsMXeGLkQWQWOU8J4Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201120743
-! Last Modified: 2022年01月12日 07:43
+! Version: 202201120946
+! Last Modified: 2022年01月12日 09:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24407,6 +24407,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics-js.
 /analytics-js/*
 /analytics-min.js
+/analytics-minimal.
 /analytics-ping.
 /analytics-plugin/*
 /analytics-post-
@@ -35767,9 +35768,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
 ||ingest.make.rvapps.io^
-||inmoment.com.au/intercept/
-||inmoment.com/intercept/
-||inmoment.com/websurvey/
+||inmoment.com.au/intercept/$third-party
+||inmoment.com/intercept/$third-party
+||inmoment.com/websurvey/$third-party
 ||innogamescdn.com/media/js/metrics-
 ||inphonic.com/tracking/
 ||inq.com^*/onEvent?_
@@ -49183,6 +49184,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ss.lv/counter/
 ||stats.tunt.lv^
 ||tanks.lv/top/stats.php
+||lrytas.lt/counter/
 ||click.vgnett.no^
 ||nrk.no^*/stats/
 ||stats.proff.no^
@@ -49524,6 +49526,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
+@@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||glenat.com^*/static/analytics.js$script,~third-party

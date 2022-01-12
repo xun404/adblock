@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xBtvF+v8mUV5JG3dceJIRg
+! Checksum: T9K1Nk7HMpqKiHJtong+gg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201120743
-! Last Modified: 2022年01月12日 07:43
+! Version: 202201120946
+! Last Modified: 2022年01月12日 09:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25464,6 +25464,7 @@ _800x80_
 ##.greyAd
 ##.greyad
 ##.grid-ad
+##.grid-ad-col__big
 ##.grid-ad-section
 ##.grid-advertisement
 ##.grid-block-ad
@@ -51875,6 +51876,7 @@ tf2r.com#@#.adverts
 ||travel.mediaalpha.com/js/serve.js
 ||trendads.reactivebetting.com^
 ||trvl-px.com/trvl-px/
+||typicalstudent.org^$third-party
 ||uploaded.net/img/public/$third-party
 ||utility.rogersmedia.com/wrapper.js
 ||vice-publishers-cdn.vice.com^
@@ -54363,7 +54365,7 @@ surfwap.com##.ahblock2
 journeybytes.com,techpp.com##.ai-attributes
 onlineradious.com##.ai-placement
 uploadvr.com##.ai-sticky-widget
-androidpolice.com,constructionreviewonline.com##.ai-track
+androidpolice.com,constructionreviewonline.com,dereeze.com,tyretradenews.co.uk##.ai-track
 journeybytes.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
 bizpacreview.com,browserhow.com,constructionreviewonline.com,windowslatest.com##.ai_widget
 net-load.com##.ai_widget.widget
@@ -55455,6 +55457,7 @@ middleeasteye.net##.region-before-navigation
 justthenews.com##.region-pre-content
 futbol24.com##.rek
 4shared.com##.remove-rekl
+bbjtoday.com##.replacement
 keengamer.com##.reserved-970
 guru99.com##.responsive-guru99-mobile-devices
 thetimes.co.uk##.responsiveweb-sc-1exejum-0
@@ -55536,7 +55539,7 @@ gaming.uefa.com##.si-ucl--head-bandSprLogo
 stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
 stuff.co.nz##.sics-component__widget--neighbourlyShowcasePlus
 pcgamebenchmark.com##.side
-news.am,viva.co.nz##.side-banner
+news.am,nexter.org,viva.co.nz##.side-banner
 gfycat.com##.side-slot
 vpnmentor.com##.side-top-vendors-wrap
 pr0gramm.com##.side-wide-skyscraper
@@ -55854,7 +55857,7 @@ ign.com##.wiki-bobble
 wethegeek.com##.win
 windowsloop.com##.wl-prakatana
 warontherocks.com##.wotr_top_lbjspot
-teslaoracle.com##.wp-block-image
+gamenguides.com,teslaoracle.com##.wp-block-image
 c19-worldnews.com##.wp-caption
 hack-sat.com##.wp-image-31131
 chromoscience.com,hawaiireporter.com##.wpa
@@ -55907,7 +55910,7 @@ naturalnewsblogs.com##[href*="/WBA/"]
 complaintsingapore.com##[href*="/adv.php"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 steroid.com##[href*="https://www.anabolics.com"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
@@ -79805,6 +79808,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-js.
 /analytics-js/*
 /analytics-min.js
+/analytics-minimal.
 /analytics-ping.
 /analytics-plugin/*
 /analytics-post-
@@ -91165,9 +91169,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
 ||ingest.make.rvapps.io^
-||inmoment.com.au/intercept/
-||inmoment.com/intercept/
-||inmoment.com/websurvey/
+||inmoment.com.au/intercept/$third-party
+||inmoment.com/intercept/$third-party
+||inmoment.com/websurvey/$third-party
 ||innogamescdn.com/media/js/metrics-
 ||inphonic.com/tracking/
 ||inq.com^*/onEvent?_
@@ -104581,6 +104585,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ss.lv/counter/
 ||stats.tunt.lv^
 ||tanks.lv/top/stats.php
+||lrytas.lt/counter/
 ||click.vgnett.no^
 ||nrk.no^*/stats/
 ||stats.proff.no^
@@ -104922,6 +104927,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
+@@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||glenat.com^*/static/analytics.js$script,~third-party
