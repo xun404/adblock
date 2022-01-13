@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: INwcCT4he0aeVEgoheaRyw
+! Checksum: x4IvlvFTtblCqfLAb/NpPg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201131938
-! Last Modified: 2022年01月13日 19:38
+! Version: 202201132103
+! Last Modified: 2022年01月13日 21:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22982,6 +22982,9 @@ _box_ad_
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||kf.qingwk.com^
 ||ypojie.com/wp-content/uploads/*.js
+||yxdm.*/js/ddetector.js
+||eng24.com/js_new/copyright_float.
+||gedu.org/js/meiqia_pc_groupmarket.
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
@@ -23078,6 +23081,7 @@ ke.qq.com##.bottom-bar
 tuchong.com##.float
 baidu.com##.desktop-guide
 bilibili.com##.video-page-game-card
+bilibili.com##.video-page-game-card-small
 ldmnq.com##.dialog-game
 hupu.com###game-center-entrance-container
 hupu.com##DIV[class^="game-center-"]

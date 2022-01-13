@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zGU2g0eGfWjMna81culdqQ
+! Checksum: RVbRCdtg5GAEoFGqPx34zg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201131938
-! Last Modified: 2022年01月13日 19:38
+! Version: 202201132103
+! Last Modified: 2022年01月13日 21:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53669,6 +53669,7 @@ appleworld.today###block-26
 systutorials.com###block-3
 systutorials.com###block-4
 systutorials.com###block-5
+ericpetersautos.com###block-6
 systutorials.com###block-7
 cryptofeeds.news###block-8
 wionews.com###block-adv
@@ -54134,6 +54135,7 @@ geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
 cathnews.co.nz,cryptoreporter.info,net-load.com###text-12
 radiosurvivor.com###text-13
+ericpetersautos.com###text-133
 planetinsane.com###text-14
 geeksforgeeks.org###text-15
 electronicshub.org,geeksforgeeks.org,thesurvivalistblog.net###text-16
@@ -55733,7 +55735,7 @@ protocol.com##.tag-sponsored
 recombu.com##.takeover-right
 shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
-constructionreviewonline.com,cyberparse.co.uk,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
+constructionreviewonline.com,cyberparse.co.uk,ericpetersautos.com,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
 brila.net,cgmagonline.com,gayexpress.co.nz,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap-full
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
@@ -55747,6 +55749,7 @@ justjared.com,justjaredjr.com##.team_med_shell
 justjared.com##.team_med_shell_flex
 itproportal.com##.teaser
 macrumors.com##.tertiary
+ericpetersautos.com##.text-109
 businessonhome.com##.text-info
 sciencedaily.com##.textrule
 evilbeetgossip.com##.textwidget
@@ -93432,8 +93435,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
 ||aa.avvo.com^
-||aax-eu-dub.amazon.com^
-||aax-us-iad.amazon.com^
+||aax-eu-dub.amazon.com^$script
+||aax-us-iad.amazon.com^$script
 ||ab-machine.forbes.com^
 ||ab.fanatical.com^
 ||abcnews.com/assets/dtci/js/abcnews_visitorId.js
@@ -106257,6 +106260,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||kf.qingwk.com^
 ||ypojie.com/wp-content/uploads/*.js
+||yxdm.*/js/ddetector.js
+||eng24.com/js_new/copyright_float.
+||gedu.org/js/meiqia_pc_groupmarket.
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
@@ -106353,6 +106359,7 @@ ke.qq.com##.bottom-bar
 tuchong.com##.float
 baidu.com##.desktop-guide
 bilibili.com##.video-page-game-card
+bilibili.com##.video-page-game-card-small
 ldmnq.com##.dialog-game
 hupu.com###game-center-entrance-container
 hupu.com##DIV[class^="game-center-"]
