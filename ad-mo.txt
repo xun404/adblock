@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3OLUHYJjsOlmRl3AKkJIzQ
+! Checksum: 09o78XvdepV8JvPQOP7NTw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201130741
-! Last Modified: 2022年01月13日 07:41
+! Version: 202201130949
+! Last Modified: 2022年01月13日 09:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57308,6 +57308,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||productioncars.com/pics/menu/$~third-party
 @@||promo.com/embed/$subdocument,third-party
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
+@@||radiotimes.com/static/advertising/$script,~third-party
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rumble.com/embedJS/$script,domain=usawatchdog.com
@@ -74790,6 +74791,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||nbslx.mobi^
+||wswh.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85105,6 +85108,7 @@ _mongo_stats/
 ||admother.com^$third-party
 ||adobedtm.com^$third-party,domain=~adobe.com
 ||adobetag.com^$third-party
+||adobetarget.com^$third-party
 ||adoftheyear.com^$third-party
 ||adoric-om.com^$third-party
 ||adpaths.com^$third-party
@@ -94122,6 +94126,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wwitv.com^
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
+||streamta.site/stat/
 ||streamtape.com/stat/
 ||strtapeadblock.club/stat/
 ||strtpe.link/stat/
