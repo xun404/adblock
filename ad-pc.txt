@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gk7LCZtLgRTDGcv52XqQFg
+! Checksum: JppFVV6R/no9+zu8pjwikQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201150945
-! Last Modified: 2022年01月15日 09:45
+! Version: 202201151058
+! Last Modified: 2022年01月15日 10:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18605,6 +18605,7 @@ _800x80_
 ##.ad-r
 ##.ad-rac-box
 ##.ad-rail
+##.ad-rail-wrapper
 ##.ad-ratio
 ##.ad-ratio-size-300x250
 ##.ad-ratio-size-3x1
@@ -54868,6 +54869,7 @@ startups.co.uk##.dc-leaderboard
 dailycaller.com##.dc-sticky
 ohiostatebuckeyes.com##.dcad
 theguardian.com##.dcr-1aq0rzi
+ign.com##.deals-block
 slashdot.org##.deals-wrapper
 kusports.com##.deals_widget
 mangarockteam.com##.demand-supply
@@ -75004,6 +75006,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
 ||ojtqzxu.cn^
+||rctxsbw.cn^
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
@@ -105880,6 +105883,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
+@@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js

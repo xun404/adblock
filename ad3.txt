@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u6egeRMzyeZBQYoMxsWSBA
+! Checksum: /ulQkQgsYz4TTA83/oBwRw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201150945
-! Last Modified: 2022年01月15日 09:45
+! Version: 202201151058
+! Last Modified: 2022年01月15日 10:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17192,6 +17192,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
 ||ojtqzxu.cn^
+||rctxsbw.cn^
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
@@ -50382,6 +50383,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
+@@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
