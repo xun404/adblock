@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pup2uVadgcdp3JRZCR6Gdg
+! Checksum: OMryXE9YZoS1V2kH2c8sgQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201231047
-! Last Modified: 2022年01月23日 10:47
+! Version: 202201231139
+! Last Modified: 2022年01月23日 11:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -14498,6 +14498,7 @@ _800x80_
 ###js-cardview_ad
 ###js-image-ad-mpu
 ###js-page-ad-top
+###js-popup-cookie-block
 ###js-react-video-player-ad-right
 ###js-site-nav-ad-wrap
 ###js-story__ad-storyrec
@@ -33476,6 +33477,7 @@ tf2r.com#@#.adverts
 ||armpitarticle.com^
 ||arnt.xyz^
 ||aroundmonth.com^
+||arousedskinnyspeeding.com^
 ||arrivaltroublesome.com^
 ||arrlnk.com^
 ||arrnaught.com^
@@ -36976,6 +36978,7 @@ tf2r.com#@#.adverts
 ||expocrack.com^
 ||exponderle.pro^
 ||exporder-patuility.com^
+||exportspring.com^
 ||exposuremixed.com^
 ||expresswebtraffic.com^
 ||exrtbsrv.com^
@@ -59709,8 +59712,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[style*=".e-years.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||sm9t.ml^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -67378,8 +67383,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||ihhmh.com/mg/show
+||sunofbeaches.com/ast/assistant/ad-item/
+||sunofbeaches.com/shop/recommend/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+sunofbeach.net##DIV[class$="-ad"]
+sunofbeach.net##DIV[id$="-ad"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
