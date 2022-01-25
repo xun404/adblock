@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u4+SFLij139g1245mnPD1Q
+! Checksum: 56npgN2KRvIGjbtBJaVFUQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201260639
-! Last Modified: 2022年01月26日 06:39
+! Version: 202201260739
+! Last Modified: 2022年01月26日 07:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -92739,6 +92739,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.menamarketplace.com^
 ||tracking.monsido.com^
 ||tracking.musixmatch.com^
+||tracking.olx-st.com^
 ||tracking.pacharge.com^
 ||tracking.plattformad.com^$third-party
 ||tracking.plinga.de^
@@ -105919,6 +105920,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
