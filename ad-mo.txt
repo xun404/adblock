@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n4tnbx7ecSoviXUMo4xmKg
+! Checksum: bEaXIynmxC9YUbDtg34kYA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201250946
-! Last Modified: 2022年01月25日 09:46
+! Version: 202201251049
+! Last Modified: 2022年01月25日 10:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -10787,6 +10787,7 @@ _800x80_
 ###adlove
 ###adlrec
 ###adm-inline-article-ad-1
+###adm-inline-article-ad-2
 ###admain
 ###admaintop
 ###admanagerResultListBox
@@ -26548,6 +26549,8 @@ _800x80_
 ##.m-advertisement--container
 ##.m-block-ad
 ##.m-card-group--rightrail-ad
+##.m-content-advert
+##.m-content-advert-wrap
 ##.m-dfp-ad-text
 ##.m-gallery-overlay--ad-top
 ##.m-header-ad
@@ -27253,6 +27256,7 @@ _800x80_
 ##.o-ads-content
 ##.o-advert
 ##.o-listing__ad
+##.o-site-header__advert
 ##.o-story-content__ad
 ##.oad-ad
 ##.oas-ad
@@ -87429,7 +87433,7 @@ _mongo_stats/
 ||pushauction.com^$third-party
 ||pvd.to^$third-party
 ||pxaction.com^$third-party
-||pxf.io^$third-party
+||pxf.io^$image,script,third-party
 ||pxi.pub^$third-party
 ||pymx5.com^$third-party
 ||pzz.events^$third-party
