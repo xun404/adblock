@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rJBM+R+R+jlztcwjI84+OQ
+! Checksum: XR4I39EpXrp8M3lyymgURQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201270739
-! Last Modified: 2022年01月27日 07:39
+! Version: 202201270940
+! Last Modified: 2022年01月27日 09:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1746,6 +1746,7 @@ ubmcmm.baidustatic.com
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
+||huisatu.xyz^
 ||012.tw^$third-party
 ||01fen.com^
 ||022aifang.com^
@@ -17262,6 +17263,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||gzwl.xyz^
+||zhoumo.site^
+||hica.ren^
+||xingtu.ltd^
+||hayasp.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -39079,6 +39085,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.cardschat.com^
 ||stats.cdngeek.com^$domain=edugeek.net
 ||stats.clear-media.com^
+||stats.davidickedelivery.com^
 ||stats.dnaindia.com^
 ||stats.fs.com^
 ||stats.gateio.ch^
@@ -39169,6 +39176,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.epicgames.com^
 ||tracking.hsn.com^
+||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
 ||tracking.unrealengine.com^
 ||tradingview.com/ping
@@ -49904,7 +49912,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||circuitv.com/assets/js/analytics.js$~third-party
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
-@@||cloudflare.com/cdn-cgi/trace$domain=myair2.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair2.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
