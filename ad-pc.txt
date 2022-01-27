@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PTCO1gTzKI++0hep7c2Kzg
+! Checksum: hBdWlzadBH1pfMtKON3GJQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201271139
-! Last Modified: 2022年01月27日 11:39
+! Version: 202201271248
+! Last Modified: 2022年01月27日 12:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6393,6 +6393,7 @@ tieba.baidu.com##.tuijian-wrap
 /sponsored-links.
 /sponsored-links/*
 /sponsored-widget
+/sponsored/products/*
 /sponsored_ad.
 /sponsored_ad/*
 /sponsored_ad_
@@ -42264,6 +42265,7 @@ tf2r.com#@#.adverts
 ||pagne4cham4hrobl.com^
 ||pagnookr.net^
 ||paht.tech^
+||pahtzh.tech^
 ||pailridarm.com^
 ||painfullyneattide.com^
 ||painlessassumedbeing.com^
@@ -44383,6 +44385,7 @@ tf2r.com#@#.adverts
 ||sautemoo.net^
 ||sauwonie.com^
 ||saveddrummermover.com^
+||sawdflies.site^
 ||sawron.xyz^
 ||sb4you1.com^
 ||sbanesere.biz^
@@ -48827,6 +48830,7 @@ tf2r.com#@#.adverts
 ||httpool.com^$third-party
 ||ibannerexchange.com^$third-party
 ||ibillboard.com^$third-party
+||icorp.ro^$third-party
 ||idealmedia.io^$third-party
 ||idreammedia.com^$third-party
 ||imediaaudiences.com^$third-party
@@ -55007,7 +55011,7 @@ hotnewhiphop.com##.big-banner-placeholder-content
 newzit.com##.big_WcxYT
 gamemodding.com##.big_banner
 hellenicshippingnews.com##.bigbanner
-9gag.com,hotstar.com,sport360.fit,trademe.co.nz##.billboard
+9gag.com,hotstar.com,sport360.fit,talksport.com,trademe.co.nz##.billboard
 weatherpro.com##.billboard-wrapper
 techspot.com##.billboard_placeholder_home
 techspot.com##.billboard_placeholder_min
@@ -55219,6 +55223,7 @@ physicsworld.com##.corporate-partners
 kiss-anime.asia,kissanime.mobi##.countdown.btn
 pcworld.com##.coupons
 wolfstream.tv##.cover2
+mma-core.com##.crec
 thesimsresource.com##.crtv-top-wrapper
 irishtimes.com##.cs-teaser
 duplichecker.com##.csdted
@@ -56468,6 +56473,7 @@ coingolive.com##[href^="https://bitpreco.com/"]
 dappradar.com##[href^="https://bogged.finance/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 gelbooru.com##[href^="https://buymyshit.moneygrubbingwhore.com/"]
+gelbooru.com##[href^='https://realbooru.com/']
 highdemandskills.com##[href^="https://click.linksynergy.com/"]
 coingolive.com##[href^="https://coinext.com.br/"]
 wccftech.com##[href^="https://cutt.ly/"]
@@ -67615,6 +67621,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+5119.cn##.xzbtn_new + .xzbtn_new
+5119.cn##div[class="downDz"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -75454,6 +75462,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hica.ren^
 ||xingtu.ltd^
 ||hayasp.top^
+||ayk.cx^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -81788,6 +81797,7 @@ fqsousou.com,kengso.com#@#.user-share
 /event?t=view&
 /event?token=
 /event?tub_id=
+/event_log/*
 /event_logger
 /event_logging/*
 /event_tracker?_
@@ -83593,6 +83603,7 @@ fqsousou.com,kengso.com#@#.user-share
 /referadd?
 /referal-cookie.
 /referer.gif?
+/referer/visitor/*
 /refererRecord.
 /referral_tracker.
 /referral_tracking.
@@ -84113,6 +84124,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats/ping?
 /stats/pv.
 /stats/record.php?
+/stats/search-log
 /stats/services/*
 /stats/survey.
 /stats/track.asp?
@@ -93530,6 +93542,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.newsroom.bi^
 ||events.sk.ht^
 ||free.fr/services/compteur_page.php?
+||get-trust-zone.info/api_ip_info.php?
 ||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
 ||jvc.gg^*/traffic.js

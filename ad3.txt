@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HDho/2da0rA7SVGpULBHNA
+! Checksum: E7fr+WMKkHexs7wmDwX3Ig
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201271048
-! Last Modified: 2022年01月27日 10:48
+! Version: 202201271248
+! Last Modified: 2022年01月27日 12:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9430,6 +9430,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+5119.cn##.xzbtn_new + .xzbtn_new
+5119.cn##div[class="downDz"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17269,6 +17271,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hica.ren^
 ||xingtu.ltd^
 ||hayasp.top^
+||ayk.cx^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25918,6 +25921,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /event?t=view&
 /event?token=
 /event?tub_id=
+/event_log/*
 /event_logger
 /event_logging/*
 /event_tracker?_
@@ -27723,6 +27727,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /referadd?
 /referal-cookie.
 /referer.gif?
+/referer/visitor/*
 /refererRecord.
 /referral_tracker.
 /referral_tracking.
@@ -28243,6 +28248,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stats/ping?
 /stats/pv.
 /stats/record.php?
+/stats/search-log
 /stats/services/*
 /stats/survey.
 /stats/track.asp?
@@ -37660,6 +37666,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.newsroom.bi^
 ||events.sk.ht^
 ||free.fr/services/compteur_page.php?
+||get-trust-zone.info/api_ip_info.php?
 ||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
 ||jvc.gg^*/traffic.js
