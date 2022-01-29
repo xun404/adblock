@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 49NQKPpXkxjrqMcfM5Nm0Q
+! Checksum: yiaizy0LKOjZPt9F2gcHvA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201291738
-! Last Modified: 2022年01月29日 17:38
+! Version: 202201291937
+! Last Modified: 2022年01月29日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9432,6 +9432,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kan.cc/statics/abs/scripts/abs.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -49904,6 +49905,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||nike.com^*/optimizely.browser.umd.min.js$~third-party
+@@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
