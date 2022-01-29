@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QVJVZ6YXLkZx2TpVadEzpQ
+! Checksum: 3lvX4jVjteUccP15X7UnYA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201290056
-! Last Modified: 2022年01月29日 00:56
+! Version: 202201290933
+! Last Modified: 2022年01月29日 09:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2187,8 +2187,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||3gustis.xyz^
 ||00-gov.cn^
+||ad44.cc^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -2382,6 +2382,7 @@ ubmcmm.baidustatic.com
 ||3dwwwgame.com^$third-party
 ||3g.990.net^
 ||3gmtr.com^
+||3gustis.xyz^
 ||3lga3.cn^
 ||3p-link.com^$third-party
 ||3qmh.com^
@@ -9878,7 +9879,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-||mydrivers.com/img/2005/202112011849.png
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -12445,7 +12445,6 @@ dayanzai.me##.down_show_intro_first_box
 downza.cn##.down_soft_bottom
 downza.cn##.down_top
 18183.com##.down_url
-mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
 greenxiazai.com##.downbtn > a:last-child
 downza.cn##.downbtn-top
 portablesoft.org##.downcenter
@@ -12463,6 +12462,7 @@ wmzhe.com##.downloader
 9ht.com,pc0359.cn,pc6.com,ucbug.com##.downnow
 cr173.com,downcc.com,downyi.com,itmop.com,v5pc.com,xfdown.com##.downnowgaosu
 cr173.com##.downurl[data^="viewAds"]
+mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
 123.sogou.com,web.sogou.com##.dropBox_list > li > a > span[style="color:red"]
 cztv.com##.drop_down_ad
 jxcn.cn,redianyule.com##.dsp_yxxf
@@ -15513,6 +15513,7 @@ ygodl.com#?#.slider-info:-abp-has(.link-block[href*=".bigplayers.com"])
 ygodl.com#?#.slider-info:-abp-has(.link-block[href*=".ourplay.net"])
 zhangxinxu.com#?#.top_da_out
 zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
+||mydrivers.com/img/2005/202112011849.png
 !---------------------------------CSS Whitelist-------------------------------!
 on.cc#@##CONTENTAD
 the-sun.on.cc#@##ContentAd1
@@ -17715,16 +17716,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||zhentao.shop^
-||blockai.me^
-||ivqd8oi.cn^
-||itjie.xyz^
-||lxxy.xyz^
-||status500.xyz^
-||msjxxz.com^
-||51lx.ink^
-||wjxs.xyz^
-||cqhot.club^
+||huasuihz.top^
+||sgtld.cn^
+||dashuju.website^
+||mokopoio.shop^
+||viphdk.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17908,6 +17904,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||51fishplace.com^
 ||51foodsafe.cn^
 ||51gpt.com^
+||51lx.ink^
 ||51showmy.com^
 ||51teach.club^
 ||51wxyx.cn^
@@ -18394,6 +18391,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||blackbar.cn^
 ||blcobmv.cn^
 ||bljpk3.cn^
+||blockai.me^
 ||blsenpg.cn^
 ||bmt4578.xyz^
 ||bmuju.com^
@@ -18605,6 +18603,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||cqdjhj.cn^
 ||cqerbihou.com^
 ||cqgya.com^
+||cqhot.club^
 ||cqlijie.cn^
 ||cqnpfyb.cn^
 ||cqshaseng.com^
@@ -19007,7 +19006,9 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||iprpe.cn^
 ||irzwlux.cn^
 ||istudyenglish.pro^
+||itjie.xyz^
 ||ivchui.cn^
+||ivqd8oi.cn^
 ||ivwvvtr.cn^
 ||iwwl.vip^
 ||ixiang.club^
@@ -19145,6 +19146,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||lvhqntk.cn^
 ||lxiu.shop^
 ||lxtxhxt.com^
+||lxxy.xyz^
 ||lyedssj.cn^
 ||lyjxwlkj.com^
 ||lzjc.shop^
@@ -19191,6 +19193,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||mrwen.xyz^
 ||mryang.cloud^
 ||msiqhvl.cn^
+||msjxxz.com^
 ||msri.club^
 ||msyq.xyz^
 ||mtxs.xyz^
@@ -19434,6 +19437,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||sqmydhk.cn^
 ||ssjxwlkj.com^
 ||sssyao.cn^
+||status500.xyz^
 ||stbaolin.cn^
 ||sthyhj.cn^
 ||stkx888.cn^
@@ -19565,6 +19569,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||whusihgq.cn^
 ||whwfcm.cn^
 ||whyxqoc.cn^
+||wjxs.xyz^
 ||wjylfla.cn^
 ||wknhovh.cn^
 ||wknniyu.cn^
@@ -19712,6 +19717,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zhangjianlong.xyz^
 ||zhangtiantian.cc^
 ||zhenniu.shop^
+||zhentao.shop^
 ||zhenxinchicken.xyz^
 ||zhexnuq.cn^
 ||zhifoujiaoyu.xyz^
