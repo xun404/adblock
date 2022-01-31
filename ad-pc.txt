@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C/CoIHE1r32ccikyARQHfw
+! Checksum: irU0IEgHRDw7rQM9Uki9lw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202010638
-! Last Modified: 2022年02月01日 06:38
+! Version: 202202010738
+! Last Modified: 2022年02月01日 07:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -52464,6 +52464,7 @@ tf2r.com#@#.adverts
 ||wsj.net/pb/pb.js
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
+||brid.tv^$script,domain=spin.com|thewrap.com
 ||c.jsrdn.com^$script,domain=muscleandfitness.com
 ||channelexco.com/player/$third-party
 ||connatix.com^$third-party
@@ -52491,7 +52492,6 @@ tf2r.com#@#.adverts
 ||players.brightcove.net^$script,domain=businessinsider.com.au|gizmodo.com.au|kotaku.com.au|lifehacker.com.au|pedestrian.tv
 ||playwire.com/bolt/js/$script,third-party
 ||rumble.com^$domain=tiphero.com
-||services.brid.tv^$script,domain=spin.com
 ||sportrecs.com/redirect/embed/
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
@@ -55858,6 +55858,8 @@ realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
 sciencetimes.com##.article-videoplayer
+thewrap.com##.aspect-ratio-box-inside
+thewrap.com##.brid-default-skin
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 ladbible.com##.css-1tc48v6
