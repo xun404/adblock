@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mgLCxPYhkOksATkd8uLQGQ
+! Checksum: iMuSE7iVHaDVa6FGy01ywA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202021247
-! Last Modified: 2022年02月02日 12:47
+! Version: 202202021738
+! Last Modified: 2022年02月02日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1740,8 +1740,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[href$="/6626596.com"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||6438905.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9438,6 +9440,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bcc878.com/js/abc/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -48961,6 +48964,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||heise.de/ivw-bin/ivw/cp/
 ||hokuspokus.tarnkappe.info^
 ||horizont.net/stats/
+||img.toi.de/t.gif$image,domain=t-online.de
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
 ||jobs.ch/api/v1/public/product/track/
