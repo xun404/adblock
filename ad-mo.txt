@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3ZS1626andvxiy96DCEKZA
+! Checksum: oq0tePVF8oVdhzzmXDolSA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202051937
-! Last Modified: 2022年02月05日 19:37
+! Version: 202202052045
+! Last Modified: 2022年02月05日 20:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23096,6 +23096,7 @@ _800x80_
 ##.bannerWrapAdwords
 ##.banner_160x600
 ##.banner_234x90
+##.banner_240x400
 ##.banner_250x250
 ##.banner_300_250
 ##.banner_300x250
@@ -55539,6 +55540,7 @@ fastpic.ru##.vright
 vaughn.live##.vs_v75_MvnAbvsLowerThirdWrapper
 ebook-searcher.com##.w-100
 userscript.zone##.w300
+goodfon.com##.wallpapers__banner240
 dailymail.co.uk##.watermark
 watson.ch##.watson-ad
 wbal.com##.wbal-banner
@@ -59237,11 +59239,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[style*=".ajzsa.xyz/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||qqq-www-987.site^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -66944,8 +66948,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||szjjzs.com/js/dd.js
+||hello-jm.com/foot.js
+||86cg.me/sys
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+86cg.me##.vodbt
+ghxi.com##.ad_single_1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -93943,6 +93951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gofundme.com/track
 ||gog-statics.com/js/frontpagelogintracking-$script,domain=gog.com
 ||gog-statics.com/js/loginTracking-$script,domain=gog.com
+||goodfon.com/stat/
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
 ||google.com/log?
