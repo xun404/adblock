@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QVD0B4m+zPKguOdG9EFX9Q
+! Checksum: 0m0nj7HGYhLuoNv2jJRX+g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202051537
-! Last Modified: 2022年02月05日 15:37
+! Version: 202202051637
+! Last Modified: 2022年02月05日 16:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -105277,6 +105277,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
+@@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||nike.com^*/optimizely.browser.umd.min.js$~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
@@ -105292,6 +105293,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
+@@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
