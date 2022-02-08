@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yX6EtX7YHt+iFxwKCWxGwg
+! Checksum: 87mnhY1verK7jtV4kraMeg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202081740
-! Last Modified: 2022年02月08日 17:40
+! Version: 202202081941
+! Last Modified: 2022年02月08日 19:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9458,6 +9458,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||szjjzs.com/js/as.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -49893,7 +49894,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||digitalgov.gov/Universal-Federated-Analytics-Min.js?$script,domain=travel.state.gov
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
 @@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
-@@||docs.google.com/document/
+@@||docs.google.com/*/viewdata$~third-party
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||dove.com/etc/ui/dovemencare/clientlibs/core/core/config/analytics.js$script,~third-party
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
