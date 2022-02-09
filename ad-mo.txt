@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qKgd3O9WNlzCi6PMY7azvw
+! Checksum: u9qZ5daF3nFngVDWPS+AGQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202092347
-! Last Modified: 2022年02月09日 23:47
+! Version: 202202100057
+! Last Modified: 2022年02月10日 00:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -72902,6 +72902,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freedidi.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -74973,6 +74974,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chslwea.top^
 ||mjkha.top^
 ||vzovmzc.cn^
+||ranke.link^
+||wangxiaowei.ink^
+||kxtxt.com^$third-party
+##a[href*=".fllkf.com/"]
+##a[href*=".gzwtgm.com/"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
