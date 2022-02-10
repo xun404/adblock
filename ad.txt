@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OA7cDc3iOc7fYUAXSUh8Mw
+! Checksum: EzbySj2xXN54vLRXbL1dJw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202102054
-! Last Modified: 2022年02月10日 20:54
+! Version: 202202102346
+! Last Modified: 2022年02月10日 23:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9890,6 +9890,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||haiyuer.com/uc
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+iplaysoft.com##.wwads-cn
+iplaysoft.com##[style*="width:3"][style*="height:2"]
 so.com###js-mh-news-sdk-sad
 so.com##.res-mediav
 szxx.com.cn###A1
@@ -17721,6 +17723,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yakel.top^
 ||awwlfb.cn^
 ||ulxypyg.cn^
+||99lewen.com^$third-party
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -23360,6 +23363,7 @@ _box_ad_
 ||gedu.org/js/meiqia_pc_groupmarket.
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 !------------------------Specific element hiding rules------------------------!
+csdn.net##.el-dialog__wrapper + .activity
 aiqicha.baidu.com##.float-banner
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
