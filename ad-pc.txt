@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z6LNIX+yE9GavdzZ6NUbEA
+! Checksum: dYAk9lePOPIMu9wR6h3kow
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202100941
-! Last Modified: 2022年02月10日 09:41
+! Version: 202202101246
+! Last Modified: 2022年02月10日 12:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -73473,7 +73473,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||jjkmn.com^$generichide
 @@||jlthjy.com^$generichide
 @@||joyk.com^$generichide
-@@||jrhot.com/data/attachment/*_300_250_
 @@||js.tudouui.com/bin/player2/$object
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
 @@||jsjiami.com^$generichide
@@ -73667,7 +73666,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||szhr.com.cn^*ad
 @@||szhr.com^$generichide
 @@||szhr.com^*ad
-@@||taihainet.com^*/thumb_300_250_
 @@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||taobao.com/go/app/tmall/login-api.php?
@@ -75122,6 +75120,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ymdxxkj.icu^
 ||huyc.info^
 ||yaofaweb.xyz^
+||yakel.top^
+||awwlfb.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85822,7 +85822,6 @@ _mongo_stats/
 ||analitits.com^$third-party
 ||analitycs.net^$third-party
 ||analoganalytics.com^$third-party
-||analytics-egain.com^$third-party
 ||analyticschecker.com^$third-party
 ||analyticson.com^$third-party
 ||analyticswizard.com^$third-party
@@ -106674,6 +106673,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||gedu.org/js/meiqia_pc_groupmarket.
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 !------------------------Specific element hiding rules------------------------!
+aiqicha.baidu.com##.float-banner
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
 jingyan.baidu.com##.wgt-cms-banner
