@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DCO5ftF6xYB4MBLXhihgmw
+! Checksum: 4xOYAYj4mlxMMPLYuqWnXw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202101246
-! Last Modified: 2022年02月10日 12:46
+! Version: 202202101337
+! Last Modified: 2022年02月10日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1086,7 +1086,6 @@ ubmcmm.baidustatic.com
 ###tr_ad8
 ###tr_ad9
 ###tripadvisor-ad
-###video > #ybad
 ###videoADPIC
 ###widget-quan
 ###wp > .V-videoFloat
@@ -1743,6 +1742,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##div[onclick*=".rwnyou.com"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -16988,7 +16988,6 @@ bejson.com##img[src^="data"]
 52bdys.com###ayx
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=52bdys.com
 52bdys.com##center[style*="background"]
-52bdys.com##div[onclick]
 52bdys.com##div[style^="position: fixed;bottom:"]
 !#Bingfeng.tw
 @@/unadblock/adjs_$domain=bingfeng.tw
