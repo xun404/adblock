@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Zy0jIfqdTnb1lrFXlPrhRg
+! Checksum: LDiZNY2mwFL+rNxr5jNTdg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202111937
-! Last Modified: 2022年02月11日 19:37
+! Version: 202202112054
+! Last Modified: 2022年02月11日 20:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -32666,7 +32666,6 @@ _mongo_stats/
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
 ||whosclickingwho.com^$third-party
-||widebundle.com^$third-party
 ||widerplanet.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wikiodeliv.com^$third-party
@@ -49861,6 +49860,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cloudmaestro.com^$script,domain=overtone.co
+@@||cms.gentwo.com/pulses/$~third-party,xmlhttprequest
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
 @@||cognition-va.bytedance.com/api/knowledge/$xmlhttprequest,domain=ads.tiktok.com
 @@||cohesionapps.com/cohesion/$script,subdocument,domain=frontier.com
