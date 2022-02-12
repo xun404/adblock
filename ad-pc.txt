@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lcQNIZr2JBApQFCtJoorXA
+! Checksum: zxKmqo3XscAwBbuQ3QWjUA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202121246
-! Last Modified: 2022年02月12日 12:46
+! Version: 202202121337
+! Last Modified: 2022年02月12日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25928,6 +25928,7 @@ _800x80_
 ##.horizontal-ads
 ##.horizontal-advert-container
 ##.horizontal-advert-inner-wrapper
+##.horizontal.ad
 ##.horizontalAd
 ##.horizontalAdText
 ##.horizontalAdvert
@@ -53015,6 +53016,7 @@ tf2r.com#@#.adverts
 ||dw.com/js/advertisement/
 ||jwplatform.com/libraries/tdeymorh.js
 ||wsj.net/pb/pb.js
+||amazonaws.com/prod/$domain=consequence.net
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||brid.tv^$script,domain=spin.com|thewrap.com
@@ -56494,6 +56496,8 @@ goal.com##.semantic-player-embed
 gamesradar.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
+consequence.net##.video_container
+consequence.net##.wasp-video-player
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###defaultLREC
 yahoo.com###sda-LDRB
