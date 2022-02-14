@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FBviv0I5KMh+Y08d47NUQA
+! Checksum: gRgLAQDFThqSCyje62ie8A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202141537
-! Last Modified: 2022年02月14日 15:37
+! Version: 202202141641
+! Last Modified: 2022年02月14日 16:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -28740,6 +28740,7 @@ _800x80_
 ##.sidebar-ad-container-2
 ##.sidebar-ad-container-3
 ##.sidebar-ad-div
+##.sidebar-ad-label
 ##.sidebar-ad-left
 ##.sidebar-ad-rect
 ##.sidebar-ad-right
@@ -48263,6 +48264,8 @@ tf2r.com#@#.adverts
 ||feature.fm^$third-party
 ||fireflyengagement.com^$third-party
 ||fireworkadservices.com^$third-party
+||fireworkapi.com^$third-party
+||fireworktv.com^$third-party
 ||firstimpression.io^$third-party
 ||fisari.com^$third-party
 ||fixionmedia.com^$third-party
@@ -75239,6 +75242,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||jiage.ink^
+||xianggouwu.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -84278,6 +84283,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track/?site
 /track/aggregate?
 /track/alooma-
+/track/attention-event
 /track/batch?
 /Track/Capture.aspx?
 /track/client-event/*
