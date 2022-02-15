@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DXKLfhCVbwzj68OhlYgN/w
+! Checksum: 9kQ982rdF5EBgP6BJVhPDg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202151641
-! Last Modified: 2022年02月15日 16:41
+! Version: 202202152058
+! Last Modified: 2022年02月15日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54756,6 +54756,7 @@ stylist.co.uk##.css-1fz837r
 crazygames.com##.css-1h6nq0a
 gamingbible.co.uk##.css-1i2p7ui
 bmj.com##.css-1jjs1rx
+cruisecritic.co.uk,cruisecritic.com##.css-1kyizeh
 infowars.com##.css-1nbwp0k
 infowars.com##.css-1upmbem
 healthline.com,medicalnewstoday.com##.css-1vcjrad
@@ -56038,6 +56039,7 @@ staticice.com.au##[href^="https://kogan.sjv.io/"]
 topfiveforex.com##[href^="https://luckyfish.io/"]
 manhuaplus.com##[href^="https://manhuaplussoulland.onelink.me/"]
 123putlocker.io##[href^="https://moneynow.one/"]
+abovetopsecret.com##[href^="https://mypatriotsupply.com/apps/todays-deals"]
 manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
 mmos.com##[href^="https://plarium.com/landings/"]
@@ -56184,6 +56186,7 @@ topgear.com##div[class^="AdContainer-"]
 tunefind.com##div[class^="AdSlot_inner_"]
 usnews.com##div[class^="Ad__Container-"]
 poki.com##div[class^="Advertisement_"]
+cruisecritic.co.uk,cruisecritic.com##div[class^="ArticleItem_ad"]
 sportinglife.com##div[class^="Article__FlashTalkingWrapper-"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
@@ -67325,6 +67328,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2234.cn##.ads
+2234.cn##.btngs
+2234.cn##.pc-down_url_left > .pull-left
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -73745,6 +73751,10 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||vast.btrll.com^$domain=hinet.net
 @@||video.520cc.cc/ad.php|
 @@||video.520cc.cc^$generichide
+@@||520cc.cc/jspopunder.
+@@||520cc.cc/api/jspopunder.
+@@||520cc.cc/ad/ad_1.php
+@@||520call.me/ad/ad_1.php
 @@||viu.tv^$generichide
 @@||vlist.se/advertisement.js
 @@||vmall.com/data/attachment/common/ad/
