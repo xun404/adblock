@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CcBwJevxT2EAeVKBoCUizw
+! Checksum: k3dpj/ZdndmSMp9rD4S1eg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202202152137
-! Last Modified: 2022年02月15日 21:37
+! Version: 202202160948
+! Last Modified: 2022年02月16日 09:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -8208,6 +8208,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||qunar.com/vataframe/b.html?
 ||qunlove.com^*.gif
 ||qwblog.cn/localfile/20200612230036.gif
+||qyun.vip/pic/*.gif
 ||qz828.com/css/2010/script/*ad
 ||qzone.la/Scripts/m.js
 ||r3sub.com/images/ccc/
@@ -9456,15 +9457,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzlzl.com/zb_users/theme/Frozen/style/images/banner/
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
-||qyun.vip/pic/*.gif
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-qyun.vip##.tp_advertising
-qyun.vip##A[href*="/ad."]
-2234.cn##.ads
-2234.cn##.btngs
-2234.cn##.pc-down_url_left > .pull-left
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11352,7 +11347,7 @@ bigear.cn##.adpicright
 ifeng.com##.adpubpic
 doc88.com##.adpx250
 gamme.com.tw##.adread
-0594.com,164580.com,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,e3zy.com,haokan5.com,hc360.com,helloavgirls.com,meiyouad.com,qq.com,sina.com,sogou.com,timeon.cn,tongren.gov.cn,uc123.com,up01.cc,wasu.cn,wdjm.com.cn,wokao.co,yeeyi.com##.ads
+0594.com,164580.com,2234.cn,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,e3zy.com,haokan5.com,hc360.com,helloavgirls.com,meiyouad.com,qq.com,sina.com,sogou.com,timeon.cn,tongren.gov.cn,uc123.com,up01.cc,wasu.cn,wdjm.com.cn,wokao.co,yeeyi.com##.ads
 appinn.com##.ads-m
 360.cn##.ads-pic
 shejidaren.com##.ads-post-foot
@@ -11721,6 +11716,7 @@ cssmoban.com##.btn-host
 subku.net##.btn-success
 zdfans.com##.btn11[onclick]
 mydrivers.com##.btnNext + div:last-child
+2234.cn##.btngs
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.bus-top-activity-wrap
 qq.com##.business-Article-QQ
 brtn.cn,btime.com##.business-box
@@ -13057,6 +13053,7 @@ sina.com##.parta_l_ads
 baidu.com##.pauseadv
 heiguang.com##.pbAddPic
 aiweibk.com##.pc
+2234.cn##.pc-down_url_left > .pull-left
 18183.com##.pcBtn > a[href*="@"]
 kikinote.net##.pc_ad
 yxdown.com##.pc_down
@@ -13730,6 +13727,7 @@ hy5.com.cn##.toptxtad
 jurong.cn,ld0766.com##.totalad
 wapwenku.baidu.com,wk.baidu.com##.tout
 woniupai.net##.tp_ad-home
+qyun.vip##.tp_advertising
 demaxiya.com##.tp_box
 suopao.org##.tr3.t_one[onmouseout]
 ifeng.com##.trade
@@ -14154,6 +14152,7 @@ duba.com,newduba.cn##a[href*=".zhhainiao.com/"]
 plus28.com##a[href*="/?Extend="]
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
 kaitao.cn##a[href*="/a.php?id="]
+qyun.vip##a[href*="/ad."]
 chuandong.com,instrument.com.cn##a[href*="/ad/"]
 xitek.com##a[href*="/adclick"]
 bjnews.com.cn##a[href*="/ads/"]
@@ -15348,8 +15347,12 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||4horlover.com^$generichide
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
+@@||520call.me/ad/ad_1.php
 @@||520call.me/jspopunder.
 @@||520call.me^$generichide
+@@||520cc.cc/ad/ad_1.php
+@@||520cc.cc/api/jspopunder.
+@@||520cc.cc/jspopunder.
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
@@ -15885,10 +15888,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||vast.btrll.com^$domain=hinet.net
 @@||video.520cc.cc/ad.php|
 @@||video.520cc.cc^$generichide
-@@||520cc.cc/jspopunder.
-@@||520cc.cc/api/jspopunder.
-@@||520cc.cc/ad/ad_1.php
-@@||520call.me/ad/ad_1.php
 @@||viu.tv^$generichide
 @@||vlist.se/advertisement.js
 @@||vmall.com/data/attachment/common/ad/
@@ -17314,29 +17313,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||bnkpgjw.cn^
-||zxhstudy.online^
-||apio.ink^
-||zgwxt.vip^
-||capzo.cn^
-||lyautotech.club^
-||cb8lvgd.cn^
-||tienu.tech^
-||yiyuwl.cn^
-.m.biduoxs.com^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi.cc^
-.m.xs222.com^
-.m.zineworm.com^
-.wap.x4399.com^
-.wap.yb3.cc^
+||51vs.club^
+||xjsq.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17362,6 +17340,20 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
+.m.biduoxs.com^
+.m.boluoxs.com^
+.m.bookben.com^
+.m.d8qu.com^
+.m.fhxiaoshuo.com^
+.m.gxwztv.com^
+.m.kanshuzw.com^
+.m.muyuge.com^
+.m.qiuwu.net^
+.m.wenxuemi.cc^
+.m.xs222.com^
+.m.zineworm.com^
+.wap.x4399.com^
+.wap.yb3.cc^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -17755,6 +17747,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||apainter.cn^
 ||apdingqian.com^
 ||api.abcxs.org^
+||apio.ink^
 ||apjiangte.com^
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||applequan.com^
@@ -18008,6 +18001,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bmuju.com^
 ||bnd-ybb.cn^
 ||bndbddt.top^
+||bnkpgjw.cn^
 ||bntxt.com^
 ||boassistant.com^
 ||bodapet.com^
@@ -18074,11 +18068,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||calvfk.cn^
 ||canalandco.com^
 ||caofta.cn^
+||capzo.cn^
 ||carlseb.xyz^
 ||carset.vip^
 ||cashnews.info^
 ||cathaycentury.com^
 ||caupdcloud.cn^
+||cb8lvgd.cn^
 ||cbctp.top^
 ||cbgyhe.cn^
 ||cbh365.club^
@@ -18809,6 +18805,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lxiu.shop^
 ||lxtxhxt.com^
 ||lxxy.xyz^
+||lyautotech.club^
 ||lyedssj.cn^
 ||lyjxwlkj.com^
 ||lzjc.shop^
@@ -19170,6 +19167,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ti863.cn^
 ||tianhenggo.xyz^
 ||tianlule.cn^
+||tienu.tech^
 ||timy.ink^
 ||tivfcaa.cn^
 ||tiyhxdd.cn^
@@ -19382,6 +19380,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yinan.tech^
 ||yingxunkeji.net^
 ||yini.link^
+||yiyuwl.cn^
 ||yizhanghaoquan.pw^
 ||yjplpck.cn^
 ||yjwl.ltd^
@@ -19426,6 +19425,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zengwx.cn^
 ||zfw.me^
 ||zgbtw.mobi^
+||zgwxt.vip^
 ||zgxieshou.com^
 ||zgyso.cn^
 ||zgystsd.com^
@@ -19484,6 +19484,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zuoyouyu.cn^
 ||zwdq.xyz^
 ||zxakeax.cn^
+||zxhstudy.online^
 ||zxyonlybelongstolym.xyz^
 ||zyam.club^
 ||zyezhz.cn^
