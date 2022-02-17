@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Pf0HCzwUjRSNspa1tZ0ZWQ
+! Checksum: K8r6s8O2HWwf31ooIfyOCg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202170337
-! Last Modified: 2022年02月17日 03:37
+! Version: 202202170935
+! Last Modified: 2022年02月17日 09:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12479,6 +12479,7 @@ _800x80_
 ###banner_adv
 ###banner_advertisement
 ###banner_adverts
+###banner_atf__container
 ###banner_content_ad
 ###banner_mpu1
 ###banner_mpu3
@@ -22826,6 +22827,7 @@ _800x80_
 ##.adzone_ad_9
 ##.adzone_skyscraper
 ##.af-block-ad-wrapper
+##.af-label-ads
 ##.afc-box
 ##.aff-big-unit
 ##.aff-iframe
@@ -29429,6 +29431,7 @@ _800x80_
 ##.store-ads
 ##.story-ad
 ##.story-ad-container
+##.story-ad-right
 ##.story-header-ad
 ##.story-inline-advert
 ##.story-page-embedded-ad
@@ -30687,6 +30690,7 @@ _800x80_
 ##[class^="Ad-adContainer"]
 ##[class^="AdvertisingSlot_"]
 ##[class^="div-gpt-ad"]
+##[data-ad-cls]
 ##[data-ad-manager-id]
 ##[data-ad-module]
 ##[data-ad-width]
@@ -50407,6 +50411,7 @@ tf2r.com#@#.adverts
 ||px1alsry.com^$popup
 ||pxlk9.net.^$popup
 ||pxlk9.net^$popup
+||pxlk9.org^$popup
 ||pyq6n.com^$popup
 ||q8ntfhfngm.com^$popup
 ||qazwsx.click^$popup
@@ -57416,13 +57421,16 @@ freebdsmxxx.org##[href^="https://t.me/joinchat/"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
+tube8.com,tube8.es,tube8.fr##[id][style="display: block;"]
 tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr##[src^="bLob:"]
+tube8.com,tube8.es,tube8.fr##[src^="bloB:https://www.tube8."]
 hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 analpornpix.com##[src^="https://analpornpix.com/t/153"]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 porngames.club##[src^="https://wheelwheel.space/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
+tube8.com,tube8.es,tube8.fr##[style*="background-color: rgb(255, 255, 255)"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 porn.com##a[href*="&ref="]
@@ -57926,6 +57934,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ad.smartmediarep.com/NetInsight/$domain=programs.sbs.co.kr
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.instacart.com/admin/$~third-party
+@@||adsafeprotected.com/iasPET.1.js$domain=la7.it
 @@||adsafeprotected.com/services/$domain=reuters.com
 @@||adservice.sbs.co.kr/NetInsight/$domain=programs.sbs.co.kr
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=esradio.libertaddigital.com
@@ -66624,9 +66633,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||szhk.com/iframe/
 ||szhk.com/include/taobao
 ||szhongzi.com/js/
-||szjjzs.com/js/as.js
 ||szjjzs.com/js/dd.js
-||szjjzs.com/js/zb.js
+||szjjzs.com/js/csss.js
 ||sznews.com/s?z=
 ||szonline.net/static/js/ads.js
 ||szyepu8.com/data/AADDimg/
@@ -75339,6 +75347,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||boomj.club^
+||ljk.ink^
+||k67lxl.space^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -105727,7 +105738,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
@@ -105773,6 +105784,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
+@@||level.travel/tracker/tracker.js$script,~third-party
 @@||linksynergy.com/minified_logic.js$third-party,xmlhttprequest
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.bbc.co.uk^*/comscore.js$script,~third-party
@@ -106200,7 +106212,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js$domain=eprice.it|euronics.it|iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it|unieuro.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
-@@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
+@@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
 @@||mediaworld.it^*/GoogleTagManager.js?
