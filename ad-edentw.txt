@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: trS4wDyHJPNLOUScpJhxKw
+! Checksum: tACTr8Zalm7kI3dYYgaX8w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202172347
-! Last Modified: 2022年02月17日 23:47
+! Version: 202202180139
+! Last Modified: 2022年02月18日 01:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1243,6 +1243,7 @@ videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySel
 4kporn.xxx,cambro.tv,mangovideo.club#$#override-property-read flashvars.popunder_url null
 livesexporn.net#$#abort-current-inline-script window.onload atob
 youporn.com,tube8.com,redtube.com,pornhub.com#$#abort-current-inline-script Object.defineProperty trafficjunky
+cine.to#$#abort-on-property-read document.head.appendChild
 ! #CV-691
 ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath '//div[@class="s-item__title-tag"][text()="SPONSORED" or text()="SPONSORISÉ" or text()="PATROCINADOS"]/ancestor::li[1][starts-with(@class,"s-item")]'
