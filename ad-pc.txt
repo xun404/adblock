@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LHmBlyD3tArwDJSPM5wUsQ
+! Checksum: T8pZ4xIPmA2s5L8x7LuCxA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202171537
-! Last Modified: 2022年02月17日 15:37
+! Version: 202202171739
+! Last Modified: 2022年02月17日 17:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -75369,6 +75369,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jyzag.cn^
 ||pqsjb.cn^
 ||readnos.com^
+##a[href*=".xxmh920.com/"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85471,8 +85472,19 @@ cgi-bin/counter
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
 .keap-link003.com/$image
+.keap-link004.com/$image
+.keap-link005.com/$image
+.keap-link006.com/$image
+.keap-link007.com/$image
+.keap-link008.com/$image
+.keap-link009.com/$image
+.keap-link010.com/$image
 .keap-link011.com/$image
+.keap-link012.com/$image
+.keap-link013.com/$image
+.keap-link014.com/$image
 .keap-link015.com/$image
+.keap-link016.com/$image
 .kijiji.ca/r/
 .klclick.com/$image
 .list-manage.com/track/
@@ -105712,6 +105724,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||docs.google.com/*/viewdata$~third-party
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||dove.com/etc/ui/dovemencare/clientlibs/core/core/config/analytics.js$script,~third-party
+@@||drivetrain.ai/drive/api/v1/metrics/$~third-party
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
 @@||dw.cbsi.com/anonc.js$domain=giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
