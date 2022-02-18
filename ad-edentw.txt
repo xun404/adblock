@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3gppriM0liBqs5+Ha/04CQ
+! Checksum: 1y4IXZRg9HHgkTA3OrIyQA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202190053
-! Last Modified: 2022年02月19日 00:53
+! Version: 202202190138
+! Last Modified: 2022年02月19日 01:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -647,6 +647,7 @@ hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! #CV-655
 iprima.cz,www.seznam.cz,novinky.cz,super.cz,ahaonline.cz,expres.cz,kinobox.cz,horoskopy.cz#$#json-override ads ''
 kinobox.cz,novinky.cz,expres.cz,fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz#$#prevent-listener beforeunload (); cookie-remover /adb/
+sauto.cz#$#override-property-read sssp undefined
 iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
 iprima.cz#?#div:-abp-has(>.mone_header)
 iprima.cz##.px-type-banner
