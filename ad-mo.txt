@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: anoyTeoAM1zgYtnGlm0L4g
+! Checksum: JeUFhFI9m6PI/S9tAUtZ1Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202190337
-! Last Modified: 2022年02月19日 03:37
+! Version: 202202190639
+! Last Modified: 2022年02月19日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54725,6 +54725,7 @@ southerntimesafrica.com##.body-header-banner
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au,interiordesign.net##.boombox
 etherscan.io##.border-top
+tineye.com##.bottom
 blockchair.com##.bottom--buttons-container
 pixxxels.cc##.bottom-a
 kaskus.co.id##.bottom-frame
@@ -80995,6 +80996,7 @@ fqsousou.com,kengso.com#@#.user-share
 /beacon/event/*
 /beacon/event?
 /beacon/get/*
+/beacon/info?
 /beacon/init?
 /beacon/metrics
 /beacon/page?
@@ -105723,6 +105725,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
