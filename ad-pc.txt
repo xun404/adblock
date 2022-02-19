@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FDsA/0hBwBk+hipSzDnL3w
+! Checksum: FzGGwRtb0l41eLzliQooDg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202192237
-! Last Modified: 2022年02月19日 22:37
+! Version: 202202192340
+! Last Modified: 2022年02月19日 23:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67609,8 +67609,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||mmys.net/js/mmys.
+||av01.tv/av01/floating_video_ads
+||vanpeople.com/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vanpeople.com##.banneradv-newbox
 senfun.net##.player-recommend
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -73982,6 +73985,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||tt1069.com/adserv.js
 @@||tt1069.com/advert.js
 @@||tt1069.com/dfp.
+@@||ulifestyle.com.hk/store/prod/iskypost/res/js/dfp-
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
 @@||ttrar.com/statics/pos_js/jquery.gotop.js
@@ -75441,6 +75445,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lingquanba.wang^
 ||xsdlt.top^
 ||xingxingdd.com^
+||tingyusw.xyz^
+||yzjy.pro^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
