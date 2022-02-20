@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IKfpvBGIsFlHJRLfChJxfw
+! Checksum: u73o8RIqOOatzfVJccvyRw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202201937
-! Last Modified: 2022年02月20日 19:37
+! Version: 202202202054
+! Last Modified: 2022年02月20日 20:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2065,7 +2065,7 @@ tieba.baidu.com##.tuijian-wrap
 /adfuncs.
 /adfunction.
 /adfunctions.
-/adfurikun/*
+/adfurikun/*$~image
 /adfusion/*
 /adgear.js
 /adgear/*
@@ -54265,7 +54265,6 @@ scoop.co.nz###rect
 dict.cc###rectcompactbot
 dict.cc###recthome
 dict.cc###recthomebot
-193.178.172.113###repop
 qwant.com###resultsShoppingList
 idiva.com###rhs_atf
 10minutemail.net,eel.surf7.net.my,javatpoint.com###right
@@ -55345,6 +55344,7 @@ atishmkv.site##.idmuvi-center-ads
 atishmkv.site##.idmuvi-floatbanner
 atishmkv.site##.idmuvi-footerbanner
 atishmkv.site##.idmuvi-topplayer
+fifetoday.co.uk##.iehxDO
 gamepressure.com##.if-no-baner
 pocket-lint.com##.im-desktop
 intomobile.com##.im_970x90
@@ -57327,8 +57327,8 @@ online-xxxmovies.com##.middle-spots
 lic.me##.miniplayer
 tryindianporn.com##.mle
 hentaicore.org##.mob-lock
-tube-bunny.com##.mobile-vision
 gaymovievids.com,verygayboys.com##.mobile-random
+tube-bunny.com##.mobile-vision
 yourdarkdesires.com##.moment
 javfor.tv##.my-2.container
 jagaporn.com##.nativad
@@ -85761,7 +85761,6 @@ _ad_impression.
 /wtfindingmethod.
 _hightraffic_code.js
 _sdcTrackingCode.
-/feature-loader/render.
 /magnet/render.
 /re-engage/render.
 /targeting/render.
@@ -106347,7 +106346,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||certona.net^*/resonance.js$domain=zooplus.fi
 @@||cloudfront.net/frosmo.easy.js$domain=hobbyhall.fi|lippu.fi
 @@||frosmo.com/messageApi$xmlhttprequest,domain=hobbyhall.fi
-@@||frosmo.com/recoApi/$xmlhttprequest,domain=hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
+@@||frosmo.com/recoApi/$xmlhttprequest,domain=apu.fi|hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
 @@||google-analytics.com/analytics.js$script,domain=hobbyhall.fi
 @@||google-analytics.com/gtm/js$script,domain=hobbyhall.fi
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
