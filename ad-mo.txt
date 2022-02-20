@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Azrc1zj3ZzJpiYSIlExK7g
+! Checksum: Go+v4yCCnTg3bmFXe0YD4A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202201640
-! Last Modified: 2022年02月20日 16:40
+! Version: 202202201738
+! Last Modified: 2022年02月20日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59780,6 +59780,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##A[href*="/ky7993.com:"]
+##A[href*="/v9038.com:"]
+##A[href*="/0996916.com/"]
+##a[href*="/1298860.com/"]
 ##a[href*=".fancyzf.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -67501,6 +67505,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -69481,7 +69486,7 @@ caibaojian.com##.aliyun-inner
 cnfol.com##.allAd
 bkill.com##.alliance-ad
 pilifx.com##.alltop
-18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="33%"]
+18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > TD[width="20%"] > A[target="_blank"]
 gugeys.cc##.am-g
 maguays.cc##.animate-bounce-up
 gufengmh.com##.animated
@@ -94930,6 +94935,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rumble.com/l/
 ||rv.modanisa.com^$script
 ||s.infogram.com^
+||saa.insideedition.com^
 ||sciencechannel.com/events/
 ||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
