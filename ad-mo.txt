@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mbVXo4JUReq4FnkYbDqvvg
+! Checksum: x5hp0jUUIpFhb5WRKv2KAA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202210738
-! Last Modified: 2022年02月21日 07:38
+! Version: 202202210941
+! Last Modified: 2022年02月21日 09:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2041,7 +2041,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adjk.
 /adjoin.
 /adjs.php
-/adjs/*
+/adjs/*$~image
 /adjs?
 /adjs_
 /adjsmp.
@@ -75334,6 +75334,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||zkjh.info^
+||zgfushi.mobi^
+||gxkj.ink^
+||icfy.xyz^
+||meitaolianmeng.ltd^
+||xubb.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -106058,6 +106064,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@@||gs.statcounter.com/chart.php$script,third-party
+@@||statcounter.com/js//fusioncharts.charts.js
+@@||statcounter.com/js/fusioncharts.js
+@@||www.statcounter.com/images/$image,third-party
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
