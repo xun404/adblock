@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 27s78Krd+RxNTp0YdMSHIQ
+! Checksum: 0ddSLBS/gRbfC5h0hrvq9Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202221739
-! Last Modified: 2022年02月22日 17:39
+! Version: 202202221841
+! Last Modified: 2022年02月22日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -5345,7 +5345,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||airav.cc/static/js/*_ad.js
 ||airav.cc/Ucenter/*_Ad
 ||airouba.com/public/js/global.js
-||aistat.cn/huodong/
 ||aisy19.com/dm/
 ||aitaotu.com/style/js/aitaotu
 ||aiuw.com/images/*?from=ad
@@ -9430,6 +9429,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||yiparts.com/Chance.php?aid=
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 typecho.wiki##.adn-ar
@@ -15045,7 +15045,6 @@ u2mtv.com#@##slider-ad
 woego.cn#@##topAds
 buy.ccb.com#@##top_ad
 help.xunlei.com#@#.a_fr
-sewangchao.com,sewangchao3.com#@#.a_mu
 xinmin.cn#@#.a_p
 hahamx.cn#@#.ad-1
 diantai.ifeng.com#@#.ad-b
@@ -50011,6 +50010,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
+@@||ect.se.com/cbt/app/js/util/angularytics.min.js$script,~third-party
 @@||editorx.com/_api/*count?type$~third-party
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
