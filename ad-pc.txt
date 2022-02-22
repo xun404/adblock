@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BDv1v/XrbcVXYrD0jedwNg
+! Checksum: 9M3hSJd/Ar8ydX6g5YvtEg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202220942
-! Last Modified: 2022年02月22日 09:42
+! Version: 202202221047
+! Last Modified: 2022年02月22日 10:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32152,6 +32152,7 @@ hifi-classic.net#@#aside[itemtype="https://schema.org/WPAdBlock"]
 news.artnet.com#@#div[data-ad-targeting]
 cookinglight.com#@#div[data-native_ad]
 out.com#@#div[id^="dfp-ad-"]
+saitama-np.co.jp#@#div[id^="div-gpt-"]
 forums.overclockers.ru#@#div[id^="yandex_ad"]
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw,webike.vn#@#.ad_box
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw,webike.vn#@#.ad_title
@@ -54270,6 +54271,7 @@ whatshappening.com.ph###mrecCarousel
 nitrome.com###mu_3_container
 atlantatribune.com,footballleagueworld.co.uk,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
 twinfinite.net###mvp-main-content-wrap
+mangareader.cc###myModal
 mediaupdate.co.za###mycarousel
 comicbook.com###native-plus-top1
 comicbook.com###native-plus-top2
@@ -57200,6 +57202,7 @@ porngals4.com##.affl
 darknessporn.com##.after-boxes
 hentaidude.xxx##.ai_widget
 hotmovs.com,upornia.com##.app-banners
+hotmovs.tube##.app-banners__wrapper
 xnxxhd.pro##.approve
 fuqer.com##.area
 sextb.net##.asg-overlay
@@ -57413,7 +57416,7 @@ hentaistream.com##.othercontent
 beemtube.com##.overspot
 javtiful.com##.p-0[style="margin-top: 0.45rem !important"]
 empflix.com##.pInterstitialx
-hclips.com##.partners-wrap
+hclips.com,hotmovs.tube##.partners-wrap
 xfantazy.com##.partwidg1
 vxxx.com##.pgyytpktyka
 bigtitslust.com,sortporn.com##.pignr.item
@@ -57535,8 +57538,10 @@ megatube.xxx##.video-filter-1
 ok.xxx,pornhat.com##.video-link
 pornzog.com##.video-ntv
 pornhdtube.tv##.video-overlay
+hotmovs.tube##.video-page > .block_label > div
 thegay.com##.video-page__content > .right
 pornhd.com##.video-player-overlay
+hotmovs.tube##.video-right-top
 pornez.net##.video-sidebar
 pornhub.com,pornhubthbh7ap3u.onion##.video-wrapper > #player + [class]
 javynow.com##.videos-ad__ad
@@ -94566,6 +94571,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.mouthshut.com^
 ||analytics.nike.com^
 ||analytics.ovh.com^
+||analytics.pgncs.notion.so^
 ||analytics.plex.tv^
 ||analytics.productreview.com.au^
 ||analytics.realestate.com.au^
@@ -106541,6 +106547,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
+@@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||fast.appcues.com^$script,domain=initial.inc
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||game-tsutaya.tsite.jp/pc/common/scripts/analytics/s_code_ggame.js
