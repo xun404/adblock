@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n3dcgq56wHq2gsit9OiK9g
+! Checksum: E12gLqZhT+eqANEOG6HhjA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202232057
-! Last Modified: 2022年02月23日 20:57
+! Version: 202202232139
+! Last Modified: 2022年02月23日 21:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12093,6 +12093,8 @@ _800x80_
 ###advertising_728
 ###advertising_728_under
 ###advertising__banner__content
+###advertising_anglerect
+###advertising_billboard
 ###advertising_btm
 ###advertising_column
 ###advertising_container
@@ -12102,6 +12104,7 @@ _800x80_
 ###advertising_holder
 ###advertising_horiz_cont
 ###advertising_iab
+###advertising_leaderboard
 ###advertising_top_container
 ###advertising_wrapper
 ###advertisment-block-1
@@ -19557,6 +19560,7 @@ _800x80_
 ##.adRegionSelector
 ##.adRemove
 ##.adRenderer
+##.adRendererInfinite
 ##.adReportsLink
 ##.adResponsive
 ##.adResult
@@ -29393,6 +29397,7 @@ _800x80_
 ##.standard-ad
 ##.star-ad
 ##.start__advertising_container
+##.start__advertising_container_banner
 ##.start__newest__big_game_container_body_games_advertising
 ##.start_overview_adv_container
 ##.statTop_adsense
@@ -75466,6 +75471,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||friendliness.work^
 ||lddpgn.cn^
 ||hljmao.top^
+||jl-mt.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
