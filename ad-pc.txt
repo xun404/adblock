@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2fi+BdTIpdte57WQKteiGQ
+! Checksum: uG1BGFOS3ORlFTlev4JqRQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202241337
-! Last Modified: 2022年02月24日 13:37
+! Version: 202202241446
+! Last Modified: 2022年02月24日 14:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1458,7 +1458,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad/wisteria/*
 /ad/zeus/*
 /ad0.$domain=~ad0.com|~ad0.dev|~ad0.org|~vereinslinie.de
-/ad000/*
+/ad000/*$~image
 /ad01.
 /ad02/background_
 /ad1-728-
@@ -53192,6 +53192,7 @@ tf2r.com#@#.adverts
 ||uvnc.com/img/teamviewerlogo.jpg
 ||uxmatters.com/images/sponsors/
 ||vendo.cointelegraph.com^
+||vidcrunch.com^*/avmanager.js
 ||videosdahora.fun/jquery.js
 ||videowood.tv/assets/js/popup.js
 ||videowood.tv/pop2
@@ -95011,6 +95012,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nytimes.com/svc/nyt/data-layer?
 ||nytimes.com/v1/purr-cache
 ||nzpages.co.nz/modules/common/track.js
+||odysee.com/reports/
 ||online-umwandeln.de/analytics.js
 ||ophan.theguardian.com^
 ||optimize-stats.voxmedia.com^
