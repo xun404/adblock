@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k/l8rXegIdXfg1KWF1P9lQ
+! Checksum: Jq02tRNQUvbRczyksj5VJg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202250538
-! Last Modified: 2022年02月25日 05:38
+! Version: 202202250639
+! Last Modified: 2022年02月25日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1720,7 +1720,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adactions.
 /AdAgent_
 /adanalytics.
-/adanim/*
+/adanim/*$~image
 /adaptv_ortb/*
 /adaptvadplayer.
 /adaptvadservervastvideo.
@@ -105831,6 +105831,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
+@@||d1igp3oop3iho5.cloudfront.net^*/zaius.js$script,domain=subscriptions.management
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
