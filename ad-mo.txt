@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L7LXppXvBWg+4+0mDt90qw
+! Checksum: qWz0XB7SX0pcwUiBJPqwMg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202241052
-! Last Modified: 2022年02月24日 10:52
+! Version: 202202241247
+! Last Modified: 2022年02月24日 12:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -365,7 +365,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 &adpageurl=
 &adsafe=
 &adserver=
-&adslot=
 &adslots=
 &adsrc=
 &adstrade=
@@ -1172,7 +1171,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-title.
 /ad-top-
 /ad-top.
-/ad-top/*
+/ad-top/*$~image
 /ad-topbanner-
 /ad-unit-
 /ad-updated-
@@ -47437,6 +47436,7 @@ tf2r.com#@#.adverts
 ||zelllwrite.com^
 ||zelrasty.net^
 ||zemqvlylmtu.com^
+||zenaps.com^
 ||zenkreka.com^
 ||zenoviaexchange.com^
 ||zenoviagroup.com^
@@ -50828,6 +50828,7 @@ tf2r.com#@#.adverts
 ||z7yru.com^$popup
 ||zbest.in^$popup
 ||zedo.com^$popup
+||zenaps.com^$popup
 ||zeroredirect1.com^$popup
 ||zigachogra.com^$popup
 ||zixivily.com^$popup
@@ -52327,6 +52328,7 @@ tf2r.com#@#.adverts
 ||anymoviesearch.com^$popup
 ||avatrade.io/ads/$popup
 ||avengeradblocker.com^$popup
+||awin1.com/cread.php$popup
 ||best-stream.net^$popup
 ||bestanimegame.com^$popup
 ||bet365.com^*affiliate=$popup
@@ -53879,6 +53881,7 @@ robloxhackscripts.com###custom_html-23
 mostlyblogging.com,sarkarideals.com###custom_html-3
 colombiareports.com,filmschoolrejects.com,hongkongfp.com,phoneia.com,sarkarideals.com###custom_html-6
 kanonitv.net###custom_html-7
+noqreport.com###custom_html-7 > .custom-html-widget
 filmschoolrejects.com,reneweconomy.com.au,theteche.com###custom_html-8
 dailycaller.com###dailycaller_top
 urbandictionary.com###dark_top
@@ -53909,6 +53912,9 @@ designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
 energyforecastonline.co.za###endorsers
 geekwire.com###engineering-centers-sidebar
+welovetrump.com###enhancedtextwidget-14
+welovetrump.com###enhancedtextwidget-20
+welovetrump.com###enhancedtextwidget-34
 jigzone.com###fH
 fxsforexsrbijaforum.com###fa_ticker_container
 thedrinknation.com###fcBanner
@@ -54191,6 +54197,7 @@ core77.com###rsDesignDir
 sciencealert.com###rt-header
 pages.ebay.com###rtm_1658
 ebay.com###rtm_html_441
+noqreport.com###rumble_vj59vh
 flaticon.com###s-p
 skylinewebcams.com###s1123
 skylinewebcams.com###s4152
@@ -54841,10 +54848,10 @@ mydailyfreedom.com##.code-block-16
 cryptobriefing.com,cryptoreporter.info,geekspin.co,journeybytes.com,kanonitv.net,mikeprg.com##.code-block-2
 cryptoreporter.info,techpp.com##.code-block-3
 getdroidtips.com,thegayuk.com,wisden.com##.code-block-4
-androidsage.com,patriotfetch.com##.code-block-5
+androidsage.com,patriotfetch.com,welovetrump.com##.code-block-5
 estnn.com##.code-block-59
 geekspin.co,thedriven.io##.code-block-7
-getdroidtips.com,wisden.com##.code-block-8
+getdroidtips.com,welovetrump.com,wisden.com##.code-block-8
 androidsage.com##.code-block-9
 estnn.com##.code-block-label
 link-base.org##.col-lg-12
@@ -54943,6 +54950,7 @@ homefinder.com##.cubeContainer
 speedrun.com##.curse
 toolslib.net##.custom
 manilastandard.net##.custom-banner-customize
+noqreport.com##.custom-html-widget [href] > [src]
 ehitavada.com##.custom-popup
 101cargames.com##.custom-siteskin
 trancentral.tv##.custom_banners_big_link
@@ -56134,6 +56142,7 @@ uploader.link##[class^="ads"]
 goal.com##[class^="article_rhrCommercial_"]
 swarajyamag.com##[class^="banner-ad-"]
 romhustler.org##[class^="leaderboard_ad"]
+noqreport.com##[class^="noqre-"]
 coinmarketcap.com##[class^="sponsoredMark_"]
 torlock.com##[class^="wrn"]
 medicalnewstoday.com##[data-ad]
@@ -56254,6 +56263,7 @@ geeksforgeeks.org##[id^="bsa-zone"]
 scmp.com##[id^="div-ad-"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 msn.com##[id^="native_ad_"]
+noqreport.com##[id^="oqre-"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
 dappradar.com##[rel*="sponsored"]
@@ -56267,6 +56277,7 @@ linuxtopia.org##[src^="/includes/index.php/?img="]
 publish0x.com##[src^="blob:"]
 tampermonkey.net##[src^="data:image"]
 forum.ragezone.com##[src^="https://clients.ragezone.com/"]
+noqreport.com##[src^="https://media.mercola.com/assets/html/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
 mql5.com##[src^="https://www.mql5.com/fz/"]
 goal.com##[style*="--card-group-item:ad"]
@@ -75397,6 +75408,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xingyou25.xyz^
 ||qiyu.shop^
 ||shuai.love^
+||dnk56q7h.cn^
+||vlbvgtj.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -92986,6 +92999,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
 ||tracker.mrpfd.com^
+||tracker.nitropay.com^
 ||tracker.roitesting.com^
 ||tracker.softcube.com^
 ||tracker.timesgroup.com^
