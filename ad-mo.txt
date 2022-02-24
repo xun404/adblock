@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rMmzFPXSUXZyEpZHIYqDaw
+! Checksum: 1SpRkJ1OGf7QULbG4PjZ/A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202240740
-! Last Modified: 2022年02月24日 07:40
+! Version: 202202240950
+! Last Modified: 2022年02月24日 09:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1166,7 +1166,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-template.
 /ad-template/*$~image
 /ad-text.
-/ad-third-party/*
+/ad-third-party/*$~image
 /ad-third-party?
 /ad-time/*
 /ad-title.
@@ -3681,6 +3681,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /api/ad/*
 /api/ads/*
 /api/ads?
+/api/getcreatives?
 /api/v1/ad/*
 /apopwin.
 /app.ads-
@@ -4938,7 +4939,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /img/ad-
 /img/ad.
 /img/ad/*
-/img/ad_$domain=~rakuten.co.jp
+/img/ad_$domain=~kazi.co.jp|~rakuten.co.jp
 /img/ads/*$domain=~save.ca
 /img/adv.
 /img/adv/*
@@ -20323,6 +20324,7 @@ _800x80_
 ##.adbox-468x60
 ##.adbox-border-desk
 ##.adbox-box
+##.adbox-header
 ##.adbox-outer
 ##.adbox-rectangle
 ##.adbox-sidebar
@@ -27582,6 +27584,7 @@ _800x80_
 ##.pauseAdPlacement
 ##.pb-ad
 ##.pb-ad-curated
+##.pb-ads
 ##.pb-f-ad-flex
 ##.pb-f-ad-leaderboard
 ##.pb-f-ads-ad
@@ -28696,6 +28699,7 @@ _800x80_
 ##.sidebar-square-ad
 ##.sidebar-text-ad
 ##.sidebar-top-ad
+##.sidebar-tower-ad
 ##.sidebar300adblock
 ##.sidebarAd
 ##.sidebarAdBlock
@@ -54893,6 +54897,7 @@ techrepublic.com,zdnet.com##.content-leader-top
 cookist.com##.content-leaderboard
 pwinsider.com##.content-left
 pwinsider.com##.content-right
+flv2mp3.by##.content-right-bar
 businessinsider.com.au##.content-section-banner
 jmail.co.za,tsamail.co.za,webmail.co.za##.content-section-left
 crmbuyer.com,ectnews.com,macnewsworld.com,technewsworld.com##.content-tab-slinks
@@ -55212,6 +55217,7 @@ smallbusiness.co.uk##.homepage-banner-container
 gumtree.com.au##.homepage-gallery__mrec-placeholder
 designspiration.com##.homepageBanner
 lushstories.com##.horizhide
+flv2mp3.by##.horizontal-area
 getmyuni.com##.horizontalRectangle
 aarp.org##.hot-deals
 dailyrecord.co.uk##.hotjobs
@@ -59813,6 +59819,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||szmsao.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -75386,6 +75393,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||fuzhuyuan1688.xyz^
+||xingyou25.xyz^
+||qiyu.shop^
+||shuai.love^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -80861,6 +80872,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/analytics|
 /api/cmp_tracker
 /api/ComScorePageView
+/api/ipv4check?
 /api/log?
 /api/lt/ref?
 /api/metrics$other
@@ -85895,6 +85907,7 @@ _mongo_stats/
 ||irs01.com^
 ||krxd.net^
 ||ldnlyap.com^
+||leadhit.io^
 ||liadm.com^
 ||liveyield.com^
 ||lltrck.com^
@@ -86377,6 +86390,7 @@ _mongo_stats/
 ||callmeasurement.com^$third-party
 ||callrail.com^$third-party
 ||callreports.com^$third-party
+||calltouch.ru^$third-party
 ||calltrackingmetrics.com^$third-party
 ||calltracks.com^$third-party
 ||campaigncog.com^$third-party
@@ -94332,6 +94346,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acronymfinder.com/~/tr.ashx
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active.com/ig.track.js
+||adblockstreamtape.site/stat/
 ||adc-js.nine.com.au^
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
