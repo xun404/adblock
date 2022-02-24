@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Jq02tRNQUvbRczyksj5VJg
+! Checksum: sWbbLy1GIiXgr+nsk/+Afg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202250639
-! Last Modified: 2022年02月25日 06:39
+! Version: 202202250739
+! Last Modified: 2022年02月25日 07:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1721,7 +1721,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /AdAgent_
 /adanalytics.
 /adanim/*$~image
-/adaptv_ortb/*
+/adaptv_ortb/*$~image
 /adaptvadplayer.
 /adaptvadservervastvideo.
 /adaptvexchangevastvideo.
@@ -105931,6 +105931,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|jobs.ch|pizzahut.com.au
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||jsrdn.com/s/$script,domain=distro.tv
+@@||jumbe.zaius.com/v2/zaius.gif?$domain=subscriptions.management
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kaptcha.com/collect/sdk?$domain=wyze.com
 @@||kawasaki.com/Scripts/Analytics/BaseAnalytics.js$script,~third-party
