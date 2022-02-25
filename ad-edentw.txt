@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QSLMGTvjQ0F0JewZ42G8hQ
+! Checksum: SueUCB/8cE2zfxs0D5XQ9g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202251739
-! Last Modified: 2022年02月25日 17:39
+! Version: 202202251841
+! Last Modified: 2022年02月25日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -650,6 +650,7 @@ hdzone.org#$#abort-current-inline-script Math zfgloaded
 iprima.cz,www.seznam.cz,novinky.cz,super.cz,ahaonline.cz,expres.cz,kinobox.cz,horoskopy.cz#$#json-override ads ''
 kinobox.cz,novinky.cz,expres.cz,fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz,super.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 sauto.cz#$#override-property-read sssp undefined
+super.cz#$#override-property-read sspPositions null
 iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
 iprima.cz#?#div:-abp-has(>.mone_header)
 iprima.cz##.px-type-banner
@@ -1380,7 +1381,6 @@ autokult.pl,fotoblogia.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,smaczneblog
 abczdrowie.pl,parenting.pl,nerwica.com,twojeip.wp.pl,echirurgia.pl#$#abort-current-inline-script document.querySelector registerSlot
 money.pl#$#abort-current-inline-script document.querySelector querySelector
 wp.pl,pudelek.pl#$#abort-on-property-read wpjscb
-money.pl,sportowefakty.wp.pl#$#abort-on-property-read prebidConfig.config.bidTargets
 money.pl#?#div:-abp-has(> img[src$="/bg.png"])
 finanse.wp.pl#$#abort-on-property-read prebidConfig.hbA
 gwiazdy.wp.pl,film.wp.pl,teleshow.wp.pl,wawalove.wp.pl,opinie.wp.pl,moto.wp.pl,finanse.wp.pl#$#abort-on-property-read prebidConfig.hb
