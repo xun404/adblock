@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2PqqVzWpCGCva0CZPixysQ
+! Checksum: zWLSva8XtU9I/QrC36C5jA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202261140
-! Last Modified: 2022年02月26日 11:40
+! Version: 202202261247
+! Last Modified: 2022年02月26日 12:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -49417,7 +49417,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||videa.hu/flvplayer_setcookie.php?
 ||analytic20.detik.com^
 ||ktracker.kumparan.com^
-||tokopedia.com^*/pixel$xmlhttprequest
 /~shared/do/~/count/?$image
 ||alfemminile.com/logpix.php
 ||altervista.org/js/contatore.js
@@ -50444,6 +50443,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
+@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
