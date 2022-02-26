@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IR8tNiqL0wNtlFDIPr7u6Q
+! Checksum: A0XmqAbHm+hMertAgXkEkA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202260939
-! Last Modified: 2022年02月26日 09:39
+! Version: 202202261140
+! Last Modified: 2022年02月26日 11:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1909,7 +1909,7 @@ tieba.baidu.com##.tuijian-wrap
 /adcast_
 /adcde.js
 /adcdn.
-/adcell/*
+/adcell/*$~image
 /adcenter.$script,domain=~adcenter.capgemini.com|~adcenter.nu|~m-m-g.com
 /adcentral.
 /adCfg.
@@ -29340,6 +29340,7 @@ _800x80_
 ##.sponsorship_ad
 ##.sponsorshipbox
 ##.sponsorwrapper
+##.sponstitle
 ##.sponstop
 ##.sport-mpu-box
 ##.sportsbet_sbad
@@ -53884,6 +53885,9 @@ dailydot.com###DD_Desktop_HP_Content3
 healthline.com###DMR1__slot
 tweaktown.com###DesktopTop
 road.cc###Footer-Billboard
+fanlesstech.com###HTML2 > .widget-content
+fanlesstech.com###HTML4 > .widget-content
+fanlesstech.com###HTML5 > .widget-content
 linkfang.org###LinkFang_Horizontal
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
@@ -75622,6 +75626,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hushenqiquan.com^
 ||dingdian.shop^
 ||mydancecn.online^
+||lauvlku.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -86100,6 +86105,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||e1e.io^
+||efreecode.com^
 ||emycewiw.xyz^
 ||enthusiastgaming.net^
 ||everesttech.net^
@@ -91682,6 +91688,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.nrholding.net^
 ||beacon.riskified.com^
 ||beacon.rum.dynapis.com^
+||beacon.s.llnwi.net^
 ||beacon.searchspring.io^
 ||beacon.securestudies.com^
 ||beacon.sojern.com^
@@ -92736,6 +92743,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pi.ispot.tv^
 ||piano.io/tracker/
 ||pico.tools/metrics/
+||ping-admin.ru^$third-party
 ||ping-dot-acp-magento.appspot.com^
 ||ping.dozuki.com^
 ||ping.hellobar.com^
