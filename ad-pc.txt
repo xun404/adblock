@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0Kfo0MBvrxmWSVqm+SGYVw
+! Checksum: KWH5kZIqT+UPbEwDP7V4bw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202271537
-! Last Modified: 2022年02月27日 15:37
+! Version: 202202271640
+! Last Modified: 2022年02月27日 16:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1974,7 +1974,7 @@ tieba.baidu.com##.tuijian-wrap
 /adCustom-
 /adcxtnew_
 /adcycle.
-/adcycle/*
+/adcycle/*$~image
 /add728.
 /addata.$domain=~addata.io|~addata.se
 /addatasandbox?
@@ -31559,6 +31559,9 @@ _800x80_
 ##.rec_container_right
 ##.rec_title_footer
 ##[onclick*="content.ad/"]
+##.chp_ads_blocker-overlay
+##.chp_ads_blocker_detector
+##.chp_branding
 ##.amp-ad-container
 ##.amp-ad-wrapper
 ##.amp-adv-container
@@ -57036,6 +57039,7 @@ bing.com##a[href*="/aclick?ld="]
 1337x.to#?#a:-abp-contains(An‌on‌ymous Download)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
+mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
