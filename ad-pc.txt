@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +v/VKX4UgDHfCMQUsph/Kg
+! Checksum: eDvWKHmzNVpiVvGBfGcUaQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203010538
-! Last Modified: 2022年03月01日 05:38
+! Version: 202203010639
+! Last Modified: 2022年03月01日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -94456,6 +94456,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||sankei-digital.co.jp/log?
 ||sankei.co.jp/js/privacy/sando.js
+||script-sh.d2cdm.jp^
 ||seesaa.jp/ot_square.pl?
 ||shinobi.jp/track?
 ||shinobi.jp/zen?
@@ -106548,6 +106549,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
+@@||rtoaster.jp/Rtoaster.js$domain=satofull.jp
 @@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
