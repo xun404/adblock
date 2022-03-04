@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QYyFxzRoj3DPrbfOKGYRNw
+! Checksum: Gnn+pyHXdOQwFtBM1hmNSA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203050337
-! Last Modified: 2022年03月05日 03:37
+! Version: 202203050439
+! Last Modified: 2022年03月05日 04:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56648,6 +56648,7 @@ filefleck.com,sadeempc.com,upload4earn.org##a[href*="javascript:"]
 twitter.com##a[href*="src=promoted_trend_click"]
 twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
+1337x.to##a[href="/v-pn2dl-hideip"]
 techporn.ph##a[href][target*="blank"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 linkhub.icu##a[href^="/downloadnow.php?"]
@@ -57154,8 +57155,8 @@ bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
-1337x.to#?#a:-abp-contains(Your IP Address is)
-1337x.to#?#a:-abp-contains(An‌on‌ymous Download)
+1337x.to#?#a:-abp-contains(/Your IP Address is|Your IP Addres‌s is/)
+1337x.to#?#a:-abp-contains(/An‌on‌ymous Download|A‌non‌ymous Download/)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
