@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gjmanYCVnGX7b4H/qtn9Pg
+! Checksum: WXfSm8470jv7SBbHySA/PA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203051738
-! Last Modified: 2022年03月05日 17:38
+! Version: 202203051840
+! Last Modified: 2022年03月05日 18:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -58113,6 +58113,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
+@@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
 @@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
@@ -59533,7 +59534,7 @@ ubmcmm.baidustatic.com
 ###hellobox > .mylist
 ###hengfu > #jiukan
 ###hfad
-###hthslide[onclick]
+##a[href="/goto.php?url=hth"]
 ###imgad
 ###js-ad-map
 ###js-ysjpp
@@ -60302,6 +60303,7 @@ ubmcmm.baidustatic.com
 ##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
+##div[onclick*=".lyty49.com"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".rwnyou.com"]
 ##iframe[src*=".xxmh891.com/"]
@@ -60314,6 +60316,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##A[href*="/av888822.vip/"]
+##A[href*="/bibo149.com:"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -68041,6 +68045,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##img[src*=".xyz"][src*=".gif"]
 downkr.com##a[href*=".xitongzhijia.net"]
 downkr.com##.download-btn > .text-right
 downkr.com##.address-left > ul:nth-child(2)
@@ -86417,6 +86422,7 @@ _sdcTrackingCode.
 /partner-analytics/*
 /partnermetrics.
 /pixel_identifier.
+/plugins/nimiq/*$script
 /projectpoi.min.js
 /rbcmetrika-
 /recordMetricsData.
@@ -89606,6 +89612,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nexioniect.com^
 ||nfwebminer.com^$third-party
 ||niematego.tk^$third-party
+||nimiq.com^$third-party
 ||nimiqpool.com^$third-party
 ||nimiqtest.net^$third-party
 ||nimpool.io^$third-party
@@ -99276,7 +99283,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||extra.landorandfitch.com^
 ||fac.fanucamerica.com^
 ||go.eacpds.com^
-||go.fvtc.edu^
 ||go.phhlending.com^
 ||go.riosalado.edu^
 ||healthy.spartanburgregional.com^
@@ -99912,7 +99918,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||extra.landorandfitch.com^
 ||fac.fanucamerica.com^
 ||go.eacpds.com^
-||go.fvtc.edu^
 ||go.phhlending.com^
 ||go.riosalado.edu^
 ||healthy.spartanburgregional.com^
@@ -106648,7 +106653,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
-@@||repco.co.nz/_ui/shared/js/analyticsmediator.js
 @@||res-x.com^*/Resonance.aspx?
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||retailmenot.com/__wsm.gif$ping,xmlhttprequest
@@ -106730,6 +106734,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||uniqlo.com^*/trackingservice/$~third-party
+@@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||usbank.com^*/adrum.js?$script
 @@||varagesale.com/assets/analytics-$script,~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
@@ -106770,7 +106775,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||www.statcounter.com/images/$image,third-party
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
-@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
+@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se|repco.co.nz|repco.com.au
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com

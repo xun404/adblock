@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HzpbrcpELYJZ7YSW/RFdFA
+! Checksum: HlC9KWbQjWqNthxZ1RPKMw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202203051738
-! Last Modified: 2022年03月05日 17:38
+! Version: 202203051840
+! Last Modified: 2022年03月05日 18:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -971,7 +971,7 @@ ubmcmm.baidustatic.com
 ###hellobox > .mylist
 ###hengfu > #jiukan
 ###hfad
-###hthslide[onclick]
+##a[href="/goto.php?url=hth"]
 ###imgad
 ###js-ad-map
 ###js-ysjpp
@@ -1740,6 +1740,7 @@ ubmcmm.baidustatic.com
 ##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
+##div[onclick*=".lyty49.com"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".rwnyou.com"]
 ##iframe[src*=".xxmh891.com/"]
@@ -1752,6 +1753,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##A[href*="/av888822.vip/"]
+##A[href*="/bibo149.com:"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -9479,6 +9482,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##img[src*=".xyz"][src*=".gif"]
 downkr.com##a[href*=".xitongzhijia.net"]
 downkr.com##.download-btn > .text-right
 downkr.com##.address-left > ul:nth-child(2)
