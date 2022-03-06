@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tuQzf7VmrcKvotmAOyGPbw
+! Checksum: hY4tNKE9DaMfeXm2QmokXw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203061247
-! Last Modified: 2022年03月06日 12:47
+! Version: 202203061337
+! Last Modified: 2022年03月06日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -23963,6 +23963,7 @@ _800x80_
 ##.c-gallery-vertical__advert
 ##.c-googleadslot
 ##.c-header__advert-container
+##.c-inblog_ad
 ##.c-main-header__ad
 ##.c-news-feed-ads
 ##.c-partner-articles
@@ -24761,6 +24762,7 @@ _800x80_
 ##.dsp-under-video-ad
 ##.dsq_ad
 ##.dt-ad-top-content
+##.dtads-slot
 ##.dual-ads
 ##.dualAds
 ##.dva_ad
@@ -26456,6 +26458,7 @@ _800x80_
 ##.l-ads
 ##.l-adsense
 ##.l-bottom-ads
+##.l-grid--ad-card
 ##.l-header-advertising
 ##.l-region--ad
 ##.l-section--ad
@@ -26673,6 +26676,7 @@ _800x80_
 ##.list_bottom_ad
 ##.listad
 ##.listicle--ad-rail
+##.listicle-instream-ad-holder
 ##.listing-card-ad
 ##.listing-content-ad-container
 ##.listing-inline-ad
@@ -26953,6 +26957,7 @@ _800x80_
 ##.metaRedirectWrapperBottomAds
 ##.metaRedirectWrapperTopAds
 ##.meta_ad
+##.metabet-adtile
 ##.metaboxType-sponsor
 ##.mf-ad300-container
 ##.mg_box_ads
@@ -52235,6 +52240,7 @@ tf2r.com#@#.adverts
 ||media.netrefer.com^
 ||mediaplex.com/ad/
 ||memesng.com/ads
+||metabet.io/js/global.js
 ||metroland.com/wagjag/
 ||missnowmrs.com/images/banners/
 ||mmosale.com/baner_images/
@@ -54962,7 +54968,7 @@ brickset.com##.admin.buy
 chat-avenue.com##.adnoyer_log
 flightglobal.com,thriftyfun.com##.adp
 vice.com##.adph
-1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,idiva.com,indiatimes.com,inspirock.com,knowyourmeme.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,roadaheadonline.co.za,roms-download.com,russia-insider.com,russian-faith.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tcm.com,tech2.com,tehrantimes.com,tellerreport.com,thecatholicuniverse.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,y8.com,yummy.ph##.ads
+1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,idiva.com,indiatimes.com,inspirock.com,knowyourmeme.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,roadaheadonline.co.za,roms-download.com,russia-insider.com,russian-faith.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,sherdog.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tcm.com,tech2.com,tehrantimes.com,tellerreport.com,thecatholicuniverse.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,y8.com,yummy.ph##.ads
 indianexpress.com,roblox.com,spotify.com##.ads-container
 lightnovelpub.com##.adsbox
 informer.com##.adsbygoogle
@@ -55071,6 +55077,7 @@ revelist.com##.b-container
 china.ahk.de##.b-header__banner
 dnserrorassist.att.net,search.frontier.com,searchguide.level3.com##.b-links
 digitaltrends.com##.b-placard
+themanual.com##.b-product-attributes__offers
 geekflare.com##.b-sticky-sidebar-wrapper-simple
 bizcommunity.com##.b-topbanner
 scorespro.com##.b160_600
@@ -55596,6 +55603,8 @@ ebay.com##.ggtm
 gethuman.com##.gh-ads
 ghacks.net##.ghacks-ad
 givemesport.com##.gms-ad
+givemesport.com##.gms-billboard-container
+givemesport.com##.gms-sidebar-ad
 gadgetsnow.com##.gn_product_deals
 cnx-software.com##.gno
 usatoday.com##.gnt_tb
@@ -91903,6 +91912,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/avsmetrics/
 ||amazonaws.com/cdn.barilliance.com/
 ||amazonaws.com/j.kissinsights.com/
+||amazonaws.com/js/reach.js
 ||amazonaws.com/ki.js/
 ||amazonaws.com/lp/js/tag.js?
 ||amazonaws.com/new.cetrk.com/
@@ -93608,6 +93618,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||techtarget.com^*/GetCookiesWithCallback?
 ||techweb.com/beacon/
 ||telemetrics.klaviyo.com^
+||telemetry.phenixrts.com^
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
