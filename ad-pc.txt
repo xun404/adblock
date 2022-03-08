@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c997RfyrEk64IgxY3vG05Q
+! Checksum: YjLZbRArkV5KClvC7u1Tyg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203081446
-! Last Modified: 2022年03月08日 14:46
+! Version: 202203081537
+! Last Modified: 2022年03月08日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -76056,6 +76056,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xcummws.cn^
 ||4go.cc^
 ||zwmosu.xyz^
+||xingyou64.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -107018,6 +107019,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||caf.fr^*/smarttag.js$script,~third-party
+@@||cdiscount.com/Js/tracking/cdtmv2.js$script,~third-party
 @@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
