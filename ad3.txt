@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JYAwV6PaP9TQyXLpZjidrg
+! Checksum: nn5UZu+cOjanIqB9Sb3hUQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203090057
-! Last Modified: 2022年03月09日 00:57
+! Version: 202203090640
+! Last Modified: 2022年03月09日 06:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -29745,7 +29745,7 @@ m.babytree.com##script + a[class]
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
-://matomo.
+://matomo.$domain=~matomo.org
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -50405,10 +50405,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sahibinden.com/assets/analytics*.js$script
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
-@@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
 @@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js
+@@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
