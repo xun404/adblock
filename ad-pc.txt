@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +7WI0zAa/030FZvwwbuLTw
+! Checksum: q2kBm0kI1O/2d8jZnyAnTQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203081937
-! Last Modified: 2022年03月08日 19:37
+! Version: 202203082059
+! Last Modified: 2022年03月08日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60051,6 +60051,7 @@ ubmcmm.baidustatic.com
 ##.toy52apparel_ALL
 ##.trad1
 ##.trad3
+##img[src$=".gif"][style="width:100%;max-width: 960px;height:45px;margin-bottom:2px;"]
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.uk-width-1-1.adbox
@@ -60434,6 +60435,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||huixianjiaoyuedu.com^
+||vip1221.com^$third-party
+||emcoper.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -68155,6 +68158,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##A[href="https://pic.13709394.net/upload/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -76062,6 +76066,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||4go.cc^
 ||zwmosu.xyz^
 ||xingyou64.xyz^
+||dqcztxmu.com^
+||banggongxia.xyz^
+||luoshihua.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
