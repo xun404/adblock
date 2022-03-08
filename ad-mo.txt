@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7T8DAewwtG99NVQOn3aQjQ
+! Checksum: 2cnl8nRXRdcHG+LI0+t6Jw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203080639
-! Last Modified: 2022年03月08日 06:39
+! Version: 202203080951
+! Last Modified: 2022年03月08日 09:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -75930,6 +75930,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||tolerated.wang^
+||xiaoli.video^
+||m100.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -88352,7 +88355,7 @@ _mongo_stats/
 ||peruse.ai^$third-party
 ||petametrics.com^$third-party
 ||pghub.io^$third-party
-||pgs.io^$third-party
+||pgs.io^$third-party,domain=~publicgood.com
 ||phenompeople.com^$third-party
 ||phonalytics.com^$third-party
 ||phone-analytics.com^$third-party
