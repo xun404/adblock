@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: af7+I5uO4saPVtYSoHdB+A
+! Checksum: mgC5PIpuDb9CIFLQj1schw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203081052
-! Last Modified: 2022年03月08日 10:52
+! Version: 202203081248
+! Last Modified: 2022年03月08日 12:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1502,6 +1502,7 @@ ubmcmm.baidustatic.com
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##a[href*="?channelCode="] > img[src*=".com:"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
@@ -1762,6 +1763,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||huixianjiaoyuedu.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -17382,6 +17384,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tolerated.wang^
 ||xiaoli.video^
 ||m100.site^
+||xryrylt.cn^
+||attempted.wang^
+||bazinga12138.online^
+||8889888.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
