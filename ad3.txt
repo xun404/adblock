@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ibn4nRkRE+eMOV80iSGFCg
+! Checksum: jqFR4ku7ngkuw2WVviq8QA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203082059
-! Last Modified: 2022年03月08日 20:59
+! Version: 202203082142
+! Last Modified: 2022年03月08日 21:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26715,8 +26715,6 @@ m.babytree.com##script + a[class]
 /gov-tracking.min.js
 /gPageTracking.
 /grappler/log/*
-/gravity-beacon-
-/gravity-beacon.js
 /grumi-ip.js
 /gs-analytics-
 /gs-analytics.
@@ -36427,7 +36425,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
 ||graphcomment.com/api/thread/*/stats
-||gravity.com^*/beacons/
 ||green-griffin-860.appspot.com^
 ||gsp1.baidu.com^
 ||gstatic.com/gadf/ga_dyn.js
@@ -50220,6 +50217,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
+@@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 @@||ect.se.com/cbt/app/js/util/angularytics.min.js$script,~third-party
 @@||editorx.com/_api/*count?type$~third-party
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
