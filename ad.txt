@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lWAv7dMkIFvIyEUijDbgCA
+! Checksum: //DBTfWIq2pxOGz2w+b7tQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203090057
-! Last Modified: 2022年03月09日 00:57
+! Version: 202203090955
+! Last Modified: 2022年03月09日 09:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2209,6 +2209,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||phagueq.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9935,6 +9936,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||szjjzs.com/js/fe
+||szjjzs.com/js/piao.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17834,6 +17837,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||concocting.wang^
+||nokiadatabooklet.ltd^
+||hryidhf.ltd^
+||unconditionally.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
