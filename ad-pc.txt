@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6w2tAeNYpDi7HhFYqjieBg
+! Checksum: QWy485b15ggZUknc/FVdXg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203100440
-! Last Modified: 2022年03月10日 04:40
+! Version: 202203100639
+! Last Modified: 2022年03月10日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18565,8 +18565,10 @@ _800x80_
 ##.ad-mobile-300x250
 ##.ad-mobile-300x50
 ##.ad-mobile-banner
+##.ad-mobile-flex-inc
 ##.ad-mobile-flex-pos2
 ##.ad-mobile-mpu
+##.ad-mobile-mpu-plus-outstream-inc
 ##.ad-mod
 ##.ad-module
 ##.ad-mount
@@ -56430,6 +56432,7 @@ panarmenian.net##.side_panner
 tutorialrepublic.com##.sidebar
 computing.co.uk##.sidebar-block
 radiotoday.co.uk##.sidebar-column-secondary > .sidebar
+troyhunt.com##.sidebar-featured
 mediaite.com##.sidebar-hook
 freshbusinessthinking.com##.sidebar-mpu
 spearswms.com##.sidebar-mpu-1
@@ -58241,6 +58244,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.dollartree.com/SneakPeek/$~third-party
 @@||ads.exoclick.com/*.js$script,domain=gelbooru.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
+@@||ads.kbmax.com^$domain=adspipe.com
 @@||ads.muxiv.com/address/$xmlhttprequest
 @@||ads.nationmedia.com/webfonts/$font
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
@@ -96529,6 +96533,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||xplosion.de^$domain=spiegel.de|stern.de
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
+||email.mg.everyonesocial.com^$image,script
 ||primate.dmarcdigests.com^
 ||1kpv4njzilv.community.intersystems.com^
 ||1zzs6w25i8n.tube.inflatevids.xyz^
@@ -105443,7 +105448,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||email.mail.floatme.io^
 ||email.mail.primexbt.com^
 ||email.member.theknot.com^
-||email.mg.everyonesocial.com^
 ||email.pray.com^
 ||email.social.f5.com^
 ||email.strava.com^
