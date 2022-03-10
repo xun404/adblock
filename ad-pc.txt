@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PEbfAhDFTjS+rvFL80M4Iw
+! Checksum: eRYLE5u7/VPzQFmOv6CXSA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203101842
-! Last Modified: 2022年03月10日 18:42
+! Version: 202203102101
+! Last Modified: 2022年03月10日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3648,7 +3648,7 @@ tieba.baidu.com##.tuijian-wrap
 /adwrapperiframe.
 /adwriter2.
 /adx-exchange.
-/adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
+/adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
 /adx/ads?
 /adx/iframe.
 /adx/js/*
@@ -58272,6 +58272,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||archive.org/services/$image,~third-party,xmlhttprequest
 @@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
+@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
 @@||auctionzip.com/cgi-bin/showimage.cgi?
@@ -60525,6 +60526,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||gxlsjt.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -68258,6 +68260,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 939394.xyz##A[href="/85hohVj2gmIM6cuWWF/index.html"]
+xiebruce.top###ai_widget-2
 pan666.cn##.footer > .containerNarrow
 szxx.com.cn###A1
 szxx.com.cn###A2
