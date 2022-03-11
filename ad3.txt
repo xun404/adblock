@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7Ru4xG0T+ymo96/2zNWOXQ
+! Checksum: e3QhQIQ79mzksit/e5GC3w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203111642
-! Last Modified: 2022年03月11日 16:42
+! Version: 202203111742
+! Last Modified: 2022年03月11日 17:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17413,6 +17413,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mmoqgsl.cn^
 ||xshijie.xyz^
 ||nnopp.website^
+||sthouw.vip^
+||xulilin.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -33278,7 +33280,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudflareinsights.com^$third-party
 ||cnhv.co^$third-party
 ||coin-have.com^$third-party
-||coin-hive.com^$third-party
 ||coinerra.com^$third-party
 ||coinhiveproxy.com^$third-party
 ||coinimp.com$third-party
@@ -50717,7 +50718,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
-@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
@@ -50912,6 +50912,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zinro.net/m/log.php
 !---------- Korean ----------
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
+@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||vod.midas-i.com^$media,domain=pandora.tv
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 !---------- Latvian ----------
