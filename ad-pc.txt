@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZwB3xeOMO8kxmQs4o5sxfw
+! Checksum: NxWf+ovlJkXzaWh5OrqvtQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203121937
-! Last Modified: 2022年03月12日 19:37
+! Version: 202203122055
+! Last Modified: 2022年03月12日 20:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55868,6 +55868,7 @@ distractify.com##.gXgoom
 animedao.to##.gads
 eonline.com##.gallery-rail-sticky-container
 cdromance.com##.game-container[style="grid-column: span 2;"]
+geoguessr.com##.game-layout__in-game-ad
 monstertruckgames.org##.gamecatbox
 home-assistant-guide.com##.gb-container-429fcb03
 home-assistant-guide.com##.gb-container-5698cb9d
@@ -58577,6 +58578,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||server.cpmstar.com/view.aspx?poolid=$domain=newgrounds.com
 @@||serviceads.co.uk/api/ad/$~third-party,xmlhttprequest
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
+@@||showcase.codethislab.com/banners/$image,~third-party
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||somewheresouth.net/banner/banner.php$image
 @@||spendino.de/admanager/
@@ -95587,6 +95589,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beam.giraffe360.com^
 ||bfp.capitalone.com^
 ||bing.com/fd/ls/GLinkPing.aspx?
+||bing.com/mouselog
 ||binocule21c.merriam-webster.com^
 ||biomedcentral.com/track/
 ||booking.com/logo?
