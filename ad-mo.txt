@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RLw32oMfGj8a02w9AOyGLQ
+! Checksum: sqXAki5eUTopuWU3dMQ8pw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203132056
-! Last Modified: 2022年03月13日 20:56
+! Version: 202203132238
+! Last Modified: 2022年03月13日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -53265,6 +53265,7 @@ tf2r.com#@#.adverts
 ||afloat.ie/images/banners/
 ||afr.com/assets/europa.
 ||allclassical.org/wp-content/banners/
+||allkeyshop.com/blog/wp-content/uploads/allkeyshop_background_
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
 ||aolcdn.com/ads/$script
@@ -54939,6 +54940,8 @@ vgleaks.com###text-4
 needsomefun.net###text-41
 bigblueball.com###text-416290631
 needsomefun.net###text-42
+premiumtimesng.com###text-429
+premiumtimesng.com###text-440
 electronicshub.org,techlife.com,technipages.com###text-5
 2smsupernetwork.com,khaama.com###text-50
 ssbcrack.com###text-51
@@ -55269,6 +55272,8 @@ scorespro.com##.b160_600
 bing.com##.b_poleContent > #ifeu
 namepros.com##.backer
 mcvuk.com,technologyx.com,thessdreview.com##.background-cover
+allkeyshop.com,cdkeyit.it,cdkeynl.nl,cdkeypt.pt,clavecd.es,goclecd.fr,keyforsteam.de##.background-link-left
+allkeyshop.com,cdkeyit.it,cdkeynl.nl,cdkeypt.pt,clavecd.es,goclecd.fr,keyforsteam.de##.background-link-right
 gayexpress.co.nz##.backstretch
 izismile.com##.ban_top
 lexico.com##.banbox
@@ -55640,6 +55645,7 @@ randomarchive.com##.desktop[style="text-align:center"]
 pastemagazine.com,theonion.com##.dfp
 dailyfx.com##.dfx-article__sidebar
 notes.io##.directMessageBanner
+premiumtimesng.com##.directcampaign
 audiokarma.org##.discussionListItem > center
 govevents.com,protipster.com##.display
 flightconnections.com##.display-box
@@ -56245,6 +56251,7 @@ presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
 foxbusiness.com##.pre-content
 sassymamahk.com##.pre_header_widget
 vivo.sx##.preload
+premiumtimesng.com##.premi-texem-campaign
 flobzoo.com,onlyfungames.com,yokogames.com##.preview2bannerspot
 onlyfungames.com##.preview3bannerspot
 computerweekly.com##.pro-downloads-home
@@ -57048,6 +57055,7 @@ issuu.com##div[class*="adSkyscraper"]
 keengamer.com##div[class*="gameon-above-"]
 ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
 informer.com##div[class="a2"]
+walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 dailymotion.com##div[class^="AdBanner"]
 topgear.com##div[class^="AdContainer-"]
 tunefind.com##div[class^="AdSlot_inner_"]
@@ -57216,6 +57224,7 @@ coincodex.com,yourbittorrent.com##iframe[src]
 123-movies.ninja,123movies.net,4anime.biz,4anime.gg,animekisa.in,animekisa.tv,dramacool.pk,dulu.to,filmyzilla.makeup,gogoanime.lol,herogayab.net,mangadna.com,mangceh.cc,prmovies.li,ssoap2day.to,vanime.co,watchseries.ninja,webtoonshare.com,yomovies.bz,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
+premiumtimesng.com##img[alt$=" Ad"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
 thecuttingedgenews.com##img[alt="Ad by The Cutting Edge News"]
 nta.ng##img[alt="Online Ads WeConnect Platform"]
@@ -57495,6 +57504,8 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+walmart.com#?#li.items-center:-abp-has(div[data-ad-component-type="wpa-tile"])
+walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[data-ad-component-type="wpa-tile"])
 yts.mx#?#.hidden-xs.hidden-sm:-abp-contains(Warning! Download only with VPN...)
 troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"])
 1337x.to#?#a:-abp-contains(/Your IP Address is|Your IP Addres‌s is/)
@@ -58484,6 +58495,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||securenetsystems.net/advertising/ad_campaign_get.cfm?$xmlhttprequest
 @@||securitytrails.com/app/api/domain/$~third-party,xmlhttprequest
 @@||servebom.com/tmn*.js$script,domain=tomsguide.com|tomshardware.co.uk|tomshardware.com|wonderhowto.com
+@@||served-by.pixfuture.com/www/delivery/gcws.php$xmlhttprequest,domain=premiumtimesng.com
 @@||server.cpmstar.com/view.aspx?poolid=$domain=newgrounds.com
 @@||serviceads.co.uk/api/ad/$~third-party,xmlhttprequest
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
