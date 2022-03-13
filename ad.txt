@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9wiXajOLcZqaaW0TLCfJ2w
+! Checksum: QVoC1ht5LGPugnWjlemn2g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203131641
-! Last Modified: 2022年03月13日 16:41
+! Version: 202203132056
+! Last Modified: 2022年03月13日 20:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1792,6 +1792,7 @@ ubmcmm.baidustatic.com
 ##.qzdhf
 ##.qzhfaaa
 ##.readmidad
+##a[href*="?invite_code="] > img[src*=".com"]
 ##.right > .content > .ads
 ##.room-ad-bottom
 ##.room-ad-top
@@ -2211,6 +2212,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||hengtengds.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -17868,6 +17870,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||iqn.world^
 ||afx001.pw^
 ||pcfdgc.cn^
+||pmdatabase.xyz^
+||neihan.co^
+||sfceco.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
