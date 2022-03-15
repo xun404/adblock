@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qZopZoVZvC913lwnWCcmCQ
+! Checksum: 2aJ6fyf+YmT0CP6+qqVGgg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203151248
-! Last Modified: 2022年03月15日 12:48
+! Version: 202203151337
+! Last Modified: 2022年03月15日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25985,6 +25985,7 @@ m.babytree.com##script + a[class]
 /collect_stat.
 /collect_v3.
 /collection.php?data=
+/collector-*/event
 /collector.php?
 /collector/beacon
 /collector/hit?
@@ -28385,6 +28386,7 @@ m.babytree.com##script + a[class]
 /scriptAnalytics.
 /scripts.kissmetrics.com/*
 /scripts/analitics.
+/scripts/analytics-
 /scripts/analytics.
 /scripts/analytics_
 /scripts/clickjs.php
@@ -39577,6 +39579,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||slickdeals.net/ajax/stats/
 ||slipstream.skyscanner.net^
 ||smallcapnetwork.com/zfbp/viewtracker/
+||smallpdf.com/build/track-js.js
 ||smassets.net/assets/anonweb/anonweb-click-
 ||snapchat.com/web/metrics
 ||solvusoft.com^*/scripts/visitor.js
@@ -49758,6 +49761,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ts.fi/Statistics/Log$image
 ||ts.fi^*/spring.js
 ||skroutz.gr/analytics/
+||skroutza.skroutz.gr/skroutza.min.js
 ||vidads.gr/imp/
 ||bravo.israelweather.co.il^
 ||cellstats.mako.co.il^
