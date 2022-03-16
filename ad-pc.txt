@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LBFbKdJ0trtvp9/yclLK2w
+! Checksum: njiWB3RpKXOLC0DRU6QO7A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203161642
-! Last Modified: 2022年03月16日 16:42
+! Version: 202203161846
+! Last Modified: 2022年03月16日 18:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56380,8 +56380,6 @@ pcgamingwiki.com##.upcoming-releases.home-card:first-child
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
-search.yahoo.com##.va-mid
-search.yahoo.com##.va-mid + a
 lasvegassun.com##.varWrapper
 filmdaily.co##.vc_single_image-wrapper
 ktm2day.com##.vc_wp_text
@@ -57169,8 +57167,8 @@ walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[dat
 yts.mx#?#.hidden-xs.hidden-sm:-abp-contains(Warning! Download only with VPN...)
 samsclub.com#?#li[class="sc-carousel-slide sc-carousel-horizontal"]:-abp-has(div.sc-pc-sponsored)
 troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"])
-bing.com#?#li[class="b_algo"]:-adp-has(> h2 + div[class="b_caption"] > p[class])
-bing.com#?##b_results > li:-adp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
+bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
+bing.com#?##b_results > li:-abp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
 1337x.to#?#a:-abp-contains(/Your IP Address is|Your IP Addres‌s is/)
 1337x.to#?#a:-abp-contains(/An‌on‌ymous Download|A‌non‌ymous Download/)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
