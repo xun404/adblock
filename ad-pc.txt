@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UnbU1rjjpNZmc8uxCAJplg
+! Checksum: 9A8IE/JA0sMcaJMCrz1KmA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203161247
-! Last Modified: 2022年03月16日 12:47
+! Version: 202203161337
+! Last Modified: 2022年03月16日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57169,8 +57169,8 @@ walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[dat
 yts.mx#?#.hidden-xs.hidden-sm:-abp-contains(Warning! Download only with VPN...)
 samsclub.com#?#li[class="sc-carousel-slide sc-carousel-horizontal"]:-abp-has(div.sc-pc-sponsored)
 troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"])
-bing.com#?#li[class="b_algo"]:has(> h2 + div[class="b_caption"] > p[class])
-bing.com#?##b_results > li:has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
+bing.com#?#li[class="b_algo"]:-adp-has(> h2 + div[class="b_caption"] > p[class])
+bing.com#?##b_results > li:-adp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
 1337x.to#?#a:-abp-contains(/Your IP Address is|Your IP Addres‌s is/)
 1337x.to#?#a:-abp-contains(/An‌on‌ymous Download|A‌non‌ymous Download/)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
@@ -60245,6 +60245,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||yinyating.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -75913,6 +75914,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||redmix.me^
 ||hsc.ink^
 ||jfsldq.top^
+||nomcyk.cn^
+||jingyue.co^
+||xn--xkry73b.online^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
