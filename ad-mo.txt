@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Kb+QxM9uIpWvk50PhA9hTQ
+! Checksum: xOz+7IkfT06LFJJb1E1aow
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203181446
-! Last Modified: 2022年03月18日 14:46
+! Version: 202203181537
+! Last Modified: 2022年03月18日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -66954,7 +66954,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||taijuwang.com/template/alifun/js/unFavui.
 ||taiwandaily.net/wp-content/uploads*_600x100.
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
-||talkfx.net/showTKImg?
+||talkfx.*/showTKImg?
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taoguba.com.cn/js/tgbduilian
 ||taoguba.com.cn/res/js/tgbgg/
@@ -67807,6 +67807,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||3399.com/act/$third-party
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+talkfx.co###frameff1Hu9_left
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71782,7 +71783,7 @@ ksbbs.com,kshot.com##.slideAdvert
 cnbeta.com##.slide_area a[href^="http"]:not([href^="http://www.cnbeta."])
 duba.com##.slidebar
 duba.com##.slidebar + .extend
-talkfx.com##.slidebox
+talkfx.co##.slidebox
 1909.me,xchina.co##.slider-ad
 uc.cn##.slider__sdk__wrapper
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
@@ -75720,6 +75721,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||longxia-designer.top^
 ||gzckdg.cn^
 ||ifil.shop^
+||8341.store^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
