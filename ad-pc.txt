@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EvhQe2VCXr9St50yI/4q+Q
+! Checksum: O5comqP+5csVZ9sCWtX38Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203220640
-! Last Modified: 2022年03月22日 06:40
+! Version: 202203221010
+! Last Modified: 2022年03月22日 10:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22365,6 +22365,7 @@ _800x80_
 ##.advert-pane
 ##.advert-panel
 ##.advert-placeholder
+##.advert-placeholder-wrapper
 ##.advert-preview-wrapper
 ##.advert-right
 ##.advert-row
@@ -55355,6 +55356,7 @@ radiotoday.co.uk##.byglhsmf
 insurancejournal.com##.bzn
 afl.com.au##.c-accordion__item-officialpartners
 newstalkzb.co.nz##.c-background
+elnacional.cat##.c-banner
 truck1.eu##.c-banners
 euronews.com##.c-card-sponsor
 globalnews.ca##.c-flyers
@@ -56320,6 +56322,7 @@ surinenglish.com##.roba
 roblox.com##.roblox-skyscraper
 mdisk.me##.robot
 flightconnections.com##.route-display-box
+elnacional.cat##.row-top-banner
 designtaxi.com##.row.displayboard
 steamanalyst.com##.row.tpbcontainer
 bikechatforums.com##.row2[style="padding: 5px;"]
@@ -56580,6 +56583,7 @@ thedailyusnews.com##.theda-id-2
 thedailyusnews.com##.theda-id-3
 thedailyusnews.com##.theda-id-4
 steelersdepot.com##.theiaStickySidebar
+militarywatchmagazine.com##.theme--light.v-card--link
 check-host.net##.thold10xr
 hltv.org##.thunderpick
 coub.com##.timeline-banner
@@ -56647,6 +56651,7 @@ pcgamingwiki.com##.upcoming-releases.home-card:first-child
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
+militarywatchmagazine.com##.v-size--x-small.theme--light
 lasvegassun.com##.varWrapper
 filmdaily.co##.vc_single_image-wrapper
 ktm2day.com##.vc_wp_text
@@ -75527,7 +75532,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||ykxwn.com^
 ||ynzhby.com^
 ||yong.chazidian.com^
-||youwugong.jobui.com^
+||ywg.jobui.com^
 ||ys.muhoujiemi.com^
 ||ysxywj.com^
 ||ytelc.com^$third-party
@@ -75987,6 +75992,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||baoying.asia^
+||tuangou.pro^
+||lvzi.store^
+||yxzy.asia^
+||gozqezh.cn^
+||884069349.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -91773,6 +91784,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.clickpathmedia.com^
 ||analytics.cmn.com^
 ||analytics.codigo.se^
+||analytics.contentexchange.me^
 ||analytics.convertlanguage.com^
 ||analytics.cynapse.com^
 ||analytics.datahc.com^
@@ -94833,6 +94845,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
 ||zahodi-ka.ru^*/schet.cgi?
 ||contentexchange.me/static/tracker.js
+||hits.tf.rs^
+||w4m.rs/tracker.js
 ||stat.ringier.sk^
 ||interseek.si^*/visit.js
 ||1to1.bbva.com^
@@ -106302,11 +106316,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
-@@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org|my.foxnews.com
-@@||cdn.segment.com/next-integrations/integrations/intercom/*/intercom.dynamic.js.gz$script,domain=app.cryptotrader.tax
-@@||cdn.segment.com/next-integrations/integrations/vendor/commons.$script,domain=app.cryptotrader.tax
-@@||cdn.segment.com/v1/projects/$domain=app.cryptotrader.tax|benchling.com|givingassistant.org
+@@||cdn.segment.com/analytics-next/
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
+@@||cdn.segment.com/next-integrations/integrations/
+@@||cdn.segment.com/v1/projects/
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
