@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: utTqA3dxcQ5Wm81hoWHwow
+! Checksum: mzHaEwe34kd57IG9bI1gHQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203231014
-! Last Modified: 2022年03月23日 10:14
+! Version: 202203231110
+! Last Modified: 2022年03月23日 11:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30850,7 +30850,6 @@ _800x80_
 ##[data-template-type="nativead"]
 ##[href*=".engine.adglare.net/"]
 ##[href*=".zlinkm.com/"]
-##[href*="https://www.jmbullion.com/gold/"]
 ##[href^="http://advertisesimple.info/"]
 ##[href^="http://globsads.com/"]
 ##[href^="http://go.cm-trk2.com/"]
@@ -58304,8 +58303,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||archive.org/services/$image,~third-party,xmlhttprequest
 @@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
-@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|metacritic.com
-@@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
+@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
+@@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
 @@||auctionzip.com/cgi-bin/showimage.cgi?
 @@||autotrader.co.uk^*/advert$~third-party
