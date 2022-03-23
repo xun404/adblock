@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qYMiZVNCA8KJ1TOgRt6Vjw
+! Checksum: ChK7ih9XaRe7boUVLTSR2Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203240440
-! Last Modified: 2022年03月24日 04:40
+! Version: 202203240739
+! Last Modified: 2022年03月24日 07:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -76067,6 +76067,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||vipytyl.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -81974,6 +81975,7 @@ fqsousou.com,kengso.com#@#.user-share
 /client-event.axd?
 /client-logging-bundle-
 /client-metrics/?target
+/client-tracking-sync.
 /client.rum.
 /client_pathlog.asp?
 /clientdatacollector/*
@@ -106716,6 +106718,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
+@@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||trendyol.com/delivery-tracking-query-api/$~third-party
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
