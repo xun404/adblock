@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MwlRMdyJTIPfIsel3fhi+A
+! Checksum: niz9z/+eOO938MxXjjaL0Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203251843
-! Last Modified: 2022年03月25日 18:43
+! Version: 202203251938
+! Last Modified: 2022年03月25日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -86146,6 +86146,7 @@ cgi-bin/counter
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
 /link.pbtech.co.nz/mo/*$image
+/links1.strava.com/*$image
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
@@ -95413,6 +95414,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkedin.com/litms/utag/
 ||linkedin.com/platform-telemetry/
 ||linkedin.com/sensorCollect/
+||links.strava.com^$image
 ||linktr.ee/events
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
@@ -105278,7 +105280,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||links.playon.tv^
 ||links.schnucks.com^
 ||links.sheroes.in^
-||links.strava.com^
 ||links.t.blueapron.com^
 ||links.t.wine.com^
 ||links.thedyrt.com^
