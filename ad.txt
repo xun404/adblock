@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nnLARtbI/yfz87KCyAiRrA
+! Checksum: zMmDjJ4DcugcMSi04rpgIw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203270053
-! Last Modified: 2022年03月27日 00:53
+! Version: 202203270739
+! Last Modified: 2022年03月27日 07:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -584,7 +584,6 @@ xz6d.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
-/public/imgbed/gg/*
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -1107,6 +1106,7 @@ xz6d.com
 /pop_DJ2010.swf
 /proxy.htm?id=
 /proxy.html?id=
+/public/imgbed/gg/*
 /pushstart.aspx|$subdocument,third-party
 /PushSystem/attached/image/*
 /qd/js/index/bannerTop.
@@ -8751,6 +8751,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sina.com/ads/
 ||sina.com/assets/js/dart/
 ||sina.com/rm/
+||sinaimg.cn/finance/qihuofarm/
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=chakd.com|seehd.so|xclient.info
@@ -9788,7 +9789,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||sinaimg.cn/finance/qihuofarm/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17672,14 +17672,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||sniglet.online^
-||zjdb2b.wang^
-||52jimi.top^
-||dsoizkd.cn^
-||hnsyjaeger.site^
-||51yusi.xyz^
-||nmgch.top^
-||d03.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17828,8 +17820,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51teach.club^
 ||51vs.club^
 ||51wxyx.cn^
+||51yusi.xyz^
 ||51zdwy.cn^
 ||52homie.cn^
+||52jimi.top^
 ||52lty.store^
 ||52pipaxing.com^
 ||52tushuo.com^
@@ -18558,6 +18552,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||czxjx.cn^
 ||czxym168.cn^
 ||d-star.xyz^
+||d03.xyz^
 ||d2robot.com.cn^
 ||d3zr5ye.cn^
 ||dacedsfa.cn^
@@ -18678,6 +18673,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dryraw.vip^
 ||dscloud.ltd^
 ||dsnfun.cn^
+||dsoizkd.cn^
 ||dspdy.cn^
 ||dss8l0f.cn^
 ||dssdr.top^
@@ -19202,6 +19198,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hnkuangshan.cn^
 ||hnpxsm.com.cn^
 ||hnruisheng.cn^
+||hnsyjaeger.site^
 ||hnsykly.cn^
 ||hnthink.vip^
 ||hntiantai.cn^
@@ -20148,6 +20145,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nlyekvc.cn^
 ||nlyjs2015.com^
 ||nmctm.cn^
+||nmgch.top^
 ||nmgpd.com^
 ||nmlhkj.com^
 ||nmlysc.wang^
@@ -20706,6 +20704,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||smvip8.cn^
 ||smxay.com^
 ||sngsn.fun^
+||sniglet.online^
 ||snuoen.com^
 ||sofseo.cn^
 ||sogov587.top^
@@ -21768,6 +21767,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ziyeaiying.com^
 ||zizcy.com^
 ||zjcxyh.cn^
+||zjdb2b.wang^
 ||zjjrlx4.com^
 ||zjksgl.com^
 ||zjlfqf.com^
