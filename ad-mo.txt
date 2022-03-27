@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y+xUJ2cUf5195zIyvx7YpQ
+! Checksum: zM6kK6YEcWxiG01gXVafLA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203270739
-! Last Modified: 2022年03月27日 07:39
+! Version: 202203271006
+! Last Modified: 2022年03月27日 10:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -60212,6 +60212,8 @@ ubmcmm.baidustatic.com
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
+##DIV[style=" max-width:998px;  margin:0 auto;"] > A > IMG[height="120px"]
 ##.spon-img[src*=".alicdn."]
 ##.static-a2d
 ##.stui-pannel > .recommend-two
@@ -60629,6 +60631,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||excsyrv.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -76080,6 +76083,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||iboxs.xyz^
+||untenable.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -106826,6 +106831,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
+@@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 @@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
