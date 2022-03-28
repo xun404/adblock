@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /BDbhb8l7mNnezbjs2av0g
+! Checksum: xI90RafIq3pQuUmsqhRCKA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203281842
-! Last Modified: 2022年03月28日 18:42
+! Version: 202203281937
+! Last Modified: 2022年03月28日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -814,7 +814,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .com/adds/
 .com/adinf/
 .com/adlib/
-.com/ads-
 .com/ads.$~script,~xmlhttprequest
 .com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 .com/ads?
@@ -3626,7 +3625,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /affiliateserver.
 /affiliatetags/*
 /affiliatewiz/*
-/affiliation/*$domain=~esi.evetech.net
 /affiliation_banners/*
 /affiliationcash.
 /affilinet/*$domain=~affilinet-inside.com|~affilinet-inside.fr
@@ -56951,12 +56949,14 @@ crypto-news-flash.com##[href^="https://med.etoro.com/"]
 abovetopsecret.com##[href^="https://mypatriotsupply.com/apps/todays-deals"]
 manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
+extension.today##[href^="https://peanuts.pro/site/store"]
 mmos.com##[href^="https://plarium.com/landings/"]
 all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 spys.one##[href^="https://socksescort.com/"]
 steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
 terraria.wiki.gg##[href^="https://store.steampowered.com/app/"]
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
+minidl.org##[href^="https://uploadgig.com/premium/index/"]
 mailshub.in##[href^="https://www.amazon.in/"]
 businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
@@ -58526,7 +58526,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nflcdn.com/static/site/$script,domain=nfl.com
-@@||nitropay.com/ads-$script,domain=lolalytics.com
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
 @@||nytimes.com^*/adslot-$script,xmlhttprequest
@@ -58963,7 +58962,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
-@@||ton.twimg.com/ads-manager/$domain=twitter.com
 @@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||gameloft.com/advertising-$~third-party
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
@@ -60675,9 +60673,11 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##a[href*=".apple1818.net"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||yjrjmy.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -106908,6 +106908,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||calo.extole.io^$script,xmlhttprequest,domain=refer.calo.app
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
+@@||nc0.co^$script,domain=abc.com
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
