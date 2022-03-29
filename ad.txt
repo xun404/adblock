@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wHm9JbZfp8FHJNS7EguOgQ
+! Checksum: MIx+VejDNsVPmwdkBCGYSQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203291116
-! Last Modified: 2022年03月29日 11:16
+! Version: 202203291150
+! Last Modified: 2022年03月29日 11:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1933,6 +1933,7 @@ ubmcmm.baidustatic.com
 ##div[id^="a"] > a[target="_blank"][style="margin-top:3px;"]
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
+##.gg-box
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##DIV[style=" max-width:991px;  margin:0 auto;"] > A > IMG[height="60px"]
@@ -12578,7 +12579,6 @@ yahoo.com##.geminiAd
 infoq.cn##.geo-banner
 1kkk.com,40407.com,5068.com,88148.com,chazidian.com,china.com,cnwnews.com,elecfans.com,ghjie.com,iask.ca,ifeng.com,iqilu.com,juqingba.cn,liuxue86.com,qzwb.com,sina.com.cn,tianya.cn,zsnews.cn##.gg
 morningpost.com.cn##.gg-2
-guiayi.com##.gg-box
 baidu.com##.gg-content
 bilibili.com##.gg-floor-module
 iqiyi.com##.gg-l
@@ -17696,6 +17696,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bjhyn.vip^
 ||udiy.club^
 ||chaochaogege.net^
+||feifei.mobi^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
