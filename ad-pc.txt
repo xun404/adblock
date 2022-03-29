@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: an2NnijtUt88PlvBTTBh4A
+! Checksum: aoVtOes7RP+7zBOu4bI8mQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203291014
-! Last Modified: 2022年03月29日 10:14
+! Version: 202203291116
+! Last Modified: 2022年03月29日 11:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -59193,6 +59193,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+:22666/oklist/vars.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -68413,6 +68414,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||010gkw.com/a*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 lspdfrcn.com###cancms_float_bar_fixed_bottom
@@ -76303,6 +76305,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bainiaochaofeng.xyz^
 ||bjhyn.vip^
 ||udiy.club^
+||chaochaogege.net^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -80807,6 +80810,7 @@ ali213.net#@#.subscribe-container
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
 @@-social-bar.$domain=mobi.yahoo.com
+@@/images/share/*$domain=search.www.gov.cn
 @@/image/share_$domain=pan.baidu.com
 @@/images/*_share.png$domain=service.weibo.com
 @@/needsharebutton.min.js$domain=leetcode-cn.com
@@ -86759,6 +86763,7 @@ _mongo_stats/
 ||fasttiger.io^
 ||fn-pz.com^
 ||fpaux.net^
+||fpaxu.net^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
@@ -106992,6 +106997,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=vmware.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party

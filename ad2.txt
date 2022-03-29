@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wbNIjA3Ef2O2O56ahT4Ftw
+! Checksum: Go3m/a+RkPrRqwQnewpHMg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202203291014
-! Last Modified: 2022年03月29日 10:14
+! Version: 202203291116
+! Last Modified: 2022年03月29日 11:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -137,6 +137,7 @@ xz6d.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+:22666/oklist/vars.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -9357,6 +9358,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||010gkw.com/a*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 lspdfrcn.com###cancms_float_bar_fixed_bottom
@@ -17247,6 +17249,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bainiaochaofeng.xyz^
 ||bjhyn.vip^
 ||udiy.club^
+||chaochaogege.net^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21751,6 +21754,7 @@ ali213.net#@#.subscribe-container
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
 @@-social-bar.$domain=mobi.yahoo.com
+@@/images/share/*$domain=search.www.gov.cn
 @@/image/share_$domain=pan.baidu.com
 @@/images/*_share.png$domain=service.weibo.com
 @@/needsharebutton.min.js$domain=leetcode-cn.com
