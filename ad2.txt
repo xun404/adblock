@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HHwEsf9ZvQQDC9vy0JQDGA
+! Checksum: N+kokKjUF1CIPfshdTQb6A
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202203300142
-! Last Modified: 2022年03月30日 01:42
+! Version: 202203301014
+! Last Modified: 2022年03月30日 10:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1493,6 +1493,8 @@ ubmcmm.baidustatic.com
 ##div[id^="a"] > a[target="_blank"][style="margin-top:3px;"]
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
+##DIV[style=" max-width:993px;  margin:0 auto;"] > A > IMG[height="60px"]
+##DIV[style=" max-width:992px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
@@ -17253,6 +17255,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||bjcwwsc.xyz^
+||fsyc.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
