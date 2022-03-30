@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XyV8dNUrFiZY79YNNxNsTw
+! Checksum: e2XqrQ8LeHnmbH/nPvcZNQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203310440
-! Last Modified: 2022年03月31日 04:40
+! Version: 202203310538
+! Last Modified: 2022年03月31日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -14070,6 +14070,8 @@ _800x80_
 ###google-adv-728x90
 ###google-adwords
 ###google-afc
+###google-dfp-bottom
+###google-dfp-top
 ###google-post-ad
 ###google-post-adbottom
 ###google-top-ads
@@ -53444,6 +53446,7 @@ tf2r.com#@#.adverts
 ||prelanding3.cuntempire.com/?utm_$popup
 ||tm-offers.gamingadult.com^$popup
 ||tour.mrskin.com^$popup,third-party
+||zillastream.com/api/$popup
 !----------------------Specific advert blocking filters-----------------------!
 ||1337x.*/images/x28.jpg
 ||1337x.*/images/x2x8.jpg
@@ -54386,6 +54389,9 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||k-teen.com/banner/
 ||kindgirls.com/banners2/
 ||kompoz2.com/js/take.max.js
+||letsjerk.org/agent.php?
+||letsjerk.org/api/spots/
+||letsjerk.to/api/click/
 ||lustypuppy.com/sbbi/
 ||madchensex.com/extras/
 ||madmen2.alastonsuomi.com^
@@ -54502,6 +54508,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||xxxporntalk.com/images/
 ||xxxshake.com/assets/f_load.js
 ||xxxshake.com/static/js/script.js
+||xxxvideotube.net/banner.gif
 ||xxxvogue.net/_ad
 ||yotta.scrolller.com^
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
