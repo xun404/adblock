@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WUTaf3WvXvpIzGkeOCo2Bg
+! Checksum: e4pcBeaiij1OuHt/q++/Qw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203310740
-! Last Modified: 2022年03月31日 07:40
+! Version: 202203311010
+! Last Modified: 2022年03月31日 10:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -76324,6 +76324,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||eguo.info^
+||ifil.store^
+||mahao.xyz^
+||shequn.online^
+||mayif.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -107095,6 +107100,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||yottaa.net^*/analytics/gtm-analytics-events.min.js$domain=hannaandersson.com
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
 @@||youbora.com/*/js/adapters/jwplayer$script
+@@||youbora.com/*/js/adapters/theoplayer$script
 @@||youtube.com/api/analytics/$~third-party
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zoominfo.com/c/amplitude-js$script,~third-party
