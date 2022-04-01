@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SkWXL4doAGfujb2jVYTIug
+! Checksum: fwBr74fM1UkuXqun47kncw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204010741
-! Last Modified: 2022年04月01日 07:41
+! Version: 202204011033
+! Last Modified: 2022年04月01日 10:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57121,6 +57121,7 @@ manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
 extension.today##[href^="https://peanuts.pro/site/store"]
 mmos.com##[href^="https://plarium.com/landings/"]
+cryptonews.com##[href^="https://rapi.cryptonews.com/"]
 all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 spys.one##[href^="https://socksescort.com/"]
 steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
@@ -82046,6 +82047,7 @@ fqsousou.com,kengso.com#@#.user-share
 /bicomscore_
 /biddr-analytics.
 /bidiq.
+/bili-collect.
 /bin/reff.php
 /bin/stats?
 /bineos.min.js
@@ -106135,6 +106137,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||weather.com.cn/a1.js
 ||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^
+||weibo.com/aj/log/
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
 ||wenku.baidu.com/tongji/
@@ -106143,6 +106146,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wspeed.qq.com^
 ||wumii.com/images/pixel.png
 ||xcar.com.cn/exp/
+||xiaohongshu.com/api/collect
+||xiaohongshu.com/api/v2/collect
 ||xiaomi.com/js/mstr.js?
 ||ylog.huya.com^
 ||youdao.com/cf.gif?
@@ -107059,6 +107064,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||store.usps.com/media/js/metrics/metrics.js
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||support.brother.com^*/js/analytics.js$script,~third-party
