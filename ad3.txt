@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: is+D7uDr1G1Z9scl52ERDQ
+! Checksum: YOLL0Jd+Y2/+stEIf0RyAg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204020059
-! Last Modified: 2022年04月02日 00:59
+! Version: 202204021012
+! Last Modified: 2022年04月02日 10:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17275,6 +17275,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||wulongqiyi.com^
 ||shenfagg.com^
+||huixiangdou.xyz^
+||twnb.xyz^
+||autumnleaf.ltd^
+||xazhangshaohui.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -39004,6 +39008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkedin.com/sensorCollect/
 ||links.strava.com^$image
 ||linktr.ee/events
+||littlebigsnake.com/event?
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
 ||livejournal.com/log?
@@ -49545,6 +49550,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||j1.ax.xrea.com^
 ||jen.jiji.com/cookie.html
 ||k-crm.jp/tracking.js
+||link.tv-asahi.co.jp/tver/cookiesync?
 ||ln.ameba.jp^
 ||log.suumo.jp^
 ||logql.yahoo.co.jp^
