@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vj8/Ef3cPSdAiLfQbVVxLQ
+! Checksum: XirkPzXJKFjklSh+znYg+Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204050247
-! Last Modified: 2022年04月05日 02:47
+! Version: 202204050337
+! Last Modified: 2022年04月05日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -23620,6 +23620,7 @@ _800x80_
 ##.block-adsense-managed
 ##.block-adsense_managed
 ##.block-adspace-full
+##.block-adstop-otherpage-728x90
 ##.block-adtech
 ##.block-adv
 ##.block-advert
@@ -55593,12 +55594,15 @@ scoredle.com##.aHeader
 qz.com##.aOCxk
 opensubtitles.org##.a_1.a.p
 premierguitar.com##.a_promo
+androidauthority.com##.aa
 informer.com##.aa-728
 ncomputers.org,servertest.online##.ab
 slickdeals.net##.abc
 merriam-webster.com##.abl
 learnersdictionary.com##.abl-m0-t160-d160
 learnersdictionary.com##.abl-m0-t300-d300
+creativeuncut.com##.abox-s_i
+creativeuncut.com##.abox-s_i2
 appagg.com##.abox300
 roblox.com##.abp
 manualslib.com##.abp_adv_b
@@ -107707,7 +107711,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||frosmo.com/recoApi/$xmlhttprequest,domain=apu.fi|hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
 @@||google-analytics.com/analytics.js$script,domain=hobbyhall.fi
 @@||google-analytics.com/gtm/js$script,domain=hobbyhall.fi
-@@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
+@@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||high.auriro.net/http/600x400/$image,domain=afterdawn.com|dawn.fi|hardware.fi
 @@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$domain=elisa.fi|kauppahalli24.fi
