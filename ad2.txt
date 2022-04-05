@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SD9GtXpmI5i6wSg0oL/s0Q
+! Checksum: LJicYI+fLKRZZSbFy0wa+A
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202204051842
-! Last Modified: 2022年04月05日 18:42
+! Version: 202204052106
+! Last Modified: 2022年04月05日 21:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -817,7 +817,7 @@ xz6d.com
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
-:22666/oklist/vars.js
+://*:*/oklist/vars.js
 :45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
@@ -1403,6 +1403,7 @@ ubmcmm.baidustatic.com
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
+##.video-item-ads
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -9387,6 +9388,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
