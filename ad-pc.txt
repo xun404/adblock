@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rfjbR/3R9qd1SwAkMusG5w
+! Checksum: ajluqNhIQB1J9Svapoa+gA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204060740
-! Last Modified: 2022年04月06日 07:40
+! Version: 202204061013
+! Last Modified: 2022年04月06日 10:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20025,6 +20025,8 @@ _800x80_
 ##.ad_btf_300x250
 ##.ad_btf_728x90
 ##.ad_btn
+##.ad_btn1
+##.ad_btn2
 ##.ad_buttom_banner
 ##.ad_buttons_300
 ##.ad_buttons_320
@@ -21146,6 +21148,7 @@ _800x80_
 ##.ads-top-left
 ##.ads-top-right
 ##.ads-top-spacer
+##.ads-topbar
 ##.ads-topboard-home
 ##.ads-two
 ##.ads-txt
@@ -25233,6 +25236,7 @@ _800x80_
 ##.footerPageAds
 ##.footerTextAd
 ##.footerWidget__ad
+##.footer__ads--content
 ##.footer__advert
 ##.footer_ad
 ##.footer_ad336
@@ -31377,6 +31381,7 @@ _800x80_
 ##a[href^="https://freeadult.games/"]
 ##a[href^="https://galaxyroms.net/?scr="]
 ##a[href^="https://gamescarousel.com/"]
+##a[href^="https://geniusdexchange.com/"]
 ##a[href^="https://gghf.mobi/"]
 ##a[href^="https://giftsale.co.uk/?utm_"]
 ##a[href^="https://go.247traffic.com/"]
@@ -31447,6 +31452,7 @@ _800x80_
 ##a[href^="https://myusenet.xyz/"]
 ##a[href^="https://natour.naughtyamerica.com/track/"]
 ##a[href^="https://ndt5.net/"]
+##a[href^="https://nutrientassumptionclaims.com/"]
 ##a[href^="https://oackoubs.com/"]
 ##a[href^="https://offerforge.net/"]
 ##a[href^="https://offers.refchamp.com/"]
@@ -31464,6 +31470,7 @@ _800x80_
 ##a[href^="https://promo-bc.com/"]
 ##a[href^="https://ptapjmp.com/"]
 ##a[href^="https://pubads.g.doubleclick.net/"]
+##a[href^="https://queersodadults.com/"]
 ##a[href^="https://reachtrgt.com/"]
 ##a[href^="https://redsittalvetoft.pro/"]
 ##a[href^="https://refpaano.host/"]
@@ -31482,6 +31489,7 @@ _800x80_
 ##a[href^="https://serve.awmdelivery.com/"]
 ##a[href^="https://servedbyadbutler.com/"]
 ##a[href^="https://sexsimulator.game/tab/?SID="]
+##a[href^="https://someperceptionparade.com/"]
 ##a[href^="https://spygasm.com/track?"]
 ##a[href^="https://squren.com/rotator/?atomid="]
 ##a[href^="https://static.fleshlight.com/images/banners/"]
@@ -59637,6 +59645,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+:4443/ty/x-$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -76784,6 +76793,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||1095.mobi^
+||zyyz.pro^
+||yigesi.top^
+||myro.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
