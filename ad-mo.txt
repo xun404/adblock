@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HuzhSR+Gd/TmlKCDsRiQ8A
+! Checksum: R0BYVx+wB7/jiCis5HnkyQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204071647
-! Last Modified: 2022年04月07日 16:47
+! Version: 202204071746
+! Last Modified: 2022年04月07日 17:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -68858,8 +68858,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||sucloud.xyz/js/tou.js
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
+||sogou.com/reventondc/inner/gamebrand?
+||taizexy.com^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+sxqjdy.com##.gg2
+sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
 wodown.com###showa
 hurigirls99.xyz###undertd + div[style]
 hurigirls99.xyz###undertd
