@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RINGlL7DhDoqkp9Wdoe+Ig
+! Checksum: WF09EWhkiILjv+jZqieDRQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204081644
-! Last Modified: 2022年04月08日 16:44
+! Version: 202204081742
+! Last Modified: 2022年04月08日 17:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16638,6 +16638,8 @@ _800x80_
 ###top-right-ad-slot
 ###top-search-ad-wrapper
 ###top-sidebar-ad-300x250
+###top-skin-ad
+###top-skin-ad-bg
 ###top-sponsor-ad
 ###top-story-ad
 ###top-story-ad-0
@@ -55095,6 +55097,7 @@ ericpetersautos.com###block-6
 systutorials.com###block-7
 cryptofeeds.news###block-8
 wionews.com###block-adv
+pocketnow.com###block-alertbar
 webosnation.com###block-block-21
 slideme.org###block-block-31
 indiatoday.in###block-block-64
@@ -57913,6 +57916,7 @@ simpleflying.com##div[id^="simpl-"]
 sltrib.com##div[id^="sltrib-promo-"]
 nytimes.com##div[id^="story-ad-"]
 express.co.uk##div[id^="taboola-"]
+pocket-lint.com##div[id^="taboola-demo-widget_"]
 filehorse.com##div[id^="td-"]
 weraveyou.com##div[id^="werav-"]
 mommypoppins.com##div[id^="wrapper-div-gpt-ad-"]
@@ -92443,6 +92447,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gmossp-sp.jp^$third-party
 ||gsspcln.jp^$third-party
 ||gyro-n.com^$third-party
+||h-cast.jp^$third-party
 ||hitgraph.jp^$third-party
 ||i2ad.jp^$third-party
 ||i2i.jp^$third-party
@@ -106998,6 +107003,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.watch.impress.co.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
+||bookoffonline.co.jp/mbfiles/tracking/
 ||carview.co.jp/include_api/log/
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
