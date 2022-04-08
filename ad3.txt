@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YVzYZ5BidbirdgAwhjI9gg
+! Checksum: t6A2D2lqvWvB++5/hchccw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204081338
-! Last Modified: 2022年04月08日 13:38
+! Version: 202204081644
+! Last Modified: 2022年04月08日 16:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1436,6 +1436,13 @@ ubmcmm.baidustatic.com
 ##.yd_ad1
 ##.yd_ad2
 ##.yd_ad3
+###ads.row
+##.appdownload_ad + .hider
+###cat_intro_first_ad
+###cat_intro_second_ad
+###bl_mobile_float
+###comic_reader + #adDisabledBtn
+###aside_cat_ad_bottom
 ##.yd_ad5
 ##.yd_ad6
 ##.zhanzhang_tuijian_btn
@@ -1801,6 +1808,8 @@ ubmcmm.baidustatic.com
 ||008844.cc^
 ||meritiny.top^
 ||42yenxh.cn^
+||catherinebeverly.com^
+||dsqzk.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -9562,7 +9571,6 @@ hur.cn###ad810_2
 hur.cn###ad810_6
 dahe.cn###adArea1
 baidu.com###adCard
-boyboy.cc###adDisabledBtn
 yeecloud.com###adFirefox
 oeeee.com###adImg
 qq.com###adImgHref
@@ -9725,7 +9733,6 @@ bitauto.com###bitAd_background
 bitauto.com###bitAd_floatFlash
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
-boyboy.cc###bl_mobile_float
 w3cplus.com###block-block-49
 e-learn.cn###block-gyouer
 zaobao.com###block-views-zb2016-freefrom-block-1
@@ -9772,8 +9779,6 @@ lspdfrcn.com###cancms_float_bar_fixed_bottom
 360kuai.com,hao.360.com###cangbao_redbags
 crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
 bitauto.com###carshow
-boyboy.cc###cat_intro_first_ad
-boyboy.cc###cat_intro_second_ad
 bbs-mychat.com###cate_top > tr > .f_one
 cnbeta.com###cb_share > .fl
 sina.com.tw###cboxOverlay
