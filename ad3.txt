@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lnp+prpbnevkrCZn/dENYw
+! Checksum: bdCTF9yruEla1hfD4pjW5w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204081742
-! Last Modified: 2022年04月08日 17:42
+! Version: 202204082109
+! Last Modified: 2022年04月08日 21:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9411,6 +9411,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||baidu.com/ndwkasp/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -10344,7 +10345,7 @@ wenxuecity.com###marquee
 xmfish.com###marry_laping
 yaolan.com###maryAd
 muchong.com###mask
-kxdao.net###masonry
+k7d.com,kxdao.net###masonry
 gzmama.com###mdvtips
 vpsmm.com###media
 hinet.net###media_ad_popup_overlay
@@ -10954,7 +10955,7 @@ aiyuke.com##.GGad
 3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
 3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn501.com##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn501.com##.GzList
 le.com##.H-tg
 diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
@@ -17303,6 +17304,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||hspstudio.club^
+||mayig.xyz^
+||fxc.ink^
 ||hkbmsb.fun^
 ||hotbanner.site^
 ||hqtlw.cn^
@@ -21841,6 +21845,7 @@ zol.com.cn##span[class^="jisu-down"]
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 eastday.com#@##leftShare
 189.cn#@##linkShare
+xinmin.cn#@#.share-title
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list
 hotjob.cn#@#.SOCIAL
