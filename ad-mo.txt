@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zQqzRS04edIMjXROIP8rTQ
+! Checksum: g1jKMynEaZCMIFlbjouh+Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204100054
-! Last Modified: 2022年04月10日 00:54
+! Version: 202204100140
+! Last Modified: 2022年04月10日 01:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3651,6 +3651,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ajs.php?
 /ajs?auid=
 /ajs?zoneid=
+/akame160.html
+/akame300.html
 /amazon-ad-
 /amazon-apstag.
 /amazon-associates-link-$~stylesheet
@@ -8124,6 +8126,7 @@ _800x80_
 /popunder.$popup
 /popunder_$popup
 /popupads.$popup
+/prod/go.html?$popup
 /prod/redirect.html?lu=$popup
 /realmedia/ads/*$popup
 /show?bver=$popup
@@ -21848,6 +21851,7 @@ _800x80_
 ##.adstyle
 ##.adsupperugo
 ##.adsupperugo_txt
+##.adsverting
 ##.adsvideo
 ##.adswallpapr
 ##.adswidget
@@ -26816,6 +26820,7 @@ _800x80_
 ##.m-advert
 ##.m-advertisement
 ##.m-advertisement--container
+##.m-balloon-header--ad
 ##.m-block-ad
 ##.m-card-group--rightrail-ad
 ##.m-content-advert
@@ -31901,6 +31906,7 @@ _800x80_
 lalovings.com#@##AdContainer
 dez.ro#@##ad-carousel
 apnaohio.com,miradiorumba.com#@##ad-header
+so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
 techymedies.com#@##ad-top
 afterdawn.com,download.fi,edukas.fi#@##ad-top-banner-placeholder
@@ -31948,6 +31954,8 @@ transparencyreport.google.com#@#.ad-icon
 flat-ads.com,lastpass.com#@#.ad-img
 dmkt-sp.jp#@#.ad-label
 guloggratis.dk#@#.ad-links
+so-net.ne.jp#@#.ad-notice
+so-net.ne.jp#@#.ad-outside
 hulu.com#@#.ad-root
 wiki.fextralife.com#@#.ad-sidebar
 wegotads.co.za#@#.ad-source
@@ -37351,6 +37359,7 @@ tf2r.com#@#.adverts
 ||expertcamomile.com^
 ||expertist.xyz^
 ||expertnifg.com^
+||expertsulfury.com^
 ||explanationrecognise.com^
 ||exploitnookconsequently.com^
 ||exploreholidayexcellent.com^
@@ -43227,6 +43236,7 @@ tf2r.com#@#.adverts
 ||portedgatesfeel.com^
 ||portenttwinehypothetically.com^
 ||portkingric.net^
+||portoteamo.com^
 ||portoutsid.xyz^
 ||portprintingchecking.com^
 ||portscalculateappease.com^
@@ -46372,6 +46382,7 @@ tf2r.com#@#.adverts
 ||totentacruelor.com^
 ||tothisimpo.biz^
 ||totlnkbn.com^
+||totlnkcl.com^
 ||totogetica.com^
 ||totorogyring.com^
 ||totreatwith.co^
@@ -46466,6 +46477,7 @@ tf2r.com#@#.adverts
 ||trc85.com^
 ||trccmpnlnk.com^
 ||trcked.me^
+||trdnewsnow.net^
 ||treacherousaccentbruise.com^
 ||treacherouslongingjunkie.com^
 ||treasuresensignron.com^
@@ -51716,6 +51728,7 @@ tf2r.com#@#.adverts
 ||torrentsafeguard.com^$popup
 ||totaladperformance.com^$popup
 ||totalnicefeed.com^$popup
+||totlnkcl.com^$popup
 ||touroumu.com^$popup
 ||tozoruaon.com^$popup
 ||track-campaing.club^$popup
@@ -52804,7 +52817,6 @@ tf2r.com#@#.adverts
 ||essayerudite.com/images/banner/
 ||etrader.kalahari.com^
 ||etrader.kalahari.net^
-||expertsulfury.com^$third-party
 ||extensoft.com/artisteer/banners/
 ||facebook.com/audiencenetwork/$third-party
 ||familytreedna.com/img/affiliates/
@@ -53820,6 +53832,7 @@ tf2r.com#@#.adverts
 ||allmonitors24.com/ads-
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
+||animeland.tv/ios.html
 ||animesuge.to/E/aircraftmighty.com/
 ||aolcdn.com/ads/$script
 ||apl95.me/js/pop.js
@@ -54053,7 +54066,6 @@ tf2r.com#@#.adverts
 ||jordantimes.com/accu/
 ||kdnuggets.com/aps/
 ||kendrickcoleman.com/images/banners/
-||kiss-anime.org/akame
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
 ||kitz.co.uk/files/jump2/
@@ -54723,6 +54735,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||ipornxxx.net/banners/
 ||jav.work/p.js
 ||javhub.net/av/js/cpp.js
+||jennylist.xyz/img/yep.gif
+||jennylist.xyz/t63fd79f7055.js
 ||jerkdude.com/log300.jpg
 ||joysporn.sex/js/pj.js
 ||k-teen.com/banner/
@@ -58261,6 +58275,10 @@ guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 haveibeenpwned.com##.actionsBar:-abp-has(.why1Password)
 haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
+instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
+instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
+instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
+kroger.com#?#.KDSProductCarouselView:-abp-has(span:-abp-contains(Featured))
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
@@ -59537,6 +59555,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
 @@||smarters.ro/academy$~third-party,xmlhttprequest
+@@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
@@ -83005,6 +83024,7 @@ fqsousou.com,kengso.com#@#.user-share
 /collector/pageview
 /collector?report=
 /collectStats;
+/collectsysteminfo?
 /com_joomla-visites/*
 /com_joomlawatch/*
 /common/analytics.js
@@ -86551,7 +86571,7 @@ fqsousou.com,kengso.com#@#.user-share
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
@@ -106403,6 +106423,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
 ||geoip.finanzen.net^
+||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
@@ -106425,6 +106446,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||px.derstandard.at^
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
+||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||squirrel.cividi.ch^

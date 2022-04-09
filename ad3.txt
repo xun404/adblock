@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EIaDiuL3fqf+eRfxQjPdow
+! Checksum: 8r9/0dDLCaG9qg10hLmb+A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204100054
-! Last Modified: 2022年04月10日 00:54
+! Version: 202204100140
+! Last Modified: 2022年04月10日 01:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25698,6 +25698,7 @@ m.babytree.com##script + a[class]
 /collector/pageview
 /collector?report=
 /collectStats;
+/collectsysteminfo?
 /com_joomla-visites/*
 /com_joomlawatch/*
 /common/analytics.js
@@ -29244,7 +29245,7 @@ m.babytree.com##script + a[class]
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
@@ -49096,6 +49097,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
 ||geoip.finanzen.net^
+||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
@@ -49118,6 +49120,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||px.derstandard.at^
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
+||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||squirrel.cividi.ch^
