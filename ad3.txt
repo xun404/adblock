@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AiSGqM8CSTGcOfz7OQG/bg
+! Checksum: rtpqB9RHb/4vhtH4hGp5mw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204101740
-! Last Modified: 2022年04月10日 17:40
+! Version: 202204102058
+! Last Modified: 2022年04月10日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14992,7 +14992,7 @@ cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 zdfans.com##ul[id^="gaosuxiazai"]
 firefoxchina.cn##ul[track-key="adv_links"]
 toolfk.com##wavy + div[style]
-weibo.com##a[action-type="realtimehot_ad"]
+weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 wealth.com.tw#?#div[class]:-abp-has(>div[class]>div[class*="-ad-manager-"])
 weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
