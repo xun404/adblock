@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gp/3ZYnTU4t8Gt9Vl+UTHg
+! Checksum: ARx/kVkt+14dsnqcPznG1w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204112241
-! Last Modified: 2022年04月11日 22:41
+! Version: 202204120143
+! Last Modified: 2022年04月12日 01:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1185,6 +1185,8 @@ pornwhite.com###pre-spots
 pornwhite.com##.content-aside
 pornwhite.com##.video-options.long
 pornwhite.com##.bottom-banners
+/^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
+freeuseporn.com#$#override-property-read p18 undefined
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1390,6 +1392,7 @@ ebay.de#$#hide-if-matches-xpath './/div[contains(@class,"s-item__")]/following-s
 ebay.de##li[class^="s-item s-item__sep-on-bottom"]
 ! Popup/Popunder/Clickunder
 frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
+aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
 ! #CV-890
 walla.co.il,sheee.co.il##iframe[id]:not([src])[frameborder="0"][scrolling="no"]:not(#rufous-sandbox)
