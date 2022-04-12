@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G0Tu7Y0QiscOITItNvqL7Q
+! Checksum: CoDISt+KJjwvoqFk9s8gqg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204130057
-! Last Modified: 2022年04月13日 00:57
+! Version: 202204130441
+! Last Modified: 2022年04月13日 04:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19102,6 +19102,7 @@ _800x80_
 ##.ad-wrapper--slideshowhalfpage
 ##.ad-wrapper-bg
 ##.ad-wrapper-left
+##.ad-wrapper-outer
 ##.ad-wrapper-sticky
 ##.ad-wrapper-top
 ##.ad-wrapper-with-text
@@ -58524,6 +58525,17 @@ moonastro.com#?#div[style^="background-color:"]:-abp-contains(Advertisement)
 multiup.eu,multiup.org#?#.alert:-abp-contains(VPN)
 multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
 multiup.eu,multiup.org#?#.trtbl:-abp-has(.warnIp)
+nbcbayarea.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcboston.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcchicago.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcconnecticut.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcdfw.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbclosangeles.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcmiami.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcnewyork.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcphiladelphia.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcsandiego.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcwashington.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
 nex-software.com#?#.toolinfo:-abp-has(a[href$="/reimage"])
 nex-software.com#?#h4:-abp-has(a[href$="/reimage"])
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Anzeige von"])
@@ -97108,6 +97120,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.clear-media.com^
 ||stats.davidickedelivery.com^
 ||stats.dnaindia.com^
+||stats.dreamsub.me^
 ||stats.fs.com^
 ||stats.gateio.ch^
 ||stats.hd24.watch^
@@ -106772,6 +106785,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wikipedia.de/tracking.js
 ||wlw.de/unified_search_backend/api/v1/tracking/
+||ymprove.gmx.net^
 ||ymprove.web.de^
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
