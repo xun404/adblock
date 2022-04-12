@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IMVgiKdRo9ZsHFjJM2zJNg
+! Checksum: T8KpAEND0G9H+pBUFxx2kg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204121742
-! Last Modified: 2022年04月12日 17:42
+! Version: 202204121843
+! Last Modified: 2022年04月12日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17112,6 +17112,13 @@ verystream.com#@#.adsbox
 /img/hgame/*_1280x
 /img/hgame/*_600x
 /img/q/movie_*.gif
+!#jokerlu
+##.vodads
+##.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
+##.bottomd + .leftd
+##style + .topd
+##style + .topd + .bottomd
+##A[onclick^="gtag"] > .add
 !#k
 !#l
 !#Mining

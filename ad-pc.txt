@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r0HgFF93CCn6NHn5u7AHWg
+! Checksum: ILSIRsxPbenSOiJoLX1y1g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204121742
-! Last Modified: 2022年04月12日 17:42
+! Version: 202204121843
+! Last Modified: 2022年04月12日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30865,6 +30865,7 @@ _800x80_
 ##.yam-plus-ad-container
 ##.yan-sponsored
 ##.yat-ad
+##.yb-floorad
 ##.yellow_ad
 ##.yfi-fp-ad-logo
 ##.ygrp-ad
@@ -76888,6 +76889,13 @@ verystream.com#@#.adsbox
 /img/hgame/*_1280x
 /img/hgame/*_600x
 /img/q/movie_*.gif
+!#jokerlu
+##.vodads
+##.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
+##.bottomd + .leftd
+##style + .topd
+##style + .topd + .bottomd
+##A[onclick^="gtag"] > .add
 !#k
 !#l
 !#Mining
