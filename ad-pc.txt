@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k93O2sjcQCM0t62hYZKnfA
+! Checksum: MpyxxMYJ4guVO0PMfX/kKw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204140337
-! Last Modified: 2022年04月14日 03:37
+! Version: 202204140740
+! Last Modified: 2022年04月14日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1963,7 +1963,7 @@ tieba.baidu.com##.tuijian-wrap
 /adcontrol.$domain=~adcinjector.com|~adcontrol.sk
 /adcontrol/*$~image
 /adcontroller.
-/adcore.$domain=~adcore.ch|~adcore.com.au|~adcore.ua
+/adcore.$domain=~adcore.be|~adcore.ch|~adcore.com.au|~adcore.ua
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
@@ -36179,7 +36179,6 @@ tf2r.com#@#.adverts
 ||d24ak3f2b.top^
 ||d29gqcij.com^
 ||d2fe475c69.com^
-||d2g8ksx1za632p.cloudfront.net^
 ||d2ship.com^
 ||d4624d2bc2.com^
 ||d4d48974197052ea.com^
@@ -53496,6 +53495,7 @@ tf2r.com#@#.adverts
 ||d2fbkzyicji7c4.cloudfront.net^
 ||d2fbvay81k4ji3.cloudfront.net^
 ||d2focgxak1cn74.cloudfront.net^
+||d2g8ksx1za632p.cloudfront.net^
 ||d2g9nmtuil60cb.cloudfront.net^
 ||d2ga0x5nt7ml6e.cloudfront.net^
 ||d2ghscazvn398x.cloudfront.net^
@@ -53508,6 +53508,7 @@ tf2r.com#@#.adverts
 ||d2k7b1tjy36ro0.cloudfront.net^
 ||d2kadvyeq051an.cloudfront.net^
 ||d2kd9y1bp4zc6.cloudfront.net^
+||d2khpmub947xov.cloudfront.net^
 ||d2kk0o3fr7ed01.cloudfront.net^
 ||d2klx87bgzngce.cloudfront.net^
 ||d2kz60b0gq4lg.cloudfront.net^
@@ -55567,6 +55568,7 @@ thelakewoodscoop.com###leftFloat
 notdoppler.com###left_link
 numista.com###left_pub
 nitrome.com###left_skyscraper_shadow
+closerweekly.com,intouchweekly.com,lifeandstylemag.com###listProductWidgetData
 wormate.io###loa831pibur0w4gv
 hackerbot.net###madiv
 hackerbot.net###madiv2
@@ -56111,7 +56113,7 @@ motor1.com##.apb
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 adn.com##.arcad-feature
-1news.co.nz,boston25news.com,kiro7.com,wftv.com,wpxi.com##.arcad_feature
+1news.co.nz,boston25news.com,kiro7.com,wftv.com,whio.com,wpxi.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -58568,17 +58570,7 @@ moonastro.com#?#div[style^="background-color:"]:-abp-contains(Advertisement)
 multiup.eu,multiup.org#?#.alert:-abp-contains(VPN)
 multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
 multiup.eu,multiup.org#?#.trtbl:-abp-has(.warnIp)
-nbcbayarea.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcboston.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcchicago.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcconnecticut.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcdfw.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbclosangeles.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcmiami.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcnewyork.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcphiladelphia.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcsandiego.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
-nbcwashington.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
+nbcbayarea.com,nbcboston.com,nbcchicago.com,nbcconnecticut.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com#?#.most-popular__post:-abp-has(.most-popular__presented_by)
 nex-software.com#?#.toolinfo:-abp-has(a[href$="/reimage"])
 nex-software.com#?#h4:-abp-has(a[href$="/reimage"])
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Anzeige von"])
@@ -95796,7 +95788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cms.grandcloud.cn^$third-party
 ||cnzz.com/c.php?
 ||collector2c.zhihuishu.com^
-||counter.pixplug.in^
+||counter.pixplug.in^$third-party
 ||cpro.baidustatic.com^$script,domain=sohu.com
 ||cri.cn/js/a1.js
 ||csbew.com^$third-party
