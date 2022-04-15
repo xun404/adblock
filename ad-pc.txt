@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JkB3jAOoScwmtn4/ECNz5Q
+! Checksum: dxA/pbXyJ5xgRsA/D61Xuw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204151938
-! Last Modified: 2022年04月15日 19:38
+! Version: 202204152101
+! Last Modified: 2022年04月15日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60073,6 +60073,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+.com/gg/*?x=$script,third-party
+.cn/gg/*?x=$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -61743,6 +61745,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||518yi.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -77282,6 +77285,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||weebly.shop^
+||qiaoxiaomiao.com^
 ||dailynews.wiki^
 ||yxbyd.store^
 ||xiongfengwang.com.cn^

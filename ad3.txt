@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1GDnI4VmH5TOEcC7tqtDLQ
+! Checksum: O6HB7qMDKY7Vl1jj8/7fRw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204151741
-! Last Modified: 2022年04月15日 17:41
+! Version: 202204152101
+! Last Modified: 2022年04月15日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -137,6 +137,8 @@ xz6d.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+.com/gg/*?x=$script,third-party
+.cn/gg/*?x=$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -1807,6 +1809,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||518yi.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17346,6 +17349,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||weebly.shop^
+||qiaoxiaomiao.com^
 ||dailynews.wiki^
 ||yxbyd.store^
 ||xiongfengwang.com.cn^
