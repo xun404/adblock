@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sGlpYnYuQ9AVXSAju56dvg
+! Checksum: YHwmn87dTkgXh4BoalI1Lw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204160741
-! Last Modified: 2022年04月16日 07:41
+! Version: 202204161008
+! Last Modified: 2022年04月16日 10:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30997,6 +30997,7 @@ _800x80_
 ##[href^="https://www.hostg.xyz/aff_c"] > img
 ##[href^="https://www.mypillow.com/"] > img
 ##[href^="https://www.reimageplus.com/"]
+##[href^="https://www.restoro.com/"]
 ##[href^="https://www.targetingpartner.com/"]
 ##[href^="https://zone.gotrackier.com/"]
 ##[id^="ad-wrap-"]
@@ -32221,6 +32222,7 @@ mypillow.com#@#[href^="https://mypillow.com/"] > img
 techradar.com#@#[href^="https://www.hostg.xyz/aff_c"]
 mypillow.com#@#[href^="https://www.mypillow.com/"] > img
 reimageplus.com#@#[href^="https://www.reimageplus.com/"]
+restoro.com#@#[href^="https://www.restoro.com/"]
 amazon.com,cancam.jp,faceyourmanga.com,isc2.org,liverc.com,liverpoolfc.com,mit.edu,muscatdaily.com,olx.pl,payback.pl,pccomponentes.com,ripley.com.pe,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
 economist.com,flightcentre.co.uk,foodkick.com,liverpoolfc.com,olx.pl,payback.pl,pccomponentes.com,ripley.cl,ripley.com.pe,wsj.com#@#[id^="google_ads_iframe"]
 revimedia.com#@#a[href*=".revimedia.com/"]
@@ -55729,6 +55731,7 @@ sentinelnews.com,theandersonnews.com###pre-header
 the-scientist.com###preHeader
 playok.com###pread
 listenonrepeat.com###primis-holder
+nytimes.com###promo
 thestreamable.com###promo-signup-bottom-sheet
 dailymail.co.uk###promo-unit
 bnnbloomberg.ca###promotions
@@ -57983,7 +57986,6 @@ ftv-news.com##[href^="https://www.outsourcingall.com/"]
 ownedcore.com##[href^="https://www.ownedcore.com/forums/cb.php"]
 how2electronics.com##[href^="https://www.pcbway.com/"]
 kreationnext.com##[href^="https://www.resiproxy.net"]
-majorgeeks.com##[href^="https://www.restoro.com/"]
 bikeroar.com##[href^="https://www.roaradventures.com/"]
 searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 upload.ee##[href^="https://www.upload.ee/click.php"]
@@ -87583,6 +87585,7 @@ cgi-bin/counter
 .oculus.com/collect/
 .pstmrk.it/open/
 .publish0x.com/t/
+.secureserver.net/bbimage.aspx?
 .sendcloud.net/track/
 .sendemail.gate.io/o/$image
 .sendibm1.com/*.gif?
@@ -87988,6 +87991,7 @@ _mongo_stats/
 ||mt48.net^
 ||n0909.com^
 ||niblewren.co^
+||nigelmidnightrappers.com^
 ||nimblebird.co^
 ||nimbleswan.io^
 ||ns1p.net^
@@ -90464,6 +90468,7 @@ _mongo_stats/
 ||udkcrj.com^$third-party
 ||umbel.com^$third-party
 ||unblockia.com^$third-party
+||unbounce.com^$third-party
 ||unicaondemand.com^$third-party
 ||uniqodo.com^$third-party
 ||united-infos.net^$third-party
@@ -93708,6 +93713,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/track.html
 ||cloudfront.net/track?
 ||cloudfront.net/trackb.html
+||cloudfront.net/uba.js
 ||cloudfront.net/websites/sb.js
 ||cloudfront.net/zephyr.js
 ||cloudfront.net^$script,domain=phonearena.com
@@ -95535,7 +95541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.wix.com/hls2?
 ||frog.wix.com/p?
 ||frog.wix.com/pre?
-||frog.wix.com^$ping,xmlhttprequest
+||frog.wix.com^$image,ping,xmlhttprequest
 ||cloudfront.net/js/grin-sdk.js
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||fyrsbckgi-c.global.ssl.fastly.net^
