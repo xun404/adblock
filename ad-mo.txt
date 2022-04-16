@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uRwszQdO4Dph+iZAjaq8hg
+! Checksum: /v472hZSMVusFu36ZbgNDw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204170140
-! Last Modified: 2022年04月17日 01:40
+! Version: 202204170245
+! Last Modified: 2022年04月17日 02:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -24346,6 +24346,7 @@ _800x80_
 ##.container-adrotate
 ##.container-advMoreAbout
 ##.container-adwords
+##.container-bottom-ad
 ##.container-first-ads
 ##.container-lower-ad
 ##.container-rectangle-ad
@@ -25072,6 +25073,7 @@ _800x80_
 ##.flashadd
 ##.flex-ad
 ##.flex-ad-wrapper
+##.flex-posts-ads
 ##.flexAd
 ##.flexContentAd
 ##.flexad
@@ -27453,6 +27455,7 @@ _800x80_
 ##.news-ad-block-a
 ##.news-ad-square-a
 ##.news-ad-square-box
+##.news-ads-top
 ##.news-advert__column
 ##.news-advertisement
 ##.news-home-block-ad
@@ -27515,6 +27518,7 @@ _800x80_
 ##.note-advertisement
 ##.noticeAd_pc_wrap
 ##.np-ad
+##.np-ad-background
 ##.np-ad-border
 ##.np-adv-container
 ##.np-advert_apu
@@ -27837,6 +27841,7 @@ _800x80_
 ##.pgevoke-parentsection-Sponsored-Content
 ##.pgevoke-story-rightrail-ad1
 ##.pgevoke-story-topads
+##.pgevoke-topads
 ##.ph-ad
 ##.ph-ad-desktop
 ##.ph-ad-mediumrectangle
@@ -28367,6 +28372,7 @@ _800x80_
 ##.right-rail-ad
 ##.right-rail-ad-banner
 ##.right-rail-ad-bottom-container
+##.right-rail-ad-container
 ##.right-rail-ad-top-container
 ##.right-rail-broker-ads
 ##.right-rail__ad
@@ -54347,6 +54353,7 @@ tf2r.com#@#.adverts
 ||musicatorrents.com^*/script.
 ||musicstreetjournal.com/banner/
 ||myunique.info/wp-includes/js/pop.js
+||nameproscdn.com/images/backers/
 ||nativetimes.com/images/banners/
 ||naturalnews.com/wp-content/themes/naturalnews-child/$script
 ||naukri.com/banners
@@ -56825,6 +56832,7 @@ bab.la##.info-panel
 licenseglobal.com##.informa-homepage-layout__cell--widget-dfp
 precisionvaccinations.com##.inhouse-block
 bestlifeonline.com,eatthis.com##.inline
+manitobacooperator.ca##.inline--2
 stocksnap.io##.inline-carbon
 engadget.com##.inline-emphasis
 pcgamesn.com,theloadout.com##.inlinerail
@@ -56896,6 +56904,7 @@ roblox.com##.leaderboard-abp
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk##.leaderboard-flex-placeholder-desktop
+manitobacooperator.ca##.leaderboard-height
 businessinsider.in##.leaderboard-scrollable-btf-cont
 businessinsider.in##.leaderboard-scrollable-cont
 cbssports.com,nowthisnews.com,scout.com,seeker.com,thedodo.com,thrillist.com##.leaderboard-wrap
@@ -57139,6 +57148,8 @@ proxfree.com##.pfad2
 proxfree.com##.pfad3
 proxfree.com##.pfad4
 proxfree.com##.pftopad
+post-gazette.com##.pgevoke-flexbanner-innerwrapper
+post-gazette.com##.pgevoke-superpromo-innerwrapper
 filmibeat.com##.photos-add
 webmd.com##.physician-outer
 locklab.com##.picwrap
@@ -57934,6 +57945,7 @@ bernama.com##a[class^="banner_photo_"]
 probuilds.net##a[class^="dl-blitz-"]
 trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 3dnatives.com##a[data-bid][target="_blank"]
+namepros.com##a[data-tag="backer"]
 msn.com##a[href*=".booking.com/"]
 walmart.ca##a[href*=".criteo.com/"]
 itweb.co.za##a[href*="/adclick.php?"]
@@ -59436,6 +59448,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||googletagservices.com/tag/js/gpt.js$domain=chelseafc.com|epaper.timesgroup.com|k2radio.com|koel.com|kowb1290.com|nbcsports.com|scotsman.com|uefa.com|vimeo.com|windalert.com
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
+@@||gstatic.com/ads/external/images/logo_google_ads_64px.png$image,~third-party
 @@||guim.co.uk/uploader/$image,~third-party
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||hackread.com/wp-content/uploads/$image,~third-party
@@ -87832,6 +87845,7 @@ _mongo_stats/
 ||everesttech.net^
 ||experianmatch.info^
 ||ezodn.com^
+||ezstat.ru^
 ||fastemu.co^
 ||faster-trk.com^
 ||fastfinch.co^
@@ -94944,6 +94958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
+||tkx.mp.lura.live^
 ||tl.tradetracker.net^
 ||tm-awx.com/pageview
 ||tm.tradetracker.net^
