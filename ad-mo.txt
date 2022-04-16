@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6Ze16wlTAGsldGN4OJYmNg
+! Checksum: jh2vxFjHlgCk3n+PET2t6w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204162141
-! Last Modified: 2022年04月16日 21:41
+! Version: 202204162239
+! Last Modified: 2022年04月16日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -66240,7 +66240,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||e3c7.com/dh/
 ||e3c7.com/love/
 ||e3ol.com/inc/
-||e4440.com/img/hmwang.gif
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 ||eap.big5.enorth.com.cn^
 ||eap.enorth.com.cn^
@@ -69282,10 +69281,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzidc.com/uploads/pintuan.jpg
 ||zzlzl.com/zb_users/theme/Frozen/style/images/banner/
 ||zzsky.cn/images/a_d_
+||hmwang.icu/skin/images/*.gif
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2cycomic.com,yemancomic.com##body > a
+2cycomic.com,yemancomic.com##body > div > center
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -74216,7 +74218,6 @@ ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 62422.cn##body > table[width="778"][align="center"]
 btmulu.com#?#.item:-abp-has(> a[target="_blank"])
-yemancomic.com##button[style="width:380px; height:50px;"]
 cartoon18.com#?#.row:-abp-has(.badge:-abp-contains(ad))
 chbeyond.cn#?#a:-abp-has(> .xcybk-adfg)
 cnbeta.com#?#.cnbeta-swiper-container-285x360 .swiper-slide:-abp-has(a[href^="http"]:not([href^="http://www.cnbeta."]))
