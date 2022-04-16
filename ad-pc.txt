@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MGpDctKcD1KgLiDgwW7vPw
+! Checksum: u9ws6ryJj2OYeeKkpucZJg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204161447
-! Last Modified: 2022年04月16日 14:47
+! Version: 202204161538
+! Last Modified: 2022年04月16日 15:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56684,9 +56684,9 @@ notebooks.com##.efbleft
 ctvnews.ca##.election-leaderboard
 canyoublockit.com##.elementor-widget-container > center > p
 estnn.com##.elementor-widget-wp-widget-ai_widget
-popsci.com##.empire-below_content__desktop__articles-prefill-container
-popsci.com##.empire-content__desktop__articles-prefill-container
-popsci.com##.empire-header__desktop__article-prefill-container
+popsci.com,thedrive.com##.empire-below_content__desktop__articles-prefill-container
+popsci.com,thedrive.com##.empire-content__desktop__articles-prefill-container
+popsci.com,thedrive.com##.empire-header__desktop__article-prefill-container
 onmsft.com##.enhanced-text-widget
 kupondo.com##.entry-content > .row
 whatsmyreferer.com##.entry-content > ul
@@ -60100,6 +60100,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 .com/gg/*?x=$script,third-party
+=AdCode_$script,third-party
 .cn/gg/*?x=$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
@@ -61772,6 +61773,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||518yi.com^
+||hpejlsb.com^
+||ceciliabeverly.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -77319,6 +77322,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xzl200107151017.ltd^
 ||ghl8.com^
 ||lnque.xyz^
+||caishenbaoyou.top^
+||maqiang520.online^
 ||dailynews.wiki^
 ||yxbyd.store^
 ||xiongfengwang.com.cn^
