@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 04LQPzF6NX38TZ+KVaPCGg
+! Checksum: jSDA84o2K+J9GwmwoYC4Tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204190642
-! Last Modified: 2022年04月19日 06:42
+! Version: 202204190737
+! Last Modified: 2022年04月19日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -13727,6 +13727,7 @@ _800x80_
 ###first-300-ad
 ###first-adframe
 ###first-adlayer
+###first-ads
 ###first-ads-after-content
 ###firstAdUnit
 ###first_ad
@@ -28762,6 +28763,7 @@ _800x80_
 ##.sh-section-ad
 ##.shadvertisment
 ##.shareToolsItemAd
+##.sharetable
 ##.sheknows-infuse-ad
 ##.shift-ad
 ##.shoppingGoogleAdSense
@@ -29574,6 +29576,7 @@ _800x80_
 ##.sticky_ad_sidebar
 ##.sticky_ad_wrapper
 ##.stickyad
+##.stickyads
 ##.stickyadv
 ##.stky-ad-footer
 ##.stm-ad-player
@@ -31817,6 +31820,7 @@ _800x80_
 ##.ob-hover
 ##.ob-p.ob-dynamic-rec-container
 ##.ob-strip-layout
+##.outBrainWrapper
 ##.outbrain-ad-slot
 ##.outbrain-ad-units
 ##.outbrain-bg
@@ -55779,6 +55783,7 @@ wowway.net###sc_home_news_banner
 wowway.net###sc_home_recommended_banner
 wowway.net###sc_read_header_banner
 my.juno.com###scienceTile
+pao.gr###section--sponsors
 abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,scripts.com,symbols.com###sela-container
 triblive.com###shopsWidget
 thefastmode.com###side_ads_small
@@ -83008,6 +83013,7 @@ fqsousou.com,kengso.com#@#.user-share
 /assets/analytics:
 /assets/beacons.js
 /assets/ga.js
+/assets/smarttag-$script
 /assets/tracking-
 /assets/uts/*
 /assign.gif?
@@ -84787,6 +84793,7 @@ fqsousou.com,kengso.com#@#.user-share
 /LastClick/js?
 /layer_log.php?p=
 /lbi_ga.
+/lc-sentry.
 /ldsimp_wf?
 /lead-tracking.
 /lead-tracking/*
@@ -107060,6 +107067,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||jscrambler.com^$script,domain=airfrance.fr
 ||k.kolplay.com^
 ||l.franceculture.fr^
+||lacentrale.fr/collect
+||lacentrale.fr/static/fragment-layout/tracking-
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||lecho.be/fb2?
@@ -107075,6 +107084,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||p.kolplay.com^
 ||p.pagesjaunes.fr^
 ||pixel.ionos.fr^
+||promoneuve.fr/stat/
 ||res.paruvendu.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
