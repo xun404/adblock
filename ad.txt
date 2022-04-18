@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QhuZSOP2CuAhJq7JYzcHjA
+! Checksum: 4D4r5HxhQ1Dc6igyHgalew
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204180740
-! Last Modified: 2022年04月18日 07:40
+! Version: 202204181034
+! Last Modified: 2022年04月18日 10:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2261,6 +2261,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||drebz4f.shop^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -4854,7 +4855,7 @@ ubmcmm.baidustatic.com
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 !------------------------------------Popups-----------------------------------!
-$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
+$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mnks.jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
@@ -15633,6 +15634,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||shijue.me/advertise/getList?
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -17648,6 +17650,8 @@ $image,third-party,domain=258zw.com
 /xxgg/pv.js
 /xxgg/xsggs.js
 :4433/hm/cdn/static/jq_
+/windowwap_*_*_*.js?$script,third-party
+/hmzn_*_*_*.js?$script,third-party
 MoBi*.baidu.js$script,third-party
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
@@ -17805,6 +17809,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||gykj.xyz^
+||liebian888.site^
+||xbqi.xin^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -22550,7 +22557,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||autoimg.cn/bi/common/pvevent_all_
 @@||bagehd.com/iplookup.
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
-@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com
+@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com|seo.chinaz.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|saicmg.com|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
