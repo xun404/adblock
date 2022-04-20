@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BTzxQVAr6T5x5sj6VhwVRw
+! Checksum: b+kYaFYPvJKQxGDfeYjUXw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204201843
-! Last Modified: 2022年04月20日 18:43
+! Version: 202204201939
+! Last Modified: 2022年04月20日 19:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25100,6 +25100,7 @@ _800x80_
 ##.f-item-ad
 ##.fN-affiliateStrip
 ##.f_Ads
+##.fa-advertising
 ##.fa-google-ad
 ##.facebook-ad
 ##.fbCalendarAds
@@ -55810,7 +55811,7 @@ hackerbot.net###madiv2
 hackerbot.net###madiv3
 wowhead.com###main > .blocks
 animehub.ac###main-content > center
-w3schools.com###mainLeaderboard
+w3big.com,w3schools.com###mainLeaderboard
 dispatchtribunal.com,thelincolnianonline.com###mb-bar
 active.com###med_rec_bottom
 active.com###med_rec_top
@@ -57807,6 +57808,7 @@ litecoin-faucet.com##.sticky-top1
 independant.co.uk##.stickyFooterRoot
 sfgate.com##.stickyWrapper
 theloadout.com##.sticky_rail600
+minecraftlist.org##.stickywrapper
 romsie.com##.stksht
 dailyherald.com##.stnContainer
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.story > .placeholderWrapper
@@ -59533,7 +59535,7 @@ analpornpix.com##a[href^="/go/"]
 drtuber.com##a[href^="/partner/"]
 pornhub.com,pornhubthbh7ap3u.onion,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
 babesandstars.com##a[href^="http://rabbits.webcam/"]
-babeshows.co.uk,boobieblog.com,fapnado.com,foxhq.com,iseekgirls.com,small-breasted-teens.com,the-new-lagoon.com##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
+adultgifworld.com,babeshows.co.uk,boobieblog.com,fapnado.com,foxhq.com,iseekgirls.com,small-breasted-teens.com,the-new-lagoon.com##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
 hentai-imperia.org##a[href^="http://www.adult-empire.com/rs.php?"]
 xcritic.com##a[href^="http://www.adultdvdempire.com/"][href*="?partner_id="]
 hentairules.net##a[href^="http://www.gallery-dump.com"]
@@ -97089,7 +97091,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gak.webtoons.com^
 ||gala.spiceworks.com^
 ||gamedistribution.com/collect?
-||gc.newsweek.com^
+||gc.newsweek.com/front/js/counter.js
 ||gekko.spiceworks.com^
 ||geo.gfycat.com^
 ||geo.nbcsports.com^
@@ -108409,7 +108411,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
-@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk
+@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||pagure.io/static/issues_stats.js?
