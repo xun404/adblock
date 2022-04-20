@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b+kYaFYPvJKQxGDfeYjUXw
+! Checksum: A85SQArfTzNaOpo9cR62Yg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204201939
-! Last Modified: 2022年04月20日 19:39
+! Version: 202204202117
+! Last Modified: 2022年04月20日 21:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24033,6 +24033,9 @@ _800x80_
 ##.breakingNewsModuleSponsor
 ##.breakthrough-ad
 ##.briefNewsAd
+##.brn-ads-box
+##.brn-ads-mobile-container
+##.brn-ads-sticky-wrapper
 ##.broker-ad
 ##.broker-ads
 ##.broker-ads-center
@@ -55046,10 +55049,10 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 /^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt|css)/$popup,domain=0123movie.ru|123-movies.ninja|123movies-official.site|123movies.net|123movies2022.org|123moviesfree4u.com|123moviesme.online|123proxy.biz|123series.ru|2embed.ru|4anime.gg|4stream.gg|5movies.fm|720pstream.tv|9anime.to|9xmovies.homes|adblockstrtape.link|adf.ly|animefreak.vip|animekisa.cc|animepahe.com|asianembed.io|bato.to|batotoo.com|batotwo.com|bflix.to|bunnycdn.ru|clicknupload.to|clipconverter.cc|cloudvideo.tv|cmovies.online|dailyuploads.net|databasegdriveplayer.co|dood.la|dood.sh|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|dopebox.to|dramacool.pk|eplayvid.com|eplayvid.net​|eplsite.uk|europixhd.net|extreme-down.plus|fcdn.stream|files.im|filmestorrents.net|filmyzilla.beauty|filmyzilla.directory|filmyzilla.makeup|flashx.net|flixtor.video|fmovies.app|fmovies.ps|fmovies.pub|fmovies.to|fmovies.world|fplayer.info|gdtot.nl|go-stream.site|gogoanime.run|gogoanimes.to|gogoplay1.com|gomovies.cyou|gospeljingle.com|gowatchseries.live|gowatchseries.online|hexupload.net|hindilinks4u.nl|hulkstreams.com|hurawatch.at|hurawatch.it|jackstream.net|jackstreams.com|jujutsukaisen-manga.online|jujutsukaisenonline.net|kimoitv.com|kiss-anime.org|kissanime-ru.ws|kissasians.org|lookmoviess.com|manhuascan.com|mcubd.host|meomeo.pw|mixdrop.co|mixdrop.sx|mkvcage.site|mkvhub.tech|mlbstream.me|mlsbd.shop|mlwbd.host|movies2watch.tv|movies2watch.tv​|movies7.to|moviesbaba.life|moviesin.co|moviesverse.mobi|mp4upload.com|myflixer.ac|myflixer.it|myflixer.pw|myflixer.ru|myflixer.site|myflixer.to|myflixer.today|myflixer.ws|myflixertv.to|mystream.to|nbastream.nu|olympicstreams.me|pahe.ph|paidnaija.com|playemulator.online|player.cineflixtv.com|primewire.today|prmovies.bz|prmovies.cam|prmovies.net|prmovies.org|projectfreetv.one|projectfreetv.watch|projectfreetv2.com|putlocker68.com|putlockers.fm|putlockers.gs|redirect-ads.com|sdmoviespoint.online|seriestv.watch|sflix.to|shadowrangers.live|shingekinokyojin.tv|skidrow-games.com|skidrowcodex.net|soap2day.md|soap2dayto.org|solarmovies.movie|speedvideo.net|sportsbay.watch|ssoap2day.to|steampiay.cc|stemplay.cc|streamani.net|streamsb.net|streamsport.icu|streamta.pe|streamtape.cc|streamtape.com|streamtape.net|streamz.ws|streamzz.to|strikeout.cc|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|strtpe.link|tapecontent.net|telerium.net|turkish123.com|upbam.org|uploadmaza.com|upornia.com|uprot.net|upstream.to|upvid.co|usagoals.sx|vidbam.org|vidembed.cc|videovard.sx|vidnext.net|vido.fun|vidsrc.me|vipbox.lc|vipleague.im|vipleague.tv|viprow.me|voe.sx|vumoo.to|watchseries.ninja|watchserieshd.bz|watchserieshd.tv|watchserieshd.watch|watchseriess.net|watchseriesstream.com|wawacity.work|yesmovies.id|ymovies.to|yomovies.nl|yomovies.pl|yomovies.pm|youflix.site|yseries.tv|ytanime.tv|yts.movie|ștream2watch.com
 ||037jav.com/wp-content/uploads/2021/04/*.gif
 ||18porn.sex/ptr18.js
-||3movs.com/ab-
-||3movs.com/player/html.php?aid=pause
-||3movs.com/sd3/
-||3movs.com/su4unbl-
+||3movs.*/ab-
+||3movs.*/player/html.php?aid=pause
+||3movs.*/sd3/
+||3movs.*/su4unbl-
 ||3naked.com/nb/
 ||4tube.com/assets/abpe-
 ||4tube.com/assets/adf-
@@ -55439,7 +55442,7 @@ uinterview.com###above-content
 go-convert.com###ad
 dappradar.com###ad-nft-top
 informer.com###ad0
-boards.net,pimpandhost.com,timeanddate.com,wordreference.com###ad1
+boards.net,mtaeta.info,pimpandhost.com,timeanddate.com,wordreference.com###ad1
 pimpandhost.com###ad2
 exchangerates.org.uk###ad3
 moomoo.io###adCard
@@ -55456,6 +55459,7 @@ snewscms.com,yokogames.com###advertisment
 apkonline.net###adxx
 thebugle.co.za###adz
 apkonline.net###adzz
+purplepainforums.com###affiliates
 systutorials.com###after-content-1
 amgreatness.com###ag-lead
 timesofmalta.com###article-sponsored
@@ -56161,6 +56165,7 @@ freebitz.xyz##.BannerContainerScrapper
 freebitz.xyz##.BannerMain
 tutiempo.net##.ContBannerTop
 dappradar.com##.Container--bottomBanners
+johnogroat-journal.co.uk##.DMPU
 charismanews.com##.FpFeaturedBoxWrap
 nationalgeographic.com##.FrameBackgroundFull--grey
 askapache.com##.GAD
@@ -57301,6 +57306,7 @@ malwaretips.com##.mwt_ads
 invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
 engine.presearch.org##.my-4
+exportfromnigeria.info##.mytopads
 transfermarkt.com##.nENxsZD
 google.com##.nH.MC
 mail.google.com##.nH.PS
@@ -58016,6 +58022,7 @@ windowsloop.com##.wl-prakatana
 warontherocks.com##.wotr_top_lbjspot
 gamenguides.com,teslaoracle.com##.wp-block-image
 c19-worldnews.com##.wp-caption
+onepagerules.com##.wp-container-6
 hack-sat.com##.wp-image-31131
 rvguide.com##.wp-image-3611
 appuals.com##.wp-timed-p
@@ -58112,6 +58119,7 @@ steroid.com##[href^="/out.php"]
 1337x.to##[href^="/v-pn2dl-hideMYip"]
 radiotoday.co.uk##[href^="http://go.radiotoday.co.uk/"]
 howtogeek.com##[href^="http://macpaw.7eer.net/"]
+pooletown.co.uk##[href^="http://redirect.viglink.com"]
 igg-games.com##[href^="http://s2.igg-games.com/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
@@ -58196,8 +58204,10 @@ ice.hockey##[src^="/images/banners/"]
 linuxtopia.org##[src^="/includes/index.php/?img="]
 publish0x.com##[src^="blob:"]
 tampermonkey.net##[src^="data:image"]
+exportfromnigeria.info##[src^="http://storage2.proboards.com/"]
 forum.ragezone.com##[src^="https://clients.ragezone.com/"]
 noqreport.com##[src^="https://media.mercola.com/assets/html/"]
+exportfromnigeria.info##[src^="https://storage2.proboards.com/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
 mql5.com##[src^="https://www.mql5.com/fz/"]
 goal.com##[style*="--card-group-item:ad"]
@@ -58277,6 +58287,7 @@ sociologyguide.com##a[href^="https://www.baghvillas.com/"]
 mrchecker.net##a[href^="https://www.cardingmentor.org"]
 indusladies.com##a[href^="https://www.codewizardshq.com/?utm_"]
 futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
+coachhuey.com##a[href^="https://www.hudl.com"]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 who.is##a[href^="https://www.name.com/redirect/"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
@@ -58285,7 +58296,7 @@ tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
 yugatech.com##a[href^="https://yugatech.ph/"]
 krapps.com##a[href^="index.php?adclick="]
 kitguru.net##a[id^="href-ad-"]
-himovies.to,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
+himovies.to,home-barista.com,onetransistor.eu,shtfplan.com,washingtontimes.com##a[onclick]
 earlygame.com##a[rel*="sponsored"]
 mcrypto.club,themoviesflix.io##a[rel="noopener"]
 unsplash.com##a[rel^="sponsored"][target="_blank"]
@@ -59248,6 +59259,7 @@ pornpapa.com##.js-mob-popup
 freeones.com##.js-track-event
 ts-tube.net##.js-uvb-spot
 porndig.com##.js_footer_partner_container_wrapper
+hnntube.com##.jumbotron
 xxxymovies.com##.kt_imgrc
 vxxx.com##.kyypappctykakayycc
 4tube.com##.la-jessy-frame
