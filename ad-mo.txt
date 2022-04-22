@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GLVxjcCnmxrTFML+MlLDHg
+! Checksum: DJVnKsJlu9hl7V4pU+zeIA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204221844
-! Last Modified: 2022年04月22日 18:44
+! Version: 202204221938
+! Last Modified: 2022年04月22日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20401,7 +20401,6 @@ _800x80_
 ##.adbTrkWt
 ##.adback
 ##.adbadge
-##.adban
 ##.adban-hold-narrow
 ##.adband
 ##.adbanner
@@ -31739,6 +31738,7 @@ _800x80_
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
 ##a[href^="https://affiliate.rusvpn.com/click.php?"]
 ##a[href^="https://billing.purevpn.com/aff.php"] > img
+##a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="]
 ##a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img
 ##a[href^="https://go.nordvpn.net/aff"] > img
 ##a[href^="https://torguard.net/aff.php"] > img
@@ -39728,7 +39728,6 @@ tf2r.com#@#.adverts
 ||investigatorpertinent.com^
 ||investmentstar.org^
 ||investmeny.org^
-||investnewsbrazil.com^
 ||invisedspill.com^
 ||invitesuperstitiousadmire.com^
 ||invraisemblable.com^
@@ -44407,7 +44406,6 @@ tf2r.com#@#.adverts
 ||recastcompellease.com^
 ||recdirectgo.biz^
 ||receiptfastestparameter.com^
-||receitasefinancas.com^
 ||recentinteriorcrab.com^
 ||recentlyunknowninterested.com^
 ||recentrecentturf.com^
@@ -49885,6 +49883,7 @@ tf2r.com#@#.adverts
 ||inuvo.com^$third-party
 ||inuxu.biz^$third-party
 ||inuxu.co.in^$third-party
+||investnewsbrazil.com^$third-party
 ||inviziads.com^$third-party
 ||involve.asia^$third-party
 ||ip-adress.com^$third-party
@@ -50180,6 +50179,7 @@ tf2r.com#@#.adverts
 ||realbig.media^$third-party
 ||realclick.co.kr^$third-party
 ||realssp.co.kr^$third-party
+||receitasefinancas.com^$third-party
 ||redintelligence.net^$third-party
 ||redirectnative.com^$third-party
 ||redirectpopads.com^$third-party
@@ -58285,6 +58285,7 @@ himovies.to,home-barista.com,onetransistor.eu,shtfplan.com,washingtontimes.com##
 earlygame.com##a[rel*="sponsored"]
 mcrypto.club,themoviesflix.io##a[rel="noopener"]
 unsplash.com##a[rel^="sponsored"][target="_blank"]
+unsplash.com##div[data-ad="true"]
 limetorrents.pro##a[title*="An‌on‌ymous Download"]
 facebook.com,facebookcorewwwi.onion##article[data-ft*="\"ei\":\""]
 greatist.com##aside
@@ -108443,6 +108444,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||oakley.com^*/tealium.js$~third-party
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
+@@||okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||omtrdc.net^*/mbox/ajax?$script,domain=swisscom.ch
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|argos.co.uk|att.com|homedepot.com|swisscom.ch|t-mobile.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
