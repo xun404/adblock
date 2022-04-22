@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 11VN9ajduixH89dp+Fzd3A
+! Checksum: KWMz9siid8YS54dmsJICKw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204222115
-! Last Modified: 2022年04月22日 21:15
+! Version: 202204222158
+! Last Modified: 2022年04月22日 21:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -16522,6 +16522,7 @@ _800x80_
 ###top-ads
 ###top-ads-1
 ###top-ads-contain
+###top-ads-container
 ###top-ads-tabs
 ###top-adspot
 ###top-advert
@@ -18404,6 +18405,7 @@ _800x80_
 ##.ad-index
 ##.ad-index-main
 ##.ad-indicator-horiz
+##.ad-info-wrap
 ##.ad-inline
 ##.ad-inline-article
 ##.ad-inline-block
@@ -19027,8 +19029,10 @@ _800x80_
 ##.ad.addon
 ##.ad.bottom_article_leaderboard
 ##.ad.bottomrect
+##.ad.brandboard
 ##.ad.card
 ##.ad.center
+##.ad.contentboard
 ##.ad.desktop-970x250
 ##.ad.element
 ##.ad.floater-link
@@ -19044,6 +19048,7 @@ _800x80_
 ##.ad.native_story_1
 ##.ad.native_story_2
 ##.ad.native_story_3
+##.ad.netboard
 ##.ad.preroll
 ##.ad.promotion
 ##.ad.rectangle
@@ -29558,6 +29563,7 @@ _800x80_
 ##.standalone_txt_ad
 ##.standalonead
 ##.standard-ad
+##.standard-ad-container
 ##.star-ad
 ##.start__advertising_container
 ##.start__advertising_container_banner
@@ -61994,6 +62000,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||seinse27.com^
+||iknight.xyz^
 ||lm553.com^
 ||23617710.com^
 ||00-gov.cn^
@@ -77565,6 +77573,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||lajidewanyi.top^
 ||rinc.ink^
 ||qdbh.store^
 ||wubocheng.top^
