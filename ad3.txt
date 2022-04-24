@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 513rFjFZ9W4kf5uoOkDjaw
+! Checksum: idg6odu2XBBsVZ5/sZpCag
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204250540
-! Last Modified: 2022年04月25日 05:40
+! Version: 202204250641
+! Last Modified: 2022年04月25日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30395,6 +30395,7 @@ _mongo_stats/
 ||omappapi.com^
 ||omtrdc.net^
 ||oppuz.com^
+||opti-digital.com^
 ||ostrichesica.com^
 ||p-analytics.life^
 ||p2r14.com^
@@ -38958,6 +38959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.faceitanalytics.com^
 ||analytics.feedly.com^
 ||analytics.footballdb.com^
+||analytics.freemake.com^
 ||analytics.getshogun.com^
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
 ||analytics.global.sky.com^
@@ -39408,6 +39410,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||messiah.id/js/script.js
 ||metacrawler.com/pingback
 ||metrics.bangbros.com^
+||metrics.freemake.com^
 ||metrics.hackerrank.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
@@ -50414,6 +50417,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 @@||ect.se.com/cbt/app/js/util/angularytics.min.js$script,~third-party
 @@||editorx.com/_api/*count?type$~third-party
+@@||enchambered.com^*/googleanalytics_2.js?
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
