@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4QbFfGUXrpuolcQUZfRZtA
+! Checksum: W+4GEkHBULqV7N/suYqTkA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204252112
-! Last Modified: 2022年04月25日 21:12
+! Version: 202204252242
+! Last Modified: 2022年04月25日 22:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1698,6 +1698,19 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
+! FDA-2915
+@@||scarfsmash.com/v2*ModalEngage$script,domain=screenrant.com
+@@||scarfsmash.com/v2*/ConsentManager$script,domain=screenrant.com
+@@||aloofvest.com/acv.json$domain=screenrant.com
+@@||aloofvest.com/v2$script,xmlhttprequest,domain=screenrant.com
+@@||modularmental.com/v2*/ModalEngage$script,domain=cnbc.com
+@@||modularmental.com/v2$xmlhttprequest,domain=cnbc.com
+@@||acidpigs.com/v2/0/$script,domain=cnbc.com
+@@||plotrabbit.com/v2$script,xmlhttprequest,domain=cbssports.com
+@@||soggysponge.com/v2*/FixEngageRecovered$script,domain=mediaite.com
+@@||soggysponge.com/v2*/ModalEngage$script,domain=mediaite.com
+@@||soggysponge.com^$xmlhttprequest,domain=mediaite.com
+@@||profusesupport.com/v2/0/$script,domain=mediaite.com
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
