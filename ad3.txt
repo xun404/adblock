@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eXQ4HosoyNaFxxC6W/FeOg
+! Checksum: XZfiPBKotMqH+lWFf+cdnw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204300541
-! Last Modified: 2022年04月30日 05:41
+! Version: 202204300643
+! Last Modified: 2022年04月30日 06:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27634,6 +27634,7 @@ m.babytree.com##script + a[class]
 /new-relic.$~stylesheet
 /new.cnt.aspx?
 /newlog.php?
+/newrelic-browser.
 /newrelic-google-
 /newrelic-gpt.
 /newrelic.browser.
@@ -39116,6 +39117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brightside.me/metric-collector
 ||browser.mi-img.com^
 ||builder.io/api/v1/track
+||buondua.com/hit/
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||c.paypal.com^$script
 ||c.wort-suche.com^
@@ -49622,11 +49624,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cherry.le.com^
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click.gamersky.com^
+||cm.bilibili.com^
 ||cmstool.youku.com^
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
 ||cstm.baidu.com^
+||data.bilibili.com^
 ||dcard.tw/v1/events
 ||dlswbr.baidu.com^
 ||dolphin.deliver.ifeng.com^
@@ -49667,6 +49671,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||le.com/op/
 ||letv.com/op?
 ||lg.tr.pandora.tv^
+||live-trace.bilibili.com^
 ||log*.ku6.com^
 ||log.51cto.com^
 ||log.aliyuncs.com^
@@ -49727,6 +49732,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||qhimg.com/11.0.1.js$script
 ||qihucdn.com/11.0.1.js$script
 ||qq.com/code.cgi?
+||qq.com/collect/
 ||qq.com/kvcollect?
 ||qq.com/p?
 ||qq.com/qqcom/
