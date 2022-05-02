@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J5oHacp4OxDtFs9ZYmBYIQ
+! Checksum: Je5mXe6RNYrBdrk6DoKCqA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205021450
-! Last Modified: 2022年05月02日 14:50
+! Version: 202205021647
+! Last Modified: 2022年05月02日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61333,7 +61333,7 @@ ubmcmm.baidustatic.com
 ###rip[href*=".taobao.com"]
 ###search > a[href="/top1.html"]
 ###sitefocus.focus
-###slide3 > a[href^="/goto.php?url="]
+###bannerslide > a[href^="/goto.php?url="]
 ###snActive-wrap
 ###sponsorAdDiv2
 ###swtleft[style^="position:fixed;"]
@@ -62071,6 +62071,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||kukanlm-lubu1.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -82233,6 +82234,7 @@ qq.com#@#.side_ad
 ##.heg > .partner-list
 ##a[href^="/dasp.php?a="]
 !#sihu
+##.col5 > dl#randomBox
 ##.search + #midBox
 ##.wrap + #btmBox
 ##.wrap + #midBox
