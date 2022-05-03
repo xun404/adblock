@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CqoTUwzL67GAT9jP4LvdRA
+! Checksum: H0Sb+XJuL+NzQCLMXKBClw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205030539
-! Last Modified: 2022年05月03日 05:39
+! Version: 202205031207
+! Last Modified: 2022年05月03日 12:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1163,6 +1163,7 @@ ubmcmm.baidustatic.com
 ##.adHF
 ##.adHF3
 ##.adHF6
+##DIV[style=" max-width:989px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##.ad_content_mask
 ##.ad_couplebanner
 ##.ad_fixed
@@ -9498,6 +9499,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cnblogs.com###cnblogs_c1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17425,6 +17427,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ##a[href$=".120ydrayy.com"]
+||hkzzacp.cn^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
