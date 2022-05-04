@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eQC/rYXSIAkDxjYJyFF4Xw
+! Checksum: S3DN+5Y6QcDMYXNG5mCulQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205041341
-! Last Modified: 2022年05月04日 13:41
+! Version: 202205041450
+! Last Modified: 2022年05月04日 14:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56431,6 +56431,7 @@ beckershospitalreview.com##.becker_doubleclick
 aiscore.com##.bet365
 republicworld.com##.bg-f0f0f0
 amgreatness.com##.bg-gray-200.mx-auto
+thepostmillennial.com##.bg-yellow-400
 biblegateway.com##.bga
 overclock3d.net##.bglink
 bhamnow.com##.bhamn-adlabel
@@ -57242,6 +57243,7 @@ dailymail.co.uk##.mol-fe-vouchercodes-redesign
 monsoonjournal.com##.mom-e3lanat-wrap
 joindota.com##.monkey-container
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.mosaic-banner
+thepostmillennial.com##.mot-container
 thepostmillennial.com##.mot-label
 anonymouse.org##.mouselayer
 syfy.com##.mps-container
@@ -59727,6 +59729,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||dilbert.com/assets/ad-vendor-$script,~third-party
+@@||discretemath.org/ads/
+@@||discretemath.org^$image,stylesheet
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
@@ -59740,6 +59744,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
 @@||f-droid.org/assets/Ads_$~third-party
 @@||facebook.com/ads/profile/$~third-party,xmlhttprequest
+@@||faculty.uml.edu/klevasseur/ads/
+@@||faculty.uml.edu^$image,stylesheet
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||files.slack.com^$image,~third-party
 @@||flying-lines.com/banners/$image,~third-party
@@ -77633,6 +77639,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xtime.hk^
 ||sydz.tw^
 ||e41.xyz^
+||70we55s.cn^
+||singledog.fun^
+||ybxw.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -109198,6 +109207,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
+@@||ovp.piksel.tech/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||s.yjtag.jp/tag.js$script,domain=www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
