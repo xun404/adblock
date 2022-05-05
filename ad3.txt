@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B5gLICiOq7j2PWJbOJvsaA
+! Checksum: AtKjALuH4j5ndkzObdQfyQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205051301
-! Last Modified: 2022年05月05日 13:01
+! Version: 202205051540
+! Last Modified: 2022年05月05日 15:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -36127,6 +36127,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.statful.com^
 ||beacon.thred.woven.com^
 ||beacon.tingyun.com^
+||beacon.vertebrae-axis.com^
 ||beacon.viewlift.com^
 ||beacon2.indieclick.com^
 ||beacons.mediamelon.com^
@@ -36522,6 +36523,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event.api.drift.com^
 ||event.getblue.io^
 ||event.instiengage.com^
+||event.mrtnsvr.com^
 ||event.syndigo.cloud^
 ||event.webcollage.net^
 ||eventapi.libring.com^
@@ -37146,6 +37148,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.adbrn.com^
 ||p.delivery.net^$third-party
 ||p.eyebuydirect-cmr.net^
+||p.placed.com^
 ||p.yotpo.com^
 ||p0.com/1x1
 ||paddle.com^*/analytics.js
@@ -38081,6 +38084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d4ax0r5detcsu.cloudfront.net^
 ||d6jkenny8w8yo.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
+||danv01ao0kdr2.cloudfront.net^
 ||daq0d0aotgq0f.cloudfront.net^
 ||dc8na2hxrj29i.cloudfront.net^
 ||dc8xl0ndzn2cb.cloudfront.net^
@@ -50720,6 +50724,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||kentucky.com/mistats/finalizestats.js$~third-party
+@@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com/on/demandware.static/*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
