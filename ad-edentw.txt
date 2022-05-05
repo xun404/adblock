@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eWPdJrh+rZRtrvehQclXKw
+! Checksum: s2xBJbqtglskTAlgfJVZHg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202205051450
-! Last Modified: 2022年05月05日 14:50
+! Version: 202205052239
+! Last Modified: 2022年05月05日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1565,7 +1565,7 @@ vestivrn.ru#$#abort-on-property-read video.preroll
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 paratechnik.ru#$#abort-current-inline-script decodeURIComponent
 dota2.ru#$#abort-on-property-read helpUsImproveSite
-fastpic.org,~new.fastpic.org,fastpic.ru,~new.fastpic.ru#$#abort-current-inline-script document.querySelectorAll, popMagic; abort-current-inline-script Math.random; abort-on-property-read document.getElementsByTagName; abort-on-property-read utarget_script
+fastpic.org,~new.fastpic.org#$#override-property-read document.querySelector null
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 city.ogo.ua#$#abort-on-property-read myatu_bgm
