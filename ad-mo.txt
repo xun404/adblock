@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ocJq5gn1fe0mxurrE6be/Q
+! Checksum: HyY4qYdbdvUt9n9ujQV9jg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205072143
-! Last Modified: 2022年05月07日 21:43
+! Version: 202205072239
+! Last Modified: 2022年05月07日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18476,6 +18476,7 @@ _800x80_
 ##.ad-leaderboard-companion
 ##.ad-leaderboard-container
 ##.ad-leaderboard-flex
+##.ad-leaderboard-footer
 ##.ad-leaderboard-hero
 ##.ad-leaderboard-marquee
 ##.ad-leaderboard-middle
@@ -57242,7 +57243,7 @@ edarabia.com##.leaderboard-970
 roblox.com##.leaderboard-abp
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
-huffingtonpost.co.uk##.leaderboard-flex-placeholder-desktop
+huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
 manitobacooperator.ca##.leaderboard-height
 businessinsider.in##.leaderboard-scrollable-btf-cont
 businessinsider.in##.leaderboard-scrollable-cont
@@ -109239,6 +109240,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
 @@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
+@@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js

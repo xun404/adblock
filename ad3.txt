@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A3RBY5OTQNIZ46ykTLTtQg
+! Checksum: Cm69PZ6Cw21SVyx4fvHEJQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205072143
-! Last Modified: 2022年05月07日 21:43
+! Version: 202205072239
+! Last Modified: 2022年05月07日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -51172,6 +51172,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
 @@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
+@@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
