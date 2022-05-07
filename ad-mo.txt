@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +g9bjvAW90MkWyM0Dw0MmA
+! Checksum: J4ctRyOX2UzFfqlZsa26Jw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205071339
-! Last Modified: 2022年05月07日 13:39
+! Version: 202205071539
+! Last Modified: 2022年05月07日 15:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1854,7 +1854,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
-/adcreative.$domain=~adcreative.es
+/adcreative.$domain=~adcreative.es|~hange.jp
 /adcreative/*$~image
 /adcreatives/*
 /adcss/*$~image
@@ -22496,6 +22496,7 @@ _800x80_
 ##.advert_mpu_body_hdr
 ##.advert_nav
 ##.advert_note
+##.advert_pos
 ##.advert_rectangle_aside
 ##.advert_small
 ##.advert_societe_general
@@ -53302,7 +53303,6 @@ tf2r.com#@#.adverts
 ||groupon.com/javascripts/common/affiliate_widget/
 ||grscty.com/images/banner/
 ||gsniper.com/images/
-||gstaticadssl.l.google.com^$~font,third-party,~xmlhttprequest
 ||handango.com/marketing/affiliate/
 ||hbid.ams3.cdn.digitaloceanspaces.com^
 ||hide-my-ip.com/promo/
@@ -55480,6 +55480,7 @@ snewscms.com,yokogames.com###advertisment
 apkonline.net###adxx
 thebugle.co.za###adz
 apkonline.net###adzz
+exportfromnigeria.info###affs
 purplepainforums.com###affiliates
 systutorials.com###after-content-1
 amgreatness.com###ag-lead
@@ -56077,6 +56078,11 @@ geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
 cathnews.co.nz,cryptoreporter.info,net-load.com,wakingtimes.com###text-12
 radiosurvivor.com###text-13
+kollelbudget.com###text-43
+kollelbudget.com###text-70
+kollelbudget.com###text-78
+kollelbudget.com###text-82
+kollelbudget.com###text-83
 ericpetersautos.com###text-133
 planetinsane.com###text-14
 geeksforgeeks.org###text-15
@@ -58313,8 +58319,9 @@ twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
 1337x.to##a[href="/v-pn2dl-hideip"]
 techporn.ph##a[href][target*="blank"]
-mtaeta.info##a[href][target="_blank"] > img[src^="http://storage2.proboards.com/"]
+kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
+mtaeta.info##a[href][target="_blank"] > img[src^="http://storage2.proboards.com/"]
 flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 linkhub.icu##a[href^="/downloadnow.php?"]
 limetorrents.pro##a[href^="/leet/?"] > img[src^="/static/images/download"]
@@ -60274,6 +60281,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||sascdn.com/diff/templates/ts/dist/banner/sas-banner-$script,domain=dr.dk
 @@||scan-manga.eu/*pageID=$~third-party
 @@||searchad.naver.com^$~third-party
+@@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 @@||smartadserver.com/3310/call$xmlhttprequest,domain=dr.dk
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
@@ -77776,6 +77784,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||weldsystem.online^
 ||qhonzpl.cn^
 ||3z3sfuj.cn^
+||k11designstore.club^
+||ypjmvdfxqw.com^
+||xsvgpjl.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
