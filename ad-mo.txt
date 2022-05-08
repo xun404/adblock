@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K4ARzUG7UqNjpEfXExyAww
+! Checksum: 6n90OMpTscVgAIQTV6CJwA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205081539
-! Last Modified: 2022年05月08日 15:39
+! Version: 202205081644
+! Last Modified: 2022年05月08日 16:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18114,6 +18114,7 @@ _800x80_
 ##.ad-block-holder
 ##.ad-block-in-post
 ##.ad-block-inside
+##.ad-block-mod
 ##.ad-block-section
 ##.ad-block-square
 ##.ad-block-sticky-ad
@@ -18489,6 +18490,7 @@ _800x80_
 ##.ad-leaderheader
 ##.ad-leadtop
 ##.ad-left
+##.ad-left-1
 ##.ad-left-top
 ##.ad-left3
 ##.ad-leftrail
@@ -62265,7 +62267,6 @@ ubmcmm.baidustatic.com
 ||268mob.cn^
 ||272xb.com^
 ||280dp.com^
-||2898.com^$third-party
 ||28acglz.com^
 ||28wangmeng.com^
 ||292812.com^
@@ -69850,8 +69851,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||2898.com/index/flowexchange/getGoods?
+||360kan.com/v1/block?blockid=544&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+360kan.com##.info-flow__ad
 3dmgame.com##.Content_L > p
 3dmgame.com##.Gmaeinfobtn_tab  > span
 3dmgame.com##.Gmaeinfobtn + span
@@ -77796,6 +77800,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ihtqqws.cn^
 ||baiyi.site^
 ||wangderder.xyz^
+||kimdate2019.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
