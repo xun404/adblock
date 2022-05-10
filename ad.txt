@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xfrj14AuskyW0XEHFBxjsQ
+! Checksum: SmWNYxGZDwDpJRfmS4YcfQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205100742
-! Last Modified: 2022年05月10日 07:42
+! Version: 202205101004
+! Last Modified: 2022年05月10日 10:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1915,6 +1915,9 @@ ubmcmm.baidustatic.com
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
+##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
+##a[target="_blank"] > img[height="60px"][src*=".360buyimg.com"][src$=".gif"]
+##a[target="_blank"] > img[height="60px"][src*=".alicdn.com"][src$=".gif"]
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
@@ -1964,7 +1967,7 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -2249,6 +2252,19 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||tujzac.com^
+||n0277.com^
+||u0067.com^
+||29299892.com^
+||19273817.com^
+||rfyqtv2.com^
+||rgjeow3.com^
+||kvecc.com^
+||kqvkvc3.com^
+||bfrmye5.com^
+||kvexx.com^
+||mm2ah.com^
+||aixuntupian.oss-cn-hongkong.aliyuncs.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -11789,7 +11805,7 @@ ettoday.net##.ad_readmore
 sogou.com##.ad_result
 9upk.com,ouyaoxiazai.com##.ad_show
 ouyaoxiazai.com##.ad_show_1
-ghxi.com##.ad_single_11
+ghxi.com##.ad_single_12
 nongjitong.com##.ad_sms
 fx168.com##.ad_teshu
 tgfcer.com##.ad_text
@@ -17909,6 +17925,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yuhui.run^
 ||bqgyy.com^
 ||dxftocy.cn^
+||zgnzhymh.mobi^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -22597,7 +22614,7 @@ t66y.com##.tips
 ||alicdn.com^$domain=28th.cc
 !#theporn.xyz
 ###ad-ft
-theporn.cc###to_top + div > div[id]
+theporn.cc##.pt-70 > div[id]
 ###wp > div > #top_banner
 ##.ads > #video_playr_sider
 ##.bottom-gg
