@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PRQvTOO3Gcyhr6NW3B9NFg
+! Checksum: /VixVW+5TXzU4F+oP2eMUw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205101940
-! Last Modified: 2022年05月10日 19:40
+! Version: 202205102127
+! Last Modified: 2022年05月10日 21:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17489,6 +17489,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hzs1202.site^
 ||ue4.store^
 ||cvsheil.com^
+||j04.xyz^
+||j05.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25317,6 +25319,7 @@ m.babytree.com##script + a[class]
 /analysis/ga_
 /analysis/gtm_
 /analysis?t=
+/analysisTag.js
 /analytic-client.
 /analytic/context?
 /analytic/count.
@@ -50314,6 +50317,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||daumcdn.net^*/awsa.js
 ||gmarket.co.kr/js/common/uuid.js
 ||hits.zdnet.co.kr^
+||jdsports.co.kr/collect.php
 ||kyson.kakao.com^
 ||l.m.naver.com^
 ||log.etoday.co.kr^

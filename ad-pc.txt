@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Re9OrE7vwVEiLa6N2wFxQA
+! Checksum: M2z9JykFc2Phii9YSwvhXA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205101940
-! Last Modified: 2022年05月10日 19:40
+! Version: 202205102127
+! Last Modified: 2022年05月10日 21:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55324,6 +55324,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||bunnylust.com/sponsors/
 ||buonaporno.com/extras/
 ||buondua.com/templatesmq0noox1jd4g4sk_
+||cam-video.xxx/js/popup.min.js
 ||cambro.tv/popin-min.js
 ||cambro.tv/post1.js
 ||camclips.cc/api/$image,script
@@ -55493,6 +55494,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||pornone.com/worker.js
 ||pornorips.com/td7ab49db374.js
 ||pornpapa.com/extension/
+||pornpoppy.com/jss/external_pop.js
 ||pornrabbit.com^$subdocument
 ||pornstargold.com/3b0a0cdcb8b4.js
 ||pornstargold.com/cddc4c9399c7.js
@@ -55916,7 +55918,7 @@ desimartini.com###getPosition
 dealsofde.com###gg_box_1
 dealsofde.com###gg_box_2
 glowstery.com###ghostery-highlights
-fmovies.ps,movies2watch.tv,moviesjoy.to,myflixertv.to###gift-middle
+fmovies.ps,movies2watch.tv,moviesjoy.to,myflixer.to,myflixertv.to###gift-middle
 f2movies.to,fmovies.ps,fmoviesto.cc,movies2watch.tv,moviesjoy.to,myflixertv.to###gift-top
 freegames.org###gla
 wordcounter.net###glya
@@ -57588,6 +57590,7 @@ depositfiles.com,dfiles.eu##.network_downloader
 chaseyoursport.com​##.new-adv
 play.typeracer.com##.newNorthWidget
 pcgamesn.com##.new_affiliate_embed
+myflixer.to##.news-iframe
 transfermarkt.com##.newsansicht-topspielerprofil
 moddb.com##.nextmediaboxtop
 democraticunderground.com##.nhome-mediumrectangle-container
@@ -59344,7 +59347,7 @@ chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.c
 kemono.party,pinflix.com##.ad-container
 xtube.com##.adContainer
 sex3.com##.add-box
-babesandstars.com,gosexy.mobi,hog.tv,javseen.tv,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
+babesandstars.com,cam-video.xxx,gosexy.mobi,hog.tv,javseen.tv,mobilepornmovies.com,mypornstarbook.net,pichunter.com,thisav.com##.ads
 video.laxd.com##.ads-container
 cumlouder.com##.ads__block
 tube8.com,tube8.es,tube8.fr##.adsbytrafficjunky
@@ -78014,6 +78017,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hzs1202.site^
 ||ue4.store^
 ||cvsheil.com^
+||j04.xyz^
+||j05.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -83587,6 +83592,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analysis/ga_
 /analysis/gtm_
 /analysis?t=
+/analysisTag.js
 /analytic-client.
 /analytic/context?
 /analytic/count.
@@ -108584,6 +108590,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||daumcdn.net^*/awsa.js
 ||gmarket.co.kr/js/common/uuid.js
 ||hits.zdnet.co.kr^
+||jdsports.co.kr/collect.php
 ||kyson.kakao.com^
 ||l.m.naver.com^
 ||log.etoday.co.kr^
