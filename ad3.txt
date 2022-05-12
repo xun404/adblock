@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T5aGqndxLEVfPxrRf6bcGA
+! Checksum: KZzzmwtMZaC81uDR7KmbYg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205122200
-! Last Modified: 2022年05月12日 22:00
+! Version: 202205122242
+! Last Modified: 2022年05月12日 22:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -49895,6 +49895,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||autohome.com.cn/deliver?
 ||autohome.com.cn/impress?
 ||autohome.com.cn/realdeliver?
+||baidu.com/api/bidder/
 ||baidu.com/kan/api/ipLocation
 ||banana.le.com^
 ||bc.qunar.com^
@@ -49958,6 +49959,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||log.flight.qunar.com^
 ||log.kuwo.cn^
 ||log.m.sm.cn^
+||log.mix.sina.com.cn^
 ||log.sina.cn^
 ||log.zongheng.com^
 ||log1.17173.com^
@@ -50035,12 +50037,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||s.pixfs.net/visitor.pixplug.in/
 ||s.qhupdate.com^
 ||s.renren.com^
-||sbeacon.sina.com.cn/e.gif
+||sbeacon.sina.com.cn^
 ||sclick.baidu.com^
+||sfp.safe.baidu.com^
 ||shrek.6.cn^
 ||sina.com.cn/view?
 ||sinajs.cn/open/api/js/wb.js
 ||sngmta.qq.com^
+||sofire.bdstatic.com^
 ||sogou.com/cl.gif?
 ||sogou.com/cl?
 ||sogou.com/pv?

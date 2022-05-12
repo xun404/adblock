@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xWB9b7jrB3uWeDbO1xqAJQ
+! Checksum: P0dbFlNPXa3ub11ArOIm8g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205122200
-! Last Modified: 2022年05月12日 22:00
+! Version: 202205122242
+! Last Modified: 2022年05月12日 22:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55056,6 +55056,7 @@ tf2r.com#@#.adverts
 ||anyclip.com^$script,third-party
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
+||boomselljamwelunch.com^
 ||brid.tv^$script,domain=spin.com|thewrap.com
 ||c.jsrdn.com^$script,domain=muscleandfitness.com
 ||channelexco.com/player/$third-party
@@ -55428,6 +55429,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||eporner.com/dot/
 ||eporner.com/event.php
 ||eporner.com^$subdocument,~third-party
+||erofus.com/*/wat.js
 ||erofus.com/move
 ||escortdirectory.com//images/
 ||est.pornleech.ch^
@@ -55968,7 +55970,6 @@ phpbb.com###footer_banner_leaderboard
 forums.anandtech.com,forums.tomsguide.com,forums.tomshardware.com###footer_leaderboard
 hwhills.com###footerbanner
 feedicons.com###footerboard
-titantv.com###frankly
 stonetoss.com###friends
 imgbox.com###full-page-redirect
 reviewgeek.com###future_Y_R_0_1
@@ -58838,6 +58839,7 @@ manga-raw.club##div[style^="height: 300px;"]
 add0n.com,crazygames.com##div[style^="height: 90px;"]
 malaysiakini.com##div[style^="height:250px"]
 crazygames.com,tenforums.com##div[style^="height:250px;"]
+titantv.com##div[style^="height:265px;"]
 malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
 point2homes.com,propertyshark.com##div[style^="margin-bottom: 10px;"]
@@ -60020,6 +60022,7 @@ foxhq.com,xxxcomics.org##video
 redtube.com,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com##video[playinline][loop]
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
+erofus.com#?#div:-abp-has(> .ad)
 pornhub.com,pornhubthbh7ap3u.onion#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
@@ -60176,6 +60179,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
+@@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
@@ -60490,6 +60494,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||cdn.adsafeprotected.com/iasPET.1.js$script,domain=gentside.com
 @@||ced.sascdn.com/tag/*/smart.js$domain=dr.dk
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
+@@||clj.valuecommerce.com/*/vcushion.min.js
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
 @@||cloudinary.com/portalbici/advertisements/$domain=portalbici.es
 @@||comic-boost.com/gentosha/advertisement_view$subdocument,~third-party
@@ -108237,6 +108242,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||autohome.com.cn/deliver?
 ||autohome.com.cn/impress?
 ||autohome.com.cn/realdeliver?
+||baidu.com/api/bidder/
 ||baidu.com/kan/api/ipLocation
 ||banana.le.com^
 ||bc.qunar.com^
@@ -108300,6 +108306,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||log.flight.qunar.com^
 ||log.kuwo.cn^
 ||log.m.sm.cn^
+||log.mix.sina.com.cn^
 ||log.sina.cn^
 ||log.zongheng.com^
 ||log1.17173.com^
@@ -108377,12 +108384,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||s.pixfs.net/visitor.pixplug.in/
 ||s.qhupdate.com^
 ||s.renren.com^
-||sbeacon.sina.com.cn/e.gif
+||sbeacon.sina.com.cn^
 ||sclick.baidu.com^
+||sfp.safe.baidu.com^
 ||shrek.6.cn^
 ||sina.com.cn/view?
 ||sinajs.cn/open/api/js/wb.js
 ||sngmta.qq.com^
+||sofire.bdstatic.com^
 ||sogou.com/cl.gif?
 ||sogou.com/cl?
 ||sogou.com/pv?
