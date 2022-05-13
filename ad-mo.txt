@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T4brYo2n9r6xqgVsCfOuUg
+! Checksum: 3Bnu+snTLlYttUc3UOC4nQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205131652
-! Last Modified: 2022年05月13日 16:52
+! Version: 202205131750
+! Last Modified: 2022年05月13日 17:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -70080,6 +70080,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -108731,6 +108732,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||logger.uol.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
+||r7.com/comscore/
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
 ||tags.globo.com^
@@ -109833,6 +109835,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
 @@||hit.gemius.pl/xlgemius.js$script,domain=ojogo.pt
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=r7.com
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
 @@||laredoute.pt/js/byside_webcare.js
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
