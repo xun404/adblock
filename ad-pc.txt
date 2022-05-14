@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L6odyOjQW5b9ZH3cmLspmA
+! Checksum: S/MhbhSgnzYLkGTUUtXApA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205150059
-! Last Modified: 2022年05月15日 00:59
+! Version: 202205150642
+! Last Modified: 2022年05月15日 06:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53604,6 +53604,7 @@ tf2r.com#@#.adverts
 ||google.com/adsense/ad
 ||google.com/adsense/domains
 ||google.com/adsense/search/
+||google.com/afs/ads
 ||google.com/dp/ads
 ||google.com/pagead/
 ||googleadapis.l.google.com^$third-party
@@ -97410,6 +97411,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quant.jp/track/
 ||rakuten-static.com/com/rat/
 ||ranking.apis.sankei-digital.co.jp^
+||rasin.tech/heatmap-
+||rasin.tech/scroll-logs/
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
 ||reproio.com^$third-party
@@ -97427,6 +97430,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||snva.jp/javascripts/reco/
 ||speee-ad.akamaized.net^
 ||spnx.jp/spnx-logger.js
+||storage.googleapis.com/rasin/*/hm.js
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
 ||t.adlpo.com^
@@ -109920,6 +109924,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||ovp.piksel.tech/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
+@@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||s.yjtag.jp/tag.js$script,domain=www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
