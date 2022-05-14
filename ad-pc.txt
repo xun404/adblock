@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 02oHr9bk7JlxrOVP+M9zxg
+! Checksum: 3kC1L+kFwSqV+KED9TIpJA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205141646
-! Last Modified: 2022年05月14日 16:46
+! Version: 202205141844
+! Last Modified: 2022年05月14日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17847,6 +17847,7 @@ _800x80_
 ##.a-ad--skyscraper
 ##.a-ad--wide
 ##.a-article-teaser--sponsored
+##.a-d-250
 ##.a-d-container
 ##.a-d-rotate_widgets
 ##.a-dserver
@@ -23456,6 +23457,7 @@ _800x80_
 ##.banner-adsense
 ##.banner-adv
 ##.banner-advert
+##.banner-advertisement
 ##.banner-adverts
 ##.banner-buysellads
 ##.banner-paid-ad-label
@@ -49705,6 +49707,7 @@ tf2r.com#@#.adverts
 ||auctionnudge.com^$third-party
 ||audience2media.com^$third-party
 ||audiencerun.com^$third-party
+||autoads.asia^$third-party
 ||automatad.com^$third-party
 ||awsmer.com^$third-party
 ||axiaffiliates.com^$third-party
@@ -54859,6 +54862,7 @@ tf2r.com#@#.adverts
 ||linkhub.icu/vendors/h.js
 ||linkshare.pro/img/btc.gif
 ||linuxtracker.org/images/dw.png
+||livescore.az/images/banners
 ||loadingz.com/jflex.js
 ||local.tampabay.com^$subdocument
 ||lw.musictarget.com^
@@ -56594,6 +56598,7 @@ supercheats.com##.a300
 localtiger.com##.a9gy_lt
 scoredle.com##.aHeader
 opensubtitles.org##.a_1.a.p
+fastweb.com##.a_cls_s
 premierguitar.com##.a_promo
 androidauthority.com##.aa
 informer.com##.aa-728
@@ -58063,6 +58068,7 @@ vpnmentor.com##.side-top-vendors-wrap
 pr0gramm.com##.side-wide-skyscraper
 israelnationalnews.com##.sideInf
 freeseotoolbox.net##.sideXd
+uquiz.com##.side_bar
 panarmenian.net##.side_panner
 tutorialrepublic.com##.sidebar
 dkoding.in##.sidebar .widget_custom_html
@@ -58474,7 +58480,7 @@ naturalnewsblogs.com##[href*="/WBA/"]
 complaintsingapore.com##[href*="/adv.php"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,thinknews.com.ng,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,thinknews.com.ng,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 steroid.com##[href*="https://www.anabolics.com"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
@@ -108227,6 +108233,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.ch^
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.gmx.net^
+||wa.web.de^
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
@@ -109447,6 +109454,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||retailmenot.com/__wsm.gif$ping,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
+@@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com

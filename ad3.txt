@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mxTQco6uZokOcPuK5nT2sQ
+! Checksum: cBr1mEnOFQbVcUEd7K/PZA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205141646
-! Last Modified: 2022年05月14日 16:46
+! Version: 202205141844
+! Last Modified: 2022年05月14日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -49827,6 +49827,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.ch^
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.gmx.net^
+||wa.web.de^
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
@@ -51047,6 +51048,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||retailmenot.com/__wsm.gif$ping,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
+@@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
