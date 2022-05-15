@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 513fctdBGsLHUMFtzBFi0Q
+! Checksum: X8g5SLvPCplf7pWWsIQTHQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205151157
-! Last Modified: 2022年05月15日 11:57
+! Version: 202205151645
+! Last Modified: 2022年05月15日 16:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -58702,6 +58702,7 @@ futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 coachhuey.com##a[href^="https://www.hudl.com"]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 who.is##a[href^="https://www.name.com/redirect/"]
+cricket.com##[href^="https://www.a23.com/downloads.html?"] > img
 kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
@@ -78050,7 +78051,6 @@ smjb.net##div[style*="height: 50%"]
 ||rmipoz.com/dp.js
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||shumilou.co/style/html5.js
-||sinaimg.cn/sinanews/228/w110h118/20200630/d16f-ivrxcex6261902.gif
 ||tdtxt.xyz/js/baidu.js
 ||ttzw.tv/tz/h.js
 ||ttzw.tv/tz/true.js
@@ -78087,9 +78087,6 @@ $image,third-party,domain=258zw.com
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
 .html?android=hx*&_$csp=script-src
 .js?ssid=_$script,third-party
-##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
-##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;margin-right:0px;margin-left:0px;"]
-##.layui-row[style="height:160px;border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
 .lu/js/wap_billing.js
 ##.readerListADbox
 /1.js?ssfrid=$script,third-party
@@ -78184,6 +78181,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||deya.ink^
 ||hackeraa.xyz^
 ||wn68din.cn^
+||jacksonyee.club^
+||ppyibei.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
