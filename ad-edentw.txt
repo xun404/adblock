@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vgpDnnIJxQsE7enhG4Cf9w
+! Checksum: EYJWedxWYHojYDRsJRfw1A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202205162158
-! Last Modified: 2022年05月16日 21:58
+! Version: 202205170102
+! Last Modified: 2022年05月17日 01:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1438,7 +1438,7 @@ streamingcommunity.net#$#abort-current-inline-script String.fromCharCode /btoa|b
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/lithuanian.txt ***
 ! #CV-766
 delfi.lt#@#.banner
-delfi.lt#$#abort-on-property-read __dabd
+delfi.lt#$#abort-on-property-read _dlf.ab
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
 ! MISC
 15min.lt#$#hide-if-matches-xpath '//div[@class][@style]/img[string-length(@src) >=180]/ancestor::div[@class][1]'
