@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a4ovJVA/xcqLNFBBvHjEyg
+! Checksum: 71SZtO5WaCDWwzNcm3vlqg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205170443
-! Last Modified: 2022年05月17日 04:43
+! Version: 202205170541
+! Last Modified: 2022年05月17日 05:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -24807,6 +24807,7 @@ _800x80_
 ##.dfp_unit-ad_container
 ##.dfpad
 ##.dfrads
+##.dfx-adBlock1Wrapper
 ##.dg-gpt-ad-container
 ##.dhAdContainer14
 ##.dianomi-ad
@@ -32256,6 +32257,7 @@ sankei.com#@#.module_ad
 seura.fi,www.msn.com#@#.nativead
 dogva.com#@#.node-ad
 youtube.com#@#.overlay-ads
+bloomberg.com#@#.page-ad
 rottentomatoes.com#@#.page_ad
 phytodoc.de#@#.plain-ad
 komplett.dk,komplett.no,komplett.se,komplettbedrift.no,komplettforetag.se#@#.product-ad
@@ -56024,11 +56026,11 @@ gptoday.net###gptoday_ros_echo_leaderboard-billboard
 gptoday.net###gptoday_ros_echo_rectangle-halfpage
 proboards.com###gravity-stories-1
 spellcheck.net###grmrl_one
-apotelyt.com###heDoCon
 girlswithmuscle.com###hb-banner-outer
 streamingrant.com###hb-strip
 cadenaazul.com,lapoderosa.com###hcAdd
 castanet.net###hdad
+apotelyt.com###heDoCon
 flashgot.net###head a[target="_blаnk"]
 inventorspot.com,mothering.com,wordfind.com,yokogames.com###header
 aeroexpo.online,agriexpo.online,directindustry.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com,winemag.com###header-banner
@@ -56662,6 +56664,8 @@ paraphraser.io##.after_button_box
 venea.net##.ag_banner
 venea.net##.ag_line
 nexusmods.com##.agroup
+pixwox.com##.ah-box-i-w
+pixwox.com##.ah-box-n-w
 surfwap.com##.ahblock2
 journeybytes.com,techpp.com##.ai-attributes
 onlineradious.com##.ai-placement
@@ -58492,7 +58496,7 @@ dappradar.com##[href^="https://bogged.finance/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 gelbooru.com##[href^="https://buymyshit.moneygrubbingwhore.com/"]
 mrchecker.net##[href^="https://cardingmentor.org"]
-highdemandskills.com##[href^="https://click.linksynergy.com/"]
+50gameslike.com,highdemandskills.com##[href^="https://click.linksynergy.com/"]
 coingolive.com##[href^="https://coinext.com.br/"]
 wccftech.com##[href^="https://cutt.ly/"]
 topfiveforex.com##[href^="https://fbs.com/promo/"]
@@ -58853,8 +58857,8 @@ vymaps.com##div[style="text-align: center; height: 260px;"]
 readmanganato.com##div[style="text-align: center; max-width: 620px; max-height: 270px; margin: 10px auto; overflow: hidden; display: block;"]
 readmanganato.com##div[style="width: 100%;overflow: hidden;text-align: center;"]
 croatia.org##div[style="width: 120px; text-align:center"]
-reactiongifs.com##div[style="width:499px; background:#ffffff; margin:00px 0px 35px 180px; padding:20px 0px 20px 20px; "]
 wcostream.com##div[style="width: 420px; height: 300px;"]
+reactiongifs.com##div[style="width:499px; background:#ffffff; margin:00px 0px 35px 180px; padding:20px 0px 20px 20px; "]
 constative.com##div[style]:not([class])
 whatmobile.com.pk##div[style^="background-color:#EBEBEB;"]
 footybite.cc##div[style^="border: 2px solid "]
@@ -59204,6 +59208,7 @@ tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
+bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 bleepingcomputer.com#?##bc-home-news-main-wrap > li:-abp-contains(Sponsored Content)
@@ -60178,11 +60183,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||fwcdn2.com/js/embed-feed.js$script,domain=safeway.com
 @@||fwmrm.net^*/AdManager.js$script
-@@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
+@@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||gbf.wiki/images/$image,~third-party
 @@||gelbooru.com//images/ad/$image,~third-party
@@ -60544,7 +60549,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|tv-tokyo.co.jp|vogue.de|voici.fr
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com|chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
+@@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
