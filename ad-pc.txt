@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cfohPTBmHySCZHGadXyx0A
+! Checksum: kSLZ9Y5+nDKGnxEjdxeNFQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205171647
-! Last Modified: 2022年05月17日 16:47
+! Version: 202205171743
+! Last Modified: 2022年05月17日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53678,7 +53678,6 @@ tf2r.com#@#.adverts
 ||google.com/adsense/ad
 ||google.com/adsense/domains
 ||google.com/adsense/search/
-||google.com/afs/ads
 ||google.com/dp/ads
 ||google.com/pagead/
 ||googleadapis.l.google.com^$third-party
@@ -57649,12 +57648,14 @@ agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,bal
 edarabia.com##.leaderboard-728
 edarabia.com##.leaderboard-970
 roblox.com##.leaderboard-abp
+poe.ninja##.leaderboard-bottom
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder
 huffingtonpost.co.uk,huffpost.com##.leaderboard-flex-placeholder-desktop
 manitobacooperator.ca##.leaderboard-height
 businessinsider.in##.leaderboard-scrollable-btf-cont
 businessinsider.in##.leaderboard-scrollable-cont
+poe.ninja##.leaderboard-top
 cbssports.com,nowthisnews.com,scout.com,seeker.com,thedodo.com,thrillist.com##.leaderboard-wrap
 bloomberg.com,weatherpro.com##.leaderboard-wrapper
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.leaderboard2
@@ -78288,6 +78289,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yungetongxun.xyz^
 ||ikjocef.cn^
 ||xgsx.club^
+||cloudroad.shop^
 ||swml.xyz^
 ||kxla.xyz^
 ||520myjj.xyz^
@@ -84631,6 +84633,7 @@ fqsousou.com,kengso.com#@#.user-share
 /click.php?c=
 /click?mode=*&action=
 /Click?MQUrl=
+/click?track=
 /click_metrics-jquery.js
 /click_stat/*
 /click_statistics/*
@@ -86883,6 +86886,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pphlogger.
 /ppms.js
 /pr.php?
+/prebid/ad.gif?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -87574,6 +87578,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats/track.asp?
 /stats/tracker.js
 /stats/tracking.
+/stats/transp.bmp
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -97044,6 +97049,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.worldsoft-cms.info^
 ||lr-port.de/tracker/
 ||mapandroute.de/log.xhr?
+||marktjagd.de/proxy/trackings/
 ||mastertag.kpcustomer.de^
 ||mastertag.q-sis.de^
 ||mehrwertdienstekompetenz.de/cp/$third-party
@@ -108341,6 +108347,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
+||shoop.de/mgtrx/
 ||squirrel.cividi.ch^
 ||statistic2.reichelt.de^
 ||statistics.riskommunal.net^
@@ -108349,6 +108356,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stats.t-online.de/include-ivw-agof-szmng-js/
 ||steuertipps.de/scripts/tracking/
 ||subpixel.4players.de^
+||suche.web.de/click
 ||t-online.de/to/web/click?
 ||t-online.de/toi/html/de/img/transp.bmp?
 ||t.wayfair.de^
@@ -108401,6 +108409,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.gmx.net^
 ||wa.web.de^
+||web.de/monitoring/
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
@@ -108778,6 +108787,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
 ||stats.fd.nl^
+||tdep.kvk.nl^
 ||temptation.ad.nl^
 ||tijd.be/fb/?
 ||tijd.be/track/

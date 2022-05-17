@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G1rNb7/FZW3e2ng4JDeAcg
+! Checksum: ls05rlQJff8PiJCbAQvKxg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205171647
-! Last Modified: 2022年05月17日 16:47
+! Version: 202205171743
+! Last Modified: 2022年05月17日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17525,6 +17525,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yungetongxun.xyz^
 ||ikjocef.cn^
 ||xgsx.club^
+||cloudroad.shop^
 ||swml.xyz^
 ||kxla.xyz^
 ||520myjj.xyz^
@@ -26128,6 +26129,7 @@ m.babytree.com##script + a[class]
 /click.php?c=
 /click?mode=*&action=
 /Click?MQUrl=
+/click?track=
 /click_metrics-jquery.js
 /click_stat/*
 /click_statistics/*
@@ -28380,6 +28382,7 @@ m.babytree.com##script + a[class]
 /pphlogger.
 /ppms.js
 /pr.php?
+/prebid/ad.gif?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -29071,6 +29074,7 @@ m.babytree.com##script + a[class]
 /stats/track.asp?
 /stats/tracker.js
 /stats/tracking.
+/stats/transp.bmp
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -38541,6 +38545,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.worldsoft-cms.info^
 ||lr-port.de/tracker/
 ||mapandroute.de/log.xhr?
+||marktjagd.de/proxy/trackings/
 ||mastertag.kpcustomer.de^
 ||mastertag.q-sis.de^
 ||mehrwertdienstekompetenz.de/cp/$third-party
@@ -49838,6 +49843,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
+||shoop.de/mgtrx/
 ||squirrel.cividi.ch^
 ||statistic2.reichelt.de^
 ||statistics.riskommunal.net^
@@ -49846,6 +49852,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stats.t-online.de/include-ivw-agof-szmng-js/
 ||steuertipps.de/scripts/tracking/
 ||subpixel.4players.de^
+||suche.web.de/click
 ||t-online.de/to/web/click?
 ||t-online.de/toi/html/de/img/transp.bmp?
 ||t.wayfair.de^
@@ -49898,6 +49905,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.gmx.net^
 ||wa.web.de^
+||web.de/monitoring/
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
@@ -50275,6 +50283,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
 ||stats.fd.nl^
+||tdep.kvk.nl^
 ||temptation.ad.nl^
 ||tijd.be/fb/?
 ||tijd.be/track/
