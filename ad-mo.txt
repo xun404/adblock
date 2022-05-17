@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qEfioespM4uwtORJmnSs6A
+! Checksum: IhNw5uBhMYksn8CHB4YKmg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205171743
-! Last Modified: 2022年05月17日 17:43
+! Version: 202205171844
+! Last Modified: 2022年05月17日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3411,7 +3411,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertisements?
 /advertisements_
 /advertisers.$image,script,subdocument,domain=~advertisers.adgoal.de|~advertisers.adversense.com|~advertisers.careerone.com.au|~advertisers.ch|~advertisers.dk|~advertisers.easyweddings.com.au|~advertisers.io|~advertisers.leadia.ru|~advertisers.ypfboost.ph|~panel.rightflow.com
-/advertisers/*$domain=~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com
+/advertisers/*$domain=~ads.pinterest.com|~datalift360.com|~home.tapjoy.com|~panel.rightflow.com|~propelmedia.com|~publisuites.com|~qubeslate.com|~ad-maven.com
 /advertiserwidget.
 /advertises/*
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
@@ -60373,6 +60373,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hcaptcha.com^*/api.js
 @@||recaptcha.net/recaptcha/$script
 @@||accounts.google.com^$generichide
+@@||ad-maven.com^$generichide
 @@||apple.com^$generichide
 @@||bitbucket.org^$generichide
 @@||calendar.google.com^$generichide
@@ -89099,6 +89100,7 @@ _mongo_stats/
 ||briskpelican.io^
 ||brontops.com^
 ||bydst.com^
+||ccm19.de^
 ||click360.io^
 ||cloudwp.io^
 ||cpx.to^
@@ -108655,6 +108657,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||businessinsider.nl^*/tr.php
 ||coolblue.nl/monitoring/
 ||ds2.independer.nl^
+||events.reclamefolder.nl^
 ||expert.nl/daix.js
 ||folderz.nl/clickstream/
 ||kieskeurig.nl/collect
