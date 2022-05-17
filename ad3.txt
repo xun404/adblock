@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e+pS6YSPzCSwfjf0dmwheQ
+! Checksum: G1rNb7/FZW3e2ng4JDeAcg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205171300
-! Last Modified: 2022年05月17日 13:00
+! Version: 202205171647
+! Last Modified: 2022年05月17日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -37947,6 +37947,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.nitropay.com^
 ||tracker.roitesting.com^
 ||tracker.softcube.com^
+||tracker.ssl0d.com^
 ||tracker.timesgroup.com^
 ||tracker.tubecj.com^
 ||tracker.twenga.
@@ -40182,6 +40183,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.vk-portal.net^
 ||stats.wordpress.com^
 ||stats.wwitv.com^
+||streamlare.com/api/video/stats/
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
 ||streamta.site/stat/
@@ -49852,11 +49854,43 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||track.express.de^
 ||track.noz.de^
 ||track.rundschau-online.de^
+||tracking.asialadies.de^
+||tracking.avladies.de^
+||tracking.badeladies.de^
+||tracking.behaarteladies.de^
+||tracking.bizarrladies.de^
+||tracking.busenladies.de^
+||tracking.deutscheladies.de^
+||tracking.devoteladies.de^
+||tracking.dominanteladies.de^
+||tracking.erfahreneladies.de^
+||tracking.escorts24.de^
+||tracking.exklusivladies.de^
 ||tracking.finanzen.net^
+||tracking.fkk24.de^
 ||tracking.fupa.net^
+||tracking.grosseladies.de^
+||tracking.hobbyladies.de^
+||tracking.jungeladies.de^
 ||tracking.krone.at^
+||tracking.kussladies.de^
+||tracking.ladies.de^
+||tracking.latinaladies.de^
+||tracking.massierendeladies.de^
+||tracking.mollyladies.de^
 ||tracking.noen.at^
+||tracking.nsladies.de^
+||tracking.nymphomaneladies.de^
 ||tracking.oe24.at^
+||tracking.orientladies.de^
+||tracking.osteuropaladies.de^
+||tracking.piercingladies.de^
+||tracking.rasierteladies.de^
+||tracking.schokoladies.de^
+||tracking.tattooladies.de^
+||tracking.tsladies.de^
+||tracking.zaertlicheladies.de^
+||tracking.zierlicheladies.de^
 ||tracksrv.zdf.de^
 ||ui-portal.de/pos-cdn/tracklib/
 ||vfd2dyn.vodafone.de^
@@ -51450,7 +51484,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js$domain=eprice.it|euronics.it|iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
@@ -51470,8 +51504,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
 @@||tiscali.it^*/webtrekk_mediaTracking.min.js$script,~third-party
-@@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it|ubibanca.com
-@@||ubibanca.com^*/TrackingService.js
+@@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||video.repubblica.it^*/nielsen.js
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 !---------- Indonesian ----------
