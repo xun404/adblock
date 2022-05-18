@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c5wPLv4ZIzrPfK256/uYmA
+! Checksum: ovqgW/AWfs0+rta2E4Ug7A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205181540
-! Last Modified: 2022年05月18日 15:40
+! Version: 202205181647
+! Last Modified: 2022年05月18日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -62057,6 +62057,7 @@ ubmcmm.baidustatic.com
 ##.qzdhf
 ##.qzhfaaa
 ##.readmidad
+##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##.right > .content > .ads
 ##.room-ad-bottom
 ##.room-ad-top
@@ -70260,8 +70261,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||chinanewsx.com^$csp=script-src 'self' * 'unsafe-eval'
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+theporn.cc##.pp > .none + div[id]
+chinanewsx.com##a[href="/about/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -78208,6 +78212,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dkvuey.xyz^
 ||yrbfol5.cn^
 ||gnn01wl.cn^
+||happyhs.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -110725,6 +110730,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mbalib.com/common/a_mbalib/
 ||lotuscard.cc/online/
 !------------------------Specific element hiding rules------------------------!
+aura.cn##.suspension
+aura.cn##.foot-xcx
+aura.cn##.left-zc
+aura.cn##.tc1
+w3cschool.cn##.abox-content
 sina.com.cn###ad
 guancha.cn##.g_swiper_container
 fantuan.tv##.app-guide
