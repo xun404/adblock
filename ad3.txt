@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W/2PWeYSEbMBeqyF4WZXUg
+! Checksum: +mFdCi1W+0d6sbD1b/Cvtw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205191939
-! Last Modified: 2022年05月19日 19:39
+! Version: 202205192121
+! Last Modified: 2022年05月19日 21:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1823,6 +1823,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||eylqbeu.cn^
 ||19719197.com^
+||dgxlm.xyz^
+||qgbtd.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9590,9 +9592,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||gxqzz.7766.org^
 ||u3c3.cc^*.png
+||ruiwen.com/sp/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jianbiaoku.com##div[style="width:960px;height:130px;margin:0 auto;margin-top:35px;padding:0;cursor:pointer;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -28432,7 +28437,6 @@ m.babytree.com##script + a[class]
 /pphlogger.
 /ppms.js
 /pr.php?
-/prebid/ad.gif?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
