@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CK7pPtFfStKj8N1XuAp6hw
+! Checksum: ZOgg2z8I1pF5bD+gDgMJ2A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205192121
-! Last Modified: 2022年05月19日 21:21
+! Version: 202205200002
+! Last Modified: 2022年05月20日 00:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2271,6 +2271,7 @@ ubmcmm.baidustatic.com
 ||19719197.com^
 ||dgxlm.xyz^
 ||qgbtd.com^
+||8239078.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -10041,8 +10042,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||gxqzz.7766.org^
 ||u3c3.cc^*.png
 ||ruiwen.com/sp/
+||boylove.cc/Public/Uploads/img/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+boylove.cc##.header_slide
+boylove.cc###fake_avivid_waterfall
 jianbiaoku.com##div[style="width:960px;height:130px;margin:0 auto;margin-top:35px;padding:0;cursor:pointer;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17999,6 +18003,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||n8kt7gf.cn^
 ||lgl.ink^
 ||learningc.website^
+##a[href*=".demobbe.com/"]
+##a[href*=".qutaoka.com/"]
+||yyzkf.com^
+||dkgmgj.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
