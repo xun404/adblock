@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ofvOR5ebhNGd0nj5ts9kGw
+! Checksum: IW/J3c88nKzEoV2m9pl/wg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202205201031
-! Last Modified: 2022年05月20日 10:31
+! Version: 202205201201
+! Last Modified: 2022年05月20日 12:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1532,8 +1532,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -1551,7 +1551,8 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-##script + a[href="/hth.html"][target="_blank"]
+##a[target="_blank"] > img[height="120px"][src*=".meituan.net"][src$=".gif"]
+##a[href="/hth.html"][target="_blank"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##span[title="neteasefooter"]

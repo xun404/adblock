@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OAQPswa3W0wxBBCnGIZ2Jw
+! Checksum: MBCzuUwUFYaqtyrLYR1LYQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205201031
-! Last Modified: 2022年05月20日 10:31
+! Version: 202205201201
+! Last Modified: 2022年05月20日 12:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1532,8 +1532,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -1551,7 +1551,8 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-##script + a[href="/hth.html"][target="_blank"]
+##a[target="_blank"] > img[height="120px"][src*=".meituan.net"][src$=".gif"]
+##a[href="/hth.html"][target="_blank"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##span[title="neteasefooter"]
@@ -28511,6 +28512,7 @@ m.babytree.com##script + a[class]
 /pv?fe=*&elg=
 /pv?place=
 /pv?token=
+/pv_beacon.gif?
 /pv_count.
 /pv_web.gif
 /pvcount.
@@ -31148,7 +31150,6 @@ _mongo_stats/
 ||answerscloud.com^$third-party
 ||anti-cheat.info^$third-party
 ||antiblock.info^$third-party
-||antillephone.com^$third-party
 ||anura.io^$third-party
 ||anytrack.io^$third-party
 ||apexstats.com^$third-party
@@ -33687,6 +33688,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||push-ad.com^$third-party
 ||push-free.com^$third-party
 ||push-house.net^$third-party
+||push7.jp^$third-party
 ||pushalert.co^$third-party
 ||pushbird.com^$third-party
 ||pushbullet.com^$third-party
@@ -35766,6 +35768,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyticsip.net^$third-party
 ||ar-x.site^$third-party
 ||aspservice.jp^$third-party
+||beanscattering.jp^$third-party
 ||bigmining.com^$third-party
 ||blogranking.net^$third-party
 ||catsys.jp^$third-party
@@ -38513,8 +38516,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vwonwkaqvq-a.global.ssl.fastly.net^
 ||cloudfront.net./script.js
 ||cloudfront.net/script.js
+||antillephone.com^$third-party
 ||beyondsecurity.com^$third-party
 ||cyveillance.com^$third-party
+||geotrust.com^$third-party
 ||howsmyssl.com^$third-party
 ||js.trendmd.com^$script,subdocument,third-party
 ||legitscript.com/seals/
@@ -39104,6 +39109,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log000.goo.ne.jp^
 ||macromill.com/imp/
 ||mofa.go.jp^*/count.cgi?
+||monipla.com/launch.js
 ||moshimo.com^*/impression?
 ||omt.shinobi.jp^
 ||otoshiana.com/ufo/
