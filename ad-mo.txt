@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hDgoaBYW2/Pm25BJvCSkeQ
+! Checksum: N5VkV09CTNQB1y0ir0rjjQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205201450
-! Last Modified: 2022年05月20日 14:50
+! Version: 202205201647
+! Last Modified: 2022年05月20日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -110493,6 +110493,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||miduoke.net^$third-party
 ||mylikechat.com^$third-party
 ||pop800.com^$third-party
+||qiyukf.com^$third-party
 ||soperson.com^$third-party
 ||tawk.to^$third-party
 ||webfunny.cn^$third-party
@@ -110895,7 +110896,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||book118.com^*/showRecommend.
 ||mbalib.com/common/a_mbalib/
 ||lotuscard.cc/online/
+||kuke99.com/static/home/js/index/index.js
 !------------------------Specific element hiding rules------------------------!
+kuke99.com##.index-dialog-mask
 aura.cn##.suspension
 aura.cn##.foot-xcx
 aura.cn##.left-zc
