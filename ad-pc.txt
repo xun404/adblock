@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m/+A3hftfOSqiDXPkZqRAw
+! Checksum: g4Df2PxAdIH5b7pn0E0onw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205240643
-! Last Modified: 2022年05月24日 06:43
+! Version: 202205240742
+! Last Modified: 2022年05月24日 07:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -35263,6 +35263,7 @@ tf2r.com#@#.adverts
 ||btgndarx.xyz^
 ||btjapxtpernyg.com^
 ||btnativedirect.com^
+||btnldivewzzfso.com^
 ||btonzfjleinuax.com^
 ||bttrack.com^
 ||btvmvqoxh.com^
@@ -40313,6 +40314,7 @@ tf2r.com#@#.adverts
 ||jbewxbvfljfnm.com^
 ||jbrlsr.com^
 ||jchgcipyywszqt.com^
+||jcqwzssqks.com^
 ||jcrlrwwosud.xyz^
 ||jcwuzktevijp.com^
 ||jdbzurmhiixqm.com^
@@ -58300,7 +58302,6 @@ siteslike.com##.rif
 terminal.hackernoon.com##.right
 africanews.com##.right-legend
 jta.org##.right-rail-container
-huffpost.com##.right-rail-placeholder
 jpost.com##.right-side-banner
 slickdeals.net##.rightRailBannerSection
 gamemodding.com##.right_banner
@@ -59652,6 +59653,7 @@ twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Pr
 twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
 twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+unsplash.com#?#.MbNnd:-abp-has(a:-abp-contains(Sponsored))
 wikiprocedure.com#?#div:-abp-contains(/^Advertisement$/)
 windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"])
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
@@ -62538,11 +62540,13 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:966px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:966px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
+##a[target="_blank"] > img[height="120px"][src*=".tripcdn.com"][src$=".gif"]
+##a[target="_blank"] > img[height="120px"][src*=".c-ctrip.com"][src$=".gif"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -62826,11 +62830,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||kgagck6.com^
 ||jiulingdl.cn^
 ||hxwygsk2.xyz^
 ||gzx8670vhome.xyz^
 ||jsifaja.com^
 ||fanfanhuiben.com^
+||wjjhzs.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -78582,6 +78588,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||htnr3qm.cn^
 ||hebufr7h.shop^
 ||caopanshou.top^
+||18ap945.cn^
+||iqzt3ec.cn^
+||qbkybab.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -109367,6 +109376,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||nikkei.com/.resources/tracking/
 ||ppf.rakuten.co.jp^$~script
 ||pvtag.yahoo.co.jp^
+||pzd.rakuten.co.jp^
 ||pw.gigazine.net^
 ||rakuten.co.jp/gw.js
 ||rat.rakuten.co.jp^
