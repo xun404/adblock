@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 83+ghaUaJ/eQC/doQAN+YA
+! Checksum: KhdBVYe9UD96VqgIxXVY3Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205250147
-! Last Modified: 2022年05月25日 01:47
+! Version: 202205250444
+! Last Modified: 2022年05月25日 04:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1148,7 +1148,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad-audit.
 /ad-background.
 /ad-banner-$~image,~script
-/ad-banner.
 /ad-bckg.
 /ad-bin/*$~image
 /ad-blacklist.
@@ -37640,6 +37639,7 @@ tf2r.com#@#.adverts
 ||emuwanflat.com^
 ||emxdgt.com^
 ||emxdnfvdnwzx.com^
+||en-continue.site^
 ||ena-native-ads9.com^
 ||enablecherrysail.com^
 ||enactmedic.com^
@@ -39781,6 +39781,7 @@ tf2r.com#@#.adverts
 ||hznvtg.com^
 ||hzzevwlmjji.com^
 ||i-afk.com^
+||i-main.site^
 ||i0s26ol9.com^
 ||i4rsrcj6.top^
 ||i4tvy8vk9f74.com^
@@ -43274,8 +43275,8 @@ tf2r.com#@#.adverts
 ||outsimfat.site^
 ||outslang.com^
 ||outsliggooa.com^
-||outsoarpg.com^
 ||outsmoke-niyaxabura.com^
+||outsoarpg.com^
 ||outstandlpopi.xyz^
 ||outtunova.com^
 ||outwhirlipedeer.com^
@@ -109866,6 +109867,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
+@@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
