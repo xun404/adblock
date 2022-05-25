@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IOZUW2RFeJAcFb29VPgk7w
+! Checksum: 5sojM0GLqy2zxkm3udIM2g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205250741
-! Last Modified: 2022年05月25日 07:41
+! Version: 202205251037
+! Last Modified: 2022年05月25日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1536,8 +1536,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -17577,6 +17577,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||325szdv.cn^
 ||shzuggo.cn^
 ||etrckeh.cn^
+||yidulu.cn^
+||jwdhoxw.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25830,6 +25832,7 @@ m.babytree.com##script + a[class]
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
+/api/video/stats/*$xmlhttprequest
 /api_ip_info.
 /apilog?
 /apis/cpt.php?
@@ -25982,6 +25985,7 @@ m.babytree.com##script + a[class]
 /baynote80.
 /baynote_
 /baynoteobserver/*
+/bb-analytics-
 /bc-track.
 /bc/clk?
 /bcbot-nomin.js
@@ -28608,6 +28612,7 @@ m.babytree.com##script + a[class]
 /pxlctl.
 /pxls/*
 /pxlspamanalyst-
+/pxrc.php
 /pxtrk.gif
 /pzn/proxysignature
 /qa-tracker.
@@ -29113,6 +29118,7 @@ m.babytree.com##script + a[class]
 /static-tracking/*$script
 /static/analytics.js
 /static/tracking/*
+/statistic/pixel?
 /statistics-desktop.js
 /statistics-page-view/*
 /statistics.asp?
@@ -36397,6 +36403,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.worldtable.co^
 ||analytics.yahoo.com^
 ||analytics.yext-static.com^
+||analytics.ynap.biz^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
 ||analytics.ziftsolutions.com^
@@ -36697,6 +36704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnnx.io^*/tracking.js
 ||cnnx.link/roi/
 ||cnpapers.com/scripts/library/
+||cnstrc.com/behavior?
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
 ||cnt.trvdp.com^
@@ -36871,6 +36879,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dw.com.com^$script
 ||dx.mountain.com^
 ||dynamicyield.com/st?
+||dynamicyield.com/uia?
+||dynamicyield.com/var?
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
 ||e.ebidtech.com/cv/
@@ -36892,6 +36902,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edrone.me/trace?
 ||eel.transistor.fm^
 ||egmontpublishing.dk/tracking/
+||ele26126.jscrambler.com^
 ||elpais.com/t.gif
 ||els-cdn.com^*/analytics.js
 ||email-edg.paypal.com/o/$image
@@ -37421,6 +37432,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.brightcove.com^
 ||metrics.ctvdigital.net^
 ||metrics.getvitals.io^
+||metrics.kmsmep.com^
 ||metrics.pico.tools^
 ||metrics.readme.io^
 ||metrics.scribblelive.com^
@@ -38055,6 +38067,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.bannedcelebs.com^
 ||track.contently.com^
 ||track.cordial.io^
+||track.custora.com^
 ||track.digitalriver.com^
 ||track.hubspot.com^
 ||track.juno.com^
@@ -38535,6 +38548,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.wix.com/p?
 ||frog.wix.com/pre?
 ||frog.wix.com^$image,ping,xmlhttprequest
+||ascpqnj-oam.global.ssl.fastly.net^
 ||cloudfront.net/js/grin-sdk.js
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||fyrsbckgi-c.global.ssl.fastly.net^
@@ -39359,6 +39373,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kvartirant.ru/counter.php?
 ||likemore-go.imgsmail.ru^$image
 ||linestudio.ru/counter/
+||logs.viavideo.digital^
 ||mediaplus.fm/cntr.php?
 ||mediator.mail.ru^
 ||metka.ru/counter/
@@ -39845,7 +39860,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||github.com/_private/browser/stats
 ||glassmoni.researchgate.net^
 ||global.canon/00cmn/js/*/analytics-
-||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
+||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
 ||gmonitor.aliimg.com^
 ||gnar.grammarly.com^
@@ -40350,7 +40365,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.vk-portal.net^
 ||stats.wordpress.com^
 ||stats.wwitv.com^
-||streamlare.com/api/video/stats/
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
 ||streamta.site/stat/
