@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +y12AXfIjkwd5ylBp+14VQ
+! Checksum: Cp/RYToeFt26pbMNfcKMHA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205260742
-! Last Modified: 2022年05月26日 07:42
+! Version: 202205261040
+! Last Modified: 2022年05月26日 10:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12879,6 +12879,7 @@ _800x80_
 ###caAdLarger
 ###canmobileanchoradclick
 ###captcha-adspace
+###carbonads
 ###carbonads-container
 ###card-ads-top
 ###catad
@@ -26429,6 +26430,7 @@ _800x80_
 ##.inline_ads
 ##.inlinead
 ##.inlinead-tagtop
+##.inlinead_lazyload
 ##.inlineadsense
 ##.inlineadtitle
 ##.inlist-ad
@@ -55050,6 +55052,7 @@ tf2r.com#@#.adverts
 ||idlebrain.com^*/main-
 ||idlebrain.com^*/sky-
 ||idlebrain.com^*/square-
+||idrive.com/include/images/idrive-120240.png
 ||ign.com/s/js/zad.js
 ||ign.com/zdadkit2.js
 ||ignimgs.com/ign/pogoadk.js$script,domain=ign.com
@@ -58021,7 +58024,6 @@ cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
 mediaite.com##.o-promo-unit
 comicbook.com##.oas
-distractify.com##.obIeh
 softexia.com##.offer
 oneindia.com##.oi-spons-ad
 boldsky.com,gizbot.com,nativeplanet.com,oneindia.com##.oiad-txt
@@ -58299,6 +58301,7 @@ point2homes.com##.saved-search-banner-list
 pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
 independent.co.uk##.sc-hYYkYm
+distractify.com##.sc-iBzFoy
 scotsman.com##.sc-igwadP
 distractify.com##.sc-jcwofb
 sankakucomplex.com##.scad
@@ -58885,6 +58888,7 @@ webcamtests.com##[src^="/MyShowroom/view.php?medium="]
 manganelo.com##[src^="/ads/"]
 ice.hockey##[src^="/images/banners/"]
 linuxtopia.org##[src^="/includes/index.php/?img="]
+academictorrents.com##[src^="/pic/sponsors/"]
 publish0x.com##[src^="blob:"]
 tampermonkey.net##[src^="data:image"]
 exportfromnigeria.info##[src^="http://storage2.proboards.com/"]
@@ -62500,8 +62504,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -78547,6 +78551,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bt365.club^
 ||u8hexo5v.com^
 ||87fgr4.site^
+||zszcxxzx.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
