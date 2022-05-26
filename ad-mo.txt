@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Cp/RYToeFt26pbMNfcKMHA
+! Checksum: EeNnQf0doIMjEqFzUQ/A4A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205261040
-! Last Modified: 2022年05月26日 10:40
+! Version: 202205261206
+! Last Modified: 2022年05月26日 12:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -70591,6 +70591,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+editcode.net##a[href*="cloud.tencent.com"]
+editcode.net##.fwinmask
+editcode.net##.sd > a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -78552,6 +78555,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||u8hexo5v.com^
 ||87fgr4.site^
 ||zszcxxzx.com^
+||stfyygv.cn^
+||saxys9w.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -111216,7 +111221,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mbalib.com/common/a_mbalib/
 ||lotuscard.cc/online/
 ||kuke99.com/static/home/js/index/index.js
+||fulitech.com.cn^*/float.js
 !------------------------Specific element hiding rules------------------------!
+autohome.com.cn##.activity-app-layer
+autohome.com.cn##DIV[id^="popautoapp"]
+shengxinwang.net###floatDivBoxs
 kuke99.com##.index-dialog-mask
 aura.cn##.suspension
 aura.cn##.foot-xcx
