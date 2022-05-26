@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HhJqOCb5GTZgnplw+U99dA
+! Checksum: 7I0bzTgEQ1CRKteohWTM4w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205261343
-! Last Modified: 2022年05月26日 13:43
+! Version: 202205261451
+! Last Modified: 2022年05月26日 14:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23934,6 +23934,7 @@ _800x80_
 ##.box-ad-unit-j
 ##.box-ad-wsr
 ##.box-ads
+##.box-ads-header-home
 ##.box-ads-small
 ##.box-adsense
 ##.box-adsense-top
@@ -94015,6 +94016,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adrank24.de^$third-party
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
+||altruja.de^$third-party
 ||amunx.de^$third-party
 ||analytics.rechtslupe.org^
 ||andyhoppe.com^$third-party
@@ -110185,7 +110187,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
-@@||widget.trustpilot.com/bootstrap/$script,domain=exodus.co.uk|imyfone.com
+@@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||wix.com/_api/*count?type$~third-party
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party
