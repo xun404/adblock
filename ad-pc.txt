@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jBHkolO5DxARI6UsbAl55w
+! Checksum: pFEKHZmm9TqpqG0AHdShDw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205271037
-! Last Modified: 2022年05月27日 10:37
+! Version: 202205271207
+! Last Modified: 2022年05月27日 12:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3617,7 +3617,7 @@ tieba.baidu.com##.tuijian-wrap
 /advweb.$domain=~advweb.com.br
 /AdvWindow/*
 /advzones/*
-/adw.$domain=~adw.amsterdam.nl|~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org
+/adw.$domain=~adw.amsterdam.nl|~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~gnome.org|~valadoc.org
 /adweb.$domain=~adweb.clarkson.edu|~adweb.com.au|~adweb.cz|~adweb.pro
 /adweb2.
 /adweb33.
@@ -7802,6 +7802,8 @@ _prebid.js
 _prebid8.
 _prebid_
 ~Prebid.js
+/stn-player.
+/stn-player/*
 /g00/*/clientprofiler/adb
 /webservices/jsparselinks.aspx?$script
 /datomata.widget.js
@@ -32017,6 +32019,7 @@ _800x80_
 ##.pop-out-eplayer-container
 ##.primis-custom
 ##.primis-player
+##.s2nPlayer
 ##.send-to-news
 ##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
@@ -49316,7 +49319,6 @@ tf2r.com#@#.adverts
 ||yoretxpczr.com^
 ||yoshatia.com^
 ||yottacash.com^
-||yottlyscript.com^
 ||youearrid.com^
 ||yougotacheck.com^
 ||youlouk.com^
@@ -53033,7 +53035,6 @@ tf2r.com#@#.adverts
 ||yeastwrinklefatigue.com^$popup
 ||yeesshh.com^$popup
 ||yemisleol.xyz^$popup
-||yield.app^$popup,third-party
 ||yieldmanager.com^$popup
 ||yieldtraffic.com^$popup
 ||yitcmu.com^$popup
@@ -57024,6 +57025,7 @@ slickdeals.net##.abc
 merriam-webster.com##.abl
 learnersdictionary.com##.abl-m0-t160-d160
 learnersdictionary.com##.abl-m0-t300-d300
+imgbb.com##.abnr
 creativeuncut.com##.abox-s_i
 creativeuncut.com##.abox-s_i2
 appagg.com##.abox300
@@ -57451,7 +57453,7 @@ androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdro
 trendingpolitics.com##.code-block-12
 getdroidtips.com,patriotfetch.com,thisisanfield.com,trendingpolitics.com##.code-block-13
 getdroidtips.com##.code-block-15
-mydailyfreedom.com##.code-block-16
+bleachernation.com,mydailyfreedom.com##.code-block-16
 cryptobriefing.com,cryptoreporter.info,gatewaynews.co.za,geekspin.co,journeybytes.com,kanonitv.net,mikeprg.com##.code-block-2
 cryptoreporter.info,techpp.com##.code-block-3
 getdroidtips.com,guru99.com,thegayuk.com,wisden.com##.code-block-4
@@ -58747,6 +58749,7 @@ libhunt.com##.track-event
 futurism.com##.tracking-wider
 futurism.com##.tracking-widest
 bincodes.com##.transferwise
+sun-sentinel.com##.trb_sf_hl
 coinmarketcap.com##.trending-sponsored
 celebritynetworth.com##.trevda_cont
 roseindia.net##.tutorialsstaticdata
@@ -59647,6 +59650,7 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+bleachernation.com#?#.code-block:-abp-has(span:-abp-contains(ADVERTISEMENT))
 digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/promotion"])
 cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,wotif.com#?#.uitk-card:-abp-has(.uitk-badge-sponsored)
 mg.co.za#?#.td_flex_block:-abp-has(span:-abp-contains(Sponsored))
