@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pFEKHZmm9TqpqG0AHdShDw
+! Checksum: nPZZJOlBY9J0hP7WokuhUQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205271207
-! Last Modified: 2022年05月27日 12:07
+! Version: 202205271300
+! Last Modified: 2022年05月27日 13:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -28104,6 +28104,7 @@ _800x80_
 ##.penci-ad-box
 ##.penci-ad-image
 ##.penci-ad_box
+##.penci-adsense-below-slider
 ##.penci-google-adsense
 ##.penci-google-adsense-1
 ##.penci-google-adsense-2
@@ -32431,6 +32432,9 @@ economist.com,flightcentre.co.uk,payback.pl,ripley.cl,ripley.com.pe,wsj.com#@#.i
 thelincolnite.co.uk#@#.inline-ad
 elektro.info.pl,mashingup.jp#@#.is-sponsored
 magazines-download.com#@#.item-ads
+sunnewsonline.com#@#.jeg_ad
+sunnewsonline.com#@#.jeg_ad_top
+sunnewsonline.com#@#.jnews_header_top_ads
 vukajlija.com#@#.large-advert
 realgfporn.com#@#.large-right-ad
 atea.com,ateadirect.com,knowyourmobile.com,nlk.org.np#@#.logo-ad
@@ -56232,10 +56236,12 @@ wallpapersmania.com###backgroundPopup
 soccerbase.com###ball_splash_holder
 gamepressure.com###baner-outer
 allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,eth-converter.com,farmtrader.co.nz,freealts.pw,goosegame.io,greatbritishchefs.com,moviesfoundonline.com,openstreetmap.org,vstreamhub.com###banner
+ifc.com###banner-bottom
 bolor-toli.com###banner-clear
 thecarconnection.com###banner-container
 ncaa.com###banner-purse
 sourceforge.net###banner-sterling
+ifc.com###banner-top
 4teachers.org###banner-wrapper
 classic97.net,lagostalks.com###banner1
 classic97.net,lagostalks.com###banner2
@@ -58445,6 +58451,7 @@ teamfortress.tv##.sau
 point2homes.com##.saved-search-banner-list
 pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
+distractify.com##.sc-dkuHdP
 independent.co.uk##.sc-hYYkYm
 distractify.com##.sc-iBzFoy
 scotsman.com##.sc-igwadP
@@ -58823,7 +58830,7 @@ cinemaexpress.com##.widget-container-133
 miniclip.com##.widget-mpu
 screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
-usmagazine.com##.widget_block
+discussingfilm.net,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
 cnx-software.com,dailyveracity.com,metalsucks.net,mmoculture.com,robloxhackscripts.com,techdows.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
@@ -59089,6 +59096,7 @@ unitconversion.org##a[href="../noads.html"]
 1337x.to##a[href="/v-pn2dl-hideip"]
 techporn.ph##a[href][target*="blank"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
+tractorbynet.com##a[href][target="_blank"] > img[class^="attachment-large"]
 mtaeta.info##a[href][target="_blank"] > img[src^="http://storage2.proboards.com/"]
 flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 linkhub.icu##a[href^="/downloadnow.php?"]
@@ -61254,6 +61262,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/xfsjgghsh_*.js
+/nfjsghjr_*.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -62941,6 +62951,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||wuyicom.top^
+||ygfjy.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
