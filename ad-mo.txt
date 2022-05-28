@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lmo1Hza/Me3OdLfJY3ty0g
+! Checksum: 8n5G4A+tDiw2mXYtx1nODg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205281742
-! Last Modified: 2022年05月28日 17:42
+! Version: 202205281843
+! Last Modified: 2022年05月28日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -27725,6 +27725,7 @@ _800x80_
 ##.nscrMidAdBlock
 ##.nscrT1AdBlock
 ##.ntnlad
+##.nts-ad
 ##.ntv-ad
 ##.ntv-rail-ad
 ##.nu2ad
@@ -62908,6 +62909,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||fszcxxzx.com^
+||baldbaptismrisk.com^
+||icilyassertiveindoors.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -70722,8 +70725,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||crxs.me/upload/ad/
+||crxs.me/scripts/my_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+thwiki.cc##.on-right > .swiper-container
 masuit.com###list > .box-right > .wow[id]
 masuit.com###bootstrap-touch-slider
 masuit.com##.ibox-content > .wow[id]
@@ -78634,6 +78640,7 @@ $image,third-party,domain=258zw.com
 /xxgg/xsggs.js
 :4433/hm/cdn/static/jq_
 MoBi*.baidu.js$script,third-party
+##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
 ##[class][onclick="window.location.href='https://www.tsqcy.cn'"]
@@ -78690,6 +78697,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qfnoyix.cn^
 ||yupei.love^
 ||qmz931.com^
+||hejing.cloud^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -111398,6 +111406,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||kuke99.com/static/home/js/index/index.js
 ||fulitech.com.cn^*/float.js
 !------------------------Specific element hiding rules------------------------!
+waipian5.com##.shortcuts-mobile-overlay
+waipian5.com##.popup
 autohome.com.cn##.activity-app-layer
 autohome.com.cn##DIV[id^="popautoapp"]
 shengxinwang.net###floatDivBoxs
