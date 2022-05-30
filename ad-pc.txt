@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3uPVVGXXbSTjJzqe89/6Kw
+! Checksum: QKgDc+CsmS2HPLAeCp2isA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205301306
-! Last Modified: 2022年05月30日 13:06
+! Version: 202205301345
+! Last Modified: 2022年05月30日 13:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -13765,6 +13765,7 @@ _800x80_
 ###download_slide_ad
 ###dp_ad_1
 ###dp_ads1
+###dragads
 ###ds-mpu
 ###dsStoryAd
 ###ds_ad_north_leaderboard
@@ -23768,6 +23769,7 @@ _800x80_
 ##.block--vh-footer-ads
 ##.block--views-premium-ad-slideshow-block
 ##.block-ad
+##.block-ad-blocktop
 ##.block-ad-entity
 ##.block-ad-header
 ##.block-ad-leaderboard
@@ -23785,6 +23787,7 @@ _800x80_
 ##.block-ads-eplanning-300x250top-general
 ##.block-ads-eplanning-300x600
 ##.block-ads-home
+##.block-ads-system
 ##.block-ads-top
 ##.block-ads-yahoo
 ##.block-ads1
@@ -57209,7 +57212,7 @@ ansamed.info,baltic-course.com,futbol24.com,gatewaynews.co.za,jetphotos.com,karg
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 pgatour.com##.adv-dummy
-audiobacon.net,bhamnow.com,mondoweiss.net,ottverse.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
+audiobacon.net,bhamnow.com,coinquora.com,mondoweiss.net,ottverse.com,sundayworld.co.za,tampabayparenting.com,theaudiophileman.com##.adv-link
 chaseyoursport.com##.adv-slot
 motorauthority.com##.adv-spacer
 worldarchitecture.org##.adv1WA1440
@@ -57536,7 +57539,7 @@ thecable.ng##.cableads_mid
 cafonline.com##.caf-o-sponsors-nav
 challonge.com##.cake-unit
 dllme.com##.captchabox > div
-u.today##.card--something
+u.today##.card--something-md
 classicauctionreview.co.uk##.carlogobox
 macworld.co.uk,techadvisor.com##.carouselEmbeddableDeal
 chemistwarehouse.com.au##.category-product-mrec
@@ -58479,6 +58482,7 @@ breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
+coingape.com##.quads-location
 modernghana.com##.quikr_banner
 surfline.com##.quiver-google-dfp
 tgstat.com##.r1-aors
@@ -58712,7 +58716,7 @@ startup.ch##.smallbanner
 food.com##.smart-aside-inner
 food.com##.smart-rail-inner
 dailyevergreen.com##.sno-hac-desktop-1
-u.today##.something--fixed
+u.today##.something
 songfacts.com##.songfacts-song-inline-ads
 freeonlineapps.net##.sp
 ndtv.com##.sp_ad-t
@@ -58724,7 +58728,7 @@ mydramalist.com##.spnsr
 worldtimezone.com##.spon-menu
 xda-developers.com##.spon_banner
 cd1025.com,domainincite.com,europages.co.uk,gamingcloud.com,kpbs.org,phillyvoice.com,speedcafe.com,thegatewaypundit.com,ufile.io,westernjournal.com,wnd.com##.sponsor
-jquery.com​##.sponsor-line
+jquery.com##.sponsor-line
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
@@ -58979,6 +58983,8 @@ helpnetsecurity.com##.widgetized_wrapper
 ign.com##.wiki-bobble
 wethegeek.com##.win
 windowsloop.com##.wl-prakatana
+cryptopolitan.com##.wordp-leaderboard
+cryptopolitan.com##.wordp-siderbar-new-theme
 warontherocks.com##.wotr_top_lbjspot
 gamenguides.com,teslaoracle.com##.wp-block-image
 c19-worldnews.com##.wp-caption
@@ -62794,8 +62800,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
