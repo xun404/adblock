@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dxmPFRWNlgMt/9HGs/T8RQ
+! Checksum: E4Es46b48Df3YDc9AXFU/w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205311846
-! Last Modified: 2022年05月31日 18:46
+! Version: 202205312119
+! Last Modified: 2022年05月31日 21:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57314,8 +57314,6 @@ venea.net##.ag_line
 nexusmods.com##.agroup
 pixwox.com##.ah-box-i-w
 pixwox.com##.ah-box-n-w
-pixwox.com##.tce-box-i-w
-pixwox.com##.tce-box-n-w
 surfwap.com##.ahblock2
 journeybytes.com,techpp.com##.ai-attributes
 onlineradious.com##.ai-placement
@@ -58887,6 +58885,8 @@ mdisk.me##.taka-gif-con
 recombu.com##.takeover-right
 shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
+pixwox.com##.tce-box-i-w
+pixwox.com##.tce-box-n-w
 constructionreviewonline.com,cyberparse.co.uk,eindhovennews.com,ericpetersautos.com,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,kenyan-post.com,maltabusinessweekly.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
 americanindependent.com##.td-banner-bg
@@ -62874,8 +62874,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -63170,6 +63170,9 @@ ubmcmm.baidustatic.com
 ||lm467.com^
 ||ztwf8lr.cn^
 ||chinaanquan.net^
+||kq7it3c6.xyz^
+||kqiekmsq.world^
+||cclnuzn.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -70997,8 +71000,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||akabebe.com/jgg/*.gif
 ||baidu.com/gamebox?
+||iqnew.com/d/js/m/thea
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2345.com##.comp-logo-wall
+2345.com##.comp-normal-navigate
+2345.com##.wawaji
+18moe.org##.alignnone[alt="恰饭广告"]
 baidu.com##.game-adv-fram
 element-plus.org##.sponsors
 element-plus.org##.sponsor-container
@@ -76817,6 +76825,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
+@@||haokoubei.top/dl/rfo_v_f_pc.js
+@@/adview_pic_$domain=fydy8.com
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
@@ -84131,6 +84141,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/hitCount.$script,domain=on.cc
+@@/sensorsdata-$domain=zkh.com
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
@@ -97039,6 +97050,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sendtonews.com/stn_trk.gif?
 ||sentry.arc.io^
 ||sermoncloud.com/logger/
+||service.trustpid.com^
 ||session.timecommerce.net^
 ||sftrack.searchforce.net^
 ||share-online.biz/affiliate/$third-party
