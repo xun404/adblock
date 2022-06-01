@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: riMc21yPrUDjm/wfWmdxeA
+! Checksum: NZQ7Koj1odW+CfzjAqzBeQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206020103
-! Last Modified: 2022年06月02日 01:03
+! Version: 202206020444
+! Last Modified: 2022年06月02日 04:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -86929,6 +86929,7 @@ fqsousou.com,kengso.com#@#.user-share
 /log.php?*http
 /log.php?id
 /log.php?owa_timestamp=
+/log.php?referrer=
 /log/?pixel=
 /log/analytics
 /log/browser/event
@@ -95039,6 +95040,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||whoseesyou.com^$third-party
 ||wstatslive.com^$third-party
 ||accesstrade.net^$third-party
+||ad-fam.com^$third-party
+||ad-track.jp^$third-party
 ||adgainersolutions.com^$third-party
 ||adgocoo.com^$third-party
 ||admatrix.jp^$third-party
@@ -95054,12 +95057,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beanscattering.jp^$third-party
 ||bigmining.com^$third-party
 ||blogranking.net^$third-party
+||canem-auris.com^$third-party
 ||catsys.jp^$third-party
 ||cetlog.jp^$third-party
 ||cheqzone.com^$third-party
 ||cosmi.io^$third-party
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
+||d2c.ne.jp^$third-party
 ||datasign.co^$third-party
 ||dbfocus.jp^$third-party
 ||deteql.net^$third-party
@@ -95128,6 +95133,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uncn.jp^$third-party
 ||wonder-ma.com^$third-party
 ||ziyu.net^$third-party
+||zucks.net^$third-party
 ||acrosspf.com^$third-party
 ||adpick.co.kr^$third-party
 ||adtive.com^$third-party
@@ -98386,7 +98392,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affiliate.rakuten.co.jp^$script
 ||analytics.contents.by-fw.jp^
 ||analytics.liveact.cri-mw.jp^
+||analytics.livesense.marketing^
 ||analyzer51.fc2.com^
+||api.all-internet.jp^$third-party
+||api.popin.cc/conversion2.js
 ||asumi.shinobi.jp^
 ||bidder.mediams.mb.softbank.jp^
 ||bridge-ashiato.appspot.com/beacon/
@@ -98397,6 +98406,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cookie.sync.usonar.jp^
 ||counter2.blog.livedoor.com^
 ||delivery.satr.jp^
+||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||estore.jp/beacon/
 ||ev.tpocdm.com^
 ||future-shop.jp/rview.gif?
@@ -98460,6 +98470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.cribnotes.jp^
 ||torimochi.line-apps.com^
 ||tr.reco.combz.jp^
+||tr.slvrbullet.com^
 ||track.span-smt.jp^
 ||track.thebase.in^
 ||tracker.520call.me^
@@ -98471,6 +98482,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x9.shinobi.jp^
 ||xr.shinobi.jp^
 ||yahoo.co.jp/js/retargeting.js
+||zucks.net.zimg.jp^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
