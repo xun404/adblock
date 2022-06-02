@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b5cgFz1s3AhNBy7qcR5JEA
+! Checksum: aC3A+7Z975ZYZzMpxxLq8A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206021649
-! Last Modified: 2022年06月02日 16:49
+! Version: 202206021745
+! Last Modified: 2022年06月02日 17:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63168,6 +63168,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/odty55.cc"]
 ##a[href*="/ppffj.me/"]
 ##a[href*="/r3325.cc"]
+##a[href*="/shishangta.cn"]
 ##a[href*="/r3326.cc"]
 ##a[href*="/rg200.com/"]
 ##a[href*="/t4078.com:"]
@@ -66011,7 +66012,6 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 /tanchuan.htm$popup,third-party
 :701/gd_xueersi/$popup
 ||slipdashedundermine.com^$popup
-||taobao.com^$popup,domain=ifenpaidy.com
 ||1024mzs.pw^$popup,third-party
 ||1024wanzhai.$popup,third-party
 ||133gp.com^$popup
@@ -66046,7 +66046,6 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 ||gd.ct10000.com^*/push/$popup,third-party
 ||gotourl.xyz^$popup
 ||greenet.cn^*_popu_$popup
-||haogo.cc^$popup,third-party
 ||hinet.net/product/promotion/$popup
 ||huancaicp.com/?pid=$popup
 ||ieeod0.com^$popup
@@ -71071,8 +71070,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||xbiqu5.com/12345678.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ifenpaidy.com##.post > .div
+ifenpaidy.com##.btn-copy + .btn
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72063,7 +72065,6 @@ cnpingpang.com###new-flash
 hc360.com###newAppBox
 hc360.com###newAppBox1
 cam4.tw###newTippingViewer + div[data-ab]
-ifenpaidy.com###new_a
 yaolan.com###newfix-dsp
 kaolashuwu.com###newmodule
 pigai.org###newnotice
@@ -79046,6 +79047,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||bhj691.com^
+||h56trh.site^
 ||gsyc.icu^
 ||csygxdym.com^
 ||daixishuai.pw^
@@ -111852,7 +111854,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||lotuscard.cc/online/
 ||kuke99.com/static/home/js/index/index.js
 ||fulitech.com.cn^*/float.js
+||php.cn/upload/course/
 !------------------------Specific element hiding rules------------------------!
+php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
 waipian5.com##.shortcuts-mobile-overlay
 waipian5.com##.popup
