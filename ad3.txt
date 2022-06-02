@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ctzMNs+AfG+ORUNTu9gz/A
+! Checksum: Lk4f2rqooaq8tFARgZMaFQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206020744
-! Last Modified: 2022年06月02日 07:44
+! Version: 202206021052
+! Last Modified: 2022年06月02日 10:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1827,8 +1827,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||jiantiquan.cn^
 .8ox.cn
 ||00-gov.cn^
+||shequdaohang.com^$third-party
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -17644,6 +17646,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||gsyc.icu^
+||csygxdym.com^
+||daixishuai.pw^
+||zhuogego8.top^
+||gaoai.wang^
+||zvkoukk.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -31137,6 +31145,7 @@ _mongo_stats/
 ||p2r14.com^
 ||pdflive.org^
 ||permutive.app^
+||pix.pub^
 ||pixrealm.com^
 ||pjstat.com^
 ||progmxs.com^
@@ -36765,6 +36774,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c3metrics.medifast1.com^
 ||cache2.delvenetworks.com^
 ||cahf4eed.mooo.com^
+||californiatimes.com/privacy/$image
 ||calltrk.com/companies/
 ||camel.headfarming.com^
 ||canada.com/js/analytics/
@@ -40090,6 +40100,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/log?
 ||goseek.com/session-
 ||goseek.com/track-
+||gotie.tunein.com^
 ||grabify.link/api/js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
@@ -40379,6 +40390,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reelgood.com/v3.0/checkip
 ||reichelt.com/setsid.php?
 ||relay.fiverr.com^
+||reports.tunein.com^
 ||retargeting.vistaprint.com^
 ||rfk.biglots.com^
 ||roblox.com/www/e.png?
@@ -51633,6 +51645,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||trendyol.com/delivery-tracking-query-api/$~third-party
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
+@@||tunein.com/api/v1/comscore$~third-party
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
