@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LWKOxBE/uyP8Z73iypOn4g
+! Checksum: N8iZrofmxIlPKm1+iRuyEg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206030740
-! Last Modified: 2022年06月03日 07:40
+! Version: 202206031027
+! Last Modified: 2022年06月03日 10:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1539,8 +1539,9 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -9679,6 +9680,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+firefoxchina.cn##a[track_key="outside_left_adv"]
+firefoxchina.cn##.w-full[track_key="adv_top_banner"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
