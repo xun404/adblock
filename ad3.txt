@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rc1EXnzJWtCBnTUx1Kkj5w
+! Checksum: e9WK6bR/A2VpjZk7W5SzIA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206060738
-! Last Modified: 2022年06月06日 07:38
+! Version: 202206061205
+! Last Modified: 2022年06月06日 12:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1542,9 +1542,9 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -1832,6 +1832,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||souyou.org^
+||taoquan365.net^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -9686,6 +9688,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+imydl.com##.banner
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17666,6 +17669,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ynlmsc.pw^
 ||liyuan.cloud^
 ||csdn.love^
+||heimen.xyz^
+||imview.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -28793,6 +28798,7 @@ m.babytree.com##script + a[class]
 /pubimppixel/*
 /public/analytics.js
 /public/statsd
+/public/visit/record
 /public/visitor.json?
 /public/visitor/create?
 /publisher:getClientId?key=
