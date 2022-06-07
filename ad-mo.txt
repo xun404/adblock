@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qyWmdljN3d27UWFPzFj7Vw
+! Checksum: ETujmrrHG5Q95epckXglAw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206080539
-! Last Modified: 2022年06月08日 05:39
+! Version: 202206080641
+! Last Modified: 2022年06月08日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -110722,6 +110722,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
+@@||eservice.nationalgeneral.com/service/lib/gtm.js$~third-party
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||events-collector.spot.im/api/$xmlhttprequest
 @@||events.raceresult.com^$~third-party,xmlhttprequest
