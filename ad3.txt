@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qfiHdjwsJJ7rWRVrXkEnhw
+! Checksum: kTXmvVOz+s4j1gg0vt1rrg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206080440
-! Last Modified: 2022年06月08日 04:40
+! Version: 202206080539
+! Last Modified: 2022年06月08日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26989,7 +26989,7 @@ m.babytree.com##script + a[class]
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
+/dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynatrace.$domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
@@ -31139,7 +31139,6 @@ _mongo_stats/
 ||dmpxs.com^
 ||dratingmaject.com^
 ||dttrk.com^
-||dynatrace-managed.com^
 ||e1e.io^
 ||efreecode.com^
 ||emycewiw.xyz^
@@ -32003,6 +32002,7 @@ _mongo_stats/
 ||dwin1.com^$third-party
 ||dwin2.com^$third-party
 ||dynameex.com^$third-party
+||dynatrace-managed.com^$third-party
 ||dynatrace.com^$third-party,domain=~dynatracelabs.com
 ||dynatracesaas.com^$third-party
 ||dyntrk.com^$third-party
@@ -38713,6 +38713,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d16fk4ms6rqz1v.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
+||d196fri2z18sm.cloudfront.net^
 ||d1af033869koo7.cloudfront.net^
 ||d1cdnlzf6usiff.cloudfront.net^
 ||d1clfvuu2240eh.cloudfront.net^
@@ -51348,7 +51349,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|hilton.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
