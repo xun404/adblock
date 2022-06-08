@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6KDQblG5Aj7amUoWPRp3lg
+! Checksum: l4ByzPq3kjxQySfjNKF7kg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206081035
-! Last Modified: 2022年06月08日 10:35
+! Version: 202206081207
+! Last Modified: 2022年06月08日 12:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12599,14 +12599,6 @@ _800x80_
 ###block-sidebarad1
 ###block-sponsors
 ###block-spti_ga-spti_ga_adwords
-###block-thewrap_ads_250x300-0
-###block-thewrap_ads_250x300-1
-###block-thewrap_ads_250x300-2
-###block-thewrap_ads_250x300-3
-###block-thewrap_ads_250x300-4
-###block-thewrap_ads_250x300-5
-###block-thewrap_ads_250x300-6
-###block-thewrap_ads_250x300-7
 ###block-vh-dfp-dfp-ad-r2
 ###block-views-Advertorial-block_5
 ###block-views-Advertorial-block_6
@@ -20043,6 +20035,7 @@ _800x80_
 ##.ad_box_top
 ##.ad_boxright1
 ##.ad_break
+##.ad_break2_container
 ##.ad_break_container
 ##.ad_btf
 ##.ad_btf_300x250
@@ -21341,6 +21334,8 @@ _800x80_
 ##.adsHeader
 ##.adsHeaderFlog
 ##.adsHeading
+##.adsHeight300x250
+##.adsHeight720x90
 ##.adsImages
 ##.adsInner
 ##.adsInsideResults_v3
@@ -21370,6 +21365,7 @@ _800x80_
 ##.adsSpace300x600
 ##.adsSpace650x100
 ##.adsSpacing
+##.adsSticky
 ##.adsStickyLeft
 ##.adsStickyRight
 ##.adsTableBlox
@@ -23235,6 +23231,7 @@ _800x80_
 ##.article_ad_top
 ##.article_adbox
 ##.article_ads_banner
+##.article_body_ad1
 ##.article_bottom-ads
 ##.article_bottom_ad
 ##.article_google-ad
@@ -26014,6 +26011,7 @@ _800x80_
 ##.headerAdSpacing
 ##.headerAdWrapper
 ##.headerAds
+##.headerAds250
 ##.headerAdspace
 ##.headerAdvert
 ##.headerAdvertisement
@@ -26026,6 +26024,7 @@ _800x80_
 ##.header__leaderboard-ad
 ##.header__weather__ad
 ##.header_ad
+##.header_ad1
 ##.header_ad_2
 ##.header_ad_center
 ##.header_ad_div
@@ -30494,6 +30493,7 @@ _800x80_
 ##.upper-ad-box
 ##.upper-ad-space
 ##.upper_ad
+##.upx-ad-placeholder
 ##.urban-ad-rect
 ##.urban-ad-top
 ##.us-advertisement
@@ -58179,6 +58179,7 @@ gelbooru.com##.headerAd
 thelakewoodscoop.com##.headerPromo
 gautengnewspaper.co.za##.header__banner
 manofmany.com##.header_banner_wrap
+phonearena.com##.heading-deal
 thenewslens.com##.help-tnl-container-300_250
 thenewslens.com##.help-tnl-container-970_250
 igorslab.de##.herald-sidebar
@@ -58675,6 +58676,7 @@ eitb.eus##.publicidad_robapaginas
 dailymail.co.uk##.puff_pastel
 speedtest.net##.pure-u-custom-ad-rectangle
 speedtest.net##.pure-u-custom-ad-skyscraper
+appleinsider.com##.push
 the18.com##.push-downv
 2conv.com##.push-offer
 bleedingcool.com##.pw-in-article
@@ -59031,7 +59033,7 @@ shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
 pixwox.com##.tce-box-i-w
 pixwox.com##.tce-box-n-w
-constructionreviewonline.com,cyberparse.co.uk,eindhovennews.com,ericpetersautos.com,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,kenyan-post.com,maltabusinessweekly.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
+constructionreviewonline.com,cyberparse.co.uk,eindhovennews.com,ericpetersautos.com,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,kenyan-post.com,maltabusinessweekly.com,musictech.net,nasilemaktech.com,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
 americanindependent.com##.td-banner-bg
 brila.net,cgmagonline.com,cycling.today,gayexpress.co.nz,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap-full
@@ -61081,7 +61083,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||lastpass.com/ads.php$subdocument,domain=chrome-extension-scheme
 @@||lastpass.com/images/ads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
-@@||live.sekindo.com^$domain=appleinsider.com
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
 @@||luminalearning.com/affiliate-content/$image,~third-party
@@ -63328,6 +63329,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||9869936.com^
+||yangshengzu.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -79171,6 +79173,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fjyc.pw^
 ||gouqi.asia^
 ||xingyou69.asia^
+||qiaofu.shop^
+||zli.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -96217,7 +96221,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/uba.js
 ||cloudfront.net/websites/sb.js
 ||cloudfront.net/zephyr.js
-||cloudfront.net^$script,domain=phonearena.com
 ||cloudfront.net^*.bmp?
 ||cloudfunctions.net/commonBonnierDataLayer
 ||cloudfunctions.net/function-record-stream-metric?
