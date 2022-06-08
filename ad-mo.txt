@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9V3a/OzsD3YRr/wCyWvmFg
+! Checksum: 6KDQblG5Aj7amUoWPRp3lg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206080739
-! Last Modified: 2022年06月08日 07:39
+! Version: 202206081035
+! Last Modified: 2022年06月08日 10:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -27141,6 +27141,7 @@ _800x80_
 ##.map_media_banner_ad
 ##.mapped-ad
 ##.mar-block-ad
+##.margin-advertisement
 ##.margin0-ads
 ##.marginadsthin
 ##.marginalContentAdvertAddition
@@ -56914,6 +56915,8 @@ consobaby.co.uk,gumtree.com,pcgamingwiki.com,thefootballnetwork.net###mpu
 skysports.com###mpu-1
 spin.ph###mrec3
 whatshappening.com.ph###mrecCarousel
+check-host.net###mrkztchadddos-guard
+check-host.net###mrkztchadddos-guard2
 nitrome.com###mu_3_container
 wrestlingnews.co###mvp-head-top
 atlantatribune.com,barrettsportsmedia.com,footballleagueworld.co.uk,ioncinema.com,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
@@ -59153,6 +59156,7 @@ c19-worldnews.com##.vmagazine-medium-rectangle-ad
 fastpic.ru##.vright
 vaughn.live##.vs_v75_MvnAbvsLowerThirdWrapper
 ebook-searcher.com##.w-100
+w2g.tv##.w2g-cas-ad
 userscript.zone##.w300
 goodfon.com##.wallpapers__banner240
 dailymail.co.uk,thisismoney.co.uk##.watermark
@@ -85428,6 +85432,7 @@ fqsousou.com,kengso.com#@#.user-share
 /aztrack.
 /aztracker.
 /azure-perfops.
+/b.banners.impress.
 /b.gif?
 /b/s/beacon
 /b/ss/*&aqe=
@@ -110022,6 +110027,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||statistics.csob.cz^
 ||aa.tweakers.nl^
 ||analytics.rambla.be^
+||bc34.wijnvoordeel.nl^
 ||bol.com/tracking/
 ||businessinsider.nl^*/tr.php
 ||coolblue.nl/monitoring/
@@ -110595,6 +110601,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
+@@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com

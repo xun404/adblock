@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k7GxIU5CW2YVG6M7xPpFWw
+! Checksum: BBwoVvnbVHOy7h6pgI7weg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206080739
-! Last Modified: 2022年06月08日 07:39
+! Version: 202206081035
+! Last Modified: 2022年06月08日 10:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26200,6 +26200,7 @@ m.babytree.com##script + a[class]
 /aztrack.
 /aztracker.
 /azure-perfops.
+/b.banners.impress.
 /b.gif?
 /b/s/beacon
 /b/ss/*&aqe=
@@ -50794,6 +50795,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||statistics.csob.cz^
 ||aa.tweakers.nl^
 ||analytics.rambla.be^
+||bc34.wijnvoordeel.nl^
 ||bol.com/tracking/
 ||businessinsider.nl^*/tr.php
 ||coolblue.nl/monitoring/
@@ -51367,6 +51369,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
+@@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
