@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Om9zyk+Cfx+ediB7Z7R+aA
+! Checksum: P4tkQpFQwWLmq+3kM+6mGw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206081842
-! Last Modified: 2022年06月08日 18:42
+! Version: 202206082110
+! Last Modified: 2022年06月08日 21:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27000,7 +27000,7 @@ m.babytree.com##script + a[class]
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
-/dynatrace.$domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
+/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
