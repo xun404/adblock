@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ITfJVBBvPbhYwBmu+FLz5w
+! Checksum: L2nTwj3kG1leVP2LI/3W/g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206082239
-! Last Modified: 2022年06月08日 22:39
+! Version: 202206090055
+! Last Modified: 2022年06月09日 00:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55628,6 +55628,7 @@ tf2r.com#@#.adverts
 ||indiansinkuwait.com/Campaign/
 ||infobetting.com/bookmaker/
 ||insideyork.co.uk/assets/images/sponsors/
+||intersc.igaming-service.io^$domain=hltv.org
 ||investing.com/jp.php
 ||irishdev.com/files/banners/
 ||islandecho.co.uk/wp-content/uploads/*Island-$image
@@ -56073,6 +56074,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
 $csp=worker-src 'none',domain=torlock.com|alltube.pl|alltube.tv|centrum-dramy.pl|cmovies.ac|coinfaucet.eu|crictime.com|crictime.is|deltabit.co|doodcdn.com|estream.to|extreme-down.tv|flashx.co|flashx.to|flashx.tv|gomo.to|hdvid.fun|hdvid.tv|hitomi.la|kinox.to|lewd.ninja|assia1.tv|assia2.tv|nflbite.com|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.watch|sickrage.ca|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|tpb.party|uptomega.me|ustream.to|vidoza.co|vidoza.net|vidtodo.pro|wallpoper.com|wearesaudis.net|yazilir.com
 ||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
+||clipconverter.cc^$csp=default-src 'self' i.ytimg.com *.clipconverter.cc 'unsafe-inline' data: blob:
 ||convertfiles.com^$csp=script-src 'self' '*' 'unsafe-inline'
 ||gelbooru.com^$csp=script-src 'self' '*' 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
 ||grammarist.com^$csp=script-src 'self' '*' 'unsafe-inline'
@@ -71341,6 +71343,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+element-plus.gitee.io##.sidebar > .page-content
 theporn.cc##.pp > div:not([class])
 theporn.cc##.video-player-container > div:not([class])
 szxx.com.cn###A1
