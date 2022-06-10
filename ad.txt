@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ap9OC/l37ASh0InQIhcWfg
+! Checksum: F6NwqzF3gYNqYTElIXn9zg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206102345
-! Last Modified: 2022年06月10日 23:45
+! Version: 202206110740
+! Last Modified: 2022年06月11日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2283,6 +2283,7 @@ ubmcmm.baidustatic.com
 ||jrhbhz.com^
 !2306
 !2305
+||opuik.com^
 !2304
 ||awsxc.live^
 !2303
@@ -17933,6 +17934,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 @@||dushu.ru^$script,domain=bhshu.net
 @@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
+fttxt.com##a[href*="type"]
 ahzwx.com##script + div[style]
 biqugee.com##div[style="width:976px;"]
 bisowu.cc##.a-row
@@ -18133,11 +18135,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||gguuu.top^
 ||jianjianjiao.top^
 ##a[href*="/jianjianjiao.top"]
 ||lwxqaq.club^
 ||haitaochen.xyz^
 !2305
+||zhflodsix.cn^
+||666video.asia^
+||toutao.pro^
 ||a19cd.xyz^
 ||zhuomengwangluo.com^
 ||yue78.online^
@@ -18146,9 +18152,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 ||princesses.asia^
 ||uniworldgroup.asia^
 !2304
+||aak7.cn^
 ||merrrrrry.top^
 ||yping.online^
 !2303
+||defenga.top^
+||jiedaibao.gs^
 ||myuosid.cn^
 ||tianyao.site^
 ||edetlmb.cn^
