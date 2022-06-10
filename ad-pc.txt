@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qrh7I6vwuc9E9ViRDkzQAg
+! Checksum: TOic0+zvAU4c7ViiHmop2w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206101036
-! Last Modified: 2022年06月10日 10:36
+! Version: 202206101201
+! Last Modified: 2022年06月10日 12:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62963,6 +62963,7 @@ ubmcmm.baidustatic.com
 ~95504.net##.ggbox
 ##.gggpost-above
 ##.gglist
+##.area > .tuiguang
 ##.ggpost-below
 ##.ggtop
 ##.ggw
@@ -79359,6 +79360,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+##a[href*="/jianjianjiao.top"]
+||lwxqaq.club^
 ||haitaochen.xyz^
 !2305
 ||zhuomengwangluo.com^
@@ -110815,7 +110818,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|hilton.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|hilton.com|ing.com.au|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
