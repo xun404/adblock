@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q5TieRqe/RC/qtuqpFxwVw
+! Checksum: FSt4jAgrpD5VWxKiAC82Ow
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206101938
-! Last Modified: 2022年06月10日 19:38
+! Version: 202206102111
+! Last Modified: 2022年06月10日 21:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61426,6 +61426,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hcaptcha.com/captcha/$script,subdocument
 @@||hcaptcha.com^*/api.js
 @@||recaptcha.net/recaptcha/$script
+@@://192.168.0.1$generichide
+@@://192.168.1.1$generichide
 @@||accounts.google.com^$generichide
 @@||ad-maven.com^$generichide
 @@||apple.com^$generichide
@@ -61439,6 +61441,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||curiositystream.com^$generichide
 @@||discord.com^$generichide
 @@||disneyplus.com^$generichide
+@@||docs.google.com^$generichide
 @@||drive.google.com^$generichide
 @@||dropbox.com^$generichide
 @@||engine.presearch.org^$generichide
@@ -71417,6 +71420,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -79394,6 +79398,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||jianjianjiao.top^
 ##a[href*="/jianjianjiao.top"]
 ||lwxqaq.club^
 ||haitaochen.xyz^
@@ -79406,8 +79411,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 ||princesses.asia^
 ||uniworldgroup.asia^
 !2304
+||merrrrrry.top^
 ||yping.online^
 !2303
+||myuosid.cn^
 ||tianyao.site^
 ||edetlmb.cn^
 ||gzww.site^

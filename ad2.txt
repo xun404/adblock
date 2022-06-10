@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 64fxJQ1K8WxvOjG5aIHV6A
+! Checksum: Hfu0XrSvTbbZQxtI3rAaPA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206101938
-! Last Modified: 2022年06月10日 19:38
+! Version: 202206102111
+! Last Modified: 2022年06月10日 21:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -9707,6 +9707,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17684,6 +17685,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||jianjianjiao.top^
 ##a[href*="/jianjianjiao.top"]
 ||lwxqaq.club^
 ||haitaochen.xyz^
@@ -17696,8 +17698,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 ||princesses.asia^
 ||uniworldgroup.asia^
 !2304
+||merrrrrry.top^
 ||yping.online^
 !2303
+||myuosid.cn^
 ||tianyao.site^
 ||edetlmb.cn^
 ||gzww.site^
