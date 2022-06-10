@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FSt4jAgrpD5VWxKiAC82Ow
+! Checksum: BxkUe2+mwdnZ5kXNm7L/aA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206102111
-! Last Modified: 2022年06月10日 21:11
+! Version: 202206102239
+! Last Modified: 2022年06月10日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55932,6 +55932,7 @@ tf2r.com#@#.adverts
 ||xinhuanet.com/s?
 ||xtb.com^$third-party,domain=cool-etv.net
 ||yabeat.org/*?meteor_js_$script
+||yahoo.com/m/gemini_api/
 ||yahoo.com/sdarla/
 ||yellowpages.com.lb/uploaded/banners/
 ||yimg.com/rq/darla/$domain=yahoo.com
@@ -60111,6 +60112,7 @@ yahoo.com##.sys_shopleguide
 yahoo.com##.viewer-sda-container
 mail.yahoo.com##[data-test-id^="pencil-ad"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
+yahoo.com##a[data-test-id="large-image-ad"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
 yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
@@ -79425,6 +79427,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 !2211
 !2210
 !2209
+||hpkqtd.com^
 ||hdw0.top^
 !2208
 !2207
