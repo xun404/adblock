@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NGvWORZQ75ti5R3Q+MsJhA
+! Checksum: G7f3qzw45cggyik0n1lHtA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206112141
-! Last Modified: 2022年06月11日 21:41
+! Version: 202206112238
+! Last Modified: 2022年06月11日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -86733,6 +86733,7 @@ fqsousou.com,kengso.com#@#.user-share
 /facebook-retargeting-
 /facebook-tracking/*
 /facebook_fbevents.
+/facebook_pixel_
 /facebookpixel.
 /facebookpixel/*
 /facebookproductad/*$script
@@ -111270,6 +111271,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
+@@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
