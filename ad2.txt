@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VUN0+aveKav59PWsNHrhuA
+! Checksum: /hFleBeFvts3w8eZW0Am0g
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206111158
-! Last Modified: 2022年06月11日 11:58
+! Version: 202206111739
+! Last Modified: 2022年06月11日 17:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -138,6 +138,7 @@ xz6d.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/heji/mei00*.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -9333,7 +9334,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xitongzhijia.net/theme/2017/images/temp/ad_
 ||xitongzhijia.net/theme/2017/js/total_soft.js
 ||xiu8.com/baidu-tieba/*&forum_name=
-||xiurenji.net/heji/mei
 ||xizi.com/a/
 ||xizi.com/js/rotator.js
 ||xkd*.com/layer/layer.js
@@ -9711,6 +9711,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||titan007.com/js/indexshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+360doc.com###arttopbdad
+sina.com.tw###ad_second_paragraph
+sina.com.tw###ad_first_paragraph
+sina.com.tw##.tablet_above_ad
 itxueyuan.com##a[href*="guanggaowei"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 szxx.com.cn###A1
@@ -24051,7 +24055,6 @@ _box_ad_
 ||tiexue.net/pic/tx_1220.jpg
 ||gushiwen.org/getTicket.aspx
 ||51cto.com/edu/center/js/interaction_iframe.js
-||360doc.com/js/showarticle.js
 ||jishulink.com/images/content/visitor-footer-
 ||jishulink.com/images/activity/invite_
 ||codenong.com/c1.js
@@ -24094,6 +24097,7 @@ _box_ad_
 ||kuke99.com/static/home/js/index/index.js
 ||fulitech.com.cn^*/float.js
 ||php.cn/upload/course/
+||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 !------------------------Specific element hiding rules------------------------!
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
