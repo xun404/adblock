@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LXv+LQ8tr7HrzblEgY+WxQ
+! Checksum: auJTgOB5Bf102kMrdy0R3g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206121338
-! Last Modified: 2022年06月12日 13:38
+! Version: 202206121740
+! Last Modified: 2022年06月12日 17:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6450,7 +6450,6 @@ tieba.baidu.com##.tuijian-wrap
 /static/ad-
 /static/ad/*
 /static/ad_
-/static/ads/*
 /static/adv/*
 /static/advertising/*
 /static/js/4728ba74bc.js$~third-party
@@ -57924,6 +57923,7 @@ zambianeye.com##.box_skitter
 canadaka.net##.boxadd
 businessplus.ie##.bp_billboard_single
 brainyquote.com##.bq_ad_320x250_multi
+bing.com##.br-productCarousel
 hardware.info##.br_top_container
 primedia.co.za##.branding-sponsor
 eightieskids.com##.break
@@ -58684,7 +58684,6 @@ yifymovies.one##.mvic-btn
 malwaretips.com##.mwt_ads
 invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
-engine.presearch.org##.my-4
 troypoint.com##.mysticky-welcomebar-fixed-wrap
 exportfromnigeria.info##.mytopads
 transfermarkt.com##.nENxsZD
@@ -58840,7 +58839,6 @@ fastcompany.com##.post__promotion
 thetowner.com##.powered
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
-presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
 foxbusiness.com##.pre-content
 sassymamahk.com##.pre_header_widget
 vivo.sx##.preload
@@ -59185,7 +59183,7 @@ jquery.com##.sponsor-line
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,hbr.org,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
 washingtontimes.com##.sponsored-heading
 hellomagazine.com##.sponsored-news
 coinmarketcap.com##.sponsoredMark
@@ -59234,7 +59232,6 @@ dailyherald.com##.stnContainer
 politico.com##.story-continued
 climbingbusinessjournal.com##.strack_bnr
 indiatoday.in##.stradds
-hbr.org##.sponsored
 siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 coinpedia.org,siasat.com##.stream-item-inline-post
@@ -59661,7 +59658,7 @@ torrentresource.com##[width="150"]:last-child
 fansshare.com,wmal.com##[width="300"]
 drwealth.com##[width="640"]
 4chan.org##[width="728"]
-presearch.org##[x-data*="{ keywordAdFirst:"]
+presearch.com##[x-data*="keywordAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 freshplaza.com##a.banner
@@ -61474,7 +61471,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||docs.google.com^$generichide
 @@||drive.google.com^$generichide
 @@||dropbox.com^$generichide
-@@||engine.presearch.org^$generichide
 @@||fastmail.com^$generichide
 @@||github.com^$generichide
 @@||gitlab.com^$generichide
@@ -61530,7 +61526,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adblockplus.org^$generichide
 @@||aetv.com^$generichide
 @@||apkmirror.com^$generichide
-@@||bing.com/shop$generichide
 @@||brighteon.com^$generichide
 @@||cwtv.com^$generichide
 @@||destinationamerica.com^$generichide
@@ -79508,6 +79503,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bestnfq.com^
 !2211
 !2210
+||whzshoes.com^
 !2209
 ||hdw0.top^
 ||hpkqtd.com^
@@ -90456,6 +90452,7 @@ cgi-bin/counter
 /p1x1.gif
 /page.bsigroup.com/*
 /pixel-prod.
+/pixel.mathtag.com/*
 /pixel?cid=
 /pqt.email/o/*$image
 /px/track?
