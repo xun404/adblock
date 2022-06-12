@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7RJQa0eL9QmCOs9pm2TWNg
+! Checksum: LXv+LQ8tr7HrzblEgY+WxQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206121249
-! Last Modified: 2022年06月12日 12:49
+! Version: 202206121338
+! Last Modified: 2022年06月12日 13:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22367,6 +22367,7 @@ _800x80_
 ##.adv__box
 ##.adv__container--300x250
 ##.adv__container--728x90
+##.adv__leaderboard
 ##.adv__text
 ##.adv__wrapper
 ##.adv_aff
@@ -57463,8 +57464,8 @@ eteknix.com###wrapper > header
 cranestodaymagazine.com,hoistmagazine.com,ttjonline.com,tunnelsonline.info###wrapper_banners
 blasternation.com###xobda
 yardbarker.com###yb_recirc
-sevenforums.com###yui-gen0
-sevenforums.com###yui-gen1
+sevenforums.com,tenforums.com###yui-gen0
+sevenforums.com,tenforums.com###yui-gen1
 ecoustics.com###zox-lead-bot
 talkingpointsmemo.com##.--span\:12.AdSlot
 voiceofsandiego.org##.-sponsored
@@ -59233,6 +59234,7 @@ dailyherald.com##.stnContainer
 politico.com##.story-continued
 climbingbusinessjournal.com##.strack_bnr
 indiatoday.in##.stradds
+hbr.org##.sponsored
 siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 coinpedia.org,siasat.com##.stream-item-inline-post
