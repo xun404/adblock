@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LyCejFVMVOQv2z7OuW6qnQ
+! Checksum: 7sjnGpNN9AkvdOUzLgT/cg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206130739
-! Last Modified: 2022年06月13日 07:39
+! Version: 202206131041
+! Last Modified: 2022年06月13日 10:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1546,6 +1546,7 @@ ubmcmm.baidustatic.com
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
+##a[href*=":10443/"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
@@ -1840,6 +1841,7 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||bob4942.com^
 ||bob4915.com^
 ||bob4994.com^
 !2305
@@ -1862,6 +1864,7 @@ ubmcmm.baidustatic.com
 ||qbyyvg3.com^
 ||xtp01.com^
 !2302
+||666584.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -17721,6 +17724,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||rabbitcloud.ltd^
 ||shoujizhuanqian.store^
 ||muzhiying.xyz^
 ||1kcx.hk^
@@ -31246,6 +31250,7 @@ _mongo_stats/
 ||brontops.com^
 ||bydst.com^
 ||ccm19.de^
+||cdnhst.xyz^
 ||click360.io^
 ||cloudwp.io^
 ||cpx.to^
@@ -36187,6 +36192,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytic.rocks^$third-party
 ||props.id^$third-party
 ||0stats.com^$third-party
+||24log.it^$third-party
 ||accessi.it^$third-party
 ||avstat.it^$third-party
 ||buzzoole.com^$third-party
@@ -52418,6 +52424,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||player.vgtrk.com/js/stat.js?
 @@||playy.online/log_event$~third-party,xmlhttprequest
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
+@@||post2go.ru/widget/tracking?$~third-party
 @@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
