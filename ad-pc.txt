@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tme1bqvVPgzRihPvlATx1g
+! Checksum: JQSBKXCd/SpSi/mFWVz4Pw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206131041
-! Last Modified: 2022年06月13日 10:41
+! Version: 202206131219
+! Last Modified: 2022年06月13日 12:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32080,6 +32080,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+##a[href*="https://www.sweetdeals.com/"] img
 ###kt_player > a[target="_blank"]
 ###slashboxes > .deals-rail
 ##.scroll-fixable.rail-right > .deals-rail
@@ -32565,10 +32566,13 @@ economist.com,flightcentre.co.uk,foodkick.com,liverpoolfc.com,olx.pl,payback.pl,
 revimedia.com#@#a[href*=".revimedia.com/"]
 dr.dk,smartadserver.de#@#a[href*=".smartadserver.com"]
 slickdeals.net#@#a[href*="adzerk.net"]
+sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
+legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
 naughtyamerica.com#@#a[href^="https://natour.naughtyamerica.com/track/"]
 bookworld.no#@#a[href^="https://ndt5.net/"]
+legacy.com#@#a[href^="https://pubads.g.doubleclick.net/"]
 privateinternetaccess.com#@#a[href^="https://www.privateinternetaccess.com/"]
 marcpapeghin.com#@#a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 politico.com#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
@@ -33929,6 +33933,7 @@ tf2r.com#@#.adverts
 ||aj1716.online^
 ||aj1907.online^
 ||aj1913.online^
+||aj2031.online^
 ||aj2208.online^
 ||aj2373.online^
 ||ajarsubscriber.com^
@@ -58174,7 +58179,7 @@ dailyfx.com##.dfx-article__sidebar
 notes.io##.directMessageBanner
 premiumtimesng.com##.directcampaign
 audiokarma.org##.discussionListItem > center
-govevents.com,protipster.com##.display
+airmail.news,govevents.com,protipster.com##.display
 flightconnections.com##.display-box
 flightconnections.com##.display-box-2
 pixabay.com##.display-gtty-item
@@ -58586,6 +58591,7 @@ latestly.com##.lhs_adv_970x90_div
 op.gg##.life-owner
 mobygames.com##.lifesupport-header
 iheartradio.ca##.lightbox-wrapper
+getbukkit.org##.limit
 linuxize.com##.linaff
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
@@ -61841,7 +61847,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@||accounts.google.com^$popup
-@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|mail.yahoo.com|nytimes.com|spaargids.be
+@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||admin.mgid.com^$popup
@@ -71488,8 +71494,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##a[href*="/a.ashx"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -79487,6 +79495,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinn.love^
 ||yyyyt.ltd^
 !2305
+||zwgege.cn^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -93655,6 +93664,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||on-push.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
+||pn.vg^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
 ||push-ad.com^$third-party
@@ -93670,6 +93680,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushify.com^$third-party
 ||pushmaster-cdn.xyz^
 ||pushnami.com^$third-party
+||pushprofit.ru^$third-party
+||pushpushgo.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
 ||reprocautious.com^$third-party

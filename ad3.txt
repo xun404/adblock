@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7sjnGpNN9AkvdOUzLgT/cg
+! Checksum: kXFA79PVqf0zPnAJYEBZbg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206131041
-! Last Modified: 2022年06月13日 10:41
+! Version: 202206131219
+! Last Modified: 2022年06月13日 12:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9737,8 +9737,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##a[href*="/a.ashx"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17736,6 +17738,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinn.love^
 ||yyyyt.ltd^
 !2305
+||zwgege.cn^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -34169,6 +34172,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||on-push.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
+||pn.vg^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
 ||push-ad.com^$third-party
@@ -34184,6 +34188,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushify.com^$third-party
 ||pushmaster-cdn.xyz^
 ||pushnami.com^$third-party
+||pushprofit.ru^$third-party
+||pushpushgo.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
 ||reprocautious.com^$third-party
