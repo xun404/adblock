@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ScKHIQauziDchdgzK8/9yQ
+! Checksum: 2mZwKXwfxiGX/EKph808PQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206141053
-! Last Modified: 2022年06月14日 10:53
+! Version: 202206141232
+! Last Modified: 2022年06月14日 12:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61422,7 +61422,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||optout.networkadvertising.org^$document
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=convert-me.com|grammarist.com
@@ -71575,6 +71575,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dmh8.com##body > a
 hmoe11.net##A[href*=".taobao.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -79597,6 +79598,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||ponymi.xyz^
 ||aa9u.cn^
 ||aa9v.cn^
 ||aa9z.cn^
@@ -89493,6 +89495,7 @@ fqsousou.com,kengso.com#@#.user-share
 /trackAdHit.
 /trackAirship.js
 /trackalyze/*$script
+/trackBatchEvents?
 /TrackClick.
 /trackClickAsync.
 /trackClickEvent.js
@@ -111315,7 +111318,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kentucky.com/mistats/finalizestats.js$~third-party
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
-@@||lacoste.com/on/demandware.static/*/click-analytics.js$~third-party
+@@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
