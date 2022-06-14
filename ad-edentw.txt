@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IB41EMmfaaRXTPrtrjfDgw
+! Checksum: nTVQsXy0QVFyIcl+O3KFDg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206141645
-! Last Modified: 2022年06月14日 16:45
+! Version: 202206141941
+! Last Modified: 2022年06月14日 19:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -954,6 +954,7 @@ ajaxshowtime.com##div.leaderboard_ad + div
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/english.txt ***
 ! #CV-1149
 etsy.com##ul[data-results-grid-container] > li[class] > div:not([class="wt-height-full"]):not([data-is-autosuggest])
+etsy.com#$#hide-if-contains-visible-text /Ad.by/ a[data-listing-id]
 ! #CV-1056
 www.linkedin.com#$#simulate-event-poc click 'xpath(//*[text()="Promoted" or text()="Sponsored" or text()="Dipromosikan" or text()="Propagováno" or text()="Promoveret" or text()="Anzeige" or text()="Promocionado" or text()="促銷內容" or text()="Post sponsorisé" or text()="프로모션" or text()="Post sponsorizzato" or text()="广告" or text()="プロモーション" or text()="Treść promowana" or text()="Patrocinado" or text()="Promovat" or text()="Продвигается" or text()="Marknadsfört" or text()="Nai-promote" or text()="ได้รับการโปรโมท" or text()="Öne çıkarılan içerik" or text()="الترويج"]/ancestor::div[@data-id]//video[@autoplay="autoplay"])' 10
 ! #CV-717
