@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rfr/rBgEKROZq3er2oeQQw
+! Checksum: 6sSQBgONhc14D2If/l80tw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206151646
-! Last Modified: 2022年06月15日 16:46
+! Version: 202206152114
+! Last Modified: 2022年06月15日 21:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -953,6 +953,7 @@ ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/english.txt ***
 ! #CV-1149
+etsy.com##li[data-page-type="listing_page_ads_row"]
 etsy.com##ul[data-results-grid-container] > li[class] > div:not([class="wt-height-full"]):not([data-is-autosuggest])
 etsy.com#$#hide-if-contains-visible-text /Ad.by/ a[data-listing-id]
 ! #CV-1056
