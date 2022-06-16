@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KaIXUT4474B8iBgs/RszhA
+! Checksum: +eZOcDeNpcNP9L2fUk5FtA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206161208
-! Last Modified: 2022年06月16日 12:08
+! Version: 202206161340
+! Last Modified: 2022年06月16日 13:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -137,6 +137,7 @@ xz6d.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+||allyes.$third-party
 -1688-wp-media/ads/
 ||ssh.*.com^*!$script,third-party
 -880-80-4.jpg
@@ -2608,7 +2609,6 @@ ubmcmm.baidustatic.com
 ||aliyuncss.com^
 ||aliyunxin.com^
 ||alllget.com^$third-party
-||allyes.$third-party
 ||amarketing.top^
 ||amazingchang.com^
 ||andmejs.com^$third-party
@@ -17837,6 +17837,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||ecmeilin.xyz^
 ||prtgurh.cn^
 ||g-day.design^
 ||nuqqcgb.cn^
