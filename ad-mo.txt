@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OYLiYG5dk4+BAUrx7cD92w
+! Checksum: I7D1xs41BI+0AVuEv0bQFQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206171040
-! Last Modified: 2022年06月17日 10:40
+! Version: 202206171207
+! Last Modified: 2022年06月17日 12:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18836,6 +18836,7 @@ _800x80_
 ##.ad-size-leaderboard
 ##.ad-size-medium-rectangle
 ##.ad-size-medium-rectangle-flex
+##.ad-skeleton
 ##.ad-skin-link
 ##.ad-sky
 ##.ad-sky-left
@@ -28575,6 +28576,7 @@ _800x80_
 ##.revamp-ads
 ##.revcontent-main-ad
 ##.revcontent-slot
+##.revcontent-wrap
 ##.review-ad
 ##.reviewMidAdvertAlign
 ##.review_ad1
@@ -31119,6 +31121,7 @@ _800x80_
 ##[class^="AdvertisingSlot_"]
 ##[class^="div-gpt-ad"]
 ##[data-ad-cls]
+##[data-ad-id]
 ##[data-ad-manager-id]
 ##[data-ad-module]
 ##[data-ad-width]
@@ -31128,6 +31131,7 @@ _800x80_
 ##[data-ez-name]
 ##[data-freestar-ad]
 ##[data-mobile-ad-id]
+##[data-name="adaptiveConstructorAd"]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*=".engine.adglare.net/"]
@@ -31183,6 +31187,7 @@ _800x80_
 ##[href^="https://v.investologic.co.uk/"]
 ##[href^="https://wct.link/"]
 ##[href^="https://www.dcpodj3k5.com/"]
+##[href^="https://www.herbanomic.com/"] > img
 ##[href^="https://www.hostg.xyz/aff_c"] > img
 ##[href^="https://www.mypatriotsupply.com/"] > img
 ##[href^="https://www.mypillow.com/"] > img
@@ -31999,9 +32004,11 @@ _800x80_
 ##.ac-lre-wrapper
 ##.ad-container--hot-video
 ##.aniview-inline-player
+##.article-connatix-wrap
 ##.card-captioned.crd > .crd--cnt > .s2nPlayer
 ##.ck-anyclips
 ##.ck-anyclips-article
+##.ez-video-wrap
 ##.inline-iframe.article--content-embed
 ##.js-widget-distroscale.distroscale
 ##.js-widget-send-to-news
@@ -32461,6 +32468,7 @@ mypillow.com#@#[href^="http://mypillow.com/"] > img
 mypillow.com#@#[href^="http://www.mypillow.com/"] > img
 mypatriotsupply.com#@#[href^="https://mypatriotsupply.com/"] > img
 mypillow.com#@#[href^="https://mypillow.com/"] > img
+herbanomic.com#@#[href^="https://www.herbanomic.com/"] > img
 techradar.com#@#[href^="https://www.hostg.xyz/aff_c"]
 mypatriotsupply.com#@#[href^="https://www.mypatriotsupply.com/"] > img
 mypillow.com#@#[href^="https://www.mypillow.com/"] > img
@@ -56144,6 +56152,7 @@ tf2r.com#@#.adverts
 ||sportrecs.com/redirect/embed/
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
+||video-streaming.ezoic.com^
 ||vidora.com^$third-party
 ||viewdeos.com^$script,third-party
 ||vms-players.minutemediaservices.com^$script,third-party
@@ -56967,6 +56976,7 @@ coinlisting.info###carousel-example-generic
 csdb.dk###casdivhor
 csdb.dk###casdivver
 autocarindia.com###castrol-ad-sec
+cbn.com###cbn_leaderboard_atf
 cloudwards.net###cbox
 linuxinsider.com###cboxOverlay
 curseforge.com###cdm-zone-03
@@ -57815,6 +57825,7 @@ indiatimes.com##.amazonProductSidebar
 cyberciti.biz##.amp-wp-4ed0dd1
 teslaoracle.com##.amp-wp-539b047
 teslaoracle.com##.amp-wp-53ff299
+thepostemail.com##.amp-wp-b194b9a
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
 androidauthority.com##.andro-in-article-sidebar-desktop-placement
@@ -58351,6 +58362,7 @@ yournews.com##.et_pb_code_inner
 mobafire.com##.exhibit-narrow
 mobafire.com##.exhibit-vertical
 streamingmedia.com##.expand
+thepostemail.com##.external
 yourbittorrent.com##.extneed
 thefinancialexpress-bd.com##.extraLink
 formula1.com##.f1-dfp-banner-wrapper
@@ -58624,6 +58636,7 @@ kfm.co.za##.itunes-sml
 itweb.co.za##.itw-content-zone
 ownedcore.com##.iv-note
 india.com##.iwplhdbanner-wrap
+notateslaapp.com##.jeffdlwlxpqi
 psypost.org##.jeg_midbar
 romania-insider.com##.job-item
 johncodeos.com##.johnc-widget
@@ -58851,6 +58864,7 @@ fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
 chipchick.com##.noskim.ntv-moap
 helpnetsecurity.com##.not-empty
+beforeitsnews.com##.notTwitterCardsGrid
 4dayweek.io##.notadvert-tile-wrapper
 cookingforengineers.com##.nothing
 moodiedavittreport.com##.notice
@@ -58928,6 +58942,7 @@ investopedia.com##.partnerlinks
 phorio.com##.partnerlogos-wrapper
 2oceansvibe.com,speedcafe.com,travelweekly.com##.partners
 letsgodigital.org,letsgomobile.org##.partners-bar
+cbn.com##.partners-block
 arrivealive.co.za##.partnersheading
 liveuamap.com##.passby
 writerscafe.org##.pay
@@ -61453,7 +61468,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|pch.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
@@ -79573,6 +79588,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||dhtv6.xyz^
 ||172872.com^
 ||aa9q.cn^
 ||aa9u.cn^
@@ -79611,6 +79627,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nanjian.ink^
 ||vz1m.com^
 !2212
+||topnfm.com^
 ||bestnfq.com^
 ||kongbao.ren^
 !2211
@@ -97948,6 +97965,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||di2xwvxz1jrvu.cloudfront.net^
 ||dkupaw9ae63a8.cloudfront.net^
 ||dl1d2m8ri9v3j.cloudfront.net^
+||dn0qt3r0xannq.cloudfront.net^
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||dp64mxip2za0c.cloudfront.net^
@@ -99210,6 +99228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e.zg-api.com/event$domain=zillow.com
 ||e2ma.net/track/
 ||e377.thestar.com^
+||ea.epochbase.com^
 ||ebay.com^*/customer_image_service?
 ||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||edisound.com/api/p/stats
@@ -111976,6 +111995,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 !------------------------Specific element hiding rules------------------------!
+alibabacloud.com###carousel-whois
+alibabacloud.com##.b-alicloud-bottom
+alibabacloud.com##.hmod-alicloud-contact-sales-support
 autohome.com.cn##.activity-coin-layer
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
