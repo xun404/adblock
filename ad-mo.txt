@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EU6mRibzC/2UlzTHc+bTMQ
+! Checksum: zcxauNUxT+Itofonuatgfg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206180248
-! Last Modified: 2022年06月18日 02:48
+! Version: 202206180337
+! Last Modified: 2022年06月18日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56931,7 +56931,7 @@ returnyoutubedislike.com###biggest-supporters
 bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com,duquoin.com,randolphcountyheraldtribune.com###billBoardATF
 versus.com###bill_bottom
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
-whoscored.com###billboard-container
+canberratimes.com.au,examiner.com.au,theland.com.au,whoscored.com###billboard-container
 inquirer.net###billboard_article
 searchenginereports.net###bio_ep
 searchenginereports.net###bio_ep_bg
@@ -57290,6 +57290,7 @@ gearspace.com###navbar_notice_617
 nbcsports.com###nbcsports-leaderboard
 my.juno.com###newsCarousel
 livelaw.in###news_on_exit
+canberratimes.com.au,examiner.com.au,theland.com.au###newswell-leaderboard-container
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
 pcgamesn.com###nn_astro_wrapper
@@ -59329,7 +59330,6 @@ u.today##.something
 songfacts.com##.songfacts-song-inline-ads
 freeonlineapps.net##.sp
 ndtv.com##.sp_ad-t
-canberratimes.com.au,examiner.com.au,theland.com.au##.space-y-2
 mdisk.me##.spdownloader-ad
 informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
@@ -60031,9 +60031,12 @@ whatsondisneyplus.com##div[id^="extra_mpu_"]
 micast.tv##div[id^="floatLayer"]
 mangatigre.com##div[id^="i-d-cr-page"]
 dexerto.com##div[id^="jwplayer_"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="leaderboard-"]
 maltadaily.mt##div[id^="malta-"]
 mediabiasfactcheck.com##div[id^="media-"]
 gamebyte.com##div[id^="mpu"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="mrec-"]
+canberratimes.com.au,examiner.com.au,theland.com.au##div[id^="newswell-side-"]
 ebay.co.uk,ebay.com,ebay.com.au,ebay.de##div[id^="plmt_html_"]:not(#plmt_html_101113):not(#plmt_html_101224)
 progamerage.com##div[id^="proga-"]
 yopmail.com,yopmail.fr,yopmail.net##div[id^="pub"]
@@ -61360,6 +61363,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adserve.atedra.com/js/$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/vast/wrap.php?$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/zones.php$xmlhttprequest,domain=repeatmyvids.com
+@@||adservex.media.net/videoAds.js?$script,domain=forbes.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||airplaydirect.com/openx/www/images/$image
@@ -110585,6 +110589,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
 @@||ikea.com/cdn/googleanalytics/$~third-party,xmlhttprequest
+@@||images.news18.com^*/comscore.min.js$script,~third-party
 @@||imgur.com/min/px.js$~third-party
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
