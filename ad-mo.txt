@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5CKcxSIRUZN/JjK+nSAZVA
+! Checksum: yK+IyKiMoCuMzzCcdzSj4g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206221448
-! Last Modified: 2022年06月22日 14:48
+! Version: 202206221539
+! Last Modified: 2022年06月22日 15:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -63975,6 +63975,7 @@ ubmcmm.baidustatic.com
 ||tangkai.ltd^
 ||tklm77.top^
 !2305
+||maniconclavis.com^
 ||gfghr.com^
 ##a[href*=".xxgxqscl.com/"]
 ##a[href="https://guapitv.app/"]
@@ -79419,6 +79420,7 @@ piaotian5.net##script + div[style="padding:15px;"]
 piaotianxs.com##script ~ a
 smjb.net##div[style*="height: 50%"]
 ||1pwx.com/js/ck.js
+||biqugexx.com/js/jamq.
 ||20dcr.com/static/js/base.js
 ||222xs.com/js/greentea.js
 ||230book.net/js/sweetcake.js
@@ -79704,6 +79706,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||relliun.cn^
+||jinxian.co^
 ||fmgfqwe.xyz^
 ||172872.com^
 ||77tel.com^
@@ -79755,6 +79759,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wukelansm.top^
 ||zaixianweiyuanchuang.cn^
 !2302
+##a[href*=".hjikv.cc/"]
 ||xjfyx.com^
 ||zhihuichuxing.pw^
 ||zhjzjnb.xyz^
@@ -79765,6 +79770,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tongxinren.co^
 ||vz1m.com^
 !2212
+||nfflife.com^
 ||bestnfq.com^
 ||bestnfz.com^
 ||fangbaba.xyz^
@@ -112139,7 +112145,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(common\.|common_extra\.|bbcode\.|editor\.|forum\.|forum_post\.|forum_viewthread\.js|home\.|portal\.|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
@@ -112173,6 +112178,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fulitech.com.cn^*/float.js
 ||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
+||pcbeta.com/data/cache/*_*.js
 !------------------------Specific element hiding rules------------------------!
 docsmall.com##.modal-connection.show
 alibabacloud.com###carousel-whois
@@ -113196,6 +113202,10 @@ m.babytree.com##script + a[class]
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
+@@||pcbeta.com/data/cache/forum_viewthread.js
+@@||pcbeta.com/data/cache/common_extra.js
+@@||pcbeta.com/data/cache//common_
+@@||pcbeta.com/data/cache/forum_post.js
 !--------------------------------Tracking Systems-----------------------------!
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
