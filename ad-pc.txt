@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5rKHwOy/DoRknURxutrtOw
+! Checksum: P27ekMyRrG1psTzxRJO/NA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206221048
-! Last Modified: 2022年06月22日 10:48
+! Version: 202206221209
+! Last Modified: 2022年06月22日 12:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24960,6 +24960,7 @@ _800x80_
 ##.dfad_pos_5
 ##.dfad_pos_6
 ##.dfads-javascript-load
+##.dfm-featured-bottom-flex-container
 ##.dfp-ad
 ##.dfp-ad-advert_mpu_body_1
 ##.dfp-ad-bigbox2-wrap
@@ -32170,11 +32171,12 @@ _800x80_
 ##.pop-out-eplayer-container
 ##.primis-custom
 ##.primis-player
-##.s2nPlayer
+##.primis_1
 ##.send-to-news
 ##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
 ##.vidible-wrapper
+##[class^="s2nPlayer"]
 ##.BeOpWidget
 ##a[href^="http://get.slickvpn.com/"]
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
@@ -97020,6 +97022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestats.kaltura.com^
+||loader-cdn.azureedge.net^
 ||loader.zeroform.com^
 ||location3.com/analytics/
 ||log-*.previewnetworks.com^
@@ -98003,6 +98006,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vvhp.net/read/view.gif
 ||vwdealerdigital.com/cdn/sd.js
 ||w3track.com/newtrk/$third-party
+||w4o7aea80ss3-a.akamaihd.net^
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||wco.crownpeak.com^
@@ -100341,7 +100345,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.opentable.jp^
 ||track.opentable.nl^
 ||track.opentable.sg^
-||akamaihd.net^$image,domain=globalnews.ca
+||akamaihd.net^$image,domain=globalnews.ca|stcatharinesstandard.ca
 ||jeremiahlee.com/fanboynz.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
