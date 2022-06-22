@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: akgFCiu37jvzaQNvcVpzeA
+! Checksum: oNFu0oJAiAslnmE1D6jrtw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206222156
-! Last Modified: 2022年06月22日 21:56
+! Version: 202206222240
+! Last Modified: 2022年06月22日 22:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63746,7 +63746,7 @@ ubmcmm.baidustatic.com
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
-##a[href] > img[id][src*="hdslb.com"]
+##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
@@ -64087,6 +64087,8 @@ ubmcmm.baidustatic.com
 ||zhetoutiao.top^
 ||lhippac.cn^
 ||zhangzhiyang01.cn^
+##a[href*=".dztjy.com/"]
+||gytty.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
