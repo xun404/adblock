@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cXS71ujxTs4iwIPHWE4oCg
+! Checksum: p+oUCJnUBj8gfJzfPJHgXw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206220741
-! Last Modified: 2022年06月22日 07:41
+! Version: 202206221048
+! Last Modified: 2022年06月22日 10:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1907,6 +1907,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666597.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -9605,6 +9606,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vidcrunch.com/integrations/*_Responsive_*_DFP_$domain=discuss.com.hk
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 firefoxchina.cn##a[track_key="sites_saoma"]
@@ -17501,6 +17503,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||guoyang.us^
 ||yundaxue.love^
 ||hlryy.top^
+||bufan.in^
+||rmt.plus^
+||moxiang.plus^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||biercloud.love^
@@ -17590,6 +17595,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||fmgfqwe.xyz^
 ||172872.com^
 ||77tel.com^
 ||aa9q.cn^
@@ -22991,6 +22997,7 @@ _box_ad_
 /yksmartbanner.
 /z.zolapp.
 =Ad_ZPlusGoods&
+=window.awall.adblockwalltemplatefetchdef&
 !------------------------General element hiding rules-------------------------!
 ###doyoo_mon_mask
 ###doyoo_monitor
@@ -37759,6 +37766,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.cdn.circlesix.co^
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
+||tags.fullcontact.com^
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
@@ -49924,7 +49932,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
 ||2ememain.be/c3650cdf-
-||2ememain.be/px/fbif?
+||2ememain.be/px/
 ||actu.fr/assets/js/smarttag5280-1.js
 ||aliasdmc.fr/js/general_sts.js
 ||allocine.fr/_/geolocalize
@@ -50272,6 +50280,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stat.novinky.cz^
 ||stat.super.cz^
 ||statistics.csob.cz^
+||2dehands.be/px/
 ||aa.tweakers.nl^
 ||analytics.rambla.be^
 ||bc34.wijnvoordeel.nl^
@@ -51369,6 +51378,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
+@@||shoutcast.hubu.fm/stats?sid=$script,~third-party
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -51471,6 +51481,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||collectandgo.be^*/utag.sync.js
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
+@@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
 @@||travelbags.nl^*/web-vitals.$~third-party
