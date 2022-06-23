@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bHN80/m0AeX8KVnx73dEkg
+! Checksum: teAyVk8viJl7H0Gq2huS0Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206231302
-! Last Modified: 2022年06月23日 13:02
+! Version: 202206231342
+! Last Modified: 2022年06月23日 13:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25370,6 +25370,7 @@ m.babytree.com##script + a[class]
 /analytics/collect_
 /analytics/collector.
 /analytics/collector/*
+/analytics/collect|
 /analytics/content?
 /analytics/core.
 /analytics/custom
@@ -32923,6 +32924,7 @@ _mongo_stats/
 ||statcount.com^$third-party
 ||statcounter.com^$third-party
 ||statcounterfree.com^$third-party
+||stated.io^$third-party
 ||stathat.com^$third-party
 ||stathound.com^$third-party
 ||staticiv.com^$third-party
@@ -37135,6 +37137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loggingapi.spingo.com^
 ||loglady.skypicker.com^
 ||logs-api.shoprunner.com^
+||logs.animaapp.com^
 ||logs.datadoghq.com^$domain=~app.datadoghq.com
 ||logs.datadoghq.eu^$domain=~app.datadoghq.eu
 ||logs.spilgames.com^
@@ -50005,8 +50008,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||space-blogs.net/include/counter/
 ||stat.ouedkniss.com^
 ||stats.sexemodel.com^
-||stats.zone-annuaire.one^
-||stats.zone-telechargement.click^
+||stats.zone-annuaire.
+||stats.zone-telechargement.
 ||surace-jujitsu.fr/outils/compteur_php/
 ||t.blablacar.com^
 ||tc2.hometogo.net^
