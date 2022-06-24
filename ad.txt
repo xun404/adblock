@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tVh1s0hEdP1O30H7HNtemw
+! Checksum: 6xcTFtbGjEHsFfNU5dGYwg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206241043
-! Last Modified: 2022年06月24日 10:43
+! Version: 202206241219
+! Last Modified: 2022年06月24日 12:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1882,6 +1882,7 @@ ubmcmm.baidustatic.com
 ##.trad1
 ##.trad3
 ##.twavt-ads
+##div[id^="em"] > a[onclick^="em"][max-width]
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
@@ -2327,6 +2328,11 @@ ubmcmm.baidustatic.com
 ||vppvp.com^
 ||byqiu.xyz^
 ||zsgwed.cn^
+||sdutmedia.com^
+||l90.xyz^
+||666625.xyz^
+||laura.fun^
+||freebuy.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -13899,11 +13905,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
 ||u17i.com/readad/
-||u3c3.cc^*.gif
-||u3c3.cc^*.png
-||u3c3.com^*.gif
-||u3c3.org/3.png
-||u3c3.org^*.gif
 ||uc.cn/s/uae/g/0s/ua.js
 ||uc.zhuici.com^
 ||uc129.com/images/top_hjsj.jpg
@@ -19816,7 +19817,6 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 sm.cn##div[id^="dl-banner-"]
 fx678.com##div[id^="dl_"]
-c9e9.com,u3c3.cc,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
 3g.qq.com##div[id^="feed-omgad-"]
 lysq.com##div[id^="followDiv_"]
@@ -20375,6 +20375,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||hopto.org/js/prebid-ads.
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
