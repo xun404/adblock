@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +zZyn7tL8ZfWpl6zg0xKiw
+! Checksum: qAYa/McIiT6K0ppRNdvBFQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206241843
-! Last Modified: 2022年06月24日 18:43
+! Version: 202206241938
+! Last Modified: 2022年06月24日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -91441,6 +91441,7 @@ _mongo_stats/
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
 ||piratepx.com^$third-party
+||pirsch.io^$third-party
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||pixel.ad^$third-party
 ||pixel.watch^$third-party
@@ -91480,6 +91481,7 @@ _mongo_stats/
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
 ||postclickmarketing.com^$third-party
+||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
 ||predicta.net^$third-party
@@ -109851,7 +109853,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
-@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
+@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
