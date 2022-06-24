@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SxhofLhNcgj4ObAxkK/AUw
+! Checksum: d0ZuK4OkElcbAFQzs1oCzA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206241938
-! Last Modified: 2022年06月24日 19:38
+! Version: 202206242120
+! Last Modified: 2022年06月24日 21:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -74803,10 +74803,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||udn.com/common2/iframe/
 ||udn.com/SSI/neckFrame
 ||udn.com^*/ad/
-||ufanw.com/js/hongbao.js
 ||ufile.cc/crod.js
 ||uho.com.tw^$subdocument
-||ulifestyle.com.hk/images/*_300x100
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||union.591.com.tw/cpt?
 ||union.china.com.cn^
@@ -75477,6 +75475,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||qihengprint.cn/mxstatic/js/1.js
 !------------------------Specific element hiding rules------------------------!
+ufanw.com##.layui-layer
 szxx.com.cn###A0
 hao123.com##.insertad_wrapper
 ktsf.com###sow-slider-7
@@ -76350,7 +76349,6 @@ toolfk.com###layui-layer100001
 xixicai.top###left-box
 hao.360.com###left-float-animation
 hao.360.com###left-nav-place
-uzshare.com###left-panel
 baidu.com###left-promotion
 hao.360.cn###left-ria-fixed
 rising.cn###left50
@@ -79903,7 +79901,7 @@ fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_custom_html
 ssr.tools##.widget_custom_html:nth-child(n+2)
 423down.com##.widget_d_banner
 zhaiiker.com##.widget_index_add
-unikoshardware.com##.widget_jnews_popular ~ .uniko-widget
+unikoshardware.com##.elementor-image > a[href^="https://bit.ly/"]
 flyzy2005.com##.widget_kratos_ad
 carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
 meijumi.net##.widget_metaslider_widget
@@ -81134,7 +81132,7 @@ dpp.org.tw#@##ad_small
 tt1069.com#@##adbrite
 abbao.cn,tt1069.com,xietui.com#@##adcontent
 nfmovies.com#@##adright
-hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,ugediao.com,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
+hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
 wenku8.net#@##adtop
 union.58.com#@##advertise
 fxykx.com,pantsu.cat#@##banner_ad
@@ -81426,7 +81424,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ad.ourgame.com^
 @@||ad.thsi.cn/siteHome/
 @@||ad.unimhk.com/show.php?$domain=mnighthk.net
-@@||ad2.uoocuniversity.com^$~third-party
 @@||ad4.on.cc/web/www/delivery/ajs.php
 @@||ad4.on.cc/web/www/delivery/fl.js
 @@||ad4.on.cc/web/www/delivery/spc.php
@@ -81753,7 +81750,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||news.u17i.com/advert/
 @@||newsmth.net/nForum/*/ADAgent_
 @@||niotv.com^$generichide
-@@||niucache.com/service/www/ad/
 @@||nixingle.com/zhenbuka/statics/js/guanggao.js
 @@||noahedu.com/ad/$~third-party
 @@||noahedu.com/advertising/
@@ -110650,7 +110646,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
