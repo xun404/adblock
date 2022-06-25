@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mp83wXJxnnUOQoTJHXpIQA
+! Checksum: GLuFJ32lS/03JrMH+VyCuA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206260052
-! Last Modified: 2022年06月26日 00:52
+! Version: 202206260640
+! Last Modified: 2022年06月26日 06:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17545,6 +17545,8 @@ _800x80_
 ##.MadClose
 ##.MainAdCont
 ##.Main_right_Adv_incl
+##.MapLayout_BottomAd
+##.MapLayout_BottomMobiAd
 ##.MarketGid_container
 ##.MasterLeftContentColumnThreeColumnAdLeft
 ##.MbanAd
@@ -27195,8 +27197,6 @@ _800x80_
 ##.manual-ad
 ##.map-ad
 ##.mapAdvertising
-##.MapLayout_BottomAd
-##.MapLayout_BottomMobiAd
 ##.map_google_ad
 ##.map_media_banner_ad
 ##.mapped-ad
@@ -54902,6 +54902,7 @@ tf2r.com#@#.adverts
 ||borneobulletin.com.bn/wp-content/banners/
 ||botswanaguardian.co.bw/images/banners/
 ||boxthislap.org/app/uploads/logos/fanatec/
+||brighteon.tv/Assets/ARF/
 ||brisbanetimes.com.au/assets/europa.
 ||brudirect.com/images/banners/
 ||bugsfighter.com/wp-content/uploads/2020/07/malwarebytes-banner.jpg
@@ -55989,6 +55990,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||trannygem.com/ai
 ||tryboobs.com/bf/
 ||tubxporn.xxx/js/xp.js
+||txxx.com/api/input.php?
 ||txxx.com/uieisoudo/
 ||upornia.com/ptasrjjp/
 ||urgayporn.com/bn/
@@ -57045,7 +57047,6 @@ timesofindia.indiatimes.com##.addblock
 auto-data.net##.adin
 animalfactguide.com,portlandmonthlymag.com,sportsmediawatch.com##.adlabel
 corona.help##.adlg
-wncv.com##.simple-image
 prokerala.com##.adm-unit
 goldderby.com##.adma
 brickset.com##.admin.buy
@@ -58496,7 +58497,7 @@ independent.co.uk##.sc-jonzHS
 sankakucomplex.com##.scad
 bangordailynews.com##.scaip
 newindianexpress.com##.scc
-hentaihaven.xxx,hentaistream.tv##.script_manager_video_master
+hentaihaven.icu,hentaihaven.xxx,hentaistream.tv##.script_manager_video_master
 readmng.com##.scroll_target_top
 9anime.to,tennisuptodate.com##.sda
 apotelyt.com##.sdbrUnit-Flex100
@@ -58577,6 +58578,7 @@ ee.co.za##.sidepromo
 ohinternet.com##.sider
 atlasobscura.com##.siderail-bottom-affix-placeholder
 nabble.com##.signature
+wncv.com##.simple-image
 greatis.com##.sing
 metalsucks.net##.single-300-insert
 inoreader.com##.sinner_inner
@@ -59096,7 +59098,6 @@ gametracker.com##[href^="https://www.vultr.com/"]
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
 uncanceled.news##[href^="https://zstacklife.com/"]
 gelbooru.com##[href^='https://realbooru.com/']
-joxfm.com,jox2fm.com##a[href^="https://www.milb.com/"]
 searchenginejournal.com##[id^="SEJ_300x250_"]
 beforeitsnews.com##[id^="banners_"]
 geeksforgeeks.org##[id^="bsa-zone"]
@@ -59217,6 +59218,7 @@ pooletown.co.uk##a[href^="https://www.easyfundraising.org.uk"]
 futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 coachhuey.com##a[href^="https://www.hudl.com"]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
+jox2fm.com,joxfm.com##a[href^="https://www.milb.com/"]
 who.is##a[href^="https://www.name.com/redirect/"]
 kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
 lite105.com##a[href^="https://www.pellabranch.com/"]
@@ -59602,9 +59604,9 @@ petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
 consequence.net##.video_container
 consequence.net##.wasp-video-player
-firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
 wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
-xtrasports1300.com,wncv.com,wzpl.com,wlevradio.com,wxbm.com,wskz.com##a[href^="https://www.sweetdeals.com"]
+wlevradio.com,wncv.com,wskz.com,wxbm.com,wzpl.com,xtrasports1300.com##a[href^="https://www.sweetdeals.com"]
+firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###defaultLREC
 yahoo.com###sda-LDRB
@@ -61338,6 +61340,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
+@@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@||accounts.google.com^$popup
 @@||ad.doubleclick.net/clk*&destinationURL=$popup
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
@@ -61369,7 +61372,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adv.gg^$popup
 @@||adv.welaika.com^$popup
 @@||dashboard.mgid.com^$popup
-@@||data:text^$popup,domain=box.com|clker.com|labcorp.com|zipit.io
 @@||doubleclick.net/clk;$popup,domain=3g.co.uk|4g.co.uk|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com
 @@||g.doubleclick.net/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
 @@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
@@ -97658,6 +97660,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-files.prsmedia.fr^*/xiti/
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||cloudfront.net^$script,domain=gentside.com
+||collect-v6.51.la^
 ||compteur.websiteout.net^
 ||core.unit-sense.net^
 ||da-kolkoz.com/da-top/track/
@@ -109011,6 +109014,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||l.franceculture.fr^
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-layout/tracking-
+||lacoccinelle.net/g.js
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||lecho.be/fb2?
