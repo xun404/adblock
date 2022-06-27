@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ArMqdqjia6xvjh6kC+w/Mw
+! Checksum: 25E2VNpOtLFuHMB4lJ3URA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206270739
-! Last Modified: 2022年06月27日 07:39
+! Version: 202206271054
+! Last Modified: 2022年06月27日 10:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1930,6 +1930,8 @@ ubmcmm.baidustatic.com
 ||dkxobcs.cn^
 ||gfvip06af.com^
 ||f05.xyz^
+||btaawy.cn^
+||lingke03.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -13524,7 +13526,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upan.cc/images/pay/
-||upantool.com/a/
 ||upload.cc^$domain=141jj.com|mizhiav.com
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uugtv.com/x/app/videoSpread?
@@ -13534,7 +13535,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
 ||uxxux.com/js/zd.js
-||uzzf.com/skin/know/
 ||v.beta.yinyuetai.com/swf/plugins_new.xml?
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4dwkcv.com/html/click/
@@ -14181,6 +14181,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+udn.com##.sponsor-wrapper
+udn.com##div[class*="edn-ads"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16406,7 +16408,6 @@ duba.com##.box_shopping
 fx678.com##.box_video
 wltmv.com##.box_xf
 nxing.cn##.boxclose
-uzzf.com##.boxl
 wanqu.co##.brand-ad
 kehuan.net.cn##.bread_728x90
 cgown.com##.breadcrumb-gg
@@ -16559,7 +16560,6 @@ firefox.com.cn,firefoxchina.cn##.cont-promote
 ifeng.com##.cont_bottom_Yy
 ifeng.com##.cont_bottom_YySmall
 u-car.com.tw##.contad
-u-car.com.tw##.contad_text
 dragon-guide.net##.container > .gutter:first-child
 zxzjtv.com##.container > .none
 ygdy8.cc##.container > a[href^="/"]
@@ -16817,7 +16817,6 @@ huaban.com,start.firefoxchina.cn##.extra
 fanyi.baidu.com##.extra-banners
 douyu.com##.f-sign-cont
 user.qzone.qq.com##.f-single-biz
-uzzf.com##.f-uzzf-down
 nwell.net##.f14hui[width="25%"]
 xiaobaipan.com##.f_ad
 17gameworld.com,smallpopo.com##.fabox
@@ -18438,7 +18437,6 @@ dayanzai.me##.topban
 wenxuecity.com##.topbannerw
 kocpc.com.tw##.topbarad
 chromecj.com##.topblock
-uzzf.com##.topdown
 srzc.com##.topgg
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bibgame.com##.topicContent > font[color="red"]:last-child
@@ -38928,6 +38926,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inpref.s3.amazonaws.com^$third-party
 ||insight.fonecta.fi^
 ||tags.op-palvelut.fi^
+||vine.eu/track/
 ||links.boom.ge^
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
