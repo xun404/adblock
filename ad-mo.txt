@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n0WucoDfMA+Hb2zgifQ2ag
+! Checksum: G2+SV+tVxAbhxxN+tFFAyg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206271343
-! Last Modified: 2022年06月27日 13:43
+! Version: 202206271452
+! Last Modified: 2022年06月27日 14:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -61053,6 +61053,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
 @@||material.angular.io^$generichide
+@@||material.io^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -62678,7 +62679,6 @@ ubmcmm.baidustatic.com
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
-##.myui-vodlist__thumb[data-original*=".pstatp.com/"]
 ##.nQIAj
 ##.nQIAj1
 ##.nav-area + .wrapper .tuiguang
@@ -62988,7 +62988,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".iziyo.com/"]
 ##a[href*=".jgg18.me"]
 ##a[href*=".lacquermall.com/"]
-##a[href*=".madeqr.com/"] > img[src*=".pstatp.com/"]
 ##a[href*=".mieseng.com/"]
 ##a[href*=".open0317.top/"]
 ##a[href*=".qtj5.com/"]
@@ -63247,6 +63246,7 @@ ubmcmm.baidustatic.com
 ||ltht.tech^
 ||hbtyk.top^
 ##a[href*=".meta-wg.com/"]
+||666637.xyz^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -110224,6 +110224,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
+@@||material.io/inline-tools/direct-embed/bower_components/angularytics/$script,~third-party
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|driftinnovation.com|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
