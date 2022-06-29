@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 13uwIBHDRwd3o2IxenxfxQ
+! Checksum: ZMI1eeWSRihz9ffJ08eZtg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206291448
-! Last Modified: 2022年06月29日 14:48
+! Version: 202206291648
+! Last Modified: 2022年06月29日 16:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1971,6 +1971,8 @@ ubmcmm.baidustatic.com
 ||krkcryk.cn^
 ||yimi1818.xyz^
 ||yeyuly.love^
+||666642.xyz^
+||kzecc.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -14196,6 +14198,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
 91duba.com###topBanner
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -23514,6 +23517,8 @@ _box_ad_
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||pcbeta.com/data/cache/*_*.js
 !------------------------Specific element hiding rules------------------------!
+edrawsoft.cn##.activity-banner
+edrawsoft.cn##.bottom-banner-activity
 zhibo8.cc###popautoapp
 docsmall.com##.modal-connection.show
 alibabacloud.com###carousel-whois
@@ -24512,7 +24517,7 @@ crsky.com##a[href^="http://count."][href$=".exe"]
 ltn.com.tw##A[href*="draw.ltn.com.tw"]
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 baijiahao.baidu.com,feed.baidu.com##body > div[id$="-container"]:last-child
-cnbeta.com#?#div[style^="display:block !important;"]
+cnbeta.com##div[id][style^="position: fixed; bottom: 0px;"]
 cnbeta.com##div[style^="display:block !important;"]
 dongao.com##div[class^="fu_"]
 ifeng.com##div[class^="h"] > div[class$="-main"]
