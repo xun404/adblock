@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: inWRo3GrFqlA9QWmHZVj3w
+! Checksum: fp1maWVJbKqhkv/pYHrKOA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207012346
-! Last Modified: 2022年07月01日 23:46
+! Version: 202207020442
+! Last Modified: 2022年07月02日 04:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -50012,6 +50012,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
 ||geoip.finanzen.net^
+||glomex.com^$ping
 ||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
@@ -50026,8 +50027,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||logging.wilmaa.com^
 ||ma.tarnkappe.info^
 ||metrics.n-tv.de^
+||mlm-tracking-service.meinestadt.de^
 ||moviepilot.de/assets/autotrack-
 ||mydirtyhobby.de/tracker
+||navigation-timing.meinestadt.de^
 ||netzwelt.de/log?
 ||newsdeutschland.com/RPC.php
 ||nickles.de/ivw/
