@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: am2427BOpXsh5UwHbt3Cqw
+! Checksum: uvLQ39FUH//3KChCCkgA4g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207011843
-! Last Modified: 2022年07月01日 18:43
+! Version: 202207012155
+! Last Modified: 2022年07月01日 21:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63606,6 +63606,11 @@ ubmcmm.baidustatic.com
 ||nfhtech.com^
 ||uyzdcun.cn^
 ||scktmdv.cn^
+||mbxsku.cn^
+||badeniop.top^
+||kmvbre.com^
+||xiaodongrui.com^
+||weicun.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -110444,7 +110449,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
-@@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$script,~third-party
+@@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$~third-party,xmlhttprequest
 @@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
