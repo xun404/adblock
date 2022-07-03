@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eHLJCOgOasTCZOsnbLHzbg
+! Checksum: 7MKwYptga8lpVf416TFC3g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202207032342
-! Last Modified: 2022年07月03日 23:42
+! Version: 202207040053
+! Last Modified: 2022年07月04日 00:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -23856,7 +23856,7 @@ _box_ad_
 ||fulitech.com.cn^*/float.js
 ||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
-||pcbeta.com/data/cache/*_*.js
+||yaozh.com/Public/js/widget/dbAdDownload.
 !------------------------Specific element hiding rules------------------------!
 edrawsoft.cn##.activity-banner
 edrawsoft.cn##.bottom-banner-activity
@@ -24883,10 +24883,6 @@ m.babytree.com##script + a[class]
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
-@@||pcbeta.com/data/cache/forum_viewthread.js
-@@||pcbeta.com/data/cache/common_extra.js
-@@||pcbeta.com/data/cache//common_
-@@||pcbeta.com/data/cache/forum_post.js
 !--------------------------------Tracking Systems-----------------------------!
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
@@ -24902,6 +24898,7 @@ m.babytree.com##script + a[class]
 /v.gif?logtype=
 /yesky/js/counter/*
 /zcool-analytics.js
+||wujiupic.com^
 ||video.qq.com/checktime?
 ||cdn-data-cloud.com/history/
 ||s.ssl.qhres2.com/ssl/
