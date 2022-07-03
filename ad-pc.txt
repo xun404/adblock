@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A4vTscMpJsw2+qsOTwTX3A
+! Checksum: HZk9by3cNDTOB7/TaXELkA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207031051
-! Last Modified: 2022年07月03日 10:51
+! Version: 202207031206
+! Last Modified: 2022年07月03日 12:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24368,6 +24368,7 @@ _800x80_
 ##.c-main-header__ad
 ##.c-news-feed-ads
 ##.c-partner-articles
+##.c-posts__ad
 ##.c-res-ad
 ##.c-sitenav-adslot
 ##.c-sitenavPlaceholder__ad
@@ -55716,6 +55717,7 @@ tf2r.com#@#.adverts
 ||jwplayer.com^$domain=dexerto.com|gamesradar.com|ginx.tv|spokesman-recorder.com|tomshardware.com|whathifi.com
 ||live.primis.tech^$third-party
 ||minute.ly^$third-party
+||minutemedia-prebid.com^$third-party
 ||minutemediaservices.com^$third-party
 ||play.springboardplatform.com^
 ||playbuzz.com/embed/$script,third-party
@@ -55733,7 +55735,6 @@ tf2r.com#@#.adverts
 ||video-streaming.ezoic.com^
 ||vidora.com^$third-party
 ||viewdeos.com^$script,third-party
-||vms-players.minutemediaservices.com^$script,third-party
 ||voqally.com/hub/app/
 ||vplayer.newseveryday.com^
 ||widgets.outbrain.com^$domain=cnn.com|mamasuncut.com
@@ -57595,6 +57596,7 @@ bhamnow.com##.bhamn-adlabel
 bhamnow.com##.bhamn-story
 viva.co.nz##.big-banner
 hotnewhiphop.com##.big-banner-placeholder-content
+cbc.ca##.bigBoxContainer
 newzit.com##.big_WcxYT
 gamemodding.com##.big_banner
 hellenicshippingnews.com##.bigbanner
@@ -58329,7 +58331,7 @@ blaauwberg.net##.leaderBoardContainer
 techadvisor.com##.leaderBoardHolder
 agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 edarabia.com##.leaderboard-728
-edarabia.com##.leaderboard-970
+abcnews.go.com,edarabia.com##.leaderboard-970
 roblox.com##.leaderboard-abp
 poe.ninja##.leaderboard-bottom
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com,usgamer.net##.leaderboard-container
@@ -75713,6 +75715,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+v2rayssr.com##.slider-4-box1
+v2rayssr.com###b2-widget-html-12
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -98874,6 +98878,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
+||data.guide.photobucket.com^
 ||data.webullfintech.com/event/
 ||data.younow.com^
 ||dc.banggood.com^
