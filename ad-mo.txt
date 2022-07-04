@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3q+DrkmP7WDzG3Fl4vWzdQ
+! Checksum: A5ANyujl7U7z5yR+ul7SSQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207041231
-! Last Modified: 2022年07月04日 12:31
+! Version: 202207041346
+! Last Modified: 2022年07月04日 13:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18847,6 +18847,7 @@ _800x80_
 ##.ad-side
 ##.ad-side-one
 ##.ad-side-top
+##.ad-side-wrapper
 ##.ad-sidebar
 ##.ad-sidebar-180-150
 ##.ad-sidebar-300-250
@@ -18859,7 +18860,6 @@ _800x80_
 ##.ad-sidebar_right_below
 ##.ad-sidekick
 ##.ad-siderail
-##.ad-side-wrapper
 ##.ad-signup
 ##.ad-single-bottom
 ##.ad-sitewide
@@ -63596,6 +63596,8 @@ ubmcmm.baidustatic.com
 ||voihkjd.cn^
 ||xyhly.xyz^
 ||hlww66.site^
+||neornad.cn^
+||wchh.online^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -111055,6 +111057,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
 @@||avito.st/s/a/i/0.gif$image,domain=avito.ru
+@@||bitrix.info/ba.js$domain=galamart.ru
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/tracking.service/
 @@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
