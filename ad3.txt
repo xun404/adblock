@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CdG6kvh3i1OVF+PkheZdKg
+! Checksum: h1Ji9ea4t5oEufFiiOwjLQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207051057
-! Last Modified: 2022年07月05日 10:57
+! Version: 202207051220
+! Last Modified: 2022年07月05日 12:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1474,6 +1474,7 @@ ubmcmm.baidustatic.com
 ##.yd_ad2
 ##.yd_ad3
 ##.yd_ad5
+##.kuandu > .bottommob
 ##.yd_ad6
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
@@ -2076,6 +2077,10 @@ ubmcmm.baidustatic.com
 ||zhoudm.love^
 ||zsgwed.cn^
 ||zzycj.com^
+||luotuoma.center^
+||goldnfh.com^
+||666653.xyz^
+||woven.pw^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -25507,6 +25512,7 @@ m.babytree.com##script + a[class]
 /apilog?
 /apis/cpt.php?
 /apis/facebook_conversion
+/apis/track_view_product
 /apixel?
 /app-measurement?
 /app/tracking/*
@@ -50253,7 +50259,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rcgi.video.qq.com^
 ||rec.udn.com^
 ||referer.pixplug.in^
-||regimeal.hk/apis/track_view_product
 ||reportsk.web.sdo.com^
 ||retcode.taobao.com^
 ||rgd.com.cn/counter/
