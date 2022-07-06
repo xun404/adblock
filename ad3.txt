@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O2g/p+3NJq0so6JcfeEXvg
+! Checksum: HWqQDorg8BhAoDpj0v0mQA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207061941
-! Last Modified: 2022年07月06日 19:41
+! Version: 202207062127
+! Last Modified: 2022年07月06日 21:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2105,6 +2105,9 @@ ubmcmm.baidustatic.com
 ||hfzq1600.com^
 ||kimiaexirteb.com^
 ||yiuspekmn.bar^
+||mttty.top^
+##a[href*=".tholikiranam.com/"]
+||colour5.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -26152,7 +26155,6 @@ m.babytree.com##script + a[class]
 /contador.gif?
 /containerTag.js
 /containertag?
-/content-targeting-
 /contentanalytics/*
 /contentiq.js
 /ContentTrackingCall.
@@ -27439,6 +27441,7 @@ m.babytree.com##script + a[class]
 /log/?pixel=
 /log/analytics
 /log/browser/event
+/log/businessEvent?
 /log/collect/*
 /log/counter?
 /log/error?
@@ -30586,6 +30589,7 @@ _mongo_stats/
 ||bydst.com^
 ||captcha-display.com^
 ||cdnhst.xyz^
+||ciqtracking.com^
 ||click360.io^
 ||cloudwp.io^
 ||clrt.ai^
@@ -30708,6 +30712,8 @@ _mongo_stats/
 ||progmxs.com^
 ||propeller-tracking.com^
 ||pubtm.com^
+||pzapi-ij.com^
+||pzimff.com^
 ||quantserve.com^
 ||quickanalytics.ca^
 ||quickkoala.io^
@@ -51915,6 +51921,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bancosantander.es/pagos-inmediatos/common/js/modules/tealium.js$~third-party
 @@||c5n.com^*/angulartics-google-analytics.min.js
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
+@@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
 @@||doctorzerenia.com/home/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||ecestaticos.com/build/js/common/statistics/engines/deepbieventadapter.$domain=elconfidencial.com
