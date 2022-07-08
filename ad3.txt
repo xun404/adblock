@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yW0Jv9rusIu5PFvHgFFGrA
+! Checksum: qhV4OfE0C1TNpiU0ZB22hQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207081304
-! Last Modified: 2022年07月08日 13:04
+! Version: 202207081343
+! Last Modified: 2022年07月08日 13:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14178,6 +14178,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+preface.ai##.cs-sidebar__inner > .widget_media_image
+preface.ai##a[href*="bit.ly"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -51786,6 +51788,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||mediaweaver.jp^$image,domain=ismedia.jp
+@@||minkou.jp/js/tracking.js$~third-party
 @@||muumuu-domain.com/common/js/ga_social_tracking.js
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
