@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uEfPQA3F1XLmI/d+1VSsQw
+! Checksum: uuei0hMnNcy/x9jR41OpxA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207080742
-! Last Modified: 2022年07月08日 07:42
+! Version: 202207081053
+! Last Modified: 2022年07月08日 10:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -28052,7 +28052,7 @@ m.babytree.com##script + a[class]
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
+/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
 /pageviews?token=
 /pageviews_counter.
 /PageviewsTracker.
@@ -28393,7 +28393,7 @@ m.babytree.com##script + a[class]
 /RadioAnalyticsIframe.js
 /radium-one.js
 /rainbow/master-js
-/rainbow/track
+/rainbow/track|
 /ravelin-*-track.min.js
 /rbi_us.js
 /rbipt.gif?
@@ -37842,7 +37842,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sunset.com/tia/
 ||survey.interquest.com^
 ||survey.io/log?
-||surveymonkey.com/collect/
+||surveymonkey.com/collect/$third-party
 ||surveymonkey.com/resp/api/metrics
 ||surveywall-api.survata.com^$third-party
 ||sv.aq.qq.com^
@@ -37973,6 +37973,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.atgstores.com^$third-party
 ||track.atom-data.io^
 ||track.bannedcelebs.com^
+||track.coherentpath.com^
 ||track.contently.com^
 ||track.cordial.io^
 ||track.custora.com^
