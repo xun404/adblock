@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iuzMFyTIDTvW4+7/UUluSw
+! Checksum: nCPaXTYegoqIjP3if6wsVA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207101339
-! Last Modified: 2022年07月10日 13:39
+! Version: 202207101643
+! Last Modified: 2022年07月10日 16:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2189,6 +2189,9 @@ ubmcmm.baidustatic.com
 ||yuvvddt.cn^
 ||gnbunbiv.rest^
 ||qsxfsp.shop^
+||mthdqs.cn^
+||ghhtt.top^
+##a[href*=".qilinsb.com/"]
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -40671,6 +40674,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citibank.com.ph/tmx/js/
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
+||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
+||ebaystatic.com/rs/v/enk4ekgiky2ufpj3l2fgfblxaqd.js
+||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
@@ -51564,7 +51570,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
 @@||omtrdc.net/b/ss/$image,domain=britishairways.com|costco.com|halifax-online.co.uk|logmein.com|macworld.com|msnbc.com|nbc.com|pcworld.com|techhive.com|usanetwork.com
 @@||omtrdc.net/rest/$xmlhttprequest
-@@||securemetrics.apple.com/b/ss/$image
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
 @@||google.com/analytics/$domain=analytics.google.com
 !----------------Allowlists to fix broken international sites-----------------!
