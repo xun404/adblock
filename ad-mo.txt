@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F5yAIHavsb504udoipp/nw
+! Checksum: vDoF0j8G3uXlUUhsx80fbg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207101056
-! Last Modified: 2022年07月10日 10:56
+! Version: 202207101205
+! Last Modified: 2022年07月10日 12:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -61055,6 +61055,7 @@ hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 analpornpix.com##[src^="https://analpornpix.com/t/153"]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 porngames.club##[src^="https://wheelwheel.space/"]
+hentai-gamer.com##[src^="https://www.hentai-gamer.com/pics/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
@@ -63936,6 +63937,9 @@ ubmcmm.baidustatic.com
 ||lvjoe.pw^
 ||gogpix.cn^
 ||7080ys.top^
+||rofvjko.cn^
+||yuvvddt.cn^
+||gnbunbiv.rest^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -75967,6 +75971,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+theporn.cc##.toolbar-gg
+theporn.cc##.gg-config
+vpsmm.com#?#.sidebar div:-abp-has(>a>img)
+vpsmm.com##.top_a1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -79983,7 +79991,7 @@ firefoxchina.cn##.sp-content
 zww.me##.sp-top-img
 missyuan.com##.spaceborder
 baidu.com##.spage-couplet-container
-vpsdx.com##.span4 > a > img
+vpsdx.cn,vpsdx.com##.span4 > a > img
 ithome.com.tw##.span4:nth-child(5)
 ithome.com.tw##.span4:nth-child(8)
 shmet.com##.spb-biz-cont
@@ -85780,6 +85788,7 @@ fqsousou.com,kengso.com#@#.user-share
 /counter.visit?
 /Counter.woa/*
 /counter/*?rnd=$image
+/counter/?*&ref=
 /counter/?*&referer=
 /counter/?type=
 /counter/action_
@@ -109924,6 +109933,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||sugar.zhihu.com^
 ||tbskip.taobao.com^$script
 ||tf.360.cn^
+||theporn.cc/anyalytics?
 ||tianxun.com/ajax_website_statistics.
 ||titan24.com/scripts/stats.js
 ||tongji.mafengwo.cn^
