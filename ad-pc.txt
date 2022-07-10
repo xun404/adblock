@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DmTe1A3kw2eyNONmNq8HXA
+! Checksum: F+yi+25+67ggKzI7Plf8QA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207100741
-! Last Modified: 2022年07月10日 07:41
+! Version: 202207101056
+! Last Modified: 2022年07月10日 10:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3457,7 +3457,7 @@ tieba.baidu.com##.tuijian-wrap
 /advelvet-
 /advengine.
 /adver-left.
-/adver.$domain=~adver.biz|~adver.by|~adver.media|~adver.vn
+/adver.$domain=~adver.biz|~adver.by|~adver.live|~adver.media|~adver.vn
 /adver/?a=
 /adver_hor.
 /adver_img/*
@@ -11657,6 +11657,7 @@ _800x80_
 ###adsquare
 ###adsquare2
 ###adsright
+###adsright_header
 ###adss
 ###adsside
 ###adssidebar2
@@ -17496,6 +17497,8 @@ _800x80_
 ##.BCA_Advertisement
 ##.BGoogleAds300
 ##.BOT-ADS
+##.BOX_Ad
+##.BOX_LeadAd
 ##.Banner300x250
 ##.Banner468X60
 ##.BannerAD728
@@ -18249,6 +18252,7 @@ _800x80_
 ##.ad-banner-btf
 ##.ad-banner-container
 ##.ad-banner-content
+##.ad-banner-full-wrapper
 ##.ad-banner-image
 ##.ad-banner-inlisting
 ##.ad-banner-label
@@ -18450,6 +18454,7 @@ _800x80_
 ##.ad-content-area
 ##.ad-content-rectangle
 ##.ad-content-slot
+##.ad-content-wrapper
 ##.ad-context
 ##.ad-cover
 ##.ad-ctn
@@ -19246,6 +19251,7 @@ _800x80_
 ##.ad-wrapper--slideshowhalfpage
 ##.ad-wrapper-bg
 ##.ad-wrapper-left
+##.ad-wrapper-mobile-atf
 ##.ad-wrapper-outer
 ##.ad-wrapper-sticky
 ##.ad-wrapper-top
@@ -23311,6 +23317,7 @@ _800x80_
 ##.area_ad07
 ##.area_ad09
 ##.area_ad2
+##.arena-ad-col
 ##.aroundAdUnit
 ##.artAd
 ##.artAdInner
@@ -32083,6 +32090,7 @@ _800x80_
 ##app-ad
 ##app-advertisement
 ##app-large-ad
+##ark-top-ad
 ##aside[id^="adrotate_widgets-"]
 ##aside[id^="advads_ad_widget-"]
 ##aside[id^="tn_ads_widget-"]
@@ -54270,6 +54278,7 @@ tf2r.com#@#.adverts
 ||gfxa.sheetmusicplus.com^
 ||gg.caixin.com^
 ||giffgaff.com/banner/
+||giphy.com/embed/$domain=srilankamirror.com
 ||glam.com/app/
 ||glam.com/gad/
 ||go.bloxplay.com^
@@ -54482,6 +54491,7 @@ tf2r.com#@#.adverts
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
 ||static.tradetracker.net^$third-party
+||storage.googleapis.com/cdn.newsfirst.lk/advertisements/$domain=newsfirst.lk
 ||supply.upjers.com^
 ||surveymonkey.com/jspop.aspx?
 ||sweeva.com/images/banner250.gif
@@ -55400,6 +55410,8 @@ tf2r.com#@#.adverts
 ||dafont.com/img/fontscom_banner.png
 ||daily-sun.com/assets/images/banner/
 ||dailymail.co.uk^*/linkListItem-$domain=thisismoney.co.uk
+||dailymirror.lk/youmaylike
+||dailynews.lk/sites/default/files/pictures/BO-Banner-NEW.gif
 ||daniweb.com/js/articles/bsa/
 ||datum0.blockchair.io^
 ||delivery.smashing.services^
@@ -55702,6 +55714,7 @@ tf2r.com#@#.adverts
 ||sorcerers.net/includes/butler/
 ||southfloridagaynews.com/images/banners/
 ||sportpesanews.com/images/promo/
+||srilankamirror.com/images/banners/
 ||startpage.com/sp/adsense/
 ||static.fastpic.org^$subdocument
 ||static.tellerium.com^$subdocument
@@ -55714,6 +55727,7 @@ tf2r.com#@#.adverts
 ||streamtape.site/adult
 ||strtapeadblock.club/adult
 ||strtpe.link/ppmain.js
+||sundayobserver.lk/sites/default/files/pictures/COVID19-Flash-1_0.gif
 ||surfmusic.de/anz
 ||survivalblog.com/marketplace/
 ||szm.com/reklama
@@ -56638,7 +56652,7 @@ gayvegas.com###background
 wallpapersmania.com###backgroundPopup
 soccerbase.com###ball_splash_holder
 gamepressure.com###baner-outer
-allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,eth-converter.com,farmtrader.co.nz,freealts.pw,goosegame.io,greatbritishchefs.com,moviesfoundonline.com,openstreetmap.org,vstreamhub.com###banner
+allmyfaves.com,allthetests.com,dailynews.lk,dealsonwheels.co.nz,dosgamesarchive.com,eth-converter.com,farmtrader.co.nz,freealts.pw,goosegame.io,greatbritishchefs.com,moviesfoundonline.com,openstreetmap.org,sundayobserver.lk,vstreamhub.com###banner
 euroweeklynews.com###banner-970
 bbcamerica.com,ifc.com,sundancetv.com,wetv.com###banner-bottom
 bolor-toli.com###banner-clear
@@ -57221,6 +57235,7 @@ downloads.codefi.re###spo2
 firmwarefile.com###spon
 progressillinois.com###sponsor
 meteocentrale.ch###sponsor-info
+newsfirst.lk###sponsored-content-1
 fastseduction.com,geekwire.com,landreport.com,whenitdrops.com###sponsors
 sanjose.com###sponsors-module
 ourworldofenergy.com###sponsors_container
@@ -57856,6 +57871,7 @@ flashscore.co.uk##.boxOverContent__banner
 fliiby.com##.box_300x250
 tribunnews.com##.box__reserved
 zambianeye.com##.box_skitter
+functions-online.com##.box_wide
 canadaka.net##.boxadd
 businessplus.ie##.bp_billboard_single
 brainyquote.com##.bq_ad_320x250_multi
@@ -57942,7 +57958,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,charlieintel.com,cryptoslate.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,iotwreport.com,rezence.com,rok.guide##.code-block
+browserhow.com,charlieintel.com,chromeunboxed.com,cryptoslate.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,iotwreport.com,rezence.com,rok.guide##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 trendingpolitics.com##.code-block-12
@@ -58774,6 +58790,7 @@ phorio.com##.partnerlogos-wrapper
 2oceansvibe.com,speedcafe.com,travelweekly.com##.partners
 letsgodigital.org,letsgomobile.org##.partners-bar
 cbn.com##.partners-block
+practicalecommerce.com##.partners-sidebar
 arrivealive.co.za##.partnersheading
 liveuamap.com##.passby
 writerscafe.org##.pay
@@ -59533,7 +59550,7 @@ naturalnewsblogs.com##[href*="/WBA/"]
 complaintsingapore.com##[href*="/adv.php"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,thinknews.com.ng,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,biblestudytools.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,newsfirst.lk,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,thinknews.com.ng,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 beforeitsnews.com,bigleaguepolitics.com,in5d.com,thetruedefender.com##[href*="hop.clickbank.net"]
 steroid.com##[href*="https://www.anabolics.com"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
@@ -60035,12 +60052,12 @@ thebradentontimes.com##img[class^="custom_adgroup_"]
 everybithelps.co.uk##img[data-orig-size="728,90"]
 wjr.com##img[height="100"]
 prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
-german-way.com,power987.co.za,qsaltlake.com,tfetimes.com##img[height="250"]
+dailynews.lk,german-way.com,power987.co.za,qsaltlake.com,tfetimes.com##img[height="250"]
 newyorkyimby.com##img[height="280"]
 ciiradio.com,hapskorea.com,thetruthwins.com##img[height="300"]
 elitepvpers.com,pointblanknews.com,sharktankblog.com##img[height="60"]
 cryptofeeds.news,newswireni.com,power987.co.za##img[height="600"]
-airplaydirect.com,cultofcalcio.com,economicconfidential.com,newzimbabwe.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
+airplaydirect.com,cultofcalcio.com,dailynews.lk,economicconfidential.com,newzimbabwe.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com##img[height="90"]
 windycitymediagroup.com,windycitytimes.com##img[name="Sponsor"]
 modelhorseblab.com##img[name="js_ad"]
 callofwar.com,macworld.co.uk,supremacy1914.com,techadvisor.com##img[referrerpolicy]
@@ -64029,6 +64046,8 @@ ubmcmm.baidustatic.com
 ||pqfgtp.cn^
 ||siqwfy.cn^
 ||lvjoe.pw^
+||gogpix.cn^
+||7080ys.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -89129,6 +89148,7 @@ fqsousou.com,kengso.com#@#.user-share
 /TrackingService.js
 /trackingService.min.js
 /trackingService/*
+/trackingTools.
 /trackingVtm.
 /trackinpage.js
 /trackIt.js
@@ -110899,7 +110919,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
-@@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com
+@@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|usbank.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
@@ -111555,6 +111575,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||ozone.ru/assets/analytics.$script,~third-party
+@@||pay.citylink.pro/stats/services/$~third-party
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party

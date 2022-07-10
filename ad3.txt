@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IUFQ9XLMg5RoN4KzCu111A
+! Checksum: KhTK2pbesRr4ejVPXGoi+Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207100741
-! Last Modified: 2022年07月10日 07:41
+! Version: 202207101056
+! Last Modified: 2022年07月10日 10:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2183,6 +2183,8 @@ ubmcmm.baidustatic.com
 ||pqfgtp.cn^
 ||siqwfy.cn^
 ||lvjoe.pw^
+||gogpix.cn^
+||7080ys.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -29556,6 +29558,7 @@ m.babytree.com##script + a[class]
 /TrackingService.js
 /trackingService.min.js
 /trackingService/*
+/trackingTools.
 /trackingVtm.
 /trackinpage.js
 /trackIt.js
@@ -51326,7 +51329,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
-@@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com
+@@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|usbank.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
@@ -51982,6 +51985,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||ozone.ru/assets/analytics.$script,~third-party
+@@||pay.citylink.pro/stats/services/$~third-party
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
