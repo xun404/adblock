@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q3dUNRZ7J+rqoAoQlYWdGw
+! Checksum: vakWvS79ZVoADRqDPqTZLg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207110740
-! Last Modified: 2022年07月11日 07:40
+! Version: 202207111049
+! Last Modified: 2022年07月11日 10:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9074,6 +9074,7 @@ _800x80_
 ###ad-banner-atf
 ###ad-banner-body-top
 ###ad-banner-bottom
+###ad-banner-btf
 ###ad-banner-desktop
 ###ad-banner-image
 ###ad-banner-lock
@@ -13661,6 +13662,11 @@ _800x80_
 ###div-id-for-interstitial-ad
 ###div-insticator-ad-1
 ###div-insticator-ad-2
+###div-insticator-ad-3
+###div-insticator-ad-4
+###div-insticator-ad-5
+###div-insticator-ad-6
+###div-insticator-ad-9
 ###div-social-ads
 ###div-vip-ad-banner
 ###div-web-ad-billboard
@@ -24522,6 +24528,8 @@ _800x80_
 ##.channelBoxAds
 ##.channel_ad_2016
 ##.channel_brand_ad
+##.chapter-bottom-ads
+##.chapter-top-ads
 ##.chart_ads
 ##.chartad
 ##.chartlist-row--interlist-ad
@@ -33384,6 +33392,7 @@ tf2r.com#@#.adverts
 ||accedebuzz.com^
 ||accedednews.com^
 ||accedenonre.club^
+||acceptabletally.com^
 ||acckwmhi.com^
 ||acclaimrecommendation.com^
 ||accoladethoroughly.com^
@@ -47153,6 +47162,7 @@ tf2r.com#@#.adverts
 ||tcatholicyclea.com^
 ||tcdnwha.com^
 ||tcoekdwnuveaisk.com^
+||tcpcharms.com^
 ||tcppu.com^
 ||td553.com^
 ||td563.com^
@@ -54140,6 +54150,7 @@ tf2r.com#@#.adverts
 ||appdevsecrets.com/images/nuts/
 ||appnext-a.akamaihd.net^
 ||apps.media-lab.ai^
+||aspencore.com/syndication/v3/partnered-content/
 ||assets.sheetmusicplus.com^$third-party
 ||autodealer.co.za/inc/widget/
 ||autotrader.ca/result/AutosAvailableListings.aspx?
@@ -56179,6 +56190,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||aligonewild.com/images/extra/
 ||allporncomic.com/round-bread-60fe/
 ||alrincon.com/nbk/
+||amateurporn.me/banners/
 ||analsexstars.com^$subdocument
 ||anybunny.tv/js/main.ex.js
 ||anyporn.com/aa/
@@ -56580,6 +56592,7 @@ healthline.com###DMR1__slot
 tweaktown.com###DesktopTop
 road.cc###Footer-Billboard
 fanlesstech.com###HTML2 > .widget-content
+fanlesstech.com###HTML3
 fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
@@ -56597,6 +56610,7 @@ audioz.download###PromoHead
 sciencealert.com###Purch_D_R_0_1
 fortune.com###RightRailFlex_Articles0
 calculatorsoup.com###RightSidebar
+edn.com###SideBarWrap
 soapcalc.net###SidebarLeft
 daringfireball.net###SidebarMartini
 soapcalc.net###SidebarRight
@@ -56685,7 +56699,7 @@ classic97.net,lagostalks.com###banner1
 classic97.net,lagostalks.com###banner2
 gamesfree.com###banner300
 metric-conversions.org###bannerSpace
-planetanalog.com###bannerWrap
+edn.com,planetanalog.com###bannerWrap
 webtoolhub.com###banner_704_134
 webtoolhub.com###banner_719_105
 today.az###banner_750x90
@@ -56877,6 +56891,7 @@ goodgearguide.com.au,pcworld.idg.com.au###float_leaderboard_bottom
 kissanime9.net###floatcenter
 compoundsemiconductor.net###floor-banner
 streams.tv###flowerInGarden
+fanlesstech.com###footer-1
 spectator.co.uk###footer-banner
 bundesliga.com###footer-partnerlogo
 warcraftpets.com###footer-top
@@ -57346,6 +57361,7 @@ capetownmagazine.com###top-leader-wrapper
 thegazette.com###top-leaderboard
 gogetaroomie.com###top-space
 imassera.com###top-sponsor
+progameguides.com###top-sticky-sidebar-container
 dotesports.com,gamepur.com###top-sticky-sidebar-wrapper
 nytimes.com,nytimes3xbfgragh.onion###top-wrapper
 danpatrick.com###topBannerContainer
@@ -60503,6 +60519,7 @@ instantfap.com###af
 pervclips.com###after-adv
 avgle.com###aoverlay
 literotica.com###b-top
+filtercams.com###bannerFC
 cuntest.net###banners
 nudesjar.com###bbbb
 sexyandfunny.com###best-friends
@@ -60739,8 +60756,8 @@ javlibrary.com##.bottombanner2
 hd-easyporn.com##.box
 bravotube.net##.box-left
 sexvid.xxx##.box_site
-dcraddock.uk##.boxzilla-container
-dcraddock.uk##.boxzilla-overlay
+capitalregionusa.xyz,dcraddock.uk##.boxzilla-container
+capitalregionusa.xyz,dcraddock.uk##.boxzilla-overlay
 hentaianimedownloads.com##.bp_detail
 bravotube.net##.brazzers
 xozilla.com##.brazzers-link
@@ -60873,7 +60890,7 @@ darknessporn.com,familyporner.com,pisshamster.com,xanimu.com##.inside-list-boxes
 playvids.com,pornflip.com##.invideoBlock
 amateur8.com##.is-av
 e-hentai.org##.itd[colspan="4"]
-eachporn.com##.item[style]
+amateurporn.me,eachporn.com##.item[style]
 drtuber.com##.item_spots
 escortdirectory.com##.ixs-govazd-item
 alastonsuomi.com##.jb
@@ -61048,7 +61065,7 @@ hclips.com##.suggestions
 pornmd.com##.suggestions-box
 simply-hentai.com##.superbanner
 exhibporno.com##.syn
-18porn.sex,4kporn.xxx,bigtitslust.com,daporn.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,pornwild.com,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
+18porn.sex,4kporn.xxx,amateurporn.me,bigtitslust.com,daporn.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,pornwild.com,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 pronpic.org##.teaser
@@ -64088,6 +64105,9 @@ ubmcmm.baidustatic.com
 ||dokawd.cn^
 ||rowemfg.com^
 ||iceplant.hk^
+||cjwtkm.cn^
+||cytrd0.site^
+||gfnormal00an.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -89722,6 +89742,7 @@ fqsousou.com,kengso.com#@#.user-share
 /yell-analytics-
 /yell-analytics.
 /yna_stat.
+/youtubeVideoAnalytic.js
 /ystat.do
 /ystat.js
 /yt-track-streamer
@@ -95459,6 +95480,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ukw.jp^$third-party
 ||uncn.jp^$third-party
 ||wonder-ma.com^$third-party
+||zerostats.com^$third-party
 ||ziyu.net^$third-party
 ||zucks.net^$third-party
 ||acrosspf.com^$third-party
@@ -110348,6 +110370,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ln.ameba.jp^
 ||log.suumo.jp^
 ||logql.yahoo.co.jp^
+||m-oo-m.com/data/report/
 ||measure.ameblo.jp^
 ||nhk.or.jp^*/bc.js
 ||nikkei.com/.resources/tracking/
@@ -111171,11 +111194,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||app.clarity.so^$~third-party
 @@||calo.extole.io^$script,xmlhttprequest,domain=refer.calo.app
+@@||cbsi.map.fastly.net^
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
+@@||wwwimage-tve.cbsstatic.com^
 @@||api.nyda.pro^$websocket
 @@||szukajka.tv/jsverify.php$~third-party,xmlhttprequest
 @@||szukajka.tv/szukaj|$~third-party,xmlhttprequest
