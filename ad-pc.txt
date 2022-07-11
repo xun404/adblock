@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mUpzfjWd1ZpSJv2S6U7RKg
+! Checksum: iUF24HUc4AF8JM2k/4tlxA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207120103
-! Last Modified: 2022年07月12日 01:03
+! Version: 202207120740
+! Last Modified: 2022年07月12日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8235,6 +8235,7 @@ _800x80_
 /prod/go.html?$popup
 /prod/redirect.html?lu=$popup
 /realmedia/ads/*$popup
+/redirect?tid=$popup
 /show?bver=$popup
 /smartpop/*$popup
 /srvclk.php?$popup
@@ -31999,6 +32000,7 @@ _800x80_
 ##a[href^="https://spygasm.com/track?"]
 ##a[href^="https://squren.com/rotator/?atomid="]
 ##a[href^="https://static.fleshlight.com/images/banners/"]
+##a[href^="https://streamate.com/landing/click/"]
 ##a[href^="https://syndication.dynsrvtbg.com/"]
 ##a[href^="https://syndication.exoclick.com/"]
 ##a[href^="https://syndication.optimizesrv.com/"]
@@ -32042,6 +32044,7 @@ _800x80_
 ##a[href^="https://trust.zone/go/r.php?RID="]
 ##a[href^="https://trusted-click-host.com/"]
 ##a[href^="https://ttf.trmobc.com/"]
+##a[href^="https://twinrdsyn.com/"]
 ##a[href^="https://uncensored.game/"]
 ##a[href^="https://uncensored3d.com/"]
 ##a[href^="https://vlnk.me/"]
@@ -55061,6 +55064,7 @@ tf2r.com#@#.adverts
 ||teenfinder.com/landing/$popup,third-party
 ||theonlineuserprotector.com/download-guard/$popup,third-party
 ||torrent-protection.com^$popup
+||tracking.keyxel.com^$popup,third-party
 ||ublockpop.com/rect.php?$popup
 ||unibet.co.uk/*affiliate$popup
 ||vid-adblocker.com^$popup
@@ -58743,6 +58747,7 @@ invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
 troypoint.com##.mysticky-welcomebar-fixed-wrap
 exportfromnigeria.info##.mytopads
+hoteldesigns.net##.n2-ss-slider
 transfermarkt.com##.nENxsZD
 google.com##.nH.MC
 mail.google.com##.nH.PS
@@ -64151,6 +64156,10 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||hkedve.cn^
+||ixihet.cn^
+||v34ffs.site^
+||fjlpyz.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -90469,6 +90478,7 @@ _mongo_stats/
 ||mors22.com^
 ||mt48.net^
 ||n0909.com^
+||native-track.com^
 ||niblewren.co^
 ||nigelmidnightrappers.com^
 ||nimblebird.co^
@@ -99207,6 +99217,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acronymfinder.com/~/tr.ashx
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active.com/ig.track.js
+||adblockeronstreamtape.xyz/stat/
 ||adblockstreamtape.art/stat/
 ||adblockstreamtape.fr/stat/
 ||adblockstreamtape.site/stat/
