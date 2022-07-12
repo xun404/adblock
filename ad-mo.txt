@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a1JjvvDsT/7HAddlISVBVw
+! Checksum: ly6D68OmjPqikSsK86++9Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207120740
-! Last Modified: 2022年07月12日 07:40
+! Version: 202207121100
+! Last Modified: 2022年07月12日 11:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17113,6 +17113,7 @@ _800x80_
 ###zMSplacement6
 ###zag_square_ad
 ###zdcFloatingBtn
+###zeus_top-banner
 ###zone-adsense
 ###zoneAdserverMrec
 ###zoneAdserverSuper
@@ -25431,6 +25432,7 @@ _800x80_
 ##.footer-im-ad
 ##.footer-leaderboard-ad
 ##.footer-post-ad-blk
+##.footer-prebid
 ##.footer-ribbon-ad
 ##.footer-text-ads
 ##.footerAd
@@ -25445,6 +25447,7 @@ _800x80_
 ##.footerFullAd
 ##.footerGoogleAdMainWarp
 ##.footerPageAds
+##.footerSponsorStrip
 ##.footerTextAd
 ##.footerWidget__ad
 ##.footer__ads--content
@@ -28375,6 +28378,7 @@ _800x80_
 ##.pre-article-ad
 ##.pre-roll-ad
 ##.pre-title-ad
+##.prebid-wrapper
 ##.prebodyads
 ##.preheader_advert
 ##.premium-ad
@@ -29612,6 +29616,7 @@ _800x80_
 ##.sponsor-ads
 ##.sponsor-area
 ##.sponsor-area-top
+##.sponsor-bar-ea
 ##.sponsor-block
 ##.sponsor-bottom
 ##.sponsor-box
@@ -31226,6 +31231,7 @@ _800x80_
 ##.zc-grid-position-ad
 ##.zem_rp_promoted
 ##.zeti-ads
+##.zeus-ad
 ##.zeusAdWrapper
 ##.zeusAd__container
 ##.ziffad-wrapper
@@ -32135,6 +32141,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+##zeus-ad
 ##a[href*="https://www.sweetdeals.com/"] img
 ###kt_player > a[target="_blank"]
 ###slashboxes > .deals-rail
@@ -56751,7 +56758,7 @@ leader.co.za###ctl00_cphBody_pnUsefulLinks
 leader.co.za###ctl00_ctl00_cphBody_cphColumnBody_cphBannerBodyHeader_userBannerBodyHeader_pnBanners
 leader.co.za###ctl00_ctl00_cphBody_cphColumnBody_cphColumnMiddleParent_cphNavigationRight_userNavigationRight_userBannerSponsor_pnBanners
 apotelyt.com###cuHaba-2
-miloserdov.org,wpneon.com###custom_html-10
+miloserdov.org,reneweconomy.com.au,wpneon.com###custom_html-10
 isekaiscan.com,miloserdov.org###custom_html-11
 theregister.co.nz###custom_html-13
 colombiareports.com,miloserdov.org,mostlyblogging.com###custom_html-14
@@ -57033,8 +57040,8 @@ searchfiles.de###nextuse
 seroundtable.com###ninja_box
 pcgamesn.com,pockettactics.com###nn_astro_wrapper
 trueachievements.com,truesteamachievements.com,truetrophies.com###nn_bfa_wrapper
-techraptor.net###nn_lb1
-techraptor.net###nn_lb2
+techraptor.net,unite-db.com###nn_lb1
+techraptor.net,unite-db.com###nn_lb2
 techraptor.net###nn_lb3
 techraptor.net###nn_lb4
 boxingstreams.cc,crackstreams.gg,cricketstreams.cc,footybite.cc,formula1stream.cc,mlbshow.com,nbabite.com###nordd
@@ -57133,6 +57140,7 @@ ebay.com###rtm_html_441
 noqreport.com###rumble_vj59vh
 skylinewebcams.com###s1123
 skylinewebcams.com###s4152
+protocol.com###sHome_0_0_3_0_0_5_1_0_2
 faucetpay.nurul-huda.or.id###satoshi1
 faucetpay.nurul-huda.or.id###satoshi2
 wsj.com###saving-united-coupon-list
@@ -57251,7 +57259,7 @@ freecourseweb.com###text-20
 electronicshub.org,net-load.com###text-25
 2smsupernetwork.com,cryptoreporter.info,net-load.com###text-26
 2smsupernetwork.com###text-28
-2smsupernetwork.com,zambiareports.com###text-3
+2smsupernetwork.com,reneweconomy.com.au,zambiareports.com###text-3
 electronicshub.org###text-34
 needsomefun.net###text-36
 wrestlingnews.co###text-38
@@ -57262,6 +57270,7 @@ needsomefun.net###text-42
 premiumtimesng.com###text-429
 kollelbudget.com###text-43
 premiumtimesng.com###text-440
+reneweconomy.com.au###text-46
 electronicshub.org,techlife.com,technipages.com###text-5
 2smsupernetwork.com,khaama.com###text-50
 ssbcrack.com###text-51
@@ -57327,6 +57336,7 @@ browserleaks.com###vpn_text
 ettvcentral.com###vpnvpn
 censor.net###w1001
 censor.net###w1031
+w2g.tv###w2g-square-ad
 eeweb.com###wallpaper_image
 everythingrf.com###walltrack
 realclearhistory.com###warning_empty_div
@@ -57607,7 +57617,7 @@ motor1.com##.apb
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 adn.com##.arcad-feature
-1news.co.nz,boston25news.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsoctv.com##.arcad_feature
+1news.co.nz,boston25news.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -57920,7 +57930,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,charlieintel.com,chromeunboxed.com,cryptoslate.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,iotwreport.com,rezence.com,rok.guide##.code-block
+browserhow.com,charlieintel.com,chromeunboxed.com,cryptoslate.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,iotwreport.com,reneweconomy.com.au,rezence.com,rok.guide##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 trendingpolitics.com##.code-block-12
@@ -58108,6 +58118,7 @@ thelist.com##.divider-heading-container
 karachicorner.com##.divimg
 weather.us##.dkpw-billboard-margin
 mazterize.com##.dl-g
+dallasnews.com##.dmnc_features-ads-config-presets-module__1xTTS
 crash.net##.dmpu-container
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
@@ -59385,8 +59396,7 @@ c19-worldnews.com##.vmagazine-medium-rectangle-ad
 fastpic.ru##.vright
 vaughn.live##.vs_v75_MvnAbvsLowerThirdWrapper
 ebook-searcher.com##.w-100
-w2g.tv##.w2g-cas-ad
-w2g.tv##.w2g-dub-ad
+androidpolice.com##.w-pencil-banner
 userscript.zone##.w300
 goodfon.com##.wallpapers__banner240
 dailymail.co.uk,thisismoney.co.uk##.watermark
@@ -59461,6 +59471,7 @@ mcpmag.com##.xContent
 drivehub.in,indidrive.in,metamoviez.xyz##.xc449bad4854773ff
 theseotools.net##.xd_top_box
 livejournal.com##.xhtml_banner
+dallasnews.com##.xl_right-rail
 bit-tech.net##.xtag_container
 titantv.com##.yRDh6z2_d0DkfsT3
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
@@ -59473,6 +59484,7 @@ tekdeeps.com##.zAzfDBzdxq3
 ign.com##.zad
 windows101tricks.com##.zanui-container
 thehackernews.com##.zoho-box
+bellinghamherald.com##.zone-el
 gab.com##[aria-label*="Sponsored:"]
 swarajyamag.com##[class*="page-top-adv-wrapper"]
 thetimes.co.uk##[class*="responsiveweb__NativeAd"]
@@ -64048,6 +64060,7 @@ ubmcmm.baidustatic.com
 ||ixihet.cn^
 ||v34ffs.site^
 ||fjlpyz.cn^
+||hust.cx^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -90644,6 +90657,7 @@ _mongo_stats/
 ||analitits.com^$third-party
 ||analitycs.net^$third-party
 ||analoganalytics.com^$third-party
+||analytically.net^$third-party
 ||analyticschecker.com^$third-party
 ||analyticson.com^$third-party
 ||analyticswizard.com^$third-party
@@ -91097,6 +91111,7 @@ _mongo_stats/
 ||decdna.net^$third-party
 ||decibelinsight.net^$third-party
 ||decideinteractive.com^$third-party
+||deep-content.io^$third-party
 ||deep.bi^$third-party
 ||deepattention.com^$third-party
 ||deepchannel.com^$third-party
@@ -100362,6 +100377,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cmp.dmgmediaprivacy.co.uk^
 ||cmp.finn.no^
 ||cmp.huffingtonpost.fr^
+||cmp.lavie.fr^
+||cmp.lemonde.fr^
+||cmp.lepoint.fr^
 ||cmp.netzwelt.de^
 ||cmp.nouvelobs.com^
 ||cmp.tech426.com^
