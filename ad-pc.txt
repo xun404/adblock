@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P5qntTmYV9vjHFGZ6tS0DA
+! Checksum: jelLlpj846Eae0fPP1UeLg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207130741
-! Last Modified: 2022年07月13日 07:41
+! Version: 202207131054
+! Last Modified: 2022年07月13日 10:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16513,6 +16513,7 @@ _800x80_
 ###sticky-ad-container
 ###sticky-ad-header
 ###sticky-add-side-block
+###sticky-ads
 ###sticky-ads-top
 ###sticky-custom-ads
 ###sticky-footer-ad
@@ -30048,7 +30049,9 @@ _800x80_
 ##.sticky-ad-slot--homepage--wrapper
 ##.sticky-ad-unit-default
 ##.sticky-ad-wrapper
+##.sticky-ads
 ##.sticky-ads-container
+##.sticky-ads-content
 ##.sticky-adsense
 ##.sticky-bottom-ad
 ##.sticky-footer-ad
@@ -32494,6 +32497,7 @@ _800x80_
 ##.taboola-unit
 ##.taboola-widget
 ##.taboolaArticle
+##.taboolaHeight
 ##.taboola_advertising
 ##.taboola_blk
 ##.taboola_block1
@@ -46161,6 +46165,7 @@ tf2r.com#@#.adverts
 ||servicesrc.org^
 ||serving-sys.com^
 ||serving-system.com^
+||servingcdn.net^
 ||servtraff97.com^
 ||sesameasterisk.com^
 ||seskeu3zk7.com^
@@ -58042,6 +58047,7 @@ classicauctionreview.co.uk##.carlogobox
 macworld.co.uk,techadvisor.com##.carouselEmbeddableDeal
 chemistwarehouse.com.au##.category-product-mrec
 renonr.com##.category-sponsored-content
+thegoodchoice.ca##.cb-box
 guru99.com##.cb-box__wrapper-center_modal
 supercheats.com##.cboth_sm
 ccm.net##.ccm_pugoo__sponso
@@ -59221,6 +59227,7 @@ bigleaguepolitics.com##.sidebar-widget
 thebadandugly.com##.sidebar30
 celebritynetworth.com##.sidebarAvtBox
 pbs.org##.sidebar__logo-pond
+hepper.com##.sidebar__placement
 caster.fm##.sidebar_ablock
 pcgamesn.com##.sidebar_affiliate_disclaimer
 bxr.com##.sidebar_promo
@@ -59481,6 +59488,7 @@ futurism.com##.tracking-widest
 bincodes.com##.transferwise
 sun-sentinel.com##.trb_sf_hl
 coinmarketcap.com##.trending-sponsored
+livemint.com##.trendingSimilarHeight
 celebritynetworth.com##.trevda_cont
 thumbsnap.com##.ts-blurb-wrap
 roseindia.net##.tutorialsstaticdata
@@ -64220,6 +64228,10 @@ ubmcmm.baidustatic.com
 ##[class][onclick*=".ununxsxs.top"]
 ||ctlmufv.cn^
 ||gfnormal00ak.com^
+||homebao.me^
+||666684.xyz^
+||kvevv.com^
+||xn--gov-x68dy61b.shop^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -76240,6 +76252,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com,bdimg.com##.shield-agent-tb-feed
 vpser.net##.ab_cpr
 vpser.net##.ab_cpb
 szxx.com.cn###A1
@@ -90553,6 +90566,7 @@ _mongo_stats/
 ||rapidpanda.io^
 ||rapidzebra.io^
 ||rezync.com^
+||rftslb.com^
 ||rkdms.com^
 ||rlcdn.com^
 ||s-onetag.com^
@@ -95971,6 +95985,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.audioeye.com^
 ||analytics.avanser.com.au^
 ||analytics.aweber.com^
+||analytics.bestreviews.com^
 ||analytics.bigcommerce.com^
 ||analytics.bitrix.info^
 ||analytics.brandcrumb.com^
@@ -97506,6 +97521,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sermoncloud.com/logger/
 ||service.trustpid.com^
 ||session.timecommerce.net^
+||sezzle.com/v1/event/log
 ||sftrack.searchforce.net^
 ||share-online.biz/affiliate/$third-party
 ||shareaholic.com/analytics_
@@ -97740,6 +97756,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
+||tkx.mp.lura.live/rest/v2/server_time
 ||tl.tradetracker.net^
 ||tm-awx.com/pageview
 ||tm.tradetracker.net^
