@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tMzV1AxJeMrINb4w+pZX0Q
+! Checksum: 2R+R3Jinqm3btfx3vzpdyw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207151247
-! Last Modified: 2022年07月15日 12:47
+! Version: 202207151355
+! Last Modified: 2022年07月15日 13:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30813,6 +30813,7 @@ _mongo_stats/
 ||ldnlyap.com^
 ||leadhit.io^
 ||liadm.com^
+||lite-cdn.com^
 ||liveyield.com^
 ||lltrck.com^
 ||loloclicks.biz^
@@ -51386,6 +51387,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
 @@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
+@@||leanplum.com^$domain=arkadium.com
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
