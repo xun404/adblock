@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KssRUTu6fha1Pn4frduZXw
+! Checksum: P+cRRo//cWLEFS610O2UxQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207161040
-! Last Modified: 2022年07月16日 10:40
+! Version: 202207161203
+! Last Modified: 2022年07月16日 12:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60266,6 +60266,8 @@ haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
 instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
 instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
 instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-ads-badge="Sponsored"])
+instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-sp-badge="Sponsored"])
+instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-spp-badge="Sponsored"])
 instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-sppr-badge="Sponsored"])
 instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
 albertsons.com#?#product-item-v2[class$="product-card-col"]:-abp-has(div[data-qa="prd-itm-spnsrd"])
@@ -64006,6 +64008,7 @@ ubmcmm.baidustatic.com
 ||gfnormal01ae.com^
 ||666724.xyz^
 ||topnfq.com^
+||nvqhbij.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
