@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B4sV2yEPHYiA0ykFbjqoqw
+! Checksum: OeNnqILfjXLDprllCsivXw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207172343
-! Last Modified: 2022年07月17日 23:43
+! Version: 202207180740
+! Last Modified: 2022年07月18日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2307,6 +2307,13 @@ ubmcmm.baidustatic.com
 ||doremi.ink^
 ||xixhx.com^
 ||renxinghuan.com^
+||gnjunbio.rest^
+||fengxi.in^
+||hnbhrt.xyz^
+||lhpzz.love^
+||rwwfmb.cn^
+||daizi.love^
+||p7ivj09f.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -16287,6 +16294,7 @@ cnfol.com##.allAd
 bkill.com##.alliance-ad
 pilifx.com##.alltop
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="20%"] > a[target="_blank"]
+18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="25%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="33%"]
 gugeys.cc##.am-g
 maguays.cc##.animate-bounce-up
@@ -51261,6 +51269,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bam.nr-data.net^$script,domain=kapwing.com
 @@||banned.video/videojs-event-tracking/dist/videojs-event-tracking.js$script,domain=banned.video|infowars.com
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
+@@||bioaksxter.com/files/*/Tracking.min.js$script,~third-party
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
 @@||blackcircles.ca^*/gtm.js$~third-party
 @@||bluecare.express/js/tracking/$script,~third-party
