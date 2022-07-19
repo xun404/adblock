@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VDk1anxlnJMNIlQd4Y2pig
+! Checksum: 0Z3CB1oKpMUaJR5GAzW/2A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207200641
-! Last Modified: 2022年07月20日 06:41
+! Version: 202207200742
+! Last Modified: 2022年07月20日 07:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -64301,6 +64301,12 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||bufan.space^
+||whoican.love^
+||congsons.uno^
+||ljth.hk^
+||pingtaiba.asia^
+||pfpmmxa.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -84103,6 +84109,8 @@ $image,third-party,domain=258zw.com
 .com/js/wap_billing.js
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
 .html?android=hx*&_$csp=script-src
+://*:*/chunyu.html?k=$csp=script-src
+://*:*/yeyue.html?k=$csp=script-src
 .js?ssid=_$script,third-party
 ##.look_more_a[onclick^="open_app"]
 .lu/js/wap_billing.js
