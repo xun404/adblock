@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LQ1k7mVsmn9W6hOMAZZwEQ
+! Checksum: +EjGsvH2uniDPsYrX/1pbw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207201539
-! Last Modified: 2022年07月20日 15:39
+! Version: 202207201647
+! Last Modified: 2022年07月20日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21399,6 +21399,7 @@ _800x80_
 ##.ads.MREC3
 ##.ads.MREC4
 ##.ads.bottom
+##.ads.box
 ##.ads.cell
 ##.ads.cta
 ##.ads.grid-layout
@@ -76328,6 +76329,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||thisav.com/js/bioep.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+zhujiceping.com##aside[id^="custom_html-"]
+zhujiceping.com###footer-widget-box
+zhujiceping.com###text-12
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -110008,6 +110012,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tracking.kussladies.de^
 ||tracking.ladies.de^
 ||tracking.latinaladies.de^
+||tracking.live.wetter.at^
 ||tracking.massierendeladies.de^
 ||tracking.mollyladies.de^
 ||tracking.noen.at^
