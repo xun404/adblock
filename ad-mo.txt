@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S34PHWb4DZoXbifVc+Ua9Q
+! Checksum: efKAE+a8VOJ4HpDZfjPXwg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207210742
-! Last Modified: 2022年07月21日 07:42
+! Version: 202207211056
+! Last Modified: 2022年07月21日 10:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -11114,6 +11114,7 @@ _800x80_
 ###ads728top
 ###ads728x90
 ###ads728x90_2
+###ads728x90top
 ###ads790
 ###adsBannerFrame
 ###adsBar
@@ -13420,6 +13421,7 @@ _800x80_
 ###dfp-ad-tv_300x250-wrapper
 ###dfp-ad-wallpaper
 ###dfp-ad-wallpaper-wrapper
+###dfp-ap-2016-interstitial
 ###dfp-article-mpu
 ###dfp-article-related-mpu
 ###dfp-atf
@@ -14577,6 +14579,7 @@ _800x80_
 ###intermediate-ad
 ###internalAdvert
 ###internalads
+###interstitial-shade
 ###interstitialAd
 ###interstitialAdContainer
 ###interstitialAdUnit
@@ -35939,8 +35942,8 @@ tf2r.com#@#.adverts
 ||chapsartore.com^
 ||chaptersus.com^
 ||characcaslon.com^
-||chargerbeakers.com^
 ||chargeplatform.com^
+||chargerbeakers.com^
 ||chargestimetablechuckled.com^
 ||charitablepausing.com^
 ||charmssummitmerriment.com^
@@ -36468,8 +36471,8 @@ tf2r.com#@#.adverts
 ||contagiousaugust.com^
 ||contalyze.com^
 ||contehos.com^
-||contemplatereunitededgy.com^
 ||contemnforbiddenbrazen.com^
+||contemplatereunitededgy.com^
 ||contendinscriptionundercover.com^
 ||content-ad.net^
 ||contentabc.com^
@@ -41448,7 +41451,6 @@ tf2r.com#@#.adverts
 ||lilgxhqol.com^
 ||liliy9aydje10.com^
 ||lilureem.com^
-||limmatabaculum.com^
 ||limberkilnman.cam^
 ||limelightcopper.com^
 ||limelightdecent.com^
@@ -41457,6 +41459,7 @@ tf2r.com#@#.adverts
 ||limitagesdidjet.site^
 ||limitesrifer.com^
 ||limitlessexterminator.com^
+||limmatabaculum.com^
 ||limporaltourist.com^
 ||limpstronglyer.com^
 ||limurol.com^
@@ -64265,6 +64268,8 @@ ubmcmm.baidustatic.com
 ||otneq.today^
 ||l60.xyz^
 ||666729.xyz^
+##a[href*=".nfylife.com/"]
+||nttrr.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -76277,6 +76282,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||thisav.com/js/bioep.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ypojie.com##.orbui-post-footer
 qq.com,sogou.com##div[class^="page-bottom-banner"]
 zhujiceping.com##aside[id^="custom_html-"]
 zhujiceping.com###footer-widget-box
@@ -111033,6 +111039,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
+@@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
