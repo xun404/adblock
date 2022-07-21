@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l93E0s4554b4k4YXvzoKTw
+! Checksum: UIWwCke/ayoHoALSUiasJA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207211846
-! Last Modified: 2022年07月21日 18:46
+! Version: 202207212113
+! Last Modified: 2022年07月21日 21:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -111134,6 +111134,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||humaninterest.com/api/analytics/$script,~third-party
+@@||hyper.ag/api/sites/*/analytics/$~third-party
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
@@ -112412,6 +112413,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||yaozh.com/Public/js/widget/dbAdDownload.
 !------------------------Specific element hiding rules------------------------!
+manmanbuy.com##.app-activity-download
+bilibili.com##.desktop-download-tip
 edrawsoft.cn##.activity-banner
 edrawsoft.cn##.bottom-banner-activity
 zhibo8.cc###popautoapp

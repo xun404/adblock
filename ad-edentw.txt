@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YVknXX+049OWtrkcKVGVxA
+! Checksum: aUwLLCTMB58Yg2LEq5+pWA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202207211846
-! Last Modified: 2022年07月21日 18:46
+! Version: 202207212113
+! Last Modified: 2022年07月21日 21:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1208,6 +1208,10 @@ fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
 animepahe.com#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
 smallseotools.com#$#abort-on-property-read FITS.Config
+instacart.com#$#hide-if-matches-xpath './/div[@role]//span[text()="Sponsored"]/ancestor-or-self::div[starts-with(@role,"none")]'
+instacart.com#$#hide-if-matches-xpath './/div[@id]/a[contains(@href, "/campaign/")]//p[.="Sponsored"]/ancestor::div[@id][1]'
+instacart.com#$#hide-if-matches-xpath './/div[@id]//div[text()="Sponsored"]/ancestor::div[3]'
+instacart.com#$#hide-if-matches-xpath './/div[@role]//img[@alt="Sponsored"]/ancestor::li//parent::div[1]'
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode

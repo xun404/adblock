@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7vBA7Y/jvMudwB/Ci1f6Ug
+! Checksum: bYzjyjjeW5S0EGWi/CFe/g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207211846
-! Last Modified: 2022年07月21日 18:46
+! Version: 202207212113
+! Last Modified: 2022年07月21日 21:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23712,6 +23712,8 @@ _box_ad_
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||yaozh.com/Public/js/widget/dbAdDownload.
 !------------------------Specific element hiding rules------------------------!
+manmanbuy.com##.app-activity-download
+bilibili.com##.desktop-download-tip
 edrawsoft.cn##.activity-banner
 edrawsoft.cn##.bottom-banner-activity
 zhibo8.cc###popautoapp
@@ -51504,6 +51506,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||humaninterest.com/api/analytics/$script,~third-party
+@@||hyper.ag/api/sites/*/analytics/$~third-party
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com^$xmlhttprequest
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
