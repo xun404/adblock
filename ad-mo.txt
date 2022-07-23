@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yf8z4BLRjTt+nAPyX2fMFA
+! Checksum: OQOJDzuLL+D1SoWbSON+ew
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207232103
-! Last Modified: 2022年07月23日 21:03
+! Version: 202207232145
+! Last Modified: 2022年07月23日 21:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12541,6 +12541,7 @@ _800x80_
 ###bigboard_ad_ini
 ###bigbox-ad
 ###bigsidead
+###billboard-ad
 ###billboard-ad-container
 ###billboard-atf
 ###billboard_ad
@@ -18696,6 +18697,7 @@ _800x80_
 ##.ad-mpu-top
 ##.ad-mpu__aside
 ##.ad-mpufixed
+##.ad-mr-article
 ##.ad-mrec
 ##.ad-mrect
 ##.ad-msg
@@ -30898,6 +30900,7 @@ _800x80_
 ##.website-ad-space
 ##.well-ad
 ##.werb_textlink
+##.werbungAd
 ##.wfb-ad
 ##.wg-ad-square
 ##.wgAd-loaded
@@ -32515,7 +32518,7 @@ job.inshokuten.com,sexgr.net#@#.ad-box
 dmkt-sp.jp#@#.ad-button
 livedoorblogstyle.jp#@#.ad-center
 pokeminers.com#@#.ad-container
-flat-ads.com,job.inshokuten.com#@#.ad-content
+backcar.fr,flat-ads.com,job.inshokuten.com#@#.ad-content
 dmkt-sp.jp#@#.ad-cover
 transparencyreport.google.com#@#.ad-icon
 flat-ads.com,lastpass.com#@#.ad-img
@@ -111390,6 +111393,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
+@@||sst.soranews24.com/gtm.js$script,~third-party
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
 @@||starbucksassets.com/weblx/static/optimizely.$script,domain=starbucks.ca|starbucks.com
