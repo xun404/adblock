@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nGzuAnxkXfTN0o2oEEwcbQ
+! Checksum: HSqVbvNmg++5duzhf4Bqlw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202207240246
-! Last Modified: 2022年07月24日 02:46
+! Version: 202207242344
+! Last Modified: 2022年07月24日 23:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -648,7 +648,7 @@ torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
 178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 2345.com#$#abort-current-inline-script setDefaultTheme
-ahri-hentai.com#$#abort-current-inline-script document.querySelectorAll popMagic
+ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ifenpaidy.com#$#abort-on-property-read localStorage
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
@@ -1351,6 +1351,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nest
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
 ! Experimental
+www.facebook.com,web.facebook.com#$#hide-if-graph-matches [role=feed]>SPAN:not([class]) DIV
 www.facebook.com,web.facebook.com#$#hide-if-graph-matches [role=feed]>DIV:not([class]) DIV
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@aria-describedby][@aria-labelledby][@role="article"]//a[@aria-labelledby][@role="link"]//object[@type="nested/pressable"]/a[@aria-label][@role="link"]/ancestor::div[@aria-describedby][@aria-labelledby][@role="article"]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@aria-describedby][@aria-labelledby][@role="article"]//div[@role="button"]//div[@aria-label][@role="button"]/ancestor::div[@aria-describedby][@aria-labelledby][@role="article"]'
