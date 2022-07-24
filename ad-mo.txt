@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sK51dIzFHIlQK0E5cv6pWA
+! Checksum: mp+NXIMWXyXzorr1lrT7tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207240056
-! Last Modified: 2022年07月24日 00:56
+! Version: 202207241056
+! Last Modified: 2022年07月24日 10:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -29239,6 +29239,7 @@ _800x80_
 ##.sideBySideAds
 ##.sideToSideAd
 ##.side_300_ad
+##.side__ad
 ##.side__ad-box
 ##.side_ad
 ##.side_ad2
@@ -64365,6 +64366,10 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||xektyy.cn^
+||hfwzbp.cn^
+##a[href*=".5250.cn"]
+##a[href*="/akmh047.vip"]
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -84097,7 +84102,7 @@ smjb.net##div[style*="height: 50%"]
 ||alicdn.com^$domain=lawen44.net
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||bcebos.com/contentAdSecend_
-||bdxiguaimg.com^$domain=feisucn.net
+||bdxiguaimg.com^$domain=biquav.com|feisucn.net
 ||biqiugege8.com/js/d
 ||biqiugege8.com/js/p
 ||biqkan.com/js/dj
@@ -85774,6 +85779,7 @@ fqsousou.com,kengso.com#@#.user-share
 /br-trk-
 /br-trk.
 /br_imps/add_item?
+/branchMetrics.
 /brandAnalytics.js
 /brightcove/tracking/*
 /brightcoveGoogleAnalytics.
@@ -92910,6 +92916,7 @@ _mongo_stats/
 ||spectate.com^$third-party
 ||speed-trap.com^$third-party
 ||speedcurve.com^$third-party
+||speedhq.net^$third-party
 ||spklw.com^$third-party
 ||splitbee.io^$third-party
 ||splittag.com^$third-party
@@ -98773,6 +98780,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.ipmgroup.be^
 ||stats.tipser.com^
 ||t.ofsys.com^
+||tag.agrvt.com^
 ||tag.goldenbees.fr^
 ||tag.leadplace.fr^
 ||tim.nextinpact.com^
@@ -110134,6 +110142,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
 ||lecho.be/track/
+||lefigaro.fr/ext/analytics
+||lefigaro.fr/ext/figanalytics
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js
 ||liberation.fr/newsite/js/cmp/
