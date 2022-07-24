@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RlO0/f3DUOM8WPOjzl5zDA
+! Checksum: pWb6+/OQPgOVtjPY6upQ3g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207250142
-! Last Modified: 2022年07月25日 01:42
+! Version: 202207250247
+! Last Modified: 2022年07月25日 02:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19262,7 +19262,9 @@ _800x80_
 ##.ad-wide-wrap
 ##.ad-widget
 ##.ad-widget-area
+##.ad-widget-box
 ##.ad-widget-list
+##.ad-widget-sizes
 ##.ad-widget-wrapper
 ##.ad-widgets
 ##.ad-width-300
@@ -28495,6 +28497,7 @@ _800x80_
 ##.postbit_adcode
 ##.postbit_adcode_old
 ##.postbody_ads
+##.postend-advert
 ##.poster-ad-asset-module
 ##.poster_ad
 ##.postfooterad
@@ -86352,6 +86355,7 @@ fqsousou.com,kengso.com#@#.user-share
 /counter/?*&ref=
 /counter/?*&referer=
 /counter/?type=
+/counter/acnt.php?
 /counter/action_
 /counter/article?
 /counter/ashow/*
@@ -90888,6 +90892,7 @@ _mongo_stats/
 ||test.vast^
 ||the-ozone-project.com^
 ||thefontzone.com^
+||tncid.app^
 ||trackclicks.info^
 ||trkbc.com^
 ||tru.am^
@@ -99320,6 +99325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.cizion.com^
 ||log.mofa.go.kr^
 ||log.targetpush.co.kr^
+||logs-partners.coupang.com^
 ||megadata.co.kr^
 ||mtag.mman.kr^
 ||ngc1.nsm-corp.com^
