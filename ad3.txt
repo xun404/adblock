@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vMHnmQp1OE4KC4SlDYT1bw
+! Checksum: yMReuAAPa2pkTrqLtXYHlA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207250741
-! Last Modified: 2022年07月25日 07:41
+! Version: 202207251056
+! Last Modified: 2022年07月25日 10:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -39333,6 +39333,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||er.sanoma-sndp.fi/stats/
 ||inpref.s3.amazonaws.com^$third-party
 ||insight.fonecta.fi^
+||nelonenmedia.fi/logger/
 ||tags.op-palvelut.fi^
 ||vine.eu/track/
 ||links.boom.ge^
@@ -52060,6 +52061,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$~third-party
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
+@@||userneeds.com^$domain=foreca.fi
 @@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 !---------- Hebrew ----------
