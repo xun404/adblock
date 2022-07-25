@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bc1pdeH4XmZdYQDyFpefXg
+! Checksum: F8xfpRQzaafgy2Pi39BWXA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202207252120
-! Last Modified: 2022年07月25日 21:20
+! Version: 202207252346
+! Last Modified: 2022年07月25日 23:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1351,7 +1351,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nest
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
 ! Experimental
-www.facebook.com,web.facebook.com#$#hide-if-graph-matches [role=feed]>SPAN:not([class]) DIV
+www.facebook.com,web.facebook.com#$#hide-if-graph-matches [role=feed]>SPAN:not([class])>DIV DIV
 www.facebook.com,web.facebook.com#$#hide-if-graph-matches [role=feed]>DIV:not([class]) DIV
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@aria-describedby][@aria-labelledby][@role="article"]//a[@aria-labelledby][@role="link"]//object[@type="nested/pressable"]/a[@aria-label][@role="link"]/ancestor::div[@aria-describedby][@aria-labelledby][@role="article"]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@aria-describedby][@aria-labelledby][@role="article"]//div[@role="button"]//div[@aria-label][@role="button"]/ancestor::div[@aria-describedby][@aria-labelledby][@role="article"]'
