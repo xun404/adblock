@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rGrH2OrC4LApFW+IC18e3w
+! Checksum: UoF+/wuVz9nhdOaBP8Bjqg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207281449
-! Last Modified: 2022年07月28日 14:49
+! Version: 202207281539
+! Last Modified: 2022年07月28日 15:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3660,7 +3660,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ape-ad-
 /api-ads.
 /api.ad.
-/api.ads.$domain=~instacart.com
+/api.ads.$domain=~ads.instacart.com
 /Api/Ad.
 /api/ad/*
 /api/ads/*
@@ -4291,7 +4291,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /display/ads/*
 /display/ads?
 /display?ad_
-/display_ad
+/display_ad$domain=~ads.instacart.com
 /displayad.$~script
 /displayad/*
 /displayad?
@@ -64542,6 +64542,7 @@ ubmcmm.baidustatic.com
 ||fengbalo.fun^
 ||woma.site^
 ||gass.top^
+||riy9qqfushop.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -88217,7 +88218,7 @@ fqsousou.com,kengso.com#@#.user-share
 /performance_tracker-
 /performanceMetrics?
 /performancetimer.js
-/perimeterx/*
+/perimeterx/*$domain=~github.com|~github.io
 /permalink-tracker.html?
 /pf?pid=
 /pg_pixel?
