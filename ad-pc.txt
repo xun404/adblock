@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fQREPpQYQOgwu4mqahSBvg
+! Checksum: SfrzDHAIGVIAoNss+MgnTw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207291846
-! Last Modified: 2022年07月29日 18:46
+! Version: 202207292119
+! Last Modified: 2022年07月29日 21:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3566,7 +3566,7 @@ tieba.baidu.com##.tuijian-wrap
 /advhd.
 /advice-ads.
 /advideo.$domain=~advideo.pro|~advideo.site
-/adview.$domain=~adview.mu|~adview.online|~adview.su
+/adview.$domain=~adview.mu|~adview.mx|~adview.online|~adview.su
 /adview/*
 /adview?
 /adview_
@@ -7740,6 +7740,7 @@ takeover_banner_
 .prebid&
 .prebid-bundle.
 .prebid.$domain=~prebid.org
+/_js/prbd_6.19.0.js
 /ad/postbid_
 /adn-hb/*
 /adn.ano.
@@ -22568,6 +22569,7 @@ _800x80_
 ##.adver
 ##.adver-block
 ##.adver-carousel-cards
+##.adver-header
 ##.adver-left
 ##.adver-text
 ##.adver-wrapper--250
@@ -26389,6 +26391,7 @@ _800x80_
 ##.home-features-ad
 ##.home-module--advertisement
 ##.home-module_ad
+##.home-page-ad
 ##.home-sidebar-ad
 ##.home-sidebar-ad-300
 ##.home-slider-ads
@@ -58937,6 +58940,7 @@ dailymail.co.uk##.mol-fe-vouchercodes-redesign
 monsoonjournal.com##.mom-e3lanat-wrap
 mondoweiss.net##.mondo-ads-widget
 joindota.com##.monkey-container
+flickr.com##.moola-search-div.main
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.mosaic-banner
 thepostmillennial.com##.mot-container
 thepostmillennial.com##.mot-label
@@ -59791,6 +59795,7 @@ premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 drphil.to##.wpfp_custom_popup
 sashares.co.za##.wppopups-whole
 theregister.com##.wptl
+windowsreport.com##.wr-marketing-cta-alt
 memeburn.com,ventureburn.com##.wrapper--grey
 paultan.org##.wrapper-footer
 wsj.com##.wsj-ad-label
@@ -96567,6 +96572,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.live.com^
 ||analytics.livestream.com^
 ||analytics.logsss.com^
+||analytics.m7g.twitch.tv^
 ||analytics.mailmunch.co^
 ||analytics.matchbin.com^
 ||analytics.midwesternmac.com^
@@ -112213,6 +112219,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
+@@||science-net.kahaku.go.jp/app/js/analytics.js$~third-party
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
