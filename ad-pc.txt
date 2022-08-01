@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U4FM5n4eLoiYgGn3FWIJvA
+! Checksum: 7hd5qbdu13pdZsiAh1cTCA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208011648
-! Last Modified: 2022年08月01日 16:48
+! Version: 202208011743
+! Last Modified: 2022年08月01日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6107,7 +6107,6 @@ tieba.baidu.com##.tuijian-wrap
 /s_ad.aspx?
 /sadasds.js
 /safead/*
-/sailthru.js
 /salesad/*
 /samplead1.
 /samsung_ad.
@@ -20543,6 +20542,7 @@ _800x80_
 ##.ad_rhs
 ##.ad_right
 ##.ad_rightSky
+##.ad_right_300_250
 ##.ad_right_cell
 ##.ad_right_col
 ##.ad_right_column
@@ -58063,6 +58063,7 @@ biblegateway.com##.bga
 overclock3d.net##.bglink
 bhamnow.com##.bhamn-adlabel
 bhamnow.com##.bhamn-story
+distractify.com,radaronline.com##.biKvh
 viva.co.nz##.big-banner
 hotnewhiphop.com##.big-banner-placeholder-content
 cbc.ca##.bigBoxContainer
@@ -58415,6 +58416,7 @@ hanime.tv##.desktop.htvad
 randomarchive.com##.desktop[style="text-align:center"]
 pastemagazine.com,theonion.com##.dfp
 dailyfx.com##.dfx-article__sidebar
+distractify.com,radaronline.com##.dhvATd
 notes.io##.directMessageBanner
 premiumtimesng.com##.directcampaign
 audiokarma.org##.discussionListItem > center
@@ -58576,7 +58578,6 @@ fxstreet.com##.fxs_leaderboard
 aframnews.com,afro.com,aurn.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
 titantv.com##.gAd
-distractify.com##.gXgoom
 animedao.to,elevenforum.com##.gads
 eonline.com##.gallery-rail-sticky-container
 cdromance.com##.game-container[style="grid-column: span 2;"]
@@ -59340,12 +59341,9 @@ teamfortress.tv##.sau
 point2homes.com##.saved-search-banner-list
 pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
-distractify.com##.sc-dkuHdP
 independent.co.uk##.sc-eTFcpK
 radaronline.com##.sc-gXZlrW
-distractify.com,radaronline.com##.sc-iBzFoy
 scotsman.com##.sc-igwadP
-distractify.com##.sc-jcwofb
 independent.co.uk##.sc-jonzHS
 sankakucomplex.com##.scad
 bangordailynews.com##.scaip
@@ -59927,7 +59925,7 @@ topfiveforex.com##[href^="https://fbs.com/promo/"]
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
 pastemytxt.com##[href^="https://geturl.us/"]
 ahaan.co.uk##[href^="https://go.nordvpn.net/"]
-gmailnator.com##[href^="https://go.nordvpn.net/aff_c"]
+emailnator.com##[href^="https://go.nordvpn.net/aff_c"]
 pimylifeup.com##[href^="https://go.pimylifeup.com/"]
 bitcoiner.tv##[href^="https://go.stormgain.com/"]
 thehackernews.com##[href^="https://go.thn.li/"]
@@ -62359,7 +62357,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .cn/gg/$script,third-party
 .cn/js/ads/
 .cn/s.php?id=$script,third-party
-.cn/sc/3694?
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -63175,6 +63172,7 @@ ubmcmm.baidustatic.com
 ###container > .sectionBanner
 ###crazy_ad_float
 ###crazy_ad_layer
+##a[target="_blank"] > img.king
 ###cs_left_couplet
 ###cs_right_couplet
 ###dbgg
@@ -92710,6 +92708,7 @@ _mongo_stats/
 ||s7target.ru^$third-party
 ||safe-click.net^$third-party
 ||sageanalyst.net^$third-party
+||sailthru.com^$third-party
 ||salecycle.com^$third-party
 ||salemove.com^$third-party
 ||salesgenius.com^$third-party

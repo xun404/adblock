@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lZdeY9owO5vuNBpO4uOlUw
+! Checksum: Mb284FtETXMitNZA/vUv6A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202208011648
-! Last Modified: 2022年08月01日 16:48
+! Version: 202208011743
+! Last Modified: 2022年08月01日 17:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -154,7 +154,6 @@ xz6d.com
 .cn/gg/$script,third-party
 .cn/js/ads/
 .cn/s.php?id=$script,third-party
-.cn/sc/3694?
 .cn/show?id=$script,third-party
 .cn/showpage.asp?u=$script,third-party
 .cn/vs.php?id=$script,third-party
@@ -970,6 +969,7 @@ ubmcmm.baidustatic.com
 ###container > .sectionBanner
 ###crazy_ad_float
 ###crazy_ad_layer
+##a[target="_blank"] > img.king
 ###cs_left_couplet
 ###cs_right_couplet
 ###dbgg
@@ -32781,6 +32781,7 @@ _mongo_stats/
 ||s7target.ru^$third-party
 ||safe-click.net^$third-party
 ||sageanalyst.net^$third-party
+||sailthru.com^$third-party
 ||salecycle.com^$third-party
 ||salemove.com^$third-party
 ||salesgenius.com^$third-party
