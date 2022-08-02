@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8GrrHkQlyn4oB3HCBZGtOg
+! Checksum: 5NP2JisMIslSY1A18qp+xg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202208030443
-! Last Modified: 2022年08月03日 04:43
+! Version: 202208030540
+! Last Modified: 2022年08月03日 05:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54423,6 +54423,7 @@ tf2r.com#@#.adverts
 ||click.alibaba.com^$subdocument,third-party
 ||click.aliexpress.com^$subdocument,third-party
 ||clickfunnels.com/assets/cfpop.js
+||clickiocdn.com/hbadx/
 ||cloud.setupad.com^
 ||cloudbet.com/ad/
 ||cloudfront.net^$domain=igg-games.com
@@ -88964,6 +88965,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats/tracker.js
 /stats/tracking.
 /stats/transp.bmp
+/stats/v2/visit?
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -96535,7 +96537,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clickfunnels.com/cf.js
 ||clickfunnels.com/userevents/
 ||clickfunnels.com^*/track?
+||clickiocdn.com/clickiotag_log/
 ||clickiocdn.com/consent/log/
+||clickiocdn.com/utr/
 ||clicks.dealer.com^
 ||clickstream.odysee.com^
 ||clicktale.pantherssl.com^
