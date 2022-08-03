@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nXT87WCTuhfgMeSDhSI+uA
+! Checksum: pSOShjYZuq8R9KuMmx6I0g
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202208030742
-! Last Modified: 2022年08月03日 07:42
+! Version: 202208031059
+! Last Modified: 2022年08月03日 10:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -2650,6 +2650,12 @@ ubmcmm.baidustatic.com
 ||txnnhz.cn^
 ||xujmcrc.cn^
 ||shscva.cn^
+||xengbale.fun^
+||1dfsdfg.com^
+||shino3ur.xyz^
+||nngzfd.cn^
+||pvzdrx.cn^
+||rnajzp.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -14185,6 +14191,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19116,7 +19123,6 @@ baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-accoun
 baidu.com#?#.ec_wise_ad
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
 benyixiwang.com#?#p:-abp-has(a[href="http://www.sm9166.com"])
-bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 api.so.lianmeng.360.cn,pos.baidu.com##body
