@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qFIpS547jrFDCKHruDtAYQ
+! Checksum: krZ69fT/rjaXe4y+9E3pDA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202208031938
-! Last Modified: 2022年08月03日 19:38
+! Version: 202208032120
+! Last Modified: 2022年08月03日 21:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1341,7 +1341,6 @@ nikaraw.com#$#abort-on-property-read afStorage
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
 ! #CV-761
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div[role=feed] div[role=article]' 'a[href^="?__cft__"]'
-www.facebook.com,web.facebook.com#$#race start; hide-if-graph-matches [role=feed]>DIV:not([class])>DIV DIV; hide-if-graph-matches [role=feed]>SPAN:not([class])>DIV DIV; hide-if-graph-matches [role=feed]>DIV:not([class]) DIV; race stop;
 ! Rules that don't need to change
 @@||www.facebook.com^$generichide
 @@||web.facebook.com^$generichide
