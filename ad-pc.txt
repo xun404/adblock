@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vwtbg7Xo+Toe5qgOEhRdJw
+! Checksum: rYoV5m7XAIJHTCvHnf2vAg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208061036
-! Last Modified: 2022年08月06日 10:36
+! Version: 202208061159
+! Last Modified: 2022年08月06日 11:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31460,6 +31460,7 @@ _800x80_
 ##[href*="incentrev.com/"] img
 ##[href="https://masstortfinancing.com"] img
 ##[href="https://ourgoldguy.com/contact/"] img
+##[href="https://www.masstortfinancing.com/"] > img
 ##[href^="http://advertisesimple.info/"]
 ##[href^="http://clicks.totemcash.com/"]
 ##[href^="http://globsads.com/"]
@@ -32670,7 +32671,6 @@ memytutaj.pl#@##top-ad
 soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
 m.motonet.fi#@#.ProductAd
-galaopublicidade.com#@#.publicidade
 job.inshokuten.com#@#.ad-area
 kincho.co.jp#@#.ad-block
 job.inshokuten.com,sexgr.net#@#.ad-box
@@ -32809,6 +32809,7 @@ rottentomatoes.com#@#.page_ad
 gumtree.com#@#.postad
 komplett.dk,komplett.no,komplett.se,komplettbedrift.no,komplettforetag.se#@#.product-ad
 ebaumsworld.com#@#.promoAd
+galaopublicidade.com#@#.publicidade
 eneuro.org,jneurosci.org#@#.region-ad-top
 offmoto.com#@#.reklama
 msn.com#@#.serversidenativead
@@ -57332,6 +57333,7 @@ allnewspipeline.com###content > [href]
 fextralife.com###content-add-a
 blastingnews.com###content-banner-dx1-p1
 classicreload.com###content-top
+kbb.com###contentFor_kbbAdsSimplifiedNativeAd
 lineageos18.com###contentLocker
 123proxy.biz###cookieConsentUR99472
 g3g.sbs,nocensor.sbs###cookieConsentVPN666
@@ -58101,7 +58103,7 @@ interestingengineering.com##.adW
 auto-data.net##.ad_incar
 tellymix.co.uk##.adb_top
 wordfind.com##.adbl
-dataversity.net,sakshi.com,songlyrics.com##.adblock
+dataversity.net,sakshi.com,songlyrics.com,yallamotor.com##.adblock
 entrepreneur.com,pricespy.co.nz##.adbox
 moviechat.org##.adc
 ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,worldhistory.org##.adcontainer
@@ -59182,6 +59184,7 @@ aol.com##.m-healthgrades
 euronews.com##.m-object--is-branded
 euronews.com##.m-object--is-partner-content
 tech.hindustantimes.com##.m-to-add
+motor1.com##.m1_largeMPU
 net-load.com##.m7s-81.m7s
 antimusic.com##.mad
 wccftech.com##.main-background-wrap
@@ -60150,6 +60153,7 @@ theblaze.com##[data-category="SPONSORED"]
 medicalnewstoday.com##[data-empty="true"]
 greatist.com,psychcentral.com##[data-empty]
 phoneia.com##[data-index]
+kbb.com##[data-lean-auto="flexible-native-2"]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
 namepros.com##[data-np-ga-event="ad"]
@@ -65227,6 +65231,8 @@ ubmcmm.baidustatic.com
 ||666747.xyz^
 ||kfnvrt.xyz^
 ||urwnsq.xyz^
+||hcbmq.cn^
+||qndytvy.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -85892,6 +85898,7 @@ fqsousou.com,kengso.com#@#.user-share
 /asknet_tracking.
 /aslog.php?
 /aspenanalytics.
+/ASPixel.js
 /aspstats/index.asp?
 /assets/analytics-
 /assets/analytics.
@@ -90975,6 +90982,7 @@ _mongo_stats/
 ||fpaxu.net^
 ||fpcdn.io^
 ||fpxau.net^
+||fzlnk.com^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
@@ -91052,6 +91060,7 @@ _mongo_stats/
 ||pdflive.org^
 ||permutive.app^
 ||pix.pub^
+||pixel-tracker.com^
 ||pixrealm.com^
 ||pjstat.com^
 ||procroanalytics.com^
@@ -96689,7 +96698,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b.bedop.com^
 ||b5media.com/bbpixel.php
 ||b7tp47v2nb3x-a.akamaihd.net^
-||b8cdn.com^*/analytics.js
+||b8cdn.com/assets/v1/analytics-
 ||bab.frb.io^
 ||backstage.funnelenvy.com^
 ||bacon.getcarro.com^
@@ -97634,6 +97643,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcs.delvenetworks.com^
 ||mcssl.com^*/track.ashx?
 ||mdctrail.com/b.ashx$third-party
+||mdxprod.io/analytics.js
 ||measure.refinery89.com^
 ||media-imdb.com/twilight/?
 ||media-lab.ai/ana-sentry.js
@@ -99948,6 +99958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||canstockphoto.com/monitor/
 ||canstockphoto.com/server.php?rqst=track
 ||capitalone.com/collector/
+||cargurus.com/tr/
 ||cbc.ca/g/stats/
 ||cbsimg.net/js/cbsi/dw.js
 ||cc-api-data.adobe.io^
@@ -100092,6 +100103,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eurogamer-uk.eurogamer.net^
 ||event-api.reverb.com^
 ||eventlog.jackpot.de^
+||events-prod.autolist.com^
 ||events-service.coinbase.com^
 ||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
@@ -100279,6 +100291,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||justanswer.com/browsercheck/
 ||kansascity.com/nyb-zsooli/
 ||kayak.com/k/redirect/tracking?
+||kbb.com/pixall/
 ||kck.st/web/track
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
