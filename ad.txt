@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UBvOBR3onIoDzIqpKK9ETA
+! Checksum: J5/ztqVTJcRKX4PPBHFu5A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202208070741
-! Last Modified: 2022年08月07日 07:41
+! Version: 202208071043
+! Last Modified: 2022年08月07日 10:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1954,6 +1954,8 @@ ubmcmm.baidustatic.com
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
+##a[id][href*="/?aff="]
+##a[id][href*="/?register="]
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?intr="]
 ##a[href*="/Register?a="]
@@ -2048,6 +2050,7 @@ ubmcmm.baidustatic.com
 ##span[title="neteasefooter"]
 ##style + .a-loading
 ##style + .vdgdo
+##div[onclick^="window"][style^="position"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*="/viphktv.com/"]
@@ -3182,6 +3185,10 @@ ubmcmm.baidustatic.com
 ||qiezijs.cc^
 ||mdsop.com^
 ||hljcq.xyz^
+||vuliglsf.space^
+||kingleo.hk^
+||666748.xyz^
+||u0075.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -19602,7 +19609,7 @@ gaoqingw.com##b > div[style="text-align:center"]
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
-baidu.com,bdimg.com#?#.j_thread_list:-abp-has(>.fengchao-wrap-feed)
+baidu.com,bdimg.com#?#.thread_item_box:-abp-has(>.fengchao-wrap-feed)
 baidu.com,bdimg.com#?#.l_post:-abp-has(>.fengchao-wrap-feed)
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
 benyixiwang.com#?#p:-abp-has(a[href="http://www.sm9166.com"])
@@ -23534,6 +23541,7 @@ _box_ad_
 ###doyoo_mon_mask
 ###doyoo_monitor
 ###recommend-float + .footer + .popup
+##body.page > .popup
 ###rm-float + .popup
 ##.popup + .shortcuts-mobile-overlay
 ##.siteAnn1
@@ -23976,6 +23984,7 @@ _box_ad_
 ||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||yaozh.com/Public/js/widget/dbAdDownload.
+||kandaju.net/js/js2.
 !------------------------Specific element hiding rules------------------------!
 ghxi.com##div[style="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: 99999;background-color: #cc4444;color: #fff"]
 manmanbuy.com##.app-activity-download
