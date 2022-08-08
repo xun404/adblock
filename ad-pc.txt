@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yzj4n9JeGjdIdYCGjG2i/g
+! Checksum: 8AsHYlH2EtqtRKxNnTowFw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208080740
-! Last Modified: 2022年08月08日 07:40
+! Version: 202208081048
+! Last Modified: 2022年08月08日 10:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30088,6 +30088,7 @@ _800x80_
 ##.standalonead
 ##.standard-ad
 ##.standard-ad-container
+##.standard_ad_slot
 ##.star-ad
 ##.start__advertising_container
 ##.start__advertising_container_banner
@@ -62227,6 +62228,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||v.fwmrm.net/ad/g/1$domain=uktv.co.uk|vevo.com
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
+@@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
 @@||vidible.tv/prod/$media,object,other
 @@||vidible.tv/stage/$media,object,other
 @@||volterra.io^*/advertise_policy$~third-party
@@ -65309,6 +65311,10 @@ ubmcmm.baidustatic.com
 ||xzwk.hk^
 ||jazze.hk^
 ||beolit.cn^
+||fanjin.name^
+||o06.xyz^
+||wuliglsg.space^
+||3fddkj.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -97108,6 +97114,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.shareably.net^
 ||events.splash-screen.net^
 ||events.split.io^
+||events.statsigapi.net^
 ||events.tubecup.org^
 ||events.whisk.com^
 ||events.yourcx.io^
@@ -99647,6 +99654,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||1337x.to/ip3.php
 ||40svintageporn.com/hit
 ||4hds.com/js/camstats.js
+||9gag.com/track/
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
 ||a10.nationalreview.com^
