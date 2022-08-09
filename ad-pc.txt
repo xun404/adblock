@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Iq2z/UHh5ZSV/1QJDcIPNQ
+! Checksum: X7s/+JMXKzNmUlbD4gfOdg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208091743
-! Last Modified: 2022年08月09日 17:43
+! Version: 202208091844
+! Last Modified: 2022年08月09日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25957,6 +25957,7 @@ _800x80_
 ##.google-advertisement
 ##.google-advertisement_txt
 ##.google-afc-wrapper
+##.google-bottom-ads
 ##.google-csi-ads
 ##.google-dfp-ad-caption
 ##.google-dfp-ad-label
@@ -92966,7 +92967,6 @@ _mongo_stats/
 ||portfold.com^$third-party
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
-||postclickmarketing.com^$third-party
 ||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
@@ -112338,7 +112338,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !---------- Anti-Adblock ----------
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 ! CJX's Annoyance List
-!#include https://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt
 !--------------------------General blocking filters---------------------------!
 /wiseatom/banner/pack_
 /template/bingfeng/statics/js/pingbi.js
