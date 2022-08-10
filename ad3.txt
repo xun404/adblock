@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3a4PkT/nHW+9lOBiVaOnQA
+! Checksum: qYOONDEy6ph8adyhpkQZqg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202208101153
-! Last Modified: 2022年08月10日 11:53
+! Version: 202208101340
+! Last Modified: 2022年08月10日 13:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26458,6 +26458,7 @@ m.babytree.com##script + a[class]
 /data_collect.js
 /datacapture/track
 /datacollectcode?
+/datacollectionapi-client/*
 /datadome/*
 /DatazoomAnalytics.
 /DavplusAnalytics.
@@ -27505,6 +27506,7 @@ m.babytree.com##script + a[class]
 /kiwip.js
 /klaviyo_analytics.
 /KochavaAnalytics.
+/koko-analytics/*
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -28165,6 +28167,7 @@ m.babytree.com##script + a[class]
 /pageview?pageviewId
 /pageview?t=
 /pageview?user_guid=
+/pageview_candidate.
 /pageviews-counter-
 /pageviews.gif?
 /pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
@@ -28542,6 +28545,7 @@ m.babytree.com##script + a[class]
 /RecordHit?
 /recstatsv2.
 /redirectexittrack.php?
+/redis_stats/*
 /reelevant.js
 /ref_analytics.
 /refer-tracking.
@@ -32221,6 +32225,7 @@ _mongo_stats/
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
+||leadfamly.com^$third-party
 ||leadfeeder.com^$third-party
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
