@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xYT7T3eimVswXHgi2LE2Pg
+! Checksum: Bx5Wxi8COkRTVjZ5qt5P0g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202208111743
-! Last Modified: 2022年08月11日 17:43
+! Version: 202208111844
+! Last Modified: 2022年08月11日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -64074,6 +64074,7 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##div[id^="a-loading-"] > span
 ##script + a[href="/hth.html"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -65299,6 +65300,7 @@ ubmcmm.baidustatic.com
 ||yijiachen.cn^
 ||yumnxwvd.ink^
 ||bbt114.cn^
+||zhouxingyu.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -75446,7 +75448,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||phpstudyimg.com/all/hrl.gif
 ||phpstudyimg.com/all/renrenxiaxuan980.gif
 ||phpstudyimg.com/all/xiaojieqiantie.gif
-||pianba.tv/api/*.js
 ||pianjicdn.com^*.php
 ||pianyuan.org/zfb.
 ||piaodown.com/xtm/
@@ -79221,7 +79222,7 @@ caixin.com##.course_box
 meishij.net##.cp_body_right
 baidu.com##.cpc-adv-container
 makepolo.com##.cpc_tgs
-pianba.tv##.cpcad
+pbpb.tv##.cpcad
 zuoye.baidu.com,zybang.com##.cpro
 docin.com##.cpro_mod
 qq.com##.cps_inner
@@ -82041,7 +82042,7 @@ secretmine.net##div[id^="secre-"]
 mjzj.com##div[id^="sidebar-top-carouse"]
 douyu.com##div[id^="sign_p_"]
 suizhoushi.com##div[id^="sznew_ad"]
-dmh8.com,pianba.tv##div[id^="test"]
+dmh8.com##div[id^="test"]
 ottawazine.com##div[id^="text-"]
 e0575.cn##div[id^="tid_"]
 baidu.com##div[id^="toast"]
