@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NsruAdTS/S1Kl0DRSxfgdA
+! Checksum: tWWRGEV40bkZl8ukK4ARuw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208121041
-! Last Modified: 2022年08月12日 10:41
+! Version: 202208121207
+! Last Modified: 2022年08月12日 12:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3760,7 +3760,6 @@ tieba.baidu.com##.tuijian-wrap
 /amazon_widget.cms
 /ame-dfp/*
 /amp-ad-
-/amp-auto-ads-
 /amp-connatix-
 /amp4ads-
 /anchorad.
@@ -10600,20 +10599,6 @@ _800x80_
 ###ad_site_header
 ###ad_sitebar
 ###ad_skin
-###ad_sky
-###ad_sky1
-###ad_sky2
-###ad_sky3
-###ad_sky_lhs
-###ad_sky_rhs
-###ad_skyscraper
-###ad_skyscraper1
-###ad_skyscraper120
-###ad_skyscraper160x600
-###ad_skyscraper2
-###ad_skyscraper_1
-###ad_skyscraper_right
-###ad_skyscraper_text
 ###ad_slot
 ###ad_slot_bottom
 ###ad_slot_leaderboard
@@ -28196,6 +28181,7 @@ _800x80_
 ##.p-ad-block
 ##.p-ad-dfp-banner
 ##.p-ad-dfp-middle-rec
+##.p-ad-feature-pr
 ##.p-ad-feature-pr.p-ad-thumbnail-txt
 ##.p-ad-outbreak
 ##.p-ad-rectangle
@@ -32880,6 +32866,7 @@ privateinternetaccess.com#@#a[href^="https://www.privateinternetaccess.com/"]
 marcpapeghin.com#@#a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 politico.com#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
 hifi-classic.net#@#aside[itemtype="https://schema.org/WPAdBlock"]
+play.google.com#@#div[aria-label="Ads"]
 news.artnet.com,worldsurfleague.com#@#div[data-ad-targeting]
 uol.com.br#@#div[data-adunit]
 cookinglight.com#@#div[data-native_ad]
@@ -60143,7 +60130,7 @@ screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,tech-latest.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
-catcountry941.com,cnx-software.com,dailyveracity.com,gamingonphone.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,quickanswer.blog,robloxhackscripts.com,techdows.com##.widget_custom_html
+catcountry941.com,cnx-software.com,dailyveracity.com,gamingonphone.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,quickanswer.blog,robloxhackscripts.com,techdows.com,tooxclusive.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
 bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
@@ -99976,6 +99963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click.udimg.com^
 ||clicks.hurriyet.com.tr^
 ||client-log.box.com^
+||client-metrics.chess.com^
 ||cloudflare.com/_cf/analytics.js
 ||cloudfront.net/tracker-latest.min.js
 ||cloudfront.net/vis_opt.js
