@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jbNJYVAJytRSLs8Ng22QhA
+! Checksum: rZRBVLFga7EVB0eaxrsZ5w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202208130103
-! Last Modified: 2022年08月13日 01:03
+! Version: 202208130642
+! Last Modified: 2022年08月13日 06:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1246,7 +1246,7 @@ pornj.com,upornia.com,realgfporn.com#$#abort-on-property-read encodeURI
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 mult34.com,remaxhd.one#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
-123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,zoechip.com#$#abort-on-property-read localStorage
+123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doodstream.co,doodstream.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 youdbox.com,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.cc,filecrypt.co#$#abort-on-property-read isAdblock
@@ -1343,7 +1343,7 @@ nikaraw.com#$#abort-on-property-read afStorage
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
 ! #CV-761
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div[role=feed] div[role=article]' 'a[href^="#"][role="link"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div[role=feed] div[role=article]' 'a[href^="?__cft__"]'; race stop;
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="feed"]//div[@role="article"]//a[@target="_blank"][contains(@href,"doubleclick.net") or contains(@href,"Paid") or contains(@href,"paid") or contains(@href,"ad.atdmt.com") or contains(@href,"adform.net") or contains(@href,"serving-sys.com") or contains(@href,"adition.com") or contains(@href,"flashtalking.com") or contains(@href,"bid=") or contains(@href,"Advertising") or contains(@href,"click") or contains(@href,"utm_medium=cpc") or contains(@href,"onversions") or contains(@href,"ad_name") or contains(@href,"utm_content=promo") or contains(@href,"ad_id") or contains(@href,"social_ads")]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][not(starts-with(@href,"https://l.facebook"))][contains(@href,"fbclid=")][not(text())]//div[@style="display: flex;"][count(./div) = 60]/ancestor::div[@role="article"]'
+www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][contains(@href,"doubleclick.net") or contains(@href,"Paid") or contains(@href,"paid") or contains(@href,"ad.atdmt.com") or contains(@href,"adform.net") or contains(@href,"serving-sys.com") or contains(@href,"adition.com") or contains(@href,"flashtalking.com") or contains(@href,"bid=") or contains(@href,"Advertising") or contains(@href,"click") or contains(@href,"utm_medium=cpc") or contains(@href,"onversions") or contains(@href,"ad_name") or contains(@href,"utm_content=promo") or contains(@href,"ad_id") or contains(@href,"social_ads") or contains(@href,"socialads")]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][not(starts-with(@href,"https://l.facebook"))][contains(@href,"fbclid=")][not(text())]//div[@style="display: flex;"][count(./div) = 60]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//div[@aria-labelledby][@role="button"]/ancestor::div[@role="article"]'; race stop;
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//div[contains(text(),"Sponsored · Paid for by")]/ancestor::div[@role="article"]'
 ! Rules that don't need to change
 @@||www.facebook.com^$generichide
