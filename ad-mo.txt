@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tVUfYVE3tEFTXVFRmEwceg
+! Checksum: DM/xMeZDmFwVHcTh7lx4+Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202208120741
-! Last Modified: 2022年08月12日 07:41
+! Version: 202208121041
+! Last Modified: 2022年08月12日 10:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -14253,6 +14253,7 @@ _800x80_
 ###header-ad2010
 ###header-ads
 ###header-ads-container
+###header-ads-holder
 ###header-ads-wrapper
 ###header-adsense
 ###header-adserve
@@ -57095,6 +57096,7 @@ travelpulse.com###ab_container
 uinterview.com###above-content
 peacemakeronline.com###above_top_banner
 go-convert.com###ad
+livescore.com###ad-holder-gad-news-article-item
 dappradar.com###ad-nft-top
 informer.com###ad0
 boards.net,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
@@ -63390,6 +63392,11 @@ ubmcmm.baidustatic.com
 ||ssh.*.com^*!$script,third-party
 !------------------------General element hiding rules-------------------------!
 ###Ad_windows
+##a[target="_blank"][onclick*="广告点击"]
+###toptd.toptd
+###lefttd.lefttd
+###rightd.rightd
+###undertd.undertd
 ###ChapterView > .slide-baidu
 ###Layeraa1
 ###Layeraa2
@@ -65311,6 +65318,10 @@ ubmcmm.baidustatic.com
 ||kefuxt2022.cn^
 ||krurkex.com^
 ||iorlsblj.cyou^
+||cclw.xyz^
+||666755.xyz^
+||ccrgxye.cn^
+||ofooe.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -100216,6 +100227,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
 ||lowes.com/gauge/
+||lyft.com/api/track
 ||ma.redhat.com^
 ||mail.yahoo.com/f/track/
 ||mangadex.org/api/event
