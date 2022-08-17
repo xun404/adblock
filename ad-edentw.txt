@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GukWXOo0lHB0Y12kDwTHVw
+! Checksum: pAUpD+r4jCYRpXBB82B4hg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202208171940
-! Last Modified: 2022年08月17日 19:40
+! Version: 202208172126
+! Last Modified: 2022年08月17日 21:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1302,7 +1302,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 *$popup,third-party,domain=strtapeadblocker.art|strtapeadblock.me
 ! #CV-691
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ div[aria-label] div[class]
-ebay.ca,ebay.co.uk,ebay.com,ebay.com.au,ebay.es,ebay.fr,ebay.it,ebay.nl#$#hide-if-matches-xpath '//a[contains(@data-track,"UnifiedRankingScenario")]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
+ebay.ca,ebay.co.uk,ebay.com,ebay.com.au,ebay.es,ebay.fr,ebay.it,ebay.nl#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ! #CV-698
 thegatewaypundit.com#$#abort-on-property-read adtoniq; abort-on-property-write adtoniq; abort-on-property-write bomab; abort-on-property-write zacak; abort-on-property-write kozuq
 ! #CV-667
@@ -1334,8 +1334,8 @@ bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
-instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="Sponsored"]/ancestor::li[1]'
-instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[.="Sponsored"]/ancestor::li[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[.="sponsored"]/ancestor::li[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="sponsored"]/ancestor::li[1]'
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
@@ -1425,7 +1425,7 @@ strtapeadblock.me#$#abort-on-property-write _pao
 ! *** abp-filters-anti-cv:german.txt ***
 ! #CV-761
 ! #CV-691
-ebay.de#$#hide-if-matches-xpath '//a[contains(@data-track,"UnifiedRankingScenario")]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
+ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ! Popup/Popunder/Clickunder
 frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
