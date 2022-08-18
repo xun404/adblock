@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YgQfFAz3iAoMsWhWMsss5g
+! Checksum: 7P30VZTkgoMHbdV9IZluSg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208190112
-! Last Modified: 2022年08月19日 01:12
+! Version: 202208190541
+! Last Modified: 2022年08月19日 05:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17620,8 +17620,8 @@ _800x80_
 ##.GoogleAdv
 ##.GoogleDfpAd
 ##.GoogleDfpAd-Content
-##.GoogleDfpAd-container
 ##.GoogleDfpAd-Float
+##.GoogleDfpAd-container
 ##.GoogleDfpAd-wrap
 ##.GoogleDfpAd-wrapper
 ##.GoogleDfpAdModule
@@ -111968,6 +111968,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|luminskin.com|mybalancenow.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
