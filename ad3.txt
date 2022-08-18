@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bMr/G2aGt0gWEtOWnT9Giw
+! Checksum: 4IUF8ysjQ4RoWFtr5UorCg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202208181939
-! Last Modified: 2022年08月18日 19:39
+! Version: 202208182122
+! Last Modified: 2022年08月18日 21:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20931,13 +20931,13 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ||17ce.com^*_$image
 !#18comic.org
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
-##.col-lg-3[style^="z-index: 0"] > .well
+##.col-lg-3.col-xs-6 > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
-##.col-xs-12[style^="display"] > .well
+##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
 ||18comic.*/static/resources/files/*0x
