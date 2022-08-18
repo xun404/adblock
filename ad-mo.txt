@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2lwMheska9w8amf9joOtlA
+! Checksum: Nj4RHvgknKR2VV8floEonQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202208180741
-! Last Modified: 2022年08月18日 07:41
+! Version: 202208181110
+! Last Modified: 2022年08月18日 11:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -9517,6 +9517,7 @@ _800x80_
 ###ad336x280
 ###ad368_2578
 ###ad368_2700
+###ad3734
 ###ad375x85
 ###ad3Article
 ###ad3small
@@ -16570,6 +16571,7 @@ _800x80_
 ###tippytop-ad
 ###title-sponsor-banner
 ###title-wide-sponsored-by
+###tmInfiniteAd
 ###tmcomp_ad
 ###tmgAd_div_mpu_1
 ###tmglBannerAd
@@ -65625,6 +65627,13 @@ ubmcmm.baidustatic.com
 ||zzycj.com^
 ||zzyl.mobi^
 ||666763.xyz^
+||ma3s.top^
+||qdxsodq.cn^
+||miatip.cn^
+||pwqtkap.cn^
+||ogcyshr.cn^
+||wisafnie.space^
+||kjcnve.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -83596,13 +83605,13 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ||17ce.com^*_$image
 !#18comic.org
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
-##.col-lg-3[style="z-index: 0;"] > .well
+##.col-lg-3[style^="z-index: 0"] > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
-##div[style="display: flex;justify-content: center;"] > .well[data-group][style]
+##.col-xs-12[style^="display"] > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
 ||18comic.*/static/resources/files/*0x
