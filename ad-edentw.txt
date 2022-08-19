@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SQ6cwa5C6igVHgqGwrMvpA
+! Checksum: nGKle7JvKyB4w810e61qGQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202208192111
-! Last Modified: 2022年08月19日 21:11
+! Version: 202208192348
+! Last Modified: 2022年08月19日 23:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1334,8 +1334,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
-instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[.="sponsored"]/ancestor::li[1]'
-instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="sponsored"]/ancestor::li[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="sponsored" or @*="Sponsored" or .="sponsored" or .="Sponsored"]/ancestor::li[1]'
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
