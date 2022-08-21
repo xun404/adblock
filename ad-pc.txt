@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 63ZsAOujb1iyB6VWnEETCQ
+! Checksum: 4j5gzDLBUFEOE1Dp2ky87Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208211645
-! Last Modified: 2022年08月21日 16:45
+! Version: 202208211842
+! Last Modified: 2022年08月21日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27823,6 +27823,7 @@ _800x80_
 ##.mpu_platinum
 ##.mpu_side
 ##.mpu_text_ad
+##.mpu_wrapper
 ##.mpuad
 ##.mpuads
 ##.mpuholderportalpage
@@ -57896,7 +57897,7 @@ livelaw.in###news_on_exit
 canberratimes.com.au,examiner.com.au,theland.com.au###newswell-leaderboard-container
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
-pcgamesn.com,pockettactics.com,theloadout.com###nn_astro_wrapper
+pcgamebenchmark.com,pcgamesn.com,pockettactics.com,theloadout.com###nn_astro_wrapper
 trueachievements.com,truesteamachievements.com,truetrophies.com###nn_bfa_wrapper
 techraptor.net,unite-db.com###nn_lb1
 techraptor.net,unite-db.com###nn_lb2
@@ -111502,6 +111503,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ameba.jp/cookie/
 ||ameblo.jp/accesslog/
 ||analytics.cocolog-nifty.com^
+||analytics.ikyu.com^
 ||analytics.mbga.jp^
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
