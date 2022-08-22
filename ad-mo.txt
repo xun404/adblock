@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vE0U5zvBiBaNCS4DB/44SQ
+! Checksum: 6hNIXCgzA7U8cZ9MJwiDQA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202208220741
-! Last Modified: 2022年08月22日 07:41
+! Version: 202208221251
+! Last Modified: 2022年08月22日 12:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -14749,6 +14749,7 @@ _800x80_
 ###leaderboard-advertisement
 ###leaderboard-atf
 ###leaderboard-bottom-ad
+###leaderboard.ad
 ###leaderboardAd
 ###leaderboardAdArea
 ###leaderboardAdArea2
@@ -18539,6 +18540,7 @@ _800x80_
 ##.ad-in-post
 ##.ad-in-read
 ##.ad-in-results
+##.ad-incontent
 ##.ad-incontent-ad-plus-billboard-top
 ##.ad-incontent-ad-plus-bottom
 ##.ad-incontent-ad-plus-middle
@@ -27068,6 +27070,7 @@ _800x80_
 ##.leaderboardadtop
 ##.leaderboardadwrap
 ##.leadgenads
+##.lee-track-ilad
 ##.left-ad
 ##.left-ad180
 ##.left-ads
@@ -27982,6 +27985,7 @@ _800x80_
 ##.nw-c-leaderboard-ad
 ##.nw-top-ad
 ##.nzs-ads
+##.o-ad
 ##.o-ad-banner-top
 ##.o-ad-container
 ##.o-ads
@@ -32286,8 +32290,13 @@ _800x80_
 ##.scroll-fixable.rail-right > .deals-rail
 ##.click-track.partner
 ##[href^="https://freecourseweb.com/"] > .sitefriend
+###gnt_atomsnc
+##.gnt_flp
+##.gnt_rr_xpst
+##.gnt_rr_xst
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
+##.gnt_x
 ###mplayer-embed
 ##.GRVVideo
 ##.ac-lre-desktop
@@ -32378,7 +32387,6 @@ _800x80_
 ##AMP-AD
 ##amp-fx-flying-carpet
 ###mobile-swipe-banner
-##.gnt_x
 ###banner_pos1_ddb_0
 ###banner_pos2_ddb_0
 ###banner_pos3_ddb_0
@@ -57990,6 +57998,7 @@ gumtree.com###tBanner
 goodreturns.in###taboola-mid-category-thumbnails
 comicbookrealm.com###tad
 google.com###tadsc
+cyclingtips.com###takeover
 based-politics.com###tdi_107
 linuxtoday.com###tdi_46
 iol.co.za###teadsTarget
@@ -58667,6 +58676,7 @@ download.cnet.com##.c-pageFrontDoor_adWrapper
 download.cnet.com##.c-pageProductDetail-sidebarAd
 download.cnet.com##.c-pageProductDetail_productAlternativeAd
 globalnews.ca##.c-stickyRail
+backpacker.com,betamtb.com,betternutrition.com,cleaneatingmag.com,climbing.com,gymclimber.com,outsideonline.com,oxygenmag.com,pelotonmagazine.com,rockandice.com,skimag.com,trailrunnermag.com,triathlete.com,vegetariantimes.com,velonews.com,womensrunning.com,yogajournal.com##.c-thinbanner
 mangarockteam.com,nitroscans.com##.c-top-second-sidebar
 freecomiconline.me,lordmanga.com,mangahentai.me,manytoon.com,readfreecomics.com##.c-top-sidebar
 softarchive.is##.c-un-link
@@ -62382,6 +62392,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||techadvisor.com/cmsdata/$image,~third-party
+@@||texasmonthly.com/wp-content/plugins/txmo-header-bidding/dist/js/txmo-prebid.js
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||thingiverse.com/assets/ad/$image,~third-party
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
@@ -65746,6 +65757,10 @@ ubmcmm.baidustatic.com
 ||uxngqd.cn^
 ||mukjozy.cn^
 ||aimtxb.cn^
+||peigbv.cn^
+||666769.xyz^
+||op7s.top^
+||otjedg.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -83720,13 +83735,11 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
 ||17ce.com^*_$image
 !#18comic.org
+||18comic.*/media/users/*.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 ##.col-lg-3.col-xs-6 > .well
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
-/media/users/*.js$image
-/templates/frontend/airav/js/*$image
-://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
@@ -88191,7 +88204,7 @@ fqsousou.com,kengso.com#@#.user-share
 /kiwip.js
 /klaviyo_analytics.
 /KochavaAnalytics.
-/koko-analytics/*
+/koko-analytics/*$domain=~kokoanalytics.com
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -88634,6 +88647,7 @@ fqsousou.com,kengso.com#@#.user-share
 /netupdate/live.php?
 /NetworkTracking.
 /neustar.beacon.
+/new-client/trackers.
 /new-relic.$~stylesheet
 /new.cnt.aspx?
 /newlog.php?
@@ -89443,6 +89457,7 @@ fqsousou.com,kengso.com#@#.user-share
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentry-browser.
 /sentry.unit-
 /seo-track.
 /seo.googleAnalytics-
@@ -91998,6 +92013,7 @@ _mongo_stats/
 ||bluecava.com^$third-party
 ||blueconic.net^$third-party
 ||bluecore.com^$third-party
+||blueknow.com^$third-party
 ||blvdstatus.com^$third-party
 ||bm23.com^$third-party
 ||bm324.com^$third-party
@@ -92399,6 +92415,7 @@ _mongo_stats/
 ||engine212.com^$third-party
 ||engine64.com^$third-party
 ||enhance.com^$third-party
+||enhencer.com^$third-party
 ||enquisite.com^$third-party
 ||ensighten.com^$third-party
 ||enticelabs.com^$third-party
@@ -96897,6 +96914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||activengage.com/overwatch/
 ||ad-shield.io^$third-party
 ||ad.aloodo.com^
+||adbr.io/log?
 ||addthis.com/at/
 ||addthis.com/live/
 ||addthiscdn.com/live/
@@ -98983,6 +99001,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||web1.51.la^
 ||webcare.byside.com^
 ||webedia.fr/js/gs.js
+||webeyo.com/ipinfo
 ||weblogger-dynamic-lb.playdom.com^
 ||websdk.appsflyer.com^
 ||webservices.websitepros.com^
