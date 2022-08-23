@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a5GLv4Hu9ZiUN24SqAGelA
+! Checksum: 9Y7sIg6MVUfb0hDSMrH48Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202208230742
-! Last Modified: 2022年08月23日 07:42
+! Version: 202208231301
+! Last Modified: 2022年08月23日 13:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -138,6 +138,7 @@ xz6d.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+://rou*/_next/static/chunks/pages/home-
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -3042,6 +3043,13 @@ ubmcmm.baidustatic.com
 ||tbtpezs.cn^
 ||frbcmq.cn^
 ||gh8s.top^
+||5555nt.com^
+||dwswap.xyz^
+||helloworldisbeautiful.net^
+||572k3.com^
+||666772.xyz^
+||ptnxa.xyz^
+||8910.la^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -14565,6 +14573,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+btnull.org###ly
+litu100.xyz##.push-bottom
+litu100.xyz##.push-top
+litu100.xyz##.slider-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -37161,6 +37173,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.contactatonce.com^
 ||event-api.rdstation.com.br^
 ||event-listener.air.tv^
+||event-logger.tagboard.com^
 ||event-service.letslinc.com^
 ||event-stream.spot.im^
 ||event.api.drift.com^
@@ -50456,9 +50469,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||allocine.fr/_/geolocalize
 ||analytics.allovoisins.com^
 ||api.odysee.com/locale/get
-||cdtm.cdiscount.com^
 ||batiactu.com/cap_
 ||boingtv.fr/track_view
+||cdtm.cdiscount.com^
 ||compteur.developpez.com^
 ||developpez.com/public/js/track.js
 ||e.m6web.fr/events
