@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YXQXfAnceq4cKkfQCkukXA
+! Checksum: 90Y2ZBPeJxea0+VrRwZVzg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202208222346
-! Last Modified: 2022年08月22日 23:46
+! Version: 202208231844
+! Last Modified: 2022年08月23日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1641,6 +1641,7 @@ porngames.su,rintor.info,rintor.net#$#abort-on-property-read TotemToolsObject
 hardwareluxx.ru#$#abort-current-inline-script jQuery backgroundImage
 changeua.com,ictv.ua,inter.ua,k1.ua,novy.tv,ntn.ua,starlight.digital,stb.ua,teleportal.ua#$#override-property-read Object.prototype.CreativeAdBreaks undefined
 anime.anidub.com,anidub.club,anidub.link,anime.anidub.life,online.anidub.com,online.anidub.life#$#prevent-listener click window.open
+4pda.to#$#hide-if-matches-xpath './/*[not(self::div)]//script[contains(text(),"Math.ceil")]/ancestor::*[not(self::div)][1]'; hide-if-matches-xpath './/*[not(self::div)]//script[contains(text(),"toLowerCase")]/ancestor::div[2]'; hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/ancestor::td[1]'
 ! Popup/popunder/clickunder
 tv-assia.org,freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,xittv.net,potokcdn.com,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,oveg.ru#$#abort-on-property-read open
 domahatv.com,piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,pornoakt.vip,porn720.biz,hentai-share.one,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
