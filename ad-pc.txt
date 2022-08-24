@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7XJa9I01nu+zXFLMDklQsA
+! Checksum: 1l09kAJtLsvycIgtPgWp0g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208241742
-! Last Modified: 2022年08月24日 17:42
+! Version: 202208241939
+! Last Modified: 2022年08月24日 19:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17727,6 +17727,7 @@ _800x80_
 ##.ad-height-600
 ##.ad-here
 ##.ad-hero
+##.ad-hfu
 ##.ad-hide-mobile
 ##.ad-hideable
 ##.ad-hint
@@ -55695,6 +55696,7 @@ tf2r.com#@#.adverts
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thewrap.com|washingtonexaminer.com
 ||c.jsrdn.com^$script,domain=muscleandfitness.com
 ||cdn.ex.co/player/
+||cdn.thejournal.ie/media/hpto/$image
 ||channelexco.com/player/$third-party
 ||connatix.com^$third-party
 ||delivery.vidible.tv/jsonp/
@@ -56415,10 +56417,7 @@ fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
 breitbart.com###HaDW
-fortune.com###Homepage-InStream0
-fortune.com###Homepage-InStream1
-fortune.com###Homepage-InStream2
-fortune.com###Homepage-InStream3
+fortune.com###Leaderboard0
 linkfang.org###LinkFang_Horizontal
 motortrend.com###MT_Articles_300x250_top
 techadvisor.com###OzAUZW
@@ -56427,7 +56426,6 @@ physicsandmathstutor.com###PMT_Top
 point2homes.com,propertyshark.com###Point2Homes_Premium_Agent_Replace_300x250
 audioz.download###PromoHead
 sciencealert.com###Purch_D_R_0_1
-fortune.com###RightRailFlex_Articles0
 calculatorsoup.com###RightSidebar
 edn.com###SideBarWrap
 soapcalc.net###SidebarLeft
@@ -57537,7 +57535,7 @@ motor1.com##.apb
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 icon-icons.com##.apu
-adn.com##.arcad-feature
+adn.com,businessoffashion.com##.arcad-feature
 1news.co.nz,boston25news.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
@@ -58339,6 +58337,7 @@ carmag.co.za##.homepage-300x250-banner
 smallbusiness.co.uk##.homepage-banner-container
 gumtree.com.au##.homepage-gallery__mrec-placeholder
 designspiration.com##.homepageBanner
+artandeducation.net##.homepage__banner
 lushstories.com##.horizhide
 flv2mp3.by##.horizontal-area
 getmyuni.com##.horizontalRectangle
@@ -58532,6 +58531,7 @@ amgreatness.com##.mb-10.mx-auto
 coinlean.com##.mb-3
 gamedev.net##.mb-3.align-items-center.justify-content-start
 indiatimes.com##.mb-36 > .top-trending
+urbandictionary.com##.mb-4.justify-center
 themoscowtimes.com##.mb-4.py-3
 techbone.net##.mb-5.bg-light
 yardbarker.com##.mb_promo_responsive_right
@@ -59086,7 +59086,7 @@ greatis.com##.sing
 metalsucks.net##.single-300-insert
 inoreader.com##.sinner_inner
 deshdoaba.com##.site-branding
-thedriven.io##.site-footer
+thedriven.io###solarchoice_banner_1
 punchng.com##.site-header-placeholder
 sassyhongkong.com##.site-leaderboard
 wahcricket.com##.site-mainhead
@@ -59807,7 +59807,6 @@ healthline.com##div.css-0 > div[class]:not([id])
 windows10forums.com##div.message--post.message
 inverse.com##div.zz
 nexusradio.com##div[align=center]
-fortune.com##div[class*="Ad-"]
 sportbible.com##div[class*="Advert"]
 wsj.com##div[class*="WSJTheme--adWrapper"]
 pcgamer.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
@@ -64958,6 +64957,7 @@ ubmcmm.baidustatic.com
 ||xfkujwt.cn^
 ||fool.ink^
 ||ssdp.xyz^
+||xumnxwvw.ink^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -71638,7 +71638,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 ||yy18.info^*thanks$popup
 !----------------------Specific advert blocking filters-----------------------!
 $image,third-party,domain=lady1.top
-$script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|xiepp.com
+$script,third-party,domain=btsow.click|52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|xiepp.com
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $websocket,domain=5nj.com|cechi8.com
 .194007.com/4058.gif
@@ -76474,6 +76474,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||baidu.com/api/wikiad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 theporn.cc###alert_windows
@@ -87905,6 +87906,7 @@ fqsousou.com,kengso.com#@#.user-share
 /npm/perfops-rom
 /npssurvey.
 /nsimpression/*
+/nsmg-tracking/*
 /nStat/*
 /ntpagetag-
 /ntpagetag.
