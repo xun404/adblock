@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2/+H3mVtAcqrOi8Nt+iRlw
+! Checksum: 5IWi/Y90v4SLrbe1GJ0NkQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202208241540
-! Last Modified: 2022年08月24日 15:40
+! Version: 202208241742
+! Last Modified: 2022年08月24日 17:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -137,6 +137,7 @@ xz6d.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/conch/asset/js/atop.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -6095,7 +6096,6 @@ ubmcmm.baidustatic.com
 ||jingyixuanstore.cn^
 ||jingyue.co^
 ||jinhaitun888.xyz^
-||jinkege.com^
 ||jinks.top^
 ||jinlianchengwhcm.cn^
 ||jinlijzbd.com^
@@ -12356,8 +12356,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||inhe.net/Uploadfiles/inhegg2016/
 ||inlishui.com/index.php?m=poster&
 ||inoreader.com/adv/$domain=inoreader.com
-||inray.cn^*/js/atop.js
-||inray.cn^*/js/gglms.js
 ||inszu.com/js/qian/
 ||inte.sogou.com^
 ||iocoder.cn/alert/js/alert.js
@@ -14595,6 +14593,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+theporn.cc###alert_windows
+theporn.cc###__ads_dp
 jbaaza.com##.notice-img
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -21051,7 +21051,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
 ||17ce.com^*_$image
 !#18comic.org
-||18comic.*/media/albums/*.gif
+||18comic.*/media/albums/*?
 18comic.org,18comic.vip#?#:-abp-has(>.adsbyexoclick)
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 ##.col-lg-3.col-xs-6 > .well
