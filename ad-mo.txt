@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nJ/TG4jX4f8vOyqcM/+0tg
+! Checksum: RlpHo2bJfMQgNgz0sIUrQg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202208251941
-! Last Modified: 2022年08月25日 19:41
+! Version: 202208252158
+! Last Modified: 2022年08月25日 21:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1398,7 +1398,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad728x15_
 /ad728x90-
 /ad728x90.
-/ad8.
 /ad?channel=
 /ad?cid=
 /ad?count=
@@ -50497,6 +50496,7 @@ tf2r.com#@#.adverts
 ||sprout-ad.com^$third-party
 ||spyoff.com^$third-party
 ||starlayer.com^$third-party
+||statsperformdev.com^$third-party
 ||stickyadstv.com^$third-party
 ||stocker.bonnint.net^$third-party
 ||stootoat.com^$third-party
@@ -90949,6 +90949,7 @@ _mongo_stats/
 ||cityadstrack.com^$third-party
 ||clarity.ms^$third-party
 ||claritytag.com^$third-party
+||clarium.io^$third-party
 ||clarivoy.com^$third-party
 ||cleananalytics.com^$third-party
 ||clearbitjs.com^$third-party
@@ -93163,6 +93164,8 @@ _mongo_stats/
 ||0.0.0.1^
 $ping,third-party
 $third-party,xmlhttprequest,domain=opensubtitles.org
+||addthis.com^$third-party
+||addthiscdn.com^$domain=~addthis.com
 ||pphwrevr.com^$third-party
 ||protectcrev.com^$third-party
 ||protectsubrev.com^$third-party
@@ -99657,6 +99660,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||optimize-stats.voxmedia.com^
 ||optimizely.com/js/geo.js
 ||oracle.com/visitorinfo/
+||oracleimg.com^*/metrics/
 ||outbound.io/v2/identify
 ||outbound.io/v2/track
 ||overstock.com/analytics/
@@ -111402,6 +111406,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
+@@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party

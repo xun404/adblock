@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IO5wlfuHU+uOrojm4J1euQ
+! Checksum: l9vnkEGmV47V2pwx9oKtCA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202208251846
-! Last Modified: 2022年08月25日 18:46
+! Version: 202208252158
+! Last Modified: 2022年08月25日 21:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31741,6 +31741,7 @@ _mongo_stats/
 ||cityadstrack.com^$third-party
 ||clarity.ms^$third-party
 ||claritytag.com^$third-party
+||clarium.io^$third-party
 ||clarivoy.com^$third-party
 ||cleananalytics.com^$third-party
 ||clearbitjs.com^$third-party
@@ -33955,6 +33956,8 @@ _mongo_stats/
 ||0.0.0.1^
 $ping,third-party
 $third-party,xmlhttprequest,domain=opensubtitles.org
+||addthis.com^$third-party
+||addthiscdn.com^$domain=~addthis.com
 ||pphwrevr.com^$third-party
 ||protectcrev.com^$third-party
 ||protectsubrev.com^$third-party
@@ -40449,6 +40452,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||optimize-stats.voxmedia.com^
 ||optimizely.com/js/geo.js
 ||oracle.com/visitorinfo/
+||oracleimg.com^*/metrics/
 ||outbound.io/v2/identify
 ||outbound.io/v2/track
 ||overstock.com/analytics/
@@ -52194,6 +52198,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
+@@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
