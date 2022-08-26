@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4rGobOb1H0Hi8IVAvRL6aA
+! Checksum: wDTlqzfipB4ORbxVhpqUsw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208270058
-! Last Modified: 2022年08月27日 00:58
+! Version: 202208270743
+! Last Modified: 2022年08月27日 07:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56296,6 +56296,7 @@ techraptor.net###nn_lb4
 boxingstreams.cc,crackstreams.gg,cricketstreams.cc,footybite.cc,formula1stream.cc,mlbshow.com,nbabite.com###nordd
 forums.somethingawful.com###notregistered
 gizbot.com###offersblocksection
+offliberty.io###offgoo
 vapingunderground.com###oio-banner-5
 onlinemschool.com###oms_left
 livestreamfails.com###oranum_livefeed_container_0
@@ -59831,7 +59832,7 @@ twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"
 twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 unsplash.com#?#.MbNnd:-abp-has(a:-abp-contains(Sponsored))
-wikiprocedure.com#?#div:-abp-contains(/^Advertisement$/)
+wikiprocedure.com#?##mw-content-text > div:-abp-contains(/^Advertisement$/)
 winaero.com#?#p:-abp-contains(Advertisement)
 windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"])
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
@@ -64362,6 +64363,12 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
+||cgdiqvn.cn^
+||trysogsii.uno^
+||vt3a.top^
+||fangfeng005.xyz^
+||xniexnz.cn^
+||zdktgps.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -84715,6 +84722,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analyticReporting.
 /analyticReportingAS3.$domain=~miniclip.com
 /analytics-2.
+/analytics-amplitude-
 /analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
@@ -84966,6 +84974,8 @@ fqsousou.com,kengso.com#@#.user-share
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
+/api/v3/getPageVisits
+/api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
 /api_ip_info.
 /apilog?
@@ -97154,6 +97164,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sparklit.com/counter/
 ||speedtest.dailymotion.com/latencies.js
 ||speedtrap.shopdirect.com^
+||splunkcloud.com/services/collector/
 ||spotpass.com/api/log
 ||spread.ly^*/statistics.php
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
