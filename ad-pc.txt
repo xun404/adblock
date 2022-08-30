@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EkgTotV/e8a8YyaNbLA3mw
+! Checksum: 2MKgc5N3sXqkfz+nS9YGTQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202208310247
-! Last Modified: 2022年08月31日 02:47
+! Version: 202208310541
+! Last Modified: 2022年08月31日 05:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11509,6 +11509,7 @@ _800x80_
 ###canmobileanchoradclick
 ###captcha-adspace
 ###carbon-ads-container-bg
+###carbonadcontainer
 ###carbonads
 ###carbonads-container
 ###card-ads-top
@@ -17105,6 +17106,7 @@ _800x80_
 ##.ad-subtitle
 ##.ad-summary
 ##.ad-superbanner
+##.ad-superbanner-node
 ##.ad-t
 ##.ad-table
 ##.ad-tabs
@@ -25347,6 +25349,7 @@ _800x80_
 ##.mod-adcpc
 ##.mod-adopenx
 ##.mod-ads
+##.mod-amazon-btn
 ##.mod-big-ad-switch
 ##.mod-big-banner-ad
 ##.mod-google-ads
@@ -55959,6 +55962,7 @@ doge-faucet.com##.bbb
 bbc.co.uk##.bbccom_companion
 ecommercetimes.com,ectnews.com,linuxinsider.com,macnewsworld.com,technewsworld.com##.bbframe
 britannica.com##.bc-article-inline-dialogue
+dissentmagazine.org##.bc_random_banner
 h-online.com##.bcadv
 fakenamegenerator.com##.bcsw
 censor.net##.beGrKXqw1r8uLq2pL
@@ -56365,6 +56369,7 @@ dongknows.com##.dkt-amz-deals
 mazterize.com##.dl-g
 dallasnews.com##.dmnc_features-ads-config-presets-module__1xTTS
 crash.net##.dmpu-container
+thenationonlineng.net##.dorvekp-post-bottom
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
 thesun.co.uk##.dpa-slot
@@ -98002,6 +98007,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||codecademy.com/analytics/
 ||codecguide.com/stats.js
 ||collect.alipay.com^
+||collect.asics.com^
 ||collect.banggood.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.cint.com^
@@ -110272,6 +110278,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=sony.jp
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||type.jp/common/js/clicktag.js
+@@||ukw.jp^*/?cbk=$script,domain=system5.jp
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
