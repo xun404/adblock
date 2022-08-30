@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 98JY4WnJ8b/qWXXX1gp+xg
+! Checksum: Q5N3jVlxMXuT0+dkAzcO+g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202208301743
-! Last Modified: 2022年08月30日 17:43
+! Version: 202208301844
+! Last Modified: 2022年08月30日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -653,7 +653,7 @@ ifenpaidy.com#$#abort-on-property-read localStorage
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
 madouqu.com,madouqu.tk#$#abort-current-inline-script document.querySelectorAll popMagic
 editcode.net#$#abort-current-inline-script setTimeout openAd
-theporn.cc#$#abort-on-property-read is_show_alert_window
+69xx.one,theporn.cc#$#override-property-read is_show false
 ! Video ads
 iyingshi9.tv#$#override-property-read YZM.ads.state false
 ! #CV-667
@@ -1138,6 +1138,7 @@ thegatewaypundit.com##a[href*="cloudfront.net"]
 eztv.re,pstream.net,biter.tv#$#abort-on-property-write adcashMacros
 mkvcage.com,pastehere.xyz,vidshare.tv,govid.me,hdvid.tv,ovid.pro#$#abort-on-property-read adcashMacros
 ! MISC
+||clips-media-*.warnermediacdn.com/prod01/*.mp4$rewrite=abp-resource:blank-js,domain=cnn.com
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.fr,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
 bagas31.info#$#abort-on-property-write atob
 rarbg.to,rarbg2019.org,rarbgaccess.org,rarbgdata.org,rarbgget.org,rarbggo.org,rarbgmirror.com,rarbgmirror.org,rarbgmirrored.org,rarbgproxy.org,rarbgprx.org,rarbgto.org,rarbgunblock.com,rarbgweb.org#$#abort-on-property-read LieDetector
@@ -1300,7 +1301,6 @@ kiss-anime.ws#$#abort-on-property-read localStorage; abort-on-property-write JSO
 manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 ling-online.com#$#abort-current-inline-script document.documentElement JSON.parse
 *$popup,third-party,domain=strtapeadblocker.art|strtapeadblock.me
-||clips-media-*.warnermediacdn.com/prod01/*.mp4$rewrite=abp-resource:blank-js,domain=cnn.com
 ! #CV-691
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ div[aria-label] div[class]
 ebay.ca,ebay.co.uk,ebay.com,ebay.com.au,ebay.es,ebay.fr,ebay.it,ebay.nl#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
@@ -1336,6 +1336,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
 instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[@*="sponsored" or @*="Sponsored" or .="sponsored" or .="Sponsored"]/ancestor::li[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@aria-label="item"]//*[translate(@alt, "sponsored", "SPONSORED")]/ancestor::li[1]'
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
