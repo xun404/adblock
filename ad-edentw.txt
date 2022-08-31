@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z0siElaGgVhPzY4dev/84Q
+! Checksum: 0ZHkfz4oYHn4AfRzzHt9ww
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202208311844
-! Last Modified: 2022年08月31日 18:44
+! Version: 202208312122
+! Last Modified: 2022年08月31日 21:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1589,8 +1589,9 @@ indoxx1.show##img[src^="blob:https://indoxx1.show/"]
 /img.akubebas.com^$image,script,domain=indoxx1.show
 ! #CV-250
 megatfile.cc,gidonline.eu,dc-marvel.org,torrent-soft.net#$#abort-on-property-read atob
-! #CV-712
 ! MISC
+||sm.news/$header=content-type=application/json
+sm.news#$#abort-on-property-read AdFox_getCodeScript
 7ogorod.ru,shtrafsud.ru,autonevod.ru#$#abort-on-property-read flat_pm_arr
 hitfm.ua,kissfm.ua,radiorelax.ua,radioroks.ua,rusradio.ua#$#abort-on-property-write prerole_length
 www.goha.ru,3dnews.ru#$#abort-on-property-read Ya
