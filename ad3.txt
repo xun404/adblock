@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UiP5dE7/vohiUx9ktyvdpA
+! Checksum: 1Cy5Dm/HGEsIr7JqnhM85A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209021306
-! Last Modified: 2022年09月02日 13:06
+! Version: 202209021422
+! Last Modified: 2022年09月02日 14:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3236,6 +3236,7 @@ ubmcmm.baidustatic.com
 ||wjr9.cn^
 ||utll.cn^
 ||4p85.cn^
+||egsxdp.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -24769,7 +24770,6 @@ caijing.com.cn##.downdiv
 m.youku.com##.download
 baidu.com##.download-app-parent
 kdnet.net##.download-bar
-wallstreetcn.com##.download-coantainer
 2.taobao.com##.download-layer
 km.com##.downloadApp
 gfan.com##.downs
@@ -24974,7 +24974,6 @@ m.babytree.com##.wrap > section[class*="9"],.wrap > div[class*="9"]
 m.autohome.com.cn##.wrapper > section[class^="box_"]
 yahoo.com##.wrapper-border > .Pos\(r\) > .VideoPlayer.D\(b\).Pos\(r\)
 56.com##.x-download-panel
-wallstreetcn.com##.xinren-wrapper
 1010jiajiao.com##.xiti_content + .xiti
 56.com##.xiu_mm
 ifeng.com##.yc_con_r
@@ -25028,7 +25027,6 @@ m.babytree.com##script + a[class]
 /cp2.gif?*=qc_
 /hunter/alog/*
 /js/soku-analytics.js
-/hm.js?$xmlhttprequest,third-party
 /mysql/count/*$script,domain=ts.cn
 /scriptonline.js?uin=
 /soku/giantstar/js/youlog.js
@@ -52173,6 +52171,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js?$domain=journaldunet.com
 @@||lexpress.fr/tagcommander.js$script,~third-party
+@@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
