@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jIRcdlyVFxHi0Vg/schsag
+! Checksum: Lv4H6AF0rLUQbVxCs08yRA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209021422
-! Last Modified: 2022年09月02日 14:22
+! Version: 202209021503
+! Last Modified: 2022年09月02日 15:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16513,6 +16513,7 @@ _800x80_
 ##.ad-sidebar-ad-message
 ##.ad-sidebar-border
 ##.ad-sidebar-btf-1
+##.ad-sidebar-mrec
 ##.ad-sidebar-outer
 ##.ad-sidebar300
 ##.ad-sidekick
@@ -18279,6 +18280,7 @@ _800x80_
 ##.adcolumn
 ##.adcolumn_wrapper
 ##.adcomment
+##.adcon
 ##.adcont
 ##.adcontainer-Leaderboard
 ##.adcontainer-Rectangle
@@ -28566,6 +28568,8 @@ _800x80_
 ##div[id^="div-gpt-"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="google_dfp_"]
+##div[id^="gpt-ad-hor"]
+##div[id^="gpt-ad-ver"]
 ##div[id^="gpt_ad_"]
 ##div[id^="gtm-ad-"]
 ##div[id^="js-dfp-"]
@@ -54899,7 +54903,7 @@ auto-data.net##.ad_incar
 tellymix.co.uk##.adb_top
 wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com,yallamotor.com##.adblock
-entrepreneur.com,pricespy.co.nz##.adbox
+entrepreneur.com,interglot.com,pricespy.co.nz##.adbox
 moviechat.org##.adc
 ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,worldhistory.org##.adcontainer
 sumanasa.com##.adcontent
@@ -55350,7 +55354,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-180gadgets.com,browserhow.com,charlieintel.com,chromeunboxed.com,crimereads.com,cryptoslate.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,lithub.com,notalwaysright.com,quickanswer.blog,reneweconomy.com.au,rezence.com,rok.guide,twistedvoxel.com##.code-block
+180gadgets.com,browserhow.com,charlieintel.com,chromeunboxed.com,crimereads.com,cryptoslate.com,fandomwire.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,indianhealthyrecipes.com,iotwreport.com,lithub.com,notalwaysright.com,quickanswer.blog,reneweconomy.com.au,rezence.com,rok.guide,thecinemaholic.com,twistedvoxel.com##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 trendingpolitics.com##.code-block-12
@@ -57875,7 +57879,8 @@ digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
 nationalgeographic.com#?#.FrameBackgroundFull--grey:-abp-has(.ad-wrapper)
 cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,wotif.com#?#.uitk-card:-abp-has(.uitk-badge-sponsored)
 mg.co.za#?#.td_flex_block:-abp-has(span:-abp-contains(Sponsored))
-limetorrents.pro#?#a:-abp-contains(Download An‌on‌ymously)
+limetorrents.lol#?#table:first-of-type:-abp-contains(Sponsored Links)
+limetorrents.lol#?#.downloadareabig:-abp-has([title^="An‌on‌ymous Download"])
 webtools.fineaty.com#?#div[class*=" hidden-"]:-abp-has(.adsbygoogle)
 regex101.com#?#div > header + div > div + div:-abp-contains(Sponsors)
 limetorrents.pro#?#.torrentinfo div + div:-abp-contains(Fast And Direct Download Safely And Anonymously)
@@ -57892,6 +57897,7 @@ outlook.live.com#?#div:-abp-has(> div > div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
+doordash.com#?#div[size="12"]:-abp-has(> div:-abp-has(span:-abp-contains(Ad)))
 doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 bleepingcomputer.com#?##bc-home-news-main-wrap > li:-abp-contains(Sponsored Content)
 psychcentral.com#?#aside:-abp-has([data-empty])
