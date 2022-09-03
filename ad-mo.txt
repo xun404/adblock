@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S600IN1MP4hM+V50/M+EpQ
+! Checksum: M6lcpjbZ26SdFNa2PiL7wg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209031742
-! Last Modified: 2022年09月03日 17:42
+! Version: 202209031843
+! Last Modified: 2022年09月03日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -22554,6 +22554,7 @@ _800x80_
 ##.homeCentreAd
 ##.homeMainAd
 ##.homeMediumAdGroup
+##.homePageAdSquare
 ##.homePageAds
 ##.homeSubAd
 ##.homeTextAds
@@ -28012,6 +28013,7 @@ dobro.systems#@#.adv-box
 dobro.systems#@#.adv-list
 dobro.systems#@#.advBox
 bigcommerce.com#@#.advert-container
+labartt.com#@#.advert-detail
 jamesedition.com#@#.advert2
 rupors.com#@#.advertSlider
 browsershots.org#@#.advert_list
@@ -54794,7 +54796,7 @@ apotelyt.com##.cuPopuCon
 homefinder.com##.cubeContainer
 speedrun.com##.curse
 toolslib.net##.custom
-addictivetips.com,gamerevolution.com##.custom-html-widget
+addictivetips.com##.custom-html-widget
 noqreport.com##.custom-html-widget [href] > [src]
 ehitavada.com##.custom-popup
 101cargames.com##.custom-siteskin
@@ -57278,6 +57280,7 @@ mtgarena.pro#?##root > div > div:-abp-has(> .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 seattleweekly.com#?#.marketplace-row-item-wrapper:-abp-has(.sponsored)
+shopee.ph#?#.col-xs-2-4:-abp-has(div[data-sqe="ad"])
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
@@ -108456,7 +108459,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||switchfly.com/static/108f088/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
 @@||t.st/video/js/kGoogleAnalytics.js?$domain=thestreet.com
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
-@@||tag.aticdn.net^*/smarttag.js$domain=rte.ie
+@@||tag.aticdn.net^*/smarttag.js$domain=rte.ie|uktvplay.co.uk
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
 @@||tags.news.com.au/prod/heartbeat/$script
