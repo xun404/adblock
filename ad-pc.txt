@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tGN5OF4TWjydBU3HWtu6qw
+! Checksum: 33rErVmJX0RhMIiS+l/Ubw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209050056
-! Last Modified: 2022年09月05日 00:56
+! Version: 202209050338
+! Last Modified: 2022年09月05日 03:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -574,6 +574,7 @@ tieba.baidu.com##.tuijian-wrap
 -ads-widget/
 -ads.gif
 -ads.php?
+-ads/assets/
 -adsense2.
 -adserver-
 -adserver.$domain=~aqua-adserver.com|~revive-adserver.com
@@ -1023,6 +1024,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad.code?
 /ad.css?
 /ad.html?
+/ad.min.
 /ad.php?
 /ad.popup?
 /ad.skin.
@@ -1516,6 +1518,8 @@ tieba.baidu.com##.tuijian-wrap
 /adfetch?
 /adfetcher?
 /adfever_
+/adfile/*
+/adfit/*
 /adflash.
 /adfliction-
 /adflow.$domain=~adflow.com.au|~adflow.genoudsa.ch|~adflow.io|~adflow.marketing|~adflow.pl
@@ -1539,7 +1543,9 @@ tieba.baidu.com##.tuijian-wrap
 /adfuncs.
 /adfunction.
 /adfunctions.
+/adfurikun/*$~image
 /adgenerator.
+/adgpt.
 /adgraphics/*
 /adhandler.
 /adhandler/*$~subdocument
@@ -1657,6 +1663,7 @@ tieba.baidu.com##.tuijian-wrap
 /admeld/*
 /admeld_
 /admeta.$domain=~admeta.network
+/admgr.
 /admin/ad_
 /admin/banners/*
 /admin/sponsors/*
@@ -1704,6 +1711,7 @@ tieba.baidu.com##.tuijian-wrap
 /adpage/*$domain=~adpage.com.ua|~adpage.io
 /adpai.
 /adpan/*
+/adparts/*
 /adpeeps.
 /adperf_
 /adperfdemo.
@@ -1728,6 +1736,7 @@ tieba.baidu.com##.tuijian-wrap
 /adprove_
 /adprovider.
 /adproxy.
+/adrackpush.
 /adratio.
 /adrec.$domain=~adrec.paris-sorbonne.fr
 /adreclaim-
@@ -2777,6 +2786,7 @@ tieba.baidu.com##.tuijian-wrap
 /advrotator.
 /advrotator_
 /advs.ads.
+/advscript.
 /advshow.
 /advt.$domain=~advt.ch|~advt.it
 /advtBanner.
@@ -2876,6 +2886,7 @@ tieba.baidu.com##.tuijian-wrap
 /ajs.php?
 /ajs?auid=
 /ajs?zoneid=
+/ak-ads-ns.
 /akame160.html
 /akame300.html
 /amazon-ad-
@@ -3153,6 +3164,7 @@ tieba.baidu.com##.tuijian-wrap
 /buysellads.
 /buzz/ads/*
 /cache/ads_
+/cactus-ads/*
 /call/pubif/*
 /call/pubj/*
 /call_ads/*
@@ -3791,6 +3803,7 @@ tieba.baidu.com##.tuijian-wrap
 /image/ad/*
 /image/ads/*
 /image/ads_
+/image/affiliate/*
 /image_ads/*
 /imageads/*
 /images-ad/*
@@ -3816,6 +3829,7 @@ tieba.baidu.com##.tuijian-wrap
 /images/sponsored/*
 /images/vghd
 /images1/ad_
+/images2/Ads/*
 /imfloat.
 /img-ads.
 /img-ads/*
@@ -3917,6 +3931,7 @@ tieba.baidu.com##.tuijian-wrap
 /js.ng/pagepos=
 /js.ng/site=
 /js.ng/size=
+/js/ad.js?slot=
 /js/adverts-
 /js/adz.
 /js/dfp-
@@ -3991,6 +4006,7 @@ tieba.baidu.com##.tuijian-wrap
 /leftsidebarads.
 /legacy-ads.
 /lg.php?adid=
+/lib/ad.js
 /library/ads/*
 /library/adv/*
 /lightad.
@@ -4040,6 +4056,7 @@ tieba.baidu.com##.tuijian-wrap
 /main_ad/*
 /main_ad_
 /mainad.$domain=~mainad.ru
+/manageads/*
 /marfeel_sw.
 /markpop.js
 /masonad.gif
@@ -4050,6 +4067,7 @@ tieba.baidu.com##.tuijian-wrap
 /mbn_ad.
 /mcad.php
 /mda-ads/*
+/media/ad/*
 /media/ads/*
 /media/adv/*
 /media_ads/*
@@ -5152,6 +5170,7 @@ tieba.baidu.com##.tuijian-wrap
 /verticaladrotatorv2.
 /vghd.gif
 /vghd2.gif
+/VHDpoppingModels/*
 /viagogoads.
 /vice-ads.
 /vidadv.
@@ -5260,6 +5279,7 @@ tieba.baidu.com##.tuijian-wrap
 /wlbetathome/bannerflow/*
 /wmads.
 /wordpress-ads-plug-in/*
+/wp-ad-guru/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
 /wp-bannerize-
@@ -7231,6 +7251,7 @@ _800x80_
 ###ad05
 ###ad07
 ###ad08
+###ad1-placeholder
 ###ad11
 ###ad125B
 ###ad125x125
@@ -8254,6 +8275,7 @@ _800x80_
 ###ads-blog
 ###ads-bot
 ###ads-bottom
+###ads-by-google
 ###ads-col
 ###ads-contain-125
 ###ads-container
@@ -14749,6 +14771,7 @@ _800x80_
 ##.ad-lib-div
 ##.ad-line
 ##.ad-link
+##.ad-link-block
 ##.ad-link-label
 ##.ad-link-left
 ##.ad-link-right
@@ -15034,6 +15057,7 @@ _800x80_
 ##.ad-single-bottom
 ##.ad-sitewide
 ##.ad-size-300x250
+##.ad-size-300x600
 ##.ad-size-landscape
 ##.ad-size-leaderboard
 ##.ad-size-medium-rectangle
@@ -17125,6 +17149,7 @@ _800x80_
 ##.ads-box-border
 ##.ads-btm
 ##.ads-by
+##.ads-by-google
 ##.ads-by-google-0
 ##.ads-callback
 ##.ads-card
@@ -23665,6 +23690,7 @@ _800x80_
 ##.pb-f-ads-yieldmo
 ##.pb-mod-ad-flex
 ##.pb-mod-ad-leaderboard
+##.pb-slot-container
 ##.pc-ad
 ##.pcads_widget
 ##.pd-ads-mpu
@@ -26169,6 +26195,9 @@ _800x80_
 ##.widget_adsensem
 ##.widget_adsensewidget
 ##.widget_adsingle
+##.widget_adswidget1-quick-adsense
+##.widget_adswidget2-quick-adsense
+##.widget_adswidget3-quick-adsense
 ##.widget_adv_location
 ##.widget_adv_text
 ##.widget_advads_ad_widget
@@ -95557,6 +95586,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hitserver.ibope.com.br^
 ||jsuol.com/rm/clicklogger_
 ||lomadee.com/loc/$third-party
+||lurker.olx.com.br^
 ||nctrk.abmail.com.br^
 ||neurotrack.neurolake.io^
 ||statig.com.br/pub/setCookie.js?
@@ -95717,6 +95747,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtm.qdqmedia.com^
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
+||sp.vtex.com^
 ||stats.administrarweb.es^
 ||stats.miarroba.info^
 ||stats.qdq.com^

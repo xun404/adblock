@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2gwuIiVU7wwEHOXoFvHplw
+! Checksum: e8S8ZQcRlM/zhzJpZaAV9w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209050056
-! Last Modified: 2022年09月05日 00:56
+! Version: 202209050338
+! Last Modified: 2022年09月05日 03:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -462,6 +462,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ads-widget/
 -ads.gif
 -ads.php?
+-ads/assets/
 -adsense2.
 -adserver-
 -adserver.$domain=~aqua-adserver.com|~revive-adserver.com
@@ -911,6 +912,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad.code?
 /ad.css?
 /ad.html?
+/ad.min.
 /ad.php?
 /ad.popup?
 /ad.skin.
@@ -1404,6 +1406,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adfetch?
 /adfetcher?
 /adfever_
+/adfile/*
+/adfit/*
 /adflash.
 /adfliction-
 /adflow.$domain=~adflow.com.au|~adflow.genoudsa.ch|~adflow.io|~adflow.marketing|~adflow.pl
@@ -1427,7 +1431,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adfuncs.
 /adfunction.
 /adfunctions.
+/adfurikun/*$~image
 /adgenerator.
+/adgpt.
 /adgraphics/*
 /adhandler.
 /adhandler/*$~subdocument
@@ -1545,6 +1551,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /admeld/*
 /admeld_
 /admeta.$domain=~admeta.network
+/admgr.
 /admin/ad_
 /admin/banners/*
 /admin/sponsors/*
@@ -1592,6 +1599,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adpage/*$domain=~adpage.com.ua|~adpage.io
 /adpai.
 /adpan/*
+/adparts/*
 /adpeeps.
 /adperf_
 /adperfdemo.
@@ -1616,6 +1624,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adprove_
 /adprovider.
 /adproxy.
+/adrackpush.
 /adratio.
 /adrec.$domain=~adrec.paris-sorbonne.fr
 /adreclaim-
@@ -2665,6 +2674,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advrotator.
 /advrotator_
 /advs.ads.
+/advscript.
 /advshow.
 /advt.$domain=~advt.ch|~advt.it
 /advtBanner.
@@ -2764,6 +2774,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ajs.php?
 /ajs?auid=
 /ajs?zoneid=
+/ak-ads-ns.
 /akame160.html
 /akame300.html
 /amazon-ad-
@@ -3041,6 +3052,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /buysellads.
 /buzz/ads/*
 /cache/ads_
+/cactus-ads/*
 /call/pubif/*
 /call/pubj/*
 /call_ads/*
@@ -3679,6 +3691,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /image/ad/*
 /image/ads/*
 /image/ads_
+/image/affiliate/*
 /image_ads/*
 /imageads/*
 /images-ad/*
@@ -3704,6 +3717,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /images/sponsored/*
 /images/vghd
 /images1/ad_
+/images2/Ads/*
 /imfloat.
 /img-ads.
 /img-ads/*
@@ -3805,6 +3819,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /js.ng/pagepos=
 /js.ng/site=
 /js.ng/size=
+/js/ad.js?slot=
 /js/adverts-
 /js/adz.
 /js/dfp-
@@ -3879,6 +3894,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /leftsidebarads.
 /legacy-ads.
 /lg.php?adid=
+/lib/ad.js
 /library/ads/*
 /library/adv/*
 /lightad.
@@ -3928,6 +3944,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /main_ad/*
 /main_ad_
 /mainad.$domain=~mainad.ru
+/manageads/*
 /marfeel_sw.
 /markpop.js
 /masonad.gif
@@ -3938,6 +3955,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /mbn_ad.
 /mcad.php
 /mda-ads/*
+/media/ad/*
 /media/ads/*
 /media/adv/*
 /media_ads/*
@@ -5040,6 +5058,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /verticaladrotatorv2.
 /vghd.gif
 /vghd2.gif
+/VHDpoppingModels/*
 /viagogoads.
 /vice-ads.
 /vidadv.
@@ -5148,6 +5167,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wlbetathome/bannerflow/*
 /wmads.
 /wordpress-ads-plug-in/*
+/wp-ad-guru/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
 /wp-bannerize-
@@ -7119,6 +7139,7 @@ _800x80_
 ###ad05
 ###ad07
 ###ad08
+###ad1-placeholder
 ###ad11
 ###ad125B
 ###ad125x125
@@ -8142,6 +8163,7 @@ _800x80_
 ###ads-blog
 ###ads-bot
 ###ads-bottom
+###ads-by-google
 ###ads-col
 ###ads-contain-125
 ###ads-container
@@ -14637,6 +14659,7 @@ _800x80_
 ##.ad-lib-div
 ##.ad-line
 ##.ad-link
+##.ad-link-block
 ##.ad-link-label
 ##.ad-link-left
 ##.ad-link-right
@@ -14922,6 +14945,7 @@ _800x80_
 ##.ad-single-bottom
 ##.ad-sitewide
 ##.ad-size-300x250
+##.ad-size-300x600
 ##.ad-size-landscape
 ##.ad-size-leaderboard
 ##.ad-size-medium-rectangle
@@ -17013,6 +17037,7 @@ _800x80_
 ##.ads-box-border
 ##.ads-btm
 ##.ads-by
+##.ads-by-google
 ##.ads-by-google-0
 ##.ads-callback
 ##.ads-card
@@ -23553,6 +23578,7 @@ _800x80_
 ##.pb-f-ads-yieldmo
 ##.pb-mod-ad-flex
 ##.pb-mod-ad-leaderboard
+##.pb-slot-container
 ##.pc-ad
 ##.pcads_widget
 ##.pd-ads-mpu
@@ -26057,6 +26083,9 @@ _800x80_
 ##.widget_adsensem
 ##.widget_adsensewidget
 ##.widget_adsingle
+##.widget_adswidget1-quick-adsense
+##.widget_adswidget2-quick-adsense
+##.widget_adswidget3-quick-adsense
 ##.widget_adv_location
 ##.widget_adv_text
 ##.widget_advads_ad_widget
@@ -95445,6 +95474,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hitserver.ibope.com.br^
 ||jsuol.com/rm/clicklogger_
 ||lomadee.com/loc/$third-party
+||lurker.olx.com.br^
 ||nctrk.abmail.com.br^
 ||neurotrack.neurolake.io^
 ||statig.com.br/pub/setCookie.js?
@@ -95605,6 +95635,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtm.qdqmedia.com^
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
+||sp.vtex.com^
 ||stats.administrarweb.es^
 ||stats.miarroba.info^
 ||stats.qdq.com^
