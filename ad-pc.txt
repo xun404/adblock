@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VRmx2BHRf4VsEXWhw7zEuA
+! Checksum: 5v7Ldm29rT5jtVbI99rJ7w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209041539
-! Last Modified: 2022年09月04日 15:39
+! Version: 202209041646
+! Last Modified: 2022年09月04日 16:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2354,7 +2354,7 @@ tieba.baidu.com##.tuijian-wrap
 /adserverstore.
 /adservervastvideovizu.
 /adservice-
-/adservice.$domain=~adservice.io
+/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
 /adservices.
 /adservices/*
 /adserving.
@@ -13489,6 +13489,7 @@ _800x80_
 ##.Ad--empty
 ##.Ad--header
 ##.Ad--loading
+##.Ad--presenter
 ##.Ad--sidebar
 ##.Ad-Advert_Container
 ##.Ad-Container
@@ -55240,6 +55241,7 @@ okmagazine.com##.sc-jffIyK
 sankakucomplex.com##.scad
 bangordailynews.com##.scaip
 newindianexpress.com##.scc
+radiotimes.com##.schedule__row-list-item-advert
 hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_video_master
 readmng.com##.scroll_target_top
 9anime.to,tennisuptodate.com##.sda
@@ -69000,7 +69002,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/imgextra/i3/1731999033/TB2lAJufnlYBeNjSszcXXbwhFXa_
 ||alicdn.com/kf/H0a9988c071874c1188795e8f1d4983b2N.jpg
 ||alicdn.com/kf/H2f43d53d17c74471a2a9e00bc10c5c99j.jpg
-||alicdn.com/kf/H34fbd8f00853429d937c89c5d4d75e17T.gif
 ||alicdn.com/kf/H4fa310799bf04b33803900c0f629094bQ.jpg
 ||alicdn.com/kf/H8105709d8ee745139cfd5affe30a9d719.jpg
 ||alicdn.com/kf/H831ca346aac84070b2461d27b22a382ah.jpg
@@ -71068,7 +71069,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
 ||loli.net/2020/06/17/gpRx7AzGwI4kQmV.gif
 ||loli.net/2020/06/17/vGALJ4mQx26T75u.gif
-||loli.net^$domain=1090ys8.com|520film.net|9kanqq.com|acglover.me|beiwodi.com|hdsky.me|magnet2048.com|nulltm.com|xydai.cn
+||loli.net^$domain=1090ys8.com|520film.net|9kanqq.com|acglover.me|beiwodi.com|hdsky.me|magnet2048.com|nulltm.com
 ||lolmp4.com/template/lolmp4/images/jquery.
 ||lolshipin.com/zt/sxx/
 ||longdidi.top^*.js
@@ -72420,7 +72421,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
 ||xiaobaipan.com/tb.html
 ||xiaobi*.com/layer/layer.js
-||xiaodigufz.com/ggt/
 ||xiaodutv.com/xda?
 ||xiaoma.com/images/form/getclueforxiaomazonghe.js
 ||xiaoma.com/images/form/overlay
@@ -72456,7 +72456,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xinhuanet.com^*/ad_
 ||xinhuanet.com^*/adv
 ||xinjs.cn/2010/zzz.jpg
-||xinjscn.oss-cn-hangzhou.aliyuncs.com^
 ||xinku.org/jbLoader.js
 ||xinmin.cn/framepage/foot1.htm
 ||xinmin.cn/framepage/left1.htm
@@ -72904,7 +72903,6 @@ zhoushan.cn###Headtop
 tigtag.com###Home1000x70_A29
 tigtag.com###Home280x80_A16
 tigtag.com###Home942x70_A1
-xhzyw.com###HtmlMoKua_752383
 xd0.com###HtmlMoKua_775790
 diyifanwen.com###Hzh1
 diyifanwen.com###Hzh2
@@ -73528,7 +73526,7 @@ jb51.net###gaosu
 downxia.com###gaosu_div0
 3h3.com###gaosu_down_bt
 ruanjianxia.com###gaosu_downloads
-9ht.com,cesafe.com,downcc.com,downyi.com,paopaoche.net,pc0359.cn,pc6.com,xfdown.com###gaosuxiazai
+9ht.com,cesafe.com,downcc.com,downyi.com,paopaoche.net,pc0359.cn,pc6.com###gaosuxiazai
 ruanyifeng.com###gd1
 whnews.cn###gd_l
 whnews.cn###gd_r
@@ -73715,7 +73713,6 @@ hao123.com###layout-guess
 920share.com###layui-layer1
 toolfk.com###layui-layer100001
 1kkk.com,dm5.com###lb-win
-xixicai.top###left-box
 hao.360.com###left-float-animation
 hao.360.com###left-nav-place
 baidu.com###left-promotion
@@ -74118,7 +74115,7 @@ ktsf.com###sow-slider-7
 w3school.com.cn###sp_tiy
 baidu.com###spage-top-banner
 downbank.cn,greenxf.com###speed-download
-greenxf.com,xzji.com###speed-downloader
+greenxf.com###speed-downloader
 heartinkstone.pixnet.net###spotlight
 image.so.com###starlist
 eepw.com.cn###startvideo
@@ -74724,7 +74721,6 @@ shejidaren.com##.ads-post-foot
 eeyy.cc##.ads650
 cntronics.com##.ads970-90
 disp.cc##.ads_bot_block
-xhzyw.com##.ads_bottom
 chinamedevice.cn##.ads_img
 chinamedevice.cn##.ads_img1
 xianliao.me##.ads_popup_small_ads_container
@@ -74969,7 +74965,6 @@ efu.com.cn##.banners-top-b
 efu.com.cn##.banners-top-x2
 fang.com##.bannger_inbox
 mscbsc.com##.bao1
-xhaiwai.com##.baoru
 hao123.com##.bar-text
 d1xz.net##.base_ad_300_250
 d1xz.net##.base_ad_640_90
@@ -75399,7 +75394,7 @@ downg.com##.download-list:first-child
 theworld.cn##.download-now
 wmzhe.com##.downloader
 9ht.com,pc0359.cn,pc6.com##.downnow
-cr173.com,downcc.com,downyi.com,itmop.com,xfdown.com##.downnowgaosu
+cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
 cr173.com##.downurl[data^="viewAds"]
 mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
 123.sogou.com,web.sogou.com##.dropBox_list > li > a > span[style="color:red"]
@@ -76970,7 +76965,7 @@ firefoxchina.cn##.theme-adv + .bottom
 firefoxchina.cn##.theme-side-bar-couplet
 firefox.com.cn,firefoxchina.cn##.theme-side-bar-priority
 firefox.com.cn,firefoxchina.cn##.theme-side-bar[trace-key="ad_theme_skin_link"]
-dlemm.cn,isiyuan.net,xiaodigufz.com##.themead
+dlemm.cn,isiyuan.net##.themead
 cnool.net##.third-banner
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_dir_ad
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_local_58
@@ -77259,7 +77254,6 @@ woniupai.net##.wnp-adbox
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
 141hongkong.com##.wp.at
 bestcclm.com##.wp.cl > a
-xixilt.com##.wp.cl[style="width:1200px;"]
 tropica.cn##.wp1.a_t
 cangjige.net##.wp[style="height:36px;padding-top:15px;"]
 tui18.com##.wp[style^="width:"]
@@ -77690,7 +77684,6 @@ ruanyifeng.com##a[href^="https://ke.qq.com/"]
 fun1shot.com##a[href^="https://kenio.cn/"]
 linux.cn##a[href^="https://linux.cn/go/"]
 github.com##a[href^="https://openwrite.cn/"]
-xblian.com##a[href^="https://page.pe/"]
 cjjjs.com,cnblogs.com,fastadmin.net##a[href^="https://promotion.aliyun.com/"]
 hahamx.cn##a[href^="https://s.click.taobao.com/"]
 kkw360.com##a[href^="https://sourl.cn/"]
@@ -79264,7 +79257,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||xidian.edu.cn^$generichide
 @@||xilinjie.com^$generichide
 @@||xinhuanet.com/gsstatics/*/images/ad/
-@@||xinjscn.oss-cn-hangzhou.aliyuncs.com/bbs/logo.png
 @@||xiuren.org^$generichide
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
 @@||yantuchina.com/gg/tmp/hong.gif
@@ -96136,6 +96128,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fingerprintjs.com/visitors/
 ||firebaselogging.googleapis.com^
 ||fishki.net/counter/
+||fiverr.com/api/v1/activities
 ||flipboard.com/usage?
 ||flipkart.com/api/3/data/collector/
 ||flirt4free.com/pixel/
