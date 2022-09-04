@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i7jxL7GUTzdlz5UKlM0AOQ
+! Checksum: TrARly/pOL4yLelK6nzA0w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209050338
-! Last Modified: 2022年09月05日 03:38
+! Version: 202209050443
+! Last Modified: 2022年09月05日 04:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25466,6 +25466,7 @@ m.babytree.com##script + a[class]
 .svc/?tracking_id=
 .tealium.$domain=~tealium.co.jp|~tealium.com
 .track.actions.get?
+.track_apply_impression/
 .track_Visit?
 .trackArticleAction&
 .tracking.js?dpv=
@@ -31178,6 +31179,7 @@ _mongo_stats/
 ||dttrk.com^
 ||e1e.io^
 ||efreecode.com^
+||egoi.site^
 ||emycewiw.xyz^
 ||enthusiastgaming.net^
 ||eqy.link^
@@ -33905,6 +33907,7 @@ _mongo_stats/
 ||webleads-tracker.com^$third-party
 ||webmasterplan.com^$third-party
 ||weborama.com^$third-party
+||weborama.design^$third-party
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
 ||websiteonlinecounter.com^$third-party
@@ -38473,6 +38476,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.emerse.com^
 ||track.hubspot.com^
 ||track.juno.com^
+||track.kinetiksoft.com^
 ||track.mailerlite.com^
 ||track.mituo.cn^
 ||track.mp4.center^
@@ -39143,6 +39147,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||onlyfree.de^*/counterservice/
 ||orbidder.otto.de^
 ||ottogroup.media/ogm.nitro.
+||plausible.ams.to^
 ||plista.com/getuid?
 ||plista.com/iframeShowItem.php
 ||px.staticfiles.at^
@@ -40813,6 +40818,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.livesportbar.net^
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
+||stat.turb.pw^
 ||stat.vulkanvegas.com^
 ||stats-jobstreet-sg-en-prod.supercharge-srp.co^$domain=jobstreet.com.sg
 ||stats.aerotime.aero^
@@ -50693,6 +50699,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rel.nextinpact.com^
 ||rel2.nextinpact.com^
 ||zam.nextinpact.com^
+||c1hit.zerkalo.io^
+||s1r.zerkalo.io^
+||s3r.zerkalo.io^
+||zerkalo.io/stat/
 ||mosoah.com/analytics.js
 ||tags.aljazeera.net^
 ||tracking.alarabiya.net^
@@ -51299,6 +51309,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||logger.uol.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
+||poder360.com.br/_tracker
 ||r7.com/comscore/
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
