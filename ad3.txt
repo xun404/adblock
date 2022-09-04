@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dbso9xkoeoOclB53jKktAw
+! Checksum: M6oVCiot183r9WfjalRGeQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209050540
-! Last Modified: 2022年09月05日 05:40
+! Version: 202209050745
+! Last Modified: 2022年09月05日 07:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3282,6 +3282,9 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
+||lvefyfj.cn^
+||wwoglde.top^
+||ahp5.site^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -40810,6 +40813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ss.photospecialist.co.uk^
 ||ssc.api.bbc.com^
 ||st.sawlive.tv^
+||stackshare.io/analytics.
 ||stan.xing.com^
 ||stape.fun/stat/
 ||starfiles.co/analytics.php
@@ -50696,6 +50700,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||nextinpact.com/bundles/mtm
 ||nextinpact.com/image/*=.jpg
 ||pam.nextinpact.com^
+||pwk.nextinpact.com^
 ||rel.nextinpact.com^
 ||rel2.nextinpact.com^
 ||zam.nextinpact.com^
@@ -51872,6 +51877,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
+@@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
