@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3+qMjQMAju+O5tesQzkXVQ
+! Checksum: fFegcmNVYWDjpOf6tJKdSA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209051120
-! Last Modified: 2022年09月05日 11:20
+! Version: 202209051306
+! Last Modified: 2022年09月05日 13:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -668,7 +668,6 @@ tieba.baidu.com##.tuijian-wrap
 -rail-ads.
 -rail-ads/
 -right-ad.
--rollout-ad-
 -search-ads.
 -show-ads.
 -side-ad-
@@ -2821,23 +2820,13 @@ tieba.baidu.com##.tuijian-wrap
 /adxcm_
 /adxrotate/*
 /adxsite.
-/adxv.
-/adxx.php?
-/adyard.
-/adyard300.
-/adyea.
 /adyoulike.$domain=~adyoulike.com
-/adz-x/*
-/adz/css/*
-/adz/images/*
 /adz/js/*
 /adz/solus/*
 /adz/sponsors/*
-/adzbanner/*
 /adzerk2_
 /adzones.
 /adzones/*
-/adzonesidead.
 /adzonetop.
 /adztop.
 /afc-match?q=
@@ -3254,14 +3243,10 @@ tieba.baidu.com##.tuijian-wrap
 /coxads/*
 /cpm_ad.
 /cpmbanner.
-/cpmcampaigns/*
 /cpmrect.
 /cpx-ad.
-/cpx-advert/*
-/cpx_ads.
 /cpxads.
 /crazyad.
-/crossoverad-
 /csp/ads?
 /css/ads-
 /css/ads300_
@@ -4087,18 +4072,12 @@ tieba.baidu.com##.tuijian-wrap
 /min/ads/*
 /mini-ads/*
 /mini_ads.
-/miniadbar/*
 /miniads?
 /miniadvert.
-/minify/ads-
-/minpagead/*
 /mint/ads/*
 /misc/ad-
 /misc/ads.
 /misc/ads/*
-/miva_ads.
-/mjx-oas.
-/mkadsrv.
 /mktad.
 /mmads-
 /mmads.
@@ -4131,8 +4110,6 @@ tieba.baidu.com##.tuijian-wrap
 /monetization/ads-
 /monetize-show-ads
 /moneyball/ads/*
-/MonsterAd-
-/mont-min.js
 /mp3-ad/*
 /mpads/*
 /mpbads.
@@ -4433,6 +4410,7 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/cactus-ads/*$script,stylesheet
+/plugins/cpx-advert/*$script
 /plugins/dx-ads/*$script
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
@@ -107999,6 +107977,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtag/js$script,domain=modehasen.de
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
+@@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
