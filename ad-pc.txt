@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BVAT729wiUJ/Unn+9mUd8w
+! Checksum: 9B7FV8sSciub+hXgfWNHrg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209070644
-! Last Modified: 2022年09月07日 06:44
+! Version: 202209071123
+! Last Modified: 2022年09月07日 11:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2383,7 +2383,7 @@ tieba.baidu.com##.tuijian-wrap
 /adsidebarrect.
 /adsiframe.
 /adsiframe/*
-/adsign.$domain=~adsign.apps.asu.edu|~adsign.com.au|~adsign.no|~adsign.slack.com
+/adsign.$domain=~adsign-admin.apps.asu.edu|~adsign.com.au|~adsign.no|~adsign.slack.com
 /adsimage/*
 /adsimages/*
 /adsImg/*
@@ -26180,6 +26180,7 @@ _800x80_
 ##[data-m-ad-id]
 ##[data-mobile-ad-id]
 ##[data-name="adaptiveConstructorAd"]
+##[data-revive-zoneid]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*=".engine.adglare.net/"]
@@ -26236,6 +26237,7 @@ _800x80_
 ##[href^="https://mypatriotsupply.com/"] > img
 ##[href^="https://mypillow.com/"] > img
 ##[href^="https://mystore.com/"] > img
+##[href^="https://optimizedelite.com/"] > img
 ##[href^="https://r.kraken.com/"]
 ##[href^="https://rapidgator.net/article/premium/ref/"]
 ##[href^="https://routewebtk.com/"]
@@ -38637,6 +38639,7 @@ tf2r.com#@#.adverts
 ||okueroskynt.com^
 ||okupsudd.work^
 ||okytgxmxonxim.com^
+||olayomad.com^
 ||oldership.com^
 ||oldeststrickenambulance.com^
 ||oldgyhogola.com^
@@ -56537,7 +56540,6 @@ outlook.live.com#?#div:-abp-has(> div > div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
-doordash.com#?#div[size="12"]:-abp-has(> div:-abp-has(span:-abp-contains(Ad)))
 doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 bleepingcomputer.com#?##bc-home-news-main-wrap > li:-abp-contains(Sponsored Content)
 psychcentral.com#?#aside:-abp-has([data-empty])
@@ -61373,6 +61375,16 @@ ubmcmm.baidustatic.com
 ||mcbzq.xyz^
 ||kunlunshitou.com^
 ||hpiekt.cn^
+||sfstfiz.cn^
+||bwogldv.top^
+||svnfgib.cn^
+||zljycst.cn^
+||xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s^
+||ahp7.site^
+||df5b.top^
+||ytbgjr.cn^
+||epdchc.cn^
+||wujrx.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -95943,6 +95955,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crumbs.robinhood.com^
 ||crunchyroll.com/tracker?
 ||cstats.sankakucomplex.com^
+||ctrl.blog/assets/script/log-
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
 ||d.cdngeek.com^$domain=edugeek.net
@@ -96222,6 +96235,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
 ||kompass.com/logAdvertisements
+||l.ctrl.blog^
 ||l.usaa.com/e/v1/
 ||lastminute.com/ose/tracking/
 ||lastminute.com/service/track/
