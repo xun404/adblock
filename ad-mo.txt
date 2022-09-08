@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kQjaOo1kETbNTANZutJQ0A
+! Checksum: lhHbvJ8EFkTyzcv2lw2K0A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209090446
-! Last Modified: 2022年09月09日 04:46
+! Version: 202209090645
+! Last Modified: 2022年09月09日 06:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -25571,8 +25571,6 @@ _800x80_
 ##AFS-AD
 ##DFP-AD
 ##LEADERBOARD-AD
-##[class*="__adspot-title-container"]
-##[class*="__adv-block"]
 ##[class^="Ad-adContainer"]
 ##[class^="AdvertisingSlot_"]
 ##[class^="amp-ad-"]
@@ -26249,11 +26247,6 @@ _800x80_
 ##a[href^="https://www.privateinternetaccess.com/"] > img
 ##a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"]
 ##.grid > .container > #aside-promotion
-##[href^="/admdownload.php"]
-##[href^="/ucdownload.php"]
-##[href^="/ucdownloader.php"]
-##[href^="/ucmini.php"]
-##[href^="https://bulletprofitsmartlink.com/"]
 ##.default_rc_theme
 ##.inf-onclickvideo-adbox
 ##.inf-onclickvideo-container
@@ -26261,10 +26254,8 @@ _800x80_
 ##.add-box-top
 ##.partner-loading-shown.partner-label
 ##.brave-overlay
-##.mgline
-##[id*="MGWrap"]
-##[id*="MarketGid"]
-##[id*="ScriptRoot"]
+##div[id*="MarketGid"]
+##div[id*="ScriptRoot"]
 ###ezmob_footer
 ##a[href*=".trust.zone"]
 ###rc-row-container
@@ -38916,7 +38907,6 @@ tf2r.com#@#.adverts
 ||pickytime.com^
 ||picnicorganizationthigh.com^
 ||picsti.com^
-||picsum.photos^
 ||pictela.net^
 ||pierisrapgae.com^
 ||pierlinks.com^
@@ -52245,7 +52235,6 @@ curseforge.com###cdm-zone-03
 ndtv.com###checked
 xcalibrscans.com###close-teaser
 drivespark.com###cmscontent-right1
-lightnovelreader.org##cm-rk-970
 whocallsme.com###cnt_1
 whocallsme.com###cnt_2
 whocallsme.com###cnt_btm
@@ -55178,6 +55167,8 @@ antimusic.com##.zerg
 thehackernews.com##.zoho-box
 bellinghamherald.com##.zone-el
 gab.com##[aria-label*="Sponsored:"]
+everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
+everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 bloomberg.com##[class*="ad-div"]
 barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
@@ -55279,7 +55270,6 @@ mrchecker.net##[href^="https://cardingmentor.org"]
 50gameslike.com,highdemandskills.com,yumyumnews.com##[href^="https://click.linksynergy.com/"]
 coingolive.com##[href^="https://coinext.com.br/"]
 wccftech.com##[href^="https://cutt.ly/"]
-moddroid.co##a[href^="https://doodoo.love/"]
 topfiveforex.com##[href^="https://fbs.com/promo/"]
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
 pastemytxt.com##[href^="https://geturl.us/"]
@@ -55446,6 +55436,7 @@ lilymanga.com,msn.com##a[href^="https://amzn.to/"]
 qwant.com##a[href^="https://api.taboola.com/"]
 downloadhub.ltd##a[href^="https://bestbuyrdp.com/"]
 detectiveconanworld.com##a[href^="https://brave.com/"]
+moddroid.co##a[href^="https://doodoo.love/"]
 warm98.com##a[href^="https://giving.cincinnatichildrens.org/donate"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 etherscan.io##a[href^="https://goto.etherscan.com/"] > img
@@ -55505,9 +55496,10 @@ greatist.com##aside
 dictionary.com,thesaurus.com##aside[id$="728x90"]
 apotelyt.com##aside[id^="hedoApp"]
 apotelyt.com##aside[id^="widoApp"]
-builtbybit.com##center[style="margin-top: 20px"]
 psycom.net##center > .vh-quiz-qborder
 conservativeplaylist.com##center > [href]
+builtbybit.com##center[style="margin-top: 20px"]
+lightnovelreader.org##cm-rk-970
 osbot.org##custom > a[href]
 readonepiece.com##div > b
 healthline.com##div.css-0 > div[class]:not([id])
@@ -57213,6 +57205,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||rumble.com/embedJS/$script,domain=usawatchdog.com
 @@||rumble.com/j/p/$script,domain=usawatchdog.com
 @@||runescape.wiki^$image,~third-party
+@@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
 @@||schwab.com/scripts/appdynamic/adrum-ext.$script,~third-party
 @@||scrippsdigital.com/cms/videojs/$stylesheet,domain=scrippsdigital.com
@@ -57228,7 +57221,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||somewheresouth.net/banner/banner.php$image
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
-@@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||ssl.p.jwpcdn.com/player/*/jwpsrv.js$script,domain=bgr.com
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
@@ -86977,6 +86969,7 @@ _mongo_stats/
 ||aqtracker.com^$third-party
 ||aralego.net^$third-party
 ||arcadeweb.com^$third-party
+||ardalio.com^$third-party
 ||arena-quantum.co.uk^$third-party
 ||arianelab.com^$third-party
 ||arkayne.com^$third-party
@@ -89223,6 +89216,7 @@ _mongo_stats/
 ||virtualnet.co.uk^$third-party
 ||visibility-stats.com^$third-party
 ||visibli.com^$third-party
+||visionarycompany52.com^$third-party
 ||visioncriticalpanels.com^$third-party
 ||visionsage.com^$third-party
 ||visistat.com^$third-party
