@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AnRl3XDU1y9BpN8xVhh8UA
+! Checksum: EoJPNjILA7tja0TIRJIwBw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209080748
-! Last Modified: 2022年09月08日 07:48
+! Version: 202209081120
+! Last Modified: 2022年09月08日 11:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3347,6 +3347,7 @@ ubmcmm.baidustatic.com
 ||jq6b.top^
 ||taozen.cn^
 ||ahp8.site^
+||666797.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -20483,6 +20484,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||challenges.cloudflare.com/turnstile/
+@@||hcaptcha.com/captcha/
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -22610,7 +22613,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 !#onemanhua.com
-$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
@@ -31172,7 +31174,9 @@ _mongo_stats/
 ||1cros.net^
 ||2022welcome.com^
 ||2l6ddsmnm.de^
+||2smt6mfgo.de^
 ||31daa5lnq.de^
+||3gl.net^
 ||520886.xyz^
 ||8672.site^
 ||a1webstrategy.com^
@@ -31204,9 +31208,12 @@ _mongo_stats/
 ||briskeagle.io^
 ||briskpelican.io^
 ||brontops.com^
+||brsrvr.com^
 ||bydst.com^
 ||cadsuta.net^
 ||captcha-display.com^
+||casalemedia.com^
+||cbdatatracker.com^
 ||cdnhst.xyz^
 ||ciqtracking.com^
 ||click360.io^
@@ -31238,12 +31245,14 @@ _mongo_stats/
 ||experianmatch.info^
 ||ezodn.com^
 ||ezstat.ru^
+||f27tltnd.de^
 ||fairdatacenter.de^
 ||fastemu.co^
 ||faster-trk.com^
 ||fastfinch.co^
 ||fastgull.io^
 ||fasttiger.io^
+||fixel.ai^
 ||fleraprt.com^
 ||fn-pz.com^
 ||fpapi.io^
@@ -31270,6 +31279,7 @@ _mongo_stats/
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||g9706132415.co^
 ||g990421675.co^
 ||g990421676.co^
 ||gbqofs.com^
@@ -31279,8 +31289,10 @@ _mongo_stats/
 ||go-mpulse.net^
 ||googleoptimize.com^
 ||googletagmanager.com^
+||hdmtools.com^
 ||hs-analytics.net^
 ||hsadspixel.net^
+||hsleadflows.net^
 ||i218435.net^
 ||id5-sync.com^
 ||idx.lat^
@@ -31363,6 +31375,7 @@ _mongo_stats/
 ||selphiu.com^
 ||seoab.io^
 ||site24x7rum.eu^
+||sitedataprocessing.com^
 ||sixtrk.com^
 ||sjpf.io^
 ||solutionshindsight.net^
@@ -31431,14 +31444,12 @@ _mongo_stats/
 ||24log.com^$third-party
 ||2cnt.net^$third-party
 ||2o7.net^$third-party
-||2smt6mfgo.de^$third-party
 ||360i.com^$third-party
 ||360tag.com^$third-party
 ||360tag.net^$third-party
 ||3dlivestats.com^$third-party
 ||3dstats.com^$third-party
 ||3enm.com^$third-party
-||3gl.net^$third-party
 ||40nuggets.com^$third-party
 ||4oney.com^$third-party
 ||55labs.com^$third-party
@@ -31792,7 +31803,6 @@ _mongo_stats/
 ||bronto.com^$third-party
 ||browser-statistik.de^$third-party
 ||browser-update.org^$third-party
-||brsrvr.com^$third-party
 ||bstn-14-ma.com^$third-party
 ||btbuckets.com^$third-party
 ||btloader.com^$third-party
@@ -31843,10 +31853,8 @@ _mongo_stats/
 ||carambo.la^$third-party
 ||caramel.press^$third-party
 ||cartstack.com^$third-party
-||casalemedia.com^$third-party
 ||cashburners.com^$third-party
 ||cashcount.com^$third-party
-||cbdatatracker.com^$third-party
 ||cbtrk.net^$third-party
 ||cccpmo.com^$third-party
 ||ccgateway.net^$third-party
@@ -32261,7 +32269,6 @@ _mongo_stats/
 ||firstpromoter.com^$third-party
 ||fishhoo.com^$third-party
 ||fitanalytics.com^$third-party
-||fixel.ai^$third-party
 ||flagcounter.com^$third-party
 ||flaghit.com^$third-party
 ||flash-counter.com^$third-party
@@ -32442,7 +32449,6 @@ _mongo_stats/
 ||haloscan.com^$third-party
 ||havasedge.com^$third-party
 ||haveamint.com^$third-party
-||hdmtools.com^$third-party
 ||heapanalytics.com^$third-party
 ||heatmap.it^$third-party
 ||heatmap.services^$third-party
@@ -32493,7 +32499,6 @@ _mongo_stats/
 ||hotjar.io^$third-party
 ||hotlog.ru^$third-party
 ||hscta.net^$third-party
-||hsleadflows.net^$third-party
 ||hubvisor.io^$third-party
 ||hudb.pl^$third-party
 ||humanclick.com^$third-party
@@ -33484,7 +33489,6 @@ _mongo_stats/
 ||sitebro.net^$third-party
 ||sitebro.tw^$third-party
 ||sitecompass.com^$third-party
-||sitedataprocessing.com^$third-party
 ||siteimprove.com^$third-party
 ||siteimproveanalytics.com^$third-party
 ||siteimproveanalytics.io^$third-party
@@ -41105,6 +41109,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yelp.com/ad_acknowledgment
 ||yelp.com/ad_syndication_user_tracking
 ||yelp.com/bunsen/
+||yelp.com/spice?
 ||yeptube.com/collect
 ||yimg.com/aaq/wf/wf-darla-
 ||yoox.it/storage/rd/yorb/
