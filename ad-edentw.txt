@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mfcp+Dcr8s6bnPJNb07skw
+! Checksum: N9W0XqFyODIATs0+dD7zsQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202209080102
-! Last Modified: 2022年09月08日 01:02
+! Version: 202209082149
+! Last Modified: 2022年09月08日 21:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -958,6 +958,8 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! #CV-737
+cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com;
 ! #CV-1149
 etsy.com#$#hide-if-contains-visible-text /Ad.by/i a[data-listing-id]
 ! #CV-1056
@@ -978,7 +980,6 @@ j-pussy.com,redtube.com#$#abort-on-property-read smpop
 youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zone_2545
 pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow
 theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
-! #CV-663
 ! #CV-673
 hotmovs.com##div[class^="vda-closeplay"]
 beeg.com,oral-amateure.com,upornia.com,hotmovs.com,voyeurhit.com,hdzog.com#$#abort-on-property-write ads_priv
@@ -1336,7 +1337,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-badge][contains(@class,"Sponsored")]/ancestor::li[1]'; hide-if-matches-xpath './/div[@aria-label="item"]//*[translate(@alt, "sponsored", "SPONSORED")]/ancestor::li[1]'; race stop;
+instacart.com#$#hide-if-matches-xpath './/*[translate(@data-sp-badge, "sponsored", "SPONSORED")]/ancestor::li[1]'
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
