@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FUFtlVws+o1sERJRsvwm3A
+! Checksum: +lfeoz9IRhuQpalkprIhIw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209092204
-! Last Modified: 2022年09月09日 22:04
+! Version: 202209092246
+! Last Modified: 2022年09月09日 22:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60871,6 +60871,8 @@ ubmcmm.baidustatic.com
 ||pinoffence.com^
 ||mlcuzee.cn^
 ||duerwang.com^
+||kyxw9itc.xyz^
+||dnyzbp.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -72283,6 +72285,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||smuc.cnnfootballclub.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -80137,6 +80140,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 !#onemanhua.com
+@@||cloudflare.net^$script,domain=cocomanga.com|cocomanhua.com
+$script,third-party,domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
@@ -93852,6 +93857,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trackicollect.ibase.fr^$third-party
 ||tracking.*.miui.com^
 ||tracking.adalyser.com^
+||tracking.ads.global-fashion-group.com^
 ||tracking.aegpresents.com^
 ||tracking.americaneagle.com^
 ||tracking.badgeville.com^$third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aVDG5Ixs+94EIbivf4CNQg
+! Checksum: OMnEc7FcvW2ofwk/9+fDFw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202209092126
-! Last Modified: 2022年09月09日 21:26
+! Version: 202209092246
+! Last Modified: 2022年09月09日 22:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -3371,6 +3371,8 @@ ubmcmm.baidustatic.com
 ||pinoffence.com^
 ||mlcuzee.cn^
 ||duerwang.com^
+||kyxw9itc.xyz^
+||dnyzbp.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -14783,6 +14785,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||smuc.cnnfootballclub.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -22637,6 +22640,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 !#onemanhua.com
+@@||cloudflare.net^$script,domain=cocomanga.com|cocomanhua.com
+$script,third-party,domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
