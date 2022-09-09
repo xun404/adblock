@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eVD3j7XcTwNuwY5C444Cww
+! Checksum: 7foJCbhv4FWFgo4z2VCtAg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202209090446
-! Last Modified: 2022年09月09日 04:46
+! Version: 202209100148
+! Last Modified: 2022年09月10日 01:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1203,7 +1203,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 boyjackpot.com,letsjerk.tv#$#abort-current-inline-script asgPopScript
-123-movies.gs,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.org,atomohd.com,atomohd.xyz,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.cam,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganelo.com,manhuascan.me,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readmanganato.com,soap2day.cloud,tinyzonetv.to,wiflix.bet,yomovies1.live#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+123-movies.sr,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.online,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readmanganato.com,soap2day.cloud,tinyzonetv.to,wiflix.bet,yomovies1.online#$#abort-on-property-read localStorage;
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 manga21plus.com#$#abort-on-property-read a3klsam
@@ -1747,7 +1747,6 @@ vb.plvb.xyz#$#abort-on-property-read adsTvc
 hh3dhay.com,hh3dhay.xyz#$#abort-current-inline-script document.createElement ;break;case
 luotphim2.com,luotphim.to,luotphimtv.live#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
 2phimmoi.net#$#abort-current-inline-script $ urlAdsMbIntro
-phimnhanh1.com,xemphim1080.com,phimmoi1.com,mephimnhat1.com,vuighe.net,mehoathinh.com#$#json-prune 'midroll midroll2 meta.ads'
 ! Popup/Popunder/Clickunder
 viet69.in#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
 rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
