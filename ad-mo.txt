@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qlx55ErVJHoHLqbn9ug6nQ
+! Checksum: L3smJOo2SG6rgMzJA/tWig
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209101940
-! Last Modified: 2022年09月10日 19:40
+! Version: 202209102108
+! Last Modified: 2022年09月10日 21:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -6470,6 +6470,7 @@ _800x80_
 ###ad-border
 ###ad-bottom
 ###ad-bottom-banner
+###ad-bottom-fixed
 ###ad-bottom-right-container
 ###ad-bottom-wrapper
 ###ad-bottomright
@@ -18315,6 +18316,7 @@ _800x80_
 ##.banner-ad-b
 ##.banner-ad-below
 ##.banner-ad-block
+##.banner-ad-bottom-fixed
 ##.banner-ad-container
 ##.banner-ad-contianer
 ##.banner-ad-footer
@@ -52010,10 +52012,11 @@ miloserdov.org,reneweconomy.com.au,wpneon.com###custom_html-10
 isekaiscan.com,miloserdov.org###custom_html-11
 theregister.co.nz###custom_html-13
 colombiareports.com,miloserdov.org,mostlyblogging.com###custom_html-14
-mostlyblogging.com###custom_html-15
+mostlyblogging.com,sonyalpharumors.com###custom_html-15
 eetimes.eu,miloserdov.org###custom_html-16
 ets2.lt,miloserdov.org###custom_html-2
 robloxhackscripts.com###custom_html-23
+sonyalpharumors.com###custom_html-25
 mostlyblogging.com,sarkarideals.com###custom_html-3
 colombiareports.com,filmschoolrejects.com,hongkongfp.com,phoneia.com,sarkarideals.com###custom_html-6
 kanonitv.net###custom_html-7
@@ -53252,6 +53255,7 @@ kissanime.com.ru##.close_ad_button
 brmangas.com##.closebf
 news18.com##.closestickybtn
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
+lightnovelreader.org##.cm-rk-970
 thenetnaija.co,thenetnaija.com##.cmp-list
 drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
@@ -55248,7 +55252,6 @@ apotelyt.com##aside[id^="widoApp"]
 psycom.net##center > .vh-quiz-qborder
 conservativeplaylist.com##center > [href]
 builtbybit.com##center[style="margin-top: 20px"]
-lightnovelreader.org##cm-rk-970
 osbot.org##custom > a[href]
 readonepiece.com##div > b
 healthline.com##div.css-0 > div[class]:not([id])
@@ -95346,7 +95349,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dcf.espn.com/privacy/
 ||dd.auspost.com.au^
 ||dealnews.com/lw/ul.php
-||deepl.com/web/statistics
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
 ||deliveroo.com^*/events
