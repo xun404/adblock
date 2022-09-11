@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JVQ66vmCjJTe2m5k8p9dBQ
+! Checksum: S7HguJ2N1/A3keiKesZTKg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209111940
-! Last Modified: 2022年09月11日 19:40
+! Version: 202209112109
+! Last Modified: 2022年09月11日 21:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -25346,6 +25346,7 @@ _800x80_
 ##div[id^="advads_"]
 ##div[id^="banner-ad-"]
 ##div[id^="bunyad-widget-ads-"]
+##div[id^="crt-"][style]
 ##div[id^="dfp-ad-"]
 ##div[id^="dfp-slot-"]
 ##div[id^="div-ads-"]
@@ -52833,7 +52834,6 @@ republicworld.com##.bg-f0f0f0
 amgreatness.com##.bg-gray-200.mx-auto
 wccftech.com##.bg-horizontal
 imagetotext.info##.bg-light.mt-2.text-center
-dexerto.com##.bg-neutral-grey-4
 wccftech.com##.bg-square
 wccftech.com##.bg-vertical
 thepostmillennial.com##.bg-yellow-400
@@ -54069,9 +54069,7 @@ giantfreakinrobot.com##.pw-ph-med-rect
 thedirect.com##.pw-ph-sky
 smallseotools.com##.px261
 smallseotools.com##.px301
-dexerto.com##.py-2
 breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
-dexerto.com##.py-4
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
@@ -84514,7 +84512,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stwc/code.js
 /submission/pageview
 /supercookie.
-/superstats.
+/superstats.$domain=~superstats.dk
 /supertracking.
 /surphace_track.
 /surveyoverlay/*
@@ -108679,6 +108677,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||compteur.developpez.com^
 ||developpez.com/public/js/track.js
 ||e.m6web.fr/events
+||easeus.com/default/js/aff_buy_tracking.js
 ||ecranlarge.com/stat
 ||events-logs.doctolib.com^
 ||franceculture.fr/static/js/xtcore-
@@ -110484,7 +110483,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||gemius.pl/gstream.js
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
-@@||googletagmanager.com/gtm.js?id=$script,domain=komputronik.pl
+@@||googletagmanager.com/gtm.js$script,domain=komputronik.pl|upc.pl
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
 @@||iwa.iplsc.com/iwa.js$script

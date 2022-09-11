@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: djEYetz/+3dvp+J+QDxFJw
+! Checksum: q3MvkRihgbhQstmBDZ9Bbw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209111940
-! Last Modified: 2022年09月11日 19:40
+! Version: 202209112109
+! Last Modified: 2022年09月11日 21:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -29676,7 +29676,7 @@ m.babytree.com##script + a[class]
 /stwc/code.js
 /submission/pageview
 /supercookie.
-/superstats.
+/superstats.$domain=~superstats.dk
 /supertracking.
 /surphace_track.
 /surveyoverlay/*
@@ -53841,6 +53841,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||compteur.developpez.com^
 ||developpez.com/public/js/track.js
 ||e.m6web.fr/events
+||easeus.com/default/js/aff_buy_tracking.js
 ||ecranlarge.com/stat
 ||events-logs.doctolib.com^
 ||franceculture.fr/static/js/xtcore-
@@ -55646,7 +55647,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||gemius.pl/gstream.js
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
-@@||googletagmanager.com/gtm.js?id=$script,domain=komputronik.pl
+@@||googletagmanager.com/gtm.js$script,domain=komputronik.pl|upc.pl
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
 @@||iwa.iplsc.com/iwa.js$script
