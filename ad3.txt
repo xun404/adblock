@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XpXIU23JJdS0Ew37JWpuDA
+! Checksum: +vvD20McwHM+bClNuxZsBA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209121130
-! Last Modified: 2022年09月12日 11:30
+! Version: 202209121656
+! Last Modified: 2022年09月12日 16:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3421,6 +3421,13 @@ ubmcmm.baidustatic.com
 ||ahp12.site^
 ||yd3c.top^
 ||cqqwe2pea.xyz^
+||otjzq.xyz^
+||fangfeng007.xyz^
+||haruepy.cn^
+||shunhe.shop^
+||i3yz.icu^
+||bulisite.top^
+||rka1.fun^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -24100,6 +24107,7 @@ _box_ad_
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||yaozh.com/Public/js/widget/dbAdDownload.
 ||kandaju.net/js/js2.
+||biancheng.net/templets/new/images/index_pc/fudaoban_
 !------------------------Specific element hiding rules------------------------!
 map.baidu.com###message-panel
 ghxi.com##div[style="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: 99999;background-color: #cc4444;color: #fff"]
@@ -30687,6 +30695,7 @@ m.babytree.com##script + a[class]
 /xmint/?js
 /xn_track.
 /xstat.aspx?
+/xstat/*
 /xtanalyzer_roi.
 /xtclick.
 /xtclicks-$script
@@ -37309,6 +37318,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||count.carrierzone.com^
 ||count.me.uk^
 ||count.paycounter.com^
+||count.xxxssk.com^
 ||counter.bloke.com^
 ||counter.cam-content.com^
 ||counter.hyipexplorer.com^
@@ -38451,6 +38461,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.kaltura.com^
 ||stats.lotlinx.com^
 ||stats.mituyu.com^
+||stats.myangular.life^
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
 ||stats.olark.com^
@@ -38862,6 +38873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vpoweb.com/counter.php?
 ||vs4.com/impr.php?
 ||vst.sibnet.ru^
+||vstat.borderlessbd.com^
 ||vuukle.com/bq-publish?
 ||vuukle.com/getGeo
 ||vvhp.net/read/view.gif
@@ -41100,6 +41112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
 ||tracking.unrealengine.com^
+||tracking1.filemoon.sx^
 ||tradingview.com/ping
 ||treatment.grammarly.com^
 ||tredir.go.com^
@@ -55686,7 +55699,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dodge.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=dodge.com.br
 @@||fiat.com.br^*/analytics.min.js$~third-party
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
-@@||googletagmanager.com/gtm.js$domain=insiderstore.com.br|netcombo.com.br|saraiva.com.br|superesportes.com.br|topper.com.br|tugatech.com.pt
+@@||googletagmanager.com/gtm.js$domain=insiderstore.com.br|netcombo.com.br|odia.ig.com.br|saraiva.com.br|superesportes.com.br|topper.com.br|tugatech.com.pt
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
 @@||hit.gemius.pl/xlgemius.js$script,domain=ojogo.pt
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=r7.com
