@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wZql80KFO2rRiJnTz0GHbw
+! Checksum: kbP4sU5JTEOYPY9SjtzJxQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209140748
-! Last Modified: 2022年09月14日 07:48
+! Version: 202209141119
+! Last Modified: 2022年09月14日 11:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -40424,6 +40424,7 @@ tf2r.com#@#.adverts
 ||shillivee.pro^
 ||shilternimpossip.xyz^
 ||shinasi.info^
+||shindysamania.com^
 ||shinearmor.space^
 ||shinebliss.com^
 ||shinyarcadiaproximity.com^
@@ -52727,6 +52728,7 @@ techspot.com##.billboard_placeholder_min
 dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
 netweather.tv##.billheight
 bundesliga.com##.bl-broadcaster
+ehftv.com##.blackPlayer
 nowsci.com##.black_overlay
 tvmaze.com##.blad
 fastpic.ru##.bleft
@@ -57308,7 +57310,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /993dy_new//gg123/*
 /99vjj/*$third-party
 /9CCMSPC/images/*.gif
-/\.(com|cn|top)\/k\/[0-9]{6}$/$script,third-party
 /A-duoduo/Add-
 /A-Tian/Tian-*-good.js
 /a/p?adid=
@@ -60438,6 +60439,17 @@ ubmcmm.baidustatic.com
 ||zzyl.mobi^
 ||swadakesb.cyou^
 ||emjysmk.cn^
+||ahp14.site^
+||jd5c.top^
+||666829.xyz^
+||aisdd.xyz^
+||rmirha.cn^
+||cedon2bea.xyz^
+/://666(7|8)[0-9]{2}.xyz\//$image,third-party
+/\.(cyou)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
+/\.(cc|com|top|xyz)\/i\/v$/$xmlhttprequest,third-party
+/\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
+/\.ahp[0-9]{2}\.site:/$script,third-party
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -91505,6 +91517,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||addtoany.com/menu/transparent.gif
 ||adfox.yandex.ru^
 ||adlog.com.com^
+||adobedc.net/collector/
 ||ads-trk.vidible.tv^
 ||affiliates.minglematch.com^
 ||affirm.com/api/v2/cookie_sent
