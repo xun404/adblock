@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8K2zSOQbUIawxkVZY7oBLQ
+! Checksum: N5du3QIMH9U55XSFflYsKg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209141119
-! Last Modified: 2022年09月14日 11:19
+! Version: 202209141306
+! Last Modified: 2022年09月14日 13:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3458,8 +3458,9 @@ ubmcmm.baidustatic.com
 ||aisdd.xyz^
 ||rmirha.cn^
 ||cedon2bea.xyz^
+||nxlidc.ink^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
-/\.(cyou)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
+/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$xmlhttprequest,third-party
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.ahp[0-9]{2}\.site:/$script,third-party
@@ -28349,6 +28350,7 @@ m.babytree.com##script + a[class]
 /metricool.js
 /metrics-backend/*
 /metrics-ga.
+/metrics/event?
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
@@ -41111,6 +41113,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.dictionary.com^
 ||track.kueez.com^
 ||track.lexico.com^
+||track.mrgugu.com^
 ||track.netzero.net^
 ||track.thesaurus.com^
 ||track.totalav.com^$script
