@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0TMo+FAyZko5kY5MOZbI2Q
+! Checksum: jt9M4YpAxPRrVTnWeu+3UQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209160251
-! Last Modified: 2022年09月16日 02:51
+! Version: 202209160544
+! Last Modified: 2022年09月16日 05:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54781,6 +54781,7 @@ greatist.com##aside
 dictionary.com,thesaurus.com##aside[id$="728x90"]
 apotelyt.com##aside[id^="hedoApp"]
 apotelyt.com##aside[id^="widoApp"]
+mangas-raw.com##center > div[style]
 psycom.net##center > .vh-quiz-qborder
 conservativeplaylist.com##center > [href]
 builtbybit.com##center[style="margin-top: 20px"]
@@ -110088,6 +110089,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/mbox-contents-$script,domain=ceair.com|fcbarcelona.cn
 @@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
+@@||baidu.com/api/bidder/$domain=jump2.bdimg.com
+@@||baidu.com^*/track.gif$image,domain=jump2.bdimg.com
 @@||g.csdnimg.cn^*/trackad.js$script,domain=csdn.net
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
@@ -110463,7 +110466,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||eldiario.es/static/BBTCore/images/pixel.gif?hash=$image,domain=eldiario.es
 @@||estafeta.com/shared/js/tracking.js
 @@||googleoptimize.com/optimize.js$domain=lacomer.com.mx
-@@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
+@@||googletagmanager.com/gtm.js$script,domain=pccomponentes.com|tn.com.ar
 @@||groupbycloud.com/gb-tracker-client-4.min.js$domain=lacomer.com.mx
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
