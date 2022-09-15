@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4+Dqnj2BJEP+RPMMFPMy2A
+! Checksum: 29YyZkMfpwSf5PWNHGKz3w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209151550
-! Last Modified: 2022年09月15日 15:50
+! Version: 202209151654
+! Last Modified: 2022年09月15日 16:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59016,7 +59016,7 @@ ubmcmm.baidustatic.com
 ||93533557591.com^
 ||94pr.cn^
 ||998k.at^
-||99zuowen.com^
+||99zuowen.com^$third-party
 ||9as3.xyz^
 ||aaapvu.cn^
 ||abbc.cc^
@@ -75871,7 +75871,7 @@ affyun.com##.text ~ a
 chineseinla.com##.text-ads-col
 baidu.com##.text-advertise
 fastadmin.net##.text-center > .carousel
-1010dy1.com##.text-center[style]
+1010dy2.com##.text-center[style]
 baidu.com##.text-link-ads
 auto-online.com.tw##.text_links_h
 jiyingw.vip##.textwidget > p > a > img
@@ -76534,7 +76534,7 @@ bigear.cn##a[href^="/?module=dantian&"]
 x6d.com,xd0.com,xiaodao0.com##a[href^="/ad."]
 vk922.com##a[href^="/ad/"]
 ziyuanba.com##a[href^="/ago."]
-1010dy1.com##a[href^="/go"]
+1010dy2.com##a[href^="/go"]
 szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
@@ -87399,6 +87399,7 @@ _mongo_stats/
 ||ipinyou.com.cn^$third-party
 ||iplist.cc^$third-party
 ||iplocationtools.com^$third-party
+||iplogger.org^$third-party
 ||ipmeta.io^$third-party
 ||ipnoid.com^$third-party
 ||ippen.space^$third-party
@@ -109482,7 +109483,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|healthsafe-id.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|healthsafe-id.com|helvetia.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -109940,6 +109941,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||wix.com/_api/*count?type$~third-party
+@@||wow.zamimg.com/js/wh/page/bluetracker.js$script,domain=wowhead.com
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
