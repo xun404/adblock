@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kHDH6liWAUD2ebDhYjJNAA
+! Checksum: T9HiVy+qlx7Q7D7GY5fqaQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209160149
-! Last Modified: 2022年09月16日 01:49
+! Version: 202209160251
+! Last Modified: 2022年09月16日 02:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -471,7 +471,7 @@ tieba.baidu.com##.tuijian-wrap
 &adlist=
 &adnum=
 &adsafe=
-&adserver=f
+&adserver=
 &adslots=
 &adsrc=
 &adstrade=
@@ -1522,7 +1522,7 @@ tieba.baidu.com##.tuijian-wrap
 /adlink.$domain=~adlink.com|adlink.guru|~adlinktech.com|~github.com
 /adlink/*$domain=~adlinktech.com|~github.com
 /adlink?
-/adlinks.$domain=~adlinks.to|~adlinks.io
+/adlinks.$domain=~adlinks.io|~adlinks.to
 /adlinks_
 /adload.
 /adloader/*
@@ -30195,6 +30195,7 @@ tf2r.com#@#.adverts
 ||cusecwhitten.com^
 ||cusptumbak.com^
 ||customads.co^
+||customapi.top^
 ||cuterbond.com^
 ||cutescale.online^
 ||cutestpotting.com^
@@ -54885,8 +54886,8 @@ unsplash.com##a[rel^="sponsored"][target="_blank"]
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 limetorrents.pro##a[title*="An‌on‌ymous Download"]
 searchenginereports.net##a[title="Ad"]
-kroger.com##a[title^="Advertisement:"]
 hqq.tv##a[title="Free money easy"]
+kroger.com##a[title^="Advertisement:"]
 facebook.com,facebookcorewwwi.onion##article[data-ft*="\"ei\":\""]
 greatist.com##aside
 dictionary.com,thesaurus.com##aside[id$="728x90"]
@@ -55562,6 +55563,7 @@ windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 xing.com#?#div[class^="styles-grid-col-"]:-abp-has(span[class^="MediaObject-MediaObject-meta-"]:-abp-contains(/Gesponsert|Sponsored|Patrocinado|Sponsorisé|Sponsorizzato/))
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
+zalando.be,zalando.ch,zalando.co.uk,zalando.cz,zalando.de,zalando.dk,zalando.ee,zalando.es,zalando.fi,zalando.fr,zalando.ie,zalando.it,zalando.lv,zalando.no,zalando.pl,zalando.se,zalando.si#?#.DvypSJ:-abp-has(span:-abp-contains(/Gesponsert|Gesponsord|Patrocinado|Sponset|Sponsitud|Sponsored|Sponsoreret|Sponsorēts|Sponsorizzato|Sponsorisé|Sponsoroitu|Sponsorowane|Sponsrad|Sponzorirano|Sponzorováno/))
 1001tracklists.com#?#a[onclick^='gaLnkTr']
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
