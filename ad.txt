@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PWmpiLKKrApzQdqc/gAmRw
+! Checksum: bx6zWTvnlHopCfH9s0F+Qg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202209161849
-! Last Modified: 2022年09月16日 18:49
+! Version: 202209162207
+! Last Modified: 2022年09月16日 22:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3939,6 +3939,10 @@ ubmcmm.baidustatic.com
 ||ymzcapp.shop^
 ||sjeklqx.cn^
 ||kcfuzhj.cn^
+||oewtuho.cn^
+||addihj.cn^
+||23.234.217.12^
+||23.234.217.11^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -10578,7 +10582,6 @@ $websocket,domain=5nj.com|cechi8.com
 /gamer/*$subdocument,domain=gamer.com.tw
 /gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
 /images/*.gif$domain=maichun5.info|myhhg.com
-/images/*.js$domain=hrszyl.com|jiuzhiling.com|myt520.com|zchot.com
 /images/*gamble$domain=50.7.31.228|tvboxnow.com
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/content/1436/*$domain=chineseinla.com
@@ -15199,7 +15202,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zc173.com/173fee/
 ||zc173.com/pp/
 ||zcaijing.com/images/
-||zchot.com/images/web.gif
 ||zd518.cn/bf-
 ||zd518.cn/template/qpg6080/
 ||zdcj.net/html/weibo
@@ -17253,7 +17255,7 @@ znjj.tv##.adver1
 360che.com##.adver300_250
 360che.com##.adver600_80
 cpnn.com.cn##.adverd-top
-ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,xywy.com,zhangjunseo.com,zhujiceping.com##.advert
+ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,zhangjunseo.com,zhujiceping.com##.advert
 csdn.net##.advert-bg
 xmfish.com##.advert-entry-list
 liba.com##.advert-l
@@ -18871,7 +18873,7 @@ sanv.org##.p_left
 actoys.net##.p_new_ad
 sina.cn##.p_newsmore
 actoys.net##.p_top_ad
-dmh8.com##.padding-0 > ul
+dmh8.com##.padding-0 > ul[style]
 cssmoban.com##.page-banner
 contents.internet.apps.samsung.com##.page-bar
 qidian.com##.page-ops
