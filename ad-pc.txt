@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r2k9aaeEeDAqg2v1VYUlxQ
+! Checksum: bdQdb629WCXfj0cO0RombQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209182110
-! Last Modified: 2022年09月18日 21:10
+! Version: 202209182153
+! Last Modified: 2022年09月18日 21:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32404,6 +32404,7 @@ tf2r.com#@#.adverts
 ||gobosclatchy.com^
 ||gobsea.com^
 ||gocdnbwt.com^
+||goddessclad.com^
 ||godescargas.xyz^
 ||godfntvfmaywsgl.com^
 ||godfulsiums.com^
@@ -34667,6 +34668,7 @@ tf2r.com#@#.adverts
 ||lcdnw.com^
 ||lcdwjuzdkpxnss.com^
 ||lcentntel.com^
+||lckbfohxxdsfm.com^
 ||lcreatessque.xyz^
 ||lcvtgvcod.com^
 ||ldiscdnkbg.com^
@@ -41550,6 +41552,7 @@ tf2r.com#@#.adverts
 ||tpdads.com^
 ||tplpages.com^
 ||tpn134.com^
+||tpnygytjdqvq.com^
 ||tpvjycisbqklu.com^
 ||tqlkg.com^
 ||tqrvftsbdagk.xyz^
@@ -41770,6 +41773,7 @@ tf2r.com#@#.adverts
 ||tumri.net^
 ||tumuta.xyz^
 ||tundbjrjrqotjag.xyz^
+||tunted.com^
 ||tunuhap.com^
 ||tunviralbionic.com^
 ||tupeloherem.com^
@@ -43652,6 +43656,7 @@ tf2r.com#@#.adverts
 ||yhmceakev.com^
 ||yhmgqevtybbku.com^
 ||yibivacaji.com^
+||yidded.com^
 ||yieldads.com^
 ||yieldadvert.com^
 ||yieldbuild.com^
@@ -70257,8 +70262,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
 ||pic.yupoo.com/showflash/
-||pic.zol-img.com.cn^$image,domain=www.zol.com.cn
-||pic.zol-img.com.cn^$object
 ||picb.cc/uploads/2018/06/26/2zxrsi.jpg
 ||picgd.com/images/*.gif
 ||picgd.com/images/2018/12/01/h1pi5.png
@@ -71509,10 +71512,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zol.com.cn/adrs/
 ||zol.com.cn/channel/index.php?c=Active_Tmall&
 ||zol.com.cn/index.php?c=Gethot&
-||zol.com.cn/jd-tmall-
 ||zol.com.cn/js/ask/ask.js
-||zol.com.cn/mainpage/2017/corner/
-||zol.com.cn/wapask/index.php?c=Ajax_Ask&a=NewAsyncResponseTmallAd
 ||zolsky.com^*ad/*.js
 ||zongheng.com/ajax/recommend.game.
 ||zongheng.com/upload/ad/
@@ -71561,6 +71561,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||z4a.net/images/*/960-60.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+zol.com.cn###relatedProduct
+zol.com.cn##.supervalue
+zol.com.cn##.pv-mol_ask
+wap.zol.com.cn###waitrep
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71630,7 +71634,6 @@ tmall.com###J_Recommend
 duba.com###J_S11
 2345.com###J_act_plane_hb
 2345.com###J_acts11_footerfixed
-zol.com.cn###J_alpha_link
 2345.com###J_bgSug1st
 gaokao.com###J_fixed_popbox
 2345.com###J_go_erweima
@@ -75448,7 +75451,6 @@ hmog.me##.side_widget:last-child
 qzone.qq.com##.side_wrapper.side_wrapper_v3
 cjn.cn##.sidebar
 qiuquan.cc##.sidebar .aligncenter
-zol.com.cn##.sidebar > .n1-pad-entrance-wrap
 element-plus.gitee.io##.sidebar > .page-content
 pupudy.com##.sidebar > .widget-textasst:nth-child(n+3)
 oneinstack.com##.sidebar > .widget:last-child
@@ -75992,7 +75994,6 @@ fx168.com##.yjl_fx168_focus_TodayNews_jiasheng
 youku.com##.yk-AD-tong
 hk.news.yahoo.com##.yog-col div.classickick[data-beacon-fired]
 9ku.com##.youFix
-zol.com##.youxuan-shop
 ysxs8.vip##.ysxs8_w960_1
 52ghai.com##.yttl_x_g
 xiadele.com##.yun-advertisement
@@ -76650,7 +76651,6 @@ it168.com##div[id^="ADV"]
 daohang.qq.com,hao.qq.com,sogou.com##div[id^="AD_"]
 hc360.com##div[id^="Adv"]
 tiexue.net##div[id^="Baidu_"]
-www.zol.com.cn##div[id^="Bar"]
 airav.cc##div[id^="Billing"]
 16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##div[id^="Div"]
 ganji.com##div[id^="GcnADId"]
@@ -85922,6 +85922,7 @@ _mongo_stats/
 ||spinnaker-js.com^
 ||stack-sonar.com^
 ||stat.ovh^
+||statsbox.info^
 ||stpmgo.com^
 ||summerhamster.com^
 ||superpointlesshamsters.com^
@@ -94374,6 +94375,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awaps.yandex.ru^
 ||banstat.nadavi.net^
 ||bigday.ru/counter.php?
+||bitrix.info/bx_stat
 ||browser-updater.yandex.net^
 ||c.bigmir.net^
 ||cdn-rum.ngenix.net^
@@ -94458,6 +94460,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats2.videonow.ru^
 ||subscribe.ru/1.gif/$image
 ||t1.trex.media^
+||tags.soloway.ru^
 ||target.mirtesen.ru^
 ||target.smi2.net^
 ||target.smi2.ru^
@@ -110130,6 +110133,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
+@@||moja-ostroleka.pl/mapa/sensorsdata.json$~third-party,xmlhttprequest
 @@||ninja.onap.io/ninja-cee.js$domain=olx.pl
 @@||olx.pl^*/js/tracking/ninja.js$domain=olx.pl
 @@||pataks.pl/core,_assets$script,~third-party
