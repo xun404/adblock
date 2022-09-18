@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5VO9NtIk1gVDAciYm8YbaA
+! Checksum: Kh8LNX5rqT7Oi/oIenZ8fw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209181846
-! Last Modified: 2022年09月18日 18:46
+! Version: 202209181940
+! Last Modified: 2022年09月18日 19:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -41370,6 +41370,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||w-profiling.cibc.com^$script
 ||w-profiling.simplii.com^
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
+||cdn1.skrill.com^
 ||d276.ourmidland.com^
 ||d810.mysanantonio.com^
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
@@ -55399,7 +55400,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtag/js$script,domain=modehasen.de
-@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
