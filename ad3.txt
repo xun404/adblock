@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T4D4UUmQBs4f3joEHJMYYw
+! Checksum: qCbSNZvspRHdXsVGmfSV/g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209190747
-! Last Modified: 2022年09月19日 07:47
+! Version: 202209191128
+! Last Modified: 2022年09月19日 11:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3524,6 +3524,9 @@ ubmcmm.baidustatic.com
 ||xbhxgcj.cn^
 ||craa.fun^
 ||tokendomain.xyz^
+||qf1d.top^
+||avz3.xyz^
+||vecukb.com^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -28721,6 +28724,7 @@ m.babytree.com##script + a[class]
 /pc-log?
 /pcookie_get_key
 /pcount.asp
+/pdp.gif?
 /pdst-events-prod-sink
 /peach-collector.min.js
 /Peermap/Log/*
@@ -30406,6 +30410,7 @@ m.babytree.com##script + a[class]
 /vendor/analytics/*
 /vendor/xtcore.
 /vertical-stats.
+/vestigo/v1/measure
 /vglnk.js
 /vgwort/*
 /video-ga.js
@@ -54300,6 +54305,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rac.ruutu.fi/rac.gif$image
 ||rac.ruutu.fi/sat/sat.gif$image
 ||rakentaja.fi/kuvat/pi.gif$image
+||rantapallo.fi/s/redirect/tracking?
 ||stat.mtv3.fi^
 ||stats.fonecta.fi^
 ||tori.fi/img/none.gif$image
@@ -55083,6 +55089,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|driftinnovation.com|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
+@@||mclo.gs/js/logview.js$~third-party
 @@||metrics.torproject.org^$~third-party
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
