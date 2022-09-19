@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yAwiQx7tdwAtN3vrDDbefA
+! Checksum: KMXc6i277kCgx2M05Fv4kg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209191128
-! Last Modified: 2022年09月19日 11:28
+! Version: 202209191314
+! Last Modified: 2022年09月19日 13:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2444,7 +2444,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adxads.
 /adxcm_
 /adxrotate/*
-/adxsite.
 /adyoulike.$domain=~adyoulike.com
 /adz/js/*
 /adz/solus/*
@@ -3409,7 +3408,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /js.ng/size=
 /js/ad.js?slot=
 /js/adverts-
-/js/adz.
 /js/dfp-
 /js/doubleclick/*
 /js/m/i-def.js
@@ -7432,7 +7430,6 @@ _800x80_
 ###ads-link
 ###ads-lrec
 ###ads-main
-###ads-main-bottom
 ###ads-menu
 ###ads-middle
 ###ads-mpu
@@ -7447,9 +7444,7 @@ _800x80_
 ###ads-right-top
 ###ads-rt
 ###ads-sidebar
-###ads-sidebar-bottom
 ###ads-sidebar-skyscraper-unit
-###ads-sidebar-top
 ###ads-slot
 ###ads-sponsored-boxes
 ###ads-submit
@@ -12303,6 +12298,7 @@ _800x80_
 ##.ac_adbox
 ##.ac_adbox_inner
 ##.acf-ad
+##.acm-ad-container
 ##.acm-ad-tag-unit
 ##.acm_ad_zones
 ##.ad--300
@@ -17349,6 +17345,7 @@ _800x80_
 ##.b-advertising__down-menu
 ##.b-aside-ads
 ##.b-header-ad
+##.b-right-rail--ads
 ##.bAdvertisement
 ##.b_adLastChild
 ##.b_ads
@@ -20047,7 +20044,6 @@ _800x80_
 ##.js-dfp-ad
 ##.js-dfp-ad-bottom
 ##.js-dfp-ad-top
-##.js-dfpAdPosSR
 ##.js-googleAdSuperHeader-wrapper
 ##.js-gptAd
 ##.js-header-ad
@@ -20068,7 +20064,6 @@ _800x80_
 ##.js-slide-top-ad
 ##.js-slim-nav-ad
 ##.js-sticky-ad
-##.js-sticky-ads-bdp-desktop
 ##.js-sticky-advert-details-mpu
 ##.js-stream-ad
 ##.js-stream-featured-ad
@@ -20130,7 +20125,6 @@ _800x80_
 ##.label_advertising_text
 ##.labelads
 ##.labeled_ad
-##.landing-advertise
 ##.landing-page-ads
 ##.landingAdRail
 ##.landing_adbanner
@@ -20268,7 +20262,6 @@ _800x80_
 ##.leftadd
 ##.leftadtag
 ##.leftbar_ad2
-##.leftbar_ad_160_600
 ##.leftbarads
 ##.leftbottomads
 ##.leftnavad
@@ -20276,18 +20269,12 @@ _800x80_
 ##.leftsidebar_ad
 ##.lefttopad1
 ##.legacy-ads
-##.legal-ad-choice-icon
-##.lextraleftmoreads
 ##.lft_advt_container
 ##.lg-ads-160x90
-##.lg-ads-311x300-down
-##.lg-ads-311x300-up
 ##.lg-ads-311x500
 ##.lg-ads-635x100
 ##.lg-ads-skin-container
 ##.lg-infeed-wrapper
-##.lgRecAd
-##.lg_ad
 ##.liberty-ad-renderer-iframe
 ##.liboxads
 ##.ligatus
@@ -20357,16 +20344,10 @@ _800x80_
 ##.lyrics-inner-ad-wrap
 ##.m-ContentAd
 ##.m-ad
-##.m-ad--open
 ##.m-ad-brick
 ##.m-ad-region
-##.m-ad-region-leaderboard
 ##.m-ad-unit
-##.m-ad__placeholder--970x250
 ##.m-ad__wrapper
-##.m-ad__wrapper--300x250
-##.m-ad__wrapper--728x90
-##.m-ad__wrapper--highlight
 ##.m-advert
 ##.m-advertisement
 ##.m-advertisement--container
@@ -20375,24 +20356,10 @@ _800x80_
 ##.m-content-advert
 ##.m-content-advert-wrap
 ##.m-dfp-ad-text
-##.m-gallery-overlay--ad-top
-##.m-header-ad
-##.m-header-ad--balloon
-##.m-header-ad--slot
-##.m-in-content-ad
-##.m-in-content-ad--slot
-##.m-in-content-ad-row
-##.m-in-content-ad-row--bonus
 ##.m-jac-ad
-##.m-layout-advertisement
-##.m-mem--ad
-##.m-sidebar-ad
-##.m-sidebar-ad--slot
 ##.m-sponsored
 ##.m1-header-ad
 ##.m2n-ads-slot
-##.m4-adsbygoogle
-##.mTopAd
 ##.m_ad
 ##.m_ad1
 ##.m_ad300
@@ -20401,11 +20368,8 @@ _800x80_
 ##.macad
 ##.mad_adcontainer
 ##.madison_ad
-##.mag21_fixed_ad
 ##.magAd
 ##.magad
-##.magazine_box_ad
-##.mailAdElem
 ##.main-ad
 ##.main-ad-728x90-container
 ##.main-ad-bg
@@ -20418,12 +20382,8 @@ _800x80_
 ##.main-advertising
 ##.main-column-ad
 ##.main-footer-ad
-##.main-google-ad-container
 ##.main-header__ad-wrapper
-##.main-news__ad
 ##.main-right-ads
-##.main-tabs-ad-block
-##.main-top-ad-container
 ##.mainAd
 ##.mainAdContainer
 ##.mainAds
@@ -27307,6 +27267,7 @@ tf2r.com#@#.adverts
 ||ban8mid.com^
 ||bananastouching.com^
 ||banclip.com^
+||bancmuriel.space^
 ||bande1az.com^
 ||bande2az.com^
 ||bandelcot.com^
@@ -28329,6 +28290,7 @@ tf2r.com#@#.adverts
 ||carapusgyal.com^
 ||carbonads.com^
 ||carbonatemourning.com^
+||carcelshatches.com^
 ||cardiacslabshort.com^
 ||cardiwersg.com^
 ||carememachera.com^
@@ -29871,6 +29833,7 @@ tf2r.com#@#.adverts
 ||dfpstitialtag.com^
 ||dftvhvapqxs.xyz^
 ||dfxofvzd.com^
+||dfyouolsdq.com^
 ||dgafgadsgkjg.top^
 ||dgmaplain.club^
 ||dgmatix.com^
@@ -34922,6 +34885,7 @@ tf2r.com#@#.adverts
 ||lyceasannop.com^
 ||lycooc.com^
 ||lydianapkin.com^
+||lyingdownt.xyz^
 ||lyjegushe.pro^
 ||lyricalcomfortfatherinlaw.com^
 ||lyrigh.com^
@@ -35137,6 +35101,7 @@ tf2r.com#@#.adverts
 ||mb38.com^
 ||mb57.com^
 ||mbctxigml.com^
+||mbekbymfdxy.com^
 ||mbhvyihyaayh.com^
 ||mbiifzdvhexj.com^
 ||mbiizkzics.com^
@@ -43406,6 +43371,7 @@ tf2r.com#@#.adverts
 ||ymvhbeuadqhwx.com^
 ||ymzrrizntbhde.com^
 ||ynaxckzmreo.com^
+||yngalsivgukt.com^
 ||ynklendr.online^
 ||ynnpmcpswews.com^
 ||ynntbsyydcte.xyz^
@@ -43719,6 +43685,7 @@ tf2r.com#@#.adverts
 ||zrlcr.com^
 ||zrljkhcwhxhh.com^
 ||zrvnhlwypqpwjw.com^
+||zsbwoqpcxj.com^
 ||zsinek.com^
 ||zsmmflxvkgvmcf.com^
 ||zswxrfwnapgg.com^
@@ -54110,6 +54077,8 @@ torrentresource.com##[width="150"]:last-child
 fansshare.com##[width="300"]
 drwealth.com##[width="640"]
 4chan.org##[width="728"]
+elitepvpers.com##[width="729"]
+elitepvpers.com##[width="966"]
 presearch.com##[x-data*="kAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
@@ -54434,6 +54403,7 @@ fctables.com##div[style^="background:#e3e3e3;position:fixed"]
 footybite.cc##div[style^="border: 2px solid "]
 pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 realpython.com##div[style^="display:block;position:relative;"]
+elitepvpers.com##div[style^="font-size:11px;"]
 manga-raw.club##div[style^="height: 250px;"]
 manga-raw.club##div[style^="height: 300px;"]
 add0n.com,crazygames.com##div[style^="height: 90px;"]
@@ -54483,7 +54453,7 @@ prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
 dailynews.lk,german-way.com,power987.co.za,qsaltlake.com,tfetimes.com##img[height="250"]
 newyorkyimby.com##img[height="280"]
 ciiradio.com,hapskorea.com,thetruthwins.com##img[height="300"]
-elitepvpers.com,pointblanknews.com,sharktankblog.com##img[height="60"]
+pointblanknews.com,sharktankblog.com##img[height="60"]
 cryptofeeds.news,newswireni.com,power987.co.za##img[height="600"]
 airplaydirect.com,cultofcalcio.com,dailynews.lk,economicconfidential.com,newzimbabwe.com,opednews.com,roadtester.com.au,runechat.com,tfetimes.com,therainbowtimesmass.com,ugstandard.com##img[height="90"]
 windycitymediagroup.com,windycitytimes.com##img[name="Sponsor"]
@@ -54793,7 +54763,6 @@ digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/promotion"])
 digg.com#?#article.fp-vertical-story:-abp-has(div:-abp-contains(SPONSORED))
 digg.com#?#.tracking-widest:-abp-contains(Sponsored)
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
-instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
@@ -59869,6 +59838,10 @@ ubmcmm.baidustatic.com
 ||qf1d.top^
 ||avz3.xyz^
 ||vecukb.com^
+||qinlu.ink^
+||ahjkpqn.cn^
+||mvdwq.xyz^
+||0p7w.cn^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
