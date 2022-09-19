@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lxyzD6pOeib6pT+BJUybvw
+! Checksum: Ooa6n0mT4NIfUZb4JTtiJA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209191558
-! Last Modified: 2022年09月19日 15:58
+! Version: 202209191656
+! Last Modified: 2022年09月19日 16:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21415,6 +21415,7 @@ _800x80_
 ##.promoad
 ##.promoboxAd
 ##.promoted_content_ad
+##.promotionAdContainer
 ##.promotionTextAd
 ##.promotional-feature-ads
 ##.proof_ad
@@ -55728,6 +55729,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adserve.atedra.com/js/$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/vast/wrap.php?$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/zones.php$xmlhttprequest,domain=repeatmyvids.com
+@@||adserver.skiresort-service.com/www/delivery/spcjs.php?$script,domain=skiresort.de|skiresort.fr|skiresort.info|skiresort.it|skiresort.nl
 @@||adservex.media.net/videoAds.js?$script,domain=forbes.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
