@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vJVWEOI6f5+44OcseUxMIw
+! Checksum: VK08HTLa6Sows5WQakNeLg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209230152
-! Last Modified: 2022年09月23日 01:52
+! Version: 202209230446
+! Last Modified: 2022年09月23日 04:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -37619,6 +37619,7 @@ tf2r.com#@#.adverts
 ||ptljkekttqf.com^
 ||ptlrchrsgpbak.com^
 ||ptlwm.com^
+||ptlwmstc.com^
 ||ptmzr.com^
 ||ptoafauz.net^
 ||ptoahaistais.com^
@@ -108654,7 +108655,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||decision.taplytics.com^$domain=royalbank.com
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=wakefit.co
 @@||dev.visualwebsiteoptimizer.com/web/$script,domain=wakefit.co
-@@||developers.google.com/analytics/devguides/collection/analyticsjs/$~third-party,xmlhttprequest
+@@||developers.google.*/analytics/$~third-party,xmlhttprequest
 @@||digitalgov.gov/Universal-Federated-Analytics-Min.js?$script,domain=travel.state.gov
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
 @@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
