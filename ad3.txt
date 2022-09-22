@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IXD6qjHK3B20b3qV2STpvQ
+! Checksum: Rbx7F7IVF6vCm4JuUO7RYg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209221942
-! Last Modified: 2022年09月22日 19:42
+! Version: 202209222125
+! Last Modified: 2022年09月22日 21:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2413,7 +2413,7 @@ ubmcmm.baidustatic.com
 ||furrnbb.cn^
 ||fwmbjrl.cn^
 ||fxdwdwv.cn^
-||fy6b.com^$third-party
+||fy6b.com^$image,third-party
 ||fyyqq.top^
 ||fz2c.top^
 ||galvanic.name^
@@ -3574,6 +3574,10 @@ ubmcmm.baidustatic.com
 ||lr6e.top^
 ||vhyvkx.com^
 ||invida.net.cn^
+||iosppk.com^
+||qcmm02.com^
+||u8hdqyug.co^
+||u8hdqyug.live^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -14917,8 +14921,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||dshangyan.com/pc/advertising/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dshangyan.com##.advHeader
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -53833,7 +53839,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ostjob.ch/public/statistic/teaser/hit/
 ||otto.de/error-logging/
 ||otto.de/pass/scale-beacon-service/
-||otto.de/tracking-bct/
+||otto.de^$ping
 ||oxifwsabgd.nzz.ch^
 ||pi.technik3d.com^
 ||powercount.jswelt.de^
@@ -53912,6 +53918,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.gmx.net^
 ||wa.web.de^
+||walbusch.de^$ping
 ||web.de/monitoring/
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
