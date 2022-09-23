@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3HvV1/xBR+poZbWfj3yHiQ
+! Checksum: KWhLgndTlCZS9k1iLQXzJQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209240648
-! Last Modified: 2022年09月24日 06:48
+! Version: 202209240748
+! Last Modified: 2022年09月24日 07:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19104,6 +19104,7 @@ _800x80_
 ##.header-ads-wrapper
 ##.header-adsense
 ##.header-adslot-container
+##.header-adspace
 ##.header-adv
 ##.header-advert
 ##.header-advert-wrapper
@@ -19197,6 +19198,7 @@ _800x80_
 ##.hioxInternalAd
 ##.hm-ad
 ##.hm-sec-ads
+##.hm-vertical-ad
 ##.hm_adlist
 ##.hm_advertisment
 ##.hmad
@@ -21007,6 +21009,7 @@ _800x80_
 ##.primary-ad-widget
 ##.primary-advertisment
 ##.primary_sidebar_ad
+##.primis-video
 ##.print-ad-wrapper
 ##.print-adslot
 ##.printAds
@@ -22284,6 +22287,7 @@ _800x80_
 ##.square-ad-pane
 ##.square-ads
 ##.square-advt
+##.square-adwrap
 ##.square-sidebar-ad
 ##.square-sponsorship
 ##.squareAd
@@ -52300,7 +52304,7 @@ transfermarkt.com##.fniNGHn
 gamespot.com##.follow-buy__link
 gamespot.com##.followBuy__body
 radiozindagi.com##.foot_top
-donegaltv.ie,emergencyemail.org##.footer
+donegaltv.ie,emergencyemail.org,out.com##.footer
 allthatsinteresting.com,scientificamerican.com##.footer-banner
 tribuna.com##.footer-helper__min-height-after-header
 supercars.com##.footer-promo
@@ -53346,6 +53350,7 @@ geoguessr.com##.start__display-ad
 pcgamesn.com##.static_mpu_wrap
 bostonglobe.com##.stick_1200--tablet
 kathmandupost.com##.sticky--bottom
+rugbyonslaught.com##.sticky-add
 gr8.cc,psycatgames.com##.sticky-banner
 nocable.org##.sticky-banner-section
 note.nkmk.me##.sticky-block
@@ -53455,6 +53460,7 @@ last.fm##.tonefuze
 euobserver.com,medicinehatnews.com##.top
 mashable.com##.top-0.sticky > div
 dexerto.com##.top-10
+freedomleaf.com##.top-ab
 artistdirect.com##.top-add
 jamieoliver.com##.top-avocado
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,forbesindia.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
@@ -59689,6 +59695,10 @@ ubmcmm.baidustatic.com
 ||zzeblsg.cn^
 ||zzycj.com^
 ||zzyl.mobi^
+||egyfgsq.cn^
+||jlosuiq.cn^
+||grjasq.com^
+||poae2klya.icu^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -85279,6 +85289,7 @@ _mongo_stats/
 ||nigelmidnightrappers.com^
 ||nimblebird.co^
 ||nimbleswan.io^
+||notifpush.com^
 ||ns1p.net^
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
@@ -88092,7 +88103,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||najva.com^$third-party
 ||nativesubscribe.pro^$third-party
 ||notifadz.com^$third-party
-||notifpush.com^$third-party
 ||notify.solutions^$third-party
 ||notix.io^$third-party
 ||olgtex.com^$third-party
@@ -89302,7 +89312,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||seatsmoke.com^
 ||secretivecub.com^
 ||secretspiders.com^
-||secretturtle.com^$third-party
+||secretturtle.com^
 ||seedscissors.com^
 ||selectionship.com^
 ||selectivesummer.com^$third-party
