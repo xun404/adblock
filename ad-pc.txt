@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sqCNSAzHgwZ8OubHpo5+8Q
+! Checksum: csmVQcCN8IyNQrqqCIpeaA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209241257
-! Last Modified: 2022年09月24日 12:57
+! Version: 202209241400
+! Last Modified: 2022年09月24日 14:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8508,7 +8508,13 @@ _800x80_
 ###block-adsense-banner-channel-bottom
 ###block-advertisement
 ###block-advertorial
+###block-articlebelowtextad
+###block-articlefrontpagead
+###block-articletopadvert
 ###block-dfp-top
+###block-frontpageabovepartnersad
+###block-frontpagead
+###block-frontpagesideadvert1
 ###block-google-ads
 ###block-googleads3
 ###block-googleads3-2
@@ -11891,11 +11897,14 @@ _800x80_
 ##.ad--BANNER
 ##.ad--MAIN
 ##.ad--adverskinleaderboard
+##.ad--article
 ##.ad--article-top
 ##.ad--articlemodule
 ##.ad--b
 ##.ad--banner
 ##.ad--banner2
+##.ad--banniere_basse
+##.ad--banniere_haute
 ##.ad--billboard
 ##.ad--bottom
 ##.ad--bottom-label
@@ -11911,6 +11920,9 @@ _800x80_
 ##.ad--dart
 ##.ad--desktop
 ##.ad--displayed
+##.ad--droite_basse
+##.ad--droite_haute
+##.ad--droite_middle
 ##.ad--e
 ##.ad--fallback
 ##.ad--footer
@@ -11944,6 +11956,7 @@ _800x80_
 ##.ad--no-bg
 ##.ad--noscroll
 ##.ad--object
+##.ad--outstream
 ##.ad--overlayer
 ##.ad--p1
 ##.ad--p2
@@ -19814,6 +19827,7 @@ _800x80_
 ##.m-content-advert
 ##.m-content-advert-wrap
 ##.m-dfp-ad-text
+##.m-in-content-ad
 ##.m-jac-ad
 ##.m-sponsored
 ##.m1-header-ad
@@ -50484,6 +50498,8 @@ infoplease.com###block-ipabovethefold
 infoplease.com###block-ipbtfad
 infoplease.com###block-ipleaderboardad
 infoplease.com###block-ipmiddlewaread
+romania-insider.com###block-nodepagebelowlatespress
+romania-insider.com###block-nodepagebelowtrendingcontent
 encyclopedia.com###block-trustme-rightcolumntopad
 enca.com###block-views-block-sponsored-block-1
 ana-white.com###block-views-block-sponsors-block-1
@@ -90693,6 +90709,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apple.com/hvr/mw/v1/spile
 ||apple.com/mw/v1/reportAnalytics
 ||apple.www.letv.com^
+||applicationinsights.azure.com^
 ||appliedsemantics.com/images/x.gif
 ||appmifile.com^*/stat/
 ||appsolutions.com/hitme?$third-party
