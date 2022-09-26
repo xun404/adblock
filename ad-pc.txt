@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sFKVr1GN03KLrPmOsUYI2Q
+! Checksum: foyF/PFc9YfTyF5MDpZWNw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209261129
-! Last Modified: 2022年09月26日 11:29
+! Version: 202209261314
+! Last Modified: 2022年09月26日 13:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22297,6 +22297,7 @@ _800x80_
 ##.ttb_adv_bg
 ##.tto-sponsored-element
 ##.tv-ad-aside
+##.tw-adv-gpt
 ##.twitter-ad
 ##.two_ads
 ##.twp-ad
@@ -22612,6 +22613,7 @@ _800x80_
 ##.widget_island_ad
 ##.widget_joblo_complex_ad
 ##.widget_long_ads_widget
+##.widget_newspack-ads-widget
 ##.widget_plugrush_widget
 ##.widget_pmc-ads-widget
 ##.widget_po_ads_widget
@@ -22772,6 +22774,7 @@ _800x80_
 ##[href^="http://www.fleshlightgirls.com/"]
 ##[href^="http://www.mypillow.com/"] > img
 ##[href^="http://www.pingperfect.com/aff.php"]
+##[href^="https://ad.admitad.com/"]
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://affiliate.fastcomet.com/"] > img
 ##[href^="https://antiagingbed.com/discount/"] > img
@@ -53942,6 +53945,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###tadsb[aria-label]
 sonichits.com###top-ad-outer
 spanishdict.com##.ad--1zZdAdPU
+tweaktown.com##.adcon
 geekzone.co.nz##.adsbygoogle
 apkmirror.com##.ains-apkm_outbrain_ad
 tweaktown.com##.center-tag-rightad
@@ -59191,6 +59195,11 @@ ubmcmm.baidustatic.com
 ||skdbarh.cn^
 ||zzpwwbf.cn^
 ||lslld.xyz^
+||ubazhaheit.top^
+||3qpw.icu^
+||i8x9.xyz^
+||xiaomaxitong.co^
+||kd1s.icu^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -94093,7 +94102,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||novelcool.com/files/js/yh_tj.js
 ||nysun.com/tracker.js
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
-||nytimes.com/svc/nyt/data-layer?
 ||nytimes.com/v1/purr-cache
 ||nzpages.co.nz/modules/common/track.js
 ||odysee.com/reports/
@@ -94581,6 +94589,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webmd.com/static/v/c?
 ||wellsfargo.com/AIDO/
 ||wellsfargo.com/dti_apg/
+||wellsfargo.com/jenny/
+||wellsfargo.com/PIDO/
 ||wellsfargo.com/tracking/
 ||whattomine.com/stats
 ||whistleout.com.au/track
