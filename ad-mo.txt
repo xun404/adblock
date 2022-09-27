@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fwb6eGlYKX0gsVohsb1zNw
+! Checksum: ael46t3ZchCYQzqn1rNMaA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209271524
-! Last Modified: 2022年09月27日 15:24
+! Version: 202209271702
+! Last Modified: 2022年09月27日 17:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -481,21 +481,16 @@ pan.baidu.com##.upload-bar.global-clearfix
 -banner-ad_
 -banner-ads-$~script
 -banner-ads/
--Banner-Advert-
--config/ads/
 -content-ad-
 -content-ad.
 -ContentAd-
--contest-ad.
 -contrib-ads.$~stylesheet
 -cpm-ad.
 -cpm-ads.
 -dfp-ads/
--dfp-adunits.
 -display-ads.
 -featured-ads.
 -featured-ads/
--feed-ads.
 -footerads-
 -footerads.
 -google-ad.
@@ -689,7 +684,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .info/ad_
 .info/ads-
 .info/ads/
-.intad.
 .intad/
 .io/ads/
 .is/ads/
@@ -756,11 +750,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 .pk/ads/
 .pl/ads/
 .popunder.js
-.popup_im.
 .propellerads.$domain=~propellerads.com
 .prtrackings.com%
 .pw/ads/
-.refreshAds.
 .ro/ads/
 .rolloverad.
 .ru/ads/
@@ -1039,28 +1031,18 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_fallback/*
 /ad_feed.
 /ad_feedback_
-/ad_flash/*
-/ad_floater.
-/ad_folder/*
 /ad_footer.
 /ad_footer_
 /ad_forum_
 /ad_frame.
 /ad_frame?
-/ad_frm.
 /ad_function.
 /ad_ga_callback.
 /ad_generator.
 /ad_generator?
-/ad_gif/*
-/ad_gif_
-/ad_google.
 /ad_head_
 /ad_header.
 /ad_header_
-/ad_headerbg.
-/ad_height/*
-/ad_holder/*
 /ad_home.
 /ad_home_
 /ad_homepage_
@@ -4141,7 +4123,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /squareads.
 /static-ad-
 /static.ad.
-/static/ad-
 /static/ad/*
 /static/ad_
 /static/js/4728ba74bc.js$~third-party
@@ -55340,6 +55321,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+.cn/sc/*?n=$script,third-party
+.cn/sc/*?x=$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -58860,6 +58843,9 @@ ubmcmm.baidustatic.com
 ||qg9z.cn^
 ||shipostrich.com^
 ||vztkmhf.cn^
+||pdxubxc.cn^
+||qinlingshui.com^
+||nongjih.cn^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -71570,7 +71556,6 @@ chazidian.com###worldcup_float
 17jita.com###wp > .wp > .pbm
 lwgod.me###wp > a:first-child
 528500.com###wp > div[align="center"]
-weav.xyz###wp > div[id]
 yixingjia.com###wp > table[width="960"]
 wpjam.com###wpjam_blog_300x250_1
 ganpapa.com###wrapper + div
@@ -78065,28 +78050,13 @@ t66y.com##.tips
 ||alicdn.com^$domain=73thz.com
 !#theporn.cc
 ###__ads_dp
-###ad-ft
-###wp > div > #top_banner
-##.ads > #video_playr_sider
-##.bottom-gg
 theporn.cc##.gg-config
-theporn.cc##.pp > div:not([class])
-theporn.cc##.pp > div[class]:first-child
-theporn.cc##.pt-70 > div[id]
-##.pull-right > #video_playr_sider
 theporn.cc##.toolbar-gg
-##.video-player-container > #player_bottom_banner
-theporn.cc##.video-player-container > script + div
-8mav.cc,theporn.cc##.video_playr_sider
-69xx.one,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
-8mav.cc#?#div[class]:-abp-has(>a>.q-responsive)
+###video_playr_side.video_playr_sider.videoplayerside
+69xx.one,8mav.cc,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 ##a[href$="/hjdt9.com"]
 ##a[href$="/xha77.com"]
-theporn.cc##div > div[align="center"]
-theporn.cc##div[class^="_"]
-##div[data-gg-zone]
 ||jsdelivr.net/gh/dashange123/
-||staticporn.cc/static/tmp/
 !#torrentkitty
 ##.nordvpn-popup + .sidebar-vpn
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
