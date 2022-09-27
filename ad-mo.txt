@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gB7L2AinmOtXv8+uJZJeiA
+! Checksum: ZDCLDGSoPan+l9ubQaBAxw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209271850
-! Last Modified: 2022年09月27日 18:50
+! Version: 202209271944
+! Last Modified: 2022年09月27日 19:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4952,6 +4952,7 @@ _widget_ad.
 /porpoiseant/*
 /prebid-js-
 /prebid-min-
+/prebid-pro.
 /prebid-sdk.
 /prebid-worker/*
 /prebid.$domain=~prebid.org
@@ -35381,6 +35382,7 @@ tf2r.com#@#.adverts
 ||online-protection-now.com^
 ||onlinepromousa.com^
 ||onlineuserprotector.com^
+||onlyry.net^
 ||onmarshtompor.com^
 ||onnnxftprfvm.xyz^
 ||onpluslean.com^
@@ -53629,6 +53631,7 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+engadget.com#?#[class^="Py"]:-abp-has([data-ylk]:-abp-contains(Sponsored))
 imgur.com#?#a.Post-item:-abp-has(div.Post-item-external-ad)
 fortune.com#?#.homepage:-abp-has(> div[id^="InStream"])
 bleachernation.com#?#.code-block:-abp-has(span:-abp-contains(ADVERTISEMENT))
@@ -107558,6 +107561,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||agrointel.ro/ga.js
 ||agrointel.ro/track.js
 ||analytics.okazii.ro^
+||views.b1tv.ro^
 ||views.romaniatv.net^
 ||2ch.hk^*/tracker.js?
 ||2gis.ru/_/log
@@ -108032,6 +108036,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
+@@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
