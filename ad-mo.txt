@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1ZLlBIE5uUMvxrwrNrvC+A
+! Checksum: BWRJARZyIyx1vZiCDzhlvQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209281311
-! Last Modified: 2022年09月28日 13:11
+! Version: 202209281555
+! Last Modified: 2022年09月28日 15:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -9001,6 +9001,7 @@ _800x80_
 ###homeSideAd
 ###homeTopRightAd
 ###home_ad
+###home_ad_b_1
 ###home_ads_vert
 ###home_advertising_block
 ###home_bottom_ad
@@ -9078,7 +9079,6 @@ _800x80_
 ###in-article-ad
 ###in-article-mpu
 ###in-content-ad
-###inVideoAd
 ###inarticlead
 ###inc-ads-bigbox
 ###incontentAd1
@@ -9402,16 +9402,11 @@ _800x80_
 ###midrect_ad
 ###midstrip_ad
 ###mini-ad
-###miniAdsAd
 ###mobile-adhesion
 ###mobile-ads-ad
-###mobile-ads-link
 ###mobileAdContainer
 ###mobile_ad_main
 ###mobile_ads_block
-###mod-ad-msu-1
-###mod-ad-msu-2
-###mod-partner-center
 ###mod-tafad
 ###mod_ad
 ###mod_ad_top
@@ -9422,18 +9417,6 @@ _800x80_
 ###module_box_ad
 ###module_sky_scraper
 ###monsterAd
-###moogleAd
-###more_ad
-###moreads
-###morefooterads
-###most_popular_ad
-###motionAd
-###movads10
-###move-ad
-###movieads
-###mozo-ad
-###mph-rightad
-###mpl_adv_text
 ###mpu-ad
 ###mpu-advert
 ###mpu-cont
@@ -9442,7 +9425,6 @@ _800x80_
 ###mpu1_parent
 ###mpu2
 ###mpu2_container
-###mpu300250
 ###mpuAd
 ###mpuAdvert
 ###mpuAdvertMob
@@ -9464,24 +9446,14 @@ _800x80_
 ###mpu_box
 ###mpu_container
 ###mpu_div
-###mpu_firstpost
 ###mpu_holder
 ###mpu_text_ad
 ###mpu_top
 ###mpuad
 ###mpubox
 ###mpuholder
-###mpuholder01
-###mpusLeftAd
-###mr_banner_topad
-###mrec-advertisement
-###mrecAdContainer
-###mrecPlacement
-###multi_ad
-###multibar-ads
 ###mvp-foot-ad-wrap
 ###mvp-post-bot-ad
-###mvp_160_ad
 ###my-ads
 ###my-adsFPAD
 ###my-adsFPL
@@ -9509,47 +9481,17 @@ _800x80_
 ###navbar_ads
 ###navigation-ad
 ###navlinkad
-###nbaHeaderAds
-###nbaMidAds
-###nbaVid300Ad
-###nbabot728ad
 ###nbcShowcaseAds
 ###newAd
 ###newPostProfileAd
 ###newPostProfileVerticalAd
 ###ng-ad
 ###ng-ad-lbl
-###ng_rtcol_ad
 ###ni-ad-row
-###nia_ad
-###nib-ad
 ###nk_ad_top
-###nlrightsponsorad
-###noresults_ad_container
 ###northad
 ###notify_ad
-###np_content_ads_module
-###nrAds
-###nrcAd_Top
-###ns_ad1
-###ns_ad2
-###ns_ad3
-###ntvAdZone
 ###ntvads
-###nuevo_ad
-###oanda_ads
-###oas_Middle
-###oas_Middle1
-###oas_Middle2
-###oas_Right
-###oas_Right1
-###oas_Right2
-###oas_Top
-###oas_Top1
-###oas_asponsor
-###oas_wide_skyscraper
-###oem_ad
-###ofie_ad
 ###omnibar_ad
 ###online_ad
 ###openx-text-ad
@@ -14728,6 +14670,7 @@ _800x80_
 ##.ads_medium_rectangle
 ##.ads_medrect
 ##.ads_middle
+##.ads_middle-container
 ##.ads_middle_container
 ##.ads_mpu
 ##.ads_outer
@@ -16167,6 +16110,7 @@ _800x80_
 ##.aside-ad-space
 ##.aside-ad-wrapper
 ##.aside-ads
+##.aside-ads-top
 ##.aside-collection-ad-slot
 ##.asideAd
 ##.aside_ad
@@ -50510,7 +50454,6 @@ dappradar.com##.Container--bottomBanners
 swarajyamag.com##.CrIrA
 johnogroat-journal.co.uk##.DMPU
 realityblurb.com##.Desktop-Sticky
-nba.com##.DisplayAd_genericAd__22Dlg
 charismanews.com##.FpFeaturedBoxWrap
 askapache.com##.GAD
 google.co.uk##.GBTLFYRDM0
@@ -53039,6 +52982,7 @@ depositfiles.com,dfiles.eu##a[href^="http://ads.depositfiles.com/"]
 dvdtalk.com##a[href^="http://dvdtalk.pricegrabber.com/"]
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
 notbanksyforum.com##a[href^="http://l-13.org/"]
+inquirer.net##a[href^="http://ruby.inquirer.net/"]
 wjbc.com##a[href^="http://sweetdeals.com/bloomington/deals"]
 jpost.com##a[href^="http://www.danhotels.com/JerusalemHotels/?utm_"]
 vgleaks.com##a[href^="http://www.dhgate.com/"]
@@ -53159,7 +53103,7 @@ apnews.com##div[class^="Component-rectanglePlaceholderWrapper-"]
 donedeal.ie##div[class^="DFP__StyledAdSlot-"]
 genius.com##div[class^="DfpAd__Container-"]
 dailymotion.com##div[class^="DisplayAd"]
-games.dailymail.co.uk##div[class^="DisplayAd_"]
+games.dailymail.co.uk,nba.com##div[class^="DisplayAd_"]
 games.dailymail.co.uk##div[class^="GameTemplate__displayAdTop_"]
 livescore.com##div[class^="HeaderAdsHolder_"]
 games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
