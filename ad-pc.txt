@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BhtUW4nwdoRiaUVXLHqiVw
+! Checksum: nhAPQ1n6gWRl4T94YkAMCA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202209291124
-! Last Modified: 2022年09月29日 11:24
+! Version: 202209291310
+! Last Modified: 2022年09月29日 13:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9232,6 +9232,7 @@ _800x80_
 ###inside-page-ad
 ###insideCubeAd
 ###instant_ad
+###insticator-container
 ###instoryad
 ###int-ad
 ###int_ad
@@ -49884,6 +49885,7 @@ battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,me
 northcountrypublicradio.org###business
 music-news.com###buy-tickets
 channel4.com###c4ad-Top
+timesofindia.indiatimes.com###c_wdt_sports_rhs_atf_ad_1
 coinlisting.info###carousel-example-generic
 csdb.dk###casdivhor
 csdb.dk###casdivver
@@ -52290,6 +52292,7 @@ justthenews.com##.region-pre-content
 futbol24.com##.rek
 wcostream.com##.reklam_pve
 idropnews.com##.related-posts
+timesofindia.indiatimes.com##.relatedVideoWrapper
 4shared.com##.remove-rekl
 runningmagazine.ca##.repeater-bottom-leaderboard
 bbjtoday.com##.replacement
@@ -52369,7 +52372,7 @@ newindianexpress.com##.scc
 radiotimes.com##.schedule__row-list-item-advert
 hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_video_master
 readmng.com##.scroll_target_top
-9anime.to,tennisuptodate.com##.sda
+9anime.to,cyclinguptodate.com,tennisuptodate.com##.sda
 apotelyt.com##.sdbrUnit-Flex100
 apotelyt.com##.sdbrUnitFlex250a
 userscript.zone##.searcad
@@ -52539,6 +52542,7 @@ salixos.org##.sponsors-container
 libhunt.com##.sponsors-list-content
 hacksplaining.com##.sponsorship-message
 newswiretoday.com,przoom.com##.sponsortd
+timesofindia.indiatimes.com##.sports_ad_wrapper
 alexandriagazette.com,arlingtonconnection.com,burkeconnection.com,centre-view.com,connection-sports.com,fairfaxconnection.com,fairfaxstationconnection.com,forum.xda-developers.com,greatfallsconnection.com,herndonconnection.com,kusports.com,mcleanconnection.com,mountvernongazette.com,phonearena.com,potomacalmanac.com,reston-connection.com,springfieldconnection.com,union-bulletin.com,viennaconnection.com##.spot
 phonearena.com##.spot-sticky-container
 freepik.com##.spr-plc
@@ -52761,6 +52765,7 @@ videogameschronicle.com##.vgc-boxout
 bestlifeonline.com,eatthis.com##.vi-video-wrapper
 express.co.uk##.viafoura-standalone-mpu
 vice.com##.vice-ad__container
+cyclinguptodate.com##.video-container
 forbes.com,nasdaq.com##.video-placeholder
 guru99.com##.videocontentmobile
 koreabiomed.com##.view-aside
@@ -59003,6 +59008,8 @@ ubmcmm.baidustatic.com
 ||pfjfj45.xyz^
 ||threzeins.com^
 ||zu3f.top^
+||xiner.xyz^
+||nbazhaheic.top^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -85920,7 +85927,6 @@ _mongo_stats/
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
-||leadfamly.com^$third-party
 ||leadfeeder.com^$third-party
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
@@ -93275,6 +93281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyselog.dx.com^
 ||analytics-api.dvdfab.cn^
 ||analytics-proxy.springboard.com^
+||analytics-zone-1.api.leadfamly.com^
 ||analytics.academy.com^
 ||analytics.adfreetime.com^
 ||analytics.archive.org^
