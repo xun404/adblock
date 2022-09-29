@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X9YQ+2uOScBvl2Zi8rhJBg
+! Checksum: pGzGc6clOcm1XpdR5KH4jA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202209291751
-! Last Modified: 2022年09月29日 17:51
+! Version: 202209291849
+! Last Modified: 2022年09月29日 18:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -438,11 +438,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ads-bottom.
 -ads-management/
 -ads-manager/$domain=~wordpress.org
--ads-placement.
 -ads-plugin/
--ads-prod/
 -ads-right.
--ads-widget/
 -ads.gif
 -ads.php?
 -ads/assets/
@@ -480,27 +477,19 @@ pan.baidu.com##.upload-bar.global-clearfix
 -banner-ad/
 -banner-ad_
 -banner-ads-$~script
--banner-ads/
 -content-ad-
 -content-ad.
 -ContentAd-
 -contrib-ads.$~stylesheet
 -cpm-ad.
 -cpm-ads.
--dfp-ads/
 -display-ads.
--featured-ads.
--featured-ads/
 -footerads-
 -footerads.
 -google-ad.
--google-ads.$domain=~youston.agency
--google-ads/
 -gpt-ad-$~xmlhttprequest
--header_ads/
 -housead-
 -iframe-ad.
--iframe-ads/
 -image-ad.
 -image/Ads/
 -images/ad-
@@ -508,13 +497,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 -layer-ads/
 -leaderboard-ad-
 -load-ads.
--load-advert.
 -native-ad.
 -native-ad/
 -page-ad.
 -page-ad?
 -page-peel/
--pagead-id.
 -panel-ad.
 -panel_ad_
 -PcmModule-Taboola-
@@ -557,41 +544,21 @@ pan.baidu.com##.upload-bar.global-clearfix
 -Web-Ads.
 -web-advert-
 -Web-Advert.
--widget-advertisement/
-.ace.advertising.
-.ad-sys.$domain=~ad-sys.de
-.ad-target.
-.ad-traffic.
 .ad.footer.
 .ad.wrapper.
 .ad6media.$domain=~ad6media.fr
 .adbanner.
 .adbutler-
-.adcenter.$domain=~adcenter.nu
-.adengine.
-.adforge.
-.adframesrc.
-.adinject.$domain=~adinject.com
-.admarvel.
-.admicro.
 .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
 .adpartner.$domain=~adpartner.cz|~adpartner.de|~adpartner.jp
-.adpIds=
-.adplacement=
-.adproviders.
-.adresult.$domain=~adresult.ch
 .adriver.$~object,domain=~adriver.co|~adriver.tech
 .adrotate.
 .ads-lazy.
 .ads-min.
 .ads-tool.
 .ads.controller.
-.ads.core.
 .ads.css
 .ads.darla.
-.ads.loader-
-.ads.zones.
-.adsales.
 .adsbox.$domain=~adsbox.in
 .adsdk.
 .adserv/
@@ -2809,26 +2776,17 @@ pan.baidu.com##.upload-bar.global-clearfix
 /delivery/jsonp/?zoneid=
 /delivery/spc.
 /delivery_ads/*
-/deluxe/ad.
 /dfp-ads.
 /dfp-ads/*
-/dfp-custom/*
 /dfp.min.js$third-party
 /dfp/async.
 /dfp/dc.js
 /dfp/dfp-
 /dfp/head/*
 /dfp/jquery.
-/dfp_ads/*
-/dfp_delivery.js
-/dfp_init.
+/dfp_async.
 /dfp_js/*
-/dfp_overlay.
-/dfp_skin.js
-/dfpad/*
-/directads.
-/directadvert-
-/directadvert.
+/dfpNew.
 /directrev.
 /discourse-adplugin-
 /discuss_ad/*
@@ -4056,7 +4014,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /smb/ads/*
 /smeadvertisement/*
 /smoozed-ad/*
-/sni-ads.
 /socialads.$domain=~socialads.eu|~socialads.guru
 /socialads/*
 /soralink.js
@@ -24333,6 +24290,7 @@ tf2r.com#@#.adverts
 ||adme-net.com^
 ||admenhost.com^
 ||admez.com^
+||admicro.vn^
 ||administrationpreviewfoolproof.com^
 ||admirableviolinniece.com^
 ||admiredexcrete.com^
@@ -58904,6 +58862,7 @@ ubmcmm.baidustatic.com
 ||xrkadslmgg.xyz^
 ||fmzcdvx.cn^
 ||lbazhaheil.top^
+||msnoownmx.fun^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
