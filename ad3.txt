@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2zAFetpAdfSuf6UeriV/nA
+! Checksum: JpYfrn5OF2+r4wzJZPzX9w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202209291310
-! Last Modified: 2022年09月29日 13:10
+! Version: 202209291439
+! Last Modified: 2022年09月29日 14:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -39254,6 +39254,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ds-aksb-a.akamaihd.net^
 ||e77lmzbqou0n-a.akamaihd.net^
 ||ninja.akamaized.net^
+||pnekru6pxrum-a.akamaihd.net^
 ||pxlgnpgecom-a.akamaihd.net^
 ||rndntpmgnj-a.akamaihd.net^
 ||sgphctileh-a.akamaihd.net^
@@ -55134,6 +55135,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js$script,~third-party
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
+@@||interactives.ap.org^*/bower_components/ap/lib/analytics.js$~third-party
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
