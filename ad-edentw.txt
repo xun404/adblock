@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8LYbVzVIjQSnD41dZ+94Dw
+! Checksum: /wte83Bdj5DBDFW8FGqzaA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202209291944
-! Last Modified: 2022年09月29日 19:44
+! Version: 202209292130
+! Last Modified: 2022年09月29日 21:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1456,7 +1456,7 @@ www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; race stop;
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 ! Experimental
-www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"] ~ div > div' 'span[id="ssrb_feed_start"] ~ div > div a[href="#"]>span>span>svg' '/./' '/width: [5-7]/'
+www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"] ~ div > div' 'span[id="ssrb_feed_start"] ~ div > div a[href="#"]>span>span>svg' '/./' '/(margin-right: -[3-5].*width: 10)|(margin-right: -[4-6].*width: 11)|(margin-right: -[5-7].*width: 12)|(margin-right: -[6-8].*width: 13)/'
 ! *** abp-filters-anti-cv:french.txt ***
 ! #CV-691
 ! #CV-761
