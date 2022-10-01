@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7OJmvsw2Fm+qMvtTC3FDUw
+! Checksum: HwK4Ra7glvyUONEz7NHk7A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210012349
-! Last Modified: 2022年10月01日 23:49
+! Version: 202210020103
+! Last Modified: 2022年10月02日 01:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -76697,10 +76697,10 @@ jmcomic1.city##a[href^="http"]:not([href*="jmcomic1."]) > img
 !#7
 !#8
 !#91porny.com
-###main:nth-child(4) > .container-fluid.mb-0.p-0
-###main:nth-child(4) > .container-fluid.mb-0.p-0 + .jsv-g1
-###main:nth-child(4) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
-###main:nth-child(4) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
+###main:nth-child(3) > .container-fluid.mb-0.p-0
+###main:nth-child(3) > .container-fluid.mb-0.p-0 + .jsv-g1
+###main:nth-child(3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
+###main:nth-child(3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
 ##.btn-outline-primary[href*=".com:"]
 !#99re.com
 .gif|$domain=99a67.com|99re.com
@@ -79518,6 +79518,7 @@ fqsousou.com,kengso.com#@#.user-share
 /BKVTrack.js
 /blank.gif?*%
 /blank.gif?*&
+/blazor-analytics.js
 /block/pixel?
 /blockstat?
 /blog/traffic/?
@@ -80827,6 +80828,7 @@ fqsousou.com,kengso.com#@#.user-share
 /hitlog.mpl?
 /hitlog.php?
 /hits.count?
+/Hits/collect/*
 /hits/logger?
 /hitslink.
 /hittrack.cgi?
@@ -82272,6 +82274,7 @@ fqsousou.com,kengso.com#@#.user-share
 /roverimp/*
 /roversync/?
 /rpc.gif?ac=
+/rpc/log/*
 /rpc/log?
 /rpc/preccount?
 /rpFingerprint?
@@ -83207,6 +83210,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tracking/t.php?
 /tracking/t.srv?
 /tracking/tag_commander.php?
+/tracking/thirdpartytag.js
 /tracking/track.js
 /tracking/track.php?
 /tracking/track_
@@ -84612,6 +84616,7 @@ _mongo_stats/
 ||takingbackjuly.com^
 ||tatpek.com^
 ||test.vast^
+||testingmetriksbre.ru^
 ||the-ozone-project.com^
 ||thefontzone.com^
 ||tncid.app^
@@ -90298,6 +90303,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citysearch.com/tracker/
 ||cityzen.io/Pixel/
 ||ck.connatix.com^
+||cleantalk.org/pixel/
 ||clearspring.com/at/
 ||clearspring.com/t/
 ||clerk.io/static/clerk.js
@@ -91114,6 +91120,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.brightcove.com^
 ||metrics.ctvdigital.net^
 ||metrics.kmsmep.com^
+||metrics.mdstrm.com^
 ||metrics.pico.tools^
 ||metrics.readme.io^
 ||metrics.scribblelive.com^
@@ -93176,6 +93183,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.ringier.sk^
 ||interseek.si^*/visit.js
 ||1to1.bbva.com^
+||advgo.net/hits/
+||advgo.net/mushroom/
 ||analitica.webrpp.com^
 ||contadores.miarroba.com^
 ||contadores.miarroba.es^
@@ -93186,6 +93195,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||g-stats.openhost.es^
 ||hits.eluniversal.com.mx^
 ||mtm.qdqmedia.com^
+||pub.servidoresge.com^
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
 ||sp.vtex.com^
@@ -93614,6 +93624,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gettyimages.*/pulse$ping
 ||ghacks.net/statics/px.gif
 ||github.com/_private/browser/stats
+||glassdoor.com/geb/events/
 ||glassmoni.researchgate.net^
 ||global.canon/00cmn/js/*/analytics-
 ||global.ssl.fastly.net^$domain=allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
@@ -107692,6 +107703,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||audiencia.r7.com^
 ||click.uol.com.br^
 ||dejavu.mercadolivre.com.br^
+||dn.pt/tag/
 ||dna.uol.com.br^
 ||g.bit.pt^
 ||g.bitmag.com.br^
@@ -108225,6 +108237,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.bbc.co.uk^*/comscore.js$~third-party
 @@||live.house.gov/js/analytics.$~third-party
+@@||locoloader.com/assets/js/ga.min.js$script,~third-party
 @@||logging.apache.org^$~third-party
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||logo.clearbit.com^$image,third-party
