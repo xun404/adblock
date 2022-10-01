@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NXaoX/nVQdp0DaiOZjnJVQ
+! Checksum: ijrmiqiGoL+9RAECvCK9CQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210010751
-! Last Modified: 2022年10月01日 07:51
+! Version: 202210011136
+! Last Modified: 2022年10月01日 11:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23329,7 +23329,6 @@ tf2r.com#@#.adverts
 ||059e025e7484.com^
 ||05ee3a24ed11df058c8.com^
 ||06a2b66f11.com^
-||06e17e67683b95.com^
 ||06f09b1008ae993a5a.com^
 ||0735ce74e7.com^
 ||0898hhh.com^
@@ -51275,6 +51274,7 @@ dailycaller.com##.dc-sticky
 ohiostatebuckeyes.com##.dcad
 wuxiaworld.site##.dcads
 theguardian.com##.dcr-1aq0rzi
+sgcarmart##.dealer_banner
 ign.com##.deals-block
 slashdot.org##.deals-wrapper
 kusports.com##.deals_widget
@@ -51709,6 +51709,7 @@ mytempsms.com##.layui-col-md12
 filmdaily.co##.lazyloaded.aligncenter
 trueachievements.com##.lb_holder
 versus.com##.lead_top
+sgcarmart.com##.leadbadv
 thepcguild.com##.leader
 zdnet.com##.leader-top
 blaauwberg.net##.leaderBoardContainer
@@ -55369,6 +55370,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+://api.*.com/sh/*.js$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -58965,6 +58967,9 @@ ubmcmm.baidustatic.com
 ||jcdbae.cn^
 ||qcmm09.com^
 ||anyany.cc^
+||haoduofangs.com^$third-party
+||71sas.com^
+||torwq.xyz^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -70266,6 +70271,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||lensdump.com/i/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -83878,6 +83884,7 @@ fqsousou.com,kengso.com#@#.user-share
 ?pageviews=$third-party
 ?sponsor_pixel=
 ?statify_referrer=
+?type=page&event=
 ?type=pageview&
 _adcenterconversion.
 _adobe_analytics.
@@ -86154,7 +86161,6 @@ _mongo_stats/
 ||netaffiliation.com^$script,third-party
 ||netapplications.com^$third-party
 ||netbiscuits.net^$third-party
-||netcentric.biz^$third-party
 ||netclickstats.com^$third-party
 ||netcore.co.in^$third-party
 ||netcoresmartech.com^$third-party
@@ -93740,6 +93746,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcloud.to/log/
 ||mcs-va.tiktokv.com^
 ||mdmpix.com/js/connector.php?
+||medium.com/_/batch
 ||medium.com/_/clientele/reports/performance/
 ||meduza.io/stat/
 ||messari.io/js/wutangtrack.js
