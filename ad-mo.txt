@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: swFBV+f8zUON3k7Ofo2Dyw
+! Checksum: G+NNdvPPNwVW7kun63dKxw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210012159
-! Last Modified: 2022年10月01日 21:59
+! Version: 202210012245
+! Last Modified: 2022年10月01日 22:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -47037,7 +47037,7 @@ tf2r.com#@#.adverts
 ||akamaized.net/mr/popunder.js
 ||alpsat.com/banner/
 ||amazonaws.com/mailcache.appinthestore.com/
-||amazonaws.com^$domain=1337x.to|1337xx.to|bluemediafiles.com|daddylive.click|downloadpirate.com|hexupload.net|igg-games.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|shrinke.me|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentgalaxy.tv|torrentmac.net|upload-4ever.com|vshare.eu|yify-movies.net
+||amazonaws.com^$domain=1337x.to|1337xx.to|bluemediafiles.com|daddylive.click|downloadpirate.com|hexupload.net|igg-games.com|krunkercentral.com|powvibeo.me|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|shrinke.me|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentgalaxy.tv|torrentmac.net|upload-4ever.com|vshare.eu|yify-movies.net
 ||an.yandex.ru^$domain=~e.mail.ru
 ||any.gs/visitScript/
 ||api.140proof.com^
@@ -58999,6 +58999,8 @@ ubmcmm.baidustatic.com
 ||fcqztan.cn^
 ||usbvhzg.cn^
 ||mmmyhkl.cn^
+||588o.top^
+||atakjyv.cn^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -76459,6 +76461,9 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||olgame.tw^$generichide
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
+@@/ads-api.$domain=zxmee.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zxmee.com
+@@||zxmee.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yodu.org
@@ -89878,6 +89883,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contineljs.com^$third-party
 ||gostats.vn^$third-party
 !-----------------Third-party tracking services-----------------!
+-client-tracking.goodgamestudios.com/
 ||100widgets.com^$third-party
 ||105app.com/report/?
 ||216.18.176.4/logger/
@@ -90724,6 +90730,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ga.kvideo.io^
 ||ga.webdigi.co.uk^
 ||gaijin.net/tag?
+||gamedock.io/gamemonkey-web-tracker/
 ||gamegecko.com/gametrack?
 ||gannettdigital.com/capture_logger/
 ||ganon.yahoo.com^
@@ -92412,6 +92419,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||liveviewer.ez.no^
 ||log.worldsoft-cms.info^
 ||lr-port.de/tracker/
+||m.mobile.de/svc/track/
 ||mapandroute.de/log.xhr?
 ||marktjagd.de/proxy/trackings/
 ||mastertag.kpcustomer.de^
@@ -93464,6 +93472,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||desa.fkapi.net^
 ||desb.fkapi.net^
 ||desr.fkapi.net^
+||dev.to/fallback_activity_recorder
 ||dhl.com/g8Dj6P8TAg/
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||digg.com/library/tracker.js
@@ -93987,6 +93996,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||showstreet.com/log/
 ||siberiantimes.com/counter/
 ||sid.nordstrom.com^
+||silvergames.com/div/g.php?
 ||skyrock.net/stats/
 ||skyscanner.*/slipstream/view
 ||slack.com/beacon/
@@ -106873,6 +106883,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cp.finanzfrage.net/stats
 ||cpx.golem.de^
 ||cpxl.golem.de^
+||d.rp-online.de^
 ||dejure.org/cgi-bin/sitzung.fcgi?
 ||derwesten.de/stats/
 ||dforum.net/counter/
@@ -107773,6 +107784,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||seedr.ru^*/stats/
 ||sibnet.ru/counter.php?
 ||ssp.rambler.ru^
+||start.ru/logger/
 ||stat.5-tv.ru^
 ||stat.api.2gis.ru^
 ||stat.bankiros.ru^
