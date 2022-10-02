@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CF4WqDAfkodks6Sey0y9Vg
+! Checksum: o6zVTtPc6aaymBI8nn4q+Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210021848
-! Last Modified: 2022年10月02日 18:48
+! Version: 202210021943
+! Last Modified: 2022年10月02日 19:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -53796,7 +53796,8 @@ mtgarena.pro#?##root > div > div:-abp-has(> .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 seattleweekly.com#?#.marketplace-row-item-wrapper:-abp-has(.sponsored)
-shopee.ph#?#.col-xs-2-4:-abp-has(div[data-sqe="ad"])
+shopee.co.id,shopee.ph#?#.col-xs-2-4:-abp-has(div[data-sqe="ad"])
+shopee.co.id,shopee.ph#?#.item-card-list__item-card-wrapper:-abp-has(div[data-sqe="ad"])
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
