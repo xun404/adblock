@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OCoX8ji5BLxcAvjOLCQTaQ
+! Checksum: L2gexa/zx1/Olr5GrYDiIw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202210031850
-! Last Modified: 2022年10月03日 18:50
+! Version: 202210031944
+! Last Modified: 2022年10月03日 19:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3763,6 +3763,7 @@ ubmcmm.baidustatic.com
 ||qingshu.live^
 ||qzthueo.cn^
 ##a[href*=".tv688.cc"]
+||strnguz.cn^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -30876,6 +30877,7 @@ m.babytree.com##script + a[class]
 ://analytics.*/tracker.
 ://beacon.*/track
 ://blue.*/script.js
+://cognito-identity.
 ://collect.*/pageview
 ://collector.*/event
 ://d.*/track.js
@@ -31404,6 +31406,7 @@ _mongo_stats/
 ||a1webstrategy.com^
 ||aaxwall.com^
 ||acsbapp.com^
+||act-server-prod.7swnm9dm8q.eu-west-1.elasticbeanstalk.com^
 ||adbp.online^
 ||adcontroll.com^
 ||adnext.co^
@@ -37033,6 +37036,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.formstack.com^
 ||analytics.google.com^$third-party
 ||analytics.groupe-seb.com^
+||analytics.growthphysics.com^
 ||analytics.gvim.mobi^
 ||analytics.humanautomation.ai^
 ||analytics.inform.com^
@@ -37966,6 +37970,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kbb.com/partner/$third-party
 ||kelkoogroup.net/st?
 ||key4web.com^*/set_cookie_by_referer/
+||kinesis.eu-west-1.amazonaws.com^
 ||kiwari.com^*/impressions.asp?
 ||kiwi.mdldb.net^
 ||kiwisizing.com/api/log
@@ -41201,6 +41206,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamta.site/stat/
 ||streamtape.com/stat/
 ||streamtapeadblock.art/stat/
+||stripe.com/tracking/
 ||strtapeadblock.club/stat/
 ||strtapeadblocker.xyz/stat/
 ||strtpe.link/stat/
