@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lBkZzWP9/HUUPLzRjo5zDw
+! Checksum: NYMtcfjR2ab7meMhOuul7Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210031505
-! Last Modified: 2022年10月03日 15:05
+! Version: 202210031550
+! Last Modified: 2022年10月03日 15:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -24285,6 +24285,7 @@ tf2r.com#@#.adverts
 ||adhimunc.com^
 ||adhoc4.net^
 ||adiquity.com^
+||adjaco.com^
 ||adjoincomprise.com^
 ||adjoiningrolesuspicious.com^
 ||adjointeen.com^
@@ -29389,6 +29390,7 @@ tf2r.com#@#.adverts
 ||enginedriverhaw.com^
 ||engineseeker.com^
 ||englandhogmane.com^
+||englandrelent.com^
 ||englerbraw.com^
 ||englingedrxa.club^
 ||englishheadlight.com^
@@ -30795,6 +30797,7 @@ tf2r.com#@#.adverts
 ||gnawinstruct.com^
 ||gnciikwdvdrbg.com^
 ||gnehataj.xyz^
+||gnkpvpjjeyrhx.com^
 ||gnoyvsielusbi.xyz^
 ||gntwnrdui.xyz^
 ||gnyergfy.com^
@@ -31048,6 +31051,7 @@ tf2r.com#@#.adverts
 ||gtructinde.xyz^
 ||gtsads.com^
 ||gttcsifqbmqjiy.com^
+||gtxqkkxlvqmiysl.com^
 ||guabmobil.site^
 ||guaded.com^
 ||gualacaharm.com^
@@ -32436,6 +32440,7 @@ tf2r.com#@#.adverts
 ||joopaish.com^
 ||jooptibi.net^
 ||joorijet.net^
+||joowkijejv.com^
 ||jorbfstarn.com^
 ||joredi.com^
 ||josephantecedentsick.com^
@@ -33395,6 +33400,7 @@ tf2r.com#@#.adverts
 ||lockfireshimself.com^
 ||lockhosts.com^
 ||lockingadmitted.com^
+||locold.com^
 ||locomotiveconvenientriddle.com^
 ||loctic.com^
 ||lodder6.biz^
@@ -33624,6 +33630,7 @@ tf2r.com#@#.adverts
 ||machings.com^
 ||machogodynamis.com^
 ||macouwou.com^
+||maculedfalls.com^
 ||madadsmedia.com^
 ||madampassenger.com^
 ||madcpms.com^
@@ -53700,6 +53707,7 @@ digg.com#?#.tracking-widest:-abp-contains(Sponsored)
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
+alternativeto.net#?#div[class^="AppListItem_appInfo"]:abp-has([class^="AppListItem_sponsored"])
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 just-eat.co.uk,just-eat.es,just-eat.ie,justeat.it#?#a[data-test-id]:-abp-has(span:-abp-contains(/Promoted|Patrocinado|Sponsorizzato/))
 just-eat.dk,just-eat.fr,lieferando.at,lieferando.de,pyszne.pl,takeaway.com#?#div[data-qa]:-abp-has(span:-abp-contains(/Спонсорирано|Gesponsert|Gesponsord|Sponsored|Sponsoreret|Sponsorisé|Sponsorizzato|Sponsorowane/))
@@ -59017,6 +59025,8 @@ ubmcmm.baidustatic.com
 ||xcaqa.xyz^
 ||ks9f.top^
 ||qingshu.live^
+||qzthueo.cn^
+##a[href*=".tv688.cc"]
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -90106,7 +90116,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apple.com/hvr/mw/v1/spile
 ||apple.com/mw/v1/reportAnalytics
 ||apple.www.letv.com^
-||applicationinsights.azure.com^$third-party
+||applicationinsights.azure.com^$third-party,domain=~azure.net
 ||appliedsemantics.com/images/x.gif
 ||appmifile.com^*/stat/
 ||appsolutions.com/hitme?$third-party
@@ -108267,6 +108277,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||noaa.gov/maps/resources/scripts/ga.js$script,~third-party
 @@||noodid.ee/chordQuiz/$~third-party
+@@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||nyt.com/analytics/json-$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
