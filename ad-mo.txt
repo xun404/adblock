@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h7yJWwzTWgFVotPyaBTrBA
+! Checksum: PCK6+Vv/2mwiHVl6XFtVgw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210041056
-! Last Modified: 2022年10月04日 10:56
+! Version: 202210041241
+! Last Modified: 2022年10月04日 12:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59039,7 +59039,6 @@ ubmcmm.baidustatic.com
 ||2x8l63l0.cn^
 ||uq1g.top^
 ||mucinyak.com^
-||doerscharre.com^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -76676,10 +76675,10 @@ jmcomic1.city##a[href^="http"]:not([href*="jmcomic1."]) > img
 !#7
 !#8
 !#91porny.com
-###main:nth-child(3) > .container-fluid.mb-0.p-0
-###main:nth-child(3) > .container-fluid.mb-0.p-0 + .jsv-g1
-###main:nth-child(3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
-###main:nth-child(3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0
+##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0 + .jsv-g1
+##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
 ##.btn-outline-primary[href*=".com:"]
 !#99re.com
 .gif|$domain=99a67.com|99re.com
@@ -83842,7 +83841,6 @@ fqsousou.com,kengso.com#@#.user-share
 ://analytics.*/tracker.
 ://beacon.*/track
 ://blue.*/script.js
-://cognito-identity.
 ://collect.*/pageview
 ://collector.*/event
 ://d.*/track.js
