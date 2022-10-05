@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fKmDQnMYoIf+wiQlRewWaQ
+! Checksum: eUcrLCiaBOrmJeJ89NxBNA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210052147
-! Last Modified: 2022年10月05日 21:47
+! Version: 202210052352
+! Last Modified: 2022年10月05日 23:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56286,7 +56286,7 @@ ubmcmm.baidustatic.com
 ###lovexin13
 ###lovexin14
 ###lovexin2
-##A[href*="/?channelCode="] > img[src*="hitv.com"]
+##A[target="_blank"] > img[src*="hitv.com"]
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
 ###mainbody:nth-child(5) > .mylist
@@ -74102,7 +74102,7 @@ dianyingim.com,dyxs11.com##.shortcuts-mobile-overlay
 ilxdh.com##.show-container
 pixabay.com##.show-gtty-item
 miercn.com##.show-img-box
-200sht.info,sehuatang.org##.show-text
+sehuatang.org##div[class^="show-text"]
 zahuishi.com##.show2960x90
 cnxz.cn##.showad
 3987.com##.showdown > .mt20:first-child
