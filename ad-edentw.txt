@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y+S0xKBTXOe7eCBdBRSY6Q
+! Checksum: XorA1tvfuY6xMgBOl2DJlA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202210052352
-! Last Modified: 2022年10月05日 23:52
+! Version: 202210060348
+! Last Modified: 2022年10月06日 03:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1450,6 +1450,8 @@ instacart.com##a[href*="category_hero_id_"]
 samsclub.com#$#hide-if-matches-xpath '//span[@class="sc-specials-label"]/parent::div[@class="sc-specials"]/ancestor::li'
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
+! #CV-1228
+canadafreepress.com,conservativefiringline.com,ipatriot.com,naturalblaze.com,patriotnationpress.com,populistpress.com#$#abort-on-property-read document.getElementsByClassName; abort-on-property-read following-ad-container
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
 ! #CV-761
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]>span>span>b; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Sponsrad" or .="Publicidad" or .="Sponsoreret" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ"]]/ancestor::div[@role="article"]'; race stop;
@@ -1466,12 +1468,8 @@ www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ss
 ! *** abp-filters-anti-cv:french.txt ***
 ! #CV-691
 ! #CV-761
-! #CV-663
-letocard.fr#$#freeze-element .nav-menu abort [id^="menu-item-"]
-mamieastuce.com#$#freeze-element #sidebar abort .widget_text
-concomber.com#$#freeze-element .main-box abort
-meilleurpronostic.fr#$#freeze-element #secondary abort aside
-aupetitparieur.com#$#freeze-element .widget-area abort
+! #CV-1228
+aupetitparieur.com,meilleurpronostic.fr#$#abort-on-property-read document.getElementsByClassName; abort-on-property-read following-ad-container
 ! #CV-170
 lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
 ||polaccafaison.com^$third-party
