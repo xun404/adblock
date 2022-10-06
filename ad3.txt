@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jwKZ295J3pI1+ltRQg3J6g
+! Checksum: xtusdhbAj4XIIXumSUr+fg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202210070108
-! Last Modified: 2022年10月07日 01:08
+! Version: 202210070301
+! Last Modified: 2022年10月07日 03:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30843,7 +30843,6 @@ m.babytree.com##script + a[class]
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
-://posthog.$domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://stats.*/index.js
@@ -55732,7 +55731,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$script,domain=tv-tokyo.co.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
-@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
+@@||api.cxense.com/persisted/execute$script,domain=nippon.com
+@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp|nippon.com
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
@@ -55799,7 +55799,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
+@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp|nippon.com
 @@||science-net.kahaku.go.jp/app/js/analytics.js$~third-party
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
