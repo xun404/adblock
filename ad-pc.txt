@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SJ2ssRC9xAEr3/f1fQHpsg
+! Checksum: 8hNDfThxLyAibgNmzRrBag
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202210091358
-! Last Modified: 2022年10月09日 13:58
+! Version: 202210091652
+! Last Modified: 2022年10月09日 16:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16013,6 +16013,7 @@ _800x80_
 ##.azk-adsense
 ##.b-ad
 ##.b-ad-main
+##.b-adhesion
 ##.b-ads_gpt
 ##.b-adv
 ##.b-advert
@@ -17299,6 +17300,7 @@ _800x80_
 ##.dsq_ad
 ##.dt-ad-top-content
 ##.dt-sponsor
+##.dtads-desktop
 ##.dtads-slot
 ##.dual-ads
 ##.dualAds
@@ -46466,6 +46468,7 @@ tf2r.com#@#.adverts
 ||citysex.com^$third-party
 ||clickadu.com^$third-party
 ||clickaine.com^$third-party
+||clipxn.com^$third-party
 ||cross-system.com^$third-party
 ||cybernetentertainment.com^$third-party
 ||daiporno.com^$third-party
@@ -46567,6 +46570,7 @@ tf2r.com#@#.adverts
 ||imlive.com^$script,third-party,domain=~imnude.com
 ||impactslam.com^$third-party
 ||impressionmonster.com^$third-party
+||in3x.net^$third-party
 ||inheart.ru^$third-party
 ||intelensafrete.stream^$third-party
 ||internebula.net^$third-party
@@ -48569,6 +48573,8 @@ tf2r.com#@#.adverts
 ||familylawweek.co.uk/bin_1/
 ||fastpic.org/g/f.js
 ||file-upload.site/page.js
+||filemoon.*/js/baf.js
+||filemoon.sx/js/dola.js
 ||filerio.in/banners/
 ||files.im/images/bbnr/
 ||filexspace.com/s2/banner*.$domain=mfilecloud.com
@@ -53820,6 +53826,7 @@ digg.com#?#article.fp-vertical-story:-abp-has(a[href="/channel/promotion"])
 digg.com#?#article.fp-vertical-story:-abp-has(div:-abp-contains(SPONSORED))
 digg.com#?#.tracking-widest:-abp-contains(Sponsored)
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
+inverse.com#?#div > p + div:-abp-has(amp-ad)
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
 alternativeto.net#?#div[class^="AppList"]:-abp-has([class^="AppListItem_sponsored"])
@@ -54011,6 +54018,7 @@ pornvalleymedia.net###media_image-88
 pornvalleymedia.net###media_image-90
 vpornvideos.com###mn-container
 gifsfor.com###mob_banner
+whentai.com###modalegames
 eporner.com###movieplayer-box-adv
 7mmtv.tv###mvspan_2_s_k_i_p
 amateur8.com,maturetubehere.com###nopp
@@ -54402,6 +54410,7 @@ camvideos.tv,exoav.com,jizzoncam.com,rare-videos.net##.place
 3movs.com##.player + .aside
 vivud.com,zmovs.com##.player-aside-banners
 ok.xxx,pornhat.com,xxxonxxx.com##.player-bn
+7mmtv.sx##.player-overlay
 cliniqueregain.com##.player-promo
 blogbugs.org,tallermaintenancar.com,zuzandra.com##.player-right
 3movs.com##.player-side
@@ -54705,11 +54714,11 @@ xxxdl.net##div.in_thumb.thumb
 redtube.com##div[class*="display: block; height:"]
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="after-boxes"]
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="beside-video"]
+hpjav.top##div[class^="happy-"]
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="native-boxes"]
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="related-boxes-footer"]
-darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="textovka"]
-hpjav.top##div[class^="happy-"]
 cumlouder.com##div[class^="resumecard__banner"]
+darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com##div[class^="textovka"]
 gosexpod.com##div[class^="zzz-on-video"]
 porn77.info##div[id^="adArea"]
 hentaistream.com##div[id^="adx_ad-"]
@@ -84681,6 +84690,7 @@ _mongo_stats/
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
 ||omtrdc.net^
+||openfpcdn.io^
 ||oppuz.com^
 ||opti-digital.com^
 ||ostrichesica.com^
@@ -93664,6 +93674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||enlightenment.secureshoppingbasket.com^
 ||eproof.drudgereport.com^
 ||equirodi.*/addstat.php
+||ericdraken.com/a/$script
 ||error-collector.ted.com^
 ||error.fc2.com^
 ||et.nytimes.com^
@@ -108572,6 +108583,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||uniqlo.com^*/trackingservice/$~third-party
 @@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||usbank.com^*/adrum.js?$~third-party
+@@||userapi.com^*.gif?extra=$image,domain=vk.com
 @@||varagesale.com/assets/analytics-$script,~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vidible.tv^*/ComScore.StreamSense.js
