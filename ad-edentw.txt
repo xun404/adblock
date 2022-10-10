@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wkjINi9HV+kp4TME+yVcVA
+! Checksum: XuwcqrZcfEg6sUIOu/hZZw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202210100447
-! Last Modified: 2022年10月10日 04:47
+! Version: 202210101659
+! Last Modified: 2022年10月10日 16:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1653,6 +1653,7 @@ yayanimes.net#$#abort-current-inline-script document.createElement _wtxnqkt
 animesonline22.com#$#abort-current-inline-script JSON.parse /atob|btoa|break/
 gekkou.com.br#$#abort-current-inline-script document.querySelectorAll popMagic
 gofilmes.me#$#abort-on-property-read zfgformats
+betteranime.net#$#abort-current-inline-script document.createElement _mdttdpu
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
@@ -1883,7 +1884,7 @@ player-cdn.com###playback-fake
 vebo5.net,xoilac5.net##.modal.fade.show
 vebo5.net,xoilac5.net#$#abort-current-inline-script jQuery popupBanners
 vebo5.net,xoilac5.net#$#abort-on-property-read adsRedirectPopups
-sex6688.link#$#override-property-read D4zz noopFunc
+sex6688.link,viet69.gg#$#override-property-read D4zz noopFunc
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
