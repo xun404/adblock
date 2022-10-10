@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S4HumsBEsiOfI0jqoxEm+g
+! Checksum: TyZIA9RiGz9NfiUI1XEU6w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202210110649
-! Last Modified: 2022年10月11日 06:49
+! Version: 202210110752
+! Last Modified: 2022年10月11日 07:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1858,7 +1858,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads?id=
 /ads?object_
 /ads?param=
-/ads?position
 /ads?spaceid
 /ads?type=
 /ads?zone=
@@ -11401,6 +11400,7 @@ _800x80_
 ##.ad-banner-placeholder
 ##.ad-banner-single
 ##.ad-banner-smaller
+##.ad-banner-static
 ##.ad-banner-top
 ##.ad-banner-top-wrapper
 ##.ad-banner-vertical
@@ -18921,7 +18921,9 @@ _800x80_
 ##.m-content-advert
 ##.m-content-advert-wrap
 ##.m-dfp-ad-text
+##.m-header-ad
 ##.m-in-content-ad
+##.m-in-content-ad-row
 ##.m-jac-ad
 ##.m-sponsored
 ##.m1-header-ad
@@ -20906,6 +20908,7 @@ _800x80_
 ##.snippet-ad
 ##.snoadrotatewidgetwrap
 ##.social-ad
+##.sovrn-connect-ad
 ##.sp-ad
 ##.sp-ad__leaderboard
 ##.spLinks
@@ -21989,6 +21992,7 @@ _800x80_
 ##.widget_viral_advertisement
 ##.widget_wp-bannerize-widget
 ##.widget_wp_ads_gpt_widget
+##.widget_wp_insert_ad_widget
 ##.widgetads
 ##.width-ad-slug
 ##.wikia-ad
@@ -48852,6 +48856,7 @@ tf2r.com#@#.adverts
 ||ports.co.za/banners/
 ||positivehealth.com/img/original/BannerAvatar/
 ||positivehealth.com/img/original/TopicbannerAvatar/
+||pressablecdn.com/wp-content/uploads/Site-Skin_update.gif$domain=bikebiz.com
 ||prewarcar.com/*-banners/
 ||products.gobankingrates.com^
 ||propertyfinderph.com/uploads/banner/
@@ -54278,8 +54283,8 @@ javlibrary.com##.bottombanner2
 hd-easyporn.com##.box
 bravotube.net##.box-left
 sexvid.xxx##.box_site
-barscaffolding.co.uk,capitalregionusa.xyz,dcraddock.uk,javbebe.com,xxx-picture.com##.boxzilla-container
-barscaffolding.co.uk,capitalregionusa.xyz,dcraddock.uk,javbebe.com,xxx-picture.com##.boxzilla-overlay
+barscaffolding.co.uk,capitalregionusa.xyz,dcraddock.uk,javbebe.com,javxxoo.com,xxx-picture.com##.boxzilla-container
+barscaffolding.co.uk,capitalregionusa.xyz,dcraddock.uk,javbebe.com,javxxoo.com,xxx-picture.com##.boxzilla-overlay
 hentaianimedownloads.com##.bp_detail
 bravotube.net##.brazzers
 xozilla.com##.brazzers-link
@@ -93580,6 +93585,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.narrativ.com/favicon.ico
 ||apkpure.com/analytics_
 ||apnews.com/logger
+||app.box.com/app-api/split-proxy/api/metrics
+||app.box.com/gen204
 ||appanalysis.banggood.com^
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||atrack.allposters.com^
@@ -93626,6 +93633,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||booking.com/navigation_times
 ||booking.com/sendlayoutevents
 ||boomerang.dell.com^
+||box.com/index.php?rm=box_gen204_batch_record
 ||brightside.me/metric-collector
 ||builder.io/api/v1/track
 ||buondua.com/hit/
@@ -94519,6 +94527,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.shopclues.com^
 ||tracker.uprinting.com^
 ||tracking.carsales.com.au^
+||tracking.digitalocean.com^
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.epicgames.com^
 ||tracking.hsn.com^
@@ -108434,7 +108443,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=carhartt-wip.com|cbslocal.com|honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca|winefolly.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$~third-party
