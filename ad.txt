@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i46SNSS0G1vZj4FNsBA5hg
+! Checksum: K+i54KlEcjY78xDIwOz9Gw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202210102354
-! Last Modified: 2022年10月10日 23:54
+! Version: 202210111113
+! Last Modified: 2022年10月11日 11:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1876,8 +1876,6 @@ ubmcmm.baidustatic.com
 ##.self-gg
 ##.spon-img[src*=".alicdn."]
 ##.static-a2d
-##.stui-warp-content > a[target="_blank"] > img[height="120px"]
-##.stui-warp-content > a[target="_blank"] > img[height="60px"]
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
 ##.svg-icon + #player_pause
 ##.sxAdBox
@@ -2024,9 +2022,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="position"][onclick^="window.open"]
 ##dl#listwoBox
@@ -4321,6 +4318,12 @@ ubmcmm.baidustatic.com
 ||qiej445.top^
 ||q7tl.icu^
 ||beryl3.cc^
+||olsynmlk.fun^
+||yywvruv.cn^
+||vcwcrd.cn^
+||hmcpub.xyz^
+##a[href*="/333663.xyz"]
+||vk9f.top^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -20831,7 +20834,6 @@ xblian.com##img[alt*="广告"]
 4gamers.com.tw##img[alt="ads"]
 qq.com##img[data-module="advertisement"]
 gucheng.com##img[data-mv-ad]
-hsck.org##img[height="60px"]
 eworldship.com##img[height="70"]
 szhk.com##img[id^="adp"]
 jspoo.com##img[id^="float_img_"]
