@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BEowVxIK1VmmRSaky/mIjw
+! Checksum: PkpT+m57Fr9hMTfFxL+pTA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202210121504
-! Last Modified: 2022年10月12日 15:04
+! Version: 202210122131
+! Last Modified: 2022年10月12日 21:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1436,7 +1436,6 @@ ubmcmm.baidustatic.com
 ###floatAd
 ###floatad-winpop
 ###fnbt
-##A[href="/k023.html"]
 ###footer_fix_ggw
 ###frameS8CyqB
 ###fuo_top_float
@@ -1489,6 +1488,7 @@ ubmcmm.baidustatic.com
 ###lovexin12
 ###lovexin121
 ###lovexin13
+##a[href^="/k"] > img[src*="lbsugc.cdn.bcebos.com"]
 ###lovexin14
 ###lovexin2
 ###lt-ad-radio
@@ -2008,7 +2008,6 @@ ubmcmm.baidustatic.com
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
-##div > a[href="/ky.html"]
 ##div#ad_id
 ##div#xinxi
 ~ix8.la##div[class^="ADTOPLB_"]
@@ -4348,6 +4347,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/ctyitopo17.com"]
 ||tt4266acb88a1.ltd^
 ||oladyip.cn^
+||shenglixueshan.com^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
