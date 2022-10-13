@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X1141lb6eUqYgp3wBRBt7w
+! Checksum: Zm4GoNXQw786lnOxhiHZTQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210140118
-! Last Modified: 2022年10月14日 01:18
+! Version: 202210140344
+! Last Modified: 2022年10月14日 03:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3245,6 +3245,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /js/oas-
 /js/oas.
 /js/ppu.$script
+/js/prebid-video.
 /js/youmuffpu.js
 /js3caf.js
 /js_ads/*
@@ -14446,6 +14447,7 @@ _800x80_
 ##.ads_widesky
 ##.ads_widget
 ##.ads_wrap
+##.ads_wrap-para
 ##.ads_wrapper
 ##.adsafp
 ##.adsanity-alignnone
@@ -50370,7 +50372,7 @@ pocketgamer.com##.abs
 aminoapps.com,crash.net,inc.com,trustpilot.com##.ad-block
 sciencenews.org##.ad-block-leaderboard__freestar___Ologr
 sciencenewsforstudents.org##.ad-block-leaderboard__wrapper___1rR0c
-9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,refinery29.com,scroll.in,seattletimes.com,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
+9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,memuplay.com,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,physiology.org,pixiv.net,politico.com,punchng.com,realsport101.com,reason.com,refinery29.com,scroll.in,seattletimes.com,slideshare.net,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
 sciencealert.com##.ad-desktop\:block
 mobilesyrup.com##.ad-goes-here
 goal.com##.ad-slide_adSlideBanner__cEgCm
@@ -78828,6 +78830,7 @@ fqsousou.com,kengso.com#@#.user-share
 /amp-call-tracking-
 /amp-omniture-iframe?
 /amp-skimlinks-
+/amp-story-auto-analytics-
 /amp-tealium?
 /amp.gif?
 /amp/?rid=
@@ -91652,6 +91655,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.data-vp.com^
 ||tracker.downdetector.com^
 ||tracker.financialcontent.com^
+||tracker.gleanview.com^
 ||tracker.icerocket.com^
 ||tracker.idocdn.com^
 ||tracker.jkstremum.xyz^
@@ -93253,6 +93257,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cheezburger.com/api/visitor
 ||cisco.com/c/dam/cdc/j/at.js
 ||cl.canva.com^
+||classdojo.com/logs/
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||click.aliexpress.com^$image
 ||click.nudevista.com^
@@ -93555,6 +93560,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inq.com/tagserver/logging/logline
 ||instagram.com/ajax/bz
 ||instructables.com/counter
+||intel.*/content/dam/www/global/wap/tms.sync.js
 ||intent.cmo.com.au^
 ||intent.goodgearguide.com.au^
 ||intent.macworld.co.uk^
