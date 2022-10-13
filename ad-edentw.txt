@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZverN6WBSU7fyTJe7BOiVQ
+! Checksum: JmZ5bKSWagkh+FX8NanG9Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202210122358
-! Last Modified: 2022年10月12日 23:58
+! Version: 202210131511
+! Last Modified: 2022年10月13日 15:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1572,6 +1572,8 @@ hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 beritabaru.news,solusi.cyou#$#override-property-read setTimeout noopFunc
+! MISC
+komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 ! *** abp-filters-anti-cv:italian.txt ***
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
