@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O06l22j4mTepkYT54sAxgg
+! Checksum: O/halUvGmSHXz+dWxCNk8A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210160151
-! Last Modified: 2022年10月16日 01:51
+! Version: 202210160648
+! Last Modified: 2022年10月16日 06:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54676,12 +54676,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||90-60-90.in.ua/images/moda/advt/$image,~third-party
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
-@@||ad.smartmediarep.com/NetInsight/$domain=programs.sbs.co.kr
+@@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||admanager.clubzebra.se^$image,domain=ripshusvagnar.se
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.instacart.com/admin/$~third-party
 @@||adsafeprotected.com/services/$domain=reuters.com
-@@||adservice.sbs.co.kr/NetInsight/$domain=programs.sbs.co.kr
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=esradio.libertaddigital.com
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
 @@||afreecatv.com/js/plugin/ad/preroll.js$script,domain=afreecatv.com
@@ -92660,7 +92659,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.felmat.net^$third-party
 ||t.seesaa.net^
 ||tag.cribnotes.jp^
-||torimochi.line-apps.com^
 ||tr.slvrbullet.com^
 ||track.span-smt.jp^
 ||track.thebase.in^
@@ -93068,6 +93066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
 ||bcbits.com/bundle/bundle/1/impl-$domain=bandcamp.com
 ||bdt.123rf.com^
+||beacon.dropbox.com^
 ||beacon.samsclub.com^
 ||beacon.shazam.com^
 ||beacon.shutterfly.com^
@@ -93214,7 +93213,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dp.shoprunner.com^
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
+||dropbox.com/2/client_metrics
 ||dropbox.com/alternate_
+||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_
 ||drudgereport.com/204.png
@@ -106798,6 +106799,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pixel.ionos.fr^
 ||promoneuve.fr/stat/
 ||res.paruvendu.fr^
+||s5.charliehebdo.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
 ||sncf-connect.com/apm
