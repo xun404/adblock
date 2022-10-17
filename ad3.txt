@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B+9iJH4MARhIT0VHikKMRQ
+! Checksum: l89LJzAXKRpROczhlhIulg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202210180123
-! Last Modified: 2022年10月18日 01:23
+! Version: 202210180311
+! Last Modified: 2022年10月18日 03:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31025,6 +31025,7 @@ _mongo_stats/
 ||cbdatatracker.com^
 ||cdnhst.xyz^
 ||ciqtracking.com^
+||ckies.net^
 ||clarity.ms^
 ||clearbitscripts.com^
 ||click360.io^
@@ -39423,6 +39424,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.competitoor.com^
 ||analytics.eikondigital.it^
 ||analytics00.meride.tv^
+||analytics2-meride-tv.akamaized.net^
 ||aruba.it/servlet/counterserver?
 ||audit.shaa.it^
 ||click.kataweb.it^
@@ -39648,13 +39650,17 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-coletor-site.ojc.com.br^
 ||api.nobeta.com.br^
 ||b2w.io/event/
+||biggylabs.com.br/track-api/v2/track/site?
+||collect.chaordicsystems.com^
 ||events.chaordicsystems.com^
 ||hitserver.ibope.com.br^
 ||jsuol.com/rm/clicklogger_
+||linximpulse.net/impulse/
 ||lomadee.com/loc/$third-party
 ||lurker.olx.com.br^
 ||melhorplano.net/scripts/tracker/
 ||nctrk.abmail.com.br^
+||netdeal.com.br/open/event/
 ||neurotrack.neurolake.io^
 ||segmentor.snowfox-ai.com^
 ||statig.com.br/pub/setCookie.js?
@@ -55666,6 +55672,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||groupbycloud.com/gb-tracker-client-4.min.js$domain=lacomer.com.mx
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
+@@||json.geoiplookup.io/?callback=$script,domain=chilepeajes.cl
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
