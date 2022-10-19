@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2/cxJXJwEjkSqYodxzDR7A
+! Checksum: nFql0XVdQzR5Vs3VR9M6Hg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202210191121
-! Last Modified: 2022年10月19日 11:21
+! Version: 202210191314
+! Last Modified: 2022年10月19日 13:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3932,6 +3932,10 @@ ubmcmm.baidustatic.com
 ||emgqmsn.cn^
 ||sc-gov-cn.website^
 ||rlsyuulz.cam^
+||jnwq.xyz^
+||wz8g.top^
+||99520.xyz^
+||uc-baidu.cc^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -40112,6 +40116,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crta.metro.co.uk^
 ||crumbs.robinhood.com^
 ||crunchyroll.com/tracker?
+||cryo.socialblade.com^
 ||cstats.sankakucomplex.com^
 ||ctrl.blog/assets/script/log-
 ||cultofmac.com/djrxqhzkbsgf.js
@@ -40414,6 +40419,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
 ||lexology.com/pd.js
+||libhunt.com/api/ahoy/event
 ||lightstep.medium.systems^*/reports
 ||link.kogan.com^
 ||link2.strawberrynet.com^$image
@@ -54777,6 +54783,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cp.rackspace.com/javascript/services/analytics.js?$script,~third-party
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cqcounter.com^$domain=cqcounter.com
+@@||crowdtwist.com/img/$image,domain=disneymovieinsiders.com
 @@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||currys.co.uk/on/*/js/tracking.js$script,~third-party
