@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HrgTqRJiz8IKsntimMDxTA
+! Checksum: E6Mu8bh4jyeYfeyDDlJirg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202210201506
-! Last Modified: 2022年10月20日 15:06
+! Version: 202210201551
+! Last Modified: 2022年10月20日 15:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -79800,9 +79800,12 @@ fqsousou.com,kengso.com#@#.user-share
 /FoxComScore.
 /fp/check.js
 /fp/clear.png
+/fp/clear1.png
 /fp/clear2.png
 /fp/clear3.png
 /fp/fp.swf
+/fp/HP?session_id
+/fp/ls_fp.
 /fp/tags.js
 /fp/top_fp.
 /fp2.compressed.js
@@ -107509,6 +107512,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$~third-party,xmlhttprequest
 @@||console.statsig.com/_next/$~third-party
+@@||content.gap.com/fp/check.js$script,domain=oldnavy.gap.com
+@@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cp.rackspace.com/javascript/services/analytics.js?$script,~third-party
