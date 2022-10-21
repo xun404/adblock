@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BeQbUgiBnAwpFe7/DPbKzw
+! Checksum: v3b6hp8oWpVigZ+wR+iZ6Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202210212300
-! Last Modified: 2022年10月21日 23:00
+! Version: 202210212356
+! Last Modified: 2022年10月21日 23:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10363,6 +10363,8 @@ _800x80_
 ###videoAdContainer
 ###videoAdvert
 ###videoCompanionAd
+###videoOverAd
+###videoOverAd300
 ###videoPauseAd
 ###videoPlayerAdLayer
 ###video_adv
@@ -21247,8 +21249,12 @@ _800x80_
 ##.video-right-ads
 ##.video-side__adv_title
 ##.videoAd-wrapper
+##.videoAd300
 ##.videoBoxAd
+##.videoOverAd300
+##.videoOverAdSmall
 ##.videoPauseAd
+##.videoSideAds
 ##.video_ad
 ##.video_ads
 ##.videoad
@@ -21686,6 +21692,7 @@ _800x80_
 ##a[href^="http://adf.ly/?id="]
 ##a[href^="http://ads2.williamhill.com/redirect.aspx?"]
 ##a[href^="http://adserver.adreactor.com/"]
+##a[href^="http://adultfriendfinder.com/go/page/landing"]
 ##a[href^="http://adultgames.xxx/"]
 ##a[href^="http://affiliate.glbtracker.com/"]
 ##a[href^="http://affiliates.thrixxx.com/"]
@@ -53695,6 +53702,7 @@ ok.porn,ok.xxx,oldmaturemilf.com,pornhat.com##.bns-bl
 sexsbarrel.com,zingyporntube.com##.bns-place-ob
 xnxxvideoporn.com##.bot_bns
 here.xxx,jagaporn.com##.botad
+pornoreino.com##.bottom-bang
 hentaigamer.org##.bottom-banner-home
 alphaporno.com##.bottom-banners
 elephanttube.world##.bottom-block
@@ -53714,7 +53722,7 @@ barscaffolding.co.uk,capitalregionusa.xyz,dcraddock.uk,javbebe.com,javxxoo.com,x
 hentaianimedownloads.com##.bp_detail
 bravotube.net##.brazzers
 xozilla.com##.brazzers-link
-kompoz2.com##.brs-block
+kompoz2.com,pornvideos4k.com##.brs-block
 realgfporn.com##.btn-info
 xcum.com##.btn-ponsor
 cinemapee.com##.button
@@ -53798,7 +53806,7 @@ videocelebs.net##.fp-brand
 xpics.me##.frequently
 jizzbunker.com##.ftrzx1
 teenpornvideo.fun##.full-ave
-kompoz2.com,roleplayers.co##.full-bns-block
+kompoz2.com,pornvideos4k.com,roleplayers.co##.full-bns-block
 iceporn.com##.furtherance
 xpics.me##.future
 hdtube.porn##.g-col-banners
@@ -53960,6 +53968,7 @@ cyberleaks.to##.responsive_banner
 cumlouder.com##.resumecard
 porndroids.com##.resumecard__banner
 bdsmx.tube,hotmovs.com,javdoe.fun,javtape.site,porntop.com##.right
+pornoreino.com##.right-side
 definebabe.com##.right-sidebar
 empflix.com##.rightBarBannersx
 gottanut.com##.rightContent-videoPage
