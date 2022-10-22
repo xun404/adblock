@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J0JxBhd2QmUV0y6ndrQLkg
+! Checksum: cKqfwZ9jLnMAfmPf04auyg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210221749
-! Last Modified: 2022年10月22日 17:49
+! Version: 202210221849
+! Last Modified: 2022年10月22日 18:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -5752,6 +5752,7 @@ _800x80_
 ###ad-circfooter
 ###ad-code
 ###ad-col
+###ad-container-1
 ###ad-container-banner
 ###ad-container-fullpage
 ###ad-container-inner
@@ -6974,12 +6975,9 @@ _800x80_
 ###adsense-bottom
 ###adsense-head-spacer
 ###adsense-header
-###adsense-letterbox
 ###adsense-link
 ###adsense-links
 ###adsense-middle
-###adsense-module-bottom
-###adsense-new
 ###adsense-post
 ###adsense-post-300x250
 ###adsense-right
@@ -6989,13 +6987,9 @@ _800x80_
 ###adsense-text
 ###adsense-top
 ###adsense-wrap
-###adsense03
-###adsense04
-###adsense05
 ###adsense1
 ###adsense2
 ###adsense2pos
-###adsense300x250
 ###adsense468
 ###adsense6
 ###adsense728
@@ -7005,8 +6999,6 @@ _800x80_
 ###adsenseOne
 ###adsenseWrap
 ###adsense_300x250
-###adsense_article_bottom
-###adsense_article_left
 ###adsense_banner_top
 ###adsense_block
 ###adsense_bottom_ad
@@ -7024,25 +7016,13 @@ _800x80_
 ###adsenseheader
 ###adsensehorizontal
 ###adsensempu
-###adsensepo
-###adsensepos
 ###adsenseskyscraper
 ###adsensetext
 ###adsensetop
 ###adsensewide
 ###adserv
-###adserve-Banner
-###adserve-Leaderboard
-###adserve-MPU
-###adserve-Sky
-###adserver_HeaderAd
 ###adsfundo
-###adsground
-###adshometop
-###adshowbtm
-###adshowtop
 ###adside
-###adsider
 ###adsiframe
 ###adsimage
 ###adsitem
@@ -7051,8 +7031,6 @@ _800x80_
 ###adskinright
 ###adskintop
 ###adsky
-###adskyleftdiv
-###adskyrightdiv
 ###adskyscraper
 ###adskyscraper_flex
 ###adsleft1
@@ -7824,6 +7802,7 @@ _800x80_
 ###bottom-ad-tray
 ###bottom-ad-wrapper
 ###bottom-add
+###bottom-adhesion-container
 ###bottom-ads
 ###bottom-ads-bar
 ###bottom-ads-container
@@ -19316,6 +19295,7 @@ _800x80_
 ##.pkad
 ##.place-ads
 ##.placeholder-ad
+##.placeholder-dfp
 ##.placeholderAd
 ##.plain-ad
 ##.plainAd
@@ -19538,6 +19518,7 @@ _800x80_
 ##.refreshInarticleAd
 ##.refreshable_ad
 ##.region-ad-bottom-leaderboard
+##.region-ad-pan
 ##.region-ad-right
 ##.region-ad-top
 ##.region-ads
@@ -51118,6 +51099,7 @@ crash.net##.dmpu-container
 scotsman.com##.dmpu-item
 thenationonlineng.net##.dorvekp-post-bottom
 gearlive.com##.double
+techspot.com##.downText
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
 thepiratebay3.to##.download_buutoon
 thesun.co.uk##.dpa-slot
@@ -52271,7 +52253,7 @@ hellomagazine.com##.sponsored-news
 investing.com##.sponsoredArticle
 coinmarketcap.com##.sponsoredMark
 cultofmac.com##.sponsored_paragraph
-armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,jaguarforums.com,pypi.org,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
+armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
 salixos.org##.sponsors-container
 libhunt.com##.sponsors-list-content
 hacksplaining.com##.sponsorship-message
@@ -107866,7 +107848,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||pagure.io/static/issues_stats.js$~third-party
 @@||palmettostatearmory.com/static/$script,~third-party
-@@||parsely.com/keys/wrif.com/p.js$script,domain=wrif.com
+@@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
