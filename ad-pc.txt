@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ieWA1VUXgfDOtZl92Xc66A
+! Checksum: ERx0rV7YvTi5vdjm7m3iIg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202210231850
-! Last Modified: 2022年10月23日 18:50
+! Version: 202210231943
+! Last Modified: 2022年10月23日 19:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -77646,16 +77646,6 @@ cocomanga.com,cocomanhua.com##iframe[style*="important"]
 cocomanga.com,cocomanhua.com#@#.gg430
 cocomanga.com,cocomanhua.com#@#.gg_300
 ||cocomanhua.com/sw.js
-!#playno1.club
-@@||exosrv.com/ads-iframe-display.php$domain=getrelax.cc|sexylove.club
-@@||exosrv.com/ads.js$domain=getrelax.cc|sexylove.club
-@@||getrelax.cc^$generichide
-@@||juicyads.com/adshow.php?adzone=746140$domain=getrelax.cc|sexylove.club
-@@||juicyads.com/jads.js$domain=getrelax.cc|sexylove.club
-@@||juicyads.com/js/jads.js$domain=getrelax.cc|sexylove.club
-@@||sexylove.club^$generichide
-getrelax.cc,sexylove.club##.loaded-popup-wrapper
-||playno1.club/uppic/
 !#Porn
 ###Video-Shunt-Box + .container
 ##.leftd1 + .rightd1
@@ -94127,6 +94117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
+||olacontent.schwab.com^$script
 ||pages.ebay.com/identity/device/$subdocument
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||w-profiling.cibc.com^$script
