@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4Z0tVTedjjEqYkWvJLMrQA
+! Checksum: CkSsei2HWVBARcQDfqTUGA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210241704
-! Last Modified: 2022年10月24日 17:04
+! Version: 202210241757
+! Last Modified: 2022年10月24日 17:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2372,6 +2372,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /article-advert-
 /article_ad.
 /article_ads-
+/asrv/campaign/*
 /asset/ad/*
 /asset/adv/*
 /assets/ad-
@@ -11863,6 +11864,7 @@ _800x80_
 ##.ad-spteaser
 ##.ad-sq-super
 ##.ad-square
+##.ad-square-placeholder
 ##.ad-square2-container
 ##.ad-square300
 ##.ad-squares
@@ -40547,6 +40549,7 @@ tf2r.com#@#.adverts
 ||vemtoala.com^
 ||vendgrusian.com^
 ||vendigamus.com^
+||vendimob.pl^
 ||vendnibtemp.com^
 ||veneeringimpenetrable.com^
 ||venetrigni.com^
@@ -43246,6 +43249,7 @@ tf2r.com#@#.adverts
 ||mpuls.ru^$third-party
 ||mtburn.com^$third-party
 ||multiview.com^$third-party
+||musody.com^$third-party
 ||myaffiliates.com^$third-party
 ||myopenads.com^$third-party
 ||n2s.co.kr^$third-party
@@ -43445,6 +43449,7 @@ tf2r.com#@#.adverts
 ||registered-spotters-build.com^$third-party
 ||relytec.com^$third-party
 ||republer.com^$third-party
+||resetoff.pl^$third-party
 ||revcontent.com^$third-party
 ||revenueflex.com^$third-party
 ||revenuegiants.com^$third-party
@@ -43812,6 +43817,7 @@ tf2r.com#@#.adverts
 ||webgains.com^$third-party
 ||weborama.fr^$third-party
 ||weborama.io^$third-party
+||webshark.pl^$third-party
 ||webtrafic.ru^$third-party
 ||webwap.org^$third-party
 ||whatfinger.com^$third-party
@@ -107734,6 +107740,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||evolutionpayroll.com/ess/scripts/angularytics/angularytics.min.js$~third-party
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
+@@||felix.data.tm-awx.com/felix.min.js$script,domain=cambridge-news.co.uk
 @@||files.mycloud.com/js/analytics/google_analytics.js
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
