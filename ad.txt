@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iPfBBEN1hDabGgp66pR/9A
+! Checksum: GeLELgfApti9Tymeu28WAg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202210271452
-! Last Modified: 2022年10月27日 14:52
+! Version: 202210271541
+! Last Modified: 2022年10月27日 15:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24155,7 +24155,6 @@ _box_ad_
 ||ye120.com/zool.js
 ||youdao.com/market/banner/banner
 ||youdao.com/www/banner.html
-||yytcdn.com/js/common/widget/pcpusher.
 ||zhiyoo.com/mplus/images/banner.jpg
 ||zndsssp.dangbei.net^
 ||zol-img.com.cn/star/image/star-banner2.gif
@@ -24333,6 +24332,8 @@ _box_ad_
 ||kandaju.net/js/js2.
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 !------------------------Specific element hiding rules------------------------!
+bilibili.com##A[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili"])
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili"]) + .bili-video-card__info
 bilibili.com##.adblock-tips
 map.baidu.com###message-panel
 ghxi.com##div[style="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: 99999;background-color: #cc4444;color: #fff"]
