@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QjhQdoi4U4Wslrf4WOMYDA
+! Checksum: OZ9uCqCL2lDybbWl5QERbw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202210280102
-! Last Modified: 2022年10月28日 01:02
+! Version: 202210280543
+! Last Modified: 2022年10月28日 05:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22278,6 +22278,7 @@ _800x80_
 ###component-taboola-below-article-feed
 ###component-taboola-below-article-feed-2
 ###component-taboola-below-homepage-feed
+###fake_taboola_fallback
 ###ra-taboola-bottom
 ###taboola-ad
 ###taboola-adverts
@@ -22331,6 +22332,7 @@ _800x80_
 ##.taboola_block1
 ##.taboola_container
 ##.taboola_lhs
+##.tbl-floating-unit
 ##.tncls_taboola
 ##.trb_taboola
 ##.trc_rbox .syndicatedItem
@@ -49949,7 +49951,6 @@ thedrinknation.com###fcBanner
 fandom.com###featured-video__player
 fandom.com###featured-video__player-container
 investing.com###findABroker
-ndtv.com###firework1
 thisismoney.co.uk###fiveDealsWidget
 mediafire.ec,point2homes.com,propertyshark.com###fixedban
 cnx-software.com###fixeddbar
@@ -52903,6 +52904,7 @@ independentespanol.com##[class^="TopBanner"]
 economist.com##[class^="adComponent"]
 uploader.link##[class^="ads"]
 swarajyamag.com##[class^="banner-ad-"]
+ndtv.com##[class^="firework"]
 romhustler.org##[class^="leaderboard_ad"]
 noqreport.com##[class^="noqre-"]
 torlock.com##[class^="wrn"]
@@ -53054,6 +53056,7 @@ gelbooru.com##[href^='https://realbooru.com/']
 beforeitsnews.com##[id^="banners_"]
 geeksforgeeks.org##[id^="bsa-zone"]
 scmp.com##[id^="div-ad-"]
+ndtv.com##[id^="firework"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 comicbook.com,popculture.com##[id^="native-plus-"]
 noqreport.com##[id^="oqre-"]
@@ -79280,7 +79283,6 @@ fqsousou.com,kengso.com#@#.user-share
 /BKVTrack.js
 /blank.gif?*%
 /blank.gif?*&
-/blazor-analytics.js
 /block/pixel?
 /blockstat?
 /blog/traffic/?
@@ -108156,7 +108158,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||munchkin.marketo.net/munchkin.js$domain=telus.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com^$domain=mixpanel.com
-@@||my.appacademy.io/_content/Blazor-Analytics/blazor-analytics.js$script,~third-party
 @@||my.dxdelivery.com/js/tracking.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
