@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cyk46YteONcYv0ZmiAuJwg
+! Checksum: Dz6zIMHuiRWHXj/c8OkrMg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202210291845
-! Last Modified: 2022年10月29日 18:45
+! Version: 202210292107
+! Last Modified: 2022年10月29日 21:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -4090,6 +4090,7 @@ ubmcmm.baidustatic.com
 ||jilong.work^
 ##A[href*="/ddtz5.com"]
 ##div[onclick*="bdtz5.com"]
+||znfg6677.top^
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -25985,6 +25986,7 @@ m.babytree.com##script + a[class]
 /api/analytics|
 /api/cmp_tracker
 /api/ComScorePageView
+/api/drpStats
 /api/ipv4check?
 /api/log?
 /api/lt/ref?
@@ -39562,6 +39564,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||almamedia.fi^*/scroll-monitor.min.js
 ||dnt-userreport.com^
 ||er.sanoma-sndp.fi/stats/
+||er.sanoma-sndp.fi/v2/stats/
 ||inpref.s3.amazonaws.com^$third-party
 ||insight.fonecta.fi^
 ||nelonenmedia.fi/logger/
@@ -54501,6 +54504,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||prism.pandora.tv^
 ||seoul.co.kr/weblog/
 ||sp.naver.com^
+||stat.i3.dmm.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
 ||toros.daum.net/toros/imp
