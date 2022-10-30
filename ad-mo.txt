@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yHYxEwZxPhniZFIUvAytkQ
+! Checksum: Lrpygf66LiVUJ1HunkjsbA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202210301230
-! Last Modified: 2022年10月30日 12:30
+! Version: 202210301345
+! Last Modified: 2022年10月30日 13:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -83723,6 +83723,7 @@ fqsousou.com,kengso.com#@#.user-share
 ;type=pixel;
 =comscoreAdobeDpvCall&
 =getSideStats&
+=getStats_
 =googleanalytics_
 =metrics_profile&
 =pageImpression&
@@ -91447,6 +91448,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.wibiya.com^
 ||statm.the-adult-company.com^
 ||stats-bq.stylight.net^
+||stats-dev.brid.tv^
 ||stats-messages.gifs.com^
 ||stats-newyork1.bloxcms.com^
 ||stats.big-boards.com^
@@ -107395,6 +107397,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hs.fi/stats
 ||huuto.net/js/analytic/
 ||ilcdn.fi^*/Bootstrap.js
+||io-tech.fi/io/www/delvr/lokiz.php
 ||is.fi/stats/
 ||mha.fi/simple.gif?
 ||mtv3.fi/remarketing.js
@@ -108624,6 +108627,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||centprod.com/nd/assets/js/analytics.js$script,domain=centprod.com
 @@||collectandgo.be^*/utag.sync.js
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
+@@||gls-info.nl/Scripts/tracking.js$~third-party
 @@||googletagmanager.com/gtag/js$script,domain=hostingvergelijker.nl
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|hostingvergelijker.nl|mediamarkt.nl
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
