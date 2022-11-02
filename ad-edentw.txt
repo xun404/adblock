@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xD1rlne3+/1y5T8XNlGrKA
+! Checksum: v8Ap3IwSH/yasifqipvM4w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202211021744
-! Last Modified: 2022年11月02日 17:44
+! Version: 202211021941
+! Last Modified: 2022年11月02日 19:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1324,6 +1324,7 @@ receive-smss.com#$#abort-on-property-read adBlockEnabled
 smallseotools.com#$#abort-on-property-read FITS.Config; override-property-read adpushup undefined; abort-on-property-read run_grammarly_frist; hide-if-matches-xpath './/img[contains(@src,".gif")]/ancestor-or-self::a[contains(@onclick,"Grammarly")]'
 root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"Infinix ")]/parent::div[@class="backstretch"]/ancestor-or-self::div[1]'
 root-nation.com#$#hide-if-matches-xpath '//source/following::img[@src]/ancestor::a[@class]/ancestor-or-self::div[@id="tdi_29"]'
+||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
