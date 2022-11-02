@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4t52r3B6TGjKWRNeXtVu3g
+! Checksum: E90LiL2iIKTIu7b4qPpDrw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202211022130
-! Last Modified: 2022年11月02日 21:30
+! Version: 202211030156
+! Last Modified: 2022年11月03日 01:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1322,13 +1322,16 @@ naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-rea
 fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
 animepahe.com#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
-smallseotools.com#$#abort-on-property-read FITS.Config; override-property-read adpushup undefined; abort-on-property-read run_grammarly_frist; hide-if-matches-xpath './/img[contains(@src,".gif")]/ancestor-or-self::a[contains(@onclick,"Grammarly")]'
-root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"Infinix ")]/parent::div[@class="backstretch"]/ancestor-or-self::div[1]'
+smallseotools.com#$#abort-on-property-read FITS.Config; override-property-read adpushup; abort-on-property-write run_grammarly; abort-on-property-write ads_function
+||smallseotools.com/webimages/s12/*.png^$image,domain=smallseotools.com
+duplichecker.com#$#abort-on-property-read adpushup; hide-if-matches-xpath './/*[@id]/a[contains(@href,"/sdfsd")]/img/ancestor::div[1]'
+root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"")]/parent::div[@class="backstretch"]//ancestor-or-self::img[1]'
 root-nation.com#$#hide-if-matches-xpath '//source/following::img[@src]/ancestor::a[@class]/ancestor-or-self::div[@id="tdi_29"]'
 ||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
+||porndoe.com/movie/preroll/*$media,rewrite=abp-resource:blank-mp4,domain=porntrex.com
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1722,7 +1725,7 @@ sm.news#$#abort-current-inline-script String.fromCharCode decodeURIComponent
 7ogorod.ru,shtrafsud.ru,autonevod.ru#$#abort-on-property-read flat_pm_arr
 hitfm.ua,kissfm.ua,radiorelax.ua,radioroks.ua,rusradio.ua#$#abort-on-property-write prerole_length
 www.goha.ru,3dnews.ru#$#abort-on-property-read Ya
-myjane.ru,omskpress.ru,artfile.me,artfile.ru,astrakhan.ru,informpskov.ru,tambovnet.org#$#abort-on-property-read kav_cn
+myjane.ru,omskpress.ru,artfile.me,artfile.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
 krolik.biz#$#abort-current-inline-script document.createElement
 www.vesti.ru#$#abort-current-inline-script document.createElement String.fromCharCode
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
