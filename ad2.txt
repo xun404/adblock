@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4A7FHTGTP2ifEuWP7xuTjg
+! Checksum: laAoAlWpXDVvgnGJtCgvew
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202211031742
-! Last Modified: 2022年11月03日 17:42
+! Version: 202211032357
+! Last Modified: 2022年11月03日 23:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -14883,6 +14883,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cupfox.app##a[href*=".jd.com"]
 423down.com##.content > div[style="text-align: left;"]
 cnbeta.com.tw##.cbv:not(#cb_share)
 cnbeta.com.tw##.tks
@@ -23995,6 +23996,7 @@ _box_ad_
 ||kandaju.net/js/js2.
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 !------------------------Specific element hiding rules------------------------!
+a9vg.com###guide-download
 bilibili.com##A[href*="cm.bilibili.com"][data-target-url*=".biligame."]
 bilibili.com##A[href*="cm.bilibili.com"][data-target-url*=".biligame."] + .bili-video-card__info
 bilibili.com##.adblock-tips
