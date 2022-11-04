@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mY9AsvmoYe0IH0AYe+uPMw
+! Checksum: fT/rTDRss1zOzRUMhg23Jw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202211032357
-! Last Modified: 2022年11月03日 23:57
+! Version: 202211042122
+! Last Modified: 2022年11月04日 21:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1455,10 +1455,9 @@ bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
-instacart.com#$#hide-if-matches-xpath './/li[@data-testid]//div[concat(normalize-space(.//div[1][@style="display: inline-block;"]/text()),normalize-space(.//div[2][@style="display: inline-block;"]/text()))="Sponsored"]/ancestor::li[@data-testid]'
-instacart.com#$#hide-if-matches-xpath './/img[contains(@src,"promoted_aisle")]/ancestor::div[starts-with(@class,"css-")][2]'
-instacart.com#$#hide-if-matches-xpath './/img[starts-with(translate(@alt,"SPONSORED","sponsored"),"sponsored")]/ancestor::a[1]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-testid="search-grid-shoppable-display"]//span[text()="Sponsored"]/ancestor::div[@data-testid="search-grid-shoppable-display"]'
+instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]/div[concat(normalize-space(.//div[1][starts-with(@style,"display: inline-block;")]/text()),normalize-space(.//div[2][starts-with(@style,"display: inline-block;")]/text()))="Sponsored"]/ancestor::div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]'
+instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ShoppableList")]//span[text()="Sponsored"]/ancestor::div[contains(@class,"ShoppableList")]'
+instacart.com#$#hide-if-matches-xpath './/div[2][starts-with(@class,"css")]//span[text()="Sponsored"]/ancestor::div[2][starts-with(@class,"css")]'
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com##a[href*="category_hero_id_"]
