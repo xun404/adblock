@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yBySumA171ZWBGDobJVOhQ
+! Checksum: BSzHo54vVSloJBraAQyDww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202211051252
-! Last Modified: 2022年11月05日 12:52
+! Version: 202211051340
+! Last Modified: 2022年11月05日 13:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27011,6 +27011,7 @@ m.babytree.com##script + a[class]
 /dow_analytics.
 /downloadAndOutboundLinksTracking.
 /DownloadTracker.
+/dpistat/updater.php
 /dpm_pixel_
 /drads?referrer=
 /drive-analytics/*
@@ -53810,6 +53811,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||glomex.com^$ping
 ||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
+||happysex.ch/app_jquery/Tracking.js
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
 ||hokuspokus.tarnkappe.info^
@@ -53964,6 +53966,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||logstash-3.radio-canada.ca^
 ||ma-petite-recette.fr/visites
+||marmiton.org/reloaded/errpix.php
 ||medoucine.com/tracking/
 ||neko-san.fr/stats
 ||ouedkniss.com/spf/page-view
