@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: szDEUD5k2HLZ7vNZUHbclQ
+! Checksum: +NEMfaY56oPHnM5xjb3LBg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211061842
-! Last Modified: 2022年11月06日 18:42
+! Version: 202211061937
+! Last Modified: 2022年11月06日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -43436,6 +43436,7 @@ tf2r.com#@#.adverts
 ||clicktripz.com^$third-party
 ||clixco.in^$third-party
 ||clixtrac.com^$third-party
+||cluep.com^$third-party
 ||cogocast.net^$third-party
 ||coguan.com^$third-party
 ||coinmedia.co^$third-party
@@ -93672,6 +93673,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.api.nine.com.au^
 ||adc.nine.com.au^
 ||adguard.com/-/event/
+||adl.bankofthewest.com^
 ||adobe.io/system/log
 ||adtech-events.bookmyshow.com^
 ||adv.drtuber.com^
@@ -94754,7 +94756,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twitter.com/i/csp_report?
 ||twitter.com/i/jot
 ||typepad.com/t/stats?
-||u47.pnc.com^
+||u44.pnc.com^
 ||u989.theweek.com^
 ||ua.indianexpress.com^
 ||uber.com/_events
@@ -108807,6 +108809,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plugins.matomo.org^$image,~third-party
 @@||postex.com/api/ping?$~third-party
+@@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
