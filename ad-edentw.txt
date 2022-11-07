@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qcaa4xxZ8WzHXW1GPiMdAA
+! Checksum: uKDRK54W/HTrFU7BK0+ugg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202211071743
-! Last Modified: 2022年11月07日 17:43
+! Version: 202211072203
+! Last Modified: 2022年11月07日 22:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -964,6 +964,9 @@ novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[ramefamorderx]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##._ad_branding_positioner
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="BANNER"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="ghx_content"]
+novinky.cz##article[data-dot^="advert-item"]
+novinky.cz##section[role^="complementary"]
+novinky.cz##div[class*="advert-static"]
 novinky.cz,super.cz,sport.cz,expres.cz##.barMan
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##a[href*="verdsi="][href*="&ip="]
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##[href*="&token="][target="_blank"]
@@ -1913,7 +1916,7 @@ player-cdn.com###playback-fake
 vebo5.net,xoilac5.net##.modal.fade.show
 vebo5.net,xoilac5.net#$#abort-current-inline-script jQuery popupBanners
 vebo5.net,xoilac5.net#$#abort-on-property-read adsRedirectPopups
-sex369.net,viet69.gg#$#abort-on-property-read parseInt
+sex369.net,viet69.gg,sexvietnam.site#$#abort-on-property-read parseInt
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
