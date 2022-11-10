@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vsi73ehEP2VSlLfuCOA+UA
+! Checksum: 9h3E5bYqpo4cdjnAc4Nl+Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202211101845
-! Last Modified: 2022年11月10日 18:45
+! Version: 202211102126
+! Last Modified: 2022年11月10日 21:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1431,6 +1431,7 @@ manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSO
 ling-online.com#$#abort-current-inline-script document.documentElement JSON.parse
 hortonanderfarom.blogspot.com#$#override-property-read setTimeout noopFunc
 *$popup,third-party,domain=strtapeadblocker.art|strtapeadblock.me
+userload.co#$#abort-current-inline-script $ Math.random
 ! #CV-691
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be#$#hide-if-matches-xpath '//li[starts-with(@class,"s-item")]//span[@role="group" or @role="text"][starts-with(@class,//span[text()="Sponsored" or text()="Anzeige" or text()="Sponsorowane" or text()="Sponsorizzato" or text()="Gesponsord" or text()="Sponsorisé" or text()="Patrocinado"]/@id)]/ancestor::li[starts-with(@class,"s-item")]'
 ! #CV-698
