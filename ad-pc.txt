@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MMtl5QQCOSfbNVWME9vR6A
+! Checksum: /Ry2SsKbNFUEwRFJtc1ASQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211101743
-! Last Modified: 2022年11月10日 17:43
+! Version: 202211101845
+! Last Modified: 2022年11月10日 18:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12376,6 +12376,7 @@ _800x80_
 ##.ad728x90-2
 ##.ad728x90box
 ##.ad728x90btf
+##.ad970
 ##.ad970_250
 ##.adActive
 ##.adAlert
@@ -58865,6 +58866,8 @@ ubmcmm.baidustatic.com
 ##a[style$="2147483647;"][ontouchstart]
 ##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 ##a[target="_blank"] > img.king
+###bfad2
+###syad1
 ##a[target="_blank"] > img[height="120px"][src*=".c-ctrip.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="120px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="120px"][src*=".tripcdn.com"][src$=".gif"]
@@ -71693,6 +71696,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xydai.cn##.deanad4s
+xydai.cn###diynavtop
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
