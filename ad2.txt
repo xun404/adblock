@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LjYMAs7s6O/LMaX3sZ44bg
+! Checksum: ypROKX6f5oLmiREvpMNM2w
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202211111209
-! Last Modified: 2022年11月11日 12:09
+! Version: 202211111540
+! Last Modified: 2022年11月11日 15:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1466,7 +1466,7 @@ ubmcmm.baidustatic.com
 ##a[href="javascript:window.GoTp();"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/hy-"][ontouchstart]
-##a[href^="http"] > .img[src*="lbsugc.cdn.bcebos.com"]
+##a[href] > .img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
@@ -1858,6 +1858,9 @@ ubmcmm.baidustatic.com
 ||ouyhh.xyz^
 ||jiedu.fun^
 ||xwdsp.com^
+||ezngisyw.xyz^
+||love-yy.company^
+||cvcddno.cn^
 .8ox.cn
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -9623,6 +9626,7 @@ ubmcmm.baidustatic.com
 !------------------------------------Popups-----------------------------------!
 $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 .189.gd^*.html?p=$popup,third-party
+||380.tw^$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
@@ -19910,6 +19914,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||520cc.cc^*/ad.php
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
