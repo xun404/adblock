@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SFKCBCEy0SP+PMEzo9ouZw
+! Checksum: XUnFCmm0KJ4WNVwwk9nhYg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211140338
-! Last Modified: 2022年11月14日 03:38
+! Version: 202211140540
+! Last Modified: 2022年11月14日 05:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56701,6 +56701,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
+@@||aniview.com/api/$script,domain=gamingbible.co.uk|ladbible.com
 @@||aone-soft.com/style/images/ad2.jpg
 @@||api.adinplay.com/libs/aiptag/$domain=bigescapegames.com|brofist.io|findcat.io|lordz.io|squadd.io
 @@||api.adnetmedia.lt/api/$~third-party
@@ -56843,6 +56844,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||media.kijiji.ca/api/$image,~third-party
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
+@@||micro.rubiconproject.com/prebid/dynamic/$script,domain=gamingbible.co.uk|ladbible.com
 @@||mirror.co.uk^*/prebid-test.js$script,~third-party
 @@||mobygames.com/images/covers/$image,~third-party
 @@||mobygames.com/images/promo/$image,~third-party
@@ -56880,7 +56882,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com
-@@||player.avplayer.com^$script,domain=explosm.net|justthenews.com
+@@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
 @@||pngimg.com/distr/$image,~third-party
 @@||pntrac.com/b/$image,domain=extrarebates.com
@@ -95100,6 +95102,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mail.yahoo.com/f/track/
 ||mangadex.org/api/event
 ||mangadex.org/p.js
+||manua.ls/g/collect?
+||manua.ls/gtag
 ||mapquest.com/logger
 ||marketing.alibaba.com^
 ||marketing.dropbox.com^
