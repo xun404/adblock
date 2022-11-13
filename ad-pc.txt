@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XUnFCmm0KJ4WNVwwk9nhYg
+! Checksum: Umfmcz0qzDxLuWCyLTQeCw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211140540
-! Last Modified: 2022年11月14日 05:40
+! Version: 202211140642
+! Last Modified: 2022年11月14日 06:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4907,7 +4907,6 @@ _widget_ad.
 /ezoic/*$script,~third-party
 /jellyfish.webp$script
 -prebid-
--prebid.$script
 -prebid/
 .prebid&
 .prebid-bundle.
@@ -55433,6 +55432,7 @@ mashable.com##section.mt-4 > div
 bbc.com##section[data-e2e="advertisement"]
 reddit.com##shreddit-comments-page-ad
 tempostorm.com##side-banners
+smartprix.com##sm-dap
 torlock.com##table.hidden-xs
 realitytvworld.com##table[border="0"][align="left"]
 roadtester.com.au##table[cellpadding="9"][border="0"]
@@ -87824,6 +87824,7 @@ _mongo_stats/
 ||revenuescience.com^$third-party
 ||revenuewire.net^$third-party
 ||revhunter.tech^$third-party
+||revlifter.io^$third-party
 ||revoffers.com^$third-party
 ||revolvermaps.com^$third-party
 ||rewardtv.com^$third-party
@@ -91701,6 +91702,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coveo.com/coveo.analytics.js/
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
+||cp.official-coupons.com^
+||cp.official-deals.co.uk^
 ||creator.zmags.com^
 ||credible.com/api/logs-fe
 ||crm-vwg.com/tracker/
@@ -92682,7 +92685,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rest.wildstar-online.com^
 ||retargeting.newsmanapp.com^
 ||reverbnation.com/widgets/trk/
-||revlifter.com/pageview
 ||rfksrv.com/rfk/$third-party
 ||rfksrv.com/rfkj/$image
 ||ria.ru/counter?
