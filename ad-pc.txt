@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xlkmZM7KLKrfNK6E7gSlYg
+! Checksum: 9YMxMl3AGFuKLXAIxbcTDw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211150154
-! Last Modified: 2022年11月15日 01:54
+! Version: 202211150443
+! Last Modified: 2022年11月15日 04:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57080,6 +57080,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adf.ly^$generichide
 @@||adinsurance.xyz^$generichide
 @@||adtng.com/get/$subdocument,domain=hanime.tv
+@@||artnet.com^$generichide
 @@||ask4movie.io^$generichide
 @@||avforums.com/*ad$script
 @@||awlinks.site^$generichide
@@ -109800,6 +109801,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
 @@||time.com/wp-content/*/time-tracking.js$script,~third-party
 @@||tinypass.com^*/logAutoMicroConversion?$domain=chicago.suntimes.com
+@@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 @@||tools.usps.com/go/scripts/tracking.js$~third-party
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
