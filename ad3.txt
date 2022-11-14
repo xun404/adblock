@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1/CGUeD0qw3rp/ogYpVQQg
+! Checksum: jAVh1itpCSyNfs9UeToTAw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202211150645
-! Last Modified: 2022年11月15日 06:45
+! Version: 202211150741
+! Last Modified: 2022年11月15日 07:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24751,7 +24751,6 @@ m.babytree.com##script + a[class]
 &stats_tkn=
 &t=pageview&
 &tag=IMPRESSION&
-&trackingserver=
 &visitorUuid=
 -action/fingerprint?
 -action/ping?
@@ -26198,6 +26197,7 @@ m.babytree.com##script + a[class]
 /CookiePingback?
 /CookieSetterAS3.
 /cookietag?
+/coopcommerce-pixel.
 /coradiant.js
 /core-tracking.js
 /coretracking.php?
@@ -30786,7 +30786,6 @@ _mongo_stats/
 ||go-mpulse.net^
 ||googleoptimize.com^
 ||googletagmanager.com^
-||gsght.com^
 ||hdmtools.com^
 ||hs-analytics.net^
 ||hsadspixel.net^
@@ -30871,6 +30870,7 @@ _mongo_stats/
 ||raac33.net^
 ||rapidpanda.io^
 ||rapidzebra.io^
+||realtimely.io^
 ||rezync.com^
 ||rfpx1.com^
 ||rftslb.com^
@@ -31943,6 +31943,7 @@ _mongo_stats/
 ||growthrx.in^$third-party
 ||grumrt.com^$third-party
 ||gsecondscreen.com^$third-party
+||gsght.com^$third-party
 ||gsimedia.net^$third-party
 ||gsspat.jp^$third-party
 ||gssprt.jp^$third-party
@@ -35927,6 +35928,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shoptarget.com.br^$third-party
 ||tailtarget.com^$third-party
 ||trugaze.io^$third-party
+||voxus.com.br^$third-party
 ||2222.ro^$third-party
 ||2parale.ro^$third-party
 ||2performant.com^$third-party
@@ -38397,6 +38399,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d10gj7yjsfriaj.cloudfront.net^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d11a2fzhgzqe7i.cloudfront.net^
+||d12m6l63zd9etp.cloudfront.net^
 ||d15kdaxu5c0hfw.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
 ||d16fk4ms6rqz1v.cloudfront.net^
@@ -39726,6 +39729,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/vis_opt_no_jquery.js
 ||clp-mms.cloudpro.co.uk^
 ||cm-mms.coachmag.co.uk^
+||cm.nordvpn.com^
 ||cnet.com/pageview_candidate.comscore.json
 ||cnt.hd21.com^
 ||cnt.iceporn.com^
@@ -40533,6 +40537,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamtapeadblock.art/stat/
 ||streamtapeadblockuser.homes/stat/
 ||streamtapeadblockuser.monster/stat/
+||streamtapeadblockuser.xyz/stat/
 ||stripe.com/tracking/
 ||strtapeadblock.club/stat/
 ||strtapeadblocker.xyz/stat/
@@ -40742,6 +40747,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xstats.evoload.io^
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/beacon/
+||yahoo.com/beacon?
 ||yahoo.net/pixel.gif
 ||yandex.*/clck/$~ping
 ||yandex.*/count/
