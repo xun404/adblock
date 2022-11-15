@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jWNhQP/iSGORGx7Cim5cbg
+! Checksum: Wf3P+40bSmqdm8FMG7yDZA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202211152116
-! Last Modified: 2022年11月15日 21:16
+! Version: 202211152343
+! Last Modified: 2022年11月15日 23:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -11197,8 +11197,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||china.com/zh_cn/etc/gghead
 ||chinaacc.com^$domain=100ksw.com
 ||chinabidding.cn/gys.ad/
-||chinabyte.com/w/$subdocument
-||chinabyte.com/w/a/201612/wangting.jpg
 ||chinacar.com.cn/Public/index/images/banner_
 ||chinaconcrete.cn/ggImg/
 ||chinafpd.net/js/2012-10/
@@ -14149,9 +14147,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yjcf360.com/ad.
 ||yjyc-ask.com/res/ads/
 ||yktj.yzz.cn^
-||ylnet.com.cn/dl*.js
-||ylnet.com.cn/gj.js
-||ylnet.com.cn/inc/ad$subdocument
 ||yorkbbs.ca/crm/section/v1/get/list/open
 ||youaima.com/rest/
 ||youaima.com/zz/
@@ -14227,7 +14222,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhangxinxu.com/image/blog/*/ad-zf.jpg
 ||zhangxinxu.com/image/blog/*/sp-zf.
 ||zhanqi.tv/api/static/v2.1/actives.lists/
-||zhanzhangb.com/inc/zzb-ad/
 ||zhaofuli.*/data/content
 ||zhaolianmeng.com/plushuan/ad_js.php
 ||zhaozi.cn/d/js/mini/extended
@@ -14346,6 +14340,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ziyuanyo.com##.index-ad-text
+zhanzhangb.com##a[href*="cloud.tencent.com"]
+zhanzhangb.com##a[href*=".jd.com"]
+ylnet.com.cn##.ad-con
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14496,7 +14494,7 @@ dayoo.com###ad-xl
 baike.com###ad-xnsc
 duba.com###ad-zongyi
 price.com.hk###ad0
-90oo.com,p9.com.tw,price.com.hk,ttww22.com,xinhuanet.com,ylnet.com.cn###ad1
+90oo.com,p9.com.tw,price.com.hk,ttww22.com,xinhuanet.com###ad1
 booklink.me,p9.com.tw###ad2
 efu.com.cn###ad4
 price.com.hk###ad5
@@ -14559,7 +14557,6 @@ cztv.com###adsmall
 wenxuecity.com###adt
 weather.com.cn###adtop_r
 hdshare.cn,it168.com###adv
-chinabyte.com###adv-button
 js0573.com###adv1
 js0573.com###adv2
 wenku8.net###adv300
@@ -15715,7 +15712,6 @@ iqiyi.com###widget-jingdongAd
 qsptv.net###widget-weixin
 ccav1.com###widget_da
 huanqiu.com###winNext
-ylnet.com.cn###winpop1
 news.baidu.com###women-picwall
 chazidian.com###worldcup_float
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###worldcup_guess_frs_wrap
@@ -15822,7 +15818,7 @@ aiyuke.com##.GGad
 3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
 3dmgame.com##.Gmaeinfobtn_tab > span
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn501.com##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn503.com##.GzList
 le.com##.H-tg
 diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
@@ -18388,7 +18384,7 @@ manmanw.net##.tlads
 esnai.com##.tlgg
 maxthon.cn##.tmall-nav-v2
 ##.tmall_bg15
-booom.net,x6d.com,ziyuanyo.com##.tmall_tab
+booom.net,x6d.com##.tmall_tab
 qq.com##.tmallredpacket
 qq.com##.tmallskin
 sxrom.com##.tmk
@@ -18905,7 +18901,7 @@ v.qq.com##a[href*="amway.com.cn"]
 kanqiuba.net##a[href*="bet"]
 141jj.com,99kubo.tv,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
 dapenti.com##a[href*="cashier.iqiyi.com"]
-cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent."]
+cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent.com"]
 editcode.net##a[href*="cloud.tencent.com"]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
