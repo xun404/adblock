@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ehAcxdGPcjUtGBQTptAv6g
+! Checksum: H04liUQIKGYW8kX7zy5mDA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211160741
-! Last Modified: 2022年11月16日 07:41
+! Version: 202211161030
+! Last Modified: 2022年11月16日 10:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56079,6 +56079,7 @@ tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
 outlook.live.com#?#div:-abp-has(> div > div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
+bbc.com#?#li[class*="-ListItem"]:-abp-has(div.dotcom-ad)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 bleepingcomputer.com#?##bc-home-news-main-wrap > li:-abp-contains(Sponsored Content)
@@ -59271,6 +59272,11 @@ ubmcmm.baidustatic.com
 ||z66ggsh.top^
 ||zdy1.xyz^
 ||zw2b9.cn^
+||gkofzfi.cn^
+||oqnggnsk.fun^
+||jpai.xyz^
+||itheq.xyz^
+||gpsncbo.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
