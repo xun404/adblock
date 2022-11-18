@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p9P1WpNmo4Z0vTFulZ8X8Q
+! Checksum: XF4DNuCX8cVzWLRJFc7WBw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211180741
-! Last Modified: 2022年11月18日 07:41
+! Version: 202211181032
+! Last Modified: 2022年11月18日 10:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -811,7 +811,7 @@ tieba.baidu.com##.tuijian-wrap
 .topad.
 .tv/adl.
 .tv/ads.
-.tv/ads/
+.tv/ads/$image,script,subdocument
 .twoads.
 .tz/ads/
 .ug/ads/
@@ -53584,6 +53584,7 @@ total-croatia-news.com##.custombanner
 coincarp.com##.customspon
 jobhits.co.uk##.cvads
 futurecurrencyforecast.com##.cwc-tor-widget
+usmagazine.com##.cy-storyblock
 bleepingcomputer.com##.cz-toa-wrapp
 blockchair.com##.d-block
 mangamiso.net##.d-flex-row
@@ -58304,7 +58305,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /qiuyi-gg-wrapper-
 /qpxl.js
 /qqlive/conf/playerlottery/*
-/r/*?_r=$object,third-party
+/r/*?_r=$object,subdocument,third-party
 /r/t1/*$subdocument,third-party
 /red2/ad/*
 /remix_banner.gif
@@ -59372,6 +59373,10 @@ ubmcmm.baidustatic.com
 ||yijfdsu.cn^
 ||pjjlbjd.cn^
 ||zjws.xyz^
+||q88j2.top^
+||iuerxw.xyz^
+||qdc7y9x.xyz^
+||9795x.com^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
