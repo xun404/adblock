@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8F6zVRwlsIuMyNwqrQK0Ow
+! Checksum: n16BDGIYwMco5KfjRjikeg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211190053
-! Last Modified: 2022年11月19日 00:53
+! Version: 202211190247
+! Last Modified: 2022年11月19日 02:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49200,6 +49200,7 @@ tf2r.com#@#.adverts
 ||adform.net/banners/$third-party
 ||adform.net/serving/$third-party
 ||ads-sg.tiktok.com^
+||ads-yallo-production.imgix.net^
 ||ads.audio.thisisdax.com^
 ||ads.linkedin.com^$third-party
 ||ads.servebom.com^
@@ -55574,6 +55575,7 @@ sportinglife.com##div[class^="Article__FlashTalkingWrapper-"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
 cnbc.com##div[class^="BoxRail-Styles-"]
+yallo.tv##div[class^="BrandingBackgroundstyled__Wrapper-"]
 apnews.com##div[class^="Component-adTitle-"]
 apnews.com##div[class^="Component-dfp-"]
 apnews.com##div[class^="Component-placeholderWrapper-"]
@@ -109937,6 +109939,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.segment.com/v1/projects/
 @@||cedaron.visualstudio.com/*TrackingData.cs$~third-party
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
+@@||channel.images.production.web.w4a.tv^*/ard.png?$domain=yallo.tv
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||check.ddos-guard.net/check.js$script
@@ -110420,7 +110423,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtag/js$script,domain=modehasen.de
-@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|focus.de|freenet-funk.de|idealo.at|idealo.de|karriere.at|oetker-shop.de|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|focus.de|freenet-funk.de|idealo.at|idealo.de|karriere.at|oetker-shop.de|radiorur.de|rtl.de|saturn.at|spektrum.de|sport1.de|vip.de|vox.de
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
