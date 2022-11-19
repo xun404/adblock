@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: czdU1lx4P5GVC1gXSpHM4A
+! Checksum: M3AVxsaNdbRRgSaBQTKvEg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202211192101
-! Last Modified: 2022年11月19日 21:01
+! Version: 202211192142
+! Last Modified: 2022年11月19日 21:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -584,6 +584,7 @@ xz6d.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/letv-gug/*
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -11286,8 +11287,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aqlife.com/data/attachment/portal/
 ||aqy103.com/js/aqy/
 ||ark.le.com/s?vid=
-||ark.letv.com/s?res=
-||ark.letv.com/s?vid=
 ||ashow.pcpop.com^
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -13169,9 +13168,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||lenovo.com.cn/lenovo/bid?clientType=
 ||lensdump.com/i/*.gif
 ||letv.com/pzt/hyhmzq/index.shtml
-||letv.com/s?ark=
-||letvcdn.com/js/*_focus_flash.js
-||letvimg.com^*/108x70$object
 ||lezhuan.com/js/spread.js
 ||lgmi.com/ggimg/
 ||lgmi.com/left_right_
@@ -14943,7 +14939,7 @@ uc123.com###J_shoppingPush
 duba.com,iduba.com,newduba.cn###J_sideFooter
 chem99.com###J_tcode
 2345.com###J_tip_stopXP
-61.hz.letv.com,61.iqiyi.com,v.61.com###J_videoBox > .view
+61.iqiyi.com,v.61.com###J_videoBox > .view
 jin10.com###J_wdgg_t
 qzwb.com###Javascript\.RightDiv
 pconline.com.cn###JdlFixed
@@ -20878,8 +20874,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||laotiesao.vip^$generichide
 @@||lefile.cn/??*,
 @@||lemall.com/adspace/
-@@||letv.com/tuiguang/$subdocument
-@@||letvcloud.com^*&showAd=
 @@||libs.baidu.com^$domain=m.supfree.net
 @@||linetv.tw^*/scripts/ads.js
 @@||litv.tv/ads/ads.js
