@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NzMrxNoq8lvRrHZrke6EJQ
+! Checksum: F0w3wEaxHH6aBSNy3D9obg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202211190741
-! Last Modified: 2022年11月19日 07:41
+! Version: 202211191023
+! Last Modified: 2022年11月19日 10:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -13203,7 +13203,6 @@ _800x80_
 ##.adban
 ##.adban-hold-narrow
 ##.adband
-##.adbanner
 ##.adbanner-300-250
 ##.adbanner-bottom
 ##.adbanner1
@@ -22401,7 +22400,6 @@ modelhorseblab.com#@#.ad_global_header
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
 huffingtonpost.co.uk#@#.ad_spot
 genshinimpactcalculator.com#@#.adban
-hdfcbank.com#@#.adbanner
 mediance.com#@#.adcenter
 insomnia.gr,kingsinteriors.co.uk#@#.adlink
 ascii.jp#@#.adrect
@@ -52772,6 +52770,7 @@ swarajyamag.com##._1eNH8
 thequint.com##._1v3nU
 tvzoneuk.com##._2JOHk
 rightmove.co.uk##._2X2laxgNfgPGfZQTFoPUsd
+jeffdornik.com##._2kEVY
 coderwall.com##._300x250
 rightmove.co.uk##._3G_zutXOLAwgpG1cvkF6ii
 timesofindia.indiatimes.com##._3JJMX
@@ -59112,6 +59111,9 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
+##a.ad_links
+##.module-adslists
+###bfad1
 ##script + #rbbox
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -59293,6 +59295,8 @@ ubmcmm.baidustatic.com
 ||vggzftw.cn^
 ||zjttaqx.cn^
 ||bjzb.xyz^
+||kjcvw.xyz^
+##a[href="https://xq97.com"]
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -71967,6 +71971,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -85354,6 +85359,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wildfire/i/CIMP.gif?
 /wisdom_tracking.
 /wiseRtSvcVisit.
+/wix-engage-visitors-
 /wjcounter-
 /wjcounter.
 /wjcountercore.
@@ -90317,6 +90323,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spitefulstop.com^
 ||spongesalt.com^
 ||spookyexchange.com^
+||spookyskate.com^
 ||spookysleet.com^
 ||spookyslope.com^
 ||spoonsilk.com^
