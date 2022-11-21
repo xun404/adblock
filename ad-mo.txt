@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y3Fajl10QfUThQqLGiSHDw
+! Checksum: rLFCrvZOdIr3gPOjNfRT5Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202211211938
-! Last Modified: 2022年11月21日 19:38
+! Version: 202211212118
+! Last Modified: 2022年11月21日 21:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18104,6 +18104,7 @@ _800x80_
 ##.isAd
 ##.isAdPage
 ##.isad_box
+##.ise-ad
 ##.island-ad
 ##.islandAd
 ##.islandAdvert
@@ -57751,6 +57752,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+||zhizhizhizhi.oss-*.aliyuncs.com^
 /download-link-js/?v=$script,~third-party
 -1688-wp-media/ads/
 -90mh-gg.
@@ -59383,6 +59385,7 @@ ubmcmm.baidustatic.com
 ||eapsmnw.cyou^
 ||toijr.xyz^
 ||b4jy.top^
+||vjianshen1688.com^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -68435,7 +68438,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aliyuncs.com/public/v1/js/ad-config.
 ||aliyuncs.com/vss/haotu.js
 ||aliyuncs.com/wjy99re/
-||aliyuncs.com^$domain=5kym.com|zzkdhb.com
+||aliyuncs.com^$domain=5kym.com
 ||allbeauty.com.tw/GoldPrice/*_CF.php
 ||alu.cn*/aluad/
 ||alu.cn/alutg/
@@ -81188,6 +81191,7 @@ fqsousou.com,kengso.com#@#.user-share
 /beacon/user-data
 /beacon/v1/batch?
 /beacon/vtn_loader.gif?
+/beacon?cust=
 /beacon_async.
 /beacon_img?
 /beaconconfigs/*
