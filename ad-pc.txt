@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3kv9dJtbycVUe7P6KbJOwQ
+! Checksum: I2oEFn0tUvyzOiSItwiAHw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211210741
-! Last Modified: 2022年11月21日 07:41
+! Version: 202211211028
+! Last Modified: 2022年11月21日 10:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57863,6 +57863,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/download-link-js/?v=$script,~third-party
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -59482,6 +59483,9 @@ ubmcmm.baidustatic.com
 ||zw2b9.cn^
 ||wzdy.xyz^
 ||cvemhco.cn^
+||kjndc.xyz^
+||iddhui.com^
+||xf2pf.top^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -70650,7 +70654,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfav88.com/yinzi/
 ||mg21.com/wp-content/uploads/ad/
-||mgjiasu.com/download-link-js/
 ||mh1234.com/gd/g_js/
 ||mh1234.com^*/wap*.js
 ||mh3666.com^*.jsonp
@@ -86777,6 +86780,7 @@ _mongo_stats/
 ||awin1.com^$third-party
 ||awstrack.me^$third-party
 ||axf8.net^$third-party
+||axiom.co^$third-party
 ||azalead.com^$third-party
 ||azera-s014.com^$third-party
 ||azointel.com^$third-party
@@ -96487,6 +96491,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||simon.com/46SCNLxs/init.js
 ||skechers.com/dL6GOSf9/init.js
 ||stockx.com/16uD0kOF/init.js
+||studeersnel.nl/27m703Hm/init.js
 ||studocu.com/27m703Hm/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
 ||therealreal.com/ev56mY37/init.js
@@ -110137,6 +110142,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||getflywheel.com/addons/google-analytics/$~third-party
+@@||getpublica.com/playlist.m3u8$xmlhttprequest
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||glenat.com^*/static/analytics.js$script,~third-party
