@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KykfYpb61Vlc9cQ9AyAISA
+! Checksum: ++66c83RZ1YWwYBdPaboCg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211231937
-! Last Modified: 2022年11月23日 19:37
+! Version: 202211232105
+! Last Modified: 2022年11月23日 21:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57779,6 +57779,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||strangermeetup.com/socket.io/$~third-party
 @@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
+@@||supabase.co/rest/v1/advert$domain=matchers.fr
 @@||tabiat.gov.tr/KACMS/Files/ad-$image,~third-party
 @@||tcm-koko.ed.jp/images/ad.jpg
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
@@ -59614,6 +59615,7 @@ ubmcmm.baidustatic.com
 ||065yuyu.com^
 ||lksdj.com^
 ||ptijx.xyz^
+||querulous-type.com^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -72279,6 +72281,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bnext.com.tw##div[id^="sponsor-"]
+vikacg.com###custom_html-9
+bnext.com.tw##div[data-aid]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
