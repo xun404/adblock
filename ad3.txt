@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oeL17BTVbUr4VWVZ43hcaw
+! Checksum: Xi5/2DZBDB/d3ianaS+UlQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202211261937
-! Last Modified: 2022年11月26日 19:37
+! Version: 202211262139
+! Last Modified: 2022年11月26日 21:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1862,6 +1862,7 @@ ubmcmm.baidustatic.com
 ||lejso.com^
 ||oapsmnk.cyou^
 ||kq7k.icu^
+##a[href$="/tv826.com"]
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -18299,6 +18300,7 @@ baidu.com,bdimg.com##.shield-agent-tb-feed
 hao.rising.cn##.shop-site
 teepr.com##.shop-widget
 qiushibaike.com##.shopwindow
+dyxs11.com,dianyingim.com##.shortcuts-m-overlay
 dianyingim.com,dyxs11.com##.shortcuts-mobile-overlay
 ilxdh.com##.show-container
 pixabay.com##.show-gtty-item
@@ -23660,6 +23662,8 @@ _box_ad_
 ||3dmgame.com/page/js/indexalert_ad.
 ||nicelinks.site/ad-block-
 !------------------------Specific element hiding rules------------------------!
+iciba.com##div[class^="Kyad_"]
+yahoo.com###module-appPromoBanner
 findlaw.cn###wlcommonbot
 huanqiu.com##.right-box > article-other-template
 3dmgame.com##.dj_warp_e
