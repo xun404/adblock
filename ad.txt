@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y3XRj44L6GW4pj+eYcKUYw
+! Checksum: j+5IXxJZg8wIxelsp0WXpg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202211270738
-! Last Modified: 2022年11月27日 07:38
+! Version: 202211271019
+! Last Modified: 2022年11月27日 10:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -584,6 +584,7 @@ xz6d.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/app/pcBanner/getBannerConfig/v2
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -2312,6 +2313,8 @@ ubmcmm.baidustatic.com
 ||lapsmnl.cyou^
 ||vqjxlie.cn^
 ||xafc.xyz^
+||aiupiyd.cn^
+||mhhsa.xyz^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -20710,6 +20713,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
 @@||99wbwc.com^$generichide
+@@||smsonline.cloud^$generichide
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@||9zvip.net^$elemhide
