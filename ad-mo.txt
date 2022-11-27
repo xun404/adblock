@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ikbSUqOSEVR5k0HdciekaQ
+! Checksum: UbWuczuPT6bwCLMPrzuttw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202211272058
-! Last Modified: 2022年11月27日 20:58
+! Version: 202211272139
+! Last Modified: 2022年11月27日 21:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12213,7 +12213,6 @@ _800x80_
 ##.ad336x250
 ##.ad336x280
 ##.ad336x362
-##.ad336х280_desk
 ##.ad343x290
 ##.ad350
 ##.ad350r
@@ -50388,7 +50387,7 @@ tf2r.com#@#.adverts
 ||profitsurvey365.live^$popup
 ||promo.20bet.partners^$popup
 ||quantumadblocker.com^$popup
-||rdr.wargaming.net^popup,third-party
+||rdr.wargaming.net^$popup,third-party
 ||record.affiliatelounge.com^$popup
 ||redir.tradedoubler.com/projectr/$popup
 ||serve.prestigecasino.com^$popup
@@ -50405,7 +50404,7 @@ tf2r.com#@#.adverts
 ||theonlineuserprotector.com/download-guard/$popup,third-party
 ||torrent-protection.com^$popup
 ||track.kinetiksoft.com^$popup,third-party
-||trck.wargaming.net^popup,third-party
+||trck.wargaming.net^$popup,third-party
 ||ublockpop.com/rect.php?$popup
 ||ultimate-ad-eraser.com^$popup
 ||unibet.co.uk/*affiliate$popup
@@ -56691,7 +56690,7 @@ pornoreino.com##.bottom-bang
 hentaigamer.org##.bottom-banner-home
 alphaporno.com##.bottom-banners
 elephanttube.world##.bottom-block
-dailyporn.club##.bottom-blocks
+dailyporn.club,risextube.com##.bottom-blocks
 teenpornvideo.xxx##.bottom-spots
 youtubelike.com##.bottom-thumbs
 youtubelike.com##.bottom-top
@@ -56772,6 +56771,7 @@ hotmovs.com,thegay.com##.fiioed
 sexyandfunny.com##.firstblock
 ah-me.com,gaygo.tv##.flirt-block
 asiangaysex.net,gaysex.tv##.float-ck
+risextube.com##.floating
 yourlust.com##.fluid_html_on_pause
 stileproject.com##.fluid_nonLinear_bottom
 porn.com##.foot-zn
@@ -57735,6 +57735,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
 @@||afreecatv.com/js/plugin/ad/preroll.js$script,domain=afreecatv.com
 @@||aiasahi.jp/ads/$image,domain=japan.techrepublic.com|japan.zdnet.com
+@@||amazon-adsystem.com/e/cm?$subdocument,domain=atcoder.jp
 @@||amazon-adsystem.com/e/ir?$image,domain=kasi-time.com
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
@@ -57745,6 +57746,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
 @@||asahicom.jp/ads/$image,script,stylesheet,domain=asahi.com
 @@||ascii.jp/img/ad/$image,~third-party
+@@||assoc-amazon.com/widgets/cm?$subdocument,domain=atcoder.jp
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||banc.jp/images/ad/$image,~third-party
 @@||banki.ru/bitrix/*/advertising.block/$stylesheet
@@ -59749,6 +59751,8 @@ ubmcmm.baidustatic.com
 ||eidphap.cn^
 ||simi2345.com^
 ||sjcm.fun^
+||yihehe.xyz^
+||pnesemr.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -86699,6 +86703,7 @@ _mongo_stats/
 ||progmxs.com^
 ||propeller-tracking.com^
 ||pubtm.com^
+||push-sdk.net^
 ||pzapi-ij.com^
 ||pzimff.com^
 ||quantserve.com^
@@ -95754,6 +95759,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fc2.com/ana/processor.php?
 ||fc2.com/counter_img.php?
 ||fdt.kraken.com^
+||findmatches.com/bts.js
+||findmatches.com/t/tr/lp/intg.js?
+||findmatches.com/tri?tid=
 ||fingerprintjs.com/visitors/
 ||firebaselogging.googleapis.com^
 ||fishki.net/counter/
@@ -96163,6 +96171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||retargeting.vistaprint.com^
 ||reverbnation.com/api/user/app_events
 ||rfk.biglots.com^
+||risextube.com/t/
 ||roblox.com/report
 ||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
