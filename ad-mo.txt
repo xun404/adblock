@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GkLKQaF55/5vlmmzmyYHwQ
+! Checksum: LUzpnwKP1fSjh83omGC7qQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202211271127
-! Last Modified: 2022年11月27日 11:27
+! Version: 202211271641
+! Last Modified: 2022年11月27日 16:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -44895,6 +44895,7 @@ tf2r.com#@#.adverts
 ||adorika.com^$third-party
 ||adorion.net^$third-party
 ||adosia.com^$third-party
+||adotone.com^$third-party
 ||adparlor.com^$third-party
 ||adpay.com^$third-party
 ||adpays.net^$third-party
@@ -59377,6 +59378,7 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.mobadsq
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -59691,6 +59693,10 @@ ubmcmm.baidustatic.com
 ||xafc.xyz^
 ||aiupiyd.cn^
 ||mhhsa.xyz^
+||utlove02.com^$third-party
+||zgfdczj.mobi^
+||eidphap.cn^
+||simi2345.com^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -72360,6 +72366,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mm-cg.com##.ut1_img_content_js
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
