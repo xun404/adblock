@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XFqxPXrpvqq/WH/oU1H3rA
+! Checksum: mDGge6yc3Ul1saxniEfxFA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211281012
-! Last Modified: 2022年11月28日 10:12
+! Version: 202211281110
+! Last Modified: 2022年11月28日 11:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -92623,6 +92623,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect-eu.attraqt.io^
 ||collect.*.miui.com^
 ||collect.cloudsponge.com^
+||collect.igodigital.com^
 ||collect.iteam-dress.com^
 ||collect.rewardstyle.com^
 ||collect.usefathom.com^
@@ -110482,6 +110483,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cognition-va.bytedance.com/api/knowledge/$xmlhttprequest,domain=ads.tiktok.com
 @@||cohesionapps.com/cohesion/$script,subdocument,domain=frontier.com
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
+@@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|goodwillfinds.com|samash.com|vitalsource.com|wilsonparking.com.au
 @@||collusion.com/static/analytics.js$script,~third-party
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||community.brave.com/t/$xmlhttprequest
