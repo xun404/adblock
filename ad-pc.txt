@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3uC802uZXtU7JX48pcEdUQ
+! Checksum: b080rdxRmIxsAhIY0FYunQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202211301937
-! Last Modified: 2022年11月30日 19:37
+! Version: 202211302106
+! Last Modified: 2022年11月30日 21:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16708,6 +16708,7 @@ _800x80_
 ##.custom_ad
 ##.custom_ad_responsive
 ##.custom_ads
+##.custom_ads_positions
 ##.custom_banner_ad
 ##.custom_footer_ad
 ##.customadvert
@@ -72677,6 +72678,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nextapple.com###lrec01
+nextapple.com##div[class^="na-ad-"]
+bnext.com.tw#?#.v-card:-abp-has(.grey--text:-abp-contains(Sponsored by))
 likefont.com##.advert
 yomahub.com##.sidebar-slot
 szxx.com.cn###A1
@@ -78260,6 +78264,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||ad.vivo.com.cn^$~third-party
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -110814,7 +110819,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|usbank.com|vitacost.com|westernunion.com
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||munchkin.marketo.net/munchkin.js$domain=telus.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
