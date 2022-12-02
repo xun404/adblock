@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rdQIuDTflVh75Ta2P7OJDg
+! Checksum: P+04aktH3KMQkY5StLzaWg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202212020738
-! Last Modified: 2022年12月02日 07:38
+! Version: 202212021005
+! Last Modified: 2022年12月02日 10:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20997,6 +20997,7 @@ _800x80_
 ##.top-ad-inside
 ##.top-ad-module
 ##.top-ad-multiplex
+##.top-ad-recirc
 ##.top-ad-right
 ##.top-ad-sidebar
 ##.top-ad-slot
@@ -54707,6 +54708,7 @@ motorsport.com##.ms-apb-dmpu
 autosport.com,motorsport.com##.ms-hapb
 autosport.com##.ms-side-items--with-banner
 codeproject.com##.msg-300x250
+presearch.com##.mt-4.mx-2
 marinetraffic.com##.mt-desktop-mode
 zerolives.com##.munder-fn5udnsn
 d123movies.to,yifymovies.one##.mvic-btn
@@ -54714,6 +54716,7 @@ cannabishealthnews.co.uk##.mvp-side-widget img
 malwaretips.com##.mwt_ads
 invezz.com,reviewparking.com##.mx-auto
 standardmedia.co.ke##.my-2
+presearch.com##.my-4.mx-2
 greatist.com,psychcentral.com##.myFinance-widget
 troypoint.com##.mysticky-welcomebar-fixed-wrap
 koreaherald.com##.mythiell-mid-container
@@ -55865,7 +55868,6 @@ drwealth.com##[width="640"]
 4chan.org##[width="728"]
 elitepvpers.com##[width="729"]
 elitepvpers.com##[width="966"]
-presearch.com##[x-data*="kAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 freshplaza.com##a.banner
@@ -59746,6 +59748,7 @@ ubmcmm.baidustatic.com
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 /\.ahp[0-9]{2}\.site:/$script,third-party
 /\.zdx[0-9]{1,2}\.site:/$script,third-party
+/\.htkk[0-9]{1,2}\.top:/$script,third-party
 ||23.234.217.11^
 ||23.234.217.12^
 ##a[href$="/tv826.com"]
@@ -60100,6 +60103,8 @@ ubmcmm.baidustatic.com
 ||qbcydxr.cn^
 ||jghmrie.cn^
 ||lbzx.xyz^
+||bmmogb.xyz^
+||htkk2.top^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
