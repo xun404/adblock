@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /lBO6j0ur1vtSRZ3w2lX+Q
+! Checksum: C/7OxsYhz8uZbTeStb1f1Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202212021537
-! Last Modified: 2022年12月02日 15:37
+! Version: 202212022057
+! Last Modified: 2022年12月02日 20:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -5799,6 +5799,7 @@ _800x80_
 ###ad-leaderboard-bottom
 ###ad-leaderboard-container
 ###ad-leaderboard-footer
+###ad-leaderboard-header
 ###ad-leaderboard-spot
 ###ad-leaderboard-top
 ###ad-leaderboard970x90home
@@ -11369,6 +11370,7 @@ _800x80_
 ##.ad-h-250
 ##.ad-h-60
 ##.ad-halfpage
+##.ad-halfpage-placeholder
 ##.ad-hdr
 ##.ad-head
 ##.ad-header
@@ -11400,6 +11402,7 @@ _800x80_
 ##.ad-holder-mob-300
 ##.ad-home-bottom
 ##.ad-home-featured-files
+##.ad-home-leaderboard-placeholder
 ##.ad-home-right
 ##.ad-homeleaderboard
 ##.ad-homepage
@@ -11480,7 +11483,9 @@ _800x80_
 ##.ad-leaderboard-container
 ##.ad-leaderboard-flex
 ##.ad-leaderboard-footer
+##.ad-leaderboard-header
 ##.ad-leaderboard-middle
+##.ad-leaderboard-placeholder
 ##.ad-leaderboard-slot
 ##.ad-leaderboard-splitter
 ##.ad-leaderboard-top
@@ -59539,6 +59544,7 @@ ubmcmm.baidustatic.com
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
+##a[href*="://4"] > img[src*=".woshipm.com"]
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
@@ -60011,6 +60017,10 @@ ubmcmm.baidustatic.com
 ||bh2q.fun^
 ||gyhyhyq.website^
 ||wotmvdc.cn^
+||enzagpt.cn^
+||rkkhuwl.cn^
+||hmgzhqe.cn^
+||crleii.xyz^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
