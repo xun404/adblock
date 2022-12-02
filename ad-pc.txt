@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P+04aktH3KMQkY5StLzaWg
+! Checksum: 2DSvdrmN+ZfGPYScb4+TNQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202212021005
-! Last Modified: 2022年12月02日 10:05
+! Version: 202212021102
+! Last Modified: 2022年12月02日 11:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -13417,6 +13417,8 @@ _800x80_
 ##.adbucks
 ##.adbug
 ##.adbutler-inline-ad
+##.adbutler-top-banner
+##.adbutler_top_banner
 ##.adbutton
 ##.adbutton-block
 ##.adbuttons
@@ -24230,6 +24232,7 @@ tf2r.com#@#.adverts
 ||aezhvlybcijv.com^
 ||afa9bdfa63bf7.com^
 ||afaaugct.com^
+||afcnuchxgo.com^
 ||afcontent.net^
 ||afcyhf.com^
 ||afdads.com^
@@ -39792,6 +39795,7 @@ tf2r.com#@#.adverts
 ||rubcomplaintdimly.com^
 ||rubiconproject.com^
 ||rubsayprelude.com^
+||rubymillsnpro.com^
 ||rucegipti.com^
 ||rucixlgwpb.com^
 ||rucrop.com^
@@ -50851,6 +50855,7 @@ tf2r.com#@#.adverts
 ||rhinoslist.com/sideb/get_laid-300.gif
 ||rss.dtiserv.com^
 ||ruscams.com/promo/
+||s3t3d2y8.afcdn.net^
 ||saboom.com.pccdn.com^*/banner/
 ||sakuralive.com/dynamicbanner/
 ||scoreland.com/banner/
@@ -52086,6 +52091,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockeronstape.me
 ||jerkdude.com/log300.jpg
 ||joysporn.sex/js/pj.js
 ||k-teen.com/banner/
+||kbjfree.com/assets/scripts/popad.js
 ||kindgirls.com/banners2/
 ||kompoz2.com/js/take.max.js
 ||koushoku.org/proxy?
@@ -52195,6 +52201,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockeronstape.me
 ||shemalez.com/jfceqdszpsh/
 ||simpasian.net/a37z321.js
 ||simply-hentai.com/prod/
+||slave.kbjfree.com^
 ||sleazyneasy.com/jsb/
 ||slutdump.com/flat-butterfly-c5e3/
 ||slview.psne.jp^
@@ -57089,6 +57096,7 @@ xxxonxxx.com,youtubelike.com##.gallery-thumbs
 cliniqueregain.com,tallermaintenancar.com##.girl
 sexybabegirls.com##.girlsgirls
 bravoteens.com##.good_list_wrap
+kbjfree.com##.h-\[250px\]
 amateur-vids.eu,mature.community,mature.mom,mature.sexy,mature.studio,milf.community,milf.mom,milf.plus,milf.sexy##.happy-footer
 gigapornmovies.com,indianpornvideos2.com##.happy-footer-mobile
 koreanstreamer.xyz##.happy-header
@@ -57383,6 +57391,7 @@ yourlust.com##.visit_cs
 eporner.com##.vjs-inplayer-container
 upornia.tube##.voiscscttnn
 japan-whores.com##.vp-info
+kbjfree.com##.w-\[728px\]
 3prn.com##.w-spots
 upornia.com,upornia.tube##.wcccswvsyvk
 trannygem.com##.we_are_sorry
@@ -57545,6 +57554,7 @@ crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
 darknessporn.com,familyporner.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
 erofus.com#?#div:-abp-has(> .ad)
+kbjfree.com#?#.relative.w-full:-abp-has(> .video-card[target="_blank"])
 pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
 pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
@@ -91851,6 +91861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.foresee.com^
 ||analytics.formstack.com^
 ||analytics.google.com^$third-party
+||analytics.googlepeer.cloud^
 ||analytics.groupe-seb.com^
 ||analytics.growthphysics.com^
 ||analytics.gvim.mobi^
@@ -94474,6 +94485,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.byzon.swelen.net^$third-party
 ||track.kyoads.com^
 ||track.laredoute.fr^$image
+||track.myli.io^
 ||tracking.ecookie.fr^
 ||tracking.kdata.fr^
 ||tracking.lqm.io^
@@ -109591,11 +109603,16 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||astat.nikkei.com^
 ||barks.jp/v1/stats
 ||beacon.watch.impress.co.jp^
+||beat.yourtv.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
+||d-log.asahi.co.jp^
+||d-log.bs-asahi.tv^
+||d-log.tv-asahi.co.jp^
+||d.tv-asahi.co.jp^
 ||dmm.com/analytics/
 ||dmm.com/imp?
 ||dxlive.com/js/dtrace.js
@@ -109621,6 +109638,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rakuten.co.jp/gw.js
 ||rat.rakuten.co.jp^
 ||rdsig.yahoo.co.jp^$image
+||recv-entry.tbs.co.jp^
+||recv-jnn.tbs.co.jp^
 ||retty.me/gen204.php
 ||retty.me/javascripts/common/logging.js
 ||revive-chat.io/js/tracking-min.js
@@ -109634,6 +109653,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tracking.game8.jp^
 ||tsite.jp/static/analytics/
 ||tv-asahi.co.jp/official/logging?
+||view.fujitv.co.jp^
 ||wisteria-js.excite.co.jp^
 ||x.allabout.co.jp^
 ||yahoo.co.jp/b?p=
