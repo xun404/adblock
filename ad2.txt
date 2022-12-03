@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3FSFyXfEOSEZJ51yeKrH5g
+! Checksum: oPkDquj1uVCpacE4lSp3/g
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202212032137
-! Last Modified: 2022年12月03日 21:37
+! Version: 202212032237
+! Last Modified: 2022年12月03日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1835,6 +1835,8 @@ ubmcmm.baidustatic.com
 ||tx888.wang^
 ||whqxj.xyz^
 ||dangongshijie.com^
+||lwhqa.xyz^
+##a[href*="/b6314.com:"]
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -13882,6 +13884,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+itdog.cn#?#.card:-abp-has(a[href*=".jimcloud.net"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17327,7 +17330,7 @@ dmh8.me##.padding-0 > ul[style]
 cssmoban.com##.page-banner
 contents.internet.apps.samsung.com##.page-bar
 qidian.com##.page-ops
-itdog.cn##.page-wrapper > .col-12.mb-3
+itdog.cn##div[style="border: 1px solid #dadada;padding: 6px 10px 5px 5px;height: 64px;background-color: #ffffff;"]
 boce.com##.page10Box1 > a[href^="http"]:not([href*="boce."])
 cngold.org##.pageAdv
 baidu.com##.pageLeftFixedAD
