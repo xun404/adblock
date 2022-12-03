@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hEUf1h4BKxcudhLkahOIzw
+! Checksum: VEdyiP914C5Y1beCQYT3vQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212031838
-! Last Modified: 2022年12月03日 18:38
+! Version: 202212032054
+! Last Modified: 2022年12月03日 20:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -33169,7 +33169,6 @@ _mongo_stats/
 ||waplog.net^$third-party
 ||waudit.cz^$third-party
 ||waust.at^$third-party
-||wazimo.com^$third-party
 ||wbdx.fr^$third-party
 ||wbtrk.net^$third-party
 ||wc4.net^$image,third-party
@@ -38031,6 +38030,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||warnermedia.com/api/v1/events?
+||wazimo.com/engine/common/widgets/mmlogger/main.js
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-soft.in/counters/
@@ -54638,6 +54638,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
 @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
 @@||walmart.ca/assets/store-selector-page/js/analytics.$script,~third-party
+@@||wazimo.com/engine/common/widgets/content/main.js$domain=showsnob.com
 @@||web.dev/patterns/web-vitals-$~third-party
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
