@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JIUQerwlrDl0gr8yt0QhNA
+! Checksum: FsV/caNkQKhoY7Z1AKJuOg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202212052059
-! Last Modified: 2022年12月05日 20:59
+! Version: 202212062102
+! Last Modified: 2022年12月06日 21:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1893,7 +1893,6 @@ netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-
 blog.abit.vn#$#abort-on-property-read document.cookie
 phimmoik.com#$#json-prune ads
 90phut6.live#$#abort-current-inline-script $ overlay;abort-current-inline-script setTimeout overlay
-xoilac5.live#$#abort-current-inline-script jQuery overlay
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 watchsb.com#$#abort-on-property-read __Y
@@ -1930,11 +1929,13 @@ nguontv.org#$#abort-current-inline-script encodeURIComponent popunder
 ||pssy.xyz^$domain=animevi.net
 player-cdn.com#$#abort-on-property-read Math.random; override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-vebo5.net,xoilac5.net##.modal.fade.show
-vebo5.net,xoilac5.net#$#abort-current-inline-script jQuery popupBanners
-vebo5.net,xoilac5.net#$#abort-on-property-read adsRedirectPopups
+xoilac19.tv##.modal.fade.show
+xoilac19.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac19.tv#$#abort-on-property-read adsRedirectPopups
+xoilac19.tv#$#abort-current-inline-script jQuery overlay
 sex369.net,viet69.tv,sexvietnam.site,phimhoathinh3d.com#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement script;override-property-read DisplayHTMLAdsBlock noopFunc;abort-current-inline-script $ open
+phimhanz.me#$#abort-current-inline-script jQuery showPopupSearchKey
 javnong.cc#$#abort-on-property-read Math.round
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2830
