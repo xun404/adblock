@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PauncnXsO5CcPvK33sU83w
+! Checksum: hnnp6XJAdiaK7Fxki0Duuw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202212072339
-! Last Modified: 2022年12月07日 23:39
+! Version: 202212080337
+! Last Modified: 2022年12月08日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1678,6 +1678,7 @@ sportowefakty.wp.pl#$#hide-if-matches-xpath '//div[@class ][1]/div[not(*) and no
 sportowefakty.wp.pl#$#hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]'
 www.wp.pl#$#hide-if-matches-xpath '//div[@class]/a[contains(@href,"wp.pl/")]/img[contains(@src,"v.wpimg.pl/")]/following::div[1]/parent::div[@class][not(@data-st-area)]'
 www.wp.pl#$#hide-if-matches-xpath '//div[@class]/a[contains(@href,"wp.pl/")]/div[1]/following::div[3]/preceding::img[contains(@src,"v.wpimg.pl/")]/parent::div[@style="height: 60px;"]'
+o2.pl##div[class$="cevoIl"]
 ! MISC
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
 naekranie.pl#$#abort-on-property-read adQueue
