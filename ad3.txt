@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yptb9E3HyC4XPNO3//MHNw
+! Checksum: eC1S5FP07q3SVziNBd2GLw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212080738
-! Last Modified: 2022年12月08日 07:38
+! Version: 202212081004
+! Last Modified: 2022年12月08日 10:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1547,6 +1547,7 @@ ubmcmm.baidustatic.com
 ##div[style^="position"][onclick^="window.open"]
 ##dl#listwoBox
 ##img#adv1
+###arBRyGHxuDYU
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -2038,6 +2039,10 @@ ubmcmm.baidustatic.com
 ||ggsdogn.cn^
 ||hhgxbxk.cn^
 ||qingfeng.homes^
+||qibmrq.xyz^
+||xtzx.xyz^
+##a[href*="/kk5377.com:"]
+##a[href*="/wns8499608.xyz"]
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -29669,6 +29674,7 @@ m.babytree.com##script + a[class]
 /web-analytics.
 /web-analytics/*
 /web-api/log/*
+/web-data-ingress?
 /web-js-telemetry-service/*
 /web-vitals-
 /web-vitals.
