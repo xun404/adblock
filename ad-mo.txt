@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 19abO4fTGrqzrWI5fFi8ug
+! Checksum: TzjSIEvjFNgsvME6NJtxMQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202212081937
-! Last Modified: 2022年12月08日 19:37
+! Version: 202212082059
+! Last Modified: 2022年12月08日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -58873,6 +58873,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/fn666/shouye.php
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -59701,6 +59702,8 @@ ubmcmm.baidustatic.com
 ###ks > .DaKuang
 ###ldgindexbuttom
 ###leftCouple
+##.txtguanggao
+##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ###leftCouple1
 ###leftCouplet
 ###leftFloat + #rightFloat
@@ -60784,6 +60787,11 @@ ubmcmm.baidustatic.com
 ##a[href*=".832103.top"]
 ||kdegznb.cn^
 ||wmgocya.cn^
+||huilianji.com^
+||zk6.me^
+||kvmaa.com^
+||kveff.com^
+||u1885.com^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -72819,6 +72827,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+qq.com##.card-wrap[dt-params^="ad_creative_"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
