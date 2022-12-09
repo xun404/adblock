@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 78+5Dxq/bfABQadAkRrMsA
+! Checksum: 8id5eIiAPQxun7dwXP2aeg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212090738
-! Last Modified: 2022年12月09日 07:38
+! Version: 202212091004
+! Last Modified: 2022年12月09日 10:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1935,6 +1935,8 @@ ubmcmm.baidustatic.com
 ||capldfw.cn^
 ||jpgtpbl.cn^
 ||vmax-ktv.com^
+||gogfhq.xyz^
+||rebies.xyz^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -25195,6 +25197,7 @@ m.babytree.com##script + a[class]
 /api/tracking/*
 /api/trk?
 /api/v1/collector
+/api/v1/firehose?_
 /api/v1/metrics
 /api/v1/stat?
 /api/v1/streamtelemetry
@@ -39352,6 +39355,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
+||api-js.mixpanel.com^
 ||api.ffm.to/sl/e/$image
 ||api.narrativ.com/favicon.ico
 ||apkpure.com/analytics_
@@ -40276,7 +40280,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtapewithadblock.xyz/stat/
 ||strtpe.link/stat/
 ||stubhub.com/bfx/api/logging
-||substack.com/api/v1/firehose?
 ||swarm.video/stats/
 ||t.9gag.com^
 ||t.allmodern.com^
