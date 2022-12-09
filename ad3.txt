@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VdTM5H2qgbQB0liy0OJuIQ
+! Checksum: h3A6j8g+jmfHhryKIVT/kQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212100241
-! Last Modified: 2022年12月10日 02:41
+! Version: 202212100538
+! Last Modified: 2022年12月10日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -36461,6 +36461,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
 ||d2fuc4clr7gvcn.cloudfront.net/track.js
+||d2wa5sea6guof0.cloudfront.net^
 ||dadi.technology^$third-party
 ||dash.getsitecontrol.com^
 ||data.alexa.com^
@@ -39344,6 +39345,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.kaggle.io^
 ||analytics.kraken.com^
 ||analytics.makeitmeme.com^
+||analytics.ml.homedepot.ca^
 ||analytics.mouthshut.com^
 ||analytics.nike.com^
 ||analytics.ovh.com^
@@ -39729,6 +39731,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hindustantimes.com/res/images/one-pixel.png
 ||hits.cyberdrop.me^
 ||hltv.org/scripts/hltv-tracking.js
+||homedepot.ca/mr/thd-ca-prod.js
 ||hoo.be/api/hoobe/analytics
 ||hotels.com/kt2lli/
 ||hotels.com/trvl-px/
@@ -39906,6 +39909,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mov.t-mobile.com/p/js/1.js
 ||movetv.com/sa-events
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
+||mr.homedepot.ca^
 ||mrqls.to/info/
 ||msg-intl.qy.net^$image
 ||msn.com/collect/
@@ -54145,8 +54149,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
-@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|homedepot.ca|nbarizona.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
