@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: crnEwJv59EbVAgE/0e3iIQ
+! Checksum: SqfsMOL6N+tleSJSNllJDA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202212111640
-! Last Modified: 2022年12月11日 16:40
+! Version: 202212112056
+! Last Modified: 2022年12月11日 20:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -13995,6 +13995,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||8s8s.com/data/banner/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+pianmm.com##li[class]:not(.index):not(.hidden-ps):not(.hidden-xs):not(.active)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16331,7 +16332,6 @@ caixin.com##.course_box
 meishij.net##.cp_body_right
 baidu.com##.cpc-adv-container
 makepolo.com##.cpc_tgs
-pianma.net##.cpcad
 zuoye.baidu.com,zybang.com##.cpro
 docin.com##.cpro_mod
 qq.com##.cps_inner
@@ -19331,7 +19331,7 @@ runoob.com#?#.sidebar-box:-abp-has(.re-600160)
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 gdot.me,sc115.com##script + a
 logo160.com##script + a[href="/"]
-bjxfqc.net,pianma.net##script ~ ul[style]
+bjxfqc.net##script ~ ul[style]
 jianshu.com##section[aria-label="jianshu-ad"]
 bbc.com##section[class*="AdContainer"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
