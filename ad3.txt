@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O5lAnlg5qWhXYy3nuh2aSQ
+! Checksum: scYtN6OQwMJUhvxfdn0/xQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212151337
-! Last Modified: 2022年12月15日 13:37
+! Version: 202212151537
+! Last Modified: 2022年12月15日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1407,6 +1407,7 @@ ubmcmm.baidustatic.com
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
+##.guanggaoBox
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -14044,8 +14045,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||xiazaicdnapk.com^*.mp4
+||killcovid2021.com/thumb/*.mp4
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+91porn.com##.preroll-blocker
+zk001.cc##SECTION[class^="ch"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
