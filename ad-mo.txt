@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xfdf0aeyl3pqdrNVl9wuDA
+! Checksum: SX3T2ZKBYVnDPJvi4ClSNw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202212151537
-! Last Modified: 2022年12月15日 15:37
+! Version: 202212151641
+! Last Modified: 2022年12月15日 16:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2265,7 +2265,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adwords/*$domain=~google.com
 /adworks.$domain=~adworks.att.com|~adworks.co.il|~adworks.fi|~adworks.jobijoba.io|~adworks.net
 /adwrapper/*
-/adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
+/adx.$domain=~adx.acrosspf.com|~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
 /adx/ads?
 /adx/iframe.
 /adx2.
@@ -108193,7 +108193,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
-@@||helidon.io/docs/v3/pages/mp/metrics/metrics.js$~third-party
+@@||helidon.io/docs/*/metrics/metrics$~third-party,xmlhttprequest
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk|luggagehero.com
 @@||herokuapp.com/api/analytics$domain=madeincookware.com
 @@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
