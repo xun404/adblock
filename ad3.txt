@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vsXfTXihXNe8YMmJ5eceCg
+! Checksum: 0Om5kgDkQS0vd3+SkIhvXA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212161838
-! Last Modified: 2022年12月16日 18:38
+! Version: 202212162054
+! Last Modified: 2022年12月16日 20:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14076,6 +14076,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+speedtest.cn##div[class^="speed-twoads"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -30892,6 +30893,7 @@ _mongo_stats/
 ||affistats.com^$third-party
 ||afftrack.pro^$third-party
 ||afsanalytics.com^$third-party
+||afterclick.co^$third-party
 ||agentanalytics.com^$third-party
 ||agentinteractive.com^$third-party
 ||agilecrm.com^$third-party
@@ -30940,6 +30942,7 @@ _mongo_stats/
 ||analyticswizard.com^$third-party
 ||analytik.xyz^$third-party
 ||analytk.com^$third-party
+||analyzz.com^$third-party
 ||anametrix.com^$third-party
 ||anametrix.net^$third-party
 ||angelfishstats.com^$third-party
@@ -36503,6 +36506,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||connext-cdn.azureedge.net^
 ||consensu.org/?log=
 ||consensu.org/geoip
+||console.uxlens.com^
 ||contactatonce.com/GetAgentStatusImage.aspx?
 ||contactatonce.com/VisitorContext.aspx?
 ||container.pepperjam.com^$third-party
