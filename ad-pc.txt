@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mOMINjzsnJL2LvTVo7u+Vg
+! Checksum: DTLJ3KqRctpw5+6e/7pmHw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202212170737
-! Last Modified: 2022年12月17日 07:37
+! Version: 202212170951
+! Last Modified: 2022年12月17日 09:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5884,6 +5884,8 @@ _800x80_
 ###ad-gutter-left
 ###ad-gutter-right
 ###ad-halfpage
+###ad-halfpage1
+###ad-halfpage2
 ###ad-head
 ###ad-header-1
 ###ad-header-2
@@ -5906,6 +5908,8 @@ _800x80_
 ###ad-large-header
 ###ad-lb-secondary
 ###ad-lead
+###ad-leadboard1
+###ad-leadboard2
 ###ad-leader
 ###ad-leader-atf
 ###ad-leader-container
@@ -10787,7 +10791,6 @@ _800x80_
 ##.SponsoredLinksPadding
 ##.SponsoredLinksPanel
 ##.SponsoredResults
-##.sponsored-buttons
 ##.Sponsored_link
 ##.SponsorshipText
 ##.SquareAd
@@ -20615,6 +20618,7 @@ _800x80_
 ##.sponsored-b
 ##.sponsored-block
 ##.sponsored-browse-data-route
+##.sponsored-buttons
 ##.sponsored-container
 ##.sponsored-container-bottom
 ##.sponsored-content
@@ -40338,7 +40342,6 @@ tf2r.com#@#.adverts
 ||weaveradrenaline.com^
 ||web-guardian.xyz^
 ||web-security.cloud^
-||web3ads.net^
 ||webads.media^
 ||webatam.com^
 ||webcampromo.com^
@@ -43268,6 +43271,7 @@ tf2r.com#@#.adverts
 ||vupulse.com^$third-party
 ||w00tmedia.net^$third-party
 ||waytogrow.eu^$third-party
+||web3ads.net^$third-party
 ||webads.co.nz^$third-party
 ||webads.nl^$third-party
 ||webgains.com^$third-party
@@ -50355,6 +50359,7 @@ fandom.com##.aff-unit__wrapper
 f1i.com##.affiche
 hindustantimes.com##.affilaite-widget
 linuxize.com##.affiliate
+thebeet.com##.affiliate-disclaimer
 express.co.uk##.affiliate-widget
 sharylattkisson.com##.after-entry.widget-area
 domainnamewire.com##.after-header
@@ -50380,7 +50385,7 @@ livejournal.com##.allbanners
 silverprice.org##.alt-content
 forecast7.com##.altad
 antimusic.com##.am-center
-music-news.com##.amazon
+music-news.com,thebeet.com##.amazon
 bgr.com##.amazon-product-callout
 orschlurch.net##.amazon-wrapper
 indiatimes.com##.amazonProductSidebar
@@ -52478,6 +52483,7 @@ kyivpost.com##.widget-300-250
 wikikeep.com##.widget-area
 cinemaexpress.com##.widget-container-133
 miniclip.com##.widget-mpu
+thebeet.com##.widget-promotion
 dawn.com##.widget-sponsoredcontent
 screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
@@ -57251,6 +57257,7 @@ ubmcmm.baidustatic.com
 ||lwcsytn.cn^
 ||ikimhg.xyz^
 ||bqge.xyz^
+||t5wm.cc^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
