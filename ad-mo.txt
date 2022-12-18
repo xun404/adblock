@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H5BZBHrDFIazrZQo5fZNCQ
+! Checksum: nYl7r7mtN/68EMKg/JYH1Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202212181737
-! Last Modified: 2022年12月18日 17:37
+! Version: 202212181837
+! Last Modified: 2022年12月18日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -68501,8 +68501,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||fwwang.cn/templets/fw/js/art
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+fwwang.cn###n_s_300250
+fwwang.cn###n_s_300250ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -106449,6 +106452,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
+@@||amazonaws.com/common/legacy/scripts/pixels/google_analytics.js$script,domain=evenue.net
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
