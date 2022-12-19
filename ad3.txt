@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8FP4ZLN2ytqN3AOK+IHWUA
+! Checksum: QzgORfuCcNStQLJXyebvwQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212191537
-! Last Modified: 2022年12月19日 15:37
+! Version: 202212191839
+! Last Modified: 2022年12月19日 18:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14,6 +14,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/Runtime/Js/300_300.js
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -14113,8 +14114,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||giaoji.com/Runtime/Js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+prts.wiki##.nomobile[style*="810px;height:240"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -20216,6 +20219,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||panjiachen.github.io^$generichide
 @@||papalah.com^$generichide
+@@||hopto.org^$generichide
 @@||papi-service.jd.com/ads/
 @@||passiontimes.hk^$generichide
 @@||passiontimes.hk^*-ad.php?
