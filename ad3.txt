@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1HYCwaEJyVVr+e+wuENXEQ
+! Checksum: qymVSrR9mwEz+L+2cW3SJQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212200537
-! Last Modified: 2022年12月20日 05:37
+! Version: 202212200737
+! Last Modified: 2022年12月20日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2084,6 +2084,8 @@ ubmcmm.baidustatic.com
 ||zw2b9.cn^
 ||zzngisyq.xyz^
 ||zzwzsic.cn^
+||jugboja.cn^
+||huxnbnk.cn^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -29554,6 +29556,7 @@ m.babytree.com##script + a[class]
 /user-agent-analyzer.
 /user-context?referrer=
 /userdata_n?
+/userfingerprinttoken/*$xmlhttprequest
 /userfly.js
 /users/track?
 /UserTraceCookie?
@@ -37631,6 +37634,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.srvsynd.com^
 ||sa.scorpion.co^
 ||saasexch.com/bapi/fe/usd/report/
+||safe-iplay.com/logger
 ||sail-horizon.com/horizon/$third-party
 ||sailthru.com/img/$image,third-party
 ||sailthru.com/Sailthru_spacer_1x1.gif
@@ -37995,6 +37999,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.netklix.com^$script
 ||tracker.nitropay.com^
 ||tracker.roitesting.com^
+||tracker.services.vaix.ai^
 ||tracker.softcube.com^
 ||tracker.ssl0d.com^
 ||tracker.timesgroup.com^
@@ -54194,6 +54199,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||abc.es/pixel/
 ||aemet.es/js/stats.js
 ||analytics.bolavip.com^
+||analytics.emol.com^
 ||analytics.infobae.com^
 ||analytics.redlink.com.ar^
 ||audiencies.ccma.cat^
@@ -54225,6 +54231,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||todomercadoweb.es/pixel
 ||trrsf.com/metrics/
 ||uecdn.es/js/pbmu.js
+||unm.emol.com^
 ||wssgmstats.vibbo.com^
 ||wsstats.coches.net^
 ||aftonbladet.se/cnp-assets/glimr-sdk.js
