@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j3N+RN7QXkwrnKPgaqeNaQ
+! Checksum: mwyU6NowHAi/VF6aiN/Exw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202212211937
-! Last Modified: 2022年12月21日 19:37
+! Version: 202212212056
+! Last Modified: 2022年12月21日 20:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5451,7 +5451,6 @@ _800x80_
 ###AdMiddle
 ###AdPanel
 ###AdPopUp
-###AdRectangle
 ###AdRectangleBanner
 ###AdSense1
 ###AdSense2
@@ -5774,7 +5773,6 @@ _800x80_
 ###ad-affiliate
 ###ad-after
 ###ad-anchor
-###ad-area
 ###ad-around-the-web
 ###ad-article
 ###ad-article-in
@@ -6275,7 +6273,6 @@ _800x80_
 ###adRight5
 ###adScraper
 ###adSection
-###adSense
 ###adSenseBox
 ###adSenseModule
 ###adSenseWrapper
@@ -6522,6 +6519,8 @@ _800x80_
 ###ad_mrec
 ###ad_mrec1
 ###ad_mrec2
+###ad_mrec_intext
+###ad_mrec_intext2
 ###ad_new
 ###ad_news_article
 ###ad_newsletter
@@ -6802,7 +6801,6 @@ _800x80_
 ###adpostloader
 ###adpromo
 ###adrect
-###adrectangle
 ###adrhs
 ###adrig
 ###adright
@@ -9367,6 +9365,8 @@ _800x80_
 ###pre-adv
 ###pre-footer-ad
 ###pre-main-banner-ad
+###preAds_ad_mrec_intext
+###preAds_ad_mrec_intext2
 ###pre_advertising_wrapper
 ###pregame_header_ad
 ###preloaded-ad-frame
@@ -10595,6 +10595,7 @@ _800x80_
 ##.Ad_container
 ##.Adgrid_footboard
 ##.Adgrid_right_rail
+##.Ads--center
 ##.Ads-768x90
 ##.Ads-leaderboard
 ##.Ads-slot
@@ -11139,7 +11140,6 @@ _800x80_
 ##.ad-970x90
 ##.ad-980-1
 ##.ad-Advert_Placeholder
-##.ad-BANNER
 ##.ad-CUSTOM
 ##.ad-E
 ##.ad-LREC
@@ -13818,7 +13818,6 @@ _800x80_
 ##.ads-homepage-2
 ##.ads-horizontal
 ##.ads-horizontal-banner
-##.ads-iframe
 ##.ads-image
 ##.ads-in-content
 ##.ads-in-previews
@@ -14037,7 +14036,6 @@ _800x80_
 ##.adsBlockContainerHorizontal
 ##.adsBot
 ##.adsBottom
-##.adsBox
 ##.adsBoxTop
 ##.adsCap
 ##.adsCell
@@ -20147,6 +20145,7 @@ _800x80_
 ##.sector-widget__tiny-ad
 ##.selfServeAds
 ##.sense-adhesion
+##.seoAdWrapper
 ##.seoTopAds
 ##.sepContentAd
 ##.series-ad
@@ -22166,6 +22165,7 @@ _800x80_
 ##div[id^="ad-server-"]
 ##div[id^="ad_bnr_"]
 ##div[id^="ad_position_"]
+##div[id^="ad_rect_"]
 ##div[id^="ad_script_"]
 ##div[id^="adfox_"]
 ##div[id^="adngin-"]
@@ -25118,6 +25118,7 @@ tf2r.com#@#.adverts
 ||asccdn.com^
 ||asce.xyz^
 ||ascendcolonel.com^
+||ascensionmonksurround.com^
 ||ascensionpatterbearable.com^
 ||ascensionrookieweapon.com^
 ||ascentmatrimonypistol.com^
@@ -27432,6 +27433,7 @@ tf2r.com#@#.adverts
 ||cnnected.org^
 ||cnofijeash.xyz^
 ||cnpkqvtiwcfjsot.xyz^
+||cnsbuoeumr.com^
 ||cnt.my^
 ||cntrafficpro.com^
 ||cnywhcuyvjc.com^
@@ -27740,6 +27742,7 @@ tf2r.com#@#.adverts
 ||cowbumply.com^
 ||cowerarmament.com^
 ||cowmanvampyre.uno^
+||coxalscyth.com^
 ||coxjeefqvf.com^
 ||coyanhybrida.website^
 ||coyerbarrets.com^
@@ -28207,6 +28210,7 @@ tf2r.com#@#.adverts
 ||delendatole.live^
 ||deleterasks.digital^
 ||deliciousinvestor.com^
+||delightedintention.com^
 ||delightfulhandle.com^
 ||delightfulold.com^
 ||deligrassdull.com^
@@ -30153,6 +30157,7 @@ tf2r.com#@#.adverts
 ||fwvwural.xyz^
 ||fwwpnhdssbqofu.xyz^
 ||fxdepo.com^
+||fxdxnbwmbcka.com^
 ||fxjbosijndirva.xyz^
 ||fxrbsadtui.com^
 ||fyglovilo.pro^
@@ -32541,6 +32546,7 @@ tf2r.com#@#.adverts
 ||kubicserves.icu^
 ||kudrunoptime.com^
 ||kukachesy.pro^
+||kukrosti.com^
 ||kukury2hf8nd09.com^
 ||kuleqasfors.one^
 ||kultingecauukse.pics^
@@ -33094,6 +33100,7 @@ tf2r.com#@#.adverts
 ||lqgbqafvfga.xyz^
 ||lqw.me^
 ||lr-in.com^
+||lrdvubrpta.com^
 ||lrhahgsiqustw.xyz^
 ||lrugxmpxyfb.com^
 ||lrxlbekpmav.com^
@@ -34176,6 +34183,7 @@ tf2r.com#@#.adverts
 ||needleworkemmaapostrophe.com^
 ||neegreez.com^
 ||neezausu.net^
+||neffor.com^
 ||nefies.com^
 ||negaic.com^
 ||negationsome.com^
@@ -40693,6 +40701,7 @@ tf2r.com#@#.adverts
 ||wdeliv.net^
 ||wdljoioknjduvwi.com^
 ||wdroweavewerre.xyz^
+||wdt9iaspfv3o.com^
 ||wdtuxxjy.xyz^
 ||wea5lkaf63loos8a.com^
 ||weakeland.com^
@@ -41687,6 +41696,7 @@ tf2r.com#@#.adverts
 ||zsxqjjobfb.com^
 ||zsxrhkrfwwv.com^
 ||ztech.gq^
+||zthiblaz.com^
 ||zubivu.com^
 ||zucks.net^
 ||zudaichy.com^
@@ -46073,6 +46083,7 @@ tf2r.com#@#.adverts
 ||wamcash.com^$third-party
 ||wantatop.com^$third-party
 ||watchmygf.to^$third-party
+||watchmyvids.xyz^
 ||wct.click^$third-party
 ||wifelovers.com^$third-party
 ||worldsbestcams.com^$third-party
@@ -48688,6 +48699,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockeronstape.me
 ||gayboystube.com/templates/gayboystube2017/js/gbtpop.js
 ||gayfor.us/front.js
 ||gaytail.com/vast.xml
+||gga.xhamster.com^
 ||ggg.xhamster.com^
 ||girlsofdesire.org/blr2.php
 ||glam0ur.com/adgallery1
@@ -57169,6 +57181,7 @@ ubmcmm.baidustatic.com
 ||2hvl4.fun^
 ||046zxnm.com^
 ||xuaihua.work^
+||096iokj.com^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
