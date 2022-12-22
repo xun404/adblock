@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vvMQd5CL0Yigy9em8gSoKA
+! Checksum: Gs3OaNwwb6sVq3LyeMrUkQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202212222056
-! Last Modified: 2022年12月22日 20:56
+! Version: 202212222237
+! Last Modified: 2022年12月22日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55277,6 +55277,7 @@ ubmcmm.baidustatic.com
 ||allyes.$third-party
 ||ssh.*.com^*!$script,third-party
 ||zhizhizhizhi.oss-*.aliyuncs.com^
+||vns86.oss-*.aliyuncs.com^
 !------------------------General element hiding rules-------------------------!
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -56018,6 +56019,7 @@ ubmcmm.baidustatic.com
 ##span[title="neteasefooter"]
 ##style + .a-loading
 ##style + .need_grid_img
+##.no-mobile[style="position: fixed;right:0px;bottom: 0px;"]
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
@@ -56670,6 +56672,7 @@ ubmcmm.baidustatic.com
 ||phcoal.com^
 ||omtend.com^
 ||jkxty.mobi^
+##a[href*="/ty523.com/"]
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
