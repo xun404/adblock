@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rz7x3/4tbVHp5NoppkzW8w
+! Checksum: UOK+kgIG4fFKtzJ5zPBT9Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202212220955
-! Last Modified: 2022年12月22日 09:55
+! Version: 202212230046
+! Last Modified: 2022年12月23日 00:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1056,7 +1056,7 @@ clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([cl
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 clanky.seznam.cz,search.seznam.cz#?#.Result.Result--organic:-abp-has(.Result-title + .Result-contentContainer > :not(.Result-url):not(.Result-dw-wrapper):not(.Result-image) > :not([class="Result-url-link Result-url-link--cr-result"]):not(span):not(.AnchorList-list))
-www.seznam.cz#$#hide-if-matches-xpath './/div[starts-with(@class,"atm-ad-label")]/a[text()="Reklama"]/following::div[@id][contains(@class,"advert-content")]//div[@data-cy="ad-content"][@style]/iframe[@style]/ancestor::div[@class][@id]/parent::div[1]'
+www.seznam.cz#$#hide-if-matches-xpath './/div/a[text()="Reklama"]/following::div[@id][contains(@class,"advert-content")]//div[@data-cy="ad-content"][@style]/iframe[@style]/ancestor::div[@class][@id]/parent::div[1]'
 www.seznam.cz##div[id*="nativeSspAdvert"]
 www.seznam.cz#$#hide-if-matches-xpath './/div[starts-with(@class,"atm-ad-label")]/a[text()="Reklama"]/parent::div[contains(@class,"ad-label")]'
 www.seznam.cz#$#hide-if-matches-xpath './/li[@class="product-list__item"]/span[@class="product"]//a[contains(@class,"product")]/picture[@class]/ancestor::div[@id][@class="gadget-container"]'
@@ -1188,7 +1188,9 @@ quora.com##.q-box.qu-borderTop > span[data-nosnippet="true"] > .q-box
 quora.com##span[data-nosnippet="true"] .q-box.qu-pb--tiny.qu-pt--medium
 quora.com##span[data-nosnippet="true"] .q-box.qu-pt--medium
 quora.com##span[data-nosnippet="true"] .q-box.dom_annotate_ad_image_ad
+quora.com##span[data-nosnippet="true"] .q-box.dom_annotate_ad_video_ad
 quora.com##.dom_annotate_ad_promoted_answer
+quora.com##.dom_annotate_multifeed_bundle_AdBundle
 ! #CV-669
 adageindia.in#?#div:-abp-has(> h2:-abp-contains(From the WEB))
 adageindia.in,bombaytimes.com#?#a:-abp-has(> div > p:-abp-contains(Ad: ))
