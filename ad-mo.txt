@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lLb+1F79W2d7erJ7eil6lg
+! Checksum: U1aQhLmF5daeqHt7RP+4sA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202212220955
-! Last Modified: 2022年12月22日 09:55
+! Version: 202212221137
+! Last Modified: 2022年12月22日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -49405,6 +49405,8 @@ krnb.com###inner-footer
 timesofmalta.com###inscroll-banner
 imagebam.com###inter > [src]
 booklife.com,yabeat.org###interstitial
+newsbusters.org###intranet_long
+newsbusters.org###intranet_mid
 osbot.org###ipsLayout_footer
 lcpdfr.com###ipsLayout_mainArea > .uBlockBrokeOurSiteIpsAreaBackground
 osbot.org###ipsLayout_mainArea > div > div > [href]
@@ -49996,6 +49998,7 @@ revolver.news##.__hinit
 gadgets360.com##.__wdgt_rhs_kpc
 gadgets.ndtv.com,gadgets360.com##._ad
 pirateiro.com##._br9is
+tampafp.com##._ning_outer
 afro.com##.a-215.g-single
 rumble.com##.a-break
 afro.com,chimpreports.com,islandecho.co.uk,locklab.com,mallorcasunshineradio.com,runwaygirlnetwork.com,talkradioeurope.com,theshoesnobblog.com##.a-single
@@ -50944,6 +50947,7 @@ home-assistant-guide.com##.gb-container-bbc771af
 golfchannel.com##.gc-mps-ad
 pcworld.co.nz##.gemini-loaded
 autoblog.com##.gemini-native
+thefederalist.com##.general-callout
 investing.com##.generalOverlay
 uefa.com##.geoTargetSponsor
 flickr.com##.getty-search-view
@@ -51333,6 +51337,7 @@ urbandictionary.com##.min-h-\[90px\]
 stripes.com##.min-h90
 kitco.com##.mining-banner-container
 revolutionsoccer.net##.mls-o-adv-container
+thinkcivics.com##.mmt-primary
 inhabitat.com##.mn-wrapper
 byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 comicbook.com##.mobile
@@ -52276,7 +52281,7 @@ screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,shtfplan.com,tech-latest.com,usmagazine.com##.widget_block
 wplift.com##.widget_bsa
-4sysops.com,backthetruckup.com,catcountry941.com,cnx-software.com,dailyveracity.com,gamingonphone.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,quickanswer.blog,robloxhackscripts.com,techdows.com,tooxclusive.com##.widget_custom_html
+4sysops.com,backthetruckup.com,catcountry941.com,cnx-software.com,dailyveracity.com,gamingonphone.com,metalsucks.net,mmoculture.com,nasaspaceflight.com,quickanswer.blog,robloxhackscripts.com,techdows.com,thinkcivics.com,tooxclusive.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
@@ -76995,7 +77000,7 @@ qq.com#@#.side_ad
 ##.wrap + #btmBox
 ##.wrap + #midBox
 ##body[ontouchstart] > #topBox
-##script[src="/static/base.js"] + #couplet
+##script[src$="/base.js"] + #couplet
 !#T66y.com
 redircdn.com##.al
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
