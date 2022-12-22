@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FeX9DzieF6HcK5+d3GYIGA
+! Checksum: Rz7x3/4tbVHp5NoppkzW8w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202212212056
-! Last Modified: 2022年12月21日 20:56
+! Version: 202212220955
+! Last Modified: 2022年12月22日 09:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1499,11 +1499,15 @@ instacart.com##a[href*="category_hero_id_"]
 samsclub.com#$#hide-if-matches-xpath '//span[@class="sc-specials-label"]/parent::div[@class="sc-specials"]/ancestor::li'
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::button[contains(@aria-label,"Sponsored")]/ancestor::div[@class="sc-sba-modules-logo"]'
 ! #CV-663
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,patriotnationpress.com##div[class] > div[id] > main[class][id][role]
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,naturalblaze.com,patriotnationpress.com##div > aside[class] > span[class*="mdeyheadline-"]
+beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div[class] > div[id] > main[class][id][role]
+dailylol.com,procoinnews.com##div[class] > div[id] > div[class][id][role]
+beforeitsnews.com,canadafreepress.com,conservativefiringline.com,dailylol.com,designbump.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div > aside[class] > span[class*="mdeyheadline-"]
 ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
--bobnotime-$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|designbump.com|ipatriot.com|naturalblaze.com|patriotnationpress.com
-rightwingnews.com#$#abort-on-property-read document.getElementsByTagName
+rightwingnews.com##.z-ad-inline
+populistpress.com##div[id^="secondary-sidebar"] > article[class]
+populistpress.com##li[id^="main_feed_post_"] > article[class]
+procoinnews.com##div[id^="adcovery-"]
+-bobnotime-$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined ; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
 beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
 ! Japanese sites
@@ -1528,7 +1532,8 @@ www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ss
 ! #CV-691
 ! #CV-761
 ! #CV-663
-aupetitparieur.com,meilleurpronostic.fr#$#abort-on-property-read document.getElementsByClassName; abort-on-property-read following-ad-container
+aupetitparieur.com,meilleurpronostic.fr##aside[class] > span[class*="mdeyheadline-"]
+aupetitparieur.com,meilleurpronostic.fr##div[class] > div[id] > main[class][id][role]
 ! #CV-170
 lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
 ||polaccafaison.com^$third-party
@@ -1877,7 +1882,8 @@ envivotv.net,lucenpop.com.es,pokefanleoretrogames.com,topflix.tv#$#abort-current
 ! #9272
 mamaslatinas.com##.top-bar-content
 ! #CV-663
-telexplorer.com.ar#$#abort-current-inline-script MutationObserver compareDocumentPosition
+telexplorer.com.ar##aside[class] > span[class*="mdeyheadline-"]
+telexplorer.com.ar##div[class] > div[id] > main[class][id][role]
 ! #CV-751
 rojadirecta.fr#$#abort-on-property-read smrtSB; abort-on-property-read smrtSP
 ! MISC
