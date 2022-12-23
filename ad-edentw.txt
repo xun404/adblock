@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5QlYMq/ih9WreiKWbi4lQw
+! Checksum: NB8LatS8NGcVBcAcf0yVjg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202212231737
-! Last Modified: 2022年12月23日 17:37
+! Version: 202212232137
+! Last Modified: 2022年12月23日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1056,10 +1056,13 @@ clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([cl
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 clanky.seznam.cz,search.seznam.cz#?#.Result.Result--organic:-abp-has(.Result-title + .Result-contentContainer > :not(.Result-url):not(.Result-dw-wrapper):not(.Result-image) > :not([class="Result-url-link Result-url-link--cr-result"]):not(span):not(.AnchorList-list))
-www.seznam.cz#$#hide-if-matches-xpath './/div/a[text()="Reklama"]/following::div[@id][contains(@class,"advert-content")]//div[@data-cy="ad-content"][@style]/iframe[@style]/ancestor::div[@class][@id]/parent::div[1]'
+www.seznam.cz#$#hide-if-matches-xpath './/div/a[text()="Reklama"]/following::div[@id][@style]//div[@data-cy="ad-content"][@style]/iframe[@style]/ancestor::div[@class][@id]/parent::div[1]'
 www.seznam.cz##div[id*="nativeSspAdvert"]
-www.seznam.cz#$#hide-if-matches-xpath './/div[starts-with(@class,"atm-ad-label")]/a[text()="Reklama"]/parent::div[contains(@class,"ad-label")]'
+www.seznam.cz#$#hide-if-matches-xpath './/div/a[text()="Reklama"]/parent::div[contains(@class,"ad-label")]/ancestor::li[@class]'
 www.seznam.cz#$#hide-if-matches-xpath './/li[@class="product-list__item"]/span[@class="product"]//a[contains(@class,"product")]/picture[@class]/ancestor::div[@id][@class="gadget-container"]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@id]//span[@class="product"]//a[contains(@class,"product")]/picture[@class]/ancestor::div[@id][@class="gadget-container"]'
+www.seznamc.cz#$#cookie-remover pubmatic
+www.seznam.cz#$#cookie-remover adform
 ! MISC
 zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
@@ -1350,10 +1353,6 @@ duplichecker.com#$#abort-on-property-read adpushup; hide-if-matches-xpath './/*[
 root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"")]/parent::div[@class="backstretch"]//ancestor-or-self::img[1]'
 root-nation.com#$#hide-if-matches-xpath '//source/following::img[@src]/ancestor::a[@class]/ancestor-or-self::div[@id="tdi_29"]'
 ||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
-! Video ads
-||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
-||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
-||porndoe.com/movie/preroll/*$media,rewrite=abp-resource:blank-mp4,domain=porntrex.com
 animixplay.to#$#abort-on-property-read String.fromCharCode
 vuukle.com##a[href*="news.vuukle.com/u/"]
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com#$#hide-if-matches-xpath './/fw-embed-feed[@channel][@mode][@playlist]/parent::div[@id][@style][1]'
@@ -1365,6 +1364,13 @@ mykhel.com#$#hide-if-matches-xpath './/div[@class="rightArtImg"]/img[contains(@s
 filmibeat.com#$#hide-if-matches-xpath './/div[@class="rightArtImg"]/img[contains(@src,"boldsky.com") or contains(@src,"gizbot.com") or contains(@src,"oneindia.com") or contains(@src,"nativeplanet.com") or contains(@src,"goodreturns.in") or contains(@src,"drivespark.com") or contains(@src,"careerindia.com") or contains(@src,"mykhel.com")]/ancestor::div[@class="rightArt"][@data-content_id]'
 goodreturns.in#$#hide-if-matches-xpath './/div[@class="rightArtImg"]/img[contains(@src,"boldsky.com") or contains(@src,"gizbot.com") or contains(@src,"oneindia.com") or contains(@src,"nativeplanet.com")or contains(@src,"drivespark.com") or contains(@src,"careerindia.com") or contains(@src,"filmibeat.com") or contains(@src,"mykhel.com")]/ancestor::div[@class="rightArt"][@data-content_id]'; hide-if-matches-xpath './/fw-storyblock[@channel][@playlist][@autoplay]/parent::div[@id][@style][1]';
 mreader.co#$#abort-current-inline-script document.createElement _stlivuf
+alibaba.com#$#hide-if-matches-xpath './/*[text()="Ad"]/parent::div[@class]/ancestor::div[@campaignid or @data-params]'
+alibaba.com#$#hide-if-matches-xpath './/div[@style]/span[text()="Ad"]/ancestor::div[@class="tpl-wrapper"]'
+alibaba.com#$#hide-if-matches-xpath './/div[not(contains(@style,"display: none"))]/div[@style]/img[contains(@src,"/H4c09574")][contains(@style,"object-fit: contain")]/ancestor::div[@view-name]/parent::div[@class="tpl-wrapper"]'
+! Video ads
+||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
+||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
+||porndoe.com/movie/preroll/*$media,rewrite=abp-resource:blank-mp4,domain=porntrex.com
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
