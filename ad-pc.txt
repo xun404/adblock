@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8EfnCIxCBQO6MboXyev2zQ
+! Checksum: qGFUQq4DDVvpGZ7UlH98ow
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202212261639
-! Last Modified: 2022年12月26日 16:39
+! Version: 202212261837
+! Last Modified: 2022年12月26日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51904,6 +51904,7 @@ who.is##.teaser-bar
 sporcle.com##.temp-unit
 macrumors.com##.tertiary
 ericpetersautos.com##.text-109
+royalroad.com##.text-center.light
 dexerto.com##.text-center.min-h-\[20rem\]
 upi.com##.text-center.mt-5
 businessonhome.com##.text-info
@@ -52241,6 +52242,7 @@ cq-esports.com##[href][target*="blank"]
 bittools.net##[href^="//www.bittools.net/binance"]
 shroomery.org##[href^="//www.shroomery.org/ads/"]
 unogs.com##[href^="/ad/"]
+royalroad.com##[href^="/advertising/redirect"]
 discord.me##[href^="/cr/"]
 audiobookbay.nl##[href^="/down-"]
 steroid.com##[href^="/out.php"]
@@ -107448,6 +107450,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
 @@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
+@@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 @@||pv.sohu.com/cityjson$domain=vip.jsjinfu.com
 @@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||tianxun.com^*/js/tracker.js
@@ -109642,3 +109645,9 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! 乘风 视频广告过滤规则
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
