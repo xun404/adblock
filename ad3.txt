@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j/PUdh861BHx+/Qa+6QQtQ
+! Checksum: /bI+KmU+Eh+hNUYX4Dolxw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212271837
-! Last Modified: 2022年12月27日 18:37
+! Version: 202212272054
+! Last Modified: 2022年12月27日 20:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -34009,6 +34009,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||childlikeform.com^
 ||chingovernment.com^
 ||chinsnakes.com^
+||chubbycreature.com^
 ||chunkycactus.com^
 ||circlelevel.com^
 ||clamcelery.com^
@@ -54538,6 +54539,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
 @@||moengage.com/webpush/$script,domain=olx.com.lb
+@@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
