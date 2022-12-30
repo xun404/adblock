@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cyRpJTisVRSoFLEyttm7oA
+! Checksum: pF+XjXOllAJ+aeuhbqeakQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202212302237
-! Last Modified: 2022年12月30日 22:37
+! Version: 202212310043
+! Last Modified: 2022年12月31日 00:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -857,6 +857,7 @@ tieba.baidu.com##.tuijian-wrap
 /js/jsstyle-$third-party
 /js/mob/cpc_bottom.js
 /js/pcbook.js?
+/js/piaofu_bet.
 /js/showgg.js
 /js/sjgg.js
 /js/tpolknm.js
@@ -1642,6 +1643,7 @@ ubmcmm.baidustatic.com
 ##.leftadv
 ##.leftd + .rightd
 ##.leo-container .ssr1
+##.link > .image[src*=".qhimg.com/"]
 ##.listok > a > img[src*=".alicdn.com"][width="980"][height="80"]
 ##.listok > a > img[style^="width:980px;height:"]
 ##.loc-home-top-adv-new
@@ -1991,6 +1993,7 @@ ubmcmm.baidustatic.com
 ||3v4w.top^
 ||44j4oo2a.cn^
 ||4vml0.cn^
+||5137395ccc.com^
 ||516624.com^
 ||51fa.shop^
 ||51xuex.com.cn^
@@ -2018,6 +2021,7 @@ ubmcmm.baidustatic.com
 ||8499683.com^
 ||86o0h.top^
 ||8861203.com^
+||88993aaa.com^
 ||88kids.mobi^
 ||897263tqs.com^
 ||8q2h.icu^
@@ -2032,7 +2036,9 @@ ubmcmm.baidustatic.com
 ||a78wt.top^
 ||abenshishabi.com^
 ||abgxxc.com^
+||adbpfnh.cn^
 ||adiexjy.cn^
+||ahe.so^
 ||aiedwhb.cn^
 ||aiupiyd.cn^
 ||akfdpto.cn^
@@ -2071,6 +2077,7 @@ ubmcmm.baidustatic.com
 ||brmzopt.cn^
 ||bvpaovs.cn^
 ||bvwxfok.cn^
+||byytogm.cn^
 ||bzngisyv.xyz^
 ||ca30f.top^
 ||capldfw.cn^
@@ -2115,6 +2122,7 @@ ubmcmm.baidustatic.com
 ||dharkyu.cn^
 ||diejs.com^
 ||dinyqgv.cn^
+||discuz.fit^
 ||diygnmo.cn^
 ||dklkxb.xyz^
 ||dktoo.site^
@@ -2142,6 +2150,7 @@ ubmcmm.baidustatic.com
 ||erhsxv.top^
 ||ertjo.xyz^
 ||eskay.cn^
+||eskowg.xyz^
 ||esqc.xyz^
 ||esrjoez.cn^
 ||ezngisyw.xyz^
@@ -2210,11 +2219,13 @@ ubmcmm.baidustatic.com
 ||hsypwju.cn^
 ||htkk1.top^
 ||htkk2.top^
+||huidaiqing.com^
 ||huilianji.com^
 ||huineihan.com^
 ||huixiaoqian.com^
 ||huxnbnk.cn^
 ||hxapafn.cn^
+||hxles.top^
 ||hzma.xyz^
 ||hztv.xyz^
 ||i46.xyz^
@@ -2311,6 +2322,7 @@ ubmcmm.baidustatic.com
 ||lbjc.xyz^
 ||lbzx.xyz^
 ||lejso.com^
+||lepjrh.xyz^
 ||lezbrja.cn^
 ||lgjxw.xyz^
 ||lhare.xyz^
@@ -2514,6 +2526,7 @@ ubmcmm.baidustatic.com
 ||snbklas.cn^
 ||somaliainc.com^
 ||sqnggnsb.fun^
+||squemi.xyz^
 ||summer5188.com^
 ||szngisyb.xyz^
 ||szycvkt.cn^
@@ -2541,12 +2554,14 @@ ubmcmm.baidustatic.com
 ||trqhf.xyz^
 ||trqpfc.cn^
 ||tsmirk.xyz^
+||ttfkof.xyz^
 ||tx888.wang^
 ||tx9ff.top^
 ||txnwq.xyz^
 ||tzngisyi.xyz^
 ||u09.xyz^
 ||u1099.com^
+||u1102.com^
 ||u1885.com^
 ||uav6d52c.cn^
 ||ubisbrw.cn^
@@ -2673,15 +2688,6 @@ ubmcmm.baidustatic.com
 ||zytsbro.cn^
 ||zzngisyq.xyz^
 ||zzwzsic.cn^
-||eskowg.xyz^
-||squemi.xyz^
-||byytogm.cn^
-||lepjrh.xyz^
-||huidaiqing.com^
-||hxles.top^
-||discuz.fit^
-||adbpfnh.cn^
-||ttfkof.xyz^
 .8ox.cn
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -10693,6 +10699,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||61.10.2.86/dev/xopen.php
 ||61.164.108.184^*.gif
 ||614514.com^
+||61586.shop^*.gif
 ||62422.cn/ggimg/
 ||62mao.com/52
 ||63007.com:82/haodxi.js
@@ -14701,7 +14708,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-manwa2.me##.ad-area > a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16305,6 +16311,7 @@ eprice.com.tw##.ad-970x90-g
 ihome99.com##.ad-980x60
 19lou.com,ihome99.com##.ad-980x90
 mobile01.com##.ad-adblock
+manwa2.me##.ad-area > a
 feng.com##.ad-aside
 imgse.com##.ad-banner
 baofeng.com##.ad-bar-l
@@ -20169,6 +20176,7 @@ woego.cn#@##topAds
 buy.ccb.com#@##top_ad
 help.xunlei.com#@#.a_fr
 hahamx.cn#@#.ad-1
+manwa2.me#@#.ad-area
 diantai.ifeng.com#@#.ad-b
 pptstore.net#@#.ad-big
 baidu.com,comefromchina.com#@#.ad-block
@@ -20266,7 +20274,6 @@ tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
-manwa2.me#@#.ad-area
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
