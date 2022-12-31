@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4czAsbsd8zm6Vg06vAKN0w
+! Checksum: 2YC9HPlz6QArcFCwHoBfiQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202212311737
-! Last Modified: 2022年12月31日 17:37
+! Version: 202212311837
+! Last Modified: 2022年12月31日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -40401,6 +40401,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||startpage.com/sp/$ping
 ||startpage.com/sp/elp
 ||startpage.com/sp/jst
+||stat.cdngeek.com^
 ||stat.livesportbar.net^
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
@@ -54871,6 +54872,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google.com/analytics/$domain=analytics.google.com
 !----------------Allowlists to fix broken international sites-----------------!
 !---------- German ----------
+@@||aachener-zeitung.de/cre-1.0/tracking/call.js$~third-party
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
