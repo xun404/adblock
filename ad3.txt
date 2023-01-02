@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5bnqBvHerJ8gNA9J6irskw
+! Checksum: 0ecShEYXB783CapRXk700g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202301020955
-! Last Modified: 2023年01月02日 09:55
+! Version: 202301021240
+! Last Modified: 2023年01月02日 12:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26928,6 +26928,7 @@ m.babytree.com##script + a[class]
 /getPixelSso
 /getRemoteDomainCookies?
 /getsidpixeltag?sid=
+/getstats.js.php
 /getThirdPartyTracking?
 /getTotalHits.
 /GetWebTrekkRecoElement?
@@ -39547,6 +39548,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
 ||api-js.mixpanel.com^
+||api-router.kaspersky-labs.com/logger2/metrics/
 ||api.ffm.to/sl/e/$image
 ||api.narrativ.com/favicon.ico
 ||apkpure.com/analytics_
@@ -53931,6 +53933,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
+||cinematoday.jp/js/*/pageviews.
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
 ||d-log.asahi.co.jp^
