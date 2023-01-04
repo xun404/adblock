@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pxUNxP5EtkPNVYCI1Q46Pw
+! Checksum: zXJ80fiu11R3FGu6f6NVFQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301041837
-! Last Modified: 2023年01月04日 18:37
+! Version: 202301041937
+! Last Modified: 2023年01月04日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4896,6 +4896,7 @@ _widget_ad.
 /detroitchicago/raleigh.js
 /detroitchicago/rochester.js
 /detroitchicago/tampa.js
+/detroitchicago/vpp.gif?
 /edmonton.webp$script
 /ez_aba_load/*
 /ezcl.webp?
@@ -8835,6 +8836,8 @@ _800x80_
 ###in-content-ad
 ###inarticlead
 ###inc-ads-bigbox
+###incontent-ad-2
+###incontent-ad-3
 ###incontentAd1
 ###incontentAd2
 ###incontentAd3
@@ -11905,6 +11908,7 @@ _800x80_
 ##.ad-side-wrapper
 ##.ad-sidebar
 ##.ad-sidebar-mrec
+##.ad-sidebar-skyscraper
 ##.ad-siderail
 ##.ad-signup
 ##.ad-single-bottom
@@ -32335,6 +32339,7 @@ tf2r.com#@#.adverts
 ||kneeansweras.com^
 ||kneltmayhem.com^
 ||knewan.com^
+||kneylhewould.xyz^
 ||knifecontributionproposition.com^
 ||knightsstatuesteering.com^
 ||knightsyllabusimprobable.com^
@@ -34597,6 +34602,7 @@ tf2r.com#@#.adverts
 ||ofqvwaosjq.com^
 ||ofregahen.com^
 ||ofregahen.xyz^
+||ofrumhiswhelectua.info^
 ||ofseedotom.com^
 ||ofslakotha.com^
 ||ofthecathedral.xyz^
@@ -50272,6 +50278,7 @@ thepiratebay3.to##.download_buutoon
 thesun.co.uk##.dpa-slot
 cryptonews.com##.dslot
 kickasstorrents.to##.dssdffds
+digitaltrends.com##.dtads-location
 digitaltrends.com##.dtads-slot
 googleping.com##.dtext
 yts.mx##.durs-bordered
@@ -76734,6 +76741,7 @@ fqsousou.com,kengso.com#@#.user-share
 /amp/log.json
 /amp/pingback?
 /amp_ping/*
+/amp_pingback/*
 /ampmetrics.
 /amptrack.
 /amunglite.
@@ -82410,6 +82418,7 @@ _mongo_stats/
 ||stpmgo.com^
 ||summerhamster.com^
 ||superpointlesshamsters.com^
+||t13.io^
 ||takingbackjuly.com^
 ||tatpek.com^
 ||test.vast^
@@ -87802,6 +87811,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apple.com/hvr/mw/v1/spile
 ||apple.com/mw/v1/reportAnalytics
 ||apple.www.letv.com^
+||applets.ebxcdn.com^
 ||applicationinsights.azure.com^$third-party,domain=~azure.net
 ||appliedsemantics.com/images/x.gif
 ||appmifile.com^*/stat/
@@ -105930,6 +105940,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
+@@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 @@||cedaron.visualstudio.com/*TrackingData.cs$~third-party
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||channel.images.production.web.w4a.tv^*/ard.png?$domain=yallo.tv
