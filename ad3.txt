@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TTx9Ie6/p9pRM5nHWHHeAw
+! Checksum: p90TpIWi19WO9N4zqz2Kpw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202301060049
-! Last Modified: 2023年01月06日 00:49
+! Version: 202301060137
+! Last Modified: 2023年01月06日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -54307,8 +54307,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=dhl.de|sbb.ch
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
+@@||api.cxense.com/public/widget/data$domain=computerbild.de
 @@||api.cxense.com/public/widget/data?$script,domain=businessinsider.de|handelsblatt.com
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
+@@||asadcdn.com/adlib/$domain=computerbild.de
+@@||asadcdn.com/assets/video/$domain=computerbild.de
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|rtl.de|toggo.de|vip.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
@@ -54318,6 +54321,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
 @@||cleverpush.com/channel/loader/$domain=prosieben.de
 @@||cleverpush.com/sdk/$domain=prosieben.de
+@@||cxense.com/cx.js$domain=computerbild.de
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||derwesten.de/resources/*/img/transparent_pixel.png$image,~third-party
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
