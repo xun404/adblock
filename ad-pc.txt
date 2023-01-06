@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aQVhw9A142IaTINWn+X5WQ
+! Checksum: GOEoPESTv7YgnZmKh+AcLQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301061004
-! Last Modified: 2023年01月06日 10:04
+! Version: 202301061057
+! Last Modified: 2023年01月06日 10:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24720,6 +24720,7 @@ tf2r.com#@#.adverts
 ||amberdub.com^
 ||ambersvelars.com^
 ||ambientplatform.vn^
+||ambiliarcarwin.com^
 ||ambitious-upstairs.pro^
 ||ambolicrighto.com^
 ||ambra.com^
@@ -29701,6 +29702,7 @@ tf2r.com#@#.adverts
 ||fegrofaxe.pro^
 ||feinthonouredadornment.com^
 ||fejla.com^
+||fellap.com^
 ||felonlosel.com^
 ||feltlonelyand.xyz^
 ||femefaih.com^
@@ -30414,6 +30416,7 @@ tf2r.com#@#.adverts
 ||ginepija.com^
 ||gingercompute.com^
 ||ginningsteri.com^
+||gipostart-1.co^
 ||girdlespittle.com^
 ||girise.com^
 ||girl7y.com^
@@ -31053,6 +31056,7 @@ tf2r.com#@#.adverts
 ||hehadinqu.info^
 ||hehighursoo.com^
 ||heinndoo.one^
+||heinndoorhises.info^
 ||heiqirelle.com^
 ||heirchurchill.com^
 ||heiressplane.com^
@@ -31322,6 +31326,7 @@ tf2r.com#@#.adverts
 ||hpzdwnkb.com^
 ||hq3x.com^
 ||hqawqssuvqyl.xyz^
+||hqmavhsorp.com^
 ||hqoadthspnju.com^
 ||hqpass.com^
 ||hqtbnelkvax.com^
@@ -32886,6 +32891,7 @@ tf2r.com#@#.adverts
 ||liegelygosport.com^
 ||lifeabsolution.com^
 ||lifearchaicwhipped.com^
+||lifeimpressions.net^
 ||lifestyleoptimisticsing.com^
 ||lifetds.com^
 ||lifetimeroyaltybestial.com^
@@ -33731,6 +33737,7 @@ tf2r.com#@#.adverts
 ||mkifagon.com^
 ||mkjsqrpmxqdf.com^
 ||mkkvprwskq.com^
+||mkopli-1.live^
 ||ml0z14azlflr.com^
 ||ml314.com^
 ||mlegwhnrnljbw.xyz^
@@ -34937,6 +34944,7 @@ tf2r.com#@#.adverts
 ||oo00.biz^
 ||oobuthie.net^
 ||oocdqgado.xyz^
+||oodnaturedf.xyz^
 ||oodrampi.com^
 ||oodraune.com^
 ||oodroglu.net^
@@ -37056,6 +37064,7 @@ tf2r.com#@#.adverts
 ||restorationpencil.com^
 ||restrictbench.com^
 ||restrictionsempty.com^
+||resulf.com^
 ||resultedmundconceal.com^
 ||resultlinks.com^
 ||resultsz.com^
@@ -38577,6 +38586,7 @@ tf2r.com#@#.adverts
 ||starterplaicebrow.com^
 ||startpagea.com^
 ||starvards.com^
+||starvardsee.xyz^
 ||starvationdefence.com^
 ||stastips.net^
 ||stat-rock.com^
@@ -41125,6 +41135,7 @@ tf2r.com#@#.adverts
 ||wp20.ru^
 ||wpadmngr.com^
 ||wpncdn.com^
+||wpnetwork.eu^
 ||wpnjs.com^
 ||wpnrtnmrewunrtok.xyz^
 ||wpnsrv.com^
@@ -56204,6 +56215,8 @@ ubmcmm.baidustatic.com
 ||leiwo.xyz^
 ||yzgid.cn^
 ||wzkxke.xyz^
+||leeleo.top^$third-party
+||0s6s0.top^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -68350,8 +68363,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||myqcloud.com/wp-content/uploads/huoxingyun.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tmioe.com##.adtag + .entry-copyright
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -70543,7 +70558,7 @@ hao.360.cn##.cangbao_redbags
 duba.com##.car_ads
 pixabay.com##.carbon-ad
 steamstats.cn##.card-link
-qq.com##.card-wrap[dt-params^="ad_creative_"]
+qq.com##[dt-params*="ad_creative_"]
 16888.com##.cardataclass
 htcui.com##.carousel
 byxx.com##.cataAD
@@ -70958,7 +70973,6 @@ sojson.com##.fly-hezuo
 followme.cn##.fm-banner-social
 1fzw.com##.focus-bots
 cnblogs.com##.focus-gg
-qq.com##.focus-item[dt-params^="ad_creative_"]
 zhongkao.com##.focusBox
 sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 lzdcctv.cn##.focusmo + table
