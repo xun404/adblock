@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Srf7m9d+C2XTSDT66YSbJQ
+! Checksum: 56i73kwJ2LYv4KIINk1srw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202301060737
-! Last Modified: 2023年01月06日 07:37
+! Version: 202301061004
+! Last Modified: 2023年01月06日 10:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1521,6 +1521,9 @@ ubmcmm.baidustatic.com
 ||vec4o.fun^
 ||wpiwoo.xyz^
 ||yanjiusuo.cc^
+||leiwo.xyz^
+||yzgid.cn^
+||wzkxke.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -14516,8 +14519,7 @@ ccb.com.cn###leftSideAd
 kuai8.com###left_Ad
 hao.360.cn,hao.360.com###left_float
 sina.com.cn###left_focus_ad
-939394.xyz###left_layer
-939394.xyz###left_layer_ok
+939394.xyz##DIV[id^="left_layer"]
 hao123.com###leftbannerv2
 xc6b.com###leftbottbox
 ri1.site,www.wenxuecity.com###leftside
@@ -21541,6 +21543,7 @@ webkaka.com##td[id$="_SPONSOR"]
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 !#wnacg.com
+htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.Flagrow-Ads-under-header
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ctm_ad
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ff-ads
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
@@ -24903,6 +24906,7 @@ m.babytree.com##script + a[class]
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v1/track/*
+/api/v2/analytics
 /api/v2/collector
 /api/v2/jsonlogger
 /api/v3/getPageVisits
@@ -28282,6 +28286,7 @@ m.babytree.com##script + a[class]
 /stateye/*
 /static-tracking/*$script
 /static/analytics.js
+/static/javascript/readthedocs-analytics.js
 /static/tracking/*
 /statistic/pixel?
 /statistics-desktop.js
@@ -29516,7 +29521,7 @@ m.babytree.com##script + a[class]
 ://d.*/track.js
 ://email.*/blankpixel.gif
 ://ensighten.
-://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
@@ -36078,6 +36083,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cws.conviva.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
+||d1snv67wdds0p2.cloudfront.net/tracker/
 ||d2fuc4clr7gvcn.cloudfront.net/track.js
 ||d2wa5sea6guof0.cloudfront.net^
 ||dadi.technology^$third-party
