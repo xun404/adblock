@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /bZpvmPIZ1PsFIgn9Uar0A
+! Checksum: I/q5uAuWjrBOsoVNHzL5VQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301092139
-! Last Modified: 2023年01月09日 21:39
+! Version: 202301092241
+! Last Modified: 2023年01月09日 22:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -47827,6 +47827,8 @@ tf2r.com#@#.adverts
 ||engine.fxempire.com^
 ||engine.laweekly.com^
 ||eteknix.com/wp-content/uploads/*skin
+||etxt.biz/data/rotations/
+||etxt.biz/images/b/
 ||eurochannel.com/images/banners/
 ||exchangerates.org.uk/images/200x200_currency.gif
 ||excnn.com/templates/anime/sexybookmark/js/popup.js
@@ -51164,6 +51166,8 @@ pcmacstore.com##.mobileHide
 theblockcrypto.com##.mobileView
 thedailybeast.com##.mobiledoc-sizer
 criminaljusticedegreehub.com##.mobius-container
+etxt.biz##.mod-cabinet__sidebar-adv
+etxt.biz##.mod-cabinet__sidebar-info
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
 msn.com##.modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1
@@ -62174,7 +62178,6 @@ ubmcmm.baidustatic.com
 ||tokendomain.xyz^
 ||tolerated.wang^
 ||tomuwlf.cn^
-||tongdejiayuan.com^
 ||tongdianku.com^
 ||tonger.online^
 ||tongfanglianhe.com^
@@ -68370,7 +68373,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zdzdm.com/static/img/*ljs.jpg
 ||zeyi5.com/js/2412/
 ||zfs.cn/8th/
-||zhaiiker.com^*_ads&
 ||zhainanba.org/ac/
 ||zhan.com/static/js/*_ad_modal.js
 ||zhandi.cc/Runtime/js/*vod
@@ -68401,7 +68403,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
-||zhongzijun.com/js/adurl.js
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||zhuji.net/2007_ad/
 ||zhujiangroad.com/js/alltop.js
@@ -68421,7 +68422,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zimuku.*/images/v2/js/b.js
 ||zimuku.*/images/v2/js/bn
 ||zimuku.org/sp1.gif
-||zimushe.com/res/other/
 ||zineworm.com^*&localtype=
 ||ziyuanm.com/js/g11.js
 ||zjg.js.cn/Public/config/Couplet/Index4
@@ -68480,8 +68480,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||meituan.net^$domain=939394.xyz
 ||939394.xyz^$image
 ||fm086.com/Plugins/search
+||zzbaike.com/sites/all/themes/zzbaike/images/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+zzbaike.com##.link2
+zzbaike.com##.left > .bottom[style]
 939394.xyz##IMG[src^="\\"]
 939394.xyz##A[href*="base."]
 szxx.com.cn###A1
@@ -69538,7 +69541,6 @@ jdbbs.com###portal_block_2826
 fuyang.net###portal_block_474
 fuyang.net###portal_block_502
 mpyit.com###post-0
-zhaiiker.com###post-single + .pd10.mar10-t.box
 51cto.com###postform + a[style]
 sosg.net###postlist + .cc
 apk.tw###postlist > div:nth-last-child(2):not([id])
@@ -69598,7 +69600,6 @@ x-mol.com###rightAllJournal
 jiaodong.net###rightBanner
 ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 07073.com###rightDiv > div[style="height:250px"]
-zimushe.com###rightFixed
 2345.com###rightXieCheng
 kuai8.com###right_Ad
 discuss.com.hk,uwants.com###right_column
@@ -71728,7 +71729,6 @@ douguo.com##.mbs
 2345.com##.mco-ex-ndxh
 pcworks.cn##.md-show
 hk01.com##.md\:min-h-\[90px\]
-zhaiiker.com##.media-content[style*="0x"]
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.mediago-ad-wrapper
 cnool.net##.meilai_box
 qq.com##.member_ads
@@ -72742,7 +72742,6 @@ fuliba2023.net,uliba.net##.widget_custom_html
 22vd.com##.widget_custom_html:last-child
 ssr.tools##.widget_custom_html:nth-child(n+2)
 423down.com##.widget_d_banner
-zhaiiker.com##.widget_index_add
 flyzy2005.com##.widget_kratos_ad
 carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
 meijumi.net##.widget_metaslider_widget
@@ -73924,7 +73923,7 @@ dpp.org.tw#@##ad_small
 tt1069.com#@##adbrite
 abbao.cn,tt1069.com#@##adcontent
 nfmovies.com#@##adright
-hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,zhaoze.party,zhuihd.com#@##adsense
+hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,zhaoze.party#@##adsense
 wenku8.net#@##adtop
 union.58.com#@##advertise
 fxykx.com,pantsu.cat#@##banner_ad
