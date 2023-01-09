@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bz25tH+JrBJB4VAmqwQ55A
+! Checksum: AqRigHut4N547OBNGw3Y9A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202301092241
-! Last Modified: 2023年01月09日 22:41
+! Version: 202301092345
+! Last Modified: 2023年01月09日 23:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1095,7 +1095,6 @@ tieba.baidu.com##.tuijian-wrap
 /yunfile/offline_banner/*
 /yy_transv/js/cmp.js
 /zahuishi/images/show38070.js
-/zhidiy_m_ad_
 /zz/*_box2.txt
 /zz/wenzi2.txt
 /zz/zuoxia2.txt
@@ -1782,6 +1781,7 @@ ubmcmm.baidustatic.com
 ##.wp_headline + .ad1
 ##.wrap.mt10.clearfix > .box.top_box
 ##.wrapper > a[target="_blank"] > .ads
+##.wwads-cn
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
 ##.wzad
@@ -14059,11 +14059,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhandi.cc/Runtime/js/*vod
 ||zhandi.cc/Runtime/js/900
 ||zhandi.cc/Runtime/js/index
-||zhangxinxu.com/image/blog/*/ad-zf.jpg
-||zhangxinxu.com/image/blog/*/sp-zf.
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
-||zhaolianmeng.com/plushuan/ad_js.php
 ||zhaozi.cn/d/js/mini/extended
 ||zhengjie.com/a_d?
 ||zhenjiang365.cn/*/ad_
@@ -14080,7 +14077,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhihu.com/node/Banner?
 ||zhimg.com^*_600x250
 ||zhimg.com^*adx
-||zhiys.com/img_new/mobilemo2.jpg
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
@@ -14103,7 +14099,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zimuku.*/images/v2/js/b.js
 ||zimuku.*/images/v2/js/bn
 ||zimuku.org/sp1.gif
-||zineworm.com^*&localtype=
 ||ziyuanm.com/js/g11.js
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjjhfc.com/js/zt.js
@@ -14142,7 +14137,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztyumn.ifeng.com^
 ||zuiacg.com/images/client/
-||zuidaima.com/images/1/201606/20160616135714978.
 ||zuofang05.com/template/mytheme/statics/image/1/
 ||zuoyebang.cc/static/question/pkg/wap-qb_
 ||zwwooooo.com/images/hengtian.
@@ -14164,6 +14158,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzbaike.com/sites/all/themes/zzbaike/images/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+zzzyk.com###Tinfo
+iplaysoft.com###link1111
+iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 zzbaike.com##.link2
 zzbaike.com##.left > .bottom[style]
 939394.xyz##IMG[src^="\\"]
@@ -15438,7 +15435,6 @@ hao.360.com###top-nav
 55188.com###top-pic
 maxthon.cn###top-slider-ad
 teepr.com###topAdBlock
-zhangxinxu.com###topAdOut
 91duba.com,iduba.com###topBanner
 recruit.com.hk###topBar
 111os.com###topBox
@@ -15446,7 +15442,6 @@ qidian.com###topGameOp
 2345.com,duanwenxue.com###topHf
 elecfans.com###topJf
 hupu.com###topPub
-zhangxinxu.com###topRecomm
 chinaz.com###topTxt
 hao.360.cn,hao.360.com###top_activity
 starbaby.cn###top_ad_show
@@ -15538,7 +15533,6 @@ yixingjia.com###wp > table[width="960"]
 wpjam.com###wpjam_blog_300x250_1
 ganpapa.com###wrapper + div
 btbtt.me###wrapper2 > .width
-zhaolianmeng.com###wzgg
 nczsks.com###wzyxjs
 liaoxuefeng.com###x-sponsor-a
 liaoxuefeng.com###x-sponsor-b
@@ -16329,7 +16323,6 @@ brtn.cn,btime.com##.business-box
 brtn.cn,btime.com##.business-item
 baidu.com##.businessvip-wrapper
 cool-de.com##.bustopads
-zhaolianmeng.com##.buttonBar
 zealer.com##.buy_container
 ithome.com##.bx-recom2
 porn5f.com##.bxslider
@@ -16415,8 +16408,6 @@ vjmedia.com.hk##.code-block
 2345.com##.coem-dzhcn
 lenovo.com.cn##.coffee-top
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenxuecity."])
-zhangxinxu.com##.col-aside
-zhangxinxu.com##.col-google
 1090ys8.com##.col-lg-wide-8 > p[style="text-align:center;"]
 big-cup.tv,g-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
 ezprice.com.tw##.col-md-3
@@ -16533,7 +16524,6 @@ xingkbjm.com##.d_textbanner
 51.la##.da-item
 qingdaonews.com##.da30050
 qingdaonews.com##.da66050
-zhangxinxu.com##.da_bottom
 twavking.com##.da_single_video
 mobile01.com##.dable-side_theme
 gw54.com,xgw5.com##.dad
@@ -18257,7 +18247,6 @@ duba.com,newduba.cn##.top_ad_tmall
 cngold.org##.top_bigad
 0772fang.com##.top_blft
 itdog.cn##.top_contents
-zhangxinxu.com##.top_da
 0579.cn##.top_gg
 2345.com##.top_news
 jmw.com.cn##.top_pic
@@ -18458,7 +18447,6 @@ image.baidu.com##.wrapper_dot_box.dot_black
 wenku.baidu.com##.wubai-wrap
 ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
 ikjzd.com##.wv-right-content > .imgTop-right
-iplaysoft.com##.wwads-cn
 52pk.com##.wxbox
 taoguba.com.cn##.wz_ad
 eyy5.cn##.wzgg
@@ -18555,9 +18543,6 @@ programmer-club.com.tw##A[href*="/ADRedirect."]
 020job.com##A[href^="/Click.aspx?AdPageID="]
 gmgard.com,hggard.com##A[onclick*="Advertisement"]
 cnxz.cn##[class*="-ad"]
-zhangxinxu.com##[class*="_block-"]
-zhangxinxu.com##[class*="bottom_"]
-zhangxinxu.com##[class*="zxx"] + *,ARTICLE > .link:first-child
 jmw.com.cn##[class^="advertising"]
 zhicheng.com##[class^="piaofu"]
 gamme.com.tw##[class^="sidead_"]
@@ -18576,7 +18561,6 @@ ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
 sinolub.com##[id^="xker"]
 3322.cc##[onclick*=".gsxzq."]
 32r.com##[onclick*="@"]
-zhangxinxu.com##[onclick*="Ad"]
 42xz.com##[onclick*="godownload"]
 1stchina.net,86cg.me,duodada.com,liaocao.tv,nicotv.me,poxiaotv.com,taotaoxiang.vip##[onclick]
 nfmovies.com##[onclick^="openurl()"]
@@ -18640,10 +18624,8 @@ hanjutv2020.com##a[href*=".hujiang.com"]
 comicat.org,cupfox.app,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com,zhanzhangb.com##a[href*=".jd.com"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 chinanews.com##a[href*=".jiuxianfeng.com"]
-zhangxinxu.com##a[href*=".juejin.cn/ds/"]
 tiexue.net##a[href*=".junp"]
 ruanyifeng.com##a[href*=".kaikeba.com"]
-zhangxinxu.com##a[href*=".ke.qq."]
 ruanyifeng.com##a[href*=".ke.qq.com"]
 doudoudm.site##a[href*=".kxyike.com/"]
 gucheng.com##a[href*=".liaogu.com"]
@@ -18884,7 +18866,6 @@ huaren.tv##a[style*="height:"]
 36dm.club,36dm.com,acgsou.com##a[style="color:red;"][href^="show-"]
 wandhi.com##a[style="display: inline-block;position: relative"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
-zhangxinxu.com##a[style^="background-image"]
 houdao.com##a[style^="background:url"]
 html-js.com##a[style^="margin-top:20px;"]
 dybee.tv##a[style^="position: fixed;bottom:"]
@@ -19089,7 +19070,6 @@ ifeng.com##div[class^="topAd-"]
 21cn.com##div[class^="topAds"]
 ifeng.com##div[class^="topBox-"]
 gpsuu.com##div[class^="top_96"]
-zhangxinxu.com##div[class^="top_da_out_"]
 gamme.com.tw##div[class^="topad_"]
 xzbu.com##div[class^="xueshu-a"]
 msn.com##div[data--adqjyluqt]
@@ -19350,7 +19330,6 @@ codeceo.com##div[style="width:970px;margin:0 auto"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 77kpp.com##div[style="z-index:1000000;position: fixed;top:0;left:0;"]
 v2ex.com##div[style][onclick*="geekhub."]
-zhangxinxu.com##div[style^="height: 300px;"]
 360doc.com##div[style^="height: 90px; padding-top: 13px;"]
 gaoqing.fm##div[style^="height:258px;background-image:"]
 jisilu.cn##div[style^="height:60px; width:960px;"]
@@ -19585,7 +19564,6 @@ xgw5.com,gw54.com#?#li:-abp-has(>.ads)
 yahoo.com#?#.js-stream-content:-abp-has(div:-abp-contains(雅虎搜尋))
 yahoo.com#?#.stream-item:-abp-has(>div>div>div>span:-abp-contains(即日熱搜))
 ypojie.com#?#.excerpt:-abp-has(>.focus[href^="http"]:not([href*="ypojie"]))
-zhangxinxu.com#?#.top_da_out
 zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
 ||mydrivers.com/img/2005/202112011849.png
 !---------------------------------CSS Whitelist-------------------------------!
@@ -22058,13 +22036,7 @@ wnacg.com,wnacg.org##script + div > a > img
 !#W
 !#x
 !#Y
-!#zhangxinxu.com
-zhangxinxu.com##.sldebar_out + *,style[id] + a[class]
-zhangxinxu.com##a[href*=".mawen."]
-zhangxinxu.com##a[href*=".url.cn/"]
-zhangxinxu.com##a[href*="datayi.cn"]
-zhangxinxu.com##a[href^="http://dwz.date/"]
-zhangxinxu.com##article > .link + :not(p)
+!#Z
 !-----------------------------Malware Domains rules---------------------------!
 /api/goods/v1/get.script.core?
 :11211/t.js?MAC=
