@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kSW5c2vUggzOg1DKXy1RYw
+! Checksum: xSzjz5hjIakIqmcTSAfx+Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202301091737
-! Last Modified: 2023年01月09日 17:37
+! Version: 202301100141
+! Last Modified: 2023年01月10日 01:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1663,6 +1663,7 @@ delfi.lt#$#abort-on-property-read _dlf.adxtag
 delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'
 delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/ancestor-or-self::div[@class="row"]'
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
+delfi.lt##[style*="/samsung"]
 ! MISC
 15min.lt#$#hide-if-matches-xpath '//div[@class][@style]/img[string-length(@src) >=180]/ancestor::div[@class][1]'
 ! *** abp-filters-anti-cv:nordic.txt ***
