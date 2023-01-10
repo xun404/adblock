@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: duvQF/cyUzRtjAuqtrEjGA
+! Checksum: g5HCTuzMycGI3OyeTYxftg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301100737
-! Last Modified: 2023年01月10日 07:37
+! Version: 202301101005
+! Last Modified: 2023年01月10日 10:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5723,6 +5723,9 @@ _800x80_
 ###above_button_ad
 ###aboveplayerad
 ###abovepostads
+###acm-ad-tag-lawrence_dfp_mobile_arkadium
+###ad--article--home-mobile-paramount-wrapper
+###ad--article-bottom-wrapper
 ###ad--article-top
 ###ad--sidebar
 ###ad-0
@@ -8391,6 +8394,7 @@ _800x80_
 ###firstAdUnit
 ###first_ad
 ###firstad
+###fixed-ad
 ###fixedAd
 ###floatAd
 ###floatads
@@ -18889,6 +18893,8 @@ _800x80_
 ##.mobile-ads
 ##.mobile-fixed-ad
 ##.mobile-footer__ad
+##.mobile-instream-ad-holder
+##.mobile-instream-ad-holder-single
 ##.mobile-leaderboard-fader
 ##.mobile-nav-ad-plus-banner
 ##.mobile-related-ad
@@ -22243,6 +22249,9 @@ _800x80_
 ##.scroll-fixable.rail-right > .deals-rail
 ##.click-track.partner
 ##[href^="https://freecourseweb.com/"] > .sitefriend
+##.index-module_adBeforeContent__LLBk
+##.interstory_first_mobile
+##.interstory_second_mobile
 ###gnt_atomsnc
 ##.gnt_flp
 ##.gnt_rr_xpst
@@ -50949,7 +50958,6 @@ crash.net##.inarticle-wrapper
 motherjones.com##.incontent-promo
 brudirect.com##.index-banner
 katv.com##.index-module_adAfterContent__1cww
-katv.com##.index-module_adBeforeContent__LLBk
 theinertia.com##.inertia-ad-300x250
 inews.co.uk##.inews__advert
 inews.co.uk##.inews__mpu
@@ -56356,6 +56364,12 @@ ubmcmm.baidustatic.com
 ||zeipw.xyz^
 ||ztxstudy.club^
 ||zunnnh.xyz^
+||x3a88d.cn^
+||damhixs.cn^
+||dxgyl.xyz^
+||uasvyi.xyz^
+||dfepm.xyz^
+||bkisss.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -75653,8 +75667,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||qiyegongqiu1.qiyegongqiu.com^
 ||qizhihaotian.com^*.js
 ||ql.uzuzuz.com^
-||qpb.sohu.com^
-||qpb0.sohu.com^
+||qpb*.sohu.com^
 ||qqhuhu.com^
 ||qqwwmm.com^
 ||qujishu.com^
@@ -84550,7 +84563,7 @@ _mongo_stats/
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
 ||popsample.com^$third-party
-||popt.in^$third-party
+||popt.in^$third-party,domain=~poptin.com
 ||populr.me^$third-party
 ||popupmaker.com^$third-party
 ||porngraph.com^$third-party
