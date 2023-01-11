@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BcmNLL5fLswZq920uOssLw
+! Checksum: qeJLt9fh7mGL6r6NcM5uZw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301110737
-! Last Modified: 2023年01月11日 07:37
+! Version: 202301111003
+! Last Modified: 2023年01月11日 10:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -50843,6 +50843,7 @@ theblock.co##.fullWidthDisplay
 ptinews.com##.fullstorydivright
 whatismybrowser.com##.fun-info-footer
 whatismybrowser.com##.fun-inner
+artscanvas.org##.funders
 ferrarichat.com##.funzone
 fxstreet.com##.fxs_leaderboard
 aframnews.com,afro.com,aurn.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,chimpreports.com,coinweek.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
@@ -51621,6 +51622,7 @@ futbol24.com##.rek
 wcostream.com##.reklam_pve
 timeextension.com##.related-group > .insert
 idropnews.com##.related-posts
+ranker.com##.relatedInline_container__Ux4lS
 timesofindia.indiatimes.com##.relatedVideoWrapper
 4shared.com##.remove-rekl
 runningmagazine.ca##.repeater-bottom-leaderboard
@@ -56224,8 +56226,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/ads/adscenter."]
 ##a[href*="/register/?i_code="] > img
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
-##a[href*="://4"] > img[src*=".woshipm.com"]
-##a[href*="://4"] > img[src*="lbsugc.cdn.bcebos.com"]
+##a[href*="://4"][href*="/vod."]
 ##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?invite_code="] > img[src*=".com"]
@@ -56295,6 +56296,7 @@ ubmcmm.baidustatic.com
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="position"][onclick^="window.open"]
 ##dl#listwoBox
+##a[href*="/auth/register?code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
@@ -56446,6 +56448,11 @@ ubmcmm.baidustatic.com
 ||nonabh.xyz^
 ||jwgihca.cn^
 ||cerfbup.xyz^
+||ukutuy.xyz^
+||maccms10.cn^
+||mmtcw.cn^
+##a[href*="/hhybd.wiki"]
+||xrewo.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -92574,6 +92581,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.ultimate-guitar.com^
 ||tracker.affiliate.iqbroker.com^
 ||tracker.nbcuas.com^
+||tracker.ranker.com^
 ||tracker.shopclues.com^
 ||tracker.uprinting.com^
 ||tracking.carsales.com.au^
