@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fYQdCO5GjZVb6/n111USOw
+! Checksum: OKYjNI0gBLUKKtW6aYXIXQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202301162059
-! Last Modified: 2023年01月16日 20:59
+! Version: 202301170045
+! Last Modified: 2023年01月17日 00:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -843,14 +843,19 @@ client=ca-pub-$subdocument,domain=iprima.cz|www.idnes.cz|expres.cz|auto.cz|autor
 ||mfr.cdn.dopc.cz^$script,domain=www.idnes.cz|expres.cz
 reflex.cz###gl-nat
 e15.cz##.mys-wrapper
+blesk.cz##article[data-track-element-id*="prPremium"]
+blesk.cz###px-wallwrap
 blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
 dama.cz##[class*="ads-"]
 zeny.cz,auto.cz##[data-track-ad]
+super.cz##img[id^="rs-bg-img"]
 reflex.cz##img[title$=".cz"][src^="https://www.reflex.cz/"]
 auto.cz##.halfpageAd, [class*="wrapperH-prapper"], [class*="billboard-bottom"], img[width='970'][height="310"], [data-io-article-url] a[target='_top'], video[id^="video-"][preload="auto"][webkit-playsinline="webkit-playsinline"], [class*="ads-leader"], #KoqisAoAce
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
 autorevue.cz##.bx-sky, .bx-rectangle-article
 maminka.cz##div[class*="bx-sky "]
+super.cz##div[class*="color-0"]
+super.cz##div[id*="superPrclanek-"][class$="timeline-content"]
 dama.cz##div[class^="sky-wrap"]
 maminka.cz,blesk.cz,reflex.cz,e15.cz##a[class*="-combined"]
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz###stickyBanner
@@ -905,11 +910,10 @@ novinky.cz,super.cz,sport.cz,kupi.cz##.dynamic_Rggheysn
 novinky.cz,kupi.cz,sport.cz,super.cz##._ad_branding_container
 novinky.cz,super.cz,sport.cz,kupi.cz##iframe[data-cy-loaded]
 novinky.cz,kupi.cz,sport.cz,super.cz##.superPrclanek
+super.cz##.sklikReklama
 kupi.cz##[data-sssp]
-seznamzpravy.cz##[class^="drtg"]
+seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
 seznamzpravy.cz##[class^="dynamic_banner"]
-seznamzpravy.cz##div[class^="d_bh"] > div
-seznamzpravy.cz##div[class^="mol-timeline-advert"]
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
 seznamzpravy.cz#$#abort-on-property-write sznIVA
 seznamzpravy.cz#$#override-property-read Object.prototype.antiAdblock.postMessageSentinel null
@@ -921,7 +925,6 @@ novinky.cz,kupi.cz,sport.cz,super.cz##iframe[data-cx-loaded]
 novinky.cz,kupi.cz,sport.cz,super.cz##.plachta-overall-img
 sport.cz##.combi_text__ad
 sport.cz##div#page > .combi
-sport.cz##div[class^="d_c9"]
 sport.cz##div[class*="ogm-advert-static"]
 sport.cz##li[class$="ogm-timeline-advert"]
 sport.cz###adSklikUnderArticle
@@ -980,9 +983,9 @@ novinky.cz##section[role^="complementary"]
 novinky.cz##div[class*="advert-static"]
 novinky.cz##div[class*="banner-ad"]
 novinky.cz##article[class$="advert-item--default"]
-novinky.cz##div[class^="g_cW"] > div
 novinky.cz,super.cz,sport.cz,expres.cz##.barMan
 novinky.cz,seznamzpravy.cz,sport.cz##div[data-adtrackingtemporaryurl]
+novinky.cz,seznamzpravy.cz,sport.cz##div[style="background-color: rgb(255, 255, 255);"] > a[href][target="_blank"]
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##a[href*="verdsi="][href*="&ip="]
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##[href*="&token="][target="_blank"]
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,expres.cz##a[href^="//api.mgid.com/"]
@@ -1020,6 +1023,7 @@ horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent
 novinky.cz#$#hide-if-matches-xpath './/div[@style]/div[contains(@style,"position:relative")][@style]/div[@style]/iframe[contains(@style,"display")]/parent::div[@class][@style]/ancestor::div[@class and @style]'
 novinky.cz#$#hide-if-matches-xpath './/div[@class="tpl-king-bottom-content"]//h3[@class]/a[@target="_top"]/ancestor::article[contains(@class,"advert")]/parent::div[1]'
 novinky.cz#$#hide-if-matches-xpath '//div[@id][@style]//div[@*="ad-content"]//iframe[@style]/ancestor::div[@*="mol-advert" and @*="RENDERED"][@style]'
+seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
 ! #CV-780
 .cz/*,,*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =autapay/*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
