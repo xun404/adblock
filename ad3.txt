@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XBDJjrDt3Aj+Rnl1Vimftw
+! Checksum: zKGPdOkVbgCMyVOqnv493w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202301191737
-! Last Modified: 2023年01月19日 17:37
+! Version: 202301192238
+! Last Modified: 2023年01月19日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -28635,6 +28635,7 @@ m.babytree.com##script + a[class]
 /tc_logging.js
 /tc_prixtel_
 /tccl.min.js
+/tck/gif/*
 /td-pageviews.
 /teal-chartbeat-
 /teal-comscore-
@@ -39427,6 +39428,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gamedistribution.com/collect?
 ||gamivo.com/tcllc?
 ||gc.newsweek.com/front/js/counter.js
+||gct.americanexpress.com^
 ||gekko.spiceworks.com^
 ||geo.brobible.com^
 ||geo.gfycat.com^
@@ -54381,7 +54383,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||store.usps.com/media/js/metrics/metrics.js$~third-party
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||support.brother.com^*/js/analytics.js$script,~third-party
-@@||switchfly.com/static/108f088/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
+@@||switchfly.com/static/*/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
 @@||t.st/video/js/kGoogleAnalytics.js?$domain=thestreet.com
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.aticdn.net^*/smarttag.js$domain=rte.ie|uktvplay.co.uk
