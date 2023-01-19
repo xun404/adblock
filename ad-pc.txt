@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7do5y29ylyKAl+nc8Ue1rA
+! Checksum: Kds0flAt1d2x9dkHTi+ehQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301192340
-! Last Modified: 2023年01月19日 23:40
+! Version: 202301200050
+! Last Modified: 2023年01月20日 00:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6801,6 +6801,7 @@ _800x80_
 ###adplace
 ###adplacement
 ###adpos-top
+###adpos2
 ###adposition
 ###adposition1
 ###adposition10
@@ -56130,8 +56131,6 @@ ubmcmm.baidustatic.com
 ###ad_box1
 ###ad_box2
 ###ad_full
-###fc_foot > #f_skyf
-##.m_acmsd
 ###ad_globle_div
 ###ad_headerbanner
 ###adad
@@ -56181,6 +56180,7 @@ ubmcmm.baidustatic.com
 ###eis_pad1
 ###eis_pad2
 ###everydayadv_mask
+###fc_foot > #f_skyf
 ###fixed-bottom-modal[style^="right:"][style$="px; display: block;"]
 ###fk_faiVisitStateAd
 ###floatAd
@@ -56579,6 +56579,7 @@ ubmcmm.baidustatic.com
 ##.lol_ad
 ##.lyzm-prevent
 ##.m1938-container
+##.m_acmsd
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
@@ -56853,9 +56854,9 @@ ubmcmm.baidustatic.com
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+||121.204.246.13^
 ||23.234.217.11^
 ||23.234.217.12^
-||121.204.246.13^
 ##a[href*=".aff007.pro"]
 ##a[href*="/331.run"]
 ##a[href*="/832106.top"]
@@ -56879,26 +56880,31 @@ ubmcmm.baidustatic.com
 ||81xs.xyz^
 ||8ccrv.xyz^
 ||ahwiaw.xyz^
+||ajkcdpm.cn^
 ||aliyun6969.cn^
 ||aol32.cn^
 ||aqtcw.cn^
 ||aswtai.xyz^
 ||banhui.xyz^
+||bavxxf.xyz^
 ||bfdaawe.top^
 ||bgjjwl.cn^
 ||bkisss.com^
 ||bqg16.cc^
 ||bqrkubs.cn^
 ||bqtwbx.xyz^
+||buttn.cyou^
 ||cerfbup.xyz^
 ||creawww.top^
 ||cuwuqo.xyz^
 ||damhixs.cn^
 ||ddqhnjb.cn^
 ||dfepm.xyz^
+||dfghaqea.xyz^
 ||dgozp.com^
 ||doracms.cn^
 ||doublechen.online^
+||doubleclicks.biz^
 ||dxgyl.xyz^
 ||e8jp9.com^
 ||ebzqyow.cn^
@@ -56912,6 +56918,7 @@ ubmcmm.baidustatic.com
 ||frpns.com^
 ||fujbjb.xyz^
 ||fyfvaxi.cn^
+||fyzbvwb.cn^
 ||gadscc.xyz^
 ||geiaxbk.cn^
 ||ggrhsx.cn^
@@ -56926,6 +56933,7 @@ ubmcmm.baidustatic.com
 ||hualu.live^
 ||huifuhuo.com^
 ||huihemou.com^
+||huijizhen.com^
 ||huishij.net^
 ||huitoukao.com^
 ||huiyanzhi.com^
@@ -56937,6 +56945,7 @@ ubmcmm.baidustatic.com
 ||igusoft.com^
 ||ikbgika.cn^
 ||ikbhgj.cn^
+||imassg.xyz^
 ||inkuae.com^
 ||ionqv.cn^
 ||irygym.xyz^
@@ -57002,6 +57011,7 @@ ubmcmm.baidustatic.com
 ||rdoybkd.cn^
 ||renzhongjiaoyu.xyz^
 ||rglctlo.cn^
+||ruyqiolnz.cyou^
 ||salangane.asia^
 ||sange20221226.xyz^
 ||sc4mh.cn^
@@ -57069,8 +57079,10 @@ ubmcmm.baidustatic.com
 ||yretx.cn^
 ||ysgekq.xyz^
 ||ytpae.xyz^
+||yunwu.red^
 ||yuqingby.fun^
 ||yzgid.cn^
+||zdrvtmj.cn^
 ||zeipw.xyz^
 ||zmdtcw.cn^
 ||znktkt.cn^
@@ -57080,17 +57092,6 @@ ubmcmm.baidustatic.com
 ||ztxstudy.club^
 ||zunnnh.xyz^
 ||zxtkfvm.cn^
-||imassg.xyz^
-||ruyqiolnz.cyou^
-||fyzbvwb.cn^
-||zdrvtmj.cn^
-||bavxxf.xyz^
-||huijizhen.com^
-||buttn.cyou^
-||dfghaqea.xyz^
-||doubleclicks.biz^
-||ajkcdpm.cn^
-||yunwu.red^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
