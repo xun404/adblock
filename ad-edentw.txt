@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +DjtWCc5TYfZwSIzcupfvA
+! Checksum: n5JZjhMsVVWaB1Iq2X+gEQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202301210241
-! Last Modified: 2023年01月21日 02:41
+! Version: 202301210437
+! Last Modified: 2023年01月21日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1522,8 +1522,10 @@ instacart.com##a[href*="category_hero_id_"]
 samsclub.com#$#hide-if-matches-xpath '//span[@class="sc-specials-label"]/parent::div[@class="sc-specials"]/ancestor::li'
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::button[contains(@aria-label,"Sponsored")]/ancestor::div[@class="sc-sba-modules-logo"]'
 ! #CV-663
-@@||rddywd.com/adcode.png^$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
-@@||rddywd.com/advertising.js^$script,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
+beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,patriotnationpress.com,rightwingnews.com,toptenz.net##div[class] > div[id] > main[class][id]
+dailylol.com##div > aside[class] > span[class*="mdeyheadline-"]
+dailylol.com##div[class] > div[id] > div[class][id][role]
+ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 rightwingnews.com##.z-ad-inline
 procoinnews.com##div[id^="adcovery-"]
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined ; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
@@ -1551,8 +1553,7 @@ www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ss
 ! #CV-691
 ! #CV-761
 ! #CV-663
-@@||rddywd.com/adcode.png^$image,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
-@@||rddywd.com/advertising.js^$script,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
+aupetitparieur.com,meilleurpronostic.fr,mamieastuce.com,vitamiiin.com##div[class] > div[id] > main[class][id]
 ! #CV-170
 lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
 ||polaccafaison.com^$third-party
@@ -1903,8 +1904,7 @@ envivotv.net,lucenpop.com.es,pokefanleoretrogames.com,topflix.tv#$#abort-current
 ! #9272
 mamaslatinas.com##.top-bar-content
 ! #CV-663
-@@||rddywd.com/adcode.png^$image,domain=telexplorer.com.ar
-@@||rddywd.com/advertising.js^$script,domain=telexplorer.com.ar
+telexplorer.com.ar##div[class] > div[id] > main[class][id]
 ! #CV-751
 rojadirecta.fr#$#abort-on-property-read smrtSB; abort-on-property-read smrtSP
 ! MISC
