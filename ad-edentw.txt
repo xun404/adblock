@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uypQ+7KE4qNbZSW/cbm8Yw
+! Checksum: 1tpeIue8JdDZPyLEJt7GnA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202301192059
-! Last Modified: 2023年01月19日 20:59
+! Version: 202301202058
+! Last Modified: 2023年01月20日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1848,7 +1848,7 @@ anidub.vip,anidubonline.com#$#prevent-listener click window.open; abort-on-prope
 kanobu.ru#$#json-prune results.fixed
 amedia.online#$#abort-on-property-read Ya; prevent-listener beforeunload '0x'; prevent-listener pagehide '0x';
 motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerId 5.BannerId 6.BannerId'
-nsportal.ru#$#simulate-event-poc click a#downloadURL[href^="https://nsportal.ru/sites/"]
+nsportal.ru#$#simulate-event-poc click a#downloadLink[href^="https://nsportal.ru/sites/"]
 okminigames.mail.ru#$#override-property-read appDriver.hasVideoAd false
 bombardir.ru#$#abort-on-property-read alert
 www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock
