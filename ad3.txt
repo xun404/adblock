@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sBemdK9Sdmqjaj4JBL6Pqw
+! Checksum: quSsfTzvp8VroxAouCDldg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202301220137
-! Last Modified: 2023年01月22日 01:37
+! Version: 202301220637
+! Last Modified: 2023年01月22日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -39566,7 +39566,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inq.com/tagserver/logging/logline
 ||instagram.com/ajax/bz
 ||instructables.com/counter
-||intel.*/content/dam/www/global/wap/tms.sync.js
 ||intent.cmo.com.au^
 ||intent.goodgearguide.com.au^
 ||intent.macworld.co.uk^
@@ -54110,6 +54109,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d1igp3oop3iho5.cloudfront.net^*/zaius.js$script,domain=subscriptions.management
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
+@@||d2r1yp2w7bby2u.cloudfront.net^$domain=sonyliv.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv|tlk.io
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
