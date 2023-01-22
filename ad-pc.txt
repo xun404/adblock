@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TbewHCNTMr8G2Ze1YZ0NVg
+! Checksum: 7K2P0Pi9ijW88cBYzBCKQQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301222053
-! Last Modified: 2023年01月22日 20:53
+! Version: 202301222137
+! Last Modified: 2023年01月22日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31533,6 +31533,7 @@ tf2r.com#@#.adverts
 ||ihjtrncfoha.com^
 ||ihoabsop.xyz^
 ||ihsarnaut.store^
+||ihykshjtsxrk.com^
 ||ihzuephjxb.com^
 ||iicheewi.com^
 ||iicsxxkdcy.com^
@@ -41350,6 +41351,7 @@ tf2r.com#@#.adverts
 ||yinthesprin.xyz^
 ||yiopse.com^
 ||yirtaycyytr.xyz^
+||yizldrdnegazw.com^
 ||yjustinge.xyz^
 ||ykjwjvxofc.xyz^
 ||ylasthepoityelthens.com.ua^
@@ -48127,6 +48129,14 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
+$stylesheet,subdocument,third-party,xmlhttprequest,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.com.ua^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.com.ua^$third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.xyz^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.xyz^$third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+@@||google.com/recaptcha/$subdocument,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+||amazonaws.com^$domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+||cloudfront.net^$domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 $script,third-party,xmlhttprequest,domain=mixdrop.co
 @@||code.jquery.com^$domain=mixdrop.co
 @@||gstatic.com^$domain=mixdrop.co
@@ -106976,7 +106986,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$script,xmlhttprequest,domain=friday.kodansha.co.jp|tv-tokyo.co.jp
 @@||api.cxense.com/persisted/execute$script,domain=nippon.com
-@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|shueisha.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
@@ -106996,7 +107006,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 @@||cxense.com/cx.cce.js$domain=mainichi.jp|tarzanweb.jp|wpb.shueisha.co.jp
-@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
+@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|shueisha.co.jp|tarzanweb.jp|tv-tokyo.co.jp
 @@||dcard.docomo.ne.jp/st/common/js/googleTagManager.js
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
