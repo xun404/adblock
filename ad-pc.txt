@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yxzmlB5bs2L8c2CfqgSYrA
+! Checksum: cuuJ+qWRvvq2qvxYeR6WBg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202301250637
-! Last Modified: 2023年01月25日 06:37
+! Version: 202301250737
+! Last Modified: 2023年01月25日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27115,7 +27115,6 @@ tf2r.com#@#.adverts
 ||changeablesizepractically.com^
 ||changedcombustible.com^
 ||changefranticallywhom.com^
-||chango.com^
 ||chapelcertain.com^
 ||chapsartore.com^
 ||chaptersus.com^
@@ -49021,7 +49020,6 @@ uinterview.com###below-content
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com###below-toprail
 animixplay.to###belowcomment
 post-gazette.com###benn-poll-iframe-container
-bing.com###bepfo.popup[style^="visibility: visible"]
 dcnewsnow.com###bestreviews-widget
 fightful.com###betway-sports
 usnews.com###bfad-slot
@@ -50018,7 +50016,6 @@ bizcommunity.com##.b-topbanner
 scorespro.com##.b160_600
 maritimeprofessional.com##.b300x250
 iol.co.za##.bDEZXQ
-bing.com##.b_adPATitleBlock
 vidcloud9.me##.backdrop
 namepros.com##.backer
 kitguru.net,mcvuk.com,technologyx.com,thessdreview.com##.background-cover
@@ -51990,7 +51987,6 @@ kbb.com##[data-lean-auto="flexible-native-2"]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
 namepros.com##[data-np-ga-event="ad"]
-bing.com##[data-partnertag]
 jeffdornik.com##[data-pin-url]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
@@ -52819,13 +52815,16 @@ msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[data-section-id="sponsored.stripe.shopping"]
 msn.com##div[data-section-id="stripe.bannernativead"]
+bing.com###bepfo.popup[style^="visibility: visible"]
 bing.com##.ad_sc
 bing.com##.b_ad
 bing.com##.b_adBottom
 bing.com##.b_adLastChild
+bing.com##.b_adPATitleBlock
 bing.com##.mapsTextAds
 bing.com##.pa_sb
 bing.com##.productAd
+bing.com##[data-partnertag]
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 9gag.com#?#article:-abp-has(.promoted)
@@ -91882,6 +91881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastpass.com/lpapi/content/pixels
 ||lastpass.com/m.php/proxy_tracker
 ||ledger-enquirer.com/lz-isbnoyo/pdp.gif?
+||lego.com/api/dl-event-ingest
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
 ||letsdoeit.com/tracking/
@@ -106573,7 +106573,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
-@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net
+@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|robertsspaceindustries.com
 @@||packagetrackr.com/api/v1/track/detecting.json$~third-party
 @@||pagure.io/static/issues_stats.js$~third-party
 @@||palmettostatearmory.com/static/$script,~third-party
