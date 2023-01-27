@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: juU97s8yi+8c0vhjGRj+0g
+! Checksum: 8kanMiwgD3HAYA+nUyogQA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202301271537
-! Last Modified: 2023年01月27日 15:37
+! Version: 202301271640
+! Last Modified: 2023年01月27日 16:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2588,6 +2588,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /cms/js/ad_
 /cms_ads/*
 /cnads.js
+/code/native.js?h=$script
+/code/pops.js?h=$script
+/code/silent.js?h=$script
 /column-ad-
 /columnads/*
 /combo?darla/*
@@ -2759,6 +2762,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /easyads.$domain=~easyads.bg|~easyads.eu|~easyads.io|~easyads.lk
 /easyads/*$domain=~easyads.eu|~easyads.io|~easyads.lk
 /easyazon-
+/ec5bcb7487ff.js
 /emailads/*
 /embed-ad-
 /embed/ad/*
@@ -3803,6 +3807,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /scripts/zanox-
 /scrollAd-
 /scrollads/*
+/sdk/push_web/?zid=
 /search-ads?
 /search/ad/*
 /search/ads?
@@ -4124,6 +4129,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /utep/ad/*
 /utep_ad.js
 /v1/ads/*
+/v2/a/push/js/*
 /v2/ads.
 /v2/ads/*
 /v3/ads/*
@@ -4288,6 +4294,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /yieldlab.$domain=~yieldlab.com|~yieldlab.science
 /ysc_csc_news
 /yume_ad_library_
+/yzfdmoan.js
 /zanox/banner/*
 /zcredirect?
 /zcvisitor/*
@@ -4760,12 +4767,19 @@ _widget_ad.
 /in/track?data=
 /senddata?site=banner
 /senddata?site=inpage
+/ntfc.php?
+/pfe/current/*$script,third-party
 .com/src/ppu/
+/aas/r45d/vki/*
+/bultykh/ipp24/7/*
 /ceef/gdt3g0/tbt/*
+/i/npage/*$script,third-party
+/lv/esnk/*$script,third-party
 /fyckld0t/ckp/fd3w4/*
+/pn07uscr/f/tr/zavbn/*
+/q/tdl/95/dnt/*
 /sc4fr/rwff/f9ef/*
 /t/9/heis/svewg/*
-/yzfdmoan.js
 /cmbdv2.js
 /greenoaks.gif?
 /contents/other/player/*
@@ -48134,6 +48148,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||dcraddock.uk/images/b/
 ||definebabe.com/sponsor_
 ||delivery.porn.com^
+||depvailon.com/sponsored.html
 ||dixyporn.com/include/
 ||dpfantasy.org/k2s.gif
 ||dragonthumbs.com/adcode.js
@@ -48285,6 +48300,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||oldies.name/ok/
 ||orgyxxxhub.com/js/138eka326.js
 ||orgyxxxhub.com/js/965eka57.js
+||pantyhosepornstars.com/utu/
 ||phonerotica.com/resources/img/banners/
 ||pics-x.com/api/get_ad/
 ||picshick.com/b9ng.js
@@ -51452,7 +51468,7 @@ technclub.com##.wbyqkx-container
 wccftech.com##.wccf_video_tag
 glamourvanity.com##.wdt_gads
 probuilds.net##.welcome-bnr
-mobygames.com,taskcoach.org##.well
+limesurvey.org,mobygames.com,taskcoach.org##.well
 gearlive.com##.wellvert
 cpu-monkey.com,gpu-monkey.com##.werb
 best-faucets.com,transfermarkt.co.uk,transfermarkt.com##.werbung
@@ -52409,7 +52425,6 @@ bing.com##.b_adPATitleBlock
 bing.com##.mapsTextAds
 bing.com##.pa_sb
 bing.com##.productAd
-bing.com##[data-partnertag]
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 9gag.com#?#article:-abp-has(.promoted)
@@ -55969,6 +55984,9 @@ ubmcmm.baidustatic.com
 ||brkxgfs.cn^
 ||df-long.cn^$third-party
 ||hnrjign.cn^
+||plyuwqq.cn^
+||yang17.xyz^
+||juntaijiancai.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -88052,6 +88070,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.usefathom.com^
 ||collector-*.px-client.net^
 ||collector-api.99designs.com^
+||collector.api.video^
 ||collector.automote.co.nz^
 ||collector.clareity.net^
 ||collector.contentexchange.me^$third-party
