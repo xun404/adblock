@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: igsgJImdr7KTGHxu94PqvQ
+! Checksum: wcgqOxorkuYFv1WSdjQvkg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202302032237
-! Last Modified: 2023年02月03日 22:37
+! Version: 202302040137
+! Last Modified: 2023年02月04日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -897,6 +897,7 @@ fights.cz,spisovatele.cz##body>a[target="_blank"]
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||sport.cz/*&*=$subdocument,domain=sport.cz
 ||www.kupi.cz/*&*=$subdocument,domain=www.kupi.cz
+||seznamzpravy.cz/*/static/js/*^$domain=seznamzpravy.cz
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
 seznamzpravy.cz/*ssp.js
 seznamzpravy.cz/*cmp*$script
@@ -1077,10 +1078,9 @@ clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([cl
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 clanky.seznam.cz,search.seznam.cz#?#.Result.Result--organic:-abp-has(.Result-title + .Result-contentContainer > :not(.Result-url):not(.Result-dw-wrapper):not(.Result-image) > :not([class="Result-url-link Result-url-link--cr-result"]):not(span):not(.AnchorList-list))
-www.seznam.cz#$#hide-if-matches-xpath './/h2[contains(@class,"advert")]//a[@href][text()]/ancestor::div[contains(@class,"gadget")]/parent::div[starts-with(@class,"animated")]/ancestor::div[@class][@id]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex") and contains(@class,"advert")]//a[@rel][@aria-hidden]/picture[contains(@class,"advert")]/img/ancestor::div[@id]//parent::li/div[@data-dot]'; hide-if-matches-xpath './/li[starts-with(@class,"d-block")]//div[contains(@class,"promo-carousel")]/h2//div[@class]//following::div[contains(@class,"promo-carousel")]/a[@target][@rel]//img[starts-with(@class,"d-block")]/ancestor::div[contains(@class,"goods-promo")]'; hide-if-matches-xpath './/div[starts-with(@class,"gadget")]//ul[@class="product-list"]/li[contains(@class,"item")]//a[@aria-hidden]/picture[@class]/img[contains(@class,"block")]/ancestor::div[@id][@class][1]'; hide-if-matches-xpath './/div[@id][@class][@style]/div[@class][@style]/div/iframe[@class][@style]/ancestor::div[@class][@style][1]'; hide-if-matches-xpath './/div[@*="ad-content"]//iframe[@class and @style]/ancestor::div[@id and @style]/parent::div[1]/ancestor::div[5]'; hide-if-matches-xpath './/div[@*="ad-content"]//iframe[@class and @style]/ancestor::div[@id and @style]/parent::div[1]/ancestor::div[5]'; hide-if-matches-xpath './/div[contains(@class,"advert")]/a[@target]/picture[contains(@class,"advert")]/ancestor::div[contains(@class,"position-relative")]/ancestor::li[translate(@*, "nativeSspAdvert", "NATIVESSPADVERT")]'; hide-if-matches-xpath './/div[@class]/div[@class and @style]//iframe[@class]/ancestor::div[@id and @style]/parent::div/ancestor::div[@*="gadgetCommercial" or (contains(@style,"max"))]'
-||seznam.cz/*/static/js/ssp.js^$domain=seznam.cz
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
+||seznam.cz/*/static/js/*^$domain=seznam.cz
 wwww.seznam.cz##div[class*="gadget-container"]
-wwww.seznam.cz#$#hide-if-matches-xpath './/div/div[text()]//following::div[@style]/ancestor::div[contains(@style,"flex") and contains(@class,"mol-repeater")]/parent::div[contains(@class,"d-flex")]'; hide-if-matches-xpath './/div[@class="animated-height"]/parent::div[@id]/ancestor::div[starts-with(@class,"gadget-container")]'
 www.seznam.cz##div[class^="atm-advert-label"]
 www.seznam.cz##div[id*="nativeSspAdvert"]
 www.seznam.cz##li[data-analytics-spent-time-item^="nativeSspAdvert:"]
@@ -1547,6 +1547,9 @@ nikaraw.com#$#abort-on-property-read afStorage
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
 nicovideo.jp#$#hide-if-matches-xpath './/li[@class="count ads"]/parent::ul/ancestor::li[contains(@class,"adVideoItem")]'; hide-if-matches-xpath './/h1[text()="Niconico Ads"]/following::img[contains(@class,"UadVideoItem-image")]/parent::div[contains(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]'; hide-if-matches-xpath './/img[contains(@class,"NicoadVideoItem")]/parent::a[contains(@class,"NicoadVideoItem")]/ancestor::div[starts-with(@class,"NicoadVideosContainer")]'; hide-if-matches-xpath './/div[@data-nicoad-sponsor]/following::a[starts-with(@class,"NicoAdContainer")]/parent::div[contains(@class,"NicoAdContainer")]/ancestor::section[@class="TopPage-section"]'; hide-if-matches-xpath './/img[contains(@class,"UadVideoItem")]/parent::div[starts-with(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]';
 ||nimg.jp/nicoad/instream/video/*.mp4$media,domain=nicovideo.jp
+||hotpepper.jp/doc/*/townwork.jpg^$image
+hotpepper.jp##div[style*="text-align: center;"] > div > a
+hotpepper.jp##.personalizedCampaign
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
 ! #CV-761
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]>span>span>b; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Sponsrad" or .="Publicidad" or .="Sponsoreret" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ"]]/ancestor::div[@role="article"]'; race stop;
@@ -1867,6 +1870,7 @@ bombardir.ru#$#abort-on-property-read alert
 www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 rg.ru#$#abort-on-property-read AdFox_getCodeScript
+ontivi.net,xittv.net#$#abort-on-property-read document.head.append
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
