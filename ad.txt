@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dB8p01s7GTyXzRP8EQuzhA
+! Checksum: ZGy27dz7WNbDchCiUMVVtQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202302031737
-! Last Modified: 2023年02月03日 17:37
+! Version: 202302032237
+! Last Modified: 2023年02月03日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -460,6 +460,7 @@ tieba.baidu.com##.tuijian-wrap
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/res/kj/hf*.js?v=
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -1864,6 +1865,8 @@ ubmcmm.baidustatic.com
 ##a[id][href*="/?register="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
+##.ka-flo
+##.kjk-flo
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -2364,6 +2367,9 @@ ubmcmm.baidustatic.com
 ||thlnbzi.cn^
 ||tanghao.club^
 ||fqla.top^
+##a[href*="/296256.com:"]
+##a[href*="/265201.com:"]
+||ealooov.cn^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
