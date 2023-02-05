@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P2mPD2MdfNZutQkXZEgRMQ
+! Checksum: /NopSjOe0Ji9w3yCLMFgaQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202302050737
-! Last Modified: 2023年02月05日 07:37
+! Version: 202302051008
+! Last Modified: 2023年02月05日 10:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1945,6 +1945,9 @@ ubmcmm.baidustatic.com
 ||pj0z5.cn^
 ||bpbpxv.xyz^
 ||uwumr.cn^
+||shguy.cyou^
+||ibgksw.xyz^
+||vokmhydy.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -53474,6 +53477,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||kieskeurig.nl/collect
 ||kieskeurig.nl/track-
 ||klik.nrc.nl/ping?
+||log.rabobank.nl^
 ||logs.ggweb.nl^
 ||marktplaats.nl/add_counter_image.
 ||marktplaats.nl/metrics/
@@ -54283,6 +54287,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 @@||glenat.com^*/static/analytics.js$script,~third-party
+@@||gls-us.com/api/tracking/$~third-party
 @@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|truwin.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
