@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kFnYwAGPEP6JOW/vpbtsNA
+! Checksum: OxQVH4v55229OP2y2ccv3w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202302131738
-! Last Modified: 2023年02月13日 17:38
+! Version: 202302131937
+! Last Modified: 2023年02月13日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -824,7 +824,6 @@ auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,i
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz##a[href*="branding"]
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,ahaonline.cz,blesk.cz,dama.cz,e15.cz,info.cz,mojezdravi.cz,onetv.cz,zeny.cz,zive.cz,www.idnes.cz,expres.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
 blesk.cz##.gam-wrapper
-expres.cz,idnes.cz##.rma592n
 expres.cz,idnes.cz##div[data-redistribute="ad"]
 idnes.cz###foto-reklama
 ||domnovrek.com^$third-party
@@ -843,14 +842,17 @@ idnes.cz###foto-reklama
 /tigatage:$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 ||w-cached.cncenter.cz/js/cnc-ads-controller.$script,domain=blesk.cz|extra.cz|reflex.cz|zive.cz|auto.cz|e15.cz|autorevue.cz|dama.cz|maminka.cz|mojezdravi.cz|zeny.cz|onetv.cz|info.cz|ahaonline.cz
 client=ca-pub-$subdocument,domain=iprima.cz|www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-||www.expres.cz/*bg.jpg$image,domain=www.expres.cz
+||www.expres.cz/*?.jpg$image,domain=www.expres.cz
+||www.idnes.cz/*?.jpg$image,domain=www.idnes.cz
 reflex.cz###gl-nat
 e15.cz##.mys-wrapper
+blesk.cz##.banner-ifortuna
 blesk.cz##article[data-track-element-id*="prPremium"]
 blesk.cz##div[data-track-element-id^="prStandardZpravy"]
-blesk.cz###p2-wall-wrap
+blesk.cz###px2-wall-wrap
 blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
-idnes.cz###alM-wwp
+expres.cz,idnes.cz###alM-wwp
+expres.cz,idnes.cz##[class^="rma"]
 dama.cz##[class*="ads-"]
 zeny.cz,auto.cz##[data-track-ad]
 super.cz##img[id^="rs-bg-img"]
