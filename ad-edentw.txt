@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OxQVH4v55229OP2y2ccv3w
+! Checksum: ha2rfpqxkbPNzGzaKAl5CA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202302131937
-! Last Modified: 2023年02月13日 19:37
+! Version: 202302140048
+! Last Modified: 2023年02月14日 00:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -851,8 +851,9 @@ blesk.cz##article[data-track-element-id*="prPremium"]
 blesk.cz##div[data-track-element-id^="prStandardZpravy"]
 blesk.cz###px2-wall-wrap
 blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
-expres.cz,idnes.cz###alM-wwp
+expres.cz,idnes.cz,blesk.cz###alN-wwp
 expres.cz,idnes.cz##[class^="rma"]
+expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-resize]
 dama.cz##[class*="ads-"]
 zeny.cz,auto.cz##[data-track-ad]
 super.cz##img[id^="rs-bg-img"]
