@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UtHvpVSBD7Yft74c/RvV1w
+! Checksum: +cUJ9Vs9PdQ2/O59UKwk2g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202302151738
-! Last Modified: 2023年02月15日 17:38
+! Version: 202302151840
+! Last Modified: 2023年02月15日 18:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49885,6 +49885,7 @@ google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
 faroutmagazine.co.uk,hitc.com,thefocus.news##.GRVMpuWrapper
 faroutmagazine.co.uk##.GRVPrimisVideo
+imgur.com##.Gallery-Content-AdSense
 cargurus.com##.Gi1Z6i
 naturalnews.com##.HNXEAFMIWBQP
 metservice.com##.Header
@@ -53092,12 +53093,11 @@ slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
-imgur.com#?#div[style]:-abp-has(.Post-item-external-ad)
+imgur.com#?#div[style^="height:"]:-abp-has(.Post-item-external-ad)
 insta-stories-viewer.com#?#.profile__tabs-media-item:-abp-has(.profile__adv)
 agoda.com#?#.PropertyCardItem:-abp-has(div:-abp-contains(Promoted))
 u.gg#?#.video-guide:-abp-has(.content-section_header:-abp-contains(Sponsored Content))
 engadget.com#?#[class^="Py"]:-abp-has([data-ylk]:-abp-contains(Sponsored))
-imgur.com#?#a.Post-item:-abp-has(div.Post-item-external-ad)
 fortune.com#?#.homepage:-abp-has(> div[id^="InStream"])
 timesnownews.com#?#div:-abp-has(> .bggrayAd)
 goodreturns.in,gizbot.com,filmibeat.com,oneindia.com#?#ul>li:-abp-has(> div[id^="taboola-mid-home-stream"])
@@ -53121,8 +53121,6 @@ instagram.com#?#article[role="presentation"] > div[style]:-abp-has(span:-abp-con
 nationalgeographic.com#?#.FrameBackgroundFull--grey:-abp-has(.ad-wrapper)
 cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,wotif.com#?#.uitk-card:-abp-has(.uitk-badge-sponsored)
 mg.co.za#?#.td_flex_block:-abp-has(span:-abp-contains(Sponsored))
-imgur.com#?#div[style="height: 250px; margin-bottom: 16px; position: relative; z-index: 1;"]:-abp-has(div.Ad)
-imgur.com#?#div.Gallery-Sidebar-PostContainer:-abp-has(div.promoted-hover)
 limetorrents.lol#?#table:first-of-type:-abp-contains(Sponsored Links)
 limetorrents.lol#?#.downloadareabig:-abp-has([title^="An‌on‌ymous Download"])
 webtools.fineaty.com#?#div[class*=" hidden-"]:-abp-has(.adsbygoogle)
