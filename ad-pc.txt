@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b7Dj/xY1H761ICL6Y+m0Jg
+! Checksum: I95AZaM49I1R5MUZq2Ym2g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202302151937
-! Last Modified: 2023年02月15日 19:37
+! Version: 202302152101
+! Last Modified: 2023年02月15日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3680,7 +3680,6 @@ tieba.baidu.com##.tuijian-wrap
 /players/ads.
 /pledgead.
 /plugin/ad/*
-/plugins/ad-ace/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/ad.
 /plugins/ads-
@@ -4876,6 +4875,9 @@ _widget_ad.
 ||ox-d.*^auid=
 ||serve.*/promoload?
 /ed/fol457.
+/plugins/ad-ace/assets/js/coupons.js
+/plugins/ad-ace/assets/js/slot-slideup.js
+/plugins/ad-ace/includes/shoppable-images/*
 /e/cm?$subdocument
 /e/ir?$image,script
 /in/track?data=
@@ -107135,7 +107137,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bangumi.org/sdk/rakuraku.js?referer=$domain=bs11.jp
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
-@@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
+@@||browser.sentry-cdn.com^$domain=marshmallow-qa.com|spacemarket.com
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
