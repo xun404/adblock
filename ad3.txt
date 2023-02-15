@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oTCpxrp2BzsXRmC0dggHvA
+! Checksum: UIZWS/xsvsfcuVWKjacebQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202302151738
-! Last Modified: 2023年02月15日 17:38
+! Version: 202302151937
+! Last Modified: 2023年02月15日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -53764,7 +53764,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
-@@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
+@@||api.cxense.com/public/widget/data?$domain=bizjournals.com|cxpublic.com|marketwatch.com|wsj.com
 @@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=medexpress.com|right-on.co.jp
@@ -54144,6 +54144,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
 @@||sahibinden.com/assets/analytics*.js$~third-party
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
+@@||scdn.cxense.com/cx.cce.js$domain=cxpublic.com
 @@||scholar.cnki.net/detailstatic/js/tracker.js$~third-party
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
