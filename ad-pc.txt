@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J5WMKGTTT1CZXaObzZRJYA
+! Checksum: TZONCOzYe0CzMAlYAEEdeQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202302152238
-! Last Modified: 2023年02月15日 22:38
+! Version: 202302160242
+! Last Modified: 2023年02月16日 02:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53112,6 +53112,7 @@ slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
 imgur.com#?#div[style^="height:"]:-abp-has(.Post-item-external-ad)
+imgur.com#?#div[style^="height:"]:-abp-has(.Ad)
 insta-stories-viewer.com#?#.profile__tabs-media-item:-abp-has(.profile__adv)
 agoda.com#?#.PropertyCardItem:-abp-has(div:-abp-contains(Promoted))
 u.gg#?#.video-guide:-abp-has(.content-section_header:-abp-contains(Sponsored Content))
