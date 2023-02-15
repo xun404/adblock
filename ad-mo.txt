@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zM4l95NVxi9TJkJxSfzpyA
+! Checksum: kLichb01BwUR7eX/cQGB6A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202302151102
-! Last Modified: 2023年02月15日 11:02
+! Version: 202302151140
+! Last Modified: 2023年02月15日 11:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -52979,6 +52979,7 @@ slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
+imgur.com#?#div[style]:-abp-has(.Post-item-external-ad)
 insta-stories-viewer.com#?#.profile__tabs-media-item:-abp-has(.profile__adv)
 agoda.com#?#.PropertyCardItem:-abp-has(div:-abp-contains(Promoted))
 u.gg#?#.video-guide:-abp-has(.content-section_header:-abp-contains(Sponsored Content))
@@ -53199,6 +53200,7 @@ pornvalleymedia.net###media_image-86
 pornvalleymedia.net###media_image-87
 pornvalleymedia.net###media_image-88
 pornvalleymedia.net###media_image-90
+clubsarajay.com###mgb
 vpornvideos.com###mn-container
 gifsfor.com###mob_banner
 whentai.com###modalegames
@@ -53251,8 +53253,8 @@ megatube.xxx###sponsor-widget
 flingtube.com###sponsoredBy
 w3avenue.com###sponsorsbox
 pornfap.tv###spot-player
-winporn.com###spot_video_livecams
-winporn.com###spot_video_underplayer_livecams
+hd21.com,winporn.com###spot_video_livecams
+hd21.com,winporn.com###spot_video_underplayer_livecams
 maxjizztube.com,yteenporn.com###spotxt
 gotgayporn.com###ss_bar
 oldies.name###stop_ad2
@@ -53326,6 +53328,7 @@ fuqer.com##.area
 sextb.net##.asg-overlay
 hobby.porn##.asg-vast-overlay
 porndictator.com,submityourflicks.com##.aside > div
+hd21.com##.aside_video
 avn.com##.avn-article-tower
 mrskin.com##.az
 gayporno.fm##.b-content__aside-head
@@ -53351,10 +53354,11 @@ perfectgirls.net##.banner-wrapper
 tnaflix.com##.bannerBlock
 watchhentaivideo.com##.bannerBottom
 yourlust.com##.banner_right_bottoms
-camporn.to,camseek.tv,camstreams.tv,sexu.com##.banners
+camporn.to,camseek.tv,camstreams.tv,cnnamador.com,sexu.com##.banners
 xxxvogue.net##.banners-container
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
 paradisehill.cc##.banners4
+cnnamador.com##.banners__list
 ratemymelons.com##.bannus
 yourdarkdesires.com##.battery
 fap18.net,fuck55.net,tube.ac,tube.bz##.bb_desktop
@@ -53856,6 +53860,7 @@ hentai2read.com##[href^="https://camonster.com"]
 sweethentai.com##[href^="https://gadlt.nl/"]
 boobieblog.com##[href^="https://iplayboy.us/"]
 missav.com##[href^="https://l.hyenadata.com/"]
+clubsarajay.com##[href^="https://landing.milfed.com/"]
 porngames.club##[href^="https://meetandfuck.site/"]
 freebdsmxxx.org##[href^="https://t.me/joinchat/"]
 totsantcugat.info##[href^="https://totsantcugat.info/wp-content/"]
@@ -53970,12 +53975,17 @@ xxxcomics.org##video
 porndoe.com,tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
+!! Advanced element hiding rules for Adblock Plus
+cnnamador.com#?#.cards__item--videos:-abp-has(span.flag--banner)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
 darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-1:-abp-has(> div[class^="inside-list-boxes"])
 darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com#?#.order-2:-abp-has(.duration-ad)
 erofus.com#?#div:-abp-has(> .ad)
+hentaicomics.pro#?#.single-portfolio:-abp-has(.xxx-banner)
 kbjfree.com#?#.relative.w-full:-abp-has(> .video-card[target="_blank"])
+porngames.com#?#.contentbox:-abp-has(a[href="javascript:void(0);"])
+porngames.com#?#.contentbox:-abp-has(iframe[src^="//"])
 pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
 pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
