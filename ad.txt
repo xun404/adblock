@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sZxTzwUvDsDJL5Oi3+luMA
+! Checksum: LTn5VjTvy2G+PB4cjXT5Jw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202302161937
-! Last Modified: 2023年02月16日 19:37
+! Version: 202302170048
+! Last Modified: 2023年02月17日 00:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1186,6 +1186,7 @@ ubmcmm.baidustatic.com
 !------------------------General element hiding rules-------------------------!
 ###Ad_windows
 ###ChapterView > .slide-baidu
+###J_sideFooter.side_footer
 ###Layeraa1
 ###Layeraa2
 ###MsnDialog.ad
@@ -1301,6 +1302,7 @@ ubmcmm.baidustatic.com
 ###imgs5[height="60px"]
 ###index_aside_ad
 ###index_content_ad
+newduba.cn###jq_youxi
 ###js-ad-map
 ###js-ysjpp
 ###js_ads_banner_top
@@ -1677,6 +1679,7 @@ ubmcmm.baidustatic.com
 ##.lyzm-prevent
 ##.m1938-container
 ##.m_acmsd
+##.m_hot_rec_box_base[id^="right"]
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
@@ -1895,8 +1898,6 @@ ubmcmm.baidustatic.com
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
-##.m_hot_rec_box_base[id^="right"]
-newduba.cn###jq_youxi
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -1911,7 +1912,6 @@ newduba.cn###jq_youxi
 ##div[id^="a-loading-"] > span
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
-###J_sideFooter.side_footer
 ##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".open"][onclick*="leyu"]
@@ -1992,6 +1992,7 @@ newduba.cn###jq_youxi
 ##a[href*="/x9658.cc"]
 ##div[onclick*="/ky0777.cn"]
 ||045zxnm.com^
+||053h94.com^
 ||07xm.fun^
 ||0s6s0.top^
 ||0vkkf.cn^
@@ -2081,6 +2082,7 @@ newduba.cn###jq_youxi
 ||creawww.top^
 ||ctoyb.cyou^
 ||cuwuqo.xyz^
+||cwobgp.cn^
 ||cwpbohx.cn^
 ||damhixs.cn^
 ||darzkrx.cn^
@@ -2102,6 +2104,7 @@ newduba.cn###jq_youxi
 ||doublechen.online^
 ||doubleclicks.biz^
 ||dreanrh.cn^
+||dtckvpc.cn^
 ||dvbuxcl.cn^
 ||dvrnszf.cn^
 ||dxgyl.xyz^
@@ -2112,6 +2115,7 @@ newduba.cn###jq_youxi
 ||ealooov.cn^
 ||ebpu2.top^
 ||ebzqyow.cn^
+||eijriol.cn^
 ||ekcsqzo.cn^
 ||ekdbfu.cn^
 ||ekqfkk.xyz^
@@ -2147,6 +2151,7 @@ newduba.cn###jq_youxi
 ||ggrhsx.cn^
 ||glzniuy.cn^
 ||gomhn.cn^
+||goopi.cyou^
 ||grndhkd.cn^
 ||gskbzle.cn^
 ||guge.red^
@@ -2260,6 +2265,7 @@ newduba.cn###jq_youxi
 ||looktt.xyz^
 ||lpaehxw.cn^
 ||lpncqju.cn^
+||ltwfd.xyz^
 ||lw0mp.fun^
 ||lwpxhr.xyz^
 ||lymtreg.cn^
@@ -2268,6 +2274,7 @@ newduba.cn###jq_youxi
 ||mbepa.xyz^
 ||mbqwwa.cn^
 ||mdi5k.cn^
+||meidd.cyou^
 ||mfaec.cn^
 ||mffdn.xyz^
 ||mfwlis.xyz^
@@ -2283,6 +2290,7 @@ newduba.cn###jq_youxi
 ||mpymea.xyz^
 ||mqquas.xyz^
 ||mryshl.com^
+||musdga.xyz^
 ||mvbtp.xyz^
 ||mvfrcio.cn^
 ||mzwzo.cn^
@@ -2299,6 +2307,7 @@ newduba.cn###jq_youxi
 ||nqhqpq.cn^
 ||nqxvevk.cn^
 ||nuiekka.cn^
+||nuubi.cyou^
 ||nuyqiolnc.cyou^
 ||nwrazu.cn^
 ||nxxyjn.com^
@@ -2313,6 +2322,7 @@ newduba.cn###jq_youxi
 ||omhoa.com^
 ||oocie.cn^
 ||opeem.cyou^
+||oqxep.cn^
 ||oronwg.xyz^
 ||oulibf.xin^
 ||owihyg.xyz^
@@ -2372,6 +2382,7 @@ newduba.cn###jq_youxi
 ||rtycgmz.cn^
 ||ruyqiolnz.cyou^
 ||rzlp.xyz^
+||rzxov.cn^
 ||s65m.win^
 ||saccac11.com^
 ||sairy.cyou^
@@ -2469,6 +2480,7 @@ newduba.cn###jq_youxi
 ||wpiwoo.xyz^
 ||wqmgqm.xyz^
 ||wschao.xyz^
+||wsdof.xyz^
 ||wuepo.cn^
 ||wuge20230104.live^
 ||wujiupic.com^
@@ -2485,6 +2497,7 @@ newduba.cn###jq_youxi
 ||xhjxkgc.cn^
 ||xiaohui668.club^
 ||xibpbov.cn^
+||xinllz.xyz^
 ||xjpphoto.com^
 ||xjpsrb.xyz^
 ||xkhall.xyz^
@@ -2551,19 +2564,6 @@ newduba.cn###jq_youxi
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
-||musdga.xyz^
-||oqxep.cn^
-||rzxov.cn^
-||nuubi.cyou^
-||goopi.cyou^
-||meidd.cyou^
-||eijriol.cn^
-||xinllz.xyz^
-||cwobgp.cn^
-||ltwfd.xyz^
-||wsdof.xyz^
-||dtckvpc.cn^
-||053h94.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -14106,7 +14106,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
-duba.com##.m_hot_rec_box_base
 szxx.com.cn###A2
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
@@ -17268,6 +17267,7 @@ qq.com##.m[pbflag="guess"]
 foodmate.net##.m[style="height:40px;"]
 myexception.cn##.m_a
 91duba.com##.m_guess_like
+duba.com##.m_hot_rec_box_base
 lgn.yy.com##.m_left
 163.com##.m_papa
 xitongzhijia.net##.m_swift
