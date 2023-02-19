@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3YnVPQ6hrBAI1JRCE/HQ2w
+! Checksum: +VQo6sbJxxn5tR3TXoBa4w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202302191737
-! Last Modified: 2023年02月19日 17:37
+! Version: 202302191838
+! Last Modified: 2023年02月19日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -88382,6 +88382,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
 ||atgsvcs.com/js/atgsvcs.js
+||ati-host.net/event?
 ||atlassian.net/rest/collectors/$third-party
 ||atom-data.io/session/latest/track.html?$third-party
 ||attn.tv^*/dtag.js
@@ -106927,6 +106928,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||switchfly.com/static/*/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
 @@||t.st/video/js/kGoogleAnalytics.js?$domain=thestreet.com
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
+@@||tag.aticdn.net/piano-analytics.js$domain=yourstory.com
 @@||tag.aticdn.net^*/smarttag.js$domain=rte.ie|uktvplay.co.uk
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
