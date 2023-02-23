@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9DATFbtOlhNBmlNUs+ZjlQ
+! Checksum: 59amOLbQIX3TH3K8XDqqXQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202302231737
-! Last Modified: 2023年02月23日 17:37
+! Version: 202302232101
+! Last Modified: 2023年02月23日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4243,7 +4243,6 @@ tieba.baidu.com##.tuijian-wrap
 /userad/*
 /userads/*
 /utep/ad/*
-/utep_ad.js
 /v1/ads/*
 /v2/a/push/js/*
 /v2/ads.
@@ -4411,7 +4410,6 @@ tieba.baidu.com##.tuijian-wrap
 /yieldlab.$domain=~yieldlab.com|~yieldlab.science
 /ysc_csc_news
 /yume_ad_library_
-/yzfdmoan.js
 /zanox/banner/*
 /zcredirect?
 /zcvisitor/*
@@ -50764,6 +50762,7 @@ tellymix.co.uk##.a-text
 backthetruckup.com,trendstorys.com##.a-wrap
 breitbart.com##.a-wrapper
 getpocket.com##.a1cawpek
+informer.com##.a2
 supercheats.com##.a300
 wmtips.com##.a3f17
 getpocket.com##.a47c4wn
@@ -51149,6 +51148,7 @@ kaotic.com##.block-toplist
 worldtimebuddy.com##.block2
 macmusic.org##.block440Adv
 betaseries.com##.blockPartner
+informer.com##.block_ad1
 myrealgames.com##.block_adv_mix_top2
 gametracker.com##.blocknewnopad
 simkl.com##.blockplacecente
@@ -52680,6 +52680,7 @@ freeonlineapps.net##.sp
 flaticon.com##.sp-slidesgo-container
 mdisk.me##.spdownloader-ad
 infoq.com##.spns
+informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
 mydramalist.com##.spnsr
 worldtimezone.com##.spon-menu
@@ -52861,7 +52862,7 @@ ada.org,globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 pcworld.com##.topDeals
 tutorviacomputer.com##.topMargin15
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
-giveawayoftheday.com##.top_ab
+giveawayoftheday.com,informer.com##.top_ab
 asmag.com,indy100.com,tiresandparts.net##.top_banner
 joebucsfan.com##.top_banner_cont
 wallpapersmania.com##.top_pad_10
@@ -53089,6 +53090,7 @@ noqreport.com##[class^="noqre-"]
 thetimes.co.uk##[class^="responsive__InlineAdWrapper-"]
 torlock.com##[class^="wrn"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-ad]
+builtbybit.com##[data-advertisement-id]
 jobstreet.com.sg##[data-automation="homepage-banner-ads"]
 jobstreet.com.sg##[data-automation="homepage-marketing-banner-ads"]
 theblaze.com##[data-category="SPONSORED"]
@@ -53118,7 +53120,6 @@ goal.com##[data-type="AdComponent"]
 search.brave.com##[data-type="ad"]
 gadgetsnow.com##[data-type="mtf"]
 axios.com##[data-vars-category="sidebar_promo"]
-builtbybit.com##[data-xf-click]
 cnn.com##[data-zone-label="Paid Partner Content"]
 faroutmagazine.co.uk,hitc.com##[dock="#primis-dock-slot"]
 complaintsingapore.com##[href*="/adv.php"]
@@ -57939,6 +57940,8 @@ newduba.cn###jq_youxi
 ||pwcuu.cn^
 ||guode.cyou^
 ||dagamemisdeed.com^
+||dhl4.xyz^
+||n0544.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -107366,6 +107369,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
+@@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
 @@||cedaron.visualstudio.com/*TrackingData.cs$~third-party
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||channel.images.production.web.w4a.tv^*/ard.png?$domain=yallo.tv
