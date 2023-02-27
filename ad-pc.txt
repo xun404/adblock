@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N04vU06JtgHhyuzijY1F6A
+! Checksum: 1aZX0YZN5d95PFsXXMLacA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202302271337
-! Last Modified: 2023年02月27日 13:37
+! Version: 202302271443
+! Last Modified: 2023年02月27日 14:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -641,7 +641,7 @@ tieba.baidu.com##.tuijian-wrap
 .adspace.$domain=~adspace.pro
 .adsremote.
 .adtech_
-.advert.$domain=~advert.ae|~advert.io|~advert.ly|~advert.media|~advert.org.pl|~advert.ge
+.advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .advertrecycling.
 .ae/ads/
 .ai/ads.
@@ -2270,7 +2270,7 @@ tieba.baidu.com##.tuijian-wrap
 /adversting/*
 /adversting?
 /advert-$domain=~advert-ai-landing.firebaseapp.com|~advert-ai-landing.web.app|~advert-ai.com|~advert-solutions.com|~advert-technology.com|~advert-technology.ru
-/advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my|~advert.ge
+/advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
 /advert1.
 /advert1/*
@@ -50432,6 +50432,7 @@ icon-icons.com###istockphoto-placeholder
 fakeupdate.net###itemz
 googleping.com###itro_opaco
 googleping.com###itro_popup
+9gag.com###jsid-ad-container-page_adhesion
 ceoexpress.com###kalamazooDiv
 kbb.com###kbbLockedAd-container
 thesilphroad.com###keepinTheLightsOn
@@ -52766,6 +52767,8 @@ aniwatcher.com##.sa
 nodejs.libhunt.com##.saashub-ad
 steamladder.com##.salad
 salife.com.au##.salife-slot
+9gag.com##.salt-section
+9gag.com##.salt-wrapper
 softonic.com##.sam-slot
 beermoneyforum.com,forums.sailinganarchy.com,geekdoing.com,sportfishingbc.com,studentdoctor.net##.samBannerUnit
 racedepartment.com,resetera.com,satelliteguys.us##.samCodeUnit
