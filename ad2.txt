@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zePIwTVQfuY0szNqVUO5ag
+! Checksum: 8sfjq1kD1J3VdcCYyqgIfQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202302282100
-! Last Modified: 2023年02月28日 21:00
+! Version: 202302282340
+! Last Modified: 2023年02月28日 23:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1409,6 +1409,7 @@ newduba.cn###jq_youxi
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".com"]
+##a[href*="?channelCode="] > img[src*=".xyz"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
@@ -1580,7 +1581,6 @@ newduba.cn###jq_youxi
 ||2hfby.top^
 ||2pwja.cn^
 ||2r6.cn^
-||328888.xyz^
 ||3633a.com^
 ||375772rug.com^
 ||37tek.fun^
@@ -2307,6 +2307,8 @@ newduba.cn###jq_youxi
 ||a-ads.com^
 ||qianbaobbs.net^
 ||f9s6.top^
+||tgktw.xyz^
+##a[href*="/sm010k.xyz"]
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
