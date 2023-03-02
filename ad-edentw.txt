@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5BoP5TApZ/BAFkL9Z+tYmg
+! Checksum: yVAn0ZcW/U/7FMcPKJ5WPg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303012141
-! Last Modified: 2023年03月01日 21:41
+! Version: 202303021738
+! Last Modified: 2023年03月02日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1879,7 +1879,13 @@ www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 rg.ru#$#abort-on-property-read AdFox_getCodeScript
 ontivi.net#$#abort-current-inline-script document.createElement Math.random
-bstudy.net,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org#$#abort-on-property-read abl
+bstudy.net#$#abort-on-property-read _0xddc4
+studbooks.net#$#abort-on-property-read _0x8336
+studme.org#$#abort-on-property-read _0x5443
+studref.com#$#abort-on-property-read _0x308a
+studwood.net#$#abort-on-property-read _0x8cc0
+vuzlit.com#$#abort-on-property-read _0xc091
+xstud.org#$#abort-on-property-read _0xd07e
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
