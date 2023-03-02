@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mxgbq2GtQ0tpAl3I+pgGlQ
+! Checksum: YBEaVPaEpztFmdx5suSwlg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202303021013
-! Last Modified: 2023年03月02日 10:13
+! Version: 202303021106
+! Last Modified: 2023年03月02日 11:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -22269,7 +22269,9 @@ javbix.com#@#.adsleft
 tuxpi.com#@#.adslot
 cutepdf-editor.com#@#.adtable
 gigazine.net#@#.adtag
-mediaite.com#@#.adthrive
+mediaite.com,packhacker.com#@#.adthrive
+packhacker.com#@#.adthrive-content
+packhacker.com#@#.adthrive-video-player
 brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
 dobro.systems#@#.adv-list
@@ -33261,7 +33263,6 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||libertystmedia.com^
 ||libihimu.com^
 ||librariessunflower.com^
-||librefutboltv.com^
 ||licantrum.com^
 ||licenceattribute.com^
 ||licencerings.com^
@@ -55405,7 +55406,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
+@@||ads.adthrive.com/api/$domain=packhacker.com
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=packhacker.com
+@@||ads.adthrive.com/sites/$domain=packhacker.com
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.dollartree.com/SneakPeek/$~third-party
 @@||ads.exoclick.com/*.js$script,domain=gelbooru.com
