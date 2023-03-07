@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yi669iFnHRD3pMDsC4jCqQ
+! Checksum: WOe2rVQGlD8QC3PhdFxkSw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303071537
-! Last Modified: 2023年03月07日 15:37
+! Version: 202303072239
+! Last Modified: 2023年03月07日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1086,13 +1086,12 @@ clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([cl
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 clanky.seznam.cz,search.seznam.cz#?#.Result.Result--organic:-abp-has(.Result-title + .Result-contentContainer > :not(.Result-url):not(.Result-dw-wrapper):not(.Result-image) > :not([class="Result-url-link Result-url-link--cr-result"]):not(span):not(.AnchorList-list))
+www.seznam.cz#?#:xpath(//li[@*="nativeSspAdvert"])
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
 ||seznam.cz/*/static/*/*?nocache=1^$domain=www.seznam.cz
 ||seznam.cz/*/*/js/*?nocache=1^$domain=www.seznam.cz
-wwww.seznam.cz##div[class*="gadget-container"]
-www.seznam.cz##div[class^="atm-advert-label"]
-www.seznam.cz##div[id*="nativeSspAdvert"]
-www.seznam.cz##li[data-analytics-spent-time-item^="nativeSspAdvert:"]
+wwww.seznam.cz##div[class^="gadget-container--full-width-item"]
+www.seznam.cz##div[class*="mol-repeater-container__sticky-content"]
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#override-property-read sssp noopFunc
