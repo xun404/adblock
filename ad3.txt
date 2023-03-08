@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Caaw79pV6JmiNNDc2JlkUg
+! Checksum: 3zMJAAyQvw89yI4gd0JdBA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202303080738
-! Last Modified: 2023年03月08日 07:38
+! Version: 202303081012
+! Last Modified: 2023年03月08日 10:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2408,6 +2408,7 @@ newduba.cn###jq_youxi
 ||nvwanyyds.com^
 ||dfvarz.xyz^
 ||kravma.xyz^
+##a[href*="/bgm9z.com"]
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -53749,6 +53750,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
+@@||ruralking.com^*/Creatuity_GoogleTagManager/$script,~third-party
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s.btstatic.com/tag.js$domain=sephora.com
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
