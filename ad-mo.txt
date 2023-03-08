@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LCJ81n2I/QxmjcaL4hgYxQ
+! Checksum: sx7fw7aSWjsHfPw43R9NHA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202303081738
-! Last Modified: 2023年03月08日 17:38
+! Version: 202303081840
+! Last Modified: 2023年03月08日 18:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -53811,8 +53811,8 @@ trakt.tv##[data-snigel-id]
 coingecko.com##[data-target="ads.banner"]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
-coles.com.au##[data-testid="banner-container-desktop"]
 nytimes.com,nytimes3xbfgragh.onion##[data-testid="StandardAd"]
+coles.com.au##[data-testid="banner-container-desktop"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
 abcnews.go.com##[data-testid="prism-static-embed"]
@@ -58863,6 +58863,7 @@ newduba.cn###jq_youxi
 ||believer.ltd^
 ||cj-sys.club^
 ||aaudaob.cn^
+||vnq3.top^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -75652,6 +75653,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ozabc.com^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aboluowang.com
+@@||aboluowang.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
@@ -78088,7 +78091,6 @@ fqsousou.com,kengso.com#@#.user-share
 /AdBlockDetection/scriptForGA.
 /AdCookies.js
 /AdCount/*
-/AdmitadTagTag.js
 /add_anonymous_identifier
 /add_page_view?
 /add_stats
@@ -78121,6 +78123,7 @@ fqsousou.com,kengso.com#@#.user-share
 /admantx-
 /admantx.
 /admantx/*
+/AdmitadTagTag.js
 /admonitoring.
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.
