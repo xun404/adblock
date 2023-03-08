@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TvjWqs6y/1kB13nQMoic9Q
+! Checksum: u7ADbwNJR/DoS2cyIP+rZA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303080242
-! Last Modified: 2023年03月08日 02:42
+! Version: 202303081242
+! Last Modified: 2023年03月08日 12:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17,7 +17,9 @@
 /mod_ablockdetector/*
 /npsblocker/js/ads.
 @@/adsbygoogle.js$script,domain=arabiaweather.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 ###adblock_screen
 ###adblock_message
 ##.adblockInfo
@@ -33,6 +35,7 @@ chahid4u.tk###unblocker
 4algeria.com##.xenOverlay
 shahid4u.club#@#.adsBox
 @@||ency-educ.com^$generichide
+@@||shahid.mbc.net^$generichide
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_chinese.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_czech.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_dutch.txt ***
