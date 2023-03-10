@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UuLoNn25rzSNr6e8haXl0w
+! Checksum: x6rr7+zwkY22Cj/zBOV8fA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202303100738
-! Last Modified: 2023年03月10日 07:38
+! Version: 202303101013
+! Last Modified: 2023年03月10日 10:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21147,6 +21147,7 @@ _800x80_
 ##.video_ads
 ##.videoad
 ##.videoad2
+##.videootv
 ##.videos-ad
 ##.videos-ad-wrap
 ##.view-Advertisment
@@ -43602,6 +43603,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||adthrive.com^$third-party
 ||adthurst.com^$third-party
 ||adtival.network^$third-party
+||adtonos.com^$third-party
 ||adtraction.com^$third-party
 ||adtrix.com^$third-party
 ||adtrue.com^$third-party
@@ -44808,6 +44810,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||videoegg.com^$third-party
 ||videohub.com^$third-party
 ||videologygroup.com^$third-party
+||videoo.tv^$third-party
 ||videoplaza.com^$third-party
 ||videoplaza.tv^$third-party
 ||videoroll.net^$third-party
@@ -56666,6 +56669,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/pj5303.oss-
+/kg2.oss-
+/pj545.oss-
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -56741,6 +56747,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .com/topjs/
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
+.com/vj1/$script,third-party
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
@@ -58627,7 +58634,6 @@ newduba.cn###jq_youxi
 ||larbcc.xyz^
 ||laxnlqn.cn^
 ||lbk7p.cn^
-||ldmnq.com^$third-party
 ||leeleo.top^$third-party
 ||leiersuqd.com^
 ||leiwo.xyz^
@@ -59090,6 +59096,12 @@ newduba.cn###jq_youxi
 ||sleuey.xyz^
 ||lzzzjx.xyz^
 ||fujoe.cyou^
+||uibjhqwkl.com^
+||poqoiwn.com^
+||kalongyyds.com^
+##A[href*="/k849.top"]
+||6617398ccc.com^
+||imageshh.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -69862,6 +69874,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ldmnq.com/bbs/$third-party
+||biancheng.net/uploads/ggxc/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -77492,6 +77506,7 @@ $image,third-party,domain=258zw.com
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
 /ceshi127722.
+.xyz/?channelCode=$csp=script-src
 /dayu2.html?channelCode=$csp=script-src
 /hmzn_*_*_*.js?$script,third-party
 /js/easyAD.js
