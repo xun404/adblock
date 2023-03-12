@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SZNviA4BUbeweLvjh0G4Hw
+! Checksum: RCEoAbHa01osl2xH3pk86g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202303121737
-! Last Modified: 2023年03月12日 17:37
+! Version: 202303121837
+! Last Modified: 2023年03月12日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53221,6 +53221,7 @@ hackread.com##.post-review-li
 hellocare.com.au##.post-wrapper__portrait-ads
 newagebd.net##.postPageRightInTop
 newagebd.net##.postPageRightInTopIn
+thetrek.co##.post__in-content-ad
 fastcompany.com##.post__promotion
 ultrabookreview.com##.postzzif3
 redketchup.io##.potato_sticky
@@ -107898,6 +107899,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||chart-embed.service.newrelic.com^$subdocument,xmlhttprequest
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
+@@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||check.ddos-guard.net/check.js$script
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||circuitv.com/assets/js/analytics.js$~third-party
@@ -108145,6 +108147,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||noodid.ee/chordQuiz/$~third-party
 @@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
+@@||numerade.com/static/videojs-event-tracking$~third-party
 @@||nyt.com/analytics/json-$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
 @@||nytimes.com/games-assets/*/analytics.js$~third-party
@@ -108219,6 +108222,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
 @@||sahibinden.com/assets/analytics*.js$~third-party
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
+@@||scandichotels.com/Static/js/tracking/tracking-data-init.js$~third-party
 @@||scdn.cxense.com/cx.cce.js$domain=cxpublic.com
 @@||scholar.cnki.net/detailstatic/js/tracker.js$~third-party
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
