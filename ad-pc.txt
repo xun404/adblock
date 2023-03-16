@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SITmS2aQMYAnBWF5lYAHSQ
+! Checksum: rbT3AP3b73OldjRXK1UaOg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202303161937
-! Last Modified: 2023年03月16日 19:37
+! Version: 202303162239
+! Last Modified: 2023年03月16日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -70212,6 +70212,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
 imydl.com##DIV[id*="banner"]
 imydl.com##DIV[class*="banner"]
 imydl.com###enhancedtextwidget-5
