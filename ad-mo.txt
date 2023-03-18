@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uX50vWwo3zIytDjy0fNjLg
+! Checksum: S6rB6kBaceDtxFK9Lby8Tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202303180737
-! Last Modified: 2023年03月18日 07:37
+! Version: 202303180954
+! Last Modified: 2023年03月18日 09:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2652,6 +2652,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /customerad_
 /cutead.
 /cvs/ads/*
+/cxf-ad-banner
 /daily/ads/*
 /dart_ads.
 /dart_ads/*
@@ -5811,6 +5812,8 @@ _800x80_
 ###ad-performanceFullbanner1
 ###ad-performanceRectangle1
 ###ad-placeholder
+###ad-placeholder-horizontal
+###ad-placeholder-vertical
 ###ad-placement
 ###ad-plate
 ###ad-player
@@ -55071,6 +55074,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 independent.co.uk,standard.co.uk#?#article > div[class^="sc-"]:-abp-has(> div[class^="sc-"] > div[data-ad-unit-path])
 sbs.com.au#?#.MuiBox-root:-abp-has(>.desktop-ads)
+privacytools.io#?#.container:-abp-has(.tag .fa-adversal)
 slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
 decrypt.co#?#span:-abp-contains(AD)
@@ -58340,6 +58344,8 @@ newduba.cn###jq_youxi
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
+##.app-down-fix.body-fix
+##.player-news > .news-list
 ##body .has-ad
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
@@ -59417,6 +59423,13 @@ newduba.cn###jq_youxi
 ||zxfas56.com^
 ||zxtkfvm.cn^
 ||zzxmcp.com^
+||neg.hk^
+||itpest.cn^
+||zopvjn.xyz^
+||gauqeo.xyz^
+||huluxia.com^$third-party
+||tfallview.live^
+||effetspositifs.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -65929,7 +65942,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||1fzw.com/content/templates/zjbnew/yxj.js
 ||1ketang.com/Runtime/js/play
 ||1stchina.net/static/js/jquery.in.
-||1vkx.cn/public/*/plugins/
 ||1x6666.com/img/
 ||2008mm.com^*.js
 ||2008xxx.com:888
@@ -70197,6 +70209,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||tlxxw.cc/public/1/assets/js/custom/tt.
+||tlxxw.cc/public/*/plugins/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -75804,7 +75818,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||192.168.*.1/$generichide
 @@||192.168.*/advertising_$stylesheet
 @@||199it.com^$generichide
-@@||1vkx.cn/public/*/jquery.min.js
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
 @@||2345.com/images/activity/20171111/open/j/close.png
@@ -93914,6 +93927,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixiedust.buzzfeed.com^
 ||planetradio.co.uk/crystal/log
 ||plausible.bots.gg^
+||plausible.dragonfru.it^
 ||plausible.omgapi.org^
 ||plausible.safing.io^
 ||player-cdn.com/cdn-cgi/trace
