@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ChZhodV6GPv4btK3xIITbQ
+! Checksum: QOuLiZSi4GaR8RVQbzv1eA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202303181137
-! Last Modified: 2023年03月18日 11:37
+! Version: 202303181240
+! Last Modified: 2023年03月18日 12:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -13342,6 +13342,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tlxxw.cc/public/*/plugins/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+55188.com##.wz_text
+55188.com##DIV[class^="gg"]
+55188.com##.couplet
 toolfk.com##.ad
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -16016,9 +16019,6 @@ xiaopi.com##.gg_box
 zt5.com##.gg_bt
 sinolub.com##.gg_cen
 eastday.com##.gg_channel_r_b
-55188.com,g138.com##.gg_head_l
-55188.com,g138.com##.gg_head_m
-55188.com,g138.com##.gg_head_r
 acglala.net##.gg_img
 itdog.cn##.gg_link
 yicai.com##.gg_loadpage
@@ -21390,7 +21390,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
-@@||hdslb.com/bfs/seed/log/report/log-reporter.js
+@@/log/report/*$script,domain=bilibili.com
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hk01.com^*/ga_trace.js
 @@||hk01.com^*/scripts/ga.js
