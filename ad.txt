@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m5zMnZ3zdOKNA1CXFpisJA
+! Checksum: DKwgQ2RKgv+1moUY8mTBnA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202303211737
-! Last Modified: 2023年03月21日 17:37
+! Version: 202303212137
+! Last Modified: 2023年03月21日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1863,6 +1863,7 @@ newduba.cn###jq_youxi
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?intr="]
+##.feed-item[data-ad]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
@@ -13824,6 +13825,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||qq.com/pc/batch_get_ads
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -21358,6 +21360,8 @@ smjb.net##div[style*="height: 50%"]
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||dabizi.net/images/pcad.png
 ||disixs.com/js/app_wap.
+||ddyueshu.com/js/pfad
+||ddyueshu.com/js/dj
 ||disixs.com/js/gg
 ||dobiez.com/statics/wap_v1/js/qwd.
 ||duanwenxue.com/functions/
