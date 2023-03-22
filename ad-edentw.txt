@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 27qEzzCcH2j2WC/8B6vFIw
+! Checksum: yGU0ilE3F7XF6INfhJLkgA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303222137
-! Last Modified: 2023年03月22日 21:37
+! Version: 202303230044
+! Last Modified: 2023年03月23日 00:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1177,6 +1177,7 @@ nsportal.ru#$#simulate-event-poc click a#downloadLink[href^="https://nsportal.ru
 okminigames.mail.ru#$#override-property-read appDriver.hasVideoAd false
 bombardir.ru#$#abort-on-property-read alert
 www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock
+www.e1.ru#$#abort-on-property-read Ya; cookie-remover jtnews_adblock;
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 rg.ru#$#abort-on-property-read AdFox_getCodeScript
 ontivi.net#$#abort-current-inline-script document.createElement Math.random
