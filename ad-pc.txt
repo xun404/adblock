@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DkuT9Oey5BiU/kpb2cM0rg
+! Checksum: D9UD7h+ETntlkwOmKUBn2A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202303240337
-! Last Modified: 2023年03月24日 03:37
+! Version: 202303240437
+! Last Modified: 2023年03月24日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54663,6 +54663,7 @@ eevblog.com##[href*="https://saving.em.keysight.com/"]
 yesflicks.com##[href="/location/amazon"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
+warfarehistorynetwork.com##[href="http://www.bktravel.com/"]
 daijiworld.com##[href="http://www.expertclasses.org/"]
 allnewspipeline.com##[href="http://www.sqmetals.com/"]
 dafontfree.io##[href="https://1.envato.market/c/"]
@@ -55535,7 +55536,6 @@ protrumpnews.com#?#.show-on-ptn:-abp-has(.pre-announcement)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
 imgur.com#?#div[style^="height:"]:-abp-has(.Post-item-external-ad)
-imgur.com#?#div[style^="height:"]:-abp-has(.Ad)
 insta-stories-viewer.com#?#.profile__tabs-media-item:-abp-has(.profile__adv)
 agoda.com#?#.PropertyCardItem:-abp-has(div:-abp-contains(Promoted))
 u.gg#?#.video-guide:-abp-has(.content-section_header:-abp-contains(Sponsored Content))
@@ -108757,7 +108757,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
-@@||optimizely.com/datafiles/$domain=guildeducation.com|hm.com|nike.com|talktalk.co.uk|tommy.com|wallapop.com
+@@||optimizely.com/datafiles/$domain=guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimizely.guildeducation.com^$~third-party
 @@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
@@ -109083,7 +109083,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||s-sfr.fr/stats/header.js$script,domain=red-by-sfr.fr|sfr.fr
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
-@@||sdk.privacy-center.org^$domain=recup.paylib.fr
 @@||static.lci.fr/assets/scripts/common/tracker.js?$script,~third-party
 @@||static.lci.fr/assets/scripts/common/user-agent-analyzer.js$script,~third-party
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
