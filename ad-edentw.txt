@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1n3m8K5qMpS4jKP6Dwrwow
+! Checksum: rtLYBaBvsbpSKxc+DlO0/A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303242237
-! Last Modified: 2023年03月24日 22:37
+! Version: 202303242337
+! Last Modified: 2023年03月24日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -677,6 +677,7 @@ tiscali.it#$#hide-if-matches-xpath './/a[@class="slides-next"]/preceding::div[co
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"campid") or contains(@href,"_trkparms")]/ancestor::div[@data-old]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"www.ebay.it")]/ancestor::div[@data-mrc="ebay"]/parent::div[starts-with(@class,"vsb-pos")]'
 tiscali.it#$#hide-if-matches-xpath './/a[@href="#"][contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
+tiscali.it#$#hide-if-matches-xpath './/a[@href="#"][contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][@href="#"][contains(@*,"https://www.ebay.it")][not(contains(@href,"utm_campaign=lucegas"))]/preceding::div[contains(@style,"height: ")][contains(@id,"SkinAuto")][2]'
 tiscali.it#$#hide-if-matches-xpath './/figcaption/preceding::img/preceding::a[@target="_blank"][contains(@title,"ebay")]/parent::figure'
 tiscali.it#$#hide-if-matches-xpath './/img/ancestor::a[@target="_blank"][@href="#"][contains(@*,"www.ebay.it")]/parent::div[starts-with(@class,"vsb-pos")]'
