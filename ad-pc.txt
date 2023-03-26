@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CClrzWUyD7hb8bN5rPtBpQ
+! Checksum: qurRpkK3vHWHIiXdr2fxtg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202303261238
-! Last Modified: 2023年03月26日 12:38
+! Version: 202303261337
+! Last Modified: 2023年03月26日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -81792,7 +81792,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ls.gif?
 /lunametrics-
 /lycostrack.js
-/lytics/*
 /lzdtracker.
 /m.gif?
 /m1x1.jpg
@@ -108624,6 +108623,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||btgpactualdigital.com/digital/static/js/libraries/thirdparty/angulartics-google-analytics/
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
+@@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
