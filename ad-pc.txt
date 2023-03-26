@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 47x0mWoxaBdO/ZbTZOYOLA
+! Checksum: CClrzWUyD7hb8bN5rPtBpQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202303261137
-! Last Modified: 2023年03月26日 11:37
+! Version: 202303261238
+! Last Modified: 2023年03月26日 12:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3770,7 +3770,6 @@ tieba.baidu.com##.tuijian-wrap
 /product_ad_widget/*
 /ProductAd.
 /productAds/*
-/production/ads/*
 /promo-ads/*
 /promo/ad_
 /promo/ads/*
@@ -109564,6 +109563,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 @@||nostv.pt^*/angulartics-google-analytics.js?
+@@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
 @@||ram.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=ram.com.br
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||siteapps.com^$script,domain=netcombo.com.br
