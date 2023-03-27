@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OL4VSAJFjQcadwTPXZ8gEw
+! Checksum: iR3MHbfYHb8Ymu/YV19MxA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303250044
-! Last Modified: 2023年03月25日 00:44
+! Version: 202303271537
+! Last Modified: 2023年03月27日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1318,6 +1318,8 @@ luotphim1.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobi
 hiphimmoi.net#$#abort-current-inline-script $ urlAdsMbIntro
 cafef.vn,gamek.vn,genk.vn,kenh14.vn#$#abort-on-property-write ADMStorageFileCDN
 vaoroi13.online#$#override-property-read adsTvcs ''
+baomoi.com,zingnews.vn#$#abort-current-inline-script document.createElement script
+zingnews.vn#$#abort-on-property-read atob
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,m.blogtruyen.vn,viettoons.tv#$#abort-on-property-read open
 phimgiff.net,ophimhd.net,phimraphot.net#$#abort-current-inline-script jQuery popurl
@@ -1326,7 +1328,7 @@ truyen2u.net#$#abort-current-inline-script eval
 tapmoi.net#$#abort-on-property-read SmartPopunder
 thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 phimlau.online#$#abort-current-inline-script atob /Y1/
-sexphimhd.net,gvnvh18.com,g18vn.com,sex68.link#$#abort-current-inline-script Math
+sexphimhd.net,gvnvh18.com,g18vn.com#$#abort-current-inline-script Math
 360thethao.net#$#abort-current-inline-script onload /puURL/
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
@@ -1344,7 +1346,7 @@ xoilac4.com##.modal.fade.show
 xoilac4.com#$#abort-current-inline-script jQuery popupBanners
 xoilac4.com#$#abort-on-property-read adsRedirectPopups
 xoilac4.com#$#abort-current-inline-script jQuery overlay
-sex68.link,viet69.love,sexvietnam.site,sexdiaryz.fun#$#abort-on-property-read parseInt
+viet69.love,sexvietnam.site,sexdiaryz.fun#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;abort-on-property-read setTimeout
 javnong.cc#$#abort-on-property-read Math.round
 viet69.love,ungtycomicsvip.com,vlxx.info#$#abort-current-inline-script WebAssembly instantiate
