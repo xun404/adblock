@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qx/Pl6+U+0XRbriioPA40A
+! Checksum: JhbbtL290ar7oLq5SDVEag
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202303270737
-! Last Modified: 2023年03月27日 07:37
+! Version: 202303270949
+! Last Modified: 2023年03月27日 09:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -50769,6 +50769,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 @@||voeunblock.com^$subdocument
 @@||voeunblock3.com^$subdocument
 /^https?:\/\/.*(com|net|top|xyz)\/(bundle|warning|style|bootstrap|brand|reset|jquery-ui|styles|error|logo|index|favicon|star|header)\.(png|css)\?[A-Za-z0-9]{30,}.*/$third-party
+/^https?:\/\/[0-9a-z]{3,12}\.(digital|website|life|guru|space)\/[a-z0-9]{6,}\/$script,third-party
 /^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
 ||frameperfect.speedrun.com^
 ||junkrat-tire.overbuff.com^
@@ -52392,6 +52393,7 @@ dappradar.com##.Container--bottomBanners
 swarajyamag.com##.CrIrA
 inverness-courier.co.uk,johnogroat-journal.co.uk##.DMPU
 realityblurb.com##.Desktop-Sticky
+tweaktown.com##.DesktopRightBA
 additivemanufacturing.media,compositesworld.com,ptonline.com##.DisplayBar
 gadgetsnow.com##.FkG8A
 charismanews.com##.FpFeaturedBoxWrap
@@ -54404,6 +54406,7 @@ coinpaprika.com##.sponsored-buttons
 washingtontimes.com##.sponsored-heading
 breakingdefense.com##.sponsored-inline
 hellomagazine.com##.sponsored-news
+search.brave.com##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
 investing.com##.sponsoredArticle
 coinmarketcap.com##.sponsoredMark
@@ -55276,7 +55279,6 @@ qwant.com##div[data-testid="productAdsMicrosoft.container"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
-tweaktown.com##div[id^="Homepage"]
 weather.com##div[id^="Taboola-main-"]
 apkonline.net,kisshentai.net,onworks.net##div[id^="ad"]
 timeout.com##div[id^="ad-promo-"]
@@ -60201,6 +60203,7 @@ newduba.cn###jq_youxi
 ||ummnam.xyz^
 ||szcmcs.com^
 ||fq67.top^
+||changyangcd.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
