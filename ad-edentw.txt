@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CG4R9IVnEzsj4UoJTfc0Yw
+! Checksum: PGtee6YLU5Mpo6aW+vDIig
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303290052
-! Last Modified: 2023年03月29日 00:52
+! Version: 202303291537
+! Last Modified: 2023年03月29日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1137,7 +1137,7 @@ gidonline.eu,dc-marvel.org,torrent-soft.net#$#abort-on-property-read atob
 sm.news#$#abort-current-inline-script String.fromCharCode decodeURIComponent
 7ogorod.ru,autonevod.ru,shtrafsud.ru,zazloo.ru#$#abort-on-property-read flat_pm_arr
 hitfm.ua,kissfm.ua,radiorelax.ua,radioroks.ua,rusradio.ua#$#abort-on-property-write prerole_length
-www.goha.ru,3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,relax-fm.ru,pikabu.ru,ura.news#$#abort-on-property-read Ya
+www.goha.ru,3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,relax-fm.ru,ura.news#$#abort-on-property-read Ya
 myjane.ru,omskpress.ru,artfile.me,artfile.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
 krolik.biz#$#abort-current-inline-script document.createElement
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
@@ -1205,8 +1205,7 @@ xstud.org#$#abort-on-property-read _0xd07e
 romakatya.ru#$#prevent-listener load AdBlock
 testserver.pro#$#abort-current-inline-script window.$ adsbygoogle
 ashdi.vip,tortuga.wtf#$#json-prune vast
-pikabu.ru#$#abort-current-inline-script addAnlTracker minHeight
-pikabu.ru#$#abort-on-property-read AdFox_getCodeScript
+pikabu.ru#$#abort-on-property-read yaContextCb
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
@@ -1319,6 +1318,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn#$#abort-on-property-write ADMStorageFileCDN
 vaoroi13.online#$#override-property-read adsTvcs ''
 baomoi.com,zingnews.vn#$#abort-current-inline-script document.createElement script
 zingnews.vn#$#abort-on-property-read atob
+bongda365a.net#$#override-property-read isSkipAds true
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,m.blogtruyen.vn,viettoons.tv#$#abort-on-property-read open
 phimgiff.net,ophimhd.net,phimraphot.net#$#abort-current-inline-script jQuery popurl
