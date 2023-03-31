@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t8o+SIEn4xqzvNgato6K2A
+! Checksum: y35NeuXnAexcRLtBXkVymw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202303310952
-! Last Modified: 2023年03月31日 09:52
+! Version: 202303311048
+! Last Modified: 2023年03月31日 10:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1933,6 +1933,7 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
+###qinav_a1
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -1975,6 +1976,7 @@ newduba.cn###jq_youxi
 ##p[style^="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background:"]
 ##script + #coupletBox
 ##script + #rbbox
+##.b300 > .h100 > a[href^="http"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
