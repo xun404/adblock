@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4jyle+Lc/RUsbz2gNqpEwQ
+! Checksum: zYyfD7uRmhQxoMpSrGRPoQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202303311639
-! Last Modified: 2023年03月31日 16:39
+! Version: 202303311937
+! Last Modified: 2023年03月31日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -400,8 +400,7 @@ ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
 ! #CV-691
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//div[@id="srp-river-results"]/ul[starts-with(@class,"srp-results")]/li[@data-viewport]//span[starts-with(@class,//span/@aria-labelledby)]/ancestor::li[@data-viewport])
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//ul[starts-with(@class,"b-list__items_")]/li[@class="s-item s-item--large"]//span[@class="s-item__sponsor"]/ancestor::li[@class="s-item s-item--large"])
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//li[@data-viewport]//span[@role="text"][substring(@class,string-length(@class)-(string-length(//div[@class="clipped" and not(text())]/@id)-1))=//div[@class="clipped" and not(text())]/@id]/ancestor::li[@data-viewport])
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com;
