@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O84K/zB+o31WEv58/jd3oA
+! Checksum: Hc9aupOvKb9G0eAmI5dUXg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202304010637
-! Last Modified: 2023年04月01日 06:37
+! Version: 202304010737
+! Last Modified: 2023年04月01日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -14142,7 +14142,6 @@ _800x80_
 ##.adscreen
 ##.adsdesktop
 ##.adsdiv
-##.adsection
 ##.adsection_a2
 ##.adsection_c2
 ##.adsection_c3
@@ -14407,7 +14406,6 @@ _800x80_
 ##.adstop
 ##.adstory
 ##.adstrip
-##.adstxt
 ##.adstyle
 ##.adsverting
 ##.adsvideo
@@ -17071,7 +17069,6 @@ _800x80_
 ##.footer_text_ad
 ##.footer_text_adblog
 ##.footerad
-##.footerads
 ##.footeradspace
 ##.footertextadbox
 ##.forbes-ad-container
@@ -18327,7 +18324,6 @@ _800x80_
 ##.leaderboardAdWrapper
 ##.leaderboardFooter_ad
 ##.leaderboardRectAdWrapper
-##.leaderboard_ad
 ##.leaderboard_ad_container
 ##.leaderboard_ad_unit
 ##.leaderboard_ads
@@ -18963,7 +18959,6 @@ _800x80_
 ##.nav__adbanner
 ##.nav_ad
 ##.nav_textads
-##.navad
 ##.navadbox
 ##.navbar-ad-container
 ##.navbar-ad-section
@@ -20752,7 +20747,6 @@ _800x80_
 ##.textadbox
 ##.textadheadline
 ##.textadlink
-##.textads
 ##.textads_left
 ##.textads_right
 ##.textadscontainer
@@ -60775,6 +60769,9 @@ newduba.cn###jq_youxi
 ||zxtkfvm.cn^
 ||zyrwfd.xyz^
 ||zzxmcp.com^
+||qyuimi.xyz^
+||44jq.cn^
+||jmpnrh.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -94380,7 +94377,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cargurus.com/tr/
 ||cbc.ca/g/stats/
 ||cbsimg.net/js/cbsi/dw.js
-||cc-api-data.adobe.io^
 ||centerblog.net/stats.js
 ||channel.io^*/events
 ||chatroll.com/t.gif
@@ -110806,7 +110802,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||3dmgame.com/page/js/indexalert_ad.
 ||nicelinks.site/ad-block-
 ||juejin.cn/content_api/v1/advert/query_adverts?
+||djljz.cn/Plugins/Template/XJLY/js/app.
 !------------------------Specific element hiding rules------------------------!
+djljz.cn###djl_hdhb
+djljz.cn###toolbar
+djljz.cn##.bottom_slide_box
+djljz.cn##.left_fixed_ad
 csdn.net##.csdn-common-logo-advert
 a9vg.com###qrcode
 a9vg.com##.a9-back-top_qrcode
