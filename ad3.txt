@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J/RnNyvmkmzIbpNVZ81ZsQ
+! Checksum: 8H1FMD0jhZcuXNAabXBTyQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304011937
-! Last Modified: 2023年04月01日 19:37
+! Version: 202304012049
+! Last Modified: 2023年04月01日 20:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -34377,6 +34377,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com^*/prod_analytics
+||amazonpay.com/customerInsight?
 ||amp-error-reporting.appspot.com^
 ||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
@@ -35703,6 +35704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p0.com/1x1
 ||paddle.com^*/analytics.js
 ||page-events-ustats.udemy.com^
+||pagefly.io/pagefly/core/analytics.js
 ||pages-stats.rbl.ms^
 ||pagesense-collect.zoho.com^
 ||pagesocket.glam.com^
@@ -35971,6 +35973,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shareit.com/affiliate.html$third-party
 ||sharethis.com/increment_clicks?
 ||sharethis.com/pageviews?
+||shopify.com/shopifycloud/consent-tracking-api/
 ||shopify.com/shopifycloud/web-pixels-manager/
 ||shoplocal.com/it.ashx?
 ||shopnetic.com^$third-party
@@ -52164,8 +52167,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||omataloyhtio.fi/statb.asp
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
-||rac.ruutu.fi/rac.gif$image
-||rac.ruutu.fi/sat/sat.gif$image
+||rac.ruutu.fi^
 ||rakentaja.fi/kuvat/pi.gif$image
 ||rantapallo.fi/s/redirect/tracking?
 ||stat.mtv3.fi^

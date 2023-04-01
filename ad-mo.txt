@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4AXXVdnuH/vYR8s3JGs6WA
+! Checksum: bHiq8YQVVRGC7g5QxgIiPA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202304011937
-! Last Modified: 2023年04月01日 19:37
+! Version: 202304012049
+! Last Modified: 2023年04月01日 20:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20785,6 +20785,7 @@ _800x80_
 ##.tile_ad_container
 ##.tips_advertisement
 ##.title-ad
+##.tl-ad-container
 ##.tmiads
 ##.tmo-ad
 ##.tmo-ad-ezoic
@@ -49224,6 +49225,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||clicknplay.to/api/spots/
 ||cloud.setupad.com^
 ||cloudbet.com/ad/
+||cloudfront.net/js/script_tag/new/sca_affiliate_
 ||cloudfront.net^$domain=igg-games.com
 ||cloudfront.net^*/sponsors/$domain=pbs.org
 ||coinmama.com/assets/img/banners/
@@ -89835,6 +89837,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com^*/prod_analytics
+||amazonpay.com/customerInsight?
 ||amp-error-reporting.appspot.com^
 ||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
@@ -91161,6 +91164,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p0.com/1x1
 ||paddle.com^*/analytics.js
 ||page-events-ustats.udemy.com^
+||pagefly.io/pagefly/core/analytics.js
 ||pages-stats.rbl.ms^
 ||pagesense-collect.zoho.com^
 ||pagesocket.glam.com^
@@ -91429,6 +91433,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shareit.com/affiliate.html$third-party
 ||sharethis.com/increment_clicks?
 ||sharethis.com/pageviews?
+||shopify.com/shopifycloud/consent-tracking-api/
 ||shopify.com/shopifycloud/web-pixels-manager/
 ||shoplocal.com/it.ashx?
 ||shopnetic.com^$third-party
@@ -107622,8 +107627,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||omataloyhtio.fi/statb.asp
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
-||rac.ruutu.fi/rac.gif$image
-||rac.ruutu.fi/sat/sat.gif$image
+||rac.ruutu.fi^
 ||rakentaja.fi/kuvat/pi.gif$image
 ||rantapallo.fi/s/redirect/tracking?
 ||stat.mtv3.fi^
