@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +R83C7Ugxdz/oPDmqQBn9Q
+! Checksum: OUxT7k+pgjCx5BYs0aEkUw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304040041
-! Last Modified: 2023年04月04日 00:41
+! Version: 202304040737
+! Last Modified: 2023年04月04日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23314,6 +23314,7 @@ m.babytree.com##script + a[class]
 .click/track?
 .cn/jc.gif?
 .cn/sl.gif?
+.com/_.gif?
 .com/analytics?
 .com/bt/s.png?b=
 .com/clk?
@@ -23339,6 +23340,7 @@ m.babytree.com##script + a[class]
 .com/stats.aspx?
 .com/track?$~object
 .com/tracking?
+.com/vtrack|
 .content_tracking.
 .d-engine.js
 .de/h.gif?
@@ -23469,6 +23471,7 @@ m.babytree.com##script + a[class]
 /acbeacon2.
 /accessanalyzer/tracker?
 /AccessCounter/*
+/accesstracking/*
 /accip_script.js
 /acclog.cgi?
 /acecounter/*
@@ -23727,6 +23730,7 @@ m.babytree.com##script + a[class]
 /analytics/dfa.
 /analytics/dist/*
 /analytics/embed/*
+/analytics/engine/*
 /analytics/event
 /analytics/final.
 /analytics/frame.
@@ -27414,6 +27418,7 @@ m.babytree.com##script + a[class]
 /tailtarget.js
 /talpa-analytics/*
 /TargetAnalyticsAPI-
+/targetemsecure.
 /taxtag.js
 /tblz_sailthru/*
 /tbuy/tracker/*
@@ -37934,6 +37939,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.x.oanda.com^
 ||c.xbox.com^
 ||c.ypcdn.com^$domain=yellowpages.com
+||cambash.com/api/events
+||cambash.com/api/metrics
 ||campsaver.com/nelmio-js-logger/
 ||canstockphoto.com/monitor/
 ||canstockphoto.com/server.php?rqst=track
