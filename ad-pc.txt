@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 91JjM7nYBPwMNgqIZqUAoQ
+! Checksum: iKJBMRETk1n2k4y1d/Afog
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202304050737
-! Last Modified: 2023年04月05日 07:37
+! Version: 202304050933
+! Last Modified: 2023年04月05日 09:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1398,7 +1398,7 @@ tieba.baidu.com##.tuijian-wrap
 /adman/*
 /adman_
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com
-/admanager/*$~object,domain=~konograma.com
+/admanager/*$~object,domain=~blog.google|~konograma.com
 /admanager3.
 /admanager_$domain=~konograma.com
 /admanagers/*
@@ -3077,7 +3077,6 @@ tieba.baidu.com##.tuijian-wrap
 /google-afc.
 /google-dfp-
 /google/ad?
-/google_ad_
 /google_ads/*
 /google_adsense-
 /google_adv/*
@@ -52715,6 +52714,7 @@ drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
 comicbookrealm.com###tad
 google.com###tadsc
 cyclingtips.com###takeover
+romsgames.net###td-top-leaderboard
 based-politics.com###tdi_107
 linuxtoday.com###tdi_46
 cornish-times.co.uk###teads
@@ -53083,7 +53083,7 @@ timesofindia.indiatimes.com##.addblock
 aish.com##.adholder-sidebar
 auto-data.net##.adin
 boards.4channel.org##.adl
-animalfactguide.com,portlandmonthlymag.com,sportsmediawatch.com##.adlabel
+animalfactguide.com,portlandmonthlymag.com,romsgames.net,sportsmediawatch.com##.adlabel
 prokerala.com##.adm-unit
 goldderby.com##.adma
 brickset.com##.admin.buy
@@ -56467,6 +56467,7 @@ javhd.today###ics
 guyswithiphones.com###imglist > .noshadow
 maturesladies.com###inVideoInner
 hotmovs.com###in_va
+youngamateursporn.com###inplayer_block
 freebunker.com,imagesnake.com,imgcarry.com,pornbus.org###introOverlayBg
 hentaiprn.com###l_340
 postyourpuss.com###leaderboard
@@ -59539,6 +59540,8 @@ newduba.cn###jq_youxi
 ||9itan.cc^
 ||gzsjym.xyz^
 ||znnodl.xyz^
+||bekco.xyz^
+||huaweinnd.top^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -81330,8 +81333,6 @@ fqsousou.com,kengso.com#@#.user-share
 /jscripts/analytics.js
 /jserrLog?
 /jslogger.php?ref=
-/jsnlog.js
-/jsnlog.min.js
 /json/stats?
 /json/tracking/*
 /json?mbox=
@@ -108748,7 +108749,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mxpnl.com^$domain=mixpanel.com
 @@||my.dxdelivery.com/js/tracking.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
-@@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||mycourses.pearson.com/shared/static/*/component/ga.min.js$~third-party
 @@||mywebar.com/js/tracking_worker.js$~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
@@ -108779,7 +108779,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ondemand.sas.com^$subdocument
 @@||onenote.com^*/aria-web-telemetry
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
-@@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
@@ -108857,6 +108856,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sephora-track.inside-graph.com/gtm/$domain=sephora.com
 @@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
+@@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
