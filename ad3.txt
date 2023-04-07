@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R1oMzNCiWKCEo54elPbKDw
+! Checksum: rrK6c36U5YCyioRu7qbi6Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304072337
-! Last Modified: 2023年04月07日 23:37
+! Version: 202304080737
+! Last Modified: 2023年04月08日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -13,9 +13,9 @@
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+-1316632262.cos.
 -1688-wp-media/ads/
 -90mh-gg.
--1316632262.cos.
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
@@ -1570,9 +1570,11 @@ newduba.cn###jq_youxi
 ||alejd.xyz^
 ||aniem44.cc^
 ||balspaulite.com^
+||bcivqxd.cn^
 ||bekco.xyz^
 ||bqcxgbm.cn^
 ||brkzczn.cn^
+||campu.ltd^
 ||ccohayo.xyz^
 ||cdcc3.com^
 ||fijipic.xyz^
@@ -1585,6 +1587,7 @@ newduba.cn###jq_youxi
 ||h731.icu^
 ||hefei64.com^
 ||hgpdoa.cn^
+||hhrnxr.xyz^
 ||huaweinnd.top^
 ||hxpmbb.xyz^
 ||hxtiojs.cn^
@@ -1597,15 +1600,20 @@ newduba.cn###jq_youxi
 ||kucoa.xyz^
 ||lxbbs.fun^
 ||ojuhwc.xyz^
+||otwiss.xyz^
 ||p4pd.cn^
+||poopd.xyz^
 ||prlioxb.cn^
 ||qiwjiy.xyz^
+||rcxysoj.cn^
 ||readme.red^
 ||rtjmln.xyz^
 ||sh6ss7.top^
 ||smailes.pro^
+||tianma704.ltd^
 ||tmochyf.cn^
 ||vorluic.cn^
+||vujhaib.cn^
 ||wangjiayi.fun^
 ||xcaukve.cn^
 ||xingyang.in^
@@ -1616,14 +1624,11 @@ newduba.cn###jq_youxi
 ||zdlnhv.xyz^
 ||zjqs.shop^
 ||znnodl.xyz^
-||rcxysoj.cn^
-||hhrnxr.xyz^
-||otwiss.xyz^
-||poopd.xyz^
-||tianma704.ltd^
-||campu.ltd^
-||vujhaib.cn^
-||bcivqxd.cn^
+||prtlth.xyz^
+||qqied.xyz^
+||uqymady.cn^
+||wdygoi.xyz^
+||dcdf4.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -20511,9 +20516,8 @@ $image,third-party,domain=258zw.com
 /ce_l.aspx?showid=$third-party
 /ceshi127722.
 /dayu2.html?channelCode=$csp=script-src
-/hmzn_*_*_*.js?$script,third-party
 /frambox.php?166$script,~third-party
-/swiper.php?166$script,~third-party
+/hmzn_*_*_*.js?$script,third-party
 /jquery-ui.js?166$script,~third-party
 /js/easyAD.js
 /js/easyAD2.js
@@ -20527,6 +20531,7 @@ $image,third-party,domain=258zw.com
 /proxy_top_banner_js.php
 /socket?platform=*&href=$third-party,websocket
 /svr/*.aspx?placeid=$third-party
+/swiper.php?166$script,~third-party
 /vbvb_*_pmpm.js
 /windowwap_*_*_*.js?$script,third-party
 /xxgg/0dd*.js
@@ -30156,6 +30161,7 @@ _mongo_stats/
 ||getsmartlook.com^$third-party
 ||getstat.net^$third-party
 ||getstatistics.se^$third-party
+||getstats.org^$third-party
 ||getviously.com^$third-party
 ||gez.io^$third-party
 ||gglscr.online^$third-party
@@ -35503,6 +35509,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||letv.com/cloud_pl/
 ||letv.com/env/
 ||levelaccess.net/analytics/
+||libcdnjs.com/api/event
 ||licdn.com/*.gif?rnd=
 ||licensing.bitmovin.com/impression
 ||lift.acquia.com^
@@ -35573,7 +35580,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loomia.com^*/setcookie.html
 ||lore.circulate.com^
 ||lps.qantas.com^
-||lr-ingest.io/logger.min.js
 ||lsimg.net^*/vs.js
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||ltwebstatic.com^*/libs/sensors/
@@ -51678,6 +51684,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cpx.golem.de^
 ||cpxl.golem.de^
 ||d.rp-online.de^
+||data.sportdeutschland.tv^
 ||dein-plan.de/t.gif
 ||dejure.org/cgi-bin/sitzung.fcgi?
 ||derwesten.de/stats/
@@ -51686,6 +51693,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ens.luzernerzeitung.ch^
 ||ens.nzz.ch^
 ||ens.tagblatt.ch^
+||epimetheus.navigator.web.de^
 ||event-collector.prd.data.s.joyn.de^
 ||fc.vodafone.de^
 ||fotocommunity.de/track/
@@ -51713,6 +51721,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||metrics.n-tv.de^
 ||mlm-tracking-service.meinestadt.de^
 ||moviepilot.de/assets/autotrack-
+||mtb-news.de/metric/
 ||muenchener-stadtplan.com/t.gif
 ||mydirtyhobby.de/tracker
 ||navigation-timing.meinestadt.de^
@@ -51727,6 +51736,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||oxifwsabgd.nzz.ch^
 ||pi.technik3d.com^
 ||potsdamer-stadtplan.com/t.gif
+||pstt.mtb-news.de^
 ||px.derstandard.at^
 ||pxc.otto.de^
 ||rem-track.bild.de^
@@ -51735,6 +51745,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||shoop.de/mgtrx/
+||sportnews.bz/pcookie?
 ||spreewaldkarte.de/t.gif
 ||sqs.quoka.de^
 ||squirrel.cividi.ch^
@@ -51746,6 +51757,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stats.autoscout24.ch^
 ||stats.rocketbeans.tv^
 ||steuertipps.de/scripts/tracking/
+||stol.it/pcookie?
 ||subpixel.4players.de^
 ||suche.web.de/click
 ||swmhdata.stuttgarter-nachrichten.de^
@@ -51811,7 +51823,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wa.gmx.net^
 ||wa.web.de^
 ||walbusch.de^$ping
-||web.de/monitoring/
 ||werkenntdenbesten.de/js/tracking.
 ||werkenntdenbesten.de/pd.js
 ||wikipedia.de/tracking.js
@@ -52425,6 +52436,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||log-lb.skyperfectv.co.jp^
 ||logql.yahoo.co.jp^
 ||m-oo-m.com/data/report/
+||mangaraw.to/api/v1/view/
 ||measure.ameblo.jp^
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||nhk.or.jp^*/bc.js
