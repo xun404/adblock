@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ewgH9AGMz3oNkC1PEWPQLg
+! Checksum: L+JdoLklP3bogAEyx3afIQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202304112237
-! Last Modified: 2023年04月11日 22:37
+! Version: 202304121638
+! Last Modified: 2023年04月12日 16:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -645,7 +645,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
 instacart.com#$#hide-if-matches-xpath './/span[@style][2]/ancestor::div[@aria-label="Product"]/ancestor::li'
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-x9")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/aside[@class]/span[@style][2]/ancestor::section[@class]'
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
