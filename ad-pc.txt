@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UtxQpqg1YsfPovVv4u4Djw
+! Checksum: NmdZjP/ZZLDQmBmFX6Y4xA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202304151837
-! Last Modified: 2023年04月15日 18:37
+! Version: 202304152049
+! Last Modified: 2023年04月15日 20:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10552,7 +10552,7 @@ _800x80_
 ##.AdsBoxSection
 ##.AdsBoxTop
 ##.AdsInnov_responsive_ad
-##.AdsLayout
+##.AdsLayout__top-container
 ##.AdsSections
 ##.AdsSlot
 ##.Ads_3
@@ -55872,6 +55872,7 @@ msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad-full
 msn.com##.intra-article-ad-half
 msn.com##.modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1
+msn.com##.windowsBannerAdContainer-DS-EntryPoint1-1
 msn.com##[class^="articlePage_eoabContent"]
 msn.com##a[aria-label="AliExpress"]
 msn.com##a[aria-label="Amazon Assistant"]
@@ -55894,6 +55895,8 @@ msn.com##a[href^="https://www.awin1.com/cread.php"]
 msn.com##cs-native-ad-card
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
+msn.com##msft-content-card[data-t*="NativeAd"]
+msn.com##msft-content-card[href^="https://api.taboola.com/"]
 msn.com##msft-content-card[id^="contentcard_nativead-"]
 msn.com##msn-info-pane-panel[id^="tab_panel_nativead-"]
 msn.com##partner-upsell-card
@@ -55923,6 +55926,8 @@ privacytools.io#?#.container:-abp-has(.tag .fa-adversal)
 slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
 decrypt.co#?#span:-abp-contains(AD)
+qwant.com#?#.is-sidebar:-abp-has(a[data-testid="advertiserAdsLink"])
+outlook.live.com#?#div.customScrollBar > div > div.full:-abp-has(img[src$="/images/ads-olk-icon.png"])
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 playpilot.com#?#.search-preview .side:-abp-has(> .provider)
 protrumpnews.com#?#.show-on-ptn:-abp-has(.pre-announcement)
@@ -78581,7 +78586,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/log/report/*$script,domain=bilibili.com
 @@/sensorsdata-$domain=zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
+@@/sensorsdata.$domain=kuque.com|36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
 @@||10010.com/mall/common/js/fa.js?referer=
