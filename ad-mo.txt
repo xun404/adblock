@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5gw1zyMPZZOvjfIt3/eFEA
+! Checksum: +Gxc7XAfEAr7AmrjzV/+bg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202304151637
-! Last Modified: 2023年04月15日 16:37
+! Version: 202304151737
+! Last Modified: 2023年04月15日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2697,6 +2697,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /dfp_async.
 /dfp_js/*
 /dfpNew.
+/didna_config.js
 /directrev.
 /discourse-adplugin-
 /discuss_ad/*
@@ -52727,7 +52728,9 @@ thelocal.com,thelocal.dk,thelocal.se##.article-sponsored
 people.com##.articleContainer__rail
 audizine.com##.articleIMG
 ubergizmo.com##.article_card_promoted
+wikiwand.com##.article_footerStickyAd__wvdui
 news18.com##.article_mad
+wikiwand.com##.article_sectionAd__rMyBc
 arcadespot.com##.as-incontent
 arcadespot.com##.as-label
 arcadespot.com##.as-unit
@@ -53068,7 +53071,7 @@ hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
 binnews.com,iheart.com##.component-pushdown
 binnews.com,iheart.com##.component-recommendation
 cointelegraph.com##.componentAdbutler_UHZMO
-dailymail.co.uk##.connatix-wrapper
+dailymail.co.uk,thisismoney.co.uk##.connatix-wrapper
 realsport101.com##.connatixPS
 washingtontimes.com##.connatixcontainer
 beincrypto.com##.cont-wrapper
@@ -53094,6 +53097,7 @@ businessinsider.com.au##.content-section-banner
 crmbuyer.com,ectnews.com,macnewsworld.com,technewsworld.com##.content-tab-slinks
 discord.me,searchenginejournal.com##.content-unit
 ancient-origins.net##.content_add_block
+wikiwand.com##.content_headerAd__USjzd
 nationalmemo.com##.content_nm_placeholder
 usedcarnews.com##.continut
 metar-taf.com##.controls-right
@@ -54473,7 +54477,7 @@ kathmandupost.com##.sticky--bottom
 rugbyonslaught.com##.sticky-add
 gr8.cc,psycatgames.com##.sticky-banner
 note.nkmk.me##.sticky-block
-golfmagic.com,kbb.com##.sticky-container
+golfmagic.com,kbb.com,thisismoney.co.uk##.sticky-container
 goterriers.com##.sticky-footer
 walletinvestor.com##.sticky-footer-content
 babylonbee.com##.sticky-footer-image
@@ -55808,6 +55812,7 @@ slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
 decrypt.co#?#span:-abp-contains(AD)
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
+playpilot.com#?#.search-preview .side:-abp-has(> .provider)
 protrumpnews.com#?#.show-on-ptn:-abp-has(.pre-announcement)
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(Sponsored))
 newsweek.com#?#.block.block-ibtmedia-special-item:-abp-has(.sponsor:-abp-contains(SPONSORED))
@@ -56832,11 +56837,13 @@ lewdgamer.com##div[id^="spot-"]
 hentaiff.com##div[id^="teaser"]
 pornhub.com,youporngay.com##div[onclick*="bp1.com"]
 simpcity.su##div[style="text-align:center;margin-bottom:20px;"]
+redgifs.com##div[style="width: 300px; height: 250px;"]
 sexbot.com##div[style="width:300px;height:20px;text-align:center;padding-top:30px;"]
 pornpics.network##div[style^="height: 250px;"]
 gay0day.com##div[style^="height:250px;"]
 thehentai.net##div[style^="width:300px; height:250px;"]
 rateherpussy.com##font[size="1"][face="Verdana"]
+smutty.com##iframe[scrolling="no"]
 xcafe.com##iframe[src]
 watchteencam.com##iframe[src^="http://watchteencam.com/images/"]
 manga18fx.com,manhwa18.cc,motherless.com##iframe[style]
@@ -84765,6 +84772,7 @@ _mongo_stats/
 ||aprtx.com^$third-party
 ||apsis1.com^$third-party
 ||apsislead.com^$third-party
+||aptrinsic.com^$third-party
 ||aqtracker.com^$third-party
 ||aralego.net^$third-party
 ||arcadeweb.com^$third-party
