@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hqKezSNlBbK9Buhxq7RzdQ
+! Checksum: WoQsFjoI+NkrvbmqafH6jw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202304201638
-! Last Modified: 2023年04月20日 16:38
+! Version: 202304201737
+! Last Modified: 2023年04月20日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56536,6 +56536,7 @@ sainsburys.co.uk#?#.productESpot:-abp-has(.strapline:-abp-contains(Sponsored))
 independent.co.uk,standard.co.uk#?#article > div[class^="sc-"]:-abp-has(> div[class^="sc-"] > div[data-ad-unit-path])
 sbs.com.au#?#.MuiBox-root:-abp-has(>.desktop-ads)
 privacytools.io#?#.container:-abp-has(.tag .fa-adversal)
+backpack.tf#?#.panel:-abp-contains(createAd)
 slashdot.org#?#article:-abp-has(.ntv-sponsored-question)
 9gag.com#?#article:-abp-has(.promoted)
 decrypt.co#?#span:-abp-contains(AD)
@@ -77028,7 +77029,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||battlecats-db.com^$generichide
 @@||bbs.tgfcer.com^$generichide
 @@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
-@@||bcong.top/static/ad/main.js
+@@/static/ad/main.$domain=bhuai.top|bhuan.top
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
 @@||bdstatic.com/??*,*,*,
@@ -77062,7 +77063,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||chinatimes.com/css-main/ad.css
 @@||chtoen.com/js/adsbygoogle.js
 @@||citysbs.com^*/swfupload/
-@@||cl9a.com/static/ad/main.js
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||club.tgfcer.com^$generichide
 @@||cmbc.com.cn^*ads/
