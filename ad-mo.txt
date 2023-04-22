@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OykutUq70y97PF6QlhnO/g
+! Checksum: fu0mQbpFFElTzqQepMGJ2g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202304230237
-! Last Modified: 2023年04月23日 02:37
+! Version: 202304230437
+! Last Modified: 2023年04月23日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -49721,6 +49721,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||legitonlinejobs.com/images/$third-party
 ||lesmeilleurs-jeux.net/images/ban/
 ||lessemf.com/images/banner-
+||libcdnjs.com/js/script.js
 ||link.link.ru^
 ||linkconnector.com/tr.php
 ||linkconnector.com/traffic_record.php
@@ -56481,6 +56482,9 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+cargurus.com#?#div[data-cg-ft="car-blade"]:-abp-has(div[data-cg-ft="sponsored-listing-badge"])
+sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
+sephora.com#?#div[data-comp^="RmnBanner"]:-abp-has(p:-abp-contains(Sponsored))
 booking.com#?#div[data-testid="property-card"]:-abp-has(div[data-testid="new-ad-design-badge"])
 booking.com#?#div[data-testid="property-card"]:-abp-has(span[data-testid="new-ad-design-badge"])
 countdown.co.nz#?#cdx-card:-abp-has(product-badge-list)
