@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P9CtmIiP5+ugkqTOBEFk/g
+! Checksum: 63lhvwz3m19MtvA6jH/0GA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304222049
-! Last Modified: 2023年04月22日 20:49
+! Version: 202304222337
+! Last Modified: 2023年04月22日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1118,7 +1118,7 @@ newduba.cn###jq_youxi
 ##.banner-ad-section
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
-##.bannerliststyle[style^="min-height"]
+##div[role="listitem"] > div > div > .bannerliststyle
 ##.bdyp-sygg-ul
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
@@ -1479,6 +1479,7 @@ newduba.cn###jq_youxi
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
+##.book > #btmBox
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[style$="2147483647;"][ontouchstart]
@@ -9620,7 +9621,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||avcao.cc/js/p.js
 ||avcity.twavtv.com/iframe/
 ||avdao.pw/dist/js/sc_check
-||avdb.me/ad/
 ||avjj26.com/api/?d=pc&c=advert&
 ||avple.video/asset/bann.js
 ||avseesee.com/amandison.php
@@ -9833,7 +9833,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
-||bku3.com/js/cctv-bf.js
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
@@ -12711,7 +12710,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
 ||vip.luanren.com/data/*.gif
-||vip27j.xyz/dh.js
 ||vipdage.com/wp-content/uploads/ad/
 ||vipyearha.com/uploads/20*.gif
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
@@ -12880,7 +12878,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xmcimg.com/js/m.js
 ||xmrc.com.cn/net/info/html/
 ||xng02.com/api.php?mod=ad&
-||xnklgas.cn/common/getBannerList
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/tpl/material/
 ||xoimg.com^$domain=18board.com|18p2p.com
@@ -14147,7 +14144,6 @@ oschina.net###project_ad_banner
 firefoxchina.cn###promo
 firefox.com.cn,firefoxchina.cn###promote-top-list
 sina.cn###promotionCover
-kmbb70.com###publicIndexBanner
 xiazaizhijia.com###public_right_mid_ad
 bestopview.com###pubtextnone
 hao123.com###puzzleBox
@@ -14202,7 +14198,6 @@ discuss.com.hk,uwants.com###right_column
 uc123.com###right_elevator
 gmw.cn###rightad1 + .contentColumnRight
 xc6b.com###rightbottbox
-hurigirls99.xyz###rightd
 ixueyi.com,shangxueba.com###rightfloatdiv
 ri1.site,www.wenxuecity.com###rightside
 nczsks.com###rightyxjs
@@ -14405,8 +14400,6 @@ ziqiangxuetang.com###tutorial_btm
 ali213.net###tv
 jb51.net,makaidong.com###txtlink
 vpsmm.com###uc
-hurigirls99.xyz###undertd
-hurigirls99.xyz###undertd + div[style]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###union_mod
 cnbeta.com###upcoming_box
 axutongxue.com,axutongxue.net###uuuui
@@ -21192,7 +21185,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||soufunimg.com/count/uvbforpc.js
-@@||ss999.me/i.php?i=
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||tajs.qq.com/stats?$~third-party
 @@||tbcdn.cn^*/click_track.js
