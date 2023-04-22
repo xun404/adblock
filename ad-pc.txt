@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UI1M6DdUlbEa7dp9DSzn+g
+! Checksum: y4oB3DXsrBEJwFR4OMuzAQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202304221737
-! Last Modified: 2023年04月22日 17:37
+! Version: 202304221837
+! Last Modified: 2023年04月22日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -71346,6 +71346,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||biggggg.com/videos/*/media_000$rewrite=abp-resource:blank-mp3,domain=nivod4.tv
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -79236,6 +79237,7 @@ wnacg.com,wnacg.org##script + div > a > img
 ||hdsrc-a.akamaihd.net^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 eastday.com#@##leftShare
+smzdm.com#@#.comment_share
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list
