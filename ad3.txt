@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mn2Ks9tKkSXf1Oi+8Ozlow
+! Checksum: PYzycE/qO7m0Ytn095jvtg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304230737
-! Last Modified: 2023年04月23日 07:37
+! Version: 202304230958
+! Last Modified: 2023年04月23日 09:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -911,7 +911,8 @@ newduba.cn###jq_youxi
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
-###main.site-main > div > div > a[href] > img
+###container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
+##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -1438,6 +1439,7 @@ newduba.cn###jq_youxi
 ##a[href*="/23.224.188."]
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
+###ad-floatwin
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
@@ -1854,6 +1856,7 @@ newduba.cn###jq_youxi
 ||qkcaqq.xyz^
 ||jeidd.xyz^
 ||jyxfvp.xyz^
+||jbtfmis.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -13092,6 +13095,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||380tv.com/upload/*-ad-
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17625,7 +17629,6 @@ tingroom.com##a[href*="weidian.com"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
 1090ys8.com##a[href*="yb6277."]
 fxykx.com##a[href*="zyttx.com/"]
-ddrk.me,ddys.tv##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 csdn.net##a[href="//gitbook.cn/new/gitchat/activity?utm_source=csdnblog1"]
 chinanewsx.com##a[href="/about/"]
 ithome.com##a[href="/html/363216.htm"]
@@ -17740,7 +17743,6 @@ fastadmin.net##a[href^="https://www.fastadmin.net/go/"]
 howbuy.com##a[href^="https://www.howbuy.com/advertisement/"]
 kelatv.com##a[href^="https://www.kelatv.com/api/go."]
 sojson.com##a[href^="https://www.sojson.com/ad/"]
-ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 iqiyi.com##a[id^="100000"]
 mse.360.cn##a[id^="banner"]
 moxing.net##a[marked][href*=".taobao.com"]
@@ -36598,6 +36600,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tr.marsflag.com^
 ||tr.outbrain.com^
 ||tr.snapchat.com^
+||tr.vitals.co^
 ||tr.webantenna.info^
 ||tr1.mailperformance.com^
 ||tra.scds.pmdstatic.net/sourcepoint/
