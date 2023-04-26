@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PHlR740O9lwBel2bm3u5dg
+! Checksum: 0cR7jg7sPGhqWTSnwdjYtw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202304262337
-! Last Modified: 2023年04月26日 23:37
+! Version: 202304270041
+! Last Modified: 2023年04月27日 00:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3428,6 +3428,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /packages/dfp/*
 /page-ads-
 /page-ads.
+/page-links-to/dist/new-tab.js
 /page-peel
 /page/ad/*
 /pagead.
@@ -21497,6 +21498,7 @@ _800x80_
 ##a[href*=".engine.adglare.net/"]
 ##a[href*="//lkstrck2.com/"]
 ##a[href^="//a.bestcontentfare.top/"]
+##a[href^="//go.eabids.com/"]
 ##a[href^="//pubads.g.doubleclick.net/"]
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://adf.ly/?id="]
@@ -59438,7 +59440,6 @@ newduba.cn###jq_youxi
 ###player > #ADtip
 ###player-bottom-ads
 ###playerAdvLayer
-###playerContainer > .nav-ads
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
@@ -71644,6 +71645,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nivod4.tv##.nav-ads
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
