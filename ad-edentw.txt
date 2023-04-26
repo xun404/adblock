@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6CFASwVxKBVQ4cXmf6IHnA
+! Checksum: mYDqqT+3mzm/tQUID2pjHA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202304262337
-! Last Modified: 2023年04月26日 23:37
+! Version: 202304270237
+! Last Modified: 2023年04月27日 02:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -992,10 +992,9 @@ mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
 streamingcommunity.net#$#abort-current-inline-script String.fromCharCode /btoa|break/
 animeunity.tv#$#abort-on-property-read localStorage
 ! #CV-1366
-tiscali.it#$#hide-if-matches-xpath './/a[@data-act]/preceding::a[@class][@target="_blank"]/ancestor::div[contains(@class,"active")]/ancestor::div[2]'
-tiscali.it#$#hide-if-matches-xpath './/a[@href][contains(@class,"ofrtsrc")][@target="_blank"]/ancestor::div[@data-nosnippet]/ancestor::div[contains(@class,"ofrtsrc")]'
-tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"ebay.it") or contains(@href,"amazon.it") or contains(@href,"linkCode")]/ancestor::div/parent::div[starts-with(@id,"dotnAd")]'
-tiscali.it#$#hide-if-matches-xpath './/a[@class="ebyPrd"][@target="_blank"]/ancestor::div[contains(@class,"eby-cnt")]'
+tiscali.it#$#hide-if-matches-xpath './/a[@class="boxamazon"][@target="_blank"]/ancestor::div[contains(@class,"active")]/ancestor::div[2]'
+tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"linkCode") or contains(@href,"amazon.it")][@target="_blank"]/ancestor::div/parent::div[contains(@class,"-main")][@style]'
+tiscali.it#$#hide-if-matches-xpath './/a[contains(@name,"shp-offerta-")][@target="_blank"]/ancestor::div[contains(@class,"tiscali-dx")]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][not(@href)][contains(@*,"https://www.ebay.it")]/preceding::div[contains(@style,"height: ")][@id][1]'
