@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ItmIqg86UDDWktBp2i1Z2A
+! Checksum: +6/E6BQOT4lioUv1eiyGDw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202304271637
-! Last Modified: 2023年04月27日 16:37
+! Version: 202304271737
+! Last Modified: 2023年04月27日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -56,6 +56,7 @@ editcode.net#$#abort-current-inline-script setTimeout openAd
 ! Video ads
 iyingshi9.tv#$#override-property-read YZM.ads.state false
 tvbanywherena.com#$#strip-fetch-query-parameter ad_config_id
+nivod5.tv,nivod4.tv#$#override-property-read detailParams.is_ad_play false
 ! #CV-667
 hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:czech.txt ***
