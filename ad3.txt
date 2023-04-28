@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P7vBwmSXDVgKLoDgI/RIgg
+! Checksum: RIFTO4uiKvKrLoEAK0CDfA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304281937
-! Last Modified: 2023年04月28日 19:37
+! Version: 202304282050
+! Last Modified: 2023年04月28日 20:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25053,9 +25053,9 @@ m.babytree.com##script + a[class]
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
-/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
-/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
+/dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~dynatracelabs.com|~github.com|~github.io
+/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~dynatracelabs.com|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~dynatracelabs.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -25885,6 +25885,7 @@ m.babytree.com##script + a[class]
 /jp-coremetrics-
 /jquery.analytics.js|
 /jquery.audiencetarget.
+/jquery.browser-fingerprint-
 /jquery.google-analytics.
 /jquery.jw.analitycs.
 /jquery.trackstar.
@@ -26290,6 +26291,7 @@ m.babytree.com##script + a[class]
 /mianalytics.
 /micro.php?action=view&
 /microreporting.
+/microsoft.cognitiveservices.speech.sdk.bundle.js
 /middle?call=http
 /min/gtm/*
 /minder-tracker.
@@ -30882,7 +30884,6 @@ _mongo_stats/
 ||personalicanvas.com^$third-party
 ||personyze.com^$third-party
 ||peruse.ai^$third-party
-||petametrics.com^$third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
 ||phonalytics.com^$third-party
@@ -35976,6 +35977,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quantcast.com/?log
 ||quantcast.mgr.consensu.org/?log
 ||qubitanalytics.appspot.com^
+||query.petametrics.com^
 ||quisma.com/tracking/
 ||quora.com/_/ad/
 ||quora.com/qevents.js
@@ -55114,7 +55116,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|fedex.com|freeshipping.com|heroku.com|tcgplayer.com
 @@||cdn.segment.com/analytics-next/
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com
+@@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com

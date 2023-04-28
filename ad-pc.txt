@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QCLzw4vuKEU303T9Ce6DFg
+! Checksum: 3zbTnUYvnm+6CuyNYw34bg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202304281937
-! Last Modified: 2023年04月28日 19:37
+! Version: 202304282050
+! Last Modified: 2023年04月28日 20:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1910,6 +1910,7 @@ tieba.baidu.com##.tuijian-wrap
 /adsdaqbox_
 /adsdaqsky_
 /adsdelivery.
+/adsdelivery/*
 /adsDesktop.
 /adsdm.
 /adsearch.$domain=~adsearch.fr
@@ -14237,6 +14238,7 @@ _800x80_
 ##.adscontentcenter
 ##.adscontntad
 ##.adscreen
+##.adsdelivery
 ##.adsdesktop
 ##.adsdiv
 ##.adsection_a2
@@ -33917,6 +33919,7 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||kinebuilder.com^
 ||king3rsc7ol9e3ge.com^
 ||kingads.mobi^
+||kingads.space^
 ||kingucoelect.website^
 ||kingwitheaa.lol^
 ||kingyonlendir.link^
@@ -58079,6 +58082,7 @@ hentaicomics.pro#?#.single-portfolio:-abp-has(.xxx-banner)
 hoes.tube#?#.item:-abp-has(> .ads)
 jav4tv.com#?#aside:-abp-has(.ads_300_250)
 kbjfree.com#?#.relative.w-full:-abp-has(> .video-card[target="_blank"])
+picsporn.net#?#.box:-abp-has(> .dip-exms)
 porngames.com#?#.contentbox:-abp-has(a[href="javascript:void(0);"])
 porngames.com#?#.contentbox:-abp-has(iframe[src^="//"])
 pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
@@ -81450,9 +81454,9 @@ fqsousou.com,kengso.com#@#.user-share
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
-/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
-/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
+/dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~dynatracelabs.com|~github.com|~github.io
+/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~dynatracelabs.com|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~dynatracelabs.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -82282,6 +82286,7 @@ fqsousou.com,kengso.com#@#.user-share
 /jp-coremetrics-
 /jquery.analytics.js|
 /jquery.audiencetarget.
+/jquery.browser-fingerprint-
 /jquery.google-analytics.
 /jquery.jw.analitycs.
 /jquery.trackstar.
@@ -82687,6 +82692,7 @@ fqsousou.com,kengso.com#@#.user-share
 /mianalytics.
 /micro.php?action=view&
 /microreporting.
+/microsoft.cognitiveservices.speech.sdk.bundle.js
 /middle?call=http
 /min/gtm/*
 /minder-tracker.
@@ -87279,7 +87285,6 @@ _mongo_stats/
 ||personalicanvas.com^$third-party
 ||personyze.com^$third-party
 ||peruse.ai^$third-party
-||petametrics.com^$third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
 ||phonalytics.com^$third-party
@@ -92373,6 +92378,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quantcast.com/?log
 ||quantcast.mgr.consensu.org/?log
 ||qubitanalytics.appspot.com^
+||query.petametrics.com^
 ||quisma.com/tracking/
 ||quora.com/_/ad/
 ||quora.com/qevents.js
@@ -111511,7 +111517,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|fedex.com|freeshipping.com|heroku.com|tcgplayer.com
 @@||cdn.segment.com/analytics-next/
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com
+@@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
