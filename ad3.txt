@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K+lu9DYbdtD/lmiQ1txdcQ
+! Checksum: UGWeaIL1mEmeIM7am5yB1w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304291937
-! Last Modified: 2023年04月29日 19:37
+! Version: 202304292137
+! Last Modified: 2023年04月29日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -55501,7 +55501,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||intersport.peerius.com/tracker/tracker.page$script,domain=intersport.de
+@@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
+@@||kameleoon.io/geolocation^$domain=welt.de
+@@||kameleoon.io/ip^$domain=welt.de
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
