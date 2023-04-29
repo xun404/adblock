@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xHgw6ogOP/VbeIqurtFKsA
+! Checksum: k9VxIcGryskLcVqChTn8uw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202304291337
-! Last Modified: 2023年04月29日 13:37
+! Version: 202304291737
+! Last Modified: 2023年04月29日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1951,6 +1951,7 @@ newduba.cn###jq_youxi
 ||golden88.co^
 ||igtchzp.cn^
 ||kabuto.pro^
+||xiaobixiaobi.com^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -55485,8 +55486,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||caritas-international.de^*/analyticsmediator.js$domain=caritas-international.de
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
-@@||cleverpush.com/channel/loader/$domain=prosieben.de
-@@||cleverpush.com/sdk/$domain=prosieben.de
 @@||cxense.com/cx.cce.js$domain=businessinsider.de
 @@||cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||cxense.com/cx.js$domain=businessinsider.de|computerbild.de|handelsblatt.com
@@ -55517,7 +55516,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
-@@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+@@||optimizely.com^$script,domain=kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||php.heute.at/onion/ProjectOnion/render/common/js/tracking.js$~third-party
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
