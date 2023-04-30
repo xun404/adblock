@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ovJH8fLneJZZ7Db8m8w9LA
+! Checksum: dNzsP6vFyyPJj2XSGzph7g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202304302048
-! Last Modified: 2023年04月30日 20:48
+! Version: 202304302137
+! Last Modified: 2023年04月30日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55273,6 +55273,7 @@ mlsbd.shop##.notice-board
 cityam.com##.notice-header
 computing.co.uk##.notice-slot-full-below-header
 forum.xda-developers.com##.notices--thnoticesplus_topbar
+all3dp.com##.notification
 mondoweiss.net##.notrack
 bleepingcomputer.com##.noty_bar
 pcgamebenchmark.com##.nova_wrapper
@@ -58745,7 +58746,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||iejima.org/ad-banner/$image,~third-party
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=autokult.pl|bloomberg.co.jp|bsfuji.tv|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|pointmall.rakuten.co.jp|s.yimg.jp|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|univtec.com|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wowbiz.ro|wtk.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=autokult.pl|bloomberg.co.jp|bsfuji.tv|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|pointmall.rakuten.co.jp|s.yimg.jp|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wowbiz.ro|wtk.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=s.yimg.jp|vk.sportsbull.jp
 @@||innervision.co.jp/var/ezwebin_site/storage/images/ad/$image,~third-party
 @@||jmedj.co.jp/files/$image,~third-party
@@ -90806,6 +90807,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adblockmetrics.ru^$third-party
 ||admile.ru^$third-party
 ||adx.com.ru^$third-party
+||airlogs.ru^$third-party
 ||announcement.ru^$third-party
 ||apkonline.ru^$third-party
 ||audsp.com^$third-party
@@ -90860,6 +90862,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mediatoday.ru^$third-party
 ||metaversn.site^$third-party
 ||metrika-informer.com^$third-party
+||mobtop.com^$third-party
+||mobtop.ru^$third-party
 ||mokuz.ru^$third-party
 ||more-data.ru^$third-party
 ||musiccounter.ru^$third-party
@@ -91076,6 +91080,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyticcdn.globalmailer.com^
 ||analytics-1.cavai.com^
 ||analytics-cms.whitebeard.me^
+||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-production.hapyak.com^
 ||analytics-scripts.cablelabs.com^
 ||analytics-sg.tiktok.com^
@@ -112246,6 +112251,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
+@@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
