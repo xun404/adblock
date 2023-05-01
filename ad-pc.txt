@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SAyD5uHYDRPJ/lpNO1UbMw
+! Checksum: u0XroTTUJefvYTUhp/Ca7Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305011737
-! Last Modified: 2023年05月01日 17:37
+! Version: 202305011837
+! Last Modified: 2023年05月01日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -58748,7 +58748,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !! pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|games.wkb.jp
 !! g.doubleclick.net/pagead/ads
-@@||g.doubleclick.net/pagead/ads$frame,domain=game.anymanager.io
+@@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io
 @@/banner/ad/*$image,domain=achaloto.com
 @@||90-60-90.in.ua/images/moda/advt/$image,~third-party
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
@@ -58794,7 +58794,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||getjad.io/library/$script,domain=allocine.fr
-@@||googleapis.com/js/sdkloader/ima3.js$domain=udn.com
 @@||googletagmanager.com/gtag/js$script,domain=factory.pixiv.net
 @@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|tv-asahi.co.jp|vlive.tv|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
@@ -58808,12 +58807,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
 @@||kincho.co.jp/cm/img/bnr_ad_$image,~third-party
 @@||kmsv.jp/images/ad/$image,~third-party
-@@||koshien-live.net/99/adtag.xml$domain=sportsbull.jp
-@@||labymod.net/affiliate/$~third-party
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||mail.bg/mail/index/getads/$xmlhttprequest
-@@||mbank.cz/Adv/Scripts/$~third-party
-@@||mbank.sk/Adv/Scripts/$~third-party
 @@||meduza.io/static/ads/$media,~third-party
 @@||microapp.bytedance.com/docs/page-data/$~third-party
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
@@ -58853,28 +58848,18 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||supabase.co/rest/v1/advert$domain=matchers.fr
 @@||tabiat.gov.tr/KACMS/Files/ad-$image,~third-party
-@@||tcm-koko.ed.jp/images/ad.jpg
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||trj.valuecommerce.com/vcushion.js
 @@||uze-ads.com/ads/$~third-party
 @@||valuecommerce.com^$image,domain=pointtown.com
-@@||velet.jp/images/adv/$image,~third-party
-@@||wikiwiki.jp^*/plus/adv.png$~third-party
-@@||wp.com/www.datahjelperne.no^*/annonser.png$image,domain=datahjelperne.no
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yuru-mbti.com/static/css/adsense.css$~third-party
-@@||zinro.net/m/end.php?$~third-party
 @@||ads.google.com^$domain=ads.google.com|analytics.google.com
 @@||cloud.google.com^$~third-party
 @@||developers.google.com^$domain=developers.google.com
 @@||support.google.com^$domain=support.google.com
 @@||v.fwmrm.net/ad/g/1?*_html5_live$domain=~gulli.fr|~msn.com
-@@||dashboard.mgid.com^$~third-party
 @@||healthyadvertising.es^$~third-party
-@@||netdna-cdn.com^*/OpenX/$domain=openx.com
-@@||openx.com^$domain=openx.com
-@@||api-merchants.skimlinks.com^
-@@||authentication-api.skimlinks.com^
 @@||api.vigo.ru^*/network_status?$object,xmlhttprequest,domain=vk.com
 @@||paymentgate.ru/payment/*_Advert/
 @@||vk.com/ads$generichide
@@ -58888,12 +58873,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||vk.com^*/ads.css$domain=vk.com
 @@||vk.me/css/al/ads.css$domain=vk.com
 @@||vk.me/images/ads_$domain=vk.com
-@@||adroll.com^$xmlhttprequest,domain=adroll.com
-@@||app.adroll.com^$generichide
 @@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
+@@||ads-api.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
-@@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||anitasrecipes.com/Content/Images/Recipes/$image,~third-party
 @@||arnhemland-safaris.com/images/made/$image,~third-party
 @@||cloud.mail.ru^$image,~third-party
