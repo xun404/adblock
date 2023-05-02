@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k63q/uJrvBEbO37wQLmsVg
+! Checksum: 6SHQFzqJDGSFD1YSfD4VFQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305030637
-! Last Modified: 2023年05月03日 06:37
+! Version: 202305030737
+! Last Modified: 2023年05月03日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51981,6 +51981,7 @@ browsershots.org#@#.advert_area
 ||itweb.co.za/sponsored_
 ||itweb.co.za/static/misc/toolbox/
 ||itweb.co.za^*/sponsors
+||jentent.streampiay.fun^
 ||jobsora.com/img/banner/
 ||jordantimes.com/accu/
 ||jpg.church/quicknoisilyheadbites.js
@@ -52044,6 +52045,7 @@ browsershots.org#@#.advert_area
 ||odrama.net/images/clicktoplay.jpg
 ||ohmygore.com/ef_pub
 ||onlineshopping.co.za/expop/
+||oontent.powzers.lol^
 ||openstack.org/api/public/v1/sponsored-projects?
 ||optics.org/banners/
 ||outputter.io/uploads/$subdocument
@@ -52481,6 +52483,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||hqq.tv/out.php?$popup
 ||hurawatch.ru/?$popup
 ||ientent.streampiay.fun^$popup
+||jentent.streampiay.fun^$popup
 ||jpg.church/*.php?cat$popup
 ||kissanimeonline.com/driectlink$popup
 ||link.advancedsystemrepairpro.com^$popup
@@ -52490,6 +52493,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||nontent.powzers.lol^$popup
 ||notube.li/p$popup
 ||notube.net/p$popup
+||oontent.powzers.lol^$popup
 ||pinoymovies.es/links/$popup
 ||player.tabooporns.com^$popup
 ||pontent.powzers.lol^$popup
@@ -56791,7 +56795,7 @@ gab.com##a[rel="noopener"][target="_blank"][href^="https://grow.gab.com/go/"]
 unsplash.com##a[rel^="sponsored"][target="_blank"]
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 searchenginereports.net##a[title="Ad"]
-abysscdn.com,hqq.to,hqq.tv,linris.xyz,megaplay.cc,netuplayer.top,playertoast.uno,plushd.bio,waaw.to,watchonlinehd123.sbs,wiztube.xyz##a[title="Free money easy"]
+abysscdn.com,hqq.ac,hqq.to,hqq.tv,linris.xyz,megaplay.cc,netuplayer.top,oceanplay.xyz,playertoast.uno,plushd.bio,waaw.to,watchonlinehd123.sbs,wiztube.xyz##a[title="Free money easy"]
 kroger.com##a[title^="Advertisement:"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article[data-ft*="\"ei\":\""]
 greatist.com##aside
@@ -61063,6 +61067,12 @@ newduba.cn###jq_youxi
 ||zrrnqq.com^
 ||zsblog.vip^
 ||zscgoqt.cn^
+||dshapv.xyz^
+||denghaishan1.cn^
+||dgfqqq.com^
+||234mx.club^
+||diekd.xyz^
+||wqweiog.xyz^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -93958,6 +93968,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.ringier.sk^
 ||interseek.si^*/visit.js
 ||1to1.bbva.com^
+||ab.blogs.es^
 ||advgo.net/hits/
 ||advgo.net/mushroom/
 ||analitica.webrpp.com^
@@ -94535,6 +94546,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hotstar.com/v1/track
 ||houzz.com/hsc/aetrk/
 ||houzz.com/js/log?
+||hqq.ac/cdn-cgi/trace
 ||hqq.tv/cdn-cgi/trace
 ||html5games.com/event/
 ||hulkshare.com/ajax/tracker.php
@@ -94765,6 +94777,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nytimes.com/v1/purr-cache
 ||nzpages.co.nz/modules/common/track.js
 ||observe.metarouter.io^
+||oceanplay.xyz/cdn-cgi/trace
 ||odysee.com/reports/
 ||ohm-dot-hackster-io.appspot.com^
 ||okx.com/jsstat/sb?
@@ -111944,7 +111957,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||json.geoiplookup.io/?callback=$script,domain=chilepeajes.cl
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
+@@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
+@@||vodgc.net^*/genoa-event-tracking.min.js
 !---------- Swedish ----------
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
