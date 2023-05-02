@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Uk3AAIlkMyh5c4X5L6ZYFw
+! Checksum: lMIf7kH3CQfCd1k0A5p/6g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202305020737
-! Last Modified: 2023年05月02日 07:37
+! Version: 202305020948
+! Last Modified: 2023年05月02日 09:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1990,6 +1990,8 @@ newduba.cn###jq_youxi
 ||cderyu.club^
 ||mrbtkyn.xyz^
 ||ceodk.xyz^
+||bjwh8.xyz^
+||9h622.top^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -34643,7 +34645,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^*.gif?$third-party
 ||feedify.net/thirdparty/json/track/
-||felix.data.tm-awx.com^
+||felix.data.tm-awx.com/batch
+||felix.data.tm-awx.com/pageConfig
+||felix.data.tm-awx.com/pageview
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
 ||fingerprinter-production.herokuapp.com^
@@ -54616,6 +54620,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||locoloader.com/assets/js/ga.min.js$script,~third-party
 @@||logging.apache.org^$~third-party
 @@||logo.clearbit.com^$image,third-party
+@@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
 @@||matomo.miraheze.org/matomo.js$script,~third-party
