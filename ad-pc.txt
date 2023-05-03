@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AbFn0rluj8fd8E5EaA+tjA
+! Checksum: CoTBNy1XBkze80ZRmp0s4w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305031537
-! Last Modified: 2023年05月03日 15:37
+! Version: 202305031937
+! Last Modified: 2023年05月03日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4349,15 +4349,9 @@ tieba.baidu.com##.tuijian-wrap
 =dynamicads&
 =dynamicwebad&
 =half-page-ad&
-=iframe_adv&
-=js_ads&
-=oas_tag.
-=PAGE_AD_
 =partnerad&
-=pm_ads&
 =showsearchgoogleads&
 =textads&
-?ad.vid=
 ?ad_ids=
 ?ad_number=
 ?ad_partner=
@@ -4389,56 +4383,39 @@ tieba.baidu.com##.tuijian-wrap
 ?advertiser=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?advertiserid=$domain=~adadyn.com|~outbrain.com|~seek.co.nz|~seek.com.au
-?advplaces=
-?banner.id=
 ?bannerid=
 ?category=ad&
 ?phpAds_
 ?service=ad&
-?view=ad&
 ?wm=*&prm=rev&
 ?wppaszoneid=
 ?wpstealthadsjs=
-?zoneid=*&ext=$script
+?zoneid=*&ab=1$script
 ?ZoneID=*&PageID=*&SiteID=$~image
 ?ZoneID=*&SiteID=*&PageID=$~image
 _300600.
-_468x60ad.
-_728x90ad_
 _ad1.$~stylesheet,domain=~messenger.com
 _ad103.
 _ad120x120_
 _Ad125.
-_ad1a.
-_ad1b.
 _ad2.
-_ad234x90-
 _ad3.
 _ad300x250.
 _Ad300x250_
-_ad4.
-_ad5.
 _ad6.$domain=~facebook.com|~facebookcorewwwi.onion|~messenger.com
 _ad640.
-_ad728x90.
-_ad9.
-_ad?darttag=
 _ad_250.
 _ad_300.
 _ad_300x300.
 _ad_336x280.
 _ad_350x250.
 _ad_728_
-_ad_actron.
 _ad_background.
 _ad_banner.
 _ad_banner_
-_ad_big.
-_ad_block&
 _ad_bottom.
 _ad_box.
 _ad_center.
-_ad_change.
 _ad_choices.
 _ad_choices_
 _ad_close.
@@ -4470,8 +4447,6 @@ _ad_integration.
 _ad_label.
 _ad_layer_
 _ad_leaderboard.
-_ad_lib.
-_ad_logo.
 _ad_middle_
 _ad_new_
 _ad_number=
@@ -61079,6 +61054,7 @@ newduba.cn###jq_youxi
 ||kzjkexn.cn^
 ||acbe.club^
 ||chenyuzhou1.cn^
+||9wsbf.top^
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
@@ -86564,7 +86540,6 @@ _mongo_stats/
 ||iplogger.org^$third-party,domain=~iplogger.com
 ||ipmeta.io^$third-party
 ||ipnoid.com^$third-party
-||ippen.space^$third-party
 ||ipro.com^$third-party
 ||iproanalytics.com^$third-party
 ||iprotrk.com^$third-party
@@ -91667,6 +91642,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||invitejs.trustpilot.com^
 ||io.narrative.io/?$third-party
 ||ipapi.tmbi.com^
+||ippen.space/idat
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
 ||iq.sixaxisllc.com^
