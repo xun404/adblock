@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0CgOllEWOKhUNF86rXUhBg
+! Checksum: oytqhBwJbQ8DGaITKnJ80Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202305060943
-! Last Modified: 2023年05月06日 09:43
+! Version: 202305061040
+! Last Modified: 2023年05月06日 10:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22987,9 +22987,7 @@ m.babytree.com##script + a[class]
 &EventType=Impression&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
-&pageReferrer=
 &refer=http$script
-&stats_tkn=
 &t=pageview&
 &tag=IMPRESSION&
 &visitorUuid=
@@ -23010,8 +23008,6 @@ m.babytree.com##script + a[class]
 -didomi.js
 -dspcookiematching.
 -event-tracking.
--fb-pixel-
--ga-track.
 -ga-tracker.
 -ga-tracking/
 -gatracker.
@@ -23028,7 +23024,6 @@ m.babytree.com##script + a[class]
 -realtime-logging-
 -rttracking.
 -sa-tracker-
--sc-analytics.
 -scroll-tracker.js
 -track-inview.
 -tracker-geoip.
@@ -23201,7 +23196,6 @@ m.babytree.com##script + a[class]
 /acecounter/*
 /acecounter_
 /acounter.php?
-/act_pagetrack.
 /action/analytics
 /ActionLogger?
 /activity-track/?
@@ -23232,8 +23226,6 @@ m.babytree.com##script + a[class]
 /addrtlog/*
 /adds/counter.js
 /addstats?callback=
-/adform_sync.
-/adinfo?
 /adlogger.
 /adm_tracking.js
 /AdmitadTagTag.js
@@ -23426,11 +23418,6 @@ m.babytree.com##script + a[class]
 /analytics/gallup/*
 /analytics/geoip/*
 /analytics/google/*
-/analytics/gw.
-/analytics/hit
-/analytics/hmac-
-/analytics/idg_
-/analytics/init.
 /analytics/initSession
 /analytics/klaviyo_
 /analytics/layer
@@ -23446,9 +23433,7 @@ m.babytree.com##script + a[class]
 /analytics/script/*
 /analytics/searches
 /analytics/smarttag-
-/analytics/tags
 /analytics/tagx-
-/analytics/timeme.
 /analytics/timing
 /analytics/track-
 /analytics/track?
@@ -23501,12 +23486,10 @@ m.babytree.com##script + a[class]
 /analyzer2.
 /anametrix/*
 /anapixel.
-/ancAdTrack.js
 /angular-tag.
 /angular-tag_
 /angularlytics.
 /anonymous_user_guid.gif?
-/anycent_tracker_
 /api-analytics.
 /api-insights/log?
 /api/0/stats
@@ -23576,8 +23559,6 @@ m.babytree.com##script + a[class]
 /ASPixel.js
 /aspstats/index.asp?
 /assets/analytics-
-/assets/analytics.
-/assets/analytics:
 /assets/beacons.js
 /assets/smarttag-$script
 /assignments/impressions
@@ -34566,6 +34547,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fastcdn.co/js/sptw.
 ||fbot.me/error
 ||fbot.me/events/
+||fcadigitaldealer.com/pixel.js
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
 ||feed.informer.com/fdstats
@@ -35363,6 +35345,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.uptime.com^
 ||run.app/data.log
 ||run.app/metrics/
+||rw.marchex.io^
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.autopilotapp.com^
 ||s.beop.io^
@@ -53550,6 +53533,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
 ||improving.wuzhuiso.com^
+||iqiyi.com/dsp_track3
+||iqiyi.com/track2?
 ||jcm.jd.com^$script,third-party
 ||jiayuan.com^*/pv.js
 ||js.kuwo.cn/stat/
@@ -54469,7 +54454,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||d2r1yp2w7bby2u.cloudfront.net^$domain=sonyliv.com
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=einthusan.tv|staples.ca|tlk.io
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
-@@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$domain=dashboard.unity.com|dashboard.unity3d.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|dashboard.getdriven.app|usa.experian.com
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
@@ -54496,7 +54480,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||flipboard.com/setcookie?$~third-party
-@@||foxrentacar.com/etc/designs/dotcom/clientlibs_base/$script,~third-party
 @@||friendbuy.com^$domain=butcherbox.com
 @@||gem.cbc.ca/public/vendor/comscore.js$script,~third-party
 @@||geo-targetly.com/geolocation?id$script,third-party
@@ -54512,11 +54495,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getpublica.com/playlist.m3u8$xmlhttprequest
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
-@@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
-@@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk|luggagehero.com
 @@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
@@ -54576,8 +54557,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||metrics.torproject.org^$~third-party
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
-@@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
-@@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
