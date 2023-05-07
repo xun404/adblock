@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eTX3KGh520PtJnqGq3msZA
+! Checksum: p0WymwzxnDJXO3ngm9uWDA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305071137
-! Last Modified: 2023年05月07日 11:37
+! Version: 202305071237
+! Last Modified: 2023年05月07日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22069,6 +22069,7 @@ _800x80_
 ##.grid__module-sizer_name_taboola
 ##.grv-taboola
 ##.nw-taboola
+##.nya-slot[style]
 ##.qa-placement-outbrain-under-post-cr
 ##.tablet_ad_box
 ##.tablet_ad_head
@@ -56366,7 +56367,7 @@ mydramalist.com##.spnsr
 worldtimezone.com##.spon-menu
 xda-developers.com##.spon_banner
 andrewlock.net,centos.org,domainincite.com,europages.co.uk,gamingcloud.com,ijr.com,kpbs.org,manutd.com,phillyvoice.com,phish.report,speedcafe.com,thefederalistpapers.org,thegatewaypundit.com,ufile.io,westernjournal.com,wnd.com##.sponsor
-cssbattle.dev##.sponsor-container
+cssbattle.dev,vuejs.org##.sponsor-container
 dallasinnovates.com##.sponsor-footer
 jquery.com##.sponsor-line
 newsroom.co.nz##.sponsor-logos2
@@ -56385,6 +56386,7 @@ coingecko.com##.sponsored-v2
 investing.com##.sponsoredArticle
 coinmarketcap.com##.sponsoredMark
 ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
+vuejs.org##.sponsors-aside-text
 salixos.org##.sponsors-container
 libhunt.com##.sponsors-list-content
 petri.com##.sponsorsInline
@@ -56513,6 +56515,7 @@ technology.org##.techorg-banner
 sporcle.com##.temp-unit
 macrumors.com##.tertiary
 ericpetersautos.com##.text-109
+vuejs.org##.text-ad
 skylinewebcams.com##.text-center.cam-light
 royalroad.com##.text-center.light
 dexerto.com##.text-center.min-h-\[20rem\]
@@ -61530,6 +61533,9 @@ newduba.cn###jq_youxi
 ||wx001.online^
 ||hoiea.xyz^
 ||dkcwnsu.xyz^
+||dszhqww.cn^
+||guzhimian.fun^
+||pvjlfjz.cn^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -82148,7 +82154,6 @@ fqsousou.com,kengso.com#@#.user-share
 /gtm_monitor?
 /gtmProd.
 /gtmTracking.
-/gtrack.
 /gujTracker.
 /gv-analytics/*
 /gweb/analytics/*
@@ -84914,6 +84919,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://collector.*/event
 ://email.*/blankpixel.gif
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtrack.*/dye
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
@@ -84921,6 +84927,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://segment-api.
 ://segment-cdn.
 ://track.*/collect
+://track.*/dye
 ://track.*/visitor/
 ://tracker.*/pageview
 ://tracking.*/beacon/
@@ -88698,6 +88705,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazingairplane.com^$third-party
 ||ambiguousalarm.com^
 ||ambiguousanger.com^
+||ambiguousdinosaurs.com^
 ||ambiguousincome.com^
 ||ambiguousquilt.com^
 ||ambitiousagreement.com^
