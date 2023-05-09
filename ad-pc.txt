@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NSpa/foEI2JwS178+0azxg
+! Checksum: /iEaORntSgcx6y8Z1vltnA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305090949
-! Last Modified: 2023年05月09日 09:49
+! Version: 202305091045
+! Last Modified: 2023年05月09日 10:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55010,6 +55010,7 @@ thefastmode.com##.channel_long
 coincodex.com##.chart-pos.mobile-b
 sevenforums.com,tenforums.com##.chill
 bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com##.clickout-banner-native_table_box-bottom
+cryptonews.com##.clickout-native_table_box-a
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
@@ -55083,6 +55084,9 @@ realsport101.com##.cpaAd
 chronline.com##.cq-creative
 theweather.net##.creatividad
 mma-core.com##.crec
+cryptopolitan.com##.crp_ads
+cryptopolitan.com##.crp_inarticle_ads_container
+cryptopolitan.com##.crp_sidebar_ads_container
 thesimsresource.com##.crtv-top-wrapper
 irishtimes.com##.cs-teaser
 c-span.org##.cspan-ad-still-wrapper
@@ -57829,6 +57833,7 @@ msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad-full
 msn.com##.intra-article-ad-half
 msn.com##.modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1
+msn.com##.outeradcontainer
 msn.com##.windowsBannerAdContainer-DS-EntryPoint1-1
 msn.com##[class^="articlePage_eoabContent"]
 msn.com##[data-m*="Infopane_CMSBasicCardstore_article"]
@@ -111936,7 +111941,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
-@@||optimizely.com/datafiles/$domain=guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
+@@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
@@ -111965,6 +111970,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
+@@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
+@@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
 @@||redbull.com/gtm.js$~third-party
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
