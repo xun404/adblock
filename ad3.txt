@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UJxAld/u3rH0mMrN9s+IDg
+! Checksum: lQY45XJTi7jWqHvT7oLclg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202305100637
-! Last Modified: 2023年05月10日 06:37
+! Version: 202305100737
+! Last Modified: 2023年05月10日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2078,6 +2078,11 @@ newduba.cn###jq_youxi
 ||zrrnqq.com^
 ||zsblog.vip^
 ||zscgoqt.cn^
+||adadu.cn^
+||aicpa.club^
+||rgyfqq.com^
+||jxvyrv.xyz^
+||afndhou.xyz^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -27779,7 +27784,7 @@ m.babytree.com##script + a[class]
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
-://utm.$domain=~utm.akindi.com|~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.openskies.sh|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
+://utm.$domain=~utm.akindi.com|~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.lol|~utm.md|~utm.openskies.sh|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ;type=eligibleimpression;
 ;type=pixel;
 =comscoreAdobeDpvCall&
@@ -38444,6 +38449,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
 ||trivago.com/tracking/
+||trumba.com/et.aspx?
 ||trx3.famousfix.com^
 ||ts.delfi.lt^
 ||tube8live.com/api/metrics
@@ -54418,6 +54424,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
+@@||amplitude.com/libs/amplitude-8.5.0-min.gz.js$script,domain=kink.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
