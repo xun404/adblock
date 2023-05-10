@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ryTG3uxtGtjMhGDyUqBCCQ
+! Checksum: nl26tnrbRaveVYCxjR86IQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202305101837
-! Last Modified: 2023年05月10日 18:37
+! Version: 202305102244
+! Last Modified: 2023年05月10日 22:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -15,6 +15,7 @@
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1688-wp-media/ads/
+/appnei-huodong.oss-
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -1435,6 +1436,7 @@ newduba.cn###jq_youxi
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
 ##a[href*=".com?aff="]
+##.adpc > .promote-link
 ##a[href*=".com?intr="]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
