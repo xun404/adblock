@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uQJNOxvO1VWkkphwFS+7Rw
+! Checksum: WkC08M0xCX0BHBbx+4JUPg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305121237
-! Last Modified: 2023年05月12日 12:37
+! Version: 202305121337
+! Last Modified: 2023年05月12日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57879,6 +57879,7 @@ youtube.com##.list-view[style="margin: 7px 0pt;"]
 youtube.com##.promoted-sparkles-text-search-root-container
 youtube.com##.promoted-videos
 youtube.com##.ytd-action-companion-ad-renderer
+youtube.com##.ytd-ad-slot-renderer
 youtube.com##.ytd-carousel-ad-renderer
 youtube.com##.ytd-compact-promoted-video-renderer
 youtube.com##.ytd-companion-slot-renderer
@@ -57887,6 +57888,7 @@ youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
+youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
 youtube.com##.ytd-search-pyv-renderer
 youtube.com##.ytd-video-masthead-ad-primary-video-overlay-renderer
 youtube.com##.ytd-video-masthead-ad-v3-renderer
@@ -58116,7 +58118,7 @@ gamersnexus.net#?##right_col > div:-abp-has(p:-abp-contains(Advertisement))
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 gankrin.org#?#.code-block:-abp-has(.adsbygoogle)
-youtube.com#?#ytd-rich-item-renderer.style-scope.ytd-rich-grid-row:-abp-has(ytd-display-ad-renderer)
+youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 gankrin.org#?#.widget_custom_html:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(a[title="Affiliate link"])
@@ -95911,6 +95913,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ts.delfi.lt^
 ||tube8live.com/api/metrics
 ||tubepornstars.com/js/analytics
+||tubi.io/datascience/logging?
+||tubitv.com/oz/performance/
 ||tumblr.com/pop/js/modern/sentry-
 ||tumblr.com/services/bblog
 ||tunein.com/api/v1/log/
