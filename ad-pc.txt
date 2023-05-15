@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A8A+aZmEJsK2ANsDyhfjPQ
+! Checksum: +pHqREkIZL3jNrL4ayKDzQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305151046
-! Last Modified: 2023年05月15日 10:46
+! Version: 202305151137
+! Last Modified: 2023年05月15日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61931,6 +61931,8 @@ newduba.cn###jq_youxi
 ||iwandlo.top^
 ||hvfubp.xyz^
 ||rbbbdj.xyz^
+||ywsiqlg.cn^
+||bozumi.xyz^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -112421,6 +112423,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||cxense.com/cx.js$domain=bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp
 !! fast.appcues.com
 @@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com
+!! collector.appconsent.io
+@@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
 @@||statcounter.com/js/fusioncharts.js
