@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RTJNxFAPfYTN0aiDPataWQ
+! Checksum: ZGFxGped1EJ9xV9SEFDcvg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202305162054
-! Last Modified: 2023年05月16日 20:54
+! Version: 202305170040
+! Last Modified: 2023年05月17日 00:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1009,8 +1009,8 @@ animeunity.tv#$#abort-on-property-read localStorage
 ! #CV-1366
 tiscali.it#$#hide-if-matches-xpath './/a[@href][contains(@class,"ofrtsrc")][@target="_blank"]/ancestor::div[@data-nosnippet]/ancestor::div[contains(@class,"ofrtsrc")]'
 tiscali.it#$#hide-if-matches-xpath './/a[@class="boxamazon"][@target="_blank"]/ancestor::div[contains(@class,"active")]/ancestor::div[2]'
-tiscali.it#$#hide-if-matches-xpath './/figure/a[@title][contains(@href,"linkCode") or contains(@href,"amazon.it")][@target="_blank"][contains(@name,"-offerta-")]/ancestor::div[@class][@style][2]'
-tiscali.it#$#hide-if-matches-xpath './/a[@class][@title][@href="#"]/ancestor::div[contains(@class,"active")]/ancestor::div[2]'
+tiscali.it#$#hide-if-matches-xpath './/figure/a[@title][@href="#"]/ancestor::div[contains(@class,"main")][@style]/parent::div[1][contains(@style,"margin-bottom") and contains(@style,"min-height")]'
+tiscali.it#$#hide-if-matches-xpath './/a[@class][@title][@href="#"][contains(@*,"")]/img[contains(@src,"media-amazon.com")]/ancestor::div[contains(@class,"sld")]/parent::div[1][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][not(@href)][contains(@*,"https://www.ebay.it")]/preceding::div[contains(@style,"height: ")][@id][1]'
