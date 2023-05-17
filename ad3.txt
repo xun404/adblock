@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PKBuo2k+WffEe4wkedoBtA
+! Checksum: Akoh6c7/YoB/Dx+6E0H7jA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202305172137
-! Last Modified: 2023年05月17日 21:37
+! Version: 202305180039
+! Last Modified: 2023年05月18日 00:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1457,6 +1457,7 @@ newduba.cn###jq_youxi
 ##a[href*="://4"][href*="/vod."]
 ##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*=":7888/?register="]
+##.wwads
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?channelCode="] > img[src*=".xyz"]
@@ -2183,6 +2184,7 @@ newduba.cn###jq_youxi
 ||xsbdj6.com^
 ||dcnytdpke.xyz^
 ||54ha.cn^
+||hontont.com^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -8179,7 +8181,6 @@ newduba.cn###jq_youxi
 ||lu.sogou.com^
 ||lu.sogoucdn.com^
 ||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
-||mgtv-bbqn.oss-cn-beijing.aliyuncs.com^
 ||miaozhen.com^$third-party
 ||mobads.baidu.com^$third-party
 ||mobantong.oss-cn-hangzhou.aliyuncs.com^
@@ -12793,8 +12794,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+alist.nn.ci##.ss
+element-plus.org,element-plus.gitee.io##ASIDE > .page-content
+element-plus.org,element-plus.gitee.io##.toc-content > .m-t-16px
 ruyo.net##.textwidget a > img
 szxx.com.cn###A1
 szxx.com.cn###A2
