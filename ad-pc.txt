@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JTzZ/QsokJ3P8nbJvlhZ3g
+! Checksum: fL1VQhSwiAc6erHDomIiYA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305171737
-! Last Modified: 2023年05月17日 17:37
+! Version: 202305172052
+! Last Modified: 2023年05月17日 20:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62097,6 +62097,7 @@ newduba.cn###jq_youxi
 ||wjtij.top^
 ||xsbdj6.com^
 ||dcnytdpke.xyz^
+||54ha.cn^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -72709,6 +72710,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ruyo.net##.textwidget a > img
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -80754,7 +80756,6 @@ fqsousou.com,kengso.com#@#.user-share
 &http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
 &refer=http$script
 &t=pageview&
-&tag=IMPRESSION&
 &visitorUuid=
 -ad-targeting?
 -adobe-analytics.
@@ -80768,10 +80769,8 @@ fqsousou.com,kengso.com#@#.user-share
 -analytics/analytics.
 -appanalytics-
 -click-tracker.
--content-tracking.
 -datacollection.
 -didomi.js
--dspcookiematching.
 -event-tracking.
 -ga-tracker.
 -ga-tracking/
@@ -80779,8 +80778,6 @@ fqsousou.com,kengso.com#@#.user-share
 -geoIP.js
 -heatmaps-analytics/
 -inview-tracker.
--krux-tag/
--landing-tracking-
 -optimization-metrics.
 -optimost-
 -page-analytics.
@@ -80831,9 +80828,7 @@ fqsousou.com,kengso.com#@#.user-share
 .com/stats.aspx?
 .com/track?$~object
 .com/tracking?
-.com/vtrack|
 .content_tracking.
-.d-engine.js
 .de/h.gif?
 .de/l.gif?
 .drive-analytics.
@@ -80853,8 +80848,6 @@ fqsousou.com,kengso.com#@#.user-share
 .net/ping.php?
 .ntpagetag.
 .org/js/ga-
-.PageHitServlet?
-.pageVisitCounter_
 .php?action=browse&
 .php?action_name=
 .php?hey_stat=
@@ -80867,23 +80860,16 @@ fqsousou.com,kengso.com#@#.user-share
 .php?self=
 .php?stats=
 .php?tracking=
-.pixel.archive.
-.pl?trans.gif&ref=
 .pt/n.gif?
-.redux-logger-
 .sharecounter.$third-party
 .sitecatalyst.js
 .siteclarity.
 .sitetracking.
 .skimlinks.js
 .snowplowanalytics.$domain=~snowplowanalytics.com
-.statData-eup.
 .stats?action=
 .svc/?tracking_id=
-.track_apply_impression/
 .track_Visit?
-.trafficTracking.
-.tstracker.
 .tv/log?event
 .v4.analytics.
 .vsTracking.
@@ -80906,11 +80892,9 @@ fqsousou.com,kengso.com#@#.user-share
 /?dm=*&blogid=$script
 /?dsp_uid=
 /?essb_counter_
-/?fp=*&prvtof=
 /?livehit=
 /?log=experiment&
 /?log=performance-
-/?mob.ct=
 /?record&key=
 /?sentry_key=
 /?sentry_version=
@@ -80940,23 +80924,14 @@ fqsousou.com,kengso.com#@#.user-share
 /_stat/log_
 /_tracking/*
 /_visitcount?
-/a-stat.
 /a.gif?
 /a8c-analytics.
 /a8c-analytics/*
 /aap/stats
-/abp-analytics.
-/abp.gif?
-/abstat.
-/abtestInit-
-/abtshield-snippet.js
-/ac-site-tracking-
 /ac.fcgi?
-/acbeacon2.
 /accessanalyzer/tracker?
 /AccessCounter/*
 /accesstracking/*
-/accip_script.js
 /acclog.cgi?
 /acecounter/*
 /acecounter_
@@ -80969,13 +80944,11 @@ fqsousou.com,kengso.com#@#.user-share
 /AD/PageHits.
 /ad/statistic
 /ad_tracking.
-/AdAppSettings/*
 /adb-analytics
 /adb1.gif?
 /adblock_logging.
 /AdCookies.js
 /AdCount/*
-/add_anonymous_identifier
 /add_page_view?
 /add_stats
 /add_utm_links.
