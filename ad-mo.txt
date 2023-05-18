@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MDtYvn1XzL1hDpyfRG9Yuw
+! Checksum: TLqUKAnEZWcIfKkhv3x1sw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202305190337
-! Last Modified: 2023年05月19日 03:37
+! Version: 202305190737
+! Last Modified: 2023年05月19日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -8090,6 +8090,7 @@ _800x80_
 ###floatingAds
 ###floating_ad
 ###floating_ad_container
+###floating_ads_bottom_textcss_container
 ###floorAdWrapper
 ###foot-ad-wrap
 ###foot-ad2-wrap
@@ -56107,7 +56108,6 @@ getbukkit.org##.limit
 linuxize.com##.linaff
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
-builtbybit.com##.link--external
 architecturesideas.com##.linkpub_right_img
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 weatherpro.com##.list-city-ad
@@ -56852,7 +56852,7 @@ newsroom.co.nz##.sponsor-logos2
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,dailymaverick.co.za,dailytarheel.com,duckduckgo.com,dunyanews.tv,fifplay.com,hbr.org,herald.co.zw,lawandcrime.com,libhunt.com,motherjones.com,reviewjournal.com,saashub.com,samedicalspecialists.co.za,sportsbusinessjournal.com,statnews.com,stocksnap.io,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,dailymaverick.co.za,dailytarheel.com,duckduckgo.com,dunyanews.tv,fifplay.com,freebmd.org.uk,hbr.org,herald.co.zw,lawandcrime.com,libhunt.com,motherjones.com,reviewjournal.com,saashub.com,samedicalspecialists.co.za,sportsbusinessjournal.com,statnews.com,stocksnap.io,timeslive.co.za##.sponsored
 newegg.com##.sponsored-brands
 coinpaprika.com##.sponsored-buttons
 washingtontimes.com##.sponsored-heading
@@ -62159,6 +62159,10 @@ newduba.cn###jq_youxi
 ||zscgoqt.cn^
 ||zvfaxh.xyz^
 ||zxgko.cn^
+||fjnsnt.xyz^
+||lkmxqq.com^
+||ningdebus.club^
+||dagft.cn^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -92350,6 +92354,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/tr/
 ||facebook.com/tr?
 ||facebook.com/w/$third-party
+||facebook.com/xti.php?
 ||factors.ai/sdk/event/
 ||fairfax.com.au/js/track/
 ||faphouse.com/api/collector/
@@ -96150,6 +96155,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.com/beacon?
 ||yahoo.net/pixel.gif
 ||yalemedicine.org/website-api-data/analytics-report
+||yandex.*/clck/$~ping
+||yandex.*/count/
 ||yandex.com/clck/
 ||yandex.eu/clck/
 ||yandex.ru/clck/
