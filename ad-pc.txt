@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gd9o1ENSs4ddhDw4IftLVA
+! Checksum: OdNoWAVo1gh1lN4NeILjqg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305200737
-! Last Modified: 2023年05月20日 07:37
+! Version: 202305200947
+! Last Modified: 2023年05月20日 09:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51538,6 +51538,7 @@ browsershots.org#@#.advert_area
 ||srx.com.sg/srx/media/
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
+||static-cdn.spot.im^*/ad-container-bundle.js
 ||static.ifruplink.net/static_src/mc-banner/
 ||static.sunmedia.tv/integrations/
 ||static.tradetracker.net^$third-party
@@ -53286,6 +53287,7 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fa
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
 $csp=worker-src 'none',domain=torlock.com|alltube.pl|alltube.tv|centrum-dramy.pl|cmovies.ac|coinfaucet.eu|crictime.com|crictime.is|deltabit.co|doodcdn.com|estream.to|extreme-down.tv|flashx.co|flashx.to|flashx.tv|gomo.to|hdvid.fun|hdvid.tv|hitomi.la|kinox.to|lewd.ninja|assia1.tv|assia2.tv|nflbite.com|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.watch|sickrage.ca|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|tpb.party|uptomega.me|ustream.to|vidoza.co|vidoza.net|wallpoper.com|wearesaudis.net|yazilir.com
 ||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
+||bodysize.org^$csp=child-src *
 ||convertfiles.com^$csp=script-src 'self' '*' 'unsafe-inline'
 ||gelbooru.com^$csp=script-src 'self' '*' 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
 ||moviewatcher.is^$csp=script-src 'self' '*' 'unsafe-inline'
@@ -59720,7 +59722,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||pubads.g.doubleclick.net/ssai/$domain=newson.us|worldsurfleague.com
 @@||radiotimes.com/static/advertising/$script,~third-party
-@@||recoco.it^$image,xmlhttprequest,domain=bodysize.org|heavy-r.com|porngo.com|showbiz.cz|tostreamit.com|vumoo.to
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com
@@ -85816,6 +85817,7 @@ _WebVitalsReporter_
 .bahn.de/op/$image
 .bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
+.bmetrack.com/c/$image
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
@@ -94671,6 +94673,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kwikmotion.com^*/videojs-kwikstat.min.js
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
+||heartbeat.pmd.444.hu^
 ||rum.marquardmedia.hu^
 ||videostat-new.index.hu^
 ||videostat.index.hu^
@@ -111418,8 +111421,20 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||stats.mako.co.il^
 ||walla.co.il/CountsHP.asp?
 ||walla.co.il/impression/
+||adat.borsonline.hu^
+||adat.ingatlanbazar.hu^
+||adat.koponyeg.hu^
+||adat.life.hu^
+||adat.mandiner.hu^
+||adat.mindmegette.hu^
+||adat.origo.hu^
+||adat.travelo.hu^
+||adat.veol.hu^
+||adat.videa.hu^
 ||beam.telex.hu^
 ||events.ingatlan.com^
+||hirtv.hu/ajaxx/_stat/
+||hirtv.hu/nx_general_stat.jpg?
 ||otthonterkep.hu/c.js
 ||outal.origo.hu^
 ||rtl.hu/_stat/
@@ -111535,6 +111550,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||astat.nikkei.com^
 ||astral.nicovideo.jp^
 ||barks.jp/v1/stats
+||bc.nhk.jp^
 ||beacon.watch.impress.co.jp^
 ||beat.yourtv.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
@@ -111587,6 +111603,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 ||scis.tbs.co.jp^
 ||seesaawiki.jp/img/rainman.gif?
 ||so-zou.jp/js/ga.js
+||stats.nhk.or.jp^
 ||suumo.jp^*/tag/
 ||sy.amebame.com^
 ||sy.ameblo.jp^
