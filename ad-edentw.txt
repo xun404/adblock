@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AP5jDTGnyheK9YezRoKwCg
+! Checksum: az/GOomji2zTIffaql03fg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202305230039
-! Last Modified: 2023年05月23日 00:39
+! Version: 202305231637
+! Last Modified: 2023年05月23日 16:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -785,6 +785,7 @@ gamefront.com#$#abort-current-inline-script $ AdBlock
 ||thikraik.net^$domain=kickassanime.io
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
+igg-games.com#$#hide-if-matches-xpath './/img[@src]/parent::a[@rel]/ancestor::div[contains(@style,"margin-top")]'
 igg-games.com#$#abort-on-property-write btoa
 igg-games.com#$#abort-on-property-write advanced_ads_ready; abort-current-inline-script document.createElement /script/; prevent-listener DOMContentLoaded; abort-current-inline-script $ setTimeout; prevent-listener iframe
 igg-games.com##iframe[style]:not([src])
@@ -836,7 +837,8 @@ naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-rea
 fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
 animepahe.com#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
-smallseotools.com#$#abort-on-property-write $img_html; override-property-read ads_function undefined; override-property-read adpushup noopFunc; abort-on-property-read FITS.Config
+smallseotools.com#$#hide-if-matches-xpath '//a[contains(@data-link,"grammarly")]/ancestor::div[@class][1]'
+smallseotools.com#$#abort-on-property-write $img_html; override-property-read ads_function undefined; override-property-read adpushup noopFunc; abort-on-property-read FITS.Config; strip-fetch-query-parameter /firebase-messaging.js/; #$#abort-current-inline-script $ window.open;
 ||smallseotools.com/webimages/s12/*.png^$image,domain=smallseotools.com
 ||smallseotools.com/webimages/a12/*.png^$image,domain=smallseotools.com
 duplichecker.com#$#abort-on-property-read adpushup; hide-if-matches-xpath './/*[@id]/a[@href][@target]/img/ancestor::div[1]'; hide-if-matches-xpath '//div[@class="clearfix"]/following::div[@class]/style/following-sibling::div[@class]//div[@class="_ap_apex_ad"]/ancestor-or-self::div[@class][2]'
