@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7kQ5MjGbyel0ED24Ln8mTw
+! Checksum: NOBfAXD5ofBcrZ9gS8T94w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202305241137
-! Last Modified: 2023年05月24日 11:37
+! Version: 202305241237
+! Last Modified: 2023年05月24日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24969,7 +24969,6 @@ m.babytree.com##script + a[class]
 /ga.gif?
 /ga.js?grid
 /ga.jsp?$image
-/ga.min.js
 /ga.php?$image
 /GA.swf?gaId=
 /ga.swf?gid=
@@ -25408,7 +25407,6 @@ m.babytree.com##script + a[class]
 /ipfx?eid=
 /ipinfo.json
 /ipixel?spacedesc
-/iplookup.php
 /iporganictrack.
 /ips-invite.iperceptions.com/*
 /iptracer.
@@ -29544,6 +29542,7 @@ _mongo_stats/
 ||etahub.com^$third-party
 ||ethn.io^$third-party
 ||ethnio.com^$third-party
+||ethyca.com^$third-party
 ||etp-prod.com^$third-party
 ||etracker.com^$third-party
 ||etrigue.com^$third-party
@@ -34950,7 +34949,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||h2porn.com/new-hit/?
 ||happen.spkt.io^
 ||happymod.io/event/
-||harpocrates.ethyca.com^
 ||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
 ||hb.vhsrv.com^
@@ -54436,7 +54434,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.bbc.co.uk^*/comscore.js$~third-party
 @@||live.rezync.com^$script,domain=batteriesplus.com
-@@||locoloader.com/assets/js/ga.min.js$script,~third-party
 @@||logging.apache.org^$~third-party
 @@||logo.clearbit.com^$image,third-party
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
@@ -54461,7 +54458,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
-@@||mycourses.pearson.com/shared/static/*/component/ga.min.js$~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 @@||new.abb.com/ruxitagentjs_$~third-party
@@ -54549,7 +54545,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||signalshares.com/webtrends.min.js$script,~third-party
 @@||simcotools.app/assets/adsense-*.js$~third-party
-@@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
@@ -54764,8 +54759,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||inbenta.io/prod/km/v1/tracking/events$domain=axa.fr
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
-@@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
-@@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||s-sfr.fr/stats/header.js$script,domain=red-by-sfr.fr|sfr.fr
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
@@ -54882,8 +54875,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
-@@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
-@@||ovp.piksel.tech/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
@@ -54933,9 +54924,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 !---------- Portuguese ----------
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||google-analytics.com/urchin.js$domain=record.xl.pt
-@@||jsonip.com/?callback=$script,domain=pagtel.com.br
-@@||laredoute.pt/js/byside_webcare.js
-@@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 @@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||siteapps.com^$script,domain=netcombo.com.br
