@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vr0wwua/vJv/LdW24+2cvw
+! Checksum: Eex9Ai53wl11ewSKna9cTg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202305270039
-! Last Modified: 2023年05月27日 00:39
+! Version: 202305270137
+! Last Modified: 2023年05月27日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57950,6 +57950,7 @@ trakt.tv##a[class^="hu-ck-s-t-er-"][target="_blank"]
 namepros.com##a[data-tag="backer"]
 sashares.co.za##a[data-wpel-link="external"]
 aliexpress.com,aliexpress.us##a[href*="&ad_pvid="]
+aliexpress.com,aliexpress.us##a[href*="&p4p_pvid="]
 imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
 walmart.ca##a[href*=".criteo.com/"]
 ghostbin.me##a[href*=".short.gy/"]
@@ -92797,8 +92798,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecommstats.s3.amazonaws.com^
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
-||edge-hls.doppiocdn.com^
-||edge-hls.doppiocdn.org^
+||edge-hls.doppiocdn.com/ping
+||edge-hls.doppiocdn.org/ping
 ||edge.bredg.com^$third-party
 ||edgesuite.net^*/googleanalyt
 ||edkt.io^*/edgekit.min.js
