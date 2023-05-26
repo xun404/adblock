@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8EFXe6uB4gwKJ34WC+c1YA
+! Checksum: jf25t9zQwqiLVaHPV8kd/g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305261045
-! Last Modified: 2023年05月26日 10:45
+! Version: 202305261137
+! Last Modified: 2023年05月26日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55457,6 +55457,7 @@ petitchef.com,station-drivers.com,tennistemple.com##.akcelo-wrapper
 lyricsmode.com##.al-c-banner
 wikihow.com##.al_method
 altfi.com##.alert
+accessnow.org##.alert-banner
 majorgeeks.com##.alford > tbody > tr
 shortlist.com##.align-xl-content-between
 livejournal.com##.allbanners
@@ -55827,7 +55828,6 @@ spiceworks.com##.centerthe1
 thefastmode.com##.channel_long
 coincodex.com##.chart-pos.mobile-b
 sevenforums.com,tenforums.com##.chill
-cryptonews.com,insidebitcoins.com##.clickout-native_table_box-a
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
@@ -56456,6 +56456,7 @@ ticketmaster.com##.jTNWic
 notateslaapp.com##.jeffdlwlxpqi
 psypost.org##.jeg_midbar
 romania-insider.com##.job-item
+dot.la##.job-wrapper
 cityam.com,techspot.com##.jobbioapp
 marketingweek.com##.jobs-lists
 johncodeos.com##.johnc-widget
@@ -57177,6 +57178,8 @@ dryicons.com##.search-related__sponsored
 semiconductor-today.com##.searchmidbox
 minecraftservers.org##.second-banner
 wbur.org##.section--breakout
+finextra.com##.section--minitextad
+finextra.com##.section--mpu
 wbur.org##.section--uw
 sowetanlive.co.za##.section-article-sponsored
 nzherald.co.nz##.section-iframe
@@ -57335,6 +57338,7 @@ search.brave.com##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
 investing.com##.sponsoredArticle
 coinmarketcap.com##.sponsoredMark
+circleid.com##.sponsoredTopicCard
 ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
 vuejs.org##.sponsors-aside-text
 salixos.org##.sponsors-container
@@ -57767,7 +57771,7 @@ everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
-bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com##[class*="clickout-"]
+bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins##[class*="clickout-"]
 smallseotools.com##[class*="gram"]
 alternativeto.net##[class^="AdsenseAd"]
 thesouthafrican.com##[class^="Advertisement_"]
@@ -57974,6 +57978,8 @@ exportfromnigeria.info##[src^="https://storage2.proboards.com/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
 mql5.com##[src^="https://www.mql5.com/fz/"]
 mql5.com##[src^="https://www.mql5.com/tz/"]
+circleid.com##[style*="300px;"]
+circleid.com##[style*="995px;"]
 raspberryexpert.com##[style*="border-bottom: none;"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[style*="line-height: 0;"]
 coolors.co##[style*="position:absolute;top:20px;"]
@@ -94582,7 +94588,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dxwgpw0lkcum5.cloudfront.net^
 ||dy2xcjk8s1dbz.cloudfront.net^
 ||dyv1bugovvq1g.cloudfront.net^
-||fast.appcues.com^$script,third-party
 ||am-vid-events.taboola.com^
 ||convsgmp.taboola.com^
 ||la-sync.taboola.com^
@@ -112840,8 +112845,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|mainichi.jp|marketwatch.com|tarzanweb.jp|tn.com.ar|wpb.shueisha.co.jp
 !! cxense.com/cx.js
 @@||cxense.com/cx.js$domain=bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp
-!! fast.appcues.com
-@@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com|westrive.com
 !! collector.appconsent.io
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 @@||gs.statcounter.com/chart.php$script,third-party
