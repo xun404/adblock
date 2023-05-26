@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XDaV63uhWQ0l2M0eGkRdjQ
+! Checksum: FPKaJdjn1GyA+cYlyWfi2A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202305261937
-! Last Modified: 2023年05月26日 19:37
+! Version: 202305262137
+! Last Modified: 2023年05月26日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -34036,7 +34036,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||alpharank.io/api/pixel/
 ||amatomu.com/link/log/
 ||amatomu.com/log.php?
-||amazon.com/gp/*&linkCode$third-party
 ||amazonaws.com/analytics.
 ||amazonaws.com/avsmetrics/
 ||amazonaws.com/cdn.barilliance.com/
@@ -37978,7 +37977,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||irs.gov/h4z97Hz8jMrNO/
 ||isc-tracking.eventim.com^
 ||isharemetric.rediff.com^
-||isshiki.donmai.us/post_views
 ||ivx.lacompagnie.com^
 ||j927.statnews.com^
 ||jav4tv.com/player/analytics
@@ -54812,12 +54810,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 !---------- Finnish ----------
-@@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
-@@||certona.net^*/resonance.js$domain=zooplus.fi
-@@||clickdimensions.com^$subdocument,domain=fingrid.fi
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi|verkkokauppa.com
 @@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi|supla.fi
-@@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 !---------- Hebrew ----------
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
