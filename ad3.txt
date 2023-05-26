@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l2YbIswe5fMbzGOFtJYp6w
+! Checksum: TStrRFce2Ih4zwV2QpKcnw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202305260949
-! Last Modified: 2023年05月26日 09:49
+! Version: 202305261045
+! Last Modified: 2023年05月26日 10:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27959,6 +27959,7 @@ m.babytree.com##script + a[class]
 /zdcc.min.js
 /zhugeio.js
 /ztracker.js
+://a869.
 ://analytics.*/collect
 ://analytics.*/event
 ://analytics.*/hits/
@@ -54580,6 +54581,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.sports.bellmedia.ca^$domain=tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||switchfly.com/static/*/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
