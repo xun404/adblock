@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G0hE8USE1efEJL5Tx7rBJw
+! Checksum: ampqDv9uGzHWBd4se6z46A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202305281537
-! Last Modified: 2023年05月28日 15:37
+! Version: 202305281637
+! Last Modified: 2023年05月28日 16:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -11599,6 +11599,7 @@ _800x80_
 ##.ad-sense
 ##.ad-sense-ad
 ##.ad-sep
+##.ad-separator
 ##.ad-sharethrough-top
 ##.ad-shifted
 ##.ad-show-label
@@ -21732,6 +21733,7 @@ _800x80_
 ##.card-captioned.crd > .crd--cnt > .s2nPlayer
 ##.ck-anyclips
 ##.ck-anyclips-article
+##.ez-sidebar-wall-ad
 ##.ez-video-wrap
 ##.inline-iframe.article--content-embed
 ##.js-widget-distroscale
@@ -58057,6 +58059,7 @@ emalm.com##a[href^="https://offer.alibaba.com/"]
 blix.gg##a[href^="https://partnerbcgame.com/"]
 nosubjectlosangeles.com,richardvigilantebooks.com##a[href^="https://rebrand.ly/"]
 disasterscans.com##a[href^="https://recall-email.onelink.me/"]
+narkive.com##a[href^="https://rfnm.io/?"]
 emalm.com##a[href^="https://s.click.aliexpress.com/"]
 997wpro.com##a[href^="https://seascapeinc.com/"]
 everybithelps.co.uk##a[href^="https://shop.trezor.io/"]
@@ -93845,7 +93848,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||st.cdnco.us^
 ||st.linkfire.com^
 ||stacksocialcontent.com/event/
-||staff-start.com/js/track
 ||starman.fathomdns.com^
 ||stas.outbrain.com^
 ||stat.absolutist.com^
@@ -113007,7 +113009,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
-@@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=sony.jp
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
