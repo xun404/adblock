@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NiRFcehZpUip1gmAA84jOA
+! Checksum: hDjh2/7D7q8Gug4Jd7jGOg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202305290637
-! Last Modified: 2023年05月29日 06:37
+! Version: 202305290737
+! Last Modified: 2023年05月29日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4782,7 +4782,6 @@ _prebid8.
 /BlockerBanner/*$xmlhttprequest
 /Disable%2BAdblock.
 /disabled_adBlock.
-/fuckadb.js
 /ibd-block-adblocker/*
 /jgc-adblocker-
 /jgcabd-detect-
@@ -54032,6 +54031,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||sleazyneasy.com/jsb/
 ||slutdump.com/flat-butterfly-c5e3/
 ||slview.psne.jp^
+||smutgamer.com/ta2b8ed9c305.js
 ||smutty.com/n.js
 ||socaseiras.com.br/banners.php?
 ||sonorousporn.com/nb/
@@ -55551,6 +55551,7 @@ vedantu.com##.banner-text
 historydaily.org,israelnationalnews.com,news12.com,pwinsider.com,usahealthcareguide.com##.banner-top
 wpneon.com##.banner-week
 news.net##.banner-wr
+primewire.link##.banner-wrapper
 dfiles.eu##.banner1
 gsprating.com##.banner2
 britsabroad.com##.bannerBox
@@ -58093,6 +58094,7 @@ everybithelps.co.uk##a[href^="https://shop.trezor.io/"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 glory985.com##a[href^="https://sweetbidsflo.irauctions.com/listing/0"]
 mastercomfig.com##a[href^="https://tradeit.gg/"]
+primewire.link##a[href^="https://url.rw/"]
 vnkb.com##a[href^="https://vnkb.com/e/"]
 1280wnam.com##a[href^="https://wistatefair.com/fair/tickets/"]
 tristateswolf.com##a[href^="https://www.alleganycofair.org/"]
@@ -62791,6 +62793,8 @@ newduba.cn###jq_youxi
 ||evenyw.xyz^
 ||dydujb.xyz^
 ||wosidnlkxq.com^
+||mzqf1.com^
+||meidd.xyz^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -112578,8 +112582,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
 @@||images.news18.com^*/comscore.min.js$script,~third-party
 @@||imgur.com/min/px.js$~third-party
-@@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
-@@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
@@ -112841,6 +112843,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||cxense.com/cx.js$domain=bizjournals.com|businessinsider.de|computerbild.de|cyclestyle.net|handelsblatt.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp
 !! collector.appconsent.io
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
+!! imrworldwide.com/*ggc
+@@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|la7.it|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sky.it|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|tvnow.de|video.corriere.it|weeklytimesnow.com.au|whitsundaytimes.com.au
+@@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|corriereadriatico.it|couriermail.com.au|dailyexaminer.com.au|fanpage.it|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ipswichadvertiser.com.au|la7.it|last.fm|leggo.it|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|quotidianodipuglia.it|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
 @@||statcounter.com/js/fusioncharts.js
@@ -112895,7 +112900,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
-@@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.io/geolocation^$domain=welt.de
@@ -112994,8 +112998,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||clerk.io/clerk.js$script,domain=trony.it
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net
-@@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
-@@||imrworldwide.com/v60.js$domain=corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
