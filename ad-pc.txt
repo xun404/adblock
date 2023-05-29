@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jSMqxBGr6xm1NCG/KW75Ag
+! Checksum: Z1WWWozuJ1KIYa7gNRFw/Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305291637
-! Last Modified: 2023年05月29日 16:37
+! Version: 202305291737
+! Last Modified: 2023年05月29日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60496,19 +60496,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||support.google.com^$domain=support.google.com
 @@||v.fwmrm.net/ad/g/1?*_html5_live$domain=~gulli.fr|~msn.com
 @@||healthyadvertising.es^$~third-party
-@@||api.vigo.ru^*/network_status?$object,xmlhttprequest,domain=vk.com
-@@||paymentgate.ru/payment/*_Advert/
-@@||vk.com/ads$generichide
-@@||vk.com/ads.php$~third-party,xmlhttprequest
-@@||vk.com/ads.php?$subdocument,domain=vk.com
-@@||vk.com/ads?act=$~third-party
-@@||vk.com/ads?act=payments&type$script,stylesheet
-@@||vk.com/ads_*php?$subdocument,~third-party
-@@||vk.com/images/ads_$domain=vk.com
-@@||vk.com/js/al/ads.js?$domain=vk.com
-@@||vk.com^*/ads.css$domain=vk.com
-@@||vk.me/css/al/ads.css$domain=vk.com
-@@||vk.me/images/ads_$domain=vk.com
 @@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
 @@||ads-api.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
