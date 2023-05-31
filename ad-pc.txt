@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SThLjZ/SQN42FJw95ezK+A
+! Checksum: uJw14McfsyvbWR9pT1/y/A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202305311837
-! Last Modified: 2023年05月31日 18:37
+! Version: 202305311937
+! Last Modified: 2023年05月31日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62963,6 +62963,8 @@ newduba.cn###jq_youxi
 ||tshtbh.xyz^
 ||baucdngb.xyz^
 ||afgathacd.com^
+||deansent.top^
+||50i2n.top^
 ##[class][onclick*=".ununxsxs.top"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$="/1c626.com"]
@@ -89616,6 +89618,7 @@ $ping,third-party
 $third-party,xmlhttprequest,domain=opensubtitles.org
 ||addthis.com^$third-party
 ||addthiscdn.com^$domain=~addthis.com
+||addthisedge.com^$third-party
 ||pphwrevr.com^$third-party
 ||protectcrev.com^$third-party
 ||protectsubrev.com^$third-party
@@ -92243,10 +92246,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ad.aloodo.com^
 ||ad.mail.ru/*.gif?rnd=$third-party
 ||adbr.io/log?
-||addthis.com/at/
-||addthis.com/live/
-||addthiscdn.com/live/
-||addthisedge.com/live/
 ||addtoany.com/menu/transparent.gif
 ||adfox.yandex.ru^
 ||adlog.com.com^
@@ -93446,7 +93445,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lucid.mjhassoc.com^
 ||luminate.com/track/
 ||lycos.com/hb.js
-||m.addthisedge.com^
 ||m.stripe.com^$third-party,domain=~stripe.network
 ||ma.logsss.com^
 ||magnify.net/decor/track/
@@ -93597,7 +93595,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ns.rvmkitt.com^
 ||nude.hu/html/track.js
 ||nvidia.partners/telemetry/
-||o.addthis.com^
 ||o.aolcdn.com/js/mg1.js
 ||observer.ip-label.net^
 ||ocmail1.in/rtw/$image
@@ -94045,7 +94042,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stripe.com/?event=
 ||sts.eccmp.com^
 ||stylitics.com/api/engagements
-||su.addthis.com^
 ||su.pr/hosted_js$third-party
 ||sugarops.com/w?action=impression$third-party
 ||sulia.com/papi/sulia_partner.js/$third-party
