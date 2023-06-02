@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q6DB9CXy+Qw/IcrxMKJnOA
+! Checksum: mAw4ASKeg/Emk4iqVlE0Tg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202305312337
-! Last Modified: 2023年05月31日 23:37
+! Version: 202306022058
+! Last Modified: 2023年06月02日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -649,6 +649,8 @@ instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/precedin
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")][not(@type)]/preceding::source[@srcset][@media]/ancestor::picture[@class]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="css-wbvail"]'
+instacart.com#$#hide-if-matches-xpath './/span[@class]/div[.//span[normalize-space(.) = "Spons"] and span[normalize-space(.) = "ored"]]//ancestor::div[@aria-label="Product"]'
+instacart.com#$#hide-if-matches-xpath './/li[   descendant::*[(div[span[normalize-space(.) = "Spons"] and span[normalize-space(.) = "ored"]]) or (div[count(.//div[@*[contains(local-name(), "eligible")]]) = 1 and count(.//div/span[text()]) = 2])]]'
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com##a[href*="category_hero_id_"]
@@ -1129,8 +1131,7 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
-/^https?://www\.liveinternet\.ru/[^\s]{100,}/$header=content-type=application/json
-liveinternet.ru#$#abort-current-inline-script window.yaContextCb; cookie-remover ayabnsr; prevent-listener /beforeunload|DOMContentLoaded|pagehide/ '0x';
+/^https?://www\.liveinternet\.ru/[^\s]{100,}/$xmlhttprequest,header=content-type=application/javascript
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
 yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
