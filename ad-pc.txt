@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xiNYu+nnUNp5SXmpA/dPFw
+! Checksum: DvswoGre9R1JorIdt8TZTw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306021059
-! Last Modified: 2023年06月02日 10:59
+! Version: 202306021337
+! Last Modified: 2023年06月02日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -81821,8 +81821,6 @@ fqsousou.com,kengso.com#@#.user-share
 -trackingScript.
 -universal-analytics/
 .analytics.min.
-.asp?t=*&c=$image
-.aspx?trackid=
 .beacon.min.js
 .bmp?*&referrer=
 .cdn-tracking.js
@@ -81831,10 +81829,7 @@ fqsousou.com,kengso.com#@#.user-share
 .cn/sl.gif?
 .com/_.gif?
 .com/analytics?
-.com/bt/s.png?b=
 .com/clk?
-.com/cm?ci=
-.com/cm?tid
 .com/count?
 .com/counter?
 .com/dc.gif?
@@ -81869,9 +81864,7 @@ fqsousou.com,kengso.com#@#.user-share
 .jp/pv?
 .lms-analytics/
 .net/l.gif?
-.net/ping.php?
 .ntpagetag.
-.org/js/ga-
 .php?action=browse&
 .php?action_name=
 .php?hey_stat=
@@ -81884,7 +81877,6 @@ fqsousou.com,kengso.com#@#.user-share
 .php?self=
 .php?stats=
 .php?tracking=
-.pt/n.gif?
 .sharecounter.$third-party
 .sitecatalyst.js
 .siteclarity.
@@ -81893,7 +81885,6 @@ fqsousou.com,kengso.com#@#.user-share
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .stats?action=
 .svc/?tracking_id=
-.track_Visit?
 .tv/log?event
 .v4.analytics.
 .vsTracking.
@@ -82113,7 +82104,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-client-
 /analytics-collector
 /analytics-core-bundle-
-/analytics-corp.js
 /analytics-data-collector.
 /analytics-dotcom/*
 /analytics-efukt.
@@ -82188,7 +82178,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/metric/*
 /analytics/mouse_
 /analytics/newrelic_
-/analytics/onLoad/*
 /analytics/page_view.
 /analytics/pageview
 /analytics/rt?
@@ -82203,8 +82192,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/tracker.
 /analytics/trackers?
 /analytics/trackevent
-/Analytics/UniqueEndUser?
-/analytics/urlTracker.
 /analytics/visit/*
 /Analytics/Visitor.
 /analytics/web/*
@@ -82212,7 +82199,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics?body=
 /analytics?http_referer
 /analytics?token=
-/analytics?vv_events=
 /analytics_embed.
 /analytics_frame.
 /analytics_id.
@@ -82278,6 +82264,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/v1/metrics
 /api/v1/stat?
 /api/v1/streamtelemetry
+/api/v2/collector
 /api/v2/jsonlogger
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
@@ -82310,7 +82297,6 @@ fqsousou.com,kengso.com#@#.user-share
 /article_counter.php?
 /article_hit.php?
 /ArticleCounterLogger.
-/ArticleLog.aspx?
 /articleOmnitureTracking.
 /ArticleViewTracking/*
 /aspenanalytics.
@@ -82321,7 +82307,6 @@ fqsousou.com,kengso.com#@#.user-share
 /astrack.js
 /astracker.
 /astracker/*
-/async/stat|
 /asyncggtracking.
 /async~sentry-
 /at-composer.js
@@ -82342,7 +82327,6 @@ fqsousou.com,kengso.com#@#.user-share
 /audienceScience.
 /audiweb.js
 /audsci.js
-/autotrack-with-autotrack-analytics.
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
@@ -82427,13 +82411,10 @@ fqsousou.com,kengso.com#@#.user-share
 /better-analytics/*
 /bf.gif?ac=
 /bfs-track.
-/bg_j.gif?
-/bglog.gif?
 /bh_counter.js
 /bi.tracking/*
 /bicomscore.
 /bicomscore_
-/bin/reff.php
 /bin/stats?
 /bineos.min.js
 /bing-bat.js
@@ -82480,9 +82461,6 @@ fqsousou.com,kengso.com#@#.user-share
 /brightspot/analytics/*
 /brightTag-min.js
 /browserinfo?f.sid=
-/bs.measure.
-/bsc_trak.
-/bShowTrack.
 /bsp-analytics.
 /bstat.js
 /bstats.gif
@@ -82535,9 +82513,7 @@ fqsousou.com,kengso.com#@#.user-share
 /certifica.js
 /certona.
 /Certona/*
-/certona_$script
 /cfformprotect/*
-/cfm-realtime-marketing/*
 /cgAnalyticsPageView.
 /cgi-bin/cnt/*
 /cgi-bin/count.cgi?
@@ -82574,7 +82550,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ckaudience/*
 /cklink.gif?
 /cklog.js
-/clarity-*.js$domain=~clarity-labs.kaminario.com|~clarity.imply.io|~make.services
 /clarity-api-
 /clear.gif?
 /click-analytics.
@@ -82627,80 +82602,48 @@ fqsousou.com,kengso.com#@#.user-share
 /clicktale/*
 /clicktale_
 /clicktalecdn.
-/ClickTaleFilter.
-/clicktrack-*.gif?
 /ClickTrack.
 /clicktrack?
 /clicktracker.
-/clicktracking-global.
 /clicktracking.
 /clicktracking/*
-/clickTrackingAjaxController?
-/ClickTracks_
 /ClickTracksCookies.
-/clicktrends/*
 /clickx-tracker.
 /clicky.js
 /client-event-logger.
-/client-event.axd?
 /client-logging-bundle-
 /client-metrics/?target
-/client-tracking-sync.
 /client.rum.
 /client_pathlog.asp?
-/clientdatacollector/*
 /clientele/reports/*
 /clientEventLog/*
 /clientlib-analytics-
 /clientPageLog/*
 /clientstat?
-/clip-started.gif?
-/clk?utmwv=
-/cloudfrontvideotracker.
 /cls_report?
 /cls_rpt.gif?
-/cm?ci=*&tid=
-/cm?tid=
 /cm_segments.php?cookie
-/cmarketing.countus.js
-/cmd_track?
-/cmp-event-ioltrack.
-/cms-gg.js
 /cms.gif?
 /cms/stats/*
 /cmslog.dll?
 /cn-fe-stats/*
 /cn-track?
-/cnavperf?
 /cnstats.
 /cnstats/*
 /cnt-combined.php?
 /cnt.aspx?
 /cnt.cgi?
 /cnt.js
-/cnt.php?id=
-/cnt.php?rf=
 /cnt/cnt.php?
 /cnt/start.php?
 /cnt_js.php?
 /cntlog/*
 /cntpixel.
-/CntRpt.aspx?
 /cnvtr.js
-/cnwk.1d/*/apex.js
 /coAnalytics.
 /CofinaHits.
-/cognativex/cn.js
-/cognitive_match/*
 /cohesion-latest.
-/col1/*&ss=
-/col1/*?ss=
-/col2/*&sa=
-/col2/*&ss=
-/collect-*/jsEvent.js
-/collect-*/pageview|
 /collect.gif?
-/collect.php?data=
 /collect.php?tid=
 /collect/?dp=
 /collect/kasupport
@@ -82725,9 +82668,6 @@ fqsousou.com,kengso.com#@#.user-share
 /collect?type=
 /collect_data.php?
 /collect_stat.
-/collect_v3.
-/collection.php?data=
-/collector-*/event
 /collector/beacon
 /collector/hit?
 /collector/pageview
@@ -82740,7 +82680,6 @@ fqsousou.com,kengso.com#@#.user-share
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
-/competeTracking_test.html?
 /compile/AppMeasurement.
 /comscore-js-
 /comscore-json/*
@@ -82757,16 +82696,11 @@ fqsousou.com,kengso.com#@#.user-share
 /comscore_stats.
 /ComscoreAnalytics.
 /comscorebeacon.
-/comscorepageviewcomscorekw=
 /ComScorePlugin.
-/ComScoreSWF.
-/concat/tracking.
-/condenet-metric.
 /confiant-tag.
 /confiant.js
 /config/analytics.js
 /configuration-stat.js
-/connect_counter.js
 /contador.gif?
 /containerTag.js
 /containertag?
@@ -82787,7 +82721,6 @@ fqsousou.com,kengso.com#@#.user-share
 /cookiebean?
 /cookieId.htm
 /CookieLawStats/*
-/CookieManager-bdl?
 /CookieMapping?
 /cookieMonster?
 /CookiePingback?
@@ -82798,7 +82731,6 @@ fqsousou.com,kengso.com#@#.user-share
 /core-tracking.js
 /coretracking.php?
 /coreWatchingEvents.
-/CorporatePageTracking.
 /count.cfm?
 /count.do?
 /count.exe?
@@ -82808,11 +82740,9 @@ fqsousou.com,kengso.com#@#.user-share
 /count.gif?
 /count.php?
 /count.png?
-/count/?ad=
 /count/count.cgi?
 /count?pid=
 /count?type=
-/count_DB/*
 /count_js.
 /count_stats/*
 /countbk.
@@ -82851,8 +82781,6 @@ fqsousou.com,kengso.com#@#.user-share
 /counter_image.gif?
 /counter_liveinternet.
 /countercgi.
-/countercollector/*
-/counterFooterFlash.
 /countertab.js?
 /countHits.
 /countinj.cgi?
@@ -82862,17 +82790,13 @@ fqsousou.com,kengso.com#@#.user-share
 /countstat.php?
 /countubn.
 /countus.php
-/covery/pixcel.js
 /cpeEvent.
 /cpeEventTracking.
 /cqcounter.
-/cradleError.
 /crai_tracker.
 /create-lead.js
 /CreateAnalytics.js
 /CreateCookieSSO_
-/CreateVIDCookie.aspx?
-/creative.png?slotId=
 /criteo.$domain=~criteo.blotout.io|~criteo.github.io|~criteo.investorroom.com
 /Criteo/*
 /criteo_
@@ -82892,7 +82816,6 @@ fqsousou.com,kengso.com#@#.user-share
 /csm/analytics;
 /csp_204?
 /csp_log?
-/csp_report.gne?
 /cta-loaded.js
 /ctd-sourcepoint.
 /ctd-tealium.
@@ -82900,7 +82823,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ctr_tracking.
 /ctrack?
 /ctracker/*$domain=~charmtracker.com
-/ctrl.gif?ref=
 /custom-analytics.js
 /custom-tracking.
 /CustomTrackingScript.
@@ -82934,15 +82856,8 @@ fqsousou.com,kengso.com#@#.user-share
 /dataunlocker-prod.
 /dataunlocker.js
 /datawrapper.gif?
-/DatazoomAnalytics.
-/DavplusAnalytics.
 /dbdm-events.
 /dbdm-events/*
-/dc-storm-track.
-/dc-storm.js
-/dc-storm/aff.
-/dc-storm/track.
-/dc_performance.js
 /dcjs/prod/*
 /dcs.gif?
 /dcs/track.
@@ -82952,12 +82867,6 @@ fqsousou.com,kengso.com#@#.user-share
 /dcs_tag2.
 /dcs_tag_
 /dcstag_
-/dcstorm-track.
-/dcstorm.js
-/dcstorm/track.
-/dctk.js
-/DecideDNATrackingCode-
-/DeepbiEventAdapter.
 /default/pAnalytics
 /delivery/lg.
 /delstats/*
@@ -93923,13 +93832,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pv.pjtsu.com^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
-||px-cloud.net/api/v2/collector
 ||px-cloud.net/b/s
 ||px.marchex.io^
 ||px.mountain.com^
 ||px.owneriq.net^
 ||px.spiceworks.com^
-||pxchk.net/api/v2/collector$xmlhttprequest
 ||pxchk.net/b/s
 ||pylon.micstatic.com^
 ||qcloud.com/report.go?
