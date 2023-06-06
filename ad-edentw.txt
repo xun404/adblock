@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E/HYm/ake4j1kTwZ4NQx4g
+! Checksum: Hs4VjRuDXcY5Eew0lkIQ6Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202306062237
-! Last Modified: 2023年06月06日 22:37
+! Version: 202306062337
+! Last Modified: 2023年06月06日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1230,6 +1230,8 @@ romakatya.ru#$#prevent-listener load AdBlock
 testserver.pro#$#abort-current-inline-script window.$ adsbygoogle
 ashdi.vip,tortuga.wtf#$#json-prune vast
 ||pikabu.ru/ajax/?key=$xmlhttprequest,header=content-type=application/javascript
+||pikabu.ru/ajax/?key=$xmlhttprequest,header=content-type=lol/javascript
+||pikabu.ru/ajax/?key=$xmlhttprequest,header=content-type=lol1/javascript
 vprognoze.ru#$#abort-on-property-read bannersBillboard
 vk.com,vk.ru#$#abort-on-property-read vk__adsLight.adsShowed
 ! Prevent auto reload
