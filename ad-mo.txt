@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yGxKalHCEzx5rWArXjPrbQ
+! Checksum: ocdrNRq8O7vz8GJ+tPi60A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202306072055
-! Last Modified: 2023年06月07日 20:55
+! Version: 202306072137
+! Last Modified: 2023年06月07日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -58063,6 +58063,7 @@ woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
 reuters.com##[data-testid="ResponsiveAdSlot"]
 nytimes.com,nytimes3xbfgragh.onion##[data-testid="StandardAd"]
+coles.com.au##[data-testid="ad"]
 coles.com.au##[data-testid="banner-container-desktop"]
 forbes.com##[data-testid="locked-top-ad-container"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
@@ -58985,6 +58986,8 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
+nordstrom.com#?#.ivm_G:-abp-contains(Sponsored)
 noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 mg.co.za#?#article:-abp-has(.sponsored-single)
 metager.org#?#.result:-abp-has(.advertisement-mark)
