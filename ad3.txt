@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rcwmT4cOWP+Xnxsix7W/Kw
+! Checksum: KJXwBrdk5k1/8gZQcpuDVA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306131637
-! Last Modified: 2023年06月13日 16:37
+! Version: 202306131737
+! Last Modified: 2023年06月13日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22898,6 +22898,7 @@ m.babytree.com##script + a[class]
 /articleOmnitureTracking.
 /ArticleViewTracking/*
 /ASPixel.js
+/assets-cdonAnalytics.js
 /assets/analytics-
 /assets/beacons.js
 /assets/smarttag-$script
@@ -29628,6 +29629,7 @@ _mongo_stats/
 ||wzrk.co^$third-party
 ||wzrkt.com^$third-party
 ||x-stat.de^$third-party
+||xapkgame.com^$third-party
 ||xdisctracking.pw^$third-party
 ||xg4ken.com^$third-party
 ||xiti.com^$third-party
@@ -35890,6 +35892,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||atrack.allposters.com^
 ||ats.alot.com^
 ||audacy.com/data-events/
+||auth.services.adobe.com/signin/v1/audit
 ||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
 ||aws-native.com/ping/
@@ -35917,7 +35920,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beam.bankrate.com^
 ||beat.socialblade.com^
 ||beeg.com/check/
-||behance.net/v2/an/pv
+||behance.net/log
+||behance.net/v2/logs
 ||bfp.capitalone.com^
 ||bhphotovideo.com/aperture/client/logs
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
@@ -36282,9 +36286,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
 ||indeed.com/cmp/_rpc/flog
-||indeed.com/hp/log/
+||indeed.com/m/rpc/frontendlogging
 ||indeed.com/rpc/$~xmlhttprequest
-||indeed.com/survey/_/log
+||indeed.com/rpc/pageload/perf
 ||indiatimes.com/personalisation/logdata/
 ||indiatimes.com/savelogs?
 ||indmetric.rediff.com^
