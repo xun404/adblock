@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CfyQbaWiIfR1lP/zuowsSQ
+! Checksum: p/xeTG6Bh7pg21lWClb4pQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306150737
-! Last Modified: 2023年06月15日 07:37
+! Version: 202306150958
+! Last Modified: 2023年06月15日 09:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2584,6 +2584,7 @@ newduba.cn###jq_youxi
 ||ohoyao.com^
 ||dnzmhr.xyz^
 ||hbrmickt.com^
+||thdidx.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -32832,6 +32833,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/zephyr.js
 ||cloudfront.net^*.bmp?
 ||cloudfunctions.net/commonBonnierDataLayer
+||cloudfunctions.net/export-customizer-data-metrics
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
 ||cloudfunctions.net/vanalytics
@@ -36132,6 +36134,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
+||embed.reddit.com/svc/shreddit
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
 ||engine.traceparts.com^
@@ -36886,6 +36889,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tredir.go.com^
 ||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
+||tripcdn.com/bee/collect$domain=trip.com
 ||trivago.com/tracking/
 ||trumba.com/et.aspx?
 ||trx3.famousfix.com^
@@ -52771,6 +52775,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
+@@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||plex.tv/api/v2/geoip$xmlhttprequest

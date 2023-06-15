@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YdsYvLwtPJIx+Dp90vsL6A
+! Checksum: 2EKqAjBdtgJHe8RqlqO6vA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202306150737
-! Last Modified: 2023年06月15日 07:37
+! Version: 202306150958
+! Last Modified: 2023年06月15日 09:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -680,8 +680,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 .zw/ads/
 /?fp=*&poru=$subdocument
 /?view=ad
+/_adslot/*
 /_svc/ad/*
 /_xa/ads?
+/_xa/ads_
 /a-ads.$third-party
 /a/?ad=
 /a/ads/*
@@ -721,6 +723,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-overlay-
 /ad-overlay.
 /ad-position-
+/ad-provider.
 /ad-refresh-
 /ad-refresh.
 /ad-renderer.
@@ -1292,22 +1295,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads.cfm?
 /ads.client-
 /ads.cms
-/ads.compat.
 /ads.dll/*
 /ads.entry_
 /ads.jplayer.
 /ads.jsp
 /ads.pl?
-/ads.w3c.
 /ads/!rotator/*
-/ads/160.
-/ads/160/*
-/ads/300.
-/ads/300/*
-/ads/468.
-/ads/468a.
-/ads/728-
-/ads/728.
 /ads/acctid=
 /ads/ads/*
 /ads/adv/*
@@ -2779,6 +2772,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /image/ad/*
 /image/ads/*
 /image/ads_
+/image/affiliate/*
 /image_ads/*
 /imageads/*
 /images-ad/*
@@ -3048,16 +3042,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /mpads/*
 /mpuad.
 /MPUAd/*
-/mrskinleftside.
-/msgads.
 /msnadimg.
 /msnads/*
 /msnads1.
 /msnpop.
-/msnpopsingle2.
 /msnpopup.
 /msnpopup4.
-/mtvi_ads_
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/*
 /n4403ad.
@@ -3136,8 +3126,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /p2ads/*
 /p8network.js
 /p?zoneId=
-/packages/adz/*
-/packages/dfp/*
 /page-ads-
 /page-ads.
 /page-links-to/dist/new-tab.js
@@ -3416,7 +3404,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /recommendations/ad.
 /rect_ad.
 /rectangle_ad.
-/rectangle_advertorials_
 /redirect/?spot_id=
 /redirect?tid=
 /redirect_awe.
@@ -3484,6 +3471,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /scripts/zanox-
 /scrollAd-
 /scrollads/*
+/sdk/push_web/?zid=
 /search-ads?
 /search/ad/*
 /search/ads?
@@ -4011,19 +3999,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 ?wpstealthadsjs=
 ?zoneid=*&ab=1$script
 _ad1.$~stylesheet,domain=~messenger.com
-_ad103.
-_ad120x120_
-_Ad125.
 _ad2.
 _ad3.
-_ad300x250.
 _ad6.$domain=~facebook.com|~facebookcorewwwi.onion|~messenger.com
-_ad640.
 _ad_250.
 _ad_300.
-_ad_300x300.
-_ad_336x280.
-_ad_350x250.
 _ad_728_
 _ad_background.
 _ad_banner.
@@ -4032,16 +4012,10 @@ _ad_bottom.
 _ad_box.
 _ad_center.
 _ad_choices.
-_ad_choices_
-_ad_close.
 _ad_content.
-_ad_controller.
-_ad_count.
 _ad_count=
 _ad_courier.
 _ad_desktop_
-_ad_domain_
-_ad_end_
 _ad_engine/
 _ad_expand_
 _ad_footer.
@@ -4062,10 +4036,6 @@ _ad_label.
 _ad_layer_
 _ad_leaderboard.
 _ad_middle_
-_ad_new_
-_ad_number=
-_ad_one.
-_ad_over_
 _ad_page_
 _ad_placeholder-
 _ad_position_
@@ -4090,7 +4060,6 @@ _ad_slot=
 _ad_small.
 _ad_sponsor/
 _ad_square.
-_ad_superbanner.
 _ad_template_
 _ad_top_
 _ad_units_
@@ -4205,15 +4174,9 @@ _advertising/$domain=~advertising.scoop.co.nz
 _advertisment.
 _advertorial.
 _advertorial_
-_advertorials/
 _adverts.js
 _adverts/
-_adview?
-_advsetup.
-_adwrap.
-_adwriter.
 _affiliate_ad.
-_alt/ads/
 _article_ad-
 _assets/ads/
 _asyncspc.
@@ -4283,7 +4246,6 @@ _post_ads.
 _preorderad.
 _prime_ad.
 _promo_ad/
-_psu_ad.
 _pushads.
 _radio_ad_
 _railads.
@@ -52783,6 +52745,7 @@ browsershots.org#@#.advert_area
 ||duplichecker.com/csds/
 ||dyncdn.me/static/20/js/expla
 ||e.cdngeek.com^
+||easymp3mix.com/js/re-ads-zone.js
 ||ebay.com/scl/js/ScandalLoader.js
 ||ebayrtm.com/rtm?RtmCmd*&enc=
 ||ebayrtm.com/rtm?RtmIt
@@ -52902,6 +52865,7 @@ browsershots.org#@#.advert_area
 ||kissasians.org/banners/
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
+||kitco.com/jscripts/popunders/
 ||kitz.co.uk/files/jump2/
 ||koreatimes.co.kr/ad/
 ||kta.etherscan.com^
@@ -54425,7 +54389,7 @@ pastemagazine.com###middle_rectangle
 myjoyonline.com###mjo-article-left_rectangle_mid
 dbltap.com###mm-player-placeholder-large-screen
 mmorpg.com###mmorpg_desktop_list_1
-byrdie.com,investopedia.com,thespruce.com,verywellhealth.com###mntl-leaderboard-header_1-0
+byrdie.com,instyle.com,investopedia.com,thespruce.com,verywellhealth.com###mntl-leaderboard-header_1-0
 sportskeeda.com###mob3-cnx-container-bottom
 pocketgamer.com###mobile-background
 express.co.uk###mobile_floating_test
@@ -62858,6 +62822,7 @@ newduba.cn###jq_youxi
 ||ohoyao.com^
 ||dnzmhr.xyz^
 ||hbrmickt.com^
+||thdidx.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -90804,6 +90769,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/zephyr.js
 ||cloudfront.net^*.bmp?
 ||cloudfunctions.net/commonBonnierDataLayer
+||cloudfunctions.net/export-customizer-data-metrics
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
 ||cloudfunctions.net/vanalytics
@@ -94104,6 +94070,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
+||embed.reddit.com/svc/shreddit
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
 ||engine.traceparts.com^
@@ -94858,6 +94825,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tredir.go.com^
 ||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
+||tripcdn.com/bee/collect$domain=trip.com
 ||trivago.com/tracking/
 ||trumba.com/et.aspx?
 ||trx3.famousfix.com^
@@ -110743,6 +110711,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
+@@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||plex.tv/api/v2/geoip$xmlhttprequest
