@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0K2vymMnxBh9IKSIaVpd+w
+! Checksum: T0uMZ9pFdDfYk/eKcGPfyg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306170039
-! Last Modified: 2023年06月17日 00:39
+! Version: 202306170637
+! Last Modified: 2023年06月17日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21204,6 +21204,7 @@ _800x80_
 ##a[href^="https://reinstandpointdumbest.com/"]
 ##a[href^="https://s.optzsrv.com/"]
 ##a[href^="https://s.zlinkc.com/"]
+##a[href^="https://safesurfingtoday.com/"][href*="?skip="]
 ##a[href^="https://see.kmisln.com/"]
 ##a[href^="https://serve.awmdelivery.com/"]
 ##a[href^="https://spygasm.com/track?"]
@@ -111333,6 +111334,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepira
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 !---------- Finnish ----------
+@@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 @@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi|supla.fi
 !---------- Hebrew ----------
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
