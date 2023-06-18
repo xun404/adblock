@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E+3M8vd5/n5ylCJ85S4Ykw
+! Checksum: fzifqu/3/rDeBOrmyOoN6A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202306181737
-! Last Modified: 2023年06月18日 17:37
+! Version: 202306181837
+! Last Modified: 2023年06月18日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3703,6 +3703,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /tabads/*
 /taboola-footer.
 /taboola-header.
+/taboola_7.4.1.js
 /taboola_ads.js
 /taboola_header.
 /taboolaArticle.
@@ -31650,6 +31651,7 @@ browsershots.org#@#.advert_area
 ||gobbinsantos.store^
 ||gobiaesker.uno^
 ||gobicyice.com^
+||gobitta.info^
 ||gobmodfoe.com^
 ||godating.pw^
 ||goddamnhowks.tech^
@@ -55522,6 +55524,7 @@ dfiles.eu##.banner1
 gsprating.com##.banner2
 britsabroad.com##.bannerBox
 securenetsystems.net##.bannerPrerollArea
+mumbrella.com.au##.bannerSide
 thejc.com##.banner__
 financemagnates.com##.banner__outer-wrapper
 tass.com##.banner__wrapper
@@ -56098,6 +56101,7 @@ theblock.co##.fixedUnit
 2conv.com##.fixed_banner
 fixya.com##.fixya_primis_container
 whatismyipaddress.com##.fl-module-wipa-concerns
+whatismyipaddress.com##.fl-photo
 omniglot.com##.flex-container
 bgr.com##.flex.bg-black
 libhunt.com##.flex.mt-5.boxed
@@ -56405,6 +56409,7 @@ itweb.co.za##.itw-content-zone
 ownedcore.com##.iv-note
 india.com##.iwplhdbanner-wrap
 ticketmaster.com##.jTNWic
+ticketmaster.com##.jUIMbR
 notateslaapp.com##.jeffdlwlxpqi
 psypost.org##.jeg_midbar
 sabcnews.com##.jeg_topbar
@@ -60461,6 +60466,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||trace.playwright.dev^$popup
 @@||vk.com/ads?$popup,domain=vk.com
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
+@@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 @@||youtube.com/ads/preferences/$popup
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
@@ -83212,6 +83218,7 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/wordfence/visitor.php?
 /plzcrawlme.js
 /pm/pixel.
+/pmc-cxense.js
 /PmsPixel?
 /pmspxl.
 /point_roll.
@@ -83811,7 +83818,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stwc/code.js
 /submission/pageview
 /supercookie.
-/superstats.$domain=~superstats.dk
+/superstats.$domain=~superstats.com|~superstats.dk
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
@@ -94685,6 +94692,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.convertize.io^
 ||pixel.facebook.com^
 ||pixel.honestjohn.co.uk^
+||pixel.ionos.com^
 ||pixel.nine.com.au^
 ||pixel.tuko.co.ke^
 ||pixelzirkus.gameforge.com^
@@ -94939,10 +94947,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tellerreport.com/react/pixel
 ||terabox.com/abdr?
 ||tgt.maep.ibm.com^
+||the-sun.com/assets/client/analyticsListeners~
+||the-sun.com/assets/client/newrelicExperimentTracking~
 ||theblock.co/api/analytics
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thedailybeast.com/static/js/thirdparty.
 ||thefreedictionary.com/_/tr.ashx?
+||thesun.co.uk/assets/client/analyticsListeners~
+||thesun.co.uk/assets/client/newrelicExperimentTracking~
 ||thesun.ie/track?
 ||thetimes.co.uk/track?
 ||thetopfivevpn.com/tv5appf5cc137e72b40469905a.js
