@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6cbyz+MTOo0g00Ule5OOGA
+! Checksum: THauoMf144SE/Fthd8P5pA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306181137
-! Last Modified: 2023年06月18日 11:37
+! Version: 202306181237
+! Last Modified: 2023年06月18日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3765,7 +3765,6 @@ tieba.baidu.com##.tuijian-wrap
 /sponsoredlinks?
 /sponsoredlisting.
 /sponsors-ads/*
-/sponsors/ads/*
 /sponsors/popunder.
 /sponsors_box.
 /spotx_adapter.
@@ -57852,7 +57851,7 @@ ign.com,pcmag.com##.zad
 windows101tricks.com##.zanui-container
 antimusic.com##.zerg
 thehackernews.com##.zoho-box-1
-bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,sunherald.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone
 bellinghamherald.com##.zone-el
 exchangerates.org.uk##[alt="banner"]
 urbandictionary.com##[aria-label*="Advertise"]
@@ -60673,6 +60672,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .com/vj1/$script,third-party
 .com/vj2/$script,third-party
 :9875/vj2/
+:9875/vh2/
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
@@ -63201,6 +63201,11 @@ newduba.cn###jq_youxi
 ||pqomnfbg.com^
 ||jljftl.xyz^
 ||trfmxf.xyz^
+||eiadf.xyz^
+||yziwoidi.icu^
+||opzksyy.cn^
+||vreephay.com^
+||worjeklmq.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -80918,6 +80923,7 @@ fqsousou.com,kengso.com#@#.user-share
 /acecounter/*
 /acecounter_
 /acounter.php?
+/action/analytics
 /ActionLogger?
 /activity-track/?
 /activity.gif?
@@ -84284,6 +84290,7 @@ fqsousou.com,kengso.com#@#.user-share
 /urchin.js
 /urchinstats.
 /user-context?referrer=
+/userdata_n?
 /userfingerprinttoken/*$xmlhttprequest
 /userfly.js
 /users/track?
@@ -110760,7 +110767,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !-----------------------Allowlists to fix broken sites------------------------!
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/friendbuy.min.js$script,domain=butcherbox.com
-@@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 @@||1001trackstats.com/api/$xmlhttprequest,domain=songstats.com
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||8tm.net/static/img/fbpixel.png$~third-party
