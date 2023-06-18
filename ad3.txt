@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zLrsSx+bJ/0JZLYyNFrn+Q
+! Checksum: JHlRS6dg5tc/Sbbo5Hr2NA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306181637
-! Last Modified: 2023年06月18日 16:37
+! Version: 202306181737
+! Last Modified: 2023年06月18日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23517,6 +23517,7 @@ m.babytree.com##script + a[class]
 /dmu2panalytics/*
 /doctracking.
 /dolWebAnalytics.
+/dom-event-tracker.
 /domcount.
 /domcount_
 /dot.asp?
@@ -23769,6 +23770,7 @@ m.babytree.com##script + a[class]
 /fp2.compressed.js
 /fp_204?
 /fpc.pl?a=
+/fpc/cookie_js.php
 /fpcookie?
 /fpcount.exe
 /fprnt.min.js
@@ -29753,6 +29755,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushwize.com^$third-party
 ||pushwoosh.com^$third-party
 ||reprocautious.com^$third-party
+||sbi-push.com^$third-party
 ||sendpulse.com^$third-party
 ||shroughtened.com^$third-party
 ||sm-epsilon.com^$third-party
@@ -31893,6 +31896,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adgocoo.com^$third-party
 ||admatrix.jp^$third-party
 ||adpon.jp^$third-party
+||adrange.net^$third-party
 ||af-z.jp^$third-party
 ||afi-b.com^$third-party
 ||aid-ad.jp^$third-party
@@ -31913,6 +31917,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||datasign.co^$third-party
 ||dbfocus.jp^$third-party
 ||deteql.net^$third-party
+||dmtag.jp^$third-party
 ||docodoco.jp^$third-party
 ||docomo-analytics.com^$third-party
 ||e-click.jp^$third-party
@@ -33079,6 +33084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.missena.io^
 ||events.ocdn.eu^
+||events.qortex.ai^
 ||events.realgravity.com^
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||events.shareably.net^
@@ -51549,6 +51555,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||hits.porn.fr^
 ||hlms.ecologie.gouv.fr^
 ||ianimes.org/img/tracker.gif
+||insights.decathlon.net^
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||lacentrale.fr/collect
