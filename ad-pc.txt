@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: huBWxRitHW2XJBEKk085MQ
+! Checksum: xYwewIZG7qsI/yumzVYfbQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306200337
-! Last Modified: 2023年06月20日 03:37
+! Version: 202306200437
+! Last Modified: 2023年06月20日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60150,6 +60150,7 @@ theyarehuge.com##div[data-nosnippet]
 hentai2read.com##div[data-type="leaderboard-top"]
 hentaistream.com##div[id^="adx_ad-"]
 pornez.net##div[id^="cb0"]
+pornsitetest.com##div[id^="eroti-"]
 pornstarbyface.com##div[id^="sponcored-content-"]
 lewdgamer.com##div[id^="spot-"]
 hentaiff.com##div[id^="teaser"]
@@ -82521,6 +82522,7 @@ fqsousou.com,kengso.com#@#.user-share
 /gujTracker.
 /gv-analytics/*
 /gweb/analytics/*
+/h.gif?
 /hash_stat/*
 /hash_stat_bulk/*
 /hc/activity
@@ -83041,6 +83043,7 @@ fqsousou.com,kengso.com#@#.user-share
 /mianalytics.
 /micro.php?action=view&
 /microsoft.cognitiveservices.speech.sdk.bundle.js
+/min/gtm/*
 /minder-tracker.
 /mint/?js
 /mint/?record
@@ -83066,6 +83069,7 @@ fqsousou.com,kengso.com#@#.user-share
 /mnt/imp?
 /moapt-action-iq-analytics.
 /moat-tracker.
+/moat/yield.js
 /moatanalytics-
 /mobileanalytics.
 /modoweb-tracking/*
@@ -83095,6 +83099,7 @@ fqsousou.com,kengso.com#@#.user-share
 /mtc.js
 /mtiFontTrackingCode.
 /mtrack.nl/js/*
+/mtracking.
 /mttag/*
 /mtvi_reporting.js
 /mv_Visit2.
@@ -83826,6 +83831,8 @@ fqsousou.com,kengso.com#@#.user-share
 /sensorsdata.$domain=~sensorsdata.cn
 /sentry-browser.
 /sentry-logger.js
+/seo.taCo.min.js
+/seo.tagCommander-
 /seostats/*
 /seotracker/*
 /SEOTracking.
@@ -84139,6 +84146,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tc_analytics.
 /tccl.min.js
 /tck/gif/*
+/teal-comscore-
 /teal-gcianalytics-
 /TeaLeaf.js
 /tealeaf.min.js
@@ -109860,6 +109868,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||happysex.ch/app_jquery/Tracking.js
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
+||herz-fuer-tiere.de^*/ad.gif?
+||herz-fuer-tiere.de^*/sunshine.gif?
 ||hokuspokus.tarnkappe.info^
 ||homegate.ch/g/collect?
 ||horizont.net/stats/
@@ -110109,6 +110119,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||autohome.com.cn/impress?
 ||baidu.com/api/bidder/
 ||baidu.com/kan/api/ipLocation
+||baidu.com^*/ps_default.gif?
 ||banana.le.com^
 ||beacon.qq.com^
 ||cherry.le.com^
