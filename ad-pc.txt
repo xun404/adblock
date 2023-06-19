@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xYwewIZG7qsI/yumzVYfbQ
+! Checksum: ALu3rrIDASgP3cqqXmdc2Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306200437
-! Last Modified: 2023年06月20日 04:37
+! Version: 202306200537
+! Last Modified: 2023年06月20日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1232,6 +1232,7 @@ tieba.baidu.com##.tuijian-wrap
 /adfuncs.
 /adfunction.
 /adfunctions.
+/adfurikun/*$~image
 /adhandler/*$~subdocument
 /adhandlers-
 /adheader.
@@ -1412,6 +1413,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads.jsp
 /ads.pl?
 /ads/!rotator/*
+/ads/300.
 /ads/acctid=
 /ads/ads/*
 /ads/adv/*
@@ -3396,6 +3398,7 @@ tieba.baidu.com##.tuijian-wrap
 /popunder?
 /popunder_
 /popunderjs/*
+/popunders/*
 /popunderWeb-
 /popundr.
 /popundr/*
@@ -3508,6 +3511,7 @@ tieba.baidu.com##.tuijian-wrap
 /rdm-ad-
 /RdmAdFeed.
 /rdrr/renderer.js
+/re-ads-
 /realmedia/ads/*
 /realmedia_mjx.
 /realmedia_mjx_
@@ -4100,6 +4104,7 @@ tieba.baidu.com##.tuijian-wrap
 ?adfox_
 ?adslot=
 ?adspot_
+?adunitid=
 ?advertiser=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?bannerid=
@@ -11831,6 +11836,7 @@ _800x80_
 ##.adAlert
 ##.adArea
 ##.adAreaLC
+##.adAreaNative
 ##.adAreaTopTitle
 ##.adArticleBanner
 ##.adArticleBody
@@ -55927,6 +55933,7 @@ wowhead.com##.blocks
 mail.com##.blocks-3
 wowway.net##.blocks_container-size_containerSize
 failory.com##.blog-column-ad
+syfy.com##.blog-post-section__zergnet
 blogto.com##.blogto-sticky-banner
 manhwaindo.id##.blox
 techspot.com##.blu
@@ -94668,6 +94675,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.hmageo.com^
 ||geoip.ifunny.co^
 ||geolocation.forbes.com^
+||getadblock.com/js/log.js
 ||gettyimages.*/pulse$ping
 ||ghacks.net/statics/px.gif
 ||github.com/_private/browser/stats
@@ -95082,6 +95090,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rv.modanisa.com^$script
 ||rvo-cohesion.healthline.com^
 ||s.infogram.com^
+||s.wayfair.com^
 ||saa.insideedition.com^
 ||sciencechannel.com/events/
 ||scloud.online/stat/
