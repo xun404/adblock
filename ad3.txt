@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5jdtL4CG/P2ng7pgHHslww
+! Checksum: CVxhWYuxJBukkd3MggO+TA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306200039
-! Last Modified: 2023年06月20日 00:39
+! Version: 202306200337
+! Last Modified: 2023年06月20日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25674,6 +25674,7 @@ m.babytree.com##script + a[class]
 /tc_analytics.
 /tccl.min.js
 /tck/gif/*
+/teal-gcianalytics-
 /TeaLeaf.js
 /tealeaf.min.js
 /TeaLeafCfg.js
@@ -25777,6 +25778,7 @@ m.babytree.com##script + a[class]
 /track_pixel?
 /track_proxy?
 /track_stat?
+/track_video.php?id=
 /track_views.
 /track_visit.
 /track_visit?
@@ -51905,7 +51907,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analytics.sanoma.fi^
 ||api.nettix.fi/counter/$image
 ||data.reactandshare.com^
-||dax.yle.fi/yya/event
+||dax.yle.fi^
 ||dp.alma.iltalehti.fi/v1/cookie
 ||events.il.fi^
 ||hs.fi/stats
