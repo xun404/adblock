@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +BJxUgYwhZlGa739QvYEfQ
+! Checksum: VWisv30CFJYX7aZjLmR8Ag
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202306200737
-! Last Modified: 2023年06月20日 07:37
+! Version: 202306200953
+! Last Modified: 2023年06月20日 09:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1107,7 +1107,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adfetch?
 /adfetcher?
 /adflash.
-/adflow.$domain=~adflow.com.au|~adflow.genoudsa.ch|~adflow.io|~adflow.marketing|~adflow.pl
+/adflow.$domain=~adflow.adstandards.ca|~adflow.com.au|~adflow.genoudsa.ch|~adflow.io|~adflow.marketing|~adflow.pl
 /adfooter.
 /adfox.$domain=~adfox.de|~adfox.group|~adfox.hu
 /adframe.$~script,~xmlhttprequest,domain=~adframe.com
@@ -51868,6 +51868,8 @@ browsershots.org#@#.advert_area
 ||sbhc.portalhc.com^
 ||screen13.com/publishers/
 ||scriptadmin.com/scripts/popunder.js
+||sdk.apester.com/*.adsbygoogle.min.js
+||sdk.apester.com/*.Monetization.min.js
 ||secure.money.com^$third-party
 ||service.smscoin.com/js/sendpic.js
 ||services.zam.com^
@@ -53285,6 +53287,7 @@ browsershots.org#@#.advert_area
 ||machineseeker.com/data/ofni/
 ||mafvertizing.crazygames.com^
 ||mail-ads.google.com^
+||mail.aol.com/d/gemini_api/?adCount=
 ||mangahub.io/iframe/
 ||manhwascan.net/my2023/my2023
 ||manytoon.com/script/$script
@@ -63313,6 +63316,8 @@ newduba.cn###jq_youxi
 ||bnl2bii.icu^
 ||jcjzikj.xyz^
 ||bljlrl.xyz^
+||geiod.xyz^
+||rfnenr.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -94240,6 +94245,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
+||apester.com/cookie/bundle.js
 ||api-js.mixpanel.com^
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api.ffm.to/sl/e/$image
@@ -95379,6 +95385,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
 ||substation.confection.io^
 ||lightning.ncaa.com/launch/$script
+||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|rockpapershotgun.com|senpa.io|shineads.org
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
