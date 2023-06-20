@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XcdsUZpCHRpCMit8KyoX5A
+! Checksum: NJXzV+oYg4gDbSZKLdqZxA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306201237
-! Last Modified: 2023年06月20日 12:37
+! Version: 202306201337
+! Last Modified: 2023年06月20日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2654,6 +2654,8 @@ newduba.cn###jq_youxi
 ||rfnenr.xyz^
 ||yzcpgadw.icu^
 ||vyye.cn^
+||afdunaui.com^
+||uo12.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -52701,6 +52703,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||noodid.ee/chordQuiz/$~third-party
 @@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
+@@||nypost.com/blaize/datalayer$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||ondemand.sas.com^$subdocument
 @@||onenote.com^*/aria-web-telemetry
