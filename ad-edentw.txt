@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7kkQtfn1tIrqgtiCWf8xCQ
+! Checksum: 1OqdKyVHc7o5CZhGy3x4XQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202306221737
-! Last Modified: 2023年06月22日 17:37
+! Version: 202306231840
+! Last Modified: 2023年06月23日 18:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -874,6 +874,7 @@ vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 @@||nosteam.ro/notcaptcha/adheader.js$domain=nosteamgames.ro
 xvideos.com##div[id^="video-ad"]+div[class]
 filelions.com,filelions.to#$#hide-if-matches-xpath './/div[contains(@style,"position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01")]/self::div[1]'
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div[@title]/style/ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; 
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
