@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /m2ek1Xxw22R8iLMCOEjqA
+! Checksum: jYNypHmssIIoskndfFr87w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306281442
-! Last Modified: 2023年06月28日 14:42
+! Version: 202306281537
+! Last Modified: 2023年06月28日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4950,14 +4950,11 @@ _800x80_
 /adserver.$popup
 /AdServer/*$popup,third-party
 /adstream_sx.ads/*$popup
-/advlink.$popup
 /adx.php?source=$popup
 /aff_ad?$popup
 /afu.php?$popup
 /click?adv=$popup
 /gtm.js?$popup
-/links/popad$popup
-/open?shu=$popup
 /out?zoneId=$popup
 /pop-imp/*$popup
 /pop.go?ctrlid=$popup
@@ -4968,20 +4965,17 @@ _800x80_
 /popupads.$popup
 /prod/go.html?$popup
 /prod/redirect.html?lu=$popup
-/realmedia/ads/*$popup
 /redirect/?spot_id=$popup
 /redirect?tid=$popup
 /show?bver=$popup
 /smartpop/*$popup
-/srvclk.php?$popup
 /tr?id=*&tk=$popup
+/zcredirect?$popup
 /zcvisitor/*$popup
 /zp-redirect?$popup
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.lack-girl.com
-?ad_c_ref=$popup
-?ad_domain=$popup
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
 |data:text$popup,domain=~clker.com
