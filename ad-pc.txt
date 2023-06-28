@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dTlu+qczvNZQHADDcBoNng
+! Checksum: oDNGpdUxsiwjYeYPQ8ZP8g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306281015
-! Last Modified: 2023年06月28日 10:15
+! Version: 202306281109
+! Last Modified: 2023年06月28日 11:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20933,6 +20933,7 @@ _800x80_
 ##[data-ad-cls]
 ##[data-ad-manager-id]
 ##[data-ad-module]
+##[data-ad-name]
 ##[data-ad-width]
 ##[data-adblockkey]
 ##[data-adbridg-ad-class]
@@ -86062,6 +86063,7 @@ _track_pixel.gif?
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
+/generate_204?$image
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
