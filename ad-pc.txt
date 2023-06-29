@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FhugS8t8yFTz9+HuGw8dNA
+! Checksum: 2Tyhb4ruegE8NzvArKQTwA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306291241
-! Last Modified: 2023年06月29日 12:41
+! Version: 202306291338
+! Last Modified: 2023年06月29日 13:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -82757,9 +82757,6 @@ fqsousou.com,kengso.com#@#.user-share
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~dynatracelabs.com|~github.com|~github.io
-/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~dynatracelabs.com|~github.com|~github.io
-/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~dynatracelabs.com|~github.com|~github.io
 /dynaTraceMonitor^
 /e.gif?
 /e_stat?g_id=
@@ -111779,7 +111776,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||check.ddos-guard.net/check.js$script
-@@||checkout.tito.io/dynatrace/$xmlhttprequest,domain=ti.to
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
