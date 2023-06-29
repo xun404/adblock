@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZM0rzzreK47Sz6srTYHCAw
+! Checksum: hwqpICpqoGV1bF++zOo22g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306291937
-! Last Modified: 2023年06月29日 19:37
+! Version: 202306292058
+! Last Modified: 2023年06月29日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22675,10 +22675,7 @@ m.babytree.com##script + a[class]
 -geoIP.js
 -inview-tracker.
 -optimization-metrics.
--page-analytics.
 -quantcast-measurement.
--rttracking.
--sa-tracker-
 -scroll-tracker.js
 -track-inview.
 -tracking-pixel.
@@ -22699,8 +22696,6 @@ m.babytree.com##script + a[class]
 .com/hitlog?
 .com/log/?
 .com/log?event
-.com/log?srvc
-.com/log?type
 .com/mm.gif?
 .com/pvlog?
 .com/s/at?site
@@ -22729,14 +22724,11 @@ m.babytree.com##script + a[class]
 .ntpagetag.
 .php?action=browse&
 .php?action_name=
-.php?hey_stat=
 .php?logRefer=
 .php?logType=
 .php?notrack=
 .php?p=stats&
 .php?ping=
-.php?refcode=
-.php?self=
 .php?stats=
 .php?tracking=
 .sharecounter.$third-party
@@ -22749,7 +22741,6 @@ m.babytree.com##script + a[class]
 .svc/?tracking_id=
 .tv/log?event
 .v4.analytics.
-.vsTracking.
 .web-vitals-reporting.
 /.well-known/shopify/monorail
 /0.gif?
@@ -22872,7 +22863,6 @@ m.babytree.com##script + a[class]
 /adv?pixel_
 /adviewtrack.
 /advstats/*
-/adwords-conversion-tracking.
 /adwords-tracker.
 /adx_remote.
 /aff_i?offer_id=
@@ -26361,6 +26351,7 @@ m.babytree.com##script + a[class]
 /wlexpert_tracker.
 /wlexpert_tracker/*
 /wmxtracker.js
+/woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /worldwide_analytics/*
 /wp-click-track/*
@@ -33908,6 +33899,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pico.tools/metrics/
 ||ping-admin.ru^$third-party
 ||ping.dozuki.com^
+||ping.fastsimon.com^
 ||ping.instantsearchplus.com^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
