@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tdG5z3tOZVmZ+dJqgeSJvQ
+! Checksum: 6alvtzwdrkgN1yAnvC4xtw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306302337
-! Last Modified: 2023年06月30日 23:37
+! Version: 202307010042
+! Last Modified: 2023年07月01日 00:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -73825,6 +73825,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cupfox.app##.cupfox-box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -85554,6 +85555,7 @@ fqsousou.com,kengso.com#@#.user-share
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
+/webtrack.js
 /webtracker.
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
@@ -85586,6 +85588,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wp-click-track/*
 /wp-clickmap/*
 /wp-content/plugins/confection/bridge.php
+/wp-content/plugins/pageviews/*
 /wp-content/tracker.
 /wp-counter.php
 /wp-js/analytics.
@@ -93890,6 +93893,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webservices.websitepros.com^
 ||webstats.thaindian.com^
 ||websuccess-data.com/tracker.js
+||webtrack.chd01.com^
+||webtrack.savoysystems.co.uk^$third-party
 ||webtracker.apicasystem.com^
 ||webvoo.com/wt/Track.aspx
 ||webvoo.com^*/logtodb.
@@ -94596,6 +94601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||videostats.kakao.com^
 ||w3t.cn^*/fx.js
 ||web-trace.ksapisrv.com^
+||webtrack.pospal.cn^
 ||yigouw.com/c.js
 ||tracking.vid4u.org^
 ||a.centrum.cz^
@@ -111470,7 +111476,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
-||cinematoday.jp/js/*/pageviews.
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
 ||counter.wikiwiki.jp^
@@ -111497,6 +111502,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||m-oo-m.com/data/report/
 ||mangaraw.to/api/v1/view/
 ||measure.ameblo.jp^
+||minkou.jp/js/tracking.js
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||mng.jiji.com/cookie.html
 ||nhk.or.jp^*/bc.js
