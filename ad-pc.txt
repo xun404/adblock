@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y3Rays6JDy/EnbJvqz8z9g
+! Checksum: 8HIefiv6UFKG82Jemk/zHA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202306301009
-! Last Modified: 2023年06月30日 10:09
+! Version: 202306301103
+! Last Modified: 2023年06月30日 11:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62885,6 +62885,7 @@ newduba.cn###jq_youxi
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
 ##a[id][href*="/?aff="]
+##.ads > #video_playr_sider
 ##a[id][href*="/?register="]
 ##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
@@ -64183,6 +64184,8 @@ newduba.cn###jq_youxi
 ||xudgjz.xyz^
 ||ncmxwhf.icu^
 ||nohcff.xyz^
+||uym11.xyz^
+||zvdc9y.icu^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -84901,6 +84904,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tagcommander_
 /tagmanager/event?
 /tagmanager/pptm.
+/tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-
 /TargetAnalyticsAPI-
@@ -85082,6 +85086,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tracking/jitney/*
 /tracking/log.php?
 /tracking/log?
+/tracking/networktrackingservlet
 /tracking/open?
 /tracking/pageview.
 /tracking/pixel.
