@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tHyigl9d8pengufk2iZrHQ
+! Checksum: 3sJktY/nOEAHt2Ld3xJG7w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202306301441
-! Last Modified: 2023年06月30日 14:41
+! Version: 202306301838
+! Last Modified: 2023年06月30日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22805,7 +22805,6 @@ m.babytree.com##script + a[class]
 /a8c-analytics.
 /a8c-analytics/*
 /aap/stats
-/ac.fcgi?
 /access.php?referrer=
 /accessanalyzer/tracker?
 /AccessCounter/*
@@ -22836,7 +22835,6 @@ m.babytree.com##script + a[class]
 /addon/analytics/*
 /addpageview/*
 /adds/counter.js
-/addstats?callback=
 /adlogger.
 /adm_tracking.js
 /AdmitadTagTag.js
@@ -22862,13 +22860,11 @@ m.babytree.com##script + a[class]
 /adpixel.
 /adplogger/*
 /ads/track/*
-/ads?cookie_
 /adsct?
 /adshield-
 /adstat.
 /adstats.
 /adstrack.
-/adtctr.
 /adtoniq-
 /adtrack-
 /adtrk/*
@@ -22887,7 +22883,6 @@ m.babytree.com##script + a[class]
 /affiliateTracking.
 /affiliatetracking/*
 /affilinetRetargeting.
-/affl.cgi?
 /afftrack.
 /afftracking.
 /aftrack.
@@ -23020,10 +23015,8 @@ m.babytree.com##script + a[class]
 /analytics/initSession
 /analytics/klaviyo_
 /analytics/layer
-/analytics/mbox.js
 /analytics/mbox_
 /analytics/metric/*
-/analytics/mouse_
 /analytics/newrelic_
 /analytics/page_view.
 /analytics/pageview
@@ -24263,9 +24256,6 @@ m.babytree.com##script + a[class]
 /homePixelTracking.
 /honeybadger.js$third-party
 /honeybadger.min.js$third-party
-/horizon-pageview?
-/horizon-track.
-/horizon/track?
 /host-analyticsjs-local/*
 /hotmobtag_
 /hpmetrics.
@@ -24506,7 +24496,6 @@ m.babytree.com##script + a[class]
 /log-view.
 /Log.ashx?
 /log.aspx?
-/log.bi?
 /log.cfm?
 /log.collect.
 /log.gif?
@@ -52537,6 +52526,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||geo.emol.cl^
 ||gruporeforma.com/clickGrupoReforma.js
 ||hits.antena3.com^
+||horizon-track.globo.com^
 ||matt.mercadolibre.
 ||mercadolibre.com/tracks^
 ||pixel.europapress.net^
