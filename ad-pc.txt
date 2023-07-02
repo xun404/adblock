@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SMuJ1U2ngSeJd/n8//FLqA
+! Checksum: 9m8LTYXysJnb0y3gZoItRg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307021837
-! Last Modified: 2023年07月02日 18:37
+! Version: 202307022054
+! Last Modified: 2023年07月02日 20:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -64326,6 +64326,8 @@ newduba.cn###jq_youxi
 ||dheear.site^
 ||dmxfdp.xyz^
 ||bgbyzv.xyz^
+||l23jhjfasd.xyz^
+||jtpu9s.icu^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -82266,7 +82268,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/trackevent
 /analytics/visit/*
 /Analytics/Visitor.
-/analytics/web/*
 /analytics/wss?
 /analytics?body=
 /analytics?http_referer
@@ -85532,7 +85533,6 @@ fqsousou.com,kengso.com#@#.user-share
 /web-vitals-
 /web-vitals.
 /web-vitals/*
-/web/analytics.$script
 /web/push?
 /web_analytics/*
 /web_answertip.
@@ -91871,7 +91871,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.firespring.com^
 ||analytics.foresee.com^
 ||analytics.formstack.com^
-||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.groupe-seb.com^
 ||analytics.growthphysics.com^
@@ -112253,7 +112252,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
-@@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
@@ -112367,7 +112365,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
-@@||google.com/analytics/$domain=analytics.google.com
 !----------------Allowlists to fix broken international sites-----------------!
 !---------- German ----------
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
