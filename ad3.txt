@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y2pubZFMyzgJcd2hpmC6HQ
+! Checksum: af8kvnhaNhrqHiL0Pg5i9Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307031108
-! Last Modified: 2023年07月03日 11:08
+! Version: 202307031142
+! Last Modified: 2023年07月03日 11:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -6931,6 +6931,8 @@ newduba.cn###jq_youxi
 ||zzxmcp.com^
 ||zzzhuoxiaqu.online^
 !long-term
+||chushoushijian.cn^
+||87uq.com^
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 ||youle55.com^$third-party
@@ -32239,7 +32241,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
-||cdn-pci.optimizely.com^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
 ||cdn3.net/pixe/
@@ -33261,9 +33262,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||open.delivery.net^
 ||openxcdn.net^$third-party
 ||optimeeze.appspot.com^
-||optimizely.com/js/geo
-||optimizely.com/log
-||optimizely.com/public/
 ||optmn.cloud/hb/
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
@@ -34293,6 +34291,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dxwgpw0lkcum5.cloudfront.net^
 ||dy2xcjk8s1dbz.cloudfront.net^
 ||dyv1bugovvq1g.cloudfront.net^
+||optimizely.com/client_storage/
+||optimizely.com/js/geo
+||optimizely.com/log
+||optimizely.com/public/
 ||firebase.googleapis.com^$domain=terabox.fun
 ||firebaseinstallations.googleapis.com^$domain=terabox.fun
 !||cefgo.com^
