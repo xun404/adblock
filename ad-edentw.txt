@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aB5+gmGQf26s+XrEHMxJnw
+! Checksum: qD6HaNwtGORR85yfMINPvg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202307031840
-! Last Modified: 2023年07月03日 18:40
+! Version: 202307031937
+! Last Modified: 2023年07月03日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1336,7 +1336,7 @@ netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-
 ! *** abp-filters-anti-cv:vietnamese.txt ***
 ! MISC
 blog.abit.vn#$#abort-on-property-read document.cookie
-phimmoi4s.com#$#json-prune ads
+phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 90phut6.live#$#abort-current-inline-script $ overlay;abort-current-inline-script setTimeout overlay
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
