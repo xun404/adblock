@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +FEaOGAxw8T+033aZz6Obg
+! Checksum: ydua3wQa5ybXiH7MncFCSw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202307032237
-! Last Modified: 2023年07月03日 22:37
+! Version: 202307032337
+! Last Modified: 2023年07月03日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3896,6 +3896,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wp-banners/*$~image
 /wp-content/ads/*
 /wp-content/mbp-banner/*
+/wp-content/plugins/amazon-auto-links/*
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
 /wp-content/plugins/automatic-social-locker/*
 /wp-content/plugins/banner-manager/*
@@ -14784,6 +14785,7 @@ _800x80_
 ##.am-bazaar-ad
 ##.amAdvert
 ##.am_ads
+##.amazon-auto-links
 ##.amazon_ad
 ##.amazonads
 ##.amis-advert
@@ -62963,6 +62965,7 @@ newduba.cn###jq_youxi
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
 ##a.ad_links
+##a[href="/ht.html"]
 ##a.hengfu > img.hengfu
 ##a[href$=".cc:8443"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
@@ -63097,6 +63100,8 @@ newduba.cn###jq_youxi
 ||dd778899dd.com^
 ||dhkipdsc.xyz^
 ||cix0wk.com^
+||donchen501.cn^
+||wuye3d.com^
 ##a[href*=".8720018.cc"]
 ##a[href*=".bd379.vip"]
 ##a[href*=".btwuji.cc"]
@@ -73051,6 +73056,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tvyb03.com##div[style^="position:fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
