@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FMz2i7WvUn8d/7jl047Wfg
+! Checksum: cqbX/K8mWpT6O9TIqO6kng
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202307060046
-! Last Modified: 2023年07月06日 00:46
+! Version: 202307060737
+! Last Modified: 2023年07月06日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57751,6 +57751,7 @@ fandom.com##.marketplace
 imgur.com,pushsquare.com,songlyrics.com##.masthead
 timeextension.com##.masthead > .insert
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
+merriam-webster.com##.max-h-\[94px\].min-h-\[94px\].max-w-\[730px\]
 mayoclinic.org##.mayoad
 racgp.org.au##.mb-1.small
 amgreatness.com##.mb-10.mx-auto
@@ -63154,6 +63155,7 @@ newduba.cn###jq_youxi
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
+##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/forum/"] > img[src*=".bcebos.com"]
@@ -63188,7 +63190,6 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
-##A[href*="kdocs.cn"] > IMG[src*=".ax1x.com/"]
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -63254,6 +63255,8 @@ newduba.cn###jq_youxi
 ||194.59.220.161^
 ||23.234.217.11^
 ||23.234.217.12^
+||3400.org^
+||abrnfctkn.xyz^
 ||baiduisjkbvsjkl.com^
 ||ciadre.fun^
 ||cix0wk.com^
@@ -63261,16 +63264,17 @@ newduba.cn###jq_youxi
 ||dd778899dd.com^
 ||dhkipdsc.xyz^
 ||donchen501.cn^
+||hanwdsii.com^
 ||hfqdipw.cn^
 ||hsadeg.site^
-||hanwdsii.com^
-||abrnfctkn.xyz^
+||plbs9k.icu^
 ||powedw.com^
 ||sq59.cn^
-||plbs9k.icu^
-||tqdctl.xyz^
-||3400.org^
 ||tgbevv.xyz^
+||kahgjjd.com^
+||kgeesh.site^
+||fjsytjs.cn^
+||tqdctl.xyz^
 ||wuye3d.com^
 ||xiaoxiuapp.com^
 ##a[href$="/1c626.com"]
@@ -73227,8 +73231,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-bejson.com##.xf2-gg-left
-cupfox.app##.a1-box[class^="jsx-"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -74756,6 +74758,7 @@ tools.2345.com##._hb-box + .mod
 qq.com##._switchad
 pincong.rocks##.a-a
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
+cupfox.app##.a1-box[class^="jsx-"]
 159i.com##.a1.style25
 159i.com##.a1d
 159i.com##.a2.style25
@@ -77500,6 +77503,7 @@ sohu.com##.x-adv-pause-nonlinear-panel
 liaoxuefeng.com##.x-sponsor
 tongxiang.net##.x15sdv.display_3_3
 sina.cn##.xc_da
+bejson.com##.xf2-gg-left
 xinhuanet.com##.xhdf_moreAdv
 bkill.com##.xiangguan-ad
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
