@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PsaT5j1XR3lS0ik9vlr/jw
+! Checksum: POkmho6ZydD7gbt5wpq+vA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307050737
-! Last Modified: 2023年07月05日 07:37
+! Version: 202307051014
+! Last Modified: 2023年07月05日 10:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1510,6 +1510,7 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
+##A[href*="kdocs.cn"] > IMG[src*=".ax1x.com/"]
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -1587,6 +1588,9 @@ newduba.cn###jq_youxi
 ||hanwdsii.com^
 ||abrnfctkn.xyz^
 ||powedw.com^
+||sq59.cn^
+||tqdctl.xyz^
+||3400.org^
 ||tgbevv.xyz^
 ||wuye3d.com^
 ||xiaoxiuapp.com^
@@ -25353,10 +25357,6 @@ m.babytree.com##script + a[class]
 /umt.gif?
 /unbxdAnalytics.
 /unbxdAnalyticsConfig.
-/unica.gif?
-/unica.js
-/unica_$domain=~unica.fi
-/UnicaTag.
 /UniqueUserVisit?
 /Universal-Federated-Analytics.
 /universal-trackers/*
