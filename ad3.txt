@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gZsgWpW0MbUFiNNuqCyXcg
+! Checksum: tUBdD7ryg4P9JSZW2X26UA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307061841
-! Last Modified: 2023年07月06日 18:41
+! Version: 202307061937
+! Last Modified: 2023年07月06日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23007,6 +23007,7 @@ m.babytree.com##script + a[class]
 /eluminate?
 /email/track/*$image
 /email/tracking?
+/email_opened_tracking_pixel?
 /EmailOpenTrackLog.aspx?$image
 /EmbedAsyncLogger.
 /emos2.js$~xmlhttprequest
@@ -25767,6 +25768,8 @@ _webanalytics.
 _WebVitalsReporter_
 /ls.php?t=
 /track.php?domain=
+/ContextLogResource/*
+/statslogresource/*
 /action-impressions/*
 /ajax/counter?ctr=
 /batch/1/OE/*
@@ -35561,6 +35564,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
+||elitesingles.com/cs/tp.png?
 ||embed.reddit.com/svc/shreddit
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
