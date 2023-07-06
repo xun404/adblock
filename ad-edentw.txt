@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JMWneXPsYLbqL5D9SPIeBQ
+! Checksum: TaOpKryi7kO4y8bgeZO7jQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202307061537
-! Last Modified: 2023年07月06日 15:37
+! Version: 202307061642
+! Last Modified: 2023年07月06日 16:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -644,10 +644,9 @@ bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
-instacart.com#$#race start; hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eliggible]) = 1 and count(.//div/span) = 2]]'; hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eligiible]) = 1 and count(.//div/span) = 2]]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eliggible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'; hide-if-matches-xpath './/div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'; race stop;
+instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eliggiible]/ancestor::div[@aria-label="Product"]/ancestor-or-self::li'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/ancestor::section[@class]'
 instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Spon")]/ancestor::div[@class][1]/parent::div'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
