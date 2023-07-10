@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hfCrEi5zxbRKsXLqkfp0kg
+! Checksum: NPhf2Zkc45fq7q7C0khF/g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307100737
-! Last Modified: 2023年07月10日 07:37
+! Version: 202307101017
+! Last Modified: 2023年07月10日 10:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -48090,6 +48090,7 @@ browsershots.org#@#.advert_area
 ||gururevenue.com^$third-party
 ||havetohave.com^$third-party
 ||headbidder.net^$third-party
+||headerlift.com^$third-party
 ||healthtrader.com^$third-party
 ||horse-racing-affiliate-program.co.uk^$third-party
 ||hot-mob.com^$third-party
@@ -59681,6 +59682,7 @@ appsample.com##div[class^="MapLayout_Bottom"]
 dailymotion.com##div[class^="NewWatchingDiscovery__adSection"]
 dsearch.com##div[class^="PreAd_"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
+genius.com##div[class^="SidebarAd_"]
 chloeting.com##div[class^="StickyFooterAds__Wrapper"]
 newyorker.com##div[class^="StickyHeroAdWrapper-"]
 scotsman.com##div[class^="TopBanner"]
@@ -59713,6 +59715,7 @@ imagetopdf.com,pdfkit.com,pdftoimage.com,topdf.com,webpconverter.com##div[class^
 technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
+staples.com##div[class^="sku-configurator__banner"]
 mydramalist.com##div[class^="spnsr"]
 kijiji.ca##div[class^="sponsored-"]
 semafor.com##div[class^="styles_ad"]
@@ -60202,6 +60205,8 @@ bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:-abp-contains(Sponsored)
+acmemarkets.com,albertsons.com,andronicos.com,Carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.master-product-carousel:-abp-has([data-carousel-driven="sponsored-products"])
 asda.com#?#.co-item:-abp-has(.co-item__sponsored-label)
 albertsons.com,jewelosco.com#?#div.product-card-col:-abp-has(div[data-qa="prd-itm-spnsrd"])
 fanatics.com#?#.product-card:-abp-has(.sponsored-badge)
@@ -61963,6 +61968,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
+.xyz/*=$object,third-party
 .buzz/*=$object,third-party
 .cam/ads/
 .cc/ad/
@@ -63585,6 +63591,9 @@ newduba.cn###jq_youxi
 ||bdates.fun^
 ||zfcdirf.icu^
 ||ronbbf.xyz^
+||lwide.xyz^
+||pirxzl.xyz^
+||zfteiv.xyz^
 ||ymhyw6.lol^
 ||zerolcp.cn^
 ||zonyff.xyz^
@@ -75048,7 +75057,7 @@ tools.2345.com##._hb-box + .mod
 qq.com##._switchad
 pincong.rocks##.a-a
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
-cupfox.app##.a1-box[class^="jsx-"]
+cupfox.app##div[class*="-box"][class^="jsx-"]
 159i.com##.a1.style25
 159i.com##.a1d
 159i.com##.a2.style25
@@ -87733,6 +87742,7 @@ _mongo_stats/
 ||personalicanvas.com^$third-party
 ||personyze.com^$third-party
 ||peruse.ai^$third-party
+||petametrics.com^$third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
 ||phonalytics.com^$third-party
@@ -93412,6 +93422,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.cdnbye.com^
 ||tracker.downdetector.com^
 ||tracker.financialcontent.com^
+||tracker.gamedock.io^
+||tracker.gamemonkey.org^
 ||tracker.gleanview.com^
 ||tracker.hdtvcloud.com^
 ||tracker.icerocket.com^

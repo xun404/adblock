@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xZXWZpt5VXB/Vf2IETCjNA
+! Checksum: cZ9zo4Otjk1Lv2kQt9U4bg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202307100737
-! Last Modified: 2023年07月10日 07:37
+! Version: 202307101017
+! Last Modified: 2023年07月10日 10:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -465,6 +465,7 @@ tieba.baidu.com##.tuijian-wrap
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
+.xyz/*=$object,third-party
 .buzz/*=$object,third-party
 .cam/ads/
 .cc/ad/
@@ -2087,6 +2088,9 @@ newduba.cn###jq_youxi
 ||bdates.fun^
 ||zfcdirf.icu^
 ||ronbbf.xyz^
+||lwide.xyz^
+||pirxzl.xyz^
+||zfteiv.xyz^
 ||ymhyw6.lol^
 ||zerolcp.cn^
 ||zonyff.xyz^
@@ -13550,7 +13554,7 @@ tools.2345.com##._hb-box + .mod
 qq.com##._switchad
 pincong.rocks##.a-a
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
-cupfox.app##.a1-box[class^="jsx-"]
+cupfox.app##div[class*="-box"][class^="jsx-"]
 159i.com##.a1.style25
 159i.com##.a1d
 159i.com##.a2.style25
