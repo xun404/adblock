@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jZwNtGrEhqyV/feZxKnfZw
+! Checksum: lmceL5bvJg8DDcGzvhHF8Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202307121737
-! Last Modified: 2023年07月12日 17:37
+! Version: 202307121937
+! Last Modified: 2023年07月12日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -959,7 +959,7 @@ voiranime.com#$#abort-current-inline-script document.createElement String.fromCh
 flystream.fr,filmtelecharger.net,libertyvf.co,libertyvf.tv,libertyvf.com,streaming-one.com,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extreme-down.work,extreme-down.video,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz#$#abort-current-inline-script Math zfgloaded
 ! #CV-1396
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsorisé")]/parent::div[@class and @id]'
-cdiscount.com#$#hide-if-matches-xpath './/div[@class][normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::div[@id and @class][not(@id="main")]|.//div[@class][normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::li[@class]'
+cdiscount.com#$#hide-if-matches-xpath './/div[normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::div[@id and @class][not(@id="main")]|.//div[normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::li[@class]'
 ! MISC
 hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read ownerid
 hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
