@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HqXJ0Gg/GDb7zW3S8XGSBg
+! Checksum: ZptPEKS/wge9ai7RFOYY4g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307122238
-! Last Modified: 2023年07月12日 22:38
+! Version: 202307122338
+! Last Modified: 2023年07月12日 23:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21799,6 +21799,7 @@ eneuro.org,jneurosci.org#@#.region-ad-top
 offmoto.com#@#.reklama
 msn.com#@#.serversidenativead
 audioholics.com,classy-online.jp#@#.side-ad
+ekitan.com#@#.sidebar-ad
 independent.com#@#.sidebar-ads
 cadlinecommunity.co.uk#@#.sidebar_advert
 24city.cn.ua#@#.single-ads
@@ -28088,7 +28089,6 @@ browsershots.org#@#.advert_area
 ||coojaiku.com^
 ||cookieless-data.com^
 ||cookinghither.com^
-||cookpad-ads.com^
 ||cooksrosiny.website^
 ||coolappland.com^
 ||coolappland1.com^
@@ -48048,6 +48048,7 @@ browsershots.org#@#.advert_area
 ||contenture.com^$third-party
 ||contextads.live^$third-party
 ||contextuads.com^$third-party
+||cookpad-ads.com^$third-party
 ||coolerads.com^$third-party
 ||coull.com^$third-party
 ||cpaclickz.com^$third-party
@@ -55244,6 +55245,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||gamcore.com/ajax/abc?
 ||gay4porn.com/ai/
 ||gaygo.tv/gtv/frms/
+||gelbooru.com/extras/
 ||gga.xhamster.com^
 ||girlsofdesire.org/blr3.php
 ||girlsofdesire.org/flr2.js
@@ -59801,6 +59803,7 @@ genius.com##div[class^="LeaderboardOrMarquee__"]
 appsample.com##div[class^="MapLayout_Bottom"]
 dailymotion.com##div[class^="NewWatchingDiscovery__adSection"]
 dsearch.com##div[class^="PreAd_"]
+reuters.com##div[class^="RightRail-sticky-container"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
 genius.com##div[class^="SidebarAd_"]
 chloeting.com##div[class^="StickyFooterAds__Wrapper"]
@@ -60867,6 +60870,7 @@ perfectgirls.net##.container + div + .additional-block-bg
 pornwhite.com##.container-aside
 fetishshrine.com##.container-side
 pornfap.tv##.conteiner_info
+senzuri.tube##.content > div > .hv-block-transparent
 pornwhite.com,sleazyneasy.com,wankoz.com##.content-aside
 watchmygf.me##.content-footer
 xxxdessert.com##.content-gallery_banner
@@ -61263,6 +61267,7 @@ pornzog.com##.video-ntv
 pornhdtube.tv##.video-overlay
 hotmovs.tube##.video-page > .block_label > div
 thegay.com##.video-page__content > .right
+senzuri.tube##.video-page__watchfull-special
 pornhd.com##.video-player-overlay
 palimas.org##.video-promo
 hotmovs.tube##.video-right-top
@@ -61270,6 +61275,7 @@ porntry.com,videojav.com##.video-side__spots
 pornez.net##.video-sidebar
 thegay.com##.video-slider-container
 kisscos.net##.video-sponsor
+senzuri.tube##.video-tube-friends
 xhamster.com##.video-view-ads
 javynow.com##.videos-ad__ad
 porndoe.com##.videos-tsq
@@ -63753,6 +63759,7 @@ newduba.cn###jq_youxi
 ||kyq3hky.icu^
 ||dosre12.xyz^
 ||hpvwdkn.cn^
+||jdcnwd.com^
 ||zfcdirf.icu^
 ||zfteiv.xyz^
 ||zonyff.xyz^
@@ -114221,6 +114228,7 @@ arketing.indianadunes.com^
 ||yahoo.co.jp/p?
 ||yahoo.co.jp/s?s=
 ||yjtag.yahoo.co.jp^
+||zatsubitown.com/mailfriend/kaiseki
 ||ad-log.dable.io^
 ||aem-collector.daumkakao.io^
 ||auction.co.kr/ad/log.js
@@ -115101,6 +115109,7 @@ arketing.indianadunes.com^
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 @@||townwork.net/js/AppMeasurement.js$~third-party
+@@||treasuredata.com^$script,domain=skincare-univ.com
 @@||twicli.neocat.jp/plugins/geomap.js
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||type.jp/common/js/clicktag.js
