@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UnJ+ykII5UVoAPtc9Es4ng
+! Checksum: TKL0cLif0CDSx+HLsVa95w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307121537
-! Last Modified: 2023年07月12日 15:37
+! Version: 202307121840
+! Last Modified: 2023年07月12日 18:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21297,6 +21297,7 @@ _800x80_
 ##topadblock
 ##zeus-ad
 ##.mntl-leaderboard-spacer
+##.shopee-search-user-brief
 ##a[href*=".cfm?fp="][href*="&maxads="]
 ##.CitrusBannerWrapper--enollj
 ##[class^="tile-picker__CitrusBannerContainer-sc-"]
@@ -56209,7 +56210,6 @@ dict.cc###recthomebot
 tapatalk.com###relatedblogbar
 10minutemail.net,eel.surf7.net.my,javatpoint.com###right
 msguides.com###right-bottom-camp
-rustlabs.com###right-column > .sub-info-block
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
 gogetaroomie.com###right-space
@@ -60345,6 +60345,7 @@ noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 mg.co.za#?#article:-abp-has(.sponsored-single)
 metager.org#?#.result:-abp-has(.mark:-abp-contains(Ad))
 metager.org#?#.result:-abp-has(span:-abp-contains(partnershop))
+rustlabs.com#?#.sub-info-block:-abp-has(#banner)
 rakuten.com#?#div[data-productid]:-abp-has(div.productList_sponsoredAds_RUS)
 alibaba.com#?#.J-offer-wrapper:-abp-contains(Top sponsor listing)
 officedepot.com#?#.od-col:-abp-has(.od-product-card-region-colors-sponsored)
