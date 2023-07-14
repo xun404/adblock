@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ru/qv5AjnG1vs/9olFOhJg
+! Checksum: Ngs1Ie14FeZ6A+0PqgO2Lg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307150240
-! Last Modified: 2023年07月15日 02:40
+! Version: 202307150737
+! Last Modified: 2023年07月15日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62097,6 +62097,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+.com/sitejs/hansan.js
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -63539,6 +63540,7 @@ newduba.cn###jq_youxi
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ~shenguangai.com##a[href*=".shenguangai.com/"]
+##a[href*=".taobao.com"] > .top1
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*="/23.224.188."]
@@ -63601,7 +63603,6 @@ newduba.cn###jq_youxi
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
-##A[href*=".taobao.com"] > .top1
 ##div#xinxi
 ##div[bannerlist]
 ~ix8.la##div[class^="ADTOPLB_"]
@@ -63678,6 +63679,7 @@ newduba.cn###jq_youxi
 ||bkhblj.xyz^
 ||boewgph.icu^
 ||caider.fun^
+||chiese.site^
 ||ciadre.fun^
 ||cix0wk.com^
 ||connectreadoasis.com^
@@ -63703,6 +63705,7 @@ newduba.cn###jq_youxi
 ||fjsytjs.cn^
 ||fjtroip.cn^
 ||fuliwang.cc^
+||fwzvlp.xyz^
 ||gkjmev3.com^
 ||glhdan.site^
 ||gw1jvhs.com^
@@ -63721,6 +63724,7 @@ newduba.cn###jq_youxi
 ||ipadf.xyz^
 ||jdcnwd.com^
 ||jh16csf.com^
+||jhzfwl.cn^
 ||jokerlulm.com^
 ||jpqed.xyz^
 ||jrmrijv.icu^
@@ -63732,16 +63736,20 @@ newduba.cn###jq_youxi
 ||kyq3hky.icu^
 ||kyq3xch.icu^
 ||laink.xyz^
+||lamkghx.icu^
 ||lanver.fun^
 ||lgohse.fun^
 ||lifyeldl.top^
 ||lwide.xyz^
 ||metaversemolecule.com^
+||mlstx.cn^
 ||moobtcnse.xyz^
 ||nieae.xyz^
 ||nryqr.cn^
 ||oifyeldk.top^
 ||one6u.xyz^
+||oopej.xyz^
+||pcvzpj.xyz^
 ||pirxzl.xyz^
 ||plbs9k.icu^
 ||powedw.com^
@@ -63755,6 +63763,7 @@ newduba.cn###jq_youxi
 ||rtumdhdk.xyz^
 ||rtumwzp.icu^
 ||sa8zdui.com^
+||sfg11rr.com^
 ||soushubah.com^$third-party
 ||sq59.cn^
 ||ssjuxsc.cn^
@@ -63772,20 +63781,17 @@ newduba.cn###jq_youxi
 ||xcvwrj.xyz^
 ||xiaoxiuapp.com^
 ||xmxupz.xyz^
+||xukou.net^
 ||yh18h8s.com^
 ||ymhyw6.lol^
+||zcvyzsyd.icu^
 ||zerolcp.cn^
 ||zfcdirf.icu^
-||sfg11rr.com^
-||jhzfwl.cn^
-||chiese.site^
-||oopej.xyz^
-||lamkghx.icu^
-||pcvzpj.xyz^
-||fwzvlp.xyz^
-||zcvyzsyd.icu^
-||xukou.net^
-||mlstx.cn^
+||jszavs1.com^
+||tmwbszn.icu^
+||qselic.top^
+||pmxalz.xyz^
+||qqnde.xyz^
 ||zfteiv.xyz^
 ||ziravd.xyz^
 ||zonyff.xyz^
@@ -75248,9 +75254,9 @@ pincong.rocks##.a-a
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
 159i.com##.a1.style25
 159i.com##.a1d
-cupfox.app##.a3-box[class^="jsx-"]
 159i.com##.a2.style25
 159i.com##.a2d
+cupfox.app##.a3-box[class^="jsx-"]
 159i.com##.a3d
 159i.com##.a4d
 thinkphp.cn##.a6
@@ -81931,7 +81937,6 @@ fqsousou.com,kengso.com#@#.user-share
 /acecounter_
 /acounter.php?
 /action/analytics
-/ActionLogger?
 /activity-track/?
 /activity.gif?
 /AD/PageHits.
@@ -81954,7 +81959,6 @@ fqsousou.com,kengso.com#@#.user-share
 /adds/counter.js
 /adlogger.
 /adm_tracking.js
-/AdmitadTagTag.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.
 /adobe-analytics/*
@@ -81965,7 +81969,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adobe/AppMeasurement-
 /adobe/logging/*
 /adobe/target/*
-/adobe/VideoHeartbeat-
+/adobe/VideoHeartbeat.
 /adobe/visitor-
 /adobe/VisitorAPI-
 /adobeAnalytics/*
@@ -82118,7 +82122,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/collect?
 /analytics/collector.
 /analytics/collector/*
-/analytics/dealerfire/*
 /analytics/dist/*
 /analytics/embed/*
 /analytics/engine/*
@@ -82126,12 +82129,9 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/ga.
 /analytics/ga/*
 /analytics/ga?
-/analytics/gallup/*
 /analytics/geoip/*
-/analytics/google/*
 /analytics/inboundAnalytics.
 /analytics/initSession
-/analytics/klaviyo_
 /analytics/layer
 /analytics/mbox_
 /analytics/metric/*
@@ -82218,7 +82218,6 @@ fqsousou.com,kengso.com#@#.user-share
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
-/api/v2/jsonlogger
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
@@ -82271,15 +82270,12 @@ fqsousou.com,kengso.com#@#.user-share
 /audience_science.
 /audience_science_
 /audienceScience.
-/audiweb.js
-/audsci.js
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
 /AutoTracker.js
-/aux/collect?
 /avtstats.
 /aw-tracker.
 /awAnalytics.
@@ -82353,7 +82349,6 @@ fqsousou.com,kengso.com#@#.user-share
 /bf.gif?ac=
 /bicomscore.
 /bicomscore_
-/bin/stats?
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
@@ -82364,7 +82359,6 @@ fqsousou.com,kengso.com#@#.user-share
 /blaize/datalayer
 /blank.gif?*%
 /blank.gif?*&
-/blockstat?
 /blogcounter.js
 /bluekai.
 /bluekai/*
@@ -82477,9 +82471,7 @@ fqsousou.com,kengso.com#@#.user-share
 /click-analytics.
 /click-count.
 /click-logger.$image,script
-/click-stat.js
 /click-tracker
-/click.php?c=
 /click?track=
 /click_metrics-jquery.js
 /click_stat/*
@@ -82490,9 +82482,6 @@ fqsousou.com,kengso.com#@#.user-share
 /clickability-
 /clickability.$domain=~clickability.com.au
 /clickability/*
-/clickability2/*
-/clickability?
-/clickAnalyse.
 /clickcount.
 /clickcount/*
 /clickcount_
@@ -83065,7 +83054,6 @@ fqsousou.com,kengso.com#@#.user-share
 /fusion/lucid/data/*
 /g-track/*
 /g2insights.
-/g=analytics&
 /g_track.php?
 /ga-affiliates.
 /ga-async-
@@ -83583,7 +83571,6 @@ fqsousou.com,kengso.com#@#.user-share
 /loadcounter.
 /loader-counter.
 /loader/counter.js
-/loadJsFingerprint.js
 /localga.js
 /locotrack.js
 /log-ads.
@@ -84968,10 +84955,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track.v2.js
 /track/?*&event=
 /track/?data=
-/track/?s=
-/track/?site
 /track/aggregate?
-/track/alooma-
 /track/batch?
 /Track/Capture.aspx?
 /track/client-event/*
@@ -85475,7 +85459,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wrapper/metrics/*
 /WRb.js
 /wreport.js
-/writeKAStats/*
 /writelog.js
 /wsStats.
 /wsStats_
@@ -85544,7 +85527,6 @@ fqsousou.com,kengso.com#@#.user-share
 ://blue.*/script.js
 ://collect.*/pageview
 ://collector.*/event
-://email.*/blankpixel.gif
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://internal-matomo.
 ://lightning.*/launch/
