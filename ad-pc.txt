@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cQl0Qv8uanx26WZAX7jHig
+! Checksum: hiju2T4Wj300Hf4KxGEK7w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307151440
-! Last Modified: 2023年07月15日 14:40
+! Version: 202307151638
+! Last Modified: 2023年07月15日 16:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -13852,6 +13852,7 @@ _800x80_
 ##.adssmall
 ##.adssquare
 ##.adssquare2
+##.adsterra
 ##.adstext
 ##.adstextpad
 ##.adstipt
@@ -32831,6 +32832,7 @@ browsershots.org#@#.advert_area
 ||highrevenuegate.com^
 ||hightopnews.com^
 ||hightopnewstoday.com^
+||highwaycpmrevenue.com^
 ||highwaydizzy.com^
 ||higseres.com^
 ||hikvar.ru^
@@ -42957,6 +42959,7 @@ browsershots.org#@#.advert_area
 ||stinglackingrent.com^
 ||stinkcomedian.com^
 ||stinkyloadeddoctor.com^
+||stinkyrepetition.com^
 ||stinternoctuae.com^
 ||stipelyaya.live^
 ||stipestilths.com^
@@ -55680,6 +55683,7 @@ h-online.com###bannerzone
 uinterview.com###below-content
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com###below-toprail
 post-gazette.com###benn-poll-iframe-container
+safetydetectives.com###best_deals_widget
 dcnewsnow.com,ktla.com###bestreviews-widget
 usnews.com###bfad-slot
 shellshock.io###big-house-ad
@@ -56104,6 +56108,7 @@ files.im###plyrrr
 pikalytics.com###pokedex-top-ad
 politico.com###pol-01-wrap
 pons.com###pons-ad-leaderboard__container
+safetydetectives.com###popup
 chaseyoursport.com###popup1
 quickmeme.com###post[style="display: block;min-height: 290px; padding:0px;"]
 ultrabookreview.com###postadsside
@@ -56711,8 +56716,9 @@ projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
 ndtv.com##.add__txt
 ndtv.com##.add__wrp
-news18.com##.add_section
+longevity.technology,news18.com##.add_section
 timesofindia.indiatimes.com##.addblock
+longevity.technology##.addvertisment
 aish.com##.adholder-sidebar
 auto-data.net##.adin
 boards.4channel.org##.adl
@@ -82158,6 +82164,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
+/api/v2/jsonlogger
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
@@ -85674,6 +85681,7 @@ _WebVitalsReporter_
 /click.*/q/*$image
 /click.em.nike.com/*$image
 /click.email.$image
+/click.php?c=
 /clicks.*/q/*$image
 /clicks.email.$image
 /cmail2.com/t/*
