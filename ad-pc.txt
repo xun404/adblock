@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aE1oPMJkwwD3+H14JBePXQ
+! Checksum: z2gr0lNsdjEkA1S+TuStQQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307162337
-! Last Modified: 2023年07月16日 23:37
+! Version: 202307170041
+! Last Modified: 2023年07月17日 00:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1660,7 +1660,6 @@ tieba.baidu.com##.tuijian-wrap
 /adserv2.
 /adserv3.
 /adserve-
-/adserve.
 /adserve/*
 /adserve_
 /adserver-
@@ -60486,7 +60485,7 @@ youporngay.com###pbs_block
 ggjav.com###pc_instant
 imagearn.com###picBanner
 7mmtv.tv###player-container[style="width:300px;height:250px"]
-hentai2w.com,pornxt.com,xhentai.tv###playerOverlay
+hentai2w.com,iporntoo.com,pornxt.com,xhentai.tv###playerOverlay
 ebony8.com,lesbian8.com,maturetubehere.com###player_add
 redtube.com###popsByTrafficJunky
 jav321.com###popup-container
@@ -60573,6 +60572,7 @@ cambb.xxx,chaturbate.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermain
 x13x.space##.ad-banner
 kemono.party,kemono.su,pinflix.com,urlgalleries.net##.ad-container
 xtube.com##.adContainer
+iporntoo.com##.adbox-inner
 ftopx.com##.add-block
 sex3.com##.add-box
 playvids.com##.add_href_jsclick
@@ -63529,11 +63529,14 @@ newduba.cn###jq_youxi
 ||194.59.220.161^
 ||23.234.217.11^
 ||23.234.217.12^
+##a[href*=".f2ocoin.com/"]
+##a[href*="/9966699.vip"]
 ##a[href*="/mug749.vip"]
 ||1u5gy.xyz^
 ||3400.org^
 ||52kuwang.cn^
 ||abrnfctkn.xyz^
+||allcp.xyz^
 ||amerzbj.cn^
 ||baiduisjkbvsjkl.com^
 ||baiduvjsbvjknlsvsv.com^
@@ -63543,6 +63546,7 @@ newduba.cn###jq_youxi
 ||bifyeldv.top^
 ||bkhblj.xyz^
 ||boewgph.icu^
+||btescs.fun^
 ||bttazsyk.icu^
 ||caider.fun^
 ||chiese.site^
@@ -63556,16 +63560,19 @@ newduba.cn###jq_youxi
 ||dadde.cn^
 ||dd778899dd.com^
 ||dhkipdsc.xyz^
+||dojyiu8.com^
 ||donchen501.cn^
 ||dosre12.xyz^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||duoying.vip^$third-party
+||dyeperd.icu^
 ||eghyahl.cn^
 ||erfskhnpter.xyz^
 ||esgher.site^
 ||euitx.cn^
 ||evidhjksdtgyxrh.xyz^
+||ewfsef.com^
 ||eyq3nog.icu^
 ||falsarywaybung.com^
 ||fjsytjs.cn^
@@ -63591,6 +63598,7 @@ newduba.cn###jq_youxi
 ||iplm.cc^
 ||jdcnwd.com^
 ||jh16csf.com^
+||jhlazsot.icu^
 ||jhzfwl.cn^
 ||jokerlulm.com^
 ||jpqed.xyz^
@@ -63610,10 +63618,12 @@ newduba.cn###jq_youxi
 ||lifyeldl.top^
 ||lwide.xyz^
 ||metaversemolecule.com^
+||misapopait.com^
 ||mlstx.cn^
 ||moobtcnse.xyz^
 ||ngbthf.xyz^
 ||nieae.xyz^
+||nqdufv.xyz^
 ||nryqr.cn^
 ||oifyeldk.top^
 ||one6u.xyz^
@@ -63629,6 +63639,7 @@ newduba.cn###jq_youxi
 ||qifyeldy.top^
 ||qqnde.xyz^
 ||qselic.top^
+||rabuagc.cn^
 ||rdufuxr.icu^
 ||relafp.xyz^
 ||ronbbf.xyz^
@@ -63653,6 +63664,7 @@ newduba.cn###jq_youxi
 ||xccadc.com^
 ||xcvwrj.xyz^
 ||xiaoxiuapp.com^
+||xjzyhp.xyz^
 ||xmxupz.xyz^
 ||xukou.net^
 ||yh18h8s.com^
@@ -63660,22 +63672,10 @@ newduba.cn###jq_youxi
 ||zcvyzsyd.icu^
 ||zerolcp.cn^
 ||zfcdirf.icu^
-||dojyiu8.com^
-||btescs.fun^
-||rabuagc.cn^
-||dyeperd.icu^
-||xjzyhp.xyz^
-||ewfsef.com^
-||allcp.xyz^
-||nqdufv.xyz^
-||jhlazsot.icu^
-||misapopait.com^
 ||zfteiv.xyz^
 ||ziravd.xyz^
 ||zonyff.xyz^
 ||zypzzv.xyz^
-##a[href*="/9966699.vip"]
-##a[href*=".f2ocoin.com/"]
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -73604,8 +73604,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-ppys66.com##.container-slide + .container-slide
-16fan.com##.item-newad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -75875,6 +75873,7 @@ zxzjtv.com##.container > .none
 ygdy8.cc##.container > a[href^="/"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
+ppys66.com##.container-slide + .container-slide
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 423down.com##.content > a
 www.wangjing.cn##.content > div[style*="980px;"]
@@ -76544,6 +76543,7 @@ haojiyou.la##.iqshwad-div
 douyu.com##.isLink[href^="https://igxe.cn/"]
 czsp12.com##.iswindow
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
+16fan.com##.item-newad
 gansudaily.com.cn##.itemFloat
 cnbeta.com##.items_area .time
 pconline.com.cn##.ivy > .ivy-wrap
