@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0Ej6cqF1SzbVsO1HjK0clQ
+! Checksum: QbcFDuDTkxHY2RTnaY8GEw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202307182056
-! Last Modified: 2023年07月18日 20:56
+! Version: 202307190437
+! Last Modified: 2023年07月19日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1148,7 +1148,7 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ||razlozhi.ru^$script,header=report-to
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
-/^https?://www\.liveinternet\.ru/[^\s]{100,}/$script,header=X-Content-Type-Options
+/^https?://www\.liveinternet\.ru/[^\s]{100,}/$script,header=x-consumed-content-encoding
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
 yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
