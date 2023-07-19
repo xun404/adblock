@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QbcFDuDTkxHY2RTnaY8GEw
+! Checksum: cEPnQOU63qE83mhXy+ySlw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202307190437
-! Last Modified: 2023年07月19日 04:37
+! Version: 202307191837
+! Last Modified: 2023年07月19日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1360,7 +1360,7 @@ vebotv.today#$#abort-current-inline-script $ vb-pr-box
 plvb.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.com,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 luotphim1.net,luotphim2.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
-cafef.vn,gamek.vn,genk.vn,kenh14.vn#$#override-on-property-read ADMStorageFileCDN noopFunc
+cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn#$#override-property-read ADMStorageFileCDN noopFunc
 bongda365a.club#$#override-property-read isSkipAds true
 zingnews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaBaomoi
