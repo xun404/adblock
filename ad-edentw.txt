@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tvI4DHRMkdle6C6845xo8g
+! Checksum: 1LU5lM/k0OBa5M2yMKUNGg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202307191937
-! Last Modified: 2023年07月19日 19:37
+! Version: 202307200040
+! Last Modified: 2023年07月20日 00:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1149,7 +1149,7 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ||razlozhi.ru^$script,header=report-to
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
-/^https?://www\.liveinternet\.ru/[^\s]{100,}/$script,header=x-consumed-content-encoding
+/^https?://www\.liveinternet\.ru/[^\s]{100,}/$script,header=Timing-Allow-Origin
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
 yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
@@ -1198,7 +1198,7 @@ city.ogo.ua#$#abort-on-property-read myatu_bgm
 erofishki.cc,fishki.net#$#abort-on-property-read fishki.adv
 botanichka.ru,itech.co.ua,agronom.com.ua,mediasat.info,fainaidea.com,1informer.com,dyvys.info#$#abort-on-property-read td_ad_background_click_target
 gdz-putina.fun,gdz.ninja,gdz.ru,gdzotputina.club,gdzputina.net,gdzputina.ru,megaresheba.com,megaresheba.ru,resheba.me,spishi.fun,zoobrilka.net#$#abort-on-property-write app.book.external
-||sports.ru^$script,header=x-yandex-req-id
+||sports.ru^$script,header=report-to
 ||www.e1.ru^$script,header=x-yandex-req-id
 volynpost.com#$#abort-on-property-read trek_shownow
 ati.su#$#abort-on-property-read Object.prototype._bannerOrderAttr
