@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DiLIXCgBsqyTt92uCuyvtQ
+! Checksum: olZAgRpdLN6hEplcano5gA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307201045
-! Last Modified: 2023年07月20日 10:45
+! Version: 202307201438
+! Last Modified: 2023年07月20日 14:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1772,6 +1772,8 @@ newduba.cn###jq_youxi
 ||ntozchv.icu^
 ||fwepd.xyz^
 ||lrlsrz.xyz^
+||wddsva0.com^
+||rilwzsit.icu^
 ||ziravd.xyz^
 ||zonyff.xyz^
 ||zypzzv.xyz^
@@ -22293,7 +22295,6 @@ m.babytree.com##script + a[class]
 /afftracking.
 /aftrack.
 /aggbug.aspx?
-/agwebtracking_
 /ahoy/events
 /ahoy/visits
 /AIT_Analytics.
@@ -22304,12 +22305,8 @@ m.babytree.com##script + a[class]
 /ajax/heatmap-
 /ajax/log?
 /ajax/stat/*
-/ajax/track.php?
 /ajax_video_counter.php?
 /ajaxlog?
-/ajaxstat/*
-/ajaxtracker.
-/ajx/ptrack/*
 /akam/*/pixel_
 /akam/10/*
 /akam/11/*
@@ -22361,7 +22358,6 @@ m.babytree.com##script + a[class]
 /analytics-event/*
 /analytics-events-
 /analytics-facade.
-/analytics-gcp.
 /analytics-gjc/*
 /analytics-helper.
 /analytics-hit?
@@ -22373,15 +22369,11 @@ m.babytree.com##script + a[class]
 /analytics-ping.
 /analytics-plugin/*
 /analytics-pusher/*
-/analytics-reporter/*
-/analytics-scripts.
 /analytics-sdk.
 /analytics-secure.
-/analytics-sendEvent
 /analytics-tag.
 /analytics-tracker/*
 /analytics-tracking.
-/analytics-v1.
 /analytics.*/event?
 /analytics.*/ping/?
 /analytics.*/track
@@ -25537,8 +25529,6 @@ m.babytree.com##script + a[class]
 /v1/pixel?
 /v1/stats/track
 /v1/tracker.js
-/v2/tracking/*
-/v4/analytics.
 /v4/analytics/*$~xmlhttprequest
 /v4/metrics
 /v60.js
