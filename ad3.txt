@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1y2bAA7Jt5UR21+UEEs8FA
+! Checksum: /DcFgOfAkNiaKOx/WmrZYQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202307220737
-! Last Modified: 2023年07月22日 07:37
+! Version: 202307220949
+! Last Modified: 2023年07月22日 09:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1557,6 +1557,9 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.player-tt-rm.rm-list
+##.module-ttlist.tt_w-2
+##.ad-block-cn
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -1804,6 +1807,10 @@ newduba.cn###jq_youxi
 ||hyeqp.xyz^
 ||hdfdsdaw.com^
 ||godni.xyz^
+||tlprlf.xyz^
+||1267a.xyz^
+||ossfile001.com^
+||xckj0623.com^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
@@ -17242,6 +17249,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||supercloudsms.com/static/js/taboola_ads.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -35401,11 +35409,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aegis.trovo.live^
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||affiliates.vpn.ht^
-||agoda.com/api/pixel/
 ||agoda.net/v2/track
-||airtable.com/internal/$xmlhttprequest
-||airtable.com/internal/page_view
-||airtable.com^*/reports
+||airtable.com/internal/
 ||aiv-delivery.net/Events/
 ||aiv-delivery.net/v1/ReportEvent
 ||akamaihd.net/paay6hyr.gif?
