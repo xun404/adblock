@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: acPtiitD8l9v7MHQAJMp+Q
+! Checksum: L28spd0DXgICHeZUCOsU1Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307282337
-! Last Modified: 2023年07月28日 23:37
+! Version: 202307290039
+! Last Modified: 2023年07月29日 00:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -70058,6 +70058,7 @@ newduba.cn###jq_youxi
 ||zzxmcp.com^
 ||zzzhuoxiaqu.online^
 !long-term
+||tamedia.com.tw^$third-party
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 ||06789.xyz^
@@ -74720,8 +74721,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||yhmeinv.com/mh/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+iqiyi.com##.qy20-h-carousel-wrap[data-focus="ad-focus-image"] .qy20-h-carousel__a
+iqiyi.com##.qy20-h-carousel_con-gray a[href^="http"]:not([href*="iqiyi.com/"])
+iqiyi.com##.ad-seed
 yiyouliao.com##.yyl-weiruan-ads-swiper
 yiyouliao.com##.yyl-ads-swiper
 szxx.com.cn###A1
@@ -89381,6 +89386,7 @@ _mongo_stats/
 ||surveyscout.com^$third-party
 ||surveywriter.com^$third-party
 ||survicate.com^$third-party
+||swetrix.org^$third-party
 ||swiss-counter.com^$third-party
 ||synergy-e.com^$third-party
 ||synerise.com^$third-party
