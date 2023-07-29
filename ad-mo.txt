@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8I8wKX1lbzBLxvMYFwjBcg
+! Checksum: n1xyODeneZSDKnkndnOQqg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202307291837
-! Last Modified: 2023年07月29日 18:37
+! Version: 202307291937
+! Last Modified: 2023年07月29日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59610,7 +59610,7 @@ patriotnationpress.com##.t2ampmgy
 sbenny.com##.t3-masthead
 emoneyspace.com##.t_a_c
 ucompares.com##.tablepress-id-46
-6abc.com##.taboola
+6abc.com,abcnews.go.com##.taboola
 gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
 protocol.com##.tag-sponsored
 spectrum.ieee.org##.tag-type-whitepaper
@@ -60259,7 +60259,8 @@ ghostbin.me##a[href*=".short.gy/"]
 chicagoprowrestling.com##a[href*="//thecmf.com/"] > img
 chicagoprowrestling.com##a[href*="//www.aliciashouse.org/"] > img
 itweb.co.za##a[href*="/adclick.php?"]
-torrentgalaxy.to##a[href*="/hub.php?a"][target="_blank"]
+torrentgalaxy.to##a[href*="/fetchdownload.php?"]
+torrentgalaxy.to##a[href*="/hub.php?a"][target]
 breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landline.media,mikesmoneytalks.ca,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
 movie-censorship.com##a[href*="/out.php?"]
 imagetwist.com##a[href*="/par/"]
@@ -92722,6 +92723,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ariane.abtasty.com^
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
+||assets.yumpu.com/release/*/tracking.js
 ||asterpix.com/tagcloudview/
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
@@ -93407,6 +93409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
 ||geo.thehindu.com^
 ||geobar.ziffdavisinternational.com^
+||geoip.apps.avada.io^
 ||geoip.instiengage.com^
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
