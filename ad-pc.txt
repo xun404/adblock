@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dING+lj0sWM6gcQx2yiv1w
+! Checksum: SIltoWRDyMpw/M0ajM5eRQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202307291937
-! Last Modified: 2023年07月29日 19:37
+! Version: 202307292047
+! Last Modified: 2023年07月29日 20:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25880,6 +25880,7 @@ browsershots.org#@#.advert_area
 ||bmcdn3.com^
 ||bmcdn4.com^
 ||bmcdn5.com^
+||bmcdn6.com^
 ||bmhenchlyica.xyz^
 ||bmkz57b79pxk.com^
 ||bmpgkspo.xyz^
@@ -58220,6 +58221,7 @@ investing.com##.dfp-native
 investing.com##.dfpVideo
 dailyfx.com##.dfx-article__sidebar
 kiplinger.com##.dianomi_gallery_wrapper
+kmplayer.com##.dim-layer
 coingape.com##.diplay-m-ad
 temporary-phone-number.com##.direct-chat-messages > div[style="margin:15px 0;"]
 disk.yandex.com,disk.yandex.ru##.direct-public__sticky-box
@@ -59310,7 +59312,7 @@ coingape.com,dailyboulder.com,townflex.com##.quads-location
 surfline.com##.quiver-google-dfp
 tgstat.com##.r1-aors
 calendar-canada.ca##.r89-outstream-video
-joins.com##.r_banner
+joins.com,kmplayer.com##.r_banner
 linuxtopia.org##.raCloseButton
 time.is##.rad
 wahm.com##.rad-links
@@ -60777,6 +60779,7 @@ americaoutloud.com,analyticsindiamag.com,autoaction.com.au,cryptoreporter.info,d
 boxthislap.org##img[width="728px"][height="90px"]
 dailyuploads.net##input[value^="Download From Server"]
 broadbandforum.co##ins[data-ad-client]
+earnhub.net##ins[style^="display:inline-block"]
 unmineablesbest.com##ins[style^="display:inline-block;width:300px;height:250px;"]
 natureworldnews.com##label
 bestbuy.com##li.embedded-sponsored-listing
@@ -93234,6 +93237,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2wa5sea6guof0.cloudfront.net^
 ||dadi.technology^$third-party
 ||dash.getsitecontrol.com^
+||dashboard.nowdialogue.com/api/events/
 ||data.circulate.com^
 ||data.digitalks.az^
 ||data.eetech.com^
