@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E8pU86J8RDOTYgIvoxVOeQ
+! Checksum: VHarP7AqDxGpld5DCUuAyA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202307310737
-! Last Modified: 2023年07月31日 07:37
+! Version: 202307310948
+! Last Modified: 2023年07月31日 09:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -14,6 +14,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+/api/Video/GetAdsDataList?
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -1938,6 +1939,7 @@ newduba.cn###jq_youxi
 ||lskmipb.icu^
 ||bcejk.xyz^
 ||rddsjx.xyz^
+||hxhohd.xyz^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
@@ -11870,6 +11872,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||iyf.tv/play/$xmlhttprequest
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -19320,7 +19323,6 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ##vg-pause-ads
 @@/ads.js$domain=iyf.tv
 ||dnvodcdn.me/fast/*.mp4
-||flyv.tv/a/$xmlhttprequest
 ||s1-a1.dnvodcdn.me^*.svg
 !#e
 !#f
