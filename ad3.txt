@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kjCHge7qxzYU4wPEy+F5NA
+! Checksum: Zsnsys8vsDjzPf7aSC1YuA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202308011047
-! Last Modified: 2023年08月01日 10:47
+! Version: 202308011237
+! Last Modified: 2023年08月01日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -11882,9 +11882,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||yii666.com/ad/dynamic-
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yii666.com##.widget-asst > p > a[href^="http"]:not([href*="yii666.com"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17406,6 +17408,7 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
+yii666.com#@#.google-ad
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
@@ -23628,11 +23631,9 @@ m.babytree.com##script + a[class]
 /gatrack.
 /gaTracker.
 /gatracking.
-/gatrackingcampaigns/*
 /gatrackthis.
 /gatrackwww.
 /gb-tracker-
-/gc?id=*&refurl=
 /gc?refurl=
 /gClickTracking.
 /gcount.pl?
@@ -23642,7 +23643,6 @@ m.babytree.com##script + a[class]
 /gemius.js
 /gemius1.js
 /gemius_
-/gemiusAudience.
 /gen204/*
 /gen204?
 /generictracking.
@@ -23663,32 +23663,18 @@ m.babytree.com##script + a[class]
 /geoLocationData/v1/*
 /geomap.js?
 /geov2.js
-/get-pro/*&fingerprint=
-/get-tracking-data
-/get?affid=$script
-/get_browser_info.
 /get_geoip?
-/get_site_data?account_id=
 /get_site_data?requestUUID=
-/get_tracking_url.
 /getbglog.js
 /getclicky.
 /getclicky_
-/getcookie.php?
-/getcount?ids=
 /getIbleStats?
 /getlog.gif?
-/getnortonsealimaget.js
 /getstats.js.php
-/getThirdPartyTracking?
-/getTotalHits.
-/gifbanner?
-/gifstats.
 /gigyaGAIntegration.
 /gingeranalytics.
 /GlanceCobrowseLoader_
 /GlancePresenceVisitor_
-/glbltrackjs.
 /global-analytics.js
 /global/analytics/*
 /global/ga.js?
@@ -23696,12 +23682,7 @@ m.babytree.com##script + a[class]
 /global_analytics.
 /global_tracking.js
 /globalpagetracking.js
-/glogger.js
-/gmasst.gif?guid=
-/gn_analytics.
-/gn_tracking.
 /goAnalytics.
-/GomezTracking.
 /google-analyticator/*
 /google-analytics/*$domain=~stackexchange.com|~superuser.com
 /google-nielsen-analytics.
@@ -23713,12 +23694,9 @@ m.babytree.com##script + a[class]
 /google_analitycs.
 /google_analytics3_
 /google_analytics4.js
-/google_page_track
 /google_tag.
 /google_tag/*
-/google_tag_extra.
 /google_tracker.
-/GoogleAdnalyticsJs?
 /googleana.
 /googleAnal.js
 /GoogleAnalystics.
@@ -23728,15 +23706,11 @@ m.babytree.com##script + a[class]
 /GoogleAnalytics?utmac=
 /googleAnalyticsBase_
 /GoogleAnalyticsBC3.
-/googleAnalyticsBottom.
 /googleAnalyticsDataLayer.
 /GoogleAnalyticsEvents.
 /GoogleAnalyticsModule.
-/googleAnalyticsOutgoingLinks.
-/GoogleAnalyticsPlugIn.
 /GoogleAnalyticsPlus/*
 /googleAnalyticsTracking.
-/GoogleAnalyticsTrackingProvider.js
 /googleanalyze1.
 /googleanalyze2.
 /googleasynctrack.
@@ -24444,8 +24418,6 @@ m.babytree.com##script + a[class]
 /om.gif?
 /om_ctrack.
 /om_tracking_
-/omega?ad_
-/omega?tceRow_
 /omni-tracking.
 /omniture-scode-prod.
 /omniture.do;
