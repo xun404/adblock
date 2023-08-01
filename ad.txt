@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1I4cOkZebXyHKbP/PhSG7Q
+! Checksum: 8R17fRBedun4OgayAiMdpw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202308010737
-! Last Modified: 2023年08月01日 07:37
+! Version: 202308010954
+! Last Modified: 2023年08月01日 09:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -460,6 +460,7 @@ tieba.baidu.com##.tuijian-wrap
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
+/html/709/*.js
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -1545,9 +1546,8 @@ newduba.cn###jq_youxi
 ##.addddddwarp
 ##.adlistcss
 ##.adpc > .module
-##.adpc > .promote-link
-##.adpc > .promote-link-
-##.adpc > .promote-link_
+##.adpc > .promot-link-
+##.adpc > .promot-link_
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-after-content
@@ -2393,6 +2393,9 @@ newduba.cn###jq_youxi
 ||hegk01a.top^
 ||erty0yx.com^
 ||svvev3.com^
+||lhotajl.icu^
+||pbtsjh.xyz^
+||fvxlhn.xyz^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
