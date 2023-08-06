@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 09Yyd/tFW7mu0hLKeA2jBQ
+! Checksum: SoVSfF2wEf5AccN2bdMPfw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308062137
-! Last Modified: 2023年08月06日 21:37
+! Version: 202308062237
+! Last Modified: 2023年08月06日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2355,7 +2355,6 @@ tieba.baidu.com##.tuijian-wrap
 /easyazon-
 /ec5bcb7487ff.js
 /emailads/*
-/embed-ad-
 /embed/ad/*
 /embed/ads.
 /embed_ad.
@@ -6792,6 +6791,7 @@ _800x80_
 ###banneradspace
 ###banneradvert3
 ###banneradvertise
+###bannerplayer-wrap
 ###baseboard-ad
 ###baseboard-ad-wrapper
 ###bbContentAds
@@ -16804,7 +16804,6 @@ _800x80_
 ##.home_advertisement
 ##.home_advertorial
 ##.home_box_latest_ads
-##.home_iframead
 ##.home_mrec_ad
 ##.home_offer_adv
 ##.home_sidebar_ads
@@ -26456,6 +26455,7 @@ browsershots.org#@#.advert_area
 ||cadetrigourlegitimate.com^
 ||cadfixbig.site^
 ||cadlsyndicate.com^
+||cadrctlnk.com^
 ||cadsans.com^
 ||cadsecs.com^
 ||cadsimz.com^
@@ -37017,6 +37017,7 @@ browsershots.org#@#.advert_area
 ||navaltophes.com^
 ||navelfletch.com^
 ||naveljutmistress.com^
+||navigablepiercing.com^
 ||nawpush.com^
 ||naysaywinless.guru^
 ||naywordumiaks.website^
@@ -44225,6 +44226,7 @@ browsershots.org#@#.advert_area
 ||teracreative.com^
 ||teraiwaxing.uno^
 ||terbaru.cyou^
+||terbit2.com^
 ||terciogouge.com^
 ||terelinkman.info^
 ||terialnevitiesini.com^
@@ -51342,6 +51344,7 @@ browsershots.org#@#.advert_area
 ||mb38.com^$popup
 ||mb57.com^$popup
 ||mbstrk.com^$popup
+||mcpuwpush.com^$popup
 ||media-servers.net^$popup
 ||media-serving.com^$popup
 ||mediamansix.com^$popup
@@ -52467,6 +52470,7 @@ browsershots.org#@#.advert_area
 ||tendencyexcavatornook.com^$popup
 ||tendencysanction.com^$popup
 ||tenthgiven.com^$popup
+||terbit2.com^$popup
 ||terraclicks.com^$popup
 ||terralink.xyz^$popup
 ||tfaln.com^$popup
@@ -56323,6 +56327,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||kindgirls.com/banners2/
 ||kompoz2.com/js/take.max.js
 ||koushoku.org/proxy?
+||kurakura21.space/js/baf.js
 ||letsjerk.org/agent.php?
 ||letsjerk.org/api/spots/
 ||load.xxxdb.io^
@@ -56431,6 +56436,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||rn2vw3.xhamster.com^
 ||ro55cpi1.xhamster.com^
 ||rst.pornyhd.com^
+||rubystream.xyz/z-$script
 ||ruedux.com/code/script/
 ||rule34hentai.net^$subdocument,~third-party
 ||rusdosug.com/Fotos/Banners/
@@ -61354,6 +61360,7 @@ geekzone.co.nz##.adsbygoogle
 apkmirror.com##.ains-apkm_outbrain_ad
 tweaktown.com##.center-tag-rightad
 rawstory.com##.connatix-hodler
+apkmirror.com##.ezo_ad
 duckduckgo.com##.js-results-ads
 duckduckgo.com##.js-sidebar-ads > .nrn-react-div
 history.com##.m-balloon-header--ad
@@ -61363,6 +61370,7 @@ impartialreporter.com,polygon.com##.ob-smartfeed-wrapper
 duckduckgo.com##.results--ads
 mail.google.com##a[href^="http://li.blogtrottr.com/click?"]
 geekzone.co.nz##div.cornered.box > center
+apkmirror.com##div[id^="adtester-container-"]
 yandex.com##div[id^="yandex_ad"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###atvcap > .cu-container div[data-pla="1"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###tads[aria-label]
@@ -62096,6 +62104,7 @@ txxx.com##.hgggchjcxja
 porn300.com,porndroids.com##.hidden-under-920
 worldsex.com##.hide-on-mobile
 hentairules.net##.hide_on_mobile
+javgg.net##.home_iframead > a[target="_blank"] > img
 mumbaiporn.com##.hor-spots-bl
 orgasm.com##.horizontal-banner-module
 underhentai.net##.hp-float-skb
@@ -65238,6 +65247,7 @@ newduba.cn###jq_youxi
 ||mnhknds.com^
 ||dghkpp.xyz^
 ||hjgkr0g.xyz^
+||eheb8.cn^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
