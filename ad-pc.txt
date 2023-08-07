@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: daV71XIsLAJg4G9hXomTKA
+! Checksum: 1875gbn2GM10XFftFJ/x9A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308072237
-! Last Modified: 2023年08月07日 22:37
+! Version: 202308072337
+! Last Modified: 2023年08月07日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6688,6 +6688,7 @@ _800x80_
 ###article-ads
 ###article-advert
 ###article-advert-dfp
+###article-aside-top-ad
 ###article-billboard-ad-1
 ###article-bottom-ad
 ###article-box-ad
@@ -14420,6 +14421,7 @@ _800x80_
 ##.article-advert-container
 ##.article-advert-dfp
 ##.article-aside-ad
+##.article-aside-top-ad
 ##.article-body-affiliate-box
 ##.article-body__suppl_content--inline-ad
 ##.article-content-ad
@@ -65170,6 +65172,7 @@ newduba.cn###jq_youxi
 ||52kuwang.cn^
 ||777aa999aa.com^
 ||8861198.com^
+||89mtdab.xyz^
 ||a8age.com^
 ||a9able.com^
 ||abdluv.xyz^
@@ -65209,12 +65212,14 @@ newduba.cn###jq_youxi
 ||canser5.top^
 ||ccnim.xyz^
 ||cdmjur.xyz^
+||cfdns.vip^
 ||chiese.site^
 ||ciadre.fun^
 ||cix0wk.com^
 ||connectreadoasis.com^
 ||csedasdme.xyz^
 ||cslbahf.top^
+||ctquh0q.xyz^
 ||cuioxbqi.com^
 ||cxsh.cn.com^
 ||cyq3noz.icu^
@@ -65279,6 +65284,7 @@ newduba.cn###jq_youxi
 ||fwepd.xyz^
 ||fwzvlp.xyz^
 ||ggdrfh5.com^
+||gghmef7.com^
 ||ghland.site^
 ||gjipd.xyz^
 ||gkjmev3.com^
@@ -65289,6 +65295,7 @@ newduba.cn###jq_youxi
 ||gw1jvhs.com^
 ||gyq3bew.icu^
 ||gyutmrp.com^
+||hacde3.icu^
 ||hanwdsii.com^
 ||hasgde.site^
 ||hbqabbg.cn^
@@ -65371,6 +65378,7 @@ newduba.cn###jq_youxi
 ||kqubxdb.cn^
 ||kslbahd.top^
 ||kv8899.com^
+||kwcmrfb.cn^
 ||kxm1b0u.com^
 ||kyplpw.com^
 ||kyq3hky.icu^
@@ -65390,6 +65398,7 @@ newduba.cn###jq_youxi
 ||lkmhn.com^
 ||llpuhx.xyz^
 ||lmnpd.xyz^
+||lqjinx.xyz^
 ||lrlsrz.xyz^
 ||lrqpyhn.icu^
 ||lskmipb.icu^
@@ -65399,6 +65408,7 @@ newduba.cn###jq_youxi
 ||metaversemolecule.com^
 ||mifyeldx.top^
 ||misapopait.com^
+||mkjnha.com^
 ||mlstx.cn^
 ||mmead.xyz^
 ||mnhknds.com^
@@ -65407,6 +65417,7 @@ newduba.cn###jq_youxi
 ||mt4v4.com^
 ||mvamnng.cn^
 ||mvgucp.com^
+||naqiwjj.icu^
 ||ncgqmzm.cn^
 ||nektonsrutate.com^
 ||ngbthf.xyz^
@@ -65527,10 +65538,12 @@ newduba.cn###jq_youxi
 ||vrr.name^
 ||vvdzucs.cn^
 ||vvwuqxp.icu^
+||vwfppr.xyz^
 ||vxhtxt.xyz^
 ||wddsva0.com^
 ||wnzle.com^
 ||wsdfame.com^
+||wslbahe.top^
 ||wubizigeng.com^
 ||wuye3d.com^
 ||wyq3rum.icu^
@@ -65574,18 +65587,6 @@ newduba.cn###jq_youxi
 ||zifyeldq.top^
 ||ziravd.xyz^
 ||znyjmbh.icu^
-||kwcmrfb.cn^
-||gghmef7.com^
-||hacde3.icu^
-||vwfppr.xyz^
-||mkjnha.com^
-||naqiwjj.icu^
-||lqjinx.xyz^
-||cfdns.vip^
-||wslbahe.top^
-||ctquh0q.xyz^
-||89mtdab.xyz^
-||kwcmrfb.cn^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
@@ -87166,6 +87167,7 @@ _WebVitalsReporter_
 /wf/open?upn=$image
 /wizrocketmail.net/r?$image
 ://email.*/e/o/
+://img.promio-connect.com/
 ://parcel-api.delivery-status.*/open/$image
 ://t.order.*/r/?id=$image
 _ad_impression.
