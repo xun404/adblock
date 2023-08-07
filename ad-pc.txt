@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /s+GPKhCZWatsFtRQLSyUg
+! Checksum: 3B8FaNUzwCWNpH2O2jljqA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308071637
-! Last Modified: 2023年08月07日 16:37
+! Version: 202308071837
+! Last Modified: 2023年08月07日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3356,7 +3356,6 @@ tieba.baidu.com##.tuijian-wrap
 /skyadjs/*
 /skyadright.
 /skyplayer-ads-
-/skyscraper-ad.
 /skyscraper_ad_
 /skyscraperad.
 /slide_in_ads_
@@ -7488,6 +7487,7 @@ _800x80_
 ###gad300x250
 ###gad728x90
 ###gads300x250
+###gadsOverlayUnit
 ###gads_middle
 ###galleries-tower-ad
 ###gallery-ad
@@ -8409,6 +8409,7 @@ _800x80_
 ###quinAdLeaderboard
 ###r89-desktop-top-ad
 ###r_adver
+###radio-ad-container
 ###rail-ad-wrap
 ###rail-bottom-ad
 ###railAd
@@ -49110,6 +49111,7 @@ browsershots.org#@#.advert_area
 ||paperclipservice.com^$third-party
 ||paperg.com^$third-party
 ||paradocs.ru^$third-party
+||pariatonet.com^$third-party
 ||parkingcrew.net^$third-party
 ||parsec.media^$third-party
 ||partner-ads.com^$third-party
@@ -53960,7 +53962,7 @@ browsershots.org#@#.advert_area
 ||goldmoney.com/~/media/Images/Banners/
 ||google.com/adsense/ad
 ||google.com/adsense/domains
-||google.com/adsense/search/
+||google.com/adsense/search/$third-party
 ||google.com/dp/ads
 ||google.com/pagead/
 ||googleadapis.l.google.com^$third-party
@@ -63135,6 +63137,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||getjad.io/library/$script,domain=allocine.fr
+@@||google.com/adsense/search/ads.js$domain=news.biglobe.ne.jp
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
