@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0WEvQaR0xrVaDw5g/+isVA
+! Checksum: w6AT4WWLaaVYhZrZttSxuw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202308070946
-! Last Modified: 2023年08月07日 09:46
+! Version: 202308071137
+! Last Modified: 2023年08月07日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2021,6 +2021,8 @@ newduba.cn###jq_youxi
 ||mkjnha.com^
 ||naqiwjj.icu^
 ||lqjinx.xyz^
+||cfdns.vip^
+||wslbahe.top^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
@@ -23240,22 +23242,14 @@ m.babytree.com##script + a[class]
 /front-metrics/*
 /frontend-gtag.
 /frontend-sentry-
-/frtrack.
 /fsrscripts/*
-/FTTrack2.js
 /fusion/lucid/data/*
-/g-track/*
 /g2insights.
 /g_track.php?
-/ga-affiliates.
 /ga-async-
 /ga-audiences?
-/ga-campaignTracker.
 /ga-collect?
-/ga-custom-tracking.
-/ga-custom-vars.
 /ga-events.js
-/ga-explorations.
 /ga-links.js
 /ga-lite.
 /ga-local.js
@@ -23273,27 +23267,19 @@ m.babytree.com##script + a[class]
 /ga-tracking-
 /ga-tracking.
 /ga-tracking/*
-/ga.aspx?
 /ga.gif?
 /ga.js?grid
 /ga.jsp?$image
 /ga.php?$image
-/ga/trackevent.
 /ga/yap.js
 /ga1.js
-/ga2.aspx?utmac=$image
 /ga2.js
-/ga?type=
-/ga?utmac=$image
 /ga_anonym.js
 /ga_cookie_
 /ga_dpc_youtube.
-/ga_dualcode_tracking.
-/ga_event_frame?
 /ga_events.js
 /ga_external.
 /ga_footer.
-/ga_gwo.
 /ga_header.
 /ga_helper.
 /ga_keyword2.
@@ -23305,38 +23291,29 @@ m.babytree.com##script + a[class]
 /ga_optimize.
 /ga_outgoinglinks.
 /ga_setup.js
-/ga_sip.js
 /ga_social.
 /ga_social_tracking_
 /ga_trace.
-/ga_track.php?adurl=
 /ga_tracker.
 /ga_tracking-
 /ga_tracking.
 /ga_tracklinks.
-/ga_wrapper.
 /gaaddons-
 /gaaddons.js
 /gaAnalytics.
 /gaclicktracking-
 /gaclicktracking.
-/gaControlTracker.
 /gaCustom.
-/gadsfuncs.
 /gaEvents.js
 /gaEventTracking.
 /gaFunction?
 /GAInit.js|
-/gainjectmin.
 /gajs/analytics.js
 /galinks-
-/gallerystats.
-/galtracklib.
 /ganalytics.
 /ganalytics/*
 /gapagetracker.
 /gapro.js
-/GARecord^
 /gascript.
 /gasocialtracking.
 /gaStatistics.js
@@ -23348,35 +23325,24 @@ m.babytree.com##script + a[class]
 /gatrack.
 /gaTracker.
 /gatracking.
-/gatrackthis.
-/gatrackwww.
 /gb-tracker-
 /gc?refurl=
-/gClickTracking.
 /gcount.pl?
-/gcui_vidtracker/*
 /gd_tracker_
 /gemius.3.15.js
 /gemius.js
-/gemius1.js
 /gemius_
 /gen204/*
 /gen204?
-/generictracking.
-/geo-ip-detect?
-/geo-location/v1
 /geo.php?
 /geoAnalysis.js
 /geocc.$domain=~geocc.ru
-/geocoding.ash
 /geocompteur.
 /geoip.html
 /geoip/detect?
 /geoip?
 /geoip_cc
-/geoip_script?
 /geoipAPI.js?
-/geolocation?utm_
 /geoLocationData/v1/*
 /geomap.js?
 /geov2.js
@@ -23385,7 +23351,6 @@ m.babytree.com##script + a[class]
 /getbglog.js
 /getclicky.
 /getclicky_
-/getIbleStats?
 /getlog.gif?
 /getstats.js.php
 /gigyaGAIntegration.
@@ -23398,7 +23363,6 @@ m.babytree.com##script + a[class]
 /global/tracker.
 /global_analytics.
 /global_tracking.js
-/globalpagetracking.js
 /goAnalytics.
 /google-analyticator/*
 /google-analytics/*$domain=~stackexchange.com|~superuser.com
@@ -23438,11 +23402,6 @@ m.babytree.com##script + a[class]
 /googleTracker.
 /googletracker/*
 /googleTracking.js
-/googlytics-
-/gosquared-livestats/*
-/gov-tracking.min.js
-/gPageTracking.
-/grappler/log/*
 /grumi-ip.js
 /gs-analytics-
 /gs-analytics.
@@ -23451,14 +23410,10 @@ m.babytree.com##script + a[class]
 /gtag.js
 /gtag.min.js
 /gtag/js?
-/gtagTracking/*
 /gtm-listeners.
-/gtm-tracking-events.
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
-/gtm_monitor?
-/gtmProd.
 /gtmTracking.
 /gujTracker.
 /gv-analytics/*
@@ -26514,6 +26469,7 @@ _mongo_stats/
 ||advconversion.com^$third-party
 ||advertising.com^$third-party
 ||adways.com^$third-party
+||adwerx.com^$third-party
 ||adwstats.com^$third-party
 ||adxadtracker.com^$third-party
 ||adxcel-ec2.com^$third-party
@@ -27863,6 +27819,7 @@ _mongo_stats/
 ||nedstatpro.net^$third-party
 ||nejmqianyan.cn^$third-party
 ||neki.org^$third-party
+||nelioabtesting.com^$third-party
 ||nero.live^$third-party
 ||net-filter.com^$third-party
 ||netaffiliation.com^$script,third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c6AGAJcQ/uW0Tp6gMqvLfQ
+! Checksum: yHpcoLkPM82wU0r/rC3jYw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308070946
-! Last Modified: 2023年08月07日 09:46
+! Version: 202308071137
+! Last Modified: 2023年08月07日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -65269,6 +65269,8 @@ newduba.cn###jq_youxi
 ||mkjnha.com^
 ||naqiwjj.icu^
 ||lqjinx.xyz^
+||cfdns.vip^
+||wslbahe.top^
 ||zonyff.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
@@ -84185,22 +84187,14 @@ fqsousou.com,kengso.com#@#.user-share
 /front-metrics/*
 /frontend-gtag.
 /frontend-sentry-
-/frtrack.
 /fsrscripts/*
-/FTTrack2.js
 /fusion/lucid/data/*
-/g-track/*
 /g2insights.
 /g_track.php?
-/ga-affiliates.
 /ga-async-
 /ga-audiences?
-/ga-campaignTracker.
 /ga-collect?
-/ga-custom-tracking.
-/ga-custom-vars.
 /ga-events.js
-/ga-explorations.
 /ga-links.js
 /ga-lite.
 /ga-local.js
@@ -84218,27 +84212,19 @@ fqsousou.com,kengso.com#@#.user-share
 /ga-tracking-
 /ga-tracking.
 /ga-tracking/*
-/ga.aspx?
 /ga.gif?
 /ga.js?grid
 /ga.jsp?$image
 /ga.php?$image
-/ga/trackevent.
 /ga/yap.js
 /ga1.js
-/ga2.aspx?utmac=$image
 /ga2.js
-/ga?type=
-/ga?utmac=$image
 /ga_anonym.js
 /ga_cookie_
 /ga_dpc_youtube.
-/ga_dualcode_tracking.
-/ga_event_frame?
 /ga_events.js
 /ga_external.
 /ga_footer.
-/ga_gwo.
 /ga_header.
 /ga_helper.
 /ga_keyword2.
@@ -84250,38 +84236,29 @@ fqsousou.com,kengso.com#@#.user-share
 /ga_optimize.
 /ga_outgoinglinks.
 /ga_setup.js
-/ga_sip.js
 /ga_social.
 /ga_social_tracking_
 /ga_trace.
-/ga_track.php?adurl=
 /ga_tracker.
 /ga_tracking-
 /ga_tracking.
 /ga_tracklinks.
-/ga_wrapper.
 /gaaddons-
 /gaaddons.js
 /gaAnalytics.
 /gaclicktracking-
 /gaclicktracking.
-/gaControlTracker.
 /gaCustom.
-/gadsfuncs.
 /gaEvents.js
 /gaEventTracking.
 /gaFunction?
 /GAInit.js|
-/gainjectmin.
 /gajs/analytics.js
 /galinks-
-/gallerystats.
-/galtracklib.
 /ganalytics.
 /ganalytics/*
 /gapagetracker.
 /gapro.js
-/GARecord^
 /gascript.
 /gasocialtracking.
 /gaStatistics.js
@@ -84293,35 +84270,24 @@ fqsousou.com,kengso.com#@#.user-share
 /gatrack.
 /gaTracker.
 /gatracking.
-/gatrackthis.
-/gatrackwww.
 /gb-tracker-
 /gc?refurl=
-/gClickTracking.
 /gcount.pl?
-/gcui_vidtracker/*
 /gd_tracker_
 /gemius.3.15.js
 /gemius.js
-/gemius1.js
 /gemius_
 /gen204/*
 /gen204?
-/generictracking.
-/geo-ip-detect?
-/geo-location/v1
 /geo.php?
 /geoAnalysis.js
 /geocc.$domain=~geocc.ru
-/geocoding.ash
 /geocompteur.
 /geoip.html
 /geoip/detect?
 /geoip?
 /geoip_cc
-/geoip_script?
 /geoipAPI.js?
-/geolocation?utm_
 /geoLocationData/v1/*
 /geomap.js?
 /geov2.js
@@ -84330,7 +84296,6 @@ fqsousou.com,kengso.com#@#.user-share
 /getbglog.js
 /getclicky.
 /getclicky_
-/getIbleStats?
 /getlog.gif?
 /getstats.js.php
 /gigyaGAIntegration.
@@ -84343,7 +84308,6 @@ fqsousou.com,kengso.com#@#.user-share
 /global/tracker.
 /global_analytics.
 /global_tracking.js
-/globalpagetracking.js
 /goAnalytics.
 /google-analyticator/*
 /google-analytics/*$domain=~stackexchange.com|~superuser.com
@@ -84383,11 +84347,6 @@ fqsousou.com,kengso.com#@#.user-share
 /googleTracker.
 /googletracker/*
 /googleTracking.js
-/googlytics-
-/gosquared-livestats/*
-/gov-tracking.min.js
-/gPageTracking.
-/grappler/log/*
 /grumi-ip.js
 /gs-analytics-
 /gs-analytics.
@@ -84396,14 +84355,10 @@ fqsousou.com,kengso.com#@#.user-share
 /gtag.js
 /gtag.min.js
 /gtag/js?
-/gtagTracking/*
 /gtm-listeners.
-/gtm-tracking-events.
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
-/gtm_monitor?
-/gtmProd.
 /gtmTracking.
 /gujTracker.
 /gv-analytics/*
@@ -87459,6 +87414,7 @@ _mongo_stats/
 ||advconversion.com^$third-party
 ||advertising.com^$third-party
 ||adways.com^$third-party
+||adwerx.com^$third-party
 ||adwstats.com^$third-party
 ||adxadtracker.com^$third-party
 ||adxcel-ec2.com^$third-party
@@ -88808,6 +88764,7 @@ _mongo_stats/
 ||nedstatpro.net^$third-party
 ||nejmqianyan.cn^$third-party
 ||neki.org^$third-party
+||nelioabtesting.com^$third-party
 ||nero.live^$third-party
 ||net-filter.com^$third-party
 ||netaffiliation.com^$script,third-party
