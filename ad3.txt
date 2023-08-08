@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rm1KOW/oYKt75RUElZTeZA
+! Checksum: u3coYWgXcSwNVTtDRbz0oQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202308080737
-! Last Modified: 2023年08月08日 07:37
+! Version: 202308080944
+! Last Modified: 2023年08月08日 09:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1464,7 +1464,7 @@ newduba.cn###jq_youxi
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
-##a[href*=".com?aff="]
+~allthingsopen.org##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ~shenguangai.com##a[href*=".shenguangai.com/"]
 ##a[href*=".taobao.com"] > .top1
@@ -2031,6 +2031,8 @@ newduba.cn###jq_youxi
 ||hgjjk45.com^
 ||vghnnh.xyz^
 ||uwgnpkd.cn^
+||mkjnbg.com^
+||laljjn.xyz^
 ||zxrcfw.com^
 ||zypzzv.xyz^
 ##a[href$="/1c626.com"]
@@ -11612,8 +11614,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vps234.com/resources/images/hosting-promotion/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+imnks.com##.adTags
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17870,7 +17874,6 @@ jmcomic1.city,jmcomic1.win##a[href^="http"]:not([href*="jmcom"]) > img
 ||18comic.*/media/albums/*?$media
 ||18comic.*/media/logo/
 ||18comic.*/static/resources/files/*0x
-||18comic.*/static/resources/images/*.gif
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300
 ||18comic.*/static/resources/images/JGG/
