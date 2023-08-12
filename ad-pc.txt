@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yRsOHbHwNUo+pdvB5XCWyw
+! Checksum: TM/mqJJNmBWUZYI4G/8q7w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308121037
-! Last Modified: 2023年08月12日 10:37
+! Version: 202308121237
+! Last Modified: 2023年08月12日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -45376,6 +45376,7 @@ browsershots.org#@#.advert_area
 ||trollwarningpaws.com^
 ||tromairiememasdaq.com^
 ||trombocrack.com^
+||tronads.io^
 ||troncomelets.com^
 ||troolyhonks.com^
 ||troozescript.store^
@@ -60874,6 +60875,7 @@ stocktwits.com##[data-pos]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
+disqus.com##[data-role="ad-content"]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
@@ -61647,6 +61649,7 @@ europeanpharmaceuticalreview.com##.europ-fixed-footer
 ibtimes.sg##.featured_video
 redboing.com##.fw-ad
 thestar.co.uk##.gOoqzH
+electricianforum.co.uk##.gb-sponsored
 givemesport.com##.gms-videos-container
 anandtech.com##.jwplayer
 gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -75332,9 +75335,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||86uk.com/banners/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+6park.com##A[href*="bpropolis."]
+6park.com##A[href*="jdoqocy."]
+6park.com##A[href*="geekbuying."]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -79870,8 +79877,8 @@ dapenti.com##a[href*="cashier.iqiyi.com"]
 cnbeta.com,editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"] + .bili-video-card__info
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]) + .bili-video-card__info
 comicat.org,kisssub.org##a[href*="db."]
 china.com.cn##a[href*="dwz.cn"]
 tiexue.net##a[href*="game.tiexue."]
@@ -96568,6 +96575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.kkb.com.tr^
 ||collector.wawlabs.com^
 ||hulyagedikci.com/vhit.php?
+||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||tracking.venturify.at^
@@ -97332,6 +97340,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ohm-dot-hackster-io.appspot.com^
 ||okx.com/jsstat/sb?
 ||online-umwandeln.de/analytics.js
+||ontraport.com/opt_assets/static/js/logging.js
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
 ||optimizely.com/js/geo.js

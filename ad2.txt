@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: au/xNLRrnsy0FSftSS7YcQ
+! Checksum: w0V0yFIapegGRD/BYIAYgg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202308121000
-! Last Modified: 2023年08月12日 10:00
+! Version: 202308121237
+! Last Modified: 2023年08月12日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -11676,9 +11676,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||86uk.com/banners/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+6park.com##A[href*="bpropolis."]
+6park.com##A[href*="jdoqocy."]
+6park.com##A[href*="geekbuying."]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16214,8 +16218,8 @@ dapenti.com##a[href*="cashier.iqiyi.com"]
 cnbeta.com,editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"] + .bili-video-card__info
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]) + .bili-video-card__info
 comicat.org,kisssub.org##a[href*="db."]
 china.com.cn##a[href*="dwz.cn"]
 tiexue.net##a[href*="game.tiexue."]
