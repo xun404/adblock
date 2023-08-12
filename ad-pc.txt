@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J7U91XMUfnk9rCwFvqgFJg
+! Checksum: uPnLzlNcT5SEtNhrtH3i1A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308120737
-! Last Modified: 2023年08月12日 07:37
+! Version: 202308120927
+! Last Modified: 2023年08月12日 09:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -773,10 +773,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad-view-
 /ad-web.
 /ad.*/impression?
-/ad.asp?
-/ad.aspx?
 /ad.cgi?
-/ad.code?
 /ad.css?
 /ad.html?
 /ad.min.
@@ -786,12 +783,10 @@ tieba.baidu.com##.tuijian-wrap
 /ad.slot.
 /ad.view?
 /ad/a.aspx?
-/ad/afc_
 /ad/banner.
 /ad/banner?
 /ad/banner_
 /ad/banners/*
-/ad/bin/*
 /ad/bottom.
 /ad/common/*
 /ad/common_
@@ -810,7 +805,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/index/*
 /Ad/Index?
 /ad/index_
-/ad/jsonp/*
 /ad/leaderboard.
 /ad/load.
 /ad/load_
@@ -1094,7 +1088,6 @@ tieba.baidu.com##.tuijian-wrap
 /addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
-/adedge/*$~image
 /adengage-
 /adengage.
 /adengage_
@@ -1103,21 +1096,12 @@ tieba.baidu.com##.tuijian-wrap
 /adentry.
 /adevent.$domain=~adevent.com
 /adevents.$domain=~adevents.com|~adevents.com.au|~adevents.nl
-/adexternal.
-/adfactor_
-/adfactory-
-/adfactory.$domain=~adfactory.rocks
-/adfactory_
 /adfallback.
-/adfarm.$~third-party,domain=~adfarm.com|~mediaplex.com
 /adfeed.
 /adfeeds.
 /adfetch.
 /adfetch?
-/adfetcher?
-/adflash.
 /adfooter.
-/adfox.$domain=~adfox.de|~adfox.group|~adfox.hu
 /adframe2.
 /adframe?
 /adframe_
@@ -1132,8 +1116,6 @@ tieba.baidu.com##.tuijian-wrap
 /adheader.
 /adheading_
 /adhelper.
-/adhese.$domain=~adhese.com
-/adhese_
 /adhost.$domain=~adhost.dk
 /adhref.$domain=~adhref.com
 /adiframe?
@@ -1226,20 +1208,15 @@ tieba.baidu.com##.tuijian-wrap
 /adplayer/*
 /adplugin.
 /adplugin_
-/adpoint.$domain=~adpoint.ca|~adpoint.de|~adpoint.id|~adpoint.video
-/adpop.$domain=~adpop.io|~adpop.me|~adpop.media|~adpop.ro
 /adpopup.
 /adPos?
-/adprime.$domain=~adprime.ltd|~adprime.pl
 /adprovider.
 /adproxy.
-/adrec.$domain=~adrec.paris-sorbonne.fr
 /adrefresh-
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co|~adriver.io|~adriver.tech
 /adriver/*$domain=~adriver.co|~adriver.io|~adriver.tech
 /adriver_$~object
-/adrobot.$domain=~adrobot.com.au
 /adrotate-
 /adrotate.
 /adrotate/*
@@ -1342,7 +1319,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/leaderboard?
 /ads/leaderboard_
 /ads/loading.
-/ads/middle/*
 /ads/native.
 /ads/native/*
 /ads/oas-
@@ -1419,28 +1395,18 @@ tieba.baidu.com##.tuijian-wrap
 /ads160.
 /ads160x600-
 /ads160x600.
-/ads18.
 /ads2/*
 /ads3.
-/ads3/*
 /ads300.
 /ads4.$domain=~ads4.city
-/ads4/*
 /ads468.
 /ads468x60.
 /ads468x60_
-/ads600-
-/ads7.
 /ads728.
 /ads728e.
 /ads728x90.
 /ads728x90_
-/ads728x90a.
 /ads790.
-/ads8.
-/ads88.
-/ads9.
-/ads9/*
 /ads?apid
 /ads?callback
 /ads?client=
@@ -1789,22 +1755,17 @@ tieba.baidu.com##.tuijian-wrap
 /advertisements?
 /advertisements_
 /advertiserwidget.
-/advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /advertising/banner_
 /advertising/banners/*
-/advertising/traffic-
 /advertising2.
 /advertising?
 /advertising_$domain=~advertising.scoop.co.nz
 /advertisingbanner.
 /advertisingbanner/*
-/advertisingbanner_
 /advertisingmodule.
-/advertisings.
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*
-/advertisment1-
 /advertisment_
 /advertisments/*
 /advertlayer.
@@ -1939,11 +1900,9 @@ tieba.baidu.com##.tuijian-wrap
 /assets/ads-
 /assets/ads/*$domain=~outlook.live.com
 /assets/ads_
-/assets/doubleclick/*
 /asyncadload.
 /asyncjs.$domain=~asyncjs.com|~asyncjs.today
 /asyncspc.
-/atcode-bannerize/*
 /attractivebuilt.com/*
 /audio-ads/*
 /audioads/*
@@ -2654,7 +2613,6 @@ tieba.baidu.com##.tuijian-wrap
 /js/adwordstracking.
 /js/dfp-
 /js/doubleclick/*
-/js/m/i-def.js
 /js/ppu.$script
 /js/prebid-video.
 /js/youmuffpu.js
@@ -2672,7 +2630,6 @@ tieba.baidu.com##.tuijian-wrap
 /jstextad.
 /keyade.js
 /keyword_ad.
-/L411_Ad_
 /layad.
 /layer-ad.
 /layer-ads.
@@ -21449,6 +21406,7 @@ browsershots.org#@#.advert_area
 ||22blqkmkg.de^
 ||22e991e711.com^
 ||22filexstarted22.com^
+||22gui20230801.live^
 ||22lmsi1t5.de^
 ||23182b9851.com^
 ||234f6ce965.com^
@@ -25269,6 +25227,7 @@ browsershots.org#@#.advert_area
 ||bemusic.xyz^
 ||benced.com^
 ||benchastonishingstudying.com^
+||benchsuited.com^
 ||bendcauslesscauslessnotion.com^
 ||bendingalliance.com^
 ||bendingrevivestriped.com^
@@ -39175,6 +39134,7 @@ browsershots.org#@#.advert_area
 ||pejzeexukxo.com^
 ||pelagictanjib.com^
 ||pelamydlours.com^
+||pelfsgarote.com^
 ||peliomaafb.com^
 ||pelisrev.live^
 ||peltingcatwood.com^
@@ -43343,6 +43303,7 @@ browsershots.org#@#.advert_area
 ||solveround.com^
 ||solvewebagitated.com^
 ||solvingcue.com^
+||solvusserosal.com^
 ||somberalcyon.com^
 ||sombes.com^
 ||somecdn.bid^
@@ -49637,6 +49598,7 @@ browsershots.org#@#.advert_area
 ||simpio.com^$third-party
 ||simpletraffic.co^$third-party
 ||simplyhired.com^$third-party
+||sinogamepeck.com^$third-party
 ||sitemaji.com^$third-party
 ||sitesense-oo.com^$third-party
 ||sitethree.com^$third-party
@@ -49845,6 +49807,7 @@ browsershots.org#@#.advert_area
 ||worthathousandwords.com^$third-party
 ||wwads.cn^$third-party
 ||xmlmonetize.com^$third-party
+||xmtrading.com^$third-party
 ||xtendmedia.com^$third-party
 ||yieldkit.com^$third-party
 ||yieldlove.com^$third-party
@@ -62861,6 +62824,7 @@ pornzog.com##.video-ntv
 pornhdtube.tv##.video-overlay
 hotmovs.tube##.video-page > .block_label > div
 thegay.com##.video-page__content > .right
+xhtab2.com##.video-page__layout-ad
 senzuri.tube##.video-page__watchfull-special
 pornhd.com##.video-player-overlay
 palimas.org##.video-promo
@@ -65775,6 +65739,12 @@ newduba.cn###jq_youxi
 ||lingsiqiwu.com^
 ||baidudvbjkbssjvsvv.com^
 ||duyvtanrheje.xyz^
+||thesac3.top^
+||jhkggrr.icu^
+||23dhj4q.com^
+||hqdlhgx.cn^
+||tuplzt.xyz^
+||lknhrnd.com^
 ||zonyff.xyz^
 ||zvasuzb.icu^
 ||zxrcfw.com^
