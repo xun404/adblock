@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UbtOedDdJpDwnNCfjIRiPA
+! Checksum: 366duCZd+uznNZPJ2mNUyA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308142049
-! Last Modified: 2023年08月14日 20:49
+! Version: 202308142137
+! Last Modified: 2023年08月14日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -42795,7 +42795,6 @@ browsershots.org#@#.advert_area
 ||shydastidu.com^
 ||shyhuetub.site^
 ||si1ef.com^
-||siamzone.com^
 ||siberiabecrush.com^
 ||sibylsported.com^
 ||sicduhwfilta.com^
@@ -55372,6 +55371,7 @@ browsershots.org#@#.advert_area
 ||google.com/favicon.ico$popup
 ||greenadblocker.com^$popup
 ||insideoftech.com^$popup,third-party
+||iqbroker.com/land/$popup
 ||iqbroker.com/lp/*?aff=$popup
 ||iqoption.com/land/$popup
 ||iyfsearch.com^$popup
@@ -61256,6 +61256,8 @@ abysscdn.com,hqq.ac,hqq.to,hqq.tv,linris.xyz,megaplay.cc,meucdn.vip,netuplayer.t
 kroger.com##a[title^="Advertisement:"]
 unmatched.gg##app-advertising
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article[data-ft*="\"ei\":\""]
+xing.com##article[data-qa="disco-updates-video-ad"]
+xing.com##article[data-qa="disco-updates-website-ad"]
 greatist.com##aside
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 thefinancialbrand.com##aside[class][style*="cursor:"]
@@ -61721,7 +61723,6 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
-youtube.com###masthead-ad
 youtube.com###merch-shelf
 youtube.com###pla-shelf
 youtube.com###player-ads
@@ -61736,13 +61737,11 @@ youtube.com##.ytd-action-companion-ad-renderer
 youtube.com##.ytd-ad-slot-renderer
 youtube.com##.ytd-carousel-ad-renderer
 youtube.com##.ytd-compact-promoted-video-renderer
-youtube.com##.ytd-companion-slot-renderer
 youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
-youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
 youtube.com##.ytd-search-pyv-renderer
 youtube.com##.ytd-video-masthead-ad-primary-video-overlay-renderer
 youtube.com##.ytd-video-masthead-ad-v3-renderer
@@ -61760,7 +61759,6 @@ youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-banner-promo-renderer
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-companion-slot-renderer
-youtube.com##ytd-display-ad-renderer
 youtube.com##ytd-promoted-sparkles-text-search-renderer
 youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-single-option-survey-renderer
