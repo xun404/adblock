@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PS3bBv4H0rmEuM4QkN28Cw
+! Checksum: qpAECDtPjJDF0AZAd3ev4w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308150737
-! Last Modified: 2023年08月15日 07:37
+! Version: 202308150930
+! Last Modified: 2023年08月15日 09:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1257,8 +1257,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/default_
 /ads/delivery.
 /ads/delivery?
-/ads/design-
-/ads/desktop-
 /ads/dfp.
 /ads/dfp?
 /ads/display/*
@@ -1489,7 +1487,6 @@ tieba.baidu.com##.tuijian-wrap
 /adsfac.
 /adsfetch.
 /adsforwp-
-/adshandler.
 /adsheader.
 /adshider.
 /adshow-
@@ -2291,39 +2288,21 @@ tieba.baidu.com##.tuijian-wrap
 /framead_
 /frameads.
 /frameads_
-/frameadsz.
-/freead.
-/freead2.
 /frequencyads.
-/frnads.
 /fro_lo.js
 /froloa.js
-/front/ad/*
-/front/ads-
 /frontend/ads/*
 /frontend_loader.js
 /frontpagead/*
 /funcript*.php?pub=
-/gam_ad.
-/gam_ad_
-/gam_ads.
-/gamads/*
 /gdpr-ad-script.
-/geminivideoads/*
-/gen-ad-
-/gen_ads_
-/genads.
-/genads/*
-/general-ad-
 /generate_ad.
 /generate_ads.
 /generateAds.
 /generateadtag.
 /generic.ads.
 /get-ads-by-zones/*
-/get.ad?
 /get/?go=1&data=
-/get/ad.
 /get/ad/*
 /get/ad?
 /get_ad_
@@ -2400,8 +2379,6 @@ tieba.baidu.com##.tuijian-wrap
 /horizontal_ad.
 /horizontalAd.
 /hostedads.
-/hostgator-ad.
-/hosting/ads/*
 /House-Ad-
 /house-ad.
 /house-ad/*
@@ -2519,30 +2496,13 @@ tieba.baidu.com##.tuijian-wrap
 /innerads.
 /insertAd.
 /insertads.
-/insideAD.
 /instreamad/*
 /intelliad.
-/intellitext.$domain=~intellitext.com|~intellitext.hu|~intellitext.us
-/interad.$domain=~interad.gr
 /internAds.
 /internal-ad-
-/internet_ad_
 /intextads.
-/inv/ads/*
-/invideoad.
-/inviteads/*
-/invoke-2.js
-/inx-ad.
-/ipadad.
-/iserver/ccid=
-/iserver/site=
-/JavaScript/Ads-
-/javascript/gpt-
-/javascript/oas.
-/javascript/oas?
-/javascripts/ads/*
+/invoke.js
 /Javascripts/SBA-
-/jetpack-ads/*
 /jquery-ads.
 /jquery.ad.
 /jquery.adi.
@@ -14295,7 +14255,6 @@ _800x80_
 ##.banner_468x60
 ##.banner_728_90
 ##.banner_728x90
-##.banner_ad
 ##.banner_ad-728x90
 ##.banner_ad_300x250
 ##.banner_ad_728x90
@@ -15809,7 +15768,6 @@ _800x80_
 ##.fullSizeAd
 ##.fullWidthAd
 ##.full_AD
-##.full_ad
 ##.full_ad_box
 ##.full_ad_row
 ##.full_width_ad
@@ -48828,6 +48786,7 @@ browsershots.org#@#.advert_area
 ||advertstream.com^$third-party
 ||advertur.ru^$third-party
 ||advg.jp^$third-party
+||adviad.com^$third-party
 ||advideum.com^$third-party
 ||advinci.net^$third-party
 ||advmd.com^$third-party
@@ -97214,6 +97173,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||isharemetric.rediff.com^
 ||ivx.lacompagnie.com^
 ||j927.statnews.com^
+||jansatta.com/api/capture/ua
 ||jav4tv.com/player/analytics
 ||javhd.com/ascripts/gcu.js
 ||javhd.com/rstat
@@ -115073,6 +115033,7 @@ arketing.indianadunes.com^
 ||navigation-timing.meinestadt.de^
 ||nct.ui-portal.de^
 ||netzwelt.de/log?
+||news.de/track.php
 ||newsdeutschland.com/RPC.php
 ||nickles.de/ivw/
 ||nius.de/monitoring
