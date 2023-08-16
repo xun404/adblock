@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m1NdLFmJ/MIsCU9YQ9soQA
+! Checksum: twsRHGgduiKsV2X5yiFUdg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308161437
-! Last Modified: 2023年08月16日 14:37
+! Version: 202308161537
+! Last Modified: 2023年08月16日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20380,6 +20380,7 @@ _800x80_
 ##.ht_outbrain
 ##.js-outbrain-container
 ##.ob-ad-carousel-layout
+##.ob-feed-layout
 ##.ob-hover
 ##.ob-p.ob-dynamic-rec-container
 ##.ob-strip-layout
@@ -58521,7 +58522,7 @@ stuff.tv##.block-hcm-external-blocks
 mondoweiss.net##.block-head-c
 newsweek.com##.block-ibtmedia-dfp
 endocrineweb.com,practicalpainmanagement.com##.block-oas
-justthenews.com##.block-simple-blockad-728-90
+justthenews.com##.block-simple-block
 kaotic.com##.block-toplist
 worldtimebuddy.com##.block2
 macmusic.org##.block440Adv
@@ -60607,6 +60608,7 @@ videogameschronicle.com##.vgc-productsblock
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 express.co.uk##.viafoura-standalone-mpu
 vice.com##.vice-ad__container
+justthenews.com##.video--container
 songkick.com##.video-ad-wrapper
 cyclinguptodate.com##.video-container
 forbes.com,nasdaq.com##.video-placeholder
@@ -97211,6 +97213,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
 ||ma.redhat.com^
 ||macys.com/tag_path/
+||mail.proton.me/api/data/v1/stats
 ||mail.yahoo.com/f/track/
 ||mangadex.org/api/event
 ||mangadex.org/p.js
