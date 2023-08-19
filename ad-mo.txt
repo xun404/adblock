@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uXy0+iQAw7c7vmNKjo00xw
+! Checksum: 0IMZN5jgSoyVCVsphOagFw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308192045
-! Last Modified: 2023年08月19日 20:45
+! Version: 202308192137
+! Last Modified: 2023年08月19日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -892,7 +892,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adback?
 /AdBackground.
 /adban.
-/adbanner/*
 /adbanner2.
 /adBanner?
 /adbanner_
@@ -20209,6 +20208,7 @@ _800x80_
 ##display-ad-component
 ##div[id^="zergnet-widget"]
 ###searchResultsList > div > div[onclick$="'inline.ad'});"]
+##.resultsList > div > div > div.G-5c[role="tab"][tabindex="0"]
 dez.ro#@##ad-carousel
 so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
@@ -48460,6 +48460,7 @@ browsershots.org#@#.advert_area
 ||adsmart.hk^$third-party
 ||adsninja.ca^$third-party
 ||adsniper.ru^$third-party
+||adsolutely.com^$third-party
 ||adsparc.net^$third-party
 ||adspeed.com^$third-party
 ||adspruce.com^$third-party
@@ -55683,6 +55684,7 @@ browsershots.org#@#.advert_area
 ||indiansinkuwait.com/Campaign/
 ||infobetting.com/bookmaker/
 ||inmanga.com/ads/
+||instagram.com/api/v1/injected_story_units/
 ||intersc.igaming-service.io^$domain=hltv.org
 ||investing.com/jp.php
 ||ip-secrets.com/img/nv
@@ -57535,6 +57537,7 @@ tecmint.com###tecmint_incontent
 tecmint.com###tecmint_leaderboard_article_top
 worldtribune.com###text-101
 geeky-gadgets.com###text-105335641
+thisiscolossal.com###text-11
 hpcwire.com###text-115
 cathnews.co.nz,cryptoreporter.info,net-load.com,wakingtimes.com###text-12
 radiosurvivor.com,thewashingtonstandard.com###text-13
@@ -61510,7 +61513,6 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
-youtube.com###masthead-ad > .ytd-rich-grid-renderer
 youtube.com###merch-shelf
 youtube.com###pla-shelf
 youtube.com###player-ads
@@ -61522,10 +61524,8 @@ youtube.com##.promoted-sparkles-text-search-root-container
 youtube.com##.promoted-videos
 youtube.com##.statement-banner-foreground-content
 youtube.com##.ytd-action-companion-ad-renderer
-youtube.com##.ytd-ad-slot-renderer
 youtube.com##.ytd-carousel-ad-renderer
 youtube.com##.ytd-compact-promoted-video-renderer
-youtube.com##.ytd-in-feed-ad-layout-renderer
 youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
@@ -61543,12 +61543,16 @@ youtube.com##.ytp-ad-progress-list
 youtube.com##YTM-PROMOTED-VIDEO-RENDERER
 youtube.com##[class^="ytd-display-ad-"]
 youtube.com##[layout*="display-ad-"]
+eu-proxy.startpage.com,youtube.com##[target-id="engagement-panel-ads"]
+eu-proxy.startpage.com,youtube.com##div#masthead-ad > .ytd-rich-grid-renderer
+eu-proxy.startpage.com,youtube.com##div.ytd-ad-slot-renderer
+eu-proxy.startpage.com,youtube.com##div.ytd-in-feed-ad-layout-renderer
 youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-banner-promo-renderer
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-companion-slot-renderer
 youtube.com##ytd-promoted-sparkles-text-search-renderer
-youtube.com##ytd-promoted-sparkles-web-renderer
+eu-proxy.startpage.com,youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-single-option-survey-renderer
 youtube.com##ytd-video-masthead-ad-v3-renderer
 youtube.com##ytm-companion-slot
@@ -114919,6 +114923,7 @@ arketing.indianadunes.com^
 ||oxifwsabgd.nzz.ch^
 ||pi.technik3d.com^
 ||pixel.ionos.de^
+||plausible.motorpresse.de^
 ||potsdamer-stadtplan.com/t.gif
 ||pstt.mtb-news.de^
 ||px.derstandard.at^
