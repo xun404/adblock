@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y74QWtWh4InkMQyM1IaYKQ
+! Checksum: RgbHlO/3aBBuYxtj9i94MQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308211837
-! Last Modified: 2023年08月21日 18:37
+! Version: 202308211937
+! Last Modified: 2023年08月21日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1452,10 +1452,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adutils.
 /adv-banner-
 /adv-bannerize-
-/adv-banners/*
-/adv-div-
 /adv-mobile.
-/adv-placeholder.
 /adv-scroll-
 /adv-scroll.
 /adv-socialbar-
@@ -1464,16 +1461,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv/?rad_$domain=~rakuten.co.jp
 /adv/adriver
 /adv/box-
-/adv/interstitial.
-/adv/interstitial/*
 /adv/kelkoo/*
 /adv/kelkoo_
-/adv/lrec_
-/adv/managers/*
 /adv/mjx.
 /adv/mobile/*
 /adv/preroll_
-/adv/rdb.
 /adv/search.
 /adv/skin.
 /adv/skin_
@@ -1494,20 +1486,14 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv_horiz.
 /adv_image/*
 /adv_left_
-/adv_link.
-/adv_manager_
 /adv_out.
 /adv_player_
 /adv_server.
-/adv_teasers.
+/adv_teasers.js
 /adv_vert.
-/adv_vertical.
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*
 /advbanners/*
-/advcontents.
-/advcounter.
-/advengine.
 /adver.$domain=~adver.biz|~adver.by|~adver.live|~adver.media|~adver.vn
 /adver_hor.
 /adver_img/*
@@ -57087,6 +57073,7 @@ asianjournal.com###fancybox-overlay
 asianjournal.com###fancybox-wrap
 thedrinknation.com###fcBanner
 fandom.com###featured-video__player-container
+getyarn.io###filtered-bottom
 investing.com###findABroker
 healthshots.com###fitnessTools
 healthshots.com###fitnessToolsAdBot
@@ -59809,6 +59796,7 @@ insauga.com##.proper-content-dynamic
 planetf1.com,planetrugby.com##.ps-block-a
 kathmandupost.com##.pt-0
 gonintendo.com##.pt-5
+getyarn.io##.pt3p > div
 seattlepi.com##.pt40
 1980-games.com,coleka.com,flash-mp3-player.net,gameslol.net,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
@@ -61334,6 +61322,7 @@ windycitymediagroup.com,windycitytimes.com##img[name="Sponsor"]
 callofwar.com,supremacy1914.com##img[referrerpolicy]
 nsfwyoutube.com##img[src*="data"]
 1337x.to,duplichecker.com##img[src*="data:image"]
+bollyflix.asia##img[src^="https://www-opensocial.googleusercontent.com/gadgets/proxy?"]
 eevblog.com##img[src^="https://www.eevblog.com/images/comm/eevblog_banner_"]
 check-host.net##img[style="width: 700px"]
 bcmagazine.net##img[style^="width:300px;"]
@@ -63409,7 +63398,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 @@||smartadserver.com/genericpost$domain=filmweb.pl
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
-@@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
+@@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
 @@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||tenki.jp/storage/static-images/top-ad/
@@ -96262,6 +96251,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker-rec.smart-bdash.com^
 ||tracker.520call.me^
 ||tracker.durasite.net^
+||tracker.shanon-services.com^
+||tracker.smartseminar.jp^
 ||trk.fensi.plus^
 ||uh.nakanohito.jp^
 ||userdive.com^$third-party
