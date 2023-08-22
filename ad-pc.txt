@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NoGb/hNl+wZP4IfStsXjWQ
+! Checksum: 8Bi4PigCxrvgLVVdSFaHGA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308230037
-! Last Modified: 2023年08月23日 00:37
+! Version: 202308230137
+! Last Modified: 2023年08月23日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62513,6 +62513,7 @@ pornmd.com##.suggestions-box
 simply-hentai.com##.superbanner
 holymanga.net##.svl_ads_right
 exhibporno.com##.syn
+boundhub.com##.t2op
 boundhub.com##.tab7le
 18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,amateurporn.me,bigtitslust.com,danude.com,daporn.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
 sxyprn.com##.tbd
@@ -62530,7 +62531,6 @@ toppixxx.com##.thumbad
 cliniqueregain.com,tallermaintenancar.com##.thumbs
 smutty.com##.tig_following_tags2
 drtuber.com##.title-sponsored
-boundhub.com##.t2op
 daporn.com,fpo.xxx,hentai-moon.com,pornmix.org,scatxxxporn.com##.top
 jav.work##.top-banner
 pornfaia.com##.top-banner-single
@@ -63357,6 +63357,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||uze-ads.com/ads/$~third-party
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
+@@||youchien.net/ad/*/ad/img/$~third-party
+@@||youchien.net/css/ad_side.css$~third-party
 @@||yuru-mbti.com/static/css/adsense.css$~third-party
 @@||ads.google.com^$domain=ads.google.com|analytics.google.com
 @@||cloud.google.com^$~third-party
@@ -87245,12 +87247,12 @@ _WebVitalsReporter_
 /wizrocketmail.net/r?$image
 ://2ip.*/member_photo/$third-party
 ://email.*/e/o/
-://img.promio-connect.com/
-://omni.soundestlink.com/$image
 ://parcel-api.delivery-status.*/open/$image
 ://t.order.*/r/?id=$image
 _ad_impression.
 _track_pixel.gif?
+img.promio-connect.com$image
+omni.soundestlink.com$image
 /otlp/traces
 /_/trace/trace/*
 /rrweb-script.
