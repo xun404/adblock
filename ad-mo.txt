@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OArmxj7HYuzIfXB+PzoGXw
+! Checksum: yjmdN5X2MXda/ykUgrymMA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308241037
-! Last Modified: 2023年08月24日 10:37
+! Version: 202308241137
+! Last Modified: 2023年08月24日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -862,7 +862,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_tags_
 /ad_text.
 /ad_text_
-/ad_tile/*
 /ad_title_
 /ad_top.
 /ad_top/*
@@ -894,7 +893,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adbanners/*
 /adbar.$domain=~adbar.fi|~adbar.io|~adbar.jp
 /adbeacon.
-/adblob.
 /adbottom.
 /adbox.
 /adbreak_
@@ -907,14 +905,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adbutler-
 /adbutler.
 /adcache.
-/adcall.$domain=~adcall.cz
 /adcall?
 /adcalloverride.
-/adcase.$domain=~adcase.ru
 /adcash-
 /adcash.
 /adcast_
-/adcenter.$script,domain=~adcenter.capgemini.com|~adcenter.nu|~m-m-g.com
 /adcgi?
 /adchannel_
 /adcheck.
@@ -1425,19 +1420,16 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv_box_
 /adv_head.
 /adv_horiz.
-/adv_image/*
 /adv_left_
 /adv_out.
 /adv_player_
 /adv_server.
 /adv_teasers.js
-/adv_vert.
+/adv_vert.js
 /advanced-ads-$domain=~wordpress.org
-/advbanner/*
-/advbanners/*
+/advbanner/*$~image
+/advbanners/*$~image
 /adver.$domain=~adver.biz|~adver.by|~adver.live|~adver.media|~adver.vn
-/adver_hor.
-/adver_img/*
 /adverfisement.
 /adverfisement2.
 /adverserve.
@@ -2549,12 +2541,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugins/wp125/*$~stylesheet
 /plugins/wp_actionpop/*
 /plugins_ads_
-/plus/ad_
 /pm_ads/*
-/poki-ads.
 /poll-ad-
-/pool.ads.
-/pool/ad/*
 /pop-under.
 /pop_8_2.js
 /pop_ad.
@@ -2597,7 +2585,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /post-ad-
 /post_ads_
 /pounder-$~image
-/pp-ad.
 /ppd_ads.
 /ppd_ads_
 /predictad.
@@ -2907,11 +2894,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /story_ad.
 /story_ads_
 /storyads.
-/stream-ad.
 /style_ad.
 /subAd.
-/sugarads-
-/superads_
 /suv4.js
 /SWMAdPlayer.
 /synad2.
@@ -3222,7 +3206,6 @@ _ad_center.
 _ad_choices.
 _ad_content.
 _ad_count=
-_ad_courier.
 _ad_engine/
 _ad_expand_
 _ad_footer.
@@ -3243,22 +3226,17 @@ _ad_middle_
 _ad_page_
 _ad_placeholder-
 _ad_position_
-_ad_promo2.
 _ad_render_
 _ad_renderer_
 _ad_right.
 _ad_right_
-_ad_rolling.
 _ad_server.
-_ad_service.
 _ad_serving.
 _ad_side.
 _ad_sidebar_
 _ad_size.
 _ad_sky.
 _ad_skyscraper.
-_ad_slot/
-_ad_slot=
 _ad_small.
 _ad_sponsor/
 _ad_square.
@@ -3273,9 +3251,7 @@ _adbanners.
 _adbar.
 _adbox.
 _adbox_
-_adbreak.
 _adcall.
-_adcall_
 _adchoice.
 _adchoices.
 _adengage.
@@ -3300,7 +3276,6 @@ _adrotate-
 _adrotator.
 _ads.cgi
 _ads.cms?
-_ads.js.
 _ads.php?
 _ads_index_
 _ads_partner.
@@ -3356,19 +3331,12 @@ _bannerads_
 _bottom_ads.
 _bottom_ads_
 _box_ad_
-_buttonad.
-_centre_ad.
-_collect/ads/
 _commonAD.
 _companionad.
 _content_ad.
 _content_ad_
-_contest_ad_
 _custom_ad.
 _custom_ad_
-_dart_ads.
-_dfp_targeting.
-_displayad_
 _doubleclick.
 _externalad.
 _floating_ad_
@@ -65488,6 +65456,7 @@ newduba.cn###jq_youxi
 ||bcsijjgck.xyz^
 ||yasg114.com^
 ||itienlo.top^
+||rvzlobj.cn^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
