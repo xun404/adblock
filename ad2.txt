@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EDJwLBFATMyPk4OBuR8qbw
+! Checksum: /cjz6OO0jq53T7NdWkZyNQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202308241937
-! Last Modified: 2023年08月24日 19:37
+! Version: 202308250039
+! Last Modified: 2023年08月25日 00:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -2247,6 +2247,11 @@ newduba.cn###jq_youxi
 ||rvzlobj.cn^
 ||txcv68f.com^
 ||f1tfmxzg.icu^
+||xwsqtngwa.xyz^
+||kxcp365.com^
+||sjbgyak.cn^
+||zgtwzq.xyz^
+||zents7.top^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
@@ -11834,6 +11839,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||yinghuavideo.com/bar/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -18098,6 +18104,8 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+jm-comic2.club##a[href^="http"]:not([href*="jm-comic"]) > img
+jm-comic2.club#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
