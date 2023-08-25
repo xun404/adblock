@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1gslQhTI2xnIgy/gJu1/EA
+! Checksum: Rr9dQmOsz4YKJ6hVb6Dwtg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308251037
-! Last Modified: 2023年08月25日 10:37
+! Version: 202308251137
+! Last Modified: 2023年08月25日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1540,8 +1540,6 @@ tieba.baidu.com##.tuijian-wrap
 /advbanners/*$~image
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
-/advert1.
-/advert1/*
 /advert2.
 /advert24.
 /advert3.
@@ -1557,20 +1555,15 @@ tieba.baidu.com##.tuijian-wrap
 /advertising/banners/*
 /advertising2.
 /advertising?
-/advertising_$domain=~advertising.scoop.co.nz
-/advertisingbanner.
-/advertisingbanner/*
 /advertisingmodule.
 /advertisingWebRenderer.min.js
 /advertisment-
-/advertisment/*
+/advertisment/*$~image
 /advertisment_
-/advertisments/*
+/advertisments/*$~image
 /advertlayer.
-/advertmedia/*
 /advertorial-
 /advertorial/*
-/advertorials/*
 /advertphp/*
 /advertpro/*
 /advertrail.
@@ -2421,7 +2414,6 @@ tieba.baidu.com##.tuijian-wrap
 /manageads/*
 /marfeel_sw.
 /mbads?
-/mbn_ad.
 /mcad.php
 /mda-ads/*
 /media/ad/*
@@ -2444,7 +2436,6 @@ tieba.baidu.com##.tuijian-wrap
 /mini_ads.
 /miniads?
 /miniadvert.
-/mint/ads/*
 /mmads-
 /mmads.
 /moatsdk.min.js
@@ -2465,17 +2456,10 @@ tieba.baidu.com##.tuijian-wrap
 /modules/ad/*
 /modules/ad_
 /modules/ads/*
-/monetize-show-ads
 /moneyball/ads/*
 /mpads/*
 /mpuad.
 /MPUAd/*
-/msnadimg.
-/msnads/*
-/msnads1.
-/msnpop.
-/msnpopup.
-/msnpopup4.
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/*
 /n4403ad.
@@ -2565,9 +2549,7 @@ tieba.baidu.com##.tuijian-wrap
 /pagepeelads.
 /pagepeelpro.
 /PageTopAD.
-/paidads/*
 /parking_caf_
-/parseForAds.
 /partner-ad-
 /partner.ads.
 /Partner_Ad/*
@@ -2580,9 +2562,6 @@ tieba.baidu.com##.tuijian-wrap
 /partnerbanner.
 /partnerbanner/*
 /partners/ads/*
-/partnership-ads/*
-/partnerships-ads-
-/parts/ad/*
 /pauseadextension.
 /pcad.js?
 /pch_ad/*
@@ -2590,7 +2569,6 @@ tieba.baidu.com##.tuijian-wrap
 /peel_ads/*
 /peelad/*
 /peelads/*
-/peeljs.php
 /peeltl.
 /peeltr.
 /pfe/current/*
@@ -6220,9 +6198,6 @@ _800x80_
 ###billboard-ad
 ###billboard-atf
 ###billboard_ad
-###bing-text-ad-1
-###bing-text-ad-2
-###bing-text-ad-3
 ###bingadcontainer2
 ###blkAds1
 ###blkAds2
@@ -65594,6 +65569,7 @@ newduba.cn###jq_youxi
 ||zdwykjd.icu^
 ||xhpghv.xyz^
 ||lhgwcvw.cn^
+||neghes.fun^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
