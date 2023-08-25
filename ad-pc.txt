@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t/3RBqMPp0HbjsDirQMqMA
+! Checksum: PcOngfFXqKQLOmpJgyBs7Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308250737
-! Last Modified: 2023年08月25日 07:37
+! Version: 202308250931
+! Last Modified: 2023年08月25日 09:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1538,12 +1538,6 @@ tieba.baidu.com##.tuijian-wrap
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
-/adver.$domain=~adver.biz|~adver.by|~adver.live|~adver.media|~adver.vn
-/adverfisement.
-/adverfisement2.
-/adverserve.
-/adversting/*
-/adversting?
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert01.
 /advert1.
@@ -1559,11 +1553,6 @@ tieba.baidu.com##.tuijian-wrap
 /advert_$domain=~canalplus.com
 /advertbanner.
 /advertbox.
-/advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
-/advertisements-
-/advertisements?
-/advertisements_
-/advertiserwidget.
 /advertising/banner_
 /advertising/banners/*
 /advertising2.
@@ -2423,8 +2412,6 @@ tieba.baidu.com##.tuijian-wrap
 /mac-ad?
 /mad_ad.
 /mads.php?
-/magic-ad/*
-/magic-ads/*
 /main/ad/*
 /main/ad_
 /main_ad.
@@ -58377,6 +58364,7 @@ businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 news18.com##.closestickybtn
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
+mayoclinic.org##.cmp-advertisement__wrapper
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article2
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com,oneindia.com##.cmscontent-left-article
@@ -59533,6 +59521,7 @@ investopedia.com##.partnerlinks
 letsgodigital.org,letsgomobile.org##.partners-bar
 cbn.com##.partners-block
 practicalecommerce.com##.partners-sidebar
+advocate.com##.partners__container
 arrivealive.co.za##.partnersheading
 liveuamap.com##.passby
 writerscafe.org##.pay
@@ -75193,6 +75182,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||weiyun.com/cgi-bin/tianshu_get?position=4&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -76630,6 +76620,7 @@ china.com.cn##.Banner_right
 58avgo.com##.BillingRight
 lenovo.com.cn##.BottomBar
 ltn.com.tw##.C3.boxTitle
+ltn.com.tw##DIV[class*="adHeight"]
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
 zhihu.com##.Card.Banner
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
@@ -92978,6 +92969,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||3p-geo.yahoo.com^
 ||3p-udc.yahoo.com^
 ||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com/sa7d76sa/
+||4taps.me/analytics/
 ||51network.com^$third-party
 ||99widgets.com/counters/
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
@@ -117120,6 +117112,7 @@ arketing.indianadunes.com^
 ||juejin.cn/content_api/v1/advert/query_adverts?
 ||djljz.cn/Plugins/Template/XJLY/js/app.
 !------------------------Specific element hiding rules------------------------!
+kdocs.cn##.business-list-wrap
 tencent.com##.cdc-commercial-swiper
 focus.cn##.module-common-float-im
 focus.cn##.shequn-code-img
