@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3h8KeMhPIYZtSyV23SzVYw
+! Checksum: Gyt5f+/i6b8YSZg1Sue+Xw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308261937
-! Last Modified: 2023年08月26日 19:37
+! Version: 202308262137
+! Last Modified: 2023年08月26日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -365,13 +365,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ad.jpg.pagespeed.
 -ad.jpg?
 -ad.php?
--adap.$domain=~l-adap.org
 -adbanner.
 -adbox-
 -adfliction.
 -adfliction/
 -adimage-
--adloader-
 -ads-banner.
 -ads-bottom.
 -ads-management/
@@ -382,14 +380,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ads/assets/$domain=~web-ads.org
 -adserver/
 -adskin.
--adslots.
 -adsonar.
 -adspace.$domain=~metaverse-adspace.com
 -advertise/
 -advertisement_
 -advertising/assets/
--advertising_
--advertisment-
 -adverts.min.
 -article-ad-
 -article-ad.
@@ -1430,11 +1425,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertisment_
 /advertisments/*$~image
 /advertlayer.
-/advertorial-
-/advertorial/*
-/advertphp/*
-/advertpro/*
-/advertrail.
 /advertright.
 /adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*$~xmlhttprequest
@@ -26437,6 +26427,7 @@ browsershots.org#@#.advert_area
 ||confiskbriggs.top^
 ||confrontationdrunk.com^
 ||confused-classic.pro^
+||confvtt.com^
 ||congestionbeautycrystal.com^
 ||congestit.com^
 ||congressaffrayghosts.com^
@@ -47194,6 +47185,7 @@ browsershots.org#@#.advert_area
 ||xxmaqoupnd.com^
 ||xxodleylnfhyi.com^
 ||xxofygygumf.com^
+||xxpghuf.com^
 ||xxxbannerswap.com^
 ||xxxex.com^
 ||xxxiijmp.com^
@@ -49003,6 +48995,7 @@ browsershots.org#@#.advert_area
 ||tagjunction.com^$third-party
 ||tailsweep.com^$third-party
 ||taiphaib.net^$third-party
+||takeads.com^$third-party
 ||talaropa.com^$third-party
 ||tangozebra.com^$third-party
 ||tankeuro.com^$third-party
@@ -53804,6 +53797,7 @@ browsershots.org#@#.advert_area
 ||purevpn.com/affiliates/
 ||qsearch-a.akamaihd.net^
 ||racebets.com/media.php?
+||random-affiliate.atimaze.com^
 ||readme.ru/informer/
 ||recipefy.net/rssfeed.php
 ||redirect-ads.com^$~subdocument,third-party
@@ -55180,6 +55174,7 @@ browsershots.org#@#.advert_area
 ||creatives.livejasmin.com^
 ||cricbuzz.com/api/adverts/
 ||cricketireland.ie//images/sponsors/
+||cript.to/dlm.png
 ||crn.com.au/scripts/js_$script
 ||cyberscoop.com/advertising/
 ||d1lxz4vuik53pc.cloudfront.net^$domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
@@ -57581,6 +57576,7 @@ allscrabblewords.com,mpog100.com##.ad3
 india.com##.ad5
 cricketcountry.com##.ad90mob300
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
+medibang.com##.adBlock__pc
 bigislandnow.com##.adBreak
 m.economictimes.com,someecards.com,trailspace.com##.adContainer
 etymonline.com##.adContainer--6CVz1
@@ -60581,6 +60577,7 @@ presearch.com##[x-data*="kwrdAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 freshplaza.com##a.banner
+cript.to##a.btn[target="_blank"][href^="https://cript.to/"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
 newstalkflorida.com##a[alt="Ad"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label="Advertiser link"]
@@ -61546,6 +61543,7 @@ seattleweekly.com#?#.marketplace-row-item-wrapper:-abp-has(.sponsored)
 shopee.co.id,shopee.ph#?#.col-xs-2-4:-abp-has(div[data-sqe="ad"])
 shopee.co.id,shopee.ph#?#.item-card-list__item-card-wrapper:-abp-has(div[data-sqe="ad"])
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
+filecrypt.cc,filecrypt.co#?#button:-abp-has(path[d$="177.3,200.6z"])
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
@@ -65444,6 +65442,7 @@ newduba.cn###jq_youxi
 ||uhwnrfu.cn^
 ||z3yfkdjd.icu^
 ||erlirscid.com^
+||jtienla.top^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
@@ -87206,6 +87205,7 @@ _mongo_stats/
 ||cntxtfl.com^
 ||confiant-integrations.net^
 ||convead.io^
+||convertlink.com^
 ||cpx.to^
 ||crsspxl.com^
 ||crwdcntrl.net^
@@ -90164,6 +90164,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citrusad.net^$third-party
 ||clickguardian.app^$third-party
 ||clickyab.com^$third-party
+||fpjscdn.net^
 ||guoshipartners.com^$third-party
 ||hostpush.info^$third-party
 ||ismatlab.com^$third-party
