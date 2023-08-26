@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eeiKcvq+8KWrZGtUVNIroA
+! Checksum: nyvejA4U8AxPOv7inkd0xw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308260928
-! Last Modified: 2023年08月26日 09:28
+! Version: 202308261001
+! Last Modified: 2023年08月26日 10:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -816,7 +816,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/skyscraper.
 /ad/sponsored-
 /ad/sponsors/*
-/ad/thumbs/*
 /ad/top.
 /ad/top_
 /ad/view/*
@@ -995,12 +994,10 @@ tieba.baidu.com##.tuijian-wrap
 /adback.
 /adback?
 /AdBackground.
-/adban.
 /adbanner2.
 /adBanner?
 /adbanner_
 /adbanners/*
-/adbar.$domain=~adbar.fi|~adbar.io|~adbar.jp
 /adbeacon.
 /adbottom.
 /adbox.
@@ -1216,9 +1213,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/header.
 /ads/header/*
 /ads/header_
-/ads/home/*
-/ads/homepage/*
-/ads/horizontal/*
 /ads/house_
 /ads/html/*
 /ads/iframe
@@ -1593,13 +1587,11 @@ tieba.baidu.com##.tuijian-wrap
 /adwiz.
 /adwiz/*
 /adwrapper/*
-/adx.$domain=~adx.acrosspf.com|~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu|~solutionshill.com
 /adx/ads?
 /adx2.
 /adx_exo_
 /adx_flash.
 /adx_iframe_
-/adyoulike.$domain=~adyoulike.com
 /adz/js/*
 /adzerk2_
 /adzones.
@@ -1640,7 +1632,6 @@ tieba.baidu.com##.tuijian-wrap
 /ak-ads-ns.
 /amazon-ad-
 /amazon-associates-link-$~stylesheet
-/amazon/widget/*
 /ame-dfp/*
 /amp-ad-
 /amp-connatix-
@@ -1652,7 +1643,6 @@ tieba.baidu.com##.tuijian-wrap
 /annonse/*
 /annonser.
 /annonser/*$domain=~billink.no
-/announce/adv/*
 /ape-ad-
 /api-ads.
 /api.ad.
@@ -1661,10 +1651,8 @@ tieba.baidu.com##.tuijian-wrap
 /api/ad/*
 /api/ads/*
 /api/ads?
-/api/getcreatives?
-/api/handshake?site=$xmlhttprequest
 /api/v1/ad/*
-/apopwin.
+/apopwin.js
 /app.ads-
 /app.ads.
 /app/ads.
@@ -1938,7 +1926,6 @@ tieba.baidu.com##.tuijian-wrap
 /defersds.
 /delay-ad.
 /delayedad.
-/deliver/wr?
 /deliverad/*
 /deliverads.
 /deliversd/*
@@ -1947,13 +1934,10 @@ tieba.baidu.com##.tuijian-wrap
 /delivery.php?pool_id=
 /delivery.php?rnd=
 /delivery.php?zone=
-/delivery/afr.
 /delivery/ag.
-/delivery/al.php
 /delivery/apu.php
 /delivery/avw.
 /delivery/fc.
-/delivery/fl.
 /delivery/jsonp/?zoneid=
 /delivery/spc.
 /delivery_ads/*
@@ -2021,17 +2005,12 @@ tieba.baidu.com##.tuijian-wrap
 /exitpopunder_
 /exitpopup.
 /exitsplash.
-/exo_bck_
 /exoads/*
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
-/exopopunderdesktop.js
-/exosrvcode-
 /expads-
 /exports/tour/*$third-party
 /exports/tour_20/*
-/ext/adform-
-/ext/ads/*
 /extban/*/creatives/*
 /external/ad.
 /external/ad/*
@@ -2041,27 +2020,15 @@ tieba.baidu.com##.tuijian-wrap
 /externalad.
 /externalads/*
 /fc_ads.
-/feature/ads/*
 /fel456.js$script
-/file/ad.
 /files/ad-
 /files/ad/*
-/files/ads-
-/files/ads/*
-/fimserve.
-/finads.
-/fixSpecialAdHome.
-/flag_ads.
-/flash/ad/*
-/flash/ad_
-/flash/ads/*
 /flashad.
 /flashad3.
 /flashads.$domain=~flashads.co.id
 /flashads/*
 /flashpeelads/*
 /flatad.
-/flesh_banner
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /fleshlightcash_
 /fload.js
@@ -89377,6 +89344,7 @@ _mongo_stats/
 ||qflm.net^$third-party
 ||qlitics.com^$third-party
 ||qoijertneio.com^$third-party
+||qortex.ai^$third-party
 ||qsstats.com^$third-party
 ||quadran.eu^$third-party
 ||qualaroo.com^$third-party
@@ -93764,7 +93732,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.missena.io^
 ||events.ocdn.eu^
-||events.qortex.ai^
 ||events.realgravity.com^
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||events.shareably.net^
