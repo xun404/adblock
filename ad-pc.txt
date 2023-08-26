@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7ND61RoQ6vaubuCc5gW3Ww
+! Checksum: WM8QTQTBhmxgFvs46zqIPA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308261137
-! Last Modified: 2023年08月26日 11:37
+! Version: 202308261437
+! Last Modified: 2023年08月26日 14:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -596,11 +596,8 @@ tieba.baidu.com##.tuijian-wrap
 .clkads.
 .club/js/popunder.js
 .cn/sc/*?n=$script,third-party
-.com/?ad=
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
-.com/ad?
-.com/ads.$~script,~xmlhttprequest
 .com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~archiproducts.com|~tritondigital.com
@@ -624,8 +621,6 @@ tieba.baidu.com##.tuijian-wrap
 .gr/ads/
 .hk/ads/
 .hr/ads.
-.html?ad=
-.html?ad_
 .html?clicktag=
 .iads.js
 .il/ads.
@@ -802,9 +797,6 @@ tieba.baidu.com##.tuijian-wrap
 /Ad/Index?
 /ad/index_
 /ad/leaderboard.
-/ad/load.
-/ad/load_
-/ad/mpu/*
 /ad/player_
 /ad/popup.
 /ad/random_
@@ -906,14 +898,9 @@ tieba.baidu.com##.tuijian-wrap
 /ad_label_
 /ad_large.
 /ad_lazyload.
-/ad_leader.
-/ad_leader_
-/ad_leaderboard.
-/ad_leaderboard/*
 /ad_left.
 /ad_left_
 /ad_link.
-/ad_links/*
 /ad_loader.
 /ad_manage.
 /ad_manager.
@@ -925,7 +912,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_notice.
 /ad_overlay.
 /ad_page_
-/ad_paper_
 /ad_peel/*$script
 /ad_popup_
 /ad_pos=
@@ -59996,6 +59982,7 @@ walletinvestor.com##.sticky-footer-content
 babylonbee.com##.sticky-footer-image
 business2community.com##.sticky-header
 sciencing.com,sportsnet.ca##.sticky-leaderboard-container
+fastcompany.com##.sticky-outer-wrapper
 theportugalnews.com##.sticky-pub
 thechinaproject.com##.sticky-spacer
 oilcity.news##.sticky-sponsors-large
