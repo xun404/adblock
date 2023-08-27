@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6vZkZ5+vcurzdtkayuY38A
+! Checksum: 4jmcNFliLReWsysOyS17Nw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202308271837
-! Last Modified: 2023年08月27日 18:37
+! Version: 202308272046
+! Last Modified: 2023年08月27日 20:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1892,6 +1892,7 @@ newduba.cn###jq_youxi
 ##.wzad
 ##.xstui-content__acc
 ##.xzbox-gh
+##.bl > .gg
 ##.y.mtw[style="padding: 0px 10px;"]
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
@@ -10289,7 +10290,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||img588.net/images/*.gif
 ||img599.net/images/*0x
 ||img599.net^$domain=18board.com|18p2p.com
-||imgadsame.liba.com^
 ||imgbaiduxz.xyz/jsjsjs/
 ||imgbox.com^$domain=jiyingw.vip
 ||imgchili.net/media/image*.gif
@@ -12316,9 +12316,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||adimg.liba.com^
 ||xitongzhijia.net/theme/2020/js/10033_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+libaclub.com##.ui-ad
+libaclub.com#?#.ui-list-item:-abp-has(>.ui-list-item-title>a[onclick^="SendAd"])
 yuepuwang.com##.topban
 onlinedown.net##.king-soft-area
 szxx.com.cn###A1
