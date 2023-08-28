@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C4Z4vejzyygkotSn3eqmEQ
+! Checksum: /r26Or/WnBorMJfvqWGogQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308290237
-! Last Modified: 2023年08月29日 02:37
+! Version: 202308290744
+! Last Modified: 2023年08月29日 07:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63187,6 +63187,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
+:8888/js/cctv.js
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -64690,6 +64691,7 @@ newduba.cn###jq_youxi
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
+##.before_playing_cctv.yc
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
 ##a[id][href*="/?aff="]
@@ -65467,6 +65469,12 @@ newduba.cn###jq_youxi
 ||zvasuzb.icu^
 ||zwfkxb.xyz^
 ||zxrcfw.com^
+||zpsovpgyk.xyz^
+||rznscya.cn^
+||pnhp3x1.com^
+||thcaes.top^
+||jygiizv.icu^
+||vvxhth.xyz^
 ||zypzzv.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
