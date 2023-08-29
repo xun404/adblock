@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FrFmA0Bx2iJ1Y/1kuIswFQ
+! Checksum: vFz5wmsuUqcBRVLOU70d0w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202308291937
-! Last Modified: 2023年08月29日 19:37
+! Version: 202308292051
+! Last Modified: 2023年08月29日 20:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23114,7 +23114,6 @@ m.babytree.com##script + a[class]
 /countly.min.js
 /countpixel.
 /countstat.php?
-/countubn.
 /countus.php
 /cpeEvent.
 /cpeEventTracking.
@@ -23127,10 +23126,6 @@ m.babytree.com##script + a[class]
 /criteo_
 /criteoRTA.
 /cross-domain-cookie?
-/CrossDomainTracking/*
-/crtracker.
-/cs_api/log
-/CSAdobeTracking.
 /csct.js
 /csi?v=*&action=
 /csi?v=2&s=
@@ -23140,21 +23135,19 @@ m.babytree.com##script + a[class]
 /cta-loaded.js
 /ctd-sourcepoint.
 /ctd-tealium.
-/ctr_tracker.
-/ctr_tracking.
+/ctr_tracking.php?
 /ctracker/*$domain=~charmtracker.com
 /custom-analytics.js
-/CustomTrackingScript.
+/CustomTrackingScript.js
 /cv/conversion.js
-/cv_pixel.
-/cvborder.gif?
+/cv_pixel.js
 /cwTRACK.js
-/cx-tracking.
+/cx-tracking.js
 /cx_tracking.js
 /cxense-candy.js
 /cxense-entitlement.js
 /cxense/cx.js
-/cxf-tracking
+/cxf-tracking@
 /d.gif?
 /d1VisitsCounter.
 /data.mistat.
@@ -36464,6 +36457,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.nationwide.com^
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
+||tarnkappe.info/matjC.js
 ||tc.geniusmonkey.com^
 ||td.airdroid.com^
 ||ted.dailymail.co.uk^
