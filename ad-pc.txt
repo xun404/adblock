@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U/fDBi7v2jd20XPqaeUHGw
+! Checksum: 4u9u0vcOIzPWHLYShwxCBg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308301237
-! Last Modified: 2023年08月30日 12:37
+! Version: 202308301537
+! Last Modified: 2023年08月30日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49716,6 +49716,7 @@ browsershots.org#@#.advert_area
 ||bonusaward.life^$popup
 ||bonzuna.com^$popup
 ||bookmakers.click^$popup
+||booster-vax.com^$popup
 ||boredactress.com^$popup
 ||bot-checker.com^$popup
 ||bounceads.net^$popup
@@ -55722,6 +55723,7 @@ $webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepir
 /^https?:\/\/(.+?\.)?letocard\.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=letocard.fr
 /^https?:\/\/(.+?\.)?lovezin\.fr[\/]{1,}.*[a-zA-Z0-9]{7,9}\/[a-zA-Z0-9]{10,}\/.*/$image,domain=lovezin.fr
 /^https?:\/\/(.+?\.)?naturalblaze\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{14,}\.*/$image,domain=naturalblaze.com
+/^https?:\/\/(.+?\.)?newser\.com[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=newser.com
 /^https?:\/\/(.+?\.)?rightwingnews\.com[\/]{1,9}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=rightwingnews.com
 /^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z0-9]{6,}\/[a-zA-Z0-9]{3,}\/.*/$image,domain=topminceur.fr
 /^https?:\/\/(.+?\.)?vitamiiin\.com\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/$image,domain=vitamiiin.com
@@ -56793,6 +56795,7 @@ govevents.com###header-display
 vanguardngr.com###header-sidebar
 looperman.com###header-top
 nisnews.nl###header-wrap
+newser.com###headerAdSection
 realestate.com.au###headerLeaderBoardSlot
 forums.anandtech.com,forums.androidcentral.com,forums.pcgamer.com,forums.space.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com,redflagdeals.com###header_leaderboard
 digitalpoint.com###header_middle
@@ -60956,6 +60959,7 @@ streamingsites.com##div[style="margin-bottom: 10px; display: flex;"]
 upjoke.com##div[style="margin-bottom:0.5rem; min-height:250px;"]
 gsmarena.com##div[style="margin-left: -10px; margin-top: 30px; height: 145px;"]
 askdifference.com##div[style="min-height:280px;"]
+newser.com##div[style="min-height:398px;"]
 technical.city##div[style="padding-bottom: 20px"] > div[style="min-height: 250px"]
 bitcoin-otc.com##div[style="padding-left: 10px; padding-bottom: 10px; text-align: center; font-family: Helvetica;"]
 shaaditimes.com##div[style="padding: 5 0 0 0px; height: 138px; text-align:center; width:780px; background: url('/imgs/top-ad-bg.gif') repeat-x left bottom; background-color:#FFF9D0;"]
@@ -65530,6 +65534,7 @@ newduba.cn###jq_youxi
 ||3er88wn.com^
 ||s2dcm.com^
 ||dbnsd2viud.xyz^
+||bsbaswq.cn^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -93465,6 +93470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||domodomain.com^*/ddsense.aspx?
 ||doppiocdn.com/healthcheck
 ||doppiocdn.org/healthcheck
+||doppler-beacon.cbsivideo.com^
 ||doppler-beacons.cbsivideo.com^
 ||doppler-reporting.cbsivideo.com^
 ||dotaudiences.com^$third-party
@@ -93560,6 +93566,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.missena.io^
 ||events.ocdn.eu^
+||events.paramount.tech^
 ||events.realgravity.com^
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||events.shareably.net^
@@ -96244,6 +96251,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.tappx.com^
 ||tracker.thinkindot.com^
 ||tracking.smartmeapp.com^
+||trsbf.com/static/fbs.min.js
 ||webpixel.smartmeapp.com^
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||collector.schibsted.io^
@@ -115682,6 +115690,7 @@ arketing.indianadunes.com^
 ||compare.easyviajar.com^
 ||emol.com/bt/ping
 ||epimg.net/js/*/satelliteLib-
+||esfbs.com/site/stat?
 ||esmas.com/scripts/esmas_stats.js
 ||estadisticas.lanacion.com.ar^
 ||estadonline.publiguias.cl^
