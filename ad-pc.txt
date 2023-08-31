@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WLiSzS8JtINpxBG71C4SPw
+! Checksum: krfgvVdaO4Ot+mxu62sCDA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202308312051
-! Last Modified: 2023年08月31日 20:51
+! Version: 202308312137
+! Last Modified: 2023年08月31日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -758,6 +758,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
 /ad/imp?
+/ad/index.
 /ad/leaderboard.
 /ad/player_
 /ad/popup.
@@ -1391,6 +1392,7 @@ tieba.baidu.com##.tuijian-wrap
 /adv_head.
 /adv_horiz.
 /adv_left_
+/adv_out.js
 /adv_teasers.js
 /adv_vert.js
 /advanced-ads-$domain=~wordpress.org
@@ -1439,6 +1441,7 @@ tieba.baidu.com##.tuijian-wrap
 /aff/banners/*
 /aff/images/*
 /aff_ad?$script
+/aff_banner/*
 /aff_banners/*
 /affad?
 /affads/*
@@ -1684,6 +1687,7 @@ tieba.baidu.com##.tuijian-wrap
 /cpx-ad.
 /cpxads.
 /css/ads-
+/css/adsense.
 /css/adv.
 /css/adz.
 /cube_ads/*
@@ -21389,6 +21393,7 @@ browsershots.org#@#.advert_area
 ||ads.lemmatechnologies.com^
 ||ads.rd.linksynergy.com^
 ||ads1-adnow.com^
+||ads2-adnow.com^
 ||ads2550.bid^
 ||ads2ads.net^
 ||ads3-adnow.com^
@@ -38026,6 +38031,7 @@ browsershots.org#@#.advert_area
 ||pc1ads.com^
 ||pc20160301.com^
 ||pc2ads.com^
+||pc2ads.ru^
 ||pc5ads.com^
 ||pcbuqpdytqanufu.xyz^
 ||pccasia.xyz^
@@ -56271,6 +56277,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||yourlust.com*/serve
 ||yourlust.com/assets/script.js
+||yourlust.com/js/scripts.js
 ||youtubelike.com/ftt2/
 ||yporn.tv/yp/yptv.php
 ||z0s9n.xhamster.com^
@@ -57034,7 +57041,7 @@ namemc.com###skin_wrapper
 dafont.com###sky
 dailymail.co.uk###sky-right
 dailydooh.com###skysbar
-holiday-weather.com,w3schools.com,zerochan.net###skyscraper
+holiday-weather.com,omniglot.com,w3schools.com,zerochan.net###skyscraper
 jokes2go.com###skyscraperDiv
 nitrome.com###skyscraper_box
 nitrome.com###skyscraper_shadow
@@ -95748,6 +95755,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||digiland.it/count.cgi?
 ||diritalia.com^*/seosensor.js
 ||dmpcdn.el-mundo.net^
+||dmpmetrics.rcsmetrics.it^
 ||eage.it/count2.php?
 ||evnt.iol.it^
 ||fb_servpub-a.akamaihd.net^
@@ -95840,6 +95848,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cs.nakanohito.jp^
 ||delivery.satr.jp/event/
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
+||e-nls.com/disp_cnt.php
 ||estore.jp/beacon/
 ||ev.tpocdm.com^
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
