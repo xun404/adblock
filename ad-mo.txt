@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rPngwi7mjSLE8j73SPE0hQ
+! Checksum: 4/Ne5TwS/9zKzrcwfolgpg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202308310737
-! Last Modified: 2023年08月31日 07:37
+! Version: 202308310932
+! Last Modified: 2023年08月31日 09:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -411,7 +411,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 -layer-ads/
 -native-ad.
 -page-ad.
--page-ad?
 -page-peel/
 -panel-ad.
 -panel_ad_
@@ -446,20 +445,15 @@ pan.baidu.com##.upload-bar.global-clearfix
 -web-advert-
 -Web-Advert.
 .ad6media.$domain=~ad6media.fr
-.adbutler-
 .adriver.$~object,domain=~adriver.co|~adriver.tech
 .adrotate.
 .ads-lazy.
 .ads-min.
-.ads-tool.
 .ads.controller.
 .ads.css
 .ads.darla.
 .adsbox.$domain=~adsbox.in
-.adsdk.
 .adserver.
-.adService.$domain=~adservice.com
-.adsremote.
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ar/ads/
 .ashx?AdID=
@@ -479,9 +473,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~archiproducts.com|~tritondigital.com
-.com/adv?
-.com/adv_
-.com/adx_
 .com/adz/
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
@@ -554,14 +545,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 .textads.
 .th/ads/
 .to/ads/
-.tv/adl.
-.tv/ads.
 .tv/ads/$image,script,subdocument
 .tz/ads/
 .ug/ads/
 .uk/ads.
 .uk/adv/
-.us/ads.
 .us/ads/
 .vert.ad.
 .weborama.js
@@ -577,8 +565,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /a/?ad=
 /a/ads/*
 /a/display.php?$script
-/AA/itespurrom.com/*
-/AA/rndskittytor.com/*
 /AA/theologicalpresentation.com/*
 /ab_fl.js$script
 /ad--unit.
@@ -660,10 +646,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
 /ad/imp?
-/ad/index.
-/ad/index/*
-/Ad/Index?
-/ad/index_
 /ad/leaderboard.
 /ad/player_
 /ad/popup.
@@ -789,23 +771,17 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_request.
 /ad_right.
 /ad_right_
-/ad_rotation.
 /ad_rotator.
 /ad_rotator/*
 /ad_rotator_
 /ad_screen.
-/ad_script_
 /ad_serve.
-/ad_serve_
 /ad_server.
-/ad_server/*
 /ad_servlet.
 /ad_show.
 /ad_show?
 /ad_side.
-/ad_sizes=
 /ad_skin_
-/ad_sky.
 /ad_skyscraper.
 /ad_slideout.
 /ad_slot_
@@ -814,12 +790,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_spot.
 /ad_square.
 /ad_square_
-/ad_srv.
 /ad_sticky.
-/ad_tab.
-/ad_tag.
-/ad_tag_
-/ad_tags_
 /ad_text.
 /ad_text_
 /ad_title_
@@ -827,13 +798,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_top/*
 /ad_top_
 /ad_tower_
-/ad_tpl.
-/ad_ttb.
 /ad_txt.
-/ad_units?
 /ad_util.
-/ad_utils.
-/ad_ver/*
 /ad_vert.
 /ad_vertical.
 /ad_view_
@@ -854,10 +820,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adbottom.
 /adbox.
 /adbreak_
-/adbrite-
 /adbrite.
-/adbrite2.
-/adbrite_
 /adbucket.
 /adbureau.
 /adbutler-
@@ -869,7 +832,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcash.
 /adcast_
 /adcgi?
-/adchannel_
 /adcheck.
 /adcheck?
 /adchoice.
@@ -884,16 +846,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adclient.
 /adclix.$~image
 /adcode_
-/adcollector.
 /adcommon?
 /adconfig.
 /adconfigproxy.
-/adcontents_
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
 /adcreative.$domain=~adcreative.es|~adcreative.nl|~hange.jp
-/addata.$domain=~addata.io|~addata.se
-/addisplay.$domain=~addisplay.ca
 /addon/ad/*
 /addons/ads.
 /addons/ads/*
@@ -912,15 +870,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adfetch?
 /adfooter.
 /adframe2.
-/adframe_
-/adframes.
 /adfshow?
-/adfuncs.
 /adfunction.
 /adfunctions.
 /adfurikun/*$~image
 /adhandler/*$~subdocument
-/adhandlers-
 /adheader.
 /adheading_
 /adhelper.
@@ -932,16 +886,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adimages.
 /adinclude.
 /adinit.
-/adinject.$domain=~adinject.com
-/adinjector.
-/adinjector_
 /adinsert.
 /adj.php?
 /adjs.php
-/adjs/*$~image
-/adjuggler?
 /adlabel_
-/adlantis.
 /adlayer.
 /adleft.
 /adlib.$domain=~adlib.info|~adlib.mu|~catharijneconvent.nl|~rws.nl
@@ -949,22 +897,17 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adlinks.$domain=~adlinks.io|~adlinks.to
 /adlog.
 /adlogger_
-/adman_
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.opera.com|~admanager.roku.com
 /admanager/*$~object,domain=~blog.google|~konograma.com
-/admanager3.
 /admarker.$domain=~admarker.co.il
 /admarker_
-/admaster?
 /admaven.
 /admgr.
 /admixer-
 /admixer_
-/admob.$domain=~google.com
 /adModule.
 /admonitor-
 /admonitor.
-/adnet.$domain=~adnet.agency|~adnet.hr
 /ADNet/*
 /adnet2.
 /adnetmedia.$domain=~adnetmedia.ee|~adnetmedia.hu|~adnetmedia.lt|~adnetmedia.lv
@@ -972,7 +915,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adometry?
 /adops.$domain=~adops.co.il|~adops.gr
 /ados.js
-/ados?
 /adotube_adapter.
 /adotubeplugin.
 /adoverlay.
@@ -980,7 +922,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adplacement.
 /adplayer.$script,domain=~adplayer.media|~adplayer.pro
 /adplugin.
-/adplugin_
 /adpopup.
 /adPos?
 /adproxy.
@@ -1133,18 +1074,14 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads468x60.
 /ads468x60_
 /ads728.
-/ads728e.
 /ads728x90.
 /ads728x90_
-/ads790.
 /ads?apid
 /ads?callback
 /ads?client=
-/ads?code=
 /ads?id=
 /ads?object_
 /ads?param=
-/ads?spaceid
 /ads?zone=
 /ads?zone_id=
 /ads_160_
@@ -1159,8 +1096,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_bottom.
 /ads_bottom_
 /ads_box_
-/ads_codes/*
-/ads_config.
 /ads_controller.
 /ads_dfp/*
 /ads_display.
@@ -1231,10 +1166,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adserv|*|adtech;
 /adsession.$domain=~adsession.com
 /adsetup.
-/adsetup_
-/adsfac.
 /adsfetch.
-/adsforwp-
 /adsheader.
 /adshider.
 /adshow-
@@ -1620,7 +1552,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /content/ad/*
 /content/ad_
 /content/ads/*
-/content/adv/*
 /content_ad.
 /content_ad_
 /contentAd.
@@ -1642,7 +1573,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /cpx-ad.
 /cpxads.
 /css/ads-
-/css/adsense
 /css/adv.
 /css/adz.
 /cube_ads/*
@@ -1694,10 +1624,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /displayAdFrame.
 /displayads.
 /displayads/*
-/dmcads_
+/dmcads_$script
 /doubleclick.aspx
 /doubleclick.min
-/doubleclick/iframe.
 /doublepimp2.js
 /download-ad.
 /drsup-admanager-ajax.js
@@ -1718,8 +1647,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ero-advertising.
 /ero.htm
 /eroad.php
-/eroad2.
-/eroads.
 /eroadvertising.$domain=~eroadvertising.com
 /erobanner.
 /eureka-ads.
@@ -1733,7 +1660,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /exoads/*
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
-/expads-
+/expads-blocked.js
 /exports/tour/*$third-party
 /exports/tour_20/*
 /extban/*/creatives/*
@@ -1754,7 +1681,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /flashads/*
 /flatad.
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
-/fleshlightcash_
 /fload.js
 /float-ads/*
 /float_ad.
@@ -1887,7 +1813,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /houseads.
 /houseads/*
 /houseads?
-/hoverad.
+/hoverad.js
 /hserver/*
 /ht.js?site_
 /html.ng/*
@@ -1971,7 +1897,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /index-ad.
 /index_ad/*
 /index_ads.
-/infinity.js.aspx?guid=
+/infinity.js.aspx?
 /inhouse_ads/*
 /injectad.
 /inline_ad.
@@ -2044,11 +1970,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /leader_ad.
 /leaderad.
 /Leaderboard-Ads-
-/leaderboard-advert.
 /leaderboardad.
 /leaderboardads.
 /left-ads.
-/left_ad/*
 /left_ad_
 /left_ads.
 /leftad.
@@ -2078,14 +2002,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /logad?
 /logads.
 /logo-ad.
-/logo-ads.
 /logoads.
 /logoutad.
 /longad.
 /lrec_ad.
 /lserver/*
-/mac-ad?
-/mad_ad.
 /mads.php?
 /main/ad/*
 /main/ad_
@@ -2093,17 +2014,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /main_ad/*
 /main_ad_
 /mainad.$domain=~mainad.ru
-/manageads/*
 /marfeel_sw.
 /mbads?
 /mcad.php
-/mda-ads/*
 /media/ad/*
 /media/ads/*
-/media/adv/*
 /media_ads/*
 /mediaAd.
-/megaad.
 /mellowads.
 /meme_ad.
 /metaad.
@@ -2156,21 +2073,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /nativeads.
 /nativeads/*
 /nativebanner/ane-native-banner.js
-/nav_ad/*
-/navads/*
 /nb/frot_lod.
 /neverblock/*
-/new-ads/*
-/new/ad/*
-/new/ads/*
 /newad.
-/newAd/*
-/newad2?
 /newad?
-/newadcfg/*
 /newads.
-/newadv/*
-/newadvert/*
 /newaff/float
 /nugg.min.js
 /Nuggad?
@@ -2178,7 +2085,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /nwm-pw2.min.js
 /oas-config.
 /oas_ad.
-/oas_ad/*
 /oas_ad_
 /oas_ads.
 /oascentral.$~object
@@ -2193,10 +2099,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /openads2/*
 /openads_
 /openx-$domain=~openx.com
-/openx.
-/openx/*
-/openx_
-/outbrain-min.
 /overlay-ad.
 /overlay_ad_
 /overlayad.$domain=~buliba.pl
@@ -55042,6 +54944,7 @@ browsershots.org#@#.advert_area
 ||blbclassic.org/assets/images/*banners/
 ||blsnet.com/plugins/advertising/getad/
 ||blue.ktla.com^
+||bontent.powzers.lol^
 ||bordeaux.futurecdn.net^
 ||borneobulletin.com.bn/wp-content/banners/
 ||brighteon.tv/Assets/ARF/
@@ -55711,7 +55614,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||yieldlab.net^$domain=spiegel.de
 @@||jetzt.de^$generichide
 /^https?:\/\/www\.[0-9a-z]{8,}\.com\/[0-9a-z]{1,4}\.js$/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws
-$popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|animepl.xyz|animeworld.biz|aniwave.to|apl100.me|apl96.me|assia4.com|atrocidades18.net|bflix.ru|cloudemb.com|cloudvideo.tv|databasegdriveplayer.xyz|dembed1.com|diampokusy.com|dir-proxy.net|dirproxy.info|dood.la|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|dulu.to|embedsito.com|fembed-hd.com|file-upload.com|filemoon.sx|freeplayervideo.com|geoip.redirect-ads.com|gogoanime.lol|gogoanime.nl|haes.tech|highstream.tv|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livetv498.me|loader.to|luxubu.review|mangovideo.pw|mixdroop.bz|mixdrop.bz|mixdrop.ch|mixdrop.click|mixdrop.club|mixdrop.co|mixdrop.sx|mixdrop.to|mixdrops.xyz|mixdrp.co|mixdrp.to|monstream.org|myflixer.to|oneproxy.org|owodeuwu.xyz|piracyproxy.biz|piraproxy.info|pixroute.com|playtube.ws|pomvideo.cc|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|sbthe.com|scloud.online|shavetape.cash|slmaxed.com|ssbstream.net|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stape.me|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamas.cloud|streambee.to|streamhide.to|streamingcommunity.life|streamlare.com|streamta.pe|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|streamtapse.com|streamz.ws|strtape.cloud|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|strtpe.link|supervideo.tv|suzihaza.com|tapewithadblock.com|tapewithadblock.org|telyn610zoanthropy.com|theproxy.ws|trafficdepot.xyz|tubeload.co|un-block-voe.net|uploadfiles.pw|uproxy.best|uproxy.co|upstream.to|upvid.biz|uqload.com|userload.co|uwatchfree.fo|vanfem.com|vgfplay.com|vidcloud9.com|videovard.to|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|voeunblock1.com|voeunblock2.com|voiranime.com|watchsb.com|welovemanga.one|wiztube.xyz|wootly.ch|y2mate.is|youtubedownloader.sh|ytmp3.cc|ytmp3.sh
+$popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|animepl.xyz|animeworld.biz|aniwave.to|antiadtape.com|apl100.me|apl96.me|assia4.com|atrocidades18.net|bflix.ru|cloudemb.com|cloudvideo.tv|databasegdriveplayer.xyz|dembed1.com|diampokusy.com|dir-proxy.net|dirproxy.info|dood.la|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|dulu.to|embedsito.com|fembed-hd.com|file-upload.com|filemoon.sx|freeplayervideo.com|geoip.redirect-ads.com|gogoanime.lol|gogoanime.nl|haes.tech|highstream.tv|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livetv498.me|loader.to|luluvdo.com|luxubu.review|mangovideo.pw|mixdroop.bz|mixdrop.bz|mixdrop.ch|mixdrop.click|mixdrop.club|mixdrop.co|mixdrop.sx|mixdrop.to|mixdrops.xyz|mixdrp.co|mixdrp.to|monstream.org|myflixer.to|okru.link|oneproxy.org|owodeuwu.xyz|piracyproxy.biz|piraproxy.info|pixroute.com|playtube.ws|pomvideo.cc|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|sbthe.com|scloud.online|shavetape.cash|slmaxed.com|ssbstream.net|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stape.me|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamas.cloud|streambee.to|streamhide.to|streamingcommunity.life|streamlare.com|streamta.pe|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|streamtapse.com|streamz.ws|strtape.cloud|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|strtpe.link|supervideo.tv|suzihaza.com|tapewithadblock.com|tapewithadblock.org|telyn610zoanthropy.com|theproxy.ws|trafficdepot.xyz|tubeload.co|un-block-voe.net|uploadfiles.pw|uproxy.best|uproxy.co|upstream.to|upvid.biz|uqload.com|userload.co|uwatchfree.fo|vanfem.com|vgfplay.com|vidcloud9.com|videovard.to|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|voeunblock1.com|voeunblock2.com|voiranime.com|watchsb.com|welovemanga.one|wiztube.xyz|wootly.ch|y2mate.is|youtubedownloader.sh|ytmp3.cc|ytmp3.sh
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 /?ref=$popup,domain=hltv.org
 /hkz*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
@@ -61873,7 +61776,7 @@ thefappeningblog.com##.cl-exl
 bigtitsgallery.net##.classifiedAd
 xhamster.com##.clipstore-bottom
 sunporno.com##.close-invid
-fyptt.to,japaneseasmr.com##.code-block
+fap-nation.com,fyptt.to,japaneseasmr.com##.code-block
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
 playvids.com##.col-lg-6.col-xl-4
 whoreshub.com##.col-second
@@ -62235,6 +62138,7 @@ boundhub.com##.tab7le
 18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateurporn.co,amateurporn.me,bigtitslust.com,danude.com,daporn.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,jav.gl,javwind.com,jizzberry.com,mrdeepfakes.com,multi.xxx,onlyhentaistuff.com,pornchimp.com,porndr.com,pornmix.org,rare-videos.net,sortporn.com,tabootube.xxx,watchmygf.xxx,xcavy.com,xgroovy.com,xxxshake.com##.table
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
+fap-nation.org##.td-a-rec
 pronpic.org##.teaser
 onlytik.com##.temporary-real-extra-block
 avn.com##.text-center.mb-10
@@ -90739,6 +90643,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fewjuice.com^
 ||fifthborder.com^
 ||finalizeforce.com^
+||financefear.com^
 ||firstfrogs.com^
 ||flakyfeast.com^
 ||flimsycircle.com^
@@ -96319,6 +96224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ancestry.com/core.js
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
+||antiadtape.com/stat/
 ||apartments.com/clientvisit/al.gif?
 ||apester.com/cookie/bundle.js
 ||api-js.mixpanel.com^
@@ -96330,6 +96236,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
 ||appanalysis.banggood.com^
+||archive.org^*/analytics.js
 ||as.coinbase.com/metrics
 ||assets.instacart.com^
 ||atrack.allposters.com^
@@ -96547,6 +96454,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||engagefront.meteomedia.com^
 ||engagefront.theweathernetwork.com^
 ||engine.traceparts.com^
+||engineering.com/scripts/$script,domain=eng-tips.com
 ||eproof.drudgereport.com^
 ||equirodi.*/addstat.php
 ||ericdraken.com/a/$script
@@ -97409,6 +97317,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vsco.co/api/cantor/track
 ||w3-reporting.reddit.com^
 ||wa.gmx.co.uk^
+||waaw.ac/cdn-cgi/trace
 ||waaw.to/cdn-cgi/trace
 ||wal.wolfram.com^
 ||walmart.ca/api/bsp/logger
