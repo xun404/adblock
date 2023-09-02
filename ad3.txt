@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FJRRLv4GN5rlghF94lgkNw
+! Checksum: gT+jwYKl63YKovcu9MiZNA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309022137
-! Last Modified: 2023年09月02日 21:37
+! Version: 202309022237
+! Last Modified: 2023年09月02日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16328,6 +16328,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||mcmod.cn/js/jquery.cookie.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -16516,6 +16517,9 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$~third-party
 @@||adsense.woso.cn^$~third-party
+@@||demo.ama.pub^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=demo.ama.pub
+@@||adnxs.com/prebid/prebid.js$domain=demo.ama.pub
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
 @@||advert.kf5.com^
@@ -34614,6 +34618,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flya.me/eventtrack
 ||foodcouture.net/public_html/ra/script.php
 ||formula1.com/api/track
+||fortune.com/comscore-json/
 ||foursquare.com/v2/private/logactions
 ||foxsports.com.au/akam/
 ||fp.heavybit.com^
