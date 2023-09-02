@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EIdbCxQP2QuH2gd+Asz7cg
+! Checksum: FJRRLv4GN5rlghF94lgkNw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309022046
-! Last Modified: 2023年09月02日 20:46
+! Version: 202309022137
+! Last Modified: 2023年09月02日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2351,6 +2351,7 @@ newduba.cn###jq_youxi
 ||lichunxiao.cn^
 ||recds7.icu^
 ||victoriajumpc.com^
+||schedfi.com^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -23338,8 +23339,6 @@ m.babytree.com##script + a[class]
 /plingatracker.
 /plog?id
 /plogger/*
-/pluck-tracking.
-/plugin/trackEvents.
 /plugins/catman/*
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
@@ -35346,6 +35345,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tradingview.com/ping
 ||treatment.grammarly.com^
 ||tredir.go.com^
+||tripadvisor.*/CookiePingback?
 ||tripadvisor.*/GARecord^
 ||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
