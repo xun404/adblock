@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ImrufnIwDLvbScoEMMa3Lw
+! Checksum: zxHV6fAhOTqV/YhDzHyDZg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309031237
-! Last Modified: 2023年09月03日 12:37
+! Version: 202309031337
+! Last Modified: 2023年09月03日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3555,6 +3555,8 @@ _800x80_
 ###AdContent_0_0_pnlDiv
 ###AdDisclaimer
 ###AdHeader
+###AdLayer1
+###AdLayer2
 ###AdMiddle
 ###AdPanel
 ###AdPopUp
@@ -9680,6 +9682,7 @@ _800x80_
 ##.ad-two
 ##.ad-twos
 ##.ad-txt
+##.ad-txt-red
 ##.ad-type
 ##.ad-type-branding
 ##.ad-type-cube
@@ -12099,6 +12102,7 @@ _800x80_
 ##.adtechMobile
 ##.adtech_wrapper
 ##.adtester-container
+##.adtext-bg
 ##.adtext_gray
 ##.adtext_horizontal
 ##.adtext_onwhite
@@ -22397,6 +22401,7 @@ browsershots.org#@#.advert_area
 ||antheladixy.com^
 ||anthembroadcastingbitty.com^
 ||anthemspeg.space^
+||anthonypush.com^
 ||antiadblock.info^
 ||antiadblocksystems.com^
 ||antiarachoo.live^
@@ -27264,6 +27269,7 @@ browsershots.org#@#.advert_area
 ||desen4.info^
 ||deserted-employment.pro^
 ||deserterstrugglingdistil.com^
+||desertsutilizetopless.com^
 ||deservedbreast.com^
 ||deservesjoke.com^
 ||desgolurkom.com^
@@ -29341,6 +29347,7 @@ browsershots.org#@#.advert_area
 ||farasiverived.org^
 ||farawayreel.com^
 ||farcedboccis.com^
+||fardasub.xyz^
 ||fardelbungo.com^
 ||fardingsoiling.com^
 ||fargoodgarotes.digital^
@@ -32290,6 +32297,7 @@ browsershots.org#@#.advert_area
 ||iihcjcil.com^
 ||iistillstayherea.com^
 ||iiwm70qvjmee.com^
+||iiydmrr.com^
 ||ijatsapphiresanda.com^
 ||ijbgqlf.com^
 ||ijeetsie.com^
@@ -33430,6 +33438,7 @@ browsershots.org#@#.advert_area
 ||jvrawodh.com^
 ||jvylyreyazmea.top^
 ||jwalf.com^
+||jwjxjuvrnkv.com^
 ||jwnmnnnzrebqa.top^
 ||jwplayer.space^
 ||jwrrwzrrwqmj.top^
@@ -38251,6 +38260,7 @@ browsershots.org#@#.advert_area
 ||peatmanpols.store^
 ||pebadu.com^
 ||pebansokes.uno^
+||pecdfzy.com^
 ||pecialukizeias.info^
 ||pecism.com^
 ||pectasefrisker.com^
@@ -50314,6 +50324,7 @@ browsershots.org#@#.advert_area
 ||denza.pro^$popup
 ||depirsmandk5.com^$popup
 ||derevya2sh8ka09.com^$popup
+||desertsutilizetopless.com^$popup
 ||desktopnotificationshub.com^$popup
 ||desperationembassy.com^$popup
 ||determine-month-upward-shoot.xyz^$popup
@@ -50558,6 +50569,7 @@ browsershots.org#@#.advert_area
 ||fapmeth.com^$popup
 ||fapping.club^$popup
 ||farawayreel.com^$popup
+||fardasub.xyz^$popup
 ||farmhumor.host^$popup
 ||fast-redirecting.com^$popup
 ||fastdlr.com^$popup
@@ -54214,6 +54226,7 @@ browsershots.org#@#.advert_area
 ||textlinks.com/images/banners/
 ||thefreesite.com/nov99bannov.gif
 ||themespixel.net/banners/
+||thscore.fun/mn/
 ||ti.tradetracker.net^
 ||tillertag-a.akamaihd.net^
 ||toplist.raidrush.ws^$third-party
@@ -55547,6 +55560,7 @@ browsershots.org#@#.advert_area
 ||dnslytics.com/images/ads/
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
+||dontent.powzers.lol^
 ||draftkings.bbgi.com^$subdocument
 ||drive.com.au/ads/
 ||duplichecker.com/csds/
@@ -61314,6 +61328,7 @@ apkonline.net,kisshentai.net,onworks.net##div[id^="ad"]
 songlyrics.com##div[id^="ad-absolute-160"]
 timeout.com##div[id^="ad-promo-"]
 timeout.com##div[id^="ad-side-"]
+nowgoal8.com##div[id^="ad_"]
 javacodegeeks.com##div[id^="adngin-"]
 agoda.com##div[id^="ads-"]
 antiguanewsroom.com##div[id^="antig-"]
@@ -65984,6 +65999,7 @@ newduba.cn###jq_youxi
 ||tjwzyjx.icu^
 ||jhvchv.xyz^
 ||thesac9.top^
+||sxundrh.cn^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -82837,6 +82853,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytix/events
 /anametrix/*
 /anapixel.
+/anclytic-ajax.
 /angular-tag.
 /angular-tag_
 /angularlytics.
@@ -95672,6 +95689,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||banggood.com/collectBanner?
 ||banggood.com/collectException
 ||bangkokpost.com/hits/
+||barnes.send.cm^
 ||bat.maydream.com^
 ||bats.video.yahoo.com^
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
@@ -96263,6 +96281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||net.haier.com^
 ||netflix.com/msl/playapi/cadmium/logblob/
 ||netuplayer.top/cdn-cgi/trace
+||netusia.xyz/cdn-cgi/trace
 ||newegg.com/amber3/tracking
 ||newegg.com/gfplib.js
 ||news.google.com/_/v
@@ -113934,6 +113953,7 @@ arketing.indianadunes.com^
 ||cpxl.golem.de^
 ||d.rp-online.de^
 ||data.sportdeutschland.tv^
+||dd.betano.com^
 ||dein-plan.de/t.gif
 ||dejure.org/cgi-bin/sitzung.fcgi?
 ||derwesten.de/stats/
