@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VjQ3Fed4xmIsQDqkK8rjWA
+! Checksum: NLp/Z6PuYKQ/7c1oSUtrSQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309061537
-! Last Modified: 2023年09月06日 15:37
+! Version: 202309061737
+! Last Modified: 2023年09月06日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1460,7 +1460,7 @@ newduba.cn###jq_youxi
 ##A[href="http://t.cn/A6hQCVsv"]
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
 ##A[href^="/e/public/ClickAd?adid="]
-##[style="display: flex; justify-content: space-between; width: 100%;"] > [style*="margin-bottom: 6px; background"]
+##[style*="mi-img.com"][style*="calc"]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~alicdn.com##a > img[width="960"][src*=".alicdn.com/"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
@@ -23760,6 +23760,7 @@ m.babytree.com##script + a[class]
 /SSOCore/update?
 /sst8.js
 /sstat_plugin.js
+/sta.wawacity.
 /standalone-analytics-
 /stat-adobe-
 /stat-analytics/*
@@ -23783,15 +23784,10 @@ m.babytree.com##script + a[class]
 /stat_callback.
 /stat_click.
 /stat_js.asp?
-/stat_origin.gif?
-/stat_page.
-/stat_page2.
-/stat_search.
-/stat_visits.
+/stat_page.php
 /stat_vue.php?
 /stataffs/track.php?
 /statblog/pws.php?
-/statcapture.
 /StatCms/ViewCount?
 /statcollector.
 /statcollector/*
@@ -23802,19 +23798,11 @@ m.babytree.com##script + a[class]
 /statcountex/count.asp?
 /statistic/pixel?
 /statistics.js?$third-party
-/statistics/get?
-/statistics/getcook.php?
-/statistics/metrica.
-/statistics/ping.
 /statistics/pixel/*
-/statistics/set?
-/statistics?counter=
-/statisticsv2/*
 /statlogger.
 /StatRecorder.asp?
 /stats-amp.
 /stats-collect
-/stats-dc1.
 /stats-js.cgi?
 /stats-listener.js
 /stats-tracking.js
@@ -23826,9 +23814,6 @@ m.babytree.com##script + a[class]
 /stats.gif?
 /stats.hitbox.com/*
 /stats.php?*http
-/stats.php?type=
-/stats.php?uri=
-/stats.wawacity.
 /stats.wp.com/*
 /stats/?ref=
 /stats/?rt=
