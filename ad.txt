@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WMZ+M2osjLcLls4aOb9o4w
+! Checksum: sxumTXPbT8K61899MoWZsg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202309080737
-! Last Modified: 2023年09月08日 07:37
+! Version: 202309081537
+! Last Modified: 2023年09月08日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2850,6 +2850,7 @@ newduba.cn###jq_youxi
 ||htseca.top^
 ||dmvckj.icu^
 ||hsfbpp.xyz^
+||uuzwvqc.cn^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -18900,13 +18901,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|0794.o
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 !#onemanhua.com
-$script,third-party,domain=colamanhua.com
-@@.com/js/a_d/$domain=colamanhua.com
-@@.com/logo/ad.$domain=colamanhua.com
-@@||cloudflare.net^$script,domain=colamanhua.com
-colamanhua.com##iframe[style*="important"]
-colamanhua.com#@#.gg_950
-||colamanhua.com/sw.js
+$script,third-party,domain=colamanga.com
+@@.com/js/a_d/$domain=colamanga.com
+@@.com/logo/ad.$domain=colamanga.com
+@@||cloudflare.net^$script,domain=colamanga.com
+colamanga.com##iframe[style*="important"]
+colamanga.com#@#.gg_950
+||colamanga.com/sw.js
 !#Porn
 ###Video-Shunt-Box + .container
 ##.leftd1 + .rightd1
