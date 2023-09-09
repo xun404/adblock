@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vhHdyM5uk/p1FO9ZwpJgXw
+! Checksum: AXV4yJvxUmoPk2nXgNdSPQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202309091637
-! Last Modified: 2023年09月09日 16:37
+! Version: 202309091837
+! Last Modified: 2023年09月09日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57160,6 +57160,7 @@ thehindu.com###articledivrec
 findmysoft.com###as_336
 flyordie.com###asf
 stakingrewards.com###asset-calculator-banner
+tvtropes.org###asteri-sidebar
 assamtribune.com###async_body_tags
 addictivetips.com###at_popup_modal
 cityandstateny.com###atlas-module
@@ -61425,7 +61426,6 @@ greatist.com##aside
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 thefinancialbrand.com##aside[class][style*="cursor:"]
 geoguessr.com##aside[class^="ad_"]
-filecrypt.cc,filecrypt.co##button[onclick]:not([target="_blank"]):not([title="*.dlc Download"])
 psycom.net##center > .vh-quiz-qborder
 mangas-raw.com##center > div[style]
 greekreporter.com##center > p > [href]
@@ -62244,8 +62244,7 @@ seattleweekly.com#?#.marketplace-row-item-wrapper:-abp-has(.sponsored)
 shopee.co.id,shopee.ph#?#.col-xs-2-4:-abp-has(div[data-sqe="ad"])
 shopee.co.id,shopee.ph#?#.item-card-list__item-card-wrapper:-abp-has(div[data-sqe="ad"])
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
-filecrypt.cc,filecrypt.co#?#button:-abp-has(path[d$="177.3,200.6z"])
-filecrypt.cc,filecrypt.co#?#button:-abp-has(svg[viewBox="-112.1 25 290.1 512"])
+filecrypt.cc,filecrypt.co#?#button:-abp-has(path[d*="177.3,200"])
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
