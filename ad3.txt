@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GDAH9LGENKAY+gISyArBMA
+! Checksum: RXndfZZBmpEIvDw4PDCqyw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309090929
-! Last Modified: 2023年09月09日 09:29
+! Version: 202309091137
+! Last Modified: 2023年09月09日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14,6 +14,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.panda^$script,third-party
+/yinghua4567/*.js
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
@@ -9267,7 +9268,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||liwupuba.com/livead/
 ||ll.gxsky.com^
 ||llj22.com/1.gif
-||lndayp.com/4567/
 ||lnzqw.net/js/
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
@@ -21988,28 +21988,18 @@ m.babytree.com##script + a[class]
 /count/count.cgi?
 /count?pid=
 /count_js.
-/count_stats/*
-/countbk.
-/CountContent?
 /counter-js.php
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
 /counter.cgi/*
 /counter.cgi?
-/counter.do?
 /counter.js.php
-/counter.lt?
 /counter.php?chcounter_mode=
 /counter.php?width=
 /counter.pl?
-/counter.visit?
 /counter/acnt.php?
-/counter/action_
-/counter/article?
-/counter/ashow/*
 /counter/collect?
-/counter/ct.php?
 /counter/stat.
 /counter/views/*
 /counter1.gif?
@@ -22024,7 +22014,7 @@ m.babytree.com##script + a[class]
 /countinj.cgi?
 /countly.js
 /countly.min.js
-/countpixel.
+/countpixel.asp
 /countstat.php?
 /countus.php
 /create-lead.js
@@ -22040,9 +22030,7 @@ m.babytree.com##script + a[class]
 /csp_204?
 /csp_log?
 /cta-loaded.js
-/ctd-tealium.
 /ctr_tracking.php?
-/ctracker/*$domain=~charmtracker.com
 /custom-analytics.js
 /CustomTrackingScript.js
 /cv/conversion.js
@@ -22058,14 +22046,11 @@ m.babytree.com##script + a[class]
 /d1VisitsCounter.
 /data.mistat.
 /data_collect.js
-/datacapture/track
 /datacollectionapi-client/*
 /datadome/*
-/dataunlocker-prod.
+/dataunlocker-prod.js
 /dataunlocker.js
 /datawrapper.gif?
-/dbdm-events.
-/dbdm-events/*
 /dcjs/prod/*
 /dcs_tag.js
 /default/pAnalytics
@@ -22075,8 +22060,6 @@ m.babytree.com##script + a[class]
 /demdex.js
 /demdex/*
 /detm-container-
-/device-fingerprint.
-/dg/default/cs?
 /DG/DEFAULT/rest/*
 /dh-analytics-prod/*
 /diffuser.js
@@ -31511,6 +31494,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||felix.data.tm-awx.com/batch
 ||felix.data.tm-awx.com/pageConfig
 ||felix.data.tm-awx.com/pageview
+||fenix.walkerllaw.org^
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
 ||fingerprinter-production.herokuapp.com^
