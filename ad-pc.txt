@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4KloJVLkG381ct7em/N7+g
+! Checksum: G/j2EltLLHijjjPvI7sOlA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309091237
-! Last Modified: 2023年09月09日 12:37
+! Version: 202309091337
+! Last Modified: 2023年09月09日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11875,6 +11875,7 @@ _800x80_
 ##.adtech-ad-widget
 ##.adtech-banner
 ##.adtech-boxad
+##.adtech-copy
 ##.adtech-video-2
 ##.adtech-wrapper
 ##.adtechMobile
@@ -56344,6 +56345,7 @@ browsershots.org#@#.advert_area
 ||playoncenter.com^$third-party
 ||playwire.com/bolt/js/$script,third-party
 ||rumble.com^$domain=tiphero.com
+||sonar.viously.com^
 ||sportrecs.com/redirect/embed/
 ||tldw.me^$third-party
 ||ultimedia.com/js/common/smart.js$script,third-party
@@ -93784,6 +93786,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.delivery.net^$third-party
 ||p.metrilo.com^
 ||p.placed.com^
+||p.skimresources.com^
 ||p.typekit.net^
 ||p.yotpo.com^
 ||p0.com/1x1
@@ -94088,7 +94091,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||soccer.ru/counter/
 ||socialannex.com/c-sale-track/$script
 ||solutions.invocacdn.com^
-||sonar.viously.com^
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||southafricahome.com/statsmodulev2/
 ||sp-wukong-tracker.b-cdn.net^
