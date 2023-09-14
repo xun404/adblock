@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: do82pXdBfyjXNVpFPzUO0g
+! Checksum: VjrM5tzkVafy/Jy2NP52zw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202309140931
-! Last Modified: 2023年09月14日 09:31
+! Version: 202309141037
+! Last Modified: 2023年09月14日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -353,11 +353,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ad-column-
 -ad-horizontal.
 -ad-manager/$~stylesheet
--ad-reload.
 -ad-right.
 -ad-sidebar-
 -ad-sidebar.
--ad-top.
 -ad-unit.
 -ad-util.
 -ad-vertical-
@@ -370,9 +368,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ads-bottom.
 -ads-management/
 -ads-manager/$domain=~wordpress.org
--ads-plugin/
 -ads-right.
--ads.php?
 -ads/assets/$domain=~web-ads.org
 -adserver/
 -adskin.
@@ -474,7 +470,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .nu/ads/
 .openad.$domain=~openad.lv
 .openx.$domain=~openx.com|~openx.solar
-.openxtag.
 .org/ad/$domain=~ylilauta.org
 .org/ads/
 .org/pops.js
@@ -508,8 +503,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-600-
 /ad-bottom.
 /ad-box-
-/ad-boxes-
-/ad-cache.
 /ad-choices-
 /ad-choices.
 /ad-controller.
@@ -521,7 +514,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-label-
 /ad-label.
 /ad-left.
-/ad-loading.
 /ad-maven-
 /ad-overlay-
 /ad-overlay.
@@ -626,12 +618,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_lazyload.
 /ad_left.
 /ad_left_
-/ad_link.
-/ad_loader.
 /ad_manager/*
-/ad_notice.
 /ad_overlay.
-/ad_page_
 /ad_peel/*$script
 /ad_popup_
 /ad_pos=
@@ -670,12 +658,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adasync.
 /AdBackground.
 /adbanner2.
-/adBanner?
-/adbanner_
 /adbanners/*
 /adbottom.
 /adbox.
-/adbucket.
 /adbutler.
 /adcall?
 /adcalloverride.
@@ -689,10 +674,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adchoiceslogo.
 /adcircle.
 /adclick-
-/adClick?
-/adclient-
-/adclient.
-/adclix.$~image
 /adcommon?
 /adconfig.
 /adconfigproxy.
@@ -960,12 +941,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adservices/*
 /adserving.
 /adserving/*
-/adserving_
-/AdServlet?
 /adserv|*|adtech;
-/adsession.$domain=~adsession.com
-/adsetup.
-/adsfetch.
 /adsheader.
 /adshow-
 /adshow.
@@ -1621,6 +1597,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /jquery.adi.js
 /jquery.adx.js
 /jquery.dfp.js
+/jquery.openxtag.js
 /jquery.php/?uid=
 /js.ad/size=
 /js.ng/cat=
@@ -66694,6 +66671,7 @@ newduba.cn###jq_youxi
 ||boxwcr.icu^
 ||naryvz.xyz^
 ||hncadh.com^
+||ybcnvqf.cn^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]

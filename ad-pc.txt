@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /W7HsCcrZbCVInKOw1qKaw
+! Checksum: bE4pBYVXLCttbs3wUXQodQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309140931
-! Last Modified: 2023年09月14日 09:31
+! Version: 202309141037
+! Last Modified: 2023年09月14日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -465,11 +465,9 @@ tieba.baidu.com##.tuijian-wrap
 -ad-column-
 -ad-horizontal.
 -ad-manager/$~stylesheet
--ad-reload.
 -ad-right.
 -ad-sidebar-
 -ad-sidebar.
--ad-top.
 -ad-unit.
 -ad-util.
 -ad-vertical-
@@ -482,9 +480,7 @@ tieba.baidu.com##.tuijian-wrap
 -ads-bottom.
 -ads-management/
 -ads-manager/$domain=~wordpress.org
--ads-plugin/
 -ads-right.
--ads.php?
 -ads/assets/$domain=~web-ads.org
 -adserver/
 -adskin.
@@ -586,7 +582,6 @@ tieba.baidu.com##.tuijian-wrap
 .nu/ads/
 .openad.$domain=~openad.lv
 .openx.$domain=~openx.com|~openx.solar
-.openxtag.
 .org/ad/$domain=~ylilauta.org
 .org/ads/
 .org/pops.js
@@ -620,8 +615,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad-600-
 /ad-bottom.
 /ad-box-
-/ad-boxes-
-/ad-cache.
 /ad-choices-
 /ad-choices.
 /ad-controller.
@@ -633,7 +626,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad-label-
 /ad-label.
 /ad-left.
-/ad-loading.
 /ad-maven-
 /ad-overlay-
 /ad-overlay.
@@ -738,12 +730,8 @@ tieba.baidu.com##.tuijian-wrap
 /ad_lazyload.
 /ad_left.
 /ad_left_
-/ad_link.
-/ad_loader.
 /ad_manager/*
-/ad_notice.
 /ad_overlay.
-/ad_page_
 /ad_peel/*$script
 /ad_popup_
 /ad_pos=
@@ -782,12 +770,9 @@ tieba.baidu.com##.tuijian-wrap
 /adasync.
 /AdBackground.
 /adbanner2.
-/adBanner?
-/adbanner_
 /adbanners/*
 /adbottom.
 /adbox.
-/adbucket.
 /adbutler.
 /adcall?
 /adcalloverride.
@@ -801,10 +786,6 @@ tieba.baidu.com##.tuijian-wrap
 /adchoiceslogo.
 /adcircle.
 /adclick-
-/adClick?
-/adclient-
-/adclient.
-/adclix.$~image
 /adcommon?
 /adconfig.
 /adconfigproxy.
@@ -1072,12 +1053,7 @@ tieba.baidu.com##.tuijian-wrap
 /adservices/*
 /adserving.
 /adserving/*
-/adserving_
-/AdServlet?
 /adserv|*|adtech;
-/adsession.$domain=~adsession.com
-/adsetup.
-/adsfetch.
 /adsheader.
 /adshow-
 /adshow.
@@ -1733,6 +1709,7 @@ tieba.baidu.com##.tuijian-wrap
 /jquery.adi.js
 /jquery.adx.js
 /jquery.dfp.js
+/jquery.openxtag.js
 /jquery.php/?uid=
 /js.ad/size=
 /js.ng/cat=
@@ -66806,6 +66783,7 @@ newduba.cn###jq_youxi
 ||boxwcr.icu^
 ||naryvz.xyz^
 ||hncadh.com^
+||ybcnvqf.cn^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
