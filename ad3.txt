@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pmmEujR1PzsktbqIBMEUJA
+! Checksum: rE74BlplcXWtBJHwNvXWCw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309152237
-! Last Modified: 2023年09月15日 22:37
+! Version: 202309152337
+! Last Modified: 2023年09月15日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10918,6 +10918,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||imageoss.com/images/*_GIF2400x120_
+||yuanxue365.com/js/a22.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 so.com##.tg-wrap-async
@@ -17190,8 +17191,8 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > div
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > div
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
 18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.modal-backdrop
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
