@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: az+R2k9udhwyIaeGYsZLYQ
+! Checksum: 6Lu3mzJUgX0TNJbwYh/O3w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309151137
-! Last Modified: 2023年09月15日 11:37
+! Version: 202309151437
+! Last Modified: 2023年09月15日 14:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22324,15 +22324,11 @@ m.babytree.com##script + a[class]
 /facebookpixel/*
 /facebookproductad/*$script
 /FacebookTracking.
-/faciliti-tag.
+/faciliti-tag.min.js
 /fairfax_tracking.js
-/famobi_tracking_
 /fastcounter.
-/fb-app-tracker.
-/fb-ga-track-
 /fb-pixel-
 /fb-tracking.js
-/fb_pixel-
 /fb_pixel_page_
 /fbanalytics/*
 /fbcounter/*
@@ -32326,6 +32322,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plista.com/activity
 ||pm.boostintegrated.com^
 ||poool.fr/api/v3/access/event
+||popup-static.unisender.com^
 ||porpoise.azettl.net^
 ||postageapp.com/receipt/$third-party
 ||poweredbyeden.com/widget/tracker/
