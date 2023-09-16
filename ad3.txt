@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GCAVqsLKkjF5q0CBndeRcQ
+! Checksum: cYZjTfeVtxshBH3uu3krxQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309161837
-! Last Modified: 2023年09月16日 18:37
+! Version: 202309162137
+! Last Modified: 2023年09月16日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21350,16 +21350,11 @@ m.babytree.com##script + a[class]
 .php?stats=
 .php?tracking=
 .sharecounter.$third-party
-.sitecatalyst.js
-.siteclarity.
-.sitetracking.
 .skimlinks.js
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .stats?action=
 .svc/?tracking_id=
-.tv/log?event
 .v4.analytics.
-.web-vitals-reporting.
 /.webscale/rum?
 /.well-known/shopify/monorail
 /0.gif?
@@ -21414,7 +21409,7 @@ m.babytree.com##script + a[class]
 /abc.gif?
 /access.php?referrer=
 /accessanalyzer/tracker?
-/AccessCounter/*
+/AccessCounter/index.cgi?
 /accesstracking/*
 /acclog.cgi?
 /acecounter/*
@@ -21424,7 +21419,6 @@ m.babytree.com##script + a[class]
 /activity-track/?
 /activity.gif?
 /AD/PageHits.
-/ad/statistic
 /adb-analytics
 /adb1.gif?
 /adblock_logging.
@@ -21478,8 +21472,6 @@ m.babytree.com##script + a[class]
 /adv?pixel_
 /adviewtrack.
 /advstats/*
-/adwords-tracker.
-/adx_remote.
 /aff_i?offer_id=
 /aff_land?referrer
 /affiliate-track.
@@ -21586,6 +21578,7 @@ m.babytree.com##script + a[class]
 /analytics.html?
 /analytics.js/v1/*
 /analytics.prod.$domain=~fifteen.eu
+/analytics.sitecatalyst.js
 /analytics.v1.js
 /analytics/?event
 /analytics/abtest/*
@@ -53962,7 +53955,6 @@ arketing.indianadunes.com^
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
-@@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
@@ -53990,7 +53982,6 @@ arketing.indianadunes.com^
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
-@@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
