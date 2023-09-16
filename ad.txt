@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fqdLKLtvEeFS9oEtP5JmIg
+! Checksum: JnEQuLs+cdz0onhrrj6Oyw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202309160737
-! Last Modified: 2023年09月16日 07:37
+! Version: 202309161037
+! Last Modified: 2023年09月16日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2940,6 +2940,9 @@ newduba.cn###jq_youxi
 ||zypzzv.xyz^
 ||vmbzhfh.cn^
 ||jcwtml.icu^
+||kfjpren.xyz^
+||cheda8.icu^
+||vuvxpf.xyz^
 ||zzisnvb.cn^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -11371,6 +11374,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ettoday.net##.ad_970
+ettoday.net##.ad_300
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17043,6 +17048,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||520call.me/ad/ad_1.php
 @@||520call.me/jspopunder.
 @@||520call.me^$generichide
+@@||ettoday.net^$generichide
 @@||520cc.cc/ad/$script
 @@||520cc.cc/ad/ad_1.php
 @@||520cc.cc/api/jspopunder.
