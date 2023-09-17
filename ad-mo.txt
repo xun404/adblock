@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RL5UmeMk2VKz6W3R8ItjBA
+! Checksum: gnTFGN6g9vbHf98tiffVMA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202309170737
-! Last Modified: 2023年09月17日 07:37
+! Version: 202309171137
+! Last Modified: 2023年09月17日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -417,7 +417,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 -top-ads.
 -web-advert-
 -Web-Advert.
-.ad6media.$domain=~ad6media.fr
 .adriver.$~object,domain=~adriver.co|~adriver.tech
 .adrotate.
 .ads-lazy.
@@ -558,8 +557,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/skin_
 /ad/skyscraper.
 /ad/sponsors/*
-/ad/top.
-/ad/top_
 /ad/view/*
 /ad/zeus/*
 /ad300.
@@ -843,7 +840,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_bg.
 /ads_bottom.
 /ads_bottom_
-/ads_box_
 /ads_controller.
 /ads_dfp/*
 /ads_display.
@@ -853,12 +849,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_iframe.
 /ads_image/*
 /ads_images/*
-/ads_leaderboard_
 /ads_left_
 /ads_loader.
 /ads_manager.
-/ads_openx_
-/ads_redirect.
 /ads_sidebar.
 /adsadview.
 /AdsAjaxRefresh.
@@ -892,34 +885,22 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adserving/*
 /adserv|*|adtech;
 /adsheader.
-/adshow-
-/adshow.
-/adshow/*
-/adshow?
-/adshow_
-/adsiframe.
-/adsiframe/*
 /adsimage/*
 /adsimages/*
 /adsImg/*
 /adsinclude.
-/adsinsert.
 /adsinteractive-
-/adsky.
 /adskyright.
 /adskyscraper.
 /adslide.
 /adslider-
 /adslides.
 /AdsLoad.
-/adslot-
 /adslots.
 /adsmanager.nsf/*
 /adsmanager/*$domain=~github.com
 /adsManagerV2.
 /adsmm.dll/*
-/adsnative_
-/adsonar.
 /adspan.
 /adsplay.
 /AdsPlugin.
@@ -59559,7 +59540,7 @@ dola.com##.ds-brand
 dola.com##.ds-display-ad
 cryptonews.com##.dslot
 kickasstorrents.to##.dssdffds
-digitaltrends.com##.dt-primis
+digitaltrends.com,themanual.com##.dt-primis
 digitaltrends.com##.dtads-location
 everythingrf.com##.dummydiv
 yts.mx##.durs-bordered
@@ -63976,7 +63957,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||nflcdn.com/static/site/$script,domain=nfl.com
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
-@@||nytimes.com^*/adslot-$script,xmlhttprequest
 @@||optimatic.com/iframe.html$subdocument,domain=pch.com
 @@||optimatic.com/redux/optiplayer-$domain=pch.com
 @@||optimatic.com/shell.js$domain=pch.com
@@ -64114,6 +64094,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||photos.google.com^$generichide
 @@||play.max.com^$generichide
 @@||publicwww.com^$generichide
+@@||reddit.com^$generichide
 @@||slack.com^$generichide
 @@||sourcegraph.com^$generichide
 @@||stackblitz.com^$generichide
