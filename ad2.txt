@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RqpEGAMHyFeXXnFdolaqqw
+! Checksum: dRy0ySvL6YLTJz8QJiU36w
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202309182052
-! Last Modified: 2023年09月18日 20:52
+! Version: 202309182337
+! Last Modified: 2023年09月18日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -17232,6 +17232,7 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+18comic.org,18comic.vip#?#a[href*="//"]:not([href*="18comic."]):-abp-has(>span)
 18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.modal-backdrop
 18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
