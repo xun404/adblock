@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KhEAIow5SbfXWcBTu0IAKQ
+! Checksum: R6J70IDywz6thT2XtPk60w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309181737
-! Last Modified: 2023年09月18日 17:37
+! Version: 202309181837
+! Last Modified: 2023年09月18日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10948,9 +10948,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||85wp.com/ad/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+85wp.com###a3_diy2
+85wp.com##.top-ad-img
 tmioe.com##.widget_image_myimg
 szxx.com.cn###A1
 uuzzw.com##.topmedia
@@ -18681,9 +18684,6 @@ t66y.com##.tips
 !#Taohuazu
 ###toptb + div[align="center"]
 ##.it618_firstad_flex
-##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
-||360buyimg.com$domain=73thz.com
-||alicdn.com^$domain=73thz.com
 !#theporn.cc
 ###__ads_dp
 ###video_playr_side.video_playr_sider.videoplayerside
