@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5ABe+RIGBAwc9iNcoNuA4g
+! Checksum: Hxnc6bNTAx1yD5ymlzkVlA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309191137
-! Last Modified: 2023年09月19日 11:37
+! Version: 202309191237
+! Last Modified: 2023年09月19日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -481,13 +481,8 @@ tieba.baidu.com##.tuijian-wrap
 -ads-manager/$domain=~wordpress.org
 -ads-right.
 -ads/assets/$domain=~web-ads.org
--adskin.
--adspace.$domain=~metaverse-adspace.com
--advertisement_
 -adverts.min.
--article-ad-
 -article-ad.
--article-ads-
 -assets/ads.$~script
 -auto-ads-
 -banner-ad-
@@ -569,12 +564,8 @@ tieba.baidu.com##.tuijian-wrap
 .nativeads.
 .net/ad2/$~xmlhttprequest
 .net/ads?
-.net/noidadx/
-.net/pfadj/
 .ng/ads/
 .nu/ads/
-.openad.$domain=~openad.lv
-.openx.$domain=~openx.com|~openx.solar
 .org/ad/$domain=~ylilauta.org
 .org/ads/
 .org/pops.js
@@ -678,8 +669,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_banner/*
 /ad_base.
 /ad_bottom.
-/ad_box.
-/ad_box_
 /ad_break?
 /ad_campaign?
 /ad_caption.
@@ -769,14 +758,11 @@ tieba.baidu.com##.tuijian-wrap
 /addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
-/adengage.
 /adengine.
 /adfallback.
 /adfeed.
 /adfooter.
 /adfshow?
-/adfunction.
-/adfunctions.
 /adfurikun/*$~image
 /adhandler/*$~subdocument
 /adheader.
@@ -1734,16 +1720,11 @@ tieba.baidu.com##.tuijian-wrap
 /oasconfig/*
 /oiopub-direct/*$~stylesheet
 /oncc-ad.
-/openad.$domain=~openad.lv
-/openads-
+/openad.js
 /openads.
 /openads/*
-/openads2/*
-/openads_
-/openx-$domain=~openx.com
 /overlay-ad.
 /overlay_ad_
-/overlayad.$domain=~buliba.pl
 /overlayads.
 /owa.MessageAdList.
 /p2/ads/*
@@ -67028,6 +67009,7 @@ newduba.cn###jq_youxi
 ||ecami.xyz^
 ||jtwewpi.cn^
 ||unmsrvh.cn^
+||analystrati.com^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
