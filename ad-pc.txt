@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CP8OaIlnm6oVGDMs2mBVDg
+! Checksum: EHxvby2p0RmZdhgO6R2GiQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309202051
-! Last Modified: 2023年09月20日 20:51
+! Version: 202309202137
+! Last Modified: 2023年09月20日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -48938,6 +48938,7 @@ browsershots.org#@#.advert_area
 ||adm-vids.info^$third-party
 ||adm.shinobi.jp^$third-party
 ||adman.gr^$third-party
+||admaru.com^$third-party
 ||admatic.com.tr^$third-party
 ||admax.space^$third-party
 ||admaxim.com^$third-party
@@ -56246,6 +56247,7 @@ browsershots.org#@#.advert_area
 ||4f.to/spns/
 ||aboutmyarea.co.uk/images/imgstore/
 ||ad.animehub.ac^
+||ad.imp.joins.com^
 ||ad.itweb.co.za^
 ||ad.khan.co.kr^
 ||ad.kimcartoon.si^
@@ -76274,7 +76276,7 @@ dmzj.com###khdDown
 0597kk.com###kk_content1_left_ad1
 0597kk.com###kk_head_ad
 0597kk.com###kk_oTransContainer2
-axutongxue.com,axutongxue.net###kkkkbbb
+axutongxue.com,axutongxue.net###ccccc
 1m3d.com###klp_adtop
 baidu.com###knowledge-answer
 csdn.net###kp_box_476
@@ -83891,16 +83893,12 @@ fqsousou.com,kengso.com#@#.user-share
 /api/ipv4check?
 /api/log-visit
 /api/log?
-/api/lt/ref?
-/api/metrics$other
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
 /api/ping?$~xmlhttprequest
 /api/pixel?
 /api/stat?
-/api/statz
-/api/tracing?
 /api/track?guid
 /api/trk?
 /api/v1/firehose?_
@@ -83912,9 +83910,8 @@ fqsousou.com,kengso.com#@#.user-share
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
-/api_ip_info.
+/api_ip_info.php
 /apilog?
-/apixel?
 /app-measurement?
 /appdynamics/adrum-
 /appGoogleTagManager-
@@ -83927,25 +83924,19 @@ fqsousou.com,kengso.com#@#.user-share
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
-/arstat?
 /art/stats/*
-/article-tracking.js
 /article/count?
 /Article/ViewCount/*
 /article_counter.php?
 /article_hit.php?
-/ArticleCounterLogger.
-/articleOmnitureTracking.
-/ArticleViewTracking/*
+/articleOmnitureTracking.js
 /ASPixel.js
 /assets-cdonAnalytics.js
 /assets/beacons.js
 /assets/smarttag-$script
 /astrack.js
-/astracker.
-/astracker/*
-/asyncggtracking.
-/async~sentry-
+/astracker.js
+/astracker/ast.php
 /at-composer.js
 /at.gif?
 /atapixel.js
@@ -83954,39 +83945,28 @@ fqsousou.com,kengso.com#@#.user-share
 /atrk.gif?
 /atrk.js
 /audience-extraction.js
-/audience-meter.
-/audience-science.
 /audience.gif?
 /audience.min.js
-/audience_science-
-/audience_science.
-/audience_science_
-/audienceScience.
+/audienceScience.js
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
 /AutoTracker.js
-/avtstats.
-/aw-tracker.
-/awAnalytics.
 /awin?awc=$image
 /awp.log
 /awpys.log
-/aws-analytics.js
 /awstats.js
 /awstats_misc_tracker
 /azion-pulse.js
-/aztrack.
-/aztracker.
+/aztracker.js
 /b.banners.impress.
 /b.gif?
 /b/s/beacon
 /b/ss/*&aqe=
 /b/ss/*&events=
 /b/ss/*&ndh=
-/b/ss/*&pagename=
 /b/ss/*/JS-
 /b/ss?AQB=
 /b/stats?
@@ -83995,22 +83975,14 @@ fqsousou.com,kengso.com#@#.user-share
 /banalytics.js
 /base/es5/bundle.js
 /base/es6/bundle.js
-/basesdc.js
-/basicMetricsTracking.
 /batch.gif?
 /batch/action/_:
-/baynote-$script
-/baynote.
-/baynote/*
-/baynote_
-/bb-analytics-
-/bc-track.
+/baynote.js
+/bb-analytics-inline.min.js
 /bc/clk?
 /bcn.gif?
 /bcsensor.js
-/bctrackers/*
 /bdg.gif?
-/beacon-cookie.
 /beacon.cgi?
 /beacon.gif?
 /beacon.js
@@ -89245,6 +89217,7 @@ _mongo_stats/
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
 ||prchecker.info^$third-party
+||prebidmanager.com^$third-party
 ||precisioncounter.com^$third-party
 ||predicta.net^$third-party
 ||predictiveresponse.net^$third-party
@@ -92552,6 +92525,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ad-fam.com^$third-party
 ||ad-track.jp^$third-party
 ||ad2iction.com^$third-party
+||adapf.com^$third-party
 ||adgainersolutions.com^$third-party
 ||adgocoo.com^$third-party
 ||admatrix.jp^$third-party
@@ -92567,6 +92541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bigmining.com^$third-party
 ||blogranking.net^$third-party
 ||canem-auris.com^$third-party
+||caprofitx.com^$third-party
 ||catsys.jp^$third-party
 ||cetlog.jp^$third-party
 ||cheqzone.com^$third-party
@@ -96428,6 +96403,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.gpm-rtv.ru^
 ||tracking.retailrocket.net^
 ||traktor.ru^*/counter.php?
+||uc.xddi.ru^
 ||ulogin.ru/js/stats.js
 ||upstats.yadro.ru^
 ||uptolike.com/widgets/*/imp?
@@ -96594,6 +96570,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-api.dvdfab.
 ||analytics-proxy.springboard.com^
 ||analytics-tracking.meetup.com^
+||analytics-wcms.joins.net^
 ||analytics-zone-1.api.leadfamly.com^
 ||analytics.academy.com^
 ||analytics.adfreetime.com^
