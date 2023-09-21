@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bBR7bmDNVAffryTjUChcrg
+! Checksum: EXgxW148XnasJrSgQgTJHQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309210932
-! Last Modified: 2023年09月21日 09:32
+! Version: 202309211037
+! Last Modified: 2023年09月21日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2532,6 +2532,7 @@ newduba.cn###jq_youxi
 ||crvbnac.xyz^
 ||gniew.xyz^
 ||sdjvbsjbvas.com^
+||lrdyfz.xyz^
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/ky6y.com"]
@@ -21818,6 +21819,7 @@ m.babytree.com##script + a[class]
 /bundle/analytics.
 /bundles/metrics.
 /bunsen/events/*
+/busting/facebook-tracking/*
 /bv-analytics.js
 /byside_webcare.
 /bytro/logs/*
@@ -22249,51 +22251,33 @@ m.babytree.com##script + a[class]
 /eventtracking-
 /eventtracking.
 /eventtracking/*
-/evercookie.
-/evercookie/*
-/evercookie_
-/evergage-script.
+/evercookie.js
+/evercookie/swfobject-2.2.min.js
 /evergage.js
-/evergage.min-
 /evergage.min.js
 /evt.gif?
-/evtrack-
-/ewtrack.
-/EWTRACK_
 /exactag.js
-/exittracker.
-/expcount/*
-/extendedAnalytics.
-/external-tracking.
-/external/nielsen_
-/ezytrack.
+/exittracker.js
+/expcount/additional.php
+/extendedanalytics.js
+/external-tracking.min.js
+/ezytrack.js
 /f.gif?
-/facebook-retargeting-
-/facebook-tracking/*
 /facebook/pixel.js
-/facebook_fbevents.
-/facebook_pixel_
-/facebookpixel.
-/facebookpixel/*
-/facebookproductad/*$script
-/FacebookTracking.
+/facebook_fbevents.js
+/facebook_pixel_3_1_2.js
+/facebookpixel.js
 /faciliti-tag.min.js
-/fairfax_tracking.js
-/fastcounter.
-/fb-pixel-
+/fb-pixel-scripts?
 /fb-tracking.js
-/fb_pixel_page_
-/fbanalytics/*
-/fbcounter/*
-/fbevents-amd.js
+/fb_pixel_page_view
+/fbanalytics.js
+/fbcounter/counter.cgi
 /fbevents.js
 /fbevents.min.js
-/fbo-collect.
 /fbpix-events-
-/fbpixel.
+/fbpixel.js
 /fbpixel/*
-/fdlogger.
-/fdlogger/*
 /fe/track/*
 /fe_logger?
 /figanalytics/*
@@ -24983,6 +24967,7 @@ _mongo_stats/
 ||btloader.com^
 ||bx-cloud.com^
 ||bydst.com^
+||byspotify.com^
 ||cadsuta.net^
 ||captcha-display.com^
 ||cbdatatracker.com^
@@ -25504,6 +25489,7 @@ _mongo_stats/
 ||apolloprogram.io^$third-party
 ||appboycdn.com^$third-party
 ||appcast.io^$third-party
+||appdynamics.com^$third-party
 ||appn.center^$third-party
 ||aprtn.com^$third-party
 ||aprtx.com^$third-party
@@ -26048,6 +26034,7 @@ _mongo_stats/
 ||europuls.eu^$third-party
 ||europuls.net^$third-party
 ||everestjs.net^$third-party
+||evergage.com^$third-party
 ||evisitanalyst.com^$third-party
 ||evorra.net^$third-party
 ||evyy.net^$third-party
@@ -30922,7 +30909,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.opmnstr.com/v2/geolocate/
 ||app.posthog.com/static/array.js
 ||app.yesware.com/t/$third-party
-||appdynamics.com/geo/$third-party
 ||appinthestore.com/click/
 ||apple.com/hvr/mw/v1/spile
 ||apple.com/mw/v1/reportAnalytics
@@ -34663,6 +34649,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fathom.app.silverbeak.com^
 ||fathom.status.im^
 ||fathom.tdvm.net^
+||fbo-statistics-collector-tc.is.flippingbook.com^
 ||fc2.com/ana/analyzer.php
 ||fc2.com/ana/processor.php?
 ||fc2.com/counter_img.php?
