@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3Pi1usbxIUMd6p07GfzijQ
+! Checksum: rLXkk49EURMBVPowzi+iig
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202309221438
-! Last Modified: 2023年09月22日 14:38
+! Version: 202309221837
+! Last Modified: 2023年09月22日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22184,59 +22184,31 @@ m.babytree.com##script + a[class]
 /endpoint/stats.php?
 /EndpointTracker/allendpoints?
 /Engagement/TrackEventAsync
-/engine/ping?
 /ent_counter?
 /entry_stats?
-/epvplytics.
 /err/js/?url=
 /error/js/log?
-/estat.$domain=~estat.ly|~estat.stat.ee
+/estat.js
 /estatistica.js
 /eta/events?
-/etag?
-/eTagP/*
-/etarget/*
-/etracker.
-/etracker/*
-/eu-survey.js
-/eumcollector/*
-/eva-analytics.
-/event-log/*
+/eumcollector/beacons/*
+/eva-analytics.min.js
 /event-log?
-/event-report?
-/event-tracking.
+/event-tracking.js
 /event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
-/event/beacon|
-/event/fingerprint
-/event/img?type=
-/event/impression/*
-/event/pageview/*
 /event/pageview?
-/event/rumdata?
 /event/track?
 /event/tracking
 /event/trigger?
-/event/v3?
 /event/visit?
-/event?&event=
-/event?adblk=
 /event?event_id=
 /event?eventType=
-/event?pmo=
-/event?ref=
-/event?sendBeacon=
-/event?stat_
-/event?token=
-/event?tub_id=
 /event_log/*
 /event_logger
 /event_logging/*
-/event_tracker?_
-/eventcnt.php?
-/EventLog.axd?
 /eventlog.js
 /eventLogServlet?
 /eventproxy/track
@@ -35485,6 +35457,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vizcloud.co/ping/
 ||vk.com/js/lib/px.js
 ||vortex.hulu.com^
+||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
 ||vsco.co/api/cantor/track
 ||w3-reporting.reddit.com^
