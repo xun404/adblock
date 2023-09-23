@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gGwgVUUM1Sv82BviqVk7cg
+! Checksum: 7dUOt3DS8LkK4ZcffxU5cg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309231937
-! Last Modified: 2023年09月23日 19:37
+! Version: 202309232046
+! Last Modified: 2023年09月23日 20:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -75580,6 +75580,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tvyb03.com/template/mytheme/statics/js/layer/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ettoday.net###pc_inread_overseas
+ettoday.net###mobileweb_inread
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -84574,8 +84576,10 @@ fqsousou.com,kengso.com#@#.user-share
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
 /facebookpixel.js
+/facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
-/fb-pixel-scripts?
+/fairfax_tracking.js
+/fb-pixel-$script
 /fb-tracking.js
 /fb_pixel_page_view
 /fbanalytics.js
@@ -94732,6 +94736,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||session.timecommerce.net^
 ||sexhd.pics/x/x.js
 ||sezzle.com/v1/event/log
+||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
 ||sgali-mcs.byteoversea.com^
 ||share-online.biz/affiliate/$third-party
