@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jpDjYgKsX5srLKEZoVofyw
+! Checksum: l/zzedL4Y+/A2uBGuZ3buQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202309251737
-! Last Modified: 2023年09月25日 17:37
+! Version: 202309252052
+! Last Modified: 2023年09月25日 20:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -411,7 +411,7 @@ cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query
 ||warnermedia.com/api/v1/events?*=ad-break*^xmlhttprequest,domain=cnn.com
 ||warnermediacdn.com/prod01/*mp4^$xmlhttprequest,domain=cnn.com
 ! #CV-1149
-etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li div.wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
+etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li .wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com##a[href*="listing_page_ad_row"]
 ! #CV-1056
