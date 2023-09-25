@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zi/ys6MvFyOHt0qcCMDsJQ
+! Checksum: tMQungIJ4q7v+9JnrsoTqw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202309251737
-! Last Modified: 2023年09月25日 17:37
+! Version: 202309251837
+! Last Modified: 2023年09月25日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -64214,7 +64214,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||live.primis.tech/live/$script,domain=eurogamer.net|vg247.com
-@@||live.streamtheworld.com/partnerIds$domain=iheart.com|sojo1049.com
+@@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
 @@||luminalearning.com/affiliate-content/$image,~third-party
@@ -75607,6 +75607,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
