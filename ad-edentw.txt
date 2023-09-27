@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 05ZYzrdPV8wRUfSIN2Euig
+! Checksum: QxkEfNMucLiLKuVj6/LVIQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202309272337
-! Last Modified: 2023年09月27日 23:37
+! Version: 202309280238
+! Last Modified: 2023年09月28日 02:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -657,6 +657,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-contains-visible-text '/Sponsor/' li 'li div[aria-label="Product"]'
+instacart.com#$#hide-if-contains-visible-text '/Spons/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-featured-")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
@@ -669,7 +670,7 @@ instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following:
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 ! #CV-1213
 samsclub.com#$#hide-if-matches-xpath '//img[contains(@class,"sc-pc-image-small-controller")]/preceding::div[contains(@class,"sc-sponsored-simple")][contains(text(),"Sponsored")]/ancestor::div[contains(@class,"sc-product-carousel-canary-card-has-sponsored-product")]'
-samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[@class="sc-sba-modules"]'
+samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'
 samsclub.com#$#hide-if-labelled-by /Sponsored/ button div[class*="carousel-slide"]
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #CV-663
