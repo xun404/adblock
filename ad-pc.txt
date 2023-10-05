@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XYIg7nNeSnaZKWNrM601JQ
+! Checksum: sSSvpM/QbB2QvDwdVV9cRg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310051137
-! Last Modified: 2023年10月05日 11:37
+! Version: 202310051337
+! Last Modified: 2023年10月05日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62130,7 +62130,6 @@ hancinema.net##[class^="wmls_"]
 torlock.com##[class^="wrn"]
 mydramalist.com##[class^="zrsx_"]
 dribbble.com##[data-ad-data*="ad_link"]
-myanimelist.net##[data-ad-sticky]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-ad]
 builtbybit.com##[data-advertisement-id]
 czechtheworld.com##[data-affiliate]
@@ -62151,7 +62150,6 @@ news.sky.com##[data-format="leaderboard"]
 tvzoneuk.com##[data-hook="HtmlComponent"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
-myanimelist.net##[data-koukoku-width]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
@@ -62338,6 +62336,7 @@ filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
 dappradar.com,euroweeklynews.com,thefinancialbrand.com##[rel*="sponsored"]
+myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
 wallpaperaccess.com##[src="/continue.png"]
@@ -91013,6 +91012,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||evaluateend.com^
 ||evaluatestream.com^
 ||evanescentedge.com^
+||eventexistence.com^
 ||exchangedetail.com^
 ||excitingtub.com^
 ||exclusivebrass.com^
