@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vhefSehB5nRlbG0Tx8j3OQ
+! Checksum: 86pOnX61KWB1MWcZte+3lA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310052138
-! Last Modified: 2023年10月05日 21:38
+! Version: 202310052237
+! Last Modified: 2023年10月05日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -53562,7 +53562,8 @@ arketing.indianadunes.com^
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||check.ddos-guard.net/check.js$script
-@@||cleverpush.com/channel/$script,domain=bsdex.de
+@@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
+@@||cleverpush.com/sdk/$script,domain=heise.de
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
@@ -53656,6 +53657,7 @@ arketing.indianadunes.com^
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 @@||lightning.bleacherreport.com^*/launch-$~third-party
 @@||live.rezync.com^$script,domain=batteriesplus.com
+@@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 @@||logging.apache.org^$~third-party
 @@||logo.clearbit.com^$image,third-party
