@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hR9IelSoqyVZFKBPLT6eiA
+! Checksum: oU4wXbsL0rxrvv7we4+18A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202310051737
-! Last Modified: 2023年10月05日 17:37
+! Version: 202310061637
+! Last Modified: 2023年10月06日 16:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -413,7 +413,7 @@ cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query
 ||warnermedia.com/api/v1/events?*=ad-break*^xmlhttprequest,domain=cnn.com
 ||warnermediacdn.com/prod01/*mp4^$xmlhttprequest,domain=cnn.com
 ! #CV-1149
-etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li .wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
+etsy.com#$#hide-if-contains-visible-text '/[aA]d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com##a[href*="listing_page_ad_row"]
 ! #CV-1056
@@ -1432,7 +1432,7 @@ xoilac84.tv#$#abort-current-inline-script jQuery overlay
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
 javnong.cc#$#abort-on-property-read Math.round
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net#$#abort-current-inline-script WebAssembly instantiate
+viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenus.com,yurineko.net,vlxyz.tv#$#abort-current-inline-script WebAssembly instantiate
 protruyen.com,animevietsub.moe#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,ophim.vip#$#abort-on-property-read localStorage
 phimgigi.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
@@ -1443,6 +1443,7 @@ truyen35.vn#$#abort-current-inline-script jQuery click_ads
 toptruyenne.com#$#abort-current-inline-script Promise instance
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
+vailonxx.com#$#abort-current-inline-script jQuery window.open
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
