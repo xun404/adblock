@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4fXOCz4/E4bBRHOR8mz/3Q
+! Checksum: 1Bzl9dVE1jN1CnCGR9cEIw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310101337
-! Last Modified: 2023年10月10日 13:37
+! Version: 202310101737
+! Last Modified: 2023年10月10日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -66858,6 +66858,8 @@ newduba.cn###jq_youxi
 ||xcqbbcqpl.xyz^
 ||gmx24.top^
 ||actrqdr.cn^
+||dkvakldvnsv.com^
+||lkoqtvvajktpjsk.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
@@ -71318,6 +71320,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
 $script,third-party,websocket,domain=52codes.net
+$third-party,xmlhttprequest,domain=xyg688.com
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
 $websocket,domain=5nj.com|cechi8.com
 .194007.com/4058.gif
@@ -75814,6 +75817,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yahoo.com#?#.wafer-beacon:-abp-has(>a[data-ylk*=":ad;"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
