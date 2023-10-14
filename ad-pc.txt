@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ofvvtQ0b+cm0FvsCx7T9Kg
+! Checksum: Akk+qku0zVg/I2M3kDj2ag
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310150137
-! Last Modified: 2023年10月15日 01:37
+! Version: 202310150237
+! Last Modified: 2023年10月15日 02:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60191,6 +60191,7 @@ discord.me,searchenginejournal.com##.content-unit
 ancient-origins.net##.content_add_block
 wikiwand.com##.content_headerAd__USjzd
 nationalmemo.com##.content_nm_placeholder
+insta-stories-viewer.com##.context
 usedcarnews.com##.continut
 metar-taf.com##.controls-right
 live-tennis.eu##.copyright
@@ -87047,7 +87048,6 @@ fqsousou.com,kengso.com#@#.user-share
 /web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals-
 /web-vitals.
 /web-vitals/*
 /web/push?
@@ -87578,6 +87578,7 @@ omni.soundestlink.com$image
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+||google.*/url?$ping
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
@@ -116994,7 +116995,6 @@ arketing.indianadunes.com^
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 !----------------Allowlists to fix broken international sites-----------------!
 !---------- German ----------
-## + js(set-cookie, consentAll, 1)
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch

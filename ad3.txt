@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mtxhiBtLWsfI9EaxiroY0g
+! Checksum: KksWST4rooayGCG/x5wvMw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310150037
-! Last Modified: 2023年10月15日 00:37
+! Version: 202310150237
+! Last Modified: 2023年10月15日 02:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24079,7 +24079,6 @@ m.babytree.com##script + a[class]
 /web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals-
 /web-vitals.
 /web-vitals/*
 /web/push?
@@ -24610,6 +24609,7 @@ omni.soundestlink.com$image
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+||google.*/url?$ping
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
@@ -54026,7 +54026,6 @@ arketing.indianadunes.com^
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 !----------------Allowlists to fix broken international sites-----------------!
 !---------- German ----------
-## + js(set-cookie, consentAll, 1)
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
