@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0JXJBHV3ZCI5jbTvuaK0sw
+! Checksum: aYC4ZW6IEHNCYWfSnu+zRw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310141037
-! Last Modified: 2023年10月14日 10:37
+! Version: 202310141137
+! Last Modified: 2023年10月14日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -86675,31 +86675,15 @@ fqsousou.com,kengso.com#@#.user-share
 /tracker/emos2_
 /tracker/event?
 /tracker/imp?
-/tracker/log?
-/tracker/track?
-/tracker/trackView?
-/tracker/visitor/*
-/tracker_article
-/tracker_async.
-/tracker_pageview.
-/tracker_pixel.
-/trackerGif?
+/tracker_async.js
 /trackerPageAnalytics.js
-/trackerpixel.js
-/trackEvent.js?
-/trackEvent.min.js?
-/trackga.
-/trackGAEvents.
-/trackImpression/*
-/trackimps?
-/tracking-analytics-
-/tracking-cookie.
+/trackEvent.js
+/trackga.js
+/trackga.min.js
+/tracking-analytics-events.js
+/tracking-cookie.js
 /tracking-events.js
-/tracking-info.gif?
 /tracking-links.js
-/tracking-pixel.
-/tracking-pixel/*
-/tracking.*/impression?
 /tracking.jsp?sid=
 /tracking/airdog
 /tracking/common.
@@ -96690,6 +96674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.media.onet.pl^
 ||stats.ulixes.pl^
 ||statystyki.panelek.com^
+||tp.convertiser.com^
 ||tracking.novem.pl^
 ||trc.gpcdn.pl^
 ||wymiana.org/stat/
@@ -98118,6 +98103,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.nbcuas.com^
 ||tracker.ranker.com^
 ||tracker.shopclues.com^
+||tracking.bloomberg.com^
 ||tracking.carsales.com.au^
 ||tracking.christianpost.com^
 ||tracking.digitalocean.com^
