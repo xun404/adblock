@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: njPYhVdBhFNy8+4eYn9T8w
+! Checksum: seTvcfrOZlq+o2iqgMGCnQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310160038
-! Last Modified: 2023年10月16日 00:38
+! Version: 202310160137
+! Last Modified: 2023年10月16日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21201,6 +21201,7 @@ m.babytree.com##script + a[class]
 /__wsm.gif
 /_blazor/*$ping
 /_ga?send&
+/_ga?sponsor_pixel=
 /_gz/counter.php?
 /_hcms/perf
 /_lib/ga.js
@@ -22152,6 +22153,7 @@ m.babytree.com##script + a[class]
 /ga2.js
 /ga_anonym.js
 /ga_cookie_track
+/ga_event_tracking.js
 /ga_events.js
 /ga_external.
 /ga_footer.
@@ -24167,6 +24169,7 @@ m.babytree.com##script + a[class]
 /wp-content/plugins/confection/bridge.php
 /wp-content/plugins/pageviews/*
 /wp-content/plugins/rm-gtm-google-analytics-for-wordpress/*
+/wp-content/plugins/s2f-referral-tracking/*
 /wp-content/tracker.
 /wp-counter.php
 /wp-js/analytics.
@@ -24535,6 +24538,7 @@ _WebVitalsReporter_
 ://parcel-api.delivery-status.*/open/$image
 ://t.order.*/r/?id=$image
 _ad_impression.
+_adobe_analytics.js
 _track_pixel.gif?
 img.promio-connect.com$image
 omni.soundestlink.com$image
