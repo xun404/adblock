@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: koywyaMsdYXIZugTW3p46w
+! Checksum: 89Z0p+DbrxcpdQfDH6f5aw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202310171638
-! Last Modified: 2023年10月17日 16:38
+! Version: 202310172337
+! Last Modified: 2023年10月17日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -794,6 +794,10 @@ xxxtik.com#$#abort-on-property-read decodeURI; abort-on-property-read fromCharCo
 opvid.co,opvid.net,opvid.org#$#abort-on-property-read setInterval; abort-on-property-read setTimeout; abort-on-property-read Math.random
 9anime.to,gogoanime.sx#$#abort-current-inline-script setTimeout String.fromCharCode
 scatch176duplicities.com#$#abort-current-inline-script Math.random
+hclips.com#$#abort-on-property-write adLoaded
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script setTimeout hommy.mutation.mutation
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
+||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.fr,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -803,7 +807,7 @@ toon69.com#$#abort-on-property-read adConfig
 onlystream.tv#$#abort-on-property-read BetterJsPop
 hdvid.tv,ovid.pro#$#abort-on-property-read atob; abort-on-property-read encodeURIComponent; abort-on-property-write _pop
 limetorrents.cyou,gaobook.review,mavplayer.xyz,vaplayer.xyz,xstreamcdn.com,flashx.pw,flashx.tv,embed.media,fembed.com,hxfile.co,mavplay.xyz,myyouporn.com,vidplayer.cz#$#abort-on-property-read AaDetector
-pifansubs.com#$#abort-on-property-read adProvider
+babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
 9xupload.me#$#abort-on-property-read eval
 novom.ru#$#abort-on-property-read zoneNativeSett
 govid.me,9xupload.me#$#abort-on-property-read atop
@@ -832,7 +836,7 @@ amyscans.com##div[class*="code-block"]
 megagames.com#$#abort-on-property-write $jscomp
 clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-current-inline-script String.fromCharCode shift
 revivelink.com#$#abort-on-property-read btoa; abort-current-inline-script Object.defineProperty XMLHttpRequest
-youdbox.com#$#abort-on-property-read encodeURIComponent
+tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 bigclatterhomesguideservice.com,dramacool.sr,japscan.me,movies-watch.com.pk,reputationsheriffkennethsand.com,nosteam.ro,nosteamgames.com,readcomiconline.li,root-nation.com,soap2day.rs,toongod.com,yomovies.cloud#$#abort-on-property-read window.open
 fmovies.hn,hurawatch.cc,theflixer.tv#$#abort-on-property-read window.zfgstorage
@@ -851,6 +855,7 @@ supjav.com##.asg-overlay
 /js.mangapro.top/*.js^$script,domain=comick.top
 /rass7.*.js^$script,domain=upornia.com|vjav.com
 /barbar7.*.js^$script,domain=hclips.com
+||hcjs.nv7s.com/xif*/*.js$domain=hclips.com
 /nofa7.*.js^$script,domain=txxx.com
 /apsti7.*.js^$script,domain=txxx.com
 /magic/*.js^$script,domain=pornhits.com|porntop.com
@@ -929,6 +934,19 @@ truyen-hentai.com#$#abort-on-property-read Math.random; prevent-listener getexol
 simply-hentai.com#$#hide-if-matches-xpath './/div[contains(@style,"pointer")]/parent::div[@style]/ancestor::div[@id][1]/ancestor::div[contains(@class,"text-center")][1]'; hide-if-matches-xpath './/a[contains(@href,"chaturbate")]/parent::*[@class]/ancestor::div[contains(@class,"col")][1]';
 xgroovy.com#$#hide-if-matches-xpath './/div[@class and @style]/div[@class][@id]/div[@class]/ancestor-or-self::div[@class][contains(@style,"order")][1]'; hide-if-matches-xpath './/a[@real-href][@onmouseup]//div[@style]/ancestor::div[@class][2]';
 xgroovy.com#$#abort-on-property-write exoAdSubId; abort-on-property-write AdProvider;
+||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
+tubesafari.com#$#override-property-read initialize_page noopFunc
+||older-women-porn.com/black-credit-71cc^$domain=older-women-porn.com
+lesbian8.com,older-women-porn.com,pimpandhost.com,silkengirl.net#$#prevent-listener getexoloader; abort-on-property-read ExoLoader; abort-on-property-read ExoLoader.addZone; abort-on-property-read ExoLoader.serve;
+pimpandhost.com##div[class$="aablock_yes"]
+silkengirl.net##a[href*="jaxofuna.com"]
+silkengirl.net#$#hide-if-matches-xpath './/a[@target][contains(@href,"playboy.com")]/img[@alt="playboy.com"]/ancestor-or-self::div[@class="block_row"][1]'
+lesbian8.com#$#hide-if-matches-xpath './/div[contains(@class,"pignr")]/div[@style][contains(text(),"Advertisement")]/parent::div/ancestor::div[contains(@class,"sponsor") or contains(@class,"table")][1]'; hide-if-matches-xpath './/span[contains(text(),"Ad")]/ancestor::div[contains(@class,"pignr")][1]';
+babesxworld.com##img[onclick*="spons"]
+babesxworld.com#$#abort-on-property-read ExoooLoooader
+hclips.com#$#hide-if-matches-xpath './/*[contains(text(),"Advertisement")]/parent::div/ancestor::div[@class="right"][1]'
+gaytxxx.com,transtxxx.com,txxx.com#$#hide-if-matches-xpath './/a[@href][text()="Advertising"]/ancestor::div[contains(@class,"undp")]'; hide-if-matches-xpath './/div[@id][@class]/parent::div[@class]/ancestor::div[@class="suggestion"]'; hide-if-matches-xpath './/div[@id][@class]/noscript/iframe[@width][@height]/ancestor-or-self::div[3]';
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script adver
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
