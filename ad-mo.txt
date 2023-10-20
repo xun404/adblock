@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7XbPqaAAY7oX7QmRfbOLNQ
+! Checksum: Frjj2+b+fdwi7AT0Xql3LQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202310200737
-! Last Modified: 2023年10月20日 07:37
+! Version: 202310200933
+! Last Modified: 2023年10月20日 09:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -64254,6 +64254,7 @@ hotgirlclub.com##.spnsrd-block-aside-250
 teenpornvideo.fun##.sponsor-link-desk
 teenpornvideo.fun##.sponsor-link-mob
 pornpics.com,pornpics.de##.sponsor-type-4
+nakedpornpics.com##.sponsor-wrapper
 hoes.tube,love4porn.com##.sponsorbig
 fux.com,pornerbros.com,porntube.com,tubedupe.com##.sponsored
 hoes.tube##.sponsorsmall
@@ -85373,6 +85374,7 @@ fqsousou.com,kengso.com#@#.user-share
 /iperceptions/*
 /iperceptions_
 /ips-invite.iperceptions.com/*
+/iterable/track/*
 /itgdtracksdk.
 /itmdp_code.
 /ivw/SP/*$image,script
@@ -85991,23 +85993,14 @@ fqsousou.com,kengso.com#@#.user-share
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
 /piwik2.
-/piwik_
 /piwikapi.js
-/piwikC_
 /piwikTracker.
 /pix-ddc-fp.min.js
 /pix.fcg?
-/pix.fly/*
 /pix.gif?
-/pix_st.php?
-/pix_st_v2.php?
 /pixall.min.js
-/pixel-caffeine/*
-/pixel-events.
+/pixel-caffeine/build/frontend.js
 /pixel-manager.js?
-/pixel-render/*
-/pixel-track.
-/pixel-track/*
 /pixel-tracking.
 /pixel.*/track/*
 /pixel.cgi?
@@ -86015,25 +86008,18 @@ fqsousou.com,kengso.com#@#.user-share
 /pixel.gif?
 /pixel.track
 /pixel/email/*$image
-/pixel/impression/*
-/pixel/impression?
 /pixel/nvrwe?
 /pixel/sbs?
 /pixel/view?
 /pixel/visit?
-/pixel1/impression.
 /pixel2.gif?
 /pixel?tag=
-/pixel?type=
-/pixel_iframe.
-/pixel_tag.
-/pixel_track.
-/pixel_tracking.
+/pixel_iframe.php
+/pixel_tracking.js
 /pixel_tracking?
-/pixel_V2.
+/pixel_V2.js
 /pixelcounter.$domain=~pixelcounter.co.uk|~pixelcounter.com|~pixelcounter.dev|~pixelcounter.org|~pixelcounters.co.uk|~pixelcounters.uk
 /pixeljs/*
-/pixellog.
 /pixelNew.js
 /pixelpropagate.js
 /pixels.jsp?
@@ -86042,7 +86028,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pixeltag.js
 /pixeltrack.
 /pixeltracker.
-/PixelTracking.
+/PixelTracking.js
 /pixeltracking/*
 /pixy.gif?
 /planetstat.php
@@ -89575,6 +89561,7 @@ _mongo_stats/
 ||pointomatic.com^$third-party
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
+||pop6serve.com^$third-party
 ||popsample.com^$third-party
 ||popt.in^$third-party,domain=~poptin.com
 ||populr.me^$third-party
@@ -93234,6 +93221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pocitadlo.sk^$third-party
 ||toplist.sk^$third-party
 ||24log.es^$third-party
+||agency360.io^$third-party
 ||botize.com^$third-party
 ||ccrtvi.com^$third-party
 ||certifica.com^$third-party
@@ -93592,6 +93580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
 ||awesome.section.io^
+||awswaf.com^*/report
 ||awswaf.com^*/telemetry
 ||ax.babe.today^
 ||axislogger.appspot.com^
@@ -93776,6 +93765,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||client.tahono.com^$third-party
 ||clinch.co/a_js/client_pixels/
 ||clipsyndicate.com/cs_api/cliplog?
+||clixtell.com/track.js
 ||cloudapp.net/l/
 ||clouderrorreporting.googleapis.com^
 ||cloudflare-quic.com/cdn-cgi/trace
@@ -94235,6 +94225,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fs-client-logger.herokuapp.com^
 ||ftimg.net/js/log.js?
 ||ftm.fluencyinc.co^
+||fudge.ai/metrics?
 ||future-fie-assets.co.uk^
 ||future-price.co.uk^
 ||futurecdn.net/bordeaux.js$xmlhttprequest
@@ -94505,6 +94496,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||levelaccess.net/analytics/
 ||lhinsights.com/collect?
 ||libcdnjs.com/api/event
+||libs.platform.californiatimes.com/meteringjs/
 ||licdn.com/*.gif?rnd=
 ||licensing.bitmovin.com/impression
 ||lift.acquia.com^
@@ -94652,6 +94644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.userguiding.com^
 ||metrika.cdn112.com^
 ||metrix.emagister.com^
+||mgmlcdn.com/stats/
 ||mikeneko.apollo.moe/js/script.js
 ||minutemediacdn.com/campaign-manager-client/
 ||mircheigeshoa.com/prod/smi/fp.min.js
@@ -94738,6 +94731,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nojscontainer.pepperjam.com^$third-party
 ||nol.yahoo.com^
 ||nova.dice.net^
+||nr.static.mmcdn.com^
 ||ns-cdn.com^*/ns_vmtag.js
 ||ns.rvmkitt.com^
 ||nude.hu/html/track.js
@@ -95511,6 +95505,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trickyrock.com/redirect.aspx?pid=*&bid=$subdocument,third-party
 ||triggers.wfxtriggers.com^
 ||trinitymedia.ai/api/collect?
+||triplewhale-pixel.web.app^
 ||tritondigital.com/ondemand/impression?
 ||trk.clinch.co^
 ||trk.storyly.io^
@@ -97993,6 +97988,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
 ||swarm.video/stats/
+||szrpr.raen.com^
 ||t.3hentai.net^
 ||t.9gag.com^
 ||t.airasia.com^
