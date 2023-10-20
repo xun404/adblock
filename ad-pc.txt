@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HBVjig2WZIVZc3QMPOJh5g
+! Checksum: PLVZqzhUWEUeFt5t3+W/XQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310200933
-! Last Modified: 2023年10月20日 09:33
+! Version: 202310201037
+! Last Modified: 2023年10月20日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -85093,6 +85093,7 @@ fqsousou.com,kengso.com#@#.user-share
 /event/visit?
 /event?event_id=
 /event?eventType=
+/event?s=$ping
 /event_log/*
 /event_logger
 /event_logging/*
@@ -93673,6 +93674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ati-host.net/event?
 ||atlassian.net/rest/collectors/$third-party
 ||atom-data.io/session/latest/track.html?$third-party
+||attn.tv/impression?
 ||attn.tv^*/dtag.js
 ||attributiontrackingga.googlecode.com^
 ||auctiva.com/Default.aspx?query
@@ -94851,6 +94853,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||o.aolcdn.com/js/mg1.js
 ||observer.ip-label.net^
 ||ocmail1.in/rtw/$image
+||octaneai.com^*/utrk
 ||octopart-analytics.com^$third-party
 ||oda.markitondemand.com^
 ||odnaknopka.ru/stat.js
@@ -115692,6 +115695,7 @@ arketing.indianadunes.com^
 ||insights.decathlon.net^
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
+||kwgs.letudiant.fr^
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ||ldlc.com/V4px/js/ldlcmachine.js
@@ -115721,6 +115725,7 @@ arketing.indianadunes.com^
 ||res.paruvendu.fr^
 ||rts.ch^*/boreas_b01.js
 ||s5.charliehebdo.fr^
+||serv.letudiant.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
 ||shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
@@ -116446,6 +116451,7 @@ arketing.indianadunes.com^
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
 ||counter.sibnet.ru^
+||cpa.hh.ru^
 ||cs42.pikabu.ru^
 ||cvt1.sibnet.ru^
 ||data.glamour.ru^
