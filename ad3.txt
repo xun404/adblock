@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4yKK+sI3/JI1t2wVClhIZQ
+! Checksum: 3aXh5EPW8v8JkZzkJrpV2g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310211237
-! Last Modified: 2023年10月21日 12:37
+! Version: 202310211337
+! Last Modified: 2023年10月21日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1845,6 +1845,8 @@ newduba.cn###jq_youxi
 ||zzyy17.top^
 ||bzvhgbr.xyz^
 ||foizico.cn^
+||fptdxkm.com^
+||faxffjo.com^
 ||zchvyet.cn^
 ||zcpsc.top^
 ||zents2.top^
@@ -21379,16 +21381,14 @@ m.babytree.com##script + a[class]
 /affilinetRetargeting.
 /afftrack.
 /afftracking.
-/aftrack.
+/aftrack.asp
 /aggbug.aspx?
 /ahoy/events
 /ahoy/visits
-/AIT_Analytics.
+/AIT_Analytics.js
 /ajax-hits-counter/*
 /ajax-track-page-view/*
-/ajax-track-view.
 /ajax/analytics/*
-/ajax/heatmap-
 /ajax/log?
 /ajax/stat/*
 /ajax_video_counter.php?
@@ -21418,17 +21418,12 @@ m.babytree.com##script + a[class]
 /amp/log.json
 /amp/pingback?
 /amp_pingback/*
-/ampmetrics.
 /analyse.js
 /analysis-logger/*
 /analysisTag.js
 /analytic-client.
-/analytic/context?
 /analytic/pageview
-/analytic?publisher
-/analyticReporting.
 /analytics-amplitude-
-/analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
 /analytics-client-
@@ -21535,14 +21530,12 @@ m.babytree.com##script + a[class]
 /analyticstrack.js
 /analyticstracking.js
 /anametrix/cas.js
-/anapixel.
-/anclytic-ajax.
+/anclytic-ajax.html
 /angular-tag.js
 /anonymous_user_guid.gif?
 /api-analytics.
 /api-insights/log?
 /api/0/stats
-/api/bfb_write_log
 /api/cmp_tracker
 /api/ComScorePageView
 /api/drpStats
@@ -22142,8 +22135,6 @@ m.babytree.com##script + a[class]
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
-/fbpixel/*
-/fe/track/*
 /fe_logger?
 /figanalytics-short-ttl.js
 /fingerprint.js
