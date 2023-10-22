@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FumOUQjU8bKNY+EZDoLfmg
+! Checksum: rdgNTiecfGgbIfAEZwr7GQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202310220737
-! Last Modified: 2023年10月22日 07:37
+! Version: 202310220938
+! Last Modified: 2023年10月22日 09:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -58973,6 +58973,7 @@ files.im###plyrrr
 pikalytics.com###pokedex-top-ad
 politico.com###pol-01-wrap
 pons.com###pons-ad-leaderboard__container
+epicload.com###popconlkr
 safetydetectives.com###popup
 bankinfosecurity.com###popup-interstitial-full-page
 chaseyoursport.com###popup1
@@ -61180,7 +61181,7 @@ etxt.biz##.mod-cabinet__sidebar-adv
 etxt.biz##.mod-cabinet__sidebar-info
 notateslaapp.com##.mod-sponsors
 lakeconews.com##.mod_ijoomlazone
-breakingenergy.com,shine.cn##.modal-backdrop
+breakingenergy.com,epicload.com,shine.cn##.modal-backdrop
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
 finextra.com##.module--sponsor
@@ -67153,6 +67154,11 @@ newduba.cn###jq_youxi
 ||zbxtcwi.xyz^
 ||zchvyet.cn^
 ||zcpsc.top^
+||ycmgeb.icu^
+||gslejoki.xyz^
+||zzyy18.top^
+||ndvfwlv.cn^
+||nrzzaep.xyz^
 ||zents2.top^
 ||zzyy17.top^
 ||zzyy19.top^
@@ -84407,18 +84413,14 @@ fqsousou.com,kengso.com#@#.user-share
 /analytic-client.
 /analytic/pageview
 /analytics-amplitude-
-/analytics-beacon-
 /analytics-cdn.
-/analytics-client-
+/analytics-client-identification/*
 /analytics-collector
-/analytics-core-bundle-
-/analytics-data-collector.
+/analytics-data-collector.js
+/analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
-/analytics-endpoint.
-/analytics-event-
-/analytics-event.
-/analytics-event/*
+/analytics-event.js
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
@@ -84426,19 +84428,14 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
-/analytics-initial-
 /analytics-js/*
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
-/analytics-plugin/*
-/analytics-pusher/*
-/analytics-reporter/*
 /analytics-sdk.
-/analytics-secure.
-/analytics-tag.
+/analytics-secure.js
 /analytics-tracker/*
-/analytics-tracking.
+/analytics-tracking.js
 /analytics.*/event?
 /analytics.*/ping/?
 /analytics.*/track
@@ -84498,6 +84495,7 @@ fqsousou.com,kengso.com#@#.user-share
 /Analytics/Visitor.
 /analytics?http_referer
 /analytics?token=
+/analytics_events.js
 /analytics_js/client.js
 /analytics_prod.js
 /analytics_tag.js
@@ -85521,6 +85519,7 @@ fqsousou.com,kengso.com#@#.user-share
 /kissmetrics.js
 /klaviyo_analytics.js
 /koko-analytics-collect.php
+/koko-analytics-pro/assets/dist/js/script.js
 /koko-analytics/assets/dist/js/*script.js
 /kontera.js
 /krux-sass-helper.js
@@ -116755,6 +116754,7 @@ arketing.indianadunes.com^
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
+@@||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||channel.images.production.web.w4a.tv^*/ard.png?$domain=yallo.tv
