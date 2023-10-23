@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +VF/VkRgsjn1b9QIKthw6g
+! Checksum: 1tnAnbULudGUK1x26yKjBQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310240039
-! Last Modified: 2023年10月24日 00:39
+! Version: 202310240237
+! Last Modified: 2023年10月24日 02:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21460,6 +21460,7 @@ m.babytree.com##script + a[class]
 /analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
+/analytics-event-adapter.
 /analytics-event.js
 /analytics-events-
 /analytics-facade.
@@ -21472,6 +21473,7 @@ m.babytree.com##script + a[class]
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
+/analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.js
 /analytics-tracker/*
@@ -34860,6 +34862,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||priceline.com/pws/v1/ace/impression/
 ||priceline.com/svcs/mkt/tag/
 ||princetonreview.com/logging/
+||prisma.io/gastats.js
 ||priv.gc.ca/m/m.js
 ||privacy-api.9gag.com^
 ||privacyfriendly.netlify.app^
