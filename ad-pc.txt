@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RsQNz/YCb111trrtkVpboQ
+! Checksum: 9spOvfjnoBWafusElC7THQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310240237
-! Last Modified: 2023年10月24日 02:37
+! Version: 202310240437
+! Last Modified: 2023年10月24日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63693,6 +63693,9 @@ atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.c
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="PROMOTED_LISTING"])
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
+infographicjournal.com##.et_pb_widget:-abp-contains(Partners)
+infographicjournal.com##.et_pb_module:-abp-contains(Partners)
+infographicjournal.com##.et_pb_module:-abp-contains(Partners) + .et_pb_module
 bailagentnetwork.com#?#div.box-bottom:-abp-has(a[rel="noopener nofollow"])
 bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
 bbc.com#?#li[class*="-ListItem"]:-abp-has(div.dotcom-ad)
