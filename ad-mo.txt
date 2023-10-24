@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UcvdRfBK2G4eoFVFpyXyaA
+! Checksum: QtTM2//hutuJxFVv93+aKQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202310241737
-! Last Modified: 2023年10月24日 17:37
+! Version: 202310241837
+! Last Modified: 2023年10月24日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -84461,12 +84461,13 @@ fqsousou.com,kengso.com#@#.user-share
 /addpageview/*
 /adds/counter.js
 /adf-tm-base-min.js
-/adlogger.
+/adlogger.php
+/adlogger_tracker.php
 /adm_tracking.js
 /adobe-analytics-$domain=~business.adobe.com
-/adobe-analytics.
+/adobe-analytics.js
 /adobe-analytics/*
-/adobe-analytics2.
+/adobe-analytics2.js
 /adobe-prd/*
 /adobe.visitor-
 /adobe/app-measurement.
@@ -86298,6 +86299,7 @@ fqsousou.com,kengso.com#@#.user-share
 /referadd?
 /referer/visitor/*
 /referral-tracking.js
+/referral-tracking.min.js
 /referral_tracking.js
 /referrer.js
 /referrer.php?*http
@@ -86325,6 +86327,7 @@ fqsousou.com,kengso.com#@#.user-share
 /rivraddon.js
 /rkrt_tracker-
 /rlvt-track/*
+/rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
 /RMAnalytics.
 /rmntracking.
@@ -87116,7 +87119,6 @@ fqsousou.com,kengso.com#@#.user-share
 /web-analytics.js
 /web-api/log/*
 /web-data-ingress?
-/web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-vitals.
@@ -87126,18 +87128,12 @@ fqsousou.com,kengso.com#@#.user-share
 /web_answertip.js
 /Web_JS_Stats.js
 /web_logger/*
-/web_tracking_
 /web_traffic_capture.js
 /WebAnalytics.$domain=~webanalytics.italia.it
 /webAnalytics/*
-/webc-tracking-
-/webc/tracking/*
 /webcounter/*
 /webdig.js
 /webdig_test.js
-/webiq.$domain=~webiq.co.nz
-/webiq/*
-/webiq_
 /weblog.js?
 /weblog.php?
 /webmonitor/collect/*
@@ -87167,82 +87163,60 @@ fqsousou.com,kengso.com#@#.user-share
 /wmxtracker.js
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
-/wp-click-track/*
-/wp-clickmap/*
 /wp-content/plugins/confection/bridge.php
-/wp-content/plugins/pageviews/*
-/wp-content/plugins/rm-gtm-google-analytics-for-wordpress/*
-/wp-content/plugins/s2f-referral-tracking/*
-/wp-content/tracker.
-/wp-counter.php
-/wp-js/analytics.
-/wp-pixels/*
-/wp-powerstat/*
-/wp-rum/*
-/wp-slimstat/*
+/wp-content/plugins/pageviews/pageviews.min.js
+/wp-content/plugins/wp-click-track/js/ajax.js
+/wp-content/plugins/wp-clickmap/clickmap.js
+/wp-content/tracker.js
+/wp-js/analytics.js
+/wp-slimstat.min.js
 /wp-statistics-tracker.min.js
 /wp-statistics/assets/js/tracker.js
 /wp-statistics/v2/hit?
 /wp-stats-manager/js/wsm_new.js
-/wp-useronline/useronline.
+/wp-useronline/useronline.js
 /wp_stat.php?
 /wpengine-analytics/*
 /wps-visitor-counter/*
 /wpstatistics/*
-/wrapper/metrics/*
 /WRb.js
 /wreport.js
 /writelog.js
-/wsStats.
-/wsStats_
 /wstat.pl
 /wstats.php?
-/wsTracking.
 /wt_capi.js
-/wt_tag.js
 /wtbase.js
-/wtbase2.
-/wtbrand.
-/wtcollect.
-/wtcore.js
 /wtd.gif?
 /wtid.js
 /wtinit.js
 /wtrack?event=
 /wtstats/*
-/wunderlytics/*
-/ww-analytics-
-/ww-performance-
 /wwwcount.cgi?
 /wxhawkeye.js
 /wysistat.js
-/wz_logging.
 /x.gif?
 /x_track.php?
-/xgemius.
-/xgenius.
+/xgemius.js
 /xiti.js
-/xn_track.
+/xn_track.min.js
 /xstat.aspx?
 /xstat/*
-/xtclick.
-/xtclicks-$script
-/xtclicks.
-/xtclicks_
+/xtclick.js
+/xtclicks.js
 /xtcore.js
 /xtroi.js
 /yad_sortab_cetlog.js
 /yandex-metrica-watch/*
 /yandex-metrika.js
 /yastat.js
-/yell-analytics-
-/yell-analytics.
-/yna_stat.
+/yell-analytics-app.js
+/yell-analytics-min.js
+/yell-analytics.js
+/yna_stat.js
 /youtubeVideoAnalytic.js
 /ystat.js
 /yt-track-streamer
 /z.gif?
-/zaguk.gif?
 /zaius-min.js
 /zaius.js
 /zanox.js
