@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5pYfhy0ecUCGWs2RBYQKgA
+! Checksum: 7p0Zfjhkgz9F5L/zK+tbpg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202310231837
-! Last Modified: 2023年10月23日 18:37
+! Version: 202310241737
+! Last Modified: 2023年10月24日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -413,7 +413,7 @@ cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
 ||warnermediacdn.com/prod01/*mp4^$xmlhttprequest,domain=cnn.com
 ! #CV-1149
-etsy.com#$#hide-if-contains-visible-text '/[aA]d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'
+etsy.com#$#hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com##a[href*="listing_page_ad_row"]
 ! #CV-1056
@@ -658,7 +658,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-contains-visible-text '/Sponsor/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]/ancestor::li[@data-testid]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instacart.com#$#hide-if-matches-xpath './/div[@class and count(child::span)=2 and normalize-space(span[1]/text())="Spons" and normalize-space(span[2]/text())="ored"]/ancestor::section/parent::div[@id="Featured Items"]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[not(@id="store-wrapper") and not(@id="js-app")]'
