@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eDbDESEfwcy85GO7IwVb3A
+! Checksum: 4lbFFkwOyiHi/jH05X94cw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310260038
-! Last Modified: 2023年10月26日 00:38
+! Version: 202310260537
+! Last Modified: 2023年10月26日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57872,6 +57872,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||csgofast.cash^$popup,domain=hltv.org
 ||csgofastx.com/?clickid=$popup,domain=hltv.org
 ||eentent.streampiay.me^$popup
+||facebook.com/ads/ig_redirect/$popup,domain=instagram.com
 ||fentent.streampiay.fun^$popup
 ||fentent.streampiay.me^$popup
 ||flashtalking.com^$popup,domain=twitch.tv
@@ -94503,6 +94504,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hb.vhsrv.com^
 ||hcmanager.swifteq.com/hc_events/
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
+||hearstnp.com/log?
 ||heg-cp.com/upm/$third-party
 ||hello.myfonts.net/count/
 ||hello.staticstuff.net^
@@ -97527,6 +97529,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fc2.com/ana/processor.php?
 ||fc2.com/counter_img.php?
 ||fdt.kraken.com^
+||femetrics.grammarly.io^
 ||figma.com/api/figment-proxy/
 ||filext.com/pageview^
 ||findmatches.com/bts.js
@@ -116795,6 +116798,7 @@ arketing.indianadunes.com^
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||8tm.net/static/img/fbpixel.png$~third-party
 @@||ab.blogs.es/abtest.png$domain=trendencias.com|xataka.com
+@@||account.adobe.com/newrelic.js$~third-party
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
@@ -116923,6 +116927,7 @@ arketing.indianadunes.com^
 @@||getpublica.com/playlist.m3u8$xmlhttprequest
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 @@||glookup.info/api/json/$domain=grabify.link
+@@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||gsuite.tools/js/gtag.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$~third-party
