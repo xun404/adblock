@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OzpZAk1IOQ9sqiIoGQFyPA
+! Checksum: qwC/C2BSxkfQzfruw75L9w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310251638
-! Last Modified: 2023年10月25日 16:38
+! Version: 202310251737
+! Last Modified: 2023年10月25日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23579,11 +23579,11 @@ m.babytree.com##script + a[class]
 /taevents-
 /tag/tag.jsp?
 /tag?tags=
-/tagAnalyticsCNIL.
+/taganalyticscnil.js
 /tagCNIL.js
-/tagcommander_
+/tagcommander/prd/*
 /tagmanager/event?
-/tagmanager/pptm.
+/tagmanager/pptm.js
 /tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-
@@ -23941,26 +23941,23 @@ m.babytree.com##script + a[class]
 /visit-tag?
 /visit-tracker.js
 /visit.gif?
-/visit/?*&ref=
-/visit/init?
 /visit/log.js?
 /visit/record.gif?
 /visit/record?
 /visit?id=
 /visit_log.js
-/visit_pixel?
 /VisitCounter.
+/visitcounter.do
+/visitcounter.js
 /visitinfo.js
 /VisitLog.asmx
-/visitor-event?
-/visitor-js/?
 /visitor-params.js
 /Visitor.aspx?
 /visitor.gif?ts=
 /visitor.js?key=
 /visitor.min.js
-/visitor/identity?
 /visitor_id.jsp
+/visitor_info.js
 /visitor_info?
 /VisitorAPI.js
 /visitorCookie.js
@@ -23999,7 +23996,6 @@ m.babytree.com##script + a[class]
 /web_analytics/*
 /web_answertip.js
 /Web_JS_Stats.js
-/web_logger/*
 /web_traffic_capture.js
 /WebAnalytics.$domain=~webanalytics.italia.it
 /webAnalytics/*
@@ -24010,8 +24006,7 @@ m.babytree.com##script + a[class]
 /weblog.php?
 /webmonitor/collect/*
 /webstat.js
-/WebStat2.
-/webstat_
+/WebStat2.asmx
 /webstatistics.php?
 /webstats.js
 /webstats.php
@@ -24063,7 +24058,6 @@ m.babytree.com##script + a[class]
 /wtid.js
 /wtinit.js
 /wtrack?event=
-/wtstats/*
 /wwwcount.cgi?
 /wxhawkeye.js
 /wysistat.js
@@ -24073,7 +24067,6 @@ m.babytree.com##script + a[class]
 /xiti.js
 /xn_track.min.js
 /xstat.aspx?
-/xstat/*
 /xtclick.js
 /xtclicks.js
 /xtcore.js
@@ -35101,6 +35094,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.kueez.com^
 ||track.mrgugu.com^
 ||track.netzero.net^
+||track.sodapdf.com^
 ||track.thesaurus.com^
 ||track.ultimate-guitar.com^
 ||tracker.affiliate.iqbroker.com^
