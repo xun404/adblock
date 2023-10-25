@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qzwYjmwGE6JHDPQJqjOAhw
+! Checksum: s4V3vsSa9n+4uUwP7JnC2Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310250737
-! Last Modified: 2023年10月25日 07:37
+! Version: 202310250933
+! Last Modified: 2023年10月25日 09:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63599,6 +63599,7 @@ youtube.com##ytm-promoted-sparkles-text-search-renderer
 youtube.com##ytm-promoted-sparkles-web-renderer
 thefreedictionary.com###Content_CA_AD_0_BC
 thefreedictionary.com###Content_CA_AD_1_BC
+instapundit.com###adspace_top > .widget-ad__content
 sonichits.com###bottom_ad
 sonichits.com###divStickyRight
 spanishdict.com###removeAdsSidebar
@@ -65248,6 +65249,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||gitlab.com^$generichide
 @@||hbomax.com^$generichide
 @@||icloud.com^$generichide
+@@||instapundit.com^$generichide
 @@||jsfiddle.net^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
@@ -67426,6 +67428,9 @@ newduba.cn###jq_youxi
 ||dsbfpt.xyz^
 ||cthbini.xyz^
 ||kaaqgf.icu^
+||gnuoipb.cn^
+||dunrnd.com^
+||juljrd.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -85830,93 +85835,51 @@ fqsousou.com,kengso.com#@#.user-share
 /log?tag=
 /log?track_
 /log?uuid=
-/log_agent.
+/log_agent.php
 /log_amp_item_set?
-/log_beacon.
+/log_beacon.js
 /log_e.php?id=
 /log_h.jsp
-/log_hit.
-/log_impression.
-/log_impression/*
-/log_impressions
-/log_interaction?
-/log_presence/*
 /log_stats.php?
-/log_syndication.
-/log_tracker.
-/log_view.
-/log_zon_img.
+/log_view.php
 /LogAction?
 /logactions.gif?
-/logadhit.
-/logAdv.
-/logaholictracker.
-/logAjaxErr_
+/logaholictracker.php
+/logAjaxErr_h.jsp
 /LogAmpHit?
-/LogAnalysisTracker/*
 /loganalyticsevent?
-/logAutoMicroConversion?
-/logclick.
-/logcollect.
-/logcollect_
-/logcollectscript_
+/logclick.js
+/logcollect.js
 /logcount.php?
 /logcounter.
-/logdata/et/*
-/logduration/*
-/logevent.action?
-/logevent/v2?
+/logdata/et/ua
 /logEvent?
 /logExecutionStats?
-/logextrastats.
 /logger.ashx?
 /logger.dll/*
-/logger.pageperf?
-/logger.performance?
-/logger.screensize?
-/logger/?et=
 /logger/?referer=
-/logger?d=
-/logger?description=
 /logging-code.
 /logging/ClientEvent
-/logging/log-
 /logging/log.do
 /logging/logjs
 /logging/pixel?
-/logging/React-
+/logging/React-UHP?
 /logging/v1/log|
-/Logging?dv=
-/logging_requests.
-/logging_save.
 /LoggingAgent?
 /loggingService.js
 /loggly.tracker-
 /loggly.tracker.
-/logHandler.
-/LogImpression.
 /LogImpression?
-/LogImpressions.
 /logImpressions?
 /logjs.php
-/logLoad/?
-/LogMediaClick?
-/logo.gif?a=
 /LogPage.aspx?
 /LogPageRequest?
 /logPerf?
-/logprogress.
-/logpstatus.
 /logpv.aspx?
-/LogRecorder.
-/logrecordservice/*
+/LogRecorder.php
 /logreferrer.php?
 /logs/report_js_error
-/logserver-
-/logstat.
-/logstat?
-/logStatistic?
-/logStatistics?
+/logstat.js
 /logstats.php
 /logview.js
 /logview?referrer=
