@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9FHvXt/WnyVXEN+o61S5Vg
+! Checksum: yqVthttxTi7+q3RMyqMadg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310260931
-! Last Modified: 2023年10月26日 09:31
+! Version: 202310261037
+! Last Modified: 2023年10月26日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21831,6 +21831,7 @@ m.babytree.com##script + a[class]
 /cklink.gif?
 /cklog.js
 /clear.gif?
+/click/impression?
 /click?track=
 /click_metrics-jquery.js
 /click_stats.js
@@ -21898,6 +21899,8 @@ m.babytree.com##script + a[class]
 /cocoon-master/lib/analytics/access.
 /CofinaHits.
 /cohesion-latest.
+/coinhive.min.js
+/coinimp-cache/*
 /collect.gif?
 /collect.php?tid=
 /collect/?dp=
@@ -22002,6 +22005,7 @@ m.babytree.com##script + a[class]
 /Criteo/*
 /criteo_
 /criteoRTA.
+/crypta.js
 /csi?v=*&action=
 /csi?v=2&s=
 /csi?v=3&s=
@@ -22132,6 +22136,7 @@ m.babytree.com##script + a[class]
 /event_log/*
 /event_logger
 /event_logging/*
+/eventLog.ajax
 /eventlog.js
 /eventLogServlet?
 /eventproxy/track
@@ -22443,6 +22448,7 @@ m.babytree.com##script + a[class]
 /ib_pvcounter.php
 /ibeat.min.js
 /icf-analytics.js
+/id?d_visid_
 /image.ng/*
 /iMAWebCookie.js
 /img?eid=
@@ -22558,6 +22564,7 @@ m.babytree.com##script + a[class]
 /lasso-ga.js
 /leadgen/ga.js
 /leadtag.js
+/lhnhelpouttab-current.min.js
 /lib/analytics.js
 /lib/snowplow-
 /library/svy/broker.js
@@ -22661,6 +22668,7 @@ m.babytree.com##script + a[class]
 /logging/ClientEvent
 /logging/log.do
 /logging/logjs
+/logging/pageView
 /logging/pixel?
 /logging/React-UHP?
 /logging/v1/log|
@@ -22740,6 +22748,7 @@ m.babytree.com##script + a[class]
 /mi/insite/*
 /microsoft.cognitiveservices.speech.sdk.bundle.js
 /min/gtm/*
+/minescripts.js
 /mint/?js
 /mint/?record
 /mintstats/?js
@@ -22768,6 +22777,7 @@ m.babytree.com##script + a[class]
 /modoweb-tracking/*
 /module/analytics/*
 /moksa.js
+/monetate.js
 /mongoose.fp.js
 /monitor/v1/log
 /monitor?rtype=
@@ -22790,6 +22800,7 @@ m.babytree.com##script + a[class]
 /myTracking.js
 /naLogImpressions?
 /natero_analytics.min.js
+/nativendo.js
 /navbar-analytics.js
 /naytev.min.js
 /ncj-pixel.js
@@ -22923,8 +22934,10 @@ m.babytree.com##script + a[class]
 /parsely-events.
 /parsely.js
 /particles/analytics.
+/partner-analytics/*
 /partner/transparent_pixel-$image
 /partner_tracking_
+/partnermetrics.js
 /pbasitetracker.
 /PBSTrackingPlugIn.
 /pc-log?
@@ -23017,6 +23030,7 @@ m.babytree.com##script + a[class]
 /pixel/visit?
 /pixel2.gif?
 /pixel?tag=
+/pixel_identifier.js
 /pixel_iframe.php
 /pixel_tracking.js
 /pixel_tracking?
@@ -23044,6 +23058,7 @@ m.babytree.com##script + a[class]
 /plugins/catman/*
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
+/plugins/nimiq/*$script
 /plugins/pageviews-counter/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
@@ -23247,6 +23262,7 @@ m.babytree.com##script + a[class]
 /s_trans_nc.
 /sa-tracker-
 /sa.gif?
+/safelinkconverter.js
 /sage_tracker.
 /salog.js
 /SAPOWebAnalytics/*
@@ -23263,6 +23279,7 @@ m.babytree.com##script + a[class]
 /scripts/statistics/*
 /scripts/xiti/*
 /scroll-analytics-
+/scroll-track.js
 /scroll-tracker.
 /scroll-tracking.
 /SdaAnalytics.js
@@ -23369,6 +23386,8 @@ m.babytree.com##script + a[class]
 /smetrics.*/b/ss/*
 /smetrics.*/id?
 /smg_tracking/*
+/smmch-mine.js
+/smmch-own.js
 /snowman.gif?p=
 /snowplow.js$script,third-party
 /snowplow/*$script
@@ -23969,7 +23988,9 @@ m.babytree.com##script + a[class]
 /webdig_test.js
 /weblog.js?
 /weblog.php?
+/webmnr.min.js
 /webmonitor/collect/*
+/webmr.js
 /webstat.js
 /WebStat2.asmx
 /webstatistics.php?
@@ -23986,6 +24007,7 @@ m.babytree.com##script + a[class]
 /webtrekk_mediaTracking.min.js
 /webtrends.js
 /webtrends.min.js
+/webxmr.js
 /wf-beacon-
 /whisper?event=
 /white_pixel.gif?
@@ -23995,12 +24017,16 @@ m.babytree.com##script + a[class]
 /wmxtracker.js
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
+/wp-coin-hive-util.js
+/wp-coin-hive.js
 /wp-content/plugins/confection/bridge.php
 /wp-content/plugins/pageviews/pageviews.min.js
 /wp-content/plugins/wp-click-track/js/ajax.js
 /wp-content/plugins/wp-clickmap/clickmap.js
 /wp-content/tracker.js
 /wp-js/analytics.js
+/wp-monero-miner-class.js
+/wp-monero-miner.js
 /wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
@@ -24385,41 +24411,6 @@ omni.soundestlink.com$image
 /re-engage/render.
 /targeting/render.
 /vissense.js
--coin-hive.js
--coin-hive/$script
--monero-miner-
--monero-miner/
-/adobe.targetV2-
-/adobe/VisitorAPI_$script
-/ajcm-inject.
-/click/impression?
-/coinhive.min.js
-/coinimp-cache/*
-/collector/event
-/crypta.js
-/eventLog.ajax
-/id?d_visid_
-/impression_analytics/*
-/lhnhelpouttab-current.min.js
-/logging/pageView
-/metric/gauge
-/minescripts.js
-/monetate.js
-/nativendo.js
-/pageview/pixel?
-/partner-analytics/*
-/partnermetrics.
-/pixel_identifier.
-/plugins/nimiq/*$script
-/rbcmetrika-
-/recordMetricsData.
-/rum_analytics/*
-/safelinkconverter.js
-/scroll-track.js
-/simple-monero-$script
-/webmnr.min.js
-/webmr.js
-/webxmr.js
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
@@ -30252,6 +30243,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aan.amazon.com^$third-party
 ||accesswire.com/img.ashx
 ||activengage.com/overwatch/
+||activity-flow.vtex.com^
 ||activity.wisepops.com^
 ||ad-shield.io^$third-party
 ||ad.aloodo.com^
@@ -31044,6 +31036,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventapi.libring.com^
 ||eventful.com/apps/generic/$image,third-party
 ||eventgateway.soundcloud.com^
+||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
 ||events.air.tv^
 ||events.apester.com^
@@ -32250,6 +32243,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
+||telemetry.vtex.com^
 ||terabox.com/api/analytics?
 ||terabox.fun/api/analytics
 ||terabox.fun/api/getsyscfg?*web_share_ads_adsterra_config
