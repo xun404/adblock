@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m5nCvrek2WQPzvEWrjIqfA
+! Checksum: RV9e49fU93Ydr290nnp16Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202310260737
-! Last Modified: 2023年10月26日 07:37
+! Version: 202310260931
+! Last Modified: 2023年10月26日 09:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1489,7 +1489,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pagead.
 /pagead/1p-user-list/*
 /pagead/ads?
-/pagead/conversion.
+/pagead/conversion.js
 /pagead/conversion/*
 /pagead/gen_
 /pagead/html/*
@@ -67332,6 +67332,8 @@ newduba.cn###jq_youxi
 ||okpcyp.icu^
 ||nyfgpbsc.xyz^
 ||beezwol.com^
+||ksrgsc.xyz^
+||dcdglb.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -85783,7 +85785,6 @@ fqsousou.com,kengso.com#@#.user-share
 /logview_new.js
 /logviewedpage?
 /logViewImpression/*
-/logwebhit.
 /ls.gif?
 /lunametrics-
 /m.gif?
@@ -85837,7 +85838,6 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics/vanity/?
 /metrika/tag.js
 /mi/insite/*
-/mianalytics.
 /microsoft.cognitiveservices.speech.sdk.bundle.js
 /min/gtm/*
 /mint/?js
@@ -85858,38 +85858,32 @@ fqsousou.com,kengso.com#@#.user-share
 /mmetrix.mobi/*
 /mms.*/pv?
 /mms/get_loaders?
-/mn-collector.
+/mn-collector.php
 /mngi/tracking/*
-/mnppixellibrary.
 /mnt/imp?
 /moapt-action-iq-analytics.
-/moat-tracker.
 /moat/yield.js
 /moatanalytics-
 /mobileanalytics.
 /modoweb-tracking/*
 /module/analytics/*
-/moduleTracker.
 /moksa.js
 /mongoose.fp.js
 /monitor/v1/log
 /monitor?rtype=
-/monitor_analytic.
+/monitor_analytic.js
 /monitus.js
 /monsido.js
 /mormont.js
-/mouseover-tracker.
 /mpel/mpel.js
 /mpixel.js
 /mpulse.js
 /mpulse.min.js
 /ms-widgets/tracking-cookies/*
-/ms.analytics-
-/mstat/*
-/mstats.
+/ms.analytics-web-3.min.js
 /mtc.js
 /mtiFontTrackingCode.js
-/mtracking.
+/mtracking.gif?
 /mtvi_reporting.js
 /mwTag.js
 /mystats2.px?
@@ -86297,20 +86291,16 @@ fqsousou.com,kengso.com#@#.user-share
 /rlvt-track/*
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
-/RMAnalytics.
-/rmntracking.
-/rntracking.
+/rmntracking.js
+/rntracking.js
 /roi_tracker.
 /roiengine.
 /roitrack.
 /roitracker.
-/roitracker2.
-/roiTrax.
-/rollbar-snippet.
+/roitracker2.js
 /rollbar.js
 /rollbar.min.js
-/rolluptracker_
-/rook.tracking.
+/rook.tracking.min.js
 /rot_in.php
 /roverclk/*
 /roverimp/*
@@ -86890,22 +86880,13 @@ fqsousou.com,kengso.com#@#.user-share
 /trackpageview.
 /trackPageView/*
 /TrackPageview?
-/trackpix.
-/trackpixel.
 /trackpixel?
 /trackpush.min.js
-/trackpush/*
 /trackpxl?
-/TrackShopAnalytics.
-/tracksrk.
+/TrackShopAnalytics.aspx?
 /trackstats?
-/tracksubprop.
 /trackTimings.gif?
 /trackui.min.js
-/trackuity.
-/trackv&tmp=
-/TrackView/*$xmlhttprequest
-/TrackView/?track
 /TrackViews/*
 /trackVisit/*
 /trackvisit?
@@ -86915,65 +86896,52 @@ fqsousou.com,kengso.com#@#.user-share
 /traffic-source-cookie/*
 /traffic/status.gif?
 /traffic/track^
-/traffic4u.
 /traffic_record.php?
-/traffic_tracker.
-/TrafficCookie.
-/traffictracker.
+/TrafficCookie.js
 /traffictrade/*
-/traffix-track.
 /trafic.js
 /trans_pixel.asp
-/transparent1x1.
-/transparent_pixel.
+/transparent1x1.gif
+/transparent1x1.png
+/transparent_pixel.gif
+/transparent_pixel.png
 /transpix.gif
-/travel-pixel-
-/traxis-logger.
+/travel-pixel-js/*
 /trbo.js
 /trck/eclick/*
 /trck/etms/*
-/trckUtil.
+/trckUtil.min.js
 /trendmd.min.js
 /trigger-visit-event
 /triggertag.js
-/triggit-analytics.
 /trk.*/impression/*
 /trk.*/open?$image
-/trk.*/tracking.
 /trk.gif?
 /trk.php?
 /trk/api/*
 /trk2.*/open?$image
 /trk?t=$image
-/trkga.
+/trkga.js
 /trovit-analytics.js
 /truehits.php?
 /tw-track.js
 /tynt.js
 /u.gif?
 /ucount.php?
-/udctrack.
 /uds/stats?
-/uecomscore_
+/uecomscore_cmp_event_mundo.js
 /uem-ep.js
 /ui/analytics/*
-/uim.html/*
 /uisprime/track
-/ulpixel.
-/ulpixel?
-/ultra_track/*
 /umami.js
 /umg-analytics/*
 /umt.gif?
-/unbxdAnalytics.
-/unbxdAnalyticsConfig.
+/unbxdAnalytics.js
 /UniqueUserVisit?
 /Universal-Federated-Analytics.
 /universal-trackers/*
 /universal-tracking-
-/universalPixelStatic.
-/update_hits3/*
-/updateStats.
+/updatestats.js
 /urchin.gif?
 /urchin.html?
 /urchin.js
