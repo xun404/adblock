@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZMLRvEkb2VmV9d1s9mGSKQ
+! Checksum: p2ZFHDfDjNL9bK7CdMWW9w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310271637
-! Last Modified: 2023年10月27日 16:37
+! Version: 202310271837
+! Last Modified: 2023年10月27日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21273,11 +21273,10 @@ m.babytree.com##script + a[class]
 &t=pageview&
 -adobe-analytics.
 -adobe-analytics/
--adobeDatalayer_
+-adobeDatalayer_bridge.js
 -amp-error-reporting.
 -click-tracker.
 -didomi.js
--gatracker.
 -geoIP.js
 -inview-tracker.
 -scroll-tracker.js
@@ -21286,7 +21285,6 @@ m.babytree.com##script + a[class]
 -universal-analytics/
 .beacon.min.js
 .com/_.gif?
-.com/analytics?
 .com/clk?
 .com/count?
 .com/counter?
@@ -21296,30 +21294,23 @@ m.babytree.com##script + a[class]
 .com/log/?
 .com/log?event
 .com/pvlog?
-.com/ss/*sessionId=
 .com/stats.ashx?
 .com/stats.aspx?
 .com/track?$~object
 .com/tracking?
 .com/vtrack|
-.content_tracking.
+.content_tracking.js
 .de/h.gif?
 .de/l.gif?
 .eloqua.js
 .EventTracking.
-.gatracker.
 .gatracking.js
 .gif?Log=
 .Google.Tracker.js
-.googleanalytics.js
-.googleanalytics.prod.
-.GoogleAnalytics/
-.iframetracker/
 .jp/pv?
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
-.ntpagetag.
 .php?action=browse&
 .php?action_name=
 .php?logRefer=
@@ -21600,8 +21591,6 @@ m.babytree.com##script + a[class]
 /api-insights/log?
 /api/0/stats
 /api/adplogger/*
-/api/cmp_tracker
-/api/ComScorePageView
 /api/drpStats
 /api/event-rfkj/*
 /api/ipv4check?
@@ -22502,9 +22491,11 @@ m.babytree.com##script + a[class]
 /ivw/SP/*$image,script
 /j.gif?
 /jgs_portal_log_bildschirm.php?
+/jquery-gatracker.js
 /jquery.analytics.js
 /jquery.audiencetarget.js
 /jquery.browser-fingerprint-
+/jquery.gatracker.js
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
@@ -24027,6 +24018,7 @@ m.babytree.com##script + a[class]
 /yandex-metrica-watch/*
 /yandex-metrika.js
 /yastat.js
+/ye-gatracker.js
 /yell-analytics-app.js
 /yell-analytics-min.js
 /yell-analytics.js

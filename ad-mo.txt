@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4BTNTC8ainaBzXtexIFqPw
+! Checksum: 3nRCQritzwsGHXXkSaOW1w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202310271637
-! Last Modified: 2023年10月27日 16:37
+! Version: 202310271837
+! Last Modified: 2023年10月27日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -60585,6 +60585,7 @@ itwire.com,nativenewsonline.net##.eb-init
 gfinityesports.com##.ecommerceUnit
 newagebd.net##.editorialMid
 editpad.org##.edsec
+theepochtimes.com##.eet-ad
 sashares.co.za##.elementor-48612
 bikeradar.com##.elementor-element-3f6e8dd
 hilltimes.com##.elementor-element-5818a09
@@ -84415,11 +84416,10 @@ fqsousou.com,kengso.com#@#.user-share
 &t=pageview&
 -adobe-analytics.
 -adobe-analytics/
--adobeDatalayer_
+-adobeDatalayer_bridge.js
 -amp-error-reporting.
 -click-tracker.
 -didomi.js
--gatracker.
 -geoIP.js
 -inview-tracker.
 -scroll-tracker.js
@@ -84428,7 +84428,6 @@ fqsousou.com,kengso.com#@#.user-share
 -universal-analytics/
 .beacon.min.js
 .com/_.gif?
-.com/analytics?
 .com/clk?
 .com/count?
 .com/counter?
@@ -84438,30 +84437,23 @@ fqsousou.com,kengso.com#@#.user-share
 .com/log/?
 .com/log?event
 .com/pvlog?
-.com/ss/*sessionId=
 .com/stats.ashx?
 .com/stats.aspx?
 .com/track?$~object
 .com/tracking?
 .com/vtrack|
-.content_tracking.
+.content_tracking.js
 .de/h.gif?
 .de/l.gif?
 .eloqua.js
 .EventTracking.
-.gatracker.
 .gatracking.js
 .gif?Log=
 .Google.Tracker.js
-.googleanalytics.js
-.googleanalytics.prod.
-.GoogleAnalytics/
-.iframetracker/
 .jp/pv?
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
-.ntpagetag.
 .php?action=browse&
 .php?action_name=
 .php?logRefer=
@@ -84742,8 +84734,6 @@ fqsousou.com,kengso.com#@#.user-share
 /api-insights/log?
 /api/0/stats
 /api/adplogger/*
-/api/cmp_tracker
-/api/ComScorePageView
 /api/drpStats
 /api/event-rfkj/*
 /api/ipv4check?
@@ -85644,9 +85634,11 @@ fqsousou.com,kengso.com#@#.user-share
 /ivw/SP/*$image,script
 /j.gif?
 /jgs_portal_log_bildschirm.php?
+/jquery-gatracker.js
 /jquery.analytics.js
 /jquery.audiencetarget.js
 /jquery.browser-fingerprint-
+/jquery.gatracker.js
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
@@ -87169,6 +87161,7 @@ fqsousou.com,kengso.com#@#.user-share
 /yandex-metrica-watch/*
 /yandex-metrika.js
 /yastat.js
+/ye-gatracker.js
 /yell-analytics-app.js
 /yell-analytics-min.js
 /yell-analytics.js
