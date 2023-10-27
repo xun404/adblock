@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SVBMZdrGsFy8r4VbXw3QYg
+! Checksum: 27pa7p1uAzLkneCJFN4rVQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310280637
-! Last Modified: 2023年10月28日 06:37
+! Version: 202310280737
+! Last Modified: 2023年10月28日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63377,6 +63377,8 @@ booking.com##.js_sr_persuation_msg
 booking.com##.sr-motivate-messages
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###Horizon-ad
+yahoo.com###Lead-0-Ad-Proxy
+yahoo.com###adsStream
 yahoo.com###defaultLREC
 finance.yahoo.com###mrt-node-Lead-0-Ad
 sports.yahoo.com###mrt-node-Lead-1-Ad
@@ -63396,6 +63398,7 @@ yahoo.com###sda-MON
 yahoo.com###sda-WFPAD
 mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LDRB
+yahoo.com###viewer-LREC2
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 finance.yahoo.com##.ad-lrec3
@@ -63416,7 +63419,9 @@ yahoo.com##.searchCenterTopAds
 yahoo.com##.sys_shopleguide
 yahoo.com##.viewer-sda-container
 groupon.com##[data-bhc$="sponsored_carousel"]
+yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
+yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
@@ -67344,6 +67349,13 @@ newduba.cn###jq_youxi
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
+||lwhffh.xyz^
+||fepmpify.xyz^
+||rntdqwc.xyz^
+||wyoaij.icu^
+||naweslt.cn^
+||jupeicha.cn^
+||unqrroh.cn^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -86112,7 +86124,6 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
-/plugins/wp-monero-miner/*
 /pm/pixel.
 /pmc-cxense.js
 /pointeur.gif?
@@ -87062,7 +87073,9 @@ fqsousou.com,kengso.com#@#.user-share
 /wp-content/tracker.js
 /wp-js/analytics.js
 /wp-monero-miner-class.js
+/wp-monero-miner-util.min.js
 /wp-monero-miner.js
+/wp-monero-miner.min.js
 /wp-slimstat.js
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
@@ -88825,6 +88838,7 @@ _mongo_stats/
 ||haveamint.com^$third-party
 ||hbwrapper.com^$third-party
 ||heapanalytics.com^$third-party
+||heatmap.com^$third-party
 ||heatmap.it^$third-party
 ||heatmap.services^$third-party
 ||hellosherpa.com^$third-party
@@ -93021,6 +93035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.4u.pl^$third-party
 ||stat.pl^$third-party
 ||tagcdn.com^$third-party
+||trafficscanner.pl^$third-party
 ||volvelle.tech^$third-party
 ||way2traffic.com^$third-party
 ||ad5track.com^$third-party
