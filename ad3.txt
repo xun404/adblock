@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5mFTkYtIx5UnznoDaC2Bpw
+! Checksum: DMnxLWfwHxG9ZP6YAUzn6A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310280537
-! Last Modified: 2023年10月28日 05:37
+! Version: 202310280637
+! Last Modified: 2023年10月28日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21269,7 +21269,7 @@ m.babytree.com##script + a[class]
 &EventType=DataDealImpression&
 &EventType=Impression&
 &hitType=pageview&
-&http_referer=$script,xmlhttprequest,domain=~facebook.com|~jobscore.com
+&http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
 &t=pageview&
 -adobe-analytics.
@@ -23699,46 +23699,36 @@ m.babytree.com##script + a[class]
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pageview.
 /tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
-/tracking/xtcore.
-/tracking202/*
+/tracking/xtcore.js
+/tracking202/static/landing.php
 /Tracking?id=
 /tracking?referrer
 /Tracking?t=
 /tracking?vs=
-/tracking_ajax.
-/tracking_frame_
-/tracking_headerJS_
 /tracking_id_
-/tracking_iframe.
-/tracking_pix.
 /tracking_pixel
 /tracking_unitary/*
-/trackingab?
 /trackingCode-
 /trackingCode.js
-/TrackingCookieCheck.
-/TrackingCookieCheck?
 /trackingcookies.
 /trackingDTM.js
 /trackingEventsBlocks/*
-/trackingFooter.
+/trackingFooter.js
 /trackingGA.js
-/TrackingHandler.
-/trackingheader.
+/TrackingHandler.js
+/trackingheader.js
 /trackingImpression/*
 /trackingp.gif
 /trackingPixel.
 /TrackingPixel/*
-/trackingScriptLoader.
 /trackingTools.
-/trackingVtm.
+/trackingVtm.js
 /trackIt.js
 /trackit.php?
 /trackit.pl?
@@ -23747,11 +23737,11 @@ m.babytree.com##script + a[class]
 /tracklog.
 /trackmerchant.js
 /trackmvisit?
-/tracknat.
 /trackopen.cgi?
 /trackPage.js?
 /trackpagecover?
-/trackpageview.
+/trackpageview.js
+/trackpageview.php
 /trackPageView/*
 /TrackPageview?
 /trackpixel?
@@ -23769,7 +23759,6 @@ m.babytree.com##script + a[class]
 /TrackWebPage?
 /traffic-source-cookie.min.js
 /traffic/status.gif?
-/traffic/track^
 /traffic_record.php?
 /TrafficCookie.js
 /traffictrade/*
@@ -53830,6 +53819,7 @@ arketing.indianadunes.com^
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||www.ups.com/WebTracking/processInputRequest
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
+@@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 !! amplitude.com/libs
