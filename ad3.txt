@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9mjnpl06IFw1X+oCGE2+Pg
+! Checksum: yGsBx+ZTlswlSUiEF+5J/g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202310300737
-! Last Modified: 2023年10月30日 07:37
+! Version: 202310300934
+! Last Modified: 2023年10月30日 09:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21822,7 +21822,7 @@ m.babytree.com##script + a[class]
 /call.tracker.js
 /callbacks/stats?
 /capture_client.js
-/CaptureStat.
+/CaptureStat.asmx
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -22080,6 +22080,7 @@ m.babytree.com##script + a[class]
 /disp_cnt.php
 /dispatch.fcgi?
 /divolte.js
+/dl-web-pixel.js
 /dla_tracker.js
 /dlpageping?
 /dm.gif?
@@ -22414,6 +22415,7 @@ m.babytree.com##script + a[class]
 /GTag/general_tracker.js
 /gtag/js?
 /gtm-listeners.js
+/gtm-suite.js
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
@@ -25707,7 +25709,6 @@ _mongo_stats/
 ||getclicky.com^$third-party
 ||getconversion.net^$third-party
 ||getdrip.com^$third-party
-||getelevar.com^$third-party
 ||getfreebl.com^$third-party
 ||getlasso.co^$third-party
 ||getpublica.com^$third-party
@@ -31199,6 +31200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
 ||geoservice.curse.com^
+||getelevar.com/shops/*/events.js
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
 ||getmetrical.com/storagesync
@@ -31271,6 +31273,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit.mybestpro.com^
 ||hits.dealer.com^
+||hits.getelevar.com^
 ||hits.informer.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
@@ -31396,6 +31399,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||klarnaservices.com/v1/osm-client-script/
 ||klarnaservices.com^$image,third-party
 ||klaviyo.com/onsite/js/sentry.
+||klaviyo.com/onsite/track-analytics?
 ||klickly.com/track
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
@@ -31589,6 +31593,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||moco.yukata.dev/get/$image,third-party
 ||modules.ooyala.com^*/analytics-
 ||mon.domdog.io^
+||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
 ||monitor.azure.com^
 ||monitoring.iraiser.eu^
@@ -32361,6 +32366,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.hotmart.com^
 ||tracking-api.mangopulse.net^
+||tracking-na.hawksearch.com^
 ||tracking.adalyser.com^
 ||tracking.ads.global-fashion-group.com^
 ||tracking.aegpresents.com^
@@ -32604,6 +32610,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x.babe.today^
 ||x.disq.us^
 ||x.weather.com^
+||xp2023-pix.s3.amazonaws.com^
 ||yahoo.co.jp/js/s_retargeting.js
 ||yahoo.com/sync/casale/
 ||yandex.*/data?referrer=
