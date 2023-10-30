@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AvV7qWzfNXUrlAtOO6RyQA
+! Checksum: 3c4sakHU3HBwJCna5WYK0g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202310301337
-! Last Modified: 2023年10月30日 13:37
+! Version: 202310301937
+! Last Modified: 2023年10月30日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1234,8 +1234,6 @@ tieba.baidu.com##.tuijian-wrap
 /delivery/fc.
 /delivery/spc.
 /delivery_ads/*
-/dfp-ads.
-/dfp-ads/*
 /dfp.min.js$third-party
 /dfp/head/*
 /dfp_async.
@@ -35847,6 +35845,7 @@ browsershots.org#@#.advert_area
 ||mmotraffic.com^
 ||mmphijndajxiui.com^
 ||mmtnat.com^
+||mmvideocdn.com^
 ||mn1nm.com^
 ||mn230126pb.com^
 ||mnaujmo.com^
@@ -58382,7 +58381,7 @@ tweaktown.com###DesktopTop
 doubtnut.com###Desktop_VideoPage_Side_Banner_1-container
 newser.com###DivStoryAdContainer
 stripes.com###FeatureAd
-howlongagogo.com###FreeStarVideoAdContainer
+howlongagogo.com,neatorama.com###FreeStarVideoAdContainer
 titantv.com###GridPlayer
 appatic.com,gamescensor.com###HTML2
 fanlesstech.com###HTML2 > .widget-content
@@ -58401,6 +58400,9 @@ fortune.com###Leaderboard0
 naturalnews.com###MastheadRowB
 medicalnewstoday.com###MyFiAd
 medicalnewstoday.com###MyFiAd0
+neatorama.com###Neatorama_300x250_300x600_160x600_ATF
+neatorama.com###Neatorama_300x250_300x600_160x600_BTF
+neatorama.com###Neatorama_300x250_336x280_320x50_Incontent_1
 mainichi.jp###PC-english-rec1
 kohls.com###PDP_monetization_HL
 physicsandmathstutor.com###PMT_PDF_Top
