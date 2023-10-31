@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZRDpc1PCGKfphxfK1i1zww
+! Checksum: tLBsaNyt0Gn4roZv0nsJpg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202310310737
-! Last Modified: 2023年10月31日 07:37
+! Version: 202310310934
+! Last Modified: 2023年10月31日 09:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -67361,6 +67361,7 @@ newduba.cn###jq_youxi
 ||hnkhgw.com^
 ||bpbfymv.xyz^
 ||iccjkn.icu^
+||estixfl.cn^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -76330,6 +76331,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+poedb.tw###head_toolbar + .text-center
+track718.com##.track-search-ad
+track718.com##.track-adsense-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -82433,7 +82437,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||piaotian.com/scripts/readindex/tongji.js
 @@||piccool.com/2home/phpAdsNew/
 @@||pinduoduo.com/advert/$~third-party
-@@||poedb.tw/js/
+@@||poedb.tw^*ad$script,~third-party
 @@||poedb.tw^$generichide
 @@||popart.hk/newweb/$generichide
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com
