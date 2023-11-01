@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T37HeVTega+zK+RkbiTqug
+! Checksum: WubIVgmC4r4B7F02yv1RZw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311010938
-! Last Modified: 2023年11月01日 09:38
+! Version: 202311011039
+! Last Modified: 2023年11月01日 10:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21543,6 +21543,7 @@ m.babytree.com##script + a[class]
 /analytic-client.
 /analytic/pageview
 /analytics-amplitude-
+/analytics-async-loader.js
 /analytics-cdn.
 /analytics-client-identification/*
 /analytics-collector
@@ -21587,7 +21588,8 @@ m.babytree.com##script + a[class]
 /analytics/abtest/*
 /analytics/adtags?
 /analytics/amp/*
-/analytics/analytics.$~xmlhttprequest
+/analytics/analytics.js
+/analytics/analytics.min.js
 /analytics/beacons/*
 /analytics/call-tracking.js
 /analytics/capture/*
@@ -22361,6 +22363,7 @@ m.babytree.com##script + a[class]
 /get_site_data?requestUUID=
 /getbglog.js
 /getclicky.js
+/getintent.js
 /getlog.gif
 /getstats.js.php
 /gigyaGAIntegration.js
@@ -22564,7 +22567,8 @@ m.babytree.com##script + a[class]
 /js_tracker.js
 /js_tracker.min.js
 /js_tracking?
-/jscounter.
+/jscounter.js
+/jscounter.php
 /jscripts/analytics.js
 /jserrLog?
 /jslogger.php?ref=
@@ -22660,7 +22664,6 @@ m.babytree.com##script + a[class]
 /log/sentry/*
 /log/server?
 /log/track/*
-/log/ux_analytics^
 /log/views/*
 /log/web?
 /log2.php?
@@ -22732,7 +22735,6 @@ m.babytree.com##script + a[class]
 /logview?referrer=
 /logview_new.js
 /logviewedpage?
-/logViewImpression/*
 /ls.gif?
 /lunametrics-
 /m.gif?
@@ -22746,21 +22748,17 @@ m.babytree.com##script + a[class]
 /matomo.js$domain=~github.com
 /matomo.php
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
-/maxymiser.
-/Maxymiser/*
 /mcookie.aspx
 /mcount.cgi?
 /mcounter/*
 /measure/pixel/*
 /measure/visit/*
 /media-analytics.min.
-/media-analytics/*
-/media_viewed_tracking.
-/medialaanUniversalTracker.
+/medialaanUniversalTracker.js
 /mediametrie.js
 /mediateGA.js
 /megacounter/*
-/mendelstats.
+/mendelstats.js
 /meta-analytics/*
 /meta-tracker/*
 /metatraffic/track.asp?
@@ -22769,7 +22767,6 @@ m.babytree.com##script + a[class]
 /metrica/sp.js
 /metricool.js
 /metrics-backend/*
-/metrics-ga.
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
@@ -22778,7 +22775,6 @@ m.babytree.com##script + a[class]
 /metrics/onload
 /metrics/ping?
 /metrics/rum
-/metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
 /metrics/track/*
@@ -23693,21 +23689,16 @@ m.babytree.com##script + a[class]
 /track?referer=
 /track?referrer=
 /track_click?
-/track_clicks_
 /track_event.
 /track_framework_metrics?
-/track_general_stat.
+/track_general_stat.php
 /track_js/?
-/track_metric/*
-/track_outbound_
 /track_page_view?
 /track_pageview?
 /track_pixel?
 /track_proxy?
 /track_stat?
-/track_video.php?id=
-/track_views.
-/track_visit.
+/track_visit.js
 /track_visit?
 /track_visitor?
 /trackBatchEvents?
@@ -23718,8 +23709,6 @@ m.babytree.com##script + a[class]
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
-/tracker/app.
-/tracker/emos2_
 /tracker/event?
 /tracker/imp?
 /tracker_async.js
@@ -23733,7 +23722,7 @@ m.babytree.com##script + a[class]
 /tracking-links.js
 /tracking.jsp?sid=
 /tracking/airdog
-/tracking/common.
+/tracking/common.html
 /tracking/cookies?
 /tracking/digitaldata.js
 /tracking/events/*
@@ -23746,7 +23735,6 @@ m.babytree.com##script + a[class]
 /tracking/log?
 /tracking/networktrackingservlet
 /tracking/open?
-/tracking/pixel.
 /tracking/referrer?
 /tracking/thirdpartytag.js
 /tracking/trackpageview
@@ -23835,6 +23823,7 @@ m.babytree.com##script + a[class]
 /trovit-analytics.js
 /truehits.php?
 /tw-track.js
+/twiga.js
 /tynt.js
 /u.gif?
 /ucount.php?
@@ -23848,14 +23837,10 @@ m.babytree.com##script + a[class]
 /umt.gif?
 /unbxdAnalytics.js
 /UniqueUserVisit?
-/Universal-Federated-Analytics.
-/universal-trackers/*
-/universal-tracking-
 /updatestats.js
 /urchin.gif?
 /urchin.html?
 /urchin.js
-/urchinstats.
 /user-context?referrer=
 /userdata_n?
 /userfingerprinttoken/*$xmlhttprequest
@@ -33714,6 +33699,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inforotor.net/rotor/
 ||ip.up66.ru^
 ||izhevskinfo.ru/count/
+||k50.ru/tracker/
 ||karelia.info/counter/
 ||kraken.rambler.ru^
 ||kvartirant.ru/counter.php?
@@ -34215,6 +34201,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_
+||dropbox.com/prompt/log_impression?
 ||drudgereport.com/204.png
 ||drugs.com/api/logger/
 ||drugs.com/img/pixel.gif
