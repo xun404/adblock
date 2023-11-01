@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TlglEyWxKi0Q7V2FRpIR1Q
+! Checksum: dJ+qAKxyhzvl1BLN94YQPg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311010737
-! Last Modified: 2023年11月01日 07:37
+! Version: 202311010938
+! Last Modified: 2023年11月01日 09:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67522,6 +67522,8 @@ newduba.cn###jq_youxi
 ||vdggsd001.com^
 ||eejwvwoo.xyz^
 ||vrnrpzy.xyz^
+||zlncvn.xyz^
+||nbycjpo.cn^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -84701,7 +84703,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adobe/visitor-
 /adobe/VisitorAPI-
 /adobeAnalytics/*
-/AdobeAnalyticsAndTargetOverwrites.
+/adobeanalyticsandtargetoverwrites.min.
 /adsct?
 /adstat.js
 /adstats.php
@@ -84711,22 +84713,14 @@ fqsousou.com,kengso.com#@#.user-share
 /advstats.js
 /aff_i?offer_id=
 /aff_land?referrer
-/affiliate-track.
-/affiliate-tracker.
-/affiliate.track?
-/affiliate/track?
-/AffiliateClick.
-/affiliateTracking.
-/affiliatetracking/*
-/affilinetRetargeting.
-/afftrack.
-/afftracking.
+/affiliate-tracker.js
+/affiliatetracking.js
 /aftrack.asp
 /aggbug.aspx?
 /ahoy/events
 /ahoy/visits
 /AIT_Analytics.js
-/ajax-hits-counter/*
+/ajax-hits-counter/increment-hits/index.php
 /ajax-track-page-view/*
 /ajax/analytics/*
 /ajax/log?
@@ -84782,6 +84776,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
+/analytics-prod.js
 /analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.js
@@ -84793,7 +84788,6 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics.ad.
 /analytics.analytics/*
 /analytics.bundled.js
-/analytics.collect.
 /analytics.config.js
 /analytics.do
 /analytics.gif?
@@ -84802,48 +84796,30 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics.prod.$domain=~fifteen.eu
 /analytics.sitecatalyst.js
 /analytics.v1.js
-/analytics/?event
+/analytics/?event=
 /analytics/abtest/*
 /analytics/adtags?
 /analytics/amp/*
 /analytics/analytics.$~xmlhttprequest
 /analytics/beacons/*
-/analytics/call-
+/analytics/call-tracking.js
 /analytics/capture/*
 /analytics/click?
 /analytics/collect?
-/analytics/collector.
-/analytics/collector/*
 /analytics/comscore.js
-/analytics/dist/*
+/analytics/dist/analytics.min.js
 /analytics/embed/*
-/analytics/engine/*
 /analytics/event
-/analytics/ga.
-/analytics/ga/*
-/analytics/ga?
-/analytics/geoip/*
-/analytics/inboundAnalytics.
-/analytics/initSession
+/analytics/ga.js
 /analytics/layer
-/analytics/mbox_
 /analytics/metric/*
-/analytics/page_view.
 /analytics/pageview
-/analytics/rt?
-/analytics/script/*
-/analytics/searches
-/analytics/smarttag-
-/analytics/tagx-
-/analytics/timing
-/analytics/track-
-/analytics/track?
-/analytics/track_
-/analytics/tracker.
+/analytics/searches?
+/analytics/track_event/*
+/analytics/tracker.js
 /analytics/trackers?
-/analytics/trackevent
-/analytics/visit/*
-/Analytics/Visitor.
+/analytics/visit.jsp
+/analytics/visit.php
 /analytics?http_referer
 /analytics?token=
 /analytics_events.js
@@ -84854,7 +84830,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics_v2.js
 /analytics_wbc.min.js
 /analytics_www.js
-/AnalyticsDataLayer.
+/AnalyticsDataLayer.min.
 /AnalyticsEvent.js
 /analyticsFooter.js
 /analyticsjs.js
@@ -85751,6 +85727,7 @@ fqsousou.com,kengso.com#@#.user-share
 /in.getclicky.com/*
 /in.gif?url=
 /in.php?referer=
+/inboundAnalytics.min.js
 /include/js/ga-
 /increment_page_counter.jsp
 /index.track?
@@ -85765,6 +85742,7 @@ fqsousou.com,kengso.com#@#.user-share
 /instart.js
 /interaction/beacon
 /intercept/intercept.js
+/IOL.Analytics.Tracking.min.js
 /IPbeacon.min.js
 /ipdvdc.min.js
 /ips-invite.iperceptions.com/*
@@ -86032,6 +86010,7 @@ fqsousou.com,kengso.com#@#.user-share
 /mixpanel-init.
 /mixpanel.$domain=~mixpanel.com
 /mixpanel_tracker.
+/mlb-ml-analytics.min.js
 /mlopen_track.
 /mm_track/*
 /mmclient.js
