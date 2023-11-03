@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ckTA1Be80Fj+rZPJ/jfa1w
+! Checksum: /D04QmuYFlClNmoaXMVM4g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202311022337
-! Last Modified: 2023年11月02日 23:37
+! Version: 202311031837
+! Last Modified: 2023年11月03日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -657,9 +657,9 @@ bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! #CV-1190
 instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
-instacart.com#$#hide-if-contains-visible-text '/Sponsor/' li 'li div[aria-label="Product"]'
+instacart.com#$#hide-if-contains-visible-text '/Spon[^<]*?sored/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instacart.com#$#hide-if-matches-xpath './/div[@class and count(child::span)=2 and normalize-space(span[1]/text())="Spons" and normalize-space(span[2]/text())="ored"]/ancestor::section/parent::div[@id="Featured Items"]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[not(@id="store-wrapper") and not(@id="js-app")]'
@@ -1450,9 +1450,9 @@ tinsoikeo.vip#$#abort-on-property-read sessionStorage;abort-current-inline-scrip
 plus.gtv.vn#$#abort-current-inline-script $ youtube-modal
 plvb.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.com,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
-luotphim1.net,luotphim2.net,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
+luotphim1.net,luotphim2.net,luotphimtv1.com,webphim2.com,cdnwp.icu#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
 cafef.vn,gamek.vn,genk.vn,soha.vn,tuoitre.vn#$#override-property-read ADMStorageFileCDN noopFunc
-bongda365d.com#$#override-property-read isSkipAds true
+bongda365f.com#$#override-property-read isSkipAds true
 zingnews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaBaomoi
 xoivof.site,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
@@ -1479,7 +1479,7 @@ xoilac91.tv#$#abort-current-inline-script jQuery popupBanners
 xoilac91.tv#$#abort-on-property-read adsRedirectPopups
 xoilac91.tv#$#abort-current-inline-script jQuery overlay
 sexdiaryz.us#$#abort-on-property-read parseInt
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
+linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-current-inline-script $ open
 javnong.cc#$#abort-on-property-read Math.round
 viet69.tube,ungtycomicsvip.com,truyengihotday.net,dualeotruyenpk.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com#$#abort-current-inline-script WebAssembly instantiate
 animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
