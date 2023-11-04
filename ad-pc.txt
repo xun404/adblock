@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zGMxEmS6/w5DY6xMWFsDWg
+! Checksum: 6I+Fz9U03xLW7+ug5XFnAw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311040737
-! Last Modified: 2023年11月04日 07:37
+! Version: 202311040933
+! Last Modified: 2023年11月04日 09:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24129,6 +24129,7 @@ browsershots.org#@#.advert_area
 ||bullymust.com^
 ||bulochka.xyz^
 ||bulrev.com^
+||bulserv.com^
 ||bultaika.net^
 ||bultenanogra.cfd^
 ||bulyiel.com^
@@ -58844,6 +58845,7 @@ cloudwards.net,guitaradvise.com###cbox
 linuxinsider.com###cboxOverlay
 curseforge.com###cdm-zone-03
 godbolt.org###ces
+romsmania.games###click-widget-banner
 xcalibrscans.com###close-teaser
 oneindia.com###closePopupDiv
 whocallsme.com###cnt_1
@@ -59764,6 +59766,7 @@ premierguitar.com##.a_promo
 fastfoodnutrition.org##.a_rect
 informer.com##.aa-728
 informer.com##.aa0
+romsmania.games##.aawp
 ncomputers.org,servertest.online##.ab
 freedownloadmanager.org##.ab1
 freedownloadmanager.org##.ab320
@@ -61994,9 +61997,11 @@ kotaku.com##.sc-6zn1bq-0
 distractify.com,inquisitr.com,okmagazine.com,radaronline.com##.sc-fTZrbU
 scotsman.com##.sc-igwadP
 sankakucomplex.com##.scad
+soyacincau.com##.scadslot-widget
 bangordailynews.com##.scaip
 newindianexpress.com##.scc
 radiotimes.com##.schedule__row-list-item-advert
+fantasyalarm.com##.scoreboard
 hentaihaven.icu,hentaihaven.xxx,hentaistream.tv,nhentai.io##.script_manager_video_master
 eatsmarter.com##.scroll-creatives
 readmng.com##.scroll_target_top
@@ -76648,6 +76653,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -82743,6 +82749,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||online.unionpay.com/ads/$script
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ozabc.com^$generichide
+@@||yummy.best^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
@@ -85122,12 +85130,10 @@ fqsousou.com,kengso.com#@#.user-share
 /beacon/user-data
 /beacon/v1/batch?
 /beacon?cust=
-/beaconconfigs/*
-/beacons-external.
 /beacons?data=
 /behavior/web/pv?
-/benchmarketingsmarttag/*
-/better-analytics/*
+/benchmarketingsmarttag/get?
+/better-analytics/js/loader.php
 /bf.gif?ac=
 /bineos.min.js
 /bing-bat.js
@@ -85140,20 +85146,12 @@ fqsousou.com,kengso.com#@#.user-share
 /blank.gif?*%
 /blank.gif?*&
 /blogcounter.js
-/bluekai.
-/bluekai/*
-/blueKaiAnalytics.
-/bluekaicookieinfo.
-/BlueKaiPixel/*
-/bluetracker/*
-/bm-bam-trk.
+/bluekai.js
 /bom/analytics/*
 /boomerang-latest.js
 /boomerang-latest.min.js
-/boomerang-minified-
 /boomerang.js
 /boomerang/beacon
-/boomLogger.
 /boomr.js
 /boost-sd-analytic.js
 /boost_stats.php
@@ -85161,17 +85159,15 @@ fqsousou.com,kengso.com#@#.user-share
 /botd.gif?
 /bower_components/fp/fp.js
 /bpsma.js
-/branchMetrics.
+/branchMetrics.js
 /brandAnalytics.js
-/brightcove/tracking/*
 /brightedge.js
 /brightspot/analytics/*
 /brightTag-min.js
 /browserinfo?f.sid=
-/bsp-analytics.
+/bsp-analytics.min.
 /bstat.js
 /btrack.php?
-/buffermetrics/*
 /bugcounter.php?
 /bundle-analytics.js
 /bundle.tracking.js
@@ -85201,7 +85197,7 @@ fqsousou.com,kengso.com#@#.user-share
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.html
 /cedexis.js
-/cedexis/*
+/cedexis.radar.js
 /census/RecordHit
 /certifica-js14.js
 /certifica.js
@@ -85259,30 +85255,23 @@ fqsousou.com,kengso.com#@#.user-share
 /clickrecord.php?
 /clicks/servlet/*
 /clickscript.js
-/clickstats.
+/clickstats.php
 /clickstream.aspx?
 /clickstream.js
 /clickstream/visit?
-/clicktag.
-/ClickTail.
-/clicktale-
-/clicktale.
-/clicktale/*
-/clicktale_
-/clicktalecdn.
-/ClickTrack.
+/clicktag.js
+/ClickTail.js
+/clicktale.js
+/ClickTrack.js
 /clicktrack?
-/clicktracker.
-/clicktracking.
-/clicktracking/*
+/clicktracker.js
+/clicktracker.php
+/clicktracking.js
 /clicky.js
 /client-metrics/?target
-/client.rum.
 /client_pathlog.asp?
 /clientele/reports/*
-/clientEventLog/*
-/clientlib-analytics-
-/clientPageLog/*
+/clientlib-analytics-core.
 /clientstat?
 /cls_report?
 /cms.gif?
@@ -85290,7 +85279,7 @@ fqsousou.com,kengso.com#@#.user-share
 /cmslog.dll?
 /cn-fe-stats/*
 /cn-track?
-/cnstats.
+/cnstats.js
 /cnstats/*
 /cnt-combined.php?
 /cnt.aspx?
@@ -85299,11 +85288,10 @@ fqsousou.com,kengso.com#@#.user-share
 /cnt/cnt.php?
 /cnt/start.php?
 /cnt_js.php?
-/cntpixel.
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
-/CofinaHits.
-/cohesion-latest.
+/CofinaHits.js
+/cohesion-latest.min.js
 /coinhive.min.js
 /coinimp-cache/*
 /collect.gif?
@@ -87199,7 +87187,6 @@ fqsousou.com,kengso.com#@#.user-share
 /uds/stats?
 /uecomscore_cmp_event_mundo.js
 /uem-ep.js
-/ui/analytics/*
 /uisprime/track
 /umami.js
 /umg-analytics/*
@@ -87245,6 +87232,7 @@ fqsousou.com,kengso.com#@#.user-share
 /vecapture.js
 /vendor/analytics.js
 /vendor/analytics/*
+/vendor/cedexis/*
 /vendor/xtcore.js
 /vestigo/v1/measure
 /vglnk.js
@@ -87438,6 +87426,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://analytics.*/pageview/
 ://beacon.*/track
 ://blue.*/script.js
+://client.rum.
 ://collect.*/pageview
 ://collector.*/event
 ://elqtrk.
@@ -94046,6 +94035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clickiocdn.com/utr/
 ||clicks.dealer.com^
 ||clicks.tyuwq.com^
+||clicktalecdn.sslcs.cdngc.net^
 ||clickthru.lefbc.com^$third-party
 ||clicktime.symantec.com^$script,third-party
 ||clicktracker.iscan.nl^
@@ -95471,6 +95461,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.mpthemes.net^
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
+||stats.netdriven.com^
 ||stats.olark.com^
 ||stats.ozwebsites.biz^
 ||stats.phoenix-widget.com^
