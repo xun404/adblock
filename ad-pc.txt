@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mruv8z2VUrhDDdWkMZ8w2Q
+! Checksum: 0LVPJa0q2TDVURVE1wO8dQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311050737
-! Last Modified: 2023年11月05日 07:37
+! Version: 202311050939
+! Last Modified: 2023年11月05日 09:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -59209,6 +59209,7 @@ farminguk.com###newsadvert
 canberratimes.com.au,theland.com.au###newswell-leaderboard-container
 nextshark.com###nextshark_com_leaderboard_top
 searchfiles.de###nextuse
+nanoreview.net###nfloat-sb-right
 seroundtable.com###ninja_box
 pcgamebenchmark.com,pcgamesn.com,pockettactics.com,theloadout.com,wargamer.com###nn_astro_wrapper
 steamidfinder.com,trueachievements.com,truesteamachievements.com,truetrophies.com###nn_bfa_wrapper
@@ -59233,6 +59234,7 @@ ckk.ai###orquidea-slideup
 electronicproducts.com,powvideo.net,streamplay.to,uxstyle.com###overlay
 dokicloud.one,fmoviefree.net###overlay-center
 mzzcloud.life,rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
+mp4upload.com###overlayads
 drivevideo.xyz###overlays
 animexin.vip###overplay
 aninews.in,footballorgin.com,gadgets360.com,hardwaretimes.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
@@ -62135,6 +62137,7 @@ atlasobscura.com##.siderail-bottom-affix-placeholder
 rockradio.com##.sidewall-ad-component
 sifted.eu##.sifted_advert_block
 wncv.com##.simple-image
+nanoreview.net##.sinad_only_desktop
 metalsucks.net##.single-300-insert
 9to5mac.com##.single-custom-post-ad
 kolompc.com##.single-post-content > center
@@ -67723,6 +67726,9 @@ newduba.cn###jq_youxi
 ||omkxes.xyz^
 ||wlzlrlp.xyz^
 ||lkdybkwi.xyz^
+||fehrda.xyz^
+||xzvahr.xyz^
+||tcvmtp.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -84928,6 +84934,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ahoy/visits
 /AIT_Analytics.js
 /ajax-hits-counter/increment-hits/index.php
+/ajax-link-tracker.js
 /ajax-track-page-view/*
 /ajax/analytics/*
 /ajax/log?
@@ -84976,7 +84983,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
-/analytics-helper.
+/analytics-helper.js
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
@@ -85632,9 +85639,9 @@ fqsousou.com,kengso.com#@#.user-share
 /fingerprint2.min.js
 /fingerprint3.js
 /fingerprint3.min.js
-/fingerprintjs2.
-/firebase-performance-
-/firestats/*
+/firebase-performance-compat.js
+/firebase-performance-standalone.js
+/firestats/js/fs.js.php
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
@@ -85752,7 +85759,6 @@ fqsousou.com,kengso.com#@#.user-share
 /geoAnalysis.js
 /geocc.js
 /geocompteur.php
-/geoip.html
 /geoip/detect?
 /geoip?
 /geoip_cc
@@ -85823,7 +85829,7 @@ fqsousou.com,kengso.com#@#.user-share
 /gtm.min.js
 /gtm/gtm-
 /gtmTracking.js
-/gv-analytics/*
+/gv-analytics/riveted.js
 /gweb/analytics/*
 /h.gif?
 /hc/activity
@@ -85893,7 +85899,6 @@ fqsousou.com,kengso.com#@#.user-share
 /imgcount.cgi?
 /imgcount.php?
 /imgevent?
-/imgtracker.
 /imp.gif?
 /imp.php?
 /imp2.js?
@@ -85917,16 +85922,16 @@ fqsousou.com,kengso.com#@#.user-share
 /in.gif?url=
 /in.php?referer=
 /inboundAnalytics.min.js
-/include/js/ga-
+/include/js/ga-set.js
 /increment_page_counter.jsp
 /index.track?
 /indextools.js
 /inline-pixel.js
 /inpl.measure.jssc
 /insales_counter.js?
-/insights-collector.
-/InsightTrk/*
-/insitemetrics/*
+/InsightTrk/guuidSkeleton.do?
+/InsightTrk/tracker.do?
+/insitemetrics/uRMJ/ujutilv2sll.js
 /instantpage.js
 /instart.js
 /interaction/beacon
@@ -85935,7 +85940,7 @@ fqsousou.com,kengso.com#@#.user-share
 /IPbeacon.min.js
 /ipdvdc.min.js
 /ips-invite.iperceptions.com/*
-/iterable/track/*
+/iterable/track/views/*
 /itgdtracksdk.js
 /itmdp_code.js
 /ivw/SP/*$image,script
@@ -86015,9 +86020,7 @@ fqsousou.com,kengso.com#@#.user-share
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
 /lightspeed_tracker.js
-/link-tracker-
 /link_track.js
-/link_tracking/*
 /linkinformer.js
 /linkpulse.js
 /linktrack.js
@@ -86026,7 +86029,6 @@ fqsousou.com,kengso.com#@#.user-share
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
-/ljcounter/*
 /load_analytics.php
 /loader/counter.js
 /localga.js
@@ -86158,8 +86160,6 @@ fqsousou.com,kengso.com#@#.user-share
 /mediateGA.js
 /megacounter/*
 /mendelstats.js
-/meta-analytics/*
-/meta-tracker/*
 /metatraffic/track.asp?
 /metric/?mid=
 /metric/?wid=
@@ -86187,14 +86187,11 @@ fqsousou.com,kengso.com#@#.user-share
 /mint/?js
 /mint/?record
 /mintstats/?js
-/mistat-data/*
-/mistats/*
-/mixpanel-init.
+/mistat-data/onetrack/onetrack.js
+/mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
-/mixpanel_tracker.
 /mlb-ml-analytics.min.js
 /mlopen_track.
-/mm_track/*
 /mmclient.js
 /mmcore.js
 /mmetrix.mobi/*
@@ -86204,11 +86201,9 @@ fqsousou.com,kengso.com#@#.user-share
 /mngi/tracking/*
 /mnppixellibrary.min.js
 /mnt/imp?
-/moapt-action-iq-analytics.
 /moat/yield.js
 /moatanalytics-
 /mobileanalytics.
-/modoweb-tracking/*
 /module/analytics/*
 /moksa.js
 /monetate.js
@@ -86239,7 +86234,7 @@ fqsousou.com,kengso.com#@#.user-share
 /naytev.min.js
 /ncj-pixel.js
 /neilson.js
-/neocounter/*
+/neoworx_tracker.php
 /netmining.js
 /netresults.js
 /neustar.beacon.js
@@ -86251,7 +86246,6 @@ fqsousou.com,kengso.com#@#.user-share
 /newrelic-browser.min.js
 /newrelic.js
 /newrelic.min.js
-/newSophus/*
 /nielsen.htm
 /nielsen.js
 /NitroCookies.js
@@ -86264,7 +86258,6 @@ fqsousou.com,kengso.com#@#.user-share
 /np?log=
 /npm/perfops-rom
 /nr-spa-1216.min.js
-/nsmg-tracking/*
 /ntpagetag.gif
 /ntpagetag.js
 /ntrack.asp?
@@ -86301,8 +86294,6 @@ fqsousou.com,kengso.com#@#.user-share
 /opinionlab.js
 /optiextension.dll?$script
 /optimizelyjs/*
-/optimost_
-/optmzly/*
 /ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
@@ -86407,7 +86398,7 @@ fqsousou.com,kengso.com#@#.user-share
 /piwik1.
 /piwik2.
 /piwikapi.js
-/piwikTracker.
+/piwikTracker.js
 /pix-ddc-fp.min.js
 /pix.fcg?
 /pix.gif?
@@ -86456,6 +86447,7 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nimiq/*$script
+/plugins/nsmg-tracking/*
 /plugins/pageviews-counter/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
@@ -87475,6 +87467,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
+://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
@@ -97932,6 +97925,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||littlebigsnake.com/event?
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
+||livejournal.com/ljcounter/
 ||livejournal.com/log?
 ||liveperson.net/hc/*/?visitor=
 ||lnkd.in/li/track

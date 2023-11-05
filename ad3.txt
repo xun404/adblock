@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WtGY6ycyq0gv0RpmWpHAuw
+! Checksum: CFyvNXGLSwjizJffNVYeoQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311050737
-! Last Modified: 2023年11月05日 07:37
+! Version: 202311050939
+! Last Modified: 2023年11月05日 09:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2027,6 +2027,9 @@ newduba.cn###jq_youxi
 ||omkxes.xyz^
 ||wlzlrlp.xyz^
 ||lkdybkwi.xyz^
+||fehrda.xyz^
+||xzvahr.xyz^
+||tcvmtp.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
 ||zzyy19.top^
@@ -21552,6 +21555,7 @@ m.babytree.com##script + a[class]
 /ahoy/visits
 /AIT_Analytics.js
 /ajax-hits-counter/increment-hits/index.php
+/ajax-link-tracker.js
 /ajax-track-page-view/*
 /ajax/analytics/*
 /ajax/log?
@@ -21600,7 +21604,7 @@ m.babytree.com##script + a[class]
 /analytics-events-
 /analytics-facade.
 /analytics-gjc-min.js
-/analytics-helper.
+/analytics-helper.js
 /analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
@@ -22256,9 +22260,9 @@ m.babytree.com##script + a[class]
 /fingerprint2.min.js
 /fingerprint3.js
 /fingerprint3.min.js
-/fingerprintjs2.
-/firebase-performance-
-/firestats/*
+/firebase-performance-compat.js
+/firebase-performance-standalone.js
+/firestats/js/fs.js.php
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
@@ -22376,7 +22380,6 @@ m.babytree.com##script + a[class]
 /geoAnalysis.js
 /geocc.js
 /geocompteur.php
-/geoip.html
 /geoip/detect?
 /geoip?
 /geoip_cc
@@ -22447,7 +22450,7 @@ m.babytree.com##script + a[class]
 /gtm.min.js
 /gtm/gtm-
 /gtmTracking.js
-/gv-analytics/*
+/gv-analytics/riveted.js
 /gweb/analytics/*
 /h.gif?
 /hc/activity
@@ -22517,7 +22520,6 @@ m.babytree.com##script + a[class]
 /imgcount.cgi?
 /imgcount.php?
 /imgevent?
-/imgtracker.
 /imp.gif?
 /imp.php?
 /imp2.js?
@@ -22541,16 +22543,16 @@ m.babytree.com##script + a[class]
 /in.gif?url=
 /in.php?referer=
 /inboundAnalytics.min.js
-/include/js/ga-
+/include/js/ga-set.js
 /increment_page_counter.jsp
 /index.track?
 /indextools.js
 /inline-pixel.js
 /inpl.measure.jssc
 /insales_counter.js?
-/insights-collector.
-/InsightTrk/*
-/insitemetrics/*
+/InsightTrk/guuidSkeleton.do?
+/InsightTrk/tracker.do?
+/insitemetrics/uRMJ/ujutilv2sll.js
 /instantpage.js
 /instart.js
 /interaction/beacon
@@ -22559,7 +22561,7 @@ m.babytree.com##script + a[class]
 /IPbeacon.min.js
 /ipdvdc.min.js
 /ips-invite.iperceptions.com/*
-/iterable/track/*
+/iterable/track/views/*
 /itgdtracksdk.js
 /itmdp_code.js
 /ivw/SP/*$image,script
@@ -22639,9 +22641,7 @@ m.babytree.com##script + a[class]
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
 /lightspeed_tracker.js
-/link-tracker-
 /link_track.js
-/link_tracking/*
 /linkinformer.js
 /linkpulse.js
 /linktrack.js
@@ -22650,7 +22650,6 @@ m.babytree.com##script + a[class]
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
-/ljcounter/*
 /load_analytics.php
 /loader/counter.js
 /localga.js
@@ -22782,8 +22781,6 @@ m.babytree.com##script + a[class]
 /mediateGA.js
 /megacounter/*
 /mendelstats.js
-/meta-analytics/*
-/meta-tracker/*
 /metatraffic/track.asp?
 /metric/?mid=
 /metric/?wid=
@@ -22811,14 +22808,11 @@ m.babytree.com##script + a[class]
 /mint/?js
 /mint/?record
 /mintstats/?js
-/mistat-data/*
-/mistats/*
-/mixpanel-init.
+/mistat-data/onetrack/onetrack.js
+/mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
-/mixpanel_tracker.
 /mlb-ml-analytics.min.js
 /mlopen_track.
-/mm_track/*
 /mmclient.js
 /mmcore.js
 /mmetrix.mobi/*
@@ -22828,11 +22822,9 @@ m.babytree.com##script + a[class]
 /mngi/tracking/*
 /mnppixellibrary.min.js
 /mnt/imp?
-/moapt-action-iq-analytics.
 /moat/yield.js
 /moatanalytics-
 /mobileanalytics.
-/modoweb-tracking/*
 /module/analytics/*
 /moksa.js
 /monetate.js
@@ -22863,7 +22855,7 @@ m.babytree.com##script + a[class]
 /naytev.min.js
 /ncj-pixel.js
 /neilson.js
-/neocounter/*
+/neoworx_tracker.php
 /netmining.js
 /netresults.js
 /neustar.beacon.js
@@ -22875,7 +22867,6 @@ m.babytree.com##script + a[class]
 /newrelic-browser.min.js
 /newrelic.js
 /newrelic.min.js
-/newSophus/*
 /nielsen.htm
 /nielsen.js
 /NitroCookies.js
@@ -22888,7 +22879,6 @@ m.babytree.com##script + a[class]
 /np?log=
 /npm/perfops-rom
 /nr-spa-1216.min.js
-/nsmg-tracking/*
 /ntpagetag.gif
 /ntpagetag.js
 /ntrack.asp?
@@ -22925,8 +22915,6 @@ m.babytree.com##script + a[class]
 /opinionlab.js
 /optiextension.dll?$script
 /optimizelyjs/*
-/optimost_
-/optmzly/*
 /ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
@@ -23031,7 +23019,7 @@ m.babytree.com##script + a[class]
 /piwik1.
 /piwik2.
 /piwikapi.js
-/piwikTracker.
+/piwikTracker.js
 /pix-ddc-fp.min.js
 /pix.fcg?
 /pix.gif?
@@ -23080,6 +23068,7 @@ m.babytree.com##script + a[class]
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nimiq/*$script
+/plugins/nsmg-tracking/*
 /plugins/pageviews-counter/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
@@ -24099,6 +24088,7 @@ m.babytree.com##script + a[class]
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
+://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
@@ -34556,6 +34546,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||littlebigsnake.com/event?
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
+||livejournal.com/ljcounter/
 ||livejournal.com/log?
 ||liveperson.net/hc/*/?visitor=
 ||lnkd.in/li/track
