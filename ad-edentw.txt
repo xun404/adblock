@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZOUmM45gF6BJ7HjwFfjlZQ
+! Checksum: 0fob3HezUpt25HzfJI5Mbw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202311071737
-! Last Modified: 2023年11月07日 17:37
+! Version: 202311072337
+! Last Modified: 2023年11月07日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -917,9 +917,7 @@ animeunity.cc#$#abort-on-property-read zfgstorage; abort-current-inline-script d
 aniwatch.to#$#abort-current-inline-script XMLHttpRequest
 asura.gg#$#hide-if-matches-xpath './/div[@language]/video[@src]/ancestor::div[@style]/parent::div[@id="tip_text_content"]/ancestor::div[@style][@id][1]'
 dl-protect.link#$#abort-current-inline-script addEventListener DOMContentLoaded; hide-if-matches-xpath './/a[@style="cursor: pointer;"]/img[@src][@onmouseover]/ancestor::center/parent::div[1]/ancestor::div[@class="row"]'
-aliexpress.com#$#hide-if-contains-visible-text /AD/ 'div[data-index][style] div[style]>a[target^="_blank"]' 'span[class][style]'
-aliexpress.com#$#hide-if-contains-visible-text /AD/ 'a[class][target][style^="width"]' 'span[class][style]'
-aliexpress.com#$#hide-if-matches-xpath './/div[contains(text(),"sponsored")]/parent::div[@class][@id]/ancestor::div[contains(@class,"spin")]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'a[class][target]' 'span[class][style^="background-color"]'
 9animetv.to#$#hide-if-matches-xpath './/div[@class][contains(@style,"pointer-events")]/ancestor-or-self::div[1]'; hide-if-matches-xpath './/a[@href][@rel]/img[@alt="AniLab"][@style]/ancestor-or-self::div[@class][contains(@style,"margin: 1rem")]';
 marketwatch.com#$#hide-if-matches-xpath './/img/following-sibling::span[contains(text(),"Ad Block")]/ancestor::div/ancestor::div[string-length(@class) >26]'; hide-if-matches-xpath './/div[@style][@class][@data-dianomi-context-id]//img[@style]/following::iframe[@style][contains(@title,"Dianomi ad")]/ancestor::div[string-length(@class) >26][1]';
 xanimu.com#$#hide-if-matches-xpath './/a[contains(@href,"zlinkb.com")]/parent::*/ancestor::div[contains(@class,"col")][1]'
