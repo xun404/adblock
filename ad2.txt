@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 11oQGr4KHFPGkzNOds3Y0g
+! Checksum: W8prnebK4mtvvoWEii6Q6Q
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202311112237
-! Last Modified: 2023年11月11日 22:37
+! Version: 202311112337
+! Last Modified: 2023年11月11日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -11022,6 +11022,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
+||strip.chat/widgets/$domain=tktube.com
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||zhuji.net/2007_ad/
 ||zhujiwiki.com/ad/
@@ -11072,6 +11073,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+amz123.com##.two-activity-style
 423down.com##.entry > P[style*="20px;color"]
 zhenniu.vip###klp_hdp
 szxx.com.cn###A1
@@ -13333,7 +13335,7 @@ expreview.com##.colbaba
 xinhuanet.com##.columBox.book
 jiakaobaodian.com##.com-side-car-sales-rank
 www.kafan.cn##.comeing_show_box[style="padding:10px;"]
-manhuadb.com##.comicbook-index
+manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 proewildfire.cn##.comiis_nav ~ a
 image.so.com##.commerce
 wenku.baidu.com##.commerce-flow
