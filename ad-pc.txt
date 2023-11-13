@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oAA6LcrAFJRz2Q12XSCPWQ
+! Checksum: v24YbvzEZHzNo5CuLhYt2Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311132337
-! Last Modified: 2023年11月13日 23:37
+! Version: 202311140041
+! Last Modified: 2023年11月14日 00:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60093,6 +60093,7 @@ thetruthaboutcars.com##.billboardSize
 techspot.com##.billboard_placeholder_min
 netweather.tv##.billheight
 bundesliga.com##.bl-broadcaster
+softonic.com##.black-friday-ads
 ehftv.com##.blackPlayer
 nowsci.com##.black_overlay
 tvmaze.com##.blad
@@ -63773,6 +63774,8 @@ klmanga.io#?##movie-last-movie > li:-abp-has(> center > ins[data-width="300"])
 kroger.com#?#.AutoGrid-cell:-abp-has(.ProductCard-tags>div>span[data-qa="featured-product-tag"])
 ksl.com#?#.queue:-abp-has(.sponsored)
 limetorrents.lol#?#.downloadareabig:-abp-has([title^="Anâ€Œonâ€Œymous Download"])
+linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:-abp-contains(Featured Items)
 lovenovels.net#?#center:-abp-contains(Advertisement)
 macys.com#?#li.productThumbnailItem:-abp-has(.sponsored-items-label)
