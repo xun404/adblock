@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L/mqtSk+jYno1oiTswDNsQ
+! Checksum: whqVlSseUKsWiIxx+vL90A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202311161737
-! Last Modified: 2023年11月16日 17:37
+! Version: 202311161937
+! Last Modified: 2023年11月16日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -630,8 +630,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adlib.js
 /adlib.min.js
 /adlog.php
-/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
-/admanager/*$~object,domain=~blog.google|~konograma.com
+/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.line.biz|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
+/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~konograma.com
 /admgr.
 /admitad.js
 /adModule.
@@ -18720,6 +18720,7 @@ ienohikari.net#@#.ad_btn
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimarkkina.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,nettimokki.com#@#.ad_caption
 classy-online.jp,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
 walkingclub.org.uk#@#.ad_div
+admanager.line.biz#@#.ad_frame
 modelhorseblab.com#@#.ad_global_header
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
 huffingtonpost.co.uk#@#.ad_spot
@@ -87809,6 +87810,7 @@ _mongo_stats/
 ||apeagle.io^
 ||apenterprise.io^
 ||apxl.io^
+||arttrk.com^
 ||as3.io^
 ||awmonitor.com^
 ||ayc0zsm69431gfebd.info^
@@ -88956,6 +88958,7 @@ _mongo_stats/
 ||fiksu.com^$third-party
 ||filitrac.com^$third-party
 ||finalid.com^$third-party
+||finalyticsdata.com^$third-party
 ||find-ip-address.org^$third-party
 ||fireworkanalytics.com^$third-party
 ||firstpromoter.com^$third-party
@@ -94839,6 +94842,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkwithin.com/pixel.png
 ||list-manage.com/track/
 ||list.fightforthefuture.org/mpss/o/*/o.gif
+||listen.audiohook.com/*/pixel.png
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||lit.connatix.com^
@@ -117510,6 +117514,7 @@ arketing.indianadunes.com^
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
+@@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
