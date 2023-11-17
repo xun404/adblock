@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lzZV7RgCw0cIQVTlUorzPw
+! Checksum: /ZQfALSL6xmIX+Ja8Z5lpg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311171638
-! Last Modified: 2023年11月17日 16:38
+! Version: 202311171937
+! Last Modified: 2023年11月17日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1466,6 +1466,7 @@ newduba.cn###jq_youxi
 ##.y.mtw[style="padding: 0px 10px;"]
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
+###chs_bannerArea
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
@@ -11158,6 +11159,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+52asus.com###guiigo-black-mask
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11518,7 +11520,6 @@ hao.rising.cn###change
 360.com###channel-game
 360.com###channel-mall
 i-part.com.tw###chatroomFrame + div[style="text-align: center;padding-top: 10px"]
-cqfishing.net###chs_bannerArea
 seseda90.com###clone_ad
 gz0668.com###closexguide
 baidu.com###cms-company
@@ -20214,6 +20215,7 @@ _box_ad_
 ||tencent.com/developer/api/common/getAds
 ||tencent.com/developer/api/common/getOneAds
 !------------------------Specific element hiding rules------------------------!
+caiyunapp.com##.active-imgContainer
 baidu.com##.player-pause-code
 123pan.com##.ant-carousel
 123pan.com##.banner-container-pc
