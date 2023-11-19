@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 31lqeawXHmcusBsY4VoJ2Q
+! Checksum: 8Q92dN3OfCgFlZCDmM8WaQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202311191042
-! Last Modified: 2023年11月19日 10:42
+! Version: 202311191637
+! Last Modified: 2023年11月19日 16:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21885,6 +21885,7 @@ m.babytree.com##script + a[class]
 /api/ipv4check?
 /api/log-visit
 /api/log?
+/api/metrics/collect
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
@@ -34442,6 +34443,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd.nytimes.com^
 ||dealnews.com/lw/ul.php
 ||deepl.com/web/statistics
+||deepnote.com/api/track
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
 ||deliveroo.com^*/events
@@ -34968,6 +34970,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
+||perplexity.ai/api/$xmlhttprequest
 ||perr.hola.org^
 ||pf.newegg.com^
 ||ph.thenextweb.com^
@@ -35239,6 +35242,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.av.st^
 ||t.birchlane.com^
 ||t.dailymail.co.uk^
+||t.deepnote.com^
 ||t.freelancer.com^
 ||t.imgur.com^
 ||t.indeed.com^
