@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a5JBLGdBoDowtA4e+EptvQ
+! Checksum: JsXJzSxBwVvW5wGzwsaODA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311222052
-! Last Modified: 2023年11月22日 20:52
+! Version: 202311222237
+! Last Modified: 2023年11月22日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32441,6 +32441,7 @@ browsershots.org#@#.advert_area
 ||inauknceiwouldlikuk.info^
 ||inbbredraxing.com^
 ||inbdmaza.com^
+||inbdorenda.com^
 ||inboldoreer.com^
 ||inbornsodcharms.com^
 ||incarnatepicturesque.com^
@@ -36347,6 +36348,7 @@ browsershots.org#@#.advert_area
 ||munsterduke.com^
 ||muntiglesia.com^
 ||mupyfpimgnvqdgy.com^
+||muragetunnel.com^
 ||muralattentive.com^
 ||muralshelvesdeposition.com^
 ||murderassuredness.com^
@@ -38313,6 +38315,7 @@ browsershots.org#@#.advert_area
 ||outyanmegaom.com^
 ||ouveelsa.xyz^
 ||ouzavamt.com^
+||ouzeelre.net^
 ||ouzekomtok.com^
 ||ovariesutopia.com^
 ||ovdimin.buzz^
@@ -58855,6 +58858,7 @@ linuxinsider.com###colorbox
 smbc-comics.com###comicright > div[style]
 mirror.co.uk,themirror.com###comments-standalone-mpu
 kotaku.com,qz.com###commerce-inset-wrapper
+seatguru.com###comparePrices
 cpuid.com###console_log
 miniwebtool.com###contain300-1
 miniwebtool.com###contain300-2
@@ -61920,6 +61924,7 @@ surfline.com##.quiver-google-dfp
 allthatsinteresting.com##.r-11rk87y
 tgstat.com##.r1-aors
 calendar-canada.ca,osgamers.com##.r89-outstream-video
+tripadvisor.com##.rSJod
 joins.com,kmplayer.com##.r_banner
 linuxtopia.org##.raCloseButton
 time.is##.rad
@@ -63279,6 +63284,7 @@ cryptoslate.com,newsbtc.com##div[class*="sticky-header"]
 politico.com##div[class*="styles_supercube_"]
 serverhunter.com##div[class*="why"]
 walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
+tripadvisor.com##div[class="ui_container dSjaD _S"]
 timesofindia.com##div[class^="ATF_container_"]
 arkadium.com##div[class^="Ad-adContainer"]
 dailymotion.com##div[class^="AdBanner"]
@@ -63950,9 +63956,9 @@ atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.c
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="PROMOTED_LISTING"])
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
-infographicjournal.com##.et_pb_widget:-abp-contains(Partners)
-infographicjournal.com##.et_pb_module:-abp-contains(Partners)
-infographicjournal.com##.et_pb_module:-abp-contains(Partners) + .et_pb_module
+infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
+infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
+infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
 bailagentnetwork.com#?#div.box-bottom:-abp-has(a[rel="noopener nofollow"])
 bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
 bbc.com#?#li[class*="-ListItem"]:-abp-has(div.dotcom-ad)
@@ -63978,6 +63984,7 @@ coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.block-title>span:-abp-contains(Visit Our Sponsors))
 countdown.co.nz#?#cdx-card:-abp-has(product-badge-list)
+cruisecritic.co.uk#?#div[role="group"]:-abp-contains(Sponsored)
 deadspin.com#?#section:-abp-has(a[href^="https://theinventory.com"])
 dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com#?#div[class^="ColListing"]:-abp-has(div[data-testid^="Sponsored"])
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
@@ -64081,6 +64088,7 @@ titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][cla
 tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
 trends.gab.com#?#li.list-group-item:-abp-contains(Sponsored content)
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
+tripadvisor.com#?#div:-abp-has(>div[class="ui_columns is-multiline "])
 tripsonabbeyroad.com#?#.e-con-inner:-abp-has(tp-cascoon)
 troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"])
 truthsocial.com#?#div[item="[object Object]"]:-abp-has(path[d="M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673"])
@@ -116316,6 +116324,7 @@ arketing.indianadunes.com^
 ||aliasdmc.fr/js/general_sts.js
 ||allocine.fr/_/geolocalize
 ||analytics.allovoisins.com^
+||analytics.clubic.com^
 ||api.odysee.com/locale/get
 ||api.tacotax.fr/v2/amplitude_trackers
 ||batiactu.com/cap_
@@ -116323,6 +116332,7 @@ arketing.indianadunes.com^
 ||boingtv.fr/track_view
 ||cdtm.cdiscount.com^
 ||cesu.urssaf.fr/clm10
+||clubic.com/tview
 ||compteur.developpez.com^
 ||courrierinternational.com/*&vtag=
 ||dd.leboncoin.fr^
@@ -116634,6 +116644,7 @@ arketing.indianadunes.com^
 ||wanmei.com/public/js/stat.js
 ||weather.com.cn/a1.js
 ||webstat.kuwo.cn^
+||weibo.cn/h5logs/
 ||weibo.com/aj/log/
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
