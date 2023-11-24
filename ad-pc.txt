@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +l1aqrUE8ouNb7Kf4/9aHQ
+! Checksum: IAFkej8H8g88HcQTtIHClA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311241137
-! Last Modified: 2023年11月24日 11:37
+! Version: 202311241638
+! Last Modified: 2023年11月24日 16:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67049,7 +67049,7 @@ newduba.cn###jq_youxi
 ##.davwheat-ad
 ##.dipiao
 ##.div-search-box.col-lg-offset-2.col-lg-8 > a[href^="http"][target="_blank"]
-##.dplayer-notice + .top-right-tips
+##.dplayer > .tips
 ##.duilian > .leftd
 ##.ec-ad
 ##.edtj
@@ -67427,6 +67427,7 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.player-box > [style*="flex; justify"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -68122,6 +68123,7 @@ newduba.cn###jq_youxi
 ||huxsvl.xyz^
 ||kkeojk.xyz^
 ||tobyxev.com^
+||wecklrb.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -80579,7 +80581,6 @@ kaifu.com##.play_fmt
 ttsp.tv##.play_list_adbox
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.play_list_panel
 ifeng.com##.playad
-netfly.tv##.player-box > [style^="display"]
 senfun.net##.player-recommend
 qq.com##.player-side-ads
 league-funny.com##.player_bb
@@ -98047,6 +98048,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coomer.su/api/v1/event
 ||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
+||counter.darkreader.app^
 ||coursehero.com/v1/data-tracking
 ||coursera.org/eventing
 ||cpt.itv.com^
@@ -98064,7 +98066,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
-||darkreader.org/elements/statistics.js
+||darkreader.org/data/top-backers.json
+||darkreader.org/elements/backers-
 ||data.allstate.com^
 ||data.guide.photobucket.com^
 ||data.webullfintech.com/event/
