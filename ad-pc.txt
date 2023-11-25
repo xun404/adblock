@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wzbbJj6m3uOX0DKFFl+slg
+! Checksum: Zhq7jAO0tt5U/dqpn4D5Eg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311251937
-! Last Modified: 2023年11月25日 19:37
+! Version: 202311252048
+! Last Modified: 2023年11月25日 20:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -77136,10 +77136,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
+||91bixin.net/api/adv/
+||91bixin.net/api/chdd/liveAdv?
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-jindianle.com##.advertbox
+yufile.com##.fb_r > a
+yufile.com##.lo_box
+zouaw.com##.cloudbox
+zouaw.com##.widget_custom_html
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -98215,6 +98220,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.squarespace.com^
 ||events.turbosquid.com^
 ||events2.www.edenfantasys.com^
+||evs.icy-lake.kickstarter.com^
 ||evs.sgmt.loom.com^$script
 ||expedia.*/cl/
 ||expressvpn.com/__px.gif?
@@ -117803,6 +117809,7 @@ arketing.indianadunes.com^
 @@||spark.co.nz/content/*/utag.sync.js$domain=skinny.co.nz
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
+@@||src.litix.io/videojs/*/videojs-mux.js$domain=plus.nasa.gov
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
