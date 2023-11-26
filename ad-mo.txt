@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1KpjU9bIN651ua3EI/BaEQ
+! Checksum: M0VEkz4lZsrayFWjVac+6g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202311262137
-! Last Modified: 2023年11月26日 21:37
+! Version: 202311262337
+! Last Modified: 2023年11月26日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -88234,6 +88234,7 @@ omni.soundestlink.com$image
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+||adservice.google.
 ||google.*/url?$ping
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
@@ -95212,7 +95213,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ibmcloud.com/collector/
 ||icbdr.com/images/pixel.gif
 ||icu.getstorybox.com^
-||id.google.com/verify/
+||id.google.*/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||iddu1vvb7sk8-a.akamaihd.net^
 ||identification.hotmart.com^
