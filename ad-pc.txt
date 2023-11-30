@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SD231bkT95VpO6KfYsKjfw
+! Checksum: M66XxbzRNqGpVf6ndKssFw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312010042
-! Last Modified: 2023年12月01日 00:42
+! Version: 202312010238
+! Last Modified: 2023年12月01日 02:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49627,6 +49627,7 @@ browsershots.org#@#.advert_area
 ||adshot.de^$third-party
 ||adshuffle.com^$third-party
 ||adsiduous.com^$third-party
+||adsight.nl^$third-party
 ||adslivecorp.com^$third-party
 ||adsmart.hk^$third-party
 ||adsninja.ca^$third-party
@@ -55689,6 +55690,7 @@ browsershots.org#@#.advert_area
 ||recipefy.net/rssfeed.php
 ||redirect-ads.com^$~subdocument,third-party
 ||redtram.com^$script,third-party
+||refinery89.com/performance/
 ||reiclub.com/templates/interviews/exit_popup/
 ||remax-malta.com/widget_new/$third-party
 ||rentalcars.com/partners/
@@ -63892,7 +63894,6 @@ atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.c
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="PROMOTED_LISTING"])
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
-qwant.com#?#.result__ext:-abp-has([data-testid="adResult"])
 infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
@@ -64000,6 +64001,8 @@ priceline.com#?#div[data-testid^="HTL_NEW_LISTING_CARD_"]:-abp-has(div:-abp-cont
 protrumpnews.com#?#.enhanced-text-widget:-abp-has(span.pre-announcement)
 psychcentral.com#?#aside:-abp-has([data-empty])
 qwant.com#?#.is-sidebar:-abp-has(a[data-testid="advertiserAdsLink"])
+qwant.com#?#div[class="_2NDle"]:-abp-has(div[data-testid="advertiserAdsDisplayUrl"])
+qwant.com#?#.result__ext:-abp-has([data-testid="adResult"])
 radio.at,radio.se,radio.pt,radio.pl,radio.it,radio.fr,radio.es,radio.de,radio.dk,radio.net#?##headerTopBar ~ div > div:-abp-has(div#RAD_D_station_top)
 radio.at,radio.se,radio.pt,radio.pl,radio.it,radio.fr,radio.es,radio.de,radio.dk,radio.net#?#div[class] > div[class]:-abp-has(> div[class] > div[id^="RAD_D_"])
 radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
