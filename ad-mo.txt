@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uJLctC9V/8i078v9BKf8EQ
+! Checksum: sR4bDbkDtBahN6YNdKe+cw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202311300737
-! Last Modified: 2023年11月30日 07:37
+! Version: 202311300938
+! Last Modified: 2023年11月30日 09:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -62649,6 +62649,7 @@ coles.com.au##[data-testid="banner-container-desktop"]
 sbs.com.au##[data-testid="hbs-widget-skeleton"]
 forbes.com##[data-testid="locked-top-ad-container"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
+you.com##[data-testid="microsoft-ads"]
 washingtonpost.com##[data-testid="placeholder-box"]
 abcnews.go.com##[data-testid="prism-static-embed"]
 abcnews.go.com##[data-testid="prism-sticky-ad"]
@@ -63572,7 +63573,6 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###YtKevlarVisibilityIdentifier
 youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
-youtube.com###merch-shelf
 youtube.com###player-ads
 youtube.com###video-masthead
 youtube.com##.ad-showing > .html5-video-container
@@ -63753,6 +63753,7 @@ atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.c
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="PROMOTED_LISTING"])
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
+qwant.com#?#.result--ext:-abp-has([data-testid="adResult"])
 infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
@@ -67967,6 +67968,8 @@ newduba.cn###jq_youxi
 ||emynwlz.xyz^
 ||kqbrgl.icu^
 ||ameidj.xyz^
+||fqtljn.xyz^
+||max211.top^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
@@ -85295,6 +85298,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/trackers?
 /analytics/visit.jsp
 /analytics/visit.php
+/analytics/visit?
 /analytics?http_referer
 /analytics?token=
 /analytics_events.js
