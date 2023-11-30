@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M30M0TOTOHFw0hx5W68gLw
+! Checksum: SD231bkT95VpO6KfYsKjfw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202311302337
-! Last Modified: 2023年11月30日 23:37
+! Version: 202312010042
+! Last Modified: 2023年12月01日 00:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -65754,7 +65754,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
-/os2023001.oss-$script
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
@@ -66267,6 +66266,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /opbb/float.js
 /opbb/obpp.tpl
 /os1019.oss-cn-quanzhou.
+/os2023001.oss-$script
 /os230718.oss-
 /page/?s=$third-party
 /page/index.php?s=$third-party
@@ -67097,6 +67097,7 @@ newduba.cn###jq_youxi
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ~dongman8.com##.pc_acmsd
+##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -67174,9 +67175,11 @@ newduba.cn###jq_youxi
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txtguanggao
 ##.uk-width-1-1.adbox
+##.vg-overlay-pause
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
+##.video-player > .gg-bg-cover
 ##.video_details > .banner
 ##.w-full > .banner.el-carousel
 ##.w100b > .m_adv
@@ -67319,9 +67322,6 @@ newduba.cn###jq_youxi
 ##dl#listwoBox
 ##img#GGADIMG
 ##img#adv1
-##.pccb > .ng-star-inserted
-##.video-player > .gg-bg-cover
-##.vg-overlay-pause
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -67410,9 +67410,12 @@ newduba.cn###jq_youxi
 ||88lajs4.com^
 ||88lajs6.com^
 ||8d07a.xyz^
+||8zkt7.xyz^
 ||913mj.xyz^
 ||999aa666bb.com^
 ||a4bj6.xyz^
+||aadmei.xyz^
+||aaiwuq.xyz^
 ||aaknmt.icu^
 ||actrqdr.cn^
 ||aflsj.com^
@@ -67424,6 +67427,7 @@ newduba.cn###jq_youxi
 ||aispyd.icu^
 ||aknkvallbfml.com^
 ||albsgdq.cn^
+||ameidj.xyz^
 ||anhlnnm.cn^
 ||aniede.xyz^
 ||anjneia.xyz^
@@ -67442,6 +67446,7 @@ newduba.cn###jq_youxi
 ||azdiqsb.cn^
 ||bachou.cn^
 ||bavkvoks.xyz^
+||bbccf12.xyz^
 ||bbfnrn.xyz^
 ||bcovazp.icu^
 ||bctxtl.xyz^
@@ -67546,6 +67551,7 @@ newduba.cn###jq_youxi
 ||elas666.pics^
 ||elemea.xyz^
 ||elprput.xyz^
+||emynwlz.xyz^
 ||eqcwpeo.cn^
 ||eraygc.xyz^
 ||erutxdk.cn^
@@ -67578,6 +67584,7 @@ newduba.cn###jq_youxi
 ||fortxfq.cn^
 ||fotaxf.xyz^
 ||fptdxkm.com^
+||fqtljn.xyz^
 ||fsgiosi.com^
 ||ftzzbx.xyz^
 ||fwhhcpj.xyz^
@@ -67643,9 +67650,11 @@ newduba.cn###jq_youxi
 ||gszetzdm.xyz^
 ||gth112.com^
 ||gwdobvs.cn^
+||gxx4t.online^
 ||haise3.top^
 ||haise4.top^
 ||haise5.top^
+||hanadrmc.xyz^
 ||haree.cn^
 ||haxqxd.xyz^
 ||hcgbhq.com^
@@ -67693,6 +67702,7 @@ newduba.cn###jq_youxi
 ||ionjkcj.cn^
 ||iqs871.com^
 ||irtefs.xyz^
+||isnd.top^
 ||itwzlyq.com^
 ||iujlwn.icu^
 ||iuvssgh.cn^
@@ -67739,6 +67749,7 @@ newduba.cn###jq_youxi
 ||knhmgn.com^
 ||knuaxfv.cn^
 ||koyuod.xyz^
+||kqbrgl.icu^
 ||kshrsf.icu^
 ||ksrgsc.xyz^
 ||ktvtxir.xyz^
@@ -67779,6 +67790,7 @@ newduba.cn###jq_youxi
 ||m05ib.xyz^
 ||m2k3j7x8.com^
 ||mads7.icu^
+||max211.top^
 ||mbiypew.cn^
 ||mcds7.icu^
 ||mcds9.icu^
@@ -67809,6 +67821,7 @@ newduba.cn###jq_youxi
 ||naweslt.cn^
 ||nbxymdy.cn^
 ||nbycjpo.cn^
+||ncjpbv.xyz^
 ||ndbaxn.xyz^
 ||ndvfwlv.cn^
 ||neeujqf.cn^
@@ -67839,8 +67852,10 @@ newduba.cn###jq_youxi
 ||olltcqg.xyz^
 ||omkxes.xyz^
 ||omzxutfm.com^
+||onxtxdm.xyz^
 ||ooejkd.xyz^
 ||oouiqi.xyz^
+||operqr.top^
 ||oprece.xyz^
 ||orssengseen.com^
 ||ovfvkfc.xyz^
@@ -67913,6 +67928,7 @@ newduba.cn###jq_youxi
 ||rrfccx.com^
 ||rshsk.xyz^
 ||rslkhj.xyz^
+||rt004.top^
 ||rvreuxi.cn^
 ||rvvji.online^
 ||rxrdjb.xyz^
@@ -68028,6 +68044,7 @@ newduba.cn###jq_youxi
 ||wuyaw.cn^
 ||wvtem.com^
 ||wwwww.asia^
+||wwxufo.com^
 ||wyiegt.icu^
 ||wymzwy.cn^
 ||wyoaij.icu^
@@ -68042,6 +68059,7 @@ newduba.cn###jq_youxi
 ||xixil.cn^
 ||xjxbdh.xyz^
 ||xkfigjh.cn^
+||xkjmjj.com^
 ||xlam.cn^
 ||xlca666.site^
 ||xmvmir.icu^
@@ -68100,24 +68118,6 @@ newduba.cn###jq_youxi
 ||zys16.top^
 ||zyzo.cn^
 ||zzyy17.top^
-||aadmei.xyz^
-||onxtxdm.xyz^
-||isnd.top^
-||gxx4t.online^
-||aaiwuq.xyz^
-||hanadrmc.xyz^
-||ncjpbv.xyz^
-||bbccf12.xyz^
-||emynwlz.xyz^
-||kqbrgl.icu^
-||ameidj.xyz^
-||fqtljn.xyz^
-||max211.top^
-||8zkt7.xyz^
-||rt004.top^
-||operqr.top^
-||xkjmjj.com^
-||wwxufo.com^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
