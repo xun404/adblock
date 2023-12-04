@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gAT3E7tH/5XYMmf5WwzDww
+! Checksum: 3w5ZlwFa3PzutTwWjN1QDw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312041337
-! Last Modified: 2023年12月04日 13:37
+! Version: 202312041839
+! Last Modified: 2023年12月04日 18:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2436,6 +2436,7 @@ newduba.cn###jq_youxi
 ||xn--gmq238c5fy.com^
 ||xn--9kq29i0tjy6b044actm.com^
 ||v34s6r.com^
+||hangzhouhdb.top^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -21136,6 +21137,7 @@ m.babytree.com##script + a[class]
 /analytics-ingestion/*
 /analytics-ingress-
 /analytics-js/*
+/analytics-library.js
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
@@ -21198,7 +21200,6 @@ m.babytree.com##script + a[class]
 /AnalyticsEvent.js
 /analyticsFooter.js
 /analyticsjs.js
-/analyticsjs/*
 /analyticsscript.ashx
 /analyticstrack.js
 /analyticstracking.js
@@ -21243,8 +21244,8 @@ m.babytree.com##script + a[class]
 /AppMeasurement.js
 /AppMeasurement.min.js
 /AppMeasurement2.js
-/AppMeasurement_Module_
-/AppMeasurementCustom.
+/AppMeasurement_Module_ActivityMap.min.js
+/AppMeasurementCustom.min.js
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
