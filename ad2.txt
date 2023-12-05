@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +R4gqgOHByDs3rBO33J/NQ
+! Checksum: h33rGkXaqTRfi6dnL7nr1Q
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202312052052
-! Last Modified: 2023年12月05日 20:52
+! Version: 202312052137
+! Last Modified: 2023年12月05日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -2447,6 +2447,7 @@ newduba.cn###jq_youxi
 ||vbzrkme.xyz^
 ||jltolz.xyz^
 ||haokanshipin.com^
+||uiszwh.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -16840,7 +16841,7 @@ guailie.com#@#.google-ad
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
