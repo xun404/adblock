@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CcNbvWrN2FSeEIkrT539WA
+! Checksum: xxcOe3INsgaY/q3yORfTFQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312060537
-! Last Modified: 2023年12月06日 05:37
+! Version: 202312060637
+! Last Modified: 2023年12月06日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21090,7 +21090,7 @@ m.babytree.com##script + a[class]
 /adstats.php
 /adstrack.js
 /adtracking.asmx
-/adtrk/*
+/adtrk/tr.gif
 /advstats.js
 /aff_i?offer_id=
 /aff_land?referrer
@@ -21443,7 +21443,7 @@ m.babytree.com##script + a[class]
 /cgi/trk.js
 /chartbeat.js
 /chartbeat.min.js
-/chcounter/*
+/chcounter/counter.php
 /check.php?referrer=
 /chicken.gif?*=
 /cklink.gif?
@@ -21455,23 +21455,17 @@ m.babytree.com##script + a[class]
 /click_stats.js
 /click_track.js
 /click_tracking.js
-/clickability-
-/clickability/*
-/clickcount.
-/clickcount/*
+/clickcount.asp
+/clickcount.js
+/clickcount.php
 /clickctrl.js
-/clickdimensions-
+/clickdimensions-2.js
 /clickheat.js
-/clickheat^
-/clicklog.
-/clicklog/*
+/clicklog.js
 /clicklog4pc.js
-/clickLogger?
 /clickm.js
 /clickmap.js
 /clickpathmedia.js
-/clickrecord.php?
-/clicks/servlet/*
 /clickscript.js
 /clickstats.php
 /clickstream.aspx?
@@ -21497,10 +21491,9 @@ m.babytree.com##script + a[class]
 /cms.gif?
 /cms/stats/*
 /cmslog.dll?
-/cn-fe-stats/*
 /cn-track?
 /cnstats.js
-/cnstats/*
+/cnstats/cntg.php
 /cnt-combined.php?
 /cnt.aspx?
 /cnt.cgi?
@@ -21588,7 +21581,6 @@ m.babytree.com##script + a[class]
 /counter.cgi/*
 /counter.cgi?
 /counter.js.php
-/counter.php?chcounter_mode=
 /counter.php?width=
 /counter.pl?
 /counter/acnt.php?
@@ -21818,7 +21810,7 @@ m.babytree.com##script + a[class]
 /flying-analytics/*
 /footer-tracking.js
 /footerpixel.gif?
-/foresee/*
+/foresee-trigger.js
 /fp-3.3.6.min.js
 /fp/check.js
 /fp/clear.png
@@ -32934,6 +32926,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ixigua.com/at/log/
 ||js.letvcdn.com/js/*/stats/
 ||js.static.m1905.cn/pingd.js
+||log-api.cli.im^
 ||log.hiiir.com^
 ||log.qvb.qcloud.com^
 ||log.tagtic.cn^
@@ -52428,6 +52421,7 @@ arketing.indianadunes.com^
 ||cherry.le.com^
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click.gamersky.com^
+||clickcount.cnool.net^
 ||count.candou.com^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
