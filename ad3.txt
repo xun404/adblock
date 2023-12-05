@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3EY2LUC0NHBZn21YHYck1w
+! Checksum: LtPUabTBLXULisEBGqL4tw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312050737
-! Last Modified: 2023年12月05日 07:37
+! Version: 202312050939
+! Last Modified: 2023年12月05日 09:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -32798,6 +32798,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.newsroom.bi^
 ||events.sk.ht^
 ||free.fr/services/compteur_page.php?
+||houston.advgo.net^
 ||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
 ||img-static.com/CERISE.gif?
@@ -53420,6 +53421,8 @@ arketing.indianadunes.com^
 @@||content.gap.com/fp/tags.js$script,domain=oldnavy.gap.com
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
