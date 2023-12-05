@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VWZo8SmpPFSC9GE1v5+gzw
+! Checksum: N9wuD1b37RYeGdHY1yI5AQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312052137
-! Last Modified: 2023年12月05日 21:37
+! Version: 202312052337
+! Last Modified: 2023年12月05日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10526,6 +10526,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||4gamers.com.tw/site/api/aols/media?
+||caoav.net/img/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 423down.com##.entry > P[style^="font-size"] > A[href*="/go."]
@@ -16114,6 +16115,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||ads.lingxing.com^$~third-party
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
