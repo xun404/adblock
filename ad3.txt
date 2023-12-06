@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vxmbO86A1JJvJDe3YVRCRg
+! Checksum: 3em+hoKbl55ZYpj09LIQpQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312061537
-! Last Modified: 2023年12月06日 15:37
+! Version: 202312061838
+! Last Modified: 2023年12月06日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21529,7 +21529,6 @@ m.babytree.com##script + a[class]
 /collect/pv?
 /collect/sdk?$domain=~iugu.com
 /collect/stats?
-/collect/tracking.
 /collect/view?
 /collect/view_count?
 /collect?appName
@@ -21550,10 +21549,8 @@ m.babytree.com##script + a[class]
 /collector/pageview
 /collector/v1/event
 /collector?report=
-/collectStats;
 /collectsysteminfo?
-/com_joomla-visites/*
-/com_joomlawatch/*
+/com_joomlawatch/img.php
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
@@ -21591,7 +21588,6 @@ m.babytree.com##script + a[class]
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
-/counter.cgi/*
 /counter.cgi?
 /counter.js.php
 /counter.php?width=
@@ -21650,7 +21646,6 @@ m.babytree.com##script + a[class]
 /dcs.gif?
 /dcs_tag.js
 /default/pAnalytics
-/delivery/lg.
 /detm-container-ftr.js
 /detm-container-hdr.js
 /DG/DEFAULT/rest/*
@@ -21667,7 +21662,7 @@ m.babytree.com##script + a[class]
 /dlpageping?
 /dm.gif?
 /dmp/pixel.js
-/dmu2panalytics/views/*
+/dmu2panalytics/ajax_call.php?
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
@@ -21676,7 +21671,6 @@ m.babytree.com##script + a[class]
 /dot.gif?
 /dow_analytics.js
 /dpistat/updater.php
-/drive-analytics/*
 /drwebstat.js
 /dspixel.js
 /dtm_cm.js
@@ -21693,8 +21687,6 @@ m.babytree.com##script + a[class]
 /e_stat?g_id=
 /eatms.js
 /ebonetag.js
-/ebs/tracking.
-/ebs/tracking/*
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
@@ -21818,6 +21810,7 @@ m.babytree.com##script + a[class]
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
+/flowplayer.drive-analytics.min.js
 /flushimpressions?
 /flv_tracking.
 /flying-analytics/*
@@ -22031,7 +22024,8 @@ m.babytree.com##script + a[class]
 /hit_counter
 /hit_img.cfm?
 /hitbox.js
-/hitCount.
+/hitCount.js
+/hitCount.php
 /hitcount/*
 /hitcount?
 /HitCounter.
@@ -22120,6 +22114,7 @@ m.babytree.com##script + a[class]
 /ivw/SP/*$image,script
 /j.gif?
 /jgs_portal_log_bildschirm.php?
+/joomla-visites.php
 /jquery-gatracker.js
 /jquery.analytics.js
 /jquery.audiencetarget.js
@@ -22130,16 +22125,14 @@ m.babytree.com##script + a[class]
 /jquery.iframetracker.min.js
 /jquery.trackstar.js
 /js-sdk-event.min.js
-/js/_analytics/*
+/js/_analytics.js
 /js/analitics.js
 /js/count.js.
 /js/counter.js?
 /js/dart.js
 /js/hbx.js
-/js/lead-tracking/*
 /js/logger?
 /js/quantcast-
-/js_event_tracking/*
 /js_ibeat_ext.cms
 /js_log_error.js
 /js_logger.php
@@ -22185,6 +22178,7 @@ m.babytree.com##script + a[class]
 /krux.js
 /LandingPageHitLog.aspx?
 /lasso-ga.js
+/lead-tracking.min.js
 /leadgen/ga.js
 /leadtag.js
 /leage.google.tracker.js
@@ -23092,9 +23086,8 @@ m.babytree.com##script + a[class]
 /status-beacon/*
 /status/impression?
 /StatV1?
-/stcollection.
 /stdlog?
-/storeAdvImpression.
+/storeAdvImpression.jsp
 /stp.gif?
 /stracking.js
 /sTrackStats.
@@ -23108,7 +23101,8 @@ m.babytree.com##script + a[class]
 /stwc-counter/*
 /stwc/code.js
 /submission/pageview
-/supercookie.
+/supercookie.asp
+/supercookie.js
 /superstats.$domain=~superstats.com|~superstats.dk
 /sw/analytics.js
 /swa_t.gif?
@@ -23125,8 +23119,6 @@ m.babytree.com##script + a[class]
 /t/event?
 /t?referer=
 /t?tcid=
-/tab_impression_logging/*
-/tablytics.
 /tacoda.
 /tacoda_
 /taevents-
@@ -23484,6 +23476,7 @@ m.babytree.com##script + a[class]
 /VisitSite.js
 /VisitTracking?
 /visscore.tag.min.js
+/vissense.js
 /visualrevenue.js
 /vjslog?
 /vli-platform/adb-analytics@
@@ -23949,10 +23942,6 @@ omni.soundestlink.com$image
 /ajax/eulerian/*
 /eulerian.js
 /r/ucb.js$script,~third-party
-/magnet/render.
-/re-engage/render.
-/targeting/render.
-/vissense.js
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
@@ -23962,18 +23951,13 @@ omni.soundestlink.com$image
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
--logabpstatus.
-/ab_track.
+/ab_track.js
 /adb.policy.js
-/adblock?action=
-/adblocker-check.
-/adblocker/pixel.
 /adblockLogger/*
+/sk-logabpstatus.php
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 /ws_client?zone=gen$websocket
 /wutime-adblocktracker/*
-_adblock_stat.
-_mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ||00px.net^
 ||1cros.net^

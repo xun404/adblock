@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tvdbo5OBrubaLh2ZHKI1Qg
+! Checksum: G9AKRlHOp+gLLhIlybp+mw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312061537
-! Last Modified: 2023年12月06日 15:37
+! Version: 202312061838
+! Last Modified: 2023年12月06日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1105,6 +1105,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /delivery/apu.php
 /delivery/avw.
 /delivery/fc.
+/delivery/lg.php
 /delivery/spc.
 /delivery_ads/*
 /dfp.min.js$third-party
@@ -58659,10 +58660,10 @@ healthbenefitstimes.com###ad-image-below
 thetimes.co.uk###ad-intravelarticle-inline
 dvdsreleasedates.com###ad-movie
 dappradar.com###ad-nft-top
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-1
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-2
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-3
-thedailymash.co.uk,thepoke.co.uk###ad-sidebar-4
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-1
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-2
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-3
+thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-4
 agegeek.com,boards.net,investing.com,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
 agegeek.com,investing.com,pimpandhost.com###ad2
 exchangerates.org.uk,investing.com###ad3
@@ -85061,7 +85062,6 @@ fqsousou.com,kengso.com#@#.user-share
 /collect/pv?
 /collect/sdk?$domain=~iugu.com
 /collect/stats?
-/collect/tracking.
 /collect/view?
 /collect/view_count?
 /collect?appName
@@ -85082,10 +85082,8 @@ fqsousou.com,kengso.com#@#.user-share
 /collector/pageview
 /collector/v1/event
 /collector?report=
-/collectStats;
 /collectsysteminfo?
-/com_joomla-visites/*
-/com_joomlawatch/*
+/com_joomlawatch/img.php
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
@@ -85123,7 +85121,6 @@ fqsousou.com,kengso.com#@#.user-share
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
-/counter.cgi/*
 /counter.cgi?
 /counter.js.php
 /counter.php?width=
@@ -85182,7 +85179,6 @@ fqsousou.com,kengso.com#@#.user-share
 /dcs.gif?
 /dcs_tag.js
 /default/pAnalytics
-/delivery/lg.
 /detm-container-ftr.js
 /detm-container-hdr.js
 /DG/DEFAULT/rest/*
@@ -85199,7 +85195,7 @@ fqsousou.com,kengso.com#@#.user-share
 /dlpageping?
 /dm.gif?
 /dmp/pixel.js
-/dmu2panalytics/views/*
+/dmu2panalytics/ajax_call.php?
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
@@ -85208,7 +85204,6 @@ fqsousou.com,kengso.com#@#.user-share
 /dot.gif?
 /dow_analytics.js
 /dpistat/updater.php
-/drive-analytics/*
 /drwebstat.js
 /dspixel.js
 /dtm_cm.js
@@ -85225,8 +85220,6 @@ fqsousou.com,kengso.com#@#.user-share
 /e_stat?g_id=
 /eatms.js
 /ebonetag.js
-/ebs/tracking.
-/ebs/tracking/*
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
@@ -85350,6 +85343,7 @@ fqsousou.com,kengso.com#@#.user-share
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
+/flowplayer.drive-analytics.min.js
 /flushimpressions?
 /flv_tracking.
 /flying-analytics/*
@@ -85563,7 +85557,8 @@ fqsousou.com,kengso.com#@#.user-share
 /hit_counter
 /hit_img.cfm?
 /hitbox.js
-/hitCount.
+/hitCount.js
+/hitCount.php
 /hitcount/*
 /hitcount?
 /HitCounter.
@@ -85652,6 +85647,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ivw/SP/*$image,script
 /j.gif?
 /jgs_portal_log_bildschirm.php?
+/joomla-visites.php
 /jquery-gatracker.js
 /jquery.analytics.js
 /jquery.audiencetarget.js
@@ -85662,16 +85658,14 @@ fqsousou.com,kengso.com#@#.user-share
 /jquery.iframetracker.min.js
 /jquery.trackstar.js
 /js-sdk-event.min.js
-/js/_analytics/*
+/js/_analytics.js
 /js/analitics.js
 /js/count.js.
 /js/counter.js?
 /js/dart.js
 /js/hbx.js
-/js/lead-tracking/*
 /js/logger?
 /js/quantcast-
-/js_event_tracking/*
 /js_ibeat_ext.cms
 /js_log_error.js
 /js_logger.php
@@ -85717,6 +85711,7 @@ fqsousou.com,kengso.com#@#.user-share
 /krux.js
 /LandingPageHitLog.aspx?
 /lasso-ga.js
+/lead-tracking.min.js
 /leadgen/ga.js
 /leadtag.js
 /leage.google.tracker.js
@@ -86624,9 +86619,8 @@ fqsousou.com,kengso.com#@#.user-share
 /status-beacon/*
 /status/impression?
 /StatV1?
-/stcollection.
 /stdlog?
-/storeAdvImpression.
+/storeAdvImpression.jsp
 /stp.gif?
 /stracking.js
 /sTrackStats.
@@ -86640,7 +86634,8 @@ fqsousou.com,kengso.com#@#.user-share
 /stwc-counter/*
 /stwc/code.js
 /submission/pageview
-/supercookie.
+/supercookie.asp
+/supercookie.js
 /superstats.$domain=~superstats.com|~superstats.dk
 /sw/analytics.js
 /swa_t.gif?
@@ -86657,8 +86652,6 @@ fqsousou.com,kengso.com#@#.user-share
 /t/event?
 /t?referer=
 /t?tcid=
-/tab_impression_logging/*
-/tablytics.
 /tacoda.
 /tacoda_
 /taevents-
@@ -87016,6 +87009,7 @@ fqsousou.com,kengso.com#@#.user-share
 /VisitSite.js
 /VisitTracking?
 /visscore.tag.min.js
+/vissense.js
 /visualrevenue.js
 /vjslog?
 /vli-platform/adb-analytics@
@@ -87481,10 +87475,6 @@ omni.soundestlink.com$image
 /ajax/eulerian/*
 /eulerian.js
 /r/ucb.js$script,~third-party
-/magnet/render.
-/re-engage/render.
-/targeting/render.
-/vissense.js
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
@@ -87494,18 +87484,13 @@ omni.soundestlink.com$image
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
--logabpstatus.
-/ab_track.
+/ab_track.js
 /adb.policy.js
-/adblock?action=
-/adblocker-check.
-/adblocker/pixel.
 /adblockLogger/*
+/sk-logabpstatus.php
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 /ws_client?zone=gen$websocket
 /wutime-adblocktracker/*
-_adblock_stat.
-_mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ||00px.net^
 ||1cros.net^
