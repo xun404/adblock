@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lzse2LHFl4XHjKa/mgvDiw
+! Checksum: jzLjwCFw+X0rV35ySEakjQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312061937
-! Last Modified: 2023年12月06日 19:37
+! Version: 202312062052
+! Last Modified: 2023年12月06日 20:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20989,6 +20989,7 @@ m.babytree.com##script + a[class]
 .gatracking.js
 .gif?Log=
 .jp/pv?
+.jp/static/js/track.js
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
@@ -21061,6 +21062,7 @@ m.babytree.com##script + a[class]
 /a8c-analytics.js
 /aap/stats
 /abc.gif?
+/acc/acctag.js
 /access.php?referrer=
 /accessanalyzer/tracker?
 /AccessCounter/index.cgi?
@@ -22460,6 +22462,9 @@ m.babytree.com##script + a[class]
 /onetag/*
 /onl/track.php?
 /onlinecount.php
+/oo/*/l.js
+/oo/*/lsync.js
+/oo/cl*.js?rd=
 /opdc.js
 /open/log/*
 /openpixel.gif?
@@ -22473,6 +22478,8 @@ m.babytree.com##script + a[class]
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
+/outLoging.js
+/outLoging2.js
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
 /oxAnalytics.js
@@ -24253,7 +24260,6 @@ omni.soundestlink.com$image
 ||rtactivate.com^
 ||rumt-sg.com^
 ||s-onetag.com^
-||salsify-ecdn.com^
 ||sbgsodufuosmmvsdf.info^
 ||sc-static.net^
 ||screen13.com^$image
@@ -31647,6 +31653,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||salescs.com/liveagent/scripts/track.js
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
+||salsify-ecdn.com/sdk/
 ||sascdn.com/mh_audience/
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
@@ -52868,6 +52875,7 @@ arketing.indianadunes.com^
 ||bc.nhk.jp^
 ||beacon.watch.impress.co.jp^
 ||beat.yourtv.jp^
+||blozoo.info/js/ranktool/
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
@@ -52903,6 +52911,7 @@ arketing.indianadunes.com^
 ||logql.yahoo.co.jp^
 ||m-oo-m.com/data/report/
 ||mangaraw.to/api/v1/view/
+||mayla.jp/TRACKING/
 ||measure.ameblo.jp^
 ||minkou.jp/js/tracking.js
 ||mixi.net/static/js/build/mixi-analysis.production.js
@@ -52912,9 +52921,11 @@ arketing.indianadunes.com^
 ||nhk.or.jp^*/bc.js
 ||nicovideo.jp/api/counter/
 ||nikkei.com/.resources/tracking/
+||odsyms15.com/impression?
 ||pvtag.yahoo.co.jp^
 ||pw.gigazine.net^
 ||pzd.rakuten.co.jp^
+||rakuten.co.jp/com/js/omniture/
 ||rakuten.co.jp/gw.js
 ||rat.rakuten.co.jp^
 ||rdsig.yahoo.co.jp^$image
