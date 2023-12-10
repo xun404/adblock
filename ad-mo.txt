@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hBteTPxX8WMhNRT/bR/RfA
+! Checksum: YxDQogu0bNFRDa+F/1rNZw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312101237
-! Last Modified: 2023年12月10日 12:37
+! Version: 202312101537
+! Last Modified: 2023年12月10日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -63321,47 +63321,12 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
-youtube.com###YtKevlarVisibilityIdentifier
-youtube.com###feed-pyv-container
-youtube.com###main > #banner.ytd-merch-shelf-renderer
+youtube.com###content > ytd-ad-slot-renderer
+youtube.com###contents.style-scope.ytd-search-pyv-renderer
+youtube.com###items > ytd-ad-slot-renderer
 youtube.com###related > div#player-ads
-youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
-youtube.com###ytd-player button.ytp-suggested-action-badge
-youtube.com##.ad-showing > .html5-video-container
-youtube.com##.companion-ad-container
-youtube.com##.promoted-sparkles-text-search-root-container
-youtube.com##.statement-banner-foreground-content
-youtube.com##.ytd-action-companion-ad-renderer
-youtube.com##.ytd-carousel-ad-renderer
-youtube.com##.ytd-player-legacy-desktop-watch-ads-renderer
-youtube.com##.ytd-promoted-sparkles-text-search-renderer
-youtube.com##.ytd-promoted-video-renderer
-youtube.com##.ytd-search-pyv-renderer
-youtube.com##.ytd-video-masthead-ad-primary-video-overlay-renderer
-youtube.com##.ytd-video-masthead-ad-v3-renderer
-youtube.com##.ytp-ad-action-interstitial-background-container
-youtube.com##.ytp-ad-action-interstitial-slot
-youtube.com##.ytp-ad-overlay-container
-youtube.com##.ytp-ad-progress
-youtube.com##.ytp-ad-progress-list
-youtube.com##YTM-PROMOTED-VIDEO-RENDERER
-youtube.com##[class^="ytd-display-ad-"]
-youtube.com##[layout*="display-ad-"]
-eu-proxy.startpage.com,youtube.com##[target-id="engagement-panel-ads"]
-eu-proxy.startpage.com,youtube.com##div#masthead-ad > .ytd-rich-grid-renderer
-eu-proxy.startpage.com,youtube.com##div.ytd-ad-slot-renderer
-eu-proxy.startpage.com,youtube.com##div.ytd-in-feed-ad-layout-renderer
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-banner-promo-renderer
-youtube.com##ytd-compact-promoted-video-renderer
-youtube.com##ytd-companion-slot-renderer
-youtube.com##ytd-promoted-sparkles-text-search-renderer
-eu-proxy.startpage.com,youtube.com##ytd-promoted-sparkles-web-renderer
-youtube.com##ytd-single-option-survey-renderer
-youtube.com##ytd-video-masthead-ad-v3-renderer
-youtube.com##ytm-companion-slot
-youtube.com##ytm-promoted-sparkles-text-search-renderer
-youtube.com##ytm-promoted-sparkles-web-renderer
+youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
+youtube.com##ytd-ad-slot-renderer.style-scope.ytd-item-section-renderer
 thefreedictionary.com###Content_CA_AD_0_BC
 thefreedictionary.com###Content_CA_AD_1_BC
 instapundit.com###adspace_top > .widget-ad__content
