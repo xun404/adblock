@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YuxO5Sme8vazhmwJljNp+w
+! Checksum: oxgopG80seOscUQOdR7scQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312112137
-! Last Modified: 2023年12月11日 21:37
+! Version: 202312112239
+! Last Modified: 2023年12月11日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10377,6 +10377,9 @@ _800x80_
 ##.admessage
 ##.admiddle
 ##.admiddlesidebar
+##.admngr
+##.admngrfr
+##.admngrft
 ##.admods
 ##.admodule
 ##.admoduleB
@@ -18929,6 +18932,7 @@ realgfporn.com#@#.large-right-ad
 atea.com,ateadirect.com,knowyourmobile.com,nlk.org.np#@#.logo-ad
 doda.jp,tubefilter.com#@#.mainAd
 austurfrett.is,boards.4chan.org,boards.4channel.org#@#.middlead
+thespruce.com#@#.mntl-leaderboard-spacer
 sankei.com#@#.module_ad
 seura.fi,www.msn.com#@#.nativead
 dogva.com#@#.node-ad
@@ -50092,7 +50096,6 @@ browsershots.org#@#.advert_area
 ||paidonresults.net^$third-party
 ||paidsearchexperts.com^$third-party
 ||pakbanners.com^$third-party
-||panda.network^$third-party
 ||pantherads.com^$third-party
 ||papayads.net^$third-party
 ||paperclipservice.com^$third-party
@@ -50401,6 +50404,7 @@ browsershots.org#@#.advert_area
 ||urlcash.net^$third-party
 ||usemax.de^$third-party
 ||usenetjunction.com^$third-party
+||usepanda.com^$third-party
 ||utherverse.com^$third-party
 ||validclick.com^$third-party
 ||valuead.com^$third-party
@@ -59769,6 +59773,7 @@ chargedretail.co.uk,foodstuffsa.co.za,thinkcomputers.org##.apPluginContainer
 insideevs.com,motor1.com##.apb
 thetoyinsider.com##.apb-adblock
 eurogamer.net##.apester_block
+pd3.gg##.app-ad-placeholder
 d4builds.gg##.app__ad__leaderboard
 classicfm.com##.apple_music
 icon-icons.com##.apu
@@ -62415,6 +62420,7 @@ guitaradvise.com##.wp-block-affiliate-plugin-lasso
 gamepur.com##.wp-block-dotesports-affiliate-button
 gamingskool.com##.wp-block-group-is-layout-constrained
 cryptofeeds.news,defence-industry.eu,gamenguides.com,houstonherald.com,millennial-grind.com,teslaoracle.com##.wp-block-image
+lowcarbtips.org##.wp-block-image.size-full
 livability.com##.wp-block-jci-ad-area-two
 bangordailynews.com,michigandaily.com##.wp-block-newspack-blocks-wp-block-newspack-ads-blocks-ad-unit
 pedestrian.tv##.wp-block-ped-theme-blocks-pedestrian-recent-jobs
@@ -62971,7 +62977,7 @@ baking-forums.com,windows10forums.com##div.message--post.message
 tld-list.com##div.row > .text-center > .ib
 forward.com##div.sticky-container:first-child
 newegg.com##div.swiper-slide[data-sponsored-catalyst]
-paste.fo##div.wrapper > div[class] > a[href][target="_blank"]
+paste.fo##div.wrapper > [class] > a[href][target="_blank"]
 inverse.com##div.zz
 boxing-social.com##div[ad-slot]
 liverpoolway.co.uk##div[align="center"] > a[href]
