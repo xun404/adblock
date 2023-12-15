@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ut2PKadx6vlkpg63Foo1JQ
+! Checksum: rcvTAZghKj54iunWSR0TNA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312152051
-! Last Modified: 2023年12月15日 20:51
+! Version: 202312152137
+! Last Modified: 2023年12月15日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57056,6 +57056,7 @@ browsershots.org#@#.advert_area
 ||bit.com.au/scripts/js_$script
 ||bitcotasks.com/je.php
 ||bitcotasks.com/yo.php
+||bizjournals.com/static/dist/js/gpt.min.js
 ||blbclassic.org/assets/images/*banners/
 ||blsnet.com/plugins/advertising/getad/
 ||blue.ktla.com^
@@ -76384,6 +76385,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdn77.org^*.mp4
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##.entry > strong > p
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -85729,6 +85731,7 @@ fqsousou.com,kengso.com#@#.user-share
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
+/ljcounter/?d=
 /load_analytics.php
 /loader/counter.js
 /localga.js
@@ -87138,6 +87141,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
+://tracking.*/tracking.js
 ?[AQB]&ndh=1&t=
 ?act=counter&
 ?action=event&
@@ -97335,6 +97339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
+||bestbuy.com/~assets/bby/_js/ext/optmzly/
 ||bfp.capitalone.com^
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bi.banggood.com^
@@ -98421,6 +98426,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.christianpost.com^
 ||tracking.digitalocean.com^
 ||tracking.engineering.cloud.seek.com.au^
+||tracking.epicgames.com^
+||tracking.fortnite.com^
 ||tracking.hsn.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^

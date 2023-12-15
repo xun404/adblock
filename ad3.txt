@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6kzxbtkMk1PWA9OnLu9vXg
+! Checksum: PzNDG0L8igvhx7Pe/ffUMg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202312152051
-! Last Modified: 2023年12月15日 20:51
+! Version: 202312152137
+! Last Modified: 2023年12月15日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10682,6 +10682,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdn77.org^*.mp4
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##.entry > strong > p
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -22353,6 +22354,7 @@ m.babytree.com##script + a[class]
 /livecounter.php?wid=
 /livestats.js
 /livezilla/server.php?request=track&
+/ljcounter/?d=
 /load_analytics.php
 /loader/counter.js
 /localga.js
@@ -23762,6 +23764,7 @@ m.babytree.com##script + a[class]
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
+://tracking.*/tracking.js
 ?[AQB]&ndh=1&t=
 ?act=counter&
 ?action=event&
@@ -33959,6 +33962,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
+||bestbuy.com/~assets/bby/_js/ext/optmzly/
 ||bfp.capitalone.com^
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bi.banggood.com^
@@ -35045,6 +35049,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.christianpost.com^
 ||tracking.digitalocean.com^
 ||tracking.engineering.cloud.seek.com.au^
+||tracking.epicgames.com^
+||tracking.fortnite.com^
 ||tracking.hsn.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
