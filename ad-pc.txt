@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7FTS06XEhX9Ueugasqdvzw
+! Checksum: B3cIsBdvL1n9NJY1DVHL/w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312160039
-! Last Modified: 2023年12月16日 00:39
+! Version: 202312160637
+! Last Modified: 2023年12月16日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61464,6 +61464,7 @@ color-hex.com##.margin10
 fandom.com##.marketplace
 imgur.com,pushsquare.com,songlyrics.com##.masthead
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
+augustman.com##.masthead-container
 cloudwards.net##.max-medium
 mayoclinic.org##.mayoad
 racgp.org.au##.mb-1.small
@@ -88974,6 +88975,7 @@ omni.soundestlink.com$image
 ||hiconversion.com^$third-party
 ||hif.to^$third-party
 ||higherengine.com^$third-party
+||highlight.run^$third-party
 ||highmetrics.com^$third-party
 ||hira-meki.jp^$third-party
 ||histats.com^$third-party
@@ -93856,9 +93858,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.carnow.com/dealers/track_visitor
 ||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
-||app.posthog.com/e/?compression=
-||app.posthog.com/e/?ip=
-||app.posthog.com/static/array.js
+||app.posthog.com^$script,xmlhttprequest
 ||app.yesware.com/t/$third-party
 ||appinthestore.com/click/
 ||apple.com/hvr/mw/v1/spile
