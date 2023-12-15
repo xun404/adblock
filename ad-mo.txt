@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zss9LgiNLRt1b+kogCisVQ
+! Checksum: MzKzG9kcAnk73JY7WyinQQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312150737
-! Last Modified: 2023年12月15日 07:37
+! Version: 202312150939
+! Last Modified: 2023年12月15日 09:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57127,6 +57127,7 @@ browsershots.org#@#.advert_area
 ||ebayrtm.com/rtm?RtmIt
 ||ebaystatic.com^*/ScandalJS-
 ||ed2k.2x4u.de/mfc/
+||edge.ads.twitch.tv^
 ||eentent.streampiay.me^
 ||eevblog.com/images/comm/$image
 ||elil.cc/pdev/
@@ -68283,6 +68284,9 @@ newduba.cn###jq_youxi
 ||fhdjdv.xyz^
 ||pgieqr.top^
 ||ajbpcxi.xyz^
+||qtciam.xyz^
+||birglucy.xyz^
+||vjnxpj.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -84662,7 +84666,8 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
-/analytics-event-adapter.
+/analytics-event-adapter.bundle.min.js
+/analytics-event-adapter.js
 /analytics-event.js
 /analytics-events-
 /analytics-facade.
@@ -85024,6 +85029,7 @@ fqsousou.com,kengso.com#@#.user-share
 /cnt_js.php?
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
+/codesters-analytics.
 /CofinaHits.js
 /cohesion-latest.min.js
 /coinhive.min.js
@@ -85199,7 +85205,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
-/ecg-js-ga-tracking/*
+/ecg-js-ga-tracking/index.
 /ecom/status.jsp?
 /edAnalyticsWrapper.js
 /edata.js
@@ -85412,7 +85418,6 @@ fqsousou.com,kengso.com#@#.user-share
 /gainit.js
 /gajs/analytics.js
 /ganalytics.js
-/ganalytics/*
 /gapro.js
 /gascript.js
 /gasocialtracking.js
@@ -85553,7 +85558,7 @@ fqsousou.com,kengso.com#@#.user-share
 /homeCounter.php
 /honeybadger.js
 /honeybadger.min.js
-/host-analyticsjs-local/*
+/host-analyticsjs-local/cache/local-ga.js
 /hs_track.js
 /hsc/trk/*
 /hubspot-ga-tracking.js
@@ -85717,7 +85722,6 @@ fqsousou.com,kengso.com#@#.user-share
 /log.aspx?
 /log.cfm?
 /log.gif?
-/log.htm?$domain=~192.168.0.1|~192.168.1.1
 /log.jsp?
 /log.php?*http
 /log.php?id
@@ -86104,7 +86108,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
-/pixelstats/*
 /pixeltag.js
 /pixeltrack.
 /pixeltracker.bundle.js
@@ -86255,7 +86258,7 @@ fqsousou.com,kengso.com#@#.user-share
 /retarget_pixel.php
 /retargeting-pixels.php
 /revinit.js
-/revtracking/*
+/revtracking/revinit.js
 /rgea.min.js
 /risk_fp_log?
 /riveted.js
@@ -86304,29 +86307,21 @@ fqsousou.com,kengso.com#@#.user-share
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
-/rum.js/*
 /rum.min.js
 /rum/events
-/rum/id?
-/rum/performance
-/rum?ddsource=
 /run/perf
 /ruxitagentjs_
 /rwtag.gif?
 /rwtag.js
 /s-pcjs.php
-/s.ashx?u=
-/s.aspx?r=
 /s.gif?
 /s_code_global_context.js
 /s_trans.gif?
-/sa-tracker-
 /sa.gif?
 /safelinkconverter.js
 /salog.js
 /SAPOWebAnalytics/*
 /satismeter.js
-/sauron-analytics/*
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
@@ -86388,7 +86383,6 @@ fqsousou.com,kengso.com#@#.user-share
 /shared/sentry/*
 /sherlock.gif?
 /shinystat.cgi
-/shinystat_
 /shopify-boomerang-
 /shopify-event.gif?
 /shopify/track.js
@@ -86413,7 +86407,6 @@ fqsousou.com,kengso.com#@#.user-share
 /sitestat.
 /sitestats.gif?
 /sitetrek.js
-/sizes.gif?*=
 /skype-analytics.js
 /sluurpy_track.js
 /smart-pixel.min.js
@@ -86794,6 +86787,7 @@ fqsousou.com,kengso.com#@#.user-share
 /trackingImpression/*
 /trackingp.gif
 /trackingPixel.
+/trackingpixel.php
 /TrackingPixel/*
 /trackingTools.
 /trackingVtm.js
@@ -93955,7 +93949,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/code/keen-2.1.0-min.js
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
-||cloudfront.net/events
 ||cloudfront.net/i?v=
 ||cloudfront.net/js/ca.js
 ||cloudfront.net/js/reach.js
@@ -97501,12 +97494,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
 ||dropbox.com/2/client_metrics
+||dropbox.com/2/ml_platform/log_predictions_events
 ||dropbox.com/2/pap_event_logging
 ||dropbox.com/alternate_
 ||dropbox.com/jse
 ||dropbox.com/log/
-||dropbox.com/log_
+||dropbox.com/log_js_sw_data
 ||dropbox.com/prompt/log_impression?
+||dropbox.com/unity_connection_log
 ||drudgereport.com/204.png
 ||drugs.com/api/logger/
 ||drugs.com/img/pixel.gif
