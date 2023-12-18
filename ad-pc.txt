@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: urGeAa/sv81HRTmLBF1htA
+! Checksum: fDq+9i2MpJ28lRRwtM0K3g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312180737
-! Last Modified: 2023年12月18日 07:37
+! Version: 202312180939
+! Last Modified: 2023年12月18日 09:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -68578,6 +68578,9 @@ newduba.cn###jq_youxi
 ||plnrkgc.xyz^
 ||kvpqrydt.xyz^
 ||aqwsms.xyz^
+||zotcjeig.xyz^
+||vljjtj.xyz^
+||fghhbp.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -93999,7 +94002,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.carnow.com/dealers/track_visitor
 ||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
-||app.posthog.com^$script,xmlhttprequest
+||app.posthog.com/e/?compression=
+||app.posthog.com/e/?ip=
+||app.posthog.com/static/array.js
+||app.posthog.com/static/recorder-v2.js
 ||app.yesware.com/t/$third-party
 ||appinthestore.com/click/
 ||apple.com/hvr/mw/v1/spile
