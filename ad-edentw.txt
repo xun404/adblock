@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pXDl4WWnW0w4zlbTy0XfoQ
+! Checksum: OZSbXv4n96o4sYfKjYs5GQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202312191737
-! Last Modified: 2023年12月19日 17:37
+! Version: 202312192137
+! Last Modified: 2023年12月19日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1083,6 +1083,7 @@ aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 yabeat.org#$#abort-on-property-read __meteor_runtime_config__
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 ! MISC
+celleheute.de#$#hide-if-matches-xpath '//*[@data-image-info]/img[contains(@style,"440")]/ancestor::div[@id][@class][1]//parent::div[@data-hook]/parent::div[@id and @class]'; hide-if-matches-xpath './/a[@data-testid]/*[@data-image-info]/img[contains(@style,"300")]/ancestor::a[@target]/parent::div[@id][@class][1]'; hide-if-contains-visible-text /Anzeige/ 'p>span[class][style]';
 freenet.de#$#hide-if-matches-xpath '//div[@class]/img[@referrerpolicy]/ancestor::div[@class][1]'
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
 ||xnxx-sexfilme.com/*==/^$domain=xnxx-sexfilme.com
