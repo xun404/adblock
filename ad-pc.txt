@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7uskFnzcYBlXRUWwdV2law
+! Checksum: G3Aw4WGA6VAqplLQPLE8gQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312200737
-! Last Modified: 2023年12月20日 07:37
+! Version: 202312200921
+! Last Modified: 2023年12月20日 09:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8719,6 +8719,7 @@ _800x80_
 ##.ad-skyscraper3
 ##.ad-slider
 ##.ad-slot
+##.ad-slot--container
 ##.ad-slot--inline
 ##.ad-slot--leaderboard--article--wrapper
 ##.ad-slot--mostpop
@@ -61331,6 +61332,7 @@ bizarrepedia.com##.holder
 radiocaroline.co.uk##.home-banner
 manutd.com##.home-content-panel__sponsor
 pcgamingwiki.com##.home-gamesplanet-promo
+merriam-webster.com##.home-redesign-ad
 israelnationalnews.com##.home-subsections-banner
 freepressjournal.in##.homeMobileMiddleAdContainer
 newagebd.net##.homeSlideRightSecTwo
@@ -64224,6 +64226,7 @@ filehippo.com#?#article.card-article:-abp-has(span.card-article__author:-abp-con
 flickr.com#?#div[class^="main view"]:-abp-has(a[href$="&ref=sponsored"])
 forexlive.com#?#.article-slot__wrapper:-abp-has(.article-header__sponsored)
 fortune.com#?#.homepage:-abp-has(> div[id^="InStream"])
+foxnews.com#?#article[class|="article story"]:-abp-has(.sponsored-by)
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
 gamersnexus.net#?#.moduleContent:-abp-contains(Advertisement)
 goodreturns.in,gizbot.com,filmibeat.com,oneindia.com#?#ul>li:-abp-has(> div[id^="taboola-mid-home-stream"])
