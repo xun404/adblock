@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nOCdxykzDre4ypFyz2CpDA
+! Checksum: BgSA/UHoqYzfg0hUwNkvUw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312201637
-! Last Modified: 2023年12月20日 16:37
+! Version: 202312201737
+! Last Modified: 2023年12月20日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -67673,6 +67673,7 @@ newduba.cn###jq_youxi
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
+##.ad-pc
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -68742,6 +68743,7 @@ newduba.cn###jq_youxi
 ||xafuzcxr.xyz^
 ||v44e.com^
 ||yfsstec96.xyz^
+||tupwiwm.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -76826,6 +76828,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+maoken.com##.adbox
+maoken.com###siderAd01
+json.cn##.modal-backdrop
+json.cn###shuangshi1Modal1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -82578,6 +82584,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||99ybcc.com^$generichide
 @@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
 @@||9zvip.net^$elemhide
+@@||wavse.com^$generichide
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||abchina.com^*ad
 @@||aboluowang.com^$generichide
@@ -86584,6 +86591,7 @@ fqsousou.com,kengso.com#@#.user-share
 /player-test-impression?
 /player/stats.php?
 /plog?id
+/plow.lite.js
 /plugins/catman/*
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
@@ -97858,6 +97866,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clp-mms.cloudpro.co.uk^
 ||cm-mms.coachmag.co.uk^
 ||cm.nordvpn.com^
+||cmpworker.dotesports.com^
 ||cnt.hd21.com^
 ||cnt.iceporn.com^
 ||cnt.viptube.com^
