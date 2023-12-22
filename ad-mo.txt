@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2vNlMVkMp6RCRYn+L/BQ1w
+! Checksum: 2a2frddXea1qVJ4OCyNL4w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202312230437
-! Last Modified: 2023年12月23日 04:37
+! Version: 202312230537
+! Last Modified: 2023年12月23日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -8415,6 +8415,7 @@ _800x80_
 ##.ad-new
 ##.ad-new-box
 ##.ad-no-css
+##.ad-no-mobile
 ##.ad-no-notice
 ##.ad-no-style
 ##.ad-noBorderAndMargin
@@ -96003,6 +96004,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spotpass.com/api/log
 ||spread.ly^*/statistics.php
 ||spresso.com/pim/public/events
+||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
+||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
@@ -98051,7 +98054,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||byteoversea.com/monitor_web/
 ||c.fingerprint.com^
 ||c.newyorker.com^
-||c.paypal.com^$script
+||c.paypal.com^$image,script
 ||c.thredup.com^
 ||c.vogue.com^
 ||c.wired.com^
