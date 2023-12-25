@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oLLSpNF9WNYlmO5b3cTGdA
+! Checksum: KlgfGJTVV687ZMQbmodbLw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312252137
-! Last Modified: 2023年12月25日 21:37
+! Version: 202312252237
+! Last Modified: 2023年12月25日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -69214,6 +69214,7 @@ newduba.cn###jq_youxi
 ||bjappzvz.xyz^
 ||xjappzvz.xyz^
 ||tjappzvz.xyz^
+||mjappzvz.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -74301,7 +74302,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cnjxol.com/jxrbPaper/pc/static/js/scroll.js
 ||cnkang.com/showcodejsonp?
 ||cnlg.cn/attached/script/
-||cnmo-img.com.cn/oddjs/
+||cnmo.com/oddjs/
 ||cnmoad.com/wp-content/uploads/*_banner.
 ||cnmysoft.com/images/logo02.png
 ||cnool.net/AdShowCache?
@@ -77297,6 +77298,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ahhhhfs.com##.site-addswarp
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -82899,6 +82901,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||ahhhhfs.com^$generichide
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
