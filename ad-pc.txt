@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nYKhbTrLvKzn6HfBI9bKBQ
+! Checksum: SX7KoU5XhfUCZt5WdQyPOg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312310038
-! Last Modified: 2023年12月31日 00:38
+! Version: 202312310437
+! Last Modified: 2023年12月31日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11701,6 +11701,7 @@ _800x80_
 ##.advert-wrap1
 ##.advert-wrap2
 ##.advert-wrapper
+##.advert-wrapper-exco
 ##.advert.box
 ##.advert.desktop
 ##.advert.mobile
@@ -58408,6 +58409,7 @@ browsershots.org#@#.advert_area
 ||xboxone-hq.com/images/banners/
 ||xda-developers.com/app/plugins/xda-kco-affiliate/
 ||xinhuanet.com/s?
+||y3o.tv/nevarro/video-ads/$domain=yallo.tv
 ||yahoo.com/m/gemini_api/
 ||yahoo.com/pdarla/
 ||yahoo.com/sdarla/
@@ -64690,6 +64692,7 @@ msn.com##a[aria-label="eBay"]
 msn.com##a[href*=".booking.com/"]
 msn.com##a[href*="/aff_m?offer_id="]
 msn.com##a[href*="?sub_aff_id="]
+msn.com##a[href="https://aka.ms/QVC"]
 msn.com##a[href^="https://amzn.to/"]
 msn.com##a[href^="https://clk.tradedoubler.com/click?"]
 msn.com##a[href^="https://clkde.tradedoubler.com/click?"]
@@ -64871,7 +64874,8 @@ sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"])
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 seattleweekly.com#?#.marketplace-row:-abp-contains(Sponsored)
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
-shipt.com#?#li[class^="sc-9570959f-2 sc-9570959f-4"]:-abp-has(p:-abp-contains(Sponsored))
+shipt.com#?#li[class$="eBAnBw"]:-abp-contains(Sponsored)
+shipt.com#?#div.swiper-slide:-abp-contains(Sponsored)
 skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
 skyscanner.com,skyscanner.net#?#div>a:-abp-has(div[class^="DefaultBanner_sponsorshipRow"])
 sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
