@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I0GIEES4BVkv8pDv7Bt4Ig
+! Checksum: xqTUmGcndcR+l+txuRPDYQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202312310737
-! Last Modified: 2023年12月31日 07:37
+! Version: 202312310941
+! Last Modified: 2023年12月31日 09:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2074,7 +2074,6 @@ tieba.baidu.com##.tuijian-wrap
 ?adunitid=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?bannerid=
-?category=ad&
 ?cs=*&abt=0&red=1&sm=$third-party
 ?service=ad&
 ?whichAd=freestar&
@@ -69484,6 +69483,11 @@ newduba.cn###jq_youxi
 ||dwhyjwrw.xyz^
 ||atlggfy.cn^
 ||rydzfldt.xyz^
+||hyjbdt.xyz^
+||evbrkhz.xyz^
+||vtnmxx.xyz^
+||fyexyd.icu^
+||uydzfldt.xyz^
 ||zzyy20.top^
 ##[style*="sotv.me"]
 ##a[href$="/1c626.com"]
@@ -93876,6 +93880,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lumitos.com^$third-party
 ||mairdumont.com^$third-party
 ||marketing-page.de^$third-party
+||matelso.de^$third-party
 ||mateti.net^$third-party
 ||md-nx.com^$third-party
 ||meetrics.net^$third-party
@@ -96986,6 +96991,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uadblocker.com/pixel1.php?$third-party
 ||uc.cn/collect?
 ||ucounter.ucoz.net^
+||ucoz.net/stat/
 ||uhit.eu/id/$third-party
 ||uid.mediacorp.sg^
 ||uim.tifbs.net^
@@ -99275,6 +99281,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||perr.hola.org^
 ||petametrics.com^$domain=meidastouch.com
 ||pf.newegg.com^
+||pftk.temu.com^
 ||ph.thenextweb.com^
 ||phonearena.com/_track.php
 ||pikbest.com/?m=Stats&
@@ -117940,6 +117947,7 @@ arketing.indianadunes.com^
 ||2gis.ru/_/metrics
 ||3dnews.ru/track
 ||4pda.ru/stat/
+||a.mts.ru^
 ||a.pikabu.ru^
 ||ad.mail.ru/static/sync-loader.js
 ||ad7.bigmir.net^
@@ -117984,6 +117992,7 @@ arketing.indianadunes.com^
 ||mail.ru/count/
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
+||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
 ||odnoklassniki.ru/dk?cmd=videoStatNew
@@ -118628,6 +118637,7 @@ arketing.indianadunes.com^
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
+@@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
