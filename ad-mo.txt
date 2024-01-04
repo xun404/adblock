@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C19+VekWoShAGcVsM12aoQ
+! Checksum: kYTab09FUvqZPMmzwZTerQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401050537
-! Last Modified: 2024年01月05日 05:37
+! Version: 202401050637
+! Last Modified: 2024年01月05日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18211,6 +18211,7 @@ _800x80_
 ##a[href^="https://www.bang.com/?aff="]
 ##a[href^="https://www.bet365.com/"][href*="affiliate="]
 ##a[href^="https://www.brazzersnetwork.com/landing/"]
+##a[href^="https://www.endorico.com/Smartlink/"]
 ##a[href^="https://www.financeads.net/tc.php?"]
 ##a[href^="https://www.geekbuying.com/dynamic-ads/"]
 ##a[href^="https://www.googleadservices.com/pagead/aclk?"]
@@ -18228,6 +18229,7 @@ _800x80_
 ##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 ##a[href^="https://www.sheetmusicplus.com/?aff_id="]
 ##a[href^="https://www.sugarinstant.com/?partner_id="]
+##a[href^="https://www.zubivu.com/"]
 ##a[href^="https://yogacomplyfuel.com/"]
 ##a[href^="https://yourperfectdating.life/"]
 ##a[style="width:100%;height:100%;z-index:10000000000000000;position:absolute;top:0;left:0;"]
@@ -35640,6 +35642,7 @@ browsershots.org#@#.advert_area
 ||manpowersets.com^
 ||mansernema.com^
 ||mansfieldeffects.com^
+||manslaughterhallucinateenjoyment.com^
 ||mantapareseat.com^
 ||mantedtonisms.com^
 ||manualbleedingand.com^
@@ -43424,6 +43427,7 @@ browsershots.org#@#.advert_area
 ||shabsaco.net^
 ||shackapple.com^
 ||shackdialectsense.com^
+||shadesentimentssquint.com^
 ||shadesincreasingcontents.com^
 ||shady-addition.com^
 ||shadybenefitpassed.com^
@@ -49351,6 +49355,7 @@ browsershots.org#@#.advert_area
 ||xctignum.uno^
 ||xcvhhgdbyqk.xyz^
 ||xcvsdrqagn.com^
+||xcwxfcav.com^
 ||xdcngimejo.com^
 ||xder1.fun^
 ||xdezxlbnpo.com^
@@ -54656,6 +54661,7 @@ browsershots.org#@#.advert_area
 ||sexfamilysim.net^$popup
 ||sexpieasure.com^$popup
 ||sexyepc.com^$popup
+||shadesentimentssquint.com^$popup
 ||shadyobscene.com^$popup
 ||shaggyaleswede.com^$popup
 ||shaggyselectmast.com^$popup
@@ -57816,6 +57822,8 @@ browsershots.org#@#.advert_area
 ||dontblock.jav1jav2.buzz^
 ||dq06u9lt5akr2.cloudfront.net^
 ||elitepaysites.com/ae-banners/
+||endorico.com/js/pu_zononi.js
+||endorico.com/Smartlink/
 ||ero-labs.com/adIframe/
 ||eroan.xyz/wp-comment/?form=$subdocument
 ||erokuni.xyz/wp-comment/?form=$subdocument
@@ -64603,6 +64611,8 @@ twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="DesignSpec__TextSpecWrapper-"] + div[class^="DesignSpec__TextSpecWrapper-"])
+wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
+wish.com##div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="pin"]:has(div[title^="Promoted"])
 twitter.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
