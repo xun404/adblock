@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XixWbXvU/57Xagdp2nw3lQ
+! Checksum: ym7zxyoTGTa6caJSBT0BcA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401050637
-! Last Modified: 2024年01月05日 06:37
+! Version: 202401050737
+! Last Modified: 2024年01月05日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21779,6 +21779,7 @@ browsershots.org#@#.advert_area
 ||aplainmpatoio.com^
 ||apleasantsit.xyz^
 ||aplentytwo.com^
+||apnpr.com^
 ||apnttuttej.com^
 ||apocarpdogdom.com^
 ||apochaeunanime.com^
@@ -64886,6 +64887,7 @@ yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
+mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
 yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
@@ -69826,6 +69828,8 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||baxbyfn.cn^
+||vnvyhj.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -100181,7 +100185,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tmetrix.my.chick-fil-a.com^
 ||tmx.bestbuy.com^
 ||tmx.td.com^
-||u44.pnc.com^
 ||u47.pnc.com^
 ||w-profiling.cibc.com^$script
 ||w-profiling.simplii.com^
@@ -100241,59 +100244,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /yozons-lib/*
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
-/__utm.gif$domain=autobild.de|quoka.de|tellows.de|transfermarkt.de
-/csi?v=*&action=$domain=tellows.de
-/nm_trck.gif?$domain=spiegel.de
-/pic.gif?m=$domain=autobild.de
-||3gl.net^$domain=stern.de
-||babator.com^$domain=focus.de
-||bluekai.com^$domain=disqus.com|widgets.outbrain.com
-||chartbeat.com^$domain=stern.de
-||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||cpx.to^$domain=quoka.de
-||criteo.com^$domain=spiegel.de
-||cxense.com^$domain=focus.de
-||disqus.com/api/ping?$domain=autobild.de
-||dnn506yrbagrg.cloudfront.net^$domain=quoka.de
-||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||emetriq.de^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de|stern.de|transfermarkt.de
-||exactag.com^$domain=quoka.de
-||exelator.com^$domain=disqus.com
-||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
-||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
-||facebook.com/tr/?$domain=metal-hammer.de|musikexpress.de|rollingstone.de
-||google-analytics.com/analytics.js$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de
-||google-analytics.com/collect$domain=stern.de
-||googleapis.com^*/gen_204?$domain=tellows.de
-||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
-||hotjar.com^$domain=quoka.de
-||hpr.outbrain.com^$domain=focus.de
-||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||ioam.de/?$domain=autobild.de|focus.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
-||ioam.de/tx.io?$domain=autobild.de|focus.de|kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
-||irqs.ioam.de^$domain=metal-hammer.de|musikexpress.de|rollingstone.de
-||log.outbrain.com^$domain=autobild.de|focus.de|metal-hammer.de|musikexpress.de|rollingstone.de|widgets.outbrain.com
-||meetrics.net^$domain=spiegel.de|stern.de
-||metrics.brightcove.com^$domain=stern.de
-||mxcdn.net^$domain=spiegel.de|stern.de
-||nuggad.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de|transfermarkt.de
-||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||pingdom.net^$domain=musikexpress.de
-||pippio.com^$domain=disqus.com
-||referrer.disqus.com^$domain=autobild.de
-||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
-||rqtrk.eu^$domain=stern.de
-||semasio.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||static.parsely.com^$domain=spiegel.de
-||tealiumiq.com^$domain=autobild.de|metal-hammer.de|musikexpress.de|transfermarkt.de
-||theadex.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de
-||tisoomi-services.com^$domain=metal-hammer.de|musikexpress.de
-||visualrevenue.com^$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de
-||webtrekk.net^$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|ran.de|rollingstone.de|sat1.de|sixx.de
-||wt-eu02.net^$domain=stern.de
-||wt-safetag.com^$domain=stern.de
-||xplosion.de^$domain=spiegel.de|stern.de
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||asda.com/px/PX1UGLZTko/init.js
@@ -100407,6 +100357,61 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||zillow.com/HYx10rg3/init.js
 ||zoominfo.com/osx7m0dx/init.js
 !-----------------Extension specific systems-----------------!
+!#if ext_abp
+/__utm.gif$domain=autobild.de|quoka.de|tellows.de|transfermarkt.de
+/csi?v=*&action=$domain=tellows.de
+/nm_trck.gif?$domain=spiegel.de
+/pic.gif?m=$domain=autobild.de
+||3gl.net^$domain=stern.de
+||babator.com^$domain=focus.de
+||bluekai.com^$domain=disqus.com|widgets.outbrain.com
+||chartbeat.com^$domain=stern.de
+||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||cpx.to^$domain=quoka.de
+||criteo.com^$domain=spiegel.de
+||cxense.com^$domain=focus.de
+||disqus.com/api/ping?$domain=autobild.de
+||dnn506yrbagrg.cloudfront.net^$domain=quoka.de
+||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||emetriq.de^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de|stern.de|transfermarkt.de
+||exactag.com^$domain=quoka.de
+||exelator.com^$domain=disqus.com
+||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
+||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
+||facebook.com/tr/?$domain=metal-hammer.de|musikexpress.de|rollingstone.de
+||google-analytics.com/analytics.js$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de
+||google-analytics.com/collect$domain=stern.de
+||googleapis.com^*/gen_204?$domain=tellows.de
+||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
+||hotjar.com^$domain=quoka.de
+||hpr.outbrain.com^$domain=focus.de
+||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||ioam.de/?$domain=autobild.de|focus.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
+||ioam.de/tx.io?$domain=autobild.de|focus.de|kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|rollingstone.de|sat1.de|sixx.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
+||irqs.ioam.de^$domain=metal-hammer.de|musikexpress.de|rollingstone.de
+||log.outbrain.com^$domain=autobild.de|focus.de|metal-hammer.de|musikexpress.de|rollingstone.de|widgets.outbrain.com
+||meetrics.net^$domain=spiegel.de|stern.de
+||metrics.brightcove.com^$domain=stern.de
+||mxcdn.net^$domain=spiegel.de|stern.de
+||nuggad.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de|transfermarkt.de
+||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||pingdom.net^$domain=musikexpress.de
+||pippio.com^$domain=disqus.com
+||referrer.disqus.com^$domain=autobild.de
+||rlcdn.com^$domain=autobild.de|widgets.outbrain.com
+||rqtrk.eu^$domain=stern.de
+||semasio.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||static.parsely.com^$domain=spiegel.de
+||tealiumiq.com^$domain=autobild.de|metal-hammer.de|musikexpress.de|transfermarkt.de
+||theadex.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de
+||tisoomi-services.com^$domain=metal-hammer.de|musikexpress.de
+||visualrevenue.com^$domain=autobild.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|spiegel.de
+||webtrekk.net^$domain=kabeleins.de|metal-hammer.de|musikexpress.de|prosieben.de|prosiebenmaxx.de|ran.de|rollingstone.de|sat1.de|sixx.de
+||wt-eu02.net^$domain=stern.de
+||wt-safetag.com^$domain=stern.de
+||xplosion.de^$domain=spiegel.de|stern.de
+!#endif
 !-----------------Individual cname tracking systems-----------------!
 ||0d8is908gby1.www.terraform.com.ar^
 ||10ro53kulyb.groove.so^
