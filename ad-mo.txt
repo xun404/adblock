@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LgQWQK3ykeFjmZhfPwepUQ
+! Checksum: ja/gn7iTNoS8376tgPlWpQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401050041
-! Last Modified: 2024年01月05日 00:41
+! Version: 202401050137
+! Last Modified: 2024年01月05日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -64597,8 +64597,7 @@ digg.com##article.fp-vertical-story:has(a[href="/channel/promotion"])
 twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
-wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
-wish.com##div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
+wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="DesignSpec__TextSpecWrapper-"] + div[class^="DesignSpec__TextSpecWrapper-"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="pin"]:has(div[title^="Promoted"])
 twitter.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
@@ -88839,6 +88838,7 @@ _WebVitalsReporter_
 /notifications/beacon/*
 /open.aspx?
 /open.html?$image
+/open/?ot=$image
 /opens.jscrambler.com/*$image
 /p/rp/*?mi_u=*=&sap_id=$image
 /p1x1.gif
