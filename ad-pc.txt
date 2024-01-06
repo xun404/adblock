@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: om5wFIGhhPc0rzjjf6Wr5Q
+! Checksum: IozFmFHWrCDvz0cW76RdIQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401062049
-! Last Modified: 2024年01月06日 20:49
+! Version: 202401062137
+! Last Modified: 2024年01月06日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -67928,7 +67928,7 @@ newduba.cn###jq_youxi
 ###piao_div_3[style*="width:140px;"]
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
-###player > #ADtip
+###ADtip
 ###player-bottom-ads
 ###playerAdvLayer
 ###player_banner[style*="fixed;"]
@@ -69908,6 +69908,7 @@ newduba.cn###jq_youxi
 ||szpbg.cn^
 ||togtrmjz.xyz^
 ||hjdha.cn^
+||mogtrmjz.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -130036,6 +130037,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tencent.com/developer/api/common/getOneAds
 ||10086.cn/together/s?func=together:getAdvertInfos&
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.bd-aside-ad
 77mh.nl###bdtopbot
 77mh.nl###bdbottop
 youdao.com##.banner
