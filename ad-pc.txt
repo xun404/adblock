@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P5isE/fDI094Vgs2U7IfBw
+! Checksum: kU0dcirCBSjI0zA5ugDqiQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401070039
-! Last Modified: 2024年01月07日 00:39
+! Version: 202401070637
+! Last Modified: 2024年01月07日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51053,6 +51053,7 @@ browsershots.org#@#.advert_area
 ||cryptoads.space^$third-party
 ||cryptocoinsad.com^$third-party
 ||cryptoecom.care^$third-party
+||cryptotrials.care^$third-party
 ||ctrhub.com^$third-party
 ||ctrip.com^$third-party
 ||ctrmanager.com^$third-party
@@ -51266,6 +51267,7 @@ browsershots.org#@#.advert_area
 ||klakus.com^$third-party
 ||komoona.com^$third-party
 ||kovla.com^$third-party
+||kurzycz.care^$third-party
 ||laim.tv^$third-party
 ||lanistaconcepts.com^$third-party
 ||lcwfab1.com^$third-party
@@ -63903,7 +63905,7 @@ everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 barandbench.com##[class*="ad-slot"]
 usnews.com##[class*="ad-spacer"]
-beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,philnews.ph,techreport.com##[class*="clickout-"]
+beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,cryptopolitan.com,insidebitcoins.com,philnews.ph,techreport.com##[class*="clickout-"]
 smallseotools.com##[class*="gram"]
 levels.fyi##[class*="submissions-table-promo_promoContainer"]
 alternativeto.net##[class^="AdsenseAd"]
@@ -66551,7 +66553,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pepperjamnetwork.com/banners/$image,domain=extrarebates.com
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
-@@||player.aniview.com/script/$script,domain=odysee.com
+@@||player.aniview.com/script/$script,domain=odysee.com|pogo.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
@@ -95409,7 +95411,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aweber.com/form/displays.htm?$image
 ||awesome.section.io^
 ||awswaf.com^*/report
-||awswaf.com^*/telemetry
 ||ax.babe.today^
 ||axislogger.appspot.com^
 ||az693360.vo.msecnd.net^
@@ -128931,7 +128932,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
 @@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
-@@||awswaf.com/*/telemetry$domain=platform.ledn.io
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||azureedge.net^*/analytics/eventtracking.js$script,domain=crimemapping.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
@@ -129122,6 +129122,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||plex.tv/api/v2/geoip$xmlhttprequest
+@@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
 @@||plugins.matomo.org^$image,~third-party
 @@||postex.com/api/ping?$~third-party
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
