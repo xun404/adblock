@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YVlAcV0/mCdhof9SHT/Xdg
+! Checksum: 8MffYmlbxMbj9mW9RXsYcA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401061040
-! Last Modified: 2024年01月06日 10:40
+! Version: 202401061337
+! Last Modified: 2024年01月06日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -69774,6 +69774,7 @@ newduba.cn###jq_youxi
 ||wkzsmj.icu^
 ||lcid.top^
 ||uogtrmjz.xyz^
+||bogtrmjz.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -97733,6 +97734,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.econa.com^
 ||data.kameleoon.io^
 ||datacomm.ch^*/count.cgi?
+||djuf7jb483wz1.cloudfront.net/p/l.jpg
 ||et.twyn.com^
 ||events.onet.pl^
 ||export.newscube.de^$~subdocument
@@ -97936,6 +97938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.lqm.io^
 ||tracking.netvigie.com^
 ||trjs.mediafin.be/loader/trmfn-loader.js
+||trk.a-dsp.com^
 ||trk.adbutter.net^
 ||tsphone.biz/pixelvoleur.jpg?
 ||veoxa.com/get_trackingcode.
@@ -100352,6 +100355,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tealiumiq.com^$domain=autobild.de
 ||visualrevenue.com^$domain=autobild.de|spiegel.de
 ||xplosion.de^$domain=spiegel.de
+@@||bam.nr-data.net^$xmlhttprequest,domain=abema.tv
+@@||js-agent.newrelic.com^$script,domain=abema.tv
 !#endif
 !-----------------Individual cname tracking systems-----------------!
 ||0d8is908gby1.www.terraform.com.ar^
