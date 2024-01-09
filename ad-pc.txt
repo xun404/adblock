@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6p6fzGBFtS3qYkOrCC4ebQ
+! Checksum: qRdoHutVGkccIRe2auVjIw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401100337
-! Last Modified: 2024年01月10日 03:37
+! Version: 202401100437
+! Last Modified: 2024年01月10日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -129258,6 +129258,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 @@||new.abb.com/ruxitagentjs_$~third-party
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de
+@@||next.co.uk/static-content/gtm-sdk/gtm.js$~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
