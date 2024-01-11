@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rz2WqO9NCzKGK4Y6i5IZOw
+! Checksum: o6sFSGwgZEHXo5DBbQtjUw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401120437
-! Last Modified: 2024年01月12日 04:37
+! Version: 202401120637
+! Last Modified: 2024年01月12日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -60722,7 +60722,8 @@ ultrabookreview.com###zzifhome
 ultrabookreview.com###zzifhome2
 arydigital.tv###zzright
 androidauthority.com##.---___0f
-androidauthority.com##.---___4b
+androidauthority.com##.---___Mb
+androidauthority.com##.---___mh
 androidauthority.com##.---___nb
 talkingpointsmemo.com##.--span\:12.AdSlot
 bigissue.com##.-ad
@@ -65143,19 +65144,19 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
-youtube.com###content > ytd-ad-slot-renderer
 youtube.com###contents.style-scope.ytd-search-pyv-renderer
-youtube.com###items > ytd-ad-slot-renderer
-youtube.com###main > #banner.ytd-merch-shelf-renderer
 youtube.com###masthead-ad > .ytd-rich-grid-renderer
 youtube.com###panels > [target-id="engagement-panel-ads"]
-youtube.com###related > div#player-ads
 youtube.com###ytd-player button.ytp-suggested-action-badge
 youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
 m.youtube.com##lazy-list > ad-slot-renderer
 youtube.com##ytd-ad-slot-renderer.style-scope.ytd-item-section-renderer
-youtube.com##ytd-rich-item-renderer:has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
+youtube.com##ytd-two-column-browse-results-renderer > #primary > ytd-rich-grid-renderer > #contents > ytd-rich-grid-row > #contents > ytd-rich-item-renderer > #content > ytd-ad-slot-renderer.ytd-rich-item-renderer
+youtube.com##ytd-two-column-browse-results-renderer > #primary > ytd-rich-grid-renderer > #contents > ytd-rich-grid-row > #contents > ytd-rich-item-renderer:has(> #content.ytd-rich-item-renderer > ytd-ad-slot-renderer.ytd-rich-item-renderer)
+youtube.com##ytd-watch-flexy > #columns > #primary > #primary-inner > #below > ytd-merch-shelf-renderer > #main > #banner.ytd-merch-shelf-renderer
+youtube.com##ytd-watch-flexy > #columns > #primary > #primary-inner > #below > ytd-merch-shelf-renderer > #main > #item-list > #scroll-container > #items.ytd-merch-shelf-renderer[style="transform: translateX(0px);"]
+youtube.com##ytd-watch-flexy > #columns > #secondary > #secondary-inner > #related > ytd-watch-next-secondary-results-renderer > #items > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer
 thefreedictionary.com###Content_CA_AD_0_BC
 thefreedictionary.com###Content_CA_AD_1_BC
 instapundit.com###adspace_top > .widget-ad__content
