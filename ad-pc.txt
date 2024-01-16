@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vp8klioNkrFYX6qD1h/INw
+! Checksum: 9UYzwLGIs7tjavnJkiyvWQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401160737
-! Last Modified: 2024年01月16日 07:37
+! Version: 202401160939
+! Last Modified: 2024年01月16日 09:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60257,12 +60257,15 @@ raspians.com###block-31
 game-news24.com###block-50
 ericpetersautos.com###block-6
 systutorials.com###block-7
+leopathu.com###block-accuwebhostingcontenttop
+leopathu.com###block-accuwebhostingsidebartop
 slideme.org###block-block-31
 ancient-origins.net###block-block-49
 infoplease.com###block-ipabovethefold
 infoplease.com###block-ipbtfad
 infoplease.com###block-ipleaderboardad
 infoplease.com###block-ipmiddlewaread
+leopathu.com###block-listscleaningbanner
 romania-insider.com###block-nodepagebelowfromourpartners
 romania-insider.com###block-nodepagebelowlatespress
 romania-insider.com###block-nodepagebelowtrendingcontent
@@ -61744,6 +61747,7 @@ arras.io##.bannerHolder
 securenetsystems.net##.bannerPrerollArea
 mumbrella.com.au##.bannerSide
 thejc.com##.banner__
+thejc.com##.banner__article
 financemagnates.com##.banner__outer-wrapper
 forexlive.com,tass.com##.banner__wrapper
 asmag.com##.banner_ab
@@ -67024,7 +67028,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com|pogo.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
-@@||player.ex.co/player/$script,domain=theautopian.com
+@@||player.ex.co/player/$script,domain=si.com|theautopian.com
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
 @@||pngimg.com/distr/$image,~third-party
@@ -70532,6 +70536,7 @@ newduba.cn###jq_youxi
 ||kozhyf.icu^
 ||ffawfa.cn^
 ||zghrxn.xyz^
+||8ovgk.online^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -88976,6 +88981,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track/impression/*
 /track/impression?
 /track/pageview?
+/track/pageviews/*
 /track/pixel.php
 /track/pixel/*
 /track/site/*
@@ -97140,6 +97146,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||monorail-edge.shopifysvc.com^
 ||mormont.gamer-network.net^
 ||movementventures.com/_uid.gif
+||mowplayer.com/media/statistics/
 ||mozilla.org/page/*/open.gif$third-party
 ||mql5.com/st?
 ||mql5.com/tr?
@@ -97154,6 +97161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msecnd.net/scripts/b/ai.
 ||msecnd.net/scripts/jsll-
 ||mshcdn.com/assets/metrics-
+||mssdk.tiktokw.us/web/report?
 ||msvdn.net/api/v2/heartbeat/
 ||mts.mansion.com^$third-party
 ||mtvnservices.com/aria/projectX/
@@ -97475,6 +97483,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ria.ru/counter?
 ||richrelevance.com/rrserver/tracking?
 ||rltd.io/tags/
+||roadster.com/roadster_dealer_analytics
 ||rodale.com/ga/
 ||route.com/collect
 ||routeapp.io/route-analytics/
@@ -98721,6 +98730,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.kdata.fr^
 ||tracking.lqm.io^
 ||tracking.netvigie.com^
+||tracking.voxeus.com^
 ||trjs.mediafin.be/loader/trmfn-loader.js
 ||trk.a-dsp.com^
 ||trk.adbutter.net^
@@ -128437,6 +128447,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pstt.mtb-news.de^
 ||px.derstandard.at^
 ||pxc.otto.de^
+||redaktionstest.net/cdn/$ping
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
 ||ricardo.ch/api/browser-statistics/
@@ -129414,6 +129425,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
 ||seedr.ru^*/stats/
+||servernews.ru/track?
 ||sibnet.ru/counter.php?
 ||ssp.rambler.ru^
 ||start.ru/logger/
