@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qszOzL4BNrCVKqboqP/s4w
+! Checksum: Bln8i+S/OGI/0SggN6EFVQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202401170041
-! Last Modified: 2024年01月17日 00:41
+! Version: 202401172237
+! Last Modified: 2024年01月17日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -644,14 +644,13 @@ topwwnews.com#$#abort-on-property-read localStorage
 ! #CV-697
 thetrendspotter.net,theavtimes.com#$#abort-on-property-read advads_passive_ads
 ! #CV-782
-www.youtube.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern'
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="player-container"]//ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]' 5; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytlr-player//div[contains(@class,"ad-interrupting")]'
 music.youtube.com,youtubekids.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlacements undefined;
 music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
-www.youtube.com#$#hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-banner-cta-renderer'; hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-ad-attribution'
+www.youtube.com#$#hide-if-matches-xpath './/div[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::div[contains(@class,"video-ads")]'
 www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
 ! Fallback
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
