@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D3uHsp4Xt+ZGxZhzjHRr+Q
+! Checksum: rBtUvLL/vD2ZNUt459D40g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401172237
-! Last Modified: 2024年01月17日 22:37
+! Version: 202401172337
+! Last Modified: 2024年01月17日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18056,6 +18056,7 @@ _800x80_
 ##[onclick^="location.href='http://www.reimageplus.com"]
 ##a-ad
 ##a[href*=".engine.adglare.net/"]
+##a[href*=".foxqck.com/"]
 ##a[href*=".g2afse.com/"]
 ##a[href*="//jjgirls.com/sex/Chaturbate"]
 ##a[href*="//lkstrck2.com/"]
@@ -29364,6 +29365,7 @@ browsershots.org#@#.advert_area
 ||fbffdfproxwqi.com^
 ||fbgdc.com^
 ||fbgwruetfgbhp.com^
+||fbmedia-bls.com^
 ||fbmedia-ckl.com^
 ||fbmedia-dhs.com^
 ||fbpgdlprsiz.com^
@@ -30076,6 +30078,7 @@ browsershots.org#@#.advert_area
 ||foutyoxyaena.website^
 ||foviyii.com^
 ||foxpush.io^
+||foxqck.com^
 ||foxypp.com^
 ||fpbvfwjwrayphgs.com^
 ||fpdbccngiujp.com^
@@ -53566,6 +53569,7 @@ browsershots.org#@#.advert_area
 ||forzubatr.com^$popup
 ||fostereminent.com^$popup
 ||fourwhenstatistics.com^$popup
+||foxqck.com^$popup
 ||fpctraffic3.com^$popup
 ||fpgedsewst.com^$popup
 ||fpukxcinlf.com^$popup
@@ -65209,6 +65213,8 @@ bailagentnetwork.com##img[alt*="Affiliate_BailAgentNetwork"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
 hiphopkit.com##img[alt="Zappy"]
 therainbowtimesmass.com##img[alt="banner ad"]
+pasty.info##img[aria-label="Aliexpress partner network affiliate Link"]
+pasty.info##img[aria-label="Ebay partner network affiliate Link"]
 inkbotdesign.com##img[decoding="async"]
 nepallivetoday.com,wjr.com##img[height="100"]
 prawfsblawg.blogs.com,thomhartmann.com##img[height="200"]
@@ -65582,7 +65588,8 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
-youtube.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope[disable-upgrade] + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[is-default-grid][style^="--ytd-rich-grid-item-max-width: "] > #header.ytd-rich-grid-renderer.style-scope + #big-yoodle.ytd-rich-grid-renderer.style-scope + #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-grid-renderer.style-scope > #fulfilled-layout.ytd-ad-slot-renderer.style-scope > ytd-page-top-ad-layout-renderer.ytd-ad-slot-renderer.style-scope > #rendering-content.ytd-page-top-ad-layout-renderer.style-scope > ytd-video-masthead-ad-v3-renderer.grid.ytd-page-top-ad-layout-renderer.style-scope:not(:empty)
+youtube.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope[disable-upgrade] + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[is-default-grid][style^="--ytd-rich-grid-item-max-width: "] > #header.ytd-rich-grid-renderer.style-scope + #big-yoodle.ytd-rich-grid-renderer.style-scope + #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-grid-renderer.style-scope:not(:empty)
+youtube.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope[disable-upgrade] + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[is-default-grid][style^="--ytd-rich-grid-item-max-width: "] > #header.ytd-rich-grid-renderer.style-scope + #big-yoodle.ytd-rich-grid-renderer.style-scope + #masthead-ad.ytd-rich-grid-renderer.style-scope > ytd-banner-promo-renderer.ytd-rich-grid-renderer.style-scope[style]:not(:empty)
 youtube.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope[disable-upgrade] + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[is-default-grid][style^="--ytd-rich-grid-item-max-width: "] > #spinner-container.ytd-rich-grid-renderer.style-scope + #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope[items-per-row] > #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope > #fulfilled-layout.ytd-ad-slot-renderer.style-scope > ytd-in-feed-ad-layout-renderer.ytd-ad-slot-renderer.style-scope > #rendering-content.ytd-in-feed-ad-layout-renderer.style-scope:not(:empty)
 youtube.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope[page-subtype="home"][role="main"] > ytd-settings-sidebar-renderer.ytd-browse.style-scope[disable-upgrade] + dom-if.ytd-browse.style-scope + ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope[page-subtype="home"][style] > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope[is-default-grid][style^="--ytd-rich-grid-item-max-width: "] > #spinner-container.ytd-rich-grid-renderer.style-scope + #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope[items-per-row]:has(> #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope > #fulfilled-layout.ytd-ad-slot-renderer.style-scope > ytd-in-feed-ad-layout-renderer.ytd-ad-slot-renderer.style-scope > #rendering-content.ytd-in-feed-ad-layout-renderer.style-scope:not(:empty))
 youtube.com##body > ytd-app > ytd-miniplayer.ytd-app.style-scope[rounded-container] + #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration: "][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-search.ytd-page-manager.style-scope[role="main"] > #container.ytd-search.style-scope > ytd-two-column-search-results-renderer.ytd-search.style-scope[is-search="true"] > #primary.ytd-two-column-search-results-renderer.style-scope > ytd-section-list-renderer.ytd-two-column-search-results-renderer.style-scope > #contents.ytd-section-list-renderer.style-scope > ytd-item-section-renderer.ytd-section-list-renderer.style-scope > #spinner-container.ytd-item-section-renderer.style-scope + #contents.ytd-item-section-renderer.style-scope > ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope:not(:empty)
@@ -104122,7 +104129,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||aa.dyson.com^
 ||aa.dyson.de^
 ||aa.dyson.dk^
-||aa.dyson.es||adbmetrics.koreanair.com^
+||aa.dyson.es^
 ||aa.maxblue.de^
 ||aa.norisbank.de^
 ||aa.postbank.de^
@@ -104139,6 +104146,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||acs.woolworths.com.au^
 ||activity.newlook.com^
 ||adb-analytics.live-now.com^
+||adbmetrics.koreanair.com^
 ||adbmetrics.larioja.com^
 ||adbmetrics.lasprovincias.es^
 ||adbmetrics.laverdad.es^
@@ -105040,7 +105048,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||dii3.zooplus.hr^
 ||dii3.zooplus.hu^
 ||dii3.zooplus.ie^
-||dii3.zooplus.it^m^
+||dii3.zooplus.it^
 ||eagle.kudzu.com^
 ||electronics.sony-latin.com^
 ||emetrics.bose.ca^
@@ -105800,7 +105808,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||metrics.fressnapf.ch^
 ||metrics.friskies.com^
 ||metrics.ftd.com^
-||metrics.gali|metrics.reallymoving.com^
+||metrics.galicia.ar^
 ||metrics.gap.com^
 ||metrics.genesis.es^
 ||metrics.gengraf.com^
@@ -106173,6 +106181,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||metrics.rci.com^
 ||metrics.rcsmetrics.it^
 ||metrics.realclearpolitics.com^
+||metrics.reallymoving.com^
 ||metrics.realpropertymgt.com^
 ||metrics.realsimple.com^
 ||metrics.realtor.com^
@@ -120610,7 +120619,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||images.contact.cigna.com^
 ||images.contact.princess.com^
 ||images.contact.staubli.com^
-||images.contacto.uni|images.e.seagate.com^
+||images.contacto.unis.edu.gt^
+||images.e.seagate.com^
 ||images.e.skandia.pl^
 ||images.e.tcichemicals.com^
 ||images.e.transunion.com^
@@ -121195,7 +121205,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mail.dolce-gusto.com.my^
 ||mail.dolce-gusto.com.sg^
 ||mail.dolce-gusto.com.tw^
-||mail.dolce-gusto.cz^wp-tw.americanexpress.com^
+||mail.dolce-gusto.cz^
 ||mail.hsm.co.uk^
 ||making-future.afry.com^
 ||marketing-ap.mmc.co.jp^
@@ -121378,6 +121388,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||origin.www.images.2.forms.healthcare.philips.com^
 ||our.sunshinecoast.qld.gov.au^
 ||outsource.sitel.com^
+||owp-hk.americanexpress.com^
+||owp-sg-prop.americanexpress.com^
+||owp-tw.americanexpress.com^
 ||p01.sc.origins.en25.com^
 ||p03.sc.origins.en25.com^
 ||p04.sc.origins.en25.com^
@@ -122578,7 +122591,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||trk.designnews.com^
 ||trk.digitaltveurope.com^
 ||trk.dosatron.com^
-||trk.drdobbs.com^com^
+||trk.drdobbs.com^
 ||trk.du-darfst.de^
 ||trk.dvsystems.com^
 ||trk.e.chooseumpquabank.com^
@@ -126116,7 +126129,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bryurent.eccocar.com^
 ||btn.listonic.com^
 ||btn.rtl2.de^
-||build|click.signaturemarket.co^
 ||cclink.carfax.com^
 ||chelsea.clicks.hqo.co^
 ||clevertapsendgrid.branch.rocks^
@@ -127403,7 +127415,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||link.lendingtree.com^
 ||link.letsdayout.com^
 ||link.litnet.com^
-||link.localmasters.co||link.plazahogar.com.py^
 ||link.loyalty.almosafer.com^
 ||link.lpm.surkus.com^
 ||link.lpt.surkus.com^
