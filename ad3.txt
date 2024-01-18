@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n69aFlPhQaKU7PA3C3KQ7A
+! Checksum: 8SSWy23k9vzFKFNswif3wg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401182051
-! Last Modified: 2024年01月18日 20:51
+! Version: 202401182337
+! Last Modified: 2024年01月18日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -32416,7 +32416,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reverbnation.com/widgets/trk/
 ||rfksrv.com/rfk/$third-party
 ||rfksrv.com/rfkj/$image
-||ria.ru/counter?
 ||richrelevance.com/rrserver/tracking?
 ||rltd.io/tags/
 ||roadster.com/roadster_dealer_analytics
@@ -64299,6 +64298,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||4pda.ru/stat/
 ||a.mts.ru^
 ||a.pikabu.ru^
+||a.ria.ru^
 ||ad.mail.ru/static/sync-loader.js
 ||ad7.bigmir.net^
 ||adme.media/metric-collector
@@ -64310,6 +64310,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||avito.ru/stat/
 ||babyblog.ru/pixel?
 ||c.sibnet.ru^
+||clck.dzen.ru^
 ||consultant.ru/js/counter.js
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
@@ -64320,6 +64321,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||drom.ru/dummy.
+||dzen.ru/api/*/stats/
+||dzen.ru/pingx
+||dzeninfra.ru/ping?
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
@@ -64338,11 +64342,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||livelib.ru/service/traffic
 ||livelib.ru/service/visitlist/
 ||lmcdn.ru^*/statistics.js
+||log.dzen.ru^
 ||log.ren.tv^
 ||log.rutube.ru^
 ||mail.ru/count/
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
+||ms.dzen.ru^
 ||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
@@ -64362,7 +64368,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rbc.ru/count/
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
-||ria.ru/ping?
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
