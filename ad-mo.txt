@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pvA5d+K3VHdpg9JIFYl+Xw
+! Checksum: yAHhrf/hJmtEXcsHmHMj8Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401180939
-! Last Modified: 2024年01月18日 09:39
+! Version: 202401181043
+! Last Modified: 2024年01月18日 10:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59219,7 +59219,7 @@ browsershots.org#@#.advert_area
 ||purexbox.com/javascript/gn/prebid-
 ||wsj.net/pb/pb.js
 ||fireworkapi1.com^$domain=boldsky.com
-||anyclip.com^$third-party
+||anyclip.com^$third-party,domain=~dictionary.com|~heute.at|~video.timeout.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -67271,10 +67271,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
-!! anyclip.com (non-invideo ads only)
-@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
-@@||anyclip.com/main.js$script,domain=video.timeout.com
-@@||anyclip.com/static/$script,domain=video.timeout.com
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
@@ -70570,6 +70566,7 @@ newduba.cn###jq_youxi
 ||vggg5.space^
 ||pfjfjid.xyz^
 ||halqpt.xyz^
+##a[href*=".kekexc.com/"]
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -78657,6 +78654,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+lxapk.com##.custom-html-widget
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -88245,6 +88243,7 @@ fqsousou.com,kengso.com#@#.user-share
 /njs.gif?
 /nlogger.js
 /nLoggerJB_
+/nlRUM.js
 /nm/itracking?
 /NNAnalyticsWPSites.js
 /no-impression.gif?
