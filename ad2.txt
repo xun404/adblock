@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8m2ulsHKxGzlEtfwouUG9w
+! Checksum: LBrM8AdonMCHIpdS1Sy9Gw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202401201042
-! Last Modified: 2024年01月20日 10:42
+! Version: 202401201137
+! Last Modified: 2024年01月20日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1619,6 +1619,7 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+###div_top_ads
 ##.alert_windows > .q-card__actions > a
 ###alert_windows > .q-dialog__backdrop
 ##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
@@ -3166,6 +3167,9 @@ newduba.cn###jq_youxi
 ||jingalbundles.com^
 ||acsegt86.shop^
 ||hulichuang.mobi^
+||zfp32.buzz^
+##a[href*="/hgcoolaa.top"]
+##a[href*="/hgcool360.top"]
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -11252,6 +11256,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||winwin7.com/statics/js/user/xz.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -11755,7 +11760,7 @@ ebiotrade.com###dlBoxs
 docin.com###docindex_ad
 udn.com###doctop
 niutuku.com###downAD1
-xiazai.zol.com.cn###downBoxGaosu > a
+zol.com.cn###downBoxGaosu + a
 downmsn.com###downShow_tellDownload
 qiannao.com###downTb + div
 sm.cn###download-uc
