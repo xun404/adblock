@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ICc9Sg0hwmK0Ebv+TD5yOA
+! Checksum: 8m2ulsHKxGzlEtfwouUG9w
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202401200137
-! Last Modified: 2024年01月20日 01:37
+! Version: 202401201042
+! Last Modified: 2024年01月20日 10:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1619,6 +1619,9 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.alert_windows > .q-card__actions > a
+###alert_windows > .q-dialog__backdrop
+##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -3152,6 +3155,17 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||pupsjr.xyz^
+||ktauoy.xyz^
+||82zcb.icu^
+||awcdst.icu^
+||foysswr.cn^
+||npnpxoz.xyz^
+||yohnoirs.com^
+||so1nv.xyz^
+||jingalbundles.com^
+||acsegt86.shop^
+||hulichuang.mobi^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
