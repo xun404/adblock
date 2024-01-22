@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8rYF2HcDqcLvwg3K1B8W6w
+! Checksum: S/FtA+uAJjkcDmXgPob7xQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202401192137
-! Last Modified: 2024年01月19日 21:37
+! Version: 202401221839
+! Last Modified: 2024年01月22日 18:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -414,7 +414,7 @@ ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[class^="carousel__snap-point"][style]>div[data-viewport]>a' 'span'
 ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"merch")]/parent::div[@class="merch-module"]'
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.it,ebay.fr,ebay.es,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/span[@class="s-item__sponsor"][text()]/ancestor-or-self::li[contains(@class,"s-item")][1]'
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.it,ebay.fr,ebay.es,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/span[@class="s-item__promoted"][text()]/ancestor-or-self::li[contains(@class,"s-item")][1]'
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com; strip-fetch-query-parameter conf_csid warnermediacdn.com; strip-fetch-query-parameter app_csid warnermediacdn.com
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
@@ -1497,7 +1497,7 @@ thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 sexphimhd.net,gvnvh18.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net,nhentaivn.com#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net,nhentaivn.com#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 truyentuanopm.com#$#abort-current-inline-script $ btpop
@@ -1507,7 +1507,7 @@ xoilac96.net#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motphimz.cc,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenvi.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motphimz.cc,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv,quatvn.club#$#abort-current-inline-script WebAssembly instantiate
 animevietsub.io#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script eval $._Eu
@@ -1515,7 +1515,7 @@ gocphimvn.vip,p.thoctv.com#$#abort-current-inline-script document.createElement 
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
 xemphimhdc.cc#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
-dualeotruyenid.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenvi.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.net#$#abort-current-inline-script $ PopUnder
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 www.toptruyenhot.co#$#abort-current-inline-script Promise instance
@@ -1527,6 +1527,7 @@ nettruyenai.com#$#abort-current-inline-script Promise break;case
 holyphim.com#$#abort-current-inline-script window.addEventListener window.open
 nettruyenus.net#$#abort-on-property-read sp
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
+tailieumoi.vn#$#override-property-read linkAff null
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
