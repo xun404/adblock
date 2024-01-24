@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X+yyxQs8k68SNGUD8pkdrA
+! Checksum: FrgZ1Vsu+wa5DtupdJEA6Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401241838
-! Last Modified: 2024年01月24日 18:38
+! Version: 202401242137
+! Last Modified: 2024年01月24日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -8052,7 +8052,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bnextmedia.com.tw/feed/fetch.js
 ||boardx.huanqiu.com^
 ||boce.com/statics/img/img27b.png
-||bodu365.co/t/
 ||bolecdn.com/button/txt.js
 ||bonbonme.com/js/g1313166/
 ||bookben.com/js/m/wap.js
@@ -8392,7 +8391,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||czsp12.com/api/*=announce&
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
 ||d-test.39.net^
-||d.bodu365.co^*.js
 ||d0.xcar.com.cn^
 ||d1.3158.cn^
 ||d1.sina.com.cn^$object,script
@@ -11312,8 +11310,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||36img.com/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bodu365.co##.side_g_seat
+bodu365.co##.top_show
+bodu365.co##.bdnav + .focus_show
+bodu365.co##.beside
+bodu365.co##.top_s_ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -12094,7 +12098,6 @@ thinbug.com###inktokad
 520call.me,av99.us,yocoolnet.in###inplayer
 pchome.net###intel-bar
 mm-cg.com###ioshowAD
-bodu365.co###iside
 2345.com###ivy-taobao
 qq.com###iwanAD2
 baidu.com###j-ad-first
@@ -16199,7 +16202,7 @@ weather.com.cn##div[class^="adpos"]
 silver.org.cn##div[class^="ads_"]
 xcar.com.cn##div[class^="adset"]
 hybbs.com##div[class^="adtop"]
-8684.cn,8684.com,iyxdm.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.cc,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 ifeng.com##div[class^="adv0"]
 ifeng.com##div[class^="adv1"]
 kumi.cn##div[class^="adz"]
@@ -64972,7 +64975,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|la7.it|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sky.it|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|tvnow.de|video.corriere.it|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|corriereadriatico.it|couriermail.com.au|dailyexaminer.com.au|fanpage.it|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ipswichadvertiser.com.au|la7.it|last.fm|leggo.it|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|quotidianodipuglia.it|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 !! mpsnare.iesnare.com
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 !! ingest.sentry.io/api/
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 !! ci-mpsnare.iovation.com
