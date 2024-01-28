@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mL8RJVcB3Yc7h7dKSrDViA
+! Checksum: WO8cgp1eNxHiNIEy89Zb8g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401281437
-! Last Modified: 2024年01月28日 14:37
+! Version: 202401281937
+! Last Modified: 2024年01月28日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61993,6 +61993,7 @@ cbn.com###cbn_leaderboard_atf
 cloudwards.net,guitaradvise.com###cbox
 linuxinsider.com###cboxOverlay
 curseforge.com###cdm-zone-03
+inquirer.net###cdn-life-mrec
 godbolt.org###ces
 romsmania.games###click-widget-banner
 xcalibrscans.com###close-teaser
@@ -63938,6 +63939,7 @@ buzzfeed.com,buzzfeednews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
 hanime.tv##.desktop.htvad
 randomarchive.com##.desktop[style="text-align:center"]
 australiangolfdigest.com.au##.desktop_header
+inquirer.net##.desktop_smdc-FT-survey
 coingape.com##.desktopds
 flashscore.co.za,flashscore.com,livescore.in,soccer24.com##.detailLeaderboard
 floridapolitics.com##.dfad
@@ -66437,7 +66439,6 @@ xbox-hq.com##a[href^="banners.php?"]
 ghostbin.me##a[href^="http://bit.ly/"]
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
 notbanksyforum.com##a[href^="http://l-13.org/"]
-inquirer.net##a[href^="http://ruby.inquirer.net/"]
 wjbc.com##a[href^="http://sweetdeals.com/bloomington/deals"]
 notbanksyforum.com##a[href^="http://www.ebay.co.uk/usr/heartresearchuk_shop/"]
 997wpro.com,lite105.com##a[href^="http://www.enjoyri.com/"]
@@ -66475,6 +66476,7 @@ metager.org##a[href^="https://r.search.yahoo.com/"]
 nosubjectlosangeles.com,richardvigilantebooks.com##a[href^="https://rebrand.ly/"]
 disasterscans.com##a[href^="https://recall-email.onelink.me/"]
 narkive.com##a[href^="https://rfnm.io/?"]
+inquirer.net##a[href^="https://ruby.inquirer.net/"]
 emalm.com,linkdecode.com##a[href^="https://s.click.aliexpress.com/"]
 997wpro.com##a[href^="https://seascapeinc.com/"]
 listland.com##a[href^="https://shareasale.com/r.cfm?"]
@@ -72444,6 +72446,7 @@ newduba.cn###jq_youxi
 ||ypdronhu.xyz^
 ||9t51o.icu^
 ||rmduuv.icu^
+||xpdronhu.xyz^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -80531,6 +80534,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+1point3acres.com##div[style="width: 450px; min-height: 210px;"]
+1point3acres.com###portal_block_479
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -91703,7 +91708,6 @@ omni.soundestlink.com$image
 ||bx-cloud.com^
 ||bydst.com^
 ||cadsuta.net^
-||captcha-display.com^
 ||catsunrunjam.com^
 ||cbdatatracker.com^
 ||cdnhst.xyz^
@@ -131653,7 +131657,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
-@@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
