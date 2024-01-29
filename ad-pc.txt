@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hldb3ye6DjOdauixzesn9w
+! Checksum: /Y1beyTKDMdUHbgVx+qG/Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401300537
-! Last Modified: 2024年01月30日 05:37
+! Version: 202401300737
+! Last Modified: 2024年01月30日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -59214,6 +59214,7 @@ browsershots.org#@#.advert_area
 ||siteground.com/img/banners/
 ||skimresources.com^$script,subdocument,third-party
 ||slysoft.com/img/banner/
+||smartads.statsperform.com^
 ||smartdestinations.com/ai/
 ||snacklink.co/js/web-script.js
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
@@ -63340,6 +63341,7 @@ accesswdun.com##.ad-slider-block
 cnn.com##.ad-slot-header__wrapper
 cointelegraph.com##.ad-slot_NjPAE
 oann.com##.ad-slot__ad-label
+cnn.com##.ad-slot__ad-wrapper
 freepressjournal.in##.ad-slots
 techinformed.com##.ad-text-styles
 bqprime.com##.ad-with-placeholder-m__place-holder-wrapper__1_rkH
@@ -65019,6 +65021,7 @@ ghanaweb.com##.med_rec_lg_min
 ipwatchdog.com##.meda--sidebar-ad
 picuki.me##.media-wrap-h12
 webmd.com##.medianet-ctr
+stealthoptional.com##.mediavine_blockAds
 gfinityesports.com##.mediavine_sidebar-atf_wrapper
 allmusic.com##.medium-rectangle
 chess.com##.medium-rectangle-ad-slot
@@ -65355,7 +65358,7 @@ gismeteo.com,meteofor.com,nofilmschool.com##.placeholder
 bucksco.today##.placeholder-block
 theoldie.co.uk##.placeholder-wrapper
 sundayworld.co.za##.placeholderPlug
-pcgamebenchmark.com,streetcheck.co.uk##.placement
+pcgamebenchmark.com,soccerway.com,streetcheck.co.uk##.placement
 diglloyd.com,windinmyface.com##.placementInline
 diglloyd.com,windinmyface.com##.placementTL
 diglloyd.com,windinmyface.com##.placementTR
@@ -67346,7 +67349,6 @@ wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="FeedT
 wish.com##div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 goal.com##div[class^="open-web-ad_"]
-walmart.ca##div[data-automation="product"]:has(div[data-automation="sponsored-indicator-wrapper"])
 cargurus.com##div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##div[data-test-id="pin"]:has(div[title^="Promoted"])
@@ -67758,8 +67760,10 @@ trends.gab.com#?#li.list-group-item:-abp-contains(Sponsored content)
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
+walmart.ca#?#div > div[io-id]:-abp-contains(Sponsored)
 wayfair.com,wayfair.co.uk#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 winaero.com#?#p:-abp-contains(Advertisement)
+walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
 wayfair.*#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
@@ -91777,6 +91781,7 @@ omni.soundestlink.com$image
 ||lsdm.co^
 ||maggieeatstheangel.com^
 ||matheranalytics.com^
+||mathilde-ads.com^
 ||maxepv.com^
 ||maxtrafixx.tech^
 ||mb-tracking.com^
@@ -93520,6 +93525,7 @@ omni.soundestlink.com$image
 ||outbid.io^$third-party
 ||outboundlink.me^$third-party
 ||overstat.com^$third-party
+||overtracking.com^$third-party
 ||owltrack.com^$third-party
 ||ownpage.fr^$third-party
 ||ox-bio.com^$third-party
@@ -130971,9 +130977,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||paginegialle.it/cgi-bin/jimpres.cgi?
 ||paginegialle.it/engagement.js
 ||ppcdn.it/iol/tracklib.3.js
-||raiplay.it/hit-service/
 ||raiplay.it/tracking/
-||raiplaysound.it/hit-service/
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||sa.sky.it^
 ||seat.it/cgi-bin/getcod.cgi?
