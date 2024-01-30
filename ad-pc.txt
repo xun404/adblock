@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LYa2s/Fi+OmOkZiZWkjOTg
+! Checksum: VwIEuy+14XJ6hoAzDFsJkw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401301337
-! Last Modified: 2024年01月30日 13:37
+! Version: 202401301537
+! Last Modified: 2024年01月30日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -72791,6 +72791,7 @@ newduba.cn###jq_youxi
 ||ovbgeum.cn^
 ||cpwlctfk.xyz^
 ||pmnct63.shop^
+||czresus.cn^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -83951,7 +83952,7 @@ ifeng.com##.pic950
 down.ali213.net,patch.ali213.net##.picBg
 jiegeng.com##.picBt
 jiegeng.com##.picLf
-ifeng.com##.picNews
+ifeng.com##.recommend > .picNews
 dealmoon.com,weibo.com##.pic_ad
 itdog.cn##.pic_gg
 moxing.net##.pic_txt_list
@@ -101044,13 +101045,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x9.shinobi.jp^
 ||yahoo.co.jp/js/retargeting.js
 ||acelogger.heraldcorp.com^
+||assets.datarize.ai^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
+||dtr-onsite-feed.datarize.ai^
 ||event.hackle.io^
 ||log.adplex.co.kr^
 ||log.cizion.com^
 ||log.mofa.go.kr^
+||log.pipeline.datarize.io^
 ||log.targetpush.co.kr^
 ||logger.bzu.kr^
 ||logs-partners.coupang.com^
@@ -101060,6 +101064,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ngc1.nsm-corp.com^
 ||performanceplay.co.kr^
 ||pxl.retaku.net^
+||realtime-profiling.datarize.ai^
 ||recobell.io/rest/logs?
 ||saluton.cizion.com^
 ||sas.nsm-corp.com^
@@ -131165,6 +131170,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stat.tiara.kakao.com^
 ||stat.tiara.tistory.com^
 ||stat.wanted.jobs^
+||t*.daumcdn.net/adfit/static/kp.js
 ||track.tiara.daum.net^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
