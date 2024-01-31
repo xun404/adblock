@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /T+mofYGT1St4ne6m9vJdA
+! Checksum: O7e50CW6gtEXeyNlrfkktg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202401310932
-! Last Modified: 2024年01月31日 09:32
+! Version: 202401311037
+! Last Modified: 2024年01月31日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1213,8 +1213,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /html/ad/*
 /html/ads/*
 /im-popup/*
-/im.cams.
-/ima/ads_
 /image/ad/*
 /image/ads/*
 /image/ads_
@@ -1230,7 +1228,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /images2/Ads/*
 /imfloat.
 /img/ad/*
-/img/ads/*$domain=~save.ca
 /img/aff/*
 /img_ad/*
 /impop.
@@ -1263,28 +1260,24 @@ pan.baidu.com##.upload-bar.global-clearfix
 /js.ng/cat=
 /js.ng/channel_
 /js.ng/pagepos=
-/js/doubleclick/*
 /js/ppu.$script
-/js/prebid-video.
 /js3caf.js
-/js_exit_popup.
-/js_interstitial.
 /jsad.php
-/jsAds-$script
+/jsAds-1.4.min.js
+/jsads.js
 /jshexo.hj?lb=
-/jspopunder.
+/jspopunder.js
+/jspopunder.min.js
 /keyade.js
 /keyword_ad.
 /layer-ad.
 /layer-ads.
 /layerad-
 /layerad.
-/layerads_
-/lazy-ads.
 /lazyad-loader.js
 /lazyad-loader.min.js
 /lazyload.ads?
-/left_ads.
+/left_ads.js
 /leftad.
 /leftad_
 /leftads.
@@ -1471,23 +1464,16 @@ pan.baidu.com##.upload-bar.global-clearfix
 /popunder_
 /popunderjs/*
 /popunders/*
-/popundr.
-/popundr/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
 /popup_ad.
-/popup_code.
-/popupad/*
-/popupads.
-/popupunder.
+/popup_code.php
+/popupads.js
+/popupunder.js
 /pounder-$~image
-/ppd_ads.
-/ppd_ads_
-/predictad.
-/prehead/ads_
-/premium_ad.
-/premiumads/*
+/prebid-video.js
+/prehead/ads_detect.js
 /prerollad.
 /prerollads.
 /prism_ad/*$script
@@ -69015,6 +69001,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||pub.doubleverify.com/dvtag/$script,domain=time.com
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||radiotimes.com/static/advertising/$script,~third-party
+@@||raw.githubusercontent.com^$domain=viewscreen.githubusercontent.com
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com|journaldequebec.com
@@ -72701,6 +72688,7 @@ newduba.cn###jq_youxi
 ||dpe5t.space^
 ||uiuaey.xyz^
 ||dskjbvzvs.com^
+||guysfair.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
