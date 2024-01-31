@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8b+YT55jw0pMxSVLcqDloQ
+! Checksum: wiWxOjEqPNABZecbQzNqzA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202401311337
-! Last Modified: 2024年01月31日 13:37
+! Version: 202401311937
+! Last Modified: 2024年01月31日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3297,6 +3297,7 @@ newduba.cn###jq_youxi
 ||zzbmxl.xyz^
 ||zzyy17.top^
 ||zzyy18.top^
+||adtonus.com^
 ||dxsjcz.cn^
 ||yhsdwjes.xyz^
 ||tnllxd.xyz^
@@ -3310,6 +3311,8 @@ newduba.cn###jq_youxi
 ||chsdwjes.xyz^
 ||czouthy.cn^
 ||hscq8.cyou^
+||xhsdwjes.xyz^
+||guysfair.com^
 ||zzyy19.top^
 ||zzyy20.top^
 ##[style*="sotv.me"]
@@ -10832,6 +10835,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com##.bd-aside-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -33708,10 +33712,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x9.shinobi.jp^
 ||yahoo.co.jp/js/retargeting.js
 ||acelogger.heraldcorp.com^
+||applog.ssgdfs.com^
 ||assets.datarize.ai^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
+||dadispapi.gmarket.co.kr^
 ||dtr-onsite-feed.datarize.ai^
 ||event.hackle.io^
 ||log.adplex.co.kr^
@@ -33722,6 +33728,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logger.bzu.kr^
 ||logs-partners.coupang.com^
 ||megadata.co.kr^
+||montelena.auction.co.kr^
 ||mtag.mman.kr^
 ||naver.com/mcollector/
 ||ngc1.nsm-corp.com^
@@ -33737,6 +33744,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.adbinead.com^
 ||tracker.digitalcamp.co.kr^
 ||tracking.adweb.co.kr^$third-party
+||utsgw.auction.co.kr^
 ||counter.hackers.lv^
 ||pmo.ee/stats/
 ||salidzini.lv^*/logo_button.gif?$third-party
@@ -63828,7 +63836,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pds.auction.co.kr^
 ||rake.11st.co.kr^
 ||seoul.co.kr/weblog/
+||shinsegae.com/topNPopup.do
 ||sp.naver.com^
+||ssgdfs.com/kr/common/getPageIcfCd
 ||stat.i3.dmm.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
@@ -63838,6 +63848,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||track.tiara.daum.net^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
+||traders.co.kr/common/js/makePCookie.js
 ||uts.auction.co.kr^
 ||utsssl.auction.co.kr^
 ||wcs.naver.com^
