@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W7S5UDJuafipwb0DQiiUWQ
+! Checksum: kXtlqlYTRl93+RxMQhOXQA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202401312137
-! Last Modified: 2024年01月31日 21:37
+! Version: 202401312237
+! Last Modified: 2024年01月31日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63813,6 +63813,7 @@ upi.com##.col-md-12 > table
 roseindia.net##.col-md-4
 disqus.com##.col-promoted
 lapa.ninja##.col-sm-1
+costco.com##.col-xs-12:has([data-bi-placement^="Criteo_Product_Display"])
 gadgetsnow.com,iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
 businessinsider.in##.colombia-rhs-wdgt
 i24news.tv##.column-ads
@@ -64152,6 +64153,7 @@ foodbeast.com##.fdbst-ad-placement
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-site-header-ad-block
 w3techs.com##.feat
 convertcase.net##.feature
+costco.com##.feature-carousel-container[data-rm-format-beacon]
 softarchive.is##.feature-usnt
 mumbrella.com.au##.featureBanner
 eagle1065.com##.featureRotator
@@ -66161,6 +66163,7 @@ walmart.ca##[data-automation="flipkartDisplayAds"]
 jobstreet.com.sg##[data-automation="homepage-banner-ads"]
 jobstreet.com.sg##[data-automation="homepage-marketing-banner-ads"]
 newshub.co.nz##[data-belt-widget]
+costco.com##[data-bi-placement="Criteo_Home_Espot"]
 costco.ca##[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
 theblaze.com##[data-category="SPONSORED"]
@@ -66952,6 +66955,7 @@ natureworldnews.com##label
 tellows-au.com,tellows-tr.com,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.es,tellows.fr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw##li > .comment-body[style*="min-height: 250px;"]
 cgpress.org##li > div[id^="cgpre-"]
 bestbuy.com##li.embedded-sponsored-listing
+streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
 linkedin.com##li[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duckduckgo.com##li[data-layout="products_middle"]
@@ -67512,7 +67516,7 @@ trends.gab.com#?#li.list-group-item:-abp-contains(Sponsored content)
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
-walmart.ca#?#div > div[io-id]:-abp-contains(Sponsored)
+walmart.ca,walmart.com#?#div > div[io-id]:-abp-contains(Sponsored)
 wayfair.com,wayfair.co.uk#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
 winaero.com#?#p:-abp-contains(Advertisement)
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
