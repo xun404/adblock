@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s7Glk6DkMPsRtjRR8qJfZQ
+! Checksum: rgLbXmBKz0wiFOBWNHw+Tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402021937
-! Last Modified: 2024年02月02日 19:37
+! Version: 202402022046
+! Last Modified: 2024年02月02日 20:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -62537,6 +62537,7 @@ playok.com###pread
 adlice.com###preview-div
 talkbass.com###primary-products
 slashfilm.com###primis-container
+walgreens.com###prod-sponsored
 sslshopper.com###promo-outer
 thestreamable.com###promo-signup-bottom-sheet
 dailymail.co.uk###promo-unit
@@ -65633,7 +65634,6 @@ newegg.com##.sponsored-brands
 cheknews.ca##.sponsored-by
 washingtontimes.com##.sponsored-heading
 breakingdefense.com##.sponsored-inline
-walgreens.com##.sponsored-padding
 crn.com##.sponsored-resources
 search.brave.com##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
@@ -66215,6 +66215,8 @@ costco.ca##[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
 theblaze.com##[data-category="SPONSORED"]
 gab.com##[data-comment="gab-ad-comment"]
+sephora.com##[data-comp*="RMNCarousel"]
+sephora.com##[data-comp*="RmnBanner"]
 curbed.com##[data-concert="prelude"]
 axios.com##[data-cy="injected-promo"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
@@ -67001,6 +67003,7 @@ natureworldnews.com##label
 tellows-au.com,tellows-tr.com,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.es,tellows.fr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw##li > .comment-body[style*="min-height: 250px;"]
 cgpress.org##li > div[id^="cgpre-"]
 bestbuy.com##li.embedded-sponsored-listing
+walgreens.com##li.owned-brands:has(figure.sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
 linkedin.com##li[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
@@ -67108,6 +67111,7 @@ cheaptickets.com,ebookers.com,expedia.com,hotels.com,orbitz.com,travelocity.com,
 duckduckgo.com##.vertical-section-divider:has(span.badge--ad-wrap)
 neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
+freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
