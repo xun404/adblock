@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 107htYeIFHUO6u4ZrjKXhg
+! Checksum: RneGHcYmmMxwWaFkdiUgDg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402061737
-! Last Modified: 2024年02月06日 17:37
+! Version: 202402061837
+! Last Modified: 2024年02月06日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -66363,6 +66363,7 @@ gab.com##[aria-label*="Sponsored:"]
 thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
 nbcsports.com##[bsp-reverse-scroll-ad]
+hedgefollow.com##[class$="side_scraper"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 barandbench.com##[class*="ad-slot"]
@@ -66413,6 +66414,7 @@ sephora.com##[data-comp*="RMNCarousel"]
 sephora.com##[data-comp*="RmnBanner"]
 curbed.com##[data-concert="prelude"]
 axios.com##[data-cy="injected-promo"]
+hedgefollow.com##[data-dee_type^="large_banner"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
 ginx.tv##[data-ez-ph-id]
 news.sky.com##[data-format="leaderboard"]
@@ -67105,6 +67107,7 @@ whatmobile.com.pk##div[style^="background-color:#EBEBEB;"]
 fctables.com##div[style^="background:#e3e3e3;position:fixed"]
 footybite.cc##div[style^="border: 2px solid "]
 pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
+tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 realpython.com##div[style^="display:block;position:relative;"]
 elitepvpers.com##div[style^="font-size:11px;"]
 manga-raw.club##div[style^="height: 250px;"]
