@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mHa/CRqZl0/fCR5D6jEUTQ
+! Checksum: NeBB8ehjJScZiFm/PpOb/Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402160737
-! Last Modified: 2024年02月16日 07:37
+! Version: 202402160931
+! Last Modified: 2024年02月16日 09:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1347,7 +1347,6 @@ tieba.baidu.com##.tuijian-wrap
 /js.ng/channel_
 /js.ng/pagepos=
 /js/floatadv.js
-/js/ppu.$script
 /js3caf.js
 /jsad.php
 /jsAds-1.4.min.js
@@ -18066,6 +18065,7 @@ _800x80_
 ##a[href^="https://go.hpyjmp.com"]
 ##a[href^="https://go.hpyrdr.com/"]
 ##a[href^="https://go.markets.com/visit/?bta="]
+##a[href^="https://go.mnaspm.com/"]
 ##a[href^="https://go.skinstrip.net"][href*="?campaignId="]
 ##a[href^="https://go.strpjmp.com/"]
 ##a[href^="https://go.tmrjmp.com"]
@@ -54452,6 +54452,7 @@ browsershots.org#@#.advert_area
 ||rollercoin.com^$third-party
 ||rotaban.ru^$third-party
 ||rtbhouse.com^$third-party
+||sabavision.com^$third-party
 ||salvador24.com^$third-party
 ||sap-traffic.com^$third-party
 ||sape.ru^$third-party
@@ -61226,9 +61227,9 @@ browsershots.org#@#.advert_area
 ||tour.mrskin.com^$popup,third-party
 ||zillastream.com/api/$popup
 !----------------------Specific advert blocking filters-----------------------!
-/asgg.php$domain=ghostbin.me|paste.fo
 /assets/bn/movie.jpg$image,domain=vidstream.pro
 /resolver/api/resolve/v3/config/?$xmlhttprequest,domain=msn.com
+asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
 ||123.manga1001.top^
 ||123animehub.cc/final
@@ -61380,8 +61381,10 @@ browsershots.org#@#.advert_area
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
 ||dontent.powzers.lol^
+||dontent.powzerz.lol^
 ||draftkings.bbgi.com^$subdocument
 ||drive.com.au/ads/
+||dsp.aparat.com^
 ||duplichecker.com/csds/
 ||dyncdn.me/static/20/js/expla
 ||e.cdngeek.com^
@@ -61467,6 +61470,7 @@ browsershots.org#@#.advert_area
 ||hltv.org/staticimg/*?ixlib=
 ||holyfamilyradio.org/banners/
 ||homeschoolmath.net/a/
+||hontent.powzers.lol^
 ||horizonsunlimited.com/alogos/
 ||hortidaily.com/b/
 ||hostsearch.com/creative/
@@ -62070,6 +62074,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||csgfst.com^$popup,domain=hltv.org
 ||csgofast.cash^$popup,domain=hltv.org
 ||csgofastx.com/?clickid=$popup,domain=hltv.org
+||dontent.powzerz.lol^$popup
 ||eentent.streampiay.me^$popup
 ||facebook.com/ads/ig_redirect/$popup,domain=instagram.com
 ||fentent.streampiay.fun^$popup
@@ -62171,6 +62176,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||b1.tubexo.tv^$subdocument
 ||b8ms7gkwq7g.crocotube.com^
 ||babepedia.com/iStripper/
+||babepedia.com/iStripper2023/
 ||babesandstars.com/img/banners/
 ||babeshows.co.uk^*banner
 ||babesinporn.com^*/istripper/
@@ -62494,6 +62500,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||rule34hentai.net^$subdocument,~third-party
 ||rusdosug.com/Fotos/Banners/
 ||scatxxxporn.com/static/images/banners/
+||sdhentai.com/marketing/
 ||see.xxx/pccznwlnrs/
 ||sex-techniques-and-positions.com/banners
 ||sex3.com/ee/s/s/im.php
@@ -63052,6 +63059,7 @@ thedrinknation.com###fcBanner
 247checkers.com###feature-ad-holder
 perezhilton.com###feature-spot
 fandom.com###featured-video__player-container
+djxmaza.in,jytechs.in,miuiflash.com,thecubexguide.com###featuredimage
 getyarn.io###filtered-bottom
 investing.com###findABroker
 healthshots.com###fitnessTools
@@ -63680,7 +63688,7 @@ gumtree.com.au###view-item-page__leaderboard-wrapper
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
 counselheal.com,mobilenapps.com###vplayer_large
 browserleaks.com###vpn_text
-ettvcentral.com###vpnvpn
+1337x.to,ettvcentral.com###vpnvpn
 censor.net###w1001
 censor.net###w1031
 w2g.tv###w2g-square-ad
@@ -64474,6 +64482,7 @@ charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
 businessinsider.in##.bg-slate-100
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
+ewn.co.za##.bg-surface-03.text-content-secondary.space-y-\[0\.1875rem\].p-spacing-s.flex.flex-col.w-max.mx-auto
 wccftech.com##.bg-vertical
 copyprogramming.com##.bg-yellow-400
 overclock3d.net##.bglink
@@ -65407,6 +65416,7 @@ marketwatch.com##.imonaid_context
 exchangerates.org.uk##.imt4
 carscoops.com##.in-asd-content
 thecanary.co##.in-content-ad
+outlookindia.com##.in-house-banner1
 businessinsider.com,insider.com##.in-post-sticky
 faithpot.com##.inarticle-ad
 crash.net##.inarticle-wrapper
@@ -66866,6 +66876,8 @@ militarywatchmagazine.com##.v-size--x-small.theme--light
 zillow.com##.vPTHT
 osuskins.net##.vad-container
 lasvegassun.com##.varWrapper
+salaamedia.com##.vc_custom_1527667859885
+salaamedia.com##.vc_custom_1527841947209
 businessday.ng##.vc_custom_1627979893469
 progamerage.com##.vc_separator
 battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.vc_single_image-wrapper
@@ -68709,7 +68721,7 @@ pimpandhost.com##.ablock_yes
 pornx.to##.above-single-player
 cambb.xxx,chaturbate.com,dlgal.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehentaiworld.com,thehun.net,tiktits.com,uflash.tv,xcafe.com##.ad
 x13x.space##.ad-banner
-coomer.party,coomer.su,kemono.party,kemono.su,pinflix.com,urlgalleries.net##.ad-container
+coomer.party,coomer.su,kemono.party,kemono.su,pics-x.com,pinflix.com,urlgalleries.net##.ad-container
 xnxx.com##.ad-footer
 xtube.com##.adContainer
 iporntoo.com##.adbox-inner
@@ -68736,6 +68748,7 @@ alohatube.com##.advboxemb
 ftopx.com,gayboystube.com,hungangels.com##.advert
 cumlouder.com,flyingjizz.com,gotporn.com,japan-whores.com,porntube.com##.advertisement
 katestube.com,sleazyneasy.com,vikiporn.com,wankoz.com##.advertising
+adultfilmindex.com##.aebn
 porngals4.com##.afb0
 porngals4.com##.afb1
 porngals4.com##.afb2
@@ -69048,6 +69061,7 @@ xxxymovies.com##.kt_imgrc
 hqpornstream.com##.lds-hourglass
 thehun.net##.leaderboard
 xxxpicss.com,xxxpicz.com##.left-banners
+babepedia.com##.left_side > .sidebar_block > a
 xxxporntalk.com##.leftsidenav
 xxxvogue.net##.link-adv
 totsantcugat.info##.live > a[href="http://totsantcugat.info/wp-content/video.php"]
@@ -69513,6 +69527,7 @@ imgsen.com##a[href^="https://hardcoreincest.net/"]
 yaoimangaonline.com##a[href^="https://l.hyenadata.com/"]
 trannygem.com##a[href^="https://landing.transangelsnetwork.com/"]
 datingpornstar.com##a[href^="https://mylinks.fan/"]
+babepedia.com##a[href^="https://porndoe.com/"]
 oncam.me##a[href^="https://pornwhitelist.com/"]
 oncam.me##a[href^="https://publishers.clickadilla.com/signup"]
 fans-here.com##a[href^="https://satoshidisk.com/"]
@@ -71900,6 +71915,10 @@ newduba.cn###jq_youxi
 ||kbomku.xyz^
 ||lfffzv.xyz^
 ||uctutu3789.xyz^
+||gvbta.icu^
+||qlbbowx.xyz^
+||yyddkm526.shop^
+||przbzr.xyz^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -92047,6 +92066,7 @@ omni.soundestlink.com$image
 ||altopd.com^
 ||analys.live^
 ||analysis.fi^
+||analyt.ir^
 ||anonstat.pw^
 ||apeagle.io^
 ||apenterprise.io^
@@ -94367,6 +94387,7 @@ omni.soundestlink.com$image
 ||ssm.codes^$third-party
 ||star-cntr-5.com^$third-party
 ||stat-track.com^$third-party
+||stat.re^$third-party
 ||stat.social^$third-party
 ||stat24.com^$third-party
 ||statcounter.com^$third-party
@@ -95125,7 +95146,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ppcprotect.com^$third-party
 ||push4site.com^$third-party
 ||ravelin.net^$third-party
-||sabavision.com^$third-party
 ||simility.com^$third-party
 ||spideraf.com^$third-party
 !-----------------International third-party tracking domains-----------------!
@@ -100027,7 +100047,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deovr.com/api_logs/
 ||dev.to/fallback_activity_recorder
 ||developer.mozilla.org/submit/
-||df.infra.shopee.ph^
+||df.infra.shopee.
 ||dhl.com/g8Dj6P8TAg/
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||digg.com/library/tracker.js
@@ -100040,6 +100060,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||docs.github.com/events
 ||domainit.com/scripts/track.js
 ||dominos.co.uk/qRgAwS/
+||dot.nonolive.com^
 ||dotesports.com/sp.js
 ||dp.shoprunner.com^
 ||drop.com/impressionsBeacon
@@ -100994,8 +101015,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uber.com/_events
 ||uber.com/_track
 ||uber.com/careers/apply/_log
+||ubereats.com/_errors
+||ubereats.com/_events
 ||ubereats.com/_track
-||ubt.tracking.shopee.ph^
+||ubt.tracking.shopee.
 ||ubuyanalytics.ubuy.com^
 ||ucoz.com/stat/
 ||ucweb.com/collect/
@@ -136286,6 +136309,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stats.proff.no^
 ||tdep.hema.nl/main.js
 ||vg.no/stats/
+||abadis.ir/ajaxcmd/setvisit/
+||abadis.ir/ajaxcmd/stat/
+||aparat.com/gogol/
+||namnak.com/act/stats.json
+||namnak.com/ga.js
 |http://x.o2.pl^
 ||analytics.gazeta.pl^
 ||collect.state.centrum24.pl^
