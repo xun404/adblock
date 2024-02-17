@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BH6sFm8NhMe7eU3R/yJXsA
+! Checksum: 8VFATVXo/7uXs/4TyN4/FQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402171137
-! Last Modified: 2024年02月17日 11:37
+! Version: 202402171237
+! Last Modified: 2024年02月17日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12999,6 +12999,7 @@ _800x80_
 ##.c-posts__ad
 ##.c-prebid
 ##.c-res-ad
+##.c-sidebar-ad-stream__ad
 ##.c-sitenav-adslot
 ##.c-sitenavPlaceholder__ad
 ##.c_nt_ad
@@ -62375,8 +62376,9 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||analsexstars.com/og/
 ||anybunny.tv/js/main.ex.js
 ||anyporn.com/aa/
-||anysex.com/*oio/|$script
-||anysex.com/2-2-temparoryo/
+||anysex.com/*/js|
+||anysex.com/*/script|
+||anysex.com^$subdocument,~third-party
 ||asg.faperoni.com^
 ||atube.xxx/static/js/abb.js
 ||aucdn.net^$media,domain=clgt.one
@@ -69578,6 +69580,7 @@ senzuri.tube##.video-tube-friends
 xhamster.com##.video-view-ads
 china-tubex.site##.videoAd
 javynow.com##.videos-ad__ad
+porntop.com##.videos-slider--promo
 porndoe.com##.videos-tsq
 zbporn.tv##.view-aside
 zbporn.com,zbporn.tv##.view-aside-block
@@ -72150,6 +72153,7 @@ newduba.cn###jq_youxi
 ||cdftizu.xyz^
 ||bdxpdz.xyz^
 ||bjswhpy.cn^
+||fwcnex.icu^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
