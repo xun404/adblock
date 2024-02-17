@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: luuMNR7DG5FZraUX8itM+g
+! Checksum: qvZjS85+3YU34Ovz7KVMgg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402171937
-! Last Modified: 2024年02月17日 19:37
+! Version: 202402172237
+! Last Modified: 2024年02月17日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21204,6 +21204,7 @@ m.babytree.com##script + a[class]
 .gif?Log=
 .jp/pv?
 .jp/static/js/track.js
+.js?id=GTM-
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
@@ -22212,6 +22213,7 @@ m.babytree.com##script + a[class]
 /gtag.min.js
 /GTag/general_tracker.js
 /gtag/js?
+/gtm-data-layer-$script
 /gtm-listeners.js
 /gtm-suite.js
 /gtm.js
@@ -68295,6 +68297,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
+||gtm.diamond.jp^
 ||hatarako.net/api/recommend/analyze_logger
 ||i2i.jp/bin/
 ||img.syosetu.org/js/c_
