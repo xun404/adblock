@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V7cfglX6OUTcvG6PT333xw
+! Checksum: LYKU63koLkNMw70qsz85Cw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402191837
-! Last Modified: 2024年02月19日 18:37
+! Version: 202402191937
+! Last Modified: 2024年02月19日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59924,6 +59924,7 @@ browsershots.org#@#.advert_area
 ||widgets.tree.com^
 ||winonexd.b-cdn.net^
 ||wistia.com/assets/external/googleAds.js
+||wixlabs-adsense-v3.uc.r.appspot.com^
 ||wowtcgloot.com/share/?d=$third-party
 ||wp.com/assets.sheetmusicplus.com/banner/
 ||wp.com/assets.sheetmusicplus.com/smp/
@@ -63015,6 +63016,7 @@ linuxinsider.com###colorbox
 smbc-comics.com###comicright > div[style]
 mirror.co.uk,themirror.com###comments-standalone-mpu
 kotaku.com,qz.com###commerce-inset-wrapper
+blackbeltmag.com###comp-loxyxvrt
 seatguru.com###comparePrices
 cpuid.com###console_log
 miniwebtool.com###contain300-1
@@ -63222,6 +63224,7 @@ searchenginereports.net###imagess1
 searchenginereports.net###imagess2
 searchenginereports.net###imagess3
 linksly.co###imgAddDirectLink
+blackbeltmag.com###img_comp-loxyxvrt
 mydorpie.com###imgbcont
 crn.com###imu1forarticles
 scoop.co.nz###in-cont
@@ -67135,6 +67138,7 @@ urbandictionary.com##[aria-label*="Advertise"]
 gab.com##[aria-label*="Sponsored:"]
 thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
+blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
 nbcsports.com##[bsp-reverse-scroll-ad]
 hedgefollow.com##[class$="side_scraper"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
@@ -67192,6 +67196,7 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
 ginx.tv##[data-ez-ph-id]
 news.sky.com##[data-format="leaderboard"]
 tvzoneuk.com##[data-hook="HtmlComponent"]
+blackbeltmag.com##[data-hook="bgLayers"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
@@ -136437,6 +136442,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||data.nrk.no^
 ||nrk.no^*/stats/
 ||stats.proff.no^
+||stm.komplett.no^
 ||tdep.hema.nl/main.js
 ||vg.no/stats/
 ||abadis.ir/ajaxcmd/setvisit/
@@ -137313,6 +137319,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !---------- Norwegian ----------
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||hvemder.no/js/hitcount.min.js$~third-party
+@@||komplett.no/gtm.js$script,~third-party
 !---------- Polish ----------
 @@||gemius.pl/gstream.js
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl

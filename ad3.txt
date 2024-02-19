@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: veT8IoIxRgfNrEP6T1eweA
+! Checksum: 4nS8A4B70BtARLNbX7zThw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402191837
-! Last Modified: 2024年02月19日 18:37
+! Version: 202402191937
+! Last Modified: 2024年02月19日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -68464,6 +68464,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||data.nrk.no^
 ||nrk.no^*/stats/
 ||stats.proff.no^
+||stm.komplett.no^
 ||tdep.hema.nl/main.js
 ||vg.no/stats/
 ||abadis.ir/ajaxcmd/setvisit/
@@ -69340,6 +69341,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !---------- Norwegian ----------
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||hvemder.no/js/hitcount.min.js$~third-party
+@@||komplett.no/gtm.js$script,~third-party
 !---------- Polish ----------
 @@||gemius.pl/gstream.js
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
