@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iqYsCrMstDl/r0tZ5k0vRg
+! Checksum: 8XqZgyWDidVvwrI3MNCFWQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402202137
-! Last Modified: 2024年02月20日 21:37
+! Version: 202402202237
+! Last Modified: 2024年02月20日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10796,6 +10796,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yunpanziyuan.xyz##.card-site-info + .card
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -24486,6 +24487,7 @@ omni.soundestlink.com$image
 ||stat.ovh^
 ||statisticplatform.com^
 ||statisticsplatform.com^
+||stats.rip^
 ||summerhamster.com^
 ||superpointlesshamsters.com^
 ||t13.io^
@@ -68403,6 +68405,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
 ||tower.jp/bundle/beacon
 ||track.buyma.com^
+||tracking.ai.rakuten.co.jp^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
 ||travel.co.jp/js/analysis.js
