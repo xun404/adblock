@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uSyj6W6MZAmP4qM8ueOdUw
+! Checksum: PcQZVVI3O3YXhRvcS6zDWQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402202337
-! Last Modified: 2024年02月20日 23:37
+! Version: 202402210038
+! Last Modified: 2024年02月21日 00:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -345,6 +345,7 @@ m.youtube.com###koya_child_6
 pan.baidu.com##.upload-bar.global-clearfix
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
+&sadbl=1&abtg=1
 -ad-300x600-
 -ad-458x80.
 -ad-bottom-
@@ -72010,9 +72011,13 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ##a[href*=".bvftxy.com/"]
 ||1ny3r.icu^
+||2jse6.icu^
 ||88lm05.com^
+||8xtm6i.cn^
+||999xx999kk.com^
 ||agmed.cyou^
 ||anjdwmq.xyz^
+||bba9603w.com^
 ||bdxpdz.xyz^
 ||benpsbp.com^
 ||bjswhpy.cn^
@@ -72023,6 +72028,7 @@ newduba.cn###jq_youxi
 ||cdfhidrk.xyz^
 ||cdftizu.xyz^
 ||cdmnlxtu.xyz^
+||cdrvkdni.xyz^
 ||cdybwjpa.xyz^
 ||cliffnsc.xyz^
 ||clywws.xyz^
@@ -72047,17 +72053,24 @@ newduba.cn###jq_youxi
 ||ngnxyub.cn^
 ||nkbkor.icu^
 ||nplahh.xyz^
+||nyt5j.cyou^
 ||ogznfgl.cn^
+||okwkaa.xyz^
 ||ostjpig.cn^
 ||ovjlccs.xyz^
+||p04qzl.cn^
 ||p45m0.icu^
 ||przbzr.xyz^
 ||qlbbowx.xyz^
 ||qzalsk.xyz^
+||rfnvqpo.xyz^
+||ruqwgb.icu^
 ||spsfupq.cn^
 ||szbhb.cn^
 ||szpnz.cn^
 ||szptp.cn^
+||szpwh.cn^
+||tahznx.xyz^
 ||tchdxl.xyz^
 ||tmjetb.xyz^
 ||tu2024020388.com^
@@ -72066,9 +72079,11 @@ newduba.cn###jq_youxi
 ||uu22662.com^
 ||uxrdg.cn^
 ||wnmaoc.xyz^
+||wqcfg.cn^
 ||xcypgd.icu^
 ||xdfhidrk.xyz^
 ||xdmnlxtu.xyz^
+||xdrvkdni.xyz^
 ||xdybwjpa.xyz^
 ||xliffnsc.xyz^
 ||xszw0.icu^
@@ -72076,28 +72091,13 @@ newduba.cn###jq_youxi
 ||xvudqzoa.xyz^
 ||ycqbgm.xyz^
 ||ydfhidrk.xyz^
+||ydrvkdni.xyz^
 ||ydybwjpa.xyz^
 ||yliffnsc.xyz^
 ||yvbjctqs.xyz^
 ||yvudqzoa.xyz^
 ||yyddkm526.shop^
 ||ztxjutz.xyz^
-||8xtm6i.cn^
-||wqcfg.cn^
-||okwkaa.xyz^
-||okwkaa.xyz^
-||2jse6.icu^
-||tahznx.xyz^
-||rfnvqpo.xyz^
-||ydrvkdni.xyz^
-||cdrvkdni.xyz^
-||nyt5j.cyou^
-||szpwh.cn^
-||ruqwgb.icu^
-||p04qzl.cn^
-||xdrvkdni.xyz^
-||999xx999kk.com^
-||bba9603w.com^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -81152,7 +81152,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-yunpanziyuan.xyz##.card-site-info + .card
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -83336,6 +83335,7 @@ hao.360.cn##.cangbao_redbags
 duba.com##.car_ads
 pixabay.com##.carbon-ad
 steamstats.cn##.card-link
+yunpanziyuan.xyz##.card-site-info + .card
 itdog.cn##.card[style="padding: 6px 10px 5px 5px;"]
 16888.com##.cardataclass
 byxx.com##.cataAD
@@ -98455,6 +98455,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.wisepops.com^
 ||tracking1.brandmentions.com^
 ||tracking2.channeladvisor.com^
+||trackingapi.trendemon.com/api/events/pageview?
 ||trackjs.com/agent/$script,third-party
 ||trackjs.com/releases/current/tracker.js
 ||trackjs.com/usage.gif?
