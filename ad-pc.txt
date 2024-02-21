@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zfd48bNXOtJkMrSNdWtJXQ
+! Checksum: 5fBo+IkfWcmPHo7RC0kX0g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402212047
-! Last Modified: 2024年02月21日 20:47
+! Version: 202402212137
+! Last Modified: 2024年02月21日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17982,6 +17982,7 @@ _800x80_
 ##a[href^="http://bc.vc/?r="]
 ##a[href^="http://bongacams.com/track?"]
 ##a[href^="http://cam4com.go2cloud.org/aff_c?"]
+##a[href^="http://com-1.pro/"]
 ##a[href^="http://deskfrontfreely.com/"]
 ##a[href^="http://dragfault.com/"]
 ##a[href^="http://dragnag.com/"]
@@ -62716,6 +62717,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||pornv.xxx/static/js/abb.js
 ||pornve.com/img/300x250g.gif
 ||pornve.sexyadsrun.com^
+||pornxbox.com/cs/
 ||pornxp.com/2.js
 ||pornxp.com/sp/
 ||pornxp.net/spnbf.js
@@ -69393,7 +69395,7 @@ rule34.xxx##.nutaku-mobile
 boundhub.com##.o3pt
 bdsmx.tube##.oImef0
 lustgalore.com##.opac_bg
-pornchimp.com,teenmastube.com,watchmygf.mobi##.opt
+pornchimp.com,pornxbox.com,teenmastube.com,watchmygf.mobi##.opt
 bbporntube.pro##.opve-bns-bl
 bbporntube.pro##.opve-right-player-col
 hentaistream.com##.othercontent
@@ -100049,6 +100051,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.schibsted.io^
 ||eniro.com/pixel/
 ||evt-api.ntm.eu^
+||impression-tracker-service-5eimuebuhq-lz.a.run.app^
+||pji.nu/libs/pjpixel/
 ||vizzit.se^$third-party
 ||pixel.smartmedia.tj^
 ||sal.isanook.com^
@@ -100423,6 +100427,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dev.to/fallback_activity_recorder
 ||developer.mozilla.org/submit/
 ||df.infra.shopee.
+||df.infra.sz.shopee.
 ||dhl.com/g8Dj6P8TAg/
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||digg.com/library/tracker.js
@@ -136924,6 +136929,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ai.idg.se^
 ||ax.idg.se^
 ||blocket.se/js/trafikfonden.js
+||bonmed.se/monitoring?
 ||falkenbergtorget.se/sc.gif?
 ||fusion.bonniertidskrifter.se^
 ||gx.idg.se^
