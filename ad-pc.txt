@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R6OgLIyboFEwZAMDvh9G+A
+! Checksum: zfd48bNXOtJkMrSNdWtJXQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402211537
-! Last Modified: 2024年02月21日 15:37
+! Version: 202402212047
+! Last Modified: 2024年02月21日 20:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -72085,7 +72085,6 @@ newduba.cn###jq_youxi
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
-##a[href="/vod/detail/id/118265.html"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
@@ -72176,6 +72175,7 @@ newduba.cn###jq_youxi
 ||194.59.220.161^
 ||205.209.138.102^
 ||23.231.151.252^
+##a[href*="/122.51.121.126:"]
 ||cupfox.app^$third-party
 ##a[href*=".bvftxy.com/"]
 ||1ny3r.icu^
@@ -72278,6 +72278,7 @@ newduba.cn###jq_youxi
 ||ddielv.cn^
 ||cvnxetmq.xyz^
 ||shuocyw.cn^
+||aaoisp.com^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -137349,6 +137350,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 !! ci-mpsnare.iovation.com
 @@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
+!! lightning.cnn.com
+@@||lightning.cnn.com^$script,domain=wfmz.com
 !! tag.aticdn.net
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 !! cdn.optimizely.com/public
