@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zVRUSmBg4dlAb93trilktQ
+! Checksum: pZD6BJxj56jKHeWHTaJfNQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202402212137
-! Last Modified: 2024年02月21日 21:37
+! Version: 202402212237
+! Last Modified: 2024年02月21日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2368,7 +2368,6 @@ _atblockdetector/
 /960_60_
 /980x90.
 =300x250/
-=300x250_
 =336x280,
 =468x60/
 =468x60_
@@ -17901,6 +17900,7 @@ _800x80_
 ##a[href^="https://a.bestcontentoperation.top/"]
 ##a[href^="https://a.bestcontentweb.top/"]
 ##a[href^="https://a.medfoodhome.com/"]
+##a[href^="https://a.medfoodsafety.com/"]
 ##a[href^="https://a2.adform.net/"]
 ##a[href^="https://ab.advertiserurl.com/aff/"]
 ##a[href^="https://activate-game.com/"]
@@ -62602,6 +62602,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||pornstargold.com/9f3e5bbb8645.js
 ||pornstargold.com/af8b32fc37c0.js
 ||pornstargold.com/e7e5ed47e8b4.js
+||pornstargold.com/tf2b6c6c9a44/
 ||pornv.xxx/static/js/abb.js
 ||pornve.com/img/300x250g.gif
 ||pornve.sexyadsrun.com^
@@ -68707,6 +68708,7 @@ massfans.cc,massrips.cc###banner4
 filtercams.com###bannerFC
 cuntest.net###banners
 fakings.com,nigged.com###banners_footer
+pornstargold.com###basePopping
 lewdspot.com,mopoga.com###belowGameAdContainerPause
 cockdude.com###beside-video-ver2
 sexyandfunny.com###best-friends
@@ -68803,6 +68805,7 @@ hentai2w.com,iporntoo.com,tsmodelstube.com,xhentai.tv###playerOverlay
 ebony8.com,lesbian8.com,maturetubehere.com###player_add
 redtube.com###popsByTrafficJunky
 javtrailers.com###popunderLinkkkk
+pornstargold.com###popup
 jav321.com###popup-container
 sextvx.com###porntube_hor_bottom_ads
 thejavmost.com###poster
@@ -69118,6 +69121,7 @@ porngifs2u.com##.elementor-widget-posts + .elementor-widget-heading
 rare-videos.net##.embed-container
 vxxx.com##.emrihiilcrehehmmll
 tsumino.com##.erogames_container
+pornstargold.com##.et_bloom_popup
 upornia.com,upornia.tube##.eveeecsvsecwvscceee
 eromanga-show.com,hentai-one.com,hentaipaw.com##.external
 lewdzone.com##.f8rpo
@@ -69520,6 +69524,7 @@ videosection.com##.video-item--a
 videosection.com##.video-item--adv
 ok.xxx,pornhat.com##.video-link
 pornzog.com##.video-ntv
+ooxxx.com##.video-ntv-wrapper
 pornhdtube.tv,recordbate.com##.video-overlay
 hotmovs.tube##.video-page > .block_label > div
 thegay.com##.video-page__content > .right
@@ -69717,7 +69722,7 @@ oncam.me##a[href^="https://torguard.net/aff.php"]
 forums.socialmediagirls.com##a[href^="https://viralporn.com/"][href*="?utm_"]
 oncam.me##a[href^="https://www.clickadu.com/?rfd="]
 myreadingmanga.info##a[href^="https://www.dlsite.com/"]
-namethatpornad.com##a[href^="https://www.g2fame.com/"]
+namethatpornad.com,vxxx.com##a[href^="https://www.g2fame.com/"]
 myreadingmanga.info,yaoimangaonline.com##a[href^="https://www.gaming-adult.com/"]
 gotporn.com##a[href^="https://www.gotporn.com/click.php?id="]
 spankbang.com##a[href^="https://www.iyalc.com/"]
@@ -69766,6 +69771,7 @@ abxxx.com,aniporn.com,missav.com,missav123.com,missav789.com,redgifs.com##div[st
 sexbot.com##div[style="width:300px;height:20px;text-align:center;padding-top:30px;"]
 pornpics.network##div[style^="height: 250px;"]
 gay0day.com##div[style^="height:250px;"]
+ooxxx.com##div[style^="width: 728px; height: 90px;"]
 thehentai.net##div[style^="width:300px; height:250px;"]
 javtorrent.me##div[style^="width:728px; height: 90px;"]
 rateherpussy.com##font[size="1"][face="Verdana"]
@@ -92479,6 +92485,7 @@ omni.soundestlink.com$image
 ||k5a.io^
 ||krxd.net^
 ||kspotson.de^
+||ldgnrtn.com^
 ||ldnlyap.com^
 ||leadhit.io^
 ||liveyield.com^
@@ -135844,6 +135851,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analytics.allovoisins.com^
 ||analytics.clubic.com^
 ||api.odysee.com/locale/get
+||api.ouedkniss.com/health/
+||api.ouedkniss.com^*&xTrackId=
 ||api.tacotax.fr/v2/amplitude_trackers
 ||batiactu.com/cap_
 ||bmly.impots.gouv.fr^
