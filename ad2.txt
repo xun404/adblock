@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fD2esR0jJDuCYv04ccb5/w
+! Checksum: Op7esH4X0IZrj0Gllg+KEw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202402220737
-! Last Modified: 2024年02月22日 07:37
+! Version: 202402220930
+! Last Modified: 2024年02月22日 09:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1589,7 +1589,7 @@ newduba.cn###jq_youxi
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
-##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
+##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body[onload*="u()"] > #x
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -1761,6 +1761,8 @@ newduba.cn###jq_youxi
 ||wkywrc.cn^
 ||rarcff.xyz^
 ||phvfevk.xyz^
+||rydyvv.xyz^
+||zopuqv.icu^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -13199,7 +13201,6 @@ pan.baidu.com##.decrease-active
 sm.ms##.detail-advert
 dytt5.net##.detail-body > .fly-panel
 17qingsong.com##.detail-gads
-pc.qq.com##.detail-install-fast
 360kuai.com##.detail-top-banner
 ali213.net##.detailAlertBox > a[style]
 360kuai.com##.detail__top__title__under
