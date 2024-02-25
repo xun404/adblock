@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sRB6eShX0f3lfgk5mkgN4Q
+! Checksum: X9oXQ4F+SnDtT9aJSralDg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202402250737
-! Last Modified: 2024年02月25日 07:37
+! Version: 202402250934
+! Last Modified: 2024年02月25日 09:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1675,6 +1675,7 @@ tieba.baidu.com##.tuijian-wrap
 /service/adv/*
 /servlet/view/*
 /set_adcode?
+/sft-prebid.js
 /show-ad.
 /show_ad.
 /show_ad?
@@ -18649,7 +18650,7 @@ fireload.com#@#.ads-mobile
 juicesky.com#@#.ads-title
 pop-music.ir#@#.ads-top
 mastersclub.jp#@#.ads.widget
-getwallpapers.com,wallpaperaccess.com,wallpaperset.com#@#.ads1
+getwallpapers.com,wallpaperaccess.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
 jw.org#@#.adsBlock
 cars.mitula.ae#@#.adsList
 trustnet.com#@#.ads_right
@@ -64946,6 +64947,7 @@ guidingtech.com##.at1
 guidingtech.com##.at2
 fedex.com##.atTile1
 timesnownews.com##.atfAdContainer
+miragenews.com##.attachment-wt450_250
 audiobacon.net##.audio-widget.et_pb_widget
 darko.audio##.audio_widget
 mbl.is##.augl
@@ -67527,6 +67529,7 @@ tetris.com##.verticalAx
 packaginginsights.com##.verticlblk
 forbes.com##.vestpocket
 thenewdaily.com.au##.vf-promo
+mirror.co.uk##.vf3-conversations-list__promo
 videogameschronicle.com##.vgc-productsblock
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 express.co.uk##.viafoura-standalone-mpu
@@ -72687,6 +72690,11 @@ newduba.cn###jq_youxi
 ||zopuqv.icu^
 ||ztxjutz.xyz^
 ||zuvbzl.xyz^
+||dzuht.cn^
+||bvxiht.xyz^
+||hexcvb.xyz^
+||efmtsw.xyz^
+||b37r5.cyou^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -100582,6 +100590,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amethyst.zappos.com^
 ||amiunique.org/analytics.js
 ||amnesty.org/collect/
+||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
 ||analytics-api.dvdfab.
@@ -101246,6 +101255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcs-va.tiktokv.com^
 ||mcs.tiktokv.us^
 ||mcs.us.tiktokv.com^
+||medal.tv^$ping
 ||medium.com/_/batch
 ||meduza.io/stat/
 ||megaplay.cc/cdn-cgi/trace
