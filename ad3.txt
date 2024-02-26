@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O3/K0s0btmcdas4wd0Ebcg
+! Checksum: gnRxHGPNV5Dhj67tLX+K6g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402261537
-! Last Modified: 2024年02月26日 15:37
+! Version: 202402261937
+! Last Modified: 2024年02月26日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -32415,6 +32415,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fansedge.com/api/track
 ||fansshare.com/t.gif
 ||faphouse.com/collector/
+||faro-collector-prod-*.grafana.net^
 ||fathom.app.silverbeak.com^
 ||fathom.tdvm.net^
 ||fbo-statistics-collector-tc.is.flippingbook.com^
@@ -69363,6 +69364,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !---------- Dutch ----------
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
+@@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 !---------- Finnish ----------
