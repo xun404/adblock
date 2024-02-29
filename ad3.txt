@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: daJrPTIOi/dCdeaKZL/RbQ
+! Checksum: 9W0gTOldubTKNfzTnLdu2Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202402291837
-! Last Modified: 2024年02月29日 18:37
+! Version: 202402291942
+! Last Modified: 2024年02月29日 19:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22618,6 +22618,7 @@ m.babytree.com##script + a[class]
 /log/log-event-
 /log/log.php?
 /log/logs?
+/log/metrics?
 /log/page-view
 /log/pageview
 /log/report/*
@@ -24300,6 +24301,7 @@ _WebVitalsReporter_
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
 /track/open.php?
+/track/open/*$image
 /track/open?
 /tracking.fanbridge.com/*
 /tracking.srv2.de/op/*$image
@@ -24827,6 +24829,7 @@ omni.soundestlink.com$image
 ||aimediagroup.com^$third-party
 ||air2s.com^$third-party
 ||airbrake.io^$third-party
+||airlogak.com^$third-party
 ||airpr.com^$third-party
 ||airserve.net^$third-party
 ||aivalabs.com^$third-party
@@ -68472,6 +68475,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||amazonaws.com/ai-img/aia.js
 ||ameba.jp/cookie/
 ||ameblo.jp/accesslog/
+||analysis.aws.locondo.jp^
 ||analytics.castel.jp^
 ||analytics.cocolog-nifty.com^
 ||analytics.ikyu.com^
