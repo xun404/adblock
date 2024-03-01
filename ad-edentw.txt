@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NdAGRS+wqw+FjJTeVrkwrg
+! Checksum: DAFbILDlLx4veyByWLj6uQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202403020037
-! Last Modified: 2024年03月02日 00:37
+! Version: 202403020537
+! Last Modified: 2024年03月02日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1100,7 +1100,7 @@ komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R un
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
 ! Popup/Popunder
-streamingcommunity.net#$#abort-current-inline-script String.fromCharCode /btoa|break/
+streamingcommunity.*#$#abort-current-inline-script String.fromCharCode /btoa|break/
 animeunity.tv#$#abort-on-property-read localStorage
 ! #CV-1366
 tiscali.it#$#hide-if-matches-xpath './/a[@href][contains(@class,"ofrtsrc")][@target="_blank"]/ancestor::div[@data-nosnippet]/ancestor::div[contains(@class,"ofrtsrc")]'
