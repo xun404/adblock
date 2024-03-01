@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AN7dnGfkWqUR0m/6jQjvAw
+! Checksum: OlOV9ljD9wXAmpMw/DGxPg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403010937
-! Last Modified: 2024年03月01日 09:37
+! Version: 202403011038
+! Last Modified: 2024年03月01日 10:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1343,7 +1343,6 @@ tieba.baidu.com##.tuijian-wrap
 /js.ng/cat=
 /js.ng/channel_
 /js.ng/pagepos=
-/js/floatadv.js
 /js3caf.js
 /jsad.php
 /jsAds-1.4.min.js
@@ -17747,7 +17746,7 @@ _800x80_
 ##[data-mobile-ad-id]
 ##[data-name="adaptiveConstructorAd"]
 ##[data-rc-widget]
-##[data-revive-zoneid]
+##[data-revive-zoneid] > iframe
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[data-testid="adBanner-wrapper"]
@@ -62029,6 +62028,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||engagesrvr.filefactory.com^
 ||engine.fxempire.com^
 ||engine.laweekly.com^
+||eontent.powzerz.lol^
 ||eteknix.com/wp-content/uploads/*skin
 ||etxt.biz/data/rotations/
 ||etxt.biz/images/b/
@@ -62043,6 +62043,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||familylawweek.co.uk/bin_1/
 ||fastapi.tiangolo.com/img/sponsors/$image
 ||fauceit.com/Roulette-(728x90).jpg
+||fentent.stre4mplay.one^
 ||fentent.streampiay.fun^
 ||fentent.streampiay.me^
 ||file-upload.site/page.js
@@ -62698,7 +62699,9 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||csgofastx.com/?clickid=$popup,domain=hltv.org
 ||dontent.powzerz.lol^$popup
 ||eentent.streampiay.me^$popup
+||eontent.powzerz.lol^$popup
 ||facebook.com/ads/ig_redirect/$popup,domain=instagram.com
+||fentent.stre4mplay.one^$popup
 ||fentent.streampiay.fun^$popup
 ||fentent.streampiay.me^$popup
 ||flashtalking.com^$popup,domain=twitch.tv
@@ -66312,6 +66315,7 @@ latestly.com##.lhs_adv_970x90_div
 gadgets360.com##.lhs_top_banner
 iheartradio.ca##.lightbox-wrapper
 rebelnews.com##.lighter-gray-bg
+lilo.org##.lilo-ad-result
 getbukkit.org##.limit
 linuxize.com##.linaff
 architecturesideas.com##.linkpub_right_img
