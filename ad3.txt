@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bvtrp8bnFlvgYFh5OsqLhg
+! Checksum: g347Ds7Z+lV3T+VVPdCM8w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403030037
-! Last Modified: 2024年03月03日 00:37
+! Version: 202403030737
+! Last Modified: 2024年03月03日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -32182,6 +32182,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.ffm.to/sl/e/$image
 ||api.narrativ.com/favicon.ico
 ||api.privacyguides.net^
+||api.takealot.com^$ping
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
@@ -69146,6 +69147,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com^$domain=mixpanel.com
+@@||my.goabode.com/assets/js/fp2.min.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||nationwide.com/myaccount/includes/images/x.gif$~third-party
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
