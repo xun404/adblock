@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iGwQDaScvN2/nvm9nQs5Zg
+! Checksum: JUpU2CxjOoGTK3+ppHQzgg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403050738
-! Last Modified: 2024年03月05日 07:38
+! Version: 202403050931
+! Last Modified: 2024年03月05日 09:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -64654,6 +64654,7 @@ xxxporn.tube###watch_sidevide
 xxxporn.tube###watch_undervideo
 worldcrunch.com###wc_leaderboard
 topfiveforex.com###wcfloatDiv
+the-express.com###web-strip-banner
 geotastic.net###wetter-de-banner
 webfail.com###wf-d-300x250-sb1
 walterfootball.com###wf_brow_box
@@ -68149,6 +68150,7 @@ amp.theguardian.com##[data-sort-time="1"]
 vrbo.com##[data-stid="meso-ad"]
 cheaptickets.com,ebookers.com,expedia.com,hotels.com,orbitz.com,travelocity.com,wotif.com##[data-stid="meso-similar-properties-carousel"]
 coingecko.com##[data-target="ads.banner"]
+the-express.com##[data-tb-non-consent]
 mail.yahoo.com##[data-test-id="gam-iframe"]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
@@ -73190,6 +73192,8 @@ newduba.cn###jq_youxi
 ||ybrrvck.xyz^
 ||rlw86.cyou^
 ||jgblvt.xyz^
+||tjfbh.icu^
+||5z0d3.cyou^
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
@@ -138060,7 +138064,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|ba.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
@@ -138359,7 +138363,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||wwwimage-tve.cbsstatic.com^
 @@||omns.americanexpress.com/b/ss/
-@@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
+@@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
