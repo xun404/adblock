@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MpSnxIqJPOMrQW24sVCvRQ
+! Checksum: 4UTLZlMj+/MpIXS1x6inwg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202403091237
-! Last Modified: 2024年03月09日 12:37
+! Version: 202403091437
+! Last Modified: 2024年03月09日 14:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17997,7 +17997,6 @@ _800x80_
 ##gpt-ad
 ##guj-ad
 ##hl-adsense
-##iframe[src="about:blank"]
 ##img[src^="https://images.purevpnaffiliates.com"]
 ##ps-connatix-module
 ##span[data-ez-ph-id]
@@ -70772,21 +70771,25 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||recaptcha.net/recaptcha/$script
 @@||search.brave.com/search$xmlhttprequest
 @@||ui.ads.microsoft.com^$~third-party
+@@://10.0.0.$generichide
+@@://10.1.1.$generichide
 @@://127.0.0.1$generichide
-@@://192.168.0.1$generichide
-@@://192.168.1.1$generichide
+@@://192.168.$generichide
 @@://localhost:$generichide
+@@||accounts.google.com^$generichide
 @@||ads.microsoft.com^$generichide
 @@||apple.com^$generichide
 @@||bitbucket.org^$generichide
 @@||builder.io^$generichide
 @@||calendar.google.com^$generichide
 @@||cbs.com^$generichide
+@@||cdpn.io^$generichide
 @@||cloud.google.com^$generichide
 @@||codepen.io^$generichide
 @@||codesandbox.io^$generichide
 @@||contacts.google.com^$generichide
 @@||curiositystream.com^$generichide
+@@||deezer.com^$generichide
 @@||discord.com^$generichide
 @@||disneyplus.com^$generichide
 @@||docs.google.com^$generichide
@@ -70807,7 +70810,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
 @@||max.com^$generichide
+@@||meet.google.com^$generichide
 @@||mui.com^$generichide
+@@||music.amazon.$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
 @@||notion.so^$generichide
@@ -70820,6 +70825,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
 @@||publicwww.com^$generichide
+@@||qobuz.com^$generichide
 @@||reddit.com^$generichide
 @@||slack.com^$generichide
 @@||sourcegraph.com^$generichide
