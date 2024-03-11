@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3DZxcj2S0mQ+vGowkv4MXQ
+! Checksum: sLZO61vJlVpcPv++9wLFeg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403112048
-! Last Modified: 2024年03月11日 20:48
+! Version: 202403112237
+! Last Modified: 2024年03月11日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1980,6 +1980,7 @@ newduba.cn###jq_youxi
 ##a[href*=".asd245796.com:"]
 ||diccsbhij.com^
 ##a[href*=".mjjji.com/"]
+||justapp.top^
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
@@ -16704,9 +16705,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
-@@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
-@@_cpc_cpm_$domain=fydy8.com|saraba1st.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
 @@||10010.cn^*/ad
@@ -17013,9 +17013,9 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||hanjubaike.com^$script,~third-party
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
-@@||haokoubei.top/check_img_block.js
-@@||haokoubei.top/dl/rfo_v_f_pc.js
-@@||haokoubei.top/sz/to_v_f.js
+@@||haokoubei.top/sz/tos_v_f.js
+@@_adview_$domain=52xkdy.com
+@@_adview_$domain=fydy8.com
 @@||haoweichi.com/Public/js/ads.js
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css
@@ -21757,6 +21757,7 @@ m.babytree.com##script + a[class]
 /analyticstracking.js
 /anametrix/cas.js
 /anclytic-ajax.html
+/anclytic.htm
 /angular-tag.js
 /anonymous_user_guid.gif?
 /api-analytics.
@@ -21769,7 +21770,6 @@ m.babytree.com##script + a[class]
 /api/event-rfkj/*
 /api/ipv4check?
 /api/log-visit
-/api/log?
 /api/metrics/collect
 /api/pageactivity
 /api/pageview?
@@ -23340,6 +23340,7 @@ m.babytree.com##script + a[class]
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
+/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
@@ -32764,6 +32765,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hotstar.com/v1/identify
 ||hotstar.com/v1/track
 ||houzz.com/hsc/aetrk/
+||houzz.com/j/ajax/client-error-light?
 ||houzz.com/js/log?
 ||hqq.ac/cdn-cgi/trace
 ||hqq.to/cdn-cgi/trace
@@ -32843,6 +32845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
+||kgoma.com/v1/stat/
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
@@ -32998,6 +33001,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||neowin.net/ws/$websocket
 ||net.haier.com^
 ||netflix.com/msl/playapi/cadmium/logblob/
+||netu.ac/cdn-cgi/trace
 ||netuplayer.top/cdn-cgi/trace
 ||netusia.xyz/cdn-cgi/trace
 ||newegg.com/amber3/tracking
@@ -68677,6 +68681,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||goo.ne.jp^*/vltracedmd.js
 ||gtm.diamond.jp^
 ||hatarako.net/api/recommend/analyze_logger
+||hatena.ne.jp/api/log?
 ||i2i.jp/bin/
 ||img.syosetu.org/js/c_
 ||j1.ax.xrea.com^
