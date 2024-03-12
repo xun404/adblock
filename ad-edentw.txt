@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WitQX2jPd1hvqQVcCwinKA
+! Checksum: Ksf81LPMoAAuUs6aBX8ofA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202403121737
-! Last Modified: 2024年03月12日 17:37
+! Version: 202403121837
+! Last Modified: 2024年03月12日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -419,8 +419,7 @@ ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ li 'li>div.recs-item-content div>span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ div[role]>div 'div[role]>div.recs-item-content div>span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /[Ss]ponsored|[Aa]nzeigen|[Ss]ponsorisé|[Ss]ponsorizzat[ie]|[Ss]ponsorowane|[Gg]⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|[Pp]atrocinado/ 'div[class^="recs-placement-arrangement"]' 'div.recs-card-container div.recs-header div ^^sh^^ *'
-ebay.*#$#hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'
-ebay.*#$#hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"previousElementSibling")]' /b\=\'\(.*?)\'===/
+ebay.*#$#race start; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"previousElementSibling")]' /b\=\'\(.*?)\'===/; hide-if-contains-visible-text /(d(.*)e(.*)r(.*)o(.*)s(.*)n(.*)o(.*)p(.*)S)|(e(.*)g(.*)i(.*)e(.*)z(.*)n(.*)A)|(é(.*)s(.*)i(.*)r(.*)o(.*)s(.*)n(.*)o(.*)p(.*)S)|(o(.*)t(.*)a(.*)z(.*)z(.*)i(.*)r(.*)o(.*)s(.*)n(.*)o(.*)p(.*)S)|(e(.*)n(.*)a(.*)w(.*)o(.*)r(.*)o(.*)s(.*)n(.*)o(.*)p(.*)S)|(d(.*)r(.*)o(.*)s(.*)n(.*)o(.*)p(.*)s(.*)e(.*)G)|(o(.*)d(.*)a(.*)n(.*)i(.*)c(.*)o(.*)r(.*)t(.*)a(.*)P)|(助(.*)贊)/ 'ul > li' 'ul>li span.s-item__sep--rev'; race stop;
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com; strip-fetch-query-parameter conf_csid warnermediacdn.com; strip-fetch-query-parameter app_csid warnermediacdn.com
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
