@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: now9gEnu1us8slEXH8UASw
+! Checksum: SzV+4ZbFncuhW+siRJ+3zA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403150737
-! Last Modified: 2024年03月15日 07:37
+! Version: 202403150932
+! Last Modified: 2024年03月15日 09:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2012,6 +2012,7 @@ newduba.cn###jq_youxi
 ||qnifdlay.top^
 ||damiul.icu^
 ||xhbshv.xyz^
+||djxpnuo.xyz^
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
@@ -22897,7 +22898,7 @@ m.babytree.com##script + a[class]
 /metrics/event?
 /metrics/ga.js
 /metrics/init?
-/metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~source.dot.net|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -28377,6 +28378,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apkonline.ru^$third-party
 ||audsp.com^$third-party
 ||avsplow.com^$third-party
+||ban.su^$third-party
 ||bid.run^$third-party
 ||bidderrtb.com^$third-party
 ||botdetector.ru^$third-party
@@ -32638,6 +32640,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-router.olympics.com^
 ||event.platform.tunein.com^
 ||eventlog.jackpot.de^
+||events-ingestion.services.gorgias.com^
 ||events-prod.autolist.com^
 ||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
@@ -33264,6 +33267,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||siberiantimes.com/counter/
 ||sid.nordstrom.com^
 ||silvergames.com/div/g.php?
+||simplelogin.io/p/api/event
 ||skyscanner.*/slipstream/view
 ||slack-edge.com/bv1-10/slack_beacon.
 ||slack.com/beacon/
@@ -69668,6 +69672,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
+@@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
