@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V7dbREE9FXuX4dXVaEbdmQ
+! Checksum: ZKPKOyUODogm/9N3ktow1w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202403182137
-! Last Modified: 2024年03月18日 21:37
+! Version: 202403190040
+! Last Modified: 2024年03月19日 00:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1039,6 +1039,7 @@ filmtelecharger.net,libertyvf.co,libertyvf.tv,libertyvf.com,streaming-one.com,ex
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[@class="abLabel"]'; hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[1]'
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor-or-self::div[contains(@id,"AdDisplay") and  contains(@data-action,"AdsDisplay")]'
+cdiscount.com#$#hide-if-matches-xpath '//div[@class="c-sponsoredMentions"]/parent::div[@class]'; hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]';
 cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
 ! MISC
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read ownerid
