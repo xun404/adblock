@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: shLitGwL1c4wCqASVWcN9A
+! Checksum: EY5LatagCaqiCfB35TH4GA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202403181837
-! Last Modified: 2024年03月18日 18:37
+! Version: 202403182049
+! Last Modified: 2024年03月18日 20:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -404,7 +404,7 @@ noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/a
 noon.com#$#hide-if-matches-xpath './/span[text()="Sponsored"]/preceding::img[contains(@src,"/ads/banner")]/ancestor-or-self::div[contains(@class,"adBannerModule")][@data-qa]/parent::div'
 noon.com##div[data-slotid*="hero_banner_"]
 ! #RM-68
-cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[@class="inventory-ad-main vehicle-card-main"]'
+cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
 cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-sponsored"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
 ! CV-1935
 ##.jag8CityBio212023
