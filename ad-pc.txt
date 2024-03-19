@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vW17prtUiqL6QdDr/IG+bA
+! Checksum: 8RwktvYyU8a4wER9ouCAQg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403190931
-! Last Modified: 2024年03月19日 09:31
+! Version: 202403191037
+! Last Modified: 2024年03月19日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55118,6 +55118,7 @@ browsershots.org#@#.advert_area
 ||adworldmedia.com^$third-party
 ||adworldmedia.net^$third-party
 ||adx.io^$third-party
+||adx.ws^$third-party
 ||adxoo.com^$third-party
 ||adxpose.com^$third-party
 ||adxpremium.com^$third-party
@@ -64395,6 +64396,7 @@ ancient-origins.net###ao-article-outbrain
 ancient-origins.net###ao-sidebar-outbrain
 mybanktracker.com###article-content > .lazyloaded
 timesofmalta.com###article-sponsored
+forbes.com###article-stream-1
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
 thehindu.com###articledivrec
 fool.com###articles-incontent2
@@ -65610,6 +65612,7 @@ freepressjournal.in##.ad-slots
 usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
 techinformed.com##.ad-text-styles
 companiesmarketcap.com##.ad-tr
+forbes.com##.ad-unit
 bqprime.com##.ad-with-placeholder-m__place-holder-wrapper__1_rkH
 trueachievements.com##.ad-wrap
 crn.com,smithsonianmag.com,tasty.co##.ad-wrapper
@@ -66684,6 +66687,7 @@ imgur.com##.fast-grid-ad
 thepointsguy.com##.favorite-cards
 futbin.com##.fb-ad-placement
 triangletribune.com##.fba_links
+forbes.com##.fbs-ad--mobile-medianet-wrapper
 forbes.com##.fbs-ad--ntv-deskchannel-wrapper
 forbes.com##.fbs-ad--ntv-home-wrapper
 whatismyipaddress.com##.fbx-player-wrapper
@@ -67380,6 +67384,7 @@ kitco.com##.mining-banner-container
 ar15.com##.minis
 247sports.com##.minutely-wrapper
 revolutionsoccer.net##.mls-o-adv-container
+mmegi.bw##.mmegi-web-banner
 inhabitat.com##.mn-wrapper
 houstonchronicle.com,mysanantonio.com,sfgate.com##.mnh90px
 allrecipes.com##.mntl-jwplayer-broad
@@ -67532,6 +67537,7 @@ designtaxi.com##.nt-displayboard
 newtimes.co.rw##.nt-horizontal-ad
 newtimes.co.rw##.nt-vertical-ad
 english.nv.ua##.nts-video-wrapper
+forbes.com##.ntv-loading
 marineelectronics.com,marinetechnologynews.com##.nwm-banner
 kueez.com,trendexposed.com,wackojacko.com##.nya-slot
 nypost.com##.nyp-s2n-wrapper
@@ -67710,6 +67716,7 @@ theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
 check-host.net##.pr-e-lative
 oneesports.gg##.pr-sm-4
+hindustantimes.com##.pramotedWidget
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com##.pre-article-ad
 foxbusiness.com##.pre-content
 sassymamahk.com##.pre_header_widget
@@ -68515,8 +68522,10 @@ mobafire.com##.venatus-responsive-ad
 theloadout.com##.venatus_ad
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ktvu.com,q13fox.com,wogx.com##.vendor-unit
 cryptonews.net##.vert-public
+mmegi.bw##.vertical-banner
 radiocity.in##.vertical-big-add
 radiocity.in##.vertical-small-add
+hashrate.no##.verticalAdContainer
 packaginginsights.com##.verticlblk
 forbes.com##.vestpocket
 mirror.co.uk##.vf3-conversations-list__promo
@@ -69564,6 +69573,7 @@ psychcentral.com##aside:has([data-empty])
 vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
 countdown.co.nz##cdx-card:has(product-badge-list)
 creepypasta.com##center:has(+ #ad-container-1)
+hashrate.no##center:has(.sevioads)
 skyscanner.com,skyscanner.net##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
 inverse.com##div > p + div:has(amp-ad)
 bailagentnetwork.com##div.box-bottom:has(a[rel="noopener nofollow"])
@@ -91799,6 +91809,7 @@ fqsousou.com,kengso.com#@#.user-share
 /estat.js
 /estatistica.js
 /eta/events?
+/eta/guid?
 /eumcollector/beacons/*
 /eva-analytics.min.js
 /event-log?
@@ -92776,6 +92787,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pxrc.php
 /pxre.php
 /pxtrack.js
+/qapcore.js
 /qlitics.js
 /qtracker-v3-min.js
 /quant.js
