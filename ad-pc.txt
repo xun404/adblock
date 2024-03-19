@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T2dA1YdKwolRLl/9Vgv8ug
+! Checksum: Vg3F00qhcvjGVP7mMV/UWw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403200637
-! Last Modified: 2024年03月20日 06:37
+! Version: 202403200737
+! Last Modified: 2024年03月20日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1428,20 +1428,10 @@ tieba.baidu.com##.tuijian-wrap
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
-/oas-config.
-/oas_ad.
-/oas_ad_
-/oas_ads.
-/oascentral.$~object
-/oascentral/*
-/oasconfig/*
-/oiopub-direct/*$~stylesheet
-/oncc-ad.
-/openads.
+/oiopub-direct/js.php
+/oncc-ad.js
+/openads.js
 /openads/*
-/overlay-ad.
-/overlay_ad_
-/overlayads.
 /owa.MessageAdList.
 /p2/ads/*
 /p2ads/*
@@ -1465,7 +1455,6 @@ tieba.baidu.com##.tuijian-wrap
 /pagepeel.
 /pagepeel/*
 /pagepeelpro.js
-/parking_caf_
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
@@ -1996,6 +1985,7 @@ tieba.baidu.com##.tuijian-wrap
 ://banners.$third-party
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
+://oascentral.
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 =half-page-ad&
@@ -64392,6 +64382,7 @@ allthetests.com,bom.gov.au,cadenaazul.com,lapoderosa.com###advertising
 offidocs.com###adxx
 thebugle.co.za###adz
 apkonline.net###adzz
+hindustantimes.com###affiliate-shop-now
 purplepainforums.com,snow-forecast.com###affiliates
 exportfromnigeria.info###affs
 slickdeals.net###afscontainer
