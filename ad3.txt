@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3i9+Hr2AovO8TCG3hGng5Q
+! Checksum: dc8V9CapRv0JxfAbpYg1bA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403211837
-! Last Modified: 2024年03月21日 18:37
+! Version: 202403212338
+! Last Modified: 2024年03月21日 23:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -40931,7 +40931,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||samc.zkb.ch^
 ||samc.zuerilaufcup.ch^
 ||sametrics.finn.no^
-||sams.manager-magazin.de^
 ||sams.spiegel.de^
 ||samt.frankly.ch^
 ||samt.swisscanto.com^
@@ -69685,6 +69684,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||kameleoon.io/ip^$domain=welt.de
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
+@@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
@@ -69729,6 +69729,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||iwrite.unipus.cn/js/main/GPT.js$~third-party
+@@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
