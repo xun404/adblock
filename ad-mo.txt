@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lGRm2ERXMty4gspv/CXPOw
+! Checksum: wmiU//R4x9GJo9upRpalnQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202403210932
-! Last Modified: 2024年03月21日 09:32
+! Version: 202403211037
+! Last Modified: 2024年03月21日 10:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -529,6 +529,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_choices_
 /ad_code.
 /ad_common.
+/ad_counter.aspx
 /ad_display.
 /ad_engine?
 /ad_exo.
@@ -577,6 +578,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_wide_
 /ad_wrapper.
 /adanalytics.
+/adaptive_components.ashx?type=ads&
 /adaptvadplayer.
 /adasset/*$~script
 /adasync.
@@ -611,7 +613,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adfurikun/*$~image
 /adfx.loader.bind.js
 /adhandler/*$~subdocument
-/adheader.
 /adhelper.js
 /adiframe|*|adtech;
 /adimage.
@@ -631,18 +632,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adnet2.
 /adnetmedia.$domain=~adnetmedia.ee|~adnetmedia.hu|~adnetmedia.lt|~adnetmedia.lv
 /adocean.
-/adometry?
 /adops.$domain=~adops.co.il|~adops.gr
 /ados.js
-/adotube_adapter.
-/adotubeplugin.
-/adoverlay.
 /adpartner.min.js
-/adplacement.
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
 /adpopup.
-/adproxy.
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
 /adriver_$~object
@@ -654,9 +649,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads-footer.
 /ads-front.min.js
 /ads-frontend.min.js
-/ads-holder.
 /ads-home.js
-/ads-loader.
 /ads-rectangle.
 /ads-right.
 /ads-templateslist.
@@ -1654,13 +1647,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /sponsoredlinks.
 /sponsoredlinks/*
 /sponsoredlinks?
-/sponsoredlisting.
 /sponsors-ads/*
-/sponsors/popunder.
 /sponsors_box.
-/spotx_adapter.
-/spotxchangeplugin.
-/spotxchangevpaid.
 /squaread.
 /squareads.
 /static-ad-
@@ -1675,42 +1663,28 @@ pan.baidu.com##.upload-bar.global-clearfix
 /stickyad.
 /stickyads.
 /story_ad.
-/story_ads_
-/storyads.
-/style_ad.
-/subAd.
+/style_ad.css
+/suurl5.php
 /suv4.js
-/SWMAdPlayer.
-/sync2ad.
-/syndication/ad.
-/sys/ad/*
-/system/ad/*
+/suv5.js
+/sync2ad.js
 /taboola-footer.js
 /taboola-header.js
 /taboola_7.4.1.js
 /taboola_header.js
 /taboolaarticle.min.js
-/targetingAd.
-/targetpushad.
+/targetingAd.js
+/targetpushad.js
 /td-ads-
 /tds-ads-
-/technomedia.
-/template/ad.
-/templates/ad.
-/templates/ad/*
-/templates/ads/*
 /theologicalpresentation.com/*
-/third-party/dfp/*
-/thirdparty/ad/*
-/tikilink?
 /tncms/ads/*
 /tnt.ads.
 /top-ad.
 /top-ads.
 /top_ad.
 /top_ads.
-/tremoradrenderer.
-/triadshow.
+/triadshow.asp
 /ttj?id=
 /utx?cb=$third-party
 /v1/ads/*
@@ -1724,8 +1698,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /v9/adv/*
 /valnet-header-ads.
 /vast/?zid=
-/VASTAdPlugin.
-/vclkads.
 /velvet_stack_cmp.js
 /vendor-ads-
 /vendors~ads.
@@ -99050,6 +99022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||helloretail.com/serve/collect/
 ||heraldandtimeslabs.com/sugar.js
 ||heroku.com/?callback=getip$third-party
+||heyday.io/idx/
 ||heyflow.co/pixel/
 ||hi.hellobar.com^
 ||hicloud.com/download/web/dtm.js
