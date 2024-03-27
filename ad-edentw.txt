@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N0mD4eRAlgAbuaFBxW3vnw
+! Checksum: ILLGLLR4kfRgN5Iw7ISpVA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202403272337
-! Last Modified: 2024年03月27日 23:37
+! Version: 202403280040
+! Last Modified: 2024年03月28日 00:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1105,6 +1105,8 @@ justwatch.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-pill")]/div[co
 247spades.com,247solitaire.com#$#override-property-read games247.ads.loadBanner300x250 undefined
 ||*.6ec7e42994.com/*.js^$script,domain=lscomic.com
 ||*.e437040a9a.com/api/senddata?^$xmlhttprequest,domain=porntrex.com
+crazygames.com#$#hide-if-matches-xpath './/div[@class][contains(.,"Advertisement") and contains (@style,"width")]/parent::div[1]'
+crazyshit.com#$#abort-on-property-read window.cs.ads
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
