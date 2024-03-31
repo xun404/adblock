@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VLiB9OJ9vVNtVlAUtRkoPw
+! Checksum: DJCtO1NEZDL87QR/L0cbiA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202403311638
-! Last Modified: 2024年03月31日 16:38
+! Version: 202403311737
+! Last Modified: 2024年03月31日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26640,6 +26640,7 @@ omni.soundestlink.com$image
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
+||shareasale-analytics.com^$third-party
 ||shareasale.com^$third-party
 ||sharpspring.com^$third-party
 ||shinystat.com^$third-party
@@ -32281,7 +32282,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b629.electronicdesign.com^
 ||ba-bamail.com/handlers/stats.ashx
 ||backcountry.com/api/log
-||backend.academy.cs.cmu.edu/api/v0/track/
+||backend.academy.cs.cmu.edu/api/v0/event/
 ||baidu.com/static/h.gif
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
@@ -32755,6 +32756,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imagefap.com/images/yes.gif?
 ||imagetwistcams.com/pixel/
 ||imdb.com/api/_ajax/metrics/
+||imf.org/Assets/IMF/js/SocialScript.js
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
 ||indeed.com/cmp/_rpc/flog
@@ -68046,6 +68048,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bmly.impots.gouv.fr^
 ||boingtv.fr/track_view
 ||cdtm.cdiscount.com^
+||centerblog.net/a/in
 ||cesu.urssaf.fr/clm10
 ||clubic.com/tview
 ||compteur.developpez.com^
@@ -68058,6 +68061,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||easeus.com/default/js/aff_buy_tracking.js
 ||ecranlarge.com/stat
 ||email.nautiljon.com/oo/$image
+||europe1.fr/assets/europe1/estat.
 ||events-logs.doctolib.com^
 ||flow.kiloutou.fr^
 ||fourchette-et-bikini.fr/core/modules/statistics/
@@ -68095,6 +68099,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||marmiton.org/reloaded/errpix.php
 ||medoucine.com/tracking/
 ||neko-san.fr/stats
+||ocular.dealabs.com^
 ||ouest-france.fr/v1/javascripts/*-googletag-
 ||ouest-france.fr/v1/javascripts/*-prebid-
 ||p.pagesjaunes.fr^
@@ -69558,6 +69563,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
+@@||ipqualityscore.com/api/$script,domain=carousell.com.hk
 @@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||mail.163.com/fetrack/api/27/envelope/?sentry_key=$xmlhttprequest
 @@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party

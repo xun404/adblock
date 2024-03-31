@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cVgNLHT5B6r2Zzi/r+NtuQ
+! Checksum: y9NO9qhroZ5yJus8daSd2A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403311638
-! Last Modified: 2024年03月31日 16:38
+! Version: 202403311737
+! Last Modified: 2024年03月31日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -64757,6 +64757,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||tpc.googlesyndication.com^
 ||tracking.police1.com^
 ||traditionalmusic.co.uk/images/banners/
+||trahkino.cc/static/js/li.js
 ||triangletribune.com/cache/sql/fba/
 ||truck1.eu/_BANNERS_/
 ||trucknetuk.com/phpBB2old/sponsors/
@@ -65213,6 +65214,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||buondua.com/templatesygfo76jp36enw15_/
 ||cam-video.xxx/js/popup.min.js
 ||camcaps.ac/33a9020b46.php
+||camcaps.io/024569284e.php
+||camcaps.to/400514f2db.php
 ||camclips.cc/api/$image,script
 ||camclips.cc/ymGsBPvLBH
 ||cams.imagetwist.com/in/?track=$subdocument
@@ -70138,6 +70141,7 @@ nationalfile.com##.wpb_wrapper > p
 coralspringstalk.com##.wpbdp-listings-widget-list
 sashares.co.za##.wppopups-whole
 theregister.com##.wptl
+warezload.net##.wrapper > center > center > [href]
 memeburn.com,ventureburn.com##.wrapper--grey
 hotnewhiphop.com##.wrapper-Desktop_Header
 paultan.org##.wrapper-footer
@@ -70177,6 +70181,7 @@ bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com
 bellinghamherald.com##.zone-el
 cnn.com##.zone__ads
 haxnode.net##[action^="//href.li/?"]
+hubcloud.day##[alt="New-Banner"]
 exchangerates.org.uk##[alt="banner"]
 gab.com##[aria-label*="Sponsored:"]
 thepointsguy.com##[aria-label="Advertisement"]
@@ -70305,6 +70310,7 @@ audiobookbay.is##[href="/ddeaatr"]
 mywaifulist.moe##[href="/nord"]
 whatsmyreferer.com##[href="http://fakereferer.com"]
 whatsmyreferer.com##[href="http://fakethereferer.com"]
+warezload.net##[href="http://muzikk.org/"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
 warfarehistorynetwork.com##[href="http://www.bktravel.com/"]
 daijiworld.com##[href="http://www.expertclasses.org/"]
@@ -72497,6 +72503,7 @@ faptor.com##.zpot-horizontal-img
 fapnado.xxx##.zpot-vertical
 jizzbunker2.com,xxxdan.com,xxxdan3.com##.zx1p
 tnaflix.com##.zzMeBploz
+redgifs.com##[class^="_advertLiveButton_"]
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
 beeg.porn##[class^="bb_show_"]
 setdartwatches.com##[class^="boxzilla-"]
@@ -97630,6 +97637,7 @@ omni.soundestlink.com$image
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
+||shareasale-analytics.com^$third-party
 ||shareasale.com^$third-party
 ||sharpspring.com^$third-party
 ||shinystat.com^$third-party
@@ -103271,7 +103279,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b629.electronicdesign.com^
 ||ba-bamail.com/handlers/stats.ashx
 ||backcountry.com/api/log
-||backend.academy.cs.cmu.edu/api/v0/track/
+||backend.academy.cs.cmu.edu/api/v0/event/
 ||baidu.com/static/h.gif
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
@@ -103745,6 +103753,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imagefap.com/images/yes.gif?
 ||imagetwistcams.com/pixel/
 ||imdb.com/api/_ajax/metrics/
+||imf.org/Assets/IMF/js/SocialScript.js
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
 ||indeed.com/cmp/_rpc/flog
@@ -139036,6 +139045,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bmly.impots.gouv.fr^
 ||boingtv.fr/track_view
 ||cdtm.cdiscount.com^
+||centerblog.net/a/in
 ||cesu.urssaf.fr/clm10
 ||clubic.com/tview
 ||compteur.developpez.com^
@@ -139048,6 +139058,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||easeus.com/default/js/aff_buy_tracking.js
 ||ecranlarge.com/stat
 ||email.nautiljon.com/oo/$image
+||europe1.fr/assets/europe1/estat.
 ||events-logs.doctolib.com^
 ||flow.kiloutou.fr^
 ||fourchette-et-bikini.fr/core/modules/statistics/
@@ -139085,6 +139096,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||marmiton.org/reloaded/errpix.php
 ||medoucine.com/tracking/
 ||neko-san.fr/stats
+||ocular.dealabs.com^
 ||ouest-france.fr/v1/javascripts/*-googletag-
 ||ouest-france.fr/v1/javascripts/*-prebid-
 ||p.pagesjaunes.fr^
@@ -140548,6 +140560,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
+@@||ipqualityscore.com/api/$script,domain=carousell.com.hk
 @@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||mail.163.com/fetrack/api/27/envelope/?sentry_key=$xmlhttprequest
 @@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
