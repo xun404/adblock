@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7hXaCWa4Ndo79O6u5bs9rw
+! Checksum: ABCp4WtX4a4+p1szyQKVlA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403311837
-! Last Modified: 2024年03月31日 18:37
+! Version: 202403311937
+! Last Modified: 2024年03月31日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -686,7 +686,7 @@ tieba.baidu.com##.tuijian-wrap
 /adasset/*$~script
 /adasync.
 /adbanner2.
-/adbanners/*
+/adbanners/*$image
 /adbottom.
 /adbox.
 /adcall?
@@ -719,7 +719,6 @@ tieba.baidu.com##.tuijian-wrap
 /adhelper.js
 /adiframe|*|adtech;
 /adimage.
-/adimage/*
 /adimages.
 /adj.php?
 /adjs.php
@@ -965,7 +964,6 @@ tieba.baidu.com##.tuijian-wrap
 /advscript.js
 /advtBanner.
 /adwidget_
-/adwidgets/*
 /adx2.
 /adx_exo_
 /adz/js/*
@@ -1007,7 +1005,6 @@ tieba.baidu.com##.tuijian-wrap
 /api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /Api/Ad.
-/api/ads/*
 /api/ads?
 /api/v1/ad/*
 /apopwin.js
@@ -64297,6 +64294,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||blsnet.com/plugins/advertising/getad/
 ||blue.ktla.com^
 ||bontent.powzers.lol^
+||bookforum.com/api/ads/
 ||booking.com/flexiproduct.html?product=banner$domain=happywayfarer.com
 ||bordeaux.futurecdn.net^
 ||borneobulletin.com.bn/wp-content/banners/
