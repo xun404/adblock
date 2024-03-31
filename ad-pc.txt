@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 58qYt7ohuOfpbjB6v2yVVw
+! Checksum: 67T66eOx/+pmPYtF4J25Zg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202403311138
-! Last Modified: 2024年03月31日 11:38
+! Version: 202403311237
+! Last Modified: 2024年03月31日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -894,29 +894,11 @@ tieba.baidu.com##.tuijian-wrap
 /adsimages/*
 /adsImg/*
 /adsinclude.
-/adsinteractive-
-/adskyright.
-/adskyscraper.
-/adslide.
-/adslider-
-/adslides.
-/AdsLoad.
+/adslide.js
+/AdsLoad.js
 /adsmanager.nsf/*
 /adsmanager/*$domain=~github.com
-/adsManagerV2.
-/adsmm.dll/*
-/adspan.
-/adsplay.
 /AdsPlugin.
-/adsPlugin/*
-/adsponsor.
-/adspot.$domain=~adspot.lt
-/adspot/*
-/adspromo.
-/adsremote.
-/adsright.$domain=~adsright.pl
-/adsrotate.
-/adsrotator.
 /adsrv.
 /adsscript.
 /adsserv.
@@ -3392,7 +3374,6 @@ _800x80_
 ###adSqb
 ###adSquare
 ###adStrip
-###adSuperBannerContainer
 ###adSuperbanner
 ###adTag
 ###adText
@@ -10331,8 +10312,6 @@ _800x80_
 ##.ads-cnt
 ##.ads-code
 ##.ads-col
-##.ads-col-1
-##.ads-col-2
 ##.ads-cols
 ##.ads-cont
 ##.ads-container-250
@@ -11417,9 +11396,6 @@ _800x80_
 ##.advert--placeholder
 ##.advert--right-rail
 ##.advert--square
-##.advert--transition
-##.advert--vc
-##.advert--vc__wrapper
 ##.advert-100
 ##.advert-120x90
 ##.advert-160x600
@@ -14459,7 +14435,6 @@ _800x80_
 ##.inside-post-ad
 ##.insideStoryAd
 ##.inside_ad
-##.inside_ad_box
 ##.insideads
 ##.inslide-ad
 ##.insticator-ads
@@ -14556,7 +14531,6 @@ _800x80_
 ##.js-adv-rotator-image
 ##.js-advert
 ##.js-advert--responsive
-##.js-advert--vc
 ##.js-advert-container
 ##.js-advert-upsell-popup
 ##.js-advertising__placeholder1
@@ -14890,7 +14864,6 @@ _800x80_
 ##.madison_ad
 ##.magAd
 ##.magad
-##.mailAdElem
 ##.main-ad
 ##.main-ad-728x90-container
 ##.main-ad-bg
@@ -14898,7 +14871,6 @@ _800x80_
 ##.main-ad-gallery
 ##.main-add-sec
 ##.main-ads
-##.main-ads-line-2
 ##.main-advert
 ##.main-advertising
 ##.main-column-ad
@@ -14909,11 +14881,9 @@ _800x80_
 ##.mainAd
 ##.mainAdContainer
 ##.mainAds
-##.mainEcoAd
 ##.mainLeftAd
 ##.mainLinkAd
 ##.mainRightAd
-##.main__top-ad
 ##.main_ad
 ##.main_ad_bg
 ##.main_ad_bg_div
@@ -14921,29 +14891,18 @@ _800x80_
 ##.main_ads
 ##.main_adv
 ##.main_advert_section
-##.main_intro_ad
-##.main_right_ad
-##.main_wrapper_upper_ad_area
 ##.mainadWrapper
 ##.makeFooterAdSticky
-##.mal-ad-unit
-##.mal-koukoku-unit
-##.mango_ads
 ##.mantis-ad
 ##.mantisadd
 ##.manual-ad
 ##.map-ad
-##.mapAdvertising
-##.map_google_ad
-##.map_media_banner_ad
 ##.mapped-ad
 ##.mar-block-ad
+##.mar-leaderboard--bottom
 ##.margin-advertisement
 ##.margin0-ads
-##.marginadsthin
 ##.marginalContentAdvertAddition
-##.market-ad
-##.market-ad-small
 ##.marketing-ad
 ##.marketplace-ad
 ##.marketplaceAd
@@ -14971,17 +14930,10 @@ _800x80_
 ##.mc_floating_ad
 ##.mc_text_ads_box
 ##.md-advertisement
-##.mdl-ad
 ##.medRect
-##.med_ad_box
-##.media--ad
-##.media-ad-rect
-##.media-advert
-##.media-network-ad
 ##.media-viewer__ads-container
 ##.mediaAd
 ##.mediaAdContainer
-##.media_impact_ads_ad_superbanner
 ##.medium-rectangle-ad
 ##.medium-top-ad
 ##.mediumRectAdWrapper
@@ -14999,42 +14951,28 @@ _800x80_
 ##.member-ads
 ##.menu-ad
 ##.menuAd
-##.menuAds-cage
-##.menuItemBannerAd
-##.menuad
-##.menueadimg
-##.messageBoardAd
 ##.message_ads
 ##.meta-ad
 ##.meta_ad
 ##.metabet-adtile
-##.metaboxType-sponsor
 ##.mf-adsense-leaderboard
 ##.mf-adsense-rightrail
 ##.mg_box_ads
 ##.mgid-wrapper
 ##.mgid_3x2
 ##.mh-advert
-##.micro_ad
 ##.mid-ad-wrapper
 ##.mid-ads
 ##.mid-advert
 ##.mid-article-banner-ad
-##.mid-page-2-advert
 ##.mid-post-ad
 ##.mid-section-ad
 ##.midAd
 ##.midAdv-cont
 ##.midAdv-cont2
 ##.midAdvert
-##.mid_4_ads
 ##.mid_ad
-##.mid_article_ad_label
 ##.mid_banner_ad
-##.mid_page_ad
-##.mid_page_ad_big
-##.mid_right_ads
-##.mid_right_inner_id_ad
 ##.midad
 ##.midarticlead
 ##.middle-ad
@@ -15103,7 +15041,6 @@ _800x80_
 ##.mobile-ad-slider
 ##.mobile-ads
 ##.mobile-fixed-ad
-##.mobile-footer__ad
 ##.mobile-instream-ad-holder
 ##.mobile-instream-ad-holder-single
 ##.mobile-leaderboard-fader
@@ -17102,6 +17039,7 @@ _800x80_
 ##.top-bar-ad-related
 ##.top-box-right-ad
 ##.top-content-adplace
+##.top-dfp-wrapper
 ##.top-fixed-ad
 ##.top-half-page-ad
 ##.top-header-ad
@@ -62455,6 +62393,7 @@ browsershots.org#@#.advert_area
 ||adsales.snidigital.com^
 ||adserver-2084671375.us-east-1.elb.amazonaws.com^
 ||adserving.unibet.com^
+||adsinteractive-794b.kxcdn.com^
 ||adtechvideo.s3.amazonaws.com^
 ||advast.sibnet.ru^
 ||adx-exchange.toast.com^
