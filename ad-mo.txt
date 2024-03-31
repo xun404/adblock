@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +NEhF9wRu9hEv7qeFj/yQA
+! Checksum: eW5nIOu1jR6mcQwFM3eTog
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202403310737
-! Last Modified: 2024年03月31日 07:37
+! Version: 202403310938
+! Last Modified: 2024年03月31日 09:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -75457,6 +75457,13 @@ newduba.cn###jq_youxi
 ||znhlxvb.xyz^
 ||zojyob.icu^
 ||zopuqv.icu^
+||3q1lsj.cn^
+||cdmgac.xyz^
+||ryhkft.xyz^
+||hvxrvef.xyz^
+||hnalzlu.top^
+||pmtrkp.icu^
+||hptyp.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
 ||ztxjutz.xyz^
@@ -141177,7 +141184,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tencent.com/developer/api/common/getOneAds
 ||10086.cn/together/s?func=together:getAdvertInfos&
 !------------------------Specific element hiding rules------------------------!
-baidu.com##.bd-aside-ad
+bilibili.com##.extension-tips
 77mh.nl###bdtopbot
 77mh.nl###bdbottop
 youdao.com##.banner
@@ -141244,8 +141251,6 @@ alibabacloud.com##.hmod-alicloud-contact-sales-support
 autohome.com.cn##.activity-coin-layer
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
-waipian5.com##.shortcuts-mobile-overlay
-waipian5.com##.popup
 autohome.com.cn##.activity-app-layer
 autohome.com.cn##DIV[id^="popautoapp"]
 shengxinwang.net###floatDivBoxs
@@ -142253,6 +142258,7 @@ m.babytree.com##script + a[class]
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!
+||tongjiniao.com^$third-party
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
 /analytics.js$domain=qunar.com
