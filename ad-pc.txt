@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kYOMo1PQtY9ddY1gJQxHgg
+! Checksum: 4DPSzuOMTwxswreWeAObeg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202404041638
-! Last Modified: 2024年04月04日 16:38
+! Version: 202404041937
+! Last Modified: 2024年04月04日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18281,9 +18281,9 @@ javbix.com#@#.adsleft
 xda-developers.com#@#.adsninja-ad-zone
 cutepdf-editor.com#@#.adtable
 gigazine.net#@#.adtag
-adamtheautomator.com,mediaite.com,packhacker.com#@#.adthrive
-mediaite.com,packhacker.com#@#.adthrive-content
-mediaite.com,packhacker.com#@#.adthrive-video-player
+adamtheautomator.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-content
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
 kmsv.jp#@#.adtitle
 brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
@@ -67869,6 +67869,7 @@ meteologix.com##.dkpw
 meteologix.com,weather.us##.dkpw-billboard-margin
 dongknows.com##.dkt-amz-deals
 dongknows.com##.dkt-banner-ads
+wallpaperbetter.com##.dld_ad
 crash.net##.dmpu
 crash.net##.dmpu-container
 nationalworld.com,scotsman.com##.dmpu-item
@@ -72574,9 +72575,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
 @@||adnxs.com/ast/ast.js$domain=zone.msn.com
-@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com
-@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
+@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
 @@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
@@ -73114,6 +73115,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||anitasrecipes.com/Content/Images/Recipes/$image,~third-party
 @@||arnhemland-safaris.com/images/made/$image,~third-party
+@@||banner-hiroba.com/wp-content/uploads/$image,~third-party
 @@||cloud.mail.ru^$image,~third-party
 @@||crystalmark.info/wp-content/uploads/*-300x250.$image,~third-party
 @@||crystalmark.info/wp-content/uploads/sites/$image,~third-party
@@ -102584,6 +102586,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b0.yahoo.co.jp^
 ||bidder.mediams.mb.softbank.jp^
 ||blogroll.livedoor.net/img/blank.gif?
+||blozoo.info/js/ranktool/
+||blozoo.info/js/reversetool/
 ||bridge-ashiato.appspot.com/beacon/
 ||bs.nakanohito.jp^
 ||buzzurl.jp/api/counter/
@@ -139517,7 +139521,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bc.nhk.jp^
 ||beacon.watch.impress.co.jp^
 ||beat.yourtv.jp^
-||blozoo.info/js/ranktool/
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
