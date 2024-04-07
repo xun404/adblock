@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8cahSWUualuvuzdDCojr8A
+! Checksum: wXnCPt9XYaLYx9p0YHgtjQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404071537
-! Last Modified: 2024年04月07日 15:37
+! Version: 202404071637
+! Last Modified: 2024年04月07日 16:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -740,38 +740,28 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_banner_
 /ads_banners/*
 /ads_bg.
-/ads_bottom.
-/ads_bottom_
+/ads_bottom.js
 /ads_controller.js
-/ads_dfp/*
-/ads_display.
+/ads_dfp/resources/*
 /ads_files/*
 /ads_footer.
 /ads_frame.
 /ads_iframe.
 /ads_image/*
 /ads_images/*
-/ads_loader.
-/ads_manager.
-/ads_sidebar.
-/adsadview.
-/AdsAjaxRefresh.
-/adsAPI.$domain=~snap.com|~snapchat.com
+/adsAPI.js
 /adsbanner-
 /adsbanner.
 /adsbanner/*
-/adsbb.
 /adsbox.$~script,domain=~adsbox.com.sg
-/adscontrol.
-/adscontroller.
+/adscontrol.js
+/adscontroller.js
 /adscroll.js
-/adsdelivery.
 /adsdelivery/*
 /adserv.
 /adserve/*
 /adserver-
 /adserver.$~stylesheet,~xmlhttprequest
-/adserver1-
 /adserver1.
 /adserver2.
 /adserver2/*
@@ -66261,6 +66251,7 @@ neoseeker.com###section-pagetop
 searchenginejournal.com###sej-pop-wrapper_v2
 analyticsinsight.net###sgpb-popup-dialog-main-div-wrapper
 v3rmillion.net###sharingPlace
+fedex.com###shop-runner-banner-link
 search.brave.com###shopping
 filedropper.com,lifenews.com###sidebar
 whatsondisneyplus.com###sidebar > .widget_text.amy-widget
@@ -100961,6 +100952,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ptsc.shoplocal.com^
 ||pub.sheknows.com^
 ||public.cobrowse.oraclecloud.com/rely/storage/
+||public.fbot.me/track/
 ||publicbroadcasting.net/analytics/
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
@@ -139992,6 +139984,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
+@@||analytics.casper.com/gtag/js$~third-party
+@@||analytics.casper.com/gtm.js$~third-party
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
 @@||answers.ros.org/m/default/media/images/$image,~third-party
@@ -140212,6 +140206,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
+@@||public.fbot.me/events/$domain=casper.com
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
