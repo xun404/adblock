@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1TItAFcCXNVcLttAtY1BaQ
+! Checksum: NpkO8uW/jj5RS6mNw0UsTQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202404082237
-! Last Modified: 2024年04月08日 22:37
+! Version: 202404091738
+! Last Modified: 2024年04月09日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -516,6 +516,9 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! RM-114
+! sp
+target.com#$#hide-if-matches-xpath './/p[text()="Sponsored"]/parent::div[@class]/ancestor::div[contains(@data-test,"ProductCardWrapper")]/parent::div[1]'
 ! #RM-75
 ! sp
 bol.com#$#debug; hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
