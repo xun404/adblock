@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ubea9axGGqB1hD7WWNgQ7g
+! Checksum: nGUbfjwPXviqsRt5/1gvvg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404112048
-! Last Modified: 2024年04月11日 20:48
+! Version: 202404112137
+! Last Modified: 2024年04月11日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2282,6 +2282,7 @@ newduba.cn###jq_youxi
 ||ydybwjpa.xyz^
 ||yhqukg.xyz^
 ||ykkhihg.cn^
+##a[href*="/04816632.com/"]
 ||yliffnsc.xyz^
 ||yqlxkzs.cn^
 ||yvbjctqs.xyz^
@@ -2316,6 +2317,7 @@ newduba.cn###jq_youxi
 ||ztxjutz.xyz^
 ||zuvbzl.xyz^
 ||zwxxcb.icu^
+||dgaxrjj0jwpwp.cloudfront.net^
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
 ##a[href$="/lm39h.com"]
@@ -11063,6 +11065,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydown.com##.doubleDownload_bottom
+mydown.com##.fc_anqDown
+mydown.com##.doubleDownload_content > .middle
+mydown.com##.aqDownload
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -17439,12 +17445,12 @@ guailie.com#@#.google-ad
 ###playerJsvLayer.jsv-layer
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
-jiuse.io##.footer + .block
+91porny.org,jiuse.io##.footer + .block
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
-jiuse.io#?#.card:-abp-has(>.card-image>a[href^="http"])
+91porny.org,jiuse.io#?#.card:-abp-has(>.card-image>a[href^="http"])
 ||27gh.cc^$popup,third-party
 !#99re.com
 .gif|$domain=99re.com
