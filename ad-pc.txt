@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5xvVw/jhM3pAbkRaJBx9tg
+! Checksum: kyBswIFpNl3VTpCJSvzc7A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202404151142
-! Last Modified: 2024年04月15日 11:42
+! Version: 202404151241
+! Last Modified: 2024年04月15日 12:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -476,7 +476,6 @@ tieba.baidu.com##.tuijian-wrap
 -ads/assets/$domain=~web-ads.org
 -assets/ads.$~script
 -auto-ads-
--banner-ad.
 -banner-ad_
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
@@ -19868,6 +19867,7 @@ browsershots.org#@#.advert_area
 ||adright.fs.ak-is2.net^
 ||adright.xml-v4.ak-is2.net^
 ||adright.xml.ak-is2.net^
+||adrkspf.com^
 ||adro.pro^
 ||adroitontoconstraint.com^
 ||adrokt.com^
@@ -20315,6 +20315,7 @@ browsershots.org#@#.advert_area
 ||afunyjoiynvsk.com^
 ||afvwwjcplvq.com^
 ||afwpc.com^
+||afxjwyg.com^
 ||afywhecpi.com^
 ||agabreloomr.com^
 ||agacelebir.com^
@@ -32271,6 +32272,7 @@ browsershots.org#@#.advert_area
 ||gleeneep.com^
 ||gleetchisurvey.top^
 ||gleetedbunged.uno^
+||gleewhor.xyz^
 ||glegreel.xyz^
 ||glekrush.com^
 ||glelroum.com^
@@ -33651,6 +33653,7 @@ browsershots.org#@#.advert_area
 ||hewmjifrn4gway.com^
 ||hewokhn.com^
 ||hexerpabalum.com^
+||hexonesimphees.top^
 ||hexovythi.pro^
 ||heycompassion.com^
 ||heycrktc.xyz^
@@ -34277,6 +34280,7 @@ browsershots.org#@#.advert_area
 ||hugsgnome.com^
 ||hugysoral.digital^
 ||hulabipptemux.com^
+||hulledaries.top^
 ||hulsairtid.com^
 ||humaffableconsulate.com^
 ||humandiminutionengaged.com^
@@ -37994,6 +37998,7 @@ browsershots.org#@#.advert_area
 ||lixuhwuwychupbd.com^
 ||lizapaisan.com^
 ||lizebruisiaculi.info^
+||lizouhaiwhe.com^
 ||lizzieforcepincers.com^
 ||lizziefullrounded.com^
 ||ljbwzlmzlzbkm.top^
@@ -42686,6 +42691,7 @@ browsershots.org#@#.advert_area
 ||outstanding-tie.pro^
 ||outstandingspread.com^
 ||outstandingsubconsciousaudience.com^
+||outstantewq.info^
 ||outsudoo.net^
 ||outtaskhautein.guru^
 ||outtimburrtor.com^
@@ -43593,6 +43599,7 @@ browsershots.org#@#.advert_area
 ||pfuettchk.com^
 ||pfulhwxjeoi.com^
 ||pfyscjwxjcqdsqc.com^
+||pgaictlq.xyz^
 ||pgbmjuhwiej.xyz^
 ||pgdmon.com^
 ||pgezbuz.com^
@@ -48973,6 +48980,7 @@ browsershots.org#@#.advert_area
 ||sluiceagrarianvigorous.com^
 ||sluicehamate.com^
 ||slumberloandefine.com^
+||slumdombigot.top^
 ||slumid.com^
 ||slumpyclueing.com^
 ||slushdevastating.com^
@@ -49976,6 +49984,7 @@ browsershots.org#@#.advert_area
 ||strandedprobable.com^
 ||strangelyfaintestgreenhouse.com^
 ||strangersrecantcoral.com^
+||strangineer.info^
 ||strangledisposalfox.com^
 ||strapnetdisk.com^
 ||stratebilater.com^
@@ -55803,6 +55812,7 @@ browsershots.org#@#.advert_area
 ||ycctxwachqke.com^
 ||yceml.net^
 ||yclost.com^
+||ycnmwykrbv.com^
 ||ycywhmyiixjafa.com^
 ||yczrgigyspm.com^
 ||ydbbbegf.xyz^
@@ -141956,7 +141966,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! mpsnare.iesnare.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 !! ingest.sentry.io/api/
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=core.app|orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 !! ci-mpsnare.iovation.com
 @@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
 !! lightning.cnn.com
@@ -144092,3 +144102,9 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! 乘风 视频广告过滤规则
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
