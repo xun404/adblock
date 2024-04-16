@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kq6h2RHwescUKKJ8zDwhbw
+! Checksum: R96OdmfB7y8tfHwB50OLEg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202404161637
-! Last Modified: 2024年04月16日 16:37
+! Version: 202404162137
+! Last Modified: 2024年04月16日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1117,7 +1117,7 @@ justwatch.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-pill")]/div[co
 ||*.6ec7e42994.com/*.js^$script,domain=lscomic.com
 ||*.e437040a9a.com/api/senddata?^$xmlhttprequest,domain=porntrex.com
 ||js.onclckmn.com/*.js^$script,domain=porntrex.com
-crazygames.com#$#hide-if-matches-xpath './/div[@class][contains(.,"Advertisement") and contains (@style,"width")]/parent::div[1]'
+crazygames.com#?#div:-abp-has(> div[class]:-abp-contains(Advertisement)[style*="width"])
 crazyshit.com#$#abort-on-property-read window.cs.ads
 rakuten.com###second_promo
 rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row"]' 'div[class*="flex"]>span[class*="sponsoredTag"]'
