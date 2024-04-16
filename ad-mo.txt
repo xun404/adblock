@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WsYjU93QAVkLwxsFScCDSw
+! Checksum: QeJsAl0FPZdp0ejCVbo8rQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404162137
-! Last Modified: 2024年04月16日 21:37
+! Version: 202404170037
+! Last Modified: 2024年04月17日 00:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -76218,6 +76218,7 @@ newduba.cn###jq_youxi
 ||azyuuk.xyz^
 ||b37r5.cyou^
 ||batijian.com^
+||baucraell.com^
 ||bba9603w.com^
 ||bdjfea.cn^
 ||bdtdat652.shop^
@@ -76261,6 +76262,7 @@ newduba.cn###jq_youxi
 ||cdrvkdni.xyz^
 ||cdybwjpa.xyz^
 ||cfrtdmb.xyz^
+||cfugrnc.icu^
 ||chayassa.com^
 ||cherylssb.com^
 ||cijianggun.com^
@@ -76408,6 +76410,7 @@ newduba.cn###jq_youxi
 ||hozatr.xyz^
 ||hptyp.icu^
 ||hrnkdr.xyz^
+||hspdiom.cn^
 ||hsutav.icu^
 ||htyusiu.top^
 ||hubgets.cn^
@@ -76433,6 +76436,7 @@ newduba.cn###jq_youxi
 ||izalflh.cn^
 ||izmiua.xyz^
 ||jbmfldt.cn^
+||jdbeht.xyz^
 ||jedlnn.xyz^
 ||jflwhf.xyz^
 ||jgblvt.xyz^
@@ -76553,6 +76557,7 @@ newduba.cn###jq_youxi
 ||onifdlak.top^
 ||oojjsa.com^
 ||oppnfev.xyz^
+||orbnarb.xyz^
 ||osafsr.xyz^
 ||osisk.com^
 ||ostjpig.cn^
@@ -76648,6 +76653,7 @@ newduba.cn###jq_youxi
 ||shnpetdn185.shop^
 ||shuocyw.cn^
 ||sjaaquj.cn^
+||sjgsgy.xyz^
 ||skdncksklsv.com^
 ||skfda5.com^
 ||slcmvgr.icu^
@@ -76674,6 +76680,7 @@ newduba.cn###jq_youxi
 ||szmpy.cn^
 ||szmwr.cn^
 ||szmyl.cn^
+||szpbh.cn^
 ||szpnz.cn^
 ||szptp.cn^
 ||szpwf.cn^
@@ -76794,6 +76801,7 @@ newduba.cn###jq_youxi
 ||xwvnhe.cn^
 ||xxle.cn^
 ||xylhwdu.com^
+||xzrhvv.xyz^
 ||ybrrvck.xyz^
 ||ycqbgm.xyz^
 ||yddjmpjo.xyz^
@@ -76819,14 +76827,6 @@ newduba.cn###jq_youxi
 ||zfzys.top^
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
-||hspdiom.cn^
-||sjgsgy.xyz^
-||cfugrnc.icu^
-||jdbeht.xyz^
-||orbnarb.xyz^
-||baucraell.com^
-||xzrhvv.xyz^
-||szpbh.cn^
 ||zhnnaxe.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
@@ -91922,19 +91922,19 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
