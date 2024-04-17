@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F8Ayl1tdYQHFgo3YKakx3g
+! Checksum: iwhDpV9p4RdpS8mgm97QdQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404172237
-! Last Modified: 2024年04月17日 22:37
+! Version: 202404180737
+! Last Modified: 2024年04月18日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2356,6 +2356,13 @@ newduba.cn###jq_youxi
 ||jypvzd.xyz^
 ||ajffubz.xyz^
 ||grulphaens.com^
+||zxfdbr.xyz^
+||qusrow.xyz^
+||syuwkbb.top^
+||tudxhzj.cn^
+||oweeiyw.icu^
+||vkdgdt.xyz^
+||rbfxoex.xyz^
 ||zhnnaxe.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
@@ -23831,6 +23838,7 @@ m.babytree.com##script + a[class]
 /track/pixel/*
 /track/site/*
 /track/statistic/*
+/track/svbaff01/*
 /track/visitors/?
 /track/visits/?
 /track?*&event=
@@ -32534,6 +32542,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||blockworks.co/_vercel/insights/
 ||blue.nbc4i.com^
 ||bmoharris.com/www/assets/analytics/loader.js
+||bonprix.*/ajax/landmarks/
+||bonprix.*/ajax/marketing-parameters/
 ||booking.com/c360/v1/track
 ||booking.com/collector/
 ||booking.com/logo?
@@ -33302,6 +33312,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||poki.com/observer/
 ||politico.com/resource/assets/js.min/video-tracking.
 ||poptropica.com/brain/track.php?
+||pornbox.com/event/
+||pornbox.com/stats/
 ||pornhublive.com/api/events
 ||pornhublive.com/api/metrics
 ||porzo.com/js/analytics
@@ -68523,6 +68535,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||wa.gmx.net^
 ||wa.web.de^
 ||walbusch.de^$ping
+||weltbild.de/tracking/
 ||werkenntdenbesten.de/js/tracking.
 ||werkenntdenbesten.de/pd.js
 ||wikipedia.de/tracking.js
