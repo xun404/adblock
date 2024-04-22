@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7UvM5dsiyPyUBGgIpsYw0w
+! Checksum: Nl8e7mey45bC6p9Aucp5GA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202404222338
-! Last Modified: 2024年04月22日 23:38
+! Version: 202404230039
+! Last Modified: 2024年04月23日 00:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -76399,6 +76399,7 @@ newduba.cn###jq_youxi
 ||2qy9zm.cn^
 ||3bxe2.cyou^
 ||3q1lsj.cn^
+||4p68.com^
 ||4wu3gf.cn^
 ||51hir.cyou^
 ||555bbb333bbb.com^
@@ -76578,6 +76579,7 @@ newduba.cn###jq_youxi
 ||ersjnpwf837.shop^
 ||esqhsm.xyz^
 ||etyusiw.top^
+||ewxufqs.cn^
 ||execuri.com^
 ||f7fe0.cyou^
 ||fadhvz.xyz^
@@ -76675,6 +76677,7 @@ newduba.cn###jq_youxi
 ||iyuwkbo.top^
 ||izalflh.cn^
 ||izmiua.xyz^
+||izqogb.cn^
 ||jaychu.top^
 ||jbmfldt.cn^
 ||jdbeht.xyz^
@@ -76754,6 +76757,7 @@ newduba.cn###jq_youxi
 ||m6j37.xyz^
 ||mdhv3.icu^
 ||mdzwjra.cn^
+||meqanhm.icu^
 ||misjgy.xyz^
 ||mldzwmt.xyz^
 ||mlhtr.cn^
@@ -76829,6 +76833,7 @@ newduba.cn###jq_youxi
 ||pimg2023.com^
 ||pjzxdl.xyz^
 ||pkyjuc.cn^
+||plnbnd.xyz^
 ||pmiskc.cn^
 ||pmtrkp.icu^
 ||pnxtnp.xyz^
@@ -76870,6 +76875,7 @@ newduba.cn###jq_youxi
 ||qw9cu.cyou^
 ||qyuwkby.top^
 ||qzalsk.xyz^
+||qziuwzn.cn^
 ||qzozsa.xyz^
 ||rarcff.xyz^
 ||rarmkce.cn^
@@ -76889,6 +76895,7 @@ newduba.cn###jq_youxi
 ||rlxhbff.cn^
 ||rndcdb.xyz^
 ||rnkzhsi.cn^
+||rnpkxgfp.xyz^
 ||rofmjd.xyz^
 ||rouqiuqq.cn^
 ||rpnufv.xyz^
@@ -76931,6 +76938,7 @@ newduba.cn###jq_youxi
 ||szbhb.cn^
 ||szfmr.cn^
 ||szftg.cn^
+||szmgr.cn^
 ||szmhk.cn^
 ||szmnd.cn^
 ||szmnf.cn^
@@ -76967,6 +76975,7 @@ newduba.cn###jq_youxi
 ||tnifdlai.top^
 ||tnmpd.xyz^
 ||tnvnnn.xyz^
+||toutanymm.asia^
 ||tptgvh.xyz^
 ||tqvnzj.xyz^
 ||tsrvrr.xyz^
@@ -76974,9 +76983,11 @@ newduba.cn###jq_youxi
 ||tudxhzj.cn^
 ||tuky889900.com^
 ||tyodot.icu^
+||tyuwkbi.top^
 ||tyzfoej.cn^
 ||u7u9.com^$third-party
 ||uctutu3789.xyz^
+||udkpcc.xyz^
 ||udykkl.cn^
 ||uigxgg.xyz^
 ||uiqcf.cn^
@@ -77026,6 +77037,7 @@ newduba.cn###jq_youxi
 ||wioboy.xyz^
 ||wisealty.com^
 ||wjwod.cyou^
+||wkrhel.icu^
 ||wkywrc.cn^
 ||wnalzle.top^
 ||wnifdlae.top^
@@ -77097,18 +77109,6 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
-||udkpcc.xyz^
-||ewxufqs.cn^
-||qziuwzn.cn^
-||wkrhel.icu^
-||plnbnd.xyz^
-||meqanhm.icu^
-||rnpkxgfp.xyz^
-||tyuwkbi.top^
-||toutanymm.asia^
-||izqogb.cn^
-||4p68.com^
-||szmgr.cn^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -91864,19 +91864,19 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+div)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
