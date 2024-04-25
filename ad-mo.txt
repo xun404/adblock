@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4JVuevnsOp+VD9fEQPRWyg
+! Checksum: Dg7Z6X+S3o1ouGlKsA84kA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404251837
-! Last Modified: 2024年04月25日 18:37
+! Version: 202404251937
+! Last Modified: 2024年04月25日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -96185,7 +96185,6 @@ fqsousou.com,kengso.com#@#.user-share
 /vendor/cedexis/*
 /vestigo/v1/measure
 /vglnk.js
-/vgwort/*
 /video-ga.js
 /video.counters.
 /video/tracking.js
@@ -96459,7 +96458,7 @@ _WebVitalsReporter_
 /usage/ReportEvent?
 /otlp/traces
 /_/trace/trace/*
-/rrweb-script.
+/rrweb-script.js
 /rrweb.js
 /rrweb.min.js
 /DNSCheck.js
@@ -96470,20 +96469,16 @@ _WebVitalsReporter_
 /cdn-cgi/apps/body/*$script,~third-party
 /cdn-cgi/apps/head/*$script,~third-party
 /blink-sw.js
-/epsilon.v2.
-/PushexSDK.
-/pushly-sdk.
-/pushly-sw.
+/PushexSDK.js
+/pushly-sdk.min.js
 /pg*.js?PID=$xmlhttprequest
 /admiral.js
 /js/admiral-
 /search/log_requests/*
-/cmp-hello.
 /cmp/messaging.js
 /cmp3.js
 /slot_cmp.js
 /sourcepoint.js
-/SourcePoint_JS_Files/*
 &pagegroup=*&url=$script
 /ajax/eulerian/*
 /eulerian.js
@@ -140637,6 +140632,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||t.wayfair.de^
 ||tagm.eduscho.at^
 ||tarnkappe.info^$ping
+||taz.de/count/
 ||teltarif.de/scripts/fb.js
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/ttt.go?
