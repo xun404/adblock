@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: f4IiOg1ZVpOhUPUzNU/i3A
+! Checksum: LOVGeiTrFgoV8BL/hDrfMA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404260038
-! Last Modified: 2024年04月26日 00:38
+! Version: 202404260337
+! Last Modified: 2024年04月26日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24028,6 +24028,8 @@ _WebVitalsReporter_
 /usage/Clickstream?
 /usage/ReportEvent?
 /otlp/traces
+/_/_/logClientError/*
+/_/trace/trace/*
 /rrweb-script.js
 /rrweb.js
 /rrweb.min.js
@@ -33005,7 +33007,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pingback.issuu.com^
 ||pingo.staticmoly.me^
 ||pinkvilla.com/comscore_response.php
-||pinterest.com/_/_/$xmlhttprequest
 ||pixel.archive.
 ||pixel.archivecaslytosk.onion^
 ||pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^
@@ -69588,6 +69589,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||redbull.com/gtm.js$~third-party
 @@||res-x.com^*/Resonance.aspx?
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
+@@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
