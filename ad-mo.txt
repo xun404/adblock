@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Dg7Z6X+S3o1ouGlKsA84kA
+! Checksum: tWSVq5ud0MUbmtz8LNLaoQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404251937
-! Last Modified: 2024年04月25日 19:37
+! Version: 202404252042
+! Last Modified: 2024年04月25日 20:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -96445,8 +96445,6 @@ _WebVitalsReporter_
 /ls.php?t=
 /track.php?domain=
 /track.php?toggle=
-/ContextLogResource/*
-/statslogresource/*
 /ajax/counter?ctr=
 /batch/1/OE/*
 /insights/reportEvent/*
@@ -96457,7 +96455,6 @@ _WebVitalsReporter_
 /usage/Clickstream?
 /usage/ReportEvent?
 /otlp/traces
-/_/trace/trace/*
 /rrweb-script.js
 /rrweb.js
 /rrweb.min.js
@@ -96471,7 +96468,6 @@ _WebVitalsReporter_
 /blink-sw.js
 /PushexSDK.js
 /pushly-sdk.min.js
-/pg*.js?PID=$xmlhttprequest
 /admiral.js
 /js/admiral-
 /search/log_requests/*
@@ -96482,7 +96478,6 @@ _WebVitalsReporter_
 &pagegroup=*&url=$script
 /ajax/eulerian/*
 /eulerian.js
-/r/ucb.js$script,~third-party
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
@@ -105434,6 +105429,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pingback.issuu.com^
 ||pingo.staticmoly.me^
 ||pinkvilla.com/comscore_response.php
+||pinterest.com/_/_/$xmlhttprequest
 ||pixel.archive.
 ||pixel.archivecaslytosk.onion^
 ||pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^
