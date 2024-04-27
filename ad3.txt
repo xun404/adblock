@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FzL9oLC3rdmIL5AFFt/Esg
+! Checksum: b6J2sAVaHW9q4M83n1/Y1w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404280337
-! Last Modified: 2024年04月28日 03:37
+! Version: 202404280637
+! Last Modified: 2024年04月28日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21709,6 +21709,7 @@ m.babytree.com##script + a[class]
 /AutoTracker.js
 /awin?awc=$image
 /awp.log
+/awpx_click.js
 /awpys.log
 /awstats.js
 /awstats_misc_tracker
@@ -29533,6 +29534,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||invitejs.trustpilot.com^
 ||io.narrative.io/?$third-party
 ||ip.lovely-app.com^
+||ip.momentummedia.com.au^
 ||ippen.space/idat
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
@@ -29568,7 +29570,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kbb.com/partner/$third-party
 ||kelkoogroup.net/st?
 ||key4web.com^*/set_cookie_by_referer/
-||kinesis.eu-west-1.amazonaws.com^$third-party,domain=~amazon.com
+||kinesis.*.amazonaws.com^$third-party,domain=~amazon.com
 ||kiwari.com^*/impressions.asp?
 ||kiwi.mdldb.net^
 ||kiwisizing.com/api/log
@@ -31532,6 +31534,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bbvms.com/zone/js/zonestats.js
 ||botndm.nl^*/init.min.js
 ||dmtgo.upc.biz^
+||go.planetnine.com^
 ||hottraffic.nl^$third-party
 ||marktplaats.net/cnt/
 ||mediahuis.be/cxense/
