@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: my8/SrkwWHrA48IGziSVbw
+! Checksum: upKjReM3O+s7mgGbWq8/DQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202404280637
-! Last Modified: 2024年04月28日 06:37
+! Version: 202404280737
+! Last Modified: 2024年04月28日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -68773,6 +68773,7 @@ empireonline.com##.article_adContainer--filled__vtAYe
 pianu.com##.article_add
 empireonline.com##.article_billboard__X_edx
 ubergizmo.com##.article_card_promoted
+indiatimes.com##.article_first_ad
 wikiwand.com##.article_footerStickyAd__wvdui
 news18.com##.article_mad
 wikiwand.com##.article_sectionAd__rMyBc
@@ -69583,6 +69584,7 @@ hltv.org##.featured-matches-top-matches-container
 apexcharts.com,ar12gaming.com##.featured-sponsor
 eetimes.com##.featured-techpaper-box
 motor1.com##.featured__apb
+tvfanatic.com##.feed_holder
 newser.com##.fiavur2
 filecrypt.cc##.filItheadbIockgueue3
 filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
@@ -72272,6 +72274,7 @@ spin.com##div[id*="-promo-mrec-"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
+thewire.in##div[id^="ATD_"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
 kisshentai.net,onworks.net##div[id^="ad"]
 songlyrics.com##div[id^="ad-absolute-160"]
@@ -72317,6 +72320,8 @@ nashfm100.com##div[onclick*="https://deucepub.com/"]
 forums.pcsx2.net##div[onclick^="MyAdvertisements."]
 ezgif.com##div[style$="min-height:90px;display:block"]
 kuncomic.com##div[style*="height: 2"][style*="text-align: center"]
+news18.com##div[style*="min-height"][style*="background"]
+news18.com##div[style*="min-height"][style*="justify-content:center;"]
 news18.com##div[style*="min-height: 250px"]
 footballtransfers.com##div[style*="min-height: 250px;"]
 news18.com##div[style*="min-height: 527px"]
@@ -72378,6 +72383,7 @@ gtaforums.com##div[style^="text-align: center; margin: 0px 0px 10px;"]
 jwire.com.au##div[style^="width:468px;"]
 imgbabes.com##div[style^="width:604px;"]
 interglot.com,sodapdf.com,stopmalvertising.com##div[style^="width:728px;"]
+worldstar.com,worldstarhiphop.com##div[style^="width:972px;height:250px;"]
 tvtv.us##div[style^="z-index: 1100; position: fixed;"]
 ebay.com##div[title="ADVERTISEMENT"]
 presearch.com##div[x-show*="_ad_click"]
@@ -72448,6 +72454,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shred
 tempostorm.com##side-banners
 smartprix.com##sm-dap
 nativeplanet.com##span[class^="oiad-txt"]
+thewire.in##span[style*="background: rgb(232, 233, 237); text-align: center;"]
 fxempire.com##span[style="user-select:none"]
 torlock.com##table.hidden-xs
 realitytvworld.com##table[border="0"][align="left"]
@@ -77354,6 +77361,13 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
+||vcugbgu.cn^
+||ugtbit.icu^
+||vgzytn.xyz^
+||kalmukrattail.com^
+||wxymag.xyz^
+||iwerioo.top^
+||wymqjow.icu^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -94230,6 +94244,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api_adlog.php?
 /api_ip_info.php
 /apilog?
 /apmrum.min.js
@@ -95596,6 +95611,7 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
+/plugins/wp-vgwort/*
 /pmc-cxense.js
 /pointeur.gif?
 /pomegranate.js
@@ -97052,6 +97068,7 @@ omni.soundestlink.com$image
 ||hbiq.net^
 ||hdmtools.com^
 ||herbgreencolumn.com^
+||hirsung.de^
 ||hs-analytics.net^
 ||hsadspixel.net^
 ||hsleadflows.net^
@@ -100289,6 +100306,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wecount4u.com^$third-party
 ||welt-der-links.de^$third-party
 ||wipe.de^$~script,third-party
+||wp-worthy.de^$third-party
 ||xcounter.ch^$third-party
 ||xhit.com^$third-party
 ||xplosion.de^$third-party
@@ -100734,6 +100752,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||denakop.com^$third-party
 ||engageya.com^$third-party
 ||enviou.com.br^$third-party
+||fulllab.com.br^$third-party
 ||hariken.co^$third-party
 ||lomadee.com^$third-party
 ||marktest.pt^$third-party
@@ -102705,6 +102724,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.uptime.com^
 ||rumstat.cdnvideo.ru^
 ||run.app/data.log
+||run.app/events
 ||run.app/metrics/
 ||rw.marchex.io^
 ||s-microsoft.com/mscc/$~stylesheet
@@ -103219,6 +103239,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustarc.com/log?
 ||trustcommander.net/iab-tcfapi/
 ||trustedform.com/trustedform.js?provide_referrer
+||trustmary.io/agg-event
 ||trustpilot.com/stats/
 ||trx-cdn.zip.co^
 ||trx.zip.co^
@@ -140748,6 +140769,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||leipziger-stadtplan.com/t.gif
 ||llntrack.messe-duesseldorf.de^
 ||lokalwerben.t-online.de^
+||mat.ukraine-nachrichten.de^
 ||metrics.n-tv.de^
 ||mlm-tracking-service.meinestadt.de^
 ||moviepilot.de/assets/autotrack-
@@ -141756,6 +141778,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cpa.hh.ru^
 ||credistory.ru/api/v1/LiveMetrics/
 ||cs42.pikabu.ru^
+||cs43.pikabu.ru^
 ||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||drom.ru/dummy.
@@ -141838,6 +141861,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||yast.rutube.ru^
 ||24ur.com/bin/player/?mod=statistics&
 ||dnevnik.si/tracker/
+||go-usertrack-importer.pub.24ur.si^
 ||ninja.data.olxcdn.com/ninja-olxba.js
 ||tracker.azet.sk^
 ||abc.es/pixel/
@@ -142213,6 +142237,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||signalshares.com/webtrends.min.js$script,~third-party
 @@||simcotools.app/assets/adsense-*.js$~third-party
+@@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||sohotheatre.com^*/PageView.js$~third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b6J2sAVaHW9q4M83n1/Y1w
+! Checksum: OvGmgLvoN+2+oTBfLJvh+Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202404280637
-! Last Modified: 2024年04月28日 06:37
+! Version: 202404280737
+! Last Modified: 2024年04月28日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2455,6 +2455,13 @@ newduba.cn###jq_youxi
 ||zhaweifeng.com^
 ||zhihucloud.xyz^
 ||zhnnaxe.xyz^
+||vcugbgu.cn^
+||ugtbit.icu^
+||vgzytn.xyz^
+||kalmukrattail.com^
+||wxymag.xyz^
+||iwerioo.top^
+||wymqjow.icu^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
 ||zojyob.icu^
@@ -21662,6 +21669,7 @@ m.babytree.com##script + a[class]
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api_adlog.php?
 /api_ip_info.php
 /apilog?
 /apmrum.min.js
@@ -23028,6 +23036,7 @@ m.babytree.com##script + a[class]
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
+/plugins/wp-vgwort/*
 /pmc-cxense.js
 /pointeur.gif?
 /pomegranate.js
@@ -24484,6 +24493,7 @@ omni.soundestlink.com$image
 ||hbiq.net^
 ||hdmtools.com^
 ||herbgreencolumn.com^
+||hirsung.de^
 ||hs-analytics.net^
 ||hsadspixel.net^
 ||hsleadflows.net^
@@ -27721,6 +27731,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wecount4u.com^$third-party
 ||welt-der-links.de^$third-party
 ||wipe.de^$~script,third-party
+||wp-worthy.de^$third-party
 ||xcounter.ch^$third-party
 ||xhit.com^$third-party
 ||xplosion.de^$third-party
@@ -28166,6 +28177,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||denakop.com^$third-party
 ||engageya.com^$third-party
 ||enviou.com.br^$third-party
+||fulllab.com.br^$third-party
 ||hariken.co^$third-party
 ||lomadee.com^$third-party
 ||marktest.pt^$third-party
@@ -30137,6 +30149,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.uptime.com^
 ||rumstat.cdnvideo.ru^
 ||run.app/data.log
+||run.app/events
 ||run.app/metrics/
 ||rw.marchex.io^
 ||s-microsoft.com/mscc/$~stylesheet
@@ -30651,6 +30664,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustarc.com/log?
 ||trustcommander.net/iab-tcfapi/
 ||trustedform.com/trustedform.js?provide_referrer
+||trustmary.io/agg-event
 ||trustpilot.com/stats/
 ||trx-cdn.zip.co^
 ||trx.zip.co^
@@ -68180,6 +68194,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||leipziger-stadtplan.com/t.gif
 ||llntrack.messe-duesseldorf.de^
 ||lokalwerben.t-online.de^
+||mat.ukraine-nachrichten.de^
 ||metrics.n-tv.de^
 ||mlm-tracking-service.meinestadt.de^
 ||moviepilot.de/assets/autotrack-
@@ -69188,6 +69203,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cpa.hh.ru^
 ||credistory.ru/api/v1/LiveMetrics/
 ||cs42.pikabu.ru^
+||cs43.pikabu.ru^
 ||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||drom.ru/dummy.
@@ -69270,6 +69286,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||yast.rutube.ru^
 ||24ur.com/bin/player/?mod=statistics&
 ||dnevnik.si/tracker/
+||go-usertrack-importer.pub.24ur.si^
 ||ninja.data.olxcdn.com/ninja-olxba.js
 ||tracker.azet.sk^
 ||abc.es/pixel/
@@ -69645,6 +69662,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||signalshares.com/webtrends.min.js$script,~third-party
 @@||simcotools.app/assets/adsense-*.js$~third-party
+@@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||sohotheatre.com^*/PageView.js$~third-party
