@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cgUcX0ZDSzxN4VKXdFK+jw
+! Checksum: DDP61SBUW01iU8zYgSUsHw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405030537
-! Last Modified: 2024年05月03日 05:37
+! Version: 202405030637
+! Last Modified: 2024年05月03日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -97280,6 +97280,7 @@ omni.soundestlink.com$image
 ||rkdms.com^
 ||robotflowermobile.com^
 ||rtactivate.com^
+||rum-ingress-coralogix.com^
 ||rumt-sg.com^
 ||s-onetag.com^
 ||sbgsodufuosmmvsdf.info^
@@ -100856,7 +100857,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marktest.pt^$third-party
 ||percycle.com^$third-party
 ||pmweb.com.br^$third-party
-||premiumads.com.br^$third-party
 ||retargeter.com.br^$third-party
 ||sambaads.com^$third-party
 ||shoptarget.com.br^$third-party
@@ -101380,6 +101380,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awswaf.com^*/report
 ||ax.babe.today^
 ||axislogger.appspot.com^
+||az.nzn.io^
 ||az693360.vo.msecnd.net^
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/track
@@ -101612,7 +101613,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnstrc.com/behavior?
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
-||cnt.trvdp.com^
 ||cnzz.com/stat.
 ||cod.bitrec.com^
 ||coefficy.com/ip/
@@ -102025,6 +102025,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ga-beacon.appspot.com^
 ||ga.webdigi.co.uk^
 ||gaijin.net/tag?
+||gamedistribution.com/event?
 ||gamedock.io/gamemonkey-web-tracker/
 ||gamegecko.com/gametrack?
 ||gannettdigital.com/capture_logger/
@@ -103209,6 +103210,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.yieldsoftware.com^
 ||trackdesk.com/tracking.js
 ||tracker-dot-optimeeze.appspot.com^
+||tracker-v4.gamedock.io^
 ||tracker.affirm.com^
 ||tracker.arc.io^
 ||tracker.beezup.com^
@@ -141849,6 +141851,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||sapo.pt/Projects/sapoabd/
 ||sinonimos.com.br/hits.php
 ||standvirtual.com^$ping
+||strapi.clickjogos.com.br^
 ||tags.globo.com^
 ||tm.jsuol.com.br^
 ||tm.uol.com.br^
@@ -142425,7 +142428,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! google-analytics.com/plugins/ua/ec.js
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at|teddyfood.com|xxl.se
 !! google-analytics.com/ga.js
-@@||google-analytics.com/ga.js$domain=meritonsuites.com.au
+@@||google-analytics.com/ga.js$domain=meritonsuites.com.au|realpage.com
 !! collect.igodigital.com/collect.js
 @@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|enoteca.co.jp|goodwillfinds.com|samash.com|viajeguanabara.com.br|vitalsource.com|wilsonparking.com.au
 !! browser.sentry-cdn.com
@@ -142720,6 +142723,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
+@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 !---------- Romanian ----------
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
