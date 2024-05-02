@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1IVBRs4fBG8Ex3/G1+cObg
+! Checksum: Ei3cEValfzZuugQ1Xo77jg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405030637
-! Last Modified: 2024年05月03日 06:37
+! Version: 202405030737
+! Last Modified: 2024年05月03日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -345,6 +345,7 @@ m.youtube.com###koya_child_6
 pan.baidu.com##.upload-bar.global-clearfix
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
+&pcid=*&rid=
 &sadbl=1$third-party
 -ad-300x600-
 -ad-458x80.
@@ -1200,6 +1201,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /page-links-to/dist/new-tab.js
 /page-peel
 /page/ad/*
+/page/bouncy.php?
 /pagead/1p-user-list/*
 /pagead/ads?
 /pagead/conversion.js
@@ -1617,6 +1619,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 ?bannerid=
 ?cs=*&abt=0&red=1&sm=$third-party
 ?service=ad&
+?usid=*&utid=
 ?whichAd=freestar&
 ?wppaszoneid=
 ?wpstealthadsjs=
@@ -58590,6 +58593,7 @@ browsershots.org#@#.advert_area
 ||b211.xyz^$document,popup
 ||b59c.xyz^$document,popup
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^$document,popup
+||bamgosu.site^$document,popup
 ||bcbe.site^$document,popup
 ||ca3d.site^$document,popup
 ||content-loader.com^$document,popup
@@ -58604,6 +58608,7 @@ browsershots.org#@#.advert_area
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^$document,popup
 ||html-load.cc^$document,popup
 ||html-load.com^$document,popup
+||ygosu.com^$document,popup
 ||ad.lgappstv.com^
 ||ad.nettvservices.com^
 ||ads.samsung.com^
@@ -63641,6 +63646,7 @@ browsershots.org#@#.advert_area
 ||bids.concert.io^
 ||bigrock.in/affiliate/
 ||bit.ly^$image,domain=tooxclusive.com
+||bit.ly^$script,domain=dailyuploads.net
 ||bitbond.com/affiliate-program/
 ||bl.wavecdn.de^
 ||blacklistednews.com/contentrotator/
@@ -68528,7 +68534,7 @@ skyve.io##.ads_space
 101soundboards.com##.ads_top_container_publift
 adlice.com,informer.com,waqi.info##.adsbygoogle
 aitextpromptgenerator.com##.adsbyus_wrapper
-gayvegas.com,looktothestars.org,nintandbox.net,plurk.com,radiofm.nl,rockpasta.com,thebarentsobserver.com,tolonews.com,webtor.io##.adsense
+gayvegas.com,looktothestars.org,nintandbox.net,plurk.com,rockpasta.com,thebarentsobserver.com,tolonews.com,webtor.io##.adsense
 radaris.com##.adsense-responsive-bottom
 temporary-phone-number.com##.adsense-top-728
 101soundboards.com##.adsense_matched_content
@@ -69819,7 +69825,6 @@ gumtree.com.au##.homepage-gallery__mrec-placeholder
 designspiration.com##.homepageBanner
 artandeducation.net##.homepage__banner
 swimswam.com##.homepage_block_ads
-radiofm.nl##.hoofdAd2
 radiocity.in##.horiozontal-add
 flv2mp3.by,flvto.biz,flvto.com.mx##.horizontal-area
 getmyuni.com##.horizontalRectangle
@@ -71951,6 +71956,7 @@ twitter.com##a[href*="src=promoted_trend_click"] + div
 coolors.co##a[href*="srv.Buysellads.com"]
 unitconversion.org##a[href="../noads.html"]
 osradar.com##a[href="http://insiderapps.com/"]
+dailyuploads.net##a[href="https://aptoze.com/"]
 tpb.party##a[href="https://mysurferprotector.com/"]
 igg-games.com,pcgamestorrents.com##a[href][aria-label=""], [width="300"][height^="25"], [width="660"][height^="8"], [width="660"][height^="7"]
 techporn.ph##a[href][target*="blank"]
@@ -72402,6 +72408,7 @@ tempostorm.com##side-banners
 smartprix.com##sm-dap
 nativeplanet.com##span[class^="oiad-txt"]
 thewire.in##span[style*="background: rgb(232, 233, 237); text-align: center;"]
+windowsbbs.com##span[style*="width: 338px; height: 282px;"]
 fxempire.com##span[style="user-select:none"]
 torlock.com##table.hidden-xs
 realitytvworld.com##table[border="0"][align="left"]
@@ -101486,6 +101493,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfunctions.net/export-customizer-data-metrics
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
+||cloudfunctions.net/sendwebpush-analytics
 ||cloudfunctions.net/vanalytics
 ||cltgtstor001.blob.core.windows.net^
 ||clustrmaps.com/counter/$third-party
@@ -102565,6 +102573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixlee.com/assets/keen-
 ||pixlee.com/assets/pixlee_events.js
 ||pl.connatix.com^
+||pla.fwdcdn.com^
 ||platform.iteratehq.com^
 ||platform.twitter.com/impressions.js
 ||plausible.io/js/p.js
@@ -141733,6 +141742,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||matt.mercadolivre.com.br^
 ||metrics.uol.com.br^
 ||olx.com.br^*/lurker.
+||passeidireto.com/pd-tracking-lib/
 ||poder360.com.br/_tracker
 ||r7.com/comscore/
 ||sapo.*/clk?u=
@@ -141914,6 +141924,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||terra.com/js/metrics/
 ||terra.com^*/td.asp?bstat
 ||todomercadoweb.es/pixel
+||tracker.jkplayers.com^
 ||trrsf.com/metrics/
 ||ubeat.tv/api/v1/sda/
 ||uecdn.es/js/pbmu.js
