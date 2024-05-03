@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jiUh3j/F4hUAA61POJNvNw
+! Checksum: H/zXE/FT12Ih2xZ2tnTtwA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405030737
-! Last Modified: 2024年05月03日 07:37
+! Version: 202405030938
+! Last Modified: 2024年05月03日 09:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -612,7 +612,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad.min.
 /ad/a.aspx?
 /ad/banners/*
-/ad/common_
 /ad/dfp/*
 /ad/err?
 /ad/getban?
@@ -650,7 +649,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad_header.js
 /ad_home.js
 /ad_images/*
-/ad_img/*
+/ad_img/*$image
 /ad_label_
 /ad_left.
 /ad_manager/*
@@ -742,7 +741,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/300.
 /ads/acctid=
 /ads/banner-
-/ads/banners/*
+/ads/banners/*$image
 /ads/bottom.
 /ads/bottom/*
 /ads/cbr.
@@ -792,7 +791,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/v2/*
 /ads/video/*
 /ads/view.php
-/ads/view/*
 /ads/www/*
 /ads/xtcore.
 /ads/yahoo/*
@@ -895,7 +893,7 @@ tieba.baidu.com##.tuijian-wrap
 /adv_2.
 /adv_468.
 /adv_468_
-/adv_ads_
+/adv_ads_v3/relatedAds/*
 /adv_banner_
 /adv_box_
 /adv_out.js
@@ -1003,12 +1001,10 @@ tieba.baidu.com##.tuijian-wrap
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php
-/banner/ad/*
 /banner/ad_
 /banner/ads/*
 /banner/affiliate/*
 /banner/html/zone?zid=
-/banner/sponsor_
 /banner/sponsors.
 /banner_468.
 /banner_ad_
@@ -1270,7 +1266,6 @@ tieba.baidu.com##.tuijian-wrap
 /mobile_ad.
 /mobile_ad/*
 /mobileads.
-/mobileads/*
 /mod_ad/*
 /mod_ijoomla_adagency_zone/*
 /mod_pagepeel_banner/*
@@ -1285,7 +1280,6 @@ tieba.baidu.com##.tuijian-wrap
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
 /nativead.
-/nativead/*
 /nativeads-v2.js
 /nativeads.js
 /nativeads/*
@@ -1330,7 +1324,6 @@ tieba.baidu.com##.tuijian-wrap
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
-/partner_ads_
 /partnerad.
 /partnerads/*
 /partnerads_
@@ -1629,14 +1622,13 @@ tieba.baidu.com##.tuijian-wrap
 /videoads/*
 /videojs.ads-
 /videojs.sda.js
-/view/ad/*
+/view/ad/*$subdocument
 /view/ads/*
 /view_banner.php
 /viewad.asp
 /viewad.php
 /virtuagirl/*
 /virtuagirlhd.
-/virtualgirl/*
 /web/ads/*
 /web_ads/*
 /webads.htm
@@ -1699,7 +1691,6 @@ tieba.baidu.com##.tuijian-wrap
 /xpopup.js
 /yhs/ads?
 /yume_ad_library_
-/zanox/banner/*
 /zcredirect?
 /zcvisitor/*
 /zergnet_ad/*
@@ -1988,7 +1979,7 @@ _prebid8.
 /adblock_logger.
 /adblockdetect.
 /adblockdetection.
-/adBlockDetector/*
+/adBlockDetector/*$script
 /adblocker-leader.
 /adBlockerTrack_
 /adblockkiller.
@@ -5828,6 +5819,7 @@ _800x80_
 ###mpu1_parent
 ###mpu2
 ###mpu2_container
+###mpu2_parent
 ###mpuAd
 ###mpuAdvert
 ###mpuAdvertDesk3
@@ -6878,9 +6870,7 @@ _800x80_
 ###zone-adsense
 ###zsAdvertisingBanner
 ##.-advertsSidebar
-##.AD728
 ##.ADBAR
-##.ADBnrArea
 ##.ADBox
 ##.ADFooter
 ##.ADInfo
@@ -6890,21 +6880,17 @@ _800x80_
 ##.ADServer
 ##.ADStyle
 ##.ADTop
-##.ADV-Space
 ##.ADVBig
 ##.ADVFLEX_250
 ##.ADVParallax
 ##.ADV_Mobile
 ##.AD_2
 ##.AD_area
-##.AD_textinfo
 ##.ADbox
 ##.ADmid
 ##.ADwidget
 ##.ATF_wrapper
-##.Ad--970x90
 ##.Ad--Align
-##.Ad--awareness-bp
 ##.Ad--empty
 ##.Ad--header
 ##.Ad--loading
@@ -6951,9 +6937,7 @@ _800x80_
 ##.AdPanel
 ##.AdPlaceHolder
 ##.AdPlaceholder
-##.AdPlacementBannerSponsorship
 ##.AdPlacementContainer
-##.AdPlacementMPU
 ##.AdProduct
 ##.AdRight1
 ##.AdRight2
@@ -6966,19 +6950,11 @@ _800x80_
 ##.AdTitle
 ##.AdTop
 ##.AdUnit
-##.AdUnit300
-##.AdUnit300x250
-##.AdUnitBox
-##.AdWidget_ImageWidget
-##.AdWrapper--sticky-block
 ##.Ad_C
 ##.Ad_D
 ##.Ad_Label
 ##.Ad_Right
-##.Ad_SmartBrokerBar
 ##.Ad_container
-##.Adgrid_footboard
-##.Adgrid_right_rail
 ##.Ads--center
 ##.Ads-768x90
 ##.Ads-background
@@ -6990,17 +6966,12 @@ _800x80_
 ##.AdsBoxBottom
 ##.AdsBoxSection
 ##.AdsBoxTop
-##.AdsInnov_responsive_ad
 ##.AdsLayout__top-container
-##.AdsSections
 ##.AdsSlot
-##.Ads_3
-##.Ads_4
 ##.Ads__wrapper
 ##.Ads_header
 ##.Adsense
 ##.AdsenseBox
-##.Adsinnov_flex_adcontainer
 ##.Adsterra
 ##.Adtext
 ##.Adv468
@@ -7057,7 +7028,6 @@ _800x80_
 ##.ContentTextAd
 ##.ContentTopAd
 ##.DFPad
-##.DartAdvert
 ##.DisplayAd
 ##.FirstAd
 ##.FooterAd
@@ -7070,9 +7040,6 @@ _800x80_
 ##.Gallery-Content-BottomAd
 ##.GeminiAdItem
 ##.GeminiNativeAd
-##.GoogleAdInfo
-##.GoogleAdsBox
-##.GoogleAdsItem
 ##.GoogleAdv
 ##.GoogleDfpAd
 ##.GoogleDfpAd-Content
@@ -7082,7 +7049,6 @@ _800x80_
 ##.GoogleDfpAd-wrapper
 ##.GoogleDfpAdModule
 ##.GoogleDoubleClick-SponsorText
-##.GoogleSideAd
 ##.GroupAdSense
 ##.HeaderAd
 ##.HeaderAds
@@ -7090,7 +7056,6 @@ _800x80_
 ##.HeadingAdSpace
 ##.Hero-Ad
 ##.HomeAds
-##.HomeListBlack__AdBlock
 ##.InArticleAd
 ##.IndexRightAd
 ##.InsertedAd
@@ -14104,6 +14069,7 @@ _800x80_
 ##.item-inline-ad
 ##.itemAdvertise
 ##.item_ads
+##.itsanad
 ##.j-ad
 ##.jLinkSponsored
 ##.jannah_ad
@@ -58478,6 +58444,7 @@ browsershots.org#@#.advert_area
 ||smartadv.ru^$third-party
 ||smartasset.com^$third-party
 ||smartclip.net^$third-party,domain=~toggo.de
+||smartframe.io^$third-party
 ||smartico.one^$third-party
 ||smartredirect.de^$third-party
 ||smarttargetting.net^$third-party
@@ -58525,6 +58492,7 @@ browsershots.org#@#.advert_area
 ||starlayer.com^$third-party
 ||starti.pl^$third-party
 ||statsperformdev.com^$third-party
+||stay22.com^$third-party
 ||stocker.bonnint.net^$third-party
 ||stratos.blue^$third-party
 ||streamdefence.com^$third-party
@@ -59462,6 +59430,7 @@ browsershots.org#@#.advert_area
 ||brucelead.com^$popup
 ||brutalconfer.com^$popup
 ||btpnav.com^$popup
+||bttn.io^$popup
 ||buikolered.com^$popup
 ||bullads.net^$popup
 ||bulochka.xyz^$popup
@@ -61577,6 +61546,7 @@ browsershots.org#@#.advert_area
 ||pretrackings.com^$popup
 ||prevailinsolence.com^$popup
 ||prevalentprincess.com^$popup
+||prf.hn^$popup
 ||prime-vpnet.com^$popup
 ||primerclicks.com^$popup
 ||princesinistervirus.com^$popup
@@ -67764,7 +67734,6 @@ moviemistakes.com###moviemistakes_300x600_300x250_160x600_sidebar_2
 consobaby.co.uk,gumtree.com,pcgamingwiki.com,thefootballnetwork.net###mpu
 news.sky.com,skysports.com###mpu-1
 bbc.com###mpu-side-aside-content
-standard.co.uk###mpu2_parent
 standard.co.uk###mpu_bottom_sb_2_parent
 spin.ph###mrec3
 nitrome.com###mu_2_container
@@ -67801,6 +67770,8 @@ techraptor.net,unite-db.com###nn_lb1
 techraptor.net,unite-db.com###nn_lb2
 techraptor.net###nn_lb3
 techraptor.net###nn_lb4
+gamertweak.com###nn_mpu1
+gamertweak.com###nn_mpu2
 techraptor.net,tftactics.gg###nn_player
 steamidfinder.com###nn_player_wrapper
 asura.gg,nacm.xyz###noktaplayercontainer
@@ -69272,7 +69243,7 @@ letras.com##.cnt-space-top
 groceries.asda.com##.co-product-dynamic
 asda.com##.co-product-list[data-module-type="HookLogic"]
 map.riftkit.net##.coachify_wrapper
-180gadgets.com,247media.com.ng,academicful.com,addapinch.com,alltechnerd.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bigleaguepolitics.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,coincodecap.com,conservativebrief.com,cookingwithdog.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dafontfree.io,dailynewshungary.com,dcenquirer.com,dexdotexe.com,dorohedoro.online,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodinsider.com,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,nationalfile.com,nintendoeverything.com,notalwaysright.com,nsw2u.com,organicfacts.net,patriotfetch.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,wnd.com,zerohanger.com##.code-block
+180gadgets.com,247media.com.ng,academicful.com,addapinch.com,alltechnerd.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bigleaguepolitics.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,coincodecap.com,conservativebrief.com,cookingwithdog.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dafontfree.io,dailynewshungary.com,dcenquirer.com,dexdotexe.com,dorohedoro.online,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodinsider.com,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,nationalfile.com,nintendoeverything.com,notalwaysright.com,nsw2u.com,organicfacts.net,patriotfetch.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,wnd.com,zerohanger.com##.code-block
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 streamtelly.com##.code-block-1
 patriotnewsfeed.com##.code-block-4
@@ -77478,6 +77449,10 @@ newduba.cn###jq_youxi
 ||eweriow.top^
 ||udxhzqg.cn^
 ||pqzjki.cn^
+||fluxy.cn^
+||onosyej.icu^
+||gamdus.xyz^
+||rczudr.xyz^
 ||zuvbzl.xyz^
 ||zwxxcb.icu^
 ||zxfdbr.xyz^
