@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mhNl0lcYDQ/3ti4f8w17lw
+! Checksum: Di4/cCi+6Kslzj6t3nEMZw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405051137
-! Last Modified: 2024年05月05日 11:37
+! Version: 202405051337
+! Last Modified: 2024年05月05日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -626,7 +626,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/skin_
 /ad/sponsors/*
 /ad/view/*
-/ad/zeus/*
 /ad300.jpg
 /ad300.js
 /ad300.png
@@ -782,7 +781,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/sponsor
 /ads/square-
 /ads/square.
-/ads/taboola/*
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -974,7 +972,7 @@ tieba.baidu.com##.tuijian-wrap
 /app/manga/themes/*/ads/pop.js
 /apu.php?
 /arcads.js
-/asset/ad/*
+/asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php
 /asyncspc.php
@@ -1017,8 +1015,8 @@ tieba.baidu.com##.tuijian-wrap
 /banners.*/go/page/*
 /banners.*/piclist?
 /banners.cgi?
-/banners/468
-/banners/728
+/banners/468$image
+/banners/728$image
 /banners/ad/*
 /banners/ads-
 /banners/ads.
@@ -1069,7 +1067,7 @@ tieba.baidu.com##.tuijian-wrap
 /css/ads-
 /css/adsense.
 /css/adv.
-/curveball/ads/*
+/curveball/ads/*$image
 /custom_ads.js
 /data-file_123.js
 /deliverad/fc.js
@@ -1098,7 +1096,6 @@ tieba.baidu.com##.tuijian-wrap
 /dynamicad?
 /easyazon-
 /ec5bcb7487ff.js
-/embed/ad/*
 /embed_ad.php
 /ero-ads_
 /ero.htm
@@ -1151,7 +1148,6 @@ tieba.baidu.com##.tuijian-wrap
 /footerads/*
 /forum/ads/*
 /forum/ads_
-/forums/ad/*
 /fro_lo.js
 /froloa.js
 /frontend/ads/*
@@ -1196,7 +1192,7 @@ tieba.baidu.com##.tuijian-wrap
 /images/ads-$domain=~ads.com
 /images/adv/*
 /images/adz/*
-/images2/Ads/*
+/images2/Ads/*$image
 /img/ad/*
 /img/aff/*
 /img_ad/*
@@ -1211,7 +1207,7 @@ tieba.baidu.com##.tuijian-wrap
 /index_ad/*
 /index_ads.js
 /infinity.js.aspx?
-/inhouse_ads/*
+/inhouse_ads/*$image
 /inlineads.aspx
 /insertads.js
 /internAds.css
@@ -1296,10 +1292,8 @@ tieba.baidu.com##.tuijian-wrap
 /oiopub-direct/js.php
 /oncc-ad.js
 /openads.js
-/openads/*
 /owa.MessageAdList.
 /p2/ads/*
-/p2ads/*
 /p8network.js
 /p?zoneId=
 /page-ads-
@@ -1322,7 +1316,6 @@ tieba.baidu.com##.tuijian-wrap
 /pagepeel/*
 /pagepeelpro.js
 /partner-ad-
-/Partner_Ad/*
 /partner_ads/*
 /partnerad.
 /partnerads/*
@@ -1339,7 +1332,6 @@ tieba.baidu.com##.tuijian-wrap
 /pfe/current/*
 /php/ad/*
 /phpads/*
-/phpads2/*
 /phpadsnew/*
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
@@ -1405,8 +1397,7 @@ tieba.baidu.com##.tuijian-wrap
 /prism_ad/*$script
 /processing/impressions.asp?
 /production/ad-
-/production/ads/*
-/promo/ad_
+/production/ads/*$script
 /promo/ads/*
 /promo/affiframe.
 /PromosAds/*
@@ -1488,7 +1479,6 @@ tieba.baidu.com##.tuijian-wrap
 /select_adv?
 /servead/request/*
 /serveads.php
-/service/ad/*
 /service/ads/*
 /service/adv/*
 /servlet/view/*
@@ -1541,14 +1531,12 @@ tieba.baidu.com##.tuijian-wrap
 /sponsor-links.html
 /sponsorad.jpg
 /sponsorad.png
-/sponsorads/*
 /sponsorbanners/*
 /sponsored-links-
 /sponsored-links.
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
-/sponsored_ad/*
 /sponsored_ads/*
 /sponsored_link.
 /sponsored_links_
@@ -1593,7 +1581,6 @@ tieba.baidu.com##.tuijian-wrap
 /v1/ads/*
 /v2/a/pop/*
 /v2/a/push/js/*
-/v2/ads/*
 /v3/ads/*
 /v3/ads?
 /v5/ads/*
@@ -1642,7 +1629,6 @@ tieba.baidu.com##.tuijian-wrap
 /widget-advert?
 /widget/ads.
 /widget/ads/*
-/widgets/sponsored/*
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
@@ -1918,6 +1904,7 @@ _widget_ad.
 /gpt_and_prebid/*
 /pbjsandwich-
 /pbjsandwich.
+/plugins/prebidjs/*
 /porpoiseant/*
 /prebid-js-
 /prebid-min-
@@ -1939,7 +1926,6 @@ _widget_ad.
 /prebid_$script,third-party
 /prebid_v4.
 /prebidAdcall.
-/prebidjs/*
 /prebidLibrary.
 /prebidlink/*
 /prodprebidheader-
