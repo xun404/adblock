@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9mmpujdQHXendRYHr2coNQ
+! Checksum: ba3iVWAZYspmnu/FVItinQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405051040
-! Last Modified: 2024年05月05日 10:40
+! Version: 202405051137
+! Last Modified: 2024年05月05日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -16845,7 +16845,7 @@ _800x80_
 ##[data-desktop-ad-id]
 ##[data-dynamic-ads]
 ##[data-ez-name]
-##[data-freestar-ad]:not(:empty):not([data-freestar-ad="123"])
+##[data-freestar-ad][id]
 ##[data-id^="div-gpt-ad"]
 ##[data-m-ad-id]
 ##[data-mobile-ad-id]
@@ -91719,7 +91719,8 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||doubibackup.com^$generichide
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
-@@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclick.net^$xmlhttprequest,domain=yyets.click
 @@||down.cc/down/js/ad.js
 @@||dqzsteel.com/Website/Image/guanggao/
@@ -91790,7 +91791,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.com.hk
 @@||googleads4.g.doubleclick.net^$domain=renfei.net
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
+@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw|tvbs.com.tw
 @@||googletagservices.com^$script,domain=creaders.net
 @@||gooogle.how^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
