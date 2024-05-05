@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BNLMd2ZNsgt7QDaYknxWSQ
+! Checksum: Jn6gYBSIdoXEBtRFGN/lvQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405051937
-! Last Modified: 2024年05月05日 19:37
+! Version: 202405052048
+! Last Modified: 2024年05月05日 20:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -71968,6 +71968,7 @@ dailydooh.com##[id^="rectdiv"]
 daily-choices.com##[id^="sticky_"]
 wuxiaworld.site##[id^="wuxia-"]
 grabcad.com##[ng-if="model.asense"]
+buzzheavier.com##[onclick="downloadAd()"]
 survivopedia.com##[onclick="recordClick("]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
@@ -102877,7 +102878,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.uptime.com^
 ||rumstat.cdnvideo.ru^
 ||run.app/data.log
-||run.app/events
 ||run.app/metrics/
 ||rw.marchex.io^
 ||s-microsoft.com/mscc/$~stylesheet
@@ -105903,7 +105903,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.condenastdigital.com^
 ||rum.kobo.com^
 ||rumble.com/l/
-||run.app/events$domain=imgur.com
+||run.app/events$domain=imgur.com|worldstar.com
 ||rv.modanisa.com^$script
 ||rvo-cohesion.healthline.com^
 ||s.gofile.io^
