@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dADG+llEEod0QSx3xfpNOA
+! Checksum: dC8JuTAbW7VqRBMUtE6nwg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405061137
-! Last Modified: 2024年05月06日 11:37
+! Version: 202405061237
+! Last Modified: 2024年05月06日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -615,7 +615,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/dfp/*
 /ad/err?
 /ad/getban?
-/ad/html/*
 /ad/image/*
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
@@ -624,7 +623,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/popup.
 /ad/skin-
 /ad/skin_
-/ad/sponsors/*
 /ad/view/*
 /ad300.jpg
 /ad300.js
@@ -781,6 +779,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/sponsor
 /ads/square-
 /ads/square.
+/ads/targeted|
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -1178,7 +1177,6 @@ tieba.baidu.com##.tuijian-wrap
 /hserver/channel=
 /hserver/site=
 /ht.js?site_
-/html/ad/*
 /html/ads/*
 /image/ad/*
 /image/ads/*
@@ -1192,7 +1190,7 @@ tieba.baidu.com##.tuijian-wrap
 /images/adv/*
 /images/adz/*
 /images2/Ads/*$image
-/img/ad/*$image
+/img/ad/*$~xmlhttprequest
 /img/aff/*
 /img_ad/*
 /in/show/?mid=$third-party
@@ -1203,7 +1201,7 @@ tieba.baidu.com##.tuijian-wrap
 /index-ad.jpg
 /index-ad.js
 /index-ad.png
-/index_ad/*
+/index_ad/*$image
 /index_ads.js
 /infinity.js.aspx?
 /inhouse_ads/*$image
@@ -1290,7 +1288,6 @@ tieba.baidu.com##.tuijian-wrap
 /oncc-ad.js
 /openads.js
 /owa.MessageAdList.
-/p2/ads/*
 /p8network.js
 /p?zoneId=
 /page-ads-
@@ -1378,7 +1375,6 @@ tieba.baidu.com##.tuijian-wrap
 /popunder7.min.js
 /popunder?
 /popunderjs/*
-/popunders/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
@@ -1387,6 +1383,7 @@ tieba.baidu.com##.tuijian-wrap
 /popup_code.php
 /popupads.js
 /popupunder.js
+/prbt/v1/ads/?
 /prebid-video.js
 /prehead/ads_detect.js
 /prerollad.
@@ -1400,8 +1397,8 @@ tieba.baidu.com##.tuijian-wrap
 /PromosAds/*
 /promotools.
 /proxyadcall?
-/public/ad/*
-/public/ads/*
+/public/ad/*$image
+/public/ads/*$image
 /publicidad.$~object,~stylesheet
 /publicidad/*
 /publicidad_$~stylesheet
@@ -1435,7 +1432,7 @@ tieba.baidu.com##.tuijian-wrap
 /ren.gif?
 /report_ad.js
 /resources/ads/*
-/responsive/ad_
+/responsive/ad_$subdocument
 /responsive_ads.js
 /right-ad-
 /right_ad.
@@ -1511,7 +1508,7 @@ tieba.baidu.com##.tuijian-wrap
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
-/slide_in_ads_
+/slide_in_ads_close.gif
 /slider_ad.js
 /sliderad.js
 /small_ad.
@@ -1575,7 +1572,6 @@ tieba.baidu.com##.tuijian-wrap
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v1/ads/*
 /v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
@@ -70771,7 +70767,6 @@ thetowner.com##.powered
 thecoinrise.com##.pp_ad_block
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
-check-host.net##.pr-e-lative
 oneesports.gg##.pr-sm-4
 hindustantimes.com##.pramotedWidget
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com##.pre-article-ad
@@ -70874,6 +70869,7 @@ allthatsinteresting.com##.r-11rk87y
 tgstat.com##.r1-aors
 tripadvisor.com##.rSJod
 joins.com,kmplayer.com##.r_banner
+check-host.net##.ra-elative
 linuxtopia.org##.raCloseButton
 time.is##.rad
 wahm.com##.rad-links
@@ -71126,6 +71122,7 @@ abovethelaw.com##.sidebar-sponsored
 proprivacy.com##.sidebar-top-vpn
 indianapublicmedia.org##.sidebar-upper-underwritings
 bigleaguepolitics.com##.sidebar-widget
+mobilesyrup.com##.sidebarSponsoredAd
 zap-map.com##.sidebar__advert
 wordcounter.icu##.sidebar__display
 pbs.org##.sidebar__logo-pond

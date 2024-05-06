@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WHQDiiMTVErdVQzsbVJH1g
+! Checksum: xdiepeGOohVVNev3++YBMg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405061137
-! Last Modified: 2024年05月06日 11:37
+! Version: 202405061237
+! Last Modified: 2024年05月06日 12:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -503,7 +503,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/dfp/*
 /ad/err?
 /ad/getban?
-/ad/html/*
 /ad/image/*
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
@@ -512,7 +511,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/popup.
 /ad/skin-
 /ad/skin_
-/ad/sponsors/*
 /ad/view/*
 /ad300.jpg
 /ad300.js
@@ -669,6 +667,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/sponsor
 /ads/square-
 /ads/square.
+/ads/targeted|
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -1066,7 +1065,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /hserver/channel=
 /hserver/site=
 /ht.js?site_
-/html/ad/*
 /html/ads/*
 /image/ad/*
 /image/ads/*
@@ -1080,7 +1078,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /images/adv/*
 /images/adz/*
 /images2/Ads/*$image
-/img/ad/*$image
+/img/ad/*$~xmlhttprequest
 /img/aff/*
 /img_ad/*
 /in/show/?mid=$third-party
@@ -1091,7 +1089,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /index-ad.jpg
 /index-ad.js
 /index-ad.png
-/index_ad/*
+/index_ad/*$image
 /index_ads.js
 /infinity.js.aspx?
 /inhouse_ads/*$image
@@ -1178,7 +1176,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /oncc-ad.js
 /openads.js
 /owa.MessageAdList.
-/p2/ads/*
 /p8network.js
 /p?zoneId=
 /page-ads-
@@ -1266,7 +1263,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /popunder7.min.js
 /popunder?
 /popunderjs/*
-/popunders/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
@@ -1275,6 +1271,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /popup_code.php
 /popupads.js
 /popupunder.js
+/prbt/v1/ads/?
 /prebid-video.js
 /prehead/ads_detect.js
 /prerollad.
@@ -1288,8 +1285,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /PromosAds/*
 /promotools.
 /proxyadcall?
-/public/ad/*
-/public/ads/*
+/public/ad/*$image
+/public/ads/*$image
 /publicidad.$~object,~stylesheet
 /publicidad/*
 /publicidad_$~stylesheet
@@ -1323,7 +1320,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ren.gif?
 /report_ad.js
 /resources/ads/*
-/responsive/ad_
+/responsive/ad_$subdocument
 /responsive_ads.js
 /right-ad-
 /right_ad.
@@ -1399,7 +1396,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
-/slide_in_ads_
+/slide_in_ads_close.gif
 /slider_ad.js
 /sliderad.js
 /small_ad.
@@ -1463,7 +1460,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v1/ads/*
 /v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
@@ -70659,7 +70655,6 @@ thetowner.com##.powered
 thecoinrise.com##.pp_ad_block
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
-check-host.net##.pr-e-lative
 oneesports.gg##.pr-sm-4
 hindustantimes.com##.pramotedWidget
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com##.pre-article-ad
@@ -70762,6 +70757,7 @@ allthatsinteresting.com##.r-11rk87y
 tgstat.com##.r1-aors
 tripadvisor.com##.rSJod
 joins.com,kmplayer.com##.r_banner
+check-host.net##.ra-elative
 linuxtopia.org##.raCloseButton
 time.is##.rad
 wahm.com##.rad-links
@@ -71014,6 +71010,7 @@ abovethelaw.com##.sidebar-sponsored
 proprivacy.com##.sidebar-top-vpn
 indianapublicmedia.org##.sidebar-upper-underwritings
 bigleaguepolitics.com##.sidebar-widget
+mobilesyrup.com##.sidebarSponsoredAd
 zap-map.com##.sidebar__advert
 wordcounter.icu##.sidebar__display
 pbs.org##.sidebar__logo-pond
