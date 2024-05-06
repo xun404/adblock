@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HSnv39gVqYbkQ4Od7dOcjw
+! Checksum: HMqIHDpqzW1GaWsXKl0Sdw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202405061537
-! Last Modified: 2024年05月06日 15:37
+! Version: 202405061837
+! Last Modified: 2024年05月06日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -780,6 +780,8 @@ topwwnews.com#$#abort-on-property-read localStorage
 thetrendspotter.net,theavtimes.com#$#abort-on-property-read advads_passive_ads
 ! #CV-782
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
+music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
+m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 ! Fallback
 youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
 youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint

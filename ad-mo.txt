@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P8ikLNzCUeEdnkd61hJZWg
+! Checksum: L7N47a0UNZAUKBEHJY4oow
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405061737
-! Last Modified: 2024年05月06日 17:37
+! Version: 202405061837
+! Last Modified: 2024年05月06日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7430,7 +7430,6 @@ _800x80_
 ##.ad-bottomLeft
 ##.ad-bottomleader
 ##.ad-bottomline
-##.ad-box
 ##.ad-box-2
 ##.ad-box-300x250
 ##.ad-box-auto
@@ -7443,6 +7442,7 @@ _800x80_
 ##.ad-box1
 ##.ad-box2
 ##.ad-box3
+##.ad-box:not(#ad-banner):not(:empty)
 ##.ad-box_h
 ##.ad-boxamp-wrapper
 ##.ad-boxbottom
@@ -17497,7 +17497,7 @@ job.inshokuten.com#@#.ad-area
 kincho.co.jp,niji-gazo.com#@#.ad-block
 livesexgirlsrooms.com#@#.ad-body
 ikkaku.net#@#.ad-bottom
-job.inshokuten.com,sexgr.net,webbtelescope.org,websaver.ca#@#.ad-box
+job.inshokuten.com,sexgr.net,webbtelescope.org,websaver.ca#@#.ad-box:not(#ad-banner):not(:empty)
 dbook.docomo.ne.jp,dmagazine.docomo.ne.jp#@#.ad-button
 livedoorblogstyle.jp#@#.ad-center
 newegg.com#@#.ad-click
@@ -90684,7 +90684,7 @@ bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^=
 bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 api.so.lianmeng.360.cn,pos.baidu.com##body
 qzwb.com##body > .area[style^="height:60px;"]
-lzcfz2.com##body > .cl.wp
+lzcfz2.com,lzcfz7.xyz##body > .cl.wp
 2cycomic.com,whnyd.com,yemancomic.com##body > a
 bkill.com##body > a:first-child
 ygdy8.cc##body > a[href^="/"]
