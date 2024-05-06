@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MbKY9fCKcl1HmtNylcpEMA
+! Checksum: m845qjNexy5e2JnbI9/zcg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405070237
-! Last Modified: 2024年05月07日 02:37
+! Version: 202405070637
+! Last Modified: 2024年05月07日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -98845,6 +98845,7 @@ omni.soundestlink.com$image
 ||marketshot.com^$third-party
 ||marketshot.fr^$third-party
 ||maropost.com^$third-party
+||marvelmetrix.com^$third-party
 ||masterstats.com^$third-party
 ||masterworks.digital^$third-party
 ||mathtag.com^$third-party
@@ -142320,6 +142321,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
+@@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
