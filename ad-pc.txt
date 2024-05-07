@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fGK28Dn6Ag1TflVUhhD/FA
+! Checksum: 2pGr8V10/lkr+fszRbeRtg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405071537
-! Last Modified: 2024年05月07日 15:37
+! Version: 202405071837
+! Last Modified: 2024年05月07日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -615,7 +615,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad/dfp/*
 /ad/err?
 /ad/getban?
-/ad/image/*
+/ad/image/*$image
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
 /ad/imp?
@@ -914,7 +914,6 @@ tieba.baidu.com##.tuijian-wrap
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
-/advertisment_
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /adverts_
@@ -930,7 +929,7 @@ tieba.baidu.com##.tuijian-wrap
 /aff-ads.
 /aff/ads_
 /aff/banners/*
-/aff/images/*
+/aff/images/*$image
 /aff_ad?$script
 /aff_banner/*
 /aff_banners/*
@@ -1003,7 +1002,6 @@ tieba.baidu.com##.tuijian-wrap
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
-/banner_ad_
 /banner_ads/*
 /banner_ads_
 /bannerad.
@@ -1112,7 +1110,6 @@ tieba.baidu.com##.tuijian-wrap
 /exports/tour_20/*
 /extban/*/creatives/*
 /external/ad.
-/external/ad/*
 /external/ads/*
 /external_ad?
 /external_ads.
@@ -1127,7 +1124,6 @@ tieba.baidu.com##.tuijian-wrap
 /fload.js
 /float-ads/*
 /float_ad.js
-/floatad_
 /floatads.
 /floating-ad-
 /floatingad.js
@@ -1148,7 +1144,6 @@ tieba.baidu.com##.tuijian-wrap
 /forum/ads_
 /fro_lo.js
 /froloa.js
-/frontend/ads/*
 /frontend_loader.js
 /ftt2/js.php
 /funcript*.php?pub=
@@ -1178,9 +1173,8 @@ tieba.baidu.com##.tuijian-wrap
 /hserver/site=
 /ht.js?site_
 /html/ads/*
-/image/ad/*
+/image/ad/*$image
 /image/ads/*
-/image/ads_
 /image/affiliate/*
 /image_ads/*
 /imageads/*
@@ -1326,7 +1320,7 @@ tieba.baidu.com##.tuijian-wrap
 /pfe/current/*
 /php/ad/*
 /phpads/*
-/phpadsnew/*
+/phpadsnew/*$image,script
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
@@ -1590,7 +1584,6 @@ tieba.baidu.com##.tuijian-wrap
 /video-ads-player.
 /video-js-ads.
 /video.ads.
-/video/ad/*
 /video/ads/*
 /video_ad.
 /video_ad_
@@ -49606,7 +49599,6 @@ browsershots.org#@#.advert_area
 ||spotbeepgreenhouse.com^
 ||spotdimesulky.com^
 ||spotlessabridge.com^
-||spotlightstores.com^
 ||spotofspawn.com^
 ||spotrails.com^
 ||spotscenered.info^
@@ -65809,6 +65801,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||eevblog.com/images/comm/$image
 ||elil.cc/pdev/
 ||elil.cc/reqe.js
+||elpais.com.co/js/frontend/ads/
 ||emoneyspace.com/b.php
 ||engagesrvr.filefactory.com^
 ||engine.fxempire.com^
@@ -65973,6 +65966,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||kta.etherscan.com^
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lasentinel.net/static/img/promos/
+||latestlaws.com/frontend/ads/
 ||lespagesjaunesafrique.com/bandeaux/
 ||lifehack.org/Tm73FWA1STxF.js
 ||linkedin.com/tscp-serving/
@@ -69326,6 +69320,7 @@ thefastmode.com##.channel_small
 cheknews.ca##.chek-advertisement-placeholder
 sevenforums.com,tenforums.com##.chill
 hannaford.com##.citrus_ad_banner
+apps.jeurissen.co##.cja-landing__content > .cja-sqrimage
 gunsamerica.com##.cl_ga
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button

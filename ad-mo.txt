@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SVehG7gPXKLc860zYQKjQA
+! Checksum: nG7s+e2fHCeWLWqeWJr8OQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405071537
-! Last Modified: 2024年05月07日 15:37
+! Version: 202405071837
+! Last Modified: 2024年05月07日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -503,7 +503,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/dfp/*
 /ad/err?
 /ad/getban?
-/ad/image/*
+/ad/image/*$image
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
 /ad/imp?
@@ -802,7 +802,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
-/advertisment_
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /adverts_
@@ -818,7 +817,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /aff-ads.
 /aff/ads_
 /aff/banners/*
-/aff/images/*
+/aff/images/*$image
 /aff_ad?$script
 /aff_banner/*
 /aff_banners/*
@@ -891,7 +890,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
-/banner_ad_
 /banner_ads/*
 /banner_ads_
 /bannerad.
@@ -1000,7 +998,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /exports/tour_20/*
 /extban/*/creatives/*
 /external/ad.
-/external/ad/*
 /external/ads/*
 /external_ad?
 /external_ads.
@@ -1015,7 +1012,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /fload.js
 /float-ads/*
 /float_ad.js
-/floatad_
 /floatads.
 /floating-ad-
 /floatingad.js
@@ -1036,7 +1032,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /forum/ads_
 /fro_lo.js
 /froloa.js
-/frontend/ads/*
 /frontend_loader.js
 /ftt2/js.php
 /funcript*.php?pub=
@@ -1066,9 +1061,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /hserver/site=
 /ht.js?site_
 /html/ads/*
-/image/ad/*
+/image/ad/*$image
 /image/ads/*
-/image/ads_
 /image/affiliate/*
 /image_ads/*
 /imageads/*
@@ -1214,7 +1208,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pfe/current/*
 /php/ad/*
 /phpads/*
-/phpadsnew/*
+/phpadsnew/*$image,script
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
@@ -1478,7 +1472,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /video-ads-player.
 /video-js-ads.
 /video.ads.
-/video/ad/*
 /video/ads/*
 /video_ad.
 /video_ad_
@@ -49494,7 +49487,6 @@ browsershots.org#@#.advert_area
 ||spotbeepgreenhouse.com^
 ||spotdimesulky.com^
 ||spotlessabridge.com^
-||spotlightstores.com^
 ||spotofspawn.com^
 ||spotrails.com^
 ||spotscenered.info^
@@ -65697,6 +65689,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||eevblog.com/images/comm/$image
 ||elil.cc/pdev/
 ||elil.cc/reqe.js
+||elpais.com.co/js/frontend/ads/
 ||emoneyspace.com/b.php
 ||engagesrvr.filefactory.com^
 ||engine.fxempire.com^
@@ -65861,6 +65854,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||kta.etherscan.com^
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lasentinel.net/static/img/promos/
+||latestlaws.com/frontend/ads/
 ||lespagesjaunesafrique.com/bandeaux/
 ||lifehack.org/Tm73FWA1STxF.js
 ||linkedin.com/tscp-serving/
@@ -69214,6 +69208,7 @@ thefastmode.com##.channel_small
 cheknews.ca##.chek-advertisement-placeholder
 sevenforums.com,tenforums.com##.chill
 hannaford.com##.citrus_ad_banner
+apps.jeurissen.co##.cja-landing__content > .cja-sqrimage
 gunsamerica.com##.cl_ga
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
