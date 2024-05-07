@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BJyX6Enc7hVvg+wi6DqpUQ
+! Checksum: SVehG7gPXKLc860zYQKjQA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405071439
-! Last Modified: 2024年05月07日 14:39
+! Version: 202405071537
+! Last Modified: 2024年05月07日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17139,6 +17139,7 @@ _800x80_
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##.shopee-search-user-brief
+##a[href*="&maxads="]
 ##a[href*=".cfm?domain="][href*="&fp="]
 ##.CitrusBannerWrapper--enollj
 ##[class^="tile-picker__CitrusBannerContainer-sc-"]
@@ -57601,6 +57602,7 @@ browsershots.org#@#.advert_area
 ||ahvclick.com^$third-party
 ||aim4media.com^$third-party
 ||ainsyndication.com^$third-party
+||airfind.com^$third-party
 ||akavita.com^$third-party
 ||aklamator.com^$third-party
 ||alienhub.xyz^$third-party
@@ -63819,12 +63821,13 @@ browsershots.org#@#.advert_area
 ||go.ezodn.com^
 ||go.onelink.me^$image,script
 ||goldmoney.com/~/media/Images/Banners/
-||google.com/adsense/ad
-||google.com/adsense/domains
-||google.com/adsense/search/$third-party
+||google.com/adsense/domains/caf.js
+||google.com/adsense/search/ads.js
+||google.com/adsense/search/async-ads.js
 ||google.com/afs/ads?
-||google.com/dp/ads
-||google.com/pagead/
+||google.com/pagead/1p-user-list/
+||google.com/pagead/conversion_async.js
+||google.com/pagead/landing?
 ||googleadapis.l.google.com^$third-party
 ||googleads.github.io^
 ||googlesyndication.com/pagead/
