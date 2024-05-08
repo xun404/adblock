@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HiHjZC6h7mCKIyS/j0MtIw
+! Checksum: QUfZ0jiaZtiA5eRjBTbR3A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405081237
-! Last Modified: 2024年05月08日 12:37
+! Version: 202405081737
+! Last Modified: 2024年05月08日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -500,7 +500,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad.min.
 /ad/a.aspx?
 /ad/banners/*
-/ad/dfp/*
+/ad/dfp/js/dfp.js
 /ad/err?
 /ad/getban?
 /ad/image/*$image
@@ -812,7 +812,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adwidget_
 /adx2.
 /adx_exo_
-/adz/js/*
+/adz/js/adz.
 /adzones.js
 /aff-ads.
 /aff/ads_
@@ -1297,7 +1297,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /RdmAdFeed.js
 /rdrr/renderer.js
 /realmedia/ads/*
-/reclama/*
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -1356,7 +1355,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /servead/request/*
 /serveads.php
 /service/ads/*
-/service/adv/*
 /servlet/view/*
 /set_adcode?
 /sft-prebid.js
@@ -1472,7 +1470,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /video-ads-player.
 /video-js-ads.
 /video.ads.
-/video/ads/*
 /video_ad.
 /video_ad_
 /video_ads.
@@ -1768,7 +1765,7 @@ _widget_ad.
 .prebid-bundle.
 .prebid.$domain=~prebid.org
 /_js/prbd_6.19.0.js
-/ad/postbid_
+/ad/postbid_handler1.0.9.js
 /adn-hb/*
 /ads/prebid_
 /AudienceNetworkPrebid.
@@ -1777,7 +1774,7 @@ _widget_ad.
 /gpt_and_prebid/*
 /pbjsandwich-
 /pbjsandwich.
-/plugins/prebidjs/*
+/plugins/prebidjs/*$script
 /porpoiseant/*
 /prebid-js-
 /prebid-min-
@@ -1846,7 +1843,6 @@ _prebid8.
 /ads-blocking-detector.
 /anti-adblock/*$~stylesheet
 /anti_ab.
-/antiblock_script/*
 /blockblock/blockblock.jquery.js
 /BlockerBanner/*$xmlhttprequest
 /Disable%2BAdblock.
@@ -58579,6 +58575,7 @@ browsershots.org#@#.advert_area
 ||02777e.site^$document,popup
 ||05751c.site^$document,popup
 ||07c225f3.online^$document,popup
+||07e197.site^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
 ||295c.site^$document,popup
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
@@ -130943,7 +130940,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||go.netwitness.com^
 ||go.news.loyaltycompany.com^
 ||go.oilkings.ca^
-||go.oracle.com^
 ||go.paze.com^
 ||go.pearsonvue.com^
 ||go.petrelocation.com^
