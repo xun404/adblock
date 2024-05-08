@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iA6LmLG6kO3XhjCHnD//cw
+! Checksum: sbyj0ZYx4ukbNuHH83OF6w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405082052
-! Last Modified: 2024年05月08日 20:52
+! Version: 202405082137
+! Last Modified: 2024年05月08日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -620,7 +620,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/load_ad?
 /ad/popup.
 /ad/skin-
-/ad/skin_
 /ad/view/*
 /ad300.jpg
 /ad300.js
@@ -645,7 +644,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_home.js
 /ad_images/*
 /ad_img/*$image
-/ad_label_
 /ad_left.
 /ad_manager/*$image,script
 /ad_overlay.js
@@ -760,7 +758,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/player-
 /ads/popout.
 /ads/popup.
-/ads/popup_
 /ads/preroll-
 /ads/preroll/*
 /ads/preroll_
@@ -932,7 +929,7 @@ tieba.baidu.com##.tuijian-wrap
 /affiliate/ad/*
 /affiliate/ads/*
 /affiliate/banner/*
-/affiliate/banners/*
+/affiliate/banners/*$image
 /affiliateads/*
 /affiliates/banner
 /afr.php?
@@ -1004,7 +1001,6 @@ tieba.baidu.com##.tuijian-wrap
 /banners.cgi?
 /banners/468$image
 /banners/728$image
-/banners/ad/*
 /banners/ads-
 /banners/ads.
 /banners/adv/*
@@ -1046,7 +1042,7 @@ tieba.baidu.com##.tuijian-wrap
 /concert_ads-
 /content-ads.js
 /content/ad/*
-/content/ads/*
+/content/ads/*$~xmlhttprequest
 /core-ads.js
 /couponAd.php
 /cpmbanners.js
@@ -1450,7 +1446,7 @@ tieba.baidu.com##.tuijian-wrap
 /scripts/chatur.js
 /sdk/push_web/?zid=
 /select_adv?
-/servead/request/*
+/servead/request/*$script,subdocument
 /serveads.php
 /service/ads/*
 /servlet/view/*$script
@@ -1588,7 +1584,7 @@ tieba.baidu.com##.tuijian-wrap
 /webads.htm
 /webads.jpg
 /webads.js
-/webads/*
+/webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /weborama.js
 /webparts/ads/*

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8rk28MLhBaHyqOHWEnmhSQ
+! Checksum: i3mJuRvv25HNV63q6giErw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405082052
-! Last Modified: 2024年05月08日 20:52
+! Version: 202405082137
+! Last Modified: 2024年05月08日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -508,7 +508,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/load_ad?
 /ad/popup.
 /ad/skin-
-/ad/skin_
 /ad/view/*
 /ad300.jpg
 /ad300.js
@@ -533,7 +532,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_home.js
 /ad_images/*
 /ad_img/*$image
-/ad_label_
 /ad_left.
 /ad_manager/*$image,script
 /ad_overlay.js
@@ -648,7 +646,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/player-
 /ads/popout.
 /ads/popup.
-/ads/popup_
 /ads/preroll-
 /ads/preroll/*
 /ads/preroll_
@@ -820,7 +817,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /affiliate/ad/*
 /affiliate/ads/*
 /affiliate/banner/*
-/affiliate/banners/*
+/affiliate/banners/*$image
 /affiliateads/*
 /affiliates/banner
 /afr.php?
@@ -892,7 +889,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banners.cgi?
 /banners/468$image
 /banners/728$image
-/banners/ad/*
 /banners/ads-
 /banners/ads.
 /banners/adv/*
@@ -934,7 +930,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /concert_ads-
 /content-ads.js
 /content/ad/*
-/content/ads/*
+/content/ads/*$~xmlhttprequest
 /core-ads.js
 /couponAd.php
 /cpmbanners.js
@@ -1338,7 +1334,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /scripts/chatur.js
 /sdk/push_web/?zid=
 /select_adv?
-/servead/request/*
+/servead/request/*$script,subdocument
 /serveads.php
 /service/ads/*
 /servlet/view/*$script
@@ -1476,7 +1472,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /webads.htm
 /webads.jpg
 /webads.js
-/webads/*
+/webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /weborama.js
 /webparts/ads/*
