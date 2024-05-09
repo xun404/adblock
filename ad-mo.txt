@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nMLt1eNH1EYPeQzYLcPI3w
+! Checksum: dMOjyr+JmqPvB8x811QilQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405091239
-! Last Modified: 2024年05月09日 12:39
+! Version: 202405091337
+! Last Modified: 2024年05月09日 13:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -682,7 +682,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads468x60_
 /ads728.
 /ads728x90.
-/ads728x90_
 /ads?apid
 /ads?callback
 /ads?client=
@@ -744,7 +743,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsservice.
 /adstracking.
 /adstream.
-/adstream_
 /adswrapper.
 /ads~adsize~
 /adtech;
@@ -814,8 +812,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /affads/*
 /affbanner/*
 /affbanners/*
-/affiliate/ad/*
-/affiliate/ads/*
+/affiliate/ad/*$image
+/affiliate/ads/*$image
 /affiliate/banner/*
 /affiliate/banners/*$image
 /affiliateads/*
@@ -875,7 +873,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banner.php
 /banner/ad_
 /banner/ads/*
-/banner/affiliate/*
+/banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
@@ -1141,7 +1139,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/*
+/nativeads/script/*
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -1278,7 +1276,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js
-/realmedia/ads/*
+/RealMedia/ads/adstream_
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -1438,7 +1436,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /v3/ads?
 /v5/ads/*
 /v7/ads/*
-/v9/adv/*
 /valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
@@ -1465,7 +1462,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /view_banner.php
 /viewad.asp
 /viewad.php
-/virtuagirl/*
 /virtuagirlhd.
 /web/ads/*
 /web_ads/*
@@ -1517,7 +1513,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wpxbz-theme.js
 /wrapper/ads/*
 /www/ad_
-/www/ads/*
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
@@ -66838,6 +66833,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||rule34hentai.net^$subdocument,~third-party
 ||rusdosug.com/Fotos/Banners/
 ||scatxxxporn.com/static/images/banners/
+||schoolasiagirls.net/ban/
 ||sdhentai.com/marketing/
 ||see.xxx/pccznwlnrs/
 ||sex-techniques-and-positions.com/banners
@@ -67864,7 +67860,7 @@ inoreader.com###sinner_container
 pocketgamer.com###site-background
 webkinznewz.ganzworld.com###site-description
 dead-frog.com###site_top
-2oceansvibe.com###skin
+2oceansvibe.com,pocketgamer.biz###skin
 ebar.com###skin-left
 ebar.com###skin-right
 namemc.com###skin_wrapper
