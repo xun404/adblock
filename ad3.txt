@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cPkndwPNoc2FI43hK6EOog
+! Checksum: 8IiGn0LzqGArhg1d8LatFw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202405092137
-! Last Modified: 2024年05月09日 21:37
+! Version: 202405092237
+! Last Modified: 2024年05月09日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21761,6 +21761,7 @@ m.babytree.com##script + a[class]
 /api/pagevisits
 /api/ping?$~xmlhttprequest
 /api/pixel?
+/api/reqAnalytic/*
 /api/stat?
 /api/track?guid
 /api/trk?
@@ -29287,6 +29288,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
 ||edge-hls.doppiocdn.com/ping
+||edge-hls.doppiocdn.live/ping
 ||edge-hls.doppiocdn.org/ping
 ||edge.adobedc.net^
 ||edge.bredg.com^$third-party
@@ -33298,7 +33300,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.condenastdigital.com^
 ||rum.kobo.com^
 ||rumble.com/l/
-||run.app/events$domain=imgur.com|worldstar.com
+||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 ||rv.modanisa.com^$script
 ||rvo-cohesion.healthline.com^
 ||s.gofile.io^
