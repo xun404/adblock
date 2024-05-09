@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dGom6ngJ5vZsO/7uuWbGBw
+! Checksum: MnKrbsfdrnsKy4u2QQsJ4w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405091737
-! Last Modified: 2024年05月09日 17:37
+! Version: 202405091838
+! Last Modified: 2024年05月09日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -586,7 +586,7 @@ tieba.baidu.com##.tuijian-wrap
 /?view=ad
 /_adslot/*
 /_xa/ads?
-/_xa/ads_
+/_xa/ads_batch?
 /a-ads.$third-party
 /a/?ad=
 /a/display.php?$script
@@ -777,7 +777,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/targeted|
 /ads/top-
 /ads/top.
-/ads/tracker/*
 /ads/tso
 /ads/v/*
 /ads/v2/*
@@ -792,7 +791,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads4.
 /ads468.
 /ads468x60.
-/ads468x60_
 /ads728.
 /ads728x90.
 /ads?apid
@@ -806,7 +804,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads_160_
 /ads_300.
 /ads_300_
-/ads_and_amp/*
 /ads_assets/*
 /ads_banners/*
 /ads_bg.
@@ -836,7 +833,7 @@ tieba.baidu.com##.tuijian-wrap
 /adserver3.
 /adserver?
 /adserving.
-/adserv|*|adtech;
+/adsforwp-front.min.css
 /adsheader.
 /adsimage/*
 /adsimages/*
@@ -1297,7 +1294,7 @@ tieba.baidu.com##.tuijian-wrap
 /peelad/*
 /peelads/*
 /pfe/current/*
-/phpads/*
+/phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
@@ -1327,7 +1324,6 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
 /plugins/popunderpro/*
-/plugins/thirstyaffiliates/*
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -1372,7 +1368,7 @@ tieba.baidu.com##.tuijian-wrap
 /publicidad/*
 /publicidad_$~stylesheet
 /publicidade.
-/publicidade/*
+/publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
 /puff_ad?
 /punder.php
@@ -1504,7 +1500,7 @@ tieba.baidu.com##.tuijian-wrap
 /sponsoredlinks.
 /sponsoredlinks/*
 /sponsoredlinks?
-/sponsors/ads/*
+/sponsors/ads/*$image
 /squaread.jpg
 /squaread.js
 /static.ad.
@@ -1537,7 +1533,6 @@ tieba.baidu.com##.tuijian-wrap
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
 /v3/ads?
@@ -1571,7 +1566,7 @@ tieba.baidu.com##.tuijian-wrap
 /viewad.php
 /virtuagirlhd.
 /web/ads/*
-/web_ads/*
+/web_ads/*$image
 /webads.htm
 /webads.jpg
 /webads.js
@@ -1603,6 +1598,7 @@ tieba.baidu.com##.tuijian-wrap
 /wp-content/plugins/platinumpopup/*
 /wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*
 /wp-content/plugins/wp-super-popup-pro/*
@@ -1619,7 +1615,6 @@ tieba.baidu.com##.tuijian-wrap
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/ad_
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
@@ -69446,6 +69441,7 @@ fastestvpns.com##.custom-banner
 dexscreener.com##.custom-d7ztiy
 addictivetips.com,coinweek.com,news365.co.za,simscommunity.info##.custom-html-widget
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
+thestudentroom.co.uk##.custom-jucdap
 breakingnews.ie##.custom-mpu-container
 ehitavada.com##.custom-popup
 fandomwire.com##.customad
@@ -86023,6 +86019,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||koyso.com/z-
+||koyso.com/static/js/abc.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
