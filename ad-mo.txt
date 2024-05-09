@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EGCGoyGsOIWf7dH6qmxKEQ
+! Checksum: KGUDzIybvuvxsbUgPxoe9A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405092049
-! Last Modified: 2024年05月09日 20:49
+! Version: 202405092137
+! Last Modified: 2024年05月09日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18014,6 +18014,7 @@ browsershots.org#@#.advert_area
 ||38d9953876.com^
 ||38dbfd540c.com^
 ||38ds89f8.de^
+||39268ea911.com^
 ||395b8c2123.com^
 ||39e6p9p7.de^
 ||39f204776a.com^
@@ -36804,6 +36805,7 @@ browsershots.org#@#.advert_area
 ||kvxxkbmby.com^
 ||kvymlsb.com^
 ||kw3y5otoeuniv7e9rsi.com^
+||kwbgmufi.com^
 ||kwbmkwej.com^
 ||kwedzcq.com^
 ||kwhhdwyuvi.com^
@@ -41885,6 +41887,7 @@ browsershots.org#@#.advert_area
 ||onwasrv.com^
 ||onwekdebd.xyz^
 ||onychinferous.top^
+||onzazqarhmpi.com^
 ||onznwiocrrim.com^
 ||oo00.biz^
 ||oobitsou.net^
@@ -51776,6 +51779,7 @@ browsershots.org#@#.advert_area
 ||trafficbass.com^
 ||trafficborder.com^
 ||trafficbottomgrains.com^
+||trafficdecisions.com^
 ||trafficdok.com^
 ||trafficfactory.biz^
 ||traffichunt.com^
@@ -55625,6 +55629,7 @@ browsershots.org#@#.advert_area
 ||xrjponvwqlwthq.com^
 ||xrkxapomphh.com^
 ||xrlkvghzi.com^
+||xrpikxtnmvcm.com^
 ||xrujynhcxtbsgp.com^
 ||xruolsogwsi.com^
 ||xsjc4smhbyjf.com^
@@ -62278,6 +62283,7 @@ browsershots.org#@#.advert_area
 ||traffic.name^$popup
 ||trafficbass.com^$popup
 ||trafficborder.com^$popup
+||trafficdecisions.com^$popup
 ||trafficdok.com^$popup
 ||trafficforce.com^$popup
 ||traffichaus.com^$popup
@@ -85886,6 +85892,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||koyso.com/static/js/abc.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+element-plus.org##.toc-content > div[style="margin-top:16px;"]
+element-plus.org##aside > .page-content-main
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -89788,10 +89796,8 @@ speedtest.cn##.speed-bottom-ads
 downbank.cn##.speed-downlist
 speedtest.cn##.speed-top-ads
 daniao.org,geekpark.net,speedtest.cn##.sponsor
-element-plus.org##.sponsor-container
 udn.com##.sponsor-wrapper
 sogou.com##.sponsored
-element-plus.org##.sponsors
 minepay.top##.sponsors-container
 so.com##.spread
 baidu.com##.spread-wrap
@@ -89949,7 +89955,7 @@ booom.net,x6d.com##.tmall_tab
 qq.com##.tmallredpacket
 qq.com##.tmallskin
 sxrom.com##.tmk
-element-plus.gitee.io,element-plus.org##.toc-content > .m-t-16px
+element-plus.gitee.io##.toc-content > .m-t-16px
 pc841.com,zol.com.cn##.today-hot-layer
 muchong.com##.todayhot
 weather.com.cn##.tong
@@ -90660,7 +90666,7 @@ gameinns.com##a[url^="/api/ads?"]
 duba.com##a[w="topad"]
 ablesci.com#?#.fly-panel:-abp-has(img[src*="-hongbao."])
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
-element-plus.gitee.io,element-plus.org##aside > .page-content
+element-plus.gitee.io##aside > .page-content
 idanmu.ee##aside > div[class="widget "]
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
