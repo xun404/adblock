@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PaJWdKQYy9Ez1qMBgRYtog
+! Checksum: wGUh9+w7rcdTd6M56/9xzg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405092237
-! Last Modified: 2024年05月09日 22:37
+! Version: 202405092337
+! Last Modified: 2024年05月09日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -701,7 +701,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_footer.
 /ads_frame.
 /ads_iframe.
-/ads_image/*
+/ads_image/*$image
 /ads_images/*
 /adsAPI.js
 /adsbanner-
@@ -780,7 +780,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advert?
 /advertbanner.
 /advertising/banner_
-/advertising/banners/*
+/advertising/banners/*$image
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
@@ -1004,7 +1004,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /footerads.
 /footerads/*
 /forum/ads/*
-/forum/ads_
 /fro_lo.js
 /froloa.js
 /frontend_loader.js
@@ -1048,7 +1047,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
-/img_ad/*
+/img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
 /include/ad/*
 /include/ad_
@@ -1114,7 +1113,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
-/mobile_ad/*
 /mobileads.
 /mod_pagepeel_banner/*
 /module-ads-html-$script
@@ -1243,7 +1241,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /production/ads/*$script
 /promo/ads/*
 /promo/affiframe.
-/PromosAds/*
 /promotools.
 /proxyadcall?
 /public/ad/*$image
@@ -1340,7 +1337,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /sidebar-ad-
 /sidebar_ad.jpg
 /sidebar_ad.png
-/sidebar_ads/*
+/sidebar_ads/*$~xmlhttprequest
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /size=*/random=*/viewid=
@@ -1418,7 +1415,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*
-/v3/ads/*
 /v3/ads?
 /v5/ads/*
 /v7/ads/*
@@ -77481,6 +77477,7 @@ newduba.cn###jq_youxi
 ||iuqasw.xyz^
 ||cgidskif.top^
 ||54gtlb.cn^
+||areyoutherenow.com^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
