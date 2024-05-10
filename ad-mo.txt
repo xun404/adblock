@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Td9g6tmXJ3vR/VXkxYJk7Q
+! Checksum: c2UGBfXM4fcNCoMoSO25bQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405102237
-! Last Modified: 2024年05月10日 22:37
+! Version: 202405102337
+! Last Modified: 2024年05月10日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -663,7 +663,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/top-
 /ads/top.
 /ads/tso
-/ads/v/*
 /ads/v2/*
 /ads/video/*
 /ads/view.php
@@ -689,7 +688,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_300.
 /ads_300_
 /ads_assets/*
-/ads_banners/*
+/ads_banners/*$image
 /ads_bg.
 /ads_bottom.js
 /ads_controller.js
@@ -721,7 +720,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsheader.
 /adsimage/*
 /adsimages/*$image,domain=~bdjobstoday.com
-/adsImg/*
+/adsimg/*$image
 /adsinclude.
 /adslide.js
 /AdsLoad.js
@@ -799,7 +798,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /aff_banners/*$image
 /affad?
 /affads/*
-/affbanners/*
+/affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
 /affiliate/banner/*$image
@@ -1029,7 +1028,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /image/ads/*$image,domain=~edatop.com
 /image/affiliate/*
 /image_ads/*
-/imageads/*
+/imageads/*$image
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
@@ -1111,8 +1110,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
-/modules/mod_ijoomla_adagency_zone/*
-/moneyball/ads/*
+/modules/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -1161,7 +1159,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pcad.js?
 /peel.php?
 /peel_ads/*
-/peelad/*
 /peelads/*$script
 /pfe/current/*
 /phpads/adx.js
@@ -1192,7 +1189,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugins/meks-easy-ads-widget/*
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
-/plugins/popunderpro/*
+/plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -1687,7 +1684,6 @@ _widget_ad.
 /detroitchicago/vpp.gif?
 /detroitchicago/wichita.js
 /edmonton.webp$script
-/ez_aba_load/*
 /ezcl.webp?
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua

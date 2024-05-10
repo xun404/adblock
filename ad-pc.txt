@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YB2YjnP3oDenYuEfZ1ZZ9A
+! Checksum: TYQZHKN/P/A8OK6OkB+7pw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405102237
-! Last Modified: 2024年05月10日 22:37
+! Version: 202405102337
+! Last Modified: 2024年05月10日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -775,7 +775,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/top-
 /ads/top.
 /ads/tso
-/ads/v/*
 /ads/v2/*
 /ads/video/*
 /ads/view.php
@@ -801,7 +800,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads_300.
 /ads_300_
 /ads_assets/*
-/ads_banners/*
+/ads_banners/*$image
 /ads_bg.
 /ads_bottom.js
 /ads_controller.js
@@ -833,7 +832,7 @@ tieba.baidu.com##.tuijian-wrap
 /adsheader.
 /adsimage/*
 /adsimages/*$image,domain=~bdjobstoday.com
-/adsImg/*
+/adsimg/*$image
 /adsinclude.
 /adslide.js
 /AdsLoad.js
@@ -911,7 +910,7 @@ tieba.baidu.com##.tuijian-wrap
 /aff_banners/*$image
 /affad?
 /affads/*
-/affbanners/*
+/affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
 /affiliate/banner/*$image
@@ -1141,7 +1140,7 @@ tieba.baidu.com##.tuijian-wrap
 /image/ads/*$image,domain=~edatop.com
 /image/affiliate/*
 /image_ads/*
-/imageads/*
+/imageads/*$image
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
@@ -1223,8 +1222,7 @@ tieba.baidu.com##.tuijian-wrap
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
-/modules/mod_ijoomla_adagency_zone/*
-/moneyball/ads/*
+/modules/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -1273,7 +1271,6 @@ tieba.baidu.com##.tuijian-wrap
 /pcad.js?
 /peel.php?
 /peel_ads/*
-/peelad/*
 /peelads/*$script
 /pfe/current/*
 /phpads/adx.js
@@ -1304,7 +1301,7 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/meks-easy-ads-widget/*
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
-/plugins/popunderpro/*
+/plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -1799,7 +1796,6 @@ _widget_ad.
 /detroitchicago/vpp.gif?
 /detroitchicago/wichita.js
 /edmonton.webp$script
-/ez_aba_load/*
 /ezcl.webp?
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
