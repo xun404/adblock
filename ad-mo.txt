@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fl+JrdaoD+NoNDaPCq8Q4Q
+! Checksum: Td9g6tmXJ3vR/VXkxYJk7Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405102049
-! Last Modified: 2024年05月10日 20:49
+! Version: 202405102237
+! Last Modified: 2024年05月10日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -625,7 +625,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/banner-
 /ads/banners/*$image
 /ads/bottom.
-/ads/bottom/*
 /ads/cbr.
 /ads/delivery.
 /ads/footer.
@@ -633,7 +632,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/gam_prebid-
 /ads/header.
 /ads/image/*
-/ads/images/*
+/ads/images/*$image,domain=~eoffcn.com
 /ads/img/*
 /ads/index-
 /ads/index.
@@ -785,7 +784,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adverts/*$~xmlhttprequest
 /adverts_
 /advrotator.js
-/advrotator_
+/advrotator_banner_largo.htm
 /advscript.js
 /advtBanner.
 /adx2.
@@ -860,7 +859,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php
-/banner/ad_
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
@@ -877,12 +875,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banners/728$image
 /banners/ads-
 /banners/ads.
-/banners/adv/*
+/banners/adv/*$~xmlhttprequest
 /banners/adv_
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
-/banners/ffadult/*
 /bannersAds_
 /bottom-ads.jpg
 /bottom-ads.png
@@ -1056,6 +1053,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /inlineads.aspx
 /insertads.js
 /internAds.css
+/istripper.gif
 /jquery.ad.js
 /jquery.adi.js
 /jquery.adx.js
@@ -1146,7 +1144,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pagead/1p-user-list/*
 /pagead/ads?
 /pagead/conversion.js
-/pagead/conversion/*
 /pagead/gen_
 /pagead/lvz?
 /pagead/osd.
@@ -1178,7 +1175,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pixel/purst?
 /pixel/sbe?
 /placeholder-ad-
-/player/ad/*
 /player/ads/*
 /plugin/ad/*
 /plugins/ad-invalid-click-protector/*$script
@@ -1485,7 +1481,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wrapper/ads/*
 /www/deliver/*
 /www/deliverx/*
-/www/delivery/*
+/www/delivery/*$script,subdocument
 /www/js/ad/*
 /xads.php
 /xpopunder.js
@@ -1652,7 +1648,6 @@ _widget_ad.
 /tabu/display.js
 /cmbdv2.js
 /greenoaks.gif?
-/contents/other/player/*
 /myvids/click/*$script,subdocument
 /myvids/mltbn/*$script,subdocument
 /myvids/mltbn2/*$script,subdocument
@@ -1781,7 +1776,6 @@ _prebid8.
 /adblockdetection.
 /adBlockDetector/*$script
 /adblocker-leader.
-/adBlockerTrack_
 /adblockkiller.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.
@@ -1988,6 +1982,8 @@ _atblockdetector/
 /80x468_
 /960_60_
 /980x90.
+/w300/h250/*
+/w728/h90/*
 =300x250/
 =336x280,
 =468x60/
@@ -18023,6 +18019,7 @@ browsershots.org#@#.advert_area
 ||42jdbcb.de^
 ||435a63dad5.com^
 ||43bb528775.com^
+||43sjmq3hg.com^
 ||43t53c9e.de^
 ||44288fa514.com^
 ||445c1f5df9.com^
@@ -24413,6 +24410,7 @@ browsershots.org#@#.advert_area
 ||chirppronounceaccompany.com^
 ||chissaibsgirls.com^
 ||chitbillety.website^
+||chitchooms.net^
 ||chitika.net^
 ||chitsnooked.com^
 ||chl7rysobc3ol6xla.com^
@@ -24715,6 +24713,7 @@ browsershots.org#@#.advert_area
 ||clerkrevokesmiling.com^
 ||clerrrep.com^
 ||cleverjump.org^
+||clevernesscolloquial.com^
 ||clevernesswood.com^
 ||clevernt.com^
 ||cleverwebserver.com^
@@ -46244,6 +46243,7 @@ browsershots.org#@#.advert_area
 ||reignprofessionally.com^
 ||reindaks.com^
 ||reinstandpointdumbest.com^
+||reissue2871.xyz^
 ||reitbokgona.com^
 ||reivereme.com^
 ||rejco2.store^
@@ -48056,6 +48056,7 @@ browsershots.org#@#.advert_area
 ||serveforthwithtill.com^
 ||servehub.info^
 ||servenobid.com^
+||server4ads.com^
 ||serverbid.com^
 ||servereplacementcycle.com^
 ||serverfritterdisability.com^
@@ -53123,6 +53124,7 @@ browsershots.org#@#.advert_area
 ||uwadpksbkzp.com^
 ||uwavoptig.com^
 ||uwayemfogibbgh.xyz^
+||uweqsrwoey.com^
 ||uwfcqtdb.xyz^
 ||uwgmguwpzkeudh.com^
 ||uwjhzeb.com^
@@ -67707,6 +67709,7 @@ shine.cn###pdfModal
 investopedia.com###performance-marketing_1-0
 premierguitar.com###pg_leaderboard
 radiocaroline.co.uk###photographsforeverDiv
+accuradio.com###pl_leaderboard
 giantfreakinrobot.com###playwire-homepage-takeover-leaderboard
 issuu.com###playwire-video
 files.im###plyrrr
@@ -77482,6 +77485,7 @@ newduba.cn###jq_youxi
 ||yssryr.cn^
 ||88lm15.com^
 ||iaosua.com^
+||djxzk.top^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -82522,7 +82526,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||baidu.com/api/*/ads/
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/api/wikiad/
-||baidu.com/api/wikiui/directad?
+||baidu.com^*/directad?
 ||baidu.com/api/wikiui/getasp?
 ||baidu.com/api/wikiui/guesslike?
 ||baidu.com/article/ajax/getmarticlestepdata?
