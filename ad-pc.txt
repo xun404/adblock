@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TYQZHKN/P/A8OK6OkB+7pw
+! Checksum: l74vyO68QN7X8ALTzgapxA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405102337
-! Last Modified: 2024年05月10日 23:37
+! Version: 202405110137
+! Last Modified: 2024年05月11日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -621,7 +621,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/load_ad?
 /ad/popup.
 /ad/skin-
-/ad/view/*
 /ad300.jpg
 /ad300.js
 /ad300.png
@@ -743,7 +742,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/ga-audiences?
 /ads/gam_prebid-
 /ads/header.
-/ads/image/*
+/ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
 /ads/img/*
 /ads/index-
@@ -776,7 +775,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/top.
 /ads/tso
 /ads/v2/*
-/ads/video/*
+/ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
 /ads1.
@@ -903,7 +902,7 @@ tieba.baidu.com##.tuijian-wrap
 /adz/js/adz.
 /adzones.js
 /aff-ads.
-/aff/banners/*
+/aff/banners/*$image
 /aff/images/*$image
 /aff_ad?$script
 /aff_banner/*$image
@@ -915,7 +914,7 @@ tieba.baidu.com##.tuijian-wrap
 /affiliate/ads/*$image
 /affiliate/banner/*$image
 /affiliate/banners/*$image
-/affiliateads/*
+/affiliateads/*$image
 /affiliates/banner
 /afr.php?
 /afx_prid/*$script
@@ -987,7 +986,6 @@ tieba.baidu.com##.tuijian-wrap
 /banners/ads-
 /banners/ads.
 /banners/adv/*$~xmlhttprequest
-/banners/adv_
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
@@ -1216,13 +1214,13 @@ tieba.baidu.com##.tuijian-wrap
 /mobile-ad.
 /mobile_ad.
 /mobileads.
+/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /mod_pagepeel_banner/*
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
-/modules/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -1272,7 +1270,7 @@ tieba.baidu.com##.tuijian-wrap
 /peel.php?
 /peel_ads/*
 /peelads/*$script
-/pfe/current/*
+/pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
@@ -1288,7 +1286,7 @@ tieba.baidu.com##.tuijian-wrap
 /plugin/ad/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
-/plugins/adrotate/library/*
+/plugins/adrotate/*$script
 /plugins/ads-
 /plugins/ads/*
 /plugins/adsanity-
@@ -1443,7 +1441,6 @@ tieba.baidu.com##.tuijian-wrap
 /skin3/ads/*
 /skin_ad-
 /skinad.
-/skins/ads/*
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
@@ -74124,7 +74121,7 @@ hentaiprn.com,whipp3d.com##.widget_block
 arcjav.com,hotcelebshome.com,jav.guru,javcrave.com,pussycatxx.com##.widget_custom_html
 gifsauce.com##.widget_live
 totsantcugat.info##.widget_meta.widget.col-sm-3
-hentaiblue.com##.widget_text
+hentaiblue.com,pornifyme.com##.widget_text
 xhamster.com##.wio-p
 xhamster.com##.wio-pcam-thumb
 xhamster.com##.wio-psp-b

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c2UGBfXM4fcNCoMoSO25bQ
+! Checksum: OGixwhFfPM7WEZn6Fnt4cQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405102337
-! Last Modified: 2024年05月10日 23:37
+! Version: 202405110137
+! Last Modified: 2024年05月11日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -509,7 +509,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/load_ad?
 /ad/popup.
 /ad/skin-
-/ad/view/*
 /ad300.jpg
 /ad300.js
 /ad300.png
@@ -631,7 +630,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/ga-audiences?
 /ads/gam_prebid-
 /ads/header.
-/ads/image/*
+/ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
 /ads/img/*
 /ads/index-
@@ -664,7 +663,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/top.
 /ads/tso
 /ads/v2/*
-/ads/video/*
+/ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
 /ads1.
@@ -791,7 +790,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adz/js/adz.
 /adzones.js
 /aff-ads.
-/aff/banners/*
+/aff/banners/*$image
 /aff/images/*$image
 /aff_ad?$script
 /aff_banner/*$image
@@ -803,7 +802,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /affiliate/ads/*$image
 /affiliate/banner/*$image
 /affiliate/banners/*$image
-/affiliateads/*
+/affiliateads/*$image
 /affiliates/banner
 /afr.php?
 /afx_prid/*$script
@@ -875,7 +874,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banners/ads-
 /banners/ads.
 /banners/adv/*$~xmlhttprequest
-/banners/adv_
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
@@ -1104,13 +1102,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /mobile-ad.
 /mobile_ad.
 /mobileads.
+/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /mod_pagepeel_banner/*
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
-/modules/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -1160,7 +1158,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /peel.php?
 /peel_ads/*
 /peelads/*$script
-/pfe/current/*
+/pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
@@ -1176,7 +1174,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugin/ad/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
-/plugins/adrotate/library/*
+/plugins/adrotate/*$script
 /plugins/ads-
 /plugins/ads/*
 /plugins/adsanity-
@@ -1331,7 +1329,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /skin3/ads/*
 /skin_ad-
 /skinad.
-/skins/ads/*
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
@@ -74012,7 +74009,7 @@ hentaiprn.com,whipp3d.com##.widget_block
 arcjav.com,hotcelebshome.com,jav.guru,javcrave.com,pussycatxx.com##.widget_custom_html
 gifsauce.com##.widget_live
 totsantcugat.info##.widget_meta.widget.col-sm-3
-hentaiblue.com##.widget_text
+hentaiblue.com,pornifyme.com##.widget_text
 xhamster.com##.wio-p
 xhamster.com##.wio-pcam-thumb
 xhamster.com##.wio-psp-b
