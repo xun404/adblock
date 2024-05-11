@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xumKqjXe/hHTCvofLNFJfQ
+! Checksum: tVTVk1vIzEpGN+nDxsPfog
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405112338
-! Last Modified: 2024年05月11日 23:38
+! Version: 202405120037
+! Last Modified: 2024年05月12日 00:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1030,7 +1030,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
@@ -1097,13 +1096,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /media_ads/*$image
 /mgid.html
 /microad.js
-/min/ads/*
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
-/mod_pagepeel_banner/*
+/mod_pagepeel_banner/*$image,script
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
@@ -1144,7 +1142,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pagead/lvz?
 /pagead/osd.
 /pageear.js
-/pageear/*
+/pageear/*$script
 /pagepeel.
 /pagepeelpro.js
 /partner-ad-
@@ -1161,7 +1159,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
-/phpbb_ads/*
+/phpbb_ads/*$~xmlhttprequest
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
@@ -1176,7 +1174,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugins/adrotate-pro/*
 /plugins/adrotate/*$script
 /plugins/ads-
-/plugins/ads/*
+/plugins/ads/*$~xmlhttprequest
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
@@ -1300,7 +1298,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /select_adv?
 /servead/request/*$script,subdocument
 /serveads.php
-/service/ads/*
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
@@ -1326,7 +1323,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /skin-ad_
 /skin/ad/*
 /skin/adv/*
-/skin3/ads/*
 /skin_ad-
 /skinad.
 /skyadright.
@@ -1355,12 +1351,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
-/sponsored_ads/*
 /sponsored_link.
 /sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
-/sponsoredlinks/*
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
@@ -65435,6 +65429,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||4f.to/spns/
 ||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
+||absoluteanime.com/!bin/skin3/ads/
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^
