@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tVTVk1vIzEpGN+nDxsPfog
+! Checksum: rDspBtFehQeYmjdus0b8Qg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405120037
-! Last Modified: 2024年05月12日 00:37
+! Version: 202405120137
+! Last Modified: 2024年05月12日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -540,7 +540,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_request.js
 /ad_request.php
 /ad_right.
-/ad_rotator/*
+/ad_rotator/*$image,script,domain=~spokane.exchange
 /ad_server.
 /ad_side.
 /ad_skyscraper.gif
@@ -754,11 +754,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv/mjx.js
 /adv_2.
 /adv_468.
-/adv_ads_v3/relatedAds/*
 /adv_banner_
 /adv_out.js
 /adv_teasers.js
 /adv_vert.js
+/AdvAdsV3/*$script,stylesheet
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
@@ -877,7 +877,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
-/bannersAds_
 /bottom-ads.jpg
 /bottom-ads.png
 /bottom_ad.jpg
@@ -1035,7 +1034,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /img/aff/*
 /img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
-/include/ad/*
+/include/ad/*$script
 /include/ad_
 /includes/ads/*$script
 /index-ad-
@@ -1146,7 +1145,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pagepeel.
 /pagepeelpro.js
 /partner-ad-
-/partner_ads/*
 /partnerad.
 /partnerads/*
 /partneradwidget.
@@ -1241,7 +1239,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js
-/RealMedia/ads/adstream_
+/RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -1254,7 +1252,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /reklama3.png
 /reklama4.jpg
 /reklama4.png
-/reklame/*
+/reklame/*$~xmlhttprequest
 /ren.gif?
 /report_ad.js
 /resources/ads/*
@@ -1308,7 +1306,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /showbanner.js
 /side-ads-
 /side-ads/*
-/side_ads/*
+/side_ads/*$~xmlhttprequest
 /sidead.
 /sidead1.js
 /sideads.js
@@ -1467,7 +1465,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/deliver/*
 /www/deliverx/*
 /www/delivery/*$script,subdocument
 /www/js/ad/*
@@ -16747,6 +16744,7 @@ _800x80_
 ##a[href^="https://clicks.pipaffiliates.com/"]
 ##a[href^="https://clixtrac.com/"]
 ##a[href^="https://combodef.com/"]
+##a[href^="https://ctjdwm.com/"]
 ##a[href^="https://ctosrd.com/"]
 ##a[href^="https://datewhisper.life/"]
 ##a[href^="https://datingoffers30.info/"]
@@ -16791,6 +16789,7 @@ _800x80_
 ##a[href^="https://golinks.work/"]
 ##a[href^="https://hot-growngames.life/"]
 ##a[href^="https://hotplaystime.life/"]
+##a[href^="https://in.rabbtrk.com/"]
 ##a[href^="https://intenseaffiliates.com/redirect/"]
 ##a[href^="https://iqbroker.com/"][href*="?aff="]
 ##a[href^="https://ismlks.com/"]
@@ -16848,6 +16847,7 @@ _800x80_
 ##a[href^="https://static.fleshlight.com/images/banners/"]
 ##a[href^="https://streamate.com/landing/click/"]
 ##a[href^="https://svb-analytics.trackerrr.com/"]
+##a[href^="https://syndicate.contentsserved.com/"]
 ##a[href^="https://syndication.dynsrvtbg.com/"]
 ##a[href^="https://syndication.exoclick.com/"]
 ##a[href^="https://syndication.optimizesrv.com/"]
@@ -16874,6 +16874,7 @@ _800x80_
 ##a[href^="https://turnstileunavailablesite.com/"]
 ##a[href^="https://twinrdsrv.com/"]
 ##a[href^="https://vo2.qrlsx.com/"]
+##a[href^="https://voluum.prom-xcams.com/"]
 ##a[href^="https://witnessjacket.com/"]
 ##a[href^="https://www.adskeeper.com"]
 ##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
@@ -18006,6 +18007,7 @@ browsershots.org#@#.advert_area
 ||42jdbcb.de^
 ||435a63dad5.com^
 ||43bb528775.com^
+||43ors1osh.com^
 ||43sjmq3hg.com^
 ||43t53c9e.de^
 ||44288fa514.com^
@@ -18185,6 +18187,7 @@ browsershots.org#@#.advert_area
 ||6a34d15d38.com^
 ||6af461b907c5b.com^
 ||6b70b1086b.com^
+||6b856ee58e.com^
 ||6bgaput9ullc.com^
 ||6cadb63a7a.com^
 ||6ce02869b9.com^
@@ -21835,6 +21838,7 @@ browsershots.org#@#.advert_area
 ||bceptemujahb.com^
 ||bcfaonqj.com^
 ||bcffkvpjqferl.com^
+||bcfimttr.com^
 ||bchkhtyns.com^
 ||bckqdynigv.com^
 ||bclikeqt.com^
@@ -26220,6 +26224,7 @@ browsershots.org#@#.advert_area
 ||dangerouslyeragruff.com^
 ||dangerouslygluttony.com^
 ||dangerouslyprudent.com^
+||dangerousratio.pro^
 ||dangerswitty.com^
 ||dangingspuggy.top^
 ||danitemalus.life^
@@ -36809,6 +36814,7 @@ browsershots.org#@#.advert_area
 ||kzkmmbrrzn.com^
 ||kzknjdlalls.com^
 ||kzt2afc1rp52.com^
+||kzzwi.com^
 ||l-iw.de^
 ||l1native.com^
 ||l1vec4ms.com^
@@ -37873,6 +37879,7 @@ browsershots.org#@#.advert_area
 ||loudlongerfolk.com^
 ||lougougauhi.xyz^
 ||louisaprocedureegoism.com^
+||louisedistanthat.com^
 ||loukoost.net^
 ||louloapi.com^
 ||loulouly.net^
@@ -40811,6 +40818,7 @@ browsershots.org#@#.advert_area
 ||notdyedfinance.com^
 ||notebookbesiege.com^
 ||notebookmedicine.com^
+||noted-factor.pro^
 ||notepastaparliamentary.com^
 ||notepositivelycomplaints.com^
 ||notesbook.in^
@@ -42821,6 +42829,7 @@ browsershots.org#@#.advert_area
 ||pascualpecked.top^
 ||pasenhlbot.com^
 ||paservices.tech^
+||pasjcutadak.com^
 ||paslsa.com^
 ||pasoleex.com^
 ||pasoshardy.com^
@@ -45190,6 +45199,7 @@ browsershots.org#@#.advert_area
 ||pycvlnu.com^
 ||pygopodwrytailbaskett.sbs^
 ||pyhdvvimr.com^
+||pyknrhm5c.com^
 ||pympbhxyhnd.xyz^
 ||pyract.com^
 ||pyrexikon.com^
@@ -50997,6 +51007,7 @@ browsershots.org#@#.advert_area
 ||thereuponprevented.com^
 ||thereuponscare.com^
 ||thermometerdoll.com^
+||thermometerinconceivablewild.com^
 ||thermometertally.com^
 ||thescads.com^
 ||thesekid.pro^
@@ -54283,6 +54294,7 @@ browsershots.org#@#.advert_area
 ||waynagmay.com^
 ||wazaki.xyz^
 ||wazctigribhy.com^
+||wazduzrhiki.com^
 ||wazensee.net^
 ||waztahsmal.com^
 ||wazzeyzloayz.top^
@@ -55852,6 +55864,7 @@ browsershots.org#@#.advert_area
 ||yfykzbhaiuzbht.com^
 ||ygeqiky.com^
 ||ygkwjd.xyz^
+||ygvqughn.com^
 ||ygzkedoxwhqlzp.com^
 ||yhazrfacxd.com^
 ||yhbcii.com^
@@ -56039,6 +56052,7 @@ browsershots.org#@#.advert_area
 ||yphdrphx.xyz^
 ||ypkljvp.com^
 ||ypmohjxp.com^
+||yptjqrlbawn.xyz^
 ||yqblutkjhx.com^
 ||yqeuu.com^
 ||yqgmvxufpkr.com^
@@ -60686,6 +60700,7 @@ browsershots.org#@#.advert_area
 ||lostdormitory.com^$popup
 ||lottingjacks.top^$popup
 ||lottoleads.com^$popup
+||louisedistanthat.com^$popup
 ||loverevenue.com^$popup
 ||lovesparkle.space^$popup
 ||lowrihouston.pro^$popup
