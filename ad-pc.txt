@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I47mjj8vdZadxxoeNiFscw
+! Checksum: 7ge9ZyZUTSVEJ/jM8CO03g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405122238
-! Last Modified: 2024年05月12日 22:38
+! Version: 202405122337
+! Last Modified: 2024年05月12日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -634,7 +634,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_bottom.js
 /ad_break?
 /ad_campaign?
-/ad_choices_
 /ad_code.js
 /ad_common.js
 /ad_counter.aspx
@@ -744,7 +743,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/header.
 /ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
-/ads/img/*
 /ads/index-
 /ads/index.
 /ads/index/*
@@ -797,7 +795,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads?zone_id=
 /ads_160_
 /ads_300.
-/ads_300_
 /ads_assets/*
 /ads_banners/*$image
 /ads_bg.
@@ -829,7 +826,7 @@ tieba.baidu.com##.tuijian-wrap
 /adserving.
 /adsforwp-front.min.css
 /adsheader.
-/adsimage/*
+/adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
 /adsinclude.
@@ -937,7 +934,6 @@ tieba.baidu.com##.tuijian-wrap
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /Api/Ad.
 /api/ads?
-/api/v1/ad/*
 /apopwin.js
 /app/manga/themes/*/ads/pop.js
 /apu.php?
@@ -999,7 +995,6 @@ tieba.baidu.com##.tuijian-wrap
 /bsa-pro-scripteo/frontend/js/script.js
 /btag.min.js$third-party
 /buysellads.js
-/call/pubj/*
 /callAdserver?
 /cgi-bin/ad/*
 /cgi-bin/ads.cgi
@@ -1139,7 +1134,6 @@ tieba.baidu.com##.tuijian-wrap
 /image_ads/*
 /imageads/*$image
 /images-ad/*
-/images/ad2/*
 /images/ads-$domain=~ads.com
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
@@ -1278,7 +1272,7 @@ tieba.baidu.com##.tuijian-wrap
 /pixel/purst?
 /pixel/sbe?
 /placeholder-ad-
-/player/ads/*
+/player/ads/*$~xmlhttprequest
 /plugin/ad/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
@@ -1431,7 +1425,7 @@ tieba.baidu.com##.tuijian-wrap
 /site=*/viewid=*/size=
 /size=*/random=*/viewid=
 /skin-ad_
-/skin/ad/*
+/skin/ad/*$image,script
 /skin/adv/*
 /skin_ad-
 /skinad.
@@ -1806,7 +1800,6 @@ _widget_ad.
 /AudienceNetworkPrebid.
 /ext/prebid
 /gpt-prebid.js
-/gpt_and_prebid/*
 /pbjsandwich-
 /pbjsandwich.
 /plugins/prebidjs/*$script
@@ -65978,6 +65971,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||ownedcore.com/forums/ocpbanners/
 ||pafvertizing.crazygames.com^
 ||pahaplayers.click/ch/adcashdirect.php
+||pandora.com/api/v1/ad/
 ||paste.fo/*jpeg$image
 ||pasteheaven.com/assets/images/banners/
 ||pastemagazine.com/common/js/ads-
@@ -74964,7 +74958,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||point.rakuten.co.jp/img/crossuse/top_ad/$~third-party
 @@||politiken.dk/static/$script
 @@||popin.cc/popin_discovery/recommend?$~third-party
-@@||pro-foto.jp/ads/img/$~third-party
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||rakuten-bank.co.jp/rb/ams/img/ad/$~third-party
