@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bo4Q9osukIsPK5UgYyT2ug
+! Checksum: YhAzuwWffaH5djiyBLCpmw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405132051
-! Last Modified: 2024年05月13日 20:51
+! Version: 202405132237
+! Last Modified: 2024年05月13日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -472,7 +472,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /?abt_opts=1&
 /?fp=*&poru=$subdocument
 /?view=ad
-/_adslot/*
 /_xa/ads?
 /_xa/ads_batch?
 /a-ads.$third-party
@@ -563,7 +562,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcount.js
 /adcount.php
 /addons/ads.
-/addons/ads/*
 /addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
@@ -659,7 +657,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/top-
 /ads/top.
 /ads/tso
-/ads/v2/*
 /ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
@@ -680,9 +677,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads?param=
 /ads?zone=
 /ads?zone_id=
-/ads_160_
 /ads_300.
-/ads_assets/*
 /ads_banners/*$image
 /ads_bg.
 /ads_bottom.js
@@ -767,7 +762,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advert8.
 /advert?
 /advertbanner.
-/advertising/banner_
 /advertising/banners/*$image
 /advertisingWebRenderer.min.js
 /advertisment-
@@ -780,7 +774,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advscript.js
 /advtBanner.
 /adx2.
-/adx_exo_
 /adz/js/adz.
 /adzones.js
 /aff-ads.
@@ -790,7 +783,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /aff_banner/*$image
 /aff_banners/*$image
 /affad?
-/affads/*
 /affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
@@ -916,7 +908,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /delivery/avw.php
 /delivery/fc.php
 /delivery/lg.php
-/delivery_ads/*
 /dfp.min.js$third-party
 /dfp_async.js
 /dfpNew.min.js
@@ -949,7 +940,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /export/ltv_popup.php
 /exports/tour/*$third-party
 /exports/tour_20/*
-/extban/*/creatives/*
 /external/ad.
 /external/ads/*
 /external_ad?
@@ -967,7 +957,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /floatads.
 /floating-ad-
 /floatingad.js
-/FloatingAd_
 /floatingads.js
 /flyad.js
 /footer-ad-
@@ -976,11 +965,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /footer_ad.php
 /footer_ads.php
 /footer_ads.png
-/footer_ads_
 /footerad.
 /footerads.
 /footerads/*
-/forum/ads/*
 /fro_lo.js
 /froloa.js
 /frontend_loader.js
@@ -1094,8 +1081,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
-/modules/ad/*
-/modules/ads/*
+/modules/ad/*$~xmlhttprequest
+/modules/ads/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -1151,7 +1138,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
-/pixel/pure
+/pixel/pure$~xmlhttprequest
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
@@ -1215,7 +1202,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /public/ad/*$image
 /public/ads/*$image
 /publicidad.$~object,~stylesheet
-/publicidad/*
+/publicidad/*$~xmlhttprequest
 /publicidad_$~stylesheet
 /publicidade.
 /publicidade/*$~xmlhttprequest
@@ -1309,7 +1296,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /size=*/random=*/viewid=
 /skin-ad_
 /skin/ad/*$image,script
-/skin/adv/*
+/skin/adv/*$~xmlhttprequest
 /skin_ad-
 /skinad.
 /skyadright.
@@ -1331,14 +1318,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /sponsor-links.html
 /sponsorad.jpg
 /sponsorad.png
-/sponsorbanners/*
 /sponsored-links-
 /sponsored-links.
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
 /sponsored_link.
-/sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
 /sponsoredlinks?
@@ -1392,11 +1377,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /video_ad.
 /video_ad_
 /video_ads.
-/video_ads/*
 /video_slider3.js
 /videoad.$domain=~videoad.in
 /videoad/*$script
-/videoads/*
+/videoads/*$~xmlhttprequest
 /videojs.ads-
 /videojs.sda.js
 /view/ad/*$subdocument
@@ -1707,7 +1691,7 @@ _widget_ad.
 /prebid_v4.
 /prebidAdcall.
 /prebidLibrary.
-/prebidlink/*
+/prebidlink/*$script
 /prodprebidheader-
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -65793,6 +65777,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||sponsors.vuejs.org^
 ||sportlemon24.com/img/301.jpg
 ||sportshub.to/player-source/images/banners/
+||spotify.com/ads/
 ||spox.com/daznpic/
 ||srilankamirror.com/images/banners/
 ||srware.net/iron/assets/img/av/
@@ -65856,6 +65841,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||tubeoffline.com/vpn2.php
 ||tubeoffline.com/vpnimg/
 ||turbobit.net/pus/
+||twitter.com/*/videoads/
 ||twt-assets.washtimes.com^$script,domain=washingtontimes.com
 ||ubuntugeek.com/images/ubuntu1.png
 ||uhdmovies.eu/axwinpop.js
