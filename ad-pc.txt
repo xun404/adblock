@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pra/+b8gTVNx7pkBwBsGvA
+! Checksum: z4rbTDFUNVAhKdWV+Rxu6w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405160040
-! Last Modified: 2024年05月16日 00:40
+! Version: 202405160137
+! Last Modified: 2024年05月16日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -742,7 +742,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/images/*$image,domain=~eoffcn.com
 /ads/index-
 /ads/index.
-/ads/index/*
+/ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-
 /ads/leaderboard.
 /ads/native.js
@@ -1115,7 +1115,6 @@ tieba.baidu.com##.tuijian-wrap
 /img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
 /include/ad/*$script
-/include/ad_
 /includes/ads/*$script
 /index-ad-
 /index-ad.jpg
@@ -1171,7 +1170,6 @@ tieba.baidu.com##.tuijian-wrap
 /mbads?
 /mcad.php
 /media/ads/*$image
-/media/plg_adbutlerads/*
 /media_ads/*$image
 /mgid.html
 /microad.js
@@ -1187,7 +1185,6 @@ tieba.baidu.com##.tuijian-wrap
 /modules/ad/*$~xmlhttprequest
 /modules/ads/*$~xmlhttprequest
 /MPUAdHelper.js
-/mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
 /nativead.
 /nativeads-v2.js
@@ -1246,6 +1243,7 @@ tieba.baidu.com##.tuijian-wrap
 /pixel/sbe?
 /placeholder-ad-
 /player/ads/*$~xmlhttprequest
+/plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
@@ -31099,6 +31097,7 @@ browsershots.org#@#.advert_area
 ||gecl.xyz^
 ||geechaid.xyz^
 ||geedoovu.net^
+||geegleshoaph.com^
 ||geeksundigne.com^
 ||geerairu.net^
 ||geethaihoa.com^
@@ -40910,6 +40909,7 @@ browsershots.org#@#.advert_area
 ||oacfxrqghamyaq.com^
 ||oachailo.net^
 ||oackoubs.com^
+||oackoulimtoo.com^
 ||oadrojoa.net^
 ||oadsaurs.net^
 ||oadsouzi.net^
@@ -42273,6 +42273,7 @@ browsershots.org#@#.advert_area
 ||oypucuqsuwabnxy.com^
 ||oysterexhalereview.com^
 ||oysterfoxfoe.com^
+||oyuvcqmqjyrqd.com^
 ||oywzrri.com^
 ||oyxctgotabvk.com^
 ||oyyihttyklfwcgy.xyz^
@@ -59804,6 +59805,7 @@ browsershots.org#@#.advert_area
 ||gb1aff.com^$popup
 ||gdecordingholo.info^$popup
 ||gdmconvtrck.com^$popup
+||geegleshoaph.com^$popup
 ||generalebad.xyz^$popup
 ||genialsleptworldwide.com^$popup
 ||geniusdexchange.com^$popup
@@ -74751,6 +74753,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||adv.asahi.com^$popup
 @@||adv.gg^$popup
 @@||adv.welaika.com^$popup
+@@||biz.yelp.com/ads?$popup
 @@||dashboard.mgid.com^$popup
 @@||doubleclick.net/clk;$popup,domain=3g.co.uk|4g.co.uk|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com
 @@||g.doubleclick.net/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
