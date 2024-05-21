@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ILhP5HRhj+F/n2fC0v3Ayg
+! Checksum: Xuer+7VsDwxN+nh/RFYCdA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405211337
-! Last Modified: 2024年05月21日 13:37
+! Version: 202405211837
+! Last Modified: 2024年05月21日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -76109,6 +76109,7 @@ newduba.cn###jq_youxi
 ##.horizontal-banner
 ##.adv-6park
 ##.apd-footer
+##a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
@@ -77140,6 +77141,18 @@ newduba.cn###jq_youxi
 ||zwxxcb.icu^
 ||zxfdbr.xyz^
 ||zxqiwe.cn^
+||555bbb777www.com^
+||66308888.com^
+||666bbb888www.com^
+||777aa888bb.com^
+||888aa111bb.com^
+||888aa222bb.com^
+||mito03.top^
+||mttpsy6666.cc^
+||w7044.com^
+||yuanpinghengkangfuyouxiangongsi.top^
+||efs604.top^
+||692881.com^
 ##a[href*=".337771.xyz"]
 ##a[href*=".337772.xyz"]
 ##a[href*=".cgn8j9f4j3g.com:"]
@@ -105823,6 +105836,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thedailybeast.com/static/js/thirdparty.
 ||thefreedictionary.com/_/tr.ashx?
+||thehackernews.com/zscripts/
 ||theladders.com/api/user-tracking/
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
