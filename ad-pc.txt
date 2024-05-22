@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sNMb4XAFIWSdYt9fUIGsig
+! Checksum: X0Rxvh8ddx+mqujgoVSSjQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405220737
-! Last Modified: 2024年05月22日 07:37
+! Version: 202405220939
+! Last Modified: 2024年05月22日 09:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4988,7 +4988,6 @@ _800x80_
 ###gm-ad-lrec
 ###goad1
 ###goads
-###gog_ad
 ###gooadtop
 ###google-ad
 ###google-ads
@@ -5010,27 +5009,19 @@ _800x80_
 ###googleAdArea
 ###googleAdBottom
 ###googleAdBox
-###googleAdMid
 ###googleAdTop
-###googleAdView
 ###googleAds
-###googleAdsFrame
 ###googleAdsense
 ###googleAdsenseAdverts
-###googleAdwordsModule
-###googleAfcContainer
 ###googleSearchAds
 ###google_ad_1
 ###google_ad_2
 ###google_ad_3
 ###google_ad_container
-###google_ad_inline
 ###google_ad_slot
 ###google_ads
 ###google_ads_1
 ###google_ads_box
-###google_ads_div_header1
-###google_ads_div_header2
 ###google_ads_frame
 ###google_ads_frame1_anchor
 ###google_ads_frame2_anchor
@@ -5038,26 +5029,14 @@ _800x80_
 ###google_ads_frame4_anchor
 ###google_ads_frame5_anchor
 ###google_ads_frame6_anchor
-###google_ads_test
-###google_ads_wide
 ###google_adsense
 ###google_adsense_ad
-###google_textlinks
 ###googlead
-###googlead-leaderboard
-###googlead-left
-###googlead-post-mpu
-###googlead-sidebar-middle
-###googlead-sidebar-top
-###googlead01
 ###googlead2
-###googleadbig
 ###googleadleft
 ###googleads
 ###googleads1
 ###googleadsense
-###googleadsense300x250
-###googleadsrc
 ###googleadstop
 ###googlebanner
 ###googlesponsor
@@ -5078,7 +5057,6 @@ _800x80_
 ###grdAds
 ###gridAdSidebar
 ###grid_ad
-###gtm_dfp_leaderboard_top
 ###half-page-ad
 ###halfPageAd
 ###half_page_ad_300x600
@@ -57985,6 +57963,7 @@ browsershots.org#@#.advert_area
 ||05751c.site^$document,popup
 ||07c225f3.online^$document,popup
 ||07e197.site^$document,popup
+||1116c5.xyz^$document,popup
 ||1350c3.xyz^$document,popup
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
@@ -71106,6 +71085,7 @@ wbal.com##.wbal-banner
 technclub.com##.wbyqkx-container
 wccftech.com##.wccf_video_tag
 searchencrypt.com##.web-result.unloaded.sr
+northernvirginiamag.com##.website-header__ad--leaderboard
 probuilds.net##.welcome-bnr
 taskcoach.org##.well
 gearlive.com##.wellvert
@@ -85678,9 +85658,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||koyso.com/z-
 ||koyso.com/static/js/abc.
 ||bcebos.com/24x360x528.gif
-||chengzijianzhan.cc^$domain=douyin.com
+||chengzijianzhan.cc^$third-party,subdocument
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+douyin.com###videoSideBar iframe
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
 raenonx.cc##.main_ads-content + div
@@ -104087,6 +104068,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bbvms.com/zone/js/zonestats.js
 ||bol.com/click/impression?
 ||botndm.nl^*/init.min.js
+||cloudfunctions.net/webtraffic$domain=eurocampings.nl
+||contentreveal.net/event/events.js
 ||dmtgo.upc.biz^
 ||go.planetnine.com^
 ||hottraffic.nl^$third-party
