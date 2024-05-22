@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PH07i44mkoVl8J/QhNHFbQ
+! Checksum: Gs2y3miN4NdC2yA1CiB8Pg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405221137
-! Last Modified: 2024年05月22日 11:37
+! Version: 202405221238
+! Last Modified: 2024年05月22日 12:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -69594,7 +69594,9 @@ legit.ng,tuko.co.ke##.l-adv-branding__top
 iphonelife.com##.l-header
 globalnews.ca##.l-headerAd
 wwe.com##.l-hybrid-col-frame_rail-wrap
-vox.com##.l-leaderboard-slot
+vox.com##.l66a0c1k
+vox.com##.l66a0c1n
+vox.com##.l66a0c1p
 keybr.com##.l6Z8JM3mch
 letssingit.com##.lai_all_special
 letssingit.com##.lai_desktop_header
@@ -71119,7 +71121,7 @@ domaingang.com##.widget_execphp
 bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-247media.com.ng,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,crickhabari.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,thecatholictravelguide.com,theoverclocker.com,thethaiger.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
+247media.com.ng,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,crickhabari.com,dbknews.com,deshdoaba.com,foreverconscious.com,glitched.online,granitegrok.com,intouchweekly.com,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,londonnewsonline.co.uk,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,showbiz411.com,sportsspectrum.com,stacyknows.com,thecatholictravelguide.com,theoverclocker.com,thethaiger.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 cracked-games.org##.widget_metaslider_widget
 nypost.com##.widget_nypost_dfp_ad_widget
 nypost.com##.widget_nypost_vivid_concerts_widget
@@ -71262,6 +71264,7 @@ sephora.com##[data-comp*="RMNCarousel"]
 sephora.com##[data-comp*="RmnBanner"]
 bloomberg.com##[data-component="in-body-ad"]
 lookfantastic.com##[data-component="sponsoredProductsCriteo"]
+vox.com##[data-concert="leaderboard_top_tablet_desktop"]
 curbed.com##[data-concert="prelude"]
 timesofindia.indiatimes.com##[data-contentprimestatus]
 coingecko.com##[data-controller="button-ads"]
@@ -102778,6 +102781,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
+||ssc.shopstyle.com/collective.min.js
 ||ssl-images-amazon.com/images/I/31YXrY93hfL.js$domain=imdb.com
 ||ssr.streamrail.net^
 ||st.cdnco.us^
@@ -105799,9 +105803,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stapewithadblock.xyz/stat/
 ||starfiles.co/analytics.php
 ||startpage.com/sp/$ping
-||startpage.com/sp/dplpxs?
-||startpage.com/sp/elp
 ||startpage.com/sp/jst
+||startpage.com/sp/qi
+||startpage.com/sp/sxpra?
 ||starzplay.com/resources/js/analytics.js
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
@@ -106078,6 +106082,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||v.ctrl.blog^
 ||vagrantup.com/api/auth/_log
 ||vanityfair.com/user-context?referrer
+||vf.startpage.com^
 ||video.mobile.yahoo.com/log|$xmlhttprequest
 ||views.arabnews.com^
 ||views.asurascans.com^
@@ -144486,3 +144491,124 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! 乘风 视频广告过滤规则
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>错误网关 (502)</title>
+  <link href="/static/errors/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link href="/static/errors/stylesheets/static_error.css?1562925143822" media="screen" rel="stylesheet"
+    type="text/css">
+  <link href="/static/errors/stylesheets/iconfont.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body class="ui_basic application">
+  <header class="common-header fixed noborder floating" id="git-header-nav">
+    <div class="ui container">
+      <div class="ui menu">
+        <div class="item gitosc-logo">
+          <a href="/">
+            <img class="ui inline image" src="/static/errors/images/logo.svg?t=158106664"></a>
+        </div>
+        <a href="/explore" class="item " title="开源项目">开源</a>
+        <a href="/enterprises" class="item " title="企业版">企业版</a>
+        <a href="/education" class="item " title="高校版">高校版</a>
+        <a href="https://gitee.cn?utm_source=giteecom" class="item" target="_blank" title="私有云">私有云</a>
+        <a href="https://ai.gitee.com" class="item " title="Gitee AI" target="_blank">Gitee AI <sup
+            class="ui red label">NEW</sup></a>
+        <div class="right menu userbar" id="git-nav-user-bar">
+          <div class="item">
+            <form accept-charset="UTF-8" action="/search" id="projects-search-form" method="get" autocomplete="on">
+              <div class="ui icon left mini fluid input"><input id="search_top-search-input" name="q" placeholder="搜索项目"
+                  type="text"><i class="iconfont icon-search" id="projects-search"></i><input id="group_id"
+                  name="group_id" type="hidden"><input id="project_id" name="project_id" type="hidden"><input id="type"
+                  name="type" type="hidden"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container error midCenter">
+    <div class="content">
+      <center>
+        <div class="image-box"><img src="/static/errors/images/502.png"></div>
+        <h3>欢迎浏览我们的网站，系统可能正在更新中，请稍候片刻。</h3>
+        <p><a href="/">点击这里</a>返回首页</p>
+      </center>
+    </div>
+  </div>
+  <footer id="git-footer-main" style='margin: 0'>
+    <div class="ui container footer-content">
+      <div class="ui two column grid">
+        <div class="column">
+          <p><a href="/" target="_blank">© Gitee.com</a></p>
+          <div class="ui two column grid" id="footer-left">
+            <div class="column">
+              <div class="ui link list">
+                <div class="item"><a href="/about_us" class="item">关于我们</a></div>
+                <div class="item"><a href="/terms" class="item">使用条款</a></div>
+                <div class="item"><a href="/oschina/git-osc/issues" class="item">意见建议</a></div>
+                <div class="item"><a href="/links.html" class="item">合作伙伴</a></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui link list">
+                <div class="item"><a href="/all-about-git" class="item">Git 大全</a></div>
+                <div class="item"><a href="https://oschina.gitee.io/learn-git-branching" class="item">Git 命令学习</a></div>
+                <div class="item"><a href="https://copycat.gitee.com" class="item">代码克隆检测</a></div>
+                <div class="item"><a href="/appclient" class="item">APP与插件下载</a></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui link list">
+                <div class="item"></div>
+                <div class="item"><a href="/gitee-stars" class="item">Gitee 封面人物</a></div>
+                <div class="item"><a href="/gvp" class="item">GVP 项目</a></div>
+                <div class="item"><a href="https://blog.gitee.com" class="item">Gitee 博客</a></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui link list">
+                <div class="item"><a href="/api/v5/swagger" class="item">OpenAPI</a></div>
+                <div class="item"><a href="https://help.gitee.com" class="item">帮助文档</a></div>
+                <div class="item"><a href="/self_services" class="item">在线自助服务</a></div>
+                <div class="item"><a href="/git-osc" class="item">更新日志</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right aligned followus">
+          <div class="qrcode weixin"><img alt="Qrcode-weixin" src="/static/errors/images/qrcode-weixin.jpg">
+            <p class="weixin-text">微信服务号</p>
+          </div>
+          <div class="phone-and-qq column">
+            <div class="ui list official-support-container">
+              <div class="item official-support"><a
+                  href="//qm.qq.com/cgi-bin/qm/qr?k=OUfztMuf7jElTIf78lMuNT_D_lZYOWnd"
+                  class="icon-popup" title="点击加入 Gitee 官方群"><i
+                    class="iconfont icon-logo-qq"></i><span>官方技术交流QQ群：515965326</span></a></div>
+              <div class="item mail-and-zhihu"><a href="mailto: git@oschina.cn"><i
+                    class="iconfont icon-ic-mail"></i><span id="git-footer-email">git#oschina.cn</span></a><a
+                  href="https://www.zhihu.com/org/ma-yun-osc/" target="_blank"><i
+                    class="iconfont icon-zhihu"></i><span>Gitee</span></a></div>
+              <div class="item">企业版售前及售后使用咨询：400-606-0201</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottombar">
+      <div class="ui container">
+        <div class="ui grid">
+          <div class="eleven wide column right aligned">
+            <div class="copyright"><a href="http://beian.miit.gov.cn/">粤ICP备12009483号-8</a>深圳市奥思网络科技有限公司版权所有</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/static/errors/javascripts/jquery.min.js"></script>
+  <script src="/static/errors/javascripts/static_error.js" type="text/javascript"></script>
+  <script src="/static/errors/javascripts/letter_avatar.js" type="text/javascript"></script>
+  <script>var email = $("#git-footer-email").text(); $("#git-footer-email").text(email.replace("#", "@"));</script>
+</body>
+</html>
