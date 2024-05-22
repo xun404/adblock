@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FDdBzPjhMJSoux6kfASIFQ
+! Checksum: rRtTM4GyRwI12GyAt78J+A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202405221838
-! Last Modified: 2024年05月22日 18:38
+! Version: 202405230040
+! Last Modified: 2024年05月23日 00:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -517,6 +517,10 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! CV-1364
+m.ygosu.com,etoland.co.kr,javatpoint.com,picrew.me#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
+m.ygosu.com,etoland.co.kr,javatpoint.com,picrew.me#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
+m.ygosu.com,etoland.co.kr,javatpoint.com#$#abort-on-property-read atob;
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
 ! RM-114
