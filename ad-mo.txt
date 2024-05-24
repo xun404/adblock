@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nfagBbgfm8I3MHpW/bp32g
+! Checksum: EkcB0dsxWzKkX9X/FE0q4w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405241240
-! Last Modified: 2024年05月24日 12:40
+! Version: 202405241439
+! Last Modified: 2024年05月24日 14:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -72039,7 +72039,7 @@ bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class*=" "] > [class*=" "]:has(> [class] > .adWrapper)
 fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
