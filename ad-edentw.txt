@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YopM7Is23oUUNWa/wXobww
+! Checksum: BkNF/x3WZcxpyv213TwtQA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202405242237
-! Last Modified: 2024年05月24日 22:37
+! Version: 202405250137
+! Last Modified: 2024年05月25日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -46,6 +46,7 @@ cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 2345.com#$#abort-current-inline-script setDefaultTheme
 ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ifenpaidy.com#$#abort-on-property-read localStorage
+939394.xyz#$#abort-on-property-read atob
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
 madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
