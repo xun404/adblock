@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PRqxN4OPtS25X8zCvzOlEQ
+! Checksum: pZA+ussNBpEcE9HJDpskxg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405242237
-! Last Modified: 2024年05月24日 22:37
+! Version: 202405250038
+! Last Modified: 2024年05月25日 00:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -85583,7 +85583,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aiboav.vip/wp-content/uploads/uu-chat/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##body > table:first-child img
 vsping.com##.ad_01
+939394.xyz##.j_m_ad
 vsping.com##div[style^="border-radius: 10px; box-shadow"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -142137,6 +142139,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||services.chipotle.com/__imp_apg__/$~third-party
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
