@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pugEVWAglMUlrxpYppg4CQ
+! Checksum: CJIDHY41mFXvWrwrMW5L5g
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202405241240
-! Last Modified: 2024年05月24日 12:40
+! Version: 202405241737
+! Last Modified: 2024年05月24日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1663,6 +1663,7 @@ newduba.cn###jq_youxi
 ##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
+##.aiboav-ads
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
@@ -2716,6 +2717,7 @@ newduba.cn###jq_youxi
 ||jsyliea.top^
 ||usmgoxe.cn^
 ||369bgrec.top^
+||l7u3kf.cn^
 ||zhengzhou12.top^
 ||fklgndklbngg.com^
 ||zhihucloud.xyz^
@@ -11143,6 +11145,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||aiboav.vip/wp-content/uploads/*/3aaa-
+||aiboav.vip/wp-content/uploads/ad/
+||aiboav.vip/wp-content/uploads/uu-chat/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
