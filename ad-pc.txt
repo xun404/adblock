@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /ZSKzxzte2Lx7alSIx2RIg
+! Checksum: xsfwaD0fdevNwkqVX2eb7Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405261937
-! Last Modified: 2024年05月26日 19:37
+! Version: 202405262048
+! Last Modified: 2024年05月26日 20:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56578,6 +56578,7 @@ browsershots.org#@#.advert_area
 ||actiondesk.com^$third-party
 ||activedancer.com^$third-party
 ||ad-adapex.io^$third-party
+||ad-tech.ru^$third-party
 ||ad.plus^$third-party
 ||ad.style^$third-party
 ||ad20.net^$third-party
@@ -69710,6 +69711,7 @@ thenewdaily.com.au##.md\:h-\[250px\]
 bmj.com##.md\:min-h-\[250px\]
 medibang.com##.mdbnAdBlock
 online-translator.com##.mddlAdvBlock
+livejournal.com##.mdspost-aside__item--banner
 thestar.com.my##.med-rec
 gamezone.com##.med-rect-ph
 ghanaweb.com##.med_rec_lg_min
@@ -71459,6 +71461,7 @@ exportfromnigeria.info##[src^="https://storage.proboards.com/"]
 exportfromnigeria.info##[src^="https://storage2.proboards.com/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
 manhwabtt.com##[style$="min-height: 250px;"]
+livejournal.com##[style$="width: 300px;"]
 circleid.com##[style*="300px;"]
 circleid.com##[style*="995px;"]
 coolors.co##[style*="position:absolute;top:20px;"]
@@ -72129,6 +72132,7 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
+livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 fortune.com##[class]:has(> #Leaderboard0)
@@ -85682,6 +85686,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||diamiu.com/wp-content/uploads/1200-200.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img
 element-plus.org##.page-content-main-a
 939394.xyz##body > table:first-child img
 vsping.com##.ad_01
