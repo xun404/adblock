@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +WPyqUx8yG90D7CQPKZihw
+! Checksum: EifuKpL20g5NfMUHPnO+Lg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405271737
-! Last Modified: 2024年05月27日 17:37
+! Version: 202405271838
+! Last Modified: 2024年05月27日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17481,6 +17481,7 @@ browsershots.org#@#.advert_area
 ||86cb1dcb13ba5a1a.com^
 ||87bcb027cf.com^
 ||87c5ce40f8.com^
+||884de19f2b.com^
 ||888promos.com^
 ||889433.com^
 ||88d7b6aa44fb8eb.com^
@@ -73849,6 +73850,7 @@ darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
+xasiat.com##.top:has(> [data-zoneid])
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
 jav4tv.com##aside:has(.ads_300_250)
@@ -74514,6 +74516,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
+.top/ad/
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -76204,6 +76207,7 @@ newduba.cn###jq_youxi
 ||esyliew.top^
 ||fpelfyeesuoivy.com^
 ||nlvwdlnhfnnw.com^
+##a[href*="/hgsfhgsfa.top"]
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -141951,6 +141955,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracker.blutv.com^
 |http://r.i.ua^
 |https://r.i.ua^
+||analytics.cosmonova.net^
 ||at.ua/stat/
 ||counter.nv.ua^
 ||counter.ukr.net^
