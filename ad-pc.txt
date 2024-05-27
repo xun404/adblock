@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HD2lZb8BbytFeY7x7QEHRQ
+! Checksum: aJ3UVzOroj42bQwmxdp1Dg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405271044
-! Last Modified: 2024年05月27日 10:44
+! Version: 202405271139
+! Last Modified: 2024年05月27日 11:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -919,6 +919,7 @@ tieba.baidu.com##.tuijian-wrap
 /api/ads?
 /apopwin.js
 /app/manga/themes/*/ads/pop.js
+/apstag.js
 /apu.php?
 /arcads.js
 /asset/ad/*$image
@@ -69930,8 +69931,8 @@ softexia.com##.offer
 oneindia.com##.oi-add-block
 oneindia.com##.oi-recom-art-wrap
 oneindia.com##.oi-spons-ad
-oneindia.com##.oiad
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##.oiad-txt
+boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oi-wrapper1
+boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oiad
 gizbot.com##.oiadv
 hamodia.com##.oiomainlisting
 forums.somethingawful.com##.oma_pal
@@ -72107,6 +72108,7 @@ freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
+avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
