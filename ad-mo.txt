@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NBEVFYyELmSLqilpCMNS0Q
+! Checksum: ql/6V5S1doS93i4Q0uwckA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405281737
-! Last Modified: 2024年05月28日 17:37
+! Version: 202405281838
+! Last Modified: 2024年05月28日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3828,15 +3828,12 @@ _800x80_
 ###advert-skyscaper
 ###advert-skyscraper
 ###advert-slider-top
-###advert-stickysky
 ###advert-text
 ###advert-top
 ###advert-top-banner
 ###advert-wrapper
 ###advert1
 ###advert2
-###advert300x260
-###advert50
 ###advertBanner
 ###advertBox
 ###advertBoxRight
@@ -3857,24 +3854,15 @@ _800x80_
 ###advert_belowmenu
 ###advert_box
 ###advert_container
-###advert_container_300
 ###advert_header
 ###advert_leaderboard
-###advert_media
 ###advert_mid
 ###advert_mpu
-###advert_mpu_1
-###advert_mpu_2
 ###advert_right1
 ###advert_sky
 ###advert_top
 ###advertblock
 ###advertborder
-###advertbox2
-###advertbox3
-###advertbox4
-###adverthome
-###adverti
 ###adverticum_r_above
 ###adverticum_r_above_container
 ###adverticum_r_side_container
@@ -3891,8 +3879,6 @@ _800x80_
 ###advertisement-300x250
 ###advertisement-bottom
 ###advertisement-content
-###advertisement-detail1
-###advertisement-detail2
 ###advertisement-large
 ###advertisement-placement
 ###advertisement-text
@@ -3936,17 +3922,10 @@ _800x80_
 ###advertisingRightRight
 ###advertisingTop
 ###advertisingTopWrapper
-###advertising_1
-###advertising_2
 ###advertising_300
-###advertising_300_under
-###advertising_300x105
 ###advertising_320
 ###advertising_728
-###advertising_728_under
 ###advertising__banner__content
-###advertising_anglerect
-###advertising_billboard
 ###advertising_column
 ###advertising_container
 ###advertising_contentad
@@ -65382,7 +65361,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~noataque.com.br|~oantagonista.com.br
 ||gpv.ex.co^$third-party
 ||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com
-||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|imfdb.org|infoworld.com|kiplinger.com|soulbounce.com|spokesman-recorder.com|tennis.com|thestreet.com|tomshardware.com|variety.com|whathifi.com
+||jwplayer.com^$domain=americansongwriter.com|dexerto.com|ginx.tv|imfdb.org|infoworld.com|kiplinger.com|soulbounce.com|spokesman-recorder.com|tennis.com|thestreet.com|tomshardware.com|variety.com|whathifi.com
 ||live.primis.tech^$third-party
 ||minute.ly^$third-party
 ||minutemedia-prebid.com^$third-party
@@ -73789,7 +73768,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
-@@||bordeaux.futurecdn.net/bordeaux.js$script,domain=tomsguide.com
+@@||bordeaux.futurecdn.net/bordeaux.js$script,domain=gamesradar.com|tomsguide.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
 @@||brave.com/static-assets/$image,~third-party
 @@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
@@ -76061,6 +76040,7 @@ newduba.cn###jq_youxi
 ||wsyliee.top^
 ||abucki.xyz^
 ||jinzige.cn^
+||15huhu.cn^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -102396,7 +102376,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||postageapp.com/receipt/$third-party
 ||poweredbyeden.com/widget/tracker/
 ||ppx.com/tracking/
-||pr-bh.ybp.yahoo.com/sync/
+||pr-bh.ybp.yahoo.com^
 ||pr.blogflux.com^
 ||prd-collector-anon.ex.co^
 ||prd-collector-platform.ex.co^
@@ -141565,6 +141545,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mklik.gazeta.pl^
 ||nasza-klasa.pl^*/pp_gemius
 ||p.gazeta.pl^
+||p2ro4u.trybawaryjny.pl^
 ||pixel.wp.pl^
 ||rek.www.wp.pl^
 ||savecart.pl/d/
@@ -142190,7 +142171,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! browser.sentry-cdn.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 !! ||assets.adobedtm.com/extensions/*/AppMeasurement.min.js
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=tatamotors.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com
 !! adobedtm.com^*/satelliteLib-
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|auspost.com.au|backcountry.com|bmw.com.au|canadapost-postescanada.ca|ceair.com|collegeboard.org|conad.it|costco.com|crackle.com|crackle.com.ar|crackle.com.br|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|crave.ca|crimewatchdaily.com|dhl.de|directline.com|elgiganten.se|elkjop.no|eonline.com|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|gigantti.fi|godigit.com|hellobank.fr|hgtv.com|hrw.com|ilsole24ore.com|jeep.com|laredoute.be|laredoute.ch|laredoute.co.uk|laredoute.com|laredoute.es|laredoute.fr|laredoute.it|laredoute.pl|laredoute.pt|laredoute.ru|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|nrj.fr|oprah.com|oracle.com|pnc.com|poweredbycovermore.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|tatacliq.com|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|vtr.com|wayin.com|wired.com|wowway.net
 !! adobedtm.com^*-libraryCode_source.min.js
