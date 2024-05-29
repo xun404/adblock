@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hKKHmwNAJrr0kwmVDYU/Yw
+! Checksum: 8yDMAGxsGMKT1uLYsa60tA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202405300537
-! Last Modified: 2024年05月30日 05:37
+! Version: 202405300637
+! Last Modified: 2024年05月30日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57772,6 +57772,7 @@ browsershots.org#@#.advert_area
 ||1a1fb6.xyz^$document,popup
 ||20519a.xyz^$document,popup
 ||22d2d4d9-0c15-4a3a-9562-384f2c100146.xyz^$document,popup
+||22dd31.xyz^$document,popup
 ||295c.site^$document,popup
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
 ||3a2e.site^$document,popup
@@ -71092,7 +71093,7 @@ gab.com##[aria-label*="Sponsored:"]
 thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
 blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
-giantfood.com,martinsfoods.com##[aria-label^="Sponsored"]
+giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
 jagranjosh.com##[class*="_AdColl_"]
 jagranjosh.com##[class*="_BodyAd_"]
 top.gg##[class*="__AdContainer-"]
@@ -72069,7 +72070,7 @@ tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOff
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
 wayfair.com##[data-hb-id="Card"]:has([data-node-id^="ListingCardSponsored"])
-giantfood.com,martinsfoods.com##[data-product-id]:has(.flag_label--sponsored)
+giantfood.com,giantfoodstores.com,martinsfoods.com##[data-product-id]:has(.flag_label--sponsored)
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
@@ -101547,12 +101548,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cws.conviva.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
-||d1snv67wdds0p2.cloudfront.net/tracker/
-||d1tbj6eaenapdy.cloudfront.net^
-||d2fuc4clr7gvcn.cloudfront.net/track.js
-||d2pt12ct4kmq21.cloudfront.net^
-||d2wa5sea6guof0.cloudfront.net^
-||d3vebqdofhigrn.cloudfront.net^
 ||dadi.technology^$third-party
 ||dash.getsitecontrol.com^
 ||dashboard.nowdialogue.com/api/events/
@@ -103396,7 +103391,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1r55yzuc1b1bw.cloudfront.net^
 ||d1rgnfh960lz2b.cloudfront.net^
 ||d1ros97qkrwjf5.cloudfront.net^
+||d1snv67wdds0p2.cloudfront.net/tracker/
 ||d1t9uctetvi0tu.cloudfront.net^
+||d1tbj6eaenapdy.cloudfront.net^
 ||d1vg5xiq7qffdj.cloudfront.net^
 ||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
@@ -103414,6 +103411,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2ezz24t9nm0vu.cloudfront.net^
 ||d2fj3s7h83rb61.cloudfront.net
+||d2fuc4clr7gvcn.cloudfront.net/track.js
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
 ||d2j1fszo1axgmp.cloudfront.net^
@@ -103423,10 +103421,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2nxi61n77zqpl.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
+||d2pt12ct4kmq21.cloudfront.net^
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2t77mnxyo7adj.cloudfront.net^
 ||d2tgfbvjf3q6hn.cloudfront.net^
+||d2wa5sea6guof0.cloudfront.net^
 ||d2wu036mkcz52n.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d2z0bn1jv8xwtk.cloudfront.net^
@@ -103465,6 +103465,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3sbxpiag177w8.cloudfront.net^
 ||d3tglifpd8whs6.cloudfront.net^
 ||d3uvwl4wtkgzo1.cloudfront.net^
+||d3vebqdofhigrn.cloudfront.net^
 ||d4ax0r5detcsu.cloudfront.net^
 ||d761erxl2qywg.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
@@ -103484,6 +103485,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dniyppubkuut7.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||dnxlgencstz4.cloudfront.net^
+||dqif5bl25s0bf.cloudfront.net^
 ||drlimmode9ddd.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
 ||dtxtngytz5im1.cloudfront.net^
