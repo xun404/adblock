@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JXeWVSVW4VGJppgcczBHqA
+! Checksum: e0GlTzUI5QvB4FjPAV1jlg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202405291839
-! Last Modified: 2024年05月29日 18:39
+! Version: 202405291937
+! Last Modified: 2024年05月29日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -69440,6 +69440,8 @@ thestreet.com##.m-in-content-ad-row
 techraptor.net##.m-lg-70
 euronews.com##.m-object--is-branded
 euronews.com##.m-object--is-partner-content
+scamrate.com##.m-t-0
+scamrate.com##.m-t-3
 tech.hindustantimes.com##.m-to-add
 thestreet.com##.m-video-unit
 thegatewaypundit.com##.m0z4dhxja2
@@ -71257,6 +71259,7 @@ kingmodapk.net##[style="height:300px"]
 geekzone.co.nz##[style="height:90px"]
 cycleexif.com,thespoken.cc##[style="margin-bottom: 25px;"]
 realitytvworld.com##[style="margin: 5px 0px 5px; display: inline-block; text-align: center; height: 250;"]
+scamrate.com##[style="max-width: 728px;"]
 timesnownews.com##[style="min-height: 181px;"]
 namemc.com##[style="min-height: 238px"]
 africam.com##[style="min-height: 250px;"]
@@ -96844,6 +96847,7 @@ omni.soundestlink.com$image
 ||logicanalytics.io^
 ||logtail.com^
 ||loopcybersec.com^
+||lordofthesuperfrogs.com^
 ||lsdm.co^
 ||lyfnh.io^
 ||maggieeatstheangel.com^
@@ -105678,6 +105682,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamadblocker.store/stat/
 ||streamadblocker.xyz/stat/
 ||streamate.com/api/metrics
+||streamed.su/api/preload
 ||streamlabs.com/web/data/ping
 ||streamnoads.com/stat/
 ||streamstats.prd.dlive.tv^
@@ -105846,6 +105851,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.game8.co^
 ||tracking.hsn.com^
+||tracking.rocketleague.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
 ||tracking.unrealengine.com^
@@ -142376,6 +142382,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
+@@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
+@@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
+@@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
 @@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp

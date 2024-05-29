@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mHByPU8ocRQp9xU4qRcmOg
+! Checksum: 2hVNl6VyHmTnS/wxilc74w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202405291839
-! Last Modified: 2024年05月29日 18:39
+! Version: 202405291937
+! Last Modified: 2024年05月29日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24870,6 +24870,7 @@ omni.soundestlink.com$image
 ||logicanalytics.io^
 ||logtail.com^
 ||loopcybersec.com^
+||lordofthesuperfrogs.com^
 ||lsdm.co^
 ||lyfnh.io^
 ||maggieeatstheangel.com^
@@ -33704,6 +33705,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamadblocker.store/stat/
 ||streamadblocker.xyz/stat/
 ||streamate.com/api/metrics
+||streamed.su/api/preload
 ||streamlabs.com/web/data/ping
 ||streamnoads.com/stat/
 ||streamstats.prd.dlive.tv^
@@ -33872,6 +33874,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.game8.co^
 ||tracking.hsn.com^
+||tracking.rocketleague.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
 ||tracking.unrealengine.com^
@@ -70402,6 +70405,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
+@@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
+@@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
+@@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
 @@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
