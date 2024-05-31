@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vwt+UMSoCMiP74mM9LKlMw
+! Checksum: hUCFOM7t9hgAbCJ85hdTnA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406010637
-! Last Modified: 2024年06月01日 06:37
+! Version: 202406010737
+! Last Modified: 2024年06月01日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -15626,6 +15626,7 @@ _800x80_
 ##a[href^="https://engine.blueistheneworanges.com/"]
 ##a[href^="https://engine.flixtrial.com/"]
 ##a[href^="https://engine.phn.doublepimp.com/"]
+##a[href^="https://explore-site.com/"]
 ##a[href^="https://fc.lc/ref/"]
 ##a[href^="https://financeads.net/tc.php?"]
 ##a[href^="https://gamingadlt.com/?offer="]
@@ -28370,6 +28371,7 @@ browsershots.org#@#.advert_area
 ||exploitingenious.com^
 ||exploitpeering.com^
 ||exploittonlets.com^
+||explore-site.com^
 ||exploreannihilationquicker.com^
 ||explorecomparison.com^
 ||exploredefinitely.com^
@@ -59060,6 +59062,7 @@ browsershots.org#@#.advert_area
 ||expdirclk.com^$popup
 ||experimentalconcerningsuck.com^$popup
 ||explorads.com^$popup,third-party
+||explore-site.com^$popup
 ||explorefast-1.com^$popup
 ||explorefast-2.com^$popup
 ||expmediadirect.com^$popup
@@ -65243,6 +65246,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||techonthenet.com/javascript/pb.js
 ||techporn.ph/wp-content/uploads/Ad-
 ||techsparx.com/imgz/udemy/
+||terabox.app/api/ad/
 ||terabox.com/api/ad/
 ||thanks.viewfr.com/webroot/ads/adsterra/
 ||thedailysheeple.com/images/banners/
@@ -65991,6 +65995,9 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pornerbros.com/lolaso/
 ||pornforrelax.com/kiadtgyzi/
 ||porngals4.com/img/b/
+||porngames.tv/images/skyscrapers/
+||porngames.tv/js/banner.js
+||porngames.tv/js/banner2.js
 ||porngo.tube/tdkfiololwb/
 ||pornhat.com/banner/
 ||pornicom.com/jsb/
@@ -74392,6 +74399,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
+ws://*/api/wss/GetNotReadCount$third-party
 -1316632262.cos.
 -1316899192.cos.
 .top/ad/
@@ -76116,6 +76124,11 @@ newduba.cn###jq_youxi
 ||dfgfdffg.cn^
 ||xwdjnj.xyz^
 ||bfjsliv.top^
+||sseudorassb.com^
+||fdswrgg.cn^
+||vutjnt.xyz^
+||mgmuye.xyz^
+||zqgixxp.icu^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -97088,6 +97101,8 @@ omni.soundestlink.com$image
 ||vkanalytics.net^
 ||vpdcp.com^
 ||vstats.me^
+||vturb.com.br^
+||vturb.net^
 ||wct-2.com^
 ||whale3.io^
 ||widgetbe.com^
@@ -97098,6 +97113,7 @@ omni.soundestlink.com$image
 ||wlt-jupiter.de^
 ||wmgroup.us^
 ||woodpeckerlog.com^
+||xanalytics.vip^
 ||yardianalytics.com^
 ||yndhi.com^
 ||yottlyscript.com^
@@ -101932,6 +101948,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||incomaker.com//tracking/
 ||ind.sh/view.php?$third-party
 ||indoleads.com/api/pixel-content/
+||inetstatic.com/tracking/
 ||infinityid.condenastdigital.com^
 ||infogr.am/logger.php?
 ||informer.yandex.ru^
@@ -105698,6 +105715,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smetrics.ralphlauren.com^
 ||smutty.com/ajax/trcking/
 ||snapchat.com/web/metrics
+||sofire.terabox.app^
 ||solvusoft.com^*/scripts/visitor.js
 ||soundcloud.com^$ping
 ||source.chromium.org/v1/logging
@@ -105866,6 +105884,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.firez.one^
 ||telemetry.tradingview.com^
 ||tellerreport.com/react/pixel
+||terabox.app/api/analytics?
+||terabox.app/issue/terabox/ts_ad/
 ||terabox.com/abdr?
 ||termsfeed.com/track/
 ||tgt.maep.ibm.com^
@@ -140688,6 +140708,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
 ||jobs.ch/api/v1/public/product/track/
 ||js.tag24.de/main.js
+||k-aktuell.de/monitoring?
 ||leipziger-stadtplan.com/t.gif
 ||llntrack.messe-duesseldorf.de^
 ||lokalwerben.t-online.de^
