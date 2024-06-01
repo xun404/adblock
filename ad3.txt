@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mpUG6/7SDRIojrzlYJfF4g
+! Checksum: cXTLRQcJYKe0fn+lJats3Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202406010737
-! Last Modified: 2024年06月01日 07:37
+! Version: 202406010944
+! Last Modified: 2024年06月01日 09:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -11218,7 +11218,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 szxx.com.cn###A0
 mydrivers.com##.vwE9JmqU
 mydrivers.com##.yTv3AMqP
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(推广))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
 iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img
