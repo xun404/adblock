@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rIW0ETmYcSeGR5RDmrqy+Q
+! Checksum: fb5guUCuDrQyEMTPb0k0nw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406020738
-! Last Modified: 2024年06月02日 07:38
+! Version: 202406020944
+! Last Modified: 2024年06月02日 09:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -73938,6 +73938,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*.crunchyroll.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/pagead/ads$subdocument,domain=sudokugame.org
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||gbf.wiki/images/$image,~third-party
@@ -74267,11 +74268,11 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !! g.doubleclick.net/pagead/managed/js/gpt/
 @@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com|allestoringen.be|allestoringen.nl|aussieoutages.com|canadianoutages.com|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.br|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.tw|downdetector.web.tr|filmweb.pl|journaldequebec.com|mediaite.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 !! pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|tampermonkey.net|teemo.gg|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|sudokugame.org|tampermonkey.net|teemo.gg|thefreedictionary.com
 !! pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_
-@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp
+@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp|sudokugame.org
 !! pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_$script,domain=game.anymanager.io
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_$script,domain=game.anymanager.io|sudokugame.org
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
 @@/banner/ad/*$image,domain=achaloto.com
@@ -76199,6 +76200,7 @@ newduba.cn###jq_youxi
 ||divxrj.xyz^
 ||qywbslk.top^
 ||vevhjj.xyz^
+||dajiahao9.top^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
