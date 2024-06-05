@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hwUSvLWYax6AkTQpE9MRBw
+! Checksum: MzYZr3x6x3bh9bgZuolX0g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406051537
-! Last Modified: 2024年06月05日 15:37
+! Version: 202406051937
+! Last Modified: 2024年06月05日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57060,6 +57060,7 @@ browsershots.org#@#.advert_area
 ||b9f25b.site^$document,popup
 ||bc98ad.xyz^$document,popup
 ||bcbe.site^$document,popup
+||bd5a57.xyz^$document,popup
 ||ca3d.site^$document,popup
 ||ca9246.xyz^$document,popup
 ||caa2c4.xyz^$document,popup
@@ -67074,6 +67075,7 @@ upi.com##.ad_slot_inread
 kitco.com##.ad_space_730
 advocate.com##.ad_tag
 outlookindia.com##.ad_unit_728x90
+geoguessr.com##.ad_wrapper__3DZ7k
 webextension.org##.adb
 queerty.com##.adb-box-large
 queerty.com##.adb-top-lb
@@ -70840,7 +70842,6 @@ greatist.com##aside
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 winaero.com##aside.sidebar > section:not([id^="custom_html-"]).widget_custom_html
 thefinancialbrand.com##aside[class][style*="cursor:"]
-geoguessr.com##aside[class^="ad_"]
 vezod.com##av-adv-slot
 buffstreams.sx##button[data-openuri*=".allsportsflix."]
 filecrypt.cc,filecrypt.co##button[onclick*="://bullads.net/"]
@@ -71137,7 +71138,6 @@ groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
 dailydot.com##footer
-geoguessr.com##footer[class^="ad_wrapper_"]
 law.com,topcultured.com##h3
 kazwire.com##h3.tracking-widest
 drive.com.au##hr
@@ -141532,6 +141532,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
+@@||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$~third-party
 @@||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$~third-party
 @@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 @@||plantyn.com/optiext/optiextension.dll$~third-party
