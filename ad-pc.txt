@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FoA5E40T+oa3GyQyLO0qLg
+! Checksum: UJHlgzf4qdKan/kxpdnl/w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406071047
-! Last Modified: 2024年06月07日 10:47
+! Version: 202406071239
+! Last Modified: 2024年06月07日 12:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -71376,6 +71376,7 @@ skyscanner.com,skyscanner.net##div > a:has(div[class^="DefaultBanner_sponsorship
 inverse.com##div > p + div:has(amp-ad)
 bailagentnetwork.com##div.box-bottom:has(a[rel="noopener nofollow"])
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
+flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
 meijer.com##div.slick-slide:has(.product-tile__sponsored)
@@ -71530,6 +71531,7 @@ forums.whathifi.com###jwplayer-container-div
 mentalfloss.com###mm-player-placeholder-large-screen
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
 bar-planb.com,hakibavuong.com###player_dev
+flightradar24.com###primisAdContainer
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
