@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rlRguvXQU5IE7q15eUYU6g
+! Checksum: 1jib6aYqufzNzZpJcYlf8A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406101537
-! Last Modified: 2024年06月10日 15:37
+! Version: 202406101640
+! Last Modified: 2024年06月10日 16:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -85150,6 +85150,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
+qciss.net##.d1
+qciss.net###lightbox
+qciss.net###lightbox1
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -90768,6 +90771,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||sovrn.com^$domain=mens1069.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
