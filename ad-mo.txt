@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y2/yDlMmdg/MuFTwFXmihQ
+! Checksum: OgX1q7vG4nHDgeKCz/1uFA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406150240
-! Last Modified: 2024年06月15日 02:40
+! Version: 202406150637
+! Last Modified: 2024年06月15日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -71374,6 +71374,8 @@ chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
+doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
+doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
 tvinsider.com#@#.cnx-player-wrapper
 asda.com##.co-item:has(.co-item__sponsored-label)
