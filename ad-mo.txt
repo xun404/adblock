@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8KaVcMdePk2yMzjGKnbCbg
+! Checksum: hoPv8ECNxGRg4OS2fpO95Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406160948
-! Last Modified: 2024年06月16日 09:48
+! Version: 202406170137
+! Last Modified: 2024年06月17日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -71482,6 +71482,7 @@ mg.co.za##article:has(.sponsored-single)
 tympanus.net##article:has(header:has(.ct-sponsored))
 foxnews.com##article[class|="article story"]:has(.sponsored-by)
 twitter.com,x.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
+thetimes.com##article[id="article-main"] > div:has(#ad-header)
 winaero.com##aside > .widget_text:has(.adsbygoogle)
 psychcentral.com##aside:has([data-empty])
 vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
