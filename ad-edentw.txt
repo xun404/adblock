@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 37JbQlo4X92IDtoSuwMBMw
+! Checksum: jnp8nyE7DSluZIn7kqn2TQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202406182053
-! Last Modified: 2024年06月18日 20:53
+! Version: 202406182237
+! Last Modified: 2024年06月18日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -880,8 +880,9 @@ factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contain
 ! #RM-16
 aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div>div.card--out-wrapper' 'div > div > div > a[target="_blank"] + div[class]'
 ! #RM-66
-newegg.com#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]'; hide-if-contains-visible-text /Sponsored/ div[class^="product"] 'div[class][style]>span';
+newegg.com#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]'; hide-if-matches-xpath './/span["Sponsored"]/ancestor::div[starts-with(@class,"product-headline")]';hide-if-matches-xpath './/span[.=" Sponsored"]/ancestor::div[@class=" grid-col" or @class="swiper-slide"]'; hide-if-contains-visible-text /Sponsored/ div[class^="product"] 'div[class][style]>span';
 newegg.com#$#hide-if-matches-xpath './/a[@class="item-img"][@rel]/following::span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"item-cell")][starts-with(@id,"item_cell")]'
+newegg.com##div[class*="-sponsored"]
 ! Popup/Popunder/Clickunder
 123movieshub.tc,123freemovies.net,123movies.ai,123movies.bike,123movies.net,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,animepahe.com,bigtitsxxxfree.com,configspc.com,dood.la,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,fastream.to,govid.me,hclips.com,hd-analporn.com,hotmovs.com,hxfile.co,komikcast.com,mavavid.com,mstream.fun,mstream.icu,mstream.tech,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.net,porn.com,porndollz.com,pornhat.com,prmovies.bz,realgfporn.com,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamta.pe,streamtape.cc,streamtape.com,streamtape.net,streamtape.to,streamtape.xyz,streamtapeadblock.art,strtape.cloud,strtape.site,strtape.tech,strtapeadblock.me,tapewithadblock.org,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
 latinblog.tv,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,baytorrent.eu.org,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.la,dood.ws,doods.pro,doodstream.co,doodstream.com,voe.sx,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.me,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javmost.com,javjunkies.com,limetorrents.info,loadsubs.net,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamtape.cc,streamtape.com,strtapeadblock.me,streamtape.net,streamtape.to,streamtape.xyz,streamta.pe,strtape.cloud,strtape.site,strtape.tech,adblockstrtape.link,tapewithadblock.org,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,youdbox.com,mixdrop.*#$#abort-on-property-write _pop
