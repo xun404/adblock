@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7a6i9c5oaYKXF0O+386vEg
+! Checksum: VhvhEr79tIBeH1FnXcEK1g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202406191738
-! Last Modified: 2024年06月19日 17:38
+! Version: 202406191838
+! Last Modified: 2024年06月19日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11866,8 +11866,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||unpkg.com/hjadu/
+||so.com/com/ads?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ijiandao.com,ijiandao.cn##.index-ad
 baozimh.one##.banners
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -12639,7 +12641,6 @@ qiyeku.com###index_gg
 sm.cn###index_haodongxi
 baidu.com###index_right_float
 baidu.com###index_right_top
-ijiandao.com###index_top_ad
 chinabidding.cn###info_adv_1
 58.com###infolist > .recycleInfo
 thinbug.com###inktokad
@@ -16774,7 +16775,6 @@ ifeng.com##div[class^="adv1"]
 kumi.cn##div[class^="adz"]
 cztv.com##div[class^="banner_"]
 elecfans.com##div[class^="banner_ad"]
-ijiandao.com##div[class^="banner_h_"]
 ifeng.com##div[class^="bottomDbox"]
 ifeng.com##div[class^="container-"][content^="[object"]
 78dm.net##div[class^="couple-"]
@@ -21018,6 +21018,9 @@ _box_ad_
 ||tencent.com/developer/api/common/getOneAds
 ||10086.cn/together/s?func=together:getAdvertInfos&
 ||bttt11.com/ad.
+||sexinsex.net/bbs/include/javascript/adblock.
+||fanyi.baidu.com/pc/config
+||fanyi.baidu.com/ait/config/cms/list?
 !------------------------Specific element hiding rules------------------------!
 bilibili.com##.extension-tips
 77mh.nl###bdtopbot
@@ -21026,8 +21029,6 @@ youdao.com##.banner
 cnki.net##.banner-main
 caiyunapp.com##.active-imgContainer
 baidu.com##.player-pause-code
-123pan.com##.ant-carousel
-123pan.com##.banner-container-pc
 baidu.com##.landrightbanner
 51cto.com##.right-fixadv
 51cto.com###advCanvas
