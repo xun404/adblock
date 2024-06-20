@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 04kN4bAbg058bfFQIvzskw
+! Checksum: cnSfyoGPOA4EDJTfBgtZYg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406201045
-! Last Modified: 2024年06月20日 10:45
+! Version: 202406201137
+! Last Modified: 2024年06月20日 11:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -57241,6 +57241,7 @@ browsershots.org#@#.advert_area
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
 ||2d8bc293.xyz$document,popup
 ||3a2e.site^$document,popup
+||3a55f02d.xyz^$document,popup
 ||3ffa255f.xyz^$document,popup
 ||420db600.xyz^$document,popup
 ||485728.xyz^$document,popup
@@ -62343,7 +62344,7 @@ browsershots.org#@#.advert_area
 ||ads-api.production.nebula-drupal.stuff.co.nz^
 ||ads-yallo-production.imgix.net^
 ||ads.betfair.com^
-||ads.linkedin.com^$third-party
+||ads.linkedin.com^
 ||ads.saymedia.com^
 ||ads.servebom.com^
 ||ads.sportradar.com^
@@ -71991,6 +71992,7 @@ youtube.com###player-ads
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
 youtube.com##.YtdShortsSuggestedActionStaticHostContainer
 youtube.com##.ytd-merch-shelf-renderer
+www.youtube.com##.ytp-featured-product
 youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
 m.youtube.com##lazy-list > ad-slot-renderer
 youtube.com##ytd-ad-slot-renderer
@@ -96441,6 +96443,7 @@ _WebVitalsReporter_
 .backblaze.com/e2t/$image
 .backcountry.com/o/$image
 .bahn.de/op/$image
+.benchurl.com/c/o?$image
 .bhphotovideo.com/mo/
 .birdsend.net/o/$image
 .bluekai.com/*?e_id_
@@ -96503,9 +96506,11 @@ _WebVitalsReporter_
 .maillist-manage.com/clicks/$image
 .members.babbel.com/mo/
 .mgmailer.binance.com/o/$image
+.microsoft.com/m/v2/d?$image
 .mightyape.co.nz/mo?
 .mjt.lu/oo/$image
 .mkt2684.com/eos/
+.mkt51.net/eos/
 .mozilla.org/eos/$image
 .na1.hs-sales-engage.com/$image
 .ne16.com/do/
@@ -96514,6 +96519,7 @@ _WebVitalsReporter_
 .online.costco.com/t?$image
 .pstmrk.it/open^
 .publish0x.com/t/
+.quora.com/qemail/mark_read?
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/
 .sendemail.gate.io/o/$image
@@ -96635,6 +96641,7 @@ _WebVitalsReporter_
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
+/track.interestingfacts.com/?xol=
 /track.octanemail.in/sapi/*$image
 /track/open.php?
 /track/open/*$image
