@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bwGPLJqsZWvj0ecBv+MLGw
+! Checksum: JlhH1uN17Sq5A6z6jYTDMA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406222052
-! Last Modified: 2024年06月22日 20:52
+! Version: 202406222137
+! Last Modified: 2024年06月22日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -733,14 +733,14 @@ tieba.baidu.com##.tuijian-wrap
 /ads/delivery.
 /ads/footer.
 /ads/ga-audiences?
-/ads/gam_prebid-
+/ads/gam_prebid-$script
 /ads/header.
 /ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
 /ads/index-
 /ads/index.
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
-/ads/leaderboard-
+/ads/leaderboard-$~xmlhttprequest
 /ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
@@ -936,7 +936,7 @@ tieba.baidu.com##.tuijian-wrap
 /banner-ad_
 /banner-ads-rotator/*$script,stylesheet
 /banner-ads/*
-/banner-affiliate-
+/banner-affiliate-$image
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php$domain=~research.hchs.hc.edu.tw
@@ -1485,8 +1485,8 @@ tieba.baidu.com##.tuijian-wrap
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
-/wp-bannerize-
-/wp-bannerize.
+/wp-bannerize-$script,stylesheet
+/wp-bannerize.$script,stylesheet
 /wp-bannerize/*
 /wp-content/ads/*
 /wp-content/mbp-banner/*
@@ -64663,6 +64663,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||kontent.powzerz.lol^
 ||koreatimes.co.kr/ad/
 ||kta.etherscan.com^
+||kuwaittimes.com/uploads/ads/
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lapresse.ca/webparts/ads/
 ||lasentinel.net/static/img/promos/
@@ -68783,6 +68784,7 @@ analyticsinsight.net##.head-banner
 plos.org##.head-top
 hindustantimes.com##.headBanner
 realmadrid.com##.head_sponsors
+lewrockwell.com##.header [data-ad-loc]
 ahajournals.org##.header--advertisment__container
 additudemag.com,organicfacts.net##.header-ad
 boldsky.com##.header-ad-block
