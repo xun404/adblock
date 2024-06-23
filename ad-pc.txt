@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N8Eiub89fqjS4btn8n9TKg
+! Checksum: WA4jSlo+YbVvOVQAH2++sA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202406231937
-! Last Modified: 2024年06月23日 19:37
+! Version: 202406240137
+! Last Modified: 2024年06月24日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -744,7 +744,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
-/ads/player-
 /ads/popout.
 /ads/popup.
 /ads/preroll-
@@ -757,7 +756,7 @@ tieba.baidu.com##.tuijian-wrap
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
 /ads/square.
-/ads/ta_wppas/*
+/ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top-
 /ads/top.
@@ -792,7 +791,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads_image/*$image
 /ads_images/*$image,domain=~wildlifeauctions.co.za
 /adsAPI.js
-/adsbanner-
+/adsbanner-$image
 /adsbanner.
 /adsbanner/*$image
 /adsbox.$~script,domain=~adsbox.com.sg
@@ -832,13 +831,13 @@ tieba.baidu.com##.tuijian-wrap
 /adtext.
 /adTools.
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adunit/track-view
+/adunit/track-view|
 /adunits.
 /adunits/bcid?
 /adUnitsBreakpoints.
 /adUnitsData.
 /adutil.
-/adv-banner-
+/adv-banner-$image
 /adv-mobile.
 /adv-scroll-sidebar.js
 /adv-scroll.
@@ -973,7 +972,6 @@ tieba.baidu.com##.tuijian-wrap
 /callAdserver?
 /cgi-bin/ad/*
 /cgi-bin/ads.cgi
-/cgi-bin/ads/*
 /click/zone?
 /click?adv=
 /cms_ads.js
@@ -1023,7 +1021,6 @@ tieba.baidu.com##.tuijian-wrap
 /easyazon-
 /ec5bcb7487ff.js
 /embed_ad.php
-/ero-ads_
 /ero.htm
 /erobanner.js
 /exitpop.js
@@ -1055,7 +1052,6 @@ tieba.baidu.com##.tuijian-wrap
 /floatingad.js
 /floatingads.js
 /flyad.js
-/footer-ad-
 /footer-ad.$~script
 /footer_ad.js
 /footer_ad.php
@@ -1209,7 +1205,6 @@ tieba.baidu.com##.tuijian-wrap
 /pageear/*$script
 /pagepeel.
 /pagepeelpro.js
-/partner-ad-
 /partnerad.
 /partnerads/js/setcookie.js
 /partneradwidget.
@@ -1250,7 +1245,6 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/page-cornr-
 /plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
-/plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /pop_8_2.js
@@ -1480,14 +1474,14 @@ tieba.baidu.com##.tuijian-wrap
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
-/wordpress-ads-plug-in/*
+/wordpress-ads-plug-in/*$script,stylesheet
 /wp-ad.min.
 /wp-auto-affiliate-links/*
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
 /wp-bannerize/*
 /wp-content/ads/*$~xmlhttprequest
-/wp-content/mbp-banner/*
+/wp-content/mbp-banner/*$image
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
 /wp-content/plugins/automatic-social-locker/*
@@ -1497,7 +1491,7 @@ tieba.baidu.com##.tuijian-wrap
 /wp-content/plugins/bookingcom-text2links/*
 /wp-content/plugins/fasterim-optin/*
 /wp-content/plugins/m-wp-popup/*$~stylesheet
-/wp-content/plugins/platinumpopup/*
+/wp-content/plugins/platinumpopup/*$script,stylesheet
 /wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
 /wp-content/plugins/thirstyaffiliates/*
@@ -1776,22 +1770,19 @@ _prebid8.
 /affiliate/referral.asp?site=*&aff_id=
 /bdv_rd2.dbm?enparms
 /jscheck.php?enc=$xmlhttprequest
-/match-*/mf_*/feed
 /sl/assetlisting/?
 /jquery.peelback.
 -adblocker-detection/
 -detect-adblock.
 /abtest_ab.js
-/ad-blocking-advisor/*
+/ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adb_detector.
 /adblock-alerter/*
-/adblock-blocker/*
 /adblock-detect.
 /adblock-detector.
 /adblock-message.
 /adblock-notify-by-bweb/*
-/adblock-relief/*
 /adblock.gif?
 /adblock_detect.
 /adblock_detector.

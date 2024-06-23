@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: egDNeXVwa1kDZGhijfTD/w
+! Checksum: qw2B4+BT3lZ6onSVA2zBUw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406231937
-! Last Modified: 2024年06月23日 19:37
+! Version: 202406240137
+! Last Modified: 2024年06月24日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -632,7 +632,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
-/ads/player-
 /ads/popout.
 /ads/popup.
 /ads/preroll-
@@ -645,7 +644,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
 /ads/square.
-/ads/ta_wppas/*
+/ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top-
 /ads/top.
@@ -680,7 +679,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_image/*$image
 /ads_images/*$image,domain=~wildlifeauctions.co.za
 /adsAPI.js
-/adsbanner-
+/adsbanner-$image
 /adsbanner.
 /adsbanner/*$image
 /adsbox.$~script,domain=~adsbox.com.sg
@@ -720,13 +719,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adtext.
 /adTools.
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adunit/track-view
+/adunit/track-view|
 /adunits.
 /adunits/bcid?
 /adUnitsBreakpoints.
 /adUnitsData.
 /adutil.
-/adv-banner-
+/adv-banner-$image
 /adv-mobile.
 /adv-scroll-sidebar.js
 /adv-scroll.
@@ -861,7 +860,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /callAdserver?
 /cgi-bin/ad/*
 /cgi-bin/ads.cgi
-/cgi-bin/ads/*
 /click/zone?
 /click?adv=
 /cms_ads.js
@@ -911,7 +909,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /easyazon-
 /ec5bcb7487ff.js
 /embed_ad.php
-/ero-ads_
 /ero.htm
 /erobanner.js
 /exitpop.js
@@ -943,7 +940,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /floatingad.js
 /floatingads.js
 /flyad.js
-/footer-ad-
 /footer-ad.$~script
 /footer_ad.js
 /footer_ad.php
@@ -1097,7 +1093,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pageear/*$script
 /pagepeel.
 /pagepeelpro.js
-/partner-ad-
 /partnerad.
 /partnerads/js/setcookie.js
 /partneradwidget.
@@ -1138,7 +1133,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugins/page-cornr-
 /plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
-/plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /pop_8_2.js
@@ -1368,14 +1362,14 @@ pan.baidu.com##.upload-bar.global-clearfix
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
-/wordpress-ads-plug-in/*
+/wordpress-ads-plug-in/*$script,stylesheet
 /wp-ad.min.
 /wp-auto-affiliate-links/*
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
 /wp-bannerize/*
 /wp-content/ads/*$~xmlhttprequest
-/wp-content/mbp-banner/*
+/wp-content/mbp-banner/*$image
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
 /wp-content/plugins/automatic-social-locker/*
@@ -1385,7 +1379,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wp-content/plugins/bookingcom-text2links/*
 /wp-content/plugins/fasterim-optin/*
 /wp-content/plugins/m-wp-popup/*$~stylesheet
-/wp-content/plugins/platinumpopup/*
+/wp-content/plugins/platinumpopup/*$script,stylesheet
 /wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
 /wp-content/plugins/thirstyaffiliates/*
@@ -1664,22 +1658,19 @@ _prebid8.
 /affiliate/referral.asp?site=*&aff_id=
 /bdv_rd2.dbm?enparms
 /jscheck.php?enc=$xmlhttprequest
-/match-*/mf_*/feed
 /sl/assetlisting/?
 /jquery.peelback.
 -adblocker-detection/
 -detect-adblock.
 /abtest_ab.js
-/ad-blocking-advisor/*
+/ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adb_detector.
 /adblock-alerter/*
-/adblock-blocker/*
 /adblock-detect.
 /adblock-detector.
 /adblock-message.
 /adblock-notify-by-bweb/*
-/adblock-relief/*
 /adblock.gif?
 /adblock_detect.
 /adblock_detector.
