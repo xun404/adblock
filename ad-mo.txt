@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PKy6Q4ydKk508n8f3QjjTw
+! Checksum: 0QrTSJuQ9t8pIfkVgZbvKA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406242053
-! Last Modified: 2024年06月24日 20:53
+! Version: 202406242137
+! Last Modified: 2024年06月24日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -819,7 +819,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banman/ad.aspx
 /banner-ad-
 /banner-ad.$~script
-/banner-ad_
 /banner-ads-rotator/*$script,stylesheet
 /banner-ads/*$image,domain=~1agosto.com
 /banner-affiliate-$image
@@ -896,7 +895,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /dfpNew.min.js
 /didna_config.js
 /direct.hd?n=
-/discourse-adplugin-
+/discourse-adplugin-$script
 /displayad?
 /displayAdFrame.
 /dmcads_$script
@@ -1116,7 +1115,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*$script
 /plugins/adrotate/*$script
-/plugins/ads-
 /plugins/ads/*$~xmlhttprequest
 /plugins/adsanity-$script,stylesheet
 /plugins/advanced-ads/*$domain=~wordpress.org
@@ -1201,7 +1199,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js
-/right-ad-
 /right_ad.
 /right_ads.
 /rightad.js
@@ -64635,6 +64632,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||phuketwan.com/img/b/
 ||picrew.me/vol/ads/
 ||pimpandhost.com/mikakoki/
+||pinkmonkey.com/includes/right-ad-columns.html
 ||pixlr.com/dad/
 ||pixlr.com/fad/
 ||plainenglish.io/assets/sponsors/
@@ -71505,7 +71503,7 @@ greyhound-data.com##ul.ppts
 greatandhra.com##ul.sortable-list > div
 backgrounds.wetransfer.net##we-wallpaper
 puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com,puzzle-chess.com,puzzle-dominosa.com,puzzle-futoshiki.com,puzzle-galaxies.com,puzzle-heyawake.com,puzzle-hitori.com,puzzle-jigsaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com###Skyscraper:has(> #bannerSide)
-windowscentral.com###article-body > .hawk-nest:has(a[class^="hawk-affiliate-link-"][class$="-button"])
+windowscentral.com###article-body > .hawk-nest[data-widget-id]:has(a[class^="hawk-affiliate-link-"][class$="-button"])
 puzzle-aquarium.com,puzzle-battleships.com,puzzle-binairo.com,puzzle-bridges.com,puzzle-chess.com,puzzle-dominosa.com,puzzle-futoshiki.com,puzzle-galaxies.com,puzzle-heyawake.com,puzzle-hitori.com,puzzle-jigsaw-sudoku.com,puzzle-kakurasu.com,puzzle-kakuro.com,puzzle-killer-sudoku.com,puzzle-light-up.com,puzzle-lits.com,puzzle-loop.com,puzzle-masyu.com,puzzle-minesweeper.com,puzzle-nonograms.com,puzzle-norinori.com,puzzle-nurikabe.com,puzzle-pipes.com,puzzle-shakashaka.com,puzzle-shikaku.com,puzzle-shingoki.com,puzzle-skyscrapers.com,puzzle-slant.com,puzzle-star-battle.com,puzzle-stitches.com,puzzle-sudoku.com,puzzle-tapa.com,puzzle-tents.com,puzzle-thermometers.com,puzzle-words.com###btIn:has(> #bannerTop)
 winaero.com###content p:has(~ ins.adsbygoogle)
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
