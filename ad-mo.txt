@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qp5M5KOz/mkh9ENlzwCbOw
+! Checksum: 5vlx5DlQLorT6CTVi4tw1g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406241047
-! Last Modified: 2024年06月24日 10:47
+! Version: 202406241239
+! Last Modified: 2024年06月24日 12:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -482,7 +482,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-125.
 /ad-468-
 /ad-bottom.
-/ad-choices-
+/ad-choices-$image
 /ad-choices.
 /ad-engine.js
 /ad-scripts--$script
@@ -634,7 +634,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/outbrain?
 /ads/popout.
 /ads/popup.
-/ads/preroll-
 /ads/rectangle_$subdocument
 /ads/revgen.
 /ads/serve?
@@ -790,7 +789,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /amp4ads-host-v0.js
 /ane-popup-banner.js
 /ane-popup.js
-/ane-preroll/preroll.js
 /annonse.
 /annonser.
 /api-ads.
@@ -1109,7 +1107,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
-/pixel/pure
+/pixel/pure$third-party
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
@@ -1121,16 +1119,15 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugins/adrotate/*$script
 /plugins/ads-
 /plugins/ads/*$~xmlhttprequest
-/plugins/adsanity-
+/plugins/adsanity-$script,stylesheet
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
-/plugins/ane-preroll-
+/plugins/ane-preroll$~xmlhttprequest
 /plugins/cactus-ads/*$script,stylesheet
 /plugins/cpx-advert/*$script
 /plugins/dx-ads/*$script
 /plugins/meks-easy-ads-widget/*$stylesheet
 /plugins/mts-wp-in-post-ads/*$script,stylesheet
-/plugins/page-cornr-
 /plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
@@ -1367,7 +1364,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wp-auto-affiliate-links/*
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
-/wp-bannerize/*
+/wp-bannerize/*$script,stylesheet
 /wp-content/ads/*$~xmlhttprequest
 /wp-content/mbp-banner/*$image
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
@@ -1377,11 +1374,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/bookingcom-banner-creator/*
 /wp-content/plugins/bookingcom-text2links/*
-/wp-content/plugins/fasterim-optin/*
+/wp-content/plugins/fasterim-optin/*$~xmlhttprequest
 /wp-content/plugins/m-wp-popup/*$~stylesheet
 /wp-content/plugins/platinumpopup/*$script,stylesheet
-/wp-content/plugins/popad/*
-/wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/popad/*$script,stylesheet
+/wp-content/plugins/the-moneytizer/*$script
 /wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
@@ -1617,7 +1614,6 @@ _widget_ad.
 .prebid.$domain=~prebid.org
 /_js/prbd_6.19.0.js
 /ad/postbid_handler1.0.9.js
-/adn-hb/*
 /AudienceNetworkPrebid.
 /gpt-prebid.js
 /pbjsandwich.
@@ -1666,7 +1662,6 @@ _prebid8.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adb_detector.
-/adblock-alerter/*
 /adblock-detect.
 /adblock-detector.
 /adblock-message.
