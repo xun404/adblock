@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yBYBqsEN8KxTCsdmbkFChg
+! Checksum: JfS/JRRFAoQGLD6LBaxrmg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202406251737
-! Last Modified: 2024年06月25日 17:37
+! Version: 202406251838
+! Last Modified: 2024年06月25日 18:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -644,7 +644,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/square.
 /ads/ta_wppas/*$third-party
 /ads/targeted|
-/ads/top-
 /ads/top.
 /ads/video/controller.php
 /ads/view.php
@@ -853,7 +852,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /btag.min.js$third-party
 /buysellads.js
 /callAdserver?
-/cgi-bin/ad/*
+/cgi-bin/ad/*$~xmlhttprequest
 /cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
@@ -1122,6 +1121,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plugins/meks-easy-ads-widget/*$stylesheet
 /plugins/mts-wp-in-post-ads/*$script,stylesheet
 /plugins/popunderpro/*$script
+/plugins/thirstyaffiliates/*$script,stylesheet
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
@@ -1368,7 +1368,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /wp-content/plugins/platinumpopup/*$script,stylesheet
 /wp-content/plugins/popad/*$script,stylesheet
 /wp-content/plugins/the-moneytizer/*$script
-/wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
 /wp-content/plugins/wp-super-popup-pro/*$script,stylesheet
