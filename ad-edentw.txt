@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7AMHLbEsU3X8ENGIbB0l+g
+! Checksum: Q2d7Ycn22IGAwBK5Q3lgsw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202406271938
-! Last Modified: 2024年06月27日 19:38
+! Version: 202406272053
+! Last Modified: 2024年06月27日 20:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -800,6 +800,7 @@ youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
 youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
 youtube.com##div #player-ads.style-scope.ytd-watch-flexy
 youtube.com##.video-ads .ytp-ad-player-overlay, .video-ads .ytp-ad-player-overlay-layout
+m.youtube.com##.video-ads.ytp-ad-module
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
@@ -1738,6 +1739,7 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 m.youtube.com,music.youtube.com#$#json-prune 'adPlacements adSlots playerAds ssdaiAdsConfig adPlacementRenderer playerResponse.playerConfig.ssapConfig';
+m.youtube.com,music.youtube.com#$#json-prune 'adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer' 'adPlacements.0.adPlacementRenderer';
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
