@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aNTR4NTYTuN+WaHhg48FYw
+! Checksum: X/QxR8nzTCXwprTJLlq6+A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407020042
-! Last Modified: 2024年07月02日 00:42
+! Version: 202407020240
+! Last Modified: 2024年07月02日 02:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -33091,6 +33091,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.privacyguides.net^
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
+||api.vk.com/method/statEvents.
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
@@ -34410,6 +34411,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vimeocdn.com/js_opt/logging_combined.min.js
 ||visualstudio.com/v2/track
 ||vizcloud.co/ping/
+||vk.com/al_video.php?act=ads_stat
+||vk.com/al_video.php?act=inc_view_counter
+||vk.com/al_video.php?act=live_heartbeat
+||vk.com/al_video.php?act=track_player_events
+||vk.com/al_video.php?act=watch_stat
 ||vk.com/js/lib/px.js
 ||vortex.hulu.com^
 ||vrbo.com/edap/elo/v1/event/beacon
