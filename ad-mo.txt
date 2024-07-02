@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 15vrb1/3mGkbEuqe/lgcCA
+! Checksum: oHr0c4i5MY+alkRHkpqvNg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202407021839
-! Last Modified: 2024年07月02日 18:39
+! Version: 202407021937
+! Last Modified: 2024年07月02日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65964,6 +65964,7 @@ kentonline.co.uk##.LeaderBack
 fivebooks.com##.Leaderboard-container
 nationalgeographic.com##.LinkedImage
 inverness-courier.co.uk,johnogroat-journal.co.uk,stamfordmercury.co.uk##.MPU
+tenby-today.co.uk##.MPUstyled__MPUWrapper-sc-1cdmm4p-0
 wayfair.com##.MediaNativePlacement-wrapper-link
 engadget.com##.Mih\(90px\)
 medievalists.net##.Mnet_TopLeft_970x250
@@ -66018,6 +66019,7 @@ engadget.com##.Td\(n\).Bdbc\(engadgetGutter\).Py\(40px\)
 dictionary.com##.TeixwVbjB8cchva8bDlg
 imgur.com##.Top300x600
 cnbc.com##.TopBanner-container
+tenby-today.co.uk##.TopBannerstyled__Wrapper-sc-x2ypns-0
 topgear.com##.TopContainer-sc-cy9ye3-1
 ndtv.com##.TpGnAd_ad-wr
 dappradar.com##.Tracker__StyledSmartLink-sc-u8v3nu-0
@@ -66098,6 +66100,7 @@ manualslib.com##.abp_adv_s-title
 pocketgamer.com##.abs
 albertsons.com##.abs-carousel-proxy > [aria-label="Promo or Ad Banner"]
 tfn.scot##.absolute-leaderboard
+tfn.scot##.absolute-mid-page-unit
 breitbart.com##.acadnotice
 gamesystemrequirements.com##.act_eng
 sneakernews.com##.active-footer-ad
@@ -84570,6 +84573,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 2345.com###xxl_game-new
+hao123.com##.cmsad_wrapper
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
@@ -89386,7 +89390,7 @@ cartoon18.com#?#.row:-abp-has(.badge:-abp-contains(ad))
 chbeyond.cn#?#a:-abp-has(> .xcybk-adfg)
 copyfuture.com#?#.tabbable > div:-abp-contains(宝红)
 msn.cn##cs-native-ad-card
-czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
+czzy77.com#?#.swiper-slide:-abp-has(a[href^="http"]:not([href*="czzy"]))
 6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
 steamcn.com##div > a[href*=".taobao.com"]
 bitauto.com##div > ins[data-type="ad_play"]
@@ -141508,6 +141512,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||mail.163.com/fetrack/api/27/envelope/?sentry_key=$xmlhttprequest
 @@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
+@@||pv.sohu.com/cityjson$domain=ems.com.cn
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 !---------- Czech ----------
