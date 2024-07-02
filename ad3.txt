@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F0rdQNur+7+G9RhLrxM/UQ
+! Checksum: VMSzazI5Wt3R9Xt/ydBicA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407022137
-! Last Modified: 2024年07月02日 21:37
+! Version: 202407022337
+! Last Modified: 2024年07月02日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1697,6 +1697,8 @@ newduba.cn###jq_youxi
 ||hdtvnr.xyz^
 ||cjgymo.xyz^
 ||hzrnbl.xyz^
+||8208tp.com^
+||imgoss511.top^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -70894,6 +70896,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
+@@||clarity.ms/tag/$script,domain=phileweb.com
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
