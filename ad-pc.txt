@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sSyF7BCs3AapDWN95G3t4g
+! Checksum: Gt2Tw66eDuwYTxcyfjfW2Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407031640
-! Last Modified: 2024年07月03日 16:40
+! Version: 202407031737
+! Last Modified: 2024年07月03日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -70717,6 +70717,7 @@ tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOff
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
 wayfair.com##[data-hb-id="Card"]:has([data-node-id^="ListingCardSponsored"])
+avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
 giantfood.com,giantfoodstores.com,martinsfoods.com##[data-product-id]:has(.flag_label--sponsored)
 realcanadiansuperstore.ca##[data-testid="product-grid"] > .css-0:has([data-testid="product-badge"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
@@ -142765,6 +142766,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
+@@||api.vk.com/method/statEvents.addVKIDAnonymously$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
