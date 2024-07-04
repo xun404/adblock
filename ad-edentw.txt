@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6e8old44bZMFDm7x3dgRNA
+! Checksum: 6SUDR7DT3qOsPBtdJNYZ0A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202407041538
-! Last Modified: 2024年07月04日 15:38
+! Version: 202407041639
+! Last Modified: 2024年07月04日 16:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1330,11 +1330,12 @@ allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div
 ! SA
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 ! PC
+allegro.*##div[data-box-name^="ads"]
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]/ancestor::div[@style][1]//ancestor::div[@data-box-name="structure-container" or @data-box-name="Car0usel card"]';
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 ! HB
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
-allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna")]/ancestor::div[@data-box-name="structure-container"]';
+allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
 ! PL
 allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Рекламні" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Рекламні|Sponzorované/ 'article' 'div[id]' 'content'; race stop;
 ! #CV-705
