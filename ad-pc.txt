@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qPe2hm/UP/pOO2mDZoUAVQ
+! Checksum: 1S46/Ar+KVPTcF8M5bLxAQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407060739
-! Last Modified: 2024年07月06日 07:39
+! Version: 202407060940
+! Last Modified: 2024年07月06日 09:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1541,7 +1541,6 @@ _ad_banner.
 _ad_bottom.
 _ad_box.
 _ad_choices.
-_ad_footer.
 _ad_header.
 _ad_image_
 _ad_layer_
@@ -1578,7 +1577,6 @@ _adv_open_x/
 _advertise-$domain=~linkedin.com
 _advertise.
 _advertisment.$~xmlhttprequest
-_adverts.js
 _affiliate_ad.
 _assets/ads/
 _asyncspc.
@@ -15900,6 +15898,7 @@ _800x80_
 ##.gnt_tbr.gnt_tb
 ##.gnt_x
 ##.gnt_x__lbl
+##.gnt_xmst
 ###Player_Playoncontent
 ###Player_Playoncontent_footer
 ###aniview--player
@@ -63637,6 +63636,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||js.syosetu.top^
 ||jsdelivr.net/gh/$domain=chrome-stats.com|edge-stats.com|firefox-stats.com
 ||kaas.am/hhapia/
+||kavin.rocks/sponsors/$domain=piped.video
 ||kendrickcoleman.com/images/banners/
 ||kentent.stre4mplay.one^
 ||kentent.streampiay.fun^
@@ -95395,6 +95395,7 @@ fqsousou.com,kengso.com#@#.user-share
 /trackvisit?
 /TrackVisitors/*
 /TrackWebPage?
+/trade/in.php?*&ref=
 /traffic-source-cookie.min.js
 /traffic/status.gif?
 /traffic_record.php?
@@ -105280,6 +105281,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tms.hft.greenchef.com^
 ||tms.hft.hellofresh.com^
 ||tnaflix.com/stats.php
+||toms.com/*/FacebookCAPI-Event
+||toms.com/*/PinterestCAPI-Event
 ||tongji-res.meizu.com^
 ||top.gg/api/auctions/i
 ||top.wn.com^
@@ -141812,6 +141815,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||courrierinternational.com/*&vtag=
 ||datalayer.orange.fr^
 ||dd.leboncoin.fr^
+||decathlon.net/content/tracker.v2.prod.min.js
 ||developpez.com/public/js/log.js
 ||donnons.org/log.js
 ||e.legalstart.fr^
@@ -141831,7 +141835,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ianimes.org/img/tracker.gif
 ||ici.radio-canada.ca/v5/*/trace/
 ||igen.fr/modules/statistics/statistics.php
-||insights.decathlon.net^
+||insights.v3.decathlon.net^
 ||iphoneaddict.fr/wp-content/*/counter.php
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
@@ -142828,6 +142832,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||blocket.se/js/trafikfonden.js
 ||bonmed.se/monitoring?
 ||falkenbergtorget.se/sc.gif?
+||fotbollskanalen.se^$ping
 ||fusion.bonniertidskrifter.se^
 ||gx.idg.se^
 ||prisjakt.nu/js.php?p=trafikfonden
