@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +mLADFjuGKe7UE1gJ/03Qg
+! Checksum: KZhOPz4ErffjkuixyT7rfA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407072050
-! Last Modified: 2024年07月07日 20:50
+! Version: 202407072137
+! Last Modified: 2024年07月07日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11577,7 +11577,6 @@ _800x80_
 ##.catalog_ads
 ##.category-ad:not(html):not(body):not(.post)
 ##.category-ads:not(html):not(body):not(.post)
-##.category-advertorial
 ##.categoryMosaic-advertising
 ##.categoryMosaic-advertisingText
 ##.cazAd
@@ -16313,7 +16312,6 @@ stuff.tv#@#.c-ad
 thedigestweb.com#@#.c-ad-banner
 deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
-crazystudy.info#@#.category-advertorial
 accuweather.com,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br#@#.cnx-player-wrapper
 studio55.fi#@#.column-ad
 huffpost.com#@#.connatix-wrapper
@@ -69604,6 +69602,7 @@ bobvila.com##.unit-header-container
 sciencedaily.com##.unit1
 sciencedaily.com##.unit2
 gpucheck.com##.unitBox
+pravda.com.ua##.unit_side_banner
 thegamerstation.com##.universal-js-insert
 thegradcafe.com##.upcoming-events
 pcgamingwiki.com##.upcoming-releases.home-card:first-child
@@ -69835,6 +69834,7 @@ blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
 giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
 thehansindia.com##[class*="-ad-"]:not(#inside_post_content_ad_1_before)
 collegedunia.com##[class*="-ad-slot"]
+fotmob.com##[class*="TopBannerWrapper"]
 jagranjosh.com##[class*="_AdColl_"]
 jagranjosh.com##[class*="_BodyAd_"]
 top.gg##[class*="__AdContainer-"]
@@ -100512,6 +100512,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
 ||awesome.section.io^
+||awsapprunner.com/api/frontend/client/metrics
 ||awswaf.com^*/report
 ||awswaf.com^*/telemetry
 ||ax.babe.today^
@@ -104079,6 +104080,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
+||anal.doubledouble.top^
 ||analytics-api.dvdfab.
 ||analytics-batch.blitz.gg^
 ||analytics-proxy.springboard.com^
@@ -142468,6 +142470,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
+||askdoctors.jp/assets/packs/js/impression_tracker-
 ||astat.nikkei.com^
 ||astral.nicovideo.jp^
 ||barks.jp/v1/stats
