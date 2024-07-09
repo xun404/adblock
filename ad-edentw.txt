@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0BzcTa0VKvPtqVxLQwGDiw
+! Checksum: IyS74M+BnGc59yBaAOhRIA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202407091640
-! Last Modified: 2024年07月09日 16:40
+! Version: 202407092337
+! Last Modified: 2024年07月09日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1733,6 +1733,7 @@ freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#$#overrid
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
+www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; race stop; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'; simulate-mouse-event 'button.ytp-skip-ad-button$delay=0';
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
