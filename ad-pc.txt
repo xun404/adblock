@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GF6cqPpxR/Dtjx+ILLkDZw
+! Checksum: xGeHa2x4t3TqrTA8kUNY+g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407111739
-! Last Modified: 2024年07月11日 17:39
+! Version: 202407111937
+! Last Modified: 2024年07月11日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9161,9 +9161,9 @@ _800x80_
 ##.adheightpromo
 ##.adheighttall
 ##.adherebox
-##.adhesion
 ##.adhesion-block
 ##.adhesion-header
+##.adhesion:not(body)
 ##.adhesiveAdWrapper
 ##.adhesiveWrapper
 ##.adhesive_holder
@@ -96504,6 +96504,7 @@ omni.soundestlink.com$image
 ||mdstats.info^
 ||mediamathrdrt.com^
 ||mgln.ai^
+||michiganrobotflower.com^
 ||mirabelanalytics.com^
 ||mircheigeshoa.com^
 ||mitour.de^
@@ -142555,6 +142556,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||videa.hu/flvplayer_setcookie.php?
 ||analytic20.detik.com^
 ||bukalapak.com/banner-redirector/impression
+||bukalapak.com/track-external-visit
+||bukalapak.com/track_external.json
 ||ktracker.kumparan.com^
 ||t.bukalapak.com^
 /~shared/do/~/count/?$image
