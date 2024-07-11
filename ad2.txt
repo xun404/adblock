@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hPoOCX0oSqGA41rg1scdkQ
+! Checksum: M2Uadg+aLAz6ejnx1y4xYA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202407111739
-! Last Modified: 2024年07月11日 17:39
+! Version: 202407120737
+! Last Modified: 2024年07月12日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1697,6 +1697,11 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||tdipsumi.top^
+||ykcsldm.icu^
+||izcqyy.xyz^
+||dmnqfn.xyz^
+||scoev.cn^
 ||tupian9999.com^
 ||xxxx88xxxx.com^
 ||xxxx96xxxx.com^
@@ -12839,7 +12844,8 @@ appinn.com###sidebar > .widget:first-child
 ipcfun.com###sidebar > ul > div[style]
 iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 ipcfun.com###sidebar > ul > li[style]
-jandan.net###sidebar > ul[style="height:480px"]
+jandan.net###sidebar > UL:nth-child(2)
+jandan.net##.post[style="padding-left:150px;width:336px;height:280px;"]
 mpyit.com###sidebar a > img
 gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 appinn.com###sidebar a[rel*="sponsored"]
