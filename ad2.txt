@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M2Uadg+aLAz6ejnx1y4xYA
+! Checksum: skSyzu4+OIJuB2or2Nh4fw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202407120737
-! Last Modified: 2024年07月12日 07:37
+! Version: 202407120943
+! Last Modified: 2024年07月12日 09:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1702,6 +1702,7 @@ newduba.cn###jq_youxi
 ||izcqyy.xyz^
 ||dmnqfn.xyz^
 ||scoev.cn^
+||fpninv.xyz^
 ||tupian9999.com^
 ||xxxx88xxxx.com^
 ||xxxx96xxxx.com^
@@ -11667,10 +11668,16 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||singtao.ca/editions/affiliate_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+orangenews.hk##img[advid]
+ddxs.vip##.content > p > font[color="red"]
+baidu.com##.na-ec-waterfall
 baidu.com##.result-op[tpl="vmp_strengthen_brand"]
 iqiyi.com##a[href^="https://ads.game.iqiyi.com"]
+digitimes.com.tw##a[href*="/webad/"]
+digitimes.com.tw##.dt-ad-block
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
