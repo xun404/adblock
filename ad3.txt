@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U4iRJuO3CuMjPQQ9AvfNOw
+! Checksum: DYd7a3M12Z/mrhg1oYmh6Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407160737
-! Last Modified: 2024年07月16日 07:37
+! Version: 202407160946
+! Last Modified: 2024年07月16日 09:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1689,6 +1689,7 @@ newduba.cn###jq_youxi
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+||38.33.15.10^
 ||107.167.16.*.gif
 ||121.204.246.*.gif
 ||154.7.80.158^
@@ -1702,6 +1703,7 @@ newduba.cn###jq_youxi
 ||eiuoom.xyz^
 ||bavotr.xyz^
 ||eiuoom.xyz^
+||jyfdbj.xyz^
 ||gkypgw.xyz^
 ||lyislol.top^
 ||tgrpzl.xyz^
@@ -32447,6 +32449,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eclick.baidu.com^
 ||epro.sogou.com^
 ||etwun.com:8080/counter.php?
+||event.tagtoo.co^
 ||experiments.sparanoid.net^
 ||fourier.taobao.com^
 ||g.yccdn.com^
@@ -32501,6 +32504,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sugs.m.sm.cn^
 ||t.hypers.com.cn^
 ||t.rainide.com^
+||tagtoo.co/js/unitrack.js
 ||taobao.com/tracker.
 ||tce.alicdn.com^
 ||tieszhu.com/e.html
@@ -34133,6 +34137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixiedust.buzzfeed.com^
 ||pks-analytics.raenonx.cc^
 ||pl.letsblock.it^
+||pl.lucida.to^
 ||planetradio.co.uk/crystal/log
 ||plausible.bots.gg^
 ||plausible.dragonfru.it^
@@ -71303,6 +71308,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||referer.pixplug.in^
 ||reportsk.web.sdo.com^
 ||retcode.taobao.com^
+||reurl.cc/javascripts/tagtoo.js
 ||rlogs.youdao.com^
 ||ro.aiwan4399.com^
 ||s.360.cn^
@@ -71880,7 +71886,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||strapi.clickjogos.com.br^
 ||tags.globo.com^
 ||terra.com.br^*/metrics.js
-||tm.jsuol.com.br^
 ||tm.uol.com.br^
 ||track.exame.com^
 ||track.olx.com.br^
@@ -72251,6 +72256,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getpublica.com/playlist.m3u8$xmlhttprequest
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
+@@||globalatlanticannuity.com/assets/embed/gtm.js$script,~third-party
 @@||glookup.info/api/json/$domain=grabify.link
 @@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||groupbycloud.com/gb-tracker-client-3.min.js
@@ -72783,8 +72789,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sibs.com/fingerprint/sfp2/fp2.min.js$script,domain=net24.bancomontepio.pt
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
-@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
-@@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 !---------- Romanian ----------
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||imobiliare.ro/js/gtm.js$script,~third-party
