@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: npqVg615YKVW9KjcdSFYuw
+! Checksum: RivLd/Uw70OJ73X6B9mZhg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407180538
-! Last Modified: 2024年07月18日 05:38
+! Version: 202407180638
+! Last Modified: 2024年07月18日 06:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30133,7 +30133,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dotaudiences.com^$third-party
 ||dreamhost.com/*.cgi?$image,third-party
 ||drift.com/impressions/
-||drift.com/targeting/
+||drift.com/targeting/evaluate_with_log
 ||drift.com/track
 ||dugout.co/das2.js
 ||dw.com.com^$script
@@ -72189,7 +72189,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
-@@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
+@@||autocomplete.clearbit.com^$xmlhttprequest
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
