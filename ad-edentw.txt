@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 33XAkJgFolsFrOTAvSFNCA
+! Checksum: v4fA4cofX76Id7MqkjIDeQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202407190137
-! Last Modified: 2024年07月19日 01:37
+! Version: 202407190437
+! Last Modified: 2024年07月19日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -897,7 +897,7 @@ mult34.com#$#abort-current-inline-script decodeURI; abort-on-property-read decod
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
 123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.*,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
-doood.site,vidsrc.pro#$#abort-on-property-read window.open
+doood.site,jasminetesttry.com,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
 youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.cc,filecrypt.co#$#abort-on-property-read isAdblock
 hclips.com,upornia.com#$#abort-on-property-read adver
@@ -979,8 +979,9 @@ andyday.tv,soaper.tv,kickassanime.*,vidco.pro#$#abort-current-inline-script docu
 kickassanime.*,vidco.pro#$#override-property-read ifmax true
 mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script String.fromCharCode; abort-on-property-read window.open;
 ||noukotumorn.com^$domain=dl-protect.link
-vid2faf.site#$#abort-on-property-read window.open
-skidrowreloaded.com#$#dabort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
+skidrowreloaded.com#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
+videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
+tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
