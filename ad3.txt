@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F3MfEensRrNOePQKmJTZ8A
+! Checksum: F6WymFLeV2knDVGZADzyUw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202407211048
-! Last Modified: 2024年07月21日 10:48
+! Version: 202407211138
+! Last Modified: 2024年07月21日 11:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1690,7 +1690,7 @@ newduba.cn###jq_youxi
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
-||38.33.15.10^
+||38.33.15.*.gif
 ||107.167.16.*.gif
 ||121.204.246.*.gif
 ||154.7.80.158^
@@ -1700,6 +1700,10 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||107.167.22.*.gif
 ||cupfox.app^$third-party
+||zqkxlf.com^
+||25662zubo23739.com^
+||88362zubo95838.com^
+||cosmo001.top^
 ||ofebyk.xyz^
 ||mdipsumx.top^
 ||jsdelivr.vip^
@@ -1724,6 +1728,7 @@ newduba.cn###jq_youxi
 ||tyretui.top^
 ||zyfnbl.xyz^
 ||uyretut.top^
+||ppxscy1.cn^
 ||wnootzc.icu^
 ||eiuoom.xyz^
 ||bavotr.xyz^
@@ -11741,6 +11746,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||singtao.ca/editions/affiliate_
+||news.ssp.qq.com/ad
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 landiannews.com##a[href*="ourl.co"]
@@ -20437,6 +20443,7 @@ _box_ad_
 ! CJX's Annoyance List
 !--------------------------General blocking filters---------------------------!
 /wiseatom/banner/pack_
+/bbs/include/javascript/adblock.
 /template/bingfeng/statics/js/pingbi.js
 -bobo_recommend_
 /3dmgamegzh.png
@@ -20914,7 +20921,6 @@ _box_ad_
 ||tencent.com/developer/api/common/getOneAds
 ||10086.cn/together/s?func=together:getAdvertInfos&
 ||bttt11.com/ad.
-||sexinsex.net/bbs/include/javascript/adblock.
 ||fanyi.baidu.com/pc/config
 ||fanyi.baidu.com/ait/config/cms/list?
 ||3dmgame.com/static/image/common/pc_tg3dm.
@@ -72433,6 +72439,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
 @@||plugins.matomo.org^$image,~third-party
+@@||portal.cityspark.com/PortalScripts/DailyCamera$domain=dailycamera.com
+@@||portal.cityspark.com/v1/event$domain=dailycamera.com
 @@||postex.com/api/ping?$~third-party
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
