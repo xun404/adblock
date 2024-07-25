@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MIfw4EmxbarQQd2C4U+IqA
+! Checksum: mJjBjQX23moaXSAlmbYKFg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407260137
-! Last Modified: 2024年07月26日 01:37
+! Version: 202407260637
+! Last Modified: 2024年07月26日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1205,7 +1205,6 @@ tieba.baidu.com##.tuijian-wrap
 /phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*$~xmlhttprequest
-/pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
 /pixel/pure$third-party
@@ -17682,6 +17681,7 @@ browsershots.org#@#.advert_area
 ||accids.com^
 ||acclaimcraftsman.com^
 ||acclaimed-travel.pro^
+||accloyberimed.com^
 ||accmgr.com^
 ||accoladethoroughly.com^
 ||accommodatingremindauntie.com^
@@ -25276,6 +25276,7 @@ browsershots.org#@#.advert_area
 ||debauchavailable.com^
 ||debauchinteract.com^
 ||debaucky.com^
+||debeftib.com^
 ||debism.com^
 ||debitslopenoncommittal.com^
 ||debonairseashore.com^
@@ -30125,6 +30126,7 @@ browsershots.org#@#.advert_area
 ||gentlecountries.com^
 ||gentlementoplessrest.com^
 ||gentlynudegranny.com^
+||gentsriggish.com^
 ||genuinechancellor.com^
 ||genuinelybruises.com^
 ||genuinesuperman.com^
@@ -38008,6 +38010,7 @@ browsershots.org#@#.advert_area
 ||moronesphotos.com^
 ||morrolorries.top^
 ||morrowfreezer.com^
+||morsalurluch.com^
 ||mortgagelunchtimedistrustuldistrustul.com^
 ||mortifyfelony.com^
 ||mortoncape.com^
@@ -45259,6 +45262,7 @@ browsershots.org#@#.advert_area
 ||robunderstanding.com^
 ||rocco-fvo.com^
 ||rochesterbreedpersuade.com^
+||rockersbaalize.com^
 ||rocketme.top^
 ||rocketplaintiff.com^
 ||rocketyield.com^
@@ -50443,6 +50447,7 @@ browsershots.org#@#.advert_area
 ||tuleceti.com^
 ||tulipmagazinesempire.com^
 ||tulipsameedge.com^
+||tumbaklack.com^
 ||tumblebit.com^
 ||tumblebit.org^
 ||tumblehisswitty.com^
@@ -73472,6 +73477,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||g.doubleclick.net/gampad/ads?*&prev_scp=kw%3Diqdspiegel%2Cdigtransform%2Ciqadtile4%2$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*.crunchyroll.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/gampad/ads?env=$xmlhttprequest,domain=wunderground.com
 @@||g.doubleclick.net/gampad/live/ads?*tver.$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=sudokugame.org
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
@@ -73801,6 +73807,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !! https://github.com/uBlockOrigin/uAssets/issues/18541
 !! cbssports.com|newson.us|worldsurfleague.com
 @@||pubads.g.doubleclick.net/ssai/
+!!
+@@||pagead2.googlesyndication.com/tag/js/gpt.js$script,domain=wunderground.com
 !! g.doubleclick.net/tag/js/gpt.js
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|bestiefy.com|blastingnews.com|bloomberg.com|chromatographyonline.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|filmweb.pl|formularywatch.com|games.coolgames.com|gearpatrol.com|indy100.com|journaldequebec.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|olx.pl|physicianspractice.com|repretel.com|spiegel.de|standard.co.uk|telsu.fi|theta.tv|weather.com
 !! googletagservices.com/tag/js/gpt.js
@@ -73815,6 +73823,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp|sudokugame.org
 !! pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/slotcar_library_$script,domain=game.anymanager.io|sudokugame.org
+!!
+@@||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
 @@/banner/ad/*$image,domain=achaloto.com
@@ -95146,7 +95156,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://collect.*/pageview
 ://collector.*/event
 ://elqtrk.
-://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -99397,6 +99407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bob-recs.com^$third-party
 ||btg360.com.br^$third-party
 ||clearsale.com.br^$third-party
+||dataroyal.com.br^$third-party
 ||dataunion.com.br^$third-party
 ||denakop.com^$third-party
 ||engageya.com^$third-party
