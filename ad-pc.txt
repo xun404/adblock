@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SY5em4QfF0qchl2S55QbNA
+! Checksum: OSdU0aOrJi8mkKmVIgGLbg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407271638
-! Last Modified: 2024年07月27日 16:38
+! Version: 202407271837
+! Last Modified: 2024年07月27日 18:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -142900,6 +142900,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 !! cxense.com/document/search?
 @@||cxense.com/document/search?
+!! cxense.com/persisted/execute
+@@||cxense.com/persisted/execute$domain=nippon.com
 !! cxense.com/public/widget/
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 !! cxense.com/cx.cce.js
