@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GayUGCDFXhGaKyCR8hO+Vw
+! Checksum: a0xLpODW7TOeYjLyHat0xg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202407311937
-! Last Modified: 2024年07月31日 19:37
+! Version: 202407312054
+! Last Modified: 2024年07月31日 20:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -71520,6 +71520,7 @@ cgpress.org##li > div[id^="cgpre-"]
 bestbuy.com##li.embedded-sponsored-listing
 cultbeauty.co.uk,dermstore.com,skinstore.com##li.sponsoredProductsList
 laredoute.be,laredoute.ch,laredoute.co.uk,laredoute.com,laredoute.de,laredoute.es,laredoute.fr,laredoute.gr,laredoute.it,laredoute.nl,laredoute.pt,laredoute.ru##li[class*="sponsored-"]
+yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 linkedin.com##li[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duckduckgo.com##li[data-layout="products_middle"]
@@ -71688,6 +71689,7 @@ popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
+skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
@@ -95985,7 +95987,6 @@ omni.soundestlink.com$image
 ||mdhv.io^
 ||mdstats.info^
 ||mediamathrdrt.com^
-||mgln.ai^
 ||michiganrobotflower.com^
 ||mirabelanalytics.com^
 ||mircheigeshoa.com^
@@ -97501,6 +97502,7 @@ omni.soundestlink.com$image
 ||metricsdirect.com^$third-party
 ||metricswave.com^$third-party
 ||mezzobit.com^$third-party
+||mgln.ai^$third-party
 ||miadates.com^$third-party
 ||mialbj6.com^$third-party
 ||micpn.com^$script,third-party
