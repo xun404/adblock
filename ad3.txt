@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SmnyDwmrvOc7RFzR8pCZXQ
+! Checksum: LR0vxLBpcy1FzSD6z4CUng
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408022237
-! Last Modified: 2024年08月02日 22:37
+! Version: 202408030638
+! Last Modified: 2024年08月03日 06:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21623,6 +21623,7 @@ m.babytree.com##script + a[class]
 /dla_tracker.js
 /dlpageping?
 /dm.gif?
+/dm.tlo?id=
 /dmp/pixel.js
 /dmu2panalytics/ajax_call.php?
 /doctracking.js
@@ -22827,6 +22828,7 @@ m.babytree.com##script + a[class]
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
 /sentry-browser.min.js
+/sentry-browser.tracing.es5.min.js
 /sentry-logger.js
 /sentry/bundle.min.js
 /seo.taCo.min.js
@@ -31169,6 +31171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||experiments.sparanoid.net^
 ||fourier.taobao.com^
 ||g.yccdn.com^
+||gdt.qq.com^
 ||gias.jd.com/js/td.js
 ||haostat.qihoo.com^
 ||hudong.com/flux.js
@@ -32131,6 +32134,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cc.cc/visit_log_ajax/visit_log_save_ajax.php?
 ||cdn.jsdelivr.net/npm/@adshield/
 ||centerblog.net/stats.js
+||cgtn.com/api/collect/
 ||ch3ngl0rd.com/hit/
 ||change.org/api-proxy/-/bandit/pull
 ||change.org/api-proxy/-/et
@@ -60330,7 +60334,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||info.marketingcube.com.au^
 ||info.markmonitor.com^
 ||info.mdsol.com^
-||info.medtronicdiabetes.com^
 ||info.metronet.com^
 ||info.metronetbusiness.com^
 ||info.metronetinc.com^
@@ -69964,6 +69967,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ctrmi.cn/t/
 ||data.bilibili.com^
 ||dcard.tw/v1/events
+||df.huya.com^
 ||dig.lianjia.com^
 ||dlswbr.baidu.com^
 ||dolphin.deliver.ifeng.com^
@@ -69988,6 +69992,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||h5log.zongheng.com^
 ||hisense.com/ta.js
 ||hktvmall.com/api/event
+||hoyoverse.com/dora/biz/mihoyo-h5log/
 ||huaxiang.eastmoney.com^
 ||hujiang.com/v2/log
 ||i-cable.com/ci/tracking/
@@ -70003,7 +70008,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||jiayuan.com^*/pv.js
 ||js.ea3w.com/pv.js
 ||kn007.net/snmp.php
+||l.web.huya.com^
 ||le.com/op/
+||log-upload-os.hoyoverse.com^
 ||log.bitauto.com^
 ||log.flight.qunar.com^
 ||log.m.sm.cn^
@@ -70109,8 +70116,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||static.funshion.com/*/common/log/
 ||static.qiyi.com/js/pingback/
 ||statistic.qzone.qq.com^
+||statwup.huya.com^
 ||steamchina.com/events/
 ||sugar.zhihu.com^
+||t.home.news.cn^
 ||tbskip.taobao.com^$script
 ||tf.360.cn^
 ||theav.xyz/anyalytics
@@ -70133,6 +70142,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||trackcommon.hujiang.com^
 ||tracker.ai.xiaomi.com^
 ||trail.53kf.com^
+||udblog.huya.com^
 ||uestat.video.qiyi.com^
 ||utrack.hexun.com^
 ||uuu9.com/s.php?
