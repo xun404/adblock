@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y9SVmio3GU7NMBQUi/wNTQ
+! Checksum: Rj2vIkcZOo9VriM7Tf3jXg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408030638
-! Last Modified: 2024年08月03日 06:38
+! Version: 202408030738
+! Last Modified: 2024年08月03日 07:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -521,7 +521,7 @@ ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
 ! RM-61
 @@||woolworths.com.au^$generichide
-woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'shared-grid .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
+woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
 ! CV-1364
 etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
