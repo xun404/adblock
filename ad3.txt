@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yVDFNunGyeNRzZFKmjly6A
+! Checksum: oDOsny9hvcsoAgwRA1I/TA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408020737
-! Last Modified: 2024年08月02日 07:37
+! Version: 202408020945
+! Last Modified: 2024年08月02日 09:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22366,6 +22366,7 @@ m.babytree.com##script + a[class]
 /nativendo.js
 /navbar-analytics.js
 /naytev.min.js
+/nb-collector|
 /ncj-pixel.js
 /neilson.js
 /neoworx_tracker.php
@@ -25955,6 +25956,7 @@ omni.soundestlink.com$image
 ||pntrac.com^$third-party
 ||pntrs.com^$third-party
 ||podcorn.com^$third-party
+||podscribe.com^$third-party
 ||poeticmetric.com^$third-party
 ||pointillist.com^$third-party
 ||pointmediatracker.com^$third-party
@@ -26412,6 +26414,7 @@ omni.soundestlink.com$image
 ||sumome.com^$third-party
 ||sundaysky.com^$third-party
 ||supercounters.com^$third-party
+||superfiliate.com^$third-party
 ||superspeedapp.com^$third-party
 ||superstats.com^$third-party
 ||surfcounters.com^$third-party
@@ -28587,6 +28590,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/sitegainer_
 ||cloudfront.net/sso.js
 ||cloudfront.net/t.gif
+||cloudfront.net/t?event=
 ||cloudfront.net/track.html
 ||cloudfront.net/track?
 ||cloudfront.net/trackb.html
@@ -28914,6 +28918,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.splash-screen.net^
 ||events.split.io^
 ||events.storifyme.com^
+||events.tryamped.com^
 ||events.tubecup.org^
 ||events.ubembed.com^
 ||events.whisk.com^
@@ -29089,6 +29094,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||googleusercontent.com/tracker/
 ||gotdns.com/track/blank.aspx?
 ||gotmojo.com/track/
+||gotolstoy.com/events/
 ||gowatchit.com/analytics.js
 ||gowatchit.com^*/tracking/
 ||grabnetworks.com/beacons/
@@ -32538,7 +32544,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hulu.com/metricsconfig
 ||hypebeast.com/firebase-messaging-sw.js
 ||i.pokernews.com^
-||i.rayconglobal.com/nb-collector
 ||iam-rum-intake.datadoghq.com^
 ||ibm.com/analytics/build/bluemix-analytics.min.js
 ||ibtimes.com/front/js/counter.js
