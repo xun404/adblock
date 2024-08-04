@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l4u7VpQ0TxUoG7RaEM9E5w
+! Checksum: wmWlA1KpzORA/ARXdi8Upg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408042051
-! Last Modified: 2024年08月04日 20:51
+! Version: 202408042137
+! Last Modified: 2024年08月04日 21:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -92921,6 +92921,7 @@ fqsousou.com,kengso.com#@#.user-share
 .gif?Log=
 .jp/pv?
 .jp/static/js/track.js
+.js?id=GTM-
 .net/l.gif?
 .no/app/aas/a
 .php?action=browse&
@@ -143474,6 +143475,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
+@@||sgtm.farmasave.it^$script,~third-party
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
 @@||sport.virgilio.it/js/web-vitals-evnt.25/web-vitals.attribution.js$script,domain=sport.virgilio.it
 @@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
