@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XR/y15rKMHHkARx4f2woDA
+! Checksum: orOsm1DgQpQac4HI4OwKOQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202408052137
-! Last Modified: 2024年08月05日 21:37
+! Version: 202408052238
+! Last Modified: 2024年08月05日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1706,6 +1706,8 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||w0054.com^
+||xlmdtiyqbkygtfkh.com^
 ##a[href="https://yk63.me"]
 ||uvyuqzx.cn^
 ||letlwsl.top^
@@ -10392,6 +10394,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+huya.com##.ab-wrap
+huya.com#?#.item-pic:-abp-has(>.img-tips)
+hcbbs.com##a[href*="&adid="]
+hcbbs.com###portal_block_3441
 huya.com##.component-ab
 huya.com##.ab-content
 ddzimu.com###popup
