@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I2mZhbQ0z6CEVxQXWleZrQ
+! Checksum: JTgC/bi7y4ge4Nl4ad1oFg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408060737
-! Last Modified: 2024年08月06日 07:37
+! Version: 202408060946
+! Last Modified: 2024年08月06日 09:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -19573,6 +19573,7 @@ _box_ad_
 ||fanyi.baidu.com/pc/config
 ||fanyi.baidu.com/ait/config/cms/list?
 ||3dmgame.com/static/image/common/pc_tg3dm.
+||fc.3dmgame.com^
 !------------------------Specific element hiding rules------------------------!
 thwiki.cc###a-carousel
 baidu.com##.index-module_drawerHand__aRhcO
@@ -23625,6 +23626,8 @@ m.babytree.com##script + a[class]
 ?logType=impression&
 ?logType=trackEvent&
 ?pageviews=$third-party
+?sam-item/*/track-view
+?sam-item/track-impressions
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
@@ -24217,6 +24220,7 @@ omni.soundestlink.com$image
 ||opti-digital.com^
 ||opticksprotection.com^
 ||optistats.ovh^
+||orhdev.com^
 ||ostrichesica.com^
 ||p2r14.com^
 ||p7cloud.net^
@@ -28613,6 +28617,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/sso.js
 ||cloudfront.net/t.gif
 ||cloudfront.net/t?event=
+||cloudfront.net/tag-manager/
 ||cloudfront.net/track.html
 ||cloudfront.net/track?
 ||cloudfront.net/trackb.html
@@ -70211,6 +70216,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||jslog.post.cz^
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||sa.kolik.cz^
+||seznam.cz^$ping
 ||stat.super.cz^
 ||statistics.csob.cz^
 ||2dehands.be/px/
