@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mB9PP0Z2uZzpIoazw+Z3PQ
+! Checksum: TUwz+nPbSE8RewrFCoLEWQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408072238
-! Last Modified: 2024年08月07日 22:38
+! Version: 202408080241
+! Last Modified: 2024年08月08日 02:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -575,8 +575,7 @@ ebay.*#$#hide-if-matches-xpath '//span[@data-text="Sponsored"]/ancestor::div[con
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[id^="placement"][style] div' div>span[data-text^="Sponsored"]
 ebay.*#$#hide-if-matches-xpath '//div[contains(@class,"x-ads-slot")]/div[@data-from="ads_platform"]/ancestor-or-self::div[contains(@class,"x-ads-slot")]'
 ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"promoted_items")]/ancestor-or-self::div[contains(@id,"placement")][@role="region"][@aria-label]'
-ebay.*#$#hide-if-contains-visible-text /.*/ div[id][style^="min-height:144px;"]>div>div[id][aria-label] 'div[id][style^="min-height"]>div>span ^^sh^^ div
-ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[id*="placement"]>div>div>div[data-interactions]:not([data-interactions*="HOMESPLICE.COMPOSITELISTINGS.AlgoIndex5SimRanker"])' div>div[class^="recs-subtitle-label"][role^="text"]
+ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[id*="placement"]>div>div>div[data-viewport' div>div[class^="recs-subtitle-label"][role^="text"]
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[data-viewport][data-interactions] div.recs-grid-container' div>div[class^="recs-subtitle-label"][role^="text"]
 ebay.*##div[data-viewport][data-interactions*="HOMESPLICE.SIM.SimplAMLv"]
 ! sp
