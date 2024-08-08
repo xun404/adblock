@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: azCjt0MI0+hUidDER0d+jA
+! Checksum: Spkyb7d5iC3sc/quiCoEQA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408090538
-! Last Modified: 2024年08月09日 05:38
+! Version: 202408090638
+! Last Modified: 2024年08月09日 06:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17643,6 +17643,7 @@ browsershots.org#@#.advert_area
 ||absorptionpersonalforesee.com^
 ||absorptionsuspended.com^
 ||abstaininquisitive.com^
+||abstortvarna.com^
 ||absump.com^
 ||absurdunite.com^
 ||abtaurosa.club^
@@ -23206,6 +23207,7 @@ browsershots.org#@#.advert_area
 ||chassnincom.com^
 ||chastehandkerchiefclassified.com^
 ||chatheez.net^
+||chatmazeful.shop^
 ||chats2023.online^
 ||chattedhelio.top
 ||chatterboxtardy.com^
@@ -24829,6 +24831,7 @@ browsershots.org#@#.advert_area
 ||ctykxlvztyy.com^
 ||cubbingrebbes.com^
 ||cubchillysail.com^
+||cubeletrewater.shop^
 ||cubeslichees.com^
 ||cubeuptownpert.com^
 ||cubgeographygloomily.com^
@@ -33896,6 +33899,7 @@ browsershots.org#@#.advert_area
 ||itwkuouldhuke.info^
 ||itwoheflewround.info^
 ||ityonatallco.info^
+||itzajear.com^
 ||itzekromom.com^
 ||iuc1.online^
 ||iuc1.space^
@@ -35610,6 +35614,7 @@ browsershots.org#@#.advert_area
 ||laharal.com^
 ||lahemal.com^
 ||laichook.net^
+||laichsbedamns.com^
 ||laidapproximatelylacerate.com^
 ||lailoasaiho.com^
 ||laimroll.ru^
@@ -39948,6 +39953,7 @@ browsershots.org#@#.advert_area
 ||octavdtabacco.top^
 ||octavianimmaculate.com^
 ||octinerep.com^
+||octmikvehs.com^
 ||octoatesamhain.com^
 ||octobergypsydeny.com^
 ||octobermindless.com^
@@ -41647,6 +41653,7 @@ browsershots.org#@#.advert_area
 ||pegasuson.com^
 ||peggyhypoid.com^
 ||pegirs.com^
+||peglikedioecia.com^
 ||pegloang.com^
 ||peirs5tbakchios.com^
 ||peisantcorneas.com^
@@ -47074,6 +47081,7 @@ browsershots.org#@#.advert_area
 ||sightsskinnyintensive.com^
 ||sightyiambs.com^
 ||sigilsspeiss.com^
+||sigloiexedent.com^
 ||signalassure.com^
 ||signalsparfum.uno^
 ||signalspotsharshly.com^
@@ -49695,6 +49703,7 @@ browsershots.org#@#.advert_area
 ||thongsalhagi.com^
 ||thongtechnicality.com^
 ||thongwarily.com^
+||thoocheegee.xyz^
 ||thoohizoogli.xyz^
 ||thoorest.com^
 ||thoorgins.com^
@@ -51132,6 +51141,7 @@ browsershots.org#@#.advert_area
 ||unactedrobbers.com^
 ||unafeed.com^
 ||unairedcushite.com^
+||unamplespalax.com^
 ||unanac.com^
 ||unanimousbrashtrauma.com^
 ||unaptsullens.com^
@@ -51859,6 +51869,7 @@ browsershots.org#@#.advert_area
 ||varyingcanteenartillery.com^
 ||varyinginvention.com^
 ||varyingsnarl.com^
+||vasclabimorph.com^
 ||vasebehaved.com^
 ||vasgenerete.com^
 ||vasgenerete.site^
@@ -52018,6 +52029,7 @@ browsershots.org#@#.advert_area
 ||versatileadvancement.com^
 ||verse-content.com^
 ||versedarkenedhusky.com^
+||versinehopper.com^
 ||versionlatticecheek.com^
 ||versionsfordisplay.com^
 ||versionslent.com^
@@ -105741,6 +105753,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rest/high/api/cogitoergosum
 /api/events|$ping,~third-party
 /api/statsd|$~third-party,xmlhttprequest
+/api/v1/activity|$~third-party,xmlhttprequest
 /api/v2/jsonlogger
 ||naiadsystems.com/api/v1/xment/
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
@@ -143135,6 +143148,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
+@@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
@@ -143627,6 +143641,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||mail.163.com/fetrack/api/27/envelope/?sentry_key=$xmlhttprequest
 @@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
+@@||pubscholar.cn/static/common/fingerprint.js$script,~third-party
 @@||pv.sohu.com/cityjson$domain=ems.com.cn
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
