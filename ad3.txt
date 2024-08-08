@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GNuWcakc8HtBJRQad2hDbg
+! Checksum: MT9+2fMVlaxm0DaRzt2sXg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408082337
-! Last Modified: 2024年08月08日 23:37
+! Version: 202408090538
+! Last Modified: 2024年08月09日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21249,7 +21249,6 @@ m.babytree.com##script + a[class]
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
-/api/v2/jsonlogger
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
@@ -23012,6 +23011,7 @@ m.babytree.com##script + a[class]
 /stats/api/event
 /stats/article?
 /stats/bezoek_count.php
+/stats/c/*$image
 /stats/collect/*
 /stats/collect?
 /stats/collector.js
@@ -32166,8 +32166,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.wort-suche.com^
 ||c.xbox.com^
 ||c.ypcdn.com^$domain=yellowpages.com
-||cambash.com/api/events
-||cambash.com/api/metrics
 ||camgirls.casa/p.php
 ||campsaver.com/nelmio-js-logger/
 ||canstockphoto.com/server.php?rqst=track
@@ -32715,8 +32713,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linris.xyz/cdn-cgi/trace
 ||lists.ccmbg.com^
 ||littlebigsnake.com/event?
-||livehdcams.com/api/events
-||livehdcams.com/api/metrics
 ||livejournal.com/ljcounter/
 ||livejournal.com/log?
 ||liveperson.net/hc/*/?visitor=
@@ -32762,10 +32758,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mapquest.com/logger
 ||marketing.alibaba.com^
 ||marketing.dropbox.com^
-||massivecams.com/api/events
-||massivecams.com/api/metrics
-||massivecams.com/api/statsd
-||massivecams.com/api/v1/activity
 ||mat6tube.com/api/stats?
 ||mcc-tags.cisco.com^
 ||mcs-ie.tiktokw.eu^
@@ -32964,8 +32956,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||poptropica.com/brain/track.php?
 ||pornbox.com/event/
 ||pornbox.com/stats/
-||pornhublive.com/api/events
-||pornhublive.com/api/metrics
 ||porzo.com/js/analytics
 ||prairiedog.hashnode.com^
 ||pravda.com.ua/counter/
@@ -33600,6 +33590,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gj.mmstat.com^
 ||oneid.mmstat.com^
 /rest/high/api/cogitoergosum
+/api/events|$ping,~third-party
+/api/statsd|$~third-party,xmlhttprequest
+/api/v2/jsonlogger
+||naiadsystems.com/api/v1/xment/
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
@@ -69704,7 +69698,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||herz-fuer-tiere.de^*/sunshine.gif?
 ||hokuspokus.tarnkappe.info^
 ||homegate.ch/g/collect?
-||horizont.net/stats/
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
 ||jobs.ch/api/v1/public/product/track/
@@ -69746,6 +69739,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||responder.wt.heise.de^
 ||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
+||ruw.de/js/trackSidebarClicks.js
 ||schnaeppchenfuchs.com/js/default-
 ||shoop.de/mgtrx/
 ||shop.rewe.de/api/xrd/web-vitals
