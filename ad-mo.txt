@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2q1GkZpYtPqxZaon6JQ9lg
+! Checksum: aNBcdUk38LIIkVxT6PC7hg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202408101441
-! Last Modified: 2024年08月10日 14:41
+! Version: 202408101537
+! Last Modified: 2024年08月10日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -93024,6 +93024,7 @@ fqsousou.com,kengso.com#@#.user-share
 &EventType=Impression&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
+&l=dataLayer&cx=c
 &refer=http$script
 &t=pageview&
 -adobe-analytics/
@@ -95699,6 +95700,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
+://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
