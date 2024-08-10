@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sspQc3FO5ms/scub9ZlYOg
+! Checksum: fTFgsK5+fmOY0Y5yuhCClA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408101338
-! Last Modified: 2024年08月10日 13:38
+! Version: 202408101441
+! Last Modified: 2024年08月10日 14:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23615,6 +23615,7 @@ m.babytree.com##script + a[class]
 ://collector.*/event
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -23656,6 +23657,7 @@ m.babytree.com##script + a[class]
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
+?v=2&tid=G-$~third-party
 _beacon?
 _c.gif?c=
 _chartbeat.js
@@ -27811,6 +27813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thesmilingpencils.com^$third-party
 ||trackfeed.com^$third-party
 ||uncn.jp^$third-party
+||viaklera.com^$third-party
 ||wonder-ma.com^$third-party
 ||zerostats.com^$third-party
 ||ziyu.net^$third-party
@@ -32282,6 +32285,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
 ||cwt.citywire.info^
+||d.analyticsmania.com^
 ||d.skk.moe^
 ||d401.dollartree.com^
 ||d712.theinformation.com^
@@ -32569,6 +32573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||groupondata.com/tracky
 ||gsght.com/twizards.js
 ||gso.amocrm.com/humans/
+||gtm.lercio.it^
 ||gtm.wise.com^
 ||gtreus.aliexpress.com^
 ||gumtree.com.au/tracking/
@@ -33136,7 +33141,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srchoffer.com/tracking/
 ||srtb.msn.com^
 ||srv.plesk.com^
+||ss.esade.edu^
 ||ss.photospecialist.co.uk^
+||sst.shopware.com^
 ||sstats.adobe.com^
 ||st.sawlive.tv^
 ||stackoverflow.com/_/client-timings
@@ -33188,6 +33195,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stayz.com.au/cl/data/omgpixel.json
 ||strcdn.org/cdn-cgi/trace
 ||strcloud.in/stat/
+||stream.corporatefinanceinstitute.com^
 ||streamadblocker.cc/stat/
 ||streamadblocker.com/stat/
 ||streamadblocker.store/stat/
@@ -33382,6 +33390,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trackr.vivenu.com^
 ||tradingview.com/ping
 ||trck.coomeet.com^
+||trckng.dainese.com^
 ||trcksplt.miro.com^
 ||treatment.grammarly.com^
 ||tredir.go.com^
@@ -69752,6 +69761,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rt.bunte.de^
 ||ruw.de/js/trackSidebarClicks.js
 ||schnaeppchenfuchs.com/js/default-
+||sgtm.tennis-point.de^
 ||shoop.de/mgtrx/
 ||shop.rewe.de/api/xrd/web-vitals
 ||sparkasse.de/frontend/setTrackingCookie.htm
@@ -69788,6 +69798,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tgw.web.de^
 ||timing.uhrforum.de^
 ||tm.swp.de^
+||tr.wbstraining.de^
 ||tracer.autoscout24.ch^
 ||track.dws.de^
 ||track.express.de^
@@ -69851,6 +69862,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ymprove.gmx.net^
 ||ymprove.web.de^
 ||zooplus.de/om/pxl/
+||gtm.mandesager.dk^
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
 ||2ememain.be/c3650cdf-
@@ -70427,8 +70439,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||seat.it/cgi-bin/getcod.cgi?
 ||servizi.unionesarda.it/controlli/
+||sgtm.tagmanageritalia.it^
 ||smsaffari.it/count_new.php?
 ||spaziogames.it/ajax/player_impression.ashx?
+||sst.colemanfurniture.com^
 ||stats.splinder.com^
 ||stats.stylight.it^
 ||stats.suedtirolerjobs.it^
