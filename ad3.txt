@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JKGKzifp0sZzXSh4sS7W4w
+! Checksum: mEam9lAHxRYAWK3oc1SZFQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408101537
-! Last Modified: 2024年08月10日 15:37
+! Version: 202408101639
+! Last Modified: 2024年08月10日 16:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1708,6 +1708,8 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||wdxxx.top^
+||ekltes.xyz^
 ||gfchck.xyz^
 ||knuinws.icu^
 ||shbxukj.cn^
@@ -20945,7 +20947,6 @@ m.babytree.com##script + a[class]
 &EventType=Impression&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
-&l=dataLayer&cx=c
 &refer=http$script
 &t=pageview&
 -adobe-analytics/
@@ -20976,7 +20977,6 @@ m.babytree.com##script + a[class]
 .gif?Log=
 .jp/pv?
 .jp/static/js/track.js
-.js?id=GTM-
 .net/l.gif?
 .no/app/aas/a
 .php?action=browse&
@@ -23616,12 +23616,10 @@ m.babytree.com##script + a[class]
 ://collector.*/event
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
-://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
-://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -23719,6 +23717,10 @@ _WebVitalsReporter_
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+&l=dataLayer&cx=c
+.js?id=GTM-
+://gtm.*.js?st=
+://load.*.js?st=$~third-party
 ||adservice.google.
 ||google.*/url?$ping
 ||google.com/gen_204?
@@ -25938,6 +25940,7 @@ omni.soundestlink.com$image
 ||pagefair.com^$third-party
 ||pages05.net^$third-party
 ||pagesense.io^$third-party
+||pageview.click^$third-party
 ||parametre.online^$third-party
 ||parklogic.com^$third-party
 ||parrable.com^$third-party

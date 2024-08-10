@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aqHx6ToedyYjc8/KmxIhbA
+! Checksum: sr7l+gTqtD6t7i1LYcDWeg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408101537
-! Last Modified: 2024年08月10日 15:37
+! Version: 202408101639
+! Last Modified: 2024年08月10日 16:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21169,6 +21169,7 @@ browsershots.org#@#.advert_area
 ||bestcontentproject.top^
 ||bestcontentprovider.top^
 ||bestcontentservice.top^
+||bestcontentsite.top^
 ||bestcontenttrade.top^
 ||bestcontentuse.top^
 ||bestcontentweb.top^
@@ -65648,7 +65649,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pornorips.com/4e6d8469754a.js
 ||pornorips.com/9fe1a47dbd42.js
 ||pornpapa.com/extension/
-||pornpics.com/api/banner/
+||pornpics.com^$subdocument
 ||pornpics.de/api/banner/
 ||pornpoppy.com/jss/external_pop.js
 ||pornrabbit.com^$subdocument
@@ -72861,6 +72862,7 @@ gosexpod.com###xtw
 porndroids.com##.CDjtesb7pU__video-units
 bellesa.co##.Display__RatioOuter-hkc90m-0
 beeg.com##.GreyFox
+redgifs.com##.InfoBar
 topinsearch.com##.TelkiTeasersBlock
 hentaivideo.tube##.UVPAnnotationJavascriptNormal
 xtube.com##.ZBTBTTr93ez9.ktZk9knDKFfB
@@ -73049,6 +73051,7 @@ realgfporn.com##.btn-info
 xcum.com##.btn-ponsor
 cinemapee.com##.button
 video.laxd.com##.c-ad-103
+pornpics.com##.c-model
 redporn.porn##.c-random
 tiktits.com##.callback-bt
 pornpics.vip,xxxporn.pics##.cam
@@ -73375,6 +73378,7 @@ watchmygf.me##.publicity
 freemovies.tv##.publis-bottom
 pornjam.com##.r11ght-pl4yer-169
 pornjam.com##.r1ght-pl4yer-43
+pornpics.com##.r2-frame
 tokyonightstyle.com##.random-banner
 gaymovievids.com,me-gay.com,ts-tube.net,verygayboys.com##.random-td
 tnaflix.com##.rbsd
@@ -76234,6 +76238,8 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||wdxxx.top^
+||ekltes.xyz^
 ||gfchck.xyz^
 ||knuinws.icu^
 ||shbxukj.cn^
@@ -93136,7 +93142,6 @@ fqsousou.com,kengso.com#@#.user-share
 &EventType=Impression&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
-&l=dataLayer&cx=c
 &refer=http$script
 &t=pageview&
 -adobe-analytics/
@@ -93167,7 +93172,6 @@ fqsousou.com,kengso.com#@#.user-share
 .gif?Log=
 .jp/pv?
 .jp/static/js/track.js
-.js?id=GTM-
 .net/l.gif?
 .no/app/aas/a
 .php?action=browse&
@@ -95807,12 +95811,10 @@ fqsousou.com,kengso.com#@#.user-share
 ://collector.*/event
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
-://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
-://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -95910,6 +95912,10 @@ _WebVitalsReporter_
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+&l=dataLayer&cx=c
+.js?id=GTM-
+://gtm.*.js?st=
+://load.*.js?st=$~third-party
 ||adservice.google.
 ||google.*/url?$ping
 ||google.com/gen_204?
@@ -98129,6 +98135,7 @@ omni.soundestlink.com$image
 ||pagefair.com^$third-party
 ||pages05.net^$third-party
 ||pagesense.io^$third-party
+||pageview.click^$third-party
 ||parametre.online^$third-party
 ||parklogic.com^$third-party
 ||parrable.com^$third-party
