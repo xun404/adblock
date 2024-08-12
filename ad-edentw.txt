@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fzKnET3JZ1oP8jUnY+j27w
+! Checksum: Sie/Som7HL62dlx118XCTA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408121737
-! Last Modified: 2024年08月12日 17:37
+! Version: 202408121839
+! Last Modified: 2024年08月12日 18:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1777,7 +1777,7 @@ m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefin
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.adSlots undefined;
 m.youtube.com,music.youtube.com#$#json-prune 'adPlacements adSlots playerAds ssdaiAdsConfig adPlacementRenderer playerResponse.playerConfig.ssapConfig';
 m.youtube.com,music.youtube.com#$#json-prune 'adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer' 'adPlacements.0.adPlacementRenderer';
-m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots';
+m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds adSlots';
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
