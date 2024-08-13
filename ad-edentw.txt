@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hRQVGKOxQFWhQAJox6OZNQ
+! Checksum: W+qA26bQE7iXYPceWNn2FQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408130638
-! Last Modified: 2024年08月13日 06:38
+! Version: 202408130949
+! Last Modified: 2024年08月13日 09:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -846,8 +846,8 @@ ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 rightwingnews.com##.z-ad-inline
 procoinnews.com##div[id^="adcovery-"]
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
-! #CV-1416
-www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div div[data-testid^="property-card"]' 'span[aria-expanded] span'
+! #RM-13
+www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 ! #RM-7
 walmart.ca##div[data-testid="hp-pov-ad-tracking"]
 walmart.ca,walmart.com##div[data-testid^="search-video-in-grid"]
