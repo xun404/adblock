@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eLf3eliE6YB6SZvBpRREaw
+! Checksum: g9QnIGnK+4O3Zx0idQtt8A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408131537
-! Last Modified: 2024年08月13日 15:37
+! Version: 202408131840
+! Last Modified: 2024年08月13日 18:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -563,7 +563,6 @@ ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/par
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
 ! cp
-ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"&amdata=")]//img[@src]//ancestor-or-self::li[1]'
 ! pp
 ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"dsa-label")][@role="text"][text()]/ancestor::div[@class="recs-item-content"]'
 ebay.*#$#hide-if-contains-visible-text /.*/ 'div.x-ads-slot>div[data-from^="ads_platform"]' div.recs-item-list-subtitle>div ^^sh^^ * iframe[title^="Sponsored"]
