@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +v+6XdBlf4DW5h9wbZ+M/A
+! Checksum: +1f68JTlf2rsFONTDuL2Qg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408162337
-! Last Modified: 2024年08月16日 23:37
+! Version: 202408170437
+! Last Modified: 2024年08月17日 04:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1799,6 +1799,9 @@ m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
+m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
+m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
+m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 ! AakList (Anti-Adblock Killer)
