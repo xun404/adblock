@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 21yaZ7VeULO7cXruuDDczw
+! Checksum: cPXLwlUJLIUKuiGlU01/aQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202408190738
-! Last Modified: 2024年08月19日 07:38
+! Version: 202408190949
+! Last Modified: 2024年08月19日 09:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -16225,6 +16225,7 @@ videosalon.jp#@#.ad-widget
 lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 xda-developers.com#@#.ad-zone
 xda-developers.com#@#.ad-zone-container
+nijisenmon.work#@#.ad.widget
 wordparts.ru#@#.ad336
 leffatykki.com#@#.ad728x90
 cw.com.tw#@#.adActive
@@ -16429,7 +16430,7 @@ adamtheautomator.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive
 mediaite.com,packhacker.com,packinsider.com#@#.adthrive-content
 mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.anyClipWrapper
-accuweather.com,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
+accuweather.com,cheddar.tv,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
 accuweather.com#@#.connatix-player
 huffpost.com#@#.connatix-wrapper
 mm-watch.com,player.ex.co,theautopian.com#@#.pbs__player
@@ -69409,6 +69410,7 @@ swimswam.com##.polls-461
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
+the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
@@ -99161,6 +99163,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rakanto.com/cx_collector/
 ||ramp.purch.com^
 ||rampjs-cdn.system1.com^
+||rapidspike.com/performance/
+||rapidspike.com/static/js/timingpcg.min.js
 ||raygun.io/events?
 ||rbl.ms/res/users/tracking/
 ||reach-id.orbit.tm-awx.com^
@@ -101185,6 +101189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.smartmedia.tj^
 ||sal.isanook.com^
 ||stat.matichon.co.th^
+||0.myikas.com^
 ||analitik.bik.gov.tr^
 ||analytics.kkb.com.tr^
 ||c.keltis.com^
@@ -140080,6 +140085,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||metrika.kontur.ru^
 ||mirtesen.ru/js/ms.js
 ||ms.dzen.ru^
+||ms.vk.com^
 ||mts.ru/fe-api/logger
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
@@ -140298,6 +140304,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
+@@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
@@ -140580,6 +140587,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||tunein.com/api/v1/comscore$~third-party
+@@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
 @@||usplastic.com/js/hawk.js
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
