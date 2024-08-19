@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: guKrc2Yc018jt3ynf94Zaw
+! Checksum: RSDsBoksIxZbn4U5qPRj+w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408192054
-! Last Modified: 2024年08月19日 20:54
+! Version: 202408200739
+! Last Modified: 2024年08月20日 07:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -577,7 +577,7 @@ ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"promoted_items")]/ancestor-
 ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"amclksrc")]/preceding::span[@class="recs-subtitle-label-inline"]/ancestor::div[contains(@class,"recs-subtitle-label")]/ancestor-or-self::div[@data-viewport]'
 ebay.*#$#hide-if-matches-xpath './/a[@class="recs-item-tile"][contains(@href,"HOMESPLICE.SIM")]/ancestor::div[@role="list"][@class="recs-grid-wrapper"]/ancestor-or-self::div[@data-viewport]'
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[role^="listitem"] div[data-viewport]' div>span[role^="text"]
-ebay.*#$#abort-on-property-read window.ebayAdsBerries.render
+ebay.*#$#abort-on-property-read window.berries
 ! sp
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
 ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),"aria-labelledby")][contains(text(),"{{}}")]' './/style[contains(text(),"display: var")]' /span\.(.*?)\\s/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby = "{{}}"]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),"aria-labelledby")]' /aria-labelledby=(.*?)\\]/
