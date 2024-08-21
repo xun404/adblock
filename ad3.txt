@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PR9eARJ7sJWxJPIA1/cBJQ
+! Checksum: c6Ss0g8KofomGHbMec4HFw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202408211641
-! Last Modified: 2024年08月21日 16:41
+! Version: 202408211737
+! Last Modified: 2024年08月21日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31956,7 +31956,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aax-eu-dub.amazon.com^$script
 ||aax-us-iad.amazon.com^$script
 ||ab-machine.forbes.com^
-||ab.chatgpt.com^
+||ab.chatgpt.com/v1/rgstr
 ||ab.fanatical.com^
 ||abcnews.com/assets/dtci/js/abcnews_visitorId.js
 ||abcnews.com/assets/dtci/js/at.js
@@ -32200,7 +32200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
 ||chatfuel.com/cf-analytics/
-||chatgpt.com/ces/
+||chatgpt.com/ces/v1/t
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
@@ -70544,7 +70544,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mng.jiji.com/cookie.html
 ||muragon.com/js/normal/gtag-event.js
 ||mwed.jp/assets/packs/js/measurements/
-||newsdig.tbs.co.jp/op/analytics.js
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
 ||nhk.or.jp^*/bc.js
 ||nicoad.nicovideo.jp/*/instream/tracking/
