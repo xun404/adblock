@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y14OXtAEd02DYqI0vN3LXg
+! Checksum: DhDsrdu+dB7IgcmCPl4Dbg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408261737
-! Last Modified: 2024年08月26日 17:37
+! Version: 202408270537
+! Last Modified: 2024年08月27日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -519,6 +519,9 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! RM-65
+skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::div[@aria-label]/parent::div[1]'
+skyscanner.*#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::a[contains(@href,"sponsored")][@data-testid]/parent::div[1]'
 ! RM-61
 @@||woolworths.com.au^$generichide
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
