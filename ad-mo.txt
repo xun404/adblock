@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xGWfbppJZr5vm6WJXRGkkA
+! Checksum: cu5rp7WRQGJ6PW2UBJlzMQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202408270950
-! Last Modified: 2024年08月27日 09:50
+! Version: 202408271050
+! Last Modified: 2024年08月27日 10:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -70031,6 +70031,8 @@ yourstory.com#?#[width]:-abp-contains(ADVERTISEMENT)
 boots.com#?#.oct-listers-hits__item:-abp-contains(Sponsored)
 deccanherald.com#?#div:-abp-has(> div > .ad-background)
 deccanherald.com#?#div[style^="min-height"]:-abp-has(> div > div[id*="-ad-separator"])
+qz.com#?#div[class^="sc-"]:-abp-has(> div[is="bulbs-dfp"])
+qz.com#?#div[class^="sc-"]:-abp-has(> div[class="ad-unit"])
 china.ahk.de#?#.b-main__section:-abp-has(h2.homepage-headline:-abp-contains(Advertisement))
 producthunt.com#?#.text-12:-abp-contains(Promoted)
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
