@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OuZfEAdXQBwuiBZMqqurEg
+! Checksum: dFjbCLBL1btTYsoCI7K4dQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408272338
-! Last Modified: 2024年08月27日 23:38
+! Version: 202408280042
+! Last Modified: 2024年08月28日 00:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1514,7 +1514,7 @@ tieba.baidu.com##.tuijian-wrap
 ://uads.$third-party,xmlhttprequest
 =half-page-ad&
 ?ab=1&zoneid=
-?adspot_
+?adspot_$domain=~sponichi.co.jp
 ?adunitid=
 ?advertiser_id=$domain=~ads.pinterest.com
 ?bannerid=
@@ -23544,6 +23544,7 @@ browsershots.org#@#.advert_area
 ||coherepeasant.com^
 ||coholy.com^
 ||cohortgripghetto.com^
+||cohtsfkwaa.com^
 ||coiffesfluer.top^
 ||coinad.media^
 ||coinadster.com^
@@ -26335,6 +26336,7 @@ browsershots.org#@#.advert_area
 ||eachiv.com^
 ||eachunwilling.com^
 ||eadaqfkkrprf.com^
+||eaed8c304f.com^
 ||eafb9d5abc.com^
 ||eagazi.com^
 ||eageoahba.com^
@@ -34511,6 +34513,7 @@ browsershots.org#@#.advert_area
 ||laserdandelionhelp.com^
 ||laserdrivepreview.com^
 ||laserharasslined.com^
+||lashahib.net^
 ||lashinglivable.top^
 ||lasosignament.com^
 ||lassampy.com^
@@ -49201,6 +49204,7 @@ browsershots.org#@#.advert_area
 ||untineforward.com^
 ||untrendenam.com^
 ||untriedcause.pro^
+||untriednegative.com^
 ||untrk.xyz^
 ||untrol.com^
 ||untropiuson.com^
@@ -50329,6 +50333,7 @@ browsershots.org#@#.advert_area
 ||vwhnfwdbf.com^
 ||vwinagptucpa.com^
 ||vwl7kia4fzz6.com^
+||vwpttkoh.xyz^
 ||vwqohlgfneusxy.com^
 ||vwswilfrveqzw.com^
 ||vwtqjotm.com^
@@ -56997,6 +57002,7 @@ browsershots.org#@#.advert_area
 ||lanksnail.com^$popup
 ||laraliadirt.top^$popup
 ||laserdandelionhelp.com^$popup
+||lashahib.net^$popup
 ||lassampy.com^$popup
 ||last0nef1le.com^$popup
 ||lasubqueries.com^$popup
@@ -57908,6 +57914,7 @@ browsershots.org#@#.advert_area
 ||rapidhits.net^$popup
 ||rapolok.com^$popup
 ||rashbarnabas.com^$popup
+||raunooligais.net^$popup
 ||razdvabm.com^$popup
 ||rbtfit.com^$popup
 ||rbxtrk.com^$popup
@@ -141464,10 +141471,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||karte.io/libs/tracker.$domain=zf1.tohoku-epco.co.jp|zozo.jp
+@@||l.logly.co.jp/lift$script,domain=sponichi.co.jp
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
-@@||logly.co.jp/recommend/img.benesse-cms.jp/$image,domain=benesse.ne.jp
+@@||logly.co.jp/recommend/$image,domain=benesse.ne.jp|sponichi.co.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||platform.twitter.com/oct.js$domain=ncsoft.jp
