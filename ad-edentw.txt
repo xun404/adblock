@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9hFC7b4jKLgq2OEGvhhFNw
+! Checksum: XGqkH10pSyjiko9Z5+d4ww
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408300043
-! Last Modified: 2024年08月30日 00:43
+! Version: 202408300338
+! Last Modified: 2024年08月30日 03:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -567,19 +567,8 @@ ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionn
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
 ! cp
 ! pp
-ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"dsa-label")][@role="text"][text()]/ancestor::div[@class="recs-item-content"]'
-ebay.*#$#hide-if-contains-visible-text /.*/ 'div.x-ads-slot>div[data-from^="ads_platform"]' div.recs-item-list-subtitle>div ^^sh^^ * iframe[title^="Sponsored"]
-ebay.*#$#hide-if-contains-visible-text /.*/ 'div.x-ads-placements>div' div.recs-item-list-subtitle>div ^^sh^^ * iframe[title]
-ebay.*#$#hide-if-contains-visible-text /.*/ 'div[data-interactions*="ADV"]>div.recs-card-container' div.recs-grid-subtitle>div ^^sh^^ * iframe
-ebay.*#$#hide-if-matches-xpath './/div[contains(@data-interactions,"Promoted")]/div//ancestor-or-self::div[contains(@data-interactions,"Promoted")]'
-ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div>div.recs-cardlist-container' div>span[class^="recs-subtitle-label"][role^="text"]
-ebay.*#$#hide-if-matches-xpath '//span[@data-text="Sponsored"]/ancestor::div[contains(@class,"x-ads-placements")]'
-ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[id^="placement"][style] div' div>span[data-text^="Sponsored"]
-ebay.*#$#hide-if-matches-xpath '//div[contains(@class,"x-ads-slot")]/div[@data-from="ads_platform"]/ancestor-or-self::div[contains(@class,"x-ads-slot")]'
-ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"promoted_items")]/ancestor-or-self::div[contains(@id,"placement")][@role="region"][@aria-label]'
-ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"amclksrc")]/preceding::span[@class="recs-subtitle-label-inline"]/ancestor::div[contains(@class,"recs-subtitle-label")]/ancestor-or-self::div[@data-viewport]'
-ebay.*#$#hide-if-matches-xpath './/a[@class="recs-item-tile"][contains(@href,"HOMESPLICE.SIM")]/ancestor::div[@role="list"][@class="recs-grid-wrapper"]/ancestor-or-self::div[@data-viewport]'
-ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[role^="listitem"] div[data-viewport]' div>span[role^="text"]
+ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxODc1"]'
+ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxMTk2"]'
 ebay.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted_items")][@target="_blank"][@data-click]/ancestor-or-self::div[@data-viewport][1]'
 ebay.*#$#abort-on-property-read window.ebayAdsBerries.render; abort-on-property-read window.berries
 ! sp
