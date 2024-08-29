@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EqEicOfdXNutdbwYBQGFwQ
+! Checksum: 9hFC7b4jKLgq2OEGvhhFNw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408292240
-! Last Modified: 2024年08月29日 22:40
+! Version: 202408300043
+! Last Modified: 2024年08月30日 00:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -806,7 +806,6 @@ youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-rende
 youtube.com##div #player-ads.style-scope.ytd-watch-flexy
 youtube.com##.video-ads .ytp-ad-player-overlay, .video-ads .ytp-ad-player-overlay-layout
 m.youtube.com##.video-ads.ytp-ad-module
-m.youtube.com#$#log isolated1;trace main1
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
@@ -1814,8 +1813,9 @@ m.youtube.com,music.youtube.com#$#override-property-read playerResponse.playerAd
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
+youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
-m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
+m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
