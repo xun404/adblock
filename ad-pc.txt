@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TKIFDJHZIokTEypsRXJDxA
+! Checksum: OaVHPsnbqNjIYJn9ju6M/A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202408310639
-! Last Modified: 2024年08月31日 06:39
+! Version: 202408310737
+! Last Modified: 2024年08月31日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61760,7 +61760,6 @@ browsershots.org#@#.advert_area
 ||partwithner.com/partners/
 ||pcash.imlive.com^
 ||pimpandhost.com/site/trending-banners
-||pinklabel.com/live-banners?
 ||pinkvisualgames.com/?revid=
 ||pirogad.tophosting101.com^
 ||placeholder.com/300x250?
@@ -62922,6 +62921,8 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||anysex.com/*/script|
 ||anysex.com^$subdocument,~third-party
 ||api.adultdeepfakes.cam/banners
+||api.redgifs.com/v2/ads/slots
+||api.redgifs.com/v2/gifs/boost
 ||asg.faperoni.com^
 ||atube.xxx/static/js/abb.js
 ||aucdn.net^$media,domain=clgt.one
@@ -63078,6 +63079,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||girlsofdesire.org/flr6.js
 ||go.celebjihad.live^
 ||go.pornav.net^
+||go.redgifs.com^
 ||go.stripchat.beeg.com^
 ||go.strpjmp.com^
 ||haberprofil.biz/assets/*/vast.js
@@ -63285,6 +63287,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||rat.xxx/sofa/
 ||rat.xxx/wwp2/
 ||realgfporn.com/js/bbbasdffdddf.php
+||redgifs.com/assets/js/goCtrl
 ||redtube.com^$subdocument,~third-party
 ||redtube.fm/advertisment.htm
 ||redtube.fm/lcgldrbboxj.php
@@ -71398,6 +71401,7 @@ faptor.com##.zpot-horizontal-img
 fapnado.xxx##.zpot-vertical
 jizzbunker2.com,xxxdan.com,xxxdan3.com##.zx1p
 tnaflix.com##.zzMeBploz
+redgifs.com##[class*="defaultAd"]
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
 beeg.porn##[class^="bb_show_"]
 hotleaks.tv,javrank.com##[class^="koukoku"]
@@ -71603,6 +71607,7 @@ tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 cam4.*##div[class^="SponsoredAds_"]
+redgifs.com##.SideBar-Item:has(> [class^="_adLiveButton"])
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)
 porngames.com##.contentbox:has(a[href="javascript:void(0);"])
@@ -73996,6 +74001,13 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||wxsicu.xyz^
+||gedashb112.fun^
+||htxwzp.xyz^
+||skaumbp.icu^
+||bndxrr.xyz^
+||iditero.top^
+||gjmedashb0.fun^
 ||koauq.top^
 ||zrkksps.icu^
 ||ghjedashb6.fun^
@@ -102452,6 +102464,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||et.nytimes.com^
 ||et.tidal.com^
 ||etsy.com/bcn/beacon
+||etsy.com/clientlog
 ||etui.fs.ml.com^
 ||etx.indiatimes.com^
 ||euclid.kuula.co^
