@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ITzCOfuFq2uz4brTJ128rg
+! Checksum: vJdIhfxgUn9u0bTJ5vA+HQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408301641
-! Last Modified: 2024年08月30日 16:41
+! Version: 202408302056
+! Last Modified: 2024年08月30日 20:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1152,6 +1152,7 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 2kmoviehd.to,hdtodayz.*##div[style*="position: fixed; inset: 0px; pointer-events: auto;"]
 awafim.tv,movies2watch.tv,sflix.*#$#prevent-listener break;case $.
 wsj.com#$#hide-if-matches-xpath './/div[contains(@id,"AD")]/parent::div[1]'; hide-if-matches-xpath './/iframe[@title][@id][@class][@src][@style]/parent::div[@style]/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div';
+player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
