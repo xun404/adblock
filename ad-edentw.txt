@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vJdIhfxgUn9u0bTJ5vA+HQ
+! Checksum: DuKs8rJlLaSv48M+N3HoRw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202408302056
-! Last Modified: 2024年08月30日 20:56
+! Version: 202408302138
+! Last Modified: 2024年08月30日 21:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -972,7 +972,7 @@ eporner.com#$#override-property-read exo99HL3903jjdxtrnLoad null; abort-on-prope
 freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.org,xmxx.live#$#cookie-remover tgpOut; abort-current-inline-script document.querySelectorAll popMagic; override-property-read setTimeout noopFunc;
 porntrex.com#$#abort-on-property-write preventDefault
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
-aniwatchtv.to,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
+aniwatchtv.*,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
 andyday.tv,soaper.tv,kickassanime.*,vidco.pro#$#abort-current-inline-script document.documentElement break;case $.
 kickassanime.*,vidco.pro#$#override-property-read ifmax true
 mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script String.fromCharCode; abort-on-property-read window.open;
@@ -1153,6 +1153,7 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 awafim.tv,movies2watch.tv,sflix.*#$#prevent-listener break;case $.
 wsj.com#$#hide-if-matches-xpath './/div[contains(@id,"AD")]/parent::div[1]'; hide-if-matches-xpath './/iframe[@title][@id][@class][@src][@style]/parent::div[@style]/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div';
 player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
+aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
