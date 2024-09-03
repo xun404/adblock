@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xC1mVROpAwS1Enbbr/C27w
+! Checksum: QbwWoDaD+QqdWIuds3rcaw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409031642
-! Last Modified: 2024年09月03日 16:42
+! Version: 202409031738
+! Last Modified: 2024年09月03日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1352,7 +1352,7 @@ allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
+allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-box-name="container.department"], div[data-box-name="bottom"], div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
 ! HB
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
 allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
