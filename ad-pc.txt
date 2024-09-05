@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B6wKhgJBKLLZxblSDvqtzA
+! Checksum: r3fliNGA6Fwqzwm1CHUPSQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409052057
-! Last Modified: 2024年09月05日 20:57
+! Version: 202409052239
+! Last Modified: 2024年09月05日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -666,7 +666,6 @@ tieba.baidu.com##.tuijian-wrap
 /adcount.js
 /adcount.php
 /addons/ads.
-/addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
 /adengine.js
@@ -770,7 +769,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads?zone_id=
 /ads_300.
 /ads_banners/*$image
-/ads_bg.
+/ads_bg.$image
 /ads_bottom.js
 /ads_controller.js
 /ads_footer.
@@ -778,7 +777,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads_iframe.
 /ads_image/*$image
 /ads_images/*$image,domain=~wildlifeauctions.co.za
-/adsAPI.js
+/adsAPI.js$script
 /adsbanner-$image
 /adsbanner.
 /adsbanner/*$image
@@ -1096,7 +1095,7 @@ tieba.baidu.com##.tuijian-wrap
 /jsAds-1.4.min.js
 /jshexi.hj?lb=
 /jspopunder.js
-/jspopunder.min.js
+/jspopunder.min.js$script
 /keyade.js
 /layerad.js
 /lazyad-loader.js
@@ -1214,7 +1213,6 @@ tieba.baidu.com##.tuijian-wrap
 /pop_ads.js
 /popin-min.js
 /popu.js
-/popunder.min.js
 /popunder1.js$script
 /popunder2.js
 /popunder5.js
@@ -1289,7 +1287,7 @@ tieba.baidu.com##.tuijian-wrap
 /sbar.json?key=
 /sc-tagmanager/*$script
 /script/aclib.js
-/script/antd.js
+/script/antd.js$third-party
 /script/app_settings.js$third-party
 /script/atg.js
 /script/atga.js
@@ -1417,7 +1415,7 @@ tieba.baidu.com##.tuijian-wrap
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-
-/videojs.sda.js
+/videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php
 /viewad.asp
@@ -1430,7 +1428,6 @@ tieba.baidu.com##.tuijian-wrap
 /webads.js
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
-/weborama.js
 /welcome_ad.js
 /widget-advert?
 /wordpress-ads-plug-in/*$script,stylesheet
@@ -1603,10 +1600,10 @@ _widget_ad.
 /plugins/ad-ace/assets/js/coupons.js
 /plugins/ad-ace/assets/js/slot-slideup.js
 /plugins/ad-ace/includes/shoppable-images/*
-/Ads/bid300a.aspx
-/Ads/bid300b.aspx
-/Ads/bid300c.aspx
-/Ads/bid728.aspx
+/Ads/bid300a.aspx$subdocument
+/Ads/bid300b.aspx$subdocument
+/Ads/bid300c.aspx$subdocument
+/Ads/bid728.aspx$subdocument
 /e/cm?$subdocument
 /e/ir?$image,script
 /in/track?data=
@@ -61639,6 +61636,7 @@ browsershots.org#@#.advert_area
 ||creative.tklivechat.com^
 ||creative.usasexcams.com^
 ||crumpet.xxxpornhd.pro^
+||cuckoldland.com/CuckoldLand728-X-90-2.gif
 ||dagobert33.xyz^
 ||ddfcash.com^$third-party
 ||deliver.ptgncdn.com^
@@ -61794,6 +61792,7 @@ browsershots.org#@#.advert_area
 ||sleepgalleries.com/recips/$third-party
 ||smartmovies.net/promo_$third-party
 ||smpop.icfcdn.com^$third-party
+||smyw.org/popunder.min.js
 ||smyw.org/smyw_anima_1.gif
 ||snrcash.com/profilerotator/$third-party
 ||st.ipornia.com^$third-party
@@ -73996,6 +73995,7 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||wxmmji.xyz^
 ||orutvnck.top^
 ||gedxssashb8.fun^
 ||cosouy.xyz^
