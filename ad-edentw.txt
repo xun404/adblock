@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aTFBr+Ve0hsPGa0AtpPZYA
+! Checksum: 0b1q92ebXJmFnOVgpO3B3g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409060137
-! Last Modified: 2024年09月06日 01:37
+! Version: 202409060242
+! Last Modified: 2024年09月06日 02:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1605,6 +1605,7 @@ kinoblin.ru,serialai.ru#$#prevent-listener mousedown pop.doEvent
 ! Video ads
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 cosmonova-broadcast.tv#$#override-property-read amodule.data false
+rutube.ru#$#override-property-read Object.prototype.advert undefined
 ! #CV-547
 auto.mail.ru,hi-tech.mail.ru,cloud.mail.ru,horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-write _mimic
 horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-read MrgContext
