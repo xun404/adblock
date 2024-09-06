@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JF0zRaB+A0AbQOW27rKnFw
+! Checksum: 8dc4/iBjQ8V1E3Nqm5lBog
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409061840
-! Last Modified: 2024年09月06日 18:40
+! Version: 202409062338
+! Last Modified: 2024年09月06日 23:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -567,7 +567,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adimage.$image,script,stylesheet
 /adimages.$script
 /adj.php?
-/adjs.php
+/adjs.php$script
 /adlayer.php
 /adlib.min.js
 /adlog.php
@@ -592,7 +592,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads-async.
 /ads-common.$image,script
 /ads-front.min.js
-/ads-frontend.min.js
+/ads-frontend.min.js$script
 /ads-home.js
 /ads-rectangle.
 /ads-right.
@@ -707,11 +707,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adunit/track-view|
 /adunits.
 /adunits/bcid?
-/adUnitsBreakpoints.
-/adUnitsData.
 /adutil.
 /adv-banner-$image
-/adv-mobile.
 /adv-scroll-sidebar.js
 /adv-scroll.
 /adv-socialbar-scroll.js
@@ -873,7 +870,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /discourse-adplugin-$script
 /displayad?
 /dmcads_$script
-/doubleclick.aspx
 /doubleclick.min
 /drsup-admanager-ajax.js
 /dynamicad?
@@ -1225,14 +1221,14 @@ pan.baidu.com##.upload-bar.global-clearfix
 /skyadright.
 /skyscraperad.
 /slide_in_ads_close.gif
-/slider_ad.js
+/slider_ad.js$script
 /sliderad.js$script
 /small_ad.
 /smartlinks.epl?
 /soralink.js
 /sp/delivery/js.php
 /spacedesc=
-/spc.php
+/spc.php?$script
 /spcjs.php$script
 /specialctrl.js
 /sponsor-ad$image
@@ -1255,7 +1251,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /sticky_ads.js
 /stickyad.js
 /stickyads.js
-/style_ad.css
+/style_ad.css$stylesheet
 /suurl4.php?
 /suurl5.php
 /suv4.js
@@ -1273,7 +1269,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /tncms/ads/*$script
 /tnt.ads.
 /top-ad.
-/top-ads.
 /top_ad.
 /top_ads.
 /triadshow.asp
@@ -1608,7 +1603,6 @@ _prebid8.
 /jquery.peelback.
 -adblocker-detection/
 -detect-adblock.
-/abtest_ab.js
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adb_detector.
@@ -66441,6 +66435,7 @@ css3generator.com##.gotta-pay-the-bills
 spiceworks.com##.gp-standard-header
 perfectdailygrind.com##.gpdgeng
 di.fm##.gpt-slot
+travelsupermarket.com##.gptAdUnit__Wrapper-sc-f3ta69-0
 kijiji.ca##.gqNGFh
 beforeitsnews.com##.gquuuu5a
 searchenginereports.net##.grammarly-overall
