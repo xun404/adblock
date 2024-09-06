@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ofClJ+UwcLamjjWEOSRw7A
+! Checksum: 7AxUa/06sdfhnOsdnOHxIg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409061537
-! Last Modified: 2024年09月06日 15:37
+! Version: 202409061738
+! Last Modified: 2024年09月06日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1352,7 +1352,7 @@ allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-analytics-category="layout.container"]:not([data-box-name="dsa container"]), div[data-box-name^="caro"], div[data-box-name="plz stop"], div[data-box-name="pls stop"], div[data-box-name^="card carousel"], div[data-box-name="d"], div[data-box-name="b"],div[data-box-name^="Carousel card"],div[data-box-name^="department"], div[data-box-name="layout"], div[data-box-name^="container.department"], div[data-box-name^="bottom"], div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
+allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-analytics-category="layout.container"]:not([data-box-name="dsa container"]):not([data-analytics-groups*="allegro.product.fiche"]), div[data-box-name^="caro"], div[data-box-name="plz stop"], div[data-box-name="pls stop"], div[data-box-name^="card carousel"], div[data-box-name="d"], div[data-box-name="b"],div[data-box-name^="Carousel card"],div[data-box-name^="department"], div[data-box-name="layout"], div[data-box-name^="container.department"], div[data-box-name^="bottom"], div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
 ! HB
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
 allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
@@ -1360,6 +1360,7 @@ allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"rekl
 allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Спонсороване" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване|Sponzorované/ 'article' 'div[id]' 'content'; hide-if-matches-xpath './/div[@data-test-tag="dsa"]/preceding::a[contains(@href,"clicks?emission_unit_")]/ancestor-or-self::article[@data-verification-id][@aria-label]'; hide-if-contains-visible-text /Sponzorované/ 'article' 'div>div ^^sh^^ div>span'; race stop;
 allegro.*#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#article:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>span'
 ! MISC
 allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated false
 ! #CV-705
