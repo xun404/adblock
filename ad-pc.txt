@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tJkzfn+dG1xBYCiX91Atcg
+! Checksum: ZLZosrZtwjZLg9kz7mkpog
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409071937
-! Last Modified: 2024年09月07日 19:37
+! Version: 202409072053
+! Last Modified: 2024年09月07日 20:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -741,7 +741,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top.
-/ads/video/controller.php
+/ads/video/*$script
 /ads/view.php
 /ads/xtcore.
 /ads1.
@@ -783,7 +783,6 @@ tieba.baidu.com##.tuijian-wrap
 /adserver?
 /adserving.
 /adsforwp-front.min.css
-/adsheader.
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
@@ -798,7 +797,7 @@ tieba.baidu.com##.tuijian-wrap
 /adsserv.
 /adsserver.
 /adsservice.
-/adstracking.
+/adsTracking.$script
 /adstream.
 /adswrapper.
 /ads~adsize~
@@ -840,7 +839,6 @@ tieba.baidu.com##.tuijian-wrap
 /advtBanner.
 /adx2.
 /adz/js/adz.$script
-/adzones.js
 /aff-ads.
 /aff/banners/*$image
 /aff/images/*$image
@@ -887,9 +885,7 @@ tieba.baidu.com##.tuijian-wrap
 /awaps-ad-sdk-$script
 /awe2.js
 /ban.php?
-/ban300.html
 /ban300.php
-/ban728.html
 /ban728.php
 /ban728x90.$image
 /banman/ad.aspx
@@ -1075,8 +1071,8 @@ tieba.baidu.com##.tuijian-wrap
 /jspopunder.min.js$script
 /keyade.js
 /layerad.js
-/lazyad-loader.js
-/lazyad-loader.min.js
+/lazyad-loader.js$script
+/lazyad-loader.min.js$script
 /lazyload.ads?
 /left_ads.js
 /leftad.js$script
@@ -1335,16 +1331,16 @@ tieba.baidu.com##.tuijian-wrap
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js
-/stickyads.js
+/stickyads.js$script
 /style_ad.css$stylesheet
 /suurl4.php?
 /suurl5.php
-/suv4.js
+/suv4.js$third-party
 /suv5.js$third-party
 /sync2ad.js
 /taboola-footer.js
-/taboola-header.js
-/taboola_7.4.1.js
+/taboola-header.js$script
+/taboola_8.9.1.js$script
 /taboola_header.js
 /taboolaarticle.min.js
 /targetingAd.js
@@ -1641,7 +1637,6 @@ _widget_ad.
 -prebid/
 .prebid-bundle.
 .prebid.$domain=~prebid.org
-/_js/prbd_6.19.0.js
 /ad/postbid_handler1.0.9.js
 /gpt-prebid.js
 /pbjsandwich.
@@ -62004,6 +61999,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||bibleh.com/b2.htm
 ||biblehub.com/botmenu
 ||biblemenus.com/adframe
+||bigsquidrc.com/wp-content/themes/bsrc2/js/adzones.js
 ||bioinformatics.org/images/ack_banners/
 ||bit.com.au/scripts/js_$script
 ||bitchute.com/static/ad-sidebar.html
@@ -62573,6 +62569,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||uxmatters.com/images/sponsors/
 ||v3cars.com/load-ads.php
 ||vastz.b-cdn.net/hsr/HSR*.mp4
+||vectips.com/wp-content/themes/vectips-theme/js/adzones.js
 ||videogameschronicle.com/ads/
 ||vidstream.pro/AB/pioneersuspectedjury.com/
 ||vidzstore.com/popembed.php
@@ -74063,6 +74060,7 @@ newduba.cn###jq_youxi
 ||212ehae.fun^
 ||brutvncv.top^
 ||dsaewew21.fun^
+||diendh.xyz^
 ||geddsashb3.fun^
 ||grewash1b.fun^
 ||kzcayec.icu^
