@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SQBp0vKE4Kn8yaBFiyC5hw
+! Checksum: 6o9K898Br/iirula8f4d4w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409071338
-! Last Modified: 2024年09月07日 13:38
+! Version: 202409071442
+! Last Modified: 2024年09月07日 14:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -705,7 +705,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads-common.$image,script
 /ads-front.min.js
 /ads-frontend.min.js$script
-/ads-home.js
 /ads-rectangle.
 /ads-right.
 /ads-templateslist.
@@ -772,7 +771,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads_bg.$image
 /ads_bottom.js
 /ads_controller.js
-/ads_footer.
 /ads_frame.
 /ads_iframe.$subdocument
 /ads_image/*$image
@@ -789,7 +787,7 @@ tieba.baidu.com##.tuijian-wrap
 /adserve/*$script
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver2.
-/adserver3.
+/adserver3.$image,script
 /adserver?
 /adserving.
 /adsforwp-front.min.css
@@ -813,7 +811,6 @@ tieba.baidu.com##.tuijian-wrap
 /adswrapper.
 /ads~adsize~
 /adtech;
-/adtext.
 /adTools.
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adunit/track-view|
@@ -877,8 +874,8 @@ tieba.baidu.com##.tuijian-wrap
 /amp-ad-$script
 /amp-connatix-$script
 /amp4ads-host-v0.js$script
+/ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js
-/ane-popup.js
 /annonse.
 /annonser.
 /api-ads.
@@ -961,11 +958,10 @@ tieba.baidu.com##.tuijian-wrap
 /cpmbanners.js
 /css/ads-$stylesheet
 /css/adsense.
-/css/adv.
+/css/adv.$stylesheet
 /curveball/ads/*$image
 /data-file_123.js
 /deliverad/fc.js$script
-/delivery.ads.
 /delivery.php?zone=
 /delivery/ag.php
 /delivery/apu.php
@@ -984,7 +980,6 @@ tieba.baidu.com##.tuijian-wrap
 /drsup-admanager-ajax.js
 /dynamicad?
 /ec5bcb7487ff.js
-/embed_ad.php
 /exitpop.js
 /exitpopunder.js
 /exitpopup.js
@@ -1466,6 +1461,7 @@ tieba.baidu.com##.tuijian-wrap
 ://affiliates2.$third-party
 ://banner.$third-party
 ://banners.$third-party
+://delivery.ads.
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
 ://oascentral.
@@ -62206,6 +62202,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||gentent.stre4mplay.one^
 ||gentent.streampiay.fun^
 ||getconnected.southwestwifi.com/ads_video.xml
+||globovision.com/js/ads-home.js
 ||gocdkeys.com/images/background
 ||gogoanime.me/zenny/
 ||gontent.powzers.lol^
