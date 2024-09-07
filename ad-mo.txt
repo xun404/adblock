@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Kv3y0M9UyJV3ggoIBb4tMw
+! Checksum: 2/HyZPW+p9QUqkZ1mwzENA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409071537
-! Last Modified: 2024年09月07日 15:37
+! Version: 202409071639
+! Last Modified: 2024年09月07日 16:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -569,7 +569,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adlayer.php
 /adlib.min.js
 /adlog.php
-/admanager.css
 /admanager.js
 /admanager.min.js
 /admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
@@ -622,7 +621,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/popout.
 /ads/popup.
 /ads/rectangle_$subdocument
-/ads/revgen.
+/ads/revgen.$script
 /ads/serve?
 /ads/show.$script
 /ads/slideup.
@@ -775,7 +774,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php$script
-/asyncspc.php
+/asyncspc.php$third-party
 /auto.ad.
 /awaps-ad-sdk-$script
 /awe2.js
@@ -863,7 +862,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /doubleclick.min
 /drsup-admanager-ajax.js$script
 /dynamicad?
-/ec5bcb7487ff.js
+/ec5bcb7487ff.js$script
 /exitpop.js
 /exitpopunder.js
 /exitpopup.js$script
@@ -890,7 +889,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /float_ad.js
 /floatads.
 /floating-ad-rotator-$script,stylesheet
-/floatingad.js
+/floatingad.js$script
 /floatingads.js
 /flyad.js
 /footer-ad.$~script
@@ -963,7 +962,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /js.ng/pagepos=
 /js3caf.js
 /jsad.php
-/jsAds-1.4.min.js
+/jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js
 /jspopunder.min.js$script
@@ -973,7 +972,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /lazyad-loader.min.js
 /lazyload.ads?
 /left_ads.js
-/leftad.js
+/leftad.js$script
 /leftad.png
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
@@ -1012,7 +1011,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /neverblock/*$script
 /new/floatadv.js
 /ntv.json?key=
-/nugg.min.js
 /Nuggad?
 /nwm-fcn.min.js
 /nwm-pw2.min.js
@@ -1585,7 +1583,6 @@ _prebid8.
 /adb_detector.
 /adblock-detect.
 /adblock-detector.
-/adblock-message.
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
 /adblock_detect.
@@ -17575,6 +17572,7 @@ browsershots.org#@#.advert_area
 ||acdcmarimo.com^
 ||acdn01.vidox.net^
 ||acdn923132475.com^
+||ace-adserver.com^
 ||acecapprecarious.com^
 ||acediscover.com^
 ||acelacien.com^
@@ -67095,6 +67093,7 @@ thedailybeast.com##.mobiledoc-sizer
 criminaljusticedegreehub.com##.mobius-container
 etxt.biz##.mod-cabinet__sidebar-adv
 etxt.biz##.mod-cabinet__sidebar-info
+hot-dinners.com##.mod-custom
 notateslaapp.com##.mod-sponsors
 snowmagazine.com##.mod_banners
 lakeconews.com##.mod_ijoomlazone
@@ -141507,6 +141506,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! tag.aticdn.net
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 !! cdn.optimizely.com/public
+@@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
