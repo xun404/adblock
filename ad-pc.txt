@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sCLnL9A1/hESkv+RclzIVQ
+! Checksum: SQBp0vKE4Kn8yaBFiyC5hw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409071240
-! Last Modified: 2024年09月07日 12:40
+! Version: 202409071338
+! Last Modified: 2024年09月07日 13:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -597,13 +597,13 @@ tieba.baidu.com##.tuijian-wrap
 /ad-choices.
 /ad-engine.js
 /ad-scripts--$script
-/ad-scroll.js
+/ad-scroll.js$script
 /ad-server.$~script
 /ad-third-party?
 /ad.cgi?
 /ad.css?$stylesheet
 /ad.html?
-/ad.min.js$script,domain=~qoly.jp
+/ad.min.js$script
 /ad/a.aspx?
 /ad/dfp/js/dfp.js
 /ad/err?
@@ -890,7 +890,7 @@ tieba.baidu.com##.tuijian-wrap
 /app/manga/themes/*/ads/pop.js
 /apstag.js
 /apu.php?
-/arcads.js
+/arcads.js$script
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php$script
@@ -934,7 +934,6 @@ tieba.baidu.com##.tuijian-wrap
 /bottom-ads.jpg
 /bottom-ads.png
 /bottom_ad.jpg
-/bottom_ad.png
 /bottomad.png
 /bottomads.js
 /bsa-plugin-pro-scripteo/frontend/js/script.js
@@ -1041,7 +1040,7 @@ tieba.baidu.com##.tuijian-wrap
 /googleafs.js
 /gospel2Truth.js
 /gpt.js$script,xmlhttprequest
-/gpt_ads-public.js
+/gpt_ads-public.js$script
 /GunosyAdsSDKv2.js
 /headerads1.php
 /homepage_ads/*$domain=~swedishbeauty.com
@@ -1225,7 +1224,7 @@ tieba.baidu.com##.tuijian-wrap
 /promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
 /promo/affiframe.
-/promotools.
+/promotools.$subdocument
 /proxyadcall?
 /public/ad/*$image
 /public/ads/*$image
@@ -1305,7 +1304,7 @@ tieba.baidu.com##.tuijian-wrap
 /set_adcode?
 /sft-prebid.js
 /show-ad.js$script
-/show_ad.js
+/show_ad.js$script
 /show_ad?
 /showban.asp?
 /showbanner.js
@@ -1402,7 +1401,7 @@ tieba.baidu.com##.tuijian-wrap
 /videojs.ads-
 /videojs.sda.js$script
 /view/ad/*$subdocument
-/view_banner.php
+/view_banner.php$image
 /viewad.asp
 /viewad.php
 /virtuagirlhd.
@@ -1581,9 +1580,9 @@ _widget_ad.
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
 /ed/fol457.
-/plugins/ad-ace/assets/js/coupons.js
-/plugins/ad-ace/assets/js/slot-slideup.js
-/plugins/ad-ace/includes/shoppable-images/*
+/plugins/ad-ace/assets/js/coupons.js$script
+/plugins/ad-ace/assets/js/slot-slideup.js$script
+/plugins/ad-ace/includes/shoppable-images/*$script
 /Ads/bid300a.aspx$subdocument
 /Ads/bid300b.aspx$subdocument
 /Ads/bid300c.aspx$subdocument
@@ -16384,6 +16383,7 @@ adeam.com#@#.atf-wrapper
 dr.dk#@#.banner-ad-container
 popporn.com#@#.block-ad
 shop.asobistore.jp#@#.block-sponsor
+shanjinji.com#@#.bottom_ad
 ixbtlabs.com#@#.bottom_ad_block
 9l.pl#@#.boxAds
 canonsupports.com#@#.box_ads
@@ -22372,6 +22372,7 @@ browsershots.org#@#.advert_area
 ||can-get-some.net^
 ||canadianbedevil.com^
 ||canarystarkcoincidence.com^
+||cancriberths.com^
 ||candiedguilty.com^
 ||candiedtouch.com^
 ||candleannihilationretrieval.com^
@@ -24028,6 +24029,7 @@ browsershots.org#@#.advert_area
 ||corruptclients.com^
 ||corruptsolitaryaudibly.com^
 ||corveseiren.com^
+||cosedluteo.com^
 ||cosesgabbles.top^
 ||cosiequiapo.com^
 ||cosignpresentlyarrangement.com^
@@ -25366,6 +25368,7 @@ browsershots.org#@#.advert_area
 ||dimlmhowvkrag.xyz^
 ||dimlyconfidential.com^
 ||dimmestlasts.top^
+||dimnaamebous.com^
 ||dimnatriazin.com^
 ||dimnessinvokecorridor.com^
 ||dimnessslick.com^
@@ -45309,6 +45312,7 @@ browsershots.org#@#.advert_area
 ||siresouthernpastime.com^
 ||sireundermineoperative.com^
 ||sirmianow.top^
+||siruperunlinks.com^
 ||sisewepod.com^
 ||sismoycheii.cc^
 ||sistercashmerebless.com^
@@ -50451,6 +50455,7 @@ browsershots.org#@#.advert_area
 ||wagtelly.com^
 ||wahile.com^
 ||wahoha.com^
+||waigepsap.net^
 ||waigriwa.xyz^
 ||wailedfrosty.com^
 ||waioowcadhw.xyz^
@@ -50735,6 +50740,7 @@ browsershots.org#@#.advert_area
 ||weekendchinholds.com^
 ||weeklideals.com^
 ||weemofee.com^
+||weensnandow.com^
 ||weephuwe.xyz^
 ||weepingheartache.com^
 ||weepingpretext.com^

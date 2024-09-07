@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: slKqMDwFirKJ5pBoJERtCw
+! Checksum: bkHD8bTDtc+R2usTyxpydA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409071240
-! Last Modified: 2024年09月07日 12:40
+! Version: 202409071338
+! Last Modified: 2024年09月07日 13:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -485,13 +485,13 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-choices.
 /ad-engine.js
 /ad-scripts--$script
-/ad-scroll.js
+/ad-scroll.js$script
 /ad-server.$~script
 /ad-third-party?
 /ad.cgi?
 /ad.css?$stylesheet
 /ad.html?
-/ad.min.js$script,domain=~qoly.jp
+/ad.min.js$script
 /ad/a.aspx?
 /ad/dfp/js/dfp.js
 /ad/err?
@@ -778,7 +778,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /app/manga/themes/*/ads/pop.js
 /apstag.js
 /apu.php?
-/arcads.js
+/arcads.js$script
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php$script
@@ -822,7 +822,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /bottom-ads.jpg
 /bottom-ads.png
 /bottom_ad.jpg
-/bottom_ad.png
 /bottomad.png
 /bottomads.js
 /bsa-plugin-pro-scripteo/frontend/js/script.js
@@ -929,7 +928,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /googleafs.js
 /gospel2Truth.js
 /gpt.js$script,xmlhttprequest
-/gpt_ads-public.js
+/gpt_ads-public.js$script
 /GunosyAdsSDKv2.js
 /headerads1.php
 /homepage_ads/*$domain=~swedishbeauty.com
@@ -1113,7 +1112,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
 /promo/affiframe.
-/promotools.
+/promotools.$subdocument
 /proxyadcall?
 /public/ad/*$image
 /public/ads/*$image
@@ -1193,7 +1192,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /set_adcode?
 /sft-prebid.js
 /show-ad.js$script
-/show_ad.js
+/show_ad.js$script
 /show_ad?
 /showban.asp?
 /showbanner.js
@@ -1290,7 +1289,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /videojs.ads-
 /videojs.sda.js$script
 /view/ad/*$subdocument
-/view_banner.php
+/view_banner.php$image
 /viewad.asp
 /viewad.php
 /virtuagirlhd.
@@ -1469,9 +1468,9 @@ _widget_ad.
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
 /ed/fol457.
-/plugins/ad-ace/assets/js/coupons.js
-/plugins/ad-ace/assets/js/slot-slideup.js
-/plugins/ad-ace/includes/shoppable-images/*
+/plugins/ad-ace/assets/js/coupons.js$script
+/plugins/ad-ace/assets/js/slot-slideup.js$script
+/plugins/ad-ace/includes/shoppable-images/*$script
 /Ads/bid300a.aspx$subdocument
 /Ads/bid300b.aspx$subdocument
 /Ads/bid300c.aspx$subdocument
@@ -16272,6 +16271,7 @@ adeam.com#@#.atf-wrapper
 dr.dk#@#.banner-ad-container
 popporn.com#@#.block-ad
 shop.asobistore.jp#@#.block-sponsor
+shanjinji.com#@#.bottom_ad
 ixbtlabs.com#@#.bottom_ad_block
 9l.pl#@#.boxAds
 canonsupports.com#@#.box_ads
@@ -22260,6 +22260,7 @@ browsershots.org#@#.advert_area
 ||can-get-some.net^
 ||canadianbedevil.com^
 ||canarystarkcoincidence.com^
+||cancriberths.com^
 ||candiedguilty.com^
 ||candiedtouch.com^
 ||candleannihilationretrieval.com^
@@ -23916,6 +23917,7 @@ browsershots.org#@#.advert_area
 ||corruptclients.com^
 ||corruptsolitaryaudibly.com^
 ||corveseiren.com^
+||cosedluteo.com^
 ||cosesgabbles.top^
 ||cosiequiapo.com^
 ||cosignpresentlyarrangement.com^
@@ -25254,6 +25256,7 @@ browsershots.org#@#.advert_area
 ||dimlmhowvkrag.xyz^
 ||dimlyconfidential.com^
 ||dimmestlasts.top^
+||dimnaamebous.com^
 ||dimnatriazin.com^
 ||dimnessinvokecorridor.com^
 ||dimnessslick.com^
@@ -45197,6 +45200,7 @@ browsershots.org#@#.advert_area
 ||siresouthernpastime.com^
 ||sireundermineoperative.com^
 ||sirmianow.top^
+||siruperunlinks.com^
 ||sisewepod.com^
 ||sismoycheii.cc^
 ||sistercashmerebless.com^
@@ -50339,6 +50343,7 @@ browsershots.org#@#.advert_area
 ||wagtelly.com^
 ||wahile.com^
 ||wahoha.com^
+||waigepsap.net^
 ||waigriwa.xyz^
 ||wailedfrosty.com^
 ||waioowcadhw.xyz^
@@ -50623,6 +50628,7 @@ browsershots.org#@#.advert_area
 ||weekendchinholds.com^
 ||weeklideals.com^
 ||weemofee.com^
+||weensnandow.com^
 ||weephuwe.xyz^
 ||weepingheartache.com^
 ||weepingpretext.com^
