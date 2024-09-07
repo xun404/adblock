@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z7TN0Fff6sZ5ysImkLVeZQ
+! Checksum: HxPRwh2m+ZZbfmB7yIldmw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409072053
-! Last Modified: 2024年09月07日 20:53
+! Version: 202409072237
+! Last Modified: 2024年09月07日 22:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -576,7 +576,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
 /adpopup.js
-/adpopup.php
 /adrecover.js
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
@@ -675,7 +674,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
 /adsinclude.
-/adslide.js
+/adslide.js$script
 /AdsLoad.js
 /adsmanager.nsf/*$image
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
@@ -701,7 +700,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv-scroll.
 /adv-socialbar-scroll.js
 /adv.css?
-/adv/mjx.js
 /adv_468.
 /adv_out.js$third-party
 /adv_teasers.js$script
@@ -995,12 +993,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /mysimpleads/mysa_output.php$script
 /nativead.
 /nativeads-v2.js
-/nativeads.js
+/nativeads.js$script
 /nativeads/script/*$script
 /nativebanner/ane-native-banner.js$script
 /nb/frot_lod.js
 /neverblock/*$script
-/new/floatadv.js
+/new/floatadv.js$script
 /ntv.json?key=
 /Nuggad?
 /nwm-fcn.min.js
@@ -1193,7 +1191,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /slide_in_ads_close.gif$image
 /slider_ad.js$script
 /sliderad.js$script
-/small_ad.
+/small_ad.$image,domain=~eh-ic.com
 /smartlinks.epl?
 /sp/delivery/js.php
 /spacedesc=
@@ -1571,7 +1569,6 @@ _prebid8.
 /adblock-detector.
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
-/adblock_detect.
 /adblock_detector.
 /adblock_detector2.
 /adblock_logger.$script
@@ -1579,7 +1576,6 @@ _prebid8.
 /adblockdetection.
 /adBlockDetector/*$script
 /adblocker-leader.
-/adblockkiller.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.
 /anti-adblock/*$~stylesheet
@@ -15390,12 +15386,10 @@ _800x80_
 ##a[href^="http://trk.globwo.online/"]
 ##a[href^="http://troopsassistedstupidity.com/"]
 ##a[href^="http://vnte9urn.click/"]
-##a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"]
 ##a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="]
 ##a[href^="http://www.friendlyduck.com/AF_"]
 ##a[href^="http://www.h4trck.com/"]
 ##a[href^="http://www.iyalc.com/"]
-##a[href^="http://www.mrskin.com/tour"]
 ##a[href^="https://123-stream.org/"]
 ##a[href^="https://1betandgonow.com/"]
 ##a[href^="https://6-partner.com/"]
@@ -16299,6 +16293,7 @@ ekitan.com,kissanadu.com#@#.sidebar-ad
 independent.com#@#.sidebar-ads
 cadlinecommunity.co.uk#@#.sidebar_advert
 proininews.gr#@#.small-ads
+eh-ic.com#@#.small_ad
 hebdenbridge.co.uk#@#.smallads
 geekwire.com#@#.sponsor_post
 toimitilat.kauppalehti.fi#@#.sponsored-article
