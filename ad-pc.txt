@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j71EeM/kCdOl+ci/jSGpjQ
+! Checksum: tJkzfn+dG1xBYCiX91Atcg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409071839
-! Last Modified: 2024年09月07日 18:39
+! Version: 202409071937
+! Last Modified: 2024年09月07日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -592,7 +592,6 @@ tieba.baidu.com##.tuijian-wrap
 /ab_fl.js$script
 /ad--unit.htm
 /ad-125.
-/ad-bottom.
 /ad-choices-$image
 /ad-choices.
 /ad-scripts--$script
@@ -662,7 +661,6 @@ tieba.baidu.com##.tuijian-wrap
 /adcommon?
 /adconfig.js$script
 /adcount.js
-/adcount.php
 /addons/ads.
 /addyn|*;adtech;
 /addyn|*|adtech;
@@ -698,7 +696,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads-250.$image
 /ads-async.
 /ads-common.$image,script
-/ads-front.min.js
+/ads-front.min.js$script
 /ads-frontend.min.js$script
 /ads-rectangle.
 /ads-right.
@@ -761,7 +759,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads?param=
 /ads?zone=
 /ads?zone_id=
-/ads_300.
 /ads_banners/*$image
 /ads_bg.$image
 /ads_bottom.js
@@ -890,7 +887,6 @@ tieba.baidu.com##.tuijian-wrap
 /awaps-ad-sdk-$script
 /awe2.js
 /ban.php?
-/ban160.php
 /ban300.html
 /ban300.php
 /ban728.html
@@ -1010,7 +1006,7 @@ tieba.baidu.com##.tuijian-wrap
 /footerads.
 /fro_lo.js
 /froloa.js
-/frontend_loader.js
+/frontend_loader.js$script
 /ftt2/js.php
 /funcript*.php?pub=
 /gdpr-ad-script.js
@@ -1142,7 +1138,7 @@ tieba.baidu.com##.tuijian-wrap
 /pagead/osd.
 /pageear.js$script
 /pageear/*$script
-/pagepeel.
+/pagepeel.$~xmlhttprequest
 /pagepeelpro.js
 /partnerads/js/setcookie.js
 /partneradwidget.
@@ -1210,7 +1206,6 @@ tieba.baidu.com##.tuijian-wrap
 /production/ads/*$script
 /promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
-/promo/affiframe.
 /promotools.$subdocument
 /proxyadcall?
 /public/ad/*$image
@@ -1386,7 +1381,6 @@ tieba.baidu.com##.tuijian-wrap
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
-/viewad.asp
 /virtuagirlhd.
 /web/ads/*$image
 /web_ads/*$image
@@ -63114,6 +63108,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||hentaifox.com/js/slider.js
 ||hentaihere.com/arkNVB/
 ||hentaini.com/img/ads/
+||hentairider.com/banners/
 ||hentairules.net/gal/new-gallery-dump-small.gif
 ||hentaiworld.tv/banners-script.js
 ||herexxxtube.com/tmp/
@@ -64895,6 +64890,7 @@ staples.com##.SearchRootUX2__bannerAndSkuContainer
 m.mouthshut.com##.SecondAds
 coingape.com##.Sidemads
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
+ultimate-guitar.com##.SiteWideBanner
 thedailybeast.com##.Sizer
 coingape.com##.SponserdBtn
 goodreads.com##.SponsoredProductAdContainer
@@ -65049,6 +65045,7 @@ downloads.digitaltrends.com##.ad-kargo
 kenyans.co.ke##.ad-kenyans
 kenyans.co.ke##.ad-kenyans-wrapper
 heise.de##.ad-ldb-container
+revolvermag.com##.ad-leaderboard-head
 apksum.com##.ad-left
 radiopaedia.org##.ad-link-grey
 citynews.ca##.ad-load
@@ -65217,7 +65214,7 @@ wionews.com##.ads-box-300x300
 dnaindia.com,wionews.com##.ads-box-970x90
 dnaindia.com,wionews.com##.ads-box-d90-m300
 thefinancialexpress.com.bd##.ads-carousel-container
-gosunoob.com,indianexpress.com,matrixcalc.org,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,philstarlife.com,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
 pcquest.com##.ads-div-style
 samehadaku.email##.ads-float-bottom
 thetruthaboutcars.com##.ads-fluid-wrap
@@ -65824,6 +65821,7 @@ brobible.com##.bro_caffeine_wrap
 brobible.com##.bro_vidazoo_wrap
 moco360.media##.broadstreet-story-ad-text
 vaughn.live##.browsePageAbvs300x600
+femalefirst.co.uk##.browsi_home
 techpp.com##.brxe-shortcode
 christianpost.com##.bs-article-cell
 moco360.media##.bs_zones
@@ -67310,6 +67308,7 @@ firstpost.com##.newadd
 farminguk.com##.news-advert-button-click
 hurriyetdailynews.com##.news-detail-adv
 myflixer.to##.news-iframe
+blabbermouth.net##.news-single-ads
 dailysocial.id##.news__detail-ads-subs
 firstpost.com##.newtopadd
 moddb.com##.nextmediaboxtop
@@ -67568,6 +67567,8 @@ premiumtimesng.com##.premi-texem-campaign
 banjohangout.org,fiddlehangout.com,flatpickerhangout.com,mandohangout.com,resohangout.com##.premiere-sponsors
 sulekha.com##.premium-banner-advertisement
 pixabay.com##.present-g-item
+bangpremier.com##.presentation-space
+bangpremier.com##.presentation-space-m-panel
 flobzoo.com##.preview2bannerspot
 manutd.com##.primary-header-sponsors
 tech.hindustantimes.com##.primeDay
@@ -71497,6 +71498,7 @@ pornhub.com##[srcset*="bloB:"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 xozilla.com##[style="height: 220px !important; overflow: hidden;"]
+hentairider.com##[style="height: 250px;padding:5px;"]
 eporner.com##[style="margin: 20px auto; height: 275px; width: 900px;"]
 vjav.com##[style="width: 728px; height: 90px;"]
 missav.ai,missav.com,missav.ws,missav123.com,missav789.com,myav.com##[x-show$="video_details'"] > div > .list-disc
