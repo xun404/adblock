@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nWWM6DmJSaMQchYz4xKVkA
+! Checksum: v+7Lw4xP1H10FCptSsgnnA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409081339
-! Last Modified: 2024年09月08日 13:39
+! Version: 202409081537
+! Last Modified: 2024年09月08日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -518,7 +518,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_counter.aspx
 /ad_display.js
 /ad_header.js
-/ad_home.js
+/ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_manager/*$image,script
@@ -538,7 +538,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_vert.gif
 /adanalytics.js
 /adaptive_components.ashx?type=ads&
-/adaptvadplayer.js
+/adaptvadplayer.js$script
 /adasync.js
 /adasync.min.js
 /adbanners/*$image
@@ -979,6 +979,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /modules/ads/*$~xmlhttprequest
 /MPUAdHelper.js
 /mysimpleads/mysa_output.php$script
+/native/ts-master.$subdocument
 /nativead.
 /nativeads-v2.js
 /nativeads.js$script
@@ -1011,7 +1012,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /pagepeel.$~xmlhttprequest
 /pagepeelpro.js
 /partnerads/js/setcookie.js
-/partneradwidget.
+/partneradwidget.$subdocument
 /partnerbanner.$domain=~toltech.cn
 /partners/ads/*$image
 /pcad.js?
@@ -1019,7 +1020,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /peel_ads.js
 /peelads/*$script
 /pfe/current/*$third-party
-/phpads/adx.js
+/phpads/*$script
 /phpadsnew/*$image,script
 /phpbb_ads/*$~xmlhttprequest
 /pix/ads/*$image
@@ -1068,7 +1069,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /popupads.js$script
 /popupunder.js
 /prbt/v1/ads/?
-/prebid-video.js
 /prerollad.
 /prism_ad/*$script
 /processing/impressions.asp?
@@ -1100,13 +1100,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama/*$domain=~github.com
-/reklama1.js
-/reklama2.jpg
-/reklama2.png
-/reklama3.jpg
-/reklama3.png
+/reklama2.jpg$image
+/reklama2.png$image,domain=~aerokuz.ru
+/reklama3.jpg$image
+/reklama3.png$image
 /reklama4.jpg$image
-/reklama4.png
+/reklama4.png$image
 /reklame/*$~xmlhttprequest
 /ren.gif?
 /report_ad.js
@@ -1152,7 +1151,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /serveads.php
 /servlet/view/*$script
 /set_adcode?
-/sft-prebid.js
+/sft-prebid.js$script
 /show-ad.js$script
 /show_ad.js$script
 /show_ad?
@@ -1162,10 +1161,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /side-ads/*$~xmlhttprequest
 /side_ads/*$~xmlhttprequest
 /sidead.
-/sidead1.js
-/sideads.js
-/sidebar_ad.jpg
-/sidebar_ad.png
+/sidead1.js$script
+/sideads.js$script
+/sidebar_ad.jpg$image
+/sidebar_ad.png$image
 /sidebar_ads/*$~xmlhttprequest
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
@@ -1216,7 +1215,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /taboola_header.js
 /taboolaarticle.min.js
 /targetingAd.js
-/targetpushad.js
+/targetpushad.js$script
 /theologicalpresentation.com/*
 /tmbi-a9-header-$script
 /tncms/ads/*$script
@@ -1240,7 +1239,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /video-ads-player.
 /video-js-ads.
 /video_ad.
-/video_ads.
+/video_ads.$script
 /video_slider3.js
 /videoad.$domain=~videoad.in
 /videoad/*$script
@@ -18048,7 +18047,6 @@ browsershots.org#@#.advert_area
 ||adsrv.me^
 ||adsrv.wtf^
 ||adstarget.net^
-||adstargets.com^
 ||adstean.com^
 ||adstico.io^
 ||adstook.com^
@@ -53678,6 +53676,7 @@ browsershots.org#@#.advert_area
 ||adsrvmedia.com^$third-party
 ||adsrvmedia.net^$third-party
 ||adstargeting.com^$third-party
+||adstargets.com^$third-party
 ||adstatic.com^$third-party
 ||adstean.com^$third-party
 ||adsterra.com^$third-party
@@ -70446,7 +70445,7 @@ amateur8.com,maturetubehere.com###nopp
 flashx.tv,xrares.com###nuevoa
 scrolller.com###object_container
 youjizz.com###onPausePrOverlay
-hentaimama.io,underhentai.net,watchhentai.net###overlay
+alldeepfake.ink,hentaimama.io,underhentai.net,watchhentai.net###overlay
 porn300.com,porndroids.com###overlay-video
 22pixx.xyz,imagevenue.com###overlayBg
 hentaiff.com###overplay
@@ -71337,6 +71336,7 @@ faptor.com##.zpot-horizontal-img
 fapnado.xxx##.zpot-vertical
 jizzbunker2.com,xxxdan.com,xxxdan3.com##.zx1p
 tnaflix.com##.zzMeBploz
+hotnudedgirl.top,pbhotgirl.xyz,prettygirlpic.top##[class$="custom-spot"]
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
 beeg.porn##[class^="bb_show_"]
 hotleaks.tv,javrank.com##[class^="koukoku"]
