@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lgpN+WTCwWGx9XB5QwBq3A
+! Checksum: YzUp0/L8Q7LDKkmVTXpZgA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409081839
-! Last Modified: 2024年09月08日 18:39
+! Version: 202409081938
+! Last Modified: 2024年09月08日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -68824,6 +68824,7 @@ coles.com.au##[data-testid="ad"]
 kijiji.ca##[data-testid="adsense-container"]
 gozofinder.com##[data-testid="advert"]
 coles.com.au##[data-testid="banner-container-desktop"]
+walmart.com##[data-testid="carousel-ad"]
 petco.com##[data-testid="citrus-widget"]
 argos.co.uk##[data-testid="citrus_products-carousel"]
 theweathernetwork.com##[data-testid="content-feed-ad-slot"]
@@ -68838,7 +68839,6 @@ you.com##[data-testid="microsoft-ads"]
 washingtonpost.com##[data-testid="outbrain"]
 washingtonpost.com##[data-testid="placeholder-box"]
 theweathernetwork.com##[data-testid="pre-ad-text"]
-abcnews.go.com##[data-testid="prism-static-embed"]
 abcnews.go.com##[data-testid="prism-sticky-ad"]
 zillow.com##[data-testid="right-rail-ad"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="sponsored-bar"]
@@ -91545,6 +91545,7 @@ fqsousou.com,kengso.com#@#.user-share
 /apilog?
 /apmrum.min.js
 /app-measurement?
+/app.php/ads/*
 /appdynamics/adrum-
 /appGoogleTagManager-
 /appinsightor.min.js
