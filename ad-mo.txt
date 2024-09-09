@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GW4NF5p3mMqoP+/eFGePDA
+! Checksum: p327/5xdmewOkJHi6fOaSg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409091937
-! Last Modified: 2024年09月09日 19:37
+! Version: 202409092140
+! Last Modified: 2024年09月09日 21:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -459,7 +459,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .php?adsid=
 .php?adv=
 .php?clicktag=
-.php?zone_id=
+.php?zone_id=$~xmlhttprequest
 .php?zoneid=
 .pk/ads/
 .popunder.js
@@ -568,7 +568,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
 /admgr.js
 /admitad.js$script
-/adocean.js
+/adocean.js$script
 /adpartner.min.js$script
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
@@ -585,7 +585,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads-rectangle.
 /ads-right.
 /ads-templateslist.
-/ads-vast-vpaid.js
+/ads-vast-vpaid.js$script
 /ads.bundle.js
 /ads.bundle.min.js
 /ads.cfm?
@@ -628,7 +628,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/view.php
 /ads/xtcore.
 /ads1.
-/ads160.
 /ads4.
 /ads468.
 /ads468x60.$image
@@ -645,7 +644,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads_banners/*$image
 /ads_bg.$image
 /ads_bottom.js
-/ads_controller.js
+/ads_controller.js$script
 /ads_frame.
 /ads_iframe.$subdocument
 /ads_image/*$image
@@ -709,7 +708,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /advrotator.js
-/advrotator_banner_largo.htm
+/advrotator_banner_largo.htm$subdocument
 /advtBanner.
 /adx2.
 /adz/js/adz.$script
@@ -741,7 +740,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ane-popup-banner.js$script
 /annonse.
 /annonser.
-/api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
@@ -754,7 +752,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /asyncjs.php$script
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
-/awe2.js
 /ban.php?
 /ban300.php
 /ban728.php
@@ -769,7 +766,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banner.php$domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
-/banner/sponsors.
 /banner_468.
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
 /bannerad.
@@ -793,7 +789,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /bsa-plugin-pro-scripteo/frontend/js/script.js
 /bsa-pro-scripteo/frontend/js/script.js
 /btag.min.js$third-party
-/buysellads.js
+/buysellads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
 /cgi-bin/ads.cgi
@@ -810,7 +806,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /common/ads?
 /common_ad.js
 /concert_ads-$script
-/content-ads.js
+/content-ads.js$script
 /content/ads/*$~xmlhttprequest
 /cpmbanners.js
 /css/ads-$stylesheet
@@ -842,11 +838,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
-/exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
 /expads-blocked.js
-/export/ltv_popup.php
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.
@@ -939,8 +933,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /jshexi.hj?lb=
 /jspopunder.js$script
 /jspopunder.min.js$script
-/keyade.js
-/layerad.js
 /lazyad-loader.js$script
 /lazyad-loader.min.js$script
 /lazyload.ads?
@@ -988,17 +980,16 @@ pan.baidu.com##.upload-bar.global-clearfix
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
 /oiopub-direct/js.php$script
-/oncc-ad.js
-/oncc-adbanner.js
+/oncc-ad.js$script
+/oncc-adbanner.js$script
 /openads.js
 /owa.MessageAdList.
-/p8network.js
 /p?zoneId=
 /page-links-to/dist/new-tab.js
 /page-peel$~xmlhttprequest
 /page/bouncy.php?
 /pagead/1p-user-list/*$image
-/pagead/conversion.js
+/pagead/conversion.js$script
 /pagead/lvz?
 /pageear.js$script
 /pageear/*$script
@@ -1106,9 +1097,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /responsive_ads.js$script
 /right_ad.
 /right_ads.
-/rightad.js
+/rightad.js$script
 /rightads.js
-/rotatingad.
 /s.ashx?btag
 /SBA-WP-13.js
 /sbar.json?key=
@@ -1185,7 +1175,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /sponsored_ad.
 /sponsored_link.
 /sponsored_text.
-/sponsoredlinks.
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
@@ -1444,7 +1433,6 @@ _widget_ad.
 /ssp/req/*/?pb=$third-party
 /t/9/heis/svewg/*$third-party
 /tabu/display.js$script
-/cmbdv2.js
 /greenoaks.gif?
 /myvids/click/*$script,subdocument
 /myvids/mltbn/*$script,subdocument
@@ -1465,6 +1453,8 @@ _widget_ad.
 /detroitchicago/anaheim.js$script
 /detroitchicago/augusta.js$script
 /detroitchicago/boise.js$script
+/detroitchicago/cmbdv2.js$script
+/detroitchicago/cmbv2.js$script
 /detroitchicago/denver.js$script
 /detroitchicago/gateway.js$script
 /detroitchicago/houston.js$script
@@ -61828,6 +61818,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||afloat.ie/images/banners/
 ||afr.com/assets/europa.
 ||aiimgvlog.fun/ad$subdocument
+||aimclicks.com/layerad.js
 ||allkeyshop.com/blog/wp-content/uploads/allkeyshop_background_
 ||allmonitors24.com/ads-
 ||amazon.com/aan/$subdocument
@@ -82935,6 +82926,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||53bk.com/Baokan/Comja/changepic.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dcfever.com##.trading_top_banner
 wealwomen.com##div[data-cptid]
 supercloudsms.com##a[style="display: block;"]
 cn.bing.com##.b_bza_pole
