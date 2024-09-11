@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qXginldGTibrigDoaWTuOw
+! Checksum: SdhwnWSoW5vLO0G8SBA0zA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409111840
-! Last Modified: 2024年09月11日 18:40
+! Version: 202409112340
+! Last Modified: 2024年09月11日 23:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -513,12 +513,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_common.js
 /ad_counter.aspx
 /ad_display.js
-/ad_header.js
+/ad_header.js$script
 /ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_manager/*$image,script
-/ad_overlay.js
 /ad_pos=
 /ad_position=
 /ad_request.js
@@ -579,7 +578,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads-frontend.min.js$script
 /ads-rectangle.
 /ads-right.
-/ads-templateslist.
+/ads-templateslist.$script
 /ads-vast-vpaid.js?$script
 /ads.bundle.js
 /ads.bundle.min.js
@@ -593,7 +592,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/banners/*$image
 /ads/cbr.
 /ads/custom_ads.js
-/ads/delivery.
 /ads/footer.$~xmlhttprequest
 /ads/ga-audiences?
 /ads/gam_prebid-$script
@@ -603,7 +601,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/index.$~xmlhttprequest
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
-/ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
 /ads/popup.
@@ -636,7 +633,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads?zone_id=
 /ads_banners/*$image
 /ads_bg.$image
-/ads_bottom.js
 /ads_controller.js$script
 /ads_frame.
 /ads_iframe.$subdocument
@@ -698,7 +694,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adverts/*$~xmlhttprequest
 /advrotator.js
 /advrotator_banner_largo.htm$subdocument
-/adx2.
 /adz/js/adz.$script
 /aff/banners/*$image
 /aff/images/*$image
@@ -730,7 +725,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /api/ad.$script
 /api/ads?
 /apopwin.js
-/apstag.js
+/apstag.js$script
 /apu.php?
 /arcads.js$script
 /asset/ad/*$image
@@ -789,7 +784,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /combo?darla/*
 /common/ad.js$script
 /common/ads?
-/common_ad.js
+/common_ad.js$script
 /concert_ads-$script
 /content-ads.js$script
 /content/ads/*$~xmlhttprequest
@@ -798,7 +793,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /css/adsense.$stylesheet
 /css/adv.$stylesheet
 /curveball/ads/*$image
-/data-file_123.js
 /deliverad/fc.js$script
 /delivery.php?zone=
 /delivery/ag.php$script,subdocument
@@ -824,7 +818,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /exoads/*$script
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
-/expads-blocked.js
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.$script
@@ -923,7 +916,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
 /livejasmin.$domain=~livejasmin.com
-/localads.aspx
 /log_ad?
 /mads.php?
 /maven/am.js$script
@@ -933,7 +925,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /media_ads/*$image
 /mgid.html
 /microad.js
-/mnpw3.js
+/mnpw3.js$script
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
@@ -959,7 +951,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /oiopub-direct/js.php$script
 /oncc-ad.js$script
 /oncc-adbanner.js$script
-/openads.js
 /owa.MessageAdList.
 /p?zoneId=
 /page-links-to/dist/new-tab.js
@@ -1159,8 +1150,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /stickyad.js$script
 /stickyads.js$script
 /style_ad.css$stylesheet
-/suurl4.php?
-/suurl5.php
+/suurl4.php?$third-party
+/suurl5.php$third-party
 /suv4.js$third-party
 /suv5.js$third-party
 /taboola-footer.js$script
@@ -1168,12 +1159,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 /taboola_8.9.1.js$script
 /targetingAd.js$script
 /targetpushad.js$script
-/theologicalpresentation.com/*
 /tmbi-a9-header-$script
 /tncms/ads/*$script
 /tnt.ads.$script
 /top-ad.
-/top_ad.
+/top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.
 /triadshow.asp
 /ttj?id=
@@ -1458,7 +1448,7 @@ _widget_ad.
 -prebid/
 .prebid-bundle.
 .prebid.$domain=~prebid.org
-/ad/postbid_handler1.0.9.js
+/ad/postbid_handler1.$script
 /gpt-prebid.js$script
 /pbjsandwichdirecta9-$script
 /plugins/prebidjs/*$script
@@ -65607,7 +65597,7 @@ snokido.com##.bigsquare
 nypost.com,pagesix.com##.billboard-overlay
 electronicproducts.com##.billboard-wrap
 weatherpro.com##.billboard-wrapper
-motorcycle.com,thetruthaboutcars.com,upgradedhome.com##.billboardSize
+autoguide.com,motorcycle.com,thetruthaboutcars.com,upgradedhome.com##.billboardSize
 dev.to##.billboard[data-type-of="external"]
 techspot.com##.billboard_placeholder_min
 netweather.tv##.billheight
@@ -67878,7 +67868,7 @@ coincodex.com##.sidebar-1skyscraper
 ganjapreneur.com##.sidebar-ad-block
 oann.com##.sidebar-ad-slot__ad-label
 jayisgames.com##.sidebar-ad-top
-motorcycle.com##.sidebar-ad-unit
+autoguide.com,motorcycle.com##.sidebar-ad-unit
 computing.co.uk##.sidebar-block
 dailycoffeenews.com##.sidebar-box
 nfcw.com##.sidebar-display
