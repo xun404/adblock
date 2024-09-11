@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 50vvdSA3soriAe9kuqT/Zw
+! Checksum: Fe5rZWSn47eR8l7MZ5fejw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409111243
-! Last Modified: 2024年09月11日 12:43
+! Version: 202409111340
+! Last Modified: 2024年09月11日 13:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -610,7 +610,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad/img/*$image,domain=~eki-net.com|~jiji.com
 /ad/imp?
 /ad/load_ad?
-/ad/popup.
 /ad300.jpg$image
 /ad300.png$image
 /ad728.png$image
@@ -621,7 +620,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad_728.js
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
-/ad_bottom.js
+/ad_bottom.js$script
 /ad_break?
 /ad_campaign?
 /ad_common.js
@@ -642,15 +641,14 @@ tieba.baidu.com##.tuijian-wrap
 /ad_server.cgi$subdocument
 /ad_side.$~xmlhttprequest
 /ad_skyscraper.gif$image
-/ad_sticky.js
 /ad_top.jpg$image
 /ad_top.js$script
 /ad_vert.gif
 /adanalytics.js
 /adaptive_components.ashx?type=ads&
 /adaptvadplayer.js$script
-/adasync.js
-/adasync.min.js
+/adasync.js$script
+/adasync.min.js$script
 /adbanners/*$image
 /adcall?
 /adcgi?
@@ -672,13 +670,12 @@ tieba.baidu.com##.tuijian-wrap
 /adimages.$script
 /adj.php?
 /adjs.php$script
-/adlayer.php
-/adlib.min.js
+/adlayer.php$script
 /adlog.php$image
 /admanager.js$script
 /admanager.min.js$script
 /admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
-/admgr.js
+/admgr.js$script
 /admitad.js$script
 /adocean.js$script
 /adpartner.min.js$script
@@ -711,7 +708,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads/cbr.
 /ads/custom_ads.js
 /ads/delivery.
-/ads/footer.
+/ads/footer.$~xmlhttprequest
 /ads/ga-audiences?
 /ads/gam_prebid-$script
 /ads/get-ads-by-zones/?zones%
@@ -764,8 +761,8 @@ tieba.baidu.com##.tuijian-wrap
 /adsbanner-$image
 /adsbanner/*$image
 /adsbox.$~script,domain=~adsbox.com.sg
-/adscontroller.js
-/adscroll.js
+/adscontroller.js$script
+/adscroll.js$script
 /adsdelivery/*$subdocument
 /adserv.$script
 /adserve/*$script
@@ -785,7 +782,6 @@ tieba.baidu.com##.tuijian-wrap
 /adsscript.$script
 /adsservice.
 /adsTracking.$script
-/adstream.
 /adsWrapper.js$script
 /ads~adsize~
 /adtech;
@@ -800,10 +796,9 @@ tieba.baidu.com##.tuijian-wrap
 /adv-scroll.$script
 /adv-socialbar-scroll.js$script
 /adv.css?
-/adv_468.
 /adv_out.js$third-party
 /adv_teasers.js$script
-/adv_vert.js
+/adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
 /advanced-ads-$domain=~wordpress.org
 /advbanner/*$~image
@@ -818,7 +813,6 @@ tieba.baidu.com##.tuijian-wrap
 /adverts/*$~xmlhttprequest
 /advrotator.js
 /advrotator_banner_largo.htm$subdocument
-/advtBanner.
 /adx2.
 /adz/js/adz.$script
 /aff/banners/*$image
@@ -874,7 +868,7 @@ tieba.baidu.com##.tuijian-wrap
 /banner.php$domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
-/banner_468.
+/banner_468.$image
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
 /bannerad3.js$script
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
@@ -917,7 +911,7 @@ tieba.baidu.com##.tuijian-wrap
 /content/ads/*$~xmlhttprequest
 /cpmbanners.js
 /css/ads-$stylesheet
-/css/adsense.
+/css/adsense.$stylesheet
 /css/adv.$stylesheet
 /curveball/ads/*$image
 /data-file_123.js
@@ -950,7 +944,7 @@ tieba.baidu.com##.tuijian-wrap
 /expads-blocked.js
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
-/external/ad.
+/external/ad.$script
 /external/ads/*$image
 /external_ad?
 /external_ads.
@@ -968,17 +962,16 @@ tieba.baidu.com##.tuijian-wrap
 /flyad.js
 /footer-ad.$~script
 /footer_ad.js$script
-/footer_ad.php
-/footer_ads.php
-/footerads.
+/footer_ads.php$subdocument
+/footerads.php$script
 /fro_lo.js
 /froloa.js
 /frontend_loader.js$script
 /ftt2/js.php$script
 /funcript*.php?pub=
-/gdpr-ad-script.js
-/get/?go=1&data=
-/get?go=1&data=
+/gdpr-ad-script.js$script
+/get/?go=1&data=$subdocument
+/get?go=1&data=$subdocument
 /getad?
 /getads?
 /getAdsysCode?
@@ -993,7 +986,6 @@ tieba.baidu.com##.tuijian-wrap
 /gpt.js$script,xmlhttprequest
 /gpt_ads-public.js$script
 /GunosyAdsSDKv2.js
-/headerads1.php
 /homepage_ads/*$domain=~swedishbeauty.com
 /house-ads/*$image
 /hoverad.js
@@ -1015,7 +1007,7 @@ tieba.baidu.com##.tuijian-wrap
 /index-ad-$stylesheet
 /index-ad.js
 /index_ad/*$image
-/index_ads.js
+/index_ads.js$script
 /infinity.js.aspx?
 /inhouse_ads/*$image
 /inlineads.aspx
@@ -1041,7 +1033,7 @@ tieba.baidu.com##.tuijian-wrap
 /lazyad-loader.js$script
 /lazyad-loader.min.js$script
 /lazyload.ads?
-/left_ads.js
+/left_ads.js$script
 /leftad.js$script
 /leftad.png
 /legion-advertising-atlasastro/*$script
@@ -1070,11 +1062,11 @@ tieba.baidu.com##.tuijian-wrap
 /MPUAdHelper.js$script
 /mysimpleads/mysa_output.php$script
 /native/ts-master.$subdocument
-/nativeads-v2.js
+/nativeads-v2.js$script
 /nativeads.js$script
 /nativeads/script/*$script
 /nativebanner/ane-native-banner.js$script
-/nb/frot_lod.js
+/nb/frot_lud.js$script
 /neverblock/*$script
 /new/floatadv.js$script
 /ntv.json?key=
@@ -1152,7 +1144,7 @@ tieba.baidu.com##.tuijian-wrap
 /popup3.js$script
 /popup_ad.js$script
 /popup_ad.php
-/popup_code.php
+/popup_code.php$script
 /popupads.js$script
 /popupunder.js
 /prbt/v1/ads/?
@@ -1199,7 +1191,7 @@ tieba.baidu.com##.tuijian-wrap
 /responsive/ad_$subdocument
 /responsive_ads.js$script
 /right_ad.
-/right_ads.
+/right_ads.$~xmlhttprequest
 /rightad.js$script
 /s.ashx?btag
 /SBA-WP-13.js
@@ -1360,11 +1352,10 @@ tieba.baidu.com##.tuijian-wrap
 /wpadgu-clicks.js$script
 /wpadgu-frontend.js$script
 /wpbanners_show.php$script
-/wppas.min.css
-/wppas.min.js
+/wppas.min.css$stylesheet
+/wppas.min.js$script
 /wpxbz-theme.js$script
 /www/delivery/*$script,subdocument
-/xads.php
 /xpopup.js$script
 /yhs/ads?
 /zcredirect?
@@ -1625,7 +1616,6 @@ _prebid8.
 -detect-adblock.
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
-/adb_detector.
 /adblock-detect.
 /adblock-detector.
 /adblock-notify-by-bweb/*$script,stylesheet
@@ -63409,7 +63399,8 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||tnaflix.com/azUhsbtsuzm?
 ||tnaflix.com/js/mew.js?
 ||topescort.com/static/bn/
-||tranny.one/bdb.php
+||tranny.one/bhb.php
+||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||tryboobs.com/bfr/
 ||tsmodelstube.com/fun/$image,~third-party
@@ -66514,6 +66505,7 @@ newser.com##.fu4elsh1yd
 livability.com##.full-width-off-white
 theblock.co##.fullWidthDisplay
 greatandhra.com##.full_width_home.border-topbottom
+zoonek.com##.fullwidth-ads
 whatismybrowser.com##.fun-info-footer
 whatismybrowser.com##.fun-inner
 artscanvas.org##.funders
@@ -71376,6 +71368,7 @@ avn.com##.text-center.mb-10
 javfor.tv##.text-md-center
 cockdude.com##.textovka
 wichspornos.com##.tf-sp
+tranny.one##.th-ba
 porn87.com##.three_ads
 chikiporn.com,pornq.com##.thumb--adv
 pocomu.com,xnxx.com,xvideos.com##.thumb-ad
