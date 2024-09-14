@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LpUhOUca0TMKKk3UXGD0/A
+! Checksum: Jakd5e5d3+LL5qxIDpmhnw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409141443
-! Last Modified: 2024年09月14日 14:43
+! Version: 202409141737
+! Last Modified: 2024年09月14日 17:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -623,7 +623,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_campaign?
 /ad_common.js
 /ad_counter.aspx
-/ad_display.js
 /ad_header.js$script
 /ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
@@ -638,7 +637,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_skyscraper.gif$image
 /ad_top.jpg$image
 /ad_top.js$script
-/ad_vert.gif
 /adanalytics.js
 /adaptive_components.ashx?type=ads&
 /adaptvadplayer.js$script
@@ -650,14 +648,14 @@ tieba.baidu.com##.tuijian-wrap
 /adchoice.png$image
 /adcommon?
 /adconfig.js$script
-/adcount.js
+/adcount.js$script
 /addyn|*;adtech;
 /addyn|*|adtech;
 /adengine.js
 /adfox/loader.js
 /adfshow?
 /adfurikun/*$~image
-/adfx.loader.bind.js
+/adfx.loader.bind.js$script
 /adhandler/*$~subdocument
 /adiframe|*|adtech;
 /adimage.$image,script,stylesheet
@@ -680,12 +678,10 @@ tieba.baidu.com##.tuijian-wrap
 /adriver.$~script,domain=~adriver.co
 /adriver_$~object
 /ads-250.$image
-/ads-async.
+/ads-async.$script
 /ads-common.$image,script
 /ads-front.min.js$script
 /ads-frontend.min.js$script
-/ads-rectangle.
-/ads-right.
 /ads-templateslist.$script
 /ads-vast-vpaid.js?$script
 /ads.bundle.js$script
@@ -828,7 +824,7 @@ tieba.baidu.com##.tuijian-wrap
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
-/apopwin.js
+/apopwin.js$script
 /apstag.js$script
 /apu.php?
 /arcads.js$script
@@ -841,7 +837,7 @@ tieba.baidu.com##.tuijian-wrap
 /ban300.php
 /ban728.php
 /ban728x90.$image
-/banman/ad.aspx
+/banman/ad.aspx$image
 /banner-ad.$~script
 /banner-ads-rotator/*$script,stylesheet
 /banner-ads/*$image,domain=~1agosto.com
@@ -867,7 +863,6 @@ tieba.baidu.com##.tuijian-wrap
 /banners/affiliate/*$image
 /bottom-ads.jpg$image,domain=~saltwaterisland.com
 /bottom-ads.png$image
-/bottom_ad.jpg
 /bottomad.png$image
 /bottomads.js$script
 /bsa-plugin-pro-scripteo/frontend/js/script.js
@@ -892,7 +887,7 @@ tieba.baidu.com##.tuijian-wrap
 /concert_ads-$script
 /content-ads.js$script
 /content/ads/*$~xmlhttprequest
-/cpmbanners.js
+/cpmbanners.js$script
 /css/ads-$stylesheet
 /css/adsense.$stylesheet
 /css/adv.$stylesheet
@@ -906,7 +901,7 @@ tieba.baidu.com##.tuijian-wrap
 /delivery/lg.php$script,subdocument
 /dfp.min.js$third-party
 /dfp_async.js$script
-/dfpNew.min.js
+/dfpNew.min.js$script
 /didna_config.js
 /direct.hd?n=
 /discourse-adplugin-$script
@@ -935,11 +930,11 @@ tieba.baidu.com##.tuijian-wrap
 /flashads.$domain=~flashads.co.id
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /float_ad.js
-/floatads.
+/floatads.$script
 /floating-ad-rotator-$script,stylesheet
 /floatingad.js$script
 /floatingads.js
-/flyad.js
+/flyad.js$script
 /footer-ad.$~script
 /footer_ad.js$script
 /footer_ads.php$subdocument
@@ -960,8 +955,6 @@ tieba.baidu.com##.tuijian-wrap
 /google-adsense.js
 /google_adsense-$script
 /google_caf.js?
-/googleafc.js
-/googleafs.js
 /gospel2Truth.js
 /gpt.js$script,xmlhttprequest
 /gpt_ads-public.js$script
@@ -992,7 +985,7 @@ tieba.baidu.com##.tuijian-wrap
 /inhouse_ads/*$image
 /inlineads.aspx
 /insertads.js$script
-/internAds.css
+/internAds.css$stylesheet
 /istripper.gif$image
 /jquery.ad.js$script
 /jquery.adi.js$script
@@ -1055,7 +1048,6 @@ tieba.baidu.com##.tuijian-wrap
 /oiopub-direct/js.php$script
 /oncc-ad.js$script
 /oncc-adbanner.js$script
-/owa.MessageAdList.
 /p?zoneId=
 /page-links-to/dist/new-tab.js$script
 /page-peel$~xmlhttprequest
@@ -1108,14 +1100,11 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /pop_8/pop_8_$script
-/pop_ads.js
 /popin-min.js$script
 /popu.js
 /popunder1.js$script
 /popunder1000.js$script
-/popunder2.js
-/popunder5.js
-/popunder7.min.js
+/popunder2.js$script
 /popunder?
 /popup-domination/*$~stylesheet
 /popup2.js$script
@@ -1124,7 +1113,6 @@ tieba.baidu.com##.tuijian-wrap
 /popup_ad.php
 /popup_code.php$script
 /popupads.js$script
-/popupunder.js
 /prbt/v1/ads/?
 /prerollad.
 /prism_ad/*$script
@@ -1214,7 +1202,7 @@ tieba.baidu.com##.tuijian-wrap
 /side-ads-$~xmlhttprequest
 /side-ads/*$~xmlhttprequest
 /side_ads/*$~xmlhttprequest
-/sidead.
+/sidead.js$script
 /sidead1.js$script
 /sideads.js$script
 /sidebar_ad.jpg$image
@@ -1237,16 +1225,14 @@ tieba.baidu.com##.tuijian-wrap
 /spcjs.php$script
 /special/specialCtrl.js$script
 /sponsor-ad$image
-/sponsor-links.html
 /sponsorad.jpg$image
 /sponsorad.png
 /sponsored-links.
-/sponsored_ad.
 /sponsored_link.gif$image
 /sponsored_text.
 /sponsoredlinks?
 /sponsors/ads/*$image
-/squaread.jpg
+/squaread.jpg$image
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js$script
@@ -1266,7 +1252,7 @@ tieba.baidu.com##.tuijian-wrap
 /tnt.ads.$script
 /top-ad.
 /top_ad.$~xmlhttprequest,domain=~sunco.co.jp
-/top_ads.
+/top_ads.$~xmlhttprequest
 /topad.html$subdocument
 /triadshow.asp$script,subdocument
 /ttj?id=
@@ -1275,13 +1261,12 @@ tieba.baidu.com##.tuijian-wrap
 /v2/a/push/js/*$third-party
 /v3/ads?
 /vast/?zid=
-/velvet_stack_cmp.js
+/velvet_stack_cmp.js$script
 /vendors~ads.
 /vghd.gif
 /vghd2.gif
 /video-js-ads.
 /video_ads.$script
-/video_slider3.js
 /videoad.$domain=~videoad.in
 /videoad/*$script
 /videoads/*$~xmlhttprequest
@@ -17964,7 +17949,6 @@ browsershots.org#@#.advert_area
 ||adqit.com^
 ||adqongwuxvav.com^
 ||adquery.io^
-||adquet.com^
 ||adrcdn.com^
 ||adreadytractions.com^
 ||adrealclick.com^
@@ -62156,6 +62140,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||cyberscoop.com/advertising/
 ||d1lxz4vuik53pc.cloudfront.net^$domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
 ||daily-sun.com/assets/images/banner/
+||dailylook.com/modules/header/top_ads.jsp
 ||dailymail.co.uk^*/linkListItem-$domain=thisismoney.co.uk
 ||dailymirror.lk/youmaylike
 ||dailynews.lk/wp-content/uploads/2024/02/D-E
@@ -139214,7 +139199,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||surpreendaapp.hanzo.com.br^
 ||swa.anydma.com^
 ||sxarakia.openapp.link^
-||t.ac.pandora.com^
 ||t.bztest.origin.com.au^
 ||t.comms.thetimes.co.uk^
 ||t.discover.kayosports.com.au^
