@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vc65b/BswgCX3G0Bww2x4Q
+! Checksum: OlbeO1gcRdcJkMD9qTD98w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409141056
-! Last Modified: 2024年09月14日 10:56
+! Version: 202409141139
+! Last Modified: 2024年09月14日 11:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -519,8 +519,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_manager/*$image,script
 /ad_pos=
 /ad_position=
-/ad_request.js
-/ad_request.php
 /ad_right.$subdocument
 /ad_rotator/*$image,script,domain=~spokane.exchange
 /ad_server.cgi$subdocument
@@ -615,11 +613,10 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/view.php
 /ads/xtcore.
 /ads1.
-/ads4.
 /ads468.
 /ads468x60.$image
 /ads728.
-/ads728x90.
+/ads728x90.$image
 /ads?apid
 /ads?callback
 /ads?client=
@@ -658,7 +655,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsplugin/js/*$script
 /adsrv.
 /adsscript.$script
-/adsservice.
 /adsTracking.$script
 /adsWrapper.js$script
 /ads~adsize~
@@ -823,7 +819,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /fel456.js$script
 /fgh1ijKl.js$script
 /flashad.asp$subdocument
-/flashad.js
+/flashad.js$script
 /flashads.$domain=~flashads.co.id
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /float_ad.js
@@ -1160,7 +1156,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.
 /topad.html$subdocument
-/triadshow.asp
+/triadshow.asp$script,subdocument
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
@@ -1449,8 +1445,6 @@ _widget_ad.
 /porpoiseant/*$script
 /prebid-js-$script
 /prebid-min-$script
-/prebid-pro.
-/prebid-sdk.
 /prebid.$domain=~prebid.org
 /prebid/*$script
 /prebid1.$script
@@ -1465,7 +1459,6 @@ _widget_ad.
 /prebid?
 /prebid_$script,third-party
 /prebidlink/*$script
-/pubfig.min.js
 /tagman/*$domain=~abelssoft.de
 _prebid.js
 _prebid8.
@@ -1476,7 +1469,7 @@ _prebid8.
 /bdv_rd2.dbm?enparms
 /jscheck.php?enc=$xmlhttprequest
 /sl/assetlisting/?
-/jquery.peelback.
+/jquery.peelback.$script
 -adblocker-detection/
 -detect-adblock.
 /ad-blocking-advisor/*$script,stylesheet
@@ -1485,8 +1478,7 @@ _prebid8.
 /adblock-detector.
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
-/adblock_detector.
-/adblock_detector2.
+/adblock_detector2.$script
 /adblock_logger.$script
 /adblockdetect.js$script
 /adblockdetection.
@@ -22159,6 +22151,7 @@ browsershots.org#@#.advert_area
 ||cancriberths.com^
 ||candiedguilty.com^
 ||candiedtouch.com^
+||candiothoveled.com^
 ||candleannihilationretrieval.com^
 ||candyhiss.com^
 ||candypeaches.com^
@@ -23274,6 +23267,7 @@ browsershots.org#@#.advert_area
 ||coastlinejudgement.com^
 ||coatassert.com^
 ||coatedflamfew.click^
+||coationexult.com^
 ||coatsanguine.com^
 ||coatslilachang.com^
 ||coawheer.net^
@@ -25509,6 +25503,7 @@ browsershots.org#@#.advert_area
 ||dnvgecz.com^
 ||doaboowa.com^
 ||doaipomer.com^
+||doajauhopi.xyz^
 ||doaltariaer.com^
 ||doappcloud.com^
 ||doastaib.xyz^
@@ -39899,6 +39894,7 @@ browsershots.org#@#.advert_area
 ||peculiaritiessevermaestro.com^
 ||peculiarpug.com^
 ||pedestalturner.com^
+||pedeticinnet.com^
 ||pedlujvcfd.com^
 ||peechohovaz.xyz^
 ||peeingmunster.top^
@@ -54967,6 +54963,7 @@ browsershots.org#@#.advert_area
 ||8bf6c3e9-3f4f-40db-89b3-58248f943ce3.online^$document,popup
 ||8eef59a5.live^$document,popup
 ||91301246.xyz^$document,popup
+||92790388.xyz^$document,popup
 ||9354ee72.xyz^$document,popup
 ||94597672.xyz^$document,popup
 ||97496b9d.xyz^$document,popup
@@ -101892,6 +101889,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||camgirls.casa/p.php
 ||campsaver.com/nelmio-js-logger/
 ||canstockphoto.com/server.php?rqst=track
+||canva.com/_ajax/ae/createBatch
 ||capital.com^$ping
 ||capitalone.com/collector/
 ||cargurus.com/cars/cganalyticspageview.action
