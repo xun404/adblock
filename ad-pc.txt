@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aUIJwfXsvxljhdDswHKSvQ
+! Checksum: Jl0XGFcs5qhCoD8Jdhzc7Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409152137
-! Last Modified: 2024年09月15日 21:37
+! Version: 202409152337
+! Last Modified: 2024年09月15日 23:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -615,7 +615,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad?pos_
 /ad?type=
 /ad_728.jpg$image
-/ad_728.js
+/ad_728.js$script
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
 /ad_bottom.js$script
@@ -751,7 +751,7 @@ tieba.baidu.com##.tuijian-wrap
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
 /adserver?
-/adsforwp-front.min.css
+/adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
@@ -788,7 +788,6 @@ tieba.baidu.com##.tuijian-wrap
 /advert?
 /advertbanner.
 /advertising/banners/*$image
-/advertisingWebRenderer.min.js
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -833,8 +832,6 @@ tieba.baidu.com##.tuijian-wrap
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
 /ban.php?
-/ban300.php
-/ban728.php
 /ban728x90.$image
 /banman/ad.aspx$image
 /banner-ad.$~script
@@ -870,7 +867,6 @@ tieba.baidu.com##.tuijian-wrap
 /buysellads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
-/cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
 /clickadu300.aspx
@@ -1109,7 +1105,6 @@ tieba.baidu.com##.tuijian-wrap
 /popup2.js$script
 /popup3.js$script
 /popup_ad.js$script
-/popup_ad.php
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?
@@ -1153,7 +1148,6 @@ tieba.baidu.com##.tuijian-wrap
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js$script
-/right_ad.
 /right_ads.$~xmlhttprequest
 /rightad.js$script
 /s.ashx?btag
@@ -1253,6 +1247,7 @@ tieba.baidu.com##.tuijian-wrap
 /topad.html$subdocument
 /triadshow.asp$script,subdocument
 /ttj?id=
+/umd/advertisingWebRenderer.min.js$script
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
@@ -1274,7 +1269,6 @@ tieba.baidu.com##.tuijian-wrap
 /virtuagirlhd.$image
 /web/ads/*$image
 /web_ads/*$image
-/webads.htm
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /widget-advert?
@@ -1578,7 +1572,6 @@ _prebid8.
 /adblockdetect.js$script
 /adblockdetection.
 /adBlockDetector/*$script
-/adblocker-leader.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
@@ -25542,6 +25535,7 @@ browsershots.org#@#.advert_area
 ||djldrhxb.com^
 ||djmwwdrznntss.com^
 ||djmwxpsijxxo.xyz^
+||djosbhwpnfxmx.com^
 ||djphnuhkbjf.com^
 ||djqacscl.com^
 ||djqitgfjfu.com^
@@ -33299,6 +33293,7 @@ browsershots.org#@#.advert_area
 ||jotskuffieh.website^
 ||jotterswirrah.com^
 ||jouaboe.com^
+||joucefeet.xyz^
 ||joudauhee.com^
 ||joudotee.com^
 ||joukaglie.com^
@@ -43605,6 +43600,7 @@ browsershots.org#@#.advert_area
 ||riverhit.com^
 ||riverpush.com^
 ||riversingratitudestifle.com^
+||riverstressful.com^
 ||rivetrearrange.com^
 ||rivmuvlnu.com^
 ||rivne.space^
@@ -45794,6 +45790,7 @@ browsershots.org#@#.advert_area
 ||soonlint.com^
 ||soonpersuasiveagony.com^
 ||soonstrongestquoted.com^
+||soopsepsi.net^
 ||soopsulo.xyz^
 ||soosooka.com^
 ||sootconform.com^
@@ -46612,6 +46609,7 @@ browsershots.org#@#.advert_area
 ||stupidityitaly.com^
 ||stupidityscream.com^
 ||stupidspaceshipfestivity.com^
+||stuwhost.net^
 ||stvbiopr.net^
 ||stvkr.com^
 ||stvsmdhfplfrcy.xyz^
@@ -51629,6 +51627,7 @@ browsershots.org#@#.advert_area
 ||wwpush22.com^
 ||wwqssmg.com^
 ||wwunnmshmv.xyz^
+||wwvxdhbmlqcgk.xyz^
 ||www6.hentai-zone.com^
 ||www8.upload-pics.com^
 ||wwwadcntr.com^
@@ -78723,7 +78722,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||52tian.net^*/xuanfu.js
 ||52waha.com/static/js/func_bbs.js
 ||52wmb.com/2014js/cn_
-||52xkdy.com/2020content/
 ||52z.com/images/52zgg/
 ||52zpi.com/gg/
 ||52zy.com/other/js/
@@ -82679,6 +82677,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xindingwealth.com/js/39.
 ||ufile.cc/pps.js
 ||dajiadu8.com/17mb/script/ad.js
+/mpc/*$domain=52xkdy.com|fydy8.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 tmioe.com##.tphf
@@ -88403,7 +88402,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
-@@_adview_$domain=52xkdy.com|fydy8.com
+@@/adview_$domain=52xkdy.com|fydy8.com
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=saraba1st.com
 @@||060s.com/images_ad/*.png
