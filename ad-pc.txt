@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TElUuYx1We3SJRkg3hQ6DQ
+! Checksum: bVRkuGapS5+Mp1Bb8Sxwuw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409162140
-! Last Modified: 2024年09月16日 21:40
+! Version: 202409162241
+! Last Modified: 2024年09月16日 22:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -682,6 +682,7 @@ tieba.baidu.com##.tuijian-wrap
 /ads-common.$image,script
 /ads-front.min.js$script
 /ads-frontend.min.js$script
+/ads-native.js$script
 /ads-templateslist.$script
 /ads-vast-vpaid.js?$script
 /ads.bundle.js$script
@@ -704,7 +705,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/index.$~xmlhttprequest
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
-/ads/native.js
 /ads/outbrain?
 /ads/rectangle_$subdocument
 /ads/revgen.$script
@@ -717,9 +717,8 @@ tieba.baidu.com##.tuijian-wrap
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/video/*$script
-/ads/view.php
 /ads/xtcore.
-/ads1.
+/ads1.$~xmlhttprequest,domain=~ads-i.org
 /ads468.
 /ads468x60.$image
 /ads728.
@@ -766,7 +765,6 @@ tieba.baidu.com##.tuijian-wrap
 /adtools.js$script
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adunit/track-view|
-/adunits.
 /adunits/bcid?
 /adutil.js$script
 /adv-banner-$image
@@ -788,7 +786,6 @@ tieba.baidu.com##.tuijian-wrap
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
-/advrotator.js
 /advrotator_banner_largo.htm$subdocument
 /adz/js/adz.$script
 /aff/banners/*$image
@@ -987,7 +984,7 @@ tieba.baidu.com##.tuijian-wrap
 /js.ng/cat=
 /js.ng/channel_
 /js.ng/pagepos=
-/js3caf.js
+/js/advRotator.js$script
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js$script
@@ -1118,10 +1115,8 @@ tieba.baidu.com##.tuijian-wrap
 /publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
 /puff_ad?
-/punder.php
 /push/p.js?
 /rad_singlepageapp.js$script
-/railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
@@ -1170,8 +1165,8 @@ tieba.baidu.com##.tuijian-wrap
 /script/uBlock.js$third-party
 /script/wait.php?*=$xmlhttprequest
 /script/xxAG1.js$third-party
-/scripts/chatur.js
-/sdk/push_web/?zid=
+/scripts/js3caf.js$script
+/sdk/push_web/?zid=$third-party
 /select_adv?
 /servead/request/*$script,subdocument
 /serveads.php$script
@@ -1247,8 +1242,6 @@ tieba.baidu.com##.tuijian-wrap
 /vast/?zid=
 /velvet_stack_cmp.js$script
 /vendors~ads.
-/vghd.gif
-/vghd2.gif
 /video-js-ads.
 /video_ads.$script
 /videoad.$domain=~videoad.in
@@ -142714,9 +142707,3 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! 乘风 视频广告过滤规则
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vM7qPtJKYNFhzmDmBpzlbw
+! Checksum: qbup4qbY1VJ63n73B1SVFg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409162140
-! Last Modified: 2024年09月16日 21:40
+! Version: 202409162241
+! Last Modified: 2024年09月16日 22:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -570,6 +570,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads-common.$image,script
 /ads-front.min.js$script
 /ads-frontend.min.js$script
+/ads-native.js$script
 /ads-templateslist.$script
 /ads-vast-vpaid.js?$script
 /ads.bundle.js$script
@@ -592,7 +593,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/index.$~xmlhttprequest
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
-/ads/native.js
 /ads/outbrain?
 /ads/rectangle_$subdocument
 /ads/revgen.$script
@@ -605,9 +605,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/video/*$script
-/ads/view.php
 /ads/xtcore.
-/ads1.
+/ads1.$~xmlhttprequest,domain=~ads-i.org
 /ads468.
 /ads468x60.$image
 /ads728.
@@ -654,7 +653,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adtools.js$script
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adunit/track-view|
-/adunits.
 /adunits/bcid?
 /adutil.js$script
 /adv-banner-$image
@@ -676,7 +674,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
-/advrotator.js
 /advrotator_banner_largo.htm$subdocument
 /adz/js/adz.$script
 /aff/banners/*$image
@@ -875,7 +872,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /js.ng/cat=
 /js.ng/channel_
 /js.ng/pagepos=
-/js3caf.js
+/js/advRotator.js$script
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js$script
@@ -1006,10 +1003,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
 /puff_ad?
-/punder.php
 /push/p.js?
 /rad_singlepageapp.js$script
-/railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
@@ -1058,8 +1053,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /script/uBlock.js$third-party
 /script/wait.php?*=$xmlhttprequest
 /script/xxAG1.js$third-party
-/scripts/chatur.js
-/sdk/push_web/?zid=
+/scripts/js3caf.js$script
+/sdk/push_web/?zid=$third-party
 /select_adv?
 /servead/request/*$script,subdocument
 /serveads.php$script
@@ -1135,8 +1130,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /vast/?zid=
 /velvet_stack_cmp.js$script
 /vendors~ads.
-/vghd.gif
-/vghd2.gif
 /video-js-ads.
 /video_ads.$script
 /videoad.$domain=~videoad.in
