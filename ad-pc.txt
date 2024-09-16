@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mmnvBnbM91CziGuzxGjtzQ
+! Checksum: U9uGTe7IVsQgAehbWoSBvg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409161243
-! Last Modified: 2024年09月16日 12:43
+! Version: 202409161341
+! Last Modified: 2024年09月16日 13:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -622,7 +622,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad_break?
 /ad_campaign?
 /ad_common.js
-/ad_counter.aspx
+/ad_counter.aspx$ping
 /ad_header.js$script
 /ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
@@ -706,7 +706,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads/leaderboard-$~xmlhttprequest
 /ads/native.js
 /ads/outbrain?
-/ads/popup.
 /ads/rectangle_$subdocument
 /ads/revgen.$script
 /ads/serve?
@@ -755,12 +754,10 @@ tieba.baidu.com##.tuijian-wrap
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
-/adsinclude.
 /adslide.js$script
 /adsmanager.nsf/*$image
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
 /adsplugin/js/*$script
-/adsrv.
 /adsscript.$script
 /adsTracking.$script
 /adsWrapper.js$script
@@ -896,7 +893,7 @@ tieba.baidu.com##.tuijian-wrap
 /dfp.min.js$third-party
 /dfp_async.js$script
 /dfpNew.min.js$script
-/didna_config.js
+/didna_config.js$script
 /direct.hd?n=
 /discourse-adplugin-$script
 /displayad?
@@ -910,7 +907,7 @@ tieba.baidu.com##.tuijian-wrap
 /exitsplash.php$script
 /exoads/*$script
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
-/exonb/backloaderforload.php
+/exonb/*$script
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.$script
@@ -923,7 +920,7 @@ tieba.baidu.com##.tuijian-wrap
 /flashad.js$script
 /flashads.$domain=~flashads.co.id
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
-/float_ad.js
+/float_ad.js$script
 /floatads.$script
 /floating-ad-rotator-$script,stylesheet
 /floatingad.js$script
@@ -933,8 +930,7 @@ tieba.baidu.com##.tuijian-wrap
 /footer_ad.js$script
 /footer_ads.php$subdocument
 /footerads.php$script
-/fro_lo.js
-/froloa.js
+/fro_lo.js$script
 /frontend_loader.js$script
 /ftt2/js.php$script
 /funcript*.php?pub=
@@ -1215,7 +1211,7 @@ tieba.baidu.com##.tuijian-wrap
 /special/specialCtrl.js$script
 /sponsor-ad$image
 /sponsorad.jpg$image
-/sponsorad.png
+/sponsorad.png$image,domain=~hmassoc.org
 /sponsored-links.
 /sponsored_link.gif$image
 /sponsored_text.
@@ -1316,6 +1312,7 @@ tieba.baidu.com##.tuijian-wrap
 ://ads2.
 ://adserver1.
 ://adserving.
+://adsrv.
 ://adsserver.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://aff-ads.
