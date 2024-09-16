@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u8lxYEMkn/wcA//maeM6wA
+! Checksum: YCoWEKcc0P6n+HO3i7NqzA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409161742
-! Last Modified: 2024年09月16日 17:42
+! Version: 202409162059
+! Last Modified: 2024年09月16日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -36997,7 +36997,6 @@ browsershots.org#@#.advert_area
 ||neshigreek.com^
 ||nessainy.net^
 ||nestledmph.com^
-||net.geo.opera.com^
 ||netcatx.com^
 ||netflopin.com^
 ||nethebravero.com^
@@ -52616,7 +52615,6 @@ browsershots.org#@#.advert_area
 ||nan0cns.com^$document
 ||naubatodo.com^$document
 ||nauwheer.net^$document
-||net.geo.opera.com^$document
 ||news-jivera.com^$document
 ||nexaapptwp.top^$document
 ||nightbesties.com^$document
@@ -56794,7 +56792,6 @@ browsershots.org#@#.advert_area
 ||neptuntrack.com^$popup
 ||nereu-gdr.com^$popup
 ||nessainy.net^$popup
-||net.geo.opera.com^$popup
 ||netcpms.com^$popup
 ||netpatas.com^$popup
 ||netund.com^$popup
@@ -63265,6 +63262,7 @@ notebookcheck.net###contenta
 theproxy.lol,uproxy2.biz###cookieConsentUR99472
 alt-codes.net###copyModal .modal-body
 wsj.com###coupon-links
+boots.com###criteoSpContainer
 lordz.io###crossPromotion
 croxyproxy.rocks###croxyExtraZapper
 pcwdld.com###ct-popup
@@ -69263,6 +69261,7 @@ tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 androidauthority.com##div:not([class]) > div[class^="_--_-___"]:has(> div[data-ad-type="leaderboard_atf"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
+shoprite.com##div[class*="Row--"]:has(img[src*="/PROMOTED-TAG_"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 walmart.com##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
@@ -69314,6 +69313,8 @@ tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripa
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
+tripadvisor.com#?#[data-automation="crossSellShelf"] div:has(> span:-abp-contains(Sponsored))
+tripadvisor.com#?#[data-automation="relatedStories"] div > div:has(a:-abp-contains(SPONSORED))
 oneindia.com##ul > li:has(> div[class^="adg_"])
 modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="http://bloom.amymialee.xyz"] > img
@@ -73491,6 +73492,7 @@ newduba.cn###jq_youxi
 ##a[href*="/bjty96.vip"]
 ||sgadkc.xyz^
 ||wdickee.top^
+||gtdf33.fun^
 ||hahaql.top^
 ||yiucfif.icu^
 ||vcxv73.fun^
@@ -99036,6 +99038,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.azion.com^
 ||rum.azioncdn.net^
 ||rum.corewebvitals.io^
+||rum.hlx.page^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
 ||rum.perfops.net^
@@ -99221,6 +99224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.polldaddy.com^
 ||stats.prebytes.com^
 ||stats.pusher.com^
+||stats.pushloop.io^
 ||stats.sa-as.com^
 ||stats.sawlive.tv^
 ||stats.screenresolution.org^
@@ -142706,3 +142710,9 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! 乘风 视频广告过滤规则
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
