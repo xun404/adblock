@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HEtMFGj7qSpir7+gvJbNgg
+! Checksum: 30pOEgynmYGaD6+x6O5eIA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409170555
-! Last Modified: 2024年09月17日 05:55
+! Version: 202409170637
+! Last Modified: 2024年09月17日 06:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1206,6 +1206,7 @@ www.facebook.com,web.facebook.com#$#skip-video 'video[playsinline]'; simulate-mo
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@id="watch_feed"]//span[@class][@dir="auto"][contains(., "Sponsored") or contains(.,"Sponsorisé") or contains(.,"Sponsorizzato") or contains(.,"Publicidad") or contains(.,"Sponsorowane") or contains(.,"Anzeige") or contains(.,"Ge⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d") or contains(.,"Patrocinado") or contains(.,"स्पॉन्सर्ड")]/ancestor-or-self::a[@aria-label][@href][@role="link"][@target="_blank"]/parent::div[1]'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/' '{}' 'instream_video_ad_breaks_comet'
 www.facebook.com,web.facebook.com#$#json-prune 'data.scrubber.instream_video_ads' 'data.scrubber.post_roll_ad_break'
+www.facebook.com,web.facebook.com#$#json-prune 'instream_video_ad_breaks_comet'
 ! Rules that don't need to change
 @@||www.facebook.com^$generichide
 @@||web.facebook.com^$generichide
