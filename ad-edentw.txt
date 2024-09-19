@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: t+I/yriGYY1k66kALz29Xg
+! Checksum: 3ICak605DnYOAJtwRYrMog
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409191937
-! Last Modified: 2024年09月19日 19:37
+! Version: 202409192140
+! Last Modified: 2024年09月19日 21:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -565,6 +565,8 @@ reddit.com##.jag8CityBio212023
 ! #RM-4
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 ! #RM-11
+! hp
+ebay.com#$#hide-if-matches-xpath './/div[@class]/h2[contains(.,"Sponsored")]//ancestor::div[@data-viewdtls][@data-pushed-view="true"]'
 ! ta
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
@@ -574,6 +576,7 @@ ebay.*#$#hide-if-matches-xpath './/section[@data-marko-key][@data-view]//ul[@cla
 ! pp
 ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxODc1"]'
 ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxMTk2"]'
+ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style^="min-height:144px;"]>div' 'div[data-viewport]>div[id^="placement"][style]>div>span ^^sh^^ div'
 ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"promoted_items")][@target="_blank"][@data-click]/ancestor-or-self::div[contains(@class,"mTcz")]/parent::div[1]'
 ebay.*#$#abort-on-property-read window.ebayAdsBerries.render; abort-on-property-read window.berries
 ! sp
