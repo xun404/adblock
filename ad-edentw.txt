@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0U6ImOjehgddChj4zg2JPg
+! Checksum: qAq5uJ09PNyXFrUrMYBTrA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409200044
-! Last Modified: 2024年09月20日 00:44
+! Version: 202409200438
+! Last Modified: 2024年09月20日 04:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1199,6 +1199,7 @@ www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?("Spon
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(label_field_for_brs|brs_c)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(label_field_for_brs|brs_c)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auct_dist'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'auction_dist_for_sponsored'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"new_label_for_brs[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'auction_dist_for_sponsored'
 www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.sponsored_data.ad_id'
 ! mp
 www.facebook.com,web.facebook.com##a[href*="ad_preferences"]>span[class][dir]
