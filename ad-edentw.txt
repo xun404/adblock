@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pPGDBDcNzgkJ/TVeb/U7+g
+! Checksum: t+I/yriGYY1k66kALz29Xg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409191643
-! Last Modified: 2024年09月19日 16:43
+! Version: 202409191937
+! Last Modified: 2024年09月19日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -961,7 +961,7 @@ userload.co#$#abort-current-inline-script $ Math.random
 tubeload.co#$#abort-on-property-write BetterJsPop
 hotleak.vip#$#abort-on-property-read advertising
 socialmediagirls.com#$#abort-on-property-read ExoVideoSlider.init
-9anime.to,9animetv.to,embed.scdn.to,gogoanime.sx,musichq.cc#$#abort-on-property-write rotationUrl; override-property-read changeServer undefined; abort-current-inline-script document.createElement /script/; prevent-listener beforeunload ();
+9anime.to,9animetv.to,embed.scdn.to,gogoanime.sx,musichq.*#$#abort-on-property-write rotationUrl; override-property-read changeServer undefined; abort-current-inline-script document.createElement /script/; prevent-listener beforeunload ();
 xxxtik.com#$#abort-on-property-read decodeURI; abort-on-property-read fromCharCode;
 opvid.co,opvid.net,opvid.org#$#abort-on-property-read setInterval; abort-on-property-read setTimeout; abort-on-property-read Math.random
 9anime.to,gogoanime.sx#$#abort-current-inline-script setTimeout String.fromCharCode
@@ -1158,7 +1158,6 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 awafim.tv,movies2watch.tv,sflix.*#$#prevent-listener break;case $.
 player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
-drudgereport.com#$#abort-on-property-write window.nitroAds;
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
