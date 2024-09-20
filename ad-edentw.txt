@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /auhoGx5AIu6QLVHlQ3dwQ
+! Checksum: lbpesNzapQ7YIUMD6rsc9w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409201841
-! Last Modified: 2024年09月20日 18:41
+! Version: 202409201938
+! Last Modified: 2024年09月20日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -522,6 +522,7 @@ ajaxshowtime.com##div.leaderboard_ad + div
 ! CV-3435
 marketwatch.com,wsj.com#$#race start; hide-if-matches-xpath './/iframe[@id][./@*[contains(., "dianomi SmartAd Content")]][contains(@src, "partner_tcf_status")]/preceding::img[@data-src]//ancestor::section[contains(@class,"ad")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@src][@*[starts-with(name(), "data-")]]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]//following::iframe[@id][@style][@title]/parent::div[@style]/ancestor::span[@style][@class]/ancestor::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/iframe[@title][@id][@class][@src][@style]/parent::div[@style]/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div'; race stop;
 marketwatch.com,wsj.com#$#abort-on-property-write window.__buildAd;
+marketwatch.com#$#hide-if-matches-xpath '//div[count(div)=2 and .//a[starts-with(@href, "#")]]/div[2]/div[3]/span[.//img[contains(@data-src, "cloudfront.net")] and .//iframe[@id and starts-with(@id, "4")]]//ancestor::span//ancestor::div'
 @@||adsafeprotected.com^$domain=marketwatch.com|wsj.com
 ! RM-65
 skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::div[@aria-label]/parent::div[1]'
@@ -1737,7 +1738,7 @@ www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 full.cliphot69.live#$#override-property-read a_vid 0
 ! Popup/Popunder/Clickunder
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet2.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn,motchilltv.vc,cdn2.blueskychilling.online,ohaha79xxx.site,fastscans.net#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet3.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn,motchilltv.vc,cdn2.blueskychilling.online,ohaha79xxx.site,fastscansz.com#$#abort-on-property-read open
 tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen2u.net#$#abort-current-inline-script eval
 thienhatruyen3.com#$#abort-current-inline-script $ pc-popup-2
@@ -1752,19 +1753,19 @@ xoilacr.cc#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.zip,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenceo.com,yurineko.net,vlxyz.tube,javhay.my,phimsexhay669.pro,cliphot69.sbs,doctruyen3qtv.pro,ihentaiz.com,animehay.biz,heo69.moe,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.vip,truyenvn.fit,cdnstream.sbs,javtiful.com,tuoi69.my,quatvn.baby,tenmientruyengi.net,topviet69.com,phim18hd.sex,sexviet88.info,xmupvl.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xem.phim18c.org,full.cliphot69.live,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
+viet69.zip,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenceo.com,yurineko.net,vlxyz.tube,javhay.my,phimsexhay669.pro,cliphot69.sbs,doctruyen3qtv.pro,ihentaiz.vip,animehay.biz,heo69.moe,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.vip,truyenvn.fit,cdnstream.sbs,javtiful.com,tuoi69.my,quatvn.baby,tenmientruyengi.net,topviet69.com,phim18hd.sex,sexviet88.info,xmupvl.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xem.phim18c.org,full.cliphot69.live,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
 phimtuoitho.site#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,www.phimdinhcaoz.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net,3dchill.shop,animevietsub.pub#$#abort-current-inline-script eval $._Eu
 luotphimi.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
-xemphimhdc.us,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
+xemphimhdc.org,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyenceo.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.life#$#abort-current-inline-script $ PopUnder
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
-www.toptruyenviet.info#$#abort-current-inline-script Promise instance
+www.toptruyenzz.pro#$#abort-current-inline-script Promise instance
 animehay.biz#$#abort-current-inline-script document.addEventListener window.open
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.vip,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
@@ -1780,7 +1781,7 @@ imail.edu.vn#$#abort-current-inline-script setTimeout Aff;abort-current-inline-s
 ungtycomicsvip.org#$#abort-current-inline-script document.body.addEventListener window.open
 sex.chichnhau.me#$#abort-current-inline-script $ pop
 sexhd88.live#$#abort-current-inline-script document.addEventListener open
-www.toptruyenviet.info#$#abort-current-inline-script setTimeout open
+www.toptruyenzz.pro#$#abort-current-inline-script setTimeout open
 cdn2.blueskychilling.online#$#abort-current-inline-script $ open
 phimmoi.club,motphimww.net#$#abort-current-inline-script addEvent popu
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com,playhydrax.com#$#override-property-read open noopFunc
