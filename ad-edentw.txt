@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zp8xQXIdti3xpK/ACJHO7w
+! Checksum: j7z1Muu20FxNvknoDpSiAw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202409210243
-! Last Modified: 2024年09月21日 02:43
+! Version: 202409210641
+! Last Modified: 2024年09月21日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -579,7 +579,7 @@ ebay.*#$#hide-if-matches-xpath './/section[@data-marko-key][@data-view]//ul[@cla
 ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxODc1"]'
 ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxMTk2"]'
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style^="min-height:144px;"]>div' 'div[data-viewport]>div[id^="placement"][style]>div>span ^^sh^^ div'
-ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"promoted_items")][@target="_blank"][@data-click]/ancestor-or-self::div[contains(@class,"mTcz")]/parent::div[1]'
+||ir.ebaystatic.com/cr/ads/nuts/berries-with-css-symbol-*-unblock.js^$script,domain=ebay.*
 ebay.*#$#abort-on-property-read window.ebayAdsBerries.render; abort-on-property-read window.berries
 ! sp
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
