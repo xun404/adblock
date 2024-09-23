@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T6sFml7leVXlVc2LvxJzlw
+! Checksum: oQmzLRXMlr9IyT85gucoQQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202409231843
-! Last Modified: 2024年09月23日 18:43
+! Version: 202409232059
+! Last Modified: 2024年09月23日 20:59
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -71069,6 +71069,7 @@ tube8.es,tube8.fr,youporngay.com##video[autoplay]
 porndoe.com,redtube.com##video[autoplay][src*="blob:" i]
 porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 cam4.*##div[class^="SponsoredAds_"]
+!! :has()
 redgifs.com##.SideBar-Item:has(> [class^="_liveAdButton"])
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)
