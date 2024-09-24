@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: shUNKueM6gFHDyd069o+iA
+! Checksum: EshmbBsA0bo7aGUmxZEdhQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202409242100
-! Last Modified: 2024年09月24日 21:00
+! Version: 202409242241
+! Last Modified: 2024年09月24日 22:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -345,8 +345,6 @@ m.youtube.com###koya_child_6
 pan.baidu.com##.upload-bar.global-clearfix
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
-&pcid=*&rid=
-&sadbl=1$third-party
 -ad-300x600-
 -ad-458x80.
 -ad-bottom-
@@ -1411,7 +1409,8 @@ _widget_ad.
 /tagman/*$domain=~abelssoft.de
 _prebid.js
 _prebid8.
-&sadbl=1&chu=
+&sadbl=1&abtg=$third-party
+&sadbl=1&chu=$third-party
 ?zoneid=*&ab=1
 /webservices/jsparselinks.aspx?$script
 /affiliate/referral.asp?site=*&aff_id=
@@ -54292,6 +54291,7 @@ browsershots.org#@#.advert_area
 ||98140548.xyz^$document,popup
 ||9814b49f.xyz^$document,popup
 ||98383163.xyz^$document,popup
+||98853171.xyz^$document,popup
 ||9bc639da.xyz^$document,popup
 ||a49ebd.xyz^$document,popup
 ||a5d2d040.xyz^$document,popup
@@ -73423,6 +73423,8 @@ newduba.cn###jq_youxi
 ||38.33.15.*.gif
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
+||fq010.shop^
+||jy010.shop^
 ||jiujy5r3.fun^
 ||kdopag.xyz^
 ||swaterb.top^
