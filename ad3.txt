@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ul0QGSxi1lDP7Xv41h9hAw
+! Checksum: pKypc67cHki7Hwj9xyOK1A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202409260738
-! Last Modified: 2024年09月26日 07:38
+! Version: 202409261002
+! Last Modified: 2024年09月26日 10:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10293,6 +10293,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tsdm39.com/img01/MP3/GG/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+msn.cn##gaming-discover-strip
+msn.cn##casual-games-carousel-card
+msn.cn##.game-advertise-container
+msn.cn##.views-right-rail-top-display
+msn.cn##.consumption-page > above-river-block
+baidu.com##.lianmeng-pause
 baidu.com##.container_frs:has(>.voice_room_card_frs[data-url*="yylive"])
 baidu.com##.container:has(>.bottom-section>.item_voice_room[data-yysid])
 baidu.com#?#.container:-abp-has(>.bottom-section>.item_voice_room[data-yysid])
