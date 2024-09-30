@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a54MG8GOrxeexd2S3iASUA
+! Checksum: rTdtCAPF1CCexNc5miSd2w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202410010245
-! Last Modified: 2024年10月01日 02:45
+! Version: 202410010640
+! Last Modified: 2024年10月01日 06:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -575,7 +575,7 @@ ebay.com#$#hide-if-matches-xpath './/div[@class]/h2[contains(.,"Sponsored")]//an
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
-ebay.*#$#hide-if-matches-xpath './/div[@aria-hidden="true"][text()]/preceding::div[@aria-labelledby]/ancestor-or-self::div[@id][@style="min-height:1px"]/ancestor-or-self::div[@id][@style="min-height:144px;"]'
+ebay.*#$#hide-if-matches-xpath './/div[@aria-hidden="true"][@*[contains(name(),"data-")]]/ancestor::div[@aria-labelledby]/ancestor-or-self::div[@id][contains(@style,"min-height:")]/ancestor::div[contains(@id,"placement_10")]/parent::div[1]'
 ! cp
 ebay.*#$#hide-if-matches-xpath './/section[@data-marko-key][@data-view]//ul[@class]//span[@aria-hidden="true"]/ancestor::div[contains(@class,"__bottom-one-row")]/preceding::a[contains(@data-track,"checksum")]/ancestor-or-self::li[contains(@class,"s-item")][1]'
 ebay.*#$#hide-if-matches-xpath './/span[text()]/preceding-sibling::span[contains(@class,"bsig__sponsoredInfo")][text()]/ancestor-or-self::li[contains(@class,"brwrvr__item-card--list")]'
