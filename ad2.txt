@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NwrD7IoqkClE/fdyu1hg3w
+! Checksum: 4jv3f9BXmbZP9yX5TECnRA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202410021101
-! Last Modified: 2024年10月02日 11:01
+! Version: 202410021242
+! Last Modified: 2024年10月02日 12:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -16,6 +16,7 @@
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 =fitacg.com/static/other/
+/static/js/pop_promotion.js?v=
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -1717,6 +1718,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 ||kwurserd.top^
+##a[href*=".zxzjys.com/"]
 ||zeryt111.fun^
 ||tuxpfiok.icu^
 ||62zd0.icu^
@@ -10362,6 +10364,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tsdm39.com/img01/MP3/GG/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+kmeiju.com##.ad
 wenxuecity.com###gg_viewBottom
 wenxuecity.com##.sharewechat + .otherposts
 ysgc.fun,ysgc.tv##.swiper-slide > a[target="_blank"]
