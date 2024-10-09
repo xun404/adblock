@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ydyzC0L7Fj9eELKZpu/vcg
+! Checksum: Eg3MAeU7wgYZ2nb0KPtTEw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202410090738
-! Last Modified: 2024年10月09日 07:38
+! Version: 202410091002
+! Last Modified: 2024年10月09日 10:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1216,8 +1216,8 @@ www.facebook.com,web.facebook.com#$#hide-if-canvas-contains /Sponsored|Sponsoriz
 www.facebook.com,web.facebook.com##a[href*="ad_preferences"]>span[class][dir]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@aria-label][@role][@tabindex]/ancestor-or-self::div[contains(@style,"max-width") and contains(@style,"min-width")][1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//span[text()]/ancestor-or-self::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/parent::div[1]'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//a[@aria-label][@aria-labelledby]//preceding::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/ancestor-or-self::span[3]'
-!sb
+www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//a[@aria-label][@aria-labelledby]//preceding::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/ancestor-or-self::span[3]'; hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//div[@aria-label][@aria-labelledby]//preceding::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/ancestor-or-self::span[3]'; race stop;
+! sb
 www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath './/div[@role="complementary"]//span/following::a[@aria-labelledby][@role="link"][@target="_blank"][@tabindex="0"]/ancestor-or-self::span'; hide-if-matches-xpath '//div[@role="complementary"]//div[not(@class) and not(@id)]/span[not(@class) and not(@id) and not(@aria-labelledby)]'; race stop;
 ! sp
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]
