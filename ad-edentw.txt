@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ba5JAUkkbkMPVO4EcNetuA
+! Checksum: pTPkcF68XdPSBPMPl3ROIA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202410112339
-! Last Modified: 2024年10月11日 23:39
+! Version: 202410120337
+! Last Modified: 2024年10月12日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1218,7 +1218,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//span[text()]/ancestor-or-self::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/parent::div[1]'
 www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//a[@aria-label][@aria-labelledby]//preceding::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/ancestor-or-self::span[3]'; hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::div[@aria-label][@aria-labelledby]//preceding::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/ancestor-or-self::span[3]'; race stop;
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="complementary"]//div[not(@class) and not(@id)]/span[not(@class) and not(@id) and not(@aria-labelledby)]'
+www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//div[not(@class) and not(@id)]/span[not(@class) and not(@id) and not(@aria-labelledby)]'; hide-if-matches-xpath './/div[@role="complementary"]//span/following::div[@aria-labelledby][@role][@tabindex]/ancestor-or-self::span'; race stop;
 ! sp
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/' '{}'
