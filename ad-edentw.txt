@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MJHldEm6bNQKBnbx2w+Evw
+! Checksum: 2omD5wMa0QjHX4/G+hJk0A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202410141541
-! Last Modified: 2024年10月14日 15:41
+! Version: 202410142100
+! Last Modified: 2024年10月14日 21:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1003,6 +1003,7 @@ videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-r
 aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 sflix.*#$#abort-current-inline-script parseInt break;case $.
 aniwave.*#$#abort-current-inline-script document.write; abort-on-property-read window.open;
+tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
