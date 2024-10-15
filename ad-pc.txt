@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d5IguJDIptbEZnOzDdCMKg
+! Checksum: JTIQR9xbr3sFRswqsDFWYA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410151341
-! Last Modified: 2024年10月15日 13:41
+! Version: 202410151446
+! Last Modified: 2024年10月15日 14:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -89761,7 +89761,6 @@ fqsousou.com,kengso.com#@#.user-share
 /event_logger
 /event_logging/*
 /eventLog.ajax
-/eventlog.js
 /eventLogServlet?
 /eventproxy/track
 /events-collector.
@@ -100511,6 +100510,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ft.com/ingest?
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||fusevideo.io/api/event
+||g-scale.org/scripts/EventLog.js
 ||g.ign.com^
 ||g.mashable.com^
 ||g.newtimes.com^
@@ -138729,6 +138729,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||event-tracking.hellohealthgroup.com^
 ||propertyguru.com.my/api/consumer/vast-media/impression?
 ||data.nrk.no^
+||kontrollportalen.no/kontroll/javascript/eventlog.js
 ||nrk.no^*/stats/
 ||stats.proff.no^
 ||stm.komplett.no^
