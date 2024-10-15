@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ySPexr5dY6k+Kyh3K3hc3A
+! Checksum: wPqYJ90+o1GRKEB1WyV5dg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202410160245
-! Last Modified: 2024年10月16日 02:45
+! Version: 202410160538
+! Last Modified: 2024年10月16日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51422,7 +51422,6 @@ browsershots.org#@#.advert_area
 ||ads01.com^$third-party
 ||ads4media.online^$third-party
 ||adsbookie.com^$third-party
-||adscendmedia.com^$third-party
 ||adscout.io^$third-party
 ||adscpm.net^$third-party
 ||adsenix.com^$third-party
@@ -64072,6 +64071,7 @@ momjunction.com,stylecraze.com##.flying-carpet-wrapper
 advocate.com,emergencyemail.org,out.com##.footer
 allthatsinteresting.com,scientificamerican.com##.footer-banner
 wst.tv##.footer-logos
+game8.co##.footer-overlay
 dhakatribune.com##.footer-pop-up-ads-sec
 supercars.com##.footer-promo
 filma24.ch##.footer-reklama
@@ -139102,6 +139102,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||identity.mparticle.com^$xmlhttprequest
+@@||ignitetv.rogers.com/js/api/fingerprint.js$script,~third-party
 @@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||imgur.com/min/px.js$~third-party
