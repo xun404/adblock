@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1fjUbTQP887qEmtY9l7zxw
+! Checksum: uS4dbSMvC3UIsOWaD3bGdA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410181739
-! Last Modified: 2024年10月18日 17:39
+! Version: 202410181938
+! Last Modified: 2024年10月18日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63692,6 +63692,7 @@ bbc.com##li[class*="-ListItem"]:has(div.dotcom-ad)
 yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
+zillow.com##li[class^="ListItem-"]:has(#nav-ad-container)
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
@@ -67902,6 +67903,8 @@ newduba.cn###jq_youxi
 ||bmougwx.icu^
 ||magioe.xyz^
 ||wuresde.top^
+||ytroytj33.fun^
+||bld.mobi^
 ||cggyyi.xyz^
 ||qdoeki.xyz^
 ||etroytj33.fun^
