@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h5nfPnAHPvV7HmFmLG5p0A
+! Checksum: e6oWWtX1SLvlWYO1iNMV+Q
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202410221938
-! Last Modified: 2024年10月22日 19:38
+! Version: 202410222100
+! Last Modified: 2024年10月22日 21:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1730,6 +1730,8 @@ newduba.cn###jq_youxi
 ||couvxlif.top^
 ||tarvrf.xyz^
 ||sbmhqe.xyz^
+||dayujs.top^
+||fanjs.top^
 ||gpowow.xyz^
 ||jizxnr.xyz^
 ||msmcoa.xyz^
@@ -16264,6 +16266,8 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
 che168.com#@#[data-adid]
+huawei.com#@#.ad-section
+huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
@@ -18344,7 +18348,7 @@ $image,third-party,domain=258zw.com
 &xhtml?$script,third-party
 .*gcdcjr000.fun/$script,third-party
 .*ryt111.fun/$script,third-party
-.*troytj33.fun/$script,third-party
+.*roytj33.fun/$script,third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
 .baigh8eosmgie*.site^$script,third-party
