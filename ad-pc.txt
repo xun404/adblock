@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mdacja3vVr3b4qN/4L16ug
+! Checksum: 8tHSvyHPA/iy9rYkTclyEQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410240046
-! Last Modified: 2024年10月24日 00:46
+! Version: 202410240244
+! Last Modified: 2024年10月24日 02:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -62798,6 +62798,7 @@ costco.com##[data-bi-placement="Criteo_Home_Espot"]
 costco.ca##[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 privacywall.org##[data-bingads-suffix]
 chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
+chewy.com##[data-carousel-id="plp_sponsored_brand"]
 theblaze.com##[data-category="SPONSORED"]
 autotrader.com##[data-cmp="alphaShowcase"]
 gab.com##[data-comment="gab-ad-comment"]
@@ -63909,6 +63910,7 @@ mg.co.za##article:has(.sponsored-single)
 tympanus.net##article:has(header:has(.ct-sponsored))
 foxnews.com##article[class|="article story"]:has(.sponsored-by)
 cruisecritic.co.uk##article[data-sentry-component="ContentCard"]:has(a[href^="/sponsored-content/"])
+kijijiautos.ca##article[data-testid="SearchResultListItem"]:has(span[data-testid="PromotionLabel"])
 twitter.com,x.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 thetimes.com##article[id="article-main"] > div:has(#ad-header)
 winaero.com##aside > .widget_text:has(.adsbygoogle)
