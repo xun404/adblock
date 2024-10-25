@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: omhFAXxiQlRo560U0z8Ktg
+! Checksum: e2uV+wQbaj/UOIpFx8wfKw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410260044
-! Last Modified: 2024年10月26日 00:44
+! Version: 202410260139
+! Last Modified: 2024年10月26日 01:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63213,7 +63213,6 @@ filmdaily.co,gelbooru.com,integral-calculator.com,passiveaggressivenotes.com,twc
 alphacoders.com##[style^="width:980px; height:280px;"]
 gametracker.com##[style^="width:980px; height:48px"]
 mrchecker.net##[target="_blank"]
-1001tracklists.com##[target="_blank"][rel="noopener noreferrer"]
 myfitnesspal.com##[title*="Ad"]
 balls.ie##[type="doubleclick"]
 kiryuu.id##[width="1280"]
@@ -63358,7 +63357,7 @@ adfoc.us##a[href^="https://www.survivalservers.com/"]
 itsfoss.com##a[href^="https://www.warp.dev"]
 yugatech.com##a[href^="https://yugatech.ph/"]
 kitguru.net##a[id^="href-ad-"]
-1001tracklists.com,himovies.to,home-barista.com,rarpc.co,washingtontimes.com##a[onclick]
+himovies.to,home-barista.com,rarpc.co,washingtontimes.com##a[onclick]
 amishamerica.com##a[rel="nofollow"] > img
 gab.com##a[rel="noopener"][target="_blank"][href^="https://grow.gab.com/go/"]
 nslookup.io,unsplash.com##a[rel^="sponsored"]
@@ -135556,6 +135555,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
+@@||api.lab.amplitude.com/v1/vardata?$domain=gaiagps.com
 @@||api.omappapi.com/v3/geolocate/json$domain=seclore.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
