@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ft4ts2rcXrddOW8s17cexg
+! Checksum: 5ixorc/HisJbaS6Wg3Q8kg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202410292100
-! Last Modified: 2024年10月29日 21:00
+! Version: 202410292142
+! Last Modified: 2024年10月29日 21:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -77287,8 +77287,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 .sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
+||huo720.com/files/vidhub.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+layui.dev##div[style*="sentcss.com"]
 yiche.com##.h-middle-gd-box
 yiche.com##.h-gd-box
 mydrivers.com###track-link
@@ -81618,7 +81620,7 @@ laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_h
 22vd.com##.widget_custom_html:last-child
 ssr.tools##.widget_custom_html:nth-child(n+2)
 423down.com##.widget_d_banner
-jiayongluyou.com,tmioe.com##.widget_image_myimg
+jiayongluyou.com##.widget_image_myimg
 flyzy2005.com##.widget_kratos_ad
 abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,woniuyulew.com,zhain8.com##.widget_media_image
 meijumi.net##.widget_metaslider_widget
@@ -81646,6 +81648,7 @@ cangjige.net##.wp[style="height:36px;padding-top:15px;"]
 tui18.com##.wp[style^="width:"]
 start.firefoxchina.cn##.wrap > div[style]:last-child
 99a21.com##.wrap-head-spots
+tmioe.com##.widget_image_img
 5yfz.com##.wrapper > p
 image.baidu.com##.wrapper_dot_box.dot_black
 10fang.com##.wrapperbg
@@ -81656,7 +81659,7 @@ ikjzd.com##.wv-right-content > .imgTop-right
 taoguba.com.cn##.wz_ad
 55188.com##.wz_text
 eyy5.cn##.wzgg
-tmioe.com##.wzy
+tmioe.com##.zpgimg
 sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
