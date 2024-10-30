@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TQGvYqjJgJO7erBFjABOGg
+! Checksum: GFQNSQJbz6Juf8Wv5n+Xag
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202410301646
-! Last Modified: 2024年10月30日 16:46
+! Version: 202410302100
+! Last Modified: 2024年10月30日 21:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1359,11 +1359,10 @@ animeunity.tv#$#abort-on-property-read localStorage
 ! *** abp-filters-anti-cv:lithuanian.txt ***
 ! #CV-766
 delfi.lt#$#abort-on-property-read _dlf.adxtag
-delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'
+delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'; hide-if-matches-xpath './/div[@target="_blank"][@style="display: block; width: 100%; height: 100%; cursor: pointer;"]/ancestor::*[contains(@style,"/ads/adb")]';
 delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/ancestor-or-self::div[@class="row"]'
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
-delfi.lt##[style*="/samsung"]
-delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]';
+delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]'; hide-if-matches-xpath './/*[contains(text(),"Užsakomasis")]/parent::a[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]//parent::div/ancestor::div[@class="col"]'; './/*[contains(@class,"pt-content")]/parent::div[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]';
 delfi.lt#$#simulate-mouse-event 'xpath(.//*[@style]/a[contains(@href,"javascript")])$delay=10'
 ! MISC
 15min.lt#$#hide-if-matches-xpath '//div[@class][@style]/img[string-length(@src) >=180]/ancestor::div[@class][1]'
