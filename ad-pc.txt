@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YEfECLw8RZlZRRSovU4m7w
+! Checksum: YyZNDaS1oekvncfZBZE/6w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411020537
-! Last Modified: 2024年11月02日 05:37
+! Version: 202411020640
+! Last Modified: 2024年11月02日 06:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60082,10 +60082,11 @@ speedrun.com##.curse
 pokebattler.com##.curse-ad
 indiabusinessjournal.com##.cus-ad-img
 dexscreener.com##.custom-1hol5du
+dexscreener.com##.custom-1ii6w9
+dexscreener.com##.custom-1l0hqwu
 dexscreener.com##.custom-97cj9d
 slidehunter.com##.custom-ad-text
 fastestvpns.com##.custom-banner
-dexscreener.com##.custom-hmb3rb
 addictivetips.com,coinweek.com,news365.co.za,simscommunity.info##.custom-html-widget
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
 thestudentroom.co.uk##.custom-jucdap
@@ -63803,6 +63804,7 @@ bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
 truecar.com##.card:has([href*="marketplace&sponsored"])
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
+dexscreener.com##.chakra-link:has-text(Advertise)
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
 asda.com##.co-item:has(.co-item__sponsored-label)
 theautopian.com##.code-block:has(.htlad-InContent)
@@ -124937,7 +124939,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||info.metronetbusiness.com^
 ||info.metronetinc.com^
 ||info.mkt.global.dnp.co.jp^
-||info.mouser.com^
 ||info.multiburo.com^
 ||info.natera.com^
 ||info.neg.co.jp^
