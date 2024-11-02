@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ChorVxz6FgZv/rDA6wAFMw
+! Checksum: umfnDHtRsw9/DsBBUZiSKg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411022238
-! Last Modified: 2024年11月02日 22:38
+! Version: 202411030640
+! Last Modified: 2024年11月03日 06:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30180,6 +30180,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reports.sdiapi.com^
 ||res.rbl.ms^
 ||rest.wildstar-online.com^
+||retail-client-events-service.internal.salsify.com/events
 ||retargeting.newsmanapp.com^
 ||reverbnation.com/widgets/trk/
 ||rfksrv.com/rfk/$third-party
@@ -32447,7 +32448,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
-||bestbuy.com/~assets/bby/_js/ext/optmzly/
 ||bestpornsites.tv/i/js/extra/metrics.js
 ||bfp.capitalone.com^
 ||bgro41vnmb.execute-api.us-east-2.amazonaws.com/production$domain=masterworks.com
@@ -32620,6 +32620,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||darkreader.org/data/top-backers.json
 ||darkreader.org/elements/backers-
 ||data.allstate.com^
+||data.cheatography.com/banana.js
 ||data.guide.photobucket.com^
 ||data.torry.io^
 ||data.webullfintech.com/event/
@@ -33093,6 +33094,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loom.com/insights-api/graphql
 ||loom.com/metrics/graphql
 ||lowes.com/gauge/
+||lowes.com/pharos/api/webTelemetry?
 ||lyft.com/api/track
 ||lyngsat.com/system/loadclick.js
 ||m.facebook.com/ajax/weblite_load_logging/
@@ -34035,7 +34037,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||svc2.sc.com^
 ||tm-eps.neutrino.nu^
 ||tmetrix.my.chick-fil-a.com^
-||tmx.bestbuy.com^
 ||tmx.td.com^
 ||u47.pnc.com^
 ||w-profiling.cibc.com^$script
@@ -71844,7 +71845,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
-@@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||wwwimage-tve.cbsstatic.com^
 @@||omns.americanexpress.com/b/ss/
 @@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
