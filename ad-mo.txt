@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zKLe/cUZaJ3urY9E+DHnuA
+! Checksum: aAEEXRlIZF362fytQtzFcA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202411050439
-! Last Modified: 2024年11月05日 04:39
+! Version: 202411050538
+! Last Modified: 2024年11月05日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -93361,6 +93361,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymotion.com/logger/
 ||darkreader.org/data/top-backers.json
 ||darkreader.org/elements/backers-
+||darkreader.org/elements/statistics.js
 ||data.allstate.com^
 ||data.cheatography.com/banana.js
 ||data.guide.photobucket.com^
@@ -93467,6 +93468,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||error.fc2.com/blog/$image
 ||error.fc2.com/blog3/$script
 ||errorreports.couponcabin.com^
+||errors.darkreader.app^
 ||espy.boehs.org^
 ||et.nytimes.com^
 ||et.tidal.com^
@@ -94265,12 +94267,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.turb.pw^
 ||stat.vulkanvegas.com^
 ||statista.com/data/ptm.gif
+||statistics.darkreader.app^
 ||statistics.streamdav.com^
 ||stats.aerotime.aero^
 ||stats.allenai.org^
 ||stats.calcalist.co.il^
 ||stats.chromatone.center^
 ||stats.codeur.com^
+||stats.darkreader.app^
 ||stats.davidickedelivery.com^
 ||stats.gateio.ch^
 ||stats.habr.com^
@@ -132137,6 +132141,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 @@||addthis.com/js/*/addthis_widget.js$script,domain=stagecoachbus.com
+@@||admin.corrata.com/console/dcconsolews/event-log?$~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
