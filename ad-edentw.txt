@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tcDaK+0gidB5saKW5NXwDw
+! Checksum: ZLcYcIu4xTG1/teatM2G6A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202411060640
-! Last Modified: 2024年11月06日 06:40
+! Version: 202411061937
+! Last Modified: 2024年11月06日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1852,6 +1852,9 @@ m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
 youtube.com#$#array-override push BISCOTTI_BASED_DETECTION_STATE_IS_CLICK_EVENT_NOT_TRUSTED
+www.youtube.com#$#override-property-read Object.prototype.playerResponse.adSlots undefined
+www.youtube.com#$#override-property-read Object.prototype.playerResponse.playerAds undefined
+www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
 ! AakList (Anti-Adblock Killer)
