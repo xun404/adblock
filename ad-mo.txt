@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ct8jGPQjySSuNa/JtjM3kg
+! Checksum: i+eTd9etpxwCnFGeGb7cgg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202411072139
-! Last Modified: 2024年11月07日 21:39
+! Version: 202411072239
+! Last Modified: 2024年11月07日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -74376,8 +74376,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||huaban.com^*/ads
 ||ibaotu.com/revision/js/ad/
 ||51miz.com/index.php?m=Ad&
+||wxc.cc/scripts/gg.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nodeloc.com###wghtml
 tvbs.com.tw##div[data-testid="ad-container"]
 iduba.com,newduba.cn##.m_nav_top
 bilibili.com##.adcard-content
@@ -75087,7 +75089,7 @@ javhope.com###havhope
 chaidu.com,kdslife.com###hb
 macd.cn###hbad
 coolaler.com###hd
-jr22.xyz###hd + .wp
+jr31.xyz###hd + .wp
 gdmm.com###hd > .wp > .module
 hackhw.com,ithome.com###hd_float
 ithome.com###hd_float1
@@ -79086,7 +79088,7 @@ szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
-jr22.xyz##a[href^="ad."]
+jr31.xyz##a[href^="ad."]
 131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/main/"]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
@@ -131408,7 +131410,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||cnt.wetteronline.de^
 ||comparis.ch/comparis/Tracking/
 ||computerbase.de/api2/$ping,xmlhttprequest
-||computerbase.de/nlylev
+||computerbase.de/bl_|
 ||cp.finanzfrage.net/stats
 ||cpx.golem.de^
 ||cpxl.golem.de^
