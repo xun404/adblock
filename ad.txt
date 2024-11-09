@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WHJFqfp4K/PmFhhiM1HoOA
+! Checksum: YRJYFGpv3zM+KnGsJ7QPow
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202411090737
-! Last Modified: 2024年11月09日 07:37
+! Version: 202411090953
+! Last Modified: 2024年11月09日 09:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2151,6 +2151,7 @@ newduba.cn###jq_youxi
 ##style + .need_grid_img
 ##.player-rm > a[href*=".umtrack.com"]
 ##style + .vdgdo
+##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -2180,6 +2181,8 @@ newduba.cn###jq_youxi
 ||grirqaks.com^
 ||xn--swt207gl1hzc.net^
 ||68yscw.com^
+||tqanmatx.icu^
+||kxygsjv.icu^
 ||dhukul.com^
 ||reisyxy.icu^
 ||yrarhzuq.xyz^
@@ -10600,8 +10603,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||synacast.com^
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||sysin.org/img/promotion-
-||szaction.cc/public/*/plugins/
-||szaction.cc/public/1/assets/js/custom/tt.
+||51jiajiao.top/public/*/plugins/
+||51jiajiao.top/public/1/assets/js/custom/tt.
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szgpmy.com/js/
