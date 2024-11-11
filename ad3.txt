@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0y688apvAIpcolVOZuFhmQ
+! Checksum: 78Gt9iCPNI9NVbh7SrZYkg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411111101
-! Last Modified: 2024年11月11日 11:01
+! Version: 202411111739
+! Last Modified: 2024年11月11日 17:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1735,6 +1735,7 @@ newduba.cn###jq_youxi
 ||iqi4l.icu^
 ||qqxi6.icu^
 ||eiphrut.com^
+||aoao11111iis.top^
 ||kdzgrvn.icu^
 ||shestieh.com^
 ||jwhjqjfl.icu^
@@ -10776,8 +10777,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||51miz.com/index.php?m=Ad&
 ||wxc.cc/scripts/gg.
 ||xmcdn.com/storages/97b8-customerservice/E7/5E/GKwRIJILApO8AALGLwMrioMa.
+||cnki.net/spot/app/get/ads?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+sehuatang.net##DIV[class^="show-text"]
 ghxi.com##.widget_html_ad + div[style]
 nodeloc.com###wghtml
 tvbs.com.tw##div[data-testid="ad-container"]
@@ -28926,6 +28929,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
 ||ceros.com/a?data
+||cf-pixelfront-analytics.widencdn.net^
 ||cf.overblog.com^
 ||cfmediaview.com/API/MV_Visit.ashx
 ||cgicounter.oneandone.co.uk^
@@ -29383,6 +29387,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fastcdn.co/js/sptw.
 ||fbot.me/error
 ||fbot.me/events/
+||fbsbx.com/paid_ads_pixel/
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
 ||feed.informer.com/fdstats
@@ -29634,6 +29639,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||insitez.blob.core.windows.net^
 ||instagram.com/logging/
 ||instagram.com/logging_client_events
+||instagram.com/paid_ads/
 ||installiq.com/Pixels/
 ||intake-analytics.wikimedia.org^
 ||intelligems.io/track
@@ -32717,6 +32723,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.guide.photobucket.com^
 ||data.torry.io^
 ||data.webullfintech.com/event/
+||data.whop.com/api/v1/track/
 ||data.younow.com^
 ||datadoghq.com/assets/dd-browser-logs-rum.js
 ||datadome.maisonsdumonde.com^
@@ -33090,6 +33097,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuitvisitorid.api.intuit.com^
+||investigationdiscovery.com/cms/collections/
+||investigationdiscovery.com/events/
 ||invisionapp.com/analytics-api/
 ||iono.fm/tracking?
 ||ip.cliphunter.com^
@@ -33697,6 +33706,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||support.github.com/session/user
 ||swarm.video/stats/
 ||szrpr.raen.com^
+||t-mobile.com/self-service-commerce/v1/logging
 ||t.9gag.com^
 ||t.airasia.com^
 ||t.allmodern.com^
