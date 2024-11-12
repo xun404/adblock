@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a5CgTwLbSX1HaqF/0Hzq3g
+! Checksum: eIu4ajlDx+xYvprL6F8o0Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411130045
-! Last Modified: 2024年11月13日 00:45
+! Version: 202411130139
+! Last Modified: 2024年11月13日 01:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1304,6 +1304,7 @@ tieba.baidu.com##.tuijian-wrap
 ://oascentral.
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
+://sli.*/imp?s=$image
 ://uads.$third-party,xmlhttprequest
 =half-page-ad&
 ?ab=1&zoneid=
@@ -86248,7 +86249,6 @@ _WebVitalsReporter_
 ://email.*/e/o/
 ://email.*/o/$image
 ://parcel-api.delivery-status.*/open/$image
-://sli.*/imp?s=$image
 ://t.order.*/r/?id=$image
 _ad_impression.
 _adobe_analytics.js
