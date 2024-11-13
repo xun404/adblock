@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FakuWmz+t8hkf+stGvcMmQ
+! Checksum: PGJK+AwpGtYip19zuWpXgA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411131538
-! Last Modified: 2024年11月13日 15:38
+! Version: 202411131842
+! Last Modified: 2024年11月13日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1739,6 +1739,7 @@ newduba.cn###jq_youxi
 ||cweisif.top^
 ||y0mwy.icu^
 ||pxyjqea.icu^
+##a[href*=".skw036.cc"]
 ||ccobksxz.icu^
 ||utbyvyl.icu^
 ||dchdmhf.cn^
@@ -24039,7 +24040,6 @@ m.babytree.com##script + a[class]
 ://tracking.*/beacon/
 ://tracking.*/event
 ?[AQB]&ndh=1&t=
-?act=counter&
 ?action=event&
 ?action=impression&
 ?action=log_promo_impression
@@ -32675,6 +32675,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.xhamster.com^
 ||codecademy.com/analytics/
 ||coincheckup.com/report_events/
+||coincodex.com/cdn-cgi/trace
 ||cointelegraph.com/pixel?
 ||collect.air1.com^
 ||collect.alipay.com^
@@ -33109,6 +33110,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||info.com/pingback
 ||infoq.com/metrics/
 ||informer.com/ajax/article_log.php
+||ingest.coincodex.com^
 ||ingest.make.rvohealth.com^
 ||ingress.linktr.ee^
 ||inq.com/tagserver/logging/logline
