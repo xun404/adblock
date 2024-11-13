@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j1w8KIR0xm2BPLQHuV6tIQ
+! Checksum: FakuWmz+t8hkf+stGvcMmQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411131100
-! Last Modified: 2024年11月13日 11:00
+! Version: 202411131538
+! Last Modified: 2024年11月13日 15:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1738,6 +1738,7 @@ newduba.cn###jq_youxi
 ||chupl.icu^
 ||cweisif.top^
 ||y0mwy.icu^
+||pxyjqea.icu^
 ||ccobksxz.icu^
 ||utbyvyl.icu^
 ||dchdmhf.cn^
@@ -71527,6 +71528,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||a.usafacts.org/api/v4/Metrics$~third-party
 @@||ab.blogs.es/abtest.png$domain=trendencias.com|xataka.com
 @@||account.adobe.com/newrelic.js$~third-party
+@@||accounts.home.id/authui/client/assets/vendors/new-relic.min.js$~third-party
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
 @@||addthis.com/js/*/addthis_widget.js$script,domain=stagecoachbus.com
