@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vTWw/oNmPvSxp8H6HdHgYA
+! Checksum: FjT58Tc0HdlP2dqCuH+YaQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202411191844
-! Last Modified: 2024年11月19日 18:44
+! Version: 202411191938
+! Last Modified: 2024年11月19日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1287,6 +1287,7 @@ french-streams.com#$#abort-on-property-read open
 e-sushi.fr#$#abort-on-property-read aEteAffiche
 frandroid.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad-center")]/ancestor-or-self::div[@class="optidigital-wrapper-div"][1]'
 gamekult.com#$#hide-if-matches-xpath './/a[@href][@data-track-category="native-ad"]/preceding::span[@target="js-modal-ad"]/parent::li[@data-id][1]'
+oxtorrent.*#$#hide-if-matches-xpath './/div[@style="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01; height: 961px; width: 1854px;"]';
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -1300,6 +1301,7 @@ strtapeadblock.me#$#abort-on-property-write _pao
 tirexo.day#$#debug; abort-on-property-read window.open
 ||tirexo.day^$csp=script-src 'self'
 wawacity.*,zone-telechargement.*#$#abort-current-inline-script JSON.stringify
+oxtorrent.*#$#abort-on-property-read window.open
 ! *** abp-filters-anti-cv:german.txt ***
 ! #CV-761
 ! #CV-691
