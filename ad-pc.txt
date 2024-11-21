@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YzboTBST5rXRPNZ+0tnPJQ
+! Checksum: p3q5cdJ85tuHNHdlVz1WRw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411212243
-! Last Modified: 2024年11月21日 22:43
+! Version: 202411220047
+! Last Modified: 2024年11月22日 00:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -781,7 +781,7 @@ tieba.baidu.com##.tuijian-wrap
 /advert?
 /advertising/banners/*$image
 /advertisment/*$~image
-/adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
+/adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /advrotator_banner_largo.htm$subdocument
 /adz/js/adz.$script
@@ -22837,6 +22837,7 @@ browsershots.org#@#.advert_area
 ||customernormallyseventh.com^
 ||customsalternative.com^
 ||customselliot.com^
+||cuteab.com^
 ||cutelylookups.shop^
 ||cuterbond.com^
 ||cutescale.online^
@@ -48000,6 +48001,7 @@ browsershots.org#@#.advert_area
 ||cuevastrck.com^$popup
 ||cullemple-motline.com^$popup
 ||curvyalpaca.cc^$popup
+||cuteab.com^$popup
 ||cvastico.com^$popup
 ||cwn0drtrk.com^$popup
 ||cyan92010.com^$popup
@@ -49943,6 +49945,7 @@ browsershots.org#@#.advert_area
 ||rkatamonju.info^$popup
 ||rkskillsombineukd.com^$popup
 ||rmaticalacm.info^$popup
+||rmhfrtnd.com^$popup
 ||rmzsglng.com^$popup
 ||rndhaunteran.com^$popup
 ||rndmusharnar.com^$popup
@@ -95200,6 +95203,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||goodreads.com/report_metric
 ||goodreads.com/track/
 ||google.com/ads/measurement/
+||google.com/async/ddllog
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
 ||google.com/log?
