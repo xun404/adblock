@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U9u+MO7DUnh06UJuAiQd3w
+! Checksum: uqhdYEAPa1NiEcg0NFqkmg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202411211938
-! Last Modified: 2024年11月21日 19:38
+! Version: 202411212102
+! Last Modified: 2024年11月21日 21:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1706,7 +1706,7 @@ calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 latinblog.tv,peladas69.com#$#abort-on-property-read __formatsGetters
 animefenix.org,animeonline.ninja,audaciousdefaulthouse.com#$#abort-on-property-read window.open
 monoschinos2.com#$#abort-on-property-read _0x24d7; abort-on-property-read _0x41ed; abort-on-property-read _0xf59bf3; abort-on-property-read a3klsam
-cuevana.*,cuevana3.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
+cuevana.*,cuevana3.*,cuevana4.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
 hispasexy.org#$#hide-if-matches-xpath './/div[@data-element="overlay"]/div[@data-element][@data-izone]/parent::div[1]'
 ||animeflv.net/*/ads.js^$domain=animeflv.net
@@ -1719,7 +1719,7 @@ jkanime.net#$#abort-current-inline-script Math break
 ||24fa533251.com/*.js$script,domain=hispasexy.org
 hispasexy.org#$#abort-current-inline-script _cpp; abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent; abort-on-property-write __popunder-event; abort-on-property-read __ampop-init; abort-on-property-read setTimeout;
 animefenix.com#$#abort-current-inline-script document.createElement _yzvesi; abort-on-property-write zfgloadedpopup;
-pelisplus.so#$#abort-on-property-write _zoxxpiee
+pelisplus.*#$#abort-on-property-write _zoxxpiee
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
 comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,hentaila.tv,hentaisenpai.org,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,subtaboo.com,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
 series-de.online#$#abort-on-property-read doSecondPop; abort-on-property-read doSecondPopU
@@ -1730,6 +1730,8 @@ seriesyonkis.cx#$#abort-on-property-read window.atob; abort-on-property-read ope
 cuevana3.*#$#abort-on-property-read decodeURI; abort-current-inline-script Math break;case $.; abort-on-property-write popUpUrl
 ||cuevana3.eu/edgeSystemV1.js^$domain=cuevana3.eu
 animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-inline-script document.createElement script;
+pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
+cuevana.*,cuevana3.*,cuevana4.*#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! RM-5
