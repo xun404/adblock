@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mzNNc38ABvGkXy4peErC0g
+! Checksum: Fu/wCjTlwOnuhOtRF1QcVg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202411220047
-! Last Modified: 2024年11月22日 00:47
+! Version: 202411220538
+! Last Modified: 2024年11月22日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1245,6 +1245,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[
 ! wp
 www.facebook.com,web.facebook.com#$#json-prune 'data.scrubber.instream_video_ad_breaks' 'data.scrubber.post_roll_ad_break'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(VideoHomeFeedUnitSectionComponent)[^\n]+?"(sponsored_data")[^\n]+?("ad_id"|"SponsoredData")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(VideoPlayerRelay_video$defer$InstreamVideoAdBreaksPlayer_video|instream_video_ad_breaks_comet|__module_operation_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|__module_component_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|InstreamVideoAdBreaksPlayerImpl_adBreaks$normalization.graphql|InstreamVideoAdBreaksPlayerDeferred.react|InstreamVideoAdBreaksPlayerImpl.react|CommercialBreakStartingIndicatorFalcoEvent|CommercialBreakClickFalcoEvent|CommercialBreakEndFalcoEvent)/'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@id="watch_feed"]//div[starts-with(@class,"_")]//span[@class][text()]/ancestor-or-self::a[@aria-label][@attributionsrc][@rel="nofollow noreferrer"][@target="_blank"]'
 ! Rules that don't need to change
 @@||www.facebook.com^$generichide
 @@||web.facebook.com^$generichide
