@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qoq82474KtKqxtOlhC2HfA
+! Checksum: mNOIiKC/G2F63BV1JQyKfQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202411211147
-! Last Modified: 2024年11月21日 11:47
+! Version: 202411211341
+! Last Modified: 2024年11月21日 13:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -698,7 +698,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
-/api.ads.$domain=~ads.instacart.com|~www.ads.com
+/api.ads.$script,domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
 /api/users?token=$subdocument,third-party
@@ -61569,6 +61569,8 @@ forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
 olympics.com##.b2p-list__item:has(> .adv-fluid)
+bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
+bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
@@ -66031,6 +66033,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||aoao11211iis.top^
 ||nois5gj.xyz^
 ||qhestrad.com^
 ||vkbxaixl.icu^
@@ -82939,7 +82942,7 @@ _rony.js$script,third-party
 ||lalabaos1*.top/$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
-.aoao111*iis.top/$script,third-party
+.aoao11*iis.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
