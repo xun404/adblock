@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jwbE+3R/ygeP/zCiwwXk8g
+! Checksum: z0DmxVMq4g4aedEG6xJfZQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202411230441
-! Last Modified: 2024年11月23日 04:41
+! Version: 202411230741
+! Last Modified: 2024年11月23日 07:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -14849,6 +14849,7 @@ _800x80_
 ##.vf-ad-comments
 ##.vf-conversation-starter__ad
 ##.vf-promo-gtag
+##.vf-promo-wrapper
 ##.vf3-conversations-list__promo
 ##.vi-sticky-ad
 ##.video-ad-bottom
@@ -56922,7 +56923,6 @@ imresizer.com##.ad-slot-3-fixed-ad
 cnn.com##.ad-slot-dynamic
 cnn.com##.ad-slot-header__wrapper
 barandbench.com##.ad-slot-row-m__ad-Wrapper__cusCS
-cointelegraph.com##.ad-slot_NjPAE
 oann.com##.ad-slot__ad-label
 cnn.com##.ad-slot__ad-wrapper
 freepressjournal.in##.ad-slots
@@ -57886,7 +57886,6 @@ goal.com##.component-ad
 hunker.com,livestrong.com##.component-article-section-jwplayer-wrapper
 binnews.com,iheart.com,jessekellyshow.com,steveharveyfm.com##.component-pushdown
 binnews.com,iheart.com,jessekellyshow.com,steveharveyfm.com##.component-recommendation
-cointelegraph.com##.componentAdbutler_uF1zH
 kqed.org##.components-Ad-__Ad__ad
 dailymail.co.uk,thisismoney.co.uk##.connatix-wrapper
 realsport101.com##.connatixPS
@@ -58570,7 +58569,7 @@ knowyourmeme.com##.header-unit-wrapper
 maketecheasier.com##.header-widget
 hd-trailers.net##.header-win
 torquenews.com##.header-wrapper
-cointelegraph.com##.header-zone__banner
+cointelegraph.com##.header-zone__flower
 gelbooru.com##.headerAd
 dailytrust.com##.header__advert
 thehits.co.nz##.header__main
@@ -60660,6 +60659,7 @@ news12.com##[alignitems="normal"][justifycontent][direction="row"][gap="0"]
 cloutgist.com,codesnse.com##[alt="AD DESCRIPTION"]
 hubcloud.day##[alt="New-Banner"]
 exchangerates.org.uk##[alt="banner"]
+browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##[apn-ad-hook]
 gab.com##[aria-label*="Sponsored:"]
 issuu.com##[aria-label="Advert"]
 thepointsguy.com##[aria-label="Advertisement"]
@@ -60889,7 +60889,6 @@ wikifeet.com##[href="https://www.feetfix.com"]
 barrettsportsmedia.com##[href="https://www.jimcutler.com"]
 10minutemail.com##[href="https://www.remove-metadata.com"]
 jagoroniya.com##[href="https://www.virtuanic.com/"]
-cointelegraph.com##[href="javascript:void(0);"]
 wplocker.com##[href^="//namecheap.pxf.io/"]
 unogs.com##[href^="/ad/"]
 vikingfile.com##[href^="/fast-download/"]
@@ -66202,6 +66201,11 @@ newduba.cn###jq_youxi
 ||ao1122kas.top^
 ||drenqils.com^
 ||kweizad.top^
+||tukveks.com^
+||hwplypbn.icu^
+||zmrmbc.xyz^
+||ao1123kas.top^
+||cukuix.com^
 ||aoao11211iis.top^
 ||luunels.com^
 ||qcixkb1.xyz^
@@ -83113,9 +83117,10 @@ $image,third-party,domain=258zw.com
 :6607/qy/$script,third-party
 _rony.js$script,third-party
 ||lalabaos1*.top/$script,third-party
+||ao11*kas.top/$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
-.aoao11*iis.top/$script,third-party
+||aoao11*iis.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
