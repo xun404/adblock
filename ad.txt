@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u/8QO5vq4dt0qt5wxIBn0w
+! Checksum: UF/f7+VCdgquAJwZ1NTIgg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202411230741
-! Last Modified: 2024年11月23日 07:41
+! Version: 202411231005
+! Last Modified: 2024年11月23日 10:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1229,7 +1229,7 @@ tieba.baidu.com##.tuijian-wrap
 =AdCode_$script,third-party
 =ajaxGetAds&type=
 =BAIDU_SSP_define&
-=fitacg.com/static/other
+=fitacg.com/static/othe
 =loginExtAD.
 =SOGOU_WAP_SETJSONADSLOT&
 ?frm=*&ct=*&dit=$third-party
@@ -2138,6 +2138,7 @@ newduba.cn###jq_youxi
 ##img[src*=".jd.com"][style="width:100%;height:70px;"]
 ##img[src*=".meituan.net"][style="width:100%;height:70px;"]
 ##img[src*=".meiyida.tv/"]
+##IMG[onclick*="bucd.lol"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
@@ -2189,6 +2190,7 @@ newduba.cn###jq_youxi
 ||zmrmbc.xyz^
 ||ao1123kas.top^
 ||cukuix.com^
+||wi1f.icu^
 ||aoao11211iis.top^
 ||luunels.com^
 ||qcixkb1.xyz^
@@ -11314,7 +11316,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 .sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
-||huo720.com/files/vidhub.
+||huo720.com/files/vidhub
 ||69shuba.cx^*/shu.js
 ||jinnanyq.com/js/zmjw.
 ||huiagun.com/template/common.js
@@ -11328,11 +11330,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdncg.com^*/FCPXku.
 ||cdncg.com^*/kangmey
 ||twkan.com/js/otherad
+||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+appinn.com##a[href*=".houdeyun.cn"]
+fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
 twkan.com##.txtcenter
 element-plus.org##.page-sidebar-layout
+element-plus.org#?#div:-abp-has(>.sponsor-item)
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 sehuatang.net##DIV[class^="show-text"]
 ghxi.com##.widget_html_ad + div[style]
