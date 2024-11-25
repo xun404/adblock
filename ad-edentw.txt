@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2YN0V45hLtGuPF/xcRME/A
+! Checksum: ZLfkETllWs4KGb03VYKykg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202411252103
-! Last Modified: 2024年11月25日 21:03
+! Version: 202411260337
+! Last Modified: 2024年11月26日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -557,11 +557,6 @@ tripadvisor.com#$#hide-if-matches-xpath './/span[@class="listItem"]//div[@data-a
 tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/ancestor::a[@target="_blank"]/ancestor::li[@class]'
 ! HP & BA
-tripadvisor.*#$#hide-if-matches-xpath './/div/span[contains(., "Sponsored")]//ancestor::a[@target]/parent::div[1]'
-tripadvisor.com#$#hide-if-matches-xpath './/div[.//span[contains(text(), "SPONSORED")]][not(@id) and not(@data-test-target) and not(ancestor::nav) and not(ancestor::header)]'
-tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section'
-tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//div[contains(text(), "Sponsored by")]]/self::div[1]'
-tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]][not(@id) and not(@data-test-target) and not(ancestor::nav) and not(ancestor::header)]'
 ! #RM-85
 ! #RM-78
 noon.com#$#hide-if-matches-xpath './/span[@color][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="componentArea-0"]'
