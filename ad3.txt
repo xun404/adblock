@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CzH24gNhj3b6Gp9/qm+y5g
+! Checksum: aEA5IP7YAphUyqbXtxyLGQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202411271342
-! Last Modified: 2024年11月27日 13:42
+! Version: 202411271938
+! Last Modified: 2024年11月27日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21985,6 +21985,7 @@ m.babytree.com##script + a[class]
 /cklink.gif?
 /cklog.js
 /clear.gif?
+/click-tracking.js
 /click/impression?
 /click?track=
 /click_metrics-jquery.js
@@ -24081,6 +24082,8 @@ m.babytree.com##script + a[class]
 /wp-useronline/useronline.js
 /wp_stat.php?
 /wpengine-analytics/js/main.js
+/wpr-beacon.js
+/wpr-beacon.min.js
 /wps-visitor-counter/styles/js/custom.js
 /wpstatistics/v1/hit?
 /wrapper/metrics/v1/custom-metrics?
@@ -33355,6 +33358,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loom.com/metrics/graphql
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webTelemetry?
+||lucida.su/api/event
 ||lyft.com/api/track
 ||lyngsat.com/system/loadclick.js
 ||m.facebook.com/ajax/weblite_load_logging/
@@ -71032,6 +71036,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||bukalapak.com/banner-redirector/impression
 ||bukalapak.com/track-external-visit
 ||bukalapak.com/track_external.json
+||dt-tracker.mamikos.com^
 ||ktracker.kumparan.com^
 ||mygostore.com/api/log
 ||t.bukalapak.com^
