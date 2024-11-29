@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QK+xypFX5Jyw468RzWRfVQ
+! Checksum: EE+c75KQolNJjjPnID2FAQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202411290641
-! Last Modified: 2024年11月29日 06:41
+! Version: 202411291011
+! Last Modified: 2024年11月29日 10:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1407,12 +1407,8 @@ allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-propertie
 allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 ! HB
 ! PL
-allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Спонсороване" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване|Sponzorované/ 'article' 'div[id]' 'content'; hide-if-matches-xpath './/div[@data-test-tag="dsa"]/preceding::a[contains(@href,"clicks?emission_unit_")]/ancestor-or-self::article[@data-verification-id][@aria-label]'; hide-if-contains-visible-text /Sponzorované/ 'article' 'div>div ^^sh^^ div>span'; race stop;
-allegro.*#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.*#?#article:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#$#race start; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>span'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>*'; race stop;
 ! MISC
-allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated false
 ! #CV-705
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
