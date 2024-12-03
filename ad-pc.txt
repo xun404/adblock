@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ykAN+2xAxJ1x8Lj30W7i+g
+! Checksum: EXbdYFjTjXdzA5QiUy2InA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412040539
-! Last Modified: 2024年12月04日 05:39
+! Version: 202412040739
+! Last Modified: 2024年12月04日 07:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -773,7 +773,7 @@ tieba.baidu.com##.tuijian-wrap
 /adv_out.js$third-party
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
-/advanced-ads-$domain=~wordpress.org
+/advanced-ads-$domain=~transinfo.pl|~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
@@ -63025,6 +63025,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
+@@||audience.io/api/v3/app/fetchPromo/$domain=campaign.aptivada.com
 @@||autotrader.co.uk^*/advert$~third-party
 @@||avclub.com^*/adManager.$script,~third-party
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
@@ -65373,6 +65374,8 @@ newduba.cn###jq_youxi
 ||thaqne.com^
 ||q1bp.icu^
 ||odamcsk.top^
+||lumvkebr.icu^
+||scroscoi.com^
 ||sconat.com^
 ||cidhmxxb.icu^
 ||ig69.vip^
