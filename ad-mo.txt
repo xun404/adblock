@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PekLy6DKVsXfeaXyu+oXew
+! Checksum: 6qQpM1Mg7EokM5pg6dnWcw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412031846
-! Last Modified: 2024年12月03日 18:46
+! Version: 202412031938
+! Last Modified: 2024年12月03日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -992,7 +992,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
 /redirect?tid=
-/reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$~xmlhttprequest,domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama2.jpg$image
 /reklama2.png$image,domain=~aerokuz.ru
@@ -50927,6 +50926,7 @@ browsershots.org#@#.advert_area
 ||js.phoenixmanga.com^
 ||js.surecart.com/v1/affiliates?
 ||jsdelivr.net/gh/InteractiveAdvertisingBureau/
+||jsdelivr.net/gh/qxomer/reklam@master/reklam.js
 ||jsdelivr.net/npm/prebid-
 ||jvzoo.com/assets/widget/
 ||jwpcdn.com/player/*/googima.js
@@ -60977,6 +60977,7 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
+bing.com##li.b_algo:has(img.cico.siteicon.rms_img[src^="https://www.bing.com/th?id=O"])
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
