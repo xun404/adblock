@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vhCP6/hJW1scFRl/7xEUVQ
+! Checksum: RvniLI7b8iYt401SCgJyFQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412051448
-! Last Modified: 2024年12月05日 14:48
+! Version: 202412051539
+! Last Modified: 2024年12月05日 15:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16231,7 +16231,7 @@ click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls
 accuweather.com,cheddar.tv,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
 accuweather.com#@#.connatix-player
 huffpost.com#@#.connatix-wrapper
-mm-watch.com,player.ex.co,theautopian.com#@#.pbs__player
+mm-watch.com,player.ex.co,theautopian.com,usatoday.com#@#.pbs__player
 screenrant.com#@#.w-adsninja-video-player
 !! ins.adsbygoogle
 advancedrenamer.com,androidrepublic.org,anonymousemail.me,apkmirror.com,cdromance.com,demos.krajee.com,epicbundle.com,korail.pe.kr,nextbigtrade.com,phcorner.net,pixiz.com,skmedix.pl,spoilertv.com,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle[data-ad-client]
@@ -74655,6 +74655,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
 b0d8a0f6.com##DIV[id^="content_"]
+bing.com#?#.b_algo:-abp-has(.tpmeta:not(.tpmeta:-abp-has(.b_attribution)))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
 cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
