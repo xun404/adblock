@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Iw546f4KvNFRrzAJGh/VuQ
+! Checksum: zUxYb9SrgNXWllkBWcMNPQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412061013
-! Last Modified: 2024年12月06日 10:13
+! Version: 202412061121
+! Last Modified: 2024年12月06日 11:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -15724,6 +15724,7 @@ _800x80_
 ###rightrail_pos3_ddb_0
 ###rightrail_top_ddb_0
 ###story_bottom_ddb_0
+###story_bottom_ddb_1
 ###story_top_ddb_0
 ##.index-module_adBeforeContent__AMXn
 ##.index-module_rightrailBottom__IJEl
@@ -65323,6 +65324,7 @@ newduba.cn###jq_youxi
 ##style + .vdgdo
 ##.tg-m.tg-site
 ##.tg-pc.tg-site
+##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
@@ -65348,6 +65350,9 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||khengrull.com^
 ||ugajiwft.icu^
+||hjimtyu.top^
+||u6u.icu^
+||ii3.icu^
 ||eatnontf.icu^
 ||khesuts.com^
 ||mdamcsx.top^
@@ -74607,11 +74612,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
-b0d8a0f6.com##div[id^="content_"]
 bing.com#?#.b_algo:-abp-has(.tpmeta:not(.tpmeta:-abp-has(.b_attribution)))
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
-cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
+bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 szxx.com.cn###A0
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好 物))
 131400.best,vikacg.com,vikacg.xyz##.post-card-list > a
