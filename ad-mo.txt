@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CG6Ucn1UA0B3Eg8OblwO4Q
+! Checksum: /4HNk6XsgzzYNhw4Q8GEAA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412091245
-! Last Modified: 2024年12月09日 12:45
+! Version: 202412091846
+! Last Modified: 2024年12月09日 18:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -626,7 +626,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsAPI.js$script
 /adsbanner-$image
 /adsbanner/*$image
-/adsbox.$~script,domain=~adsbox.com.sg
 /adscontroller.js$script
 /adscroll.js$script
 /adsdelivery/*$subdocument
@@ -650,7 +649,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adtech;
 /adtools.js$script
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adultdvdparadisecompopinsecound.js
+/adultdvdparadisecompopinsecound.js$script
 /adunit/track-view|
 /adunits/bcid?
 /adutil.js$script
@@ -1110,7 +1109,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /velvet_stack_cmp.js$script
 /vendors~ads.
 /video_ads.$script
-/videoad.$domain=~videoad.in
+/videoad.$~xmlhttprequest,domain=~videoad.in
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
@@ -56856,6 +56855,7 @@ flipline.com##.box_grey_tr
 functions-online.com##.box_wide
 kiz10.com##.boxadsmedium
 bolavip.com,worldsoccertalk.com##.boxbanner_container
+kodinerds.net##.boxesSidebarRight
 retailgazette.co.uk##.boxzilla-overlay
 retailgazette.co.uk##.boxzilla-popup-advert
 wbur.org##.bp--native
