@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EH7Qn1BfE3LkKsgHRWuEcA
+! Checksum: xMCqCQ6y2Y3FwMJrs13ycQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412100740
-! Last Modified: 2024年12月10日 07:40
+! Version: 202412101016
+! Last Modified: 2024年12月10日 10:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -60029,7 +60029,7 @@ topgear.com##[data-testid="MpuPremium2Single"]
 reuters.com##[data-testid="ResponsiveAdSlot"]
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##[data-testid="StandardAd"]
 topgear.com##[data-testid="TopSlot"]
-coles.com.au##[data-testid="ad"]
+bleacherreport.com,coles.com.au##[data-testid="ad"]
 kijiji.ca##[data-testid="adsense-container"]
 gozofinder.com##[data-testid="advert"]
 coles.com.au##[data-testid="banner-container-desktop"]
@@ -90898,7 +90898,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||diagnose.igstatic.com^
 ||dig.ultimedia.com^
 ||digimedia.com/pageviews.php?
-||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||digitaloceanspaces.com/pixel/
 ||direct-collect.dy-api.com^
 ||direct-collect.dy-api.eu^
@@ -133232,6 +133231,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
+@@||api-public.roland.com/geoip$domain=bosstoneexchange.com
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
