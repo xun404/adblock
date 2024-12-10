@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Wli/2nVO+Q5SxyWqOS2gqQ
+! Checksum: DGEU6+Zfla5elk51tsXzoA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202412101938
-! Last Modified: 2024年12月10日 19:38
+! Version: 202412102244
+! Last Modified: 2024年12月10日 22:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -563,7 +563,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adrecover.js$script
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
-/adriver_$~object
 /ads-250.$image
 /ads-async.$script
 /ads-common.$image,script
@@ -875,7 +874,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
-/livejasmin.$domain=~livejasmin.com
+/livejasmin.$~xmlhttprequest,domain=~livejasmin.com
 /log_ad?
 /mads.php?
 /maven/am.js$script

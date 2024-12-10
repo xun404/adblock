@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0tpaNZeCgqGgEwcdy1UOQQ
+! Checksum: qOu9vC3mkMfor/b5d2cb3A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412101938
-! Last Modified: 2024年12月10日 19:38
+! Version: 202412102244
+! Last Modified: 2024年12月10日 22:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -675,7 +675,6 @@ tieba.baidu.com##.tuijian-wrap
 /adrecover.js$script
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
-/adriver_$~object
 /ads-250.$image
 /ads-async.$script
 /ads-common.$image,script
@@ -987,7 +986,7 @@ tieba.baidu.com##.tuijian-wrap
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
-/livejasmin.$domain=~livejasmin.com
+/livejasmin.$~xmlhttprequest,domain=~livejasmin.com
 /log_ad?
 /mads.php?
 /maven/am.js$script
