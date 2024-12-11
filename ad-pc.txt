@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sxLXAR0CI1Cp3kdw2spZgg
+! Checksum: gh/pzXcPC5IW6o6km10rbw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412112104
-! Last Modified: 2024年12月11日 21:04
+! Version: 202412112144
+! Last Modified: 2024年12月11日 21:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -897,7 +897,7 @@ tieba.baidu.com##.tuijian-wrap
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
-/exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
+/exoclick.$~script,~xmlhttprequest,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/*$script
 /exonob/*$script
 /exports/tour/*$third-party
@@ -65633,6 +65633,7 @@ newduba.cn###jq_youxi
 ||ojimtyk.top^
 ||tteferty33.fun^
 ||suzalsln.com^
+||a7c.icu^
 ||wyvpkmbj.icu^
 ||thunnqyo.com^
 ||wjimtye.top^
