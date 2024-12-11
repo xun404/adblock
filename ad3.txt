@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oahqncxF13BYIymU9i/74g
+! Checksum: 1h333lH9Qx3qhpSEYAdbow
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412120049
-! Last Modified: 2024年12月12日 00:49
+! Version: 202412120643
+! Last Modified: 2024年12月12日 06:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24143,7 +24143,6 @@ m.babytree.com##script + a[class]
 /web-data-ingress?
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals.
 /web/push?
 /web_analytics/*
 /web_answertip.js
@@ -72076,7 +72075,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
-@@||quickmath.com/js/r/web-vitals.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
@@ -72164,7 +72162,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||vidible.tv^*/ComScore.Viewability.js
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
-@@||web.dev/patterns/web-vitals-$~third-party
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
@@ -72406,8 +72403,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||sgtm.farmasave.it^$script,~third-party
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
-@@||sport.virgilio.it/js/web-vitals-evnt.25/web-vitals.attribution.js$script,domain=sport.virgilio.it
-@@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
@@ -72501,7 +72496,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sascdn.com/tag/$script,domain=filmweb.pl
 @@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
-@@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 !---------- Portuguese ----------
 @@||auth2.picpay.com^*/event-tracking.js$script,~third-party
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
