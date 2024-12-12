@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0Ob/hv5bhh/D8ixamTyoTQ
+! Checksum: q2LvhAziLqxvHl0KjCI1JQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412122243
-! Last Modified: 2024年12月12日 22:43
+! Version: 202412130539
+! Last Modified: 2024年12月13日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21826,7 +21826,6 @@ m.babytree.com##script + a[class]
 /analytics.config.js
 /analytics.do
 /analytics.gif?
-/analytics.html?
 /analytics.js/v1/*
 /analytics.plausible.js
 /analytics.prod.$domain=~fifteen.eu
@@ -71616,7 +71615,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fb.ru/stat/
 ||fontanka.ru/api/metrics/
 ||fotostrana.ru/start/
-||goya.rutube.ru^
+||goya.rutube.ru^$~image
 ||hh.ru/analytics^
 ||hh.ru/stat?
 ||interfax.ru/cnt/
@@ -71947,6 +71946,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
+@@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
+@@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||filme.imyfone.com/assets/js/gatrack.js$~third-party
