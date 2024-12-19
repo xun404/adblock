@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dpNXMMStcAtRocUlBCzcBQ
+! Checksum: 05zZZK95dFgVfOGXJeTdOw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202412192142
-! Last Modified: 2024年12月19日 21:42
+! Version: 202412200439
+! Last Modified: 2024年12月20日 04:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1407,18 +1407,25 @@ abcnyheter.no#$#hide-if-contains-visible-text /Annonsørinnhold/ 'section div>ar
 ! TB
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
+allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/../../div/ancestor::div[@data-role="showcase"]'
+allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::span/ancestor::div[1]/parent::div[@data-box-name]/../../../parent::div[@data-item]'
 ! SA
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
+allegro.pl##div[data-box-name^="car0usels.base"][data-analytics-groups*="sponsored_offers_ppc_ads"]
 ! PP
 allegro.*##div[data-box-name^="ads"]
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-! HB
-! PL
-allegro.*#$#race start; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>span'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>*'; race stop;
+allegro.pl##div[data-box-name][data-analytics-groups*="allegro.ads"]
+! HP
+allegro.pl##div[data-box-name][data-analytics-groups*="Reklamy"]
+allegro.pl##div[data-box-name][data-analytics-tags*="Ads"][data-analytics-groups*="Ads"]
+allegro.pl#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::a/ancestor::li[1]'
+allegro.pl#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::li/ancestor::div[@data-box-id][1]/../../../parent::div[@style]'
 ! MISC
+allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated true
 ! #CV-705
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
@@ -1566,6 +1573,7 @@ agroportal.ua#$#abort-on-property-read abn
 kaztorka.org#$#abort-current-inline-script document.createElement Math.random
 naruto-base.su#$#abort-on-property-read njranu
 animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.createElement Math.random; abort-current-inline-script setInterval Math.random
+nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece
 vestivrn.ru#$#abort-on-property-read video.preroll
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 dota2.ru#$#abort-on-property-read helpUsImproveSite
