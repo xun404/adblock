@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c3EkAvKBXiks08y0Rcth/A
+! Checksum: gB/mJTgP0/oBe1n20v/PkQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202412231103
-! Last Modified: 2024年12月23日 11:03
+! Version: 202412231738
+! Last Modified: 2024年12月23日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10073,6 +10073,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cdncg.com^*/kangmey
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
+||httpcn.com^*950-120
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
 52asus.com###AsusMall-contain
@@ -10364,7 +10365,7 @@ csdn.net###asideCustom36733263
 csdn.net###asideCustom65392991
 baidu.com###asideLeft
 baidu.com###asideRight
-assbbs.com###ass_adv
+assbbs.com##div[id^="ass_adv"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###attention-game-wraper_dialog
 vjmedia.com.hk###author-spotlight + .clear + div
 androiddevtools.cn###auto-scroll-ad-box
