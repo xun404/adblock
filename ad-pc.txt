@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v3sindbiTjQIf+Od0MGBIg
+! Checksum: 1vLrek+I8ZjiHEZKv8VavQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412241339
-! Last Modified: 2024年12月24日 13:39
+! Version: 202412241643
+! Last Modified: 2024年12月24日 16:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -94639,6 +94639,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twitter.com^*/log.json
 ||tyler-brown.com/api/stats?
 ||typepad.com/t/stats?
+||ua.financialexpress.com/api/capture
 ||ua.indianexpress.com^
 ||uber.com/_events
 ||uber.com/_track
@@ -132382,6 +132383,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ensighten.com^*/serverComponent.php?$script
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||events.raceresult.com^$~third-party,xmlhttprequest
+@@||evergage.com/api2/event/$domain=mbusa.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
