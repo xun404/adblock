@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7TcwzrfyueQY+BDAk+OXxw
+! Checksum: mH8YZqVuNBWEkPrPqIgZrA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202412261100
-! Last Modified: 2024年12月26日 11:00
+! Version: 202412261445
+! Last Modified: 2024年12月26日 14:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61849,14 +61849,7 @@ tripadvisor.com#?#.tkvEM:-abp-contains(Sponsored)
 twitter.com,x.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
 walmart.ca,walmart.com#?#div > div[io-id]:-abp-contains(Sponsored)
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^Amazon$/))
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^Best Buy$/))
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^Booking\.com$/))
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^eBay$/))
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^eDreams$/))
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^Trip\.com$/))
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^Tripadvisor$/))
-bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^Walmart$/))
+bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^(Amazon|Best Buy|Booking\.com|eBay|eDreams|Trip\.com|Tripadvisor|Walmart)$/))
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
 virtuagirlgirls.com###DynamicBackgroundWrapper
