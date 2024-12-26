@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p9IwrwSAeSHPuSLjbkZHEA
+! Checksum: rJnhTHZ4P6l8x9vSUEI8HA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202412261938
-! Last Modified: 2024年12月26日 19:38
+! Version: 202412262058
+! Last Modified: 2024年12月26日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -934,7 +934,7 @@ mult34.com#$#abort-current-inline-script decodeURI; abort-on-property-read decod
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
 123-movies.city,actvid.com,cineb.*,hdtoday.*,hdtodayz.*,solarmovie.*,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
-doood.site,igetintopc.com,jasminetesttry.com,seaporn.org,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
+1377x.*,doood.site,igetintopc.com,jasminetesttry.com,seaporn.org,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
 youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.cc,filecrypt.co#$#abort-on-property-write isAdblock; abort-on-property-write isAdblock2
 hclips.com,upornia.com#$#abort-on-property-read adver
@@ -1026,7 +1026,7 @@ tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hi
 datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
 bunkr.*#$#abort-current-inline-script WebAssembly Promise;
 cineb.*#$#prevent-listener mousedown shown_at; abort-on-property-read window.open;
-gomovies.*,harimanga.*,myflixerz.*#$#abort-current-inline-script document.documentElement break;case $.; abort-on-property-read window.open;
+gomovies.*,harimanga.*,maxstream.video,myflixerz.*#$#abort-current-inline-script document.documentElement break;case $.; abort-on-property-read window.open;
 europixhd.com,europixhd.net,gledajonline.net,hdeuropix.io,jawcloud.co,kimcartoon.li,kimcartoon.to,loadsubs.net,s3embtaku.pro,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
@@ -1216,6 +1216,7 @@ gogoanimes.*#$#abort-current-inline-script Math break;case $.
 ||hiveworkscomics.com^$script,domain=egscomics.com
 ||thehiveworks.com^$script,domain=egscomics.com
 harimanga.*#$#hide-if-matches-xpath '//div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 92309px; z-index: 2147483647;"]/ancestor-or-self::div[1]'
+maxstream.video#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1298px; height: 554px; z-index: 2147483647;"]/ancestor-or-self::div[1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
