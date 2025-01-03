@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sBsHlnbr1mM0R18TAvgI2g
+! Checksum: BQSYPHeTWOGLFg5anPMiQA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202501032339
-! Last Modified: 2025年01月03日 23:39
+! Version: 202501040639
+! Last Modified: 2025年01月04日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -33095,6 +33095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||citibank.com.sg/jso/js/fp.js
 ||citibank.com.sg/tmx/
 ||clear.wallapop.com^
+||content.canadiantire.ca^
 ||content22.bmo.com^
 ||content22.citi.eu^$script
 ||content22.citibank.com.au^
@@ -70481,6 +70482,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
 @@||crimemapping.com/cdn/*/analytics/eventtracking.js$~third-party
+@@||criteo.com/delivery/$domain=canadiantire.ca
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
