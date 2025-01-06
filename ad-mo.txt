@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YmDIi6XooceJOfT1ZxDmKg
+! Checksum: WPpEaLJzytDBjJZoXSk1aw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501061643
-! Last Modified: 2025年01月06日 16:43
+! Version: 202501061739
+! Last Modified: 2025年01月06日 17:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56115,7 +56115,6 @@ kentonline.co.uk##.PSDRGC
 govtech.com##.Page-billboard
 afar.com##.Page-header-hat
 apnews.com##.Page-header-leaderboardAd
-quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
 chronicle.com##.PageHeaderMegaHat
 ask.com##.PartialKelkooResults
 hbr.org##.PartnerCenter-module_container__w6Ige
@@ -59038,6 +59037,7 @@ breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
 fastcompany.com##.py-8
 onlyinyourstate.com##.py-8.md\:flex
 pymnts.com##.pymnt_ads
+quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]
 euronews.com##.qa-dfpLeaderBoard
 infoq.com##.qcon_banner
 thegatewaypundit.com##.qh1aqgd
@@ -62033,7 +62033,6 @@ coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
 neowin.net#?#.ipsColumns_collapsePhone.classes:-abp-contains(Our Sponsors)
 amusingplanet.com#?#.blockTitle:-abp-contains(Advertisement)
-quora.com#?#.q-sticky:-abp-contains(Advertisement)
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(> h4.block-title > span:-abp-contains(Visit Our Sponsors))
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:-abp-contains(Sponsored)
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
@@ -73716,6 +73715,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dangbei.net/2022/dbhezi.
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
+333ood.com###appBox
+333ood.com##div[style$="display: block;"]
 baidu.com##.tieba-pause-ad-container
 laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
@@ -79341,6 +79342,7 @@ huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+333ood.com#@#.ad-box:not(#ad-banner):not(:empty)
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
