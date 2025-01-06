@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2YrqIb3TCpUudWW73Jv3KA
+! Checksum: oOCA8CT57jctpLyeHzqXjw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501061739
-! Last Modified: 2025年01月06日 17:39
+! Version: 202501062140
+! Last Modified: 2025年01月06日 21:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1064,7 +1064,7 @@ tieba.baidu.com##.tuijian-wrap
 /popunder1000.js$script
 /popunder2.js$script
 /popunder?
-/popup-domination/*$~stylesheet
+/popup-domination/*$script
 /popup2.js$script
 /popup3.js$script
 /popup_ad.js$script
@@ -65858,6 +65858,9 @@ newduba.cn###jq_youxi
 ||lcvwdn.icu^
 ||1tp.icu^
 ||jdyurlia.top^
+||orcinhyi.com^
+||thruksyq.com^
+||z4v.icu^
 ||lirretsn.com^
 ||nmzbrd.icu^
 ||hrjciqyu.icu^
@@ -132558,7 +132561,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
-@@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de
@@ -132584,6 +132586,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
+@@||relevant-digital.com^$script,domain=20min.ch
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
 @@||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|voici.fr
