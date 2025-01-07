@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hj2CSLfqphF3jKayf4ozjQ
+! Checksum: 8bklx5Y28nxgmd3gqa8jgg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501080640
-! Last Modified: 2025年01月08日 06:40
+! Version: 202501080737
+! Last Modified: 2025年01月08日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60614,6 +60614,7 @@ shipt.com##[id^="cms-ad_banner"]
 hola.com##[id^="div-hola-slot-"]
 designtaxi.com##[id^="dt-small-"]
 skyblock.bz##[id^="flips-"]
+getcomics.org##[id^="getco-"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 designtaxi.com##[id^="in-news-link-"]
 komando.com##[id^="leaderboardAdDiv"]
@@ -65894,6 +65895,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||pinjzp.icu^
+||aos01080ss.xyz^
 ||jfrrnf.icu^
 ||e50.icu^
 ||aos01070ss.xyz^
@@ -83148,7 +83151,7 @@ fqsousou.com,kengso.com#@#.user-share
 /impression.track?
 /impression/inline?
 /impression/track?
-/impressions?
+/impressions?$~xmlhttprequest
 /ImpressionsEvent.js
 /in.getclicky.com/*
 /in.gif?url=
