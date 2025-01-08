@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GKfU3M1YTGjxPEX5xKXi2w
+! Checksum: Txepabf4/9kFPkzqXTjdFg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501090045
-! Last Modified: 2025年01月09日 00:45
+! Version: 202501090138
+! Last Modified: 2025年01月09日 01:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -485,7 +485,7 @@ tieba.baidu.com##.tuijian-wrap
 -sponsor-ad.
 -sticky-ad-
 -top-ads.
--web-advert-
+-web-advert-$image
 -Web-Advert.
 .adriver.$~object,domain=~adriver.co
 .adrotate.
@@ -493,13 +493,12 @@ tieba.baidu.com##.tuijian-wrap
 .ads-min.
 .ads.controller.
 .ads.css
-.ads.darla.
 .adsbox.
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ar/ads/
 .ashx?AdID=
 .aspx?adid=
-.az/adv/
+.az/adv/$~xmlhttprequest
 .br/ads/
 .bz/ads/
 .ca/ads/
@@ -1294,7 +1293,6 @@ tieba.baidu.com##.tuijian-wrap
 ?wpstealthadsjs=
 _ad_250.
 _ad_300.
-_ad_728_
 _ad_banner.
 _ad_bottom.
 _ad_box.
@@ -1309,7 +1307,6 @@ _ad_sidebar_
 _ad_skyscraper.
 _ad_wrapper.
 _adbanner_
-_adbanners.
 _adchoice.
 _adchoices.
 _adhome.
@@ -1340,11 +1337,9 @@ _banner_ad_
 _Banner_Ads_
 _bannerad.
 _BannerAd_
-_bannerads_
 _bottom_ads.
 _bottom_ads_
 _footer_ad_
-_google_ads.
 _gpt_ads.
 _header_ad.
 _header_ad_
@@ -1372,7 +1367,6 @@ _square_ad.
 _sticky_ad.
 _StickyAd.
 _text_ads.
-_textads.
 _top_ad.
 _vertical_ad.
 _web-advert.
@@ -1492,7 +1486,7 @@ _widget_ad.
 /prebid_$script,third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
-_prebid.js
+_prebid.js$script
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
 /webservices/jsparselinks.aspx?$script
