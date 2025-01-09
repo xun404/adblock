@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Oar6g3QsftiOtpSyDKzBig
+! Checksum: 7+hB0xNPNNimnKH+mAS2eg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501091125
-! Last Modified: 2025年01月09日 11:25
+! Version: 202501091339
+! Last Modified: 2025年01月09日 13:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -457,7 +457,6 @@ tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
--ad-300x600-
 -ad-458x80.
 -ad-manager/$~stylesheet
 -ad-sidebar.
@@ -483,7 +482,6 @@ tieba.baidu.com##.tuijian-wrap
 -right-ad.
 -sidebar-ad.
 -sponsor-ad.
--sticky-ad-
 -top-ads.
 -web-advert-$image
 -Web-Advert.
@@ -505,8 +503,8 @@ tieba.baidu.com##.tuijian-wrap
 .cfm?ad=
 .cgi?ad=
 .ch/adv/
-.click/cuid/?
-.click/rf/
+.click/cuid/?$third-party
+.click/rf/$third-party
 .clkads.
 .club/js/popunder.js
 .cn/sc/*?n=$script,third-party
@@ -544,7 +542,6 @@ tieba.baidu.com##.tuijian-wrap
 .lazyload-ad.
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
-.mx/ads/
 .my/ads/
 .nativeads.
 .net/ad2/$~xmlhttprequest
@@ -566,10 +563,10 @@ tieba.baidu.com##.tuijian-wrap
 .popunder.js
 .pw/ads/
 .ru/ads/
-.shop/gd/
+.shop/gd/$third-party
 .shop/tsk/$third-party
-.top/cuid/?
-.top/gd/*?md=
+.top/cuid/?$third-party
+.top/gd/*?md=$third-party
 /?abt_opts=1&
 /?fp=*&poru=$subdocument
 /?view=ad
@@ -792,6 +789,7 @@ tieba.baidu.com##.tuijian-wrap
 /amazon-associates-link-$~stylesheet
 /amp-ad-$script
 /amp-connatix-$script
+/amp-sticky-ad-$script
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
@@ -1300,7 +1298,6 @@ _ad_choices.
 _ad_header.
 _ad_image_
 _ad_layer_
-_ad_leaderboard.
 _ad_right.
 _ad_side.
 _ad_sidebar_
@@ -1319,7 +1316,6 @@ _ads.cgi
 _ads.cms?
 _ads.php?
 _ads_updater-
-_adscommon.
 _adserve.
 _adskin.
 _adskin_
@@ -1361,8 +1357,6 @@ _rightad_
 _sidead.
 _sidebar_ad.
 _sidebar_ad_
-_skinad.
-_small_ad.
 _square_ad.
 _sticky_ad.
 _StickyAd.
@@ -64066,6 +64060,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ienohikari.net/ad/img/$~third-party
 @@||img.rakudaclub.com/adv/$~third-party
 @@||infotop.jp/html/ad/$image,~third-party
+@@||intelyvale.com.mx/ads/images/$domain=valesdegasolina.mx
 @@||jmedj.co.jp/files/$image,~third-party
 @@||jobs.bg/front_job_search.php$~third-party
 @@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
@@ -65918,6 +65913,7 @@ newduba.cn###jq_youxi
 ||ztlkngyj.icu^
 ||xxaks01080sspao.xyz^
 ||xxaks01081sspao.xyz^
+||xxaks01091sspao.xyz^
 ||tu6.icu^
 ||xukanvyl.com^
 ||nyjelh.icu^
@@ -81602,6 +81598,7 @@ _rony.js$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 /\.[a-z]dyurli[a-z].top\//$script,third-party
 .okpp1*.xyz/$script,third-party
+.xxaks*sspao.xyz/$script,third-party
 .okpp0*.xyz/$script,third-party
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 !#Novels
