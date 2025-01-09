@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rSRi+uEN3pMPJv3P5Agxng
+! Checksum: hGuvDMWARXTFilPdFo1cQQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501092340
-! Last Modified: 2025年01月09日 23:40
+! Version: 202501100245
+! Last Modified: 2025年01月10日 02:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -419,7 +419,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .cz/adv/
 .cz/affil/
 .cz/bannery/
-.fuse-cloud.com/
+.fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
 .info/tsv
 .jp/ads/$third-party,domain=~hs-exp.jp
@@ -427,7 +427,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .lazyload-ad.
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
-.my/ads/
 .nativeads.
 .net/ad2/$~xmlhttprequest
 .net/ads?
@@ -444,9 +443,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 .php?clicktag=
 .php?zone_id=$~xmlhttprequest
 .php?zoneid=
-.pk/ads/
-.popunder.js
-.pw/ads/
+.pk/ads/$~xmlhttprequest
+.pw/ads/$~xmlhttprequest
 .ru/ads/
 .shop/gd/$third-party
 .shop/tsk/$third-party
@@ -844,6 +842,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /jquery.dfp.js?$script
 /jquery.dfp.min.js?$script
 /jquery.openxtag.js$script
+/jquery.popunder.js$script
 /js/ad_common.js$script
 /js/advRotator.js$script
 /jsAds-1.4.min.js$script
@@ -1202,7 +1201,6 @@ _ads.php?
 _ads_updater-
 _adserve.
 _adskin.
-_adtitle.
 _adv_open_x/
 _advertise-$domain=~linkedin.com
 _advertise.
@@ -1211,14 +1209,12 @@ _affiliate_ad.
 _assets/ads/
 _asyncspc.
 _background_ad.
-_banner_ad_
 _Banner_Ads_
 _BannerAd_
 _bottom_ads.
 _bottom_ads_
 _footer_ad_
 _gpt_ads.
-_header_ad.
 _header_ad_
 _headerad.
 _images/ad.$image
@@ -1235,7 +1231,6 @@ _rightad.
 _rightad_
 _sidebar_ad.
 _sidebar_ad_
-_sticky_ad.
 _StickyAd.
 _top_ad.
 _web-advert.
@@ -19959,6 +19954,7 @@ browsershots.org#@#.advert_area
 ||biunialpawnie.top^
 ||biuskye.com^
 ||bivos.xyz^
+||biwipuque.com^
 ||bizographics.com^
 ||bizonads-ssp.com^
 ||bizoniatump.click^
@@ -47166,6 +47162,7 @@ browsershots.org#@#.advert_area
 ||bitterstrawberry.com^$popup
 ||biturl.co^$popup
 ||bitzv.com^$popup
+||biwipuque.com^$popup
 ||blackandwhite-temporary.com^$popup
 ||blacklinknow.com^$popup
 ||blacklinknowss.co^$popup
