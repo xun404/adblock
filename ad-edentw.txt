@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8dOFK9nmElxwlComLALT1Q
+! Checksum: SYQnN14cVaBXmO15cW0lyg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501092059
-! Last Modified: 2025年01月09日 20:59
+! Version: 202501100338
+! Last Modified: 2025年01月10日 03:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -541,8 +541,11 @@ etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: fle
 etoland.co.kr#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
 etoland.co.kr#$#abort-on-property-read atob;
 ||info.error-report.com^$domain=picrew.me|javatpoint.com|m.ygosu.com|ndtvprofit.com
-||html-load.com^$domain=talkwithstranger.com|heureka.cz|the-crossword-solver.com|nyitvatartas24.hu|oraridiapertura24.it|horairesdouverture24.fr|oeffnungszeitenbuch.de|palabr.as|motscroises.fr|crosswordsolver.com|dziennik.pl|convertcase.net|raetsel-hilfe.de|manta.com|tportal.hr|petitfute.com|wfmz.com|golf-live.at|word-grabber.com|kreuzwortraetsel.de|verkaufsoffener-sonntag.com|wort-suchen.de|rostercon.com|woxikon.de|woxikon.es|woxikon.se|woxikon.com|woxikon.fr|woxikon.mx|woxikon.it|woxikon.nl|woxikon.com.br|woxikon.co|woxikon.dk|woxikon.pl|woxikon.cl|woxikon.pt|woxikon.ru|woxikon.bg|woxikon.co.uk|eurointegration.com.ua
-talkwithstranger.com,heureka.cz,the-crossword-solver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,woxikon.*,palabr.as,motscroises.fr,crosswordsolver.com,dziennik.pl,convertcase.net,raetsel-hilfe.de,manta.com,tportal.hr,petitfute.com,wfmz.com,golf-live.at,word-grabber.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,wort-suchen.de,rostercon.com,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
+||html-load.com^$domain=talkwithstranger.com|convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
+talkwithstranger.com,convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
+the-crossword-solver.com,crosswordsolver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,palabr.as,motscroises.fr,raetsel-hilfe.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,cruciverba.it,word-grabber.com,woxikon.de,woxikon.es,woxikon.se,woxikon.fr,woxikon.it,woxikon.nl,woxikon.com.br,woxikon.dk,woxikon.pl,woxikon.pt,woxikon.bg,winfuture.de,wort-suchen.de#$#abort-on-property-read navigator.userAgent; abort-on-property-read document.hidden
+nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de##div[class*="albl_tablet"]
+the-crossword-solver.com,kreuzwortraetsel.de##div[class^="mta"]
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
