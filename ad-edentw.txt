@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iBawV4uJgUeht5F+MebJUQ
+! Checksum: 33z/Z/oxhw58U7EPnP3Qhw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501102058
-! Last Modified: 2025年01月10日 20:58
+! Version: 202501102339
+! Last Modified: 2025年01月10日 23:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -543,9 +543,7 @@ etoland.co.kr#$#abort-on-property-read atob;
 ||info.error-report.com^$domain=picrew.me|javatpoint.com|m.ygosu.com|ndtvprofit.com
 ||html-load.com^$domain=talkwithstranger.com|convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 talkwithstranger.com,convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
-the-crossword-solver.com,crosswordsolver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,palabr.as,motscroises.fr,raetsel-hilfe.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,cruciverba.it,word-grabber.com,woxikon.de,woxikon.es,woxikon.se,woxikon.fr,woxikon.it,woxikon.nl,woxikon.com.br,woxikon.dk,woxikon.pl,woxikon.pt,woxikon.bg,winfuture.de,wort-suchen.de#$#abort-on-property-read navigator.userAgent; abort-on-property-read document.hidden
-nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de##div[class*="albl_tablet"]
-the-crossword-solver.com,kreuzwortraetsel.de##div[class^="mta"]
+the-crossword-solver.com,winfuture.de#$#abort-on-property-read navigator.userAgent; abort-on-property-read document.hidden
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
