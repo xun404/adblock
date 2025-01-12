@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WDXOnuRP5WOeJvLTQOhK2w
+! Checksum: iRnYwQqQhCzfdypyQRZGhg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501120337
-! Last Modified: 2025年01月12日 03:37
+! Version: 202501121012
+! Last Modified: 2025年01月12日 10:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6081,6 +6081,7 @@ _800x80_
 ###yahoo_text_ad
 ###yahooads
 ###yandex_ad
+###yandex_ad2
 ###yatadsky
 ###yrail_ads
 ###yreSponsoredLinks
@@ -12664,6 +12665,9 @@ _800x80_
 ##.jw-ad-visible
 ##.kakao_ad_area
 ##.keen_ad
+##.kiwi-ad-wrapper-300x250
+##.kiwi-ad-wrapper-728x90
+##.kiwi-ad-wrapper-950x80
 ##.kumpulads-post
 ##.kumpulads-side
 ##.kwizly-psb-ad
@@ -15428,9 +15432,6 @@ _800x80_
 ##display-ads
 ##div[aria-label="Ads"]
 ##div[class^="Adstyled__AdWrapper-"]
-##div[class^="Display_displayAd"]
-##div[class^="kiwi-ad-wrapper"]
-##div[class^="native-ad-"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
 ##div[data-ad-wrapper]
@@ -15458,12 +15459,10 @@ _800x80_
 ##div[id^="gpt_ad_"]
 ##div[id^="lazyad-"]
 ##div[id^="optidigital-adslot"]
-##div[id^="pa_sticky_ad_box_middle_"]
 ##div[id^="rc-widget-"]
 ##div[id^="st"][style^="z-index: 999999999;"]
 ##div[id^="sticky_ad_"]
 ##div[id^="vuukle-ad-"]
-##div[id^="yandex_ad"]
 ##gpt-ad
 ##guj-ad
 ##hl-adsense
@@ -56405,11 +56404,9 @@ krebsonsecurity.com##.a-statement
 tellymix.co.uk##.a-text
 androidtrends.com,aviationa2z.com,backthetruckup.com,bingehulu.com,buffalorising.com,cryptoreporter.info,streamsgeek.com,techcentral.co.za,techrushi.com,trendstorys.com,vedantbhoomi.com##.a-wrap
 breitbart.com##.a-wrapper
-getpocket.com##.a1cawpek
 chordify.net##.a1p2y5ib
 informer.com##.a2
 wmtips.com##.a3f17
-getpocket.com##.a47c4wn
 crypto.news##.a49292cf69626
 thechinaproject.com##.a4d
 westword.com##.a65vezphb1
@@ -58981,7 +58978,6 @@ breakingnews.ie##.p-2.bg-gray-100
 beermoneyforum.com##.p-body-sidebar
 whatitismyip.net##.p-hza6800
 phonearena.com##.pa-sticky-container
-getpocket.com##.paarv6m
 islamicfinder.org##.pad-xs.box.columns.large-12
 republicworld.com##.pad3010.txtcenter
 topsmerch.com##.padding-50px
@@ -65958,6 +65954,9 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||tndbnriz.icu^
+||eisnaisv.com^
+||puhmtt.icu^
 ||riscats.com^
 ||jebrhb.icu^
 ||bc4.fun^
@@ -93766,8 +93765,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.ifunny.co^
 ||geolocation.forbes.com^
 ||getadblock.com/js/log.js
-||getpocket.com/t/
-||getpocket.com/web-client-api/braze
 ||getpocket.com/web-utilities/public/static/te.js
 ||gettapeads.com/stat/
 ||gettyimages.*/pulse$ping
