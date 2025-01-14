@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HuGYHJwZBWoDC7TcJDCDfA
+! Checksum: SMMz0SqIXsXKWqXVTPZ6pw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501140337
-! Last Modified: 2025年01月14日 03:37
+! Version: 202501140954
+! Last Modified: 2025年01月14日 09:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -537,12 +537,9 @@ skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"Spo
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
 ! CV-1364
-etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
-etoland.co.kr#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
-etoland.co.kr#$#abort-on-property-read atob;
-||info.error-report.com^$domain=picrew.me|javatpoint.com|m.ygosu.com|ndtvprofit.com
-||html-load.com^$domain=talkwithstranger.com|convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
-talkwithstranger.com,convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
+||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
+convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
+smsonline.cloud,infinityfree.com,flatpanelshd.com,maketecheasier.com,the-crossword-solver.com,crosswordsolver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,palabr.as,motscroises.fr,raetsel-hilfe.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,cruciverba.it,word-grabber.com,woxikon.de,woxikon.es,woxikon.se,woxikon.fr,woxikon.it,woxikon.nl,woxikon.com.br,woxikon.dk,woxikon.pl,woxikon.pt,woxikon.bg,wort-suchen.de#$#abort-on-iframe-property-read atob btoa
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
