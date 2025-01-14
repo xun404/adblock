@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vzv/yLCHl1qsavAgN+vdlg
+! Checksum: zCKmxuxI6Q3TGgsQBiTGMA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501141840
-! Last Modified: 2025年01月14日 18:40
+! Version: 202501142138
+! Last Modified: 2025年01月14日 21:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1412,7 +1412,7 @@ allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/../../div/ancestor::div[@data-role="showcase"]'
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::span/ancestor::div[1]/parent::div[@data-box-name]/../../../parent::div[@data-item]'
 ! SA
-allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
 allegro.pl##div[data-box-name^="car0usels.base"][data-analytics-groups*="sponsored_offers_ppc_ads"]
 ! PL
 allegro.pl#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>*';
