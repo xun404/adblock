@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: earZIYMMxCIu6lhyiT7kOQ
+! Checksum: mKpQyIS4PbvSHQ3o/BVUdQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501142239
-! Last Modified: 2025年01月14日 22:39
+! Version: 202501142338
+! Last Modified: 2025年01月14日 23:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -360,7 +360,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 -contrib-ads.$~stylesheet
 -display-ads.
 -footerads.
--housead-
 -page-ad.
 -PcmModule-Taboola-
 -popexit.
@@ -382,7 +381,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .ashx?AdID=
 .aspx?adid=
 .az/adv/$~xmlhttprequest
-.br/ads/
+.br/ads/$~xmlhttprequest
 .bz/ads/
 .ca/ads/
 .cfm?ad=
@@ -417,7 +416,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .com/ss/ad/
 .com/watch.*.js?key=
 .cz/adv/
-.cz/affil/
+.cz/affil/$image
 .cz/bannery/
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
@@ -445,7 +444,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .php?zoneid=
 .pk/ads/$~xmlhttprequest
 .pw/ads/$~xmlhttprequest
-.ru/ads/
+.ru/ads/$~xmlhttprequest
 .shop/gd/$third-party
 .shop/tsk/$third-party
 .top/cuid/?$third-party
@@ -724,6 +723,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /bsa-pro-scripteo/frontend/js/script.js$script
 /btag.min.js$third-party
 /buysellads.js$script
+/calcalist_gpt_ads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
 /click/zone?
@@ -1186,12 +1186,9 @@ _ad_right.
 _ad_side.
 _ad_skyscraper.
 _ad_wrapper.
-_adbanner_
 _adchoice.
 _adchoices.
-_adhome.
 _adlabel_
-_adpartner.
 _adplugin.
 _adright.
 _ads.cgi
@@ -1213,7 +1210,6 @@ _BannerAd_
 _bottom_ads.
 _bottom_ads_
 _footer_ad_
-_gpt_ads.
 _header_ad_
 _headerad.
 _images/ad.$image
@@ -1357,7 +1353,6 @@ _prebid.js$script
 /jscheck.php?enc=$xmlhttprequest
 /sl/assetlisting/?
 /jquery.peelback.$script
--adblocker-detection/
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
 /adblock-detect.$script
@@ -57263,6 +57258,7 @@ crn.com##.bottom-section
 cnbctv18.com##.bottom-sticky
 gamingdeputy.com##.bottom-sticky-offset
 coincodex.com##.bottom6
+openguessr.com##.bottomFooterAds
 auto.hindustantimes.com##.bottomSticky
 softicons.com##.bottom_125_block
 softicons.com##.bottom_600_250_block
