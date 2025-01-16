@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4WyqsM5oDxN06KEuuU1Deg
+! Checksum: uVmIZJ4Fpls2gzNu8Mqjqg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501161240
-! Last Modified: 2025年01月16日 12:40
+! Version: 202501161339
+! Last Modified: 2025年01月16日 13:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -349,7 +349,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ad-manager/$~stylesheet
 -ad-sidebar.
 -ad-util.
--ad.jpg.pagespeed.
+-ad.jpg.pagespeed.$image
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
@@ -358,9 +358,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 -banner-ad_
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
--display-ads.
 -footerads.
--page-ad.
 -PcmModule-Taboola-
 -popexit.
 -popunder.
@@ -371,13 +369,11 @@ pan.baidu.com##.upload-bar.global-clearfix
 -web-advert-$image
 -Web-Advert.
 .adriver.$~object,domain=~adriver.co
-.adrotate.
 .ads-lazy.
 .ads.controller.
-.ads.css
 .adsbox.
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
-.ar/ads/
+.ar/ads/$~xmlhttprequest
 .ashx?AdID=
 .aspx?adid=
 .az/adv/$~xmlhttprequest
@@ -432,7 +428,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .ng/ads/
 .nu/ads/
 .org/ad/$domain=~ylilauta.org
-.org/ads/
+.org/ads/$~xmlhttprequest
 .org/pops.js
 .org/script/compatibility.js$third-party
 .ph/ads/
@@ -921,6 +917,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
 /plugins/ad-invalid-click-protector/*$script
+/plugins/adrotate-pro-latest/*$script
 /plugins/adrotate-pro/*$script
 /plugins/adrotate/*$script
 /plugins/ads/*$~xmlhttprequest
@@ -1094,6 +1091,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
+/videojs.ads.css$stylesheet
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
@@ -1185,7 +1183,6 @@ _ad_layer_
 _ad_right.
 _ad_side.
 _ad_skyscraper.
-_ad_wrapper.
 _adchoice.
 _adchoices.
 _adlabel_
@@ -1201,19 +1198,14 @@ _adv_open_x/
 _advertise-$domain=~linkedin.com
 _advertise.
 _advertisment.$~xmlhttprequest
-_affiliate_ad.
 _assets/ads/
 _asyncspc.
-_background_ad.
 _Banner_Ads_
 _BannerAd_
-_bottom_ads.
 _bottom_ads_
 _footer_ad_
-_header_ad_
 _headerad.
 _images/ad.$image
-_images/ad_
 _images/ads/
 _layerad.
 _panel_ads.
@@ -31202,6 +31194,7 @@ browsershots.org#@#.advert_area
 ||measuredshared.com^
 ||measuringcabinetclerk.com^
 ||measuringrules.com^
+||meatabdicatedelicatessen.com^
 ||meatjav11.fun^
 ||meawo.cloud^
 ||mechaelpaceway.com^
@@ -35235,6 +35228,7 @@ browsershots.org#@#.advert_area
 ||privacycounter.com^
 ||privacynicerresumed.com^
 ||privacysearching.com^
+||private-stage.com^
 ||privateappealingsymphony.com^
 ||privatelydevotionrewind.com^
 ||privilegedmansfieldvaguely.com^
