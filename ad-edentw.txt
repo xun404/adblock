@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dAiEQBKznkZTE6Qa2tI94w
+! Checksum: Cxe8uL/BjZDSsMo+py8YcQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501161841
-! Last Modified: 2025年01月16日 18:41
+! Version: 202501161937
+! Last Modified: 2025年01月16日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -562,6 +562,8 @@ tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//di
 tripadvisor.com#$#hide-if-matches-xpath '//div[.//div[contains(text(), "Sponsored by: ")]]/ancestor-or-self::span[1]/parent::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(), "SPONSORED")]/../../../preceding-sibling::div[@data-vjs-player="true"]/parent::div'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-test-target="hero-gallery"][../following-sibling::div//div[contains(text(),"Sponsored by")]]/parent::div/parent::div'
+tripadvisor.com#$#hide-if-matches-xpath './/video/following::*[@class][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored")][1]/preceding::div[@data-vjs-player]/parent::div/parent::div'
+tripadvisor.com#$#hide-if-matches-xpath './/*[@class][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored")]/ancestor::div[@data-sponsored]'
 ! RL
 tripadvisor.com,tripadvisor.com.br,tripadvisor.ca,tripadvisor.com.mx,tripadvisor.com.ar,tripadvisor.cl,tripadvisor.co,tripadvisor.com.ve,tripadvisor.co.uk,tripadvisor.it,tripadvisor.es,tripadvisor.de,tripadvisor.fr,tripadvisor.se,tripadvisor.nl,tripadvisor.com.tr,tripadvisor.dk,tripadvisor.at,tripadvisor.com.gr,no.tripadvisor.com,tripadvisor.pt,tripadvisor.ru,tripadvisor.ch,tripadvisor.be,tripadvisor.jp,cn.tripadvisor.com,tripadvisor.in,tripadvisor.com.my,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.co.id,tripadvisor.co.kr,th.tripadvisor.com,tripadvisor.com.tw,tripadvisor.com.hk,tripadvisor.co.za,ar.tripadvisor.com,tripadvisor.com.eg,tripadvisor.co.il#$#hide-if-matches-xpath '././/span[contains(.,"Patrocinado") or contains(.,"Annonce") or contains(.,"Sponsored") or contains (.,"Sponsorizzato") or contains(., "Gesponsert") or contains(.,"Sponsrad") or contains(.,"Gesponsord") or contains(.,"Sponsorlu") or contains(.,"Sponsoreret") or contains(.,"Χορηγία") or contains(.,"Sponset") or contains(.,"Реклама") or contains(.,"スポンサー提供") or contains(.,"赞助商") or contains(.,"Bersponsor") or contains(.,"스폰서") or contains(.,"สปอนเซอร์") or contains(.,"贊助商") or contains(.,"贊助") or contains(.,"مدعوم") or contains(.,"מודעה")]/ancestor::header/ancestor-or-self::div[2]'
 tripadvisor.com#$#hide-if-matches-xpath './/ul[li/picture]/parent::div/following::span[text()="Sponsored"]/ancestor::div[.//picture and .//a[contains(@href, "Restaurant_Review")]/following::ul/li][1]/parent::div/ancestor-or-self::span[1]'
