@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: f6+KaF7ImvGQXqc9hnOl7g
+! Checksum: 1xEbwCK8UPBrDFPTJhZ8Ow
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501162138
-! Last Modified: 2025年01月16日 21:38
+! Version: 202501162239
+! Last Modified: 2025年01月16日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1028,7 +1028,7 @@ tieba.baidu.com##.tuijian-wrap
 /plugins/adrotate-pro/*$script
 /plugins/adrotate/*$script
 /plugins/ads/*$~xmlhttprequest
-/plugins/adsanity-$script,stylesheet
+/plugins/adsanity-$stylesheet
 /plugins/advanced-ads/*$domain=~transinfo.pl|~wordpress.org
 /plugins/ane-banners-entre-links/*$script,stylesheet
 /plugins/ane-preroll$~xmlhttprequest
@@ -1270,7 +1270,6 @@ tieba.baidu.com##.tuijian-wrap
 ://uads.$third-party,xmlhttprequest
 ?ab=1&zoneid=
 ?adspot_$domain=~sponichi.co.jp
-?adunitid=
 ?advertiser_id=$domain=~ads.pinterest.com
 ?bannerid=
 ?cs=*&abt=0&red=1&sm=$third-party
