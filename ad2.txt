@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iN6BOz4kSK+KQqEgg7f29g
+! Checksum: LDZKD1zF3t0x3tzY8wjCGw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202501160738
-! Last Modified: 2025年01月16日 07:38
+! Version: 202501160955
+! Last Modified: 2025年01月16日 09:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -14,6 +14,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
+.xyz:*?x=$script,third-party
 -*-*-*-*.panda^$script,third-party
 .tv/gg/
 /webAdvert.php?ad_name=
@@ -1734,6 +1735,8 @@ newduba.cn###jq_youxi
 ||djsxm.xyz^
 ||0vc.fun^
 ||cralphal.com^
+||ptrmnx.icu^
+||iwpkp.xyz^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
@@ -9842,7 +9845,6 @@ mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn
-siguyy.tv##[style^="position: fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jt0TU956prS7zO4t96r1dQ
+! Checksum: bnJwhXdIoRWP7ai6Rnw8Tg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202501160738
-! Last Modified: 2025年01月16日 07:38
+! Version: 202501160955
+! Last Modified: 2025年01月16日 09:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -61563,6 +61563,7 @@ evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"])
 cnx-software.com##.widget_text.widget:has([href*="?utm"])
 dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
+mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 momondo.com##[class*="mod-pres-default"]:has(div[class*="ad-badge"])
@@ -64262,6 +64263,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
+.xyz:*?x=$script,third-party
 -*-*-*-*.panda^$script,third-party
 .tv/gg/
 /webAdvert.php?ad_name=
@@ -65982,6 +65984,8 @@ newduba.cn###jq_youxi
 ||djsxm.xyz^
 ||0vc.fun^
 ||cralphal.com^
+||ptrmnx.icu^
+||iwpkp.xyz^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
@@ -74090,7 +74094,6 @@ mydrivers.com###track-link
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
 mydrivers.com##.i1vbApifa5
 mydrivers.com##.HSsRgYjfNn
-siguyy.tv##[style^="position: fixed;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
