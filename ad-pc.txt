@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MQX7jeMAiXMag6NJRg9U3g
+! Checksum: StX8bAjcYU/1RN5lNHD0zA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501162338
-! Last Modified: 2025年01月16日 23:38
+! Version: 202501170043
+! Last Modified: 2025年01月17日 00:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -473,8 +473,6 @@ tieba.baidu.com##.tuijian-wrap
 -footerads.
 -PcmModule-Taboola-
 -popexit.
--popunder.
--publicidad.
 -right-ad.
 -sponsor-ad.
 -web-advert-$image
@@ -527,7 +525,6 @@ tieba.baidu.com##.tuijian-wrap
 .html?clicktag=
 .info/tsv
 .jp/ads/$third-party,domain=~hs-exp.jp
-.lazyload-ad.
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
 .net/ad2/$~xmlhttprequest
@@ -535,7 +532,6 @@ tieba.baidu.com##.tuijian-wrap
 .nu/ads/
 .org/ad/$domain=~ylilauta.org
 .org/ads/$~xmlhttprequest
-.org/pops.js
 .org/script/compatibility.js$third-party
 .ph/ads/
 .php?ad=
@@ -943,6 +939,7 @@ tieba.baidu.com##.tuijian-wrap
 /jquery.dfp.js?$script
 /jquery.dfp.min.js?$script
 /jquery.lazyload-ad-$script
+/jquery.lazyload-ad.js$script
 /jquery.openxtag.js$script
 /jquery.popunder.js$script
 /js/ad_common.js$script
@@ -1280,7 +1277,6 @@ tieba.baidu.com##.tuijian-wrap
 ?wpstealthadsjs=
 _ad_250.$image
 _ad_300.$image
-_ad_banner.
 _ad_bottom.
 _ad_header.
 _ad_image_
@@ -1288,7 +1284,6 @@ _ad_layer_
 _ad_right.
 _ad_side.
 _adchoice.
-_adright.
 _ads.cgi
 _ads.cms?
 _ads.php?
@@ -1298,7 +1293,6 @@ _advertise.
 _advertisment.$~xmlhttprequest
 _assets/ads/
 _asyncspc.
-_BannerAd_
 _bottom_ads_
 _footer_ad_
 _headerad.
@@ -1309,10 +1303,8 @@ _pushads.
 _rectangle_ads.
 _reklama_$domain=~youtube.com
 _rightad.
-_sidebar_ad.
 _sidebar_ad_
 _top_ad.
-_web-advert.
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
@@ -66089,7 +66081,6 @@ newduba.cn###jq_youxi
 ||iwpkp.xyz^
 ||4gu.fun^
 ||krikului.com^
-||ed2.fun^
 ||ed2.fun^
 ||zxpaa.xyz^
 ||etallkiq.com^
