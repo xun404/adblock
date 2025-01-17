@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W3NlsO/3yG9nWirz/Xl15g
+! Checksum: r0OMu5nm2bG3cAolbeI6YA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501172239
-! Last Modified: 2025年01月17日 22:39
+! Version: 202501172338
+! Last Modified: 2025年01月17日 23:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -469,12 +469,10 @@ tieba.baidu.com##.tuijian-wrap
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
 -footerads.
--PcmModule-Taboola-
 -right-ad.
 -sponsor-ad.
 -web-advert-$image
 .adriver.$~object,domain=~adriver.co
-.ads-lazy.
 .ads.controller.
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ar/ads/$~xmlhttprequest
@@ -1271,7 +1269,6 @@ tieba.baidu.com##.tuijian-wrap
 _ad_250.$image
 _ad_300.$image
 _ad_bottom.
-_ad_header.
 _ad_image_
 _ad_layer_
 _ads.cgi
@@ -1281,16 +1278,12 @@ _adskin.
 _advertise-$domain=~linkedin.com
 _advertisment.$~xmlhttprequest
 _assets/ads/
-_bottom_ads_
-_footer_ad_
-_headerad.
 _images/ad.$image
 _panel_ads.
 _popunder_
 _pushads.
 _rectangle_ads.
 _reklama_$domain=~youtube.com
-_rightad.
 _sidebar_ad_
 _top_ad.
 ||cacheserve.*/promodisplay/
@@ -1563,7 +1556,6 @@ _atblockdetector/
 /468x60.$~script
 /468x60/*
 /468x60_
-/468x70-
 /468x72.
 /468x72_
 /468x80-
@@ -1585,7 +1577,7 @@ _atblockdetector/
 /600_120_
 /600_90_
 /600x75_
-/600x90.
+/600x90.$image
 /60x468.
 /640x100/*
 /640x80-
@@ -45267,6 +45259,7 @@ browsershots.org#@#.advert_area
 ||affiliategroove.com^$third-party
 ||affilimatejs.com^$third-party
 ||affilist.com^$third-party
+||affilizz.com^$third-party
 ||afishamedia.net^$third-party
 ||afp.ai^$third-party
 ||afrikad.com^$third-party
@@ -53490,6 +53483,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||cloudfront.net/transcode/storyTeller/$media,domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
 ||cloudfront.net^$domain=rexdlbox.com|titantv.com
 ||cloudfront.net^*/sponsors/$domain=pbs.org
+||cnbcfm.com/dist/components-PcmModule-Taboola-
 ||cnx-software.com/wp-content/uploads/*/cexpress-asl-COM-Express-Amston-Lake-module.webp
 ||cnx-software.com/wp-content/uploads/*/EmbeddedTS-TS-7180-embedded-SBC.webp
 ||cnx-software.com/wp-content/uploads/*/Forlinx-NXP-System-on-Modules.webp
@@ -60464,6 +60458,8 @@ genius.com##[class^="InnerSectionAd__"]
 genius.com##[class^="InreadContainer__"]
 zerohedge.com##[class^="PromoButton"]
 uploader.link##[class^="ads"]
+nasdaq.com##[class^="ads_"]
+nasdaq.com##[class^="btf_"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
 romhustler.org##[class^="leaderboard_ad"]
