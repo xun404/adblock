@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: f3idr+XDBEjIncP2KH0t/w
+! Checksum: GMDIdaJcdaZSyxbE/8lKYg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501171937
-! Last Modified: 2025年01月17日 19:37
+! Version: 202501172056
+! Last Modified: 2025年01月17日 20:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -951,7 +951,7 @@ animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.query
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
 4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
-extremetube.com,pornhub.com,redtube.com,redtube.com.br,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com,youpornru.com#$#abort-current-inline-script Object.defineProperty trafficjunky
+redtube.*,pornhub.com,tube8.*,youporn.com#$#abort-current-inline-script Object.defineProperty trafficjunky
 redtube.com,tube8.com,tube8.es,tube8.fr,tube8.net##a[href*="advertising"]
 cine.to#$#abort-on-property-read document.head.appendChild
 nhentai.net#$#override-property-read _n_app.popunder null;
@@ -1208,7 +1208,8 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 awafim.tv,movies2watch.tv,sflix.*#$#prevent-listener break;case $.
 player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
-redtube.com,pornhub.com,tube8.com,youporn.com#$#hide-if-matches-xpath './/div[contains(text(),"TrafficJunky")]/parent::div[@style]/ancestor::div[@class][@style]/parent::*[not(self::body) and not(self::div[@class])][1]'
+redtube.*,pornhub.com,tube8.*,youporn.com#$#hide-if-matches-xpath './/div[contains(text(),"TrafficJunky")]/parent::div[@style]/ancestor::div[@class][@style]/parent::*[not(self::body) and not(self::div[@class])][1]'
+redtube.*,pornhub.com,tube8.*,youporn.com#$#hide-if-matches-xpath '//img[contains(@style, "position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;")]//preceding-sibling::video/parent::div/ancestor-or-self::div[contains(@style,"position:")]'; hide-if-matches-xpath '//img[contains(@src, "data:image/png;base64") or contains(@src,"data:image/gif;base64")]/parent::*/ancestor::div[contains(@style,"position:")]/parent::*[1]'
 datanodes.to#$#hide-if-matches-xpath './/a[@rel][@target="_blank"]/img[@alt="Watch Movie"][@style]/ancestor-or-self::div[1]'
 fmovies.*#$#hide-if-matches-xpath '//div[starts-with(@style, "position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01;")]';
 pixhost.to#$#prevent-listener getexoloader;
