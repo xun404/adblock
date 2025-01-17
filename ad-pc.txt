@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bMsGcVeaUpmvcnUdYuXK8A
+! Checksum: W3NlsO/3yG9nWirz/Xl15g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501172056
-! Last Modified: 2025年01月17日 20:56
+! Version: 202501172239
+! Last Modified: 2025年01月17日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -457,12 +457,10 @@ tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
--ad-458x80.
 -ad-manager/$~stylesheet
--ad-sidebar.
+-ad-sidebar.$image
 -ad-util.
 -ad.jpg.pagespeed.$image
--ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$script,domain=~web-ads.org
@@ -472,11 +470,9 @@ tieba.baidu.com##.tuijian-wrap
 -contrib-ads.$~stylesheet
 -footerads.
 -PcmModule-Taboola-
--popexit.
 -right-ad.
 -sponsor-ad.
 -web-advert-$image
--Web-Advert.
 .adriver.$~object,domain=~adriver.co
 .ads-lazy.
 .ads.controller.
@@ -490,10 +486,8 @@ tieba.baidu.com##.tuijian-wrap
 .ca/ads/$~xmlhttprequest
 .cfm?ad=
 .cgi?ad=
-.ch/adv/
 .click/cuid/?$third-party
 .click/rf/$third-party
-.clkads.
 .club/js/popunder.js$script
 .cn/sc/*?n=$script,third-party
 .com/*=bT1zdXY1JnI9
@@ -520,7 +514,7 @@ tieba.baidu.com##.tuijian-wrap
 .com/watch.*.js?key=
 .cz/adv/
 .cz/affil/$image
-.cz/bannery/
+.cz/bannery/$image
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
 .info/tsv
@@ -529,7 +523,6 @@ tieba.baidu.com##.tuijian-wrap
 .lol/sw.js$third-party
 .net/ad2/$~xmlhttprequest
 .net/ads?
-.nu/ads/
 .org/ad/$domain=~ylilauta.org
 .org/ads/$~xmlhttprequest
 .org/script/compatibility.js$third-party
@@ -1281,18 +1274,13 @@ _ad_bottom.
 _ad_header.
 _ad_image_
 _ad_layer_
-_ad_right.
-_ad_side.
-_adchoice.
 _ads.cgi
 _ads.cms?
 _ads.php?
 _adskin.
 _advertise-$domain=~linkedin.com
-_advertise.
 _advertisment.$~xmlhttprequest
 _assets/ads/
-_asyncspc.
 _bottom_ads_
 _footer_ad_
 _headerad.
@@ -1393,7 +1381,6 @@ _top_ad.
 /tardisrocinante/austin.js$script
 /tardisrocinante/surgeonv2.js$script
 /tardisrocinante/vitals.js$script
--dfp-prebid-
 .prebid-bundle.js$script
 .prebid.$domain=~prebid.org
 /ad/postbid_handler1.$script
@@ -51716,6 +51703,7 @@ browsershots.org#@#.advert_area
 ||pntrs.com^$image,script
 ||popmog.com^
 ||pr.costaction.com^$third-party
+||prebid.cwi.re^
 ||press-start.com/affgames/
 ||privateinternetaccess.com^$script,third-party,xmlhttprequest
 ||privatejetfinder.com/skins/partners/$third-party
@@ -54368,6 +54356,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||8muses.com/banner/
 ||a.seksohub.com^
 ||aa.fapnado.xxx^
+||ab.fapnado.xxx^
 ||absoluporn.com/code/script/
 ||ad.pornutopia.org^
 ||ad69.com/analytics/
