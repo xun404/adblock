@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j13dnFfSnHt7U1Ul1eXYfQ
+! Checksum: K2Vb6r/e5VB7HVdLlfB4oQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501181337
-! Last Modified: 2025年01月18日 13:37
+! Version: 202501181441
+! Last Modified: 2025年01月18日 14:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -459,9 +459,7 @@ tieba.baidu.com##.tuijian-wrap
 !-----------------------General advert blocking filters-----------------------!
 -ad-manager/$~stylesheet
 -ad-sidebar.$image
--ad-util.
 -ad.jpg.pagespeed.$image
--ads-bottom.
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$script,domain=~web-ads.org
 -assets/ads.$~script
@@ -470,7 +468,7 @@ tieba.baidu.com##.tuijian-wrap
 -sponsor-ad.$image
 -web-advert-$image
 .adriver.$~object,domain=~adriver.co
-.ads.controller.
+.ads.controller.js$script
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .ar/ads/$~xmlhttprequest
 .ashx?AdID=
@@ -507,7 +505,7 @@ tieba.baidu.com##.tuijian-wrap
 .com/script/utils.js$third-party
 .com/script/xbox.js$third-party
 .com/watch.*.js?key=
-.cz/adv/
+.cz/adv/$image,domain=~caoh.cz
 .cz/affil/$image
 .cz/bannery/$image
 .fuse-cloud.com/$~xmlhttprequest
@@ -1266,17 +1264,12 @@ _ad_250.$image
 _ad_300.$image
 _ad_bottom.
 _ad_layer_
-_ads.cgi
 _ads.cms?
 _ads.php?
 _advertise-$domain=~linkedin.com
 _advertisment.$~xmlhttprequest
 _assets/ads/
 _images/ad.$image
-_panel_ads.
-_popunder_
-_pushads.
-_rectangle_ads.
 _reklama_$domain=~youtube.com
 _sidebar_ad_
 ||cacheserve.*/promodisplay/
@@ -1523,7 +1516,7 @@ _prebid.js$script
 /300x600-
 /300x600_
 /300xx250.
-/320x250.
+/320x250.$image
 /335x205_
 /336x280-
 /336x280.
@@ -43777,6 +43770,7 @@ browsershots.org#@#.advert_area
 ||yoomanies.com^
 ||yopard.com^
 ||yoredi.com^
+||yorkvillemarketing.net^
 ||yoshatia.com^
 ||yottacash.com^
 ||you4cdn.com^
