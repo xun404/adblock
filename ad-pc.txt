@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6v572bQxuJhvobzUnVgNPw
+! Checksum: 74i+9lDe6roi2VegZpp9tQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501201739
-! Last Modified: 2025年01月20日 17:39
+! Version: 202501201841
+! Last Modified: 2025年01月20日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -36562,6 +36562,7 @@ browsershots.org#@#.advert_area
 ||reddockbedman.com^
 ||redeemforest.com^
 ||redetaailshiletteri.com^
+||redexamination.com^
 ||redfootcoclea.shop^
 ||redheadinfluencedchill.com^
 ||redheadpublicityjug.com^
@@ -61491,7 +61492,7 @@ douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
-manomano.*##a[href^="/"][href*="?product_id="]:has(svg)
+manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 manomano.*##div[data-testid="sprbrd-banner"]
 pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
