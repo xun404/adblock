@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DaBRAAlhT0BZTrL+CNVwtg
+! Checksum: fMAz2y0aG9h5QaZUm49nTA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501211841
-! Last Modified: 2025年01月21日 18:41
+! Version: 202501211937
+! Last Modified: 2025年01月21日 19:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1297,11 +1297,14 @@ extreme-down.*,extreme-download.*,voiranime.com#$#abort-on-property-read NativeA
 voiranime.com#$#abort-current-inline-script document.createElement String.fromCharCode
 filmtelecharger.net,libertyvf.co,libertyvf.tv,libertyvf.com,streaming-one.com,extreme-down.*,extreme-download.*#$#abort-current-inline-script Math zfgloaded
 ! #RM-6
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[@class="abLabel"]'; hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[1]'
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor-or-self::div[contains(@id,"AdDisplay") and  contains(@data-action,"AdsDisplay")]'
-cdiscount.com#$#hide-if-matches-xpath '//div[@class="c-sponsoredMentions"]/parent::div[@class]'; hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]';
-cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
+! HP
+cdiscount.com#$#hide-if-matches-xpath './/img[contains(@src,"sponso")]/parent::a/ancestor::div[contains(@style,"background-color: rgb(255, 255, 255);")][.//div[contains(@style,"color: rgb(41, 56, 71);")]]'
+! BA/PC
+cdiscount.com#$#hide-if-contains /Sponsorisé/ 'div[class="o-block"]' 'div[class^="o-block"] *[pos][id] ^^sh^^ div[class]'
+! PP
+cdiscount.com#$#hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]'
+! PL
+cdiscount.com#$#hide-if-contains /Sponsorisé/ 'li[class="abLabel"], li[data-sku]' '*[pos][id] ^^sh^^ div[class]'
 ! MISC
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read ownerid
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
