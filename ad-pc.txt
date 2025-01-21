@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yUoOsL8i8CqY/0NAhtvZPw
+! Checksum: 2eHzXI+E2l8CyGy06eLITQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501220639
-! Last Modified: 2025年01月22日 06:39
+! Version: 202501220737
+! Last Modified: 2025年01月22日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -486,7 +486,6 @@ tieba.baidu.com##.tuijian-wrap
 .com/4/js/$third-party
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
-.com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
 .com/sc/*?n=$script,third-party
@@ -513,7 +512,6 @@ tieba.baidu.com##.tuijian-wrap
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
 .net/ad2/$~xmlhttprequest
-.net/ads?
 .org/ad/$domain=~ylilauta.org
 .org/ads/$~xmlhttprequest
 .org/script/compatibility.js$third-party
@@ -533,7 +531,6 @@ tieba.baidu.com##.tuijian-wrap
 /?abt_opts=1&
 /?fp=*&poru=$subdocument
 /?view=ad
-/_xa/ads?
 /a-ads.$third-party
 /a/?ad=
 /a/display.php?$script
@@ -544,11 +541,10 @@ tieba.baidu.com##.tuijian-wrap
 /ad-scripts--$script
 /ad-scroll.js$script
 /ad-server.$~script
-/ad.cgi?
+/ad.cgi?$~xmlhttprequest
 /ad.css?$stylesheet
-/ad.html?
+/ad.html?$~xmlhttprequest
 /ad.min.js$script
-/ad/a.aspx?
 /ad/ad_common.js$script
 /ad/dfp/*$script
 /ad/err?
@@ -667,7 +663,6 @@ tieba.baidu.com##.tuijian-wrap
 /ads728.$image
 /ads728x90.$image
 /ads?apid
-/ads?callback
 /ads?client=
 /ads?id=
 /ads?object_
@@ -729,7 +724,6 @@ tieba.baidu.com##.tuijian-wrap
 /aff_ad?$script
 /aff_banner/*$image
 /aff_banners/*$image
-/affad?
 /affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
@@ -737,7 +731,7 @@ tieba.baidu.com##.tuijian-wrap
 /affiliate/banners/*$image
 /affiliateads/*$image
 /affiliates/banner$image
-/afr.php?
+/afr.php?$~xmlhttprequest
 /afx_prid/*$script
 /ajaxAd?
 /ajs.php?$script
@@ -757,7 +751,7 @@ tieba.baidu.com##.tuijian-wrap
 /api/users?token=$subdocument,third-party
 /apopwin.js$script
 /apstag.js$script
-/apu.php?
+/apu.php?$script
 /arcads.js$script
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
@@ -797,7 +791,6 @@ tieba.baidu.com##.tuijian-wrap
 /btag.min.js$third-party
 /buysellads.js$script
 /calcalist_gpt_ads.js$script
-/callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
 /click?adv=
 /cms_ads.js$script
@@ -846,7 +839,6 @@ tieba.baidu.com##.tuijian-wrap
 /exports/tour_20/*$subdocument
 /external/ad.$script
 /external/ads/*$image
-/external_ad?
 /fel456.js$script
 /fgh1ijKl.js$script
 /flashad.asp$subdocument
@@ -869,7 +861,6 @@ tieba.baidu.com##.tuijian-wrap
 /get?go=1&data=$subdocument
 /getad?
 /getads?
-/getAdsysCode?
 /GetAdvertisingLeft?
 /globals_ps_afc.js$script
 /google-adsense.js$script
@@ -927,13 +918,12 @@ tieba.baidu.com##.tuijian-wrap
 /leftad.js$script
 /leftad.png$image
 /legion-advertising-atlasastro/*$script
-/li.blogtrottr.com/imp?
+/li.blogtrottr.com/imp?$image
 /link?z=$subdocument
 /livejasmin.$~xmlhttprequest,domain=~livejasmin.com
 /log_ad?
 /mads.php$subdocument
 /maven/am.js$script
-/mbads?
 /media/ads/*$image
 /media_ads/*$image
 /microad.js$script
@@ -975,7 +965,7 @@ tieba.baidu.com##.tuijian-wrap
 /partnerbanner.$~xmlhttprequest,domain=~toltech.cn
 /partners/ads/*$image
 /pcad.js?
-/peel.php?
+/peel.php?$script
 /peel_ads.js$script
 /peelads/*$script
 /pfe/current/*$third-party
@@ -983,11 +973,11 @@ tieba.baidu.com##.tuijian-wrap
 /phpadsnew/*$image,script
 /phpbb_ads/*$~xmlhttprequest
 /pix/ads/*$image
-/pixel/puclc?
+/pixel/puclc?$third-party
 /pixel/pure$third-party
-/pixel/purs?
-/pixel/purst?
-/pixel/sbe?
+/pixel/purs?$third-party
+/pixel/purst?$third-party
+/pixel/sbe?$third-party
 /player/ads/*$~xmlhttprequest
 /plg_adbutlerads/*$script,stylesheet
 /plugin/ad/*$script
@@ -1114,7 +1104,6 @@ tieba.baidu.com##.tuijian-wrap
 /slider_ad.js$script
 /sliderad.js$script
 /small_ad.$image,domain=~eh-ic.com
-/smartlinks.epl?
 /sp/delivery/*$script
 /spacedesc=
 /spc.php?$script
@@ -1246,7 +1235,6 @@ tieba.baidu.com##.tuijian-wrap
 _ad_250.$image
 _ad_300.$image
 _ads.cms?
-_ads.php?
 _advertise-$domain=~linkedin.com
 _advertisment.$~xmlhttprequest
 _images/ad.$image
@@ -1283,7 +1271,6 @@ _reklama_$domain=~youtube.com
 /ssp/req/*/?pb=$third-party
 /t/9/heis/svewg/*$third-party
 /tabu/display.js$script
-/greenoaks.gif?$image
 /myvids/click/*$script,subdocument
 /myvids/mltbn/*$script,subdocument
 /myvids/mltbn2/*$script,subdocument
@@ -1327,7 +1314,7 @@ _reklama_$domain=~youtube.com
 /detroitchicago/vpp.gif?
 /detroitchicago/wichita.js$script
 /edmonton.webp$script
-/ezcl.webp?
+/ezcl.webp?$script
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
 /ezoic/*$script,~third-party
@@ -6464,6 +6451,7 @@ _800x80_
 ##.ad-300-dummy
 ##.ad-300-flex
 ##.ad-300-x-250
+##.ad-300250
 ##.ad-300X250
 ##.ad-300X250-body
 ##.ad-300x
@@ -6508,6 +6496,7 @@ _800x80_
 ##.ad-970
 ##.ad-970-250
 ##.ad-970-90
+##.ad-970250
 ##.ad-970x250
 ##.ad-970x90
 ##.ad-Advert_Placeholder
@@ -18388,6 +18377,7 @@ browsershots.org#@#.advert_area
 ||aninter.net^
 ||anisoinmetrize.top^
 ||ankdoier.com^
+||ankolisiloam.com^
 ||anldnews.pro^
 ||anlytics.co^
 ||anmdr.link^
@@ -19743,6 +19733,7 @@ browsershots.org#@#.advert_area
 ||berwickveered.shop^
 ||besandileom.com^
 ||besidesparties.com^
+||besitreggae.com^
 ||besmeargleor.com^
 ||best-girls-around.com^
 ||best-offer-for-you.com^
@@ -21505,6 +21496,7 @@ browsershots.org#@#.advert_area
 ||cisheeng.com^
 ||citadelpathstatue.com^
 ||citatumpity.com^
+||cithernassorts.com^
 ||citizenhid.com^
 ||citizenshadowrequires.com^
 ||citsoaboanak.net^
@@ -22123,6 +22115,7 @@ browsershots.org#@#.advert_area
 ||contentproxy10.cz^
 ||contentr.net^
 ||contentshamper.com^
+||conterensky.com^
 ||contextweb.com^
 ||continentalaileendepict.com^
 ||continentalfinishdislike.com^
@@ -23245,6 +23238,7 @@ browsershots.org#@#.advert_area
 ||dibbuksnoonlit.shop^
 ||dibrachndoderm.com^
 ||dibsemey.com^
+||dicerchaster.top^
 ||dicesstipo.com^
 ||diceunacceptable.com^
 ||dicheeph.com^
@@ -23322,6 +23316,7 @@ browsershots.org#@#.advert_area
 ||diningprefixmyself.com^
 ||diningsovereign.com^
 ||dinkeysosmetic.shop^
+||dinkiersenhora.com^
 ||dinnercreekawkward.com^
 ||dinomicrummies.com^
 ||dinseegny.com^
@@ -24680,6 +24675,7 @@ browsershots.org#@#.advert_area
 ||escortlist.pro^
 ||esculicturbans.com^
 ||escy55gxubl6.com^
+||esereperigee.shop^
 ||eserinemersion.shop^
 ||esescvyjtqoda.xyz^
 ||esfwkjsim.com^
@@ -24694,6 +24690,7 @@ browsershots.org#@#.advert_area
 ||esmystemgthro.org^
 ||esnlynotquiteso.com^
 ||esoussatsie.xyz^
+||especedasya.com^
 ||especiallyspawn.com^
 ||espionagegardenerthicket.com^
 ||espionageomissionrobe.com^
@@ -25160,6 +25157,7 @@ browsershots.org#@#.advert_area
 ||fatheemt.com^
 ||fathomcleft.com^
 ||fatsosjogs.com^
+||fattierpeso.com^
 ||fatzuclmihih.com^
 ||faubaudunaich.net^
 ||faudouglaitu.com^
@@ -26706,6 +26704,7 @@ browsershots.org#@#.advert_area
 ||goeducklactase.com^
 ||goesintakehaunt.com^
 ||gofenews.com^
+||goferinlaik.com^
 ||gogglebox26.fun^
 ||gogglemessenger.com^
 ||gogglerespite.com^
@@ -26767,6 +26766,7 @@ browsershots.org#@#.advert_area
 ||gorilladescendbounds.com^
 ||gorillatraffic.xyz^
 ||gorillatrking.com^
+||goschenelect.com^
 ||goshbiopsy.com^
 ||gositego.live^
 ||gosoftwarenow.com^
@@ -27447,6 +27447,7 @@ browsershots.org#@#.advert_area
 ||hectorfeminine.com^
 ||hectorobedient.com^
 ||hedgehoghugsyou.com^
+||hedgyactable.com^
 ||hedgybateman.com^
 ||hedmisreputys.info^
 ||hedwigsantos.com^
@@ -28895,6 +28896,7 @@ browsershots.org#@#.advert_area
 ||ivemjdir-g.top^
 ||ivesofefinegold.info^
 ||ivggagxczuoc.com^
+||ivoacooghoug.xyz^
 ||ivoryvestigeminus.com^
 ||ivoukraufu.com^
 ||ivstracker.net^
@@ -31839,6 +31841,7 @@ browsershots.org#@#.advert_area
 ||morningamidamaruhal.com^
 ||morningglory101.io^
 ||morroinane.com^
+||morselmongoe.shop^
 ||mortoncape.com^
 ||mortypush.com^
 ||moscowautopsyregarding.com^
@@ -33425,6 +33428,7 @@ browsershots.org#@#.advert_area
 ||oo00.biz^
 ||oobitsou.net^
 ||oobsaurt.net^
+||oockighuchee.com^
 ||oocmangamsaih.net^
 ||oocmoaghurs.net^
 ||oodalsarg.com^
@@ -34650,6 +34654,7 @@ browsershots.org#@#.advert_area
 ||pineappleconsideringpreference.com^
 ||pinefluencydiffuse.com^
 ||ping-traffic.info^
+||pingergauss.com^
 ||pinionsmamry.top^
 ||pinklabel.com^
 ||pinkleo.pro^
@@ -35037,6 +35042,7 @@ browsershots.org#@#.advert_area
 ||portlychurchyard.com^
 ||portlywhereveralfred.com^
 ||portoteamo.com^
+||portraycareme.com^
 ||portugueseletting.com^
 ||portuguesetoil.com^
 ||posewardenreligious.com^
@@ -35580,6 +35586,7 @@ browsershots.org#@#.advert_area
 ||psoostelrupt.net^
 ||psootaun.com^
 ||psootchu.net^
+||psoricremast.com^
 ||psoroumukr.com^
 ||psothoms.com^
 ||psotudev.com^
@@ -38044,6 +38051,7 @@ browsershots.org#@#.advert_area
 ||sereanstanza.com^
 ||sergeantmediocre.com^
 ||serialembezzlementlouisa.com^
+||seringmedicos.com^
 ||serinuswelling.com^
 ||seriouslygesture.com^
 ||serleap.com^
@@ -38378,6 +38386,7 @@ browsershots.org#@#.advert_area
 ||siberiabecrush.com^
 ||sibilantsuccess.com^
 ||sicilywring.com^
+||sickbedjibboom.com^
 ||sicklybates.com^
 ||sicklypercussivecoordinate.com^
 ||sicouthautso.net^
@@ -38605,6 +38614,7 @@ browsershots.org#@#.advert_area
 ||slippersappointed.com^
 ||slippersphoto.com^
 ||slipperydeliverance.com^
+||slippyxxiv.com^
 ||slitingfears.com^
 ||slivmux.com^
 ||slk594.com^
@@ -39017,6 +39027,7 @@ browsershots.org#@#.advert_area
 ||splicedmammock.com^
 ||splief.com^
 ||splittingpick.com^
+||spninxcuppas.com^
 ||spo-play.live^
 ||spoiledpresence.com^
 ||spoilmagicstandard.com^
@@ -40601,6 +40612,7 @@ browsershots.org#@#.advert_area
 ||toitoidotkin.shop^
 ||tokenads.com^
 ||toksoudsoab.net^
+||tolanneocene.com^
 ||toltooth.net^
 ||tolverhyple.info^
 ||tomatoescampusslumber.com^
@@ -42962,6 +42974,7 @@ browsershots.org#@#.advert_area
 ||widgetly.com^
 ||widiaoexhe.top^
 ||widow5blackfr.com^
+||widrelroalrie.net^
 ||widthovercomerecentrecent.com^
 ||wifegraduallyclank.com^
 ||wifescamara.click^
@@ -43279,6 +43292,7 @@ browsershots.org#@#.advert_area
 ||wqorxfp.com^
 ||wqzqoobqpubx.com^
 ||wqzyxxrrep.com^
+||wraithymessmen.com^
 ||wraithyupswept.shop^
 ||wrapdime.com^
 ||wrappeddimensionimpression.com^
@@ -44118,6 +44132,7 @@ browsershots.org#@#.advert_area
 ||zoopoptiglu.xyz^
 ||zoopsame.com^
 ||zoowhausairoun.net^
+||zoowunagraglu.net^
 ||zoozishooh.com^
 ||zorango.com^
 ||zotkosplh.com^
@@ -51792,6 +51807,7 @@ browsershots.org#@#.advert_area
 ||srx.com.sg/srx/media/
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
+||ssp.qc.coccoc.com^
 ||static.ifruplink.net/static_src/mc-banner/
 ||static.prd.datawars.io/static/promo/
 ||static.sunmedia.tv/integrations/
@@ -54725,7 +54741,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||porngames.tv/js/banner2.js
 ||porngo.tube/tdkfiololwb/
 ||pornhat.com/banner/
-||pornhub.com/_xa/ads_batch
+||pornhub.*/_xa/ads
 ||pornicom.com/jsb/
 ||pornid.name/ffg/
 ||pornid.name/polstr/
@@ -54775,7 +54791,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||rat.xxx/wwp2/
 ||realgfporn.com/js/bbbasdffdddf.php
 ||redgifs.com/assets/js/goCtrl
-||redtube.com/_xa/ads_batch
+||redtube.com/_xa/ads
 ||redtube.com^$subdocument,~third-party
 ||redtube.fm/advertisment.htm
 ||redtube.fm/lcgldrbboxj.php
@@ -54851,7 +54867,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||tsmodelstube.com/fun/$image,~third-party
 ||tubator.com/lookout/ex_rendr3.js
 ||tube.hentaistream.com/wp-includes/js/pop4.js
-||tube8.com/_xa/ads_batch
+||tube8.*/_xa/ads
 ||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tuberel.com/looppy/
 ||tubev.sex/td24f164e52654fc593c6952240be1dc210935fe/
@@ -54922,9 +54938,9 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||yeptube.*/templates/base_master/js/jquery.shows2.min.js
 ||yespornpleasexxx.com/wp-content/litespeed/js/
 ||yotta.scrolller.com^
-||you-porn.com/_xa/ads_batch
+||you-porn.com/_xa/ads
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
-||youporn.com/_xa/ads_batch
+||youporn.com/_xa/ads
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||yourlust.com*/serve
 ||yourlust.com/assets/script.js
@@ -62713,7 +62729,7 @@ iporntoo.com##.adbox-inner
 ftopx.com##.add-block
 sex3.com##.add-box
 playvids.com##.add_href_jsclick
-4kporn.xxx,babesandstars.com,cam-video.xxx,crazyporn.xxx,cumlouder.com,gosexy.mobi,hoes.tube,hog.tv,javcl.com,javseen.tv,love4porn.com,marawaresearch.com,mobilepornmovies.com,mypornstarbook.net,pichunter.com##.ads
+4kporn.xxx,babesandstars.com,cam-video.xxx,crazyporn.xxx,cumlouder.com,gosexy.mobi,hoes.tube,hog.tv,javcl.com,javseen.tv,kartavarna.com,love4porn.com,marawaresearch.com,mobilepornmovies.com,mypornstarbook.net,pichunter.com##.ads
 pornx.to##.ads-above-single-player
 video.laxd.com##.ads-container
 cumlouder.com##.ads__block
@@ -62732,7 +62748,7 @@ freebdsmxxx.org##.adv315
 perfectgirls.net##.adv_block
 alohatube.com,reddflix.com##.advbox
 alohatube.com##.advboxemb
-ftopx.com,gayboystube.com,hungangels.com##.advert
+ftopx.com,gayboystube.com,gayporntube.com,hungangels.com##.advert
 cumlouder.com,flyingjizz.com,gotporn.com,japan-whores.com,porntube.com##.advertisement
 katestube.com,sleazyneasy.com,vikiporn.com,wankoz.com##.advertising
 javcab.com##.advt-spot
@@ -66129,6 +66145,9 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||scigzetg.com^
+||bjfsk.xyz^
+||jltwxisa.icu^
 ||y0o.fun^
 ||icokamio.top^
 ||thrumulr.com^
@@ -132998,7 +133017,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
-@@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
+@@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de

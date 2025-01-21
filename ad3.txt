@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kBRk2Tun17rg3XOuTNer2w
+! Checksum: LrKeN60OOJt539m6niQfQQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202501212240
-! Last Modified: 2025年01月21日 22:40
+! Version: 202501220737
+! Last Modified: 2025年01月22日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1731,6 +1731,9 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||scigzetg.com^
+||bjfsk.xyz^
+||jltwxisa.icu^
 ||y0o.fun^
 ||icokamio.top^
 ||thrumulr.com^
@@ -70941,7 +70944,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
-@@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
+@@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de
