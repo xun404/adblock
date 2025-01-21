@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fMAz2y0aG9h5QaZUm49nTA
+! Checksum: frwmyMf+MM3Gi7QPZewKPA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501211937
-! Last Modified: 2025年01月21日 19:37
+! Version: 202501220044
+! Last Modified: 2025年01月22日 00:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1217,6 +1217,7 @@ maxstream.video#$#hide-if-matches-xpath './/div[@style="pointer-events: none; po
 bitchute.com#$#override-property-read Object.prototype.ads undefined
 bitchute.com###advertisement-banner
 eztvx.to#$#hide-if-matches-xpath './/div[@style="top: 0px; left: 0px; width: 1854px; height: 961px; position: fixed; z-index: 2147483647; background-color: transparent;"]/ancestor-or-self::div[1]'
+forexlive.com#$#hide-if-matches-xpath './/div[@id][@class="banner"]/parent::div[contains(@class,"guid")]/ancestor::div[contains(@data-ref,"banner")][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
