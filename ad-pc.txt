@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uXdfVYZ+Z/fRdmXBVVLKwQ
+! Checksum: Mc7e42R2yjA7sE9jo1FoRQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501241139
-! Last Modified: 2025年01月24日 11:39
+! Version: 202501241241
+! Last Modified: 2025年01月24日 12:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -484,7 +484,6 @@ tieba.baidu.com##.tuijian-wrap
 .cn/sc/*?n=$script,third-party
 .com/*=bT1zdXY1JnI9
 .com/4/js/$third-party
-.com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
@@ -547,7 +546,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad.min.js$script
 /ad/ad_common.js$script
 /ad/dfp/*$script
-/ad/err?
 /ad/getban?$script
 /ad/image/*$image
 /ad/images/*$image,domain=~studiocalling.it
@@ -556,7 +554,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad300.png$image
 /ad728.png$image
 /ad?count=
-/ad?pos_
 /ad?type=
 /ad_728.jpg$image
 /ad_728.js$script
@@ -584,8 +581,6 @@ tieba.baidu.com##.tuijian-wrap
 /adasync.js$script
 /adasync.min.js$script
 /adbanners/*$image
-/adcall?
-/adcgi?
 /adchoice.png$image
 /adcount.js$script
 /addyn|*;adtech;
@@ -597,7 +592,6 @@ tieba.baidu.com##.tuijian-wrap
 /adiframe|*|adtech;
 /adimage.$image,script,stylesheet
 /adimages.$script
-/adj.php?
 /adjs.php$script
 /adlayer.php$script
 /adlog.php$image
@@ -848,11 +842,9 @@ tieba.baidu.com##.tuijian-wrap
 /gdpr-ad-script.js$script
 /get/?go=1&data=$subdocument
 /get?go=1&data=$subdocument
-/GetAdvertisingLeft?
 /globals_ps_afc.js$script
 /google-adsense.js$script
 /google_adsense-$script
-/google_caf.js?
 /gospel2Truth.js$third-party
 /gpt.js$script
 /gpt_ads-public.js$script
@@ -900,7 +892,6 @@ tieba.baidu.com##.tuijian-wrap
 /jspopunder.min.js$script
 /lazyad-loader.js$script
 /lazyad-loader.min.js$script
-/lazyload.ads?
 /left_ads.js$script
 /leftad.js$script
 /leftad.png$image
@@ -908,7 +899,6 @@ tieba.baidu.com##.tuijian-wrap
 /li.blogtrottr.com/imp?$image
 /link?z=$subdocument
 /livejasmin.$~xmlhttprequest,domain=~livejasmin.com
-/log_ad?
 /mads.php$subdocument
 /maven/am.js$script
 /media/ads/*$image
@@ -941,7 +931,6 @@ tieba.baidu.com##.tuijian-wrap
 /page-peel$~xmlhttprequest
 /pagead/1p-user-list/*$image
 /pagead/conversion.js$script
-/pagead/lvz?
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
@@ -950,7 +939,6 @@ tieba.baidu.com##.tuijian-wrap
 /partneradwidget.$subdocument
 /partnerbanner.$~xmlhttprequest,domain=~toltech.cn
 /partners/ads/*$image
-/pcad.js?
 /peel.php?$script
 /peel_ads.js$script
 /peelads/*$script
@@ -990,7 +978,6 @@ tieba.baidu.com##.tuijian-wrap
 /popunder1.js$script
 /popunder1000.js$script
 /popunder2.js$script
-/popunder?
 /popup-domination/*$script
 /popup2.js$script
 /popup3.js$script
@@ -1177,7 +1164,6 @@ tieba.baidu.com##.tuijian-wrap
 /wpxbz-theme.js$script
 /www/delivery/*$script,subdocument
 /xpopup.js$script
-/yhs/ads?
 /zcredirect?
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
@@ -1327,7 +1313,6 @@ _reklama_$domain=~youtube.com
 /prebid7.$script
 /prebid8.$script
 /prebid9.$script
-/prebid?
 /prebid_$script,third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
@@ -51608,6 +51593,7 @@ browsershots.org#@#.advert_area
 ||go.bloxplay.com^
 ||go.onelink.me^$image,script
 ||goldmoney.com/~/media/Images/Banners/
+||google.*/pagead/lvz?
 ||google.com/adsense/domains/caf.js
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
@@ -66187,6 +66173,9 @@ newduba.cn###jq_youxi
 ||kruraits.com^
 ||6lx.fun^
 ||brerkols.com^
+||pevpbx.icu^
+||e1s.fun^
+||nvpokyko.icu^
 ||scigzetg.com^
 ||bjfsk.xyz^
 ||jltwxisa.icu^
@@ -87511,7 +87500,6 @@ omni.soundestlink.com$image
 ||pointillist.com^$third-party
 ||pointmediatracker.com^$third-party
 ||polaranalytics.com^$third-party
-||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
 ||pop6serve.com^$third-party
 ||popsample.com^$third-party
@@ -90047,6 +90035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.clkmc.com/cmc.js
 ||cdn.debugbear.com^$third-party
 ||cdn.one.store/xdomain_cookie.html
+||cdn.polarbyte.com^
 ||cdn.ravm.tv^
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
