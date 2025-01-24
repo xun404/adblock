@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1sdyDJ7OqjkzVzUM32hbnw
+! Checksum: dgDA7tF87np25dMON5M81w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202501250137
-! Last Modified: 2025年01月25日 01:37
+! Version: 202501250638
+! Last Modified: 2025年01月25日 06:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56958,6 +56958,7 @@ bolnews.com##.adsheading
 nepallivetoday.com##.adsimage
 indianexpress.com##.adsizes
 search.b1.org##.adslabel
+washingtonpost.com##.adslot-c
 ev-database.org##.adslot_detail1
 ev-database.org##.adslot_detail2
 cdrab.com,offerinfo.net##.adslr
@@ -62233,6 +62234,7 @@ mail.yahoo.com##[data-test-id^="taboola-ad-"]
 yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 www.yahoo.com##[id^="mid-center-ad"]
+mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://a.beap.gemini.yahoo.com/mbclk?"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
 mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
@@ -88474,7 +88476,6 @@ omni.soundestlink.com$image
 ||hostingcloud.party
 ||igrid.org^
 ||investhash.com^$third-party
-||ipinfo.io^$third-party
 ||jscdndel.com^$third-party
 ||jscoinminer.com^
 ||jsecoin.com^$third-party
@@ -132757,8 +132758,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||intuitcdn.net/libs/*/track-star.min.js$script,domain=turbotax.intuit.com
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
-@@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
-@@||ipinfo.io/json$domain=ptube.pipio.site|queye.co
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
