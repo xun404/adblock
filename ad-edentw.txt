@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gDZnwjMX4kU38n239xQ4VQ
+! Checksum: MOHQsnym9Nro+UlngpgN5Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501280043
-! Last Modified: 2025年01月28日 00:43
+! Version: 202501280138
+! Last Modified: 2025年01月28日 01:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -892,7 +892,7 @@ manomano.*#$#hide-if-matches-xpath './/span[translate(text(), "​", "") = "Spon
 ! BA
 manomano.*#$#hide-if-matches-xpath './/span[.="Sponsorisé" or .="Patrocinado" or .="Sponsorizzato" or .="Sponsored" or .="Gesponsert"]/ancestor::div[@data-testid="parent-middle-banner"]'
 manomano.*#$#hide-if-matches-xpath './/div[@data-testid="banner-spr-label"]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::div[@data-testid="parent-middle-banner"]'; hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div[data-testid$="banner"]' 'div[data-testid$="sponsoredLabel"] span';
-manomano.*#$#hide-if-matches-xpath '//div[./a[@data-testid="sprbrd-logo-link"]]//span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado" or translate(text(), "​", "") = "Sponsorizzato"]/ancestor::button[@data-testid="info-label"]/parent::div/ancestor::div[@data-testid="sprbrd-products"]/parent::div[1]/parent::div[1]'
+manomano.*#$#hide-if-matches-xpath '//div[./a[@data-testid="sprbrd-logo-link"]]//span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado" or translate(text(), "​", "") = "Sponsorizzato"]/ancestor::button[@data-testid="info-label"]/parent::div/ancestor::div[@data-testid="sprbrd-products"]/parent::div[1]/parent::div[1]'; hide-if-matches-xpath '//div//span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado" or translate(text(), "​", "") = "Sponsorizzato"]/ancestor::button[@data-testid="info-label"]/parent::div/parent::div[1]/parent::div';
 ! TP
 manomano.*#$#hide-if-matches-xpath './/span[@role][@data-testid="popoverTriggersponsoredLabel"]/ancestor-or-self::div[@data-testid="sprbrd-banner"]'
 !HP
