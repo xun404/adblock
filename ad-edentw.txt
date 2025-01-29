@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 49zVogWurNe3SYgOYAhM4Q
+! Checksum: DRTpCMOzBgJzAJCejLLAoA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501292057
-! Last Modified: 2025年01月29日 20:57
+! Version: 202501292240
+! Last Modified: 2025年01月29日 22:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -786,7 +786,7 @@ stevivor.com#$#hide-if-matches-xpath '//div[@id][@style]/div[contains(@id,"ad")]
 eztv.re,pstream.net#$#abort-on-property-write adcashMacros
 mkvcage.com,pastehere.xyz,vidshare.tv,govid.me,hdvid.tv#$#abort-on-property-read adcashMacros
 ! #CV-667
-cucuflix.*,gomovies.*,openloadmovies.net,openloadmovies.review,vidsrc.*,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
+cucuflix.*,gomovies.*,openloadmovies.net,openloadmovies.review,vidsrc.*,movies123.xyz,bonstreams.net,yts.*,keeplinks.co,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
 getsurl.com,gslink.co,gsurl.in,g5u.pw#$#abort-on-property-write Fingerprint2
 gogoanimes.*#$#abort-on-property-write atob
@@ -893,6 +893,8 @@ flipkart.com#$#race start; hide-if-contains-visible-text /Sponsored/ 'div[style]
 ! SP
 manomano.*#$#hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div a[class]' 'span[class] span'; hide-if-matches-xpath './/span[@class]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::a[@class and @title]';
 manomano.*#$#hide-if-matches-xpath './/span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Sponsorizzato" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado"]/ancestor::button[@data-testid="info-label"]/parent::div/parent::a[1]'
+! PP
+manomano.*#$#hide-if-matches-xpath './/span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Sponsorizzato" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado"]/ancestor::button/ancestor::a[1]'
 ! BA
 manomano.*#$#hide-if-matches-xpath './/span[.="Sponsorisé" or .="Patrocinado" or .="Sponsorizzato" or .="Sponsored" or .="Gesponsert"]/ancestor::div[@data-testid="parent-middle-banner"]'
 manomano.*#$#hide-if-matches-xpath './/div[@data-testid="banner-spr-label"]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::div[@data-testid="parent-middle-banner"]'; hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div[data-testid$="banner"]' 'div[data-testid$="sponsoredLabel"] span';
@@ -931,7 +933,7 @@ pornj.com,upornia.com,realgfporn.com#$#abort-on-property-read encodeURI
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 mult34.com#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
-123-movies.city,actvid.com,cineb.*,hdtoday.*,hdtodayz.*,solarmovie.*,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.mx,zoechip.com#$#abort-on-property-read localStorage
+123-movies.city,actvid.com,cineb.*,hdtoday.*,hdtodayz.*,solarmovie.*,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,yts.*,zoechip.com#$#abort-on-property-read localStorage
 dood.*,doods.*,doodstream.*,dooodster.*,dooood.*,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 1377x.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,seaporn.org,sfile.mobi,vid2faf.site,vidsrc.*#$#abort-on-property-read window.open
 youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
@@ -967,7 +969,7 @@ eztv.tf,eztv.yt,unblockit.boo#$#abort-current-inline-script s2ss45
 cocostream.org,idope.cyou,youtube4kdownloader.com,yts2.cc#$#abort-on-property-read JSON.stringify
 latinblog.tv#$#abort-on-property-write _cpp
 camsstream.com#$#abort-current-inline-script onload;
-buzzheavier.com,hentaihaven.icu,hentaikai.com,leaktape.*,flashbang.sh,trashbytes.net,filecrypt.cc,filecrypt.co,ytstv.me,yts.do,yts.mx,yts.movie,yts.rs#$#abort-on-property-read atob
+buzzheavier.com,hentaihaven.icu,hentaikai.com,leaktape.*,flashbang.sh,trashbytes.net,filecrypt.cc,filecrypt.co,ytstv.me,yts.*#$#abort-on-property-read atob
 filecrypt.cc,filecrypt.co#$#abort-current-inline-script document.createElement Math.random
 newser.com#$#prevent-listener load object
 masahub.net,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbrapid.com,streamsb.com,streamsb.net#$#abort-on-property-read decodeURI; abort-on-property-read mm
@@ -1029,6 +1031,7 @@ gomovies.*,harimanga.*,maxstream.video,myflixerz.*#$#abort-current-inline-script
 europixhd.com,europixhd.net,gledajonline.net,hdeuropix.io,jawcloud.co,kimcartoon.li,kimcartoon.to,loadsubs.net,s3embtaku.pro,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 alphatron.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete
 eztvx.to#$#json-prune 'adserverDomain'
+onworks.net#$#override-property-read rewarded 0;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1226,6 +1229,7 @@ forexlive.com#$#hide-if-matches-xpath './/div[@id][@class="banner"]/parent::div[
 vidsrc.*,cucuflix.*#$#abort-current-inline-script document.createElement /referrerPolicy.*no-referrer-when-downgrade/;
 evrimagaci.org#$#hide-if-matches-xpath './/div[@class="empower-ad"]/parent::div[contains(@class, "ads-")]'
 neoseeker.com#$#hide-if-contains-visible-text /Advertisement/ 'div[style]' div[style] small;
+yts.*#$#abort-on-property-read window.__adFormats;
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1350,7 +1354,7 @@ tirexo.day#$#debug; abort-on-property-read window.open
 ||tirexo.day^$csp=script-src 'self'
 wawacity.*,zone-telechargement.*#$#abort-current-inline-script JSON.stringify
 oxtorrent.*#$#abort-on-property-read window.open
-extreme-down.*#$#abort-on-property-read decodeURIComponent
+extreme-down.*,zone-telechargement.*#$#abort-on-property-read decodeURIComponent
 ! *** abp-filters-anti-cv:german.txt ***
 ! #CV-761
 ! #CV-691
