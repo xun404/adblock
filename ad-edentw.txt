@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tbk0wquFOZ+gRn1c1gGfGg
+! Checksum: 95e8Ldf1iWbqSr3/slkvvQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202501310956
-! Last Modified: 2025年01月31日 09:56
+! Version: 202501312239
+! Last Modified: 2025年01月31日 22:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1021,7 +1021,7 @@ andyday.tv,soaper.tv,kickassanime.*,vidco.pro#$#abort-current-inline-script docu
 kickassanime.*,vidco.pro#$#override-property-read ifmax true
 mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script String.fromCharCode; abort-on-property-read window.open;
 ||noukotumorn.com^$domain=dl-protect.link
-skidrowreloaded.com#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
+skidrowreloaded.*,vidsrc.*#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
 animixplay.*aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.
@@ -1032,7 +1032,7 @@ bunkr.*#$#abort-current-inline-script WebAssembly Promise;
 cineb.*#$#prevent-listener mousedown shown_at; abort-on-property-read window.open;
 gomovies.*,harimanga.*,maxstream.video,myflixerz.*#$#abort-current-inline-script document.documentElement break;case $.; abort-on-property-read window.open;
 europixhd.com,europixhd.net,gledajonline.net,hdeuropix.io,jawcloud.co,kimcartoon.li,kimcartoon.to,loadsubs.net,s3embtaku.pro,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
-alphatron.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete
+alphatron.*,edgedeliverynetwork.com#$#abort-current-inline-script EventTarget.prototype.addEventListener delete
 eztvx.to#$#json-prune 'adserverDomain'
 onworks.net#$#override-property-read rewarded 0;
 ! MISC
@@ -1073,7 +1073,7 @@ clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-curre
 revivelink.com#$#abort-on-property-read btoa; abort-current-inline-script Object.defineProperty XMLHttpRequest
 tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,movies-watch.com.pk,movies2watch.tv,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.rs,solarmovie.*,toongod.com,yomovies.cloud#$#abort-on-property-read window.open
+gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,movies2watch.tv,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.rs,solarmovie.*,toongod.com,yomovies.cloud#$#abort-on-property-read window.open
 fmovies.*,hurawatch.cc,theflixer.tv#$#abort-on-property-read window.zfgstorage
 fmovies.*#$#abort-current-inline-script document.createElement delete window
 omegascans.org#$#abort-on-property-read window.__adFormats
@@ -1225,7 +1225,7 @@ gogoanimes.*#$#abort-current-inline-script Math break;case $.
 ||thehiveworks.com^$script,domain=egscomics.com
 harimanga.*#$#hide-if-matches-xpath '//div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 92309px; z-index: 2147483647;"]/ancestor-or-self::div[1]'
 maxstream.video#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1298px; height: 554px; z-index: 2147483647;"]/ancestor-or-self::div[1]'
-bitchute.com#$#override-property-read Object.prototype.ads undefined
+bitchute.com#$#override-property-read Object.prototype.ads undefined; json-prune 'show_adverts';
 bitchute.com###advertisement-banner
 eztvx.to#$#hide-if-matches-xpath './/div[@style="top: 0px; left: 0px; width: 1854px; height: 961px; position: fixed; z-index: 2147483647; background-color: transparent;"]/ancestor-or-self::div[1]'
 forexlive.com#$#hide-if-matches-xpath './/div[@id][@class="banner"]/parent::div[contains(@class,"guid")]/ancestor::div[contains(@data-ref,"banner")][1]'
@@ -1364,6 +1364,7 @@ aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 yabeat.org#$#abort-on-property-read __meteor_runtime_config__
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 ! MISC
+winfuture.de#$#hide-if-matches-xpath './/span[.="ANZEIGE"]/ancestor::div[contains(@class,"news210") or contains(@class,"news330")]'
 celleheute.de#$#hide-if-matches-xpath '//*[@data-image-info]/img[contains(@style,"440")]/ancestor::div[@id][@class][1]//parent::div[@data-hook]/parent::div[@id and @class]'; hide-if-matches-xpath './/a[@data-testid]/*[@data-image-info]/img[contains(@style,"300")]/ancestor::a[@target]/parent::div[@id][@class][1]'; hide-if-contains-visible-text /Anzeige/ 'p>span[class][style]';
 freenet.de#$#hide-if-matches-xpath '//div[@class]/img[@referrerpolicy]/ancestor::div[@class][1]'
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
