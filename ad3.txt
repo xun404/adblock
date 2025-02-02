@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NUPJ1UPMhgsuZLaWrr5Zvg
+! Checksum: ABzhaD9ZVs2W66VSD/x+hw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202502021838
-! Last Modified: 2025年02月02日 18:38
+! Version: 202502022052
+! Last Modified: 2025年02月02日 20:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22206,6 +22206,7 @@ m.babytree.com##script + a[class]
 /referrer_tracking.js
 /reftracker.js
 /renderTimingPixel.
+/report_ga_events/*
 /report_visit.php
 /reportData/nm.gif?
 /reporting/metrics
@@ -31753,6 +31754,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.vivatube.com^
 ||cnt.xhamster.com^
 ||codecademy.com/analytics/
+||coincarp.com/cdn-cgi/trace
+||coincarp.com/script/events.js
 ||coincheckup.com/report_events/
 ||coincodex.com/cdn-cgi/trace
 ||cointelegraph.com/pixel?
@@ -69605,6 +69608,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||kn007.net/snmp.php
 ||l.web.huya.com^
 ||le.com/op/
+||log-upload-os.hoyolab.com^
 ||log-upload-os.hoyoverse.com^
 ||log.bitauto.com^
 ||log.flight.qunar.com^
