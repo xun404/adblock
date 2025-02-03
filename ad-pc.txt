@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JHEjM9ubANKEKKHk+T5TSg
+! Checksum: TP8t9cWx39kBB9gWf+vHdw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202502030956
-! Last Modified: 2025年02月03日 09:56
+! Version: 202502031739
+! Last Modified: 2025年02月03日 17:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -545,7 +545,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad.html?$~xmlhttprequest
 /ad.min.js$script
 /ad/ad_common.js$script
-/ad/dfp/*$script
 /ad/getban?$script
 /ad/image/*$image
 /ad/images/*$image,domain=~studiocalling.it
@@ -699,6 +698,7 @@ tieba.baidu.com##.tuijian-wrap
 /advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
+/advertising/ad-shield.js$script
 /advertising/banners/*$image
 /adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -884,6 +884,7 @@ tieba.baidu.com##.tuijian-wrap
 /jquery.popunder.js$script
 /js/ad_common.js$script
 /js/advRotator.js$script
+/js/dfp.js$script
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js$script
