@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d2KUm3vXZtdo+ilme6GmDw
+! Checksum: hoPJrkPk8T8vZxltg0mnNw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202502041738
-! Last Modified: 2025年02月04日 17:38
+! Version: 202502041841
+! Last Modified: 2025年02月04日 18:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1390,6 +1390,11 @@ xxx-indian-porn.com#$#abort-current-inline-script popunder
 hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
 moredesi.com#$#abort-on-property-read __formatsGetters
 ! *** abp-filters-anti-cv:indonesian.txt ***
+! RM-167
+! HP&PP
+tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
+! CP
+tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style]' 'a[class][data-theme] span'
 ! #CV-667
 citpekalongan.com,designmyhomee.com,mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
