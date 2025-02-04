@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TmZlQC9m+I2ghBCuqkwp6Q
+! Checksum: mMOOCZY3TPBs8+DlIj5nhg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202502041057
-! Last Modified: 2025年02月04日 10:57
+! Version: 202502041340
+! Last Modified: 2025年02月04日 13:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -602,7 +602,6 @@ tieba.baidu.com##.tuijian-wrap
 /adocean.js$script
 /adpartner.min.js$script
 /adplayer.$script,domain=~adplayer.pro
-/adpopup.js$script
 /adrecover-new.js$script
 /adrecover.js$script
 /adright.$~xmlhttprequest,domain=~aaahaltontaxi.ca|~adright.com
@@ -883,6 +882,7 @@ tieba.baidu.com##.tuijian-wrap
 /jquery.openxtag.js$script
 /jquery.popunder.js$script
 /js/ad_common.js$script
+/js/adpopup.js$script
 /js/advRotator.js$script
 /js/dfp.js$script
 /jsAds-1.4.min.js$script
@@ -55244,6 +55244,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||stream-69.com/code/script/
 ||striptube.net/images/
 ||striptube.net/te9e85dc6853.js
+||sunporno.com/api/cams/get-spot-js-full-content/
 ||sunporno.com/api/spots/
 ||sunporno.com/blb.php
 ||sunporno.com/sunstatic/frms/
@@ -63395,6 +63396,7 @@ upornia.com,upornia.tube##.eveeecsvsecwvscceee
 eromanga-show.com,hentai-one.com,hentaipaw.com##.external
 lewdzone.com##.f8rpo
 escortnews.eu,topescort.com##.fBanners
+vjav.com##.fah-btn
 porngem.com##.featured-b
 sss.xxx##.fel-item
 tuberel.com##.fel-list
@@ -85964,7 +85966,7 @@ _WebVitalsReporter_
 /znsrc.com/c/*$image
 ://2ip.*/member_photo/$third-party
 ://cl.melonbooks.co.jp/c/$image
-://e.email.*/open?$image
+://e.*/open?$image
 ://email.*/e/o/
 ://email.*/o/$image
 ://links.paypal.*/eos/$image
