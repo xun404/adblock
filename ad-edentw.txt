@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LMyWqAOdTQw9tyrtr829ew
+! Checksum: lhib+E05rcvKi700doCE/w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202502060138
-! Last Modified: 2025年02月06日 01:38
+! Version: 202502060243
+! Last Modified: 2025年02月06日 02:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -602,6 +602,7 @@ ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-testid="x-pda-pla
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id*="placement_"]>div' 'div[data-viewport]>span>div[aria-labelledby]>div[aria-hidden]'
 ! cp
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'li>div[class="brwrvr__item-card__body"]' 'div>span[class="su-sponsored-label__sep"]>span'
+ebay.com#$#hide-if-matches-xpath './/span[@class="su-sponsored-label__sep"]/preceding::button[contains(@data-track,"AD_CTRL_ATW_ADD")]/ancestor-or-self::li[starts-with(@class,"brwrvr__item-card")][1]'
 ! pp
 ebay.com#$#hide-if-matches-xpath '//div[@role="text"][text()="Sponsored"]/ancestor-or-self::div[@data-viewport][1]'
 ! sp
