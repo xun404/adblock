@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A2upSB3u61wQTykGuph1NA
+! Checksum: JDJVnGKylqSECkfc7XtLOA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202502061643
-! Last Modified: 2025年02月06日 16:43
+! Version: 202502061738
+! Last Modified: 2025年02月06日 17:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30448,6 +30448,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||artemis-cdn.ocdn.eu^
 ||ats.otto.de^
 ||audimark.de/tracking/
+||b.nativendo.de^
 ||ba-content.de/cds/log/
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||beagle.prod.tda.link^
@@ -71075,6 +71076,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
+@@||dmp.theadex.com^*/adex.js$domain=kino.de
 @@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||ens.nzz.ch^$~third-party
@@ -71106,6 +71108,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
+@@||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 !---------- Greek -----------
 @@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
 !---------- French ----------
