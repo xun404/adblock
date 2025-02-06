@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1uFyFaLLuWm9ifJDFZT/KA
+! Checksum: WRv3SO/UwvPKktlxLxZEPg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202502062239
-! Last Modified: 2025年02月06日 22:39
+! Version: 202502070138
+! Last Modified: 2025年02月07日 01:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1666,7 +1666,7 @@ ozlib.com#$#abort-on-property-read _0xb7d3
 romakatya.ru#$#prevent-listener load AdBlock
 testserver.pro#$#abort-current-inline-script window.$ adsbygoogle
 ashdi.vip,tortuga.wtf#$#json-prune vast
-||pikabu.ru/ajax/?key=$xmlhttprequest,header=ssr
+pikabu.ru#$#replace-xhr-response 'processCallbacks'
 vprognoze.ru#$#abort-on-property-read bannersBillboard
 vk.com,vk.ru#$#abort-on-property-read vk__adsLight.adsShowed
 transkarpatia.net#$#abort-current-inline-script document.createElement redtram
@@ -1917,7 +1917,7 @@ mediamarkt.de#@#.sc-72448dee-1.bLECT:-abp-contains(Gesponsert)
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
-www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1005' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1010' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-start-from:1015' '-stop-on-video-end:true'; race stop;
+www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1003' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1005' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-start-from:1010' '-stop-on-video-end:true'; race stop;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
