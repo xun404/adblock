@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6sh//TessZtqa5mqxMLe8Q
+! Checksum: wnRABRaZcd1crWN8J3YCXA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202502090040
-! Last Modified: 2025年02月09日 00:40
+! Version: 202502090737
+! Last Modified: 2025年02月09日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61130,6 +61130,7 @@ genius.com##[class^="InreadContainer__"]
 zerohedge.com##[class^="PromoButton"]
 uploader.link##[class^="ads"]
 nasdaq.com##[class^="ads_"]
+uniladtech.com##[class^="advert-placeholder_advertPlaceholder"]
 nasdaq.com##[class^="btf_"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
@@ -62661,7 +62662,7 @@ europeanpharmaceuticalreview.com##.europ-fixed-footer
 accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
-sportbible.com,unilad.com##.floating-video-player_container__u4D9_
+sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
 foxsports.com##.fwAdContainer
@@ -84894,7 +84895,7 @@ fqsousou.com,kengso.com#@#.user-share
 /publisher:getClientId?key=
 /publishertag.js
 /publitas-stats.js
-/pubstats.$domain=~pubstats.dev
+/pubstats.$domain=~pub.dev|~pubstats.dev
 /pubtag.js
 /pulsario.js
 /push-analytics.js
