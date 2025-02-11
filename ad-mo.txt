@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bz07cZ8fm9CbWk0sZpevYw
+! Checksum: bJTZoCDtCfgMCPPXlAgC/g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202502112059
-! Last Modified: 2025年02月11日 20:59
+! Version: 202502112241
+! Last Modified: 2025年02月11日 22:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -605,9 +605,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /affiliates/banner$image
 /afr.php?$~xmlhttprequest
 /afx_prid/*$script
-/ajax/banner/vpn|$~third-party,xmlhttprequest
+/ajax/banner/vpn|$xmlhttprequest
 /ajax/banners?page=$~third-party,xmlhttprequest
-/ajax/embed-4/banners|$~third-party,xmlhttprequest
+/ajax/embed-4/banners|$xmlhttprequest
 /ajs.php?$script
 /ajs?zoneid=
 /amazon-ad-link-$stylesheet
@@ -80132,6 +80132,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||linetv.tw^$generichide
 @@||googleads.g.doubleclick.net^$domain=wandhi.com
 @@||am730.com.hk^$generichide
 @@||mvcat.com^$generichide
