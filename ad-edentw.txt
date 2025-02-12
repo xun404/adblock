@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yadh9nrvJwaf3aoSqMBJ1w
+! Checksum: Rk3xnu7O0rnscxBsNo7e8A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202502130244
-! Last Modified: 2025年02月13日 02:44
+! Version: 202502130337
+! Last Modified: 2025年02月13日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -604,6 +604,8 @@ ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'li>div[class="brwrvr__item
 ebay.com#$#hide-if-matches-xpath './/span[@class="su-sponsored-label__sep"]/preceding::button[contains(@data-track,"AD_CTRL_ATW_ADD")]/ancestor-or-self::li[starts-with(@class,"brwrvr__item-card")][1]'
 ! pp
 ebay.com#$#hide-if-matches-xpath '//div[@role="text"][text()="Sponsored"]/ancestor-or-self::div[@data-viewport][1]'
+ebay.com#$#hide-if-contains-visible-text /\s*sponsored\s*/ 'div[data-viewport]' 'div[data-viewport] h2'
+ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-viewport]' 'div[data-viewport] div[role="text"]'
 ! sp
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
 ! #CV-737
