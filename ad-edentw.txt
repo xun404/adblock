@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ie0gKL7guuvw2FURAEJtMQ
+! Checksum: Sw+TcYiqnLjlwWYTQRDrIg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202502191937
-! Last Modified: 2025年02月19日 19:37
+! Version: 202502192058
+! Last Modified: 2025年02月19日 20:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -344,7 +344,7 @@ search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#override-property-read sssp noopFunc
-www.seznam.cz#$#json-prune '{}.0adFormat {}.0'; hide-if-matches-xpath './/div[@class]/div/*[contains(text(),"Reklam")]/parent::div[@class]/ancestor-or-self::div[@class and @style][1][not(contains(@class, "w-RadioLayout"))]'; hide-if-matches-xpath './/div[@*[starts-with(name(), "data-") and contains(., "reklama")]]/parent::li[1]';
+www.seznam.cz#$#replace-fetch-response '/adType/' {}; hide-if-matches-xpath '//a[@rel][contains(translate(translate(text(), "ĂÂÎȘȚăâîșțR̆", "AAISTaaistR"), "REKLAMA", "reklama"), "reklama")][contains(@class,"color-neutral-2")]/parent::div/parent::div/parent::div/parent::div[@style][1]'
 ! MISC
 zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
