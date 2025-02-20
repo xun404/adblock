@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9gdNO71ycuWLCUy11lkf5A
+! Checksum: WOwyLzGW+lmdyqdiejDduw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202502201537
-! Last Modified: 2025年02月20日 15:37
+! Version: 202502201739
+! Last Modified: 2025年02月20日 17:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -50086,6 +50086,7 @@ browsershots.org#@#.advert_area
 ||d29bsjuqfmjd63.cloudfront.net^
 ||d29dbajta0the9.cloudfront.net^
 ||d29dzo8owxlzou.cloudfront.net^
+||d29gqhzevia104.cloudfront.net^
 ||d29i6o40xcgdai.cloudfront.net^
 ||d29mhxfd390ueb.cloudfront.net^
 ||d29mxewlidfjg1.cloudfront.net^
@@ -51597,6 +51598,9 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||ih1.fileforums.com^
 ||illicium.web.money^$subdocument
 ||illicium.wmtransfer.com^$subdocument
+||images.pushsquare.com/*/1260x250.jpg
+||images.pushsquare.com/*/300x250.jpg
+||images.pushsquare.com/*/300x600.jpg
 ||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imgadult.com/ea2/
@@ -59805,6 +59809,7 @@ hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+pushsquare.com##span:has-text(or Subscribe)
 fxempire.com##span[display="inline-block"]:has-text(Advertisement)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
