@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 37CznZplyI2q26vZZFjpoQ
+! Checksum: YbTkjnrDVrHyB9+aQda+Ig
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202502260245
-! Last Modified: 2025年02月26日 02:45
+! Version: 202502260737
+! Last Modified: 2025年02月26日 07:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -59181,6 +59181,7 @@ disqus.com##[data-role="ad-content"]
 news.sky.com##[data-role="ad-label"]
 olympics.com##[data-row-type="custom-row-adv"]
 timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
+cruisecritic.com##[data-sentry-component="NativeAd"]
 trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
 timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
@@ -60990,6 +60991,9 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-ad-card"]
 checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
+shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:-abp-contains(Ad))
+shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:-abp-contains(Ad))
+perplexity.ai#?#.py-sm.group:-abp-contains(Sponsored)
 autotrader.co.uk#?#[data-testid="desktop-search"] li:-abp-contains(Ad)
 dev.to#?#div[data-display-unit]:-abp-has(span:-abp-contains(Promoted))
 tripadvisor.com#?#[aria-label="Map marker"]:-abp-contains(Sponsored)
@@ -64805,6 +64809,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||zlzgfj.icu^
+||lnptph.icu^
 ||druqodrly.com^
 ||bidotz.icu^
 ||nktydx.icu^
