@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZmRqVU4onVaBwDXIq0rwOg
+! Checksum: m09s/KK4eOG7Vy47a7hCag
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202502270739
-! Last Modified: 2025年02月27日 07:39
+! Version: 202502271006
+! Last Modified: 2025年02月27日 10:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1736,6 +1736,8 @@ newduba.cn###jq_youxi
 ||shatielsu.com^
 ||rdllzz.icu^
 ||fbvbrb.icu^
+||rojj.cn^
+||bmasamd.top^
 ||zlzgfj.icu^
 ||lnptph.icu^
 ||pisb.cn^
@@ -28765,7 +28767,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
-||monitor.azure.com^
 ||monitoring.iraiser.eu^
 ||monorail-edge.shopifysvc.com^
 ||mormont.gamer-network.net^
@@ -33020,6 +33021,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zion-telemetry.api.cnn.io^
 ||zoosk.com/cs/tp.png?
 ||zumper.com/events
+||googleusercontent.com/*/wf/open?upn=$image
 ://track.opentable.
 ://www.vinted.*/relay/events
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
@@ -70516,7 +70518,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
 @@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.com
-@@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
