@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: frw4rz5XEirRLvpmkj2NpQ
+! Checksum: 8/f0OjFQugK1JYpw6mwY1A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202503010139
-! Last Modified: 2025年03月01日 01:39
+! Version: 202503010537
+! Last Modified: 2025年03月01日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60534,6 +60534,7 @@ scamwarners.com##.subheader:has(> ins.adsbygoogle)
 thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
 douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
+trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 nex-software.com##.toolinfo:has(a[href$="/reimage"])
 canberratimes.com.au##.top-20
 twitter.com,x.com##.tweet:has(.promo)
@@ -61230,7 +61231,7 @@ shoprite.com##div[class^="Row"]:has(div[data-component] a[data-testid] picture s
 regexlearn.com#?#.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
 kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:-abp-contains(Sponsored Articles)
 shopee.sg#?#.shopee-search-item-result__item:-abp-contains(Ad)
-shopee.sg#?#.shopee-header-section__content:-abp-contains(Ad)
+shopee.sg##.shopee-header-section__content:has(.sQyg41)
 kogan.com#?#.rs-infinite-scroll > div:-abp-contains(Sponsored)
 kogan.com#?#._2EeeR:-abp-contains(Sponsored)
 kogan.com#?#.slider-slide:-abp-contains(Sponsored)
