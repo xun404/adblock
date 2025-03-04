@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WcGx9tCZegRNJXqf2S/PdA
+! Checksum: HFTMKVoe3qWD5+RSX54Acw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503042242
-! Last Modified: 2025年03月04日 22:42
+! Version: 202503042341
+! Last Modified: 2025年03月04日 23:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1761,7 +1761,7 @@ agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-cur
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! RM-115
 ! sp
-olx.*#$#hide-if-matches-xpath './/div[@color][@letter-spacing][.="ТОП" or "Промотирана обява"]/parent::div/ancestor::div[@data-testid="l-card"]'
+olx.*#$#hide-if-matches-xpath './/div[@color][@letter-spacing][.="ТОП" or .="Промотирана обява"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! *** abp-filters-anti-cv:spanish.txt ***
 ! #CV-691
 ! #CV-761
