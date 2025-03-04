@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CUJds8c0qNVkidVI7jIW1Q
+! Checksum: WcGx9tCZegRNJXqf2S/PdA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503042100
-! Last Modified: 2025年03月04日 21:00
+! Version: 202503042242
+! Last Modified: 2025年03月04日 22:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1520,6 +1520,9 @@ www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
 www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::div/ancestor-or-self::div[2]'
 o2.pl##div[class$="cevoIl"]
 money.pl#$#simulate-mouse-event 'xpath(.//div[@class]//div[contains(text(),"REKLAMA")]/following-sibling::div[contains(text(),"Przejdź teraz")])$delay=0'
+! RM-115
+!sp
+olx.pl#$#hide-if-matches-xpath './/div[@color][@letter-spacing][.="Wyróżnione"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! MISC
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
 naekranie.pl#$#abort-on-property-read adQueue
@@ -1530,6 +1533,11 @@ gierkionline.pl#$#hide-if-matches-xpath './/div[@id]//div[contains(text(),"Rekla
 ! Popup/Popunder/Clickunder
 filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! *** abp-filters-anti-cv:portuguese.txt ***
+! RM-115
+! sp
+olx.com.br#$#hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]'; hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]/parent::div[contains(@class,"olx-carousel")]';
+! pp & ph
+olx.com.br#$#hide-if-matches-xpath './/p[.="publicidade"]/parent::div[@data-testid="advertising-placeholder" or contains(@class,"ad__")]/parent::div'
 ! RM-5
 ! sp
 mercadolivre.com.br#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
@@ -1566,6 +1574,9 @@ filmehd.to#$#hide-if-matches-xpath './/a[@title]/img[@src][@alt][@style]/ancesto
 /dwarf.js^$domain=filmehd.to
 /js/dnsads.js?*^$domain=filmehd.to
 filmehd.to##iframe[src][style]
+! RM-115
+! sp
+olx.ro#$#hide-if-matches-xpath './/div[@color][@letter-spacing][.="PROMOVAT"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! *** abp-filters-anti-cv:russian.txt ***
 ! #CV-244
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
@@ -1748,6 +1759,9 @@ empireg.ru#$#abort-current-inline-script Math zfgloaded
 agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-current-inline-script Object.defineProperty rcBuf; abort-on-property-read advanced_ads_ready;
 ! CV-1364
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
+! RM-115
+! sp
+olx.*#$#hide-if-matches-xpath './/div[@color][@letter-spacing][.="ТОП" or "Промотирана обява"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! *** abp-filters-anti-cv:spanish.txt ***
 ! #CV-691
 ! #CV-761
