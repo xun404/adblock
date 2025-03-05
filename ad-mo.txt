@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d765lL2BOszEuTG4gLX42g
+! Checksum: YsKNUkSQpFocFLUL74a/WA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202503052101
-! Last Modified: 2025年03月05日 21:01
+! Version: 202503052141
+! Last Modified: 2025年03月05日 21:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -52674,6 +52674,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||js.syosetu.top^
 ||jsdelivr.net/gh/$domain=chrome-stats.com|edge-stats.com|firefox-stats.com
 ||kaas.am/hhapia/
+||katfile.com/images/$image,domain=filepv.com
 ||kendrickcoleman.com/images/banners/
 ||kentent.stre4mplay.one^
 ||kickassanimes.info/a_im/
@@ -131869,6 +131870,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||pv.sohu.com/cityjson$domain=ems.com.cn
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
+@@||tracklog.58.com/referrer_ershouche_m_Now.js$domain=m.renrenche.com
 !---------- Czech ----------
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
 @@||creditas.cz/cb/public/assets/SmartTag-$script,~third-party
