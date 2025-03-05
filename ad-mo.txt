@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XH8vOqfX6z9lKc+OX8g3zw
+! Checksum: AQRjdZPZjMsBpke2KZywkw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202503050738
-! Last Modified: 2025年03月05日 07:38
+! Version: 202503051008
+! Last Modified: 2025年03月05日 10:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65257,6 +65257,8 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||hbxmdf.icu^
+||ojmv.cn^
 ||nhur.cn^
 ||bybrrn.icu^
 ||hmjmjz.icu^
@@ -67734,7 +67736,6 @@ newduba.cn###jq_youxi
 ||ipsoazr.icu^
 ||iptuy.cn^
 ||irtliso.top^
-||is686.com^$third-party
 ||ismuwcm.icu^
 ||isylieo.top^
 ||iteyi.xyz^
@@ -79583,7 +79584,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||15tianqi.com^$third-party
 ||17.huanqiu.com^
 ||177o.com^
-||192.luyouwang.com^
+||lu2.luyouwang.com^
 ||1999019.com^
 ||1buu1.penyouw.com^
 ||2.haoxue360.com^
@@ -131591,6 +131592,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
+@@||starlink.com/sst/gtag/js$script,~third-party
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
