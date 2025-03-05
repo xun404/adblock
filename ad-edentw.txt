@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kN//MtjLBJrhQIRsX4+EeA
+! Checksum: bnO4TTt7Jo7LOAjbcGPWlA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503051938
-! Last Modified: 2025年03月05日 19:38
+! Version: 202503052101
+! Last Modified: 2025年03月05日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1808,6 +1808,7 @@ cuevana3.*,pelisflixhd.art#$#abort-on-property-read decodeURI; abort-current-inl
 animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-inline-script document.createElement script;
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
+zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! RM-5
