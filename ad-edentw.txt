@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mOGKexBXIp5eeXtxLQ9djA
+! Checksum: kN//MtjLBJrhQIRsX4+EeA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503051740
-! Last Modified: 2025年03月05日 17:40
+! Version: 202503051938
+! Last Modified: 2025年03月05日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -880,14 +880,6 @@ procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort
 ||purple-hit.com^$third-party,script,domain=patriotnationpress.com
 ! #RM-13
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
-! #RM-7
-walmart.ca##div[data-testid="hp-pov-ad-tracking"]
-walmart.ca,walmart.com##div[data-testid^="search-video-in-grid"]
-walmart.ca,walmart.com##div[data-testid^="sba-container"]
-walmart.ca,walmart.com##div[id*="Sponsored"]
-walmart.ca,walmart.com##div[data-testid^="carousel-ad"] > div[id^="ITEM-SponsoredProductCarousel"]
-walmart.ca,walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
-walmart.com,walmart.ca#$#hide-if-contains-visible-text /Sponsored|Commandité/ 'section div[data-item-id]' div span
 ! #RM-117
 pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Geborg|Gesponsord|Gesponsert|Patrocinado|Promocionado|Sponsored|Sponsoreret|Sponsorisées|Sponsorizat|Sponsorizzato|Sponsoroitu|Sponsorlu|Sponsorowane|Sponsrad|Sponset|Szponzorált|Спонсирοванный|Спонсорирано|Спонсируемый|Спонсорований|Sponzorirano|Sponzorované|Χορηγούμενο/ 'div[role="listitem"][role][style]' 'div[title]' 'content: "Promoted by";' 'font-weight: 600;'; hide-if-matches-xpath '//div[@title][contains(.,"贊助內容") or contains(.,"赞助的 Pin 图") or contains(.,"広告") or contains(.,"후원 핀") or contains(.,"స్పాన్సర్ చేసారు") or contains(.,"স্পনসর করা") or contains(.,"प्रायोजित") or contains(.,"ממומן") or contains(.,"قيد الدعم") or contains(.,"ממומן") or contains(.,"Được tài trợ") or contains(.,"May Sponsor") or contains(.,"Sponsored") or contains(.,"Sponsorisées") or contains(.,"Gesponsert") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; race stop;
 ! #RM-14
