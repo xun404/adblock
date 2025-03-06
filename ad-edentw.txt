@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uvmQ+zbUKLR1/0zdQ8nM9Q
+! Checksum: PTwCDNOTvBIB0lZFNRlkhA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503061740
-! Last Modified: 2025年03月06日 17:40
+! Version: 202503062101
+! Last Modified: 2025年03月06日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1530,6 +1530,7 @@ filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! RM-115
 ! sp
 olx.com.br#$#hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]'; hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]/parent::div[contains(@class,"olx-carousel")]';
+olx.pt#$#hide-if-matches-xpath './/div[@color][@letter-spacing][.="TOP"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! pp & ph
 olx.com.br#$#hide-if-matches-xpath './/p[.="publicidade"]/parent::div[@data-testid="advertising-placeholder" or contains(@class,"ad__")]/parent::div'
 ! RM-5
