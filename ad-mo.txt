@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oX65bOrKUsZpZc/igE3ZgA
+! Checksum: DOAN1fpHSbggyKUtzsDJ+Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202503102102
-! Last Modified: 2025年03月10日 21:02
+! Version: 202503110140
+! Last Modified: 2025年03月11日 01:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1107,9 +1107,9 @@ _reklama_$domain=~youtube.com
 ||online.*/promoredirect?key=
 ?bd=ppd&r=$document
 /ad-shield/e/*$script,third-party
-!://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
-!://www.*.xyz/contents/*?h=$script,third-party
-!wss://www.*.xyz/ws^$third-party
+://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.xyz/contents/*?h=$script,third-party
+wss://www.*.xyz/ws^$third-party
 .com/ed/java.js$script
 /ed/fol457.$script
 /plugins/ad-ace/assets/js/coupons.js$script
@@ -83657,6 +83657,7 @@ _WebVitalsReporter_
 /MailIsRead?$image
 /maillist.*/t/*$image
 /maling.roidusat.com/t/*$image
+/marketing.wrightentgroup.com/t/*$image
 /media.sailthru.com/5ik/1k4/9/*.gif
 /newsletter/log/*$image
 /newsletter/read?s=$image
@@ -92400,7 +92401,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/async/ddllog
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
-||google.com/log?
+||google.com/log^$domain=~meet.google.com
 ||google.com/pagead/1p-conversion/
 ||grabify.link/api/js
 ||grgnsht.nzxt.com^
@@ -92826,7 +92827,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plausible.omgapi.org^
 ||plausible.safing.io^
 ||plausible.tubemagic.com^
-||play.google.com/log
 ||player-cdn.com/cdn-cgi/trace
 ||player-telemetry.vimeo.com^
 ||playvideohd.com/cdn-cgi/trace
