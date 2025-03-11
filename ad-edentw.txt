@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bNb1M/rqiPRYCSVC0ykgZA
+! Checksum: KAxb4Fp4FgEj4usoG2NDsA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503111938
-! Last Modified: 2025年03月11日 19:38
+! Version: 202503112142
+! Last Modified: 2025年03月11日 21:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1410,8 +1410,10 @@ citpekalongan.com,designmyhomee.com,mangacanblog.com,tokusatsuindo.com,unbrick.i
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
-beritabaru.news,solusi.cyou#$#override-property-read setTimeout noopFunc
+beritabaru.news,solusi.cyou,poop.*#$#override-property-read setTimeout noopFunc
 westmanga.fun#$#abort-on-property-read doOpen1 false; override-property-read puShown1 true; abort-current-inline-script document.cookie
+metrolagu.cam#$#abort-on-property-write window.open;
+poop.*#$#abort-current-inline-script String.fromCharCode 2147483647; abort-on-property-read window.open;
 ! MISC
 komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 ! *** abp-filters-anti-cv:italian.txt ***
