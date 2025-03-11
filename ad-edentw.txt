@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7Zc1+mzGiodVAKATJ1ky9g
+! Checksum: 5ebKVT0FFKkCBCqMUKvhqw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503120047
-! Last Modified: 2025年03月12日 00:47
+! Version: 202503120140
+! Last Modified: 2025年03月12日 01:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1961,6 +1961,8 @@ www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc
 www.youtube.com#$#override-property-read Object.prototype.onAbnormalityDetected noopFunc
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
+! Dist
+m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.yt-confirm-dialog-renderer[respect-html-dir][split-lines]' 'button.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--size-m[aria-label="Yes"]$delay=0'
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
