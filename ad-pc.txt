@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bjn9Ck3g8ulfmSoZMUvCLg
+! Checksum: GKFqp1cmiElB9K5Qu+lGag
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202503130140
-! Last Modified: 2025年03月13日 01:40
+! Version: 202503130740
+! Last Modified: 2025年03月13日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -60455,6 +60455,7 @@ bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
 momondo.com##.zZcm:has([class$="-ad-wrapper"])
 momondo.com##[class$="-result-item-container"]:has([aria-label="Ad disclaimer"])
+momondo.com##[class$="result-item-container"]:has([class$="provider-ad-badge"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 momondo.com##[class*="mod-pres-default"]:has(div[class*="ad-badge"])
@@ -60565,6 +60566,7 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
+streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
 walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
@@ -64990,6 +64992,9 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||straldrier.com^
+||fajkhr.icu^
+||hmbprf.icu^
 ||hxnpxh.icu^
 ||ecatqefal.com^
 ||jjfufv.icu^
@@ -88286,6 +88291,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ynap.biz^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
+||analytics.yollamedia.com^
 ||analytics.ziftsolutions.com^
 ||analytics1.vdo.ai^
 ||analyticsehnwe.servicebus.windows.net^
