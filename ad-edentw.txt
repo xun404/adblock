@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dA+0+gYruG7DUJALLW7Fpw
+! Checksum: T0Eh0iKfjhMbb1zKissiRg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503142059
-! Last Modified: 2025年03月14日 20:59
+! Version: 202503150138
+! Last Modified: 2025年03月15日 01:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1037,7 +1037,7 @@ alphatron.*,edgedeliverynetwork.com#$#abort-current-inline-script EventTarget.pr
 eztvx.to#$#json-prune 'adserverDomain'
 onworks.net#$#override-property-read rewarded 0;
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
-vidsrc.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
+boosterx.stream,vidsrc.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
 coflix.*,fmovies.*,swatchseries.is,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
 magasavor.net,moviesjoy.*,rmaxfinishseveral.com,uqload.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 ! MISC
@@ -1086,7 +1086,7 @@ liveru.sx#$#abort-on-property-read window.b5bb198737
 manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
-1afav.net,7us7m00f.fun,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,animeheaven.pro,bf0skv.org,emturbovid.com,fmovies.*,hqq.to,spankbang.com,supjav.com,putlocker.vip,videasy.net,vidply.com,zgdpo8nr.fun#$#abort-on-property-write window.open
+1afav.net,7us7m00f.fun,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,animeheaven.pro,bf0skv.org,boosterx.stream,emturbovid.com,fmovies.*,hqq.to,spankbang.com,supjav.com,putlocker.vip,web.netmovies.*,videasy.net,vidply.com,zgdpo8nr.fun#$#abort-on-property-write window.open
 1337x.buzz,komikav.com,limetorrents.lol,himovies.to,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.*,sxyprn.*,strikeout.cc,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 mathwarehouse.com#$#override-property-read MwAserver noopFunc
 bato.to#$#abort-current-inline-script document.createElement _vwmso
@@ -1239,6 +1239,7 @@ vidsrc.*,cucuflix.*#$#abort-current-inline-script document.createElement /referr
 evrimagaci.org#$#hide-if-matches-xpath './/div[@class="empower-ad"]/parent::div[contains(@class, "ads-")]'
 neoseeker.com#$#hide-if-matches-xpath './/div[contains(@style,"text-align:center;")]/div[@style]/small/ancestor-or-self::div[contains(@style,"text-align:center;")]'
 yts.*#$#abort-on-property-read window.__adFormats;
+web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
