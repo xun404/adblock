@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 50gsBR7sosw/x/28IoO5AQ
+! Checksum: z82mtAq9JSAXw3/GQKJK1w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503201843
-! Last Modified: 2025年03月20日 18:43
+! Version: 202503202101
+! Last Modified: 2025年03月20日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1057,6 +1057,7 @@ readcomiconline.li#$#abort-on-iframe-property-read localStorage
 boosterx.stream,vidsrc.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
 coflix.*,fmovies.*,swatchseries.is,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
 magasavor.net,moviesjoy.*,rmaxfinishseveral.com,uqload.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
