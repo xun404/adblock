@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Cr6qicNIixbhkEtm5a4E4g
+! Checksum: Rm9EJUvObAiydgw+QgGdjg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503202341
-! Last Modified: 2025年03月20日 23:41
+! Version: 202503210047
+! Last Modified: 2025年03月21日 00:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1044,7 +1044,7 @@ mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script
 skidrowreloaded.*,vidsrc.*#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
 animixplay.*aniwatch.*,moviesjoy.*,movieshdwatch.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
-sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.; abort-current-inline-script appendChild iframe
+sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.; abort-current-inline-script appendChild iframe; abort-on-iframe-property-read Math.random;
 aniwave.*,wallpaperflare.com#$#abort-current-inline-script document.write; abort-on-property-read window.open;
 tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
 datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
@@ -1236,7 +1236,7 @@ kickassanime.*,streamwish.*#$#hide-if-matches-xpath './/div[contains(@class, "jw
 hianime.to#$#hide-if-matches-xpath './/a[contains(@href,"1flix.to")]/img[@alt="1flix"][@style]/ancestor::div[@style]'
 hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 100%")]/parent::a[@href][@target]/ancestor::div[@id][contains(@style,"20px")]'
 2kmoviehd.to,hdtodayz.*##div[style*="position: fixed; inset: 0px; pointer-events: auto;"]
-awafim.tv,movies2watch.tv,sflix.*,uqload.*#$#prevent-listener break;case $.
+awafim.tv,movies2watch.tv,sflix2.*,sflix.*,uqload.*#$#prevent-listener break;case $.
 player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
 redtube.*,pornhub.*,tube8.*,youporn.com#$#hide-if-matches-xpath './/div[contains(text(),"TrafficJunky")]/parent::div[@style]/ancestor::div[@class][@style]/parent::*[not(self::body) and not(self::div[@class])][1]'
@@ -1260,6 +1260,7 @@ evrimagaci.org#$#hide-if-matches-xpath './/div[@class="empower-ad"]/parent::div[
 neoseeker.com#$#hide-if-matches-xpath './/div[contains(@style,"text-align:center;")]/div[@style]/small/ancestor-or-self::div[contains(@style,"text-align:center;")]'
 yts.*#$#abort-on-property-read window.__adFormats;
 web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
+megacloud.*#$#hide-if-matches-xpath './/div[@id="megacloud-player"]//a[@id="closeBanner"][@style]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
