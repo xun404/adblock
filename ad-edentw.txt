@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jBA9LXDIxkCRYf9xi1W/GQ
+! Checksum: 50gsBR7sosw/x/28IoO5AQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503201740
-! Last Modified: 2025年03月20日 17:40
+! Version: 202503201843
+! Last Modified: 2025年03月20日 18:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -901,8 +901,12 @@ cvs.com##.stencil-criteo-shelf
 cvs.com#$#hide-if-contains-visible-text '/Sponsored/' 'div[style]' 'div[dir^="auto"]'
 cvs.com#$#hide-if-contains /Sponsored/ 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li' 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li>* ^^sh^^ div>div.sponsored-container>span'
 ! #RM-82
+! PP & SA
 flipkart.com#$#hide-if-matches-xpath './/div[@dir][contains(text(),"You may also like")]/following::div[@style]/div[text()="Sponsored"]/ancestor::div[contains(@style,"transform")]'; hide-if-matches-xpath './/div[@dir][contains(text(),"Sponsored")]/ancestor::div[contains(@style,"align-items") and not(contains(@style,"; width: "))]';
-flipkart.com#$#race start; hide-if-contains-visible-text /Sponsored/ 'div[style]' div[class]>span; hide-if-matches-xpath './/div[contains(@data-tkid,"ADVIEW")]/following::*[@width]/*[@width][@height][@fill]/ancestor::div[@data-id][@style]/parent::div[1]/parent::div'; race stop;
+! PP & SA & MA
+flipkart.com#$#race start; hide-if-contains-visible-text /Sponsored/ 'div[style]' div[class]>span; hide-if-matches-xpath './/div[contains(@data-tkid,"ADVIEW")]/following::*[@width]/*[@width][@height][@fill]/ancestor::div[@data-id][@style][1]'; race stop;
+! BA
+flipkart.com#$#hide-if-matches-xpath './/div[@dir][@style][contains(.,"AD")]/parent::div[@style]//ancestor::div[3]/ancestor::div[contains(@style,"transform: translate")]'; hide-if-matches-xpath './/img[@alt][contains(@srcset,"fk-p-ads")]/parent::div[@style]/ancestor::div[contains(@style,"transform: translate")][1]'
 ! #RM-15
 ! SP
 manomano.*#$#hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div a[class]' 'span[class] span'; hide-if-matches-xpath './/span[@class]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::a[@class and @title]';
