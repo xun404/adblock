@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6VpswUO0Kq2m+YSEgMfL0g
+! Checksum: pRIY9obrxKGYjUzSkIJ8vg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503210338
-! Last Modified: 2025年03月21日 03:38
+! Version: 202503211842
+! Last Modified: 2025年03月21日 18:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1983,7 +1983,7 @@ m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
 youtube.com#$#array-override push BISCOTTI_BASED_DETECTION_STATE_IS_CLICK_EVENT_NOT_TRUSTED
 www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc; override-property-read Object.prototype.web_playlist_queue_multiple_skips_ks false;
-www.youtube.com#$#override-property-read Object.prototype.globalCallbacks.onAbnormalityDetected noopFunc
+youtube.com#$#override-property-read Object.prototype.onAbnormalityDetected noopFunc; array-override includes onAbnormalityDetected false
 youtube.com#$#override-property-read Object.prototype.onAdSkip undefined
 youtube.com#$#override-property-read Object.prototype.ab_det_sc_inj_enf false
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
