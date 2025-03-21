@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XCoDVMTyoRnUVULMalDIJg
+! Checksum: z1BvtHnU1FEvIx7FnvxepA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503211939
-! Last Modified: 2025年03月21日 19:39
+! Version: 202503212340
+! Last Modified: 2025年03月21日 23:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -587,13 +587,14 @@ tripadvisor.com#$#hide-if-matches-xpath './/ul[li/picture]/parent::div/following
 ! #RM-85
 ! #RM-78
 ! SP & BA
-noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'
+noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]'
 noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Sponsored")]/ancestor::div[contains(@id,"adProductsListBanner-")][@style]/parent::div/parent::div[@id="modules-renderer"]'
 ! PP
 noon.com#$#hide-if-matches-xpath './/span[.="Ad"]/ancestor::a/parent::div[@data-qa]/parent::div[contains(@class,"PdpTopSlotDesktop_pdpContainer")]'
 noon.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Sponsored")]/ancestor::div[@id][1]/parent::div[@style][contains(@id,"adMultiProductsBanner")]/ancestor::div[contains(@class,"PdpWidgets_widgetContaine")]'
+noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductBoxLinkHandler")]/ancestor::div[contains(@id,"recommendedProducts")][@style]/ancestor::div[@id]/parent::div[contains(@class,"Recommendations")][1]'
 ! HP
-noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
+noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
 noon.com#$#hide-if-matches-xpath './/span[.="Ad"]/parent::div[@style][contains(@class,"RenderLabel_labelContainer")]/ancestor::div[@style][contains(@id,"adBannerModule")]'
 ! #RM-68
 cars.com#$#hide-if-matches-xpath './/spark-badge[@variant="text"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
