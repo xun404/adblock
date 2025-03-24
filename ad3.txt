@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JuMSlzZ1qqV2eLX3KVDI0g
+! Checksum: M/pgf8IZxM+FRRaCp1FayQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202503241122
-! Last Modified: 2025年03月24日 11:22
+! Version: 202503241341
+! Last Modified: 2025年03月24日 13:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20284,6 +20284,7 @@ m.babytree.com##script + a[class]
 /analytics-secure.js
 /analytics-tracker/*
 /analytics-tracking.js
+/analytics-worker.iife.js
 /analytics.*/event?
 /analytics.*/ping/?
 /analytics.*/track
@@ -25361,6 +25362,7 @@ omni.soundestlink.com$image
 ||rtox.net^$third-party
 ||rtrk.co.nz^$third-party
 ||rtrk.com^$third-party
+||rttrk.com^$third-party
 ||ru4.com^$third-party
 ||rudderlabs.com^$third-party
 ||rumanalytics.com^$third-party
@@ -31966,6 +31968,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||k.qwant.com^
 ||kaggle.com/api/i/diagnostics.MetricsService
 ||kansascity.com/nyb-zsooli/
+||kape.dataplane.rudderstack.com^
 ||kayak.*/vestigo/measure
 ||kbb.com/pixall/
 ||kck.st/web/track
