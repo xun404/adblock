@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tc2mEov/hJp911xlOWzpCQ
+! Checksum: I64TdsBxR16wdptRwoXpuA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202503241741
-! Last Modified: 2025年03月24日 17:41
+! Version: 202503241844
+! Last Modified: 2025年03月24日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -16410,6 +16410,7 @@ browsershots.org#@#.advert_area
 ||4dex.io^
 ||4dsbanner.net^
 ||4dtrk.com^
+||4e0c0b1247.com^
 ||4ed5560812.com^
 ||4f2sm1y1ss.com^
 ||4f9566374d.com^
@@ -16534,6 +16535,7 @@ browsershots.org#@#.advert_area
 ||70b7d98dec.com^
 ||721ffc3ec5.com^
 ||72hdgb5o.de^
+||73a435bfaf.com^
 ||73a70e581b.com^
 ||73be0a6d8a.com^
 ||73fa81c29d.com^
@@ -16596,6 +16598,7 @@ browsershots.org#@#.advert_area
 ||88cb0eb486.com^
 ||88d7b6aa44fb8eb.com^
 ||88eq7spm.de^
+||8ab16250fe.com^
 ||8d96fe2f01.com^
 ||8db4fde90b.com^
 ||8de5d7e235.com^
@@ -45261,6 +45264,7 @@ browsershots.org#@#.advert_area
 ||9354ee72.xyz^
 ||94444717.xyz^
 ||94597672.xyz^
+||94782806.xyz^
 ||95597529.xyz^
 ||97496b9d.xyz^
 ||98140548.xyz^
@@ -60555,9 +60559,13 @@ hookerhillstudios.com##div.items-center:has(> #articlead)
 kaufland.*##.exp-vision__ext-wrapper--spad
 kaufland.*##.product--spa
 kaufland.*##.product--sponsored
+kaufland.*##.product:has(div.product__sponsored-ad-label)
+kaufland.*##.rd-recommender__tile:has(div.rd-product-tile__badge--ad)
+kaufland.*##.rd-recommender__tile:has(span.advertiser-info__button-icon)
 kaufland.*##.spads-recommender
 kaufland.*##.sponsored-brand-products-container
 kaufland.*##.teaser-orchestration__wrapper--online
+kaufland.*#?#.recommender-wrapper:-abp-contains(Gesponsert)
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
 manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
