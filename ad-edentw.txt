@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UJIeSTaJT0740G3dknG02Q
+! Checksum: iZdQRU0N5Uk0FUd4Lcf6xw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503251645
-! Last Modified: 2025年03月25日 16:45
+! Version: 202503251741
+! Last Modified: 2025年03月25日 17:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -924,7 +924,6 @@ manomano.*#$#hide-if-matches-xpath '//div[./a[@data-testid="sprbrd-logo-link"]]/
 ! TP
 manomano.*#$#hide-if-matches-xpath './/span[@role][@data-testid="popoverTriggersponsoredLabel"]/ancestor-or-self::div[@data-testid="sprbrd-banner"]'
 !HP
-manomano.*#$#hide-if-matches-xpath './/img[@data-testid="HomepageSecondary"]/preceding::a[@data-testid="link"]/preceding::span[.="Sponsorisé" or .="Patrocinado" or .="Sponsorizzato" or .="Sponsored" or .="Gesponsert"]/ancestor-or-self::div[@class]/parent::div[1]'
 manomano.*#$#hide-if-matches-xpath './/span[translate(text(), "​", "") = "Sponsorisé" or translate(text(), "​", "") = "Sponsored" or translate(text(), "​", "") = "Sponsorizzato" or translate(text(), "​", "") = "Gesponsert" or translate(text(), "​", "") = "Patrocinado"]/preceding-sibling::*[name()="svg"][@role="presentation"]/parent::div/parent::div[1]'
 ! #CV-1914
 instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article>div[class]' 'span[class]'; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
@@ -1755,6 +1754,7 @@ comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaCon
 tornado.3dn.ru#$#abort-on-property-read wrapper.addEventListener
 kinoblin.ru,serialai.ru#$#prevent-listener mousedown pop.doEvent
 agronews.ua#$#prevent-listener DOMContentLoaded 'adId'
+braz-rus.pro#$#prevent-listener new 'window.location'; prevent-listener userpause 'Math.random'
 ! Video ads
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 cosmonova-broadcast.tv#$#override-property-read amodule.data false
