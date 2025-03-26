@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: w2/8Lqx29P12iKWcDhhn/Q
+! Checksum: dyWVshsgoG41/TAG285g+g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503261938
-! Last Modified: 2025年03月26日 19:38
+! Version: 202503262342
+! Last Modified: 2025年03月26日 23:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -346,14 +346,18 @@ www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#override-property-read sssp noopFunc
 www.seznam.cz#$#replace-fetch-response '/adType/' {}; hide-if-matches-xpath '//a[@rel][contains(translate(translate(text(), "ĂÂÎȘȚăâîșțR̆", "AAISTaaistR"), "REKLAMA", "reklama"), "reklama")][contains(@class,"color-neutral-2")]/parent::div/parent::div/parent::div/parent::div[@style][1]'
 ! CV-3922
-idnes.cz#$#override-property-read pxReady null
 www.idnes.cz#$#override-property-read Unidata.reklama false
 www.idnes.cz#$#abort-on-property-write Object.prototype.Branding
-www.idnes.cz#$#abort-on-property-write Object.prototype.redistributePositions
 www.idnes.cz#$#abort-on-property-write Storage.data.evilad05
 www.idnes.cz#$#override-property-read Object.prototype.bbmedia 5
 www.idnes.cz#$#array-override push /subAds|code/
 www.idnes.cz#$#override-property-read Object.prototype.expandProperties noopFunc
+www.idnes.cz#$#abort-on-property-write Storage.data.eviladTimestamp
+www.idnes.cz#$#abort-on-property-write window.Ads
+idnes.cz#$#override-property-read Storage.data.gemiuspokus 4
+idnes.cz#$#cookie-remover 'kolbda' true
+idnes.cz#$#abort-on-property-read redistributePositions
+idnes.cz#$#override-property-read pxReady null
 idnes.cz##.cookie-info
 idnes.cz##div[style*="width: 480px; height: 300px"]
 idnes.cz##a[target="_blank"] > img[width="480"][height="300"]
