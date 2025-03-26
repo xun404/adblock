@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lcC8E39AZJeznbjdVmdL4Q
+! Checksum: oMq4/2XzJWzaVHjaSKLkNA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202503261741
-! Last Modified: 2025年03月26日 17:41
+! Version: 202503261938
+! Last Modified: 2025年03月26日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1580,6 +1580,7 @@ _800x80_
 /api/users?token=$popup
 /click?adv=$popup
 /gtm.js?$popup
+/iprp.php?$popup
 /jump/next.php?$popup
 /links/popad$popup
 /out?zoneId=$popup
@@ -1602,9 +1603,7 @@ _800x80_
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-=ppd&bdm=$popup
-=ppd&r=$popup
-=ppd&wtc=$popup
+=ppd&$popup,third-party
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
 |data:text$popup,domain=~clker.com
