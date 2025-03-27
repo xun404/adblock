@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +Vn5qMQ1j5qDRB6/zKKNIg
+! Checksum: DxgttffawCJIPn6avGDpcA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202503271341
-! Last Modified: 2025年03月27日 13:41
+! Version: 202503271448
+! Last Modified: 2025年03月27日 14:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1028,7 +1028,7 @@ tieba.baidu.com##.tuijian-wrap
 /right_ads.$~xmlhttprequest
 /rightad.js$script
 /s.ashx?btag$script
-/sbar.json?key=
+/sbar.json?key=$script
 /sc-tagmanager/*$script
 /script/aclib.js$third-party
 /script/antd.js$third-party
@@ -44907,7 +44907,7 @@ browsershots.org#@#.advert_area
 ||marketleverage.com^$third-party
 ||marsads.com^$third-party
 ||mcontigo.com^$third-party
-||media.net^$third-party
+||media.net^$script,third-party
 ||mediaad.org^$third-party
 ||mediacpm.pl^$third-party
 ||mediaffiliation.com^$third-party
@@ -84945,7 +84945,6 @@ omni.soundestlink.com$image
 ||pzapi-kg.com^
 ||pzimff.com^
 ||q0losid.com^
-||quantserve.com^
 ||quickkoala.io^
 ||quickpcfixer.click^
 ||r42tag.com^
@@ -85976,7 +85975,7 @@ omni.soundestlink.com$image
 ||goneviral.com^$third-party
 ||goodcounter.org^$third-party
 ||goodmeasure.io^$third-party
-||google-analytics.com^$third-party
+||google-analytics.com^$script,third-party,xmlhttprequest
 ||googleadservices.com^$third-party
 ||googlerank.info^$third-party
 ||gooo.al^$third-party
@@ -86744,6 +86743,7 @@ omni.soundestlink.com$image
 ||quadran.eu^$third-party
 ||qualaroo.com^$third-party
 ||quantcount.com^$third-party
+||quantserve.com^$script,third-party
 ||quantummetric.com^$third-party
 ||quartic.pl^$third-party
 ||qubitproducts.com^$third-party
