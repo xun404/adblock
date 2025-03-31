@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qU8i8U3ly6Cug8SyMJQCFA
+! Checksum: OvnTQfwdFnEnyg2pl5Qsiw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202503282142
-! Last Modified: 2025年03月28日 21:42
+! Version: 202503311448
+! Last Modified: 2025年03月31日 14:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1869,7 +1869,7 @@ aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 watchsb.com#$#abort-on-property-read __Y
 tinsoikeo.live#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
-motchiill.li,ohaytv.id#$#abort-on-property-read sessionStorage
+motchiill.vc,ohaytv.id#$#abort-on-property-read sessionStorage
 plvb.xyz,rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 luotphim1.net#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
@@ -1889,6 +1889,7 @@ www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
 vaoroi14.live#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 ! Popup/Popunder/Clickunder
 fembed.com,survey-smiles.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,anime4.site,anh.moe,maclife.io,xemphimjav.com,hoctot.hocmai.vn,cdn2.blueskychilling.online,ohaha79xxx.site,herotruyen.com,player.phimapi.com,noitu.site#$#abort-on-property-read open
 tvhay.top#$#abort-current-inline-script JSON.parse atob
