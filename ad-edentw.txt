@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AVhxYO2lW+uHNA+B8SsqCw
+! Checksum: 8Xrnxeh1wa9KSr2yNjkP+Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202504071647
-! Last Modified: 2025年04月07日 16:47
+! Version: 202504071741
+! Last Modified: 2025年04月07日 17:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1730,7 +1730,7 @@ cosplay-porn.one#$#abort-on-property-read biads
 mag.relax.by#$#abort-on-property-read Object.prototype.branding_url
 conversion.im#$#abort-current-inline-script $ mainContainer
 freescreens.ru,imgbase.ru,imgclick.ru,payforpic.ru,picclick.ru,picforall.ru#$#abort-current-inline-script JSON.parse
-tapochek.net#$#abort-current-inline-script XMLHttpRequest
+tapochek.net#$#prevent-listener click 'String.fromCharCode'
 rutor.org#$#abort-on-property-read Light.Popup
 bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
