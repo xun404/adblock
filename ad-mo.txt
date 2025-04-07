@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: //lAV2w6rJ26e9V5XOx8zw
+! Checksum: dr5MFxxi+b0Owc0JvsW7Yg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202504071016
-! Last Modified: 2025年04月07日 10:16
+! Version: 202504071448
+! Last Modified: 2025年04月07日 14:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -15311,6 +15311,8 @@ _800x80_
 ##.gnt_x
 ##.gnt_x__lbl
 ##.gnt_xmst
+##.mntl-block.article__broad-video
+##.mntl-jwplayer-broad.article__broad-video--jw
 ##.mntl-jwplayer-broad.article__broad-video-jw
 ##.row-list.banniere
 ##.row-list.native
@@ -54448,6 +54450,7 @@ web.telegram.org##.SponsoredMessage
 goodreads.com##.SponsoredProductAdContainer
 streetsblog.org##.Sponsorship_articleBannerWrapper__wV_1S
 thetimes.com##.Sticky-AdContainer
+abc7ny.com##.StickyAdWrapper
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 slideshare.net##.StickyVerticalInterstitialAd_root__f7Qki
 slant.co##.SummaryPage-LustreEmbed
@@ -59911,6 +59914,7 @@ cargurus.com##div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-
 abcnews.go.com##div[data-container="band"]:has(> div > div[data-box-type="fitt-adbox-thinbannerhome"])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 cruisecritic.co.uk##div[data-sentry-component="CruiseCard"]:has(a[rel="sponsored"])
+mail.aol.com##div[data-test-id="virtual-list"] > ul[role="list"][aria-label] > li[style]:has(a[href^="https://api.taboola.com/"][href*="/yahoo-aol-mail/"])
 priceline.com##div[data-testid="HTL_NEW_LISTING_CARD_RESP"]:has(a[aria-label*=" Promoted"])
 twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
