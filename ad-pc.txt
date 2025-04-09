@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hr581k6DLahau8zjQKgzjw
+! Checksum: Di2YCJ5h0L/t49stirdMPA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202504100640
-! Last Modified: 2025年04月10日 06:40
+! Version: 202504100738
+! Last Modified: 2025年04月10日 07:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -29852,7 +29852,6 @@ browsershots.org#@#.advert_area
 ||masqueradethousand.com^
 ||massacreluxuriouschristening.com^
 ||massacrepompous.com^
-||massariuscdn.com^
 ||massbrag.care^
 ||massesnieces.com^
 ||massiveanalyticssys.net^
@@ -52038,8 +52037,8 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 @@||thegay.com/upd/*/static/js/*.js|$domain=thegay.com
 ||thegay.com^$script,domain=thegay.com
 $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
-$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=gayforfans.com,~third-party
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=thumbs.pro
+$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=gayforfans.com,~third-party
 ||thegay.com^$csp=default-src 'self' *.ahcdn.com fonts.gstatic.com fonts.googleapis.com https://thegay.com https://tn.thegay.com 'unsafe-inline' 'unsafe-eval' data: blob:
 .com./$popup,domain=pornhub.com
 |http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
