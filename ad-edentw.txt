@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zZljd8TffonAplZ1RCOQKw
+! Checksum: p8SSnjdo+TheCMsttMrD+w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202504111938
-! Last Modified: 2025年04月11日 19:38
+! Version: 202504112243
+! Last Modified: 2025年04月11日 22:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -563,6 +563,7 @@ woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-produ
 ||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 winfuture.de#$#override-property-read Node.prototype.appendChild noopFunc; override-property-read Blob noopFunc;
+sourceforge.net#$#override-property-read Object.getOwnPropertyDescriptor noopFunc; override-property-read Blob noopFunc
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
