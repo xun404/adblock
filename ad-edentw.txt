@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p8SSnjdo+TheCMsttMrD+w
+! Checksum: znOWRWiLhWe2d63CBA7H/w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202504112243
-! Last Modified: 2025年04月11日 22:43
+! Version: 202504120140
+! Last Modified: 2025年04月12日 01:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -568,7 +568,7 @@ sourceforge.net#$#override-property-read Object.getOwnPropertyDescriptor noopFun
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
 ! sp
-target.com#$#hide-if-matches-xpath './/p[text()="Sponsored"]/parent::div[@class]/ancestor::div[contains(@data-test,"ProductCardWrapper")][1]'
+target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'a[aria-labelledby][data-test="product-body"] p[data-test="sponsoredText"]'
 ! #RM-75
 ! sp
 bol.com#?#ul[class][data-test="products"] li:-abp-has(span:-abp-contains(/Gesponsord|Sponsorisé/))
