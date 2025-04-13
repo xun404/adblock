@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gHvQjjcNOfqgDGuYOyK7kQ
+! Checksum: pY9Yj9gREbvFZAed4fY4Kw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202504140244
-! Last Modified: 2025年04月14日 02:44
+! Version: 202504140337
+! Last Modified: 2025年04月14日 03:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51381,6 +51381,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||picrew.me/vol/ads/
 ||pimpandhost.com/mikakoki/
 ||pinkmonkey.com/includes/right-ad-columns.html
+||piratebay.live/static/ads/
 ||pixlr.com/dad/
 ||pixlr.com/fad/
 ||plainenglish.io/assets/sponsors/
@@ -51856,6 +51857,7 @@ $popup,third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.m
 ||short.bitchute.com^$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
+||thesurferprotector.com^$popup,domain=piratebay.live
 ||topeuropix.site/svop4/$popup
 ||vpnfortorrents.*?$popup
 ||vtube.to/api/click/$popup
@@ -58668,6 +58670,7 @@ listland.com##a[href^="https://shareasale.com/r.cfm?"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 glory985.com##a[href^="https://sweetbidsflo.irauctions.com/listing/0"]
 veev.to##a[href^="https://t.ly/"]
+piratebay.live##a[href^="https://thesurferprotector.com/"]
 accesswdun.com##a[href^="https://tinyurl.com"] > img
 mastercomfig.com##a[href^="https://tradeit.gg/"]
 scrolller.com##a[href^="https://trk.scrolller.com/"]
@@ -83307,6 +83310,7 @@ omni.soundestlink.com$image
 ||powerrobotflower.com^
 ||prfct.co^
 ||procroanalytics.com^
+||proftrafficcounter.com^
 ||progmxs.com^
 ||pushvisit.xyz^
 ||pxlstat.com^
@@ -91003,6 +91007,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.smartmedia.tj^
 ||sal.isanook.com^
 ||stat.matichon.co.th^
+||webpushstat.api.engagelab.cc^
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
 ||analytics.cdnstr.com^$third-party
@@ -130494,6 +130499,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||prisjakt.nu/js.php?p=trafikfonden
 ||stat.nyheter24.se^
 ||dek-d.com^*/analytic.js
+||play.pp9yy.com/hall/home/heartbeat
+||play.pp9yy.com/hall/v1/netstat/
 ||scribe.wongnai.com^
 ||ta.sanook.com^
 ||thairath.co.th/event/
