@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nv7TrR5o+bQXM5L7EJFhjA
+! Checksum: RGow2txXZ61d+xmkrcD8LA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202504180048
-! Last Modified: 2025年04月18日 00:48
+! Version: 202504180539
+! Last Modified: 2025年04月18日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -566,7 +566,7 @@ convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-c
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
 ! sp
-target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'a[aria-labelledby][data-test="product-body"] p[data-test="sponsoredText"]'
+target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'p[data-test="sponsoredText"]'
 ! #RM-75
 ! sp
 bol.com#?#ul[class][data-test="products"] li:-abp-has(span:-abp-contains(/Gesponsord|Sponsorisé/))
