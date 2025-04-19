@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 35mVd/4NvzHW+NiKJbYzsw
+! Checksum: G4IPLVUF02eGqkvndlzhEg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202504200440
-! Last Modified: 2025年04月20日 04:40
+! Version: 202504200538
+! Last Modified: 2025年04月20日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -43679,6 +43679,7 @@ browsershots.org#@#.advert_area
 ||fixionmedia.com^$third-party
 ||flashtalking.com^$third-party,domain=~toggo.de
 ||flower-ads.com^$third-party
+||fls.doubleclick.net^
 ||flx2.pnl.agency^$third-party
 ||flyersquare.com^$third-party
 ||flymyads.com^$third-party
@@ -53174,7 +53175,7 @@ coinarbitragebot.com###botfix
 pymnts.com###bottom-ad
 cheese.com,investorplace.com###bottom-banner
 000webhost.com###bottom-banner-with-counter-holder-desktop
-eweek.com###bottom-footer-fixed-slot
+eweek.com,linuxtoday.com###bottom-footer-fixed-slot
 audioreview.com###bottom-leaderboard
 reverso.net###bottom-mega-rca-box
 crn.com###bottom-ribbon
@@ -80592,6 +80593,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/ga.js
 /analytics/google.js
 /analytics/layer
+/analytics/loggly.js
 /analytics/metric/*
 /analytics/pagestats
 /analytics/pageview
@@ -81210,6 +81212,7 @@ fqsousou.com,kengso.com#@#.user-share
 /fbpix-events-
 /fbpixel.js
 /fe_logger?
+/feature/metrics$xmlhttprequest
 /figanalytics-short-ttl.js
 /fingerprint.js
 /fingerprint.min.js
@@ -82354,6 +82357,7 @@ fqsousou.com,kengso.com#@#.user-share
 /smetrics.*/b/ss/*
 /smetrics.*/id?
 /smg_tracking/js/onthe.io.js
+/Smile_ElasticsuiteTracker/*$script
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
@@ -88090,6 +88094,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/code/keen-2.1.0-min.js
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
+||cloudfront.net/i?e=
 ||cloudfront.net/i?v=
 ||cloudfront.net/js/ca.js
 ||cloudfront.net/js/reach.js
@@ -90266,6 +90271,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3uvwl4wtkgzo1.cloudfront.net^
 ||d3vebqdofhigrn.cloudfront.net^
 ||d4ax0r5detcsu.cloudfront.net^
+||d5yoctgpv4cpx.cloudfront.net^
 ||d761erxl2qywg.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
 ||danv01ao0kdr2.cloudfront.net^
@@ -90886,6 +90892,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||glami.gr/js/compiled/pt.js
 ||kwikmotion.com^*/videojs-kwikstat.min.js
 ||stats-real-clients.zentech.gr^
+||tag.weezmo.com^
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
 ||heartbeat.pmd.444.hu^
@@ -130287,6 +130294,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tijd.be/track/
 ||topspin.npo.nl^
 ||track.pexi.nl^
+||tracking.gaslicht.com^
 ||tracking.voordeeluitjes.nl^
 ||tvgids.nl/collect
 ||tweakers.nl/track/
