@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fIYFgnX3oIlyG3VMnC8TYg
+! Checksum: LvKS4oKLyZLqmOV0HeDxwQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202504240740
-! Last Modified: 2025年04月24日 07:40
+! Version: 202504241016
+! Last Modified: 2025年04月24日 10:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1744,6 +1744,7 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||thaincoth.com^
 ||etbh.cn^
+||pflwta.top^
 ||leirerspfz.com^
 ||ifje.cn^
 ||ngjcvn.top^
@@ -27376,6 +27377,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com/sa7d76sa/
 ||4taps.me/analytics/
 ||51network.com^$third-party
+||682a5845.b-cdn.net^
 ||99widgets.com/counters/
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||a.emea01.idio.episerver.net^
@@ -28289,6 +28291,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^*.gif?$third-party
 ||feedify.net/thirdparty/json/track/
+||fgip.rosehosting.com^
 ||filament-stats.herokuapp.com^
 ||files.envoke.com^*_nvk_tracking.js
 ||filesonic.com/referral/$third-party
@@ -30411,6 +30414,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||01net.com/track/
 ||abs.proxistore.com^
 ||affiliation.planethoster.info^$third-party
+||analytics.ekonsilio.io^
 ||analytics.freespee.com^
 ||analytics.valiuz.com^
 ||at.360.audion.fm^
@@ -69639,7 +69643,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||compteur.developpez.com^
 ||courrierinternational.com/*&vtag=
 ||datalayer.orange.fr^
+||dd.bellesdemeures.com^
 ||dd.leboncoin.fr^
+||dd.seloger-bureaux-commerces.com^
+||dd.seloger.com^
+||dd.selogerneuf.com^
 ||decathlon.net/content/tracker.v2.prod.min.js
 ||developpez.com/public/js/log.js
 ||donnons.org/log.js
@@ -69655,6 +69663,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
+||groupe-seloger.com/tracking-data/
 ||hits.porn.fr^
 ||hlms.ecologie.gouv.fr^
 ||horairesdouverture24.fr/ar.js
@@ -69743,6 +69752,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||res.paruvendu.fr^
 ||rts.ch^*/boreas_b01.js
 ||s5.charliehebdo.fr^
+||seloger.com/cdp-bff/analytics
 ||serv.letudiant.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
@@ -70532,9 +70542,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mklik.gazeta.pl^
 ||nasza-klasa.pl^*/pp_gemius
 ||p.gazeta.pl^
+||pb.siepomaga.pl^
 ||pixel.wp.pl^
 ||rek.www.wp.pl^
 ||savecart.pl/d/
+||sentry.siepomaga.pl^
 ||squid.gazeta.pl/bdtrck/
 ||ss.woodupp.pl^
 ||stats.teledyski.info^
