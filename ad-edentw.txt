@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: elba3FHIHPnPKRfSuvW2Nw
+! Checksum: flKu6dsFuOUYvfS2xlOd9w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202504252341
-! Last Modified: 2025年04月25日 23:41
+! Version: 202504260338
+! Last Modified: 2025年04月26日 03:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1973,6 +1973,7 @@ mail.ru#@#[href^="https://dzen.ru"]
 ! Filters to be used by distribution partners
 ! #CV-782
 www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1003' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1005' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-start-from:1010' '-stop-on-video-end:true'; race stop;
+www.youtube.com,youtube-nocookie.com#$#array-override push 'AD_PLACEMENT' '' 'value.kind'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
