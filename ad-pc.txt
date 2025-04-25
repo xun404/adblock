@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fxMMp0BvE3l2WsheJlLA8g
+! Checksum: 4TEHp9PbErLJfoH93GvPLQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202504250739
-! Last Modified: 2025年04月25日 07:39
+! Version: 202504251016
+! Last Modified: 2025年04月25日 10:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -81415,6 +81415,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adtracking.asmx
 /adtrk/tr.gif
 /advstats.js
+/aff_convpixel.js
 /aff_i?offer_id=
 /aff_land?referrer
 /affiliate-tracker.js
@@ -83981,6 +83982,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
+://metrics-collector.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
 ://plausible.*/api/event|
@@ -84687,6 +84689,7 @@ omni.soundestlink.com$image
 ||rkdms.com^
 ||robotflowermobile.com^
 ||rtactivate.com^
+||rtgvwr.com^
 ||rum-ingress-coralogix.com^
 ||rumt-sg.com^
 ||s-onetag.com^
@@ -88267,6 +88270,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sambaads.com^$third-party
 ||shoptarget.com.br^$third-party
 ||solucx.com.br^$third-party
+||taghike.com^$third-party
 ||tailtarget.com^$third-party
 ||trugaze.io^$third-party
 ||voxus.com.br^$third-party
@@ -88559,6 +88563,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/avsmetrics/
 ||amazonaws.com/beacon^
 ||amazonaws.com/cdn.barilliance.com/
+||amazonaws.com/frame-image-br/bg.png?
 ||amazonaws.com/iglu.acme.com.dev.clixtream/tracker.js
 ||amazonaws.com/j.kissinsights.com/
 ||amazonaws.com/js/reach.js
@@ -92182,6 +92187,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feature-flag-edge.live.clickbus.net^
 ||hitserver.ibope.com.br^
 ||jsuol.com/rm/clicklogger_
+||leadster.com.br/api/chatbot/events
 ||linximpulse.net/impulse/
 ||lurker.olx.com.br^
 ||melhorplano.net/scripts/tracker/
@@ -94100,6 +94106,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||views.arabnews.com^
 ||views.asurascans.com^
 ||vimeo.com/ablincoln/
+||vimeo.com/add/
 ||vimeocdn.com/js_opt/logging_combined.min.js
 ||visualstudio.com/v2/track
 ||vitals.groww.in/collect
@@ -130201,6 +130208,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
 ||analytics.refurbed.de^
+||api.sae.systems^
 ||arlt.com/analytics/
 ||arte.tv/log-player/
 ||as.mirapodo.de^
@@ -131683,11 +131691,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||wtk.pl/js/WTKStats.js
 ||yctjw54slxrwwlh.trybawaryjny.pl^
 ||audience-mostread.r7.com^
+||click.afiliados.uol.com.br^
 ||click.uol.com.br^
 ||csplog.kwai-pro.com^
 ||dejavu.mercadolivre.com.br^
 ||dn.pt/tag/
 ||dna.uol.com.br^
+||eduplay.rnp.br/collector/
 ||g.bit.pt^
 ||g.bitmag.com.br^
 ||geoip.ativo.com^
@@ -131708,18 +131718,22 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||olx.com.br^*/lurker.
 ||poder360.com.br/_tracker
 ||r7.com/comscore/
+||rumolog.com/wp-json/burst/v1/track/
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
+||sdk-analytics-web.cloud.itau.com.br^
 ||sinonimos.com.br/hits.php
 ||standvirtual.com^$ping
 ||strapi.clickjogos.com.br^
 ||tags.globo.com^
 ||terra.com.br^*/metrics.js
 ||track.exame.com^
+||track.magazineluiza.com.br^
 ||track.olx.com.br^
 ||tracker.bt.uol.com.br^
 ||tracker.publico.pt^
 ||uai.com.br^*/analytics.js
+||udr.uol.com.br^
 ||unleash.livepix.gg^
 ||uol.com.br/stats?
 ||agrointel.ro/ga.js
