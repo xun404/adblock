@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FEARF8kQs6554S2NSy5NkA
+! Checksum: BL5qvRhntlgyIIgnXMg2QA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202504270043
-! Last Modified: 2025年04月27日 00:43
+! Version: 202504270138
+! Last Modified: 2025年04月27日 01:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -30008,6 +30008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yarpp.org/pixels/
 ||yellow.ai/api/plugin/analytics?
 ||yellow.ai/integrations/analytics/
+||yepnews.eu/event.html
 ||yext.com/plpixel?
 ||yimg.com/aaq/vzm/$script,domain=news.yahoo.com
 ||yimg.com/cx/vzm/cs.js
@@ -30732,6 +30733,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentreveal.net/event/events.js
 ||ct.beslist.nl^
 ||dmtgo.upc.biz^
+||falco.studio/api/track
 ||go.planetnine.com^
 ||hottraffic.nl^$third-party
 ||marktplaats.net/cnt/
@@ -70131,6 +70133,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||statistics.csob.cz^
 ||2dehands.be/px/
 ||analytics.rambla.be^
+||api.beleggersbelangen.nl//api/statistics/
 ||api.rtl.nl/monitoring/
 ||azerty.nl/ambannerslider/analytic/
 ||bc34.wijnvoordeel.nl^
@@ -70145,9 +70148,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||filmvandaag.nl/pl/js/script.js
 ||folderz.nl/clickstream/
 ||infonu.nl/t.php?
+||inzicht.cz.nl^
 ||kieskeurig.nl/collect
 ||kieskeurig.nl/track-
 ||klik.nrc.nl/ping?
+||localfocuswidgets.net/stats/
 ||log.rabobank.nl^
 ||marktplaats.nl/add_counter_image.
 ||marktplaats.nl/metrics/
