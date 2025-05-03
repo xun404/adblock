@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6WS/J0QWNzebErPrXk15BQ
+! Checksum: uV9gMEYGSgeucB25b9zXyA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202505031341
-! Last Modified: 2025年05月03日 13:41
+! Version: 202505031938
+! Last Modified: 2025年05月03日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -52661,6 +52661,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||backgrounds.wetransfer.net$image
 ||backgrounds.wetransfer.net/*.mp4$media
 ||bahamaslocal.com/img/banners/
+||ban.etherscan.com^
 ||bbci.co.uk/plugins/dfpAdsHTML/
 ||beap.gemini.yahoo.com^
 ||beforeitsnews.com/img/banner_
@@ -52748,6 +52749,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||coincheck.com/images/affiliates/
 ||coincodex.com/*/position/ccx_pos-min$script
 ||coingolive.com/assets/img/partners/
+||coinmarketcap.com/static/img/cdp_ad_banner/
 ||computeralliance.com.au/ws/PartsWS.asmx/GetAdvertisingLeft
 ||convert2mp3.club/dr/
 ||coolors.co/ajax/get-ads
@@ -56963,6 +56965,7 @@ powerpyx.com##.code-block-14
 patriotnewsfeed.com##.code-block-4
 scienceabc.com##.code-block-5
 wltreport.com##.code-block-label
+coinmarketcap.com##.coin-ad-banner
 holyrood.com##.col--ad
 mydramalist.com##.col-lg-4 > .clear
 upi.com##.col-md-12 > table
@@ -59744,6 +59747,7 @@ boernestar.com##.widget-advert_placement
 wikikeep.com##.widget-area
 superdeluxeedition.com##.widget-bg-image__deal-alert
 cinemaexpress.com##.widget-container-133
+taiyangnews.info##.widget-module__widgetWrapper__Rzg0s
 thebeet.com##.widget-promotion
 screencrush.com##.widget-widget_third_party_content
 ceoexpress.com##.widgetContentIfrWrapperAd
@@ -59989,6 +59993,7 @@ motor1.com##[data-m1-ad-label]
 cnet.com##[data-meta="placeholder-slot"]
 lightnovelcave.com,lightnovelpub.com##[data-mobid]
 qvc.com##[data-module-feature-name^="CRITEO"]
+coindesk.com##[data-module-name="high-impact"]
 independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
@@ -60468,6 +60473,7 @@ cointelegraph.com##a[href^="https://servedbyadbutler.com/"]
 listland.com##a[href^="https://shareasale.com/r.cfm?"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 glory985.com##a[href^="https://sweetbidsflo.irauctions.com/listing/0"]
+faceitanalyser.com##a[href^="https://t.csgofast.cash/"]
 veev.to##a[href^="https://t.ly/"]
 piratebay.live##a[href^="https://thesurferprotector.com/"]
 accesswdun.com##a[href^="https://tinyurl.com"] > img
@@ -60498,6 +60504,7 @@ thecatholictravelguide.com##a[href^="https://www.squaremouth.com/"]
 adfoc.us##a[href^="https://www.survivalservers.com/"]
 itsfoss.com,linuxhandbook.com##a[href^="https://www.warp.dev"]
 yugatech.com##a[href^="https://yugatech.ph/"]
+taiyangnews.info##a[href^="javascript:clickTrach('"]
 kitguru.net##a[id^="href-ad-"]
 himovies.to,home-barista.com,rarpc.co,washingtontimes.com##a[onclick]
 amishamerica.com##a[rel="nofollow"] > img
@@ -60536,6 +60543,7 @@ builtbybit.com##center[style="margin-top: 20px"]
 hltv.org##csmoney-skins-widget
 weatherbug.com##display-ad-widget
 wings.io##div > [href="https://mechazilla.io"]
+etherscan.io##div > a[target="_blank"][rel="nofollow"] > img[alt="Ads"]
 readonepiece.com##div > b
 coffeeordie.com##div.HtmlModule > [href]
 web.telegram.org##div.bubbles > div.scrollable > div.bubbles-inner > div.is-sponsored
@@ -61207,6 +61215,7 @@ scamwarners.com##.subheader:has(> ins.adsbygoogle)
 thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
 douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
+etherscan.io##.text-white.text-opacity-75.noindex-section.mb-0:has([style="text-decoration: none;"])
 trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 nex-software.com##.toolinfo:has(a[href$="/reimage"])
 canberratimes.com.au##.top-20
@@ -61934,6 +61943,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-ad-card"]
 checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
+coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:-abp-contains(Sponsored by))
 temu.com#?#.splide__slide:-abp-contains(AD)
 foodlion.com#?#.product-grid-cell:-abp-contains(Sponsored)
 manomano.*#?#[data-testid="productCardListing"]:-abp-contains(/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato/)
@@ -65833,6 +65843,7 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||ebroktean.com^
 ||okpl05030ai.com^
 ||vtqhelleano.com^
 ||qqosk05030llo.com^
@@ -132902,7 +132913,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! browser.sentry-cdn.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 !! ||assets.adobedtm.com/extensions/*/AppMeasurement.min.js
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|subwy.com|tatamotors.com|usanetwork.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=identity.healthsafe-id.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 !! ||assets.adobedtm.com/extensions/*/AppMeasurement* (general)
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 !! adobedtm.com^*/satelliteLib-
