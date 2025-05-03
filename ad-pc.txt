@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tu9QiAaoipv8D5fZNiEk4g
+! Checksum: ScuLtPQvveCs+WPIF32rIg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202505040538
-! Last Modified: 2025年05月04日 05:38
+! Version: 202505040641
+! Last Modified: 2025年05月04日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32073,6 +32073,7 @@ browsershots.org#@#.advert_area
 ||mysweetteam.com^
 ||mytdsnet.com^
 ||myteamdev.com^
+||mythad.com^
 ||mythicsallies.com^
 ||mythings.com^
 ||mythpointsatheism.com^
@@ -54057,6 +54058,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pussycatxx.com/tab49fb22988.js
 ||pussyspace.com/fub
 ||qovua60gue.tubewolf.com^
+||rabbitsreviews.com/banners/
 ||rambo.xhamster.com^
 ||rat.xxx/sofa/
 ||rat.xxx/wwp2/
@@ -63147,6 +63149,8 @@ tnaflix.com##.zzMeBploz
 hotnudedgirl.top,prettygirlpic.top##[class$="custom-spot"]
 cheemsporno.com##[class^="Banner_"]
 cheemsporno.com##[class^="PostCard_post-card__adContainer_"]
+rabbitsreviews.com##[class^="_hero-banner-promo_"]
+rabbitsreviews.com##[class^="_notificationConsent_"]
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
 beeg.porn##[class^="bb_show_"]
 hotleaks.tv,javrank.com##[class^="koukoku"]
@@ -63208,6 +63212,7 @@ vjav.com##[style="width: 728px; height: 90px;"]
 gelbooru.com,xozilla.com##[style^="height: 250px !important; overflow: hidden;"]
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
 missav.ai,missav.ws,missav123.com,missav888.com##[x-show$="video_details'"] > div > .list-disc
+redtube.com,tube8.com,youporn.com##a[class*="gtm-event-header-paidtabs"]
 pornone.com##a[class^="listing"]
 f95zone.to##a[data-nav-id="AIPorn"]
 f95zone.to##a[data-nav-id="AISexChat"]
@@ -83948,6 +83953,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track/cm?
 /track/component/*
 /track/event/*
+/track/go.php?*&referer_url=
 /track/hit.gif
 /track/identity?
 /track/imp?
@@ -90169,6 +90175,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jsrdn.com/s/1.js
 ||jst.ai/vck.js
 ||jtracking-gate.lulusoft.com^
+||juicer.io/api/page_views
 ||k.keyade.com^
 ||k.streamrail.com^
 ||kalstats.kaltura.com^
@@ -92730,6 +92737,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dp.ru/counter.gif?
 ||error.videonow.ru^
 ||events.auth.gid.ru^
+||events.plus.yandex.net^
 ||g4p.redtram.com^
 ||ga-tracker-dot-detmir-bonus.appspot.com^
 ||gainings.biz/counter.php?
