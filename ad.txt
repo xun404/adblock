@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lE6h4ix4umWnMrVA1u4++A
+! Checksum: YxJeyQiRqrjzk3/H+E3A2w
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202505030739
-! Last Modified: 2025年05月03日 07:39
+! Version: 202505031014
+! Last Modified: 2025年05月03日 10:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -459,6 +459,7 @@ tieba.baidu.com##.tuijian-wrap
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
+/7755com-*00x*.gif
 .xyz/z/*/code.js$script,third-party
 -*-*-*-*.as^$script,third-party
 .xyz:*?x=$script,third-party
@@ -1887,7 +1888,6 @@ newduba.cn###jq_youxi
 ##.plc > .a_p
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
-##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
@@ -2011,7 +2011,6 @@ newduba.cn###jq_youxi
 ##a.hengfu > img.hengfu
 ##a[clickmode="ad"]
 ##a[href$=".cc:8443"]
-##a[href$=".php"] > img[src*=".bcebos.com"]
 ##a[href$=".xyz:8443"]
 ##a[href*=".bright.cn/?utm_"]
 ##a[href*=".com/?Extend="]
@@ -2048,9 +2047,7 @@ newduba.cn###jq_youxi
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="xchina.click/prepare."]
-##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
-##a[href="/forum/"] > img[src*=".bcebos.com"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
@@ -2069,7 +2066,7 @@ newduba.cn###jq_youxi
 ##a[href^="javascript:gl012"] + img
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
-##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
+##a[href="/iwagbwfiwehaeyh"]
 ##a[onclick$="'clicked', 'ad');"]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
@@ -2190,6 +2187,8 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||okpl05030ai.com^
 ||vtqhelleano.com^
+||qqosk05030llo.com^
+||zktats.top^
 ||vldp.cn^
 ||ghgietuthz.com^
 ||qqosk05020llo.com^
@@ -9721,7 +9720,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yxdd.com^$subdocument
 ||yxdown.com/cj/
 ||yxdown.com/zt/zt/js/zt.js
-||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 ||yxzp.net/left.js
 ||yy18.info/yyads/
 ||yy8090.vip/js/abc/
@@ -9851,6 +9849,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aizhan.com/images/img/apicn.
 ||xfvod.pro/images/ad/
 ||hupu.com^*/interfaceAd/
+||dyxs39.com/statics/js/jquery.
+||yximgs.com/bs2/adcarsku/*.gif
 !------------------------Specific element hiding rules------------------------!
 sojson.com##.a-d-img
 sixyin.com##.widget_custom_html
