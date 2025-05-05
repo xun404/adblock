@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LhPxjOEfn1nKXNKdMYQ8mw
+! Checksum: AzcBnmEVPBjENKSrNg1GRA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202505052105
-! Last Modified: 2025年05月05日 21:05
+! Version: 202505052342
+! Last Modified: 2025年05月05日 23:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -93179,6 +93179,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.xbox.com^
 ||c.ypcdn.com^$domain=yellowpages.com
 ||camgirls.casa/p.php
+||cammodels.com/api/metrics
 ||campsaver.com/nelmio-js-logger/
 ||canstockphoto.com/server.php?rqst=track
 ||canva.com/_ajax/ae/createBatch
@@ -133238,7 +133239,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !---------- Norwegian ----------
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||hvemder.no/js/hitcount.min.js$~third-party
-@@||k5a.io^$domain=itavisen.no
+@@||k5a.io^$~ping,domain=itavisen.no
 @@||komplett.no/gtm.js$script,~third-party
 !---------- Polish ----------
 @@||gemius.pl/gstream.js
