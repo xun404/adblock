@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +nTYcb2SVdl44GzgntEUZA
+! Checksum: +tUgVQbrYQ4kggkl5CfkKg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202505061648
-! Last Modified: 2025年05月06日 16:48
+! Version: 202505061938
+! Last Modified: 2025年05月06日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2008,6 +2008,8 @@ music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
 ! Dist
 m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.yt-confirm-dialog-renderer[respect-html-dir][split-lines]' 'button.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--size-m[aria-label="Yes"]$delay=0'
+! *** abp-filters-anti-cv:3rd-party/adservers.txt ***
+! *** abp-filters-anti-cv:3rd-party/cloudfront.txt ***
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
