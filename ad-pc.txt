@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H4fP4TiPxsyq+Aggnbeh2g
+! Checksum: Hr8V1WKqJ7TjldI38iOocw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202505060741
-! Last Modified: 2025年05月06日 07:41
+! Version: 202505061018
+! Last Modified: 2025年05月06日 10:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -61194,6 +61194,7 @@ noon.com###modules-renderer:has([class*="sponsored"])
 indeed.com###mosaic-provider-jobcards li:has(.sponsoredJob)
 noon.com###noon-modules:has([class*="AdBrandVideo"])
 wsj.com###other-buckets > div > div:has(> .uds-ad-container)
+momondo.com###resultWrapper [role="group"]:has(> [class*="-adInner"])
 aleteia.org###root > div[class]:has(> .adslot)
 etsy.com###search-results li:has([id^="ad-listing-title-"])
 scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
@@ -62070,6 +62071,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-ad-card"]
 checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
+target.com#?#[data-test="productCardVariantRecommendation"]:-abp-contains(Sponsored)
 coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:-abp-contains(Sponsored by))
 temu.com#?#.splide__slide:-abp-contains(AD)
 foodlion.com#?#.product-grid-cell:-abp-contains(Sponsored)
@@ -65990,6 +65992,8 @@ newduba.cn###jq_youxi
 ||qsko05060mas.com^
 ||pwchaukoieor.com^
 ||nzoj.cn^
+||gawnaze.com^
+||bhddjf.top^
 ||yqqv.cn^
 ||zxiws.cn^
 ||qiwqaagnaell.com^
@@ -81918,6 +81922,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adlogger.php
 /adlogger_tracker.php
 /adm_tracking.js
+/admtracker.lib.min.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.js
 /adobe-analytics2.js
@@ -92817,6 +92822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lurker.olx.com.br^
 ||melhorplano.net/scripts/tracker/
 ||nctrk.abmail.com.br^
+||ndmais.com.br/tracking-parceiros-ndmais/
 ||netdeal.com.br/open/event/
 ||neurotrack.neurolake.io^
 ||pageviews.tray.com.br^
