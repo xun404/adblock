@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IyazbVkgiOS18/5wJF76NA
+! Checksum: dL9XA3Wxybiqc8aab9J1kA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202505072344
-! Last Modified: 2025年05月07日 23:44
+! Version: 202505080248
+! Last Modified: 2025年05月08日 02:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1214,6 +1214,7 @@ wss://www.*.xyz/ws^$third-party
 .prebid-bundle.js$script
 .prebid.$domain=~prebid.org
 /ad/postbid_handler1.$script
+/ads/prebid8-$script
 /ads_prebid_async.js$script
 /dist/adsPrebid.js$script
 /gpt-prebid.js$script
