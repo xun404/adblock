@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9zvKCJRQ4hBRpPfs0nQNGQ
+! Checksum: U3T27xLPmxwb6OXv40qh2A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202505072149
-! Last Modified: 2025年05月07日 21:49
+! Version: 202505072344
+! Last Modified: 2025年05月07日 23:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -575,6 +575,7 @@ tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 
 ! RM-114
 ! sp
 target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'p[data-test="sponsoredText"]'
+target.com#$#hide-if-contains /Sponsored/ 'li[class]' 'div[style] div[data-test="sponsoredText"]'
 ! #RM-75
 ! sp
 bol.com#?#ul[class][data-test="products"] li:-abp-has(span:-abp-contains(/Gesponsord|Sponsorisé/))
@@ -1551,8 +1552,8 @@ www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::di
 o2.pl##div[class$="cevoIl"]
 money.pl#$#simulate-mouse-event 'xpath(.//div[@class]//div[contains(text(),"REKLAMA")]/following-sibling::div[contains(text(),"Przejdź teraz")])$delay=0'
 ! RM-115
-! sp
-olx.pl#$#hide-if-matches-xpath './/div[.="Wyróżnione"]/parent::div/ancestor::div[@data-testid="l-card"]'
+! sp (.pt|.pl|.ro|.*)
+olx.*#?#div:-abp-has(> div:-abp-has(> div:-abp-has(> a div:-abp-has(> div:-abp-properties(/content: "Wyróżnione";|"TOP";|"ТОП";|"PROMOVAT";|"Промотирана обява";/)))))
 ! hp
 olx.pl#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Ogłoszenia promowane")]/parent::div'
 ! MISC
@@ -1565,9 +1566,9 @@ gierkionline.pl#$#hide-if-matches-xpath './/div[@id]//div[contains(text(),"Rekla
 filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! *** abp-filters-anti-cv:portuguese.txt ***
 ! RM-115
-! sp
-olx.pt#$#hide-if-matches-xpath './/div[.="TOP"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! hp
+olx.pt#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Destaques no OLX")]/parent::div'
+olx.com.br#$#hide-if-matches-xpath './/span[.="DESTAQUE" or .="Destaque" or .="Impulsionado"]/ancestor::section[1]'; hide-if-matches-xpath './/span[.="DESTAQUE"]/ancestor::section[1]/parent::div[contains(@class,"olx-carousel")]';
 olx.com.br#$#hide-if-matches-xpath '//h2[text()="Anúncios patrocinados"]/ancestor-or-self::section[contains(@class,"PremiumGallery_home-premium-gallery")]'
 olx.com.br###advertising-top-banner
 ! pp & ph
@@ -1609,8 +1610,6 @@ filmehd.to#$#hide-if-matches-xpath './/a[@title]/img[@src][@alt][@style]/ancesto
 /js/dnsads.js?*^$domain=filmehd.to
 filmehd.to##iframe[src][style]
 ! RM-115
-! sp
-olx.ro#$#hide-if-matches-xpath './/div[.="PROMOVAT"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! hp
 olx.ro#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Anunturi promovate")]/parent::div'
 ! *** abp-filters-anti-cv:russian.txt ***
@@ -1799,8 +1798,6 @@ agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-cur
 ! CV-1364
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! RM-115
-! sp
-olx.*#$#hide-if-matches-xpath './/div[.="ТОП" or .="Промотирана обява"]/parent::div/ancestor::div[@data-testid="l-card"]'
 ! hp
 olx.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "VIP-объявления") or contains(., "VIP-оголошення")]/parent::div'
 ! *** abp-filters-anti-cv:spanish.txt ***
