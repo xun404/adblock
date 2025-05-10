@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vu/ElZc50qG+W9rdRFeDSA
+! Checksum: icLq0JMaS1wjaXRlX9f+mQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202505102339
-! Last Modified: 2025年05月10日 23:39
+! Version: 202505110440
+! Last Modified: 2025年05月11日 04:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -81620,6 +81620,7 @@ fqsousou.com,kengso.com#@#.user-share
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
+/scripts/click.js.php
 /scripts/clickjs.php
 /scripts/hbx.js
 /scripts/statistics/*
@@ -82432,6 +82433,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
+://t.targito.
 ://track.*/collect
 ://track.*/dye
 ://track.*/visitor/
@@ -86443,6 +86445,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affilbox.cz^$third-party
 ||affiliateport.eu^$third-party
 ||analights.com^$third-party
+||ehub.cz^$third-party
 ||itop.cz^$third-party
 ||leady.com^$third-party
 ||lookit.cz^$third-party
@@ -129821,6 +129824,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||avaz.ba/update/hits/
 ||jutarnji.hr/template/js/eph_analytics.js
 ||cc.dalten.cz^
+||insights.triad.sk^
 ||jslog.post.cz^
 ||logapi.alza.cz^
 ||o2.cz^*-ga_o2cz_bundle.js?
