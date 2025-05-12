@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NgqpG9t0fyV+vR4kPeJ3/A
+! Checksum: XTWicPSjau8OTbalPQHMIA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202505130338
-! Last Modified: 2025年05月13日 03:38
+! Version: 202505130443
+! Last Modified: 2025年05月13日 04:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1581,11 +1581,11 @@ olx.com.br###advertising-top-banner
 olx.com.br#$#hide-if-matches-xpath './/p[.="publicidade"]/parent::div[@data-testid="advertising-placeholder" or contains(@class,"ad__")]/parent::div'
 ! RM-5
 ! sp
-mercadolivre.com.br#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
+mercadolivre.com.br#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item"]'
 mercadolivre.com.br#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-placements__title"][text()]/ancestor::div[@class="ui-search-sidebar-placements title-placements"]/parent::div[@class="ui-search-sidebar-placements__display"]'
 ! pp
-mercadolivre.com.br#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
-mercadolivre.com.br#$#hide-if-matches-xpath './/p[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
+mercadolivre.com.br#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
+mercadolivre.com.br#$#hide-if-matches-xpath './/span[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 ! tb
 mercadolivre.com.br#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
 ! #CV-692
@@ -1863,12 +1863,11 @@ zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 rainanime.net#$#abort-on-property-read NativeAd
 ! RM-5
 ! sp
-mercadolibre.*#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
+mercadolibre.*#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item"]'
 mercadolibre.*#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-placements__title"][text()]/ancestor::div[@class="ui-search-sidebar-placements title-placements"]/parent::div[@class="ui-search-sidebar-placements__display"]'
-mercadolibre.*#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item shops__layout-item"]'
 ! pp
-mercadolibre.*#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
-mercadolibre.*#$#hide-if-matches-xpath './/p[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
+mercadolibre.*#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
+mercadolibre.*#$#hide-if-matches-xpath './/span[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 ! tb
 mercadolibre.*#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
 ! *** abp-filters-anti-cv:turkish.txt ***
