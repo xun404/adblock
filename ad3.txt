@@ -1,15 +1,21 @@
 [Adblock Plus 2.0]
-! Checksum: +LFbIh1MXPtVixt3HyHRIQ
+! Checksum: Gy0qFgG7cs2fQHgZkSRqGg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202505121246
-! Last Modified: 2025年05月12日 12:46
+! Version: 202505121649
+! Last Modified: 2025年05月12日 16:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
@@ -1705,6 +1711,7 @@ newduba.cn###jq_youxi
 ##.content > .module > .small-icon-container > a.small-icon-div[target="_blank"]
 ##.video-ad-item
 ##.ceo_ads
+##.yalayi_box
 ###kp-hid-gb.uk-alert
 ###side_promo.bc_dp
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
