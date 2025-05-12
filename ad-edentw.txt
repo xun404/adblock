@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UT4y6CtKkx2lfrrYf2Lcrw
+! Checksum: NgqpG9t0fyV+vR4kPeJ3/A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202505122344
-! Last Modified: 2025年05月12日 23:44
+! Version: 202505130338
+! Last Modified: 2025年05月13日 03:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -954,7 +954,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(., "Gesponsert")]/ancestor::a[@aria-label]/ancestor::div[@data-test][@class][1]'
 ! #RM-194
 ! SP
-fiverr.com#$#hide-if-matches-xpath '//span[(.//span[text()="A"] and .//span[contains(text(), "d")] and (.//span[text()="b"] and .//span[contains(text(), "y")] or .//span[contains(text(), "by")])) or (.//span[text()="Anz"] and .//span[contains(text(), "eige")]) or (.//span[text()="Anu"] and .//span[contains(text(), "ncio de")]) or (.//span[text()="Anú"] and .//span[contains(text(), "ncio por")]) or (.//span[text()="Ann"] and (.//span[contains(text(), "once par")] or .//span[contains(text(), "uncio di")])) or (.//span[text()="Adver"] and .//span[contains(text(), "tentie van")]) or .//span[contains(text(), "Ad by")] or .//span[contains(text(), "Anzeige")] or .//span[contains(text(), "Anuncio")] or .//span[contains(text(), "Annonce")] or .//span[contains(text(), "Anúncio")] or .//span[contains(text(), "Annuncio")] or .//span[contains(text(), "Advertentie")]]/parent::div/ancestor::div[@class="gig-card-layout"][1]'
+fiverr.com#$#hide-if-matches-xpath './/div[contains(@class, "gig-card-layout")]//span[@class and string-length(@class) = 7]/parent::span/ancestor::div[@class="gig-card-layout"][1]'
 ! #RM-193
 ! BA
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]'
