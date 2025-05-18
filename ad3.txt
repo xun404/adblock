@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KixvTttCCnOo8bRyc0qY6A
+! Checksum: ZnSRkqDIfENgY2oIRjLYtQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202505182339
-! Last Modified: 2025年05月18日 23:39
+! Version: 202505190044
+! Last Modified: 2025年05月19日 00:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -20146,6 +20146,7 @@ m.babytree.com##script + a[class]
 /_ga?sponsor_pixel=
 /_gz/counter.php?
 /_hcms/perf
+/_i?referral_url=
 /_i?type=event&
 /_lib/ga.js
 /_owa.gif?
@@ -22810,6 +22811,7 @@ m.babytree.com##script + a[class]
 ://cmpworker.
 ://collect.*/pageview
 ://collector.*/event
+://data.*/v1/interact?
 ://datacollector.*/event
 ://elqtrk.
 ://fallback.*/collector
@@ -70952,6 +70954,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||caliente.mx/integration-scripts/tracking.min.js
 ||coletor.terra.com^
 ||compare.easyviajar.com^
+||cp.as.com/stats
 ||data-ingest.xtralife.com^
 ||data.acierto.com^
 ||deporvillage.com/tracking-library/
