@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tlPjLuvQuDwMBKovE3JdDQ
+! Checksum: P845/HR74nPB0PmqoA9TCA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202505211649
-! Last Modified: 2025年05月21日 16:49
+! Version: 202505211939
+! Last Modified: 2025年05月21日 19:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1959,6 +1959,9 @@ staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::p
 ! #RM-194
 ! SP
 fiverr.com#$#hide-if-matches-xpath './/div[contains(@class, "gig-card-layout")]//span/div[@class="bmo8dz1" and string-length(@class) = 7]/ancestor-or-self::div[@class="gig-card-layout"][1]'
+! #RM-146
+! ba
+mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
