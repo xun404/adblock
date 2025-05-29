@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZTjv1zTq+aIl5spp7d4mjQ
+! Checksum: oTEmSJlT1JvDH6wG7HQCPA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202505300142
-! Last Modified: 2025年05月30日 01:42
+! Version: 202505300250
+! Last Modified: 2025年05月30日 02:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1888,8 +1888,8 @@ newegg.*#$#hide-if-matches-xpath './/a[@class="item-img"][@rel]/following::span[
 newegg.*#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]/parent::div[not(@class="list-wrap")]'; hide-if-matches-xpath './/span["Sponsored"]/ancestor::div[starts-with(@class,"product-headline")]'; hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/ancestor::div[starts-with(@class,"product-headline") or @class=" grid-col" or contains(@class,"swiper-slide")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"with-video")]'; hide-if-contains-visible-text /Sponsored/ div[class^="product"] 'div[class][style]>span';
 newegg.com##div[class*="-sponsored"]
 ! #RM-68
-cars.com#$#hide-if-matches-xpath './/spark-badge[@variant="text"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
-cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-tag"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
+cars.com#$#hide-if-matches-xpath './/spark-badge[@variant="text"][@class="sp-badge"]/following::spark-button[@data-sponsored="true"]/ancestor-or-self::div[contains(@class,"inventory-")][1]'
+cars.com#$#hide-if-matches-xpath './/span[contains(@class,"hero-cta-tag")][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
 ! #RM-75
 ! sp
 bol.com#?#ul[class][data-test="products"] li:-abp-has(span:-abp-contains(/Gesponsord|Sponsorisé/))
