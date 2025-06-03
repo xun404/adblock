@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Urev1oGx8vMG65W8hWPuVA
+! Checksum: 84BtX4ZlXXalkxYccHL93w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202506031650
-! Last Modified: 2025年06月03日 16:50
+! Version: 202506031940
+! Last Modified: 2025年06月03日 19:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31035,6 +31035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mediaquark.com/tracker.js
 ||oval.id/tracker/
 ||parsley.detik.com^
+||tracker.oval.id^
 ||alice.it/cnt/
 ||analytics.competitoor.com^
 ||analytics.eikondigital.it^
@@ -71410,6 +71411,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
+@@||amazonaws.com/tracker/p/kompasreco/oval_web_analytics_latest.js$domain=kompas.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
