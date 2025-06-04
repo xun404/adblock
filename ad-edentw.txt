@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dS3Eg2CRGQXB0kvoUrPIiA
+! Checksum: oJNO0aJdEH59jHmXRPv4Ig
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202506041940
-! Last Modified: 2025年06月04日 19:40
+! Version: 202506050537
+! Last Modified: 2025年06月05日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1105,6 +1105,7 @@ neoseeker.com#$#hide-if-matches-xpath './/div[contains(@style,"text-align:center
 yts.*,yts-official.*#$#abort-on-property-read window.__adFormats;
 web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
 megacloud.*#$#hide-if-matches-xpath './/div[@id="megacloud-player"]//a[@id="closeBanner"][@style]'
+motortrend.com#$#hide-if-matches-xpath './/div[contains(@id,"ad-id-curated_abovenavad")][@data-ad="true"]/parent::div[contains(@class,"cls-helper")][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
