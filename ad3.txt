@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Vwtc8dLNm1IeRh3mex6dfg
+! Checksum: XsqLNZHNbXeB2FWIiG5meQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202506060742
-! Last Modified: 2025年06月06日 07:42
+! Version: 202506061022
+! Last Modified: 2025年06月06日 10:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1749,6 +1749,8 @@ newduba.cn###jq_youxi
 ||uxfa.cn^
 ||geqetreadyf.com^
 ||jt01151knd.com^
+||tcdvvv.top^
+||rbqv91egxy.com^
 ||uteeo5018.com^
 ||yki9xpcuc.com^
 ||hgo06050uyi.com^
@@ -14473,7 +14475,7 @@ stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/ima
 hepuwang.com##a[href^="http://ad."]
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
-chinaz.com,mydrivers.com,oschina.net##a[href^="http://click.aliyun.com/"]
+chinaz.com,mydrivers.com,oschina.net##a[href*="click.aliyun.com"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
@@ -71525,6 +71527,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||check.ddos-guard.net/check.js$script
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
+@@||clouderrorreporting.googleapis.com^$domain=waze.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
 @@||cloudflare.com/cdn-cgi/trace$domain=d1milano.com|gingerfulhair.com|infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
