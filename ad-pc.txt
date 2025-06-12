@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mafrxkHzwRFAd7c2HC1OhQ
+! Checksum: v7bPJijmvBJ8e7d9/gjYgA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202506121940
-! Last Modified: 2025年06月12日 19:40
+! Version: 202506122108
+! Last Modified: 2025年06月12日 21:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11639,6 +11639,7 @@ _800x80_
 ##.f-ad
 ##.f-item-ad
 ##.f-item-ad-inhouse
+##.fah-btn__container
 ##.fbs-ad--ntv-home-wrapper
 ##.fbs-ad--top-wrapper
 ##.fbs-ad--topx-wrapper
@@ -20863,6 +20864,7 @@ browsershots.org#@#.advert_area
 ||bvtpk.com^
 ||bwhhcuikrgvhs.online^
 ||bwhuyauklndvt.online^
+||bwnnbwlngkwgd.space^
 ||bwoqusogsrar.com^
 ||bwsddrebfiwvu.store^
 ||bwtcilgll.com^
@@ -21274,6 +21276,7 @@ browsershots.org#@#.advert_area
 ||cdwmtt.com^
 ||ce82020873.com^
 ||ceaankluwuov.today^
+||ceakppokkbodo.store^
 ||ceandtheremade.com^
 ||ceasechampagneparade.com^
 ||ceasecompromisetwine.com^
@@ -26253,6 +26256,7 @@ browsershots.org#@#.advert_area
 ||gajoytoworkwith.com^
 ||galagosalmon.top^
 ||galahhaydn.top^
+||galangatzitzis.shop^
 ||galaxydiminution.com^
 ||galaxypush.com^
 ||galeaeevovae.com^
@@ -29592,6 +29596,7 @@ browsershots.org#@#.advert_area
 ||jzqbyykjorqkq.top^
 ||jzqscvqlgasxh.buzz^
 ||jztwidpixa.icu^
+||jzvwawvwkwawj.top^
 ||jzxouwszeyhrq.online^
 ||jzykizla.com^
 ||jzylponilwf.com^
@@ -37334,6 +37339,7 @@ browsershots.org#@#.advert_area
 ||rvstcsghqcu.com^
 ||rvukbeuexr.com^
 ||rvvmynjd.love^
+||rwbkrnihzrbrb.online^
 ||rwdmymnfiklbj.com^
 ||rwfwlrhyolok.com^
 ||rwhnuqxubwqvn.one^
@@ -38475,6 +38481,7 @@ browsershots.org#@#.advert_area
 ||softresumesuperserver.com^
 ||softwares2015.com^
 ||soggingterman.com^
+||soggy-personality.pro^
 ||sogropidy.com^
 ||soholfit.com^
 ||soilenthusiasmshindig.com^
@@ -38900,6 +38907,7 @@ browsershots.org#@#.advert_area
 ||sternlythese.com^
 ||steroidbazaarbalance.com^
 ||stertordorab.com^
+||sterurelander.com^
 ||stesywijy.com^
 ||stethathehadsto.com^
 ||stethepsartopo.com^
@@ -42591,6 +42599,7 @@ browsershots.org#@#.advert_area
 ||xdiwbc.com^
 ||xdmanage.com^
 ||xdownloadright.com^
+||xeaefvkofxfn.com^
 ||xegluwate.com^
 ||xel-xel-fie.com^
 ||xelllwrite.com^
@@ -62865,7 +62874,8 @@ xhamster.com##.wixx-ecams-widget
 teenager365.com##.wps-player__happy-inside-btn-close
 playporn.xxx,videosdemadurasx.com##.wrap-spot
 pornrabbit.com##.wrap-spots
-abjav.com,bdsmx.tube,upornia.tube##.wrapper > section
+xjav.tube##.wrapper > article
+abjav.com,aniporn.com,bdsmx.tube,upornia.tube##.wrapper > section
 porn300.com##.wrapper__related-sites
 upornia.com,upornia.tube##.wssvkvkyyee
 xhamster.com##.xplayer-b
@@ -65665,6 +65675,7 @@ newduba.cn###jq_youxi
 ||fo0qofhtaw.com^
 ||t78obxl4h1.com^
 ||yui06121shga.com^
+||vwuudahnarh.com^
 ||jikklfexh.com^
 ||nrephihe.com^
 ||4rcajmf0m.com^
@@ -85131,7 +85142,6 @@ omni.soundestlink.com$image
 ||jams.wiki^
 ||jcpclick.com^
 ||jubbie.de^
-||k5a.io^
 ||klarinsights.net^
 ||krxd.net^
 ||kspotson.de^
@@ -90332,6 +90342,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||juicer.io/api/page_views
 ||k.keyade.com^
 ||k.streamrail.com^
+||k5a.io/?i=
 ||kalstats.kaltura.com^
 ||kbb.com/partner/$third-party
 ||kelkoogroup.net/st?
@@ -133359,8 +133370,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
-!! k5a.io
-@@||k5a.io^$script,xmlhttprequest,domain=20min.ch|itavisen.no
 !! tags.tiqcdn.com
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 @@||gs.statcounter.com/chart.php$script,third-party
