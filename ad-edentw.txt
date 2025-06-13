@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xRSYOr5KGrelJb4Gl5qnUw
+! Checksum: A7WGiyb1UW4JQYNxTTP9Ww
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202506140142
-! Last Modified: 2025年06月14日 01:42
+! Version: 202506140542
+! Last Modified: 2025年06月14日 05:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -281,13 +281,9 @@ ahaonline.czinfo.cz,onetv.cz,novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,k
 ahaonline.czinfo.cz,onetv.cz,novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz,kinobox.cz,nasepenize.cz,fights.cz##a[href*="mondor_hopToSeti"]
 ||d49-a.sdn.cz^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 ||userscontent.com^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
-novinky.cz#$#hide-if-matches-xpath '//div[@id][contains(@style, "max-width: 100%;")]//iframe[@style]/ancestor::div[@style]'
-novinky.cz#$#hide-if-matches-xpath '//a[@href][@title]/div[@class][@style]/parent::a/ancestor-or-self::div[2]'
 horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][1][not(starts-with(@class,"twitter"))]'
-novinky.cz#$#hide-if-matches-xpath './/div[@style]/div[contains(@style,"position:relative")][@style]/div[@style]/iframe[contains(@style,"display")]/parent::div[@class][@style]/ancestor::div[@class and @style]'
-novinky.cz#$#hide-if-matches-xpath './/div[@class="tpl-king-bottom-content"]//h3[@class]/a[@target="_top"]/ancestor::article[contains(@class,"advert")]/parent::div[1]'; hide-if-matches-xpath '//div[@id][@style]//div[@*="ad-content"]//iframe[@style]/ancestor::div[@*="mol-advert" and @*="RENDERED"][@style]'; hide-if-matches-xpath './/div[@class]/span[text()][@*="atm-label"]/following::a[@target]/ancestor::article[@*="advert-item"]'; hide-if-matches-xpath './/div[@class][@style]/div[@style]//iframe[@width][@style]/ancestor::div[@*="RENDERED" or @*="mol-advert"]'
+novinky.cz#$#hide-if-matches-xpath './/div[@class][@style]/ancestor-or-self::div[@*="RENDERED" or @*="INITIALIZED" or @*="mol-advert"]'
 seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
-novinky.cz#$#hide-if-matches-xpath '//div[@class]/div/p[.="Reklâma"]/parent::div[@class][@style]'; json-prune hlolijkmkhmkkgginioo;
 ! #CV-780
 .cz/*,,*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 =autapay/*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
@@ -2035,6 +2031,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||allworkovergot.com^
 ||alounseedraih.net^
 ||amtmenlana.com^
+||amucresol.com^
 ||amyrinbitume.com^
 ||ankolisiloam.com^
 ||annussleys.com^
@@ -2045,6 +2042,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||armsfulpageant.top^
 ||asbfala.com^
 ||ashlingzanyish.com^
+||avouchuramil.com^
 ||awolhalling.com^
 ||balanicextreat.com^
 ||begumsbandi.com^
@@ -2068,7 +2066,9 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cawneyligge.com^
 ||chambulwacs.com^
 ||chatterfretten.com^
+||creeperpummels.com^
 ||cuinageaquilid.com^
+||culpasrampage.com^
 ||dampshorral.com^
 ||deckerenacts.com^
 ||didesthanger.com^
@@ -2077,6 +2077,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||dinkiersenhora.com^
 ||dirgesimious.com^
 ||discepttaked.com^
+||dotefour.com^
 ||drammerxylinid.com^
 ||eidersrettory.com^
 ||encystkokil.com^
@@ -2098,6 +2099,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||glebyoidioid.com^
 ||gnomicmaness.com^
 ||gooddemands.com^
+||goschenelect.com^
 ||greeterstaniel.com^
 ||heistedsignon.com^
 ||hexingteeting.com^
@@ -2106,6 +2108,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||hottedholster.com^
 ||hydrasploughs.com^
 ||ibexabray.com^
+||idoletsluices.com^
 ||ignoresfahlerz.com^
 ||indusacta.com^
 ||instrvinea.com^
@@ -2115,6 +2118,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||johannatailor.com^
 ||lazuliempall.com^
 ||lettenfluoric.com^
+||libbardavarish.shop^
 ||liftjoinant.com^
 ||limbecculvers.com^
 ||loungedcabrie.com^
@@ -2210,6 +2214,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ! Example: https://df.fingudotlet.com/rnbPxfaHQHbZl2Xvd/ewQng
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$match-case,script,third-party,domain=cineby.app
 ! *** abp-filters-anti-cv:3rd-party/cloudfront.txt ***
+||d2d6cf2do9znht.cloudfront.net^
 ||d2vptth0euqbxm.cloudfront.net^
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
