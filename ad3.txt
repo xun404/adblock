@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hn8QnX3YWD15hMr+WTNF7A
+! Checksum: pYbRWU6/VRtKP5L1HSWP/g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202506141247
-! Last Modified: 2025年06月14日 12:47
+! Version: 202506141646
+! Last Modified: 2025年06月14日 16:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -71745,6 +71745,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
+@@||youvisit.com/SmartScript/$script,domain=uaf.edu
+@@||youvisit.com/tour/$script,subdocment,domain=uaf.edu
 @@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 !! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
