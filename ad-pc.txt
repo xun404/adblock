@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VKsDpfINWIV4EFSLW3J3Qw
+! Checksum: 2mIys2F2DjTuiOgPqnhxFg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202506160247
-! Last Modified: 2025年06月16日 02:47
+! Version: 202506160539
+! Last Modified: 2025年06月16日 05:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1201,7 +1201,7 @@ tieba.baidu.com##.tuijian-wrap
 ://adserving.
 ://adsrv.
 ://adsserver.
-://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://adv.$domain=~adv.acg3.org|~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://aff-ads.
 ://affiliate.$third-party
 ://affiliates.$third-party
@@ -53121,6 +53121,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||graphicdesignforums.co.uk/banners/
 ||greatandhra.com/images/landing/
 ||grow.gab.com/galahad/
+||gsmarena.com/*.php3|$xmlhttprequest
 ||gsmarena.com/deals-json.php3
 ||hamodia.co.uk/images/worldfirst-currencyconversion.jpg
 ||healthcentral.com/common/ads/generateads.js
@@ -61236,6 +61237,7 @@ engadget.com##li.lg\:min-h-\[234px\]
 cultbeauty.co.uk,dermstore.com,skinstore.com##li.sponsoredProductsList
 laredoute.*##li[class*="sponsored-"]
 linkedin.com##li[data-is-sponsored="true"]
+duckduckgo.com##li[data-layout="creditcard_ads"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duckduckgo.com##li[data-layout="products_middle"]
 opentable.*##li[data-promoted="true"]
@@ -84790,6 +84792,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tracking_pixel
 /tracking_unitary/*
 /trackingApi?type=
+/trackingClient.bundle.js
 /trackingCode-
 /trackingCode.js
 /trackingcookies.
@@ -132801,6 +132804,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracking.gaslicht.com^
 ||tracking.voordeeluitjes.nl^
 ||tvgids.nl/collect
+||tweakers.net/ajax/clicks/
 ||tweakers.nl/track/
 ||two.tio.nl^
 ||txrx.bol.com^
