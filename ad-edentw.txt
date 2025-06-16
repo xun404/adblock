@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kfCCaUoJ7rENSqF8ol1BrQ
+! Checksum: K6EHF9SjS/+vPbxkRDBcaA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202506162151
-! Last Modified: 2025年06月16日 21:51
+! Version: 202506162344
+! Last Modified: 2025年06月16日 23:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -821,7 +821,7 @@ srsone.top#$#override-property-read googlecx noopFunc
 animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.querySelector
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
-4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
+4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-write onload
 redtube.*,pornhub.*,tube8.*,youporn.com#$#abort-current-inline-script Object.defineProperty trafficjunky
 redtube.com,tube8.com,tube8.es,tube8.fr,tube8.net##a[href*="advertising"]
 cine.to#$#abort-on-property-read document.head.appendChild
@@ -1102,6 +1102,8 @@ yts.*,yts-official.*#$#abort-on-property-read window.__adFormats;
 web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
 megacloud.*#$#hide-if-matches-xpath './/div[@id="megacloud-player"]//a[@id="closeBanner"][@style]'
 motortrend.com#$#hide-if-matches-xpath './/div[contains(@id,"ad-id-curated_abovenavad")][@data-ad="true"]/parent::div[contains(@class,"cls-helper")][1]'
+@@||hanime.tv^$generichide
+hanime.tv#$#override-property-read ABLK false
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
