@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AXFE0uwqjXcMT9BHp1oyHw
+! Checksum: cnc9qGUd2oG5/KFKx5hnEw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202506182109
-! Last Modified: 2025年06月18日 21:09
+! Version: 202506182247
+! Last Modified: 2025年06月18日 22:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1819,7 +1819,7 @@ www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annun
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
 cvs.com##.stencil-criteo-shelf
 ! SP
-cvs.com#$#hide-if-contains-visible-text '/Sponsored/' 'div[style]' 'div[dir^="auto"]'
+cvs.com#$#hide-if-contains-visible-text /(Sponsored)/ 'div[style="width: 25%;"]' 'div[dir^="auto"]'
 ! PP
 cvs.com#$#hide-if-contains /Sponsored/ 'cvs-shop-product-shelf-container' 'cvs-shop-product-shelf-container ^^sh^^ * ^^sh^^ section[id] span'
 cvs.com#$#hide-if-contains /Sponsored/ 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li' 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li>* ^^sh^^ div>div.sponsored-container>span'
