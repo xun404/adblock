@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1E92R2zB9FTpYGbTK2wExg
+! Checksum: g/S0Vmq/B3BQYcMCk/r/bQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202506240541
-! Last Modified: 2025年06月24日 05:41
+! Version: 202506240644
+! Last Modified: 2025年06月24日 06:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -941,7 +941,7 @@ upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 gamefront.com#$#abort-current-inline-script $ AdBlock
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/img[starts-with(@src, "/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?offer=")]/parent::div[1]';
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/img[@alt][starts-with(@src, "/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/atopoffernf?offer=")]/parent::div[1]'
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
