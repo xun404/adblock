@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tPxkYkwHbA9vw2lgWaOnrg
+! Checksum: yYT6WHmXw++xItx+57LHSw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202506241847
-! Last Modified: 2025年06月24日 18:47
+! Version: 202506250339
+! Last Modified: 2025年06月25日 03:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -71427,6 +71427,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||esmas.com/scripts/esmas_stats.js
 ||estadisticas.lanacion.com.ar^
 ||estadonline.publiguias.cl^
+||eternalmangas.com/api/track-visit
 ||fnvma.milanuncios.com^
 ||g.siliconweek.es^
 ||gateway.melia.com/tracking
@@ -72201,6 +72202,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
 @@||f-tra.com^$script,domain=pokemoncenter-online.com
+@@||friday.kodansha.co.jp/scripts/taboola.js$script,~third-party
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
 @@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
