@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: g2VxpkX4W/vEoQbutDwRWQ
+! Checksum: O5Le9Q3t5tsd0VZYELH8hA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507040644
-! Last Modified: 2025年07月04日 06:44
+! Version: 202507040742
+! Last Modified: 2025年07月04日 07:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1953,7 +1953,8 @@ tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style]' 'a[class][data-theme] span'
 ! #RM-176
 ! sp
-aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'; aboutyou.*#$#hide-if-has-and-matches-style 'span' 'li[data-testid*="productTileTracker"]' 'button.w1app11q' '/display.*flex/';
+aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'
+aboutyou.*#$#hide-if-has-and-matches-style 'span' 'li[data-testid*="productTileTracker"]' 'button[class^="w1app11q"][tabindex="-1"]' 'line-height'
 ! pp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]/parent::ul[@data-testid]/ancestor::section[@style]'
 ! #RM-180
