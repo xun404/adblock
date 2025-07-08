@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VGhKaeUYokD0nxDQg/Cb4A
+! Checksum: IkXnLMOMDRutaIXZkwsQ1w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507081847
-! Last Modified: 2025年07月08日 18:47
+! Version: 202507090144
+! Last Modified: 2025年07月09日 01:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1829,6 +1829,7 @@ ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"items-carousel")][conta
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado)/ 'ul.srp-results>li.s-item' 'span[data-w]' 'color: rgba(0,0,0,1)' '-ignore-padding:true' '-disable-bg-color-check: true'
 ebay.*#$#hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ li 'div.s-item__detail > span.s-item__sep > div ^^sh^^ span' /./ ' height: 20px;'
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ li 'span.s-item__sep > span[aria-labelledby]'
+ebay.*#$#hide-if-has-and-matches-style * li 'li span.s-item__sep > div[aria-labelledby]' /./ '/transform: matrix3d\\([-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, 1/'
 ! #RM-13
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 ! #RM-14
