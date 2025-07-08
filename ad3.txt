@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Cl8i+3sGZKK3yWdny5cRfg
+! Checksum: Sen8n56DymgDFT3CxwkNqA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202507071940
-! Last Modified: 2025年07月07日 19:40
+! Version: 202507081027
+! Last Modified: 2025年07月08日 10:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1742,6 +1742,12 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||hgk0mu8irw.com^
+||fuq3sve1gj.com^
+||fiu07080kl.com^
+||ipmsqu.icu^
+||sunflowers66.top^
+||vasz.cn^
 ||07pv7k61z.com^
 ||ryvvzl.icu^
 ||gdmxjbjjo.com^
@@ -22731,6 +22737,7 @@ m.babytree.com##script + a[class]
 /taboolaHead.js
 /taevents-c.js
 /tag/tag.jsp?
+/tag?name=PageView$xmlhttprequest
 /tag?tags=
 /taganalyticscnil.js
 /tagAnalyticscnil.php
@@ -23270,6 +23277,7 @@ m.babytree.com##script + a[class]
 ://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
+://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.targito.
 ://track.*/collect
@@ -27612,6 +27620,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dataroyal.com.br^$third-party
 ||dataunion.com.br^$third-party
 ||denakop.com^$third-party
+||deviceprotect.eu^$third-party
 ||engageya.com^$third-party
 ||enviou.com.br^$third-party
 ||fulllab.com.br^$third-party
@@ -29824,6 +29833,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||secureserver.net/t/
 ||seg.sharethis.com^
 ||segments.adap.tv^$third-party
+||sempra.pro/stat/
 ||sendtonews.com/stn_trk.gif?
 ||sermoncloud.com/logger/
 ||service.trustpid.com^
@@ -31909,6 +31919,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pji.nu/libs/pjpixel/
 ||vizzit.se^$third-party
 ||pixel.smartmedia.tj^
+||roibest-report-sdk.qiliangjia.com^
 ||sal.isanook.com^
 ||stat.matichon.co.th^
 ||webpushstat.api.engagelab.cc^
@@ -70927,6 +70938,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||klik.nrc.nl/ping?
 ||localfocuswidgets.net/stats/
 ||log.rabobank.nl^
+||log.willie.nl^
 ||marktplaats.nl/add_counter_image.
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
@@ -70941,6 +70953,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pipeline.balkstercourant.nl^$~script
 ||pipeline.dvhn.nl^$~script
 ||pipeline.lc.nl^$~script
+||pipeline.nachtkastje.nl^
 ||pipeline.rd.nl^$~script
 ||r.kleertjes.com^
 ||raf.postnl.be^
