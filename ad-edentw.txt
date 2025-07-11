@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sC5UXngkgzrTKhqapgid1g
+! Checksum: BjLJVDgJWUcNrX134huapQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507112108
-! Last Modified: 2025年07月11日 21:08
+! Version: 202507112246
+! Last Modified: 2025年07月11日 22:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1982,7 +1982,7 @@ fiverr.com##div[data-impression-collected="true"]:has(a[href*="ad_key="])
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
 ! mc
-sameday.costco.com#$#hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-flex")]]/ancestor::div[3]'
+sameday.costco.com#$#hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-")]]/ancestor::div[3]'
 ! #RM-207
 ||app.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
 ||telulr.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
