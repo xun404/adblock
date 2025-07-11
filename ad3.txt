@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9dCqXpMzrfDmCDHQgzdlZA
+! Checksum: RlxaA/EQH/czASlOT1UtKQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202507110742
-! Last Modified: 2025年07月11日 07:42
+! Version: 202507111211
+! Last Modified: 2025年07月11日 12:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21127,7 +21127,6 @@ m.babytree.com##script + a[class]
 /collect/kf?
 /collect/pageview?
 /collect/pv?
-/collect/sdk?$domain=~iugu.com
 /collect/stats?
 /collect/view?
 /collect/view_count?
@@ -25194,6 +25193,7 @@ omni.soundestlink.com$image
 ||icstats.nl^$third-party
 ||iculture.report^$third-party
 ||id-visitors.com^$third-party
+||identitymind.com^$third-party
 ||ideoclick.com^$third-party
 ||idio.co^$third-party
 ||idtargeting.com^$third-party
@@ -71965,8 +71965,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|bolt.new|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
-@@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
-@@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kilimall.co.tz/sensorsdata.min.js$~third-party
 @@||kilimall.com*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
