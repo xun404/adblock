@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mWoJi9HAXae09x5gi1BfEQ
+! Checksum: 4V9bv0fB2Q8XsqaEtxr7GQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202507121206
-! Last Modified: 2025年07月12日 12:06
+! Version: 202507121252
+! Last Modified: 2025年07月12日 12:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1750,6 +1750,7 @@ newduba.cn###jq_youxi
 ||j4mxrs21gh.com^
 ||rliwiqr.icu^
 ||jfpo.cn^
+||huo07121hy.com^
 ||ctsp4jao1.com^
 ||huo07110hy.com^
 ||1dm6ccvy8.com^
@@ -20630,6 +20631,7 @@ m.babytree.com##script + a[class]
 /_vercel/speed-insights/script.js
 /_visitcount?
 /a.gif?
+/a/elevar/static/*
 /a/performance_timing/*
 /a8c-analytics.js
 /aap/stats
@@ -21732,6 +21734,7 @@ m.babytree.com##script + a[class]
 /index.php/analytics/cookieAnalytics|$xmlhttprequest
 /index.track?
 /indextools.js
+/init?*&fallbackUserId=
 /inline-pixel.js
 /inpl.measure.jssc
 /insales_counter.js?
@@ -22319,6 +22322,7 @@ m.babytree.com##script + a[class]
 /production/analytics.min.js
 /promo/impression?
 /propagate_cookie.php
+/providers/atLabel/load|
 /pt.gif?
 /pt?type=pv&
 /ptrack.js
@@ -23444,6 +23448,8 @@ _WebVitalsReporter_
 ://sgtm.*.js?
 ://tagging.*.js?aw=
 ://tagging.*/settings.js
+=aWQ9R1RNL*apiKey=$script,~third-party
+=aWQ9R1RNL*page=$script,~third-party
 ||adservice.google.
 ||google.*/url?$ping
 ||google.com/gen_204?
@@ -28968,6 +28974,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoproapp.com/api/record
 ||geoservice.curse.com^
 ||geotags.refinery89.com^
+||getelevar.com/configs/
 ||getelevar.com/shops/*/events.js
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
