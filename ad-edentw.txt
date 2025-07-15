@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gophZL2hFRX81kiszNDRNQ
+! Checksum: QWDJkuv3KKisGbBUIAUxmA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507151750
-! Last Modified: 2025年07月15日 17:50
+! Version: 202507151942
+! Last Modified: 2025年07月15日 19:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -554,7 +554,7 @@ sankei.com,timesofindia.indiatimes.com,dictionary.cambridge.org,sourceforge.net,
 dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read window.confirm noopFunc
 loawa.com,malaymail.com,gutefrage.net,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /EventTarget.*prototype.*addEventListener.*Map/
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
-timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/; abort-on-iframe-property-write Object.prototype.toString;
+timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
 timesofindia.indiatimes.com#$#abort-on-iframe-property-read localStorage;  override-property-read window.confirm noopFunc; override-property-read pbjs emptyObj; abort-on-iframe-property-read sessionStorage; override-property-read dataLayer emptyArray; abort-on-iframe-property-read caches;
 ! #CV-1935
 ##.jag8CityBio212023
@@ -1549,7 +1549,6 @@ comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaCon
 tornado.3dn.ru#$#abort-on-property-read wrapper.addEventListener
 kinoblin.ru,pornoakt.info,serialai.ru#$#prevent-listener mousedown pop.doEvent
 agronews.ua#$#prevent-listener DOMContentLoaded 'adId'
-bzrus.pro#$#prevent-listener new 'window.location'; prevent-listener userpause 'Math.random'
 sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_time
 ! Video ads
 yastatic.net#$#abort-on-property-read Object.prototype.vast
