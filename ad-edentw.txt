@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9d6baHIrnfNZwdH3kxcz+w
+! Checksum: Rx3xYBoN/L/Wd9zfyho92w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507152111
-! Last Modified: 2025年07月15日 21:11
+! Version: 202507160052
+! Last Modified: 2025年07月16日 00:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -537,6 +537,8 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! CV-4235
+testpages.eyeo.com#$#hide-if-contains 'filter not applied' p[id]
 ! CV-3560
 groceries.morrisons.com#$#hide-if-matches-xpath './/div[@data-test="products-page"]//*[starts-with(@data-test, "fop-wrapper")]/div[.//*[contains(text(), "Sponsored")] or @class="outer-header-container" and ./span[@data-test="breadcrumb-text"][contains(text(), "Featured")]]'
 ! CV-3613
