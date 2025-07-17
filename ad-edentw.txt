@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gEMJv96BhZGtrL2c7mtSwQ
+! Checksum: Tlql3hRlo+K4uFOfR0iysg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507180051
-! Last Modified: 2025年07月18日 00:51
+! Version: 202507180543
+! Last Modified: 2025年07月18日 05:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1941,6 +1941,8 @@ olx.*#?#div:-abp-has(> div:-abp-has(> div:-abp-has(> a div:-abp-has(> div:-abp-p
 olx.*#$#hide-if-matches-xpath '//div[text()="Wyróżnione" or text()="TOP" or text()="ТОП" or text()="PROMOVAT" or text()="Промотирана обява"]/ancestor::div[@data-testid="l-card"][1]'
 ! pp & ph
 olx.com.br#$#hide-if-matches-xpath './/p[.="publicidade"]/parent::div[@data-testid="advertising-placeholder" or contains(@class,"ad__")]/parent::div'
+olx.com.br#$#hide-if-matches-xpath './/h2[@data-ds-component="DS-Text"][contains(text(),"anúncio")]/ancestor-or-self::div[contains(@class,"title___")]/parent::div[contains(@class,"olx-fd-column")][1]'
+olx.*#$#hide-if-matches-xpath './/h3/ancestor-or-self::section[@data-testid="ad-recommendations"]/parent::div[1]'
 ! hp
 olx.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "VIP-объявления") or contains(., "VIP-оголошення")]/parent::div'
 olx.pt#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Destaques no OLX")]/parent::div'
