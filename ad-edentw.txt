@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u2z0FNrW5QUW1EURGJRK7w
+! Checksum: N1MJp587QqmKmBpix4vymQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507190542
-! Last Modified: 2025年07月19日 05:42
+! Version: 202507190646
+! Last Modified: 2025年07月19日 06:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -364,6 +364,8 @@ wwww.idnes.cz#?#div.r-main:-abp-has(div.r-body)
 www.idnes.cz#$#hide-if-matches-xpath '//div[@*[starts-with(name(), "data-") and .="ad"]]/self::div[1]'
 wwww.idnes.cz#$#hide-if-matches-xpath './/img[@title="reklama"]/parent::div/ancestor::div[contains(@id,"hypertext")][@class]'
 ! MISC
+centrum.cz##div[class^="sasic-ad"]
+centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
 zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
 info.cz,lupa.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
@@ -947,7 +949,7 @@ upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 gamefront.com#$#abort-current-inline-script $ AdBlock
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; race stop;
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"iffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; race stop;
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-write window.open; abort-current-inline-script document.documentElement break;case $.
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
