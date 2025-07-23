@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TR/ef0gWM3Kkv+YdzhnvGw
+! Checksum: 2LEupOc7koBhhow7t0uHDg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202507231456
-! Last Modified: 2025年07月23日 14:56
+! Version: 202507231654
+! Last Modified: 2025年07月23日 16:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1361,7 +1361,6 @@ wss://*/api/wss/GetNotReadCount$third-party
 ###dbgg
 ###dgf_pc
 ###diads
-###dip[href*=".tmall.com"]
 ###div_top_ads
 ###duilian_left
 ###duilian_right
@@ -2015,7 +2014,6 @@ newduba.cn###jq_youxi
 ~allthingsopen.org##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ##a[href*=".gaimin.gg/cn"]
-##a[href*=".taobao.com"] > .top1
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
@@ -10551,7 +10549,6 @@ meijutt.*/js/pcjs/
 ||chinaz.com/statics/images/tuan
 ||ad.parkvv.com^
 ||adasset.ethersaga.online^
-||5dm.link/html/20240*.gif
 ||bing.com/AdsFetch?
 ||sojson.com/ui/images/upyun
 ||55kp.app/aini.
@@ -10567,6 +10564,8 @@ meijutt.*/js/pcjs/
 ||gtimg.cn/music/photo_new/T053XD001001BZyX50UcRRk.
 ||k8dm.com/960x70.
 ||ibmwclub.com/tophub/assets/js/sponsor.
+||5dm.link/html5/api_aj.
+||5dm.link/html/$image
 ||komiic.com/ads/
 ||v2ex.com/pro/emitter
 !------------------------Specific element hiding rules------------------------!
