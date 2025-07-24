@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0EKb6EhM+bed7W4CFFs74Q
+! Checksum: bLNVt3AhT6pctXXTNA6HSg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202507240743
-! Last Modified: 2025年07月24日 07:43
+! Version: 202507241035
+! Last Modified: 2025年07月24日 10:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1741,6 +1741,13 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||fiwf54qahl.com^
+||t0cv7pmo2y.com^
+||qlkysc.icu^
+||mouthop3.com^
+||igtx.cn^
+||wgceetonr.com^
+||auy07240km.com^
+||d9q4aa05g4.com^
 ||op9dbh1i0.com^
 ||1kb4atu6x.com^
 ||eiyu7532.xyz^
@@ -72295,6 +72302,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||stats.sports.bellmedia.ca^$domain=rds.ca|tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||stats.wnba.com/templates/angular/tables/events/$~third-party
+@@||stats.wp.com/w.js$script,domain=wordpress.com
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||store.storeimages.cdn-apple.com^*/appmeasurement.js$domain=apple.com
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
