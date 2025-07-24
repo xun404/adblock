@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dCd48Y6sjoaeC27UVhtaBg
+! Checksum: U6yi56HTCcbTUfHPDrSn+w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202507241456
-! Last Modified: 2025年07月24日 14:56
+! Version: 202507241545
+! Last Modified: 2025年07月24日 15:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1709,6 +1709,7 @@ newduba.cn###jq_youxi
 ###kp-hid-gb.uk-alert
 ###side_promo.bc_dp
 ###fucku.col-md-8
+###index_banner[src*=".imgdd.com"]
 ###ad-float.kyty
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
@@ -1748,6 +1749,7 @@ newduba.cn###jq_youxi
 ||wgceetonr.com^
 ||auy07240km.com^
 ||d9q4aa05g4.com^
+##a[href*="/hs63.cc"]
 ||op9dbh1i0.com^
 ||1kb4atu6x.com^
 ||eiyu7532.xyz^
@@ -10132,6 +10134,7 @@ meijutt.*/js/pcjs/
 ||v2ex.com/pro/emitter
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
 docin.com##.mini-series-container
 5dm.link###player_pause
 1lou.me,1lou.one,1lou.pro###advert > :not(.card)
@@ -28790,6 +28793,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dadi.technology^$third-party
 ||dash.getsitecontrol.com^
 ||dashboard.nowdialogue.com/api/events/
+||data.armexdef.uk/api/visit/
 ||data.circulate.com^
 ||data.debugbear.com^$third-party
 ||data.digitalks.az^
@@ -29924,6 +29928,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||refer.wordpress.com^
 ||referrer.disqus.com^
 ||reflow.tv/pixels/
+||register.boostymark.com/a/reg
 ||rejoiner.com/tracker/
 ||relaymedia.com/ping?$third-party
 ||removeads.workers.dev^
@@ -30043,6 +30048,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shareit.com/affiliate.html$third-party
 ||sharethis.com/increment_clicks?
 ||sharethis.com/pageviews?
+||shop.app/pay/hop?analytics_trace_id=
 ||shopify-gtm-suite.getelevar.com/getelevar/*/dl-web-pixel-lax-custom.js
 ||shopify-webhooks.sailthru.com^
 ||shopify.com/shopifycloud/consent-tracking-api/
@@ -30274,6 +30280,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.spbx.app^
 ||t.splicky.com^
 ||t.spot.im^
+||t2.profityi.com/api/visit/
 ||t2.t2b.click^
 ||ta.trs.cn^
 ||taboola.com^$third-party
