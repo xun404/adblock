@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8sQbyK0C1h99jISB6TKcGg
+! Checksum: Dr5B605BefZzO1f79HZEqQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202507252111
-! Last Modified: 2025年07月25日 21:11
+! Version: 202507252154
+! Last Modified: 2025年07月25日 21:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2039,6 +2039,7 @@ mail.ru#@#[href*="https://dzen.ru"]
 ! Filters to be used by distribution partners
 ! #CV-782
 www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:1'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:1.5'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-skip-to:1.8'; race stop;
+www.youtube.com#$#map-override set AD_PLACEMENT '' value.kind;
 www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray;override-property-read ytInitialPlayerResponse.playerAds emptyArray;
 www.youtube.com#$#override-property-read Object.prototype.adPlacementConfig undefined;
 www.youtube.com#$#override-property-read Object.prototype.renderingContent.instreamVideoAdRenderer undefined;
