@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UPiyVeUaz5W8UCRbaNbOCQ
+! Checksum: 8vOovYJRCTjwhLAKd5H27w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508062347
-! Last Modified: 2025年08月06日 23:47
+! Version: 202508070055
+! Last Modified: 2025年08月07日 00:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -551,7 +551,7 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ! CV-1364
 ||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
-sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
+sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 malaymail.com,dictionary.cambridge.org,collinsdictionary.com#$#abort-current-inline-script setTimeout /error-report.com/
 sankei.com,timesofindia.indiatimes.com,dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,huffpost.com,collinsdictionary.com#$#blob-override '/.*/' ''
