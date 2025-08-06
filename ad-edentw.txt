@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kE2H2koiYS6aikxJXOeDDQ
+! Checksum: 6hu1DnHgeK+MvojfqwHddQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508070447
-! Last Modified: 2025年08月07日 04:47
+! Version: 202508070648
+! Last Modified: 2025年08月07日 06:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1998,8 +1998,6 @@ fiverr.com##div[data-impression-collected="true"]:has(a[href*="ad_key="])
 ! ba
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
-! sp
-sameday.costco.com##li:has([aria-label="Product"] *[data-dfp-eligible])
 ! ca
 sameday.costco.com#$#hide-if-matches-xpath './/div[@style]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'
 ! mc
