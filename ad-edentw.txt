@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qG7ZaxqM2AHihEVP8JFZxQ
+! Checksum: C9MoTZwO0e+DcCvE+tV7PA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508080447
-! Last Modified: 2025年08月08日 04:47
+! Version: 202508080648
+! Last Modified: 2025年08月08日 06:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1824,9 +1824,10 @@ instacart.*#$#hide-if-matches-xpath './/div[contains(@style,"display:")]/followi
 instacart.*#$#abort-on-property-write window.ADBLOCK_DETECTED; abort-current-inline-script setTimeout ic-detect-ad-block; override-property-read adblockDetected false;
 ! #RM-11
 ! hp
-ebay.com#$#hide-if-matches-xpath './/div[@class]/h2[contains(.,"Sponsored")]//ancestor::div[@data-viewdtls][@data-pushed-view="true"]'
-ebay.com#$#hide-if-matches-xpath '//h2[contains(.,"Sponsored")]/ancestor-or-self::div[@class="dp-item-carousel-module__wrapper"][1]'
+ebay.*#$#hide-if-matches-xpath './/div[@class]/h2[contains(.,"Sponsored")]//ancestor::div[@data-viewdtls][@data-pushed-view="true"]'
 ebay.com##div[class$="vl-leaderboard-ad"]
+! meb
+ebay.*#$#hide-if-matches-xpath './/div[@class="lima"]/h2[contains(.,"Sponsored")]/ancestor::div[@data-viewport][1]'
 ! ba
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-testid="x-pda-placements"]>div>div>div' 'div[data-viewport]>span>div>div ^^sh^^ *'
 ! ta
