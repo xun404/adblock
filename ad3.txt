@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pzepD9KH3FdCd9aFAaKU0Q
+! Checksum: uJhrPvUEhZ6gB1ji9B4STw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202508071850
-! Last Modified: 2025年08月07日 18:50
+! Version: 202508081458
+! Last Modified: 2025年08月08日 14:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -28592,6 +28592,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bi-metrics.aramuz.net^
 ||bi.heyloyalty.com^
 ||bi.medscape.com^
+||bin.cartwire.co/js/analytics.js
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
@@ -72261,6 +72262,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
+@@||data.tm-awx.com^$script,domain=hulldailymail.co.uk
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
 @@||delta.com/dlhome/ruxitagentjs$~third-party
