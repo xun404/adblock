@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n2dL0uIRHFfqAHQoVW2ZUQ
+! Checksum: 6UOl0wd1tE3OI0JG7H4G0w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508122345
-! Last Modified: 2025年08月12日 23:45
+! Version: 202508130051
+! Last Modified: 2025年08月13日 00:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1128,6 +1128,7 @@ hanime.tv#$#override-property-read ABLK false
 legacy.com#$#hide-if-matches-xpath '//div[contains(@class,"AdSlot__StandardAd")]'
 sexvid.*##div[class^="sp-player visible"][id^="sp-player"]
 xhamster.*#$#hide-if-matches-xpath './/div[contains(@data-role,"banner")]//div[contains(@data-role,"sponsor-banner")]/ancestor::div[@data-role][1]'
+slickdeals.net#$#hide-if-matches-xpath '//span[contains(text(),"Sponsored")][@data-partial="sponsor"]/ancestor-or-self::div[@data-role="announcementBar"][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
