@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qjvE5r1JaOdAepii/3YHLw
+! Checksum: Ohtm8D9rOk1WKbLu1rM3cQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508210443
-! Last Modified: 2025年08月21日 04:43
+! Version: 202508210541
+! Last Modified: 2025年08月21日 05:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1811,8 +1811,7 @@ samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 samsclub.com##.sc-plp-cards-vast-ad
 ! #RM-9
 ! sl, sc
-instacart.*#$#race start; hide-if-matches-xpath './/span[text()]/following::span[@style="display: inline-grid;"][text()]/ancestor-or-self::div[@aria-label="Product"]/parent::h3/ancestor::li[1]/ancestor-or-self::*[self::li[not(@data-testid)] or self::div[child::li/@data-testid]][1]'; hide-if-matches-xpath './/span[text()]/following::sp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fspsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fpsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::*[starts-with(name(), "ad-") and contains(name(), "-tag")]/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; race stop;
-instacart.*##li:has([aria-label="Product"] [data-dfp-eligible])
+instacart.*#$#race start; hide-if-matches-xpath './/span[text()]/following::span[@style="display: inline-grid;"][text()]/ancestor-or-self::div[@aria-label="Product"]/parent::h3/ancestor::li[1]/ancestor-or-self::*[self::li[not(@data-testid)] or self::div[child::li/@data-testid]][1]'; hide-if-matches-xpath './/span[text()]/following::sp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fspsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fpsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::*[@data-dfp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; race stop;
 ! ta
 instacart.*#$#race start; hide-if-matches-xpath './/div[contains(@style,"display:")]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'; hide-if-matches-xpath './/span[text()]/following::span[contains(@style,"display: inline")][text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]'; race stop;
 ! tc
