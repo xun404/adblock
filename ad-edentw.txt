@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VD99JPRGNlwzhg4bX5VyUg
+! Checksum: tBduTPF2AkJ0kNBCpbv6KA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508211845
-! Last Modified: 2025年08月21日 18:45
+! Version: 202508212147
+! Last Modified: 2025年08月21日 21:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -763,7 +763,7 @@ flashx.tv#$#abort-on-property-read affLink
 ! #CV-751
 adpop.me,amyscans.com,aquipelis.net,arenavision.in,arenavision.us,blogdepelis.com,canalenvivogratis.com,cinemitas.com,danfra.com,dclinks.info,descargarplaystore.net,desmaxgo.com,elitegoltv.me,extreme-d0wn.net,filmesonlinegratis.com,futbollibre.online,hqq.tv,hqq.watch,inkapelis.com,lhmjihd.blogspot.com,limpi.tv,livefootball.live,locopelis.com,megawarez.org,mostafidoun.com,pastepvp.org,peliculas24.me,peliculascine.net,peliculasdeprincesas.net,peliculasio.com,peliculasyseries.org,pelisgratis.me,pelishd.live,pelisplanet.com,pelisplus.online,pelix.tv,pirlotv.com.es,pruiebannnn.blogspot.com,recpelis.net,repelis.net,rojadirectatv.info,rojadirectatv.stream,series21.com,seriesflixapp.net,seuseriado.com,seutorrent.com,siestrenos.com,sonpelishd.com,sonpelishd.net,tarjetarojaonline.tv,tarjetarojatvonline.com,tecmaxsoft.com,televisionparatodos.tv,tuzonafut.net,verpeliculasenlatino.com,voirfilm.me,voirfilms.mx,webtvonlive.com,hdvid.tv,ovid.pro#$#abort-on-property-read smrtSB; abort-on-property-read smrtSP
 ! #CV-368
-kimcartoon.to#$#abort-on-property-read NativeAd
+kimcartoon.*#$#abort-on-property-read NativeAd
 ! #CV-754
 2gomovies.to#$#abort-on-property-write _0x287f; abort-on-property-write _0x2f53; abort-on-property-write _0x16f4
 topwwnews.com#$#abort-on-property-read localStorage
@@ -881,7 +881,7 @@ kiss-anime.ws#$#abort-on-property-read localStorage; abort-on-property-write JSO
 onscreens.me#$#abort-on-property-read localStorage; abort-on-property-read asgPopScript
 manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 hortonanderfarom.blogspot.com#$#override-property-read setTimeout noopFunc
-*$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.li|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
+*$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 userload.co#$#abort-current-inline-script $ Math.random
 tubeload.co#$#abort-on-property-write BetterJsPop
 hotleak.vip#$#abort-on-property-read advertising
@@ -916,7 +916,7 @@ datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
 bunkr.*#$#abort-current-inline-script WebAssembly Promise;
 cineb.*#$#prevent-listener mousedown shown_at; abort-on-property-read window.open;
 gomovies.*,harimanga.*,maxstream.video,myflixerz.*#$#abort-current-inline-script document.documentElement break;case $.; abort-on-property-read window.open;
-europixhd.com,europixhd.net,gledajonline.net,hdeuropix.io,jawcloud.co,kimcartoon.li,kimcartoon.to,loadsubs.net,s3embtaku.pro,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
+europixhd.com,europixhd.net,gledajonline.net,hdeuropix.io,jawcloud.co,kimcartoon.*,loadsubs.net,s3embtaku.pro,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 anitube.*,alphatron.*,edgedeliverynetwork.com#$#abort-current-inline-script EventTarget.prototype.addEventListener delete
 eztvx.to#$#json-prune 'adserverDomain'
 onworks.net#$#override-property-read rewarded 0;
@@ -971,7 +971,7 @@ manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
 1afav.net,7us7m00f.fun,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,animeheaven.pro,bf0skv.org,boosterx.stream,desi-porn.tube,emturbovid.com,fmovies.*,hqq.to,jilliandescribecompany.com,mixdrop.*,spankbang.com,supjav.com,putlocker.vip,web.netmovies.*,videasy.net,vidply.com,zgdpo8nr.fun#$#abort-on-property-write window.open
-1337x.buzz,komikav.com,limetorrents.lol,himovies.to,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.*,sxyprn.*,strikeout.cc,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
+1337x.buzz,komikav.com,limetorrents.lol,himovies.*,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.*,sxyprn.*,strikeout.cc,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 mathwarehouse.com#$#override-property-read MwAserver noopFunc
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 animepahe.com,fuxporn.com,gogoplay1.com,komikcast.com,lookmovie.la,manhuascan.io,prmovies.bz,speedostream.com,yomovies.cam,watchseri.net,wiflix.*,wiflix-max.site,yomovies.ws#$#abort-current-inline-script JSON.parse
@@ -994,11 +994,11 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 boyjackpot.com,letsjerk.tv#$#abort-current-inline-script asgPopScript
-123movies-official.net,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.online,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,movies123.sbs,movies123.studio,moviesjoy.*,prmovies.re,readmanganato.com,soap2day.*,socialmediagirls.com,tinyzonetv.to,udvl.com,wiflix.*,wiflix-max.site,yomovies1.online#$#abort-on-property-read localStorage;
+123movies-official.net,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.online,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.*,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,movies123.sbs,movies123.studio,moviesjoy.*,prmovies.re,readmanganato.com,soap2day.*,socialmediagirls.com,tinyzonetv.to,udvl.com,wiflix.*,wiflix-max.site,yomovies1.online#$#abort-on-property-read localStorage;
 fastconverter.net#$#abort-on-property-read afScript
-tpbay.link#$#abort-on-property-read _wm_settings
+tpbay.*#$#abort-on-property-read _wm_settings
 footfetishvid.com,manga21plus.com,povaddict.com#$#abort-on-property-read a3klsam
-fuxnxx.com,hqpornero.com,ilikecomix.com,manga16plus.com,mangaforfree.com,mangaforfree.net#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
+fuxnxx.com,hqpornero.com,ilikecomix.com,mangaforfree.com,mangaforfree.net#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
 perverzija.com,edoujin.net#$#abort-on-property-read JSON.stringfy; abort-on-property-read a3klsam
 naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-read loadTool
 fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
@@ -1145,12 +1145,9 @@ hotpepper.jp##div[style*="text-align: center;"] > div > a
 hotpepper.jp##.personalizedCampaign
 yahoo.co.jp#$#hide-if-matches-xpath './/div[@style]/div[@style]/ancestor::div[@style][1]/parent::div[contains(@style,"width: 990px")]'; hide-if-matches-xpath './/div[contains(@style,"yads")]/parent::div[@style][1]'; hide-if-matches-xpath './/div[@style]/a[@href][@target]/parent::div[@style][1]//parent::div[@style][not(contains(@class,"map"))]/ancestor::div[@id][contains(@style,"width")]'; hide-if-matches-xpath './/iframe[@title="Ad Content"]/parent::div[@id]/ancestor::div[@id][@class][1]';
 yahoo.co.jp##div[class*="SideMenuAd"]
-curazy.com#$#hide-if-matches-xpath './/a[@href][@target]/img/ancestor-or-self::a[@target]'
 ||bance.jp/bnc*^$script,domain=himanatokiniyaruo.com|vippers.jp|matomeantena.com|anige-sokuhouvip.com
 bance.jp#$#abort-on-property-read Math.floor; abort-on-property-read Object.defineProperty
 anige-sokuhouvip.com,himanatokiniyaruo.com,matomeantena.com,vippers.jp#$#override-property-read fluctAdScript undefined; abort-on-property-read window.bnctag
-gameinn.jp#$#abort-current-inline-script document.addEventListener patterns ratel-ad.com; simulate-mouse-event 'xpath(.//div[@id]//div[@id="bn_interstitial_close_icon"])';
-gameinn.jp##div[id^="bnc_ad"]
 ||bance.jp^$domain=zozovideo.com
 zozovideo.com##.content-bottom-sidebar-wrap
 zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/parent::div[@style]/ancestor::div[@class="content-top-sidebar-wrap"]'
