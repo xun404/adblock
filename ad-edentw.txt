@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ohtm8D9rOk1WKbLu1rM3cQ
+! Checksum: VD99JPRGNlwzhg4bX5VyUg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508210541
-! Last Modified: 2025年08月21日 05:41
+! Version: 202508211845
+! Last Modified: 2025年08月21日 18:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -553,7 +553,7 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
 sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
-malaymail.com,dictionary.cambridge.org,collinsdictionary.com#$#abort-current-inline-script setTimeout /error-report.com/
+malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /error-report.com/
 sankei.com,timesofindia.indiatimes.com,dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,huffpost.com,collinsdictionary.com#$#blob-override '/.*/' ''
 dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read window.confirm noopFunc
 loawa.com,malaymail.com,gutefrage.net,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /EventTarget.*prototype.*addEventListener.*Map/
@@ -1663,7 +1663,7 @@ aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 watchsb.com#$#abort-on-property-read __Y
 tusachmanga.com#$#abort-current-inline-script $ window.open
-motchillk.to#$#abort-on-property-read sessionStorage
+motchillk.tv#$#abort-on-property-read sessionStorage
 plvb.xyz,rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$#override-property-read ADMStorageFileCDN noopFunc
@@ -1698,8 +1698,8 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 wngd.org#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.lu,dualeotruyenbotd.com,yurineko.my,heohay.net,cliphot69.shop,doctruyen3qui12.pro,ihentai.cloud,animehay.sbs,hentaivc.net,streamvl.top,buomtv.live,truyenvn.shop,javtiful.com,quatvn.love,vn69phimsexhay.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,vlsexdam.net,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.run,truyenqqgo.com,clipsexsub3x.net,sayhentaii.art#$#abort-current-inline-script WebAssembly instantiate
-motchill20.com,xnhau.sh,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
+viet69.lu,dualeotruyenbotd.com,yurineko.my,heohay.net,cliphot69.shop,doctruyen3qui12.pro,ihentai.cloud,animehay.sbs,hentaivc.net,streamvl.top,buomtv.live,truyenvn.shop,javtiful.com,quatvn.love,vnphimsexhay.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,vlsexdam.net,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.run,truyenqqgo.com,clipsexsub3x.net,sayhentaii.art#$#abort-current-inline-script WebAssembly instantiate
+motchill21.com,xnhau.sh,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hh3dhay.life,tram3d.net,animevietsub.cam#$#abort-current-inline-script eval $._Eu
 p.thoctv.com#$#abort-current-inline-script document.createElement script
@@ -1732,7 +1732,7 @@ gocmod.com#$#abort-current-inline-script jQuery popup
 10gb.vn#$#abort-current-inline-script Promise detectedAdblock
 animevietsubs.net#$#abort-on-property-read _0x3f9b
 thichxemphim1.site#$#abort-on-property-read affUrls
-www.motchill20.com,motchill20.com,trumtruyen.live#$#abort-current-inline-script setTimeout Aff
+www.motchill21.com,motchill21.com,trumtruyen.live#$#abort-current-inline-script setTimeout Aff
 vlsexdam.net#$#abort-on-property-read Cookies
 childish2x2.fun#$#abort-current-inline-script $ aff
 javhd.shop#$#abort-current-inline-script document.addEventListener Click
