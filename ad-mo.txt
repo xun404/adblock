@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Itre9eX8jH5u+Kfdd3LG/A
+! Checksum: h9MxYHIL69qEUUm/V+qi6w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202508221017
-! Last Modified: 2025年08月22日 10:17
+! Version: 202508221128
+! Last Modified: 2025年08月22日 11:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -29614,6 +29614,7 @@ browsershots.org#@#.advert_area
 ||igwatrsthg.site^
 ||igygcvrch.com^
 ||ihdqhjrqhovcp.today^
+||ihebtqxplwj.com^
 ||ihenseltampaud.net^
 ||ihhrqqkwkupxf.xyz^
 ||ihialzvrhxulf.space^
@@ -45324,6 +45325,7 @@ browsershots.org#@#.advert_area
 ||vfhgjtdpgzthk.space^
 ||vfhtgrjsmcdzi.site^
 ||vfjkrktoqhmoy.space^
+||vflapyjifhmrf.space^
 ||vfoyluwjhovs.com^
 ||vfqejeazinwis.site^
 ||vfqgmtqglqxkd.xyz^
@@ -45370,6 +45372,7 @@ browsershots.org#@#.advert_area
 ||viatepigan.com^
 ||vic-m.co^
 ||vicecomradecompare.com^
+||vicegoriest.shop^
 ||vicesus.com^
 ||vicinepulsed.cyou^
 ||victimenmesh.life^
@@ -48881,6 +48884,7 @@ browsershots.org#@#.advert_area
 ||vasstycom.com^$document
 ||verdepromo.info^$document
 ||vfgte.com^$document
+||vicegoriest.shop^$document
 ||viiadaof.com^$document
 ||viibslav.com^$document
 ||viiczfvm.com^$document
@@ -49457,7 +49461,6 @@ browsershots.org#@#.advert_area
 ||coinmedia.co^$third-party
 ||cointraffic.io^$third-party
 ||coinzilla.io^$third-party
-||collectiveaudience.co^$third-party
 ||commissionfactory.com.au^$third-party
 ||commissionmonster.com^$third-party
 ||comscore.com^$third-party
@@ -49612,6 +49615,7 @@ browsershots.org#@#.advert_area
 ||gururevenue.com^$third-party
 ||harvesttraffic.com^$third-party
 ||havetohave.com^$third-party
+||hb.collectiveaudience.co^third-party
 ||hbwrapper.com^$third-party
 ||headbidder.net^$third-party
 ||headerbidding.ai^$third-party
@@ -49943,6 +49947,7 @@ browsershots.org#@#.advert_area
 ||rollercoin.com^$third-party
 ||rotaban.ru^$third-party
 ||rtbhouse.com^$third-party
+||s.collectiveaudience.co^third-party
 ||sabavision.com^$third-party
 ||salvador24.com^$third-party
 ||sape.ru^$third-party
@@ -53616,6 +53621,7 @@ browsershots.org#@#.advert_area
 ||viapawniarda.com^$popup
 ||viatechonline.com^$popup
 ||viatepigan.com^$popup
+||vicegoriest.shop^$popup
 ||victoryslam.com^$popup
 ||videoadblockerpro.com^$popup
 ||videocampaign.co^$popup
@@ -59107,6 +59113,8 @@ closerweekly.com,intouchweekly.com,lifeandstylemag.com###listProductWidgetData
 slidesgo.com###list_ads1
 slidesgo.com###list_ads2
 slidesgo.com###list_ads3
+listennotes.com###ln_homepage_banner
+listennotes.com###ln_side_banner
 bio.to###lnk-ad-header
 lightnovelcave.com###lnvidcontainer
 wormate.io###loa831pibur0w4gv
@@ -65255,7 +65263,7 @@ pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-ta
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-2
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-3
-sameday.costco.*##li:has([aria-label="Product"] [data-dfp-eligible])
+sameday.costco.*##li:has([aria-label="Product"]):has([data-dfp-eligible]):not(:has(h2))
 tripadvisor.*##.rSJod
 tripadvisor.*##[data-automation="nova-ad-InlineNova"]
 tripadvisor.*##[data-sponsored="sponsored"]:has(.txxUo)
@@ -89258,7 +89266,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats/collect?
 /stats/collector.js
 /stats/event.js?
-/stats/events$xmlhttprequest
+/stats/events$xmlhttprequest,domain=~wbsc.org
 /stats/footer.js
 /stats/ga.js
 /stats/header.js
@@ -94537,6 +94545,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
 ||adobedc.net/collector/
+||ads-tracking.beop.io^
+||ads-tracking.collectiveaudience.co^
 ||ads-trk.vidible.tv^
 ||adsmoloco.com^$third-party
 ||adsolutions.com^$third-party
@@ -95191,7 +95201,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentdriver.com/api/impression
 ||contently.com/xdomain/
 ||contentpass.net/stats?$third-party
-||contents-tracking.beop.io^
 ||control.cityofcairns.com^$third-party
 ||conversions.genieventures.co.uk^
 ||convertflow.co^*/visitors/
@@ -95651,6 +95660,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||harvest.graindata.com^
 ||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
+||hb.collectiveaudience.co^
 ||hb.vhsrv.com^
 ||hcmanager.swifteq.com/hc_events/
 ||hdnux.com/HNP/stats/page_view?
@@ -95985,6 +95995,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mediaplex.com^*?mpt=
 ||meebo.com/cim/sandbox.php?
 ||merklesearch.com/merkle_track.js
+||messagebird.com/assets/fp.min.js
+||messagebird.com/metrics.js
 ||metabroadcast.com^*/log?
 ||metaffiliation.com^*^mclic=
 ||meteored.com/cmp/web/events/analytic/
@@ -96461,6 +96473,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.autopilotapp.com^
 ||s.axon.ai/s/pixel.js
 ||s.beop.io^
+||s.collectiveaudience.co^
 ||s.logsss.com^
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
@@ -137286,6 +137299,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||l.zdnet.fr^
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-sentry/lc-sentry.js
+||lacentrale.fr/static/fragment-tracking/tracking-
 ||lacoccinelle.net/tools.js
 ||laposte.fr/cdp/events?
 ||ldlc.com/V4px/js/ldlcmachine.js
