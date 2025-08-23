@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 10A4EkvsIFPFBROGt4zMaw
+! Checksum: A5w5xMpYE+Ng4GlDr6vIgQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202508231841
-! Last Modified: 2025年08月23日 18:41
+! Version: 202508232101
+! Last Modified: 2025年08月23日 21:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23776,6 +23776,7 @@ m.babytree.com##script + a[class]
 ?[AQB]&ndh=1&t=
 ?action=event&
 ?action=impression&
+?action=koko_analytics_collect
 ?action=log_promo_impression
 ?action=saveViewStat&
 ?action=statsjs&
@@ -25177,6 +25178,7 @@ omni.soundestlink.com$image
 ||countz.com^$third-party
 ||cpcmanager.com^$third-party
 ||cpmstar.com^$third-party
+||cpx-research.com^$third-party
 ||cqcounter.com^$third-party
 ||craftkeys.com^$third-party
 ||craktraffic.com^$third-party
@@ -32811,6 +32813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||booking.com/navigation_times
 ||booking.com/sendlayoutevents
 ||boomerang.dell.com^
+||bostonscally.com/api/collect
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
 ||brightside.me/metric-collector
@@ -33597,6 +33600,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msn.com/collect/
 ||msn.com/OneCollector/
 ||mstm.motorsport.com^
+||mtg.macpaw.com^
 ||mx.eneba.com^
 ||myanimelist.net/static/logging.html
 ||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-
@@ -72771,6 +72775,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
+@@||xiaosaas.com/org/RecordScreen/rrweb.min.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||youvisit.com/SmartScript/$script,domain=uaf.edu
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
