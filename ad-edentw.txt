@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n2RWUQhIt13DHSpMfoLaJQ
+! Checksum: OeGuUDRnHOB4JdOYaDBV/Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508270538
-! Last Modified: 2025年08月27日 05:38
+! Version: 202508270641
+! Last Modified: 2025年08月27日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -76,6 +76,7 @@ iprima.cz##[class*="sas"]
 iprima.cz##a[href*="/area=branding"]
 iprima.cz##[id*="-ad-"], .ifr-claassflak, a[href*="/posid=sas_"]
 iprima.cz##.dekes_reblika
+iprima.cz#$#hide-if-matches-xpath '//p[@class="appendix"][text()="Reklama"]/parent::section[contains(@class,"position")][1]'
 /area=*/posid=*$subdocument,xmlhttprequest,script,domain=iprima.cz
 /keyword*/area=$xmlhttprequest,domain=iprima.cz
 /section=adblock_desktop^$domain=iprima.cz
@@ -1123,6 +1124,7 @@ legacy.com#$#hide-if-matches-xpath '//div[contains(@class,"AdSlot__StandardAd")]
 sexvid.*##div[class^="sp-player visible"][id^="sp-player"]
 xhamster.*#$#hide-if-matches-xpath './/div[contains(@data-role,"banner")]//div[contains(@data-role,"sponsor-banner")]/ancestor::div[@data-role][1]'
 mixdrop.*#$#abort-current-inline-script $ String.fromCharCode; override-property-read MDCore.adblock 0;
+planetminecraft.com#$#hide-if-matches-xpath '//b[text()="ADVERTISEMENT"]/ancestor-or-self::li[@data-type="advert"]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1270,6 +1272,9 @@ walla.co.il,sheee.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?z
 haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h3[class]
 haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h2[class]
 ! *** abp-filters-anti-cv:hungarian.txt ***
+! MISC
+idokep.hu##div[class*="ad-lockup-top-"]
+idokep.hu#$#hide-if-matches-xpath '//div[contains(@class,"info-small")][text()="Hirdetés"]'
 ! *** abp-filters-anti-cv:indian.txt ***
 ! #CV-669
 newstm.in,3pm.in##a[href*="/click.htm?"][target="_blank"]
