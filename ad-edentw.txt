@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CcJ9BjmTwqJlOHcPEc2NTQ
+! Checksum: oKfCDUS8UgQxG6JbBCrtIA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508261540
-! Last Modified: 2025年08月26日 15:40
+! Version: 202508270046
+! Last Modified: 2025年08月27日 00:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1793,10 +1793,11 @@ mercadolivre.*,mercadolibre.*#$#hide-if-matches-xpath './/span[@class="ui-billbo
 cdiscount.com#$#hide-if-matches-xpath './/img[contains(@src,"sponso")]/parent::a/ancestor::div[contains(@style,"background-color: rgb(255, 255, 255);")][.//div[contains(@style,"color: rgb(41, 56, 71);")]]'
 ! BA/PC
 cdiscount.com#$#hide-if-contains /Sponsorisé/ 'div[class="o-block"]' 'div[class^="o-block"] *[pos][id] ^^sh^^ div[class]'
+cdiscount.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsorisé")]/ancestor::section[contains(@class,"blockCarousel")]/parent::div[1]'
 ! PP
 cdiscount.com#$#hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]'
 ! PL
-cdiscount.com#$#hide-if-matches-xpath './/input[contains(@name,"Sponsored")]/ancestor::*[(self::article[contains(@class,"c-productCard")] and parent::li) or (self::form and ancestor::div[contains(@class,"prdtBlocInline")])]/ancestor::li[1]'; hide-if-canvas-contains Sponsorisé; hide-if-contains-and-matches-style '' 'li , div.l-fp-row' 'li custom-mentions , custom-mentions ^^sh^^ canvas' /./ 'background-image: repeating';  hide-if-contains-and-matches-style '' li 'custom-mentions ^^sh^^ canvas' '' 'display: none';
+cdiscount.com#$#hide-if-matches-xpath './/input[contains(@name,"Sponsored")]/ancestor::*[(self::article[contains(@class,"c-productCard")] and parent::li) or (self::form and ancestor::div[contains(@class,"prdtBlocInline")])]/ancestor::li[1]'; hide-if-canvas-contains Sponsorisé; hide-if-contains-and-matches-style '' 'li , div.l-fp-row' 'li custom-mentions , custom-mentions ^^sh^^ canvas' /./ 'background-image: repeating';  hide-if-contains-and-matches-style '' li 'custom-mentions ^^sh^^ canvas' '' 'display: none'; hide-if-matches-xpath './/div[contains(@class,"sponsor")]/span[text()]/ancestor::article/parent::a[@rel="sponsored"]/parent::*[self::div or self::section][1]';
 ! #RM-8
 samsclub.com#$#race start; hide-if-contains-visible-text /(Sponsored)/ 'div > div[io-id]' 'div[data-testid^="variant-"] > div > div'; hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'; race stop;
 samsclub.com#$#hide-if-contains-visible-text /Sponsored/ 'div[style][class]' span[class]
