@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fUYRFAmznHN6N8T/GFJrgw
+! Checksum: qD7Te4jzrVmFBCCBPg4gwA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508271938
-! Last Modified: 2025年08月27日 19:38
+! Version: 202508272104
+! Last Modified: 2025年08月27日 21:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -925,7 +925,7 @@ magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,bigwarp.*,sav
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/; override-property-read window.diptr undefined; abort-on-property-read window.pu; abort-current-inline-script document.write iframe;
 gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,movies2watch.tv,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.*,solarmovie.*,toongod.com,watchseriestv.*,yomovies.cloud#$#abort-on-property-read window.open
-bigwarp.*,savefiles.com,vide0.net,jilliandescribecompany.com#$#abort-current-inline-script WebAssembly atob;
+bigwarp.*,mangakakalot.gg,savefiles.com,vide0.net,jilliandescribecompany.com#$#abort-current-inline-script WebAssembly atob;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1125,6 +1125,7 @@ sexvid.*##div[class^="sp-player visible"][id^="sp-player"]
 xhamster.*#$#hide-if-matches-xpath './/div[contains(@data-role,"banner")]//div[contains(@data-role,"sponsor-banner")]/ancestor::div[@data-role][1]'
 mixdrop.*#$#abort-current-inline-script $ String.fromCharCode; override-property-read MDCore.adblock 0;
 planetminecraft.com#$#hide-if-matches-xpath '//b[text()="ADVERTISEMENT"]/ancestor-or-self::li[@data-type="advert"]'
+mangakakalot.gg##div[class^="fly-ads"]
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1149,6 +1150,8 @@ anige-sokuhouvip.com,himanatokiniyaruo.com,matomeantena.com,vippers.jp#$#overrid
 ||bance.jp^$domain=zozovideo.com
 zozovideo.com##.content-bottom-sidebar-wrap
 zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/parent::div[@style]/ancestor::div[@class="content-top-sidebar-wrap"]'
+2chan.net#$#abort-on-iframe-property-read document.currentScript;
+2chan.net##iframe[src^="https://dec.2chan.net/bin/"]
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
