@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WF34jPO/r8SXi5xSIA+B3g
+! Checksum: hkQyZFGcCeTb7dpzvlYQHg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508280538
-! Last Modified: 2025年08月28日 05:38
+! Version: 202508280641
+! Last Modified: 2025年08月28日 06:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1126,6 +1126,7 @@ xhamster.*#$#hide-if-matches-xpath './/div[contains(@data-role,"banner")]//div[c
 mixdrop.*#$#abort-current-inline-script $ String.fromCharCode; override-property-read MDCore.adblock 0;
 planetminecraft.com#$#hide-if-matches-xpath '//b[text()="ADVERTISEMENT"]/ancestor-or-self::li[@data-type="advert"]'
 mangakakalot.gg##div[class^="fly-ads"]
+wfmz.com#$#hide-if-matches-xpath '//span[contains(@class,"label-flag-sponsored")]/ancestor-or-self::article[@id][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
