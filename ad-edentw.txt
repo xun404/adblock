@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TI2a+Bhu7xB/2sV+HyC09g
+! Checksum: 5nb+vsy6oqJ32UIA6UydRQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508290140
-! Last Modified: 2025年08月29日 01:40
+! Version: 202508290538
+! Last Modified: 2025年08月29日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -550,8 +550,12 @@ threenow.co.nz#$#override-property-read Object.prototype.adConfigId undefined; j
 marketwatch.com,wsj.com#$#abort-on-property-write window.__buildAd;
 marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="container"]' 'div>span'
 ! CV-1364
-||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
+||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
+||content-loader.com/loader.min.js^$script,domain=gutefrage.net
+||html-load.com/loader.min.js^$script,domain=gutefrage.net
+||loader.gutefrage.net/loader.min.js^$script,domain=gutefrage.net
+gutefrage.net#$#abort-current-inline-script fetch /error-report\.com\/report/
 sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /error-report.com/
@@ -2379,6 +2383,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||thornenotacust.shop^
 ||thripeldesi.com^
 ||thummingnats.com^
+||tibiaescourer.com^
 ||tiepinshazings.com^
 ||tinnerydunging.com^
 ||togaefaffy.com^
@@ -2388,6 +2393,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||towerloftier.com^
 ||tracliakopek.top^
 ||trippetforhow.com^
+||tripsisvellums.com^
 ||truttatrimmer.top^
 ||trypsinneutral.com^
 ||tubingacater.com^
