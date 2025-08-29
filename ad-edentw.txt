@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MEykkG5Z6nHZA/+frZKBUQ
+! Checksum: v+sMxZZRaf57lMe25wUEzg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508292103
-! Last Modified: 2025年08月29日 21:03
+! Version: 202508300140
+! Last Modified: 2025年08月30日 01:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1297,7 +1297,7 @@ hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
 moredesi.com#$#abort-on-property-read __formatsGetters
 ! *** abp-filters-anti-cv:indonesian.txt ***
 ! #CV-667
-citpekalongan.com,designmyhomee.com,mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
+citpekalongan.com,mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
@@ -1307,7 +1307,7 @@ metrolagu.cam#$#abort-on-property-write window.open;
 poop.*#$#abort-current-inline-script String.fromCharCode 2147483647; abort-on-property-read window.open;
 bokepindo13.*,bokepindoh.*#$#abort-on-property-read open
 ! MISC
-komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
+komikdewasa.*#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; prevent-listener click tampilkanUrl; abort-on-property-write window.open; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 ! *** abp-filters-anti-cv:italian.txt ***
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
@@ -1399,7 +1399,6 @@ filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 anitube.*#$#abort-on-property-write _pop
 ! MISC
 filmesonlinegratis.com#$#abort-on-property-read atob
-cinevision.online#$#abort-on-property-write atob
 topflix.fm#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 onifile.com#$#abort-on-property-read _pop
 pobre.wtf#$#abort-on-property-read window.banners.1
