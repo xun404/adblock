@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4dadRkP5rOWijX36lG+LVw
+! Checksum: MEykkG5Z6nHZA/+frZKBUQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202508291938
-! Last Modified: 2025年08月29日 19:38
+! Version: 202508292103
+! Last Modified: 2025年08月29日 21:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1932,11 +1932,6 @@ newegg.com##div[class*="-sponsored"]
 ! #RM-68
 cars.com#$#hide-if-matches-xpath './/spark-badge[@variant="text"][@class="sp-badge"]/following::spark-button[@data-sponsored="true"]/ancestor-or-self::div[contains(@class,"inventory-")][1]'
 cars.com#$#hide-if-matches-xpath './/span[contains(@class,"hero-cta-tag")][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
-! #RM-75
-! pp
-bol.com##section[data-group-name^="sponsored-products"]
-! ba
-bol.com#$#hide-if-matches-xpath './/span[.="Gesponsord" or .="Sponsorisé"]/parent::button[@aria-label]/ancestor::div[contains(@class,"display-header__dsa")]/ancestor::div[@data-group-name="branded-shelves"]'
 ! #RM-78
 noon.com##img[src^="ad-tag"]
 noon.com##div[id*="adBannerModule"]
