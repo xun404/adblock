@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: s+GGN3sVTL6/t1fB2G+EZQ
+! Checksum: Jm90O8b24xAHYdRRtjVyVg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202509060738
-! Last Modified: 2025年09月06日 07:38
+! Version: 202509061006
+! Last Modified: 2025年09月06日 10:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1750,6 +1750,8 @@ newduba.cn###jq_youxi
 ||joi09060pt.com^
 ||squarewave.top^
 ||lyfdrh.icu^
+||uoxm.cn^
+||ciajifmfsp.com^
 ||db8b41ie5.com^
 ||g4yk4cyyw.com^
 ||joi09050pt.com^
@@ -18249,7 +18251,7 @@ theporn.cc##.toolbar-gg
 !#torrentkitty
 ###vpnModal.nordvpn-popup
 ##.nordvpn-popup + .sidebar-vpn
-$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
 .tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
@@ -29135,8 +29137,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.nexxt.com^
 ||data.queryly.com^
 ||data.replo.app^
-||data.tm-awx.com/smile-web-v2/
-||data.tm-awx.com/smile-web.min.js
 ||data.wiris.cloud/telemetry/
 ||data.woosmap.com^
 ||data2.gosquared.com^
@@ -72543,7 +72543,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
-@@||data.tm-awx.com^$script,domain=birminghammail.co.uk|bristolpost.co.uk|dailyrecord.co.uk|hulldailymail.co.uk|liverpoolecho.co.uk|manchestereveningnews.co.uk|stokesentinel.co.uk
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
 @@||delta.com/dlhome/ruxitagentjs$~third-party
