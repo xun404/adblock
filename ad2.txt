@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KPkg+z8Te94NPMISehZYjA
+! Checksum: uca4oDNM1FVfrqmy4tqNhw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202509091011
-! Last Modified: 2025年09月09日 10:11
+! Version: 202509091121
+! Last Modified: 2025年09月09日 11:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1753,6 +1753,7 @@ newduba.cn###jq_youxi
 ||iugvoo.icu^
 ||nutlzt.icu^
 ||uwkz.cn^
+||w6xdba54n.com^
 ||cbembusgcl.com^
 ||nio09081lt.com^
 ||nio09080lt.com^
@@ -9856,6 +9857,8 @@ meijutt.*/js/pcjs/
 ||lancdn.com/public/images/view/Tencent-
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+423down.com#?#li:-abp-has(>.info>.cat>a[rel="category tag"]:-abp-contains(推广))
+423down.com#?#li:-abp-has(>.item-thumb>.item-category:-abp-contains(推广))
 pornlulu.com##.container-fluid[style="background:#000;height:40px;"]
 pornlulu.com##.links:not([role="menu"]:last-child)
 barryblogs.com##div[style="margin-bottom: 10px; width: 300px; height: 300px;"]
