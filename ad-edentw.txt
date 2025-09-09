@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hG/7uEIfPwZpivFfR27AWA
+! Checksum: pY+CyDvTB4FNaICQW3G8Zg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202509100337
-! Last Modified: 2025年09月10日 03:37
+! Version: 202509100639
+! Last Modified: 2025年09月10日 06:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -945,7 +945,7 @@ upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 gamefront.com#$#abort-current-inline-script $ AdBlock
 kickassanime.io##.ka-ax-wrp.mb-3
 imagefap.com#$#abort-on-property-read popCookie
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"ffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"eefernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"uffer") or contains(@href,"/gameadult/")]/parent::p[@style][1]'; hide-if-matches-xpath './/a[contains(@href,"ernf?") or contains(@href,"/gameadult/")]/parent::p[1]'; hide-if-matches-xpath './/a[contains(@href,"fcrnf?") or contains(@href,"/gameadult/")]/parent::p[1]'; hide-if-matches-xpath './/a[contains(@href,"rnf?") or contains(@href,"/gameadult/")]/parent::p[1]'; race stop;
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"ffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"eefernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"uffer") or contains(@href,"/gameadult/")]/parent::p[1]'; hide-if-matches-xpath './/a[contains(@href,"ernf?") or contains(@href,"/gameadult/")]/parent::p[1]'; hide-if-matches-xpath './/a[contains(@href,"fcrnf?") or contains(@href,"/gameadult/")]/parent::p[1]'; hide-if-matches-xpath './/a[contains(@href,"rnf?") or contains(@href,"/gameadult/")]/parent::p[1]'; race stop;
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-write window.open; abort-current-inline-script document.documentElement break;case $.
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 amyscans.com##div[class*="code-block"]
@@ -2355,6 +2355,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||shrewkabonga.com^
 ||singlyairview.com^
 ||sleevervillas.help^
+||smashupshanked.com^
 ||smokestallyho.com^
 ||socagercornet.com^
 ||spinksleet.top^
@@ -2373,6 +2374,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||tammycooly.com^
 ||tampurunrig.com^
 ||tattvaballute.com^
+||techneparlous.com^
 ||teenerdormer.com^
 ||thimpardas.com^
 ||thornenotacust.shop^
