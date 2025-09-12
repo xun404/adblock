@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TdTr14VrsrQfjjd43AfOkQ
+! Checksum: nv3lG2IHlRXJ7VIRRWZc2g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202509122337
-! Last Modified: 2025年09月12日 23:37
+! Version: 202509130537
+! Last Modified: 2025年09月13日 05:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21683,6 +21683,7 @@ m.babytree.com##script + a[class]
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
+/js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
 /js/_analytics.js
 /js/analitics.js
@@ -23943,6 +23944,7 @@ omni.soundestlink.com$image
 ||matheranalytics.com^
 ||mathilde-ads.com^
 ||matomo3.org^
+||maxclientstatapi.com^
 ||maxepv.com^
 ||mb-tracking.com^
 ||mbmgivexdvpajr.com^
@@ -28918,6 +28920,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flixster.com^*/analytics.
 ||flocdn.com^*/dpl/
 ||flocktory.com^*/tracks/
+||fls-na.amazon.com^
 ||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
 ||fmnetwork.nl/tracking/
@@ -29336,6 +29339,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loglady.skypicker.com^
 ||logs-api.shoprunner.com^
 ||logs.animaapp.com^
+||logs.betterstack.com^
 ||logs.datadoghq.com^$third-party
 ||logs.dynamicauth.com^
 ||logs.mezmo.com^
@@ -31006,6 +31010,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beagle.prod.tda.link^
 ||blacktri-a.akamaihd.net^
 ||cdn.c-i.as^$script,third-party
+||cesar-it.de/collect/
 ||cgicounter.onlinehome.de^
 ||clipkit.de/metrics?
 ||cloudfront.net/customers/24868.min.js
@@ -33143,6 +33148,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.freemake.com^
 ||metrics.hackerrank.com^
 ||metrics.hyperliquid.xyz^
+||metrics.imdb.com^
 ||metrics.onewegg.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
@@ -33169,6 +33175,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||modanisa.com/al/j/analytics.js
 ||mollusk.apis.ign.com/metrics/
 ||mon.us.tiktokv.com^
+||monetarygoldgroup.com/_ub/
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||monitor.channel4.com^
 ||monitor.lifemiles.com/collect
@@ -33863,7 +33870,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trivago.com/tracking/
 ||trk.decido.io^
 ||trk.tirto.id^
-||trueachievements.com/tgn/ana?*page_view
 ||trumba.com/et.aspx?
 ||trustradius.com/api/v1/pageview
 ||trustradius.com/api/v2/collectMetrics
