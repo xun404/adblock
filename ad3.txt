@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3ebxe/GsddGkASNxQ+rgWw
+! Checksum: mJ86uF09wrjyqHd78eGP5g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202509132237
-! Last Modified: 2025年09月13日 22:37
+! Version: 202509140738
+! Last Modified: 2025年09月14日 07:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1746,6 +1746,9 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||766lnwfo7h.com^
+||aqxh9x1o7m.com^
+||yur09140og.com^
 ||ual23t6yz.com^
 ||yur09130og.com^
 ||2osq127yy.com^
@@ -23317,6 +23320,7 @@ m.babytree.com##script + a[class]
 ?type=page&event=
 ?type=pageview&
 ?v=2&tid=G-$~third-party
+?wmcAction=wmcTrack&
 _beacon?
 _c.gif?c=
 _chartbeat.js
@@ -31579,6 +31583,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.triboomedia.it^
 ||tourmake.it^*/stat/
 ||tourmake.it^*/stats?
+||tps.trovaprezzi.it^
 ||tr.brand-fresh.it^
 ||tr.bt.matrixspa.it^
 ||track.cedsdigital.it^
@@ -32452,6 +32457,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||carsandbids.com/a/p
 ||cbc.ca/g/stats/
 ||cc.cc/visit_log_ajax/visit_log_save_ajax.php?
+||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
 ||cdn.jsdelivr.net/npm/@adshield/
 ||centerblog.net/stats.js
 ||cgtn.com/api/collect/
@@ -32578,6 +32584,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
+||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||darkreader.org/data/top-backers.json
 ||darkreader.org/elements/backers-
 ||darkreader.org/elements/statistics.js
@@ -71618,6 +71625,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||log.kinolights.com^
 ||log.tossinvest.com^
 ||log.zdnet.co.kr^
+||nam.veta.naver.com^
 ||naver.com/jackpotlog/
 ||naver.com/PostView.nhn?$image
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
@@ -71628,7 +71636,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||shinsegae.com/topNPopup.do
 ||sp.naver.com^
 ||ssgdfs.com/kr/common/getPageIcfCd
+||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js$domain=naver.com
+||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
 ||stat.i3.dmm.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
