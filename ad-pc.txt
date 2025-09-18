@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tVYp0qQ90tbKBtCMmvFNBw
+! Checksum: C76XDewjXSS1IORoeJZnAw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202509190440
-! Last Modified: 2025年09月19日 04:40
+! Version: 202509190538
+! Last Modified: 2025年09月19日 05:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -33142,6 +33142,7 @@ browsershots.org#@#.advert_area
 ||jgzmqlkqnkqjv.top^
 ||jhakuzzvcilbv.website^
 ||jhbjkqqykibyt.buzz^
+||jhbncnmpwfpgf.space^
 ||jhbrggmoyarhwri.xyz^
 ||jhcccvxqnkdit.website^
 ||jhebhefcekqpi.site^
@@ -35371,6 +35372,7 @@ browsershots.org#@#.advert_area
 ||livezombymil.com^
 ||livid-management.pro^
 ||lividgod.pro^
+||lividprompt.pro^
 ||livrestyromas.top^
 ||livvbkx-vejj.xyz^
 ||livxlilsq.click^
@@ -48475,6 +48477,7 @@ browsershots.org#@#.advert_area
 ||tslomhfys.com^
 ||tslzggdkpwvyk.online^
 ||tsml.fun^
+||tsnkqqzsnlfsn.store^
 ||tsouvwkpdg.net^
 ||tsouvwkpdg.xyz^
 ||tspops.com^
@@ -68570,6 +68573,7 @@ woot.com##[data-test-ui="advertisement-cdm-zone-06"]
 drivencarguide.co.nz##[data-test-ui="outbrain-suggestions"]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
+target.com##[data-test="recommended_products_placement_adaptpdp_sponsored_items"]
 zillow.com##[data-test="search-list-first-ad"]
 target.com##[data-test="sponsored-text"]
 reuters.com##[data-testid="CnxPlayer"]
@@ -70667,6 +70671,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-ad-card"]
 checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
+target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 samsclub.com#?#li[data-slide]:-abp-contains(Sponsored)
 coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:-abp-contains(Sponsored))
 bjs.com#?#[data-cnstrc-recommendations]:-abp-contains(Sponsored Products)
@@ -143346,6 +143351,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
+@@||lasicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
