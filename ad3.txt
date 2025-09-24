@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zgqsnFXhMXM2T/VTWIlLxw
+! Checksum: N/TA4ZwyI+sZ1ZAEaE/1cw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202509242341
-! Last Modified: 2025年09月24日 23:41
+! Version: 202509250047
+! Last Modified: 2025年09月25日 00:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27130,7 +27130,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||andyhoppe.com^$third-party
 ||anormal-tracker.de^$third-party
 ||area51.to^$third-party
-||asadcdn.com^$third-party
 ||atsfi.de^$third-party
 ||audiencemanager.de^$third-party
 ||audienzz.ch^$third-party
@@ -28199,6 +28198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.aimtell.com^
 ||analytics.algolia.com^
 ||analytics.amakings.com^
+||analytics.api.justeattakeaway.com^
 ||analytics.apnewsregistry.com^
 ||analytics.audioeye.com^
 ||analytics.avanser.com.au^
@@ -72769,8 +72769,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
-@@||asadcdn.com/adlib/$domain=computerbild.de
-@@||asadcdn.com/assets/video/$domain=computerbild.de
 @@||aticdn.net/piano-analytics.js$domain=stuttgarter-nachrichten.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
