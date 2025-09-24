@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2FLH5+kCNtMYdIk+8ZhIUg
+! Checksum: WjStURBusFHFnhbwnIZkYg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202509241009
-! Last Modified: 2025年09月24日 10:09
+! Version: 202509241111
+! Last Modified: 2025年09月24日 11:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1754,6 +1754,7 @@ newduba.cn###jq_youxi
 ||kasgge.icu^
 ||throlnod.com^
 ||vowellm4.com^
+||wph2zu9rlb.com^
 ||dfi09230kq.com^
 ||bof8804jn.com^
 ||mrtm4lylj.com^
@@ -22344,6 +22345,7 @@ m.babytree.com##script + a[class]
 /player/stats.php?
 /plog?id
 /plow.lite.js
+/plugins/affiliate-wp/assets/js/tracking.min.js
 /plugins/catman/*
 /plugins/civic-science/js/pixel.js
 /plugins/duracelltomi-google-tag-manager/*
@@ -23211,6 +23213,7 @@ m.babytree.com##script + a[class]
 /visitorCookie.js
 /visitorcountry.svc/*
 /VisitorIdentification.js
+/visitors/collect_data|$xmlhttprequest
 /visitors/screencount?
 /visitortrack?
 /visitortracker.pl?
@@ -23413,6 +23416,7 @@ m.babytree.com##script + a[class]
 ://track.*/dye
 ://track.*/visitor/
 ://tracker.*/pageview
+://tracker.*/track/event
 ://tracking.*/beacon/
 ://tracking.*/event
 ?[AQB]&ndh=1&t=
@@ -28543,6 +28547,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.ypcdn.com^*&ptid
 ||c.ypcdn.com^*?ptid
 ||c3metrics.medifast1.com^
+||c6.paypal.com^$image
 ||cache2.delvenetworks.com^
 ||cafemedia.com/topics/clickstream-event
 ||calendly.com/telemetry.js
@@ -28968,6 +28973,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-store.sitebehaviour.com^
 ||event-stream.spot.im^
 ||event.api.drift.com^
+||event.api.instant.one^
 ||event.collector.scopely.io^
 ||event.instiengage.com^
 ||event.syftdata.com^
@@ -32135,6 +32141,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rambler.ru/counter.js
 ||redtram.com/px/
 ||retailrocket.ru/content/javascript/tracking.js
+||ria.ru/flv/livestat.aspx?
 ||s.agava.ru^
 ||s.holm.ru/stat/
 ||scnt.rambler.ru^
@@ -33561,6 +33568,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||promos.investing.com/*/digibox.gif?
 ||proporn.com/ajax/log/
 ||proxima.midjourney.com^
+||pt.blubrry.com^
 ||publicwww.com/mtm/mtm.js
 ||pulpulyy.club/cdn-cgi/trace
 ||pulsar.ebay.com^
@@ -33587,6 +33595,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||r.3hentai.net^
 ||r.apkpure.net^
 ||r.bbci.co.uk^
+||ra.co/proxy/client/metrics
+||ra.co/track/
 ||rabbit.donald.cat^
 ||raenonx.cc/api/tag
 ||raenonx.cc/g/usage/
@@ -72027,6 +72037,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||rabota.by/analytics?
 ||rabota.by/stat?
 ||radar.imgsmail.ru^
+||radiosputnik.ru/min/js/analytics/
 ||rambler.ru/metrics/
 ||rambler.ru/ts-metrics/
 ||rbc.ru/click?
