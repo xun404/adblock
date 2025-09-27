@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SLyDQ6xvLxIc6OPL4A4YKA
+! Checksum: kFB4XvPoRmjj0gncr0wRJA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202509270537
-! Last Modified: 2025年09月27日 05:37
+! Version: 202509271004
+! Last Modified: 2025年09月27日 10:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -363,6 +363,9 @@ idnes.cz##a[target="_blank"] > img[width="480"][height="300"]
 wwww.idnes.cz#?#div.r-main:-abp-has(div.r-body)
 www.idnes.cz#$#hide-if-matches-xpath '//div[@*[starts-with(name(), "data-") and .="ad"]]/self::div[1]'
 wwww.idnes.cz#$#hide-if-matches-xpath './/img[@title="reklama"]/parent::div/ancestor::div[contains(@id,"hypertext")][@class]'
+csfd.cz#$#hide-if-matches-xpath '//span[@class="ads-title"][text()="Reklama"]/ancestor-or-self::div[contains(@class,"column-half")][1]'
+csfd.cz#$#hide-if-matches-xpath '//span/following::span[@class="news-type-info"][text()="Reklama"]/ancestor-or-self::article[contains(@class,"article-hp-news")]'
+pluska.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"reklama")]/parent::div[contains(@class,"ReklamnyBox_wrapper")][1]'
 ! MISC
 centrum.cz##div[class^="sasic-ad"]
 centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
