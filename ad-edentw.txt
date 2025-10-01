@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qYUEkMFsZtdIw2EA5JL0Kw
+! Checksum: Q31WqiSRuqy1bQVQt9mM4w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202510011020
-! Last Modified: 2025年10月01日 10:20
+! Version: 202510011938
+! Last Modified: 2025年10月01日 19:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -915,7 +915,7 @@ onworks.net#$#override-property-read rewarded 0;
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
 boosterx.stream,vidsrc.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
 coflix.*,dhtpre.com,fmovies.*,swatchseries.is,vidhidepro.com,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
-hianime.*,magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,ups2up.*,bigwarp.*,savefiles.com,vide0.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+hianime.*,magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,ups2up.*,bigwarp.*,savefiles.com,vide0.net,watchug.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/; override-property-read window.diptr undefined; abort-on-property-read window.pu; abort-current-inline-script document.write iframe;
 gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,movies2watch.tv,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.*,solarmovie.*,toongod.com,watchseriestv.*,yomovies.cloud#$#abort-on-property-read window.open
@@ -963,7 +963,7 @@ liveru.sx#$#abort-on-property-read window.b5bb198737
 manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
-1afav.net,7us7m00f.fun,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,andyday-tv.lol,andydayz.*,animeheaven.pro,bf0skv.org,boosterx.stream,desi-porn.tube,emturbovid.com,fmovies.*,hqq.*,jilliandescribecompany.com,mixdrop.*,spankbang.com,supjav.com,putlocker.vip,web.netmovies.*,videasy.net,vidply.com,xprime.tv,zgdpo8nr.fun#$#abort-on-property-write window.open
+1afav.net,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,7us7m00f.fun,andyday-tv.lol,andydayz.*,animeheaven.pro,bf0skv.org,boosterx.stream,desi-porn.tube,emturbovid.com,fmovies.*,hqq.*,jilliandescribecompany.com,mixdrop.*,movearnpre.*,oneupload.*,putlocker.vip,spankbang.com,supjav.com,toflix.*,videasy.net,vidply.com,web.netmovies.*,xprime.tv,zgdpo8nr.fun#$#abort-on-property-write window.open
 1337x.buzz,komikav.com,limetorrents.lol,himovies.*,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.*,sxyprn.*,strikeout.cc,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 mathwarehouse.com#$#override-property-read MwAserver noopFunc
 bato.to#$#abort-current-inline-script document.createElement _vwmso
@@ -1129,7 +1129,7 @@ redd.tube#$#abort-on-property-read config
 stuff.co.nz#$#hide-if-matches-xpath '//div[@class="sponsored-container"]/div[@class="sponsored"]/ancestor-or-self::a[@class="cx-item"]'
 ups2up.*##div[style]>iframe[style]
 subtaboo.com#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1769px; height: 1010px; z-index: 2147483647;"]/ancestor-or-self::div[1]';
-showboxmovies.net,xprime.tv#$#abort-current-inline-script document.createElement /String\.fromCharCode.*[0-9]{2,3}/
+showboxmovies.net,xprime.tv,uqload.*,up4stream.*#$#abort-current-inline-script document.createElement /String\.fromCharCode.*[0-9]{2,3}/
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1711,7 +1711,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 theicec.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.lt,dualeotruyenf.com,yurineko.my,hay.sex,cliphot69.shop,doctruyen3qui14.com,ihentai.cloud,animehay.life,hentaivc.net,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,vn82phimsexhay.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,phim.sexnungvl.pro,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.net,damconuong.skin,truyenqqgo.com,clipsexsub3x.net,sayhentaii.art#$#abort-current-inline-script WebAssembly instantiate
+viet69.lt,dualeotruyenf.com,yurineko.my,haysexvl.net,cliphot69.shop,doctruyen3qui14.com,ihentai.cloud,animehay.life,hentaivc.net,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,vn82phimsexhay.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,phim.sexnungvl.pro,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.net,damconuong.skin,truyenqqgo.com,clipsexsub3x.net,sayhentaii.art#$#abort-current-inline-script WebAssembly instantiate
 www.motchill26.com,xnhau.sh,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hh3dhay.life,tram3d.net,animevietsub.show#$#abort-current-inline-script eval $._Eu
@@ -1727,7 +1727,7 @@ vailonxx.vip#$#abort-current-inline-script jQuery window.open
 tctruyen1.com#$#abort-current-inline-script $ popup
 truyenqqtto.com,phim.haysex.asia#$#abort-current-inline-script Promise break;case
 www.nettruyenupp.com#$#abort-on-property-read sp
-phimtho.net#$#abort-current-inline-script $ p0pUpRandom
+phimtho.cc#$#abort-current-inline-script $ p0pUpRandom
 tailieumoi.vn#$#override-property-read linkAff null
 cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_window_shoppe
 truyensextv.com,yanhh3d.vip#$#abort-current-inline-script document.addEventListener opup
