@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dmHH7PqP0AKR32YlfXZGzg
+! Checksum: 3RfReIggZ1JIv9L9y7ExUg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202510021340
-! Last Modified: 2025年10月02日 13:40
+! Version: 202510021537
+! Last Modified: 2025年10月02日 15:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -15441,6 +15441,7 @@ wantgoo.com##div[type="adv"]
 zuoye.baidu.com##dl[class="card related"]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
+douyin.com#?#.discover-video-card-item:-abp-has(>div>div>span:-abp-contains(广告))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
