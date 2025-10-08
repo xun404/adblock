@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1kaN8hJLbsrGyosmxCMagA
+! Checksum: ZM/AvwDQw8BKz0qmImaYCQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202510082244
-! Last Modified: 2025年10月08日 22:44
+! Version: 202510090046
+! Last Modified: 2025年10月09日 00:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1035,7 +1035,7 @@ vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded; abor
 @@||nosteam.ro/notcaptcha/adheader.js$domain=nosteamgames.ro
 /lvcsm/abck-banners/*^$domain=xv-ru.com|xvideos.com
 xvideos.com##div[id^="video-ad"]+div[class]
-xv-ru.com,xvideos.com,xnxx.com#$#prevent-listener DOMContentLoaded banners; json-prune 'banners'; abort-on-property-read xv.sda.banners
+xv-ru.com,xvideos.com,xnxx.com#$#prevent-listener DOMContentLoaded /loadAdsDelayed/; override-property-read xv.sda.pp.init noopFunc
 filelions.com,filelions.to#$#hide-if-matches-xpath './/div[contains(@style,"position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01")]/self::div[1]'
 adblockeronstreamtape.xyz,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,noblocktape.com,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamtape.*,streamtapeadblock.art,strtape.*,tapewithadblock.org#$#abort-current-inline-script JSON.parse Promise; abort-current-inline-script document.createElement adblock;
 */larkf?id=*$domain=animeunity.cc
