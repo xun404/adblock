@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Zfc5dLCisFij5EsBH/mz8w
+! Checksum: YkO8SvxpXGXm9fr26lP4og
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202510092350
-! Last Modified: 2025年10月09日 23:50
+! Version: 202510100048
+! Last Modified: 2025年10月10日 00:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2052,7 +2052,8 @@ dickssportinggoods.com##div[id*="dickssportinggoods/stores/top_banner_"]
 ! #RM-108
 ! ba
 slickdeals.net#$#hide-if-matches-xpath '//span[contains(text(),"Sponsored")][@data-partial="sponsor"]/ancestor-or-self::div[@data-role="announcementBar"][1]'
-slickdeals.net#$#hide-if-matches-xpath '//div[contains(@class,"displayAdContainer searchPage__")]/ancestor-or-self::div[@class="searchPage__headerContent"][1]'
+slickdeals.net#$#hide-if-matches-xpath '//div[contains(@class,"displayAdContainer")]/ancestor-or-self::div[@class="searchPage__headerContent"][1]'
+slickdeals.net##.displayAdContainer
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
