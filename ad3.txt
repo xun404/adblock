@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Es8Fv0h6HhUIuJumA0/6ag
+! Checksum: Yd2n91GcAMtIX02bhQSDfg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202510091647
-! Last Modified: 2025年10月09日 16:47
+! Version: 202510091741
+! Last Modified: 2025年10月09日 17:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14,6 +14,7 @@
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.alpha^$script,third-party
 /7755com-*00x*.gif
+/CC6F9ACB52D1582671AFEA808AFE10FE.gif
 ||subhd.*/kaiyad.
 /mxstatic/image/aabbc/985b74dc077d491.
 .xyz/z/*/code.js$script,third-party
@@ -1758,6 +1759,7 @@ newduba.cn###jq_youxi
 ||hlj10091ip.com^
 ||bfocuqeona.com^
 ||ggo10091lq.com^
+||awh3vupyf.com^
 ||vwtbrzymoz.com^
 ||bsyrimw.xyz^
 ||7p5ruxflv0.com^
@@ -18047,6 +18049,7 @@ wss://*.*.top/$third-party
 ||shuidixs.com/1.
 ||d1bz.xyz/static/book/static.
 ||huananxs.top/static/jp/js/ad
+||bachashuku.cc/scripts/ad/
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 $csp=script-src 'self' * 'unsafe-inline',domain=ternity.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
@@ -29959,6 +29962,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nvidia.partners/telemetry/
 ||nwr.static.mmcdn.com^
 ||o.aolcdn.com/js/mg1.js
+||o.momently.info^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
 ||obs.esnlocco.com^
 ||obs.jollyoutdoorjogger.com^
@@ -73115,6 +73119,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
+@@||hzcdn.io/bff/static/vendor/sourcepoint-lib/index.*.js$script,domain=marktplaats.nl
 @@||josiad.ns.nl/DG/DEFAULT/$xmlhttprequest
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
