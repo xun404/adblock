@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oJj9BCGj1YZO3oQ8ZdcXOQ
+! Checksum: 8QsDurzKYRYgTx0goQScYw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202510111339
-! Last Modified: 2025年10月11日 13:39
+! Version: 202510111444
+! Last Modified: 2025年10月11日 14:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1251,6 +1251,8 @@ _reklama_$domain=~youtube.com
 /_meetups/r.php?click_id=$document
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
+://0.www.*/player/*/a/$third-party,xmlhttprequest
+://0.www.*/player/*/m/$script,third-party
 ://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
 ://loader.*.com/loader.min.js|$script,~third-party
 ://www.*.com/*/-1/327/$script,subdocument,third-party,xmlhttprequest
@@ -1261,6 +1263,8 @@ _reklama_$domain=~youtube.com
 ://www.*.xyz/players/*/a/$subdocument,third-party
 ://www.*.xyz/players/*?h=$script,third-party
 ://www.*.xyz/script/*.com.js|$script,third-party
+://www.*/player/*/a/$third-party,xmlhttprequest
+://www.*/player/*/m/$script,third-party
 wss://www.*.xyz/ws^$third-party
 .com/ed/java.js$script
 /ed/fol457.$script
@@ -33007,6 +33011,7 @@ browsershots.org#@#.advert_area
 ||juicyads.me^
 ||juicycash.net^
 ||juicycontext.com^
+||juicymotor.pro^
 ||julidanwack.cyou^
 ||jullyambery.net^
 ||julolecalve.website^
@@ -45105,6 +45110,7 @@ browsershots.org#@#.advert_area
 ||rqwlvvkoqmzov.top^
 ||rqwlvvkoqqvqq.top^
 ||rqwtzwrgsmeaf.online^
+||rqyebojzwakwy.top^
 ||rqyebojzwalww.top^
 ||rqyebojzwalza.top^
 ||rqyjlkojuohpv.online^
@@ -47391,6 +47397,7 @@ browsershots.org#@#.advert_area
 ||sqrobmpshvj.com^
 ||sqtagpqwzyfhj.site^
 ||sqtnbselqbaqw.site^
+||sqtpgwvxxad.net^
 ||sqtwsctpdijzw.fun^
 ||squallscaroler.world^
 ||squalornitrian.qpon^
@@ -49197,6 +49204,7 @@ browsershots.org#@#.advert_area
 ||tqnogxuqgwlmj.space^
 ||tqoneyyivw.club^
 ||tqpuvxhsrcoon.store^
+||tqtfcsckecekkt.com^
 ||tqtlyzaztpngj.site^
 ||tqubpwiemh.com^
 ||tr-boost.com^
@@ -56597,6 +56605,7 @@ browsershots.org#@#.advert_area
 ||ughjubilantly.com^
 ||unfortunatelyafter.com^
 ||untostakejiggle.com^
+||upbeatdualyahoo.com^
 ||uprightfondly.com^
 ||w9l4tr4013tn5mo27t0w.xyz^
 ||whoseabacus.com^
@@ -76739,6 +76748,7 @@ newduba.cn###jq_youxi
 ||sbkpsa.icu^
 ||xbxfdn.icu^
 ||m81mfege2.com^
+||1paujqtq9.com^
 ||wxx776sxqk.com^
 ||br0vjqh7pe.com^
 ||ggo10100lq.com^
