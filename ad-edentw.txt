@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7NbtGcxB606+UUuFn3ODAA
+! Checksum: 3Eo4wcG0C+LIahuRDV5h+g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202510132146
-! Last Modified: 2025年10月13日 21:46
+! Version: 202510132341
+! Last Modified: 2025年10月13日 23:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -895,7 +895,7 @@ freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.or
 porntrex.com#$#abort-on-property-write preventDefault
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
 aniwatchtv.*,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
-andyday-tv.lol,andydayz.*,andyday.*,soaper.tv,kickassanime.*,putlocker.vip,vidco.pro#$#abort-current-inline-script document.documentElement break;case $.
+andyday-tv.lol,andydayz.*,andyday.*,soaper.tv,kickassanime.*,theflixertv.*,putlocker.vip,vidco.pro#$#abort-current-inline-script document.documentElement break;case $.
 kickassanime.*,vidco.pro#$#override-property-read ifmax true
 mixdrop.*#$#override-property-read MDCore.adblock 0; abort-current-inline-script String.fromCharCode; abort-on-property-read window.open;
 skidrowreloaded.*,vidsrc.*#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
@@ -958,14 +958,14 @@ clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-curre
 tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 fmovies.*,hurawatch.cc,theflixer.tv#$#abort-on-property-read window.zfgstorage
-dopebox.to,fmovies.*#$#abort-current-inline-script document.createElement delete window
+dopebox.to,fmovies.*,theflixertv.*#$#abort-current-inline-script document.createElement delete window
 omegascans.org#$#abort-on-property-read window.__adFormats
 liveru.sx#$#abort-on-property-read window.b5bb198737
 manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
 1afav.net,1film.to,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,7us7m00f.fun,andyday-tv.lol,andydayz.*,animeheaven.pro,bf0skv.org,boosterx.stream,desi-porn.tube,dinisglows.com,dsvplay.com,emturbovid.com,flaswish.com,flemmix.*,fmovies.*,hqq.*,jilliandescribecompany.com,jkanime.*,mdfx9dc8n.net,mixdrop.*,movearnpre.*,oneupload.*,putlocker.vip,spankbang.com,supjav.com,tipfly.xyz,toflix.*,ups2up.*,videasy.net,vidply.com,web.netmovies.*,xprime.tv,zgdpo8nr.fun#$#abort-on-property-write window.open
-1337x.buzz,komikav.com,limetorrents.lol,himovies.*,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.*,sxyprn.*,strikeout.cc,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
+1337x.buzz,komikav.com,limetorrents.lol,himovies.*,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.*,sxyprn.*,strikeout.cc,thepiratebay10.xyz,theflixertv.*#$#abort-current-inline-script document.createElement script
 mathwarehouse.com#$#override-property-read MwAserver noopFunc
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 1film.to,animepahe.*,dsvplay.com,flemmix.*,fuxporn.com,gogoplay1.com,komikcast.com,lookmovie.la,manhuascan.io,mdfx9dc8n.net,oneupload.*,prmovies.bz,speedostream.com,tipfly.xyz,ups2up.*,watchseri.net,wiflix.*,wiflix-max.site,yomovies.cam,yomovies.ws#$#abort-current-inline-script JSON.parse
@@ -2025,6 +2025,7 @@ mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"
 sameday.costco.*#$#hide-if-matches-xpath './/div[@style]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored") or contains(@alt,"Advertisement")]/ancestor-or-self::div[@id][@class][1]'
 ! mc
 sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; race stop;
+sameday.costco.*#$#hide-if-matches-xpath './/div[@id]/div[@id][descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(),"ored")]]/parent::div[@id][1]'
 sameday.costco.*#$#override-property-read ADBLOCK_DETECTED false
 ! #RM-207
 ||app.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
