@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8w2eLP2ezYAG8JzSLnfZPQ
+! Checksum: PcbqOjRfh60ge+1RGEm/sg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202510141742
-! Last Modified: 2025年10月14日 17:42
+! Version: 202510141844
+! Last Modified: 2025年10月14日 18:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1685,7 +1685,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-achristmascarollive.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+rileygainescenter.org#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1695,7 +1695,7 @@ clipsex.cam,ww12.sexkhongchemoi.com#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
-achristmascarollive.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+rileygainescenter.org#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net,xem17.net#$#json-prune props.children.[].props.tvc
 hh2d.tv#$#abort-current-inline-script $ adblock
@@ -1760,7 +1760,9 @@ www.sieutamphim.pro#$#abort-on-property-read _$_75bd
 quatvn.love#$#abort-current-inline-script window.addEventListene localStorage
 checkscam.vn#$#abort-current-inline-script document.addEventListener open
 haysexvl.life#$#abort-current-inline-script document.addEventListener adx
-clipphot.net#¢#abort-current-inline-script document.addEventListener POP
+clipphot.net#$#abort-current-inline-script document.addEventListener POP
+audiotruyenfull.com#$#abort-current-inline-script document.addEventListener ai_run
+audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
 ! *** abp-filters-anti-cv:RM.txt ***
 ! #RM-1
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
@@ -1834,7 +1836,7 @@ instacart.*##li:has(fp-ads-tag):not(:has(h2))
 ! ta
 instacart.*##div[id][class]:has(> div:first-child > a img[alt*="Sponsored"], > div[aria-hidden="true"]:last-child)
 ! tc
-instacart.*#$#hide-if-matches-xpath './/div[contains(@style,"display:")]/following::span[text()]/ancestor::div[@id][@class="e-1hv1sre"][1]'
+instacart.*##div[id][class]:has(> a img[alt="Advertisement"]):has(li:first-of-type a div[style*="display:"] span)
 ! mc
 instacart.*##div[id][class]:has(> a > div:first-child img):has(> a div[style*="display:"] span)
 ! tp
