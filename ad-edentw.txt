@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AzqQuuav5vZTsNVsq5qm4g
+! Checksum: Dr1R4OP1t87W2sfdizv+yw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202510180246
-! Last Modified: 2025年10月18日 02:46
+! Version: 202510180338
+! Last Modified: 2025年10月18日 03:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1848,7 +1848,6 @@ instacart.*##div[id][class]:has(> div:first-child > a img[alt*="Sponsored"], > d
 instacart.*##div[id][class]:has(> a > img):has(ul li:first-of-type a div[style*="display:"] span)
 ! mc
 instacart.*##div[id][class]:has(> a > div:first-child img):has(> a div[style*="display:"] span)
-instacart.*##div:has(> div > div > h2 + span):has(div[role="region"] ul[role="presentation"])
 ! tp
 instacart.*##div:has(> div > div > h2 + span):has(div[role="region"] ul[role="presentation"])
 instacart.*#$#abort-on-property-write window.ADBLOCK_DETECTED; abort-current-inline-script setTimeout ic-detect-ad-block; override-property-read adblockDetected false;
