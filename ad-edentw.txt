@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rcgvJ/P0dva47dYat3cfyg
+! Checksum: 8paVgEzDD4ZGHDoPqLfVsw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202510212108
-! Last Modified: 2025年10月21日 21:08
+! Version: 202510212342
+! Last Modified: 2025年10月21日 23:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -539,6 +539,7 @@ expres.cz##a[href*="preroll"]
 expres.cz##a[href*=";cdata="]
 expres.cz##a[href*="/supertag=InstreamVideo/"]
 karaoketexty.cz#$#abort-current-inline-script  adb
+livesport.cz#$#hide-if-matches-xpath './/span[.="AD"]/parent::div/ancestor::div[@id][@class][1]'
 ! Popup/Popunder
 dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ! *** abp-filters-anti-cv:dutch.txt ***
@@ -1141,6 +1142,7 @@ stuff.co.nz#$#hide-if-matches-xpath '//div[@class="sponsored-container"]/div[@cl
 ups2up.*##div[style]>iframe[style]
 subtaboo.com#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1769px; height: 1010px; z-index: 2147483647;"]/ancestor-or-self::div[1]';
 showboxmovies.net,xprime.tv,uqload.*,up4stream.*#$#abort-current-inline-script document.createElement /String\.fromCharCode.*[0-9]{2,3}/
+perezhilton.com##.lazy-ad-parent
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1253,6 +1255,7 @@ anime-sama.fr#$#hide-if-matches-xpath './/a[contains(@href,"paid_referral")]/img
 automobile-propre.com#$#hide-if-matches-xpath '//div[contains(@class,"optidigital-ad-center-sticky")]/preceding::p[contains(text(),"annonce")]/parent::div[contains(@class,"max-md:!hidden")][1]'
 automobile-propre.com##div[data-ref="halfpage-ad"]
 automobile-propre.com##div[class*="ad-desktop"]
+pausemusicale.com#$#hide-if-matches-xpath './/div[contains(@id,"hit-inc-")][@style="min-height:280px"]'
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
