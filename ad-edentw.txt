@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +BdH4FkSM9uA0qJsg9YChQ
+! Checksum: u/AGOr7p8p3KOFsuj4nqvg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202511041847
-! Last Modified: 2025年11月04日 18:47
+! Version: 202511042110
+! Last Modified: 2025年11月04日 21:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1175,7 +1175,7 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 2chan.net#$#abort-on-iframe-property-read document.currentScript;
 2chan.net##iframe[src^="https://dec.2chan.net/bin/"]
 hitomi.la#$#hide-if-matches-xpath './/iframe[@id][@sandbox][@scrolling]/parent::div[@id][1]'
-game8.jp#$#hide-if-matches-xpath './/iframe[@src]/parent::div[@style]/ancestor::div[@id][1]'
+game8.jp#$#hide-if-matches-xpath './/iframe[@src]/parent::div[@style]/ancestor::div[contains(@id, "img_")][1]
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
