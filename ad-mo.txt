@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a4aSrxqdQJKNQI0X250Yjg
+! Checksum: IHaxiQovGIbrjJ+BbLVFZg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202511061452
-! Last Modified: 2025年11月06日 14:52
+! Version: 202511061539
+! Last Modified: 2025年11月06日 15:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -811,6 +811,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /link?z=$subdocument
 /lmaz-ads-bannesr/*$script
 /mads.php$subdocument
+/mai-publisher-ads.js$script
 /maven/am.js$script
 /media/ads/*$image
 /media_ads/*$image
@@ -12474,6 +12475,8 @@ _800x80_
 ##.mad_adcontainer
 ##.magAd
 ##.magad
+##.mai-ad-unit-container
+##.mai-ad-video
 ##.main-ad
 ##.main-ad-container
 ##.main-ad-gallery
@@ -25816,6 +25819,7 @@ browsershots.org#@#.advert_area
 ||employerupsideliterally.com^
 ||empond.com^
 ||empoverchimes.rest^
+||empowerlocal.co^
 ||emptierkimchi.life^
 ||emptinessabjure.com^
 ||empty-advantage.pro^
@@ -29406,6 +29410,7 @@ browsershots.org#@#.advert_area
 ||gumon.site^
 ||gumophauny.net^
 ||gumvdxuwlvrjk.com^
+||gumyfui.com^
 ||gunatedbivvy.cfd^
 ||gundecklunts.rest^
 ||gunfirenestles.click^
@@ -32414,6 +32419,7 @@ browsershots.org#@#.advert_area
 ||jalapicbecharm.com^
 ||jalapicundelve.top^
 ||jaletemetia.com^
+||jalnukexsct.com^
 ||jalopycarrel.cfd^
 ||jalormisdid.rest^
 ||jaltvejugmjjq.online^
@@ -72858,6 +72864,7 @@ babylonbee.com##[href^="https://www.yrxtrk.com/aff_c"]
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
+bridgebase.com##[id*="_ad"]
 homedepot.com##[id*="sponsored"]
 80.lv##[id^="Image_bner_"]
 ldoceonline.com##[id^="ad_contentslot"]
