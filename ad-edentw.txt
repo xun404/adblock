@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0KTtmWOJUVW4xWlPLrpRCQ
+! Checksum: 9cLtmDoHYCLXjhvytnWjoQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202511080246
-! Last Modified: 2025年11月08日 02:46
+! Version: 202511101846
+! Last Modified: 2025年11月10日 18:46
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -574,13 +574,13 @@ pons.com#$#override-property-read performance.getEntriesByType noopFunc; overrid
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
-collinsdictionary.com,bab.la,timesofindia.indiatimes.com,nouvelobs.com,winfuture.de#$#override-property-read Date.now noopFunc
+collinsdictionary.com,bab.la,timesofindia.indiatimes.com,winfuture.de#$#override-property-read Date.now noopFunc
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.confirm
 gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.alert
 ||fb.html-load.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
 ||content-loader.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
-collinsdictionary.com,bab.la,tz.de,timesofindia.indiatimes.com,nouvelobs.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
-||*/loader.min.js|$script,domain=bab.la|collinsdictionary.com|nouvelobs.com
+collinsdictionary.com,bab.la,tz.de,timesofindia.indiatimes.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
+||*/loader.min.js|$script,domain=bab.la|collinsdictionary.com
 ||asloader.tz.de^$script,domain=tz.de
 tz.de##iframe[src*="report.error-report.com/modal"]
 ||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
@@ -1707,7 +1707,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-activeeon.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+aacommission.org#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
@@ -1717,12 +1717,14 @@ clipsex.cam,ww12.sexkhongchemoi.com#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
 cliphot69.pics#$#override-property-read a_vid 0
-activeeon.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+aacommission.org#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net#$#json-prune props.children.[].props.tvc
 hh2d.tv#$#abort-current-inline-script $ adblock
 tram3d.xyz#$#abort-current-inline-script setTimeout appendChild
 cliphubs.com#$#abort-current-inline-script document.addEventListener pop
+www.bachnguyetquang.online##.ant-modal-root
+www.bachnguyetquang.online#?#body {overflow: auto !important;}
 ! Popup/Popunder/Clickunder
 vinaurl.net,anime12.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,keysmatterinc.com,samtruyentranh.com,player.phimapi.com,noitu.site,sachmoi.net,xfast.sbs#$#abort-on-property-read open
 tvhay.top#$#abort-current-inline-script JSON.parse atob
@@ -1736,7 +1738,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 theicec.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-viet69.nu,dualeotruyenlv.com,yurineko.my,haysexvl.net,cliphot69.shop,doctruyen3qui16.com,ihentai.cloud,animehay.life,hentaivc.com,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,phimsexhayvn50.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,xem.sexnung3x.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.co,truyenqqgo.com,clipsexsub3x.net,sayhentaii.ink,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net#$#abort-current-inline-script WebAssembly instantiate
+viet69.nu,dualeotruyenlv.com,yurineko.my,haysexvl.net,cliphot69.shop,doctruyen3qui16.com,ihentai.cloud,animehay.life,hentaivc.com,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,phimsexhayvn55.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,xem.sexnung3x.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.co,truyenqqgo.com,clipsexsub3x.net,sayhentaii.ink,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net,newtruyenhot.pro#$#abort-current-inline-script WebAssembly instantiate
 www.motchill32.com,xnhau.sh,teamlanhlung8.shop,xemphimjav.us#$#abort-on-property-read localStorage
 hh3dhay.life,tram3d.net,animevietsub.show#$#abort-current-inline-script eval $._Eu
 p.thoctv.com,phimlongtieng.net#$#abort-current-inline-script document.createElement script
@@ -1758,7 +1760,7 @@ truyensextv.com,yanhh3d.vip,s4.chinav.sex#$#abort-current-inline-script document
 imail.edu.vn#$#abort-current-inline-script setTimeout Aff;abort-current-inline-script setTimeout ad_block
 www.toptruyentv11.com#$#abort-current-inline-script setTimeout open
 phimmoi.sale,motphimww.biz#$#abort-current-inline-script addEvent popu
-freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com#$#override-property-read open noopFunc
+freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com,www.bachnguyetquang.online#$#override-property-read open noopFunc
 freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com#$#abort-current-inline-script document.getElementById openPop
 nettruyenar.com#$#abort-on-property-read links
 goctruyentranhvui17.com,sextop1.show,hhvsub.com,vn5.sexviet88.xyz#$#abort-current-inline-script WebAssembly globalThis
@@ -1787,7 +1789,7 @@ audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
 pheclip.vet,phim18vip.one#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
-activeeon.com#$#abort-current-inline-script jQuery open
+aacommission.org#$#abort-current-inline-script jQuery open
 ! *** abp-filters-anti-cv:RM.txt ***
 ! #RM-1
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
