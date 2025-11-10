@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QAKisx44nsJPyY51FONAuw
+! Checksum: rBKU5wCamoumU9lifWn4/A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202511101540
-! Last Modified: 2025年11月10日 15:40
+! Version: 202511101649
+! Last Modified: 2025年11月10日 16:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17592,7 +17592,7 @@ $script,third-party,domain=cilimao.co|cilimao.one
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 ||cilimao.*/amaod/
 !#CSP filters
-$csp=script-src 'self' * 'unsafe-inline',domain=nodejs.cn|smsonline.cloud
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 !#ddooo.com
 ddooo.com##.gadat_list
