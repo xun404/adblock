@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z9N8HZi+KR7+m5LEvuOmjw
+! Checksum: +BpmyNT/zw8tc8LlSxpByw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202511141648
-! Last Modified: 2025年11月14日 16:48
+! Version: 202511150740
+! Last Modified: 2025年11月15日 07:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1758,6 +1758,7 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||wsnxw6ihs.com^
 ||o9qdqbu6nu.com^
 ||yxwg21lyyn.com^
 ||judicial4.com^
@@ -73174,6 +73175,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
+@@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
 @@||areaclienti.generali.it/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js$script,~third-party
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
 @@||chartbeat.com/js/chartbeat_brightcove_plugin.js$domain=capital.it|deejay.it|m2o.it
