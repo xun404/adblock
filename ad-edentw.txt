@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WMOiLQMGf5zTMBD1+njCpA
+! Checksum: 27SdZ9/cIA00tIS2FSXDEg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202511142242
-! Last Modified: 2025年11月14日 22:42
+! Version: 202511150049
+! Last Modified: 2025年11月15日 00:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1653,7 +1653,7 @@ pornstarsyfamosas.es#$#abort-on-property-write _pop
 animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelispoptv.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 gnula.nu,pelisnow.to,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
 futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
-gnula.cc,series24.nu#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
+gnula.cc#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 latinblog.tv,peladas69.com#$#abort-on-property-read __formatsGetters
 animefenix.org,animeonline.ninja,audaciousdefaulthouse.com#$#abort-on-property-read window.open
@@ -1687,6 +1687,7 @@ animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-i
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
+series24.*#$#abort-on-property-read aclib.runPop
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! *** abp-filters-anti-cv:turkish.txt ***
@@ -2361,6 +2362,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||loftmentiple.com^
 ||longlysolates.help^
 ||lunularcense.com^
+||macacusdame.com^
 ||mahubraces.com^
 ||maihikuh.com^
 ||maraywreath.com^
