@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AWIxWlDGTbV4TV5BTM53ug
+! Checksum: /1Sq0nnekVF9zU0NUPmu3A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202511202242
-! Last Modified: 2025年11月20日 22:42
+! Version: 202511210251
+! Last Modified: 2025年11月21日 02:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1139,7 +1139,7 @@ megacloud.*#$#hide-if-matches-xpath './/div[@id="megacloud-player"]//a[@id="clos
 motortrend.com#$#hide-if-matches-xpath './/div[contains(@id,"ad-id-curated_abovenavad")][@data-ad="true"]/parent::div[contains(@class,"cls-helper")][1]'
 @@||hanime.tv^$generichide
 hanime.tv#$#override-property-read ABLK false
-legacy.com#$#hide-if-matches-xpath '//div[contains(@class,"AdSlot__StandardAd")]'
+legacy.com##div[class*="AdSlot__StandardAd"]
 sexvid.*##div[class^="sp-player visible"][id^="sp-player"]
 xhamster.*#$#hide-if-matches-xpath './/div[contains(@data-role,"banner")]//div[contains(@data-role,"sponsor-banner")]/ancestor::div[@data-role][1]'
 mixdrop.*#$#abort-current-inline-script $ String.fromCharCode; override-property-read MDCore.adblock 0;
