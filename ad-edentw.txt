@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5jbb1StkGkXYo7uU0LTX1w
+! Checksum: jN2EfXecbFZrUW//p1NltQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202512041941
-! Last Modified: 2025年12月04日 19:41
+! Version: 202512042111
+! Last Modified: 2025年12月04日 21:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -583,6 +583,112 @@ gutefrage.net#$#override-property-read window.navigator.connection.rtt 1001
 tz.de##iframe[src*="report.error-report.com/modal"]
 ||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
+||*/loader.min.js|$script,domain=dict.cc
+||error-report.com^,domain=dict.cc
+dict.cc#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=invoice-generator.com
+||error-report.com^,domain=invoice-generator.com
+invoice-generator.com#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=dictionary.cambridge.org
+||error-report.com^,domain=dictionary.cambridge.org
+dictionary.cambridge.org#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=collinsdictionary.com
+||error-report.com^,domain=collinsdictionary.com
+collinsdictionary.com#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=issuya.com
+||error-report.com^,domain=issuya.com
+issuya.com#$#override-property-readElement.prototype.removenoopFunc
+issuya.com#$#abort-on-property-write window.confirm
+issuya.com#$#abort-on-property-write window.alert
+issuya.com##iframe[src*="report.error-report.com/modal"]
+||*/loader.min.js|$script,domain=motorbikecatalog.com
+||error-report.com^,domain=motorbikecatalog.com
+motorbikecatalog.com#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=sportsseoul.com
+||error-report.com^,domain=sportsseoul.com
+sportsseoul.com#$#replace-outbound-values'atob''c3RyaW5n''false'
+sportsseoul.com#$#override-property-read Element.prototype.remove noopFunc
+sportsseoul.com#$#abort-on-property-write window.confirm
+sportsseoul.com#$#abort-on-property-write window.alert
+sportsseoul.com##iframe[src*="report.error-report.com/modal"]
+||*/loader.min.js|$script,domain=flatpanelshd.com
+||error-report.com^,domain=flatpanelshd.com
+flatpanelshd.com#$#replace-outbound-values'atob''c3RyaW5n''false'
+flatpanelshd.com#$#override-property-read Element.prototype.remove noopFunc
+flatpanelshd.com#$#abort-on-property-write window.confirm
+flatpanelshd.com#$#abort-on-property-write window.alert
+flatpanelshd.com##iframe[src*="report.error-report.com/modal"]
+||*/loader.min.js|$script,domain=cool-style.com.tw
+||error-report.com^,domain=cool-style.com.tw
+cool-style.com.tw#$#replace-outbound-values'atob''c3RyaW5n''false'
+cool-style.com.tw#$#override-property-read Element.prototype.remove noopFunc
+cool-style.com.tw#$#abort-on-property-write window.confirm
+cool-style.com.tw#$#abort-on-property-write window.alert
+cool-style.com.tw##iframe[src*="report.error-report.com/modal"]
+||*/loader.min.js|$script,domain=pressian.com
+||error-report.com^,domain=pressian.com
+pressian.com#$#replace-outbound-values'atob''c3RyaW5n''false'
+pressian.com#$#override-property-read Element.prototype.remove noopFunc
+pressian.com#$#abort-on-property-write window.confirm
+pressian.com#$#abort-on-property-write window.alert
+pressian.com##iframe[src*="report.error-report.com/modal"]
+||*/loader.min.js|$script,domain=crosswordsolver.com
+||error-report.com^,domain=crosswordsolver.com
+crosswordsolver.com#$#override-property-read window.navigator.connection.rtt 1001
+crosswordsolver.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
+||*/loader.min.js|$script,domain=wort-suchen.de
+||error-report.com^,domain=wort-suchen.de
+wort-suchen.de#$#override-property-read window.navigator.connection.rtt 1001
+wort-suchen.de#$#hide-if-matches-xpath './/div[contains(@class,"sticky-container")]/parent::div[1]'
+||*/loader.min.js|$script,domain=kreuzwortraetsel.de
+||error-report.com^,domain=kreuzwortraetsel.de
+kreuzwortraetsel.de#$#override-property-read window.navigator.connection.rtt 1001
+kreuzwortraetsel.de#$#hide-if-matches-xpath './/div[contains(@class,"mta-label")]/parent::div[1]'
+||*/loader.min.js|$script,domain=verkaufsoffener-sonntag.com
+||error-report.com^,domain=verkaufsoffener-sonntag.com
+verkaufsoffener-sonntag.com#$#override-property-read window.navigator.connection.rtt 1001
+verkaufsoffener-sonntag.com#$#hide-if-matches-xpath './/div[contains(@class,"g ")][.//div[contains(@class,"ads-") or contains(@id,"sticky")]//parent::div[1]]'
+||*/loader.min.js|$script,domain=word-grabber.com
+||error-report.com^,domain=word-grabber.com
+word-grabber.com#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=raetsel-hilfe.de
+||error-report.com^,domain=raetsel-hilfe.de
+raetsel-hilfe.de#$#override-property-read window.navigator.connection.rtt 1001
+raetsel-hilfe.de#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
+||*/loader.min.js|$script,domain=woxikon.de
+||error-report.com^,domain=woxikon.de
+woxikon.de#$#override-property-read window.navigator.connection.rtt 1001
+||error-report.com^,domain=oraridiapertura24.it
+||*/loader.min.js|$script,domain=oraridiapertura24.it
+oraridiapertura24.it#$#override-property-read window.navigator.connection.rtt 1001
+oraridiapertura24.it#$#hide-if-matches-xpath './/div[contains(@class,"anzeigenlabel")]/parent::div[@style][not(@id)]'
+||error-report.com^,domain=the-crossword-solver.com
+||*/loader.min.js|$script,domain=the-crossword-solver.com
+the-crossword-solver.com#$#override-property-read window.navigator.connection.rtt 1001
+the-crossword-solver.com#$#hide-if-matches-xpath './/div[contains(@id,"slot-sticky")]/parent::div[1]'
+||*/loader.min.js|$script,domain=laleggepertutti.it
+||error-report.com^,domain=laleggepertutti.it
+laleggepertutti.it#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=avsforum.com
+||error-report.com^,domain=avsforum.com
+avsforum.com#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=fansided.com
+||error-report.com^,domain=fansided.com
+fansided.com#$#override-property-read Element.prototype.remove noopFunc
+fansided.com#$#abort-on-property-read window.confirm
+fansided.com#$#abort-on-property-read window.alert
+fansided.com##iframe[src*="report.error-report.com/modal"]
+||error-report.com^,domain=gutefrage.net
+||*/loader.min.js|$script,domain=gutefrage.net
+gutefrage.net#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=oxfordlearnersdictionaries.com
+||error-report.com^,domain=oxfordlearnersdictionaries.com
+oxfordlearnersdictionaries.com#$#override-property-read window.navigator.connection.rtt 1001
+||*/loader.min.js|$script,domain=worldhistory.org
+||error-report.com^,domain=worldhistory.org
+worldhistory.org#$#abort-on-property-read AHE.canonicalPath false
+maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-container-id], [data-google-query-id])
+maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
@@ -1193,12 +1299,16 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 2chan.net##iframe[src^="https://dec.2chan.net/bin/"]
 hitomi.la#$#hide-if-matches-xpath './/iframe[@id][@sandbox][@scrolling]/parent::div[@id][1]'
 game8.jp#$#hide-if-matches-xpath './/iframe[@src]/parent::div[@style]/ancestor::div[contains(@id, "img_")][1]
+suzusoku.blog.jp#$#abort-current-inline-script jQuery floatingAd; hide-if-matches-xpath './/div[contains(@class,"-ad") or contains(@class,"2ad")]/self::div[1]'
+onecall2ch.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad") or contains(@class,"2ad")]/self::div[1]'
+||a8.net^$third-party,domain=suzusoku.blog.jp
+||spiritednow.xyz/ad^$subdocument,domain=pressian.com
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 ygosu.com##iframe[src^="https://cdn.nhnace.com"]
 ygosu.com##iframe[src^="https://tab2.clickmon.co.kr"]
-ygosu.com#$#hide-if-matches-xpath '//div[@style="text-align:center"][./iframe[@src]]'
+ygosu.com#$#hide-if-matches-xpath '//div[@style="text-align:center"][./iframe[@src]]'; hide-if-matches-xpath './/a[contains(@href,"board/ad")]/parent::td/parent::tr[1]'
 ! Thai sites
 animetaro.com#$#abort-on-property-read window.open
 ! Croatian sites
@@ -1329,6 +1439,7 @@ haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h2[class]
 ! MISC
 idokep.hu##div[class*="ad-lockup-top-"]
 idokep.hu#$#hide-if-matches-xpath '//div[contains(@class,"info-small")][text()="Hirdetés"]'
+slobodnadalmacija.hr#$#hide-if-matches-xpath './/div[@id][contains(@class,"ad--align")]/ancestor::div[1]'
 ! *** abp-filters-anti-cv:indian.txt ***
 ! #CV-669
 newstm.in,3pm.in##a[href*="/click.htm?"][target="_blank"]
