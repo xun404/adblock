@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1ytgH8f9BnGrcuahtHFuPQ
+! Checksum: 50wylTMeCie7A+N1fyhtNQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202512051940
-! Last Modified: 2025年12月05日 19:40
+! Version: 202512052108
+! Last Modified: 2025年12月05日 21:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1274,6 +1274,7 @@ flaswish.com#$#abort-on-property-read myScriptManager;
 mega.nz#$#replace-fetch-response '/aurl/' '' /mega.co.nz/
 ||up4stream.com/*.mp4^$domain=ups2up.fun
 ||camconnections.live^$xmlhttprequest,domain=gayporntube.com
+nba.com#$#override-property-read __NEXT_DATA__.props.clientConfigSettings.videoAds emptyObj
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
