@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6qEqc3snwVVJK/FSAKBbsA
+! Checksum: 1ytgH8f9BnGrcuahtHFuPQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202512051846
-! Last Modified: 2025年12月05日 18:46
+! Version: 202512051940
+! Last Modified: 2025年12月05日 19:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1120,6 +1120,7 @@ naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-rea
 fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
 animepahe.*#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
+afreesms.com#$#abort-current-inline-script document.getElementById window.open
 smallseotools.com#$#abort-current-inline-script $ ga_pop
 ||smallseotools.com/webimages/garamar*.png^$image,domain=smallseotools.com
 duplichecker.com#$#hide-if-matches-xpath './/img[@class="img-responsive"][@src]/preceding::a[@target="blank"][@rel="nofollow"]/ancestor-or-self::div[1]'
