@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XimhKYvOD5+c1fxmE4XXRA
+! Checksum: 4tzwUg/u+wTz0x/+9r7mfA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202512131136
-! Last Modified: 2025年12月13日 11:36
+! Version: 202512131647
+! Last Modified: 2025年12月13日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1768,6 +1768,8 @@ newduba.cn###jq_youxi
 ||insurance55.top^
 ||yarcokme.com^
 ||fsmnmorgb.com^
+||9soefyenw.com^
+||tkll12131nb.com^
 ||3nopvvhju5.com^
 ||veuf2obzc8.com^
 ||travel44.top^
@@ -21806,7 +21808,7 @@ m.babytree.com##script + a[class]
 /federated-analytics.all.min.js
 /figanalytics-short-ttl.js
 /fingerprint-3.4.1.js
-/fingerprint.js$domain=~github.com
+/fingerprint.js^$domain=~github.com
 /fingerprint.min.js
 /fingerprint/iife.min.js
 /fingerprint2.js
@@ -72821,6 +72823,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||crimemapping.com/cdn/*/analytics/eventtracking.js$~third-party
 @@||criteo.com/delivery/$domain=canadiantire.ca
 @@||cults3d.com/packs/js/quantcast-$~third-party
+@@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 @@||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js$domain=tatacliq.com
