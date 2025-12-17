@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8iOTPCbrxbbSuChaWjt3kQ
+! Checksum: mW8CaC7h6qyQqKXvwMgyxg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202512170741
-! Last Modified: 2025年12月17日 07:41
+! Version: 202512171023
+! Last Modified: 2025年12月17日 10:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1769,6 +1769,8 @@ newduba.cn###jq_youxi
 ||tkll12170nb.com^
 ||roj7ah16d.com^
 ||discount63.top^
+||xrkbhl2cp.com^
+||uybq.cn^
 ||6fm4dcpj31.com^
 ||cautious60.com^
 ||aybikaemg.com^
@@ -72818,6 +72820,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.lab.amplitude.com/v1/vardata?$domain=gaiagps.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.sprig.com/sdk/1/environments/$xmlhttprequest,domain=developer.salesforce.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.useinsider.com/api/web/$xmlhttprequest
 @@||api.vk.com/method/statEvents.$~third-party
