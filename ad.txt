@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x9JNiw/B8IRqemsxE1lj0w
+! Checksum: lZDkM5TNkjCAM10lGRMHiA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202512181653
-! Last Modified: 2025年12月18日 16:53
+! Version: 202512182111
+! Last Modified: 2025年12月18日 21:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2179,6 +2179,7 @@ newduba.cn###jq_youxi
 ##.a-media.ex-728-90
 ##a[clickmode="cpt"]
 ###foot > #btmBox
+##.home-qf > div[class*="img-qf"]
 ##.home-qf > div[class*="img-ad"]
 ##.module-player > .dds_w
 ##.content > .dds_w
@@ -2227,6 +2228,7 @@ newduba.cn###jq_youxi
 ||qkixeld.xyz^
 ||bvtwtwp.xyz^
 ||qezkdby1jj.com^
+||p5si0mu8u7.com^
 ||basically97.top^
 ||990ir3zfu.com^
 ||l6906qxga.com^
@@ -10850,6 +10852,7 @@ meijutt.*/js/pcjs/
 ||wujinyuzhou.top/ny/ny852x116.
 ||ping0.cc/static/images/ad/
 ||workers.dev^$domain=axiang.cc
+||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 youku.com##div[class*="adDrawer"]
