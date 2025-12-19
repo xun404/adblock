@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RQp4DseI90Wyc7qkagM29Q
+! Checksum: q/bhQXnxFgcugy9zSe5fIg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202512192109
-! Last Modified: 2025年12月19日 21:09
+! Version: 202512200050
+! Last Modified: 2025年12月20日 00:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10878,6 +10878,10 @@ meijutt.*/js/pcjs/
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+yahoo.com##li[id^="taboola-twhk-"]
+yahoo.com###StreamMidCenter2Ad-0
+yahoo.com##div[id^="sda-"][id$="-iframe"]
+yahoo.com##.bg-card-bg-1[class*="300px"]
 h-ciyuan.com##.responsive-figure
 warcraftlogs.com##span[id^="ap-"]
 warcraftlogs.com##span[id^="apsf-"]
@@ -15890,9 +15894,6 @@ sina.cn##div[data-adid]
 yahoo.com##div[data-content="廣告"]:not(#sda-MAST-iframe)
 yahoo.com##.taboola-ad-item-wrapper
 yahoo.com##.stream-responsive-ad-item
-yahoo.com###sda-top-right-iframe
-yahoo.com###sda-mid-right-iframe
-yahoo.com###sda-mid-right-2-iframe
 wealwomen.com##div[data-cptid]
 cqmmgo.com##div[data-id*="_adv_"]
 freejavbt.com##div[data-selector*="ai-insert-"]
