@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ia2LXNk6JFXvQC69dV1DdA
+! Checksum: PgBDi6HFzeXZkqnQzV9KVA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202512191941
-! Last Modified: 2025年12月19日 19:41
+! Version: 202512200139
+! Last Modified: 2025年12月20日 01:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1087,7 +1087,7 @@ advertape.*,bflix.*,bigwarp.*,cloudnestra.com,dlhd.*,dudestream2.com,freestreams
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/; override-property-read window.diptr undefined; abort-on-property-read window.pu; abort-current-inline-script document.write iframe;
 gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,movies2watch.tv,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.*,solarmovie.*,toongod.com,watchseriestv.*,yomovies.*#$#abort-on-property-read window.open
-advertape.*,bigwarp.*,mangakakalot.gg,savefiles.com,vide0.net,jilliandescribecompany.com,voe.sx,walterprettytheir.com#$#abort-current-inline-script WebAssembly atob;
+advertape.*,bigwarp.*,mangakakalot.gg,luluvid.com,savefiles.com,vide0.net,jilliandescribecompany.com,voe.sx,walterprettytheir.com#$#abort-current-inline-script WebAssembly atob;
 torkitty.*#$#prevent-listener click handlePopunder
 /api/users/*&ev=*$script,domain=supjav.com
 streamm4u.com.co#$#prevent-listener beforeunload (); abort-on-property-write _g_sb_click
@@ -1106,6 +1106,7 @@ filelions.*,habetar.com,upns.*,rpmvip.com,playerp2p.*,callistanise.com#$#hide-if
 strmup.*,s1p1cd.com#$#override-property-read b4ec4795de7e51b370809da193ce1a7d trueFunc
 kaliscan.*#$#abort-current-inline-script document.createElement /l\.parentNode\.insertBefore\(s/;
 kaotic.com#$#abort-current-inline-script SNSPAdManager config; abort-on-property-write snspAdManager2
+playhydrax.com#$#override-property-read urls emptyArray;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1143,7 +1144,7 @@ clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-curre
 tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 fmovies.*,hurawatch.cc,theflixer.tv#$#abort-on-property-read window.zfgstorage
-bf0skv.org,dopebox.to,fmovies.*,theflixertv.*#$#abort-current-inline-script document.createElement delete window
+bf0skv.org,dopebox.to,fmovies.*,theflixertv.*,luluvid.com#$#abort-current-inline-script document.createElement delete window
 omegascans.org#$#abort-on-property-read window.__adFormats
 liveru.sx#$#abort-on-property-read window.b5bb198737
 manganelo.tv#$#abort-on-property-read document.createElement
@@ -1331,6 +1332,7 @@ kissjav.li##.asside-link
 flaswish.com#$#abort-on-property-read myScriptManager;
 sourceforge.net#$#hide-if-matches-xpath './/a[contains(@href,"campaign=display")]/parent::div[@class][1]'
 /cdn.sinparty.com^$script,subdocument,third-party,media,domain=kaotic.com
+luluvid.com#$#abort-on-property-write showADBOverlay
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1935,7 +1937,7 @@ dualeotruyenjd.com#$#abort-current-inline-script document.addEventListener popun
 lxmanga.my#$#abort-current-inline-script $ PopUnder
 www.truyen35zz.com#$#abort-current-inline-script jQuery click_ads
 www.toptruyentv14.com#$#abort-current-inline-script Promise instance
-animehay.life#$#abort-current-inline-script document.addEventListener window.open
+animehay.life#$#abort-current-inline-script document.addEventListener window.open; override-property-read list_link_popup emptyArray
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.co#$#abort-current-inline-script jQuery window.open
 tctruyen2.com#$#abort-current-inline-script $ popup
@@ -1953,7 +1955,6 @@ freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com#$#abort-current-i
 nettruyenar.com#$#abort-on-property-read links
 goctruyentranhvui17.com,sextop1.sale,hhvsub1.com#$#abort-current-inline-script WebAssembly globalThis
 hh3dhay.life#$#abort-current-inline-script Symbol break;case
-animehay.life#$#abort-current-inline-script Number ;break;case
 gocmod.com#$#abort-current-inline-script jQuery popup
 animevietsub9.com#$#abort-on-property-read _0x3f9b
 www.motchill36.com,trumtruyen.xyz#$#abort-current-inline-script setTimeout Aff
@@ -2670,6 +2671,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||sktskt.aisfokgqw.online^
 ||smashupshanked.com^
 ||smokestallyho.com^
+||sndzrfmkqawfk.online^
 ||socagercornet.com^
 ||spavietquirl.com^
 ||stelabarm.com^
