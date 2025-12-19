@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d23uhrFC+sNSo+tr203jVA
+! Checksum: f++woBWbF42ccVJ0m43Apg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202512200444
-! Last Modified: 2025年12月20日 04:44
+! Version: 202512200644
+! Last Modified: 2025年12月20日 06:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -591,153 +591,153 @@ text-compare.com#$#override-property-read Element.prototype.remove noopFunc
 text-compare.com#$#abort-on-property-write window.confirm
 text-compare.com#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=text-compare.com
-||error-report.com^,domain=text-compare.com
+||error-report.com^$domain=text-compare.com
 text-compare.com##iframe[src*="report.error-report.com/modal"]
 picrew.me#$#override-property-read Element.prototype.remove noopFunc
 picrew.me#$#abort-on-property-write window.confirm
 picrew.me#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=picrew.me
-||error-report.com^,domain=picrew.me
+||error-report.com^$domain=picrew.me
 picrew.me##iframe[src*="report.error-report.com/modal"]
 slashdot.org#$#override-property-read Element.prototype.remove noopFunc
 slashdot.org#$#abort-on-property-write window.confirm
 slashdot.org#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=slashdot.org
-||error-report.com^,domain=slashdot.org
+||error-report.com^$domain=slashdot.org
 slashdot.org##iframe[src*="report.error-report.com/modal"]
 sourceforge.net#$#override-property-read Element.prototype.remove noopFunc
 sourceforge.net#$#abort-on-property-read window.confirm
 sourceforge.net#$#abort-on-property-read window.alert
 ||*/loader.min.js|$script,domain=sourceforge.net
-||error-report.com^,domain=sourceforge.net
+||error-report.com^$domain=sourceforge.net
 sourceforge.net##iframe[src*="report.error-report.com/modal"]
 si.com#$#override-property-read Element.prototype.remove noopFunc
 si.com#$#abort-on-property-write window.confirm
 si.com#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=si.com
-||error-report.com^,domain=si.com
+||error-report.com^$domain=si.com
 si.com##iframe[src*="report.error-report.com/modal"]
 si.com##div[id][class][style]:has(div[id][data-gpid]) {remove:true;}
 vwvortex.com#$#override-property-read Date.now noopFunc
 ||*/loader.min.js|$script,domain=vwvortex.com
-||error-report.com^,domain=vwvortex.com
+||error-report.com^$domain=vwvortex.com
 watchuseek.com#$#override-property-read Date.now noopFunc
 ||*/loader.min.js|$script,domain=watchuseek.com
-||error-report.com^,domain=watchuseek.com
+||error-report.com^$domain=watchuseek.com
 inven.co.kr#$#override-property-read Element.prototype.remove noopFunc
 inven.co.kr#$#abort-on-property-write window.confirm
 inven.co.kr#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=inven.co.kr
 ||*/script.min.js|$script,domain=m.inven.co.kr
-||error-report.com^,domain=inven.co.kr
+||error-report.com^$domain=inven.co.kr
 inven.co.kr##iframe[src*="report.error-report.com/modal"]
 ecouter-en-direct.com##div>div[class^="ad_mobil"] {remove:true;}
 ecouter-en-direct.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=ecouter-en-direct.com
-||error-report.com^,domain=ecouter-en-direct.com
+||error-report.com^$domain=ecouter-en-direct.com
 wordhippo.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=wordhippo.com
-||error-report.com^,domain=wordhippo.com
+||error-report.com^$domain=wordhippo.com
 percentagecalculator.net#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=percentagecalculator.net
-||error-report.com^,domain=percentagecalculator.net
+||error-report.com^$domain=percentagecalculator.net
 ||asloader.tz.de^$script,domain=tz.de
 tz.de##iframe[src*="report.error-report.com/modal"]
 ||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
 ||*/loader.min.js|$script,domain=invoice-generator.com
-||error-report.com^,domain=invoice-generator.com
+||error-report.com^$domain=invoice-generator.com
 invoice-generator.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=dictionary.cambridge.org
-||error-report.com^,domain=dictionary.cambridge.org
+||error-report.com^$domain=dictionary.cambridge.org
 dictionary.cambridge.org#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=collinsdictionary.com
-||error-report.com^,domain=collinsdictionary.com
+||error-report.com^$domain=collinsdictionary.com
 collinsdictionary.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=issuya.com
-||error-report.com^,domain=issuya.com
+||error-report.com^$domain=issuya.com
 issuya.com#$#override-property-readElement.prototype.removenoopFunc
 issuya.com#$#abort-on-property-write window.confirm
 issuya.com#$#abort-on-property-write window.alert
 issuya.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=motorbikecatalog.com
-||error-report.com^,domain=motorbikecatalog.com
+||error-report.com^$domain=motorbikecatalog.com
 motorbikecatalog.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=sportsseoul.com
-||error-report.com^,domain=sportsseoul.com
+||error-report.com^$domain=sportsseoul.com
 sportsseoul.com#$#replace-outbound-values'atob''c3RyaW5n''false'
 sportsseoul.com#$#override-property-read Element.prototype.remove noopFunc
 sportsseoul.com#$#abort-on-property-write window.confirm
 sportsseoul.com#$#abort-on-property-write window.alert
 sportsseoul.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=flatpanelshd.com
-||error-report.com^,domain=flatpanelshd.com
+||error-report.com^$domain=flatpanelshd.com
 flatpanelshd.com#$#replace-outbound-values'atob''c3RyaW5n''false'
 flatpanelshd.com#$#override-property-read Element.prototype.remove noopFunc
 flatpanelshd.com#$#abort-on-property-write window.confirm
 flatpanelshd.com#$#abort-on-property-write window.alert
 flatpanelshd.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=cool-style.com.tw
-||error-report.com^,domain=cool-style.com.tw
+||error-report.com^$domain=cool-style.com.tw
 cool-style.com.tw#$#replace-outbound-values'atob''c3RyaW5n''false'
 cool-style.com.tw#$#override-property-read Element.prototype.remove noopFunc
 cool-style.com.tw#$#abort-on-property-write window.confirm
 cool-style.com.tw#$#abort-on-property-write window.alert
 cool-style.com.tw##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=pressian.com
-||error-report.com^,domain=pressian.com
+||error-report.com^$domain=pressian.com
 pressian.com#$#replace-outbound-values'atob''c3RyaW5n''false'
 pressian.com#$#override-property-read Element.prototype.remove noopFunc
 pressian.com#$#abort-on-property-write window.confirm
 pressian.com#$#abort-on-property-write window.alert
 pressian.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=crosswordsolver.com
-||error-report.com^,domain=crosswordsolver.com
+||error-report.com^$domain=crosswordsolver.com
 crosswordsolver.com#$#override-property-read window.navigator.connection.rtt 1001
 crosswordsolver.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=kreuzwortraetsel.de
-||error-report.com^,domain=kreuzwortraetsel.de
+||error-report.com^$domain=kreuzwortraetsel.de
 kreuzwortraetsel.de#$#override-property-read window.navigator.connection.rtt 1001
 kreuzwortraetsel.de#$#hide-if-matches-xpath './/div[contains(@class,"mta-label")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=verkaufsoffener-sonntag.com
-||error-report.com^,domain=verkaufsoffener-sonntag.com
+||error-report.com^$domain=verkaufsoffener-sonntag.com
 verkaufsoffener-sonntag.com#$#override-property-read window.navigator.connection.rtt 1001
 verkaufsoffener-sonntag.com#$#hide-if-matches-xpath './/div[contains(@class,"g ")][.//div[contains(@class,"ads-") or contains(@id,"sticky")]//parent::div[1]]'
 ||*/loader.min.js|$script,domain=word-grabber.com
-||error-report.com^,domain=word-grabber.com
+||error-report.com^$domain=word-grabber.com
 word-grabber.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=raetsel-hilfe.de
-||error-report.com^,domain=raetsel-hilfe.de
+||error-report.com^$domain=raetsel-hilfe.de
 raetsel-hilfe.de#$#override-property-read window.navigator.connection.rtt 1001
 raetsel-hilfe.de#$#hide-if-matches-xpath './/div[contains(@class,"ad-container")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=woxikon.de
-||error-report.com^,domain=woxikon.de
+||error-report.com^$domain=woxikon.de
 woxikon.de#$#override-property-read window.navigator.connection.rtt 1001
-||error-report.com^,domain=oraridiapertura24.it
+||error-report.com^$domain=oraridiapertura24.it
 ||*/loader.min.js|$script,domain=oraridiapertura24.it
 oraridiapertura24.it#$#override-property-read window.navigator.connection.rtt 1001
 oraridiapertura24.it#$#hide-if-matches-xpath './/div[contains(@class,"anzeigenlabel")]/parent::div[@style][not(@id)]'
-||error-report.com^,domain=the-crossword-solver.com
+||error-report.com^$domain=the-crossword-solver.com
 ||*/loader.min.js|$script,domain=the-crossword-solver.com
 the-crossword-solver.com#$#override-property-read window.navigator.connection.rtt 1001
 the-crossword-solver.com#$#hide-if-matches-xpath './/div[contains(@id,"slot-sticky")]/parent::div[1]'
 ||*/loader.min.js|$script,domain=laleggepertutti.it
-||error-report.com^,domain=laleggepertutti.it
+||error-report.com^$domain=laleggepertutti.it
 laleggepertutti.it#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=avsforum.com
-||error-report.com^,domain=avsforum.com
+||error-report.com^$domain=avsforum.com
 avsforum.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=fansided.com
-||error-report.com^,domain=fansided.com
+||error-report.com^$domain=fansided.com
 fansided.com#$#override-property-read Element.prototype.remove noopFunc
 fansided.com#$#abort-on-property-read window.confirm
 fansided.com#$#abort-on-property-read window.alert
 fansided.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=oxfordlearnersdictionaries.com
-||error-report.com^,domain=oxfordlearnersdictionaries.com
+||error-report.com^$domain=oxfordlearnersdictionaries.com
 oxfordlearnersdictionaries.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=worldhistory.org
-||error-report.com^,domain=worldhistory.org
+||error-report.com^$domain=worldhistory.org
 worldhistory.org#$#abort-on-property-read AHE.canonicalPath false
 maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-container-id], [data-google-query-id])
 maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
@@ -2382,7 +2382,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||acorusdawdler.com^
 ||afgodscarpe.com^
 ||ageismssoning.com^
-||agogtowie.com^
 ||akhlamesouchy.com^
 ||algediduala.com^
 ||allicinarenig.com^
@@ -2396,14 +2395,10 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||annussleys.com^
 ||ariososlepage.com^
 ||arisingwinze.com^
-||asbfala.com^
 ||ashlingzanyish.com^
-||ashrafidoria.com^
 ||aspcafarcie.com^
-||aubergossoopt.net^
 ||aveuglediking.com^
 ||awolhalling.com^
-||axgxwewcxvrpeb.com^
 ||baalshousal.com^
 ||balanicextreat.com^
 ||balzadicyema.com^
@@ -2411,19 +2406,15 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bastardzingaro.com^
 ||befitkersey.com^
 ||bekisspolars.click^
-||bentinghanks.com^
 ||betainehoolee.com^
 ||betowelumph.com^
-||biarchyucal.com^
 ||bidarblam.com^
-||bimbilviseed.com^
 ||binmanoboles.com^
 ||bivinyltarve.com^
 ||bnbagnut.com^
 ||borelmazatec.com^
 ||borghaswing.com^
 ||botakissed.com^
-||boucleseidolic.com^
 ||bouzechoby.net^
 ||brazilprocyon.com^
 ||broosnighed.com^
@@ -2447,25 +2438,17 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||corvoidhas.com^
 ||corylussunroof.com^
 ||couloirmatrass.com^
-||covertlaurite.qpon^
-||cowpencinclis.com^
 ||coziesmaltman.com^
 ||creeperpummels.com^
 ||crowbarrinds.com^
-||crypticrallye.com^
 ||culpasrampage.com^
 ||cunnidissait.com^
-||cuppedajitter.com^
-||curatnestful.com^
 ||curtcoracii.com^
 ||cuseccharm.com^
 ||cutoffclerks.com^
-||danaisumbeset.com^
-||dd133.com^
 ||deckedpreeze.com^
 ||depurgeholour.com^
 ||dhunchifidia.com^
-||diamberproetid.com^
 ||didspack.com^
 ||dinespendn.com^
 ||dinkiersenhora.com^
@@ -2476,7 +2459,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||dogfalcons.com^
 ||dopiestdappled.com^
 ||dovishliegier.com^
-||dozzledmysis.com^
 ||drammerxylinid.com^
 ||ecolesmauve.com^
 ||eidersrettory.com^
@@ -2485,13 +2467,11 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||enolasepunily.com^
 ||enstatehelibus.com^
 ||enstoolpart.com^
-||erodiumvodums.com^
 ||examplescug.com^
 ||excidesparers.com^
 ||fabricforrel.com^
 ||faggotyarterin.com^
 ||favourvermix.com^
-||fermataintima.com^
 ||flossedmoiled.com^
 ||fogramcolcine.com^
 ||fondleaegipan.shop^
@@ -2511,12 +2491,10 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ghurrytacoma.com^
 ||girnalnemean.com^
 ||glazenrattoon.com^
-||gleegnussaultee.com^
 ||goeducklactase.com^
 ||goingsrosehip.com^
 ||gooddemands.com^
 ||goodieracer.com^
-||gorgeirido.com^
 ||gtdslaters.com^
 ||guddledberith.com^
 ||gulsachbevil.com^
@@ -2525,17 +2503,13 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||henryslyceal.com^
 ||hexingteeting.com^
 ||highathel.com^
-||hippierrapiner.com^
 ||honkoutsing.com^
 ||hoodlumbragget.com^
 ||hottedholster.com^
-||hunterheroiccompassion.com^
 ||huspilsympode.com^
 ||hyssopswany.com^
-||idoletsluices.com^
 ||ignoresfahlerz.com^
 ||illfaredrench.com^
-||ilongotbuzukia.com^
 ||impedegrimy.com^
 ||inciseclog.com^
 ||indriwhats.com^
@@ -2547,7 +2521,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||isoptichabiru.com^
 ||ivdjs.com^
 ||jaspersfamilia.cyou^
-||jerbilhalters.com^
 ||jgtjw.com^
 ||joshedsnight.com^
 ||justspoisure.com^
@@ -2566,24 +2539,17 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||lawzyscapoid.com^
 ||lepidpomps.com^
 ||lettenfluoric.com^
-||liepotikons.com^
 ||liftjoinant.com^
 ||limbecculvers.com^
-||lobiwearies.com^
 ||loftmentiple.com^
 ||loobyfleyed.com^
 ||loristracked.com^
 ||lqqpphub.com^
 ||macacusdame.com^
-||mahubraces.com^
 ||maihikuh.com^
 ||maraywreath.com^
 ||martingfingian.com^
-||martylatah.com^
 ||maydaciting.com^
-||medakasreglaze.com^
-||medialsgleet.com^
-||medullagrooved.com^
 ||mimamsaslews.com^
 ||mirakdunes.com^
 ||misweenownself.com^
@@ -2591,7 +2557,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||morsalurluch.com^
 ||mournerslath.com^
 ||mudejartitoism.com^
-||murathernias.com^
 ||nainepidia.com^
 ||nairydeices.com^
 ||nappieoxbows.com^
@@ -2601,7 +2566,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||newtsbowk.com^
 ||nhanweigh.com^
 ||ningposkidi.com^
-||noisetumour.com^
 ||noritesfarrago.com^
 ||nosydorymen.com^
 ||nplaf.com^
@@ -2610,11 +2574,9 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||obdtfijian.com^
 ||obeliacallay.com^
 ||objectsgteau.com^
-||omlahpewing.com^
 ||ommateabeanos.com^
 ||omnibuswaist.com^
 ||onlinehentai.tv^
-||oobsekemseelso.com^
 ||opalmetely.com^
 ||orlcloop.com^
 ||ostlerscil.com^
@@ -2625,7 +2587,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||oxyacidalogia.com^
 ||paitatoneejoay.net^
 ||papaneecorche.com^
-||peeredupseize.com^
 ||perksburian.com^
 ||persinners.com^
 ||pilleustrig.com^
@@ -2633,58 +2594,44 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||plumbicwooler.com^
 ||plungescreeve.com^
 ||pneumahameil.com^
-||poanibaphowho.net^
 ||poculalienly.com^
 ||potentymoa.com^
 ||premiermylodei.com^
 ||preyfultarried.com^
 ||publicretia.com^
 ||qs251.com^
-||queachycorer.com^
 ||quinzehoddins.com^
 ||randanspartan.com^
 ||randeriridium.com^
-||ratitesbogging.com^
 ||rebopsmurly.com^
-||recrampwiped.com^
 ||redbuckzincate.com^
 ||redcapsunlime.com^
-||reekiercoupler.com^
 ||regodipylon.com^
 ||rethephrased.com^
 ||retinaspealer.com^
-||rhythmpreside.com^
 ||ribwortjulep.com^
 ||richardghain.com^
 ||samhainbewend.com^
 ||sansaradivulse.com^
 ||schizypdq.com^
-||schoolsramrods.com^
 ||scrivencaccias.com^
 ||seamylygeum.com^
-||seepedenticed.com^
 ||seepymannire.com^
 ||serenadislive.com^
 ||serutredcoll.com^
 ||shboshbok.com^
 ||shovelsbezzled.com^
 ||shrewkabonga.com^
-||singlyairview.com^
-||sktskt.aisfokgqw.online^
-||smashupshanked.com^
 ||smokestallyho.com^
 ||sndzrfmkqawfk.online^
 ||socagercornet.com^
-||spavietquirl.com^
 ||stelabarm.com^
 ||sterolsawaited.com^
 ||stoodhiplike.com^
 ||stuffedclipse.com^
 ||stulmunshent.com^
-||stummelbeelbow.com^
 ||succinwafer.com^
 ||suffarilbf.com^
-||sugimaille.click^
 ||surbatebeclose.com^
 ||synochaauca.com^
 ||tackerhelosis.com^
@@ -2704,7 +2651,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||tibiaescourer.com^
 ||tiepinshazings.com^
 ||tinnerydunging.com^
-||tkzdkabuzcuvb.online^
 ||togaefaffy.com^
 ||tomandligula.com^
 ||tontineepulis.com^
@@ -2714,11 +2660,9 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||topiccaroler.com^
 ||totoabalyric.com^
 ||towerloftier.com^
-||toxemiaseabags.com^
 ||trippetforhow.com^
 ||tripsisvellums.com^
 ||trypsinneutral.com^
-||tuckedshowing.com^
 ||turbodeter.com^
 ||twerpuveitic.com^
 ||tyliontentful.com^
@@ -2746,21 +2690,16 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||warthcoes.com^
 ||washwayrefool.com^
 ||weznkotoko.com^
-||whizzerrapiner.com^
 ||widdermixtec.com^
 ||wiltinfume.com^
 ||wochuadaribah.com^
-||woewornsequel.com^
 ||wolfmandiked.com^
 ||woodsytenline.com^
 ||yallowafridi.com^
-||yawnfulharpa.com^
 ||yb28b.com^
 ||ydstinkle.com^
-||yoghonagra.com^
 ||yogisgeishas.com^
 ||zorbklqyoabvj.top^
-||zurlitefulvous.com^
 ||zygousgauby.com^
 ! Regex rules
 ! Example: https://diwhuteshu.com/cmDf9.6kbt2/5blWStWBQz9dNODhgR4/NFTLEa0yN/SM0i0gO_DOgK1MMoTvQ/2c
@@ -2780,9 +2719,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ! Example: https://streamcloud.my/37809-high-potential-stream-deutsch.html
 /^https:\/\/supervideo\.cc\/[0-9]+\.js\b/$script,domain=supervideo.cc
 ! *** abp-filters-anti-cv:3rd-party/cloudfront.txt ***
-||d1pk6uu6wqrpce.cloudfront.net^
 ||d1zhmd1pxxxajf.cloudfront.net^
-||d2n5v45616cm6u.cloudfront.net^
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
