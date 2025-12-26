@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x1ZL+Kk+5dppSyyzIjSWNQ
+! Checksum: NmWeFJtmA9ZRM0+US/9Wng
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202512261454
-! Last Modified: 2025年12月26日 14:54
+! Version: 202512261542
+! Last Modified: 2025年12月26日 15:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30054,6 +30054,7 @@ browsershots.org#@#.advert_area
 ||fqpkobrusjzaa.space^
 ||fqpwvcgctwjlo.online^
 ||fqpyypqsklxar.site^
+||fqrbxvizrmsjj.space^
 ||fqtikzsaznhux.online^
 ||fqtjp.one^
 ||fqtmnnxabkkud.space^
@@ -31224,6 +31225,7 @@ browsershots.org#@#.advert_area
 ||gjppotslrjlov.website^
 ||gjqghspetwnkz.store^
 ||gjqlxuffmatsp.online^
+||gjqqxktrdnmad.site^
 ||gjrlcxthtkeab.site^
 ||gjwkufnkofzgj.online^
 ||gjwmlhzgzucfn.website^
@@ -49582,6 +49584,7 @@ browsershots.org#@#.advert_area
 ||rwwmbymaezkla.top^
 ||rwwmbymaezljq.top^
 ||rwwmbymajvmkw.top^
+||rwwmbymajvqba.top^
 ||rwxpkychnthdx.space^
 ||rwylatoun.life^
 ||rwzvqzvqkzkra.top^
@@ -54862,6 +54865,7 @@ browsershots.org#@#.advert_area
 ||ufvycdipmuksb.site^
 ||ufwsddjbezkny.website^
 ||ufxikvgvpogym.website^
+||ufyebrgyokuvz.online^
 ||ufyitneqhuqty.online^
 ||ugbkfsvqkayt.icu^
 ||ugbqsahpyjuvq.website^
@@ -58747,6 +58751,7 @@ browsershots.org#@#.advert_area
 ||xjvuwqwmdwu.com^
 ||xkakkewixszu.com^
 ||xkanzuqreeloy.store^
+||xkggddiyjm.com^
 ||xkhjonrijnvvy.online^
 ||xkihevzkxjtdq.website^
 ||xkisdsaazwzch.online^
@@ -82801,6 +82806,8 @@ newduba.cn###jq_youxi
 ##.a-media.ex-728-90
 ##a[clickmode="cpt"]
 ###foot > #btmBox
+##.player-rma > a[target="_blank"]
+##.player-tl > a[target="_blank"]
 ##.home-qf > div[class*="img-qf"]
 ##.home-qf > div[class*="img-ad"]
 ##.module-player > .dds_w
@@ -82844,6 +82851,8 @@ newduba.cn###jq_youxi
 ||ujhu.cn^
 ||1gqd0o687z.com^
 ||aa52jm08ly.com^
+||ainb12261zh.com^
+||nvielkaa.com^
 ||1pt7wq8di.com^
 ||4d45i6p0g.com^
 ||5bess6df0.com^
@@ -91624,6 +91633,7 @@ meijutt.*/js/pcjs/
 ||douyucdn.cn/adxdsp/
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
 douyu.com#?#div[class^="body__"] > div[class^="card__"] > span > span[class^="card__"]:-abp-has(span[class^="cardTypeLabel"]:-abp-contains(广告))
 h-ciyuan.com##.theiaStickySidebar .widget_media_image
 h-ciyuan.com#?#.gridview-grid-post:-abp-has(a[title*="Ad』"])
