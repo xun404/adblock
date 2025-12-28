@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SR/wADL4TgzoRnvCwlE4Aw
+! Checksum: Wx6C3Za5P5bQ3RD7Zax4qQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202512281040
-! Last Modified: 2025年12月28日 10:40
+! Version: 202512281231
+! Last Modified: 2025年12月28日 12:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21682,6 +21682,7 @@ m.babytree.com##script + a[class]
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
+/cdn-cgi/rum|
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.html
 /cedexis.js
@@ -24402,6 +24403,7 @@ _WebVitalsReporter_
 /p/rp/*?mi_u=*=&sap_id=$image
 /p1x1.gif
 /page.bsigroup.com/*
+/parceldns.com/t/*$image
 /pixel-prod.
 /pixel.mathtag.com/*
 /pixel?cid=
@@ -29007,6 +29009,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
 ||app.optibase.io^
+||app.partnerboost.com^
 ||app.pendo.io/data/$image
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
@@ -34908,6 +34911,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upwork.com/upi/jslogger
 ||urs.metacritic.com^
 ||useblackbox.io/telemetry
+||user-back.ggcorp.me/statistics
 ||user-metrics.onthemarket.com^
 ||usmetric.rediff.com^
 ||usnews.com/static/esi/usn-geo.json
@@ -70747,7 +70751,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||t.service.thetimes.co.uk^
 ||t.staging-mail.tabcorp.com.au^
 ||t.twenty.co^
-||t.vrbo.io^
 ||t1.benefits.tops.co.th^
 ||t1.discover.flashnews.com.au^
 ||t1.stadiumgoods.com^
@@ -72755,6 +72758,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||adme.media/metric-collector
 ||affilate.hh.ru^
 ||agroserver.ru/ct/
+||alloy-web.zvuk.com^
 ||analytics.carambatv.ru^
 ||api-metric.gosweb.gosuslugi.ru^
 ||api.litres.ru/tracker/
