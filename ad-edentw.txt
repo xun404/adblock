@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bfsjms+s65ZoOWHlVOuVEg
+! Checksum: jYjs51S8On256y8M4Aw7Yg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202601061850
-! Last Modified: 2026年01月06日 18:50
+! Version: 202601062249
+! Last Modified: 2026年01月06日 22:49
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -718,9 +718,6 @@ laleggepertutti.it#$#override-property-read window.navigator.connection.rtt 1001
 avsforum.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=fansided.com
 ||error-report.com^$domain=fansided.com
-fansided.com#$#override-property-read Element.prototype.remove noopFunc
-fansided.com#$#abort-on-property-read window.confirm
-fansided.com#$#abort-on-property-read window.alert
 fansided.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=oxfordlearnersdictionaries.com
 ||error-report.com^$domain=oxfordlearnersdictionaries.com
