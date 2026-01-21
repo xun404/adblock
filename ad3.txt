@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VUJ/w8wjslwVb4S/qvPAAA
+! Checksum: 6LKDe1wegm+MG2+PYvsVhg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202601211754
-! Last Modified: 2026年01月21日 17:54
+! Version: 202601211855
+! Last Modified: 2026年01月21日 18:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21600,6 +21600,7 @@ m.babytree.com##script + a[class]
 /api/v1/streamtelemetry
 /api/v2/collector
 /api/v3/getPageVisits
+/api/v3/getStatsigResults
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
 /api_adlog.php?
@@ -22559,7 +22560,7 @@ m.babytree.com##script + a[class]
 /keen-tracking.min.js
 /keen.min.js
 /KenticoActivityLogger/Logger.js
-/keypress.js$script
+/keypress.js$script,domain=~github.io
 /keywee.js
 /kimonix_analytics.js
 /kissmetrics.js
@@ -24665,6 +24666,7 @@ omni.soundestlink.com$image
 ||convertlink.com^
 ||counter247.live^
 ||cpx.to^
+||cr-relay.com^
 ||crossengage.io^
 ||crwdcntrl.net^
 ||cvlb.dev^
@@ -28861,6 +28863,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
 ||adobedc.net/collector/
+||adora-cdn.com/adora-start.js
 ||ads-tracking.beop.io^
 ||ads-tracking.collectiveaudience.co^
 ||ads-trk.vidible.tv^
@@ -29961,6 +29964,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gateway.foresee.com^
 ||gateway.src-play.com/Analytics/
 ||gcion.com/gcion.ashx?
+||gcp.fasthorse.workers.dev^
 ||gecko.space/count.js
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
@@ -34371,6 +34375,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nordstrom.com/api/cupcake/
 ||norton.com/service/norton/head?
 ||notion.so/api/v*/teV1
+||notion.so/api/v3/etClient
 ||novanthealth.org/v1/tagular/beam
 ||novelcool.com/files/js/yh_tj.js
 ||npa.thetimes.com/stats
@@ -73292,7 +73297,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
-@@||cdn.rawgit.com/dmauro/keypress/master/keypress.js$script,domain=dmauro.github.io
 @@||cdn.segment.com/analytics-next/
 @@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|accounts-bc.com|app.cryptotrader.tax|app.joinhandshake.com|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com|swatches.interiordefine.com
 @@||cdn.segment.com/next-integrations/integrations/
