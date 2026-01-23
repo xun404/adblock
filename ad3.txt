@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HB99Rs+VMYPB5KpcK2iFkQ
+! Checksum: moJsQdpTBv/TfBMUrwTkfw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202601232124
-! Last Modified: 2026年01月23日 21:24
+! Version: 202601240645
+! Last Modified: 2026年01月24日 06:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26698,7 +26698,7 @@ omni.soundestlink.com$image
 ||perljs.com^$third-party
 ||permutive.com^$third-party
 ||personyze.com^$third-party
-||petametrics.com^$third-party,domain=~telegraph.co.uk
+||petametrics.com^$third-party,domain=~telegraph.co.uk|~thestreet.com
 ||pghub.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
 ||phonalytics.com^$third-party
@@ -30705,8 +30705,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||perimeterx.net/api/v1/collector/
 ||perr.h-cdn.com^
 ||perso.aws.arc.pub^
-||petametrics.com^$domain=meidastouch.com
-||petametrics.com^$image,third-party,xmlhttprequest
+||petametrics.com/*/activity
+||petametrics.com/*/modal
 ||pets.channeladvisor.com^
 ||photobox.com/event
 ||photobox.com/logs
