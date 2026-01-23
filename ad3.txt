@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YumwtzeVUbB5qapBX2VptQ
+! Checksum: HB99Rs+VMYPB5KpcK2iFkQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202601231852
-! Last Modified: 2026年01月23日 18:52
+! Version: 202601232124
+! Last Modified: 2026年01月23日 21:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1781,6 +1781,8 @@ newduba.cn###jq_youxi
 ||fkhagviev.com^
 ||promontory32.com^
 ||waterfall90.top^
+||vbw3q6jxn.com^
+||mtaitdupf.com^
 ||vkoq4kyzmj.com^
 ||gwbb1p2t9s.com^
 ||xvbwjd.icu^
@@ -16370,6 +16372,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
 @@||hkcards.com^$generichide
+@@||linovelib.com^$generichide
 @@/prebid.$script,domain=mingpao.com
 @@||txws.yyzb456.top^$domain=857zb7.tv
 @@||jinritemai.com^$generichide
@@ -74062,6 +74065,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sibs.com/fingerprint/sfp2/fp2.min.js$script,domain=net24.bancomontepio.pt
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
+!---------- Qatar ----------
+@@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 !---------- Romanian ----------
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||imobiliare.ro/js/gtm.js$script,~third-party
