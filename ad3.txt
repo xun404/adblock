@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZqpvRABaJFtzsyoDqyjuWg
+! Checksum: xbcW55LyOiEocSLBBeXMPg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202601280745
-! Last Modified: 2026年01月28日 07:45
+! Version: 202601281036
+! Last Modified: 2026年01月28日 10:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1774,6 +1774,7 @@ newduba.cn###jq_youxi
 ||gsk801280hh.com^
 ||volcano93.top^
 ||tempest33.com^
+||6acupxubky.com^
 ||lp780937a.com^
 ||gsk801270hh.com^
 ||i5qquywfz.com^
@@ -21402,6 +21403,7 @@ m.babytree.com##script + a[class]
 .no/app/aas/a
 .outbound-links.pageview-props.revenue.tagged-events.js
 .pageview-props.js
+.pageview-props.tagged-events.js
 .php?action=browse&
 .php?action_name=
 .php?logid=$image
@@ -21416,6 +21418,7 @@ m.babytree.com##script + a[class]
 .skimlinks.js
 .stats?action=
 .svc/?tracking_id=
+.tagged-events.outbound-links.js
 .v4.analytics.
 /.webscale/rum?
 /.well-known/shopify/monorail
@@ -22841,6 +22844,7 @@ m.babytree.com##script + a[class]
 /matomo.php
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matomo_video_tracking.js
+/mc4wp-premium/ecommerce3/assets/js/tracker.js
 /mcookie.aspx
 /mcount.cgi?
 /measure/pixel/*
@@ -23373,9 +23377,8 @@ m.babytree.com##script + a[class]
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
-/script.hash.outbound-links.pageview-props.tagged-events.js
+/script.outbound-links.js
 /script.tagged-events.js
-/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
@@ -24057,6 +24060,7 @@ m.babytree.com##script + a[class]
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-vitals-analytics.js
+/web-vitals.iife.js
 /web/push?
 /web_analytics/*
 /web_answertip.js
@@ -34578,6 +34582,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pcp.coupert.com^
+||pdfcrowd.com/static/3rd/js/fpr.js
 ||pdffiller.com/api_v3/experiment/
 ||pdffiller.com/api_v3/uploader/stats
 ||pdffiller.com/click-stream/
