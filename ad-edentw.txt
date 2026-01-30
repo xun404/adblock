@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xC8Z2fBzktpswLAdglWRKA
+! Checksum: eJrWrsH1/MrmFQEQ+r2NjA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202601300655
-! Last Modified: 2026年01月30日 06:55
+! Version: 202601301802
+! Last Modified: 2026年01月30日 18:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1861,7 +1861,7 @@ cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-ruwenzori.net#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+mcortechnologies.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.net#$#override-property-read urlAds ''
@@ -1869,7 +1869,7 @@ n.thapcam53.pro#$#simulate-mouse-event '#modalasd$continue,delay=300'
 xemphim.site,animet.org,motchillzz.site#$#override-property-read maxAds 0
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
-ruwenzori.net#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+mcortechnologies.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net#$#json-prune props.children.[].props.tvc
 hh2d.tv#$#abort-current-inline-script $ adblock
@@ -1938,7 +1938,7 @@ audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
 pheclip.love,phim18vip.one,sieudam.sh#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
-ruwenzori.net#$#abort-current-inline-script jQuery open
+mcortechnologies.com#$#abort-current-inline-script jQuery open
 phimmoii.to,comanalysis.ch#$#prevent-listener click ads
 www.asu.baby#$#abort-on-property-read initialAdURLs
 basmaticw5.co.uk#$#abort-current-inline-script window.addEventListener Ads
