@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3w84GIsFVbkLTr2k2lQzGg
+! Checksum: dlMOfk5geH1tj6uYziOGeQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202602030752
-! Last Modified: 2026年02月03日 07:52
+! Version: 202602031118
+! Last Modified: 2026年02月03日 11:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1771,6 +1771,11 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 ||gjk1sc9o2.com^
 ||z2ke56999.com^
+||qiv532lr6.com^
+||brirriek.com^
+||lgu7in90o.com^
+||permissible67.com^
+||gsk802030hh.com^
 ||qizq4hn7pr.com^
 ||ojn1zxz0ni.com^
 ||guu0bfmpf5.com^
@@ -23363,7 +23368,7 @@ m.babytree.com##script + a[class]
 /stats-js.cgi?
 /stats-listener.js
 /stats-tracking.js
-/stats.*/event
+/stats.*/event$domain=~stats.prisamedia.cl
 /stats.*/hits/*
 /stats.*/tracker.
 /stats.asp?id
@@ -33600,6 +33605,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cookpad.com/*/activity_logs
 ||copilot-telemetry.githubusercontent.com^
 ||core-features.cambridge.org/proxy/client/metrics
+||coros.com/traceapi
 ||count.all.biz^
 ||count.darkreader.app^
 ||count.rin.ru^
