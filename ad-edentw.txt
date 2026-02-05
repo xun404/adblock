@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BNCWKN0XfDL8ayWRNv8xhw
+! Checksum: trA004iL4sGz4XTW/VcKWA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202602051808
-! Last Modified: 2026年02月05日 18:08
+! Version: 202602051957
+! Last Modified: 2026年02月05日 19:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1738,6 +1738,7 @@ lenta.ru#$#prevent-listener scroll window.history.pushState
 ukr.net#$#replace-xhr-response 'banners'
 dtf.ru#$#override-property-read Object.prototype.detectAdblock undefined
 rg.ru#$#prevent-listener error '()=>{t(!1)}'
+kriminal.net.ua#$#abort-on-property-read screen.width
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
