@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Cj7DocJZFTW+OSQWaPw9bg
+! Checksum: uEHfYcOOeXe319m8pzmpUw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202602061807
-! Last Modified: 2026年02月06日 18:07
+! Version: 202602062141
+! Last Modified: 2026年02月06日 21:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -32,6 +32,8 @@ topcinema.*#$#abort-current-inline-script document.createElement delete window
 ! #CV-754
 akwam.*,akoam.*,gateanime.com#$#abort-on-property-read String.fromCharCode
 ! *** abp-filters-anti-cv:bulgarian.txt ***
+! MISC
+filmifen.com#$#bort-on-property-write window.open; prevent-listener DOMContentLoaded href;
 ! *** abp-filters-anti-cv:chinese.txt ***
 ! #CV-767
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
@@ -1303,6 +1305,7 @@ aagmaal.*#$#hide-if-matches-xpath './/a[@target][@rel="noopener"]/parent::div/an
 uncutprime.com#$#hide-if-matches-xpath './/a[contains(@href,"pornzen") or contains(@href,"PornZen")]/ancestor::div[starts-with(@class,"happy-footer")]'
 dopebox.*#$#abort-on-property-write window.top.postMessage; abort-current-inline-script document.documentElement break;case $.
 bigfuck.tv,leslez.com#$#hide-if-matches-xpath './/a[contains(@href,"wolf-327b.com") or contains(@href,"trustpielote.com")]/parent::div[1]'
+paperio.*#$#override-property-read checktimeForAds falseFunc;
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -2437,7 +2440,9 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||caromedlusk.com^
 ||cashooshut.com^
 ||cayosunhairs.com^
+||ccfigtpmeaqnq.website^
 ||chambulwacs.com^
+||cheaplyhumiliatedhunt.com^
 ||chivwtusseh.com^
 ||closishcool.com^
 ||coateebyth.com^
@@ -2712,6 +2717,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||shanksmagh.com^
 ||shboshbok.com^
 ||shovelsbezzled.com^
+||shingonannates.com^
 ||shrewkabonga.com^
 ||shumackeels.com^
 ||skewlycrepy.com^
