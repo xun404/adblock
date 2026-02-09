@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BDyWvgFoxRdRAN56xKaVhw
+! Checksum: M5U2hsE5lqXovTsX3D6lQQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202602092153
-! Last Modified: 2026年02月09日 21:53
+! Version: 202602092330
+! Last Modified: 2026年02月09日 23:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1318,6 +1318,7 @@ uncutprime.com#$#hide-if-matches-xpath './/a[contains(@href,"pornzen") or contai
 dopebox.*#$#abort-on-property-write window.top.postMessage; abort-current-inline-script document.documentElement break;case $.
 bigfuck.tv,leslez.com#$#hide-if-matches-xpath './/a[contains(@href,"wolf-327b.com") or contains(@href,"trustpielote.com")]/parent::div[1]'
 paperio.*#$#override-property-read checktimeForAds falseFunc;
+coinglass.com#$#override-property-read Object.prototype.url_ad undefined
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
