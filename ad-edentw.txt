@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PXUftnTDQ13tPJHp8NSACw
+! Checksum: 0Mszo0dAIyQkcgWg04MQMQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202602102341
-! Last Modified: 2026年02月10日 23:41
+! Version: 202602110607
+! Last Modified: 2026年02月11日 06:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -33,7 +33,7 @@ topcinema.*#$#abort-current-inline-script document.createElement delete window
 akwam.*,akoam.*,gateanime.com#$#abort-on-property-read String.fromCharCode
 ! *** abp-filters-anti-cv:bulgarian.txt ***
 ! MISC
-filmifen.com#$#bort-on-property-write window.open; prevent-listener DOMContentLoaded href;
+filmifen.com#$#abort-on-property-write window.open; prevent-listener DOMContentLoaded href;
 ! *** abp-filters-anti-cv:chinese.txt ***
 ! #CV-767
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
