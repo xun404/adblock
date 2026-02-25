@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gaAYLJ7+KcTlp+zrLS9BbA
+! Checksum: vO311VM3gtoCK+B970u/Zw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202602260135
-! Last Modified: 2026年02月26日 01:35
+! Version: 202602260753
+! Last Modified: 2026年02月26日 07:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24871,7 +24871,6 @@ omni.soundestlink.com$image
 ||counter247.live^
 ||cpx.to^
 ||cr-relay.com^
-||crcldu.com^
 ||crossengage.io^
 ||crwdcntrl.net^
 ||cvlb.dev^
@@ -30181,6 +30180,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.editorx.com^
 ||frontend-logger.flippback.com/api/logging
 ||fs-client-logger.herokuapp.com^
+||fst-ec.perimeterx.net^
 ||ftimg.net/js/log.js?
 ||ftm.fluencyinc.co^
 ||fudge.ai/metrics?
@@ -31041,6 +31041,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pussy.org^*/track.php
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
+||px-cloud.net/b/c/beacon
 ||px-cloud.net/b/s
 ||px.marchex.io^
 ||px.mountain.com^
@@ -74018,7 +74019,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! lightning.cnn.com
 @@||lightning.cnn.com^$script,domain=wfmz.com
 !! tag.aticdn.net
-@@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
+@@||tag.aticdn.net^$script,domain=gouv.fr|openservices.enedis.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 !! cdn.optimizely.com/public
 @@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
