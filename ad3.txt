@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vO311VM3gtoCK+B970u/Zw
+! Checksum: eqdQkG2XdHyeJ/Ow16oIkQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202602260753
-! Last Modified: 2026年02月26日 07:53
+! Version: 202602261117
+! Last Modified: 2026年02月26日 11:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1770,6 +1770,8 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||i2fxsez4f0.com^
+||22eo9qlbpt.com^
 ||f5nn75ozf.com^
 ||z1el6lgol.com^
 ||sq5f10q3d.com^
@@ -23568,6 +23570,7 @@ m.babytree.com##script + a[class]
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
+/snowplow-collector-prod.$xmlhttprequest
 /snowplow-tracker.tatest.js
 /snowplow.js
 /snowplow/*$script
@@ -31234,6 +31237,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
 ||sgali-mcs.byteoversea.com^
+||sgm-w.jd.com^
 ||share-online.biz/affiliate/$third-party
 ||shareaholic.com/analytics_
 ||shareaholic.com/partners.js
@@ -32366,6 +32370,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||datahub-srgssr.ch/tracking/
 ||djuf7jb483wz1.cloudfront.net/p/l.jpg
 ||eick.it/statistics/
+||epoq.de/inbound-servletapi/event?
 ||et.twyn.com^
 ||events.onet.pl^
 ||export.newscube.de^$~subdocument
@@ -32381,6 +32386,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||global-media.de^*/track/ai.img
 ||goldsilbershop.de/go.cgi?
 ||gproxy-beta.mableai.workers.dev/wtag/js
+||grafana-agent.cuboxx.io^
 ||hbx.df-srv.de^
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
@@ -33788,6 +33794,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c.wort-suche.com^
 ||c.xbox.com^
 ||c.ypcdn.com^$domain=yellowpages.com
+||cactus.joybuy.com^
 ||camgirls.casa/p.php
 ||cammodels.com/api/metrics
 ||campsaver.com/nelmio-js-logger/
@@ -33840,6 +33847,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||client-errors.rebble.io/log-client-error
 ||client-log.box.com^
 ||client-metrics.chess.com^
+||clk-m.joybuy.com^
 ||cloudflare.com/_cf/analytics.js
 ||cloudfront.net/tracker-latest.min.js
 ||cloudfront.net/vis_opt.js
@@ -34287,6 +34295,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gurgle.pcmag.com^
 ||gurgle.spiceworks.com^
 ||h031.familydollar.com^
+||h5log.joybuy.com^
 ||hacksplaining.com/track
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||harryrosen.com/analytics/
@@ -34858,6 +34867,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||read.amazon.*/uploadMetrics/
 ||realitytvworld.com/images/pixel.gif
 ||rec.banggood.com^
+||recommend.9gag.com/interact/event/
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
@@ -71556,6 +71566,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||comparis.ch/comparis/Tracking/
 ||computerbase.de/analytics
 ||computerbase.de/api2/$ping,xmlhttprequest
+||coolblue.de/js/mimir/
 ||cp.finanzfrage.net/stats
 ||cpx.golem.de^
 ||cpxl.golem.de^
@@ -71583,6 +71594,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fotocommunity.de/track/
 ||fpoe.at/tracker/
 ||froglytics.eventfrog.ch^
+||galaxus.com/_next/static/chunks/rum.$script
 ||gegenstimme.tv/tracker/
 ||geoip.finanzen.net^
 ||glomex.com^$ping
@@ -71634,6 +71646,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pi.technik3d.com^
 ||pixel.ionos.de^
 ||plausible.motorpresse.de^
+||playox.de/analytics/
 ||potsdamer-stadtplan.com/t.gif
 ||pstt.mtb-news.de^
 ||px.derstandard.at^
@@ -71651,6 +71664,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ruw.de/js/trackSidebarClicks.js
 ||s.eick.it^
 ||schnaeppchenfuchs.com/js/default-
+||schottenland.de/na/ajax.php?ax=HiT&
 ||sgtm.tennis-point.de^
 ||shoop.de/mgtrx/
 ||shop.rewe.de/api/xrd/web-vitals
@@ -71743,6 +71757,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tracking.zierlicheladies.de^
 ||tracksrv.zdf.de^
 ||tutti.ch/api/v10/clientmetrics/report-metric
+||ud.galaxus.de^
 ||ui-portal.de/pos-cdn/tracklib/
 ||united.web.de/confirm?
 ||united.web.de/event?
