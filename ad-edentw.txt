@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wGGX2CS2SXYvCfihdAmnbA
+! Checksum: dIE3HSlNhTuhFxFXf6Cwcw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202603060736
-! Last Modified: 2026年03月06日 07:36
+! Version: 202603061523
+! Last Modified: 2026年03月06日 15:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1356,7 +1356,7 @@ nicovideo.jp#$#hide-if-matches-xpath './/li[@class="count ads"]/parent::ul/ances
 ||hotpepper.jp/doc/*/townwork.jpg^$image
 hotpepper.jp##div[style*="text-align: center;"] > div > a
 hotpepper.jp##.personalizedCampaign
-yahoo.co.jp#$#hide-if-matches-xpath './/div[@style]/div[@style]/ancestor::div[@style][1]/parent::div[contains(@style,"width: 990px")]'; hide-if-matches-xpath './/div[contains(@style,"yads")]/parent::div[@style][1]'; hide-if-matches-xpath './/div[@style]/a[@href][@target]/parent::div[@style][1]//parent::div[@style][not(contains(@class,"map"))]/ancestor::div[@id][contains(@style,"width")]'; hide-if-matches-xpath './/iframe[@title="Ad Content"]/parent::div[@id]/ancestor::div[@id][@class][1]';
+yahoo.co.jp#$#hide-if-matches-xpath './/div[@style]/div[@style]/ancestor::div[@style][1]/parent::div[contains(@style,"width: 990px")]'; hide-if-matches-xpath './/div[contains(@style,"yads")]/parent::div[@style][1]'; hide-if-matches-xpath './/div[@style]/a[@href][@target]/parent::div[@style][1]//parent::div[@style][not(contains(@class,"map"))]/ancestor::div[@id][contains(@style,"width")]'; hide-if-matches-xpath '//*[contains(@class,"yjAdImage") or @data-i-text="広告" or @data-uv-element="yads_uv_banner"]/ancestor-or-self::div[starts-with(@id,"yads_")]'; hide-if-matches-xpath '//*[contains(@data-uv-element,"yads") or (@data-i-elm="textBody" and text()="広告")]/ancestor-or-self::div[starts-with(@id,"yads_")]';
 yahoo.co.jp##div[class*="SideMenuAd"]
 ||bance.jp/bnc*^$script,domain=himanatokiniyaruo.com|vippers.jp|matomeantena.com|anige-sokuhouvip.com
 bance.jp#$#abort-on-property-read Math.floor; abort-on-property-read Object.defineProperty
