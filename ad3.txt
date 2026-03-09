@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lm+UXEFTNwEpsSNrH6TTFw
+! Checksum: q5DZEOPLAB/rBwRi/oRxJQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202603090748
-! Last Modified: 2026年03月09日 07:48
+! Version: 202603091120
+! Last Modified: 2026年03月09日 11:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1749,6 +1749,7 @@ newduba.cn###jq_youxi
 ##a[href="https://t.me/bokaiyunwujiankaiyun"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##td[id^="td_"] > a[href^="/htmm/"]
+##.floating-ad
 !----------------------------------Ads-Union----------------------------------!
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
@@ -1775,6 +1776,14 @@ newduba.cn###jq_youxi
 ||nb5a7g5r1.com^
 ||pztnzqwz.icu^
 ||c3mldou51.com^
+||zfru.cn^
+||lkpjbr.icu^
+||nwholf.icu^
+||xdyn03090jy.com^
+||eghaailr.com^
+||bonehead49.top^
+||72qv9fhgm.com^
+||ohdaqtkuvnt.in^
 ||drudgery89.com^
 ||wkjwumtex3.com^
 ||n1yy6blznk.com^
@@ -10824,6 +10833,7 @@ meijutt.*/js/pcjs/
 ||thjfcs.cn/hc237/uploads/default/other/2025-12-10/81a0f876800ea81616864d841f102ef4.
 ||bad.news/scripts?
 ||gliacloud.com^$domain=thisiscm.com
+||cilipa.com^*0.js
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 novel543.com,thisiscm.com##.gadBlock
@@ -22823,7 +22833,6 @@ m.babytree.com##script + a[class]
 /logger.ashx?
 /logger.dll/*
 /logger/?referer=
-/logging/ClientEvent
 /logging/log.do
 /logging/logjs
 /logging/pageView
@@ -29587,6 +29596,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdns.brsrvr.com^
 ||cdp.sph.com.sg/activation/activation.js
 ||ceros.com/a?data
+||cert.tryggehandel.net/ping
 ||cf-pixelfront-analytics.widencdn.net^
 ||cf.api.instant.one^
 ||cf.overblog.com^
@@ -73899,7 +73909,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||tm.regions.com/tags.js$~third-party
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 @@||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
-@@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 @@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
