@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m/8p+xFBu96Rp7ZBJrs/eA
+! Checksum: yhA19tS5cxQzXqHf44BzDg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202603111955
-! Last Modified: 2026年03月11日 19:55
+! Version: 202603112144
+! Last Modified: 2026年03月11日 21:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -696,6 +696,14 @@ slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asloa
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
 wetter.com#$#override-property-read wcomAdBlock noopFunc false
 spendwithpennies.com#$#abort-current-inline-script document.createElement /html-load/
+sallysbakingaddiction.com,natashaskitchen.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,downshiftology.com,onceuponachef.com,halfbakedharvest.com,skinnytaste.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
+sallysbakingaddiction.com,natashaskitchen.com,spendwithpennies.com,tastesbetterfromscratch.com,themediterraneandish.com,thewoksoflife.com,downshiftology.com,onceuponachef.com,halfbakedharvest.com,skinnytaste.com#$#abort-on-property-read Intl.DateTimeFormat false
+@@||*/abd.js^$domain=sallysbakingaddiction.com|natashaskitchen.com|spendwithpennies.com|tastesbetterfromscratch.com|themediterraneandish.com|thewoksoflife.com|downshiftology.com|onceuponachef.com|halfbakedharvest.com|skinnytaste.com
+programme-tv.net#$#abort-current-inline-script btoa /last_bfa_at/
+programme-tv.net#$#override-property-read navigator.onLine false
+||*/loader.min.js^$script,domain=programme-tv.net
+||error-report.com/report$domain=programme-tv.net
+programme-tv.net#$#prevent-element-src-loading iframe /report\.error-report\.com/
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
@@ -2450,6 +2458,8 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||binmanoboles.com^
 ||bivinyltarve.com^
 ||blazeoccamy.com^
+||blowersdialer.com^
+||blurbsoutpry.com^
 ||bnbagnut.com^
 ||borelmazatec.com^
 ||borghaswing.com^
@@ -2486,6 +2496,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||coesitecubbing.com^
 ||colordownbye.com^
 ||coombrecuse.com^
+||cormelsseity.com^
 ||corvoidhas.com^
 ||corylussunroof.com^
 ||couloirmatrass.com^
@@ -2754,6 +2765,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||taujubarb.com^
 ||tauliabridler.com^
 ||teenerdormer.com^
+||templatein13.net^
 ||tergantbegnaw.com^
 ||thiazinamus.com^
 ||thimpardas.com^
