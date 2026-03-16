@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FZ42L2S5KICwA5IaloeDaQ
+! Checksum: nSjZ6EInXnanCqKtrAR50w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202603161741
-! Last Modified: 2026年03月16日 17:41
+! Version: 202603162158
+! Last Modified: 2026年03月16日 21:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -13,7 +13,7 @@
 ! abp-filters-anti-cv
 ! *** abp-filters-anti-cv:arabic.txt ***
 ! MISC
-3sk.*,33sk.tv,esheeq.co#$#abort-on-property-read atob; abort-on-property-write Fingerprint2; abort-on-property-read decodeURIComponent; abort-on-property-read RegExp
+33sk.tv,3sk.*,esheeq.co#$#abort-on-property-read atob; abort-on-property-write Fingerprint2; abort-on-property-read decodeURIComponent; abort-on-property-read RegExp
 topcinema.*#$#hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 stardima.*#$#abort-current-inline-script document.createElement /break|case/
 iegybest.*#$#abort-on-property-read attr
@@ -21,22 +21,22 @@ iegybest.*#$#abort-on-property-read attr
 arabseed.*#$#abort-on-property-read atob; abort-on-property-read decodeURI; abort-on-property-read decodeURIComponent
 hawak.net#$#abort-on-property-read atob
 ! #CV-667
-beinconnect.*,coroot.blogspot.com,ktarab.com,actionz.tv,brstej.com,movs4u.*,kora-online.tv,filmey.tv,animetak.net,arabseed.*#$#abort-current-inline-script Math zfgloaded
+actionz.tv,animetak.net,arabseed.*,beinconnect.*,brstej.com,coroot.blogspot.com,filmey.tv,kora-online.tv,ktarab.com,movs4u.*#$#abort-current-inline-script Math zfgloaded
 ! Popup/Popunder/Clickunder
 egyanime.*,egydead.*#$#abort-on-property-write _pop
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,lodynet.*#$#abort-on-property-read decodeURIComponent
 egy.*,egybest.*,egybest2.*,iegy.*#$#abort-on-property-read open
-akhbara24.news,anime4up.*,arabseed.*,asia2tv.*,cima-club.*,cima4u.*,cimalina.*,egy-live.online,egynow.*,faselhd.*,hawak.net,iegybest.co,lodynet.*,manga.ae,moshahda.net,movizland.online,egyanime.com,egydead.*,shahed4u.*,shaheed4u.*,shahid4uu.*,shahidd4u.*,tuktukcinema.*,witanime.com,yalla-shoot.today#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
+akhbara24.news,anime4up.*,arabseed.*,asia2tv.*,cima-club.*,cima4u.*,cimalina.*,egy-live.online,egyanime.com,egydead.*,egynow.*,faselhd.*,hawak.net,iegybest.co,lodynet.*,manga.ae,moshahda.net,movizland.online,shahed4u.*,shaheed4u.*,shahid4uu.*,shahidd4u.*,tuktukcinema.*,witanime.com,yalla-shoot.today#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 cima-club.*#$#abort-on-property-read window.zfgstorage
 topcinema.*#$#abort-current-inline-script document.createElement 'delete window'
 ! #CV-754
-akwam.*,akoam.*,gateanime.com#$#abort-on-property-read String.fromCharCode
+akoam.*,akwam.*,gateanime.com#$#abort-on-property-read String.fromCharCode
 ! *** abp-filters-anti-cv:bulgarian.txt ***
 ! MISC
 filmifen.com#$#abort-on-property-write window.open; prevent-listener DOMContentLoaded href;
 ! *** abp-filters-anti-cv:chinese.txt ***
 ! #CV-767
-ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$#abort-on-property-read Object.prototype.loadImage
 baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#$#hide-if-contains 广告 #content_left>div .ec-tuiguang
@@ -1420,7 +1420,7 @@ www.facebook.com,web.facebook.com#$#override-property-read Env.nxghljssj false; 
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 ! *** abp-filters-anti-cv:french.txt ***
 ! #CV-663
-aupetitparieur.com,meilleurpronostic.fr,mamieastuce.com##div[class] > div[id] > main[class][id]
+aupetitparieur.com,mamieastuce.com,meilleurpronostic.fr##div[class] > div[id] > main[class][id]
 ! #CV-170
 supertoinette.com#$#abort-on-property-read setInterval
 ||www.planet.fr/foretimes^
@@ -1441,10 +1441,10 @@ lephoceen.fr##div[class*="ad_ad__"]
 extreme-down.*,extreme-download.*,voiranime.com#$#abort-on-property-read NativeAd
 ! #CV-667
 voiranime.com#$#abort-current-inline-script document.createElement String.fromCharCode
-filmtelecharger.net,libertyvf.co,libertyvf.tv,libertyvf.com,streaming-one.com,extreme-down.*,extreme-download.*#$#abort-current-inline-script Math zfgloaded
+extreme-down.*,extreme-download.*,filmtelecharger.net,libertyvf.co,libertyvf.com,libertyvf.tv,streaming-one.com#$#abort-current-inline-script Math zfgloaded
 ! MISC
-netu.tv,hqq.*#$#abort-on-property-read ownerid
-netu.tv,hqq.*#$#abort-on-property-read _pop
+hqq.*,netu.tv#$#abort-on-property-read ownerid
+hqq.*,netu.tv#$#abort-on-property-read _pop
 japscan.*#$#abort-on-property-read atob; abort-current-inline-script document.createElement String.fromCharCode; abort-current-inline-script Object.defineProperty XMLHttpRequest
 jpscan-vf.com#$#abort-on-property-read __formatsGetters
 blablastream.rip,frstream.rip,papadustream-to.lol,papystreamings.com,voirseries.*#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
@@ -1477,10 +1477,10 @@ jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
 batporno.com#$#abort-on-property-read decodeURI
 vostfree.*#$#abort-on-property-write _pop
-animecomplet.*,cpasbien.ch,cpasbien.si,dadyflix.co,dl-protect.*,dl-protect1.com,ed-protect.org,extreme-down.*,extreme-download.*,filmsexeporno.com,french-stream.*,hds-streaming.su,hds-streaming.tv,hdss.la,hdss.to,ianime-fr.com,japscan.*,jetanimes.*,lelscanfr.com,lelscans.net,mavanimes.*,streaming-french.*,streamingfrance.com,summarynetworks.com,toonanime.*,torrent9.*,vanime.*,vf-film.net,voirseries.*,vostanimez.tv,vostanimey.net,vostfree.*,wawacity.*,zone-annuaire.*,zone-telechargement.*#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
+animecomplet.*,cpasbien.ch,cpasbien.si,dadyflix.co,dl-protect.*,dl-protect1.com,ed-protect.org,extreme-down.*,extreme-download.*,filmsexeporno.com,french-stream.*,hds-streaming.su,hds-streaming.tv,hdss.la,hdss.to,ianime-fr.com,japscan.*,jetanimes.*,lelscanfr.com,lelscans.net,mavanimes.*,streaming-french.*,streamingfrance.com,summarynetworks.com,toonanime.*,torrent9.*,vanime.*,vf-film.net,voirseries.*,vostanimey.net,vostanimez.tv,vostfree.*,wawacity.*,zone-annuaire.*,zone-telechargement.*#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 mavanimes.*,toonanime.*#$#abort-current-inline-script document.documentElement /atob|break|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/;
 protege-torrent.com#$#abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
-mavanimes.*,japscan.*#$#abort-current-inline-script JSON.parse;
+japscan.*,mavanimes.*#$#abort-current-inline-script JSON.parse;
 strtapeadblock.me#$#abort-on-property-write _pao
 tirexo.day#$#abort-on-property-read window.open
 ||tirexo.day^$csp=script-src 'self'
@@ -1519,7 +1519,7 @@ idokep.hu#$#hide-if-matches-xpath '//div[contains(@class,"info-small")][text()="
 slobodnadalmacija.hr#$#hide-if-matches-xpath './/div[@id][contains(@class,"ad--align")]/ancestor::div[1]'
 ! *** abp-filters-anti-cv:indian.txt ***
 ! #CV-669
-newstm.in,3pm.in##a[href*="/click.htm?"][target="_blank"]
+3pm.in,newstm.in##a[href*="/click.htm?"][target="_blank"]
 ! Popup/Popunder/Clickunder
 xxx-indian-porn.com#$#abort-current-inline-script popunder
 hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -1530,7 +1530,7 @@ mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
 ! Popup/Popunder/Clickunder
 komikcast.*#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
-beritabaru.news,solusi.cyou,poop.*#$#override-property-read setTimeout noopFunc
+beritabaru.news,poop.*,solusi.cyou#$#override-property-read setTimeout noopFunc
 westmanga.fun#$#abort-on-property-read doOpen1 false; override-property-read puShown1 true; abort-current-inline-script document.cookie
 metrolagu.*#$#abort-on-property-write window.open;
 poop.*#$#abort-current-inline-script String.fromCharCode 2147483647; abort-on-property-read window.open;
@@ -1875,10 +1875,10 @@ hispasexy.org#$#abort-current-inline-script _cpp; abort-current-inline-script de
 animefenix.com#$#abort-current-inline-script document.createElement _yzvesi; abort-on-property-write zfgloadedpopup;
 pelisplus.*#$#abort-on-property-write _zoxxpiee
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
-comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,hentaila.tv,hentaisenpai.org,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,subtaboo.com,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
+comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,hentaila.tv,hentaisenpai.org,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornocolombiano.net,pornoreino.com,subtaboo.com,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
 pelisflixhd.art,series-de.online#$#abort-on-property-read doSecondPop; abort-on-property-read doSecondPopU
 animefenix.com#$#abort-on-property-read p18
-tvporinternet2.com,pelisflixhd.art,peliculasyseries-online.com,verpeliculasio.online#$#abort-on-property-write window.open
+peliculasyseries-online.com,pelisflixhd.art,tvporinternet2.com,verpeliculasio.online#$#abort-on-property-write window.open
 monoschinos2.com#$#abort-current-inline-script EventTarget.prototype.addEventListener encodeURIComponent
 seriesyonkis.cx#$#abort-on-property-read window.atob; abort-on-property-read open; abort-on-property-read _0x4c81
 cuevana3.*,pelisflixhd.*#$#abort-on-property-read decodeURI; abort-current-inline-script Math /break;case \$/; abort-on-property-write popUpUrl
@@ -1887,7 +1887,7 @@ animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-i
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
-tvporinternet2.com,series24.*#$#abort-on-property-read aclib.runPop
+series24.*,tvporinternet2.com#$#abort-on-property-read aclib.runPop
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! *** abp-filters-anti-cv:turkish.txt ***
