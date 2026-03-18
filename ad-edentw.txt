@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M1YpJ0kYAvKlkXcOUjKayw
+! Checksum: knKVYK0UfX5CnGTKvO/K5w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202603182158
-! Last Modified: 2026年03月18日 21:58
+! Version: 202603190137
+! Last Modified: 2026年03月19日 01:37
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -953,7 +953,7 @@ mult34.com#$#abort-current-inline-script decodeURI; abort-on-property-read decod
 hdvid.*#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
 actvid.com,cineb.*,hdtoday.*,hdtodayz.*,solarmovie.*,upload4earn.org,uploadbyte.com,vidbem.com,watchseries.*,yts-official.*,yts.*,zoechip.*#$#abort-on-property-read localStorage
 dood.*,doods.*,doodstream.*,dooodster.*,dooood.*,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; override-property-read cRAds trueFunc; abort-on-property-write xRds; abort-on-property-write xPoPAdS
-1377x.*,1flix.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,l1afav.*,moviesapi.*,myflixerzz.*,primewire.*,seaporn.org,sfile.mobi,usersdrive.com,vid2faf.*,vidfast.*,vidlink.*,vidsrc.*,watchflix.*#$#abort-on-property-read window.open
+1377x.*,1flix.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,l1afav.*,miraculous.to,moviesapi.*,myflixerzz.*,primewire.*,seaporn.org,sfile.mobi,usersdrive.com,vid2faf.*,vidfast.*,vidlink.*,vidsrc.*,watchflix.*#$#abort-on-property-read window.open
 vudeo.co,vudeo.io,vudeo.net,youdbox.com#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.*,yifysubtitles.*#$#override-property-read isAdblock false; abort-current-inline-script EventTarget.prototype.addEventListener /key/; abort-on-property-read aclib; abort-on-property-read Adcash; override-property-read isAdblock2 false;
 hclips.com,upornia.com#$#abort-on-property-read adver
@@ -1352,6 +1352,7 @@ hltv.org#$#hide-if-matches-xpath '//img[contains(@class,"day-only") or contains(
 asnwish.com,movielair.cc#$#abort-current-inline-script document.createElement __directlink; abort-current-inline-script document.createElement /blocked\.html/
 streamingcommunityz.*#$#abort-on-property-read document.head.append
 myflixerz.*#$#hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
+miraculous.to#$#prevent-listener hashchange; prevent-listener popstate
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -2713,6 +2714,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||mournerslath.com^
 ||mudejartitoism.com^
 ||muragetunnel.com^
+||musesooreyn.cfd^
 ||myricylhoihere.com^
 ||mythosupflow.com^
 ||nainepidia.com^
@@ -2826,6 +2828,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||stibilpirra.com^
 ||stimespatroon.com^
 ||stoodhiplike.com^
+||stuckenthimber.qpon^
 ||stuffedclipse.com^
 ||stulmunshent.com^
 ||stummelbeelbow.com^
