@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SJ42Oj7ppbB+F9DC83ytHg
+! Checksum: 3IvG6suMaFrow2lQAEYI7w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202603191807
-! Last Modified: 2026年03月19日 18:07
+! Version: 202603191958
+! Last Modified: 2026年03月19日 19:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -45,13 +45,12 @@ torrentkitty.tv#$#abort-on-property-read _fupfgk; abort-on-property-read _nyjdy
 178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 2345.com#$#abort-current-inline-script setDefaultTheme
-ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ifenpaidy.com#$#abort-on-property-read localStorage
 939394.xyz#$#abort-on-property-read atob
 movieffm.net#$#abort-on-property-read window.open
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
-madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
+ahri8.top,madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
 editcode.net#$#abort-current-inline-script setTimeout openAd
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 ! Video ads
@@ -1599,7 +1598,6 @@ kuchnia.wp.pl#$#abort-on-property-read pbjs.libLoaded
 turystyka.wp.pl#$#abort-on-property-read pbjsChunk
 dom.wp.pl,facet.wp.pl#?#.view-first:-abp-has(a[onclick*="var img = document.createElement('img');"])
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(adsFirstRegisterSlot))
-money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 money.pl,pudelek.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 parenting.pl#$#abort-on-property-read slot
 dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,kuchnia.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,teleshow.wp.pl,turystyka.wp.pl,wawalove.wp.pl,wiadomosci.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
@@ -1684,8 +1682,7 @@ gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 ||doramatv.live^$header=x-yandex-req-id
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 ! #CV-659
-gagadget.com,ringside24.com#$#abort-on-property-read localStorage
-newsyou.info#$#abort-on-property-read localStorage
+gagadget.com,ringside24.com,newsyou.info#$#abort-on-property-read localStorage
 24tv.ua##.b_reklama
 azov-sea.info##[valign="middle"]
 azov-sea.info##td[width="330"]
@@ -1711,7 +1708,6 @@ astrakhan.ru,myjane.ru,omskpress.ru,tambovnet.org#$#abort-on-property-read kav_c
 krolik.biz#$#abort-current-inline-script document.createElement
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 agroportal.ua#$#abort-on-property-read abn
-kaztorka.org#$#abort-current-inline-script document.createElement Math.random
 naruto-base.su#$#abort-on-property-read njranu
 animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.createElement Math.random; abort-current-inline-script setInterval Math.random
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
@@ -1754,11 +1750,10 @@ hardwareluxx.ru#$#abort-current-inline-script jQuery backgroundImage
 igromania.ru,kanobu.ru#$#json-prune results.fixed
 motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerId 5.BannerId 6.BannerId'
 nsportal.ru#$#abort-on-property-read addDownloadPrefixToLinks false
-bombardir.ru#$#abort-on-property-read alert
 www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock; abort-on-property-read Ya; cookie-remover jtnews_adblock;
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 relax-fm.ru,rg.ru#$#abort-on-property-read AdFox_getCodeScript
-ontivi.net#$#abort-current-inline-script document.createElement Math.random
+kaztorka.org,ontivi.net#$#abort-current-inline-script document.createElement Math.random
 bstudy.net#$#abort-on-property-read _0xddc4
 studbooks.net#$#abort-on-property-read _0x8336
 studme.org#$#abort-on-property-read _0x5443
@@ -1780,7 +1775,7 @@ vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
 liveball.*#$#abort-on-property-read ABNS
 zab.ru#$#abort-on-property-read document.body.style
 players.com.ua#$#abort-on-property-read localStorage
-inforesist.org#$#abort-on-property-read alert
+bombardir.ru,inforesist.org#$#abort-on-property-read alert
 dzen.ru#$#override-property-read Object.prototype.adFoxParameters null
 gencit.info#$#abort-on-property-read Radish
 bb.lv#$#abort-on-property-read adjustBackground false
@@ -1870,7 +1865,6 @@ futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
 gnula.cc#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 latinblog.tv,peladas69.com#$#abort-on-property-read __formatsGetters
-animefenix.org,animeonline.ninja,audaciousdefaulthouse.com#$#abort-on-property-read window.open
 monoschinos2.com#$#abort-on-property-read _0x24d7; abort-on-property-read _0x41ed; abort-on-property-read _0xf59bf3; abort-on-property-read a3klsam
 cuevana.*,cuevana3.*,cuevana4.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
@@ -1899,7 +1893,7 @@ seriesyonkis.cx#$#abort-on-property-read window.atob; abort-on-property-read ope
 cuevana3.*,pelisflixhd.*#$#abort-on-property-read decodeURI; abort-current-inline-script Math /break;case \$/; abort-on-property-write popUpUrl
 ||cuevana3.eu/edgeSystemV1.js^$domain=cuevana3.eu
 animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-inline-script document.createElement script;
-pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
+animefenix.org,animeonline.ninja,audaciousdefaulthouse.com,pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 series24.*,tvporinternet2.com#$#abort-on-property-read aclib.runPop
@@ -1919,7 +1913,7 @@ blog.abit.vn#$#simulate-mouse-event '#ads_popup .close$continue,delay=500'
 phimhdplus.com#$#json-prune ads; abort-current-inline-script setTimeout click_time
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
-tusachmanga99.com#$#abort-current-inline-script $ window.open
+teamlanhlungday.store,tusachmanga99.com#$#abort-current-inline-script $ window.open
 motchillk.soy#$#abort-on-property-read sessionStorage
 rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
@@ -1988,22 +1982,19 @@ hhvsub1.com,sextop1.uno#$#abort-current-inline-script WebAssembly globalThis
 hh3dhay.*#$#abort-current-inline-script Symbol /break|case/
 gocmod.com#$#abort-current-inline-script jQuery popup
 animevietsub9.com#$#abort-on-property-read _0x3f9b
-trumtruyen.xyz,www.motchill51.com#$#abort-current-inline-script setTimeout Aff
 vlmupsex.net#$#abort-on-property-read Cookies
 childish2x1.fun,childish2x2.fun,lottedira.store,tekora.fun,tekora.space#$#abort-current-inline-script $ aff
 javhd.shop#$#abort-current-inline-script document.addEventListener Click
 ios.codevn.net#$#abort-current-inline-script jQuery Popup
 cdn4.tiptoe34x1.fun,economic45882.shop,cdn.codexa.fun#$#abort-current-inline-script $ arrDirectLink
 laophatgia.net#$#abort-current-inline-script document.getElementsByClassName reading-content
-teamlanhlungday.store#$#abort-current-inline-script $ window.open
-teamlanhlungday.store#$#abort-current-inline-script setTimeout aff
 www.sieutamphim.pro#$#abort-on-property-write _$_d52e
 quatvn.my#$#abort-current-inline-script window.addEventListene localStorage
 checkscam.vn#$#abort-current-inline-script document.addEventListener open
 haysexvn.lol#$#abort-current-inline-script document.addEventListener adx
 clipphot.vip,lodgesincheshire.co.uk#$#abort-current-inline-script document.addEventListener POP
 audiotruyenfull.com#$#abort-current-inline-script document.addEventListener ai_run
-audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
+audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.motchill51.com#$#abort-current-inline-script setTimeout Aff
 pheclip.love,phim18vip.top,sieudam.sh#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
