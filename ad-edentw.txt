@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iQeeAbrZk8F1GES4EXtyXA
+! Checksum: VSaf65WFJEsmK2yfyO/uZA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202603232335
-! Last Modified: 2026年03月23日 23:35
+! Version: 202603240126
+! Last Modified: 2026年03月24日 01:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1277,6 +1277,7 @@ streamingcommunityz.*#$#abort-on-property-read document.head.append
 myflixerz.*#$#hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 miraculous.to#$#prevent-listener hashchange; prevent-listener popstate
 calculator.taxadda.com#$#hide-if-matches-xpath './/img[contains(@src,"ad-images")]/parent::a[@target][@rel]/ancestor::div[@id]'
+virginiatech.sportswar.com#$#hide-if-matches-xpath './/a[contains(@href,"bit.ly")]/ancestor::div[contains(@id,"ad_")][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1314,6 +1315,8 @@ suzusoku.blog.jp#$#abort-current-inline-script jQuery floatingAd; hide-if-matche
 onecall2ch.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad") or contains(@class,"2ad")]/self::div[1]'
 ||a8.net^$third-party,domain=suzusoku.blog.jp
 ||spiritednow.xyz/ad^$subdocument,domain=pressian.com
+appmedia.jp#$#hide-if-matches-xpath './/div[contains(@id,"ad_")]/parent::div[1]'
+||i2ad.jp^$third-party,domain=appmedia.jp
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
@@ -1448,6 +1451,7 @@ haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h3[class]
 haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h2[class]
 ! MISC
 calcalist.co.il##div[class*="advertesing"] {remove:true;}
+media.kcm.fm/*mp4/video_ads/videoplayback_5.mp4*^$domain=emess.co.il
 ! *** abp-filters-anti-cv:hungarian.txt ***
 ! MISC
 idokep.hu##div[class*="ad-lockup-top-"]
@@ -1741,6 +1745,7 @@ cosmonova-broadcast.tv#$#override-property-read amodule.data false
 rutube.ru#$#override-property-read Object.prototype.advert undefined
 player.starlight.digital#$#replace-fetch-response testadv
 lumex.space#$#replace-fetch-response /endtag|pausebanner|rolls/ '.' 'ads'
+||rstprgapipt.com/*.xml?$xmlhttprequest
 ! #CV-547
 auto.mail.ru,cloud.mail.ru,hi-tech.mail.ru,horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-write _mimic
 horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-read MrgContext
