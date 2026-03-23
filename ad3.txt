@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TsAo30ppNu7ZmSs7th3WKA
+! Checksum: tNfADYn3M+5BS0CrBW453w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202603231131
-! Last Modified: 2026年03月23日 11:31
+! Version: 202603231353
+! Last Modified: 2026年03月23日 13:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -22066,6 +22066,7 @@ m.babytree.com##script + a[class]
 /boomerang.js
 /boomerang/beacon
 /boomr.js
+/boost-pfs-analytics-custom.js
 /boost-sd-analytic.js
 /boost_stats.php
 /bootstrap/metrics.js
@@ -23054,6 +23055,7 @@ m.babytree.com##script + a[class]
 /logviewedpage?
 /ls.gif?
 /lst/universal-script?ph=
+/lti-analytics-$script
 /lunametrics-
 /m.gif?
 /madAnalytics.js
@@ -28819,6 +28821,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2-apps.net^$third-party
 ||d2c.ne.jp^$third-party
 ||dbfocus.jp^$third-party
+||dc-tag.jp^$third-party
 ||deteql.net^$third-party
 ||dmtag.jp^$third-party
 ||docodoco.jp^$third-party
@@ -31666,6 +31669,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.id.net/log
 ||t.irtyc.com^
 ||t.jobsyn.org^
+||t.ltiquery.com^
 ||t.mail.sony-europe.com/r/?
 ||t.menepe.com^
 ||t.metrilo.com^
@@ -73626,6 +73630,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||top.mail.ru/tc?js
 ||top.mail.ru/tpc.js
 ||top.mail.ru/tt?js
+||traces.youdo.com^
 ||trk.mail.ru^$image,script
 ||umschool.net/_jts/api/s/track
 ||vedomosti.ru/boom?
