@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 87gazhLtSaPx9vdzEljlig
+! Checksum: gdL2g5pn6lLQOLwepiaTpA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202603262008
-! Last Modified: 2026年03月26日 20:08
+! Version: 202603262205
+! Last Modified: 2026年03月26日 22:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26872,6 +26872,7 @@ omni.soundestlink.com$image
 ||minewhat.com^$third-party
 ||minkatu.com^$third-party
 ||mirabelsmarketingmanager.com^$third-party
+||mirakl.net^$third-party
 ||mixi.mn^$third-party
 ||mixpanel.com^$third-party
 ||mkt3261.com^$third-party
@@ -34538,6 +34539,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||girlsofdesire.org/images/girlsofdesire.org/analytics.js
 ||github.com/_private/browser/stats
 ||github.dev/diagnostic?
+||givefreely.com/ingest/
 ||glassdoor.*/geb/events/
 ||glassmoni.researchgate.net^
 ||global.canon/00cmn/js/*/analytics-
@@ -73115,7 +73117,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||adat.travelo.hu^
 ||adat.veol.hu^
 ||adat.videa.hu^
+||arukereso.hu/*.impression?tt=
 ||beam.telex.hu^
+||checkout.arukereso.hu^$ping
 ||events.ingatlan.com^
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?

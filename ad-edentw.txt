@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Pk7UfCACJsQ04Il9e2u0Sw
+! Checksum: BC9j0aXwS6c2zilqEvMBzw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202603261734
-! Last Modified: 2026年03月26日 17:34
+! Version: 202603262205
+! Last Modified: 2026年03月26日 22:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1281,6 +1281,7 @@ virginiatech.sportswar.com#$#hide-if-matches-xpath './/a[contains(@href,"bit.ly"
 hqq.to###thispays {remove:true;}
 hqq.to##iframe[class="ppxls_awersd"] {remove:true;}
 hqq.to###bigplaybutxt {remove:true;}
+thegatewaypundit.com#$#abort-on-property-read navigator.userAgent false; abort-current-inline-script JSON.parse /decodeURI/
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1827,6 +1828,7 @@ animefenix.org,animeonline.ninja,audaciousdefaulthouse.com,pelisplushd.*,soap2da
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 series24.*,tvporinternet2.com#$#abort-on-property-read aclib.runPop
+mundoperfecto.net#$#prevent-listener click preventDefault
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! *** abp-filters-anti-cv:turkish.txt ***
