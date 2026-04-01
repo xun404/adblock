@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mVe972aKyoB/PYRh3jhuWg
+! Checksum: 2+c9v/H0Q72IUNUI5TK0qw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604011929
-! Last Modified: 2026年04月01日 19:29
+! Version: 202604012210
+! Last Modified: 2026年04月01日 22:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1062,6 +1062,7 @@ smashyplayer.*#$#abort-on-property-write cache_loader
 4anime.*#$#abort-current-inline-script eval /break;case \$\./
 mov2day.*#$#abort-on-property-read LieDetector; abort-on-property-read window.open; abort-current-inline-script String.fromCharCode 2147483647
 rootz.so#$#prevent-listener click preventDefault; abort-on-property-read window.open
+hdstream4u.com#$#hide-if-matches-xpath '//div[starts-with(@style,"position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01")]/ancestor-or-self::div[1]'; cookie-remover aff
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2407,6 +2408,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ##[href="https://adstub.net/gaza88/"]
 ##img[width="728"][height="90"]
 ! *** abp-filters-anti-cv:3rd-party/adservers.txt ***
+||2tk74zbwj5h394.cfd^
 ||30orbine.net^
 ||33brisk.net^
 ||35processors.net^
