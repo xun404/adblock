@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n8CU0xeYby3vYQ6lC0GLsQ
+! Checksum: mBOVV/YaK/uxFBawv1HfHQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604032142
-! Last Modified: 2026年04月03日 21:42
+! Version: 202604032309
+! Last Modified: 2026年04月03日 23:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1522,6 +1522,8 @@ slobodnadalmacija.hr#$#hide-if-matches-xpath './/div[@id][contains(@class,"ad--a
 xxx-indian-porn.com#$#abort-current-inline-script popunder
 hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
 moredesi.com#$#abort-on-property-read __formatsGetters
+! MISC
+azhimukham.com#$#hide-if-matches-xpath './/div[contains(text(),"Advertisement")]/parent::div[contains(@class,"advertisement")]'; hide-if-matches-xpath './/a[contains(@class,"ad-at")]/parent::div[@class]'
 ! *** abp-filters-anti-cv:indonesian.txt ***
 ! #CV-667
 mangacanblog.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
