@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /vlp6BSFZIdzlNspy31MIw
+! Checksum: Aiv9u6PxUyTJQrSFm93kXA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202604051538
-! Last Modified: 2026年04月05日 15:38
+! Version: 202604051953
+! Last Modified: 2026年04月05日 19:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -21874,6 +21874,8 @@ m.babytree.com##script + a[class]
 /_i?type=event&
 /_lib/ga.js
 /_mzblank.gif?
+/_nostra/batch
+/_nostra/identity/*
 /_owa.gif?
 /_servix/webid.aspx?$script
 /_sess/script.js
@@ -30396,6 +30398,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||era.easyvoyage.com^
 ||error-analytics-production.shopifysvc.com^
 ||error-analytics-sessions-production.shopifysvc.com^
+||error-tracker.pages.dev^
 ||errors.snackly.co^
 ||essential-apps-analytics.herokuapp.com^
 ||et.educationdynamics.com^
@@ -30870,7 +30873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||klarnaservices.com^$image,third-party
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
-||klickly.com/track
+||klickly.com^$third-party
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
 ||kumo.network-n.com/configs/sites/
