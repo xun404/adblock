@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h5ZnQk2YtCxkYnRHvqubrw
+! Checksum: poXcBTPhpv7CUxpdPHPsww
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604082208
-! Last Modified: 2026年04月08日 22:08
+! Version: 202604082357
+! Last Modified: 2026年04月08日 23:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1073,6 +1073,7 @@ vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script St
 ||1337x.*/ma.js^$domain=1337x.to
 1337x.*#$#abort-on-property-write window.onload false
 younetu.*#$#abort-on-property-read doSecondPop
+netu.ac#$#abort-on-property-read BetterJsPop; abort-on-property-read PopURL; abort-on-property-write window.open; abort-current-inline-script document.createElement 'delete window'; override-property-read adblockcheck false;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
