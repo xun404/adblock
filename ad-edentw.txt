@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GTYOkpF9yJLFE0YY4jsInQ
+! Checksum: 0bUGOY0JQlS3cKsGbg7Uhg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604102006
-! Last Modified: 2026年04月10日 20:06
+! Version: 202604102155
+! Last Modified: 2026年04月10日 21:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1233,7 +1233,9 @@ justwatch.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-pill")]/div[co
 ||*.6ec7e42994.com/*.js^$script,domain=lscomic.com
 ||*.e437040a9a.com/api/senddata?^$xmlhttprequest,domain=porntrex.com
 crazygames.com#?#div:-abp-has(> div[class]:-abp-contains(Advertisement)[style*="width"])
-crazyshit.com#$#abort-on-property-read window.cs.ads
+crazyshit.com#$#abort-on-property-read window.cs.ads; abort-on-property-write snspAdManager; abort-on-property-write snspAdManager2; override-property-read __ads_ns1 true;
+||crazyshit.com^$addheader=response:set-cookie:__trx1_p=c; path=/; max-age=21600
+||crazyshit.com^$addheader=response:set-cookie:__trx1_abp=c; path=/; max-age=21600
 poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-sibling::div[@class][contains(.,"Advertisement")]/parent::div[1]'
 bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
