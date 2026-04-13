@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h9v/VZR3NzFIvg+kJdcsuw
+! Checksum: TIe4o3AOeFAPOxoX3ru2WQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604140042
-! Last Modified: 2026年04月14日 00:42
+! Version: 202604140245
+! Last Modified: 2026年04月14日 02:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1031,7 +1031,7 @@ torkitty.*#$#prevent-listener click handlePopunder
 /api/users/*&ev=*$script,domain=supjav.com
 streamm4u.com.co#$#prevent-listener beforeunload (); abort-on-property-write _g_sb_click
 lukesitturn.com,voe.sx,xatovjatsosg.com#$#abort-on-property-write window.zfgloadedinpage;
-moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop;
+moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop; abort-current-inline-script TextEncoder /shown_at/;
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
 hyhd.org,knaben.xyz,vidsrc-embed.ru#$#abort-on-property-read Adcash
 actvid.*,cataz.*,cineb.*,himovies.sx,movies2watch.tv,movies4us.co,musichq.*,theflixertv.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
