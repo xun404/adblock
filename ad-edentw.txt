@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OwwyEbEr+WHsLHiDSqQh2Q
+! Checksum: TlPO/H4CvqMLPUxA3krfRg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604151612
-! Last Modified: 2026年04月15日 16:12
+! Version: 202604151934
+! Last Modified: 2026年04月15日 19:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1413,7 +1413,7 @@ www.facebook.com,web.facebook.com#$#replace-xhr-response '/"(instream_extra_conf
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"instream_video_ad_breaks":.[{]/' '"instream_video_ad_breaks":[],"__xb":[{'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//span[@class][count(span[text() and not(contains(@style, "position: absolute"))]) = 9]/parent::span/ancestor::a[@attributionsrc]/ancestor::div[@aria-posinset][@aria-describedby][@aria-labelledby]/parent::div'
 ! mp
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(@aria-label,"Marketplace")][@role]/following::a[@aria-labelledby][@attributionsrc][@rel="nofollow noreferrer"]/ancestor-or-self::div[contains(@style,"max-width") and contains(@style,"min-width")][1]'; hide-if-matches-xpath '//div[contains(@aria-label,"Marketplace")][@role]/following::div[contains(@style,"max-width") and contains(@style,"min-width")][.//a[@attributionsrc][@rel="nofollow noreferrer"]]';
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(@aria-label,"Marketplace")][@role]/following::a[@aria-labelledby][@attributionsrc][@rel="nofollow noreferrer"]/ancestor-or-self::div[contains(@style,"max-width") and contains(@style,"min-width")][1]'; hide-if-matches-xpath '//div[contains(@aria-label,"Marketplace")][@role]/following::div[contains(@style,"max-width") and contains(@style,"min-width")][.//a[@attributionsrc][@rel="nofollow noreferrer"]]'; hide-if-matches-xpath '//div[contains(@aria-label,"Marketplace")][@role]/following::a[@aria-labelledby][@attributionsrc][contains(@rel,"nofollow")]/ancestor-or-self::div[contains(@style,"max-width") and contains(@style,"min-width")][1]';
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(@aria-label,"Marketplace")][@role]/following::span[text()][.="Patrocinado" or .="Patrocinat" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Sponsras" or .="Publicidad" or .="Sponsoreret" or .="Sponsoreeritud" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Anzeige" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="مُموَّلة" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ" or .="ಪ್ರಾಯೋಜಿತ" or .="स्पॉन्सर्ड" or .="広告" or .="赞助内容" or .="Рэклама" or .="Sponzorirano" or .="La maalgeliyey" or .="Geborg" or .="Reklam" or .="Plaćeni oglas" or .="광고" or .="Χορηγούμενη" or .="স্পনসর্ড" or .="സ്പോൺസർ ചെയ്തത്" or .="ਸਰਪ੍ਰਸਤੀ ਪ੍ਰਾਪਤ" or .="මුදල් ගෙවා ප්‍රචාරය කරන ලදි" or .="விளம்பரம்" or .="რეკლამა" or .="Спонсорирано" or .="Спонзорисано" or .="ܒܘܕܩܐ ܡܡܘܘܢܐ" or .="Reklamo" or .="Hirdetés" or .="Sponsitud" or .="Sponzorováno" or .="Apmaksāta reklāma" or .="Urraithe" or .="Kostað"]/ancestor-or-self::a[@href][@role="link"][@tabindex]/parent::*[1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role]//following::a[@aria-label][@aria-labelledby]//preceding::a[contains(@href,"/ads/about/?entry_product=ad_preferences")]/ancestor::span[descendant::h2]'
 ! sb
@@ -1554,6 +1554,7 @@ poop.*#$#abort-current-inline-script String.fromCharCode 2147483647; abort-on-pr
 bokepindo13.*,bokepindoh.*#$#abort-on-property-read open
 ! MISC
 komikdewasa.*#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; prevent-listener click tampilkanUrl; abort-on-property-write window.open; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
+animasu.*#$#hide-if-matches-xpath './/img[contains(@alt,"H")][@class="lazyload"]/parent::a[@title]/parent::div[starts-with(@class,"kolom")]'
 ! *** abp-filters-anti-cv:italian.txt ***
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
