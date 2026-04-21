@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: x0q3UG8je80+3bOeQvwRhw
+! Checksum: YljYrXpeHEZw0mg2WaaWcg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604211939
-! Last Modified: 2026年04月21日 19:39
+! Version: 202604212215
+! Last Modified: 2026年04月21日 22:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -687,6 +687,8 @@ billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefine
 ||error-report.com^$domain=geoguessr.com
 geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
 ||*/loader.min.js|$script,domain=geoguessr.com
+invoice-generator.com#$#abort-on-property-write adngin
+nationalpost.com#$#hide-if-matches-xpath './/section[contains(@aria-describedby,"advertisment")]/ancestor-or-self::*[1]'
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
@@ -1019,7 +1021,7 @@ datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
 abstream.to,advertape.*,bunkr.*,easyvidplayer.com,marissasharecareer.com,livecamrips.*,pandamovies.org#$#abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 easyvidplayer.com#$#prevent-listener click /(popunder)|(openPopunder)|(adId)/; abort-on-property-read window.open; abort-on-property-read cache_loader;
 cineb.*#$#prevent-listener mousedown shown_at; abort-on-property-read window.open;
-animeonline.ninja,filemooon.*,gomovies.*,harimanga.*,maxstream.video,myflixer.*,myflixerz.*#$#abort-current-inline-script document.documentElement /break;case \$/; abort-on-property-read window.open;
+2embed.*,animeonline.ninja,filemooon.*,gomovies.*,harimanga.*,maxstream.video,myflixer.*,myflixerz.*#$#abort-current-inline-script document.documentElement /break;case \$/; abort-on-property-read window.open;
 europixhd.com,europixhd.net,gledajonline.net,hdeuropix.io,jawcloud.co,kimcartoon.*,loadsubs.net,s3embtaku.pro,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 alphatron.*,anitube.*,edgedeliverynetwork.com#$#abort-current-inline-script EventTarget.prototype.addEventListener delete
 eztvx.to#$#json-prune 'adserverDomain'
@@ -2782,6 +2784,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nplaf.com^
 ||nubbycoolly.com^
 ||nucleonfashing.com^
+||o6ujlhhvm4pl5pqc7.cfd^
 ||obanlazed.com^
 ||obdtfijian.com^
 ||obeliacallay.com^
