@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: h2DAYrViR45hiIehfUJ5XA
+! Checksum: 5gOeAFDUldrxIsaOUv9LFQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202604231806
-! Last Modified: 2026年04月23日 18:06
+! Version: 202604231940
+! Last Modified: 2026年04月23日 19:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1088,6 +1088,7 @@ vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script St
 younetu.*#$#abort-on-property-read doSecondPop
 netu.ac#$#abort-on-property-read BetterJsPop; abort-on-property-read PopURL; abort-on-property-write window.open; abort-current-inline-script document.createElement 'delete window'; override-property-read adblockcheck false;
 marissasharecareer.com#$#override-property-read window.sk false; abort-current-inline-script encodeURIComponent;
+updown.*#$#prevent-listener mousedown /shown_at/; prevent-element-src-loading script /\.(cfd|rest|cyou)\//
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1354,7 +1355,8 @@ hqq.to###thispays {remove:true;}
 hqq.to##iframe[class="ppxls_awersd"] {remove:true;}
 hqq.to###bigplaybutxt {remove:true;}
 thegatewaypundit.com#$#abort-on-property-read navigator.userAgent false; abort-current-inline-script JSON.parse /decodeURI/
-updown.link#$#timer-override 1 offsetHeight noop timeout
+updown.*#$#timer-override 1 offsetHeight noop timeout
+updown.*#$#hide-if-matches-xpath '//div[contains(@style,"z-index: 2147483647")]/ancestor-or-self::*[1]'
 hurawatch#$#prevent-listener /break;case \$/;
 playmogo.com#$#abort-current-inline-script document.documentElement /atob|break/
 pastpapers.papacambridge.com#$#hide-if-matches-xpath './/a//following-sibling::img[contains(@src,"advertisements")]/ancestor::div[1]'
@@ -2465,6 +2467,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||33brisk.net^
 ||35processors.net^
 ||360procedures.net^
+||405kk.com^
 ||440functions.net^
 ||4444inmint.net^
 ||4444zeply.com^
@@ -2553,6 +2556,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||capmaneleazar.com^
 ||caromedlusk.com^
 ||cathinunquit.com^
+||cgcvmv7i2ri5xpc41if.cfd^
 ||chambulwacs.com^
 ||chelaology.com^
 ||chivwtusseh.com^
@@ -2597,6 +2601,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||deisinkamis.com^
 ||depurgeholour.com^
 ||deuxseethe.com^
+||dgorwwtpltxnklf.com^
 ||dhunchifidia.com^
 ||diagnosedecorationvideotape.com^
 ||diamberproetid.com^
@@ -2784,6 +2789,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||mournerslath.com^
 ||mudejartitoism.com^
 ||muragetunnel.com^
+||mwvirquasetgiry.com^
 ||mythosupflow.com^
 ||nainepidia.com^
 ||nairydeices.com^
