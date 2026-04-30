@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l/lD42zOdDEfBALEQhDMsg
+! Checksum: s8gcUU0ew3Vwc2fyKBePng
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202604300255
-! Last Modified: 2026年04月30日 02:55
+! Version: 202604300915
+! Last Modified: 2026年04月30日 09:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1659,7 +1659,6 @@ newduba.cn###jq_youxi
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="?i_code="]
-##div[role="listitem"] > div > div > .bannerliststyle
 ##body > div[style=" max-width:990px; margin:0 auto;"]:first-child > a[target="_blank"]
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
@@ -1775,6 +1774,13 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||fummd03je4.com^
+||06hkgn0jl3.com^
+||affection28.top^
+||m11bkuusyb.com^
+||wdtuc.cn^
+||zvhtzl.icu^
+||fjpopxgyfrlxvc.com^
 ||pjovytymn.com^
 ||vmn05pnuh.com^
 ||embbl8sy3.com^
@@ -11417,7 +11423,6 @@ jin10.com##.quoted-price__pro
 fhxy-a.top##.sd_recpic
 2345.com##.search-right-swiper-news
 2345.com##._isFirstAd
-2345.com##.part-banner > .part-ppt
 2345.com##.lian-meng-box
 6parknews.com##.ad-view
 appinn.com#?#.featured-section > .test:-abp-has(>.post-img>a[href^="http"]:not([href*="appinn."]))
@@ -29950,6 +29955,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||auryc.com/v1/event
 ||autoline-top.com/counter.php?
 ||automate-prod.s3.amazonaws.com^$~script
+||aux-log.bidmatic.io^
 ||avln.me/t.js
 ||avo.app^*/track
 ||awaps.yandex.net^
@@ -74205,6 +74211,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||obozrevatel.com/pixel.png
 ||piccy.info/c?
 ||piccy.org.ua/c?
+||prm.ua/en/events/
 ||remp.nv.ua^
 ||sport.ua/pixel/
 ||stats.itc.ua^
