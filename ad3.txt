@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 60DzbsMNAJ2Fo9TPYfuxGg
+! Checksum: dMlyA94Gw3babvzFD5pCOg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202605072115
-! Last Modified: 2026年05月07日 21:15
+! Version: 202605072341
+! Last Modified: 2026年05月07日 23:41
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25173,6 +25173,7 @@ _WebVitalsReporter_
 /beacon?data=$image
 /beaconimages.netflix.net/*$image
 /c.vialoops.com/*$image
+/CI0/0$image
 /ck.m.honto.jp/c/*$image
 /cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
@@ -25309,7 +25310,6 @@ _WebVitalsReporter_
 ://email.*/o/$image
 ://emailtracking.$image
 ://i.*@groovehq.com.gif$image
-://line.karte.io/CI0/$image
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
 ://mail01.monex.co.jp/bin/checker?
@@ -65921,7 +65921,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ad.aucfan.com^
 ||ad.aucview.com^
 ||ad.autorace.jp^
-||ad.kddi-fs.com^
 ||ad.ordersuit.info^
 ||ad.takasu.co.jp^
 ||ad.tempstaff.co.jp^
