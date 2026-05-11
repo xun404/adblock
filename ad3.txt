@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tBiJD6Ls/H2Nu8IGHCCd5A
+! Checksum: 0fpNhD0+/hxG8ha6NCJguQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202605111335
-! Last Modified: 2026年05月11日 13:35
+! Version: 202605111806
+! Last Modified: 2026年05月11日 18:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1749,6 +1749,10 @@ newduba.cn###jq_youxi
 ##.ripro_gg_wrap
 ###gridAdvoOerlay
 ###gridAdvContent
+##.ad-s5-block
+##.ad-s4-block
+##.ad-s3-block
+##.ad-s2-card
 ##div[role="listitem"] .bannerliststyle
 ##.socialmedia > #middletextbanner
 ##a[href^="java"][onclick^="gogogoto"]
@@ -1783,6 +1787,7 @@ newduba.cn###jq_youxi
 ||d4rxxm6ig.com^
 ||efsy7b1x6.com^
 ||ak7ko01zs.com^
+||qmarcani.com^
 ||l3j3glzp6g.com^
 ||ir3f1x3aet.com^
 ||stitches08.com^
@@ -34407,6 +34412,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apigw.scmp.com/metrics/monitoring
 ||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
+||apm.qwant.com^
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
@@ -34714,6 +34720,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd.auspost.com.au^
 ||dd.g2.com^
 ||dd.nytimes.com^
+||dd.qwant.com^
 ||dd.viator.com^
 ||ddome-tag.blablacar.com^
 ||dealdash.com/tracker-json
