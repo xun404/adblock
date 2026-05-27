@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SNLUKbLGzwokWgQZ4REQuA
+! Checksum: VoSDlMOu6Hvs8f7y3zGFzA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202605271903
-! Last Modified: 2026年05月27日 19:03
+! Version: 202605272238
+! Last Modified: 2026年05月27日 22:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1507,6 +1507,8 @@ xnxx.com#$#override-property-read html5player.loadVideoPostRollAds noopFunc; ove
 ||wheelroot.com^$domain=noodlemagazine.com|ukdevilz.com
 ||kintg.site^$domain=noodlemagazine.com|ukdevilz.com
 tvnz.co.nz#$#replace-fetch-response /"adType":"ssai"/ "adType":"none"; replace-fetch-response /"aopUrl":"[^"]*"/ '"aopUrl":""'
+pluto.tv#$#replace-xhr-response /<Period[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*>.+?<[/]Period>|<Period[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*>.+?<[/]Period>|start="[^"]*"|mediaPresentationDuration="[^"]*"/ '' 'urn:mpeg:dash'
+pluto.tv#$#json-prune 'adBreaks.[].startingOffset adBreaks.[].adBreakDuration adBreaks.[].ads adBreaks.[].startTime adBreak adBreakLocations' 'adBreaks'
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
@@ -1724,6 +1726,7 @@ animeunity.tv#$#abort-on-property-read localStorage
 altadefinizione.*#$#abort-current-inline-script document.createElement script; hide-if-matches-xpath './/iframe[@style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]';
 animeworld.so#$#abort-on-property-read window.open
 casa-cinema.*#$#abort-current-inline-script atob; abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window'
+buonaporno.com#$#abort-current-inline-script document.querySelectorAll popMagic; abort-on-property-read popMagic;
 ! *** abp-filters-anti-cv:latvian.txt ***
 ! *** abp-filters-anti-cv:lithuanian.txt ***
 ! #CV-766
@@ -2792,7 +2795,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cyberspace92.net^
 ||dabblespaver.com^
 ||dalkawe.com^
-||deepcloudfield.com^
 ||defectstratic.com^
 ||degreeeruptionpredator.com^
 ||depurgeholour.com^
@@ -2857,6 +2859,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||fitsamongst.com^
 ||fixuresrethink.cfd^
 ||flakespunishmentscythe.com^
+||flamechannel.com^
 ||floppybyes.com^
 ||flossedmoiled.com^
 ||fluteparental.com^
@@ -2924,7 +2927,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||indexconcretehavendynamics.com^
 ||indriwhats.com^
 ||indusacta.com^
-||industries78.net^
 ||infox.sg^
 ||innaterakija.com^
 ||innovations260.net^
@@ -3004,6 +3006,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||mountaindriftevolutiontechnologies.net^
 ||mournerslath.com^
 ||mudejartitoism.com^
+||mulchimbiber.com^
 ||muragetunnel.com^
 ||mythosupflow.com^
 ||nainepidia.com^
@@ -3117,7 +3120,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||shrewkabonga.com^
 ||shticksmazut.com^
 ||shumackeels.com^
-||sialshumours.qpon^
 ||sikagaylies.com^
 ||singletplatformgleamenterprises.com^
 ||skewlycrepy.com^
