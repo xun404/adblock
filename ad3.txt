@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U7t7pCV7hukUo9n8qts9Sw
+! Checksum: 6CqFgOlf7MImvOla4LzT9w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202605291437
-! Last Modified: 2026年05月29日 14:37
+! Version: 202605300927
+! Last Modified: 2026年05月30日 09:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1772,6 +1772,11 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||37nu0riwfd.com^
+||dhckj73qr3.com^
+||ek946br7uy.com^
+||tjv260529xxx.com^
+||begonia20.com^
 ||gycz2v4ch.com^
 ||3llzzztmz.com^
 ||h6n6i7v98.com^
@@ -11185,7 +11190,7 @@ meijutt.*/js/pcjs/
 ||ifengimg.com/feprod/
 ||ifeng.com/relateshare?
 ||lancdn.com/public/images/view/Tencent-
-||5dm.link/htm$image
+||5dm.*/htm$image
 ||cdxyspa.com/js/e
 ||layuion.com/get/showcase/
 ||xxir.com/static/images/ad.
@@ -11331,7 +11336,7 @@ vmlib.com##.wp-caption
 vmlib.com##.elementor-widget > .elementor-widget-container > a[href^="http"]:not([href*="vmlib."])
 mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
 docin.com##.mini-series-container
-5dm.link##div[id^="player_p"]
+5dm.dev##div[id^="player_p"]
 1lou.info,1lou.icu,1lou.me,1lou.one,1lou.pro###advert > :not(.card)
 manhuapica.com##a[href^="/ad/"]
 nodeseek.com##.promotation-item
@@ -74264,6 +74269,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||bam.nr-data.net^$script,domain=kapwing.com
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
+@@||blackbaud.net/proxy/api/track/
 @@||blackcircles.ca^$script,~third-party
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
