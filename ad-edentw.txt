@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9J7eD2OtSSRe8Eh4d+oHJQ
+! Checksum: l9x8FDiUyhsbkOkvgKmwNw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202606100017
-! Last Modified: 2026年06月10日 00:17
+! Version: 202606100230
+! Last Modified: 2026年06月10日 02:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1227,7 +1227,7 @@ updown.*#$#prevent-listener mousedown /shown_at/; prevent-element-src-loading sc
 multiup.io#$#abort-current-inline-script decodeURI decodeURIComponent; abort-current-inline-script navigator FingerprintJS
 m1xdrop.*#$#abort-current-inline-script document.createElement; abort-on-property-read window.open;
 flixcdn.*,moviesapi.*#$#abort-on-property-write cache_loader.init; abort-on-property-read window.open
-vidora.*#$#override-property-read cRAds false
+vidora.*,vidzy.*#$#override-property-read cRAds false
 manhuatop.org,myflixerfree.com,streamm4u.*#$#abort-on-property-write _showApk
 hypnoporn.net,korean18x.com,movies2watch.*,youtubetoany.com#$#abort-current-inline-script atob popundersPerIP
 fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
@@ -2986,6 +2986,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||jahvismresined.com^
 ||jasjas.xyz^
 ||jaspersfamilia.cyou^
+||jeddingdelator.cyou^
 ||jgtjw.com^
 ||jokeconnate.com^
 ||joshedsnight.com^
@@ -3040,6 +3041,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||medialsgleet.com^
 ||mediumdirt.com^
 ||mevrgxr.com^
+||miaulerbluffedfrowzy.cyou^
 ||mimamsaslews.com^
 ||mingieglossed.com^
 ||mirakdunes.com^
