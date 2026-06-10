@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c3tccZ3Ybhcn1YCWvaIdCw
+! Checksum: Vbd5yRGZHlWyz7u9WsMnvw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202606101447
-! Last Modified: 2026年06月10日 14:47
+! Version: 202606101908
+! Last Modified: 2026年06月10日 19:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1749,6 +1749,7 @@ newduba.cn###jq_youxi
 ##div[role="listitem"] .bannerliststyle
 ##.socialmedia > #middletextbanner
 ##a[href^="java"][onclick^="gogogoto"]
+##a[data-ad_type="1"]
 ###float-ad
 ###index-ad-banner
 ##.newsAD
@@ -1779,6 +1780,9 @@ newduba.cn###jq_youxi
 ||theorem12.top^
 ||jfffe1o97b.com^
 ||kf4kwomxhl.com^
+||xjl2ts2q6a.com^
+||guulgakv.com^
+||dwh3rjyzxj.com^
 ||mathematics34.com^
 ||nzrdfrlsfrznrk.com^
 ||bncqucpia.com^
@@ -11411,11 +11415,11 @@ twkan.com###mobile-ad
 axiang.cc###achang-related-adsense
 hcbbs.com##.plc > .pct + :last-child
 mysteel.com###float-adv
-91porna.com##.dx-banner-item
+91porna.com,evgpopxb.cc##.dx-banner-item
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
 91porna.com##.h-full.swiper
-91porna.com##.ad-dialog
-91porna.com##.modal-backdrop
+91porna.com,evgpopxb.cc##.ad-dialog
+91porna.com,evgpopxb.cc##.modal-backdrop
 avbebe.com##.footer_column:nth-child(n+2)
 xchina.co##.block-overlay
 baozimh.org#?#.relative:-abp-has(>.bg-red-500)
