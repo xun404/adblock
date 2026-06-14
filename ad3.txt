@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: O+glOZHa4fgsX7eVQ7T6kg
+! Checksum: cJ/tGXCPa2Lm8eP+MK/4ig
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202606132108
-! Last Modified: 2026年06月13日 21:08
+! Version: 202606140955
+! Last Modified: 2026年06月14日 09:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1773,6 +1773,12 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||subtraction59.com^
+||1u6hvoykk3.com^
+||7q2701vx8e.com^
+||ulk8je1fv9.com^
+||lohylfnkagnlzw.com^
+||tjgssn.com^
 ||jbriyba0f.com^
 ||lkpda6xuy.com^
 ||e3j60qqdk.com^
@@ -11396,6 +11402,7 @@ meijutt.*/js/pcjs/
 ||tcptest.cn/prod-api/web/adLinks/
 !------------------------Specific element hiding rules------------------------!
 huaren.live##.pause-love
+69tang.org##a[id^="imgs_link"]
 techritual.com##.th-single-ad
 xchina.co##.photo-items > .auto-height
 staticfile.link###player_pause
@@ -30584,6 +30591,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deprecated-custom-domains.b-cdn.net^$third-party
 ||desipearl.com/tracker/
 ||dev.visualwebsiteoptimizer.com/*/track-
+||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||dfanalytics.dealerfire.com^
 ||dgcollector.evidon.com^
 ||diagnose.igstatic.com^
