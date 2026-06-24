@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H5HjYfgT7ZiTIj1ZYp2w3Q
+! Checksum: gRgh7A3U5nNE9Hy/GKdRig
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202606242351
-! Last Modified: 2026年06月24日 23:51
+! Version: 202606250217
+! Last Modified: 2026年06月25日 02:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -835,10 +835,12 @@ index.hr#$#override-property-read as_971745573 true; override-property-read as_6
 ||html-load.com/session/$domain=index.hr
 idokep.hu#$#override-property-read adshield.isAdBlockerDetected false
 ||html-load.com^$script,domain=idokep.hu
+||content-loader.com^$script,domain=idokep.hu
 idokep.hu#$#prevent-element-src-loading script /\/(cache|article|session)\//
 idokep.hu#$#override-property-read as_-1173987845 true; override-property-read as_-1027524288 true; override-property-read as_1177859557 true; override-property-read as_2022485055 true; override-property-read as_-67098396 true; override-property-read as_1537073278 true; override-property-read as_1683536835 true; override-property-read as_1649642013 true; override-property-read as_-1041153609 true; override-property-read as_-293477881 true; override-property-read as_1310693793 true; override-property-read as_-1380101829 true; override-property-read as_-632426101 true; override-property-read as_971745573 true; override-property-read as_-419675937 true
 idokep.hu#$#override-property-read as_-1495539072 true; override-property-read as_-1349075515 true; override-property-read as_856308330 true
 idokep.hu#$#override-property-read as_-1139087742 true; override-property-read as_-992624185 true; override-property-read as_1212759660 true
+idokep.hu#$#override-property-read Navigator.prototype.onLine false
 ||html-load.com^$script,domain=vimm.net
 ||error-report.com^$domain=vimm.net
 vimm.net#$#override-property-read navigator.onLine false
@@ -864,15 +866,6 @@ euronews.com#$#override-property-read as_971745573 true; override-property-read 
 ||content-loader.com/feed/$domain=oricon.co.jp
 ||cdn.caprofitx.com/media/$domain=oricon.co.jp
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
-||html-load.com^$script,domain=namemc.com
-namemc.com#$#override-property-read as_2073418414 true; override-property-read as_-1320722721 true; override-property-read as_-1188240253 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_01828408771 true; override-property-read as_91055421694 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
-||*/loader.min.js^$script,domain=namemc.com
-||content-loader.com^$domain=namemc.com
-namemc.com$csp=script-src-attr 'none'
-namemc.com#$#override-property-read as_-1456619792 true; override-property-read as_1514845309 true; override-property-read as_-292031020 true; override-property-read as_-1380101829 true; override-property-read as_1310693793 true; override-property-read as_-632426101 true; override-property-read as_-1701653056 true; override-property-read as_989142566 true; override-property-read as_-953977328 true; override-property-read as_-1345201726 true; override-property-read as_1345593896 true; override-property-read as_-597525998 true
-namemc.com#$#override-property-read Navigator.prototype.onLine false
-||error-report.com^$subdocument,domain=namemc.com
-@@||error-report.com^$xmlhttprequest,domain=namemc.com
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
 ||html-load.com^$script,domain=kuruma-news.jp
