@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oxFykYaKwURr2lfacjE08Q
+! Checksum: 5Peeg8jsAXtxLLF2UDsm7w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202606252001
-! Last Modified: 2026年06月25日 20:01
+! Version: 202606252323
+! Last Modified: 2026年06月25日 23:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -928,6 +928,8 @@ trafficnews.jp#$#override-property-read xyo1fm0txa8c true; override-property-rea
 trafficnews.jp#$#abort-current-inline-script eval /xekqfk1c60a/
 ||trafficnews.jp$csp=script-src-attr 'none'
 ||*/sdk.js^$script,domain=trafficnews.jp
+! #CV-4780
+theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
