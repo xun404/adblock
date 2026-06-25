@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5Peeg8jsAXtxLLF2UDsm7w
+! Checksum: 2c/Iuvyx42a94wk4rKvYrA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202606252323
-! Last Modified: 2026年06月25日 23:23
+! Version: 202606260130
+! Last Modified: 2026年06月26日 01:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -651,7 +651,7 @@ programme.tv#$#prevent-element-src-loading script /loader\.min\.js/
 programme-tv.net#$#prevent-element-src-loading script /\/feed\//; prevent-element-src-loading script /\/cache\//
 ||error-report.com/report$domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 ||*/loader.min.js^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
-voici.fr,femmeactuelle.fr,caminteresse.fr#$#override-property-read navigator.onLine false
+voici.fr,femmeactuelle.fr,caminteresse.fr#$#override-property-read Navigator.prototype.onLine false
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#abort-current-inline-script btoa /last_bfa_at/
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#prevent-element-src-loading iframe /report\.error-report\.com/
 ||html-load.com^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
@@ -689,6 +689,8 @@ indiewire.com#$#override-property-read d3d3LmluZGlld2lyZS5jb21fb25sb2Fk undefine
 deadline.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=deadline.com
 ||error-report.com^$domain=deadline.com
+||blahwhoever.com/feed/$domain=deadline.com
+||blahwhoever.com/session/$domain=deadline.com
 deadline.com#$#prevent-element-src-loading script /loader\.min\.js/
 deadline.com#$#override-property-read confirm noopFunc
 deadline.com#$#override-property-read ZGVhZGxpbmUuY29tX29ubG9hZA== undefined
@@ -801,7 +803,7 @@ freeconvert.com#$#override-property-read as_971745573 true; override-property-re
 ||html-load.com^$script,domain=gamewith.jp
 ||content-loader.com^$script,domain=gamewith.jp
 ||error-report.com^$domain=gamewith.jp
-gamewith.jp#$#override-property-read navigator.onLine false
+gamewith.jp#$#override-property-read Navigator.prototype.onLine false
 kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||error-report.com^$subdocument,domain=kuruma-news.jp
 ||html-load.com^$domain=kuruma-news.jp
@@ -833,22 +835,20 @@ index.hr#$#override-property-read as_971745573 true; override-property-read as_6
 ||duhrawhide.com/session/$domain=index.hr
 ||content-loader.com/session/$domain=index.hr
 ||html-load.com/session/$domain=index.hr
-idokep.hu#$#override-property-read adshield.isAdBlockerDetected false
-||html-load.com^$script,domain=idokep.hu
-||content-loader.com^$script,domain=idokep.hu
-idokep.hu#$#prevent-element-src-loading script /\/(cache|article|session)\//
-idokep.hu#$#override-property-read as_-1173987845 true; override-property-read as_-1027524288 true; override-property-read as_1177859557 true; override-property-read as_2022485055 true; override-property-read as_-67098396 true; override-property-read as_1537073278 true; override-property-read as_1683536835 true; override-property-read as_1649642013 true; override-property-read as_-1041153609 true; override-property-read as_-293477881 true; override-property-read as_1310693793 true; override-property-read as_-1380101829 true; override-property-read as_-632426101 true; override-property-read as_971745573 true; override-property-read as_-419675937 true
-idokep.hu#$#override-property-read as_-1495539072 true; override-property-read as_-1349075515 true; override-property-read as_856308330 true
-idokep.hu#$#override-property-read as_-1139087742 true; override-property-read as_-992624185 true; override-property-read as_1212759660 true
-idokep.hu#$#override-property-read Navigator.prototype.onLine false
 ||html-load.com^$script,domain=vimm.net
 ||error-report.com^$domain=vimm.net
-vimm.net#$#override-property-read navigator.onLine false
+vimm.net#$#override-property-read Navigator.prototype.onLine false
+||html-load.cc^$script,domain=worldofsolitaire.com
+||error-report.com^$domain=worldofsolitaire.com
+||html-load.cc^$script,domain=wenxuecity.com
+||error-report.com^$domain=wenxuecity.com
+||html-load.cc^$script,domain=hfboards.com
+||error-report.com^$domain=hfboards.com
 trilltrill.jp#$#prevent-element-src-loading script /\/feed\//
 ||flux-cdn.com/client/trill/trill.min.js^$script,domain=trilltrill.jp
 ||html-load.com^$script,domain=trilltrill.jp
 ||*/loader.min.js|$script,domain=trilltrill.jp
-trilltrill.jp#$#override-property-read navigator.onLine false
+trilltrill.jp#$#override-property-read Navigator.prototype.onLine false
 trilltrill.jp#$#override-property-read document.write noopFunc
 ||html-load.com^$script,domain=euronews.com
 euronews.com#$#override-property-read as_1155195780 true; override-property-read as_279146697 true; override-property-read as_242250477 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_0-1060912359 true; override-property-read as_9-1833899436 true; override-property-read as_1-889137453 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
@@ -864,7 +864,7 @@ euronews.com#$#override-property-read as_971745573 true; override-property-read 
 ||html-load.com/session/$domain=euronews.com
 ||html-load.com/feed/$domain=oricon.co.jp
 ||content-loader.com/feed/$domain=oricon.co.jp
-||cdn.caprofitx.com/media/$domain=oricon.co.jp
+||cdn.caprofitx.com^$domain=oricon.co.jp
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
