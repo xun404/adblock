@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FDD3ZoioabE/3kpsqYMHFg
+! Checksum: +duMaoNsGFNfkZZIXxAKcg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202606261835
-! Last Modified: 2026年06月26日 18:35
+! Version: 202606270031
+! Last Modified: 2026年06月27日 00:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -813,13 +813,11 @@ kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=kuruma-news.jp
 kuruma-news.jp^$csp=script-src-attr 'none'
 scribd.com#$#prevent-element-src-loading script /lib\.js/
-||*/lib.js^|$script,domain=scribd.com
 ||scribd.com/_fs-ch-*^$script
 ||html-load.com/loader.min.js^$script,domain=scribd.com
 ||*/loader.min.js^$script,domain=scribd.com
 ||whoeverbeyond.com^$script,domain=scribd.com
 scribd.com#$#override-property-read as_-390371468 true; override-property-read as_-128107517 true; override-property-read as_1588632892 true; override-property-read as_1249684672 true; override-property-read as_-462196583 true; override-property-read as_-801144803 true;
-||*/sdk.js^$script,domain=scribd.com
 scribd.com$csp=script-src-attr 'none'
 scribd.com#$#abort-current-inline-script eval /xz8ei73yz0sn/
 scribd.com#$#override-property-read xz8ei73yz0sn true; override-property-read xeilgl2yq60f true
@@ -868,6 +866,9 @@ euronews.com#$#override-property-read as_971745573 true; override-property-read 
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
+fandom.com#$#abort-current-inline-script eval /ZnVuY3Rpb24/
+fandom.com#$#hide-if-matches-xpath './/fandom-ad/parent::div[not(contains(@class,"fandom-ad-wrapper"))]/fandom-ad'
+fandom.com#$#override-property-read as_1231689540 true; override-property-read as_-646055422 true; override-property-read as_1443528029 true; override-property-read as_-499591865 true; override-property-read as_71701021723 true; override-property-read as_6928034646 true; override-property-read as_81872796629 true; override-property-read as_7-1114879398 true; override-property-read as_6-1887866475 true; override-property-read as_8-943104492 true; override-property-read as_7-1382500964 true; override-property-read as_62139479255 true; override-property-read as_8-1210726058 true; override-property-read isAdShieldTurn false
 ||html-load.com^$script,domain=kuruma-news.jp
 ||rewardingfill.com^$domain=kuruma-news.jp
 ||duhrawhide.com^$domain=kuruma-news.jp
