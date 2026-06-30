@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: frET72DVBbQoA9oIaEQmOQ
+! Checksum: 973TAUZOW0CLyI+9Ukx5FA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202606301957
-! Last Modified: 2026年06月30日 19:57
+! Version: 202607010123
+! Last Modified: 2026年07月01日 01:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -848,6 +848,14 @@ trilltrill.jp#$#prevent-element-src-loading script /\/feed\//
 ||*/loader.min.js|$script,domain=trilltrill.jp
 trilltrill.jp#$#override-property-read Navigator.prototype.onLine false
 trilltrill.jp#$#override-property-read document.write noopFunc
+||error-report.com^$domain=trilltrill.jp
+trilltrill.jp$csp=script-src-attr 'none'
+||*/core.js^$script,domain=trilltrill.jp
+trilltrill.jp#$#override-property-read as_647643726 true
+trilltrill.jp#$#override-property-read as_1724902207 true
+||blahwhoever.com^$script,domain=trilltrill.jp
+||cdn.caprofitx.com^$script,domain=trilltrill.jp
+trilltrill.jp#$#override-property-read as_1198118810 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read isAdShieldTurn false
 ||html-load.com^$script,domain=euronews.com
 euronews.com#$#override-property-read as_1155195780 true; override-property-read as_279146697 true; override-property-read as_242250477 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_0-1060912359 true; override-property-read as_9-1833899436 true; override-property-read as_1-889137453 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
 ||html-load.com/feed/$domain=euronews.com
@@ -869,6 +877,11 @@ fandom.com#$#prevent-element-src-loading script /lib\.js/
 fandom.com#$#abort-current-inline-script eval /ZnVuY3Rpb24/
 fandom.com#$#hide-if-matches-xpath './/fandom-ad/parent::div[not(contains(@class,"fandom-ad-wrapper"))]/fandom-ad'
 fandom.com#$#override-property-read as_1231689540 true; override-property-read as_-646055422 true; override-property-read as_1443528029 true; override-property-read as_-499591865 true; override-property-read as_71701021723 true; override-property-read as_6928034646 true; override-property-read as_81872796629 true; override-property-read as_7-1114879398 true; override-property-read as_6-1887866475 true; override-property-read as_8-943104492 true; override-property-read as_7-1382500964 true; override-property-read as_62139479255 true; override-property-read as_8-1210726058 true; override-property-read isAdShieldTurn false
+||*/core.js^$script,domain=fandom.com
+fandom.com$csp=script-src-attr 'none'
+fandom.com#$#abort-current-inline-script eval /xvhs4e3ps8l/
+fandom.com#$#override-property-read xvhs4e3ps8l true
+||error-report.com^$domain=fandom.com
 ||html-load.com^$script,domain=kuruma-news.jp
 ||rewardingfill.com^$domain=kuruma-news.jp
 ||duhrawhide.com^$domain=kuruma-news.jp
