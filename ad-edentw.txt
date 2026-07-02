@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dCkShuNiOXy3QpnnHw7wYw
+! Checksum: iebgNzl5CyIDrtj+KxQaMQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607022253
-! Last Modified: 2026年07月02日 22:53
+! Version: 202607030111
+! Last Modified: 2026年07月03日 01:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1376,6 +1376,7 @@ steamplay.*#$#abort-on-property-read btoa; abort-on-property-write adcashMacros
 vids.*#$#abort-current-inline-script document.createElement pop_tag
 streamvid.*#$#abort-current-inline-script setTimeout _0x
 primewire.*#$#abort-on-property-write window.onclick
+abyssplayer.com#$#abort-on-property-write document.onclick; abort-on-property-write document.ontouchend
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
