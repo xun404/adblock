@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZvCbjJEIm1K/fcZifhU3QA
+! Checksum: XR+4XRxJW/hmHbPPD4AUkA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607032251
-! Last Modified: 2026年07月03日 22:51
+! Version: 202607040054
+! Last Modified: 2026年07月04日 00:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -573,6 +573,7 @@ percentagecalculator.net#$#override-property-read window.navigator.connection.rt
 tz.de##iframe[src*="report.error-report.com/modal"]
 ||html-load.com/players/*/70/$xmlhttprequest,domain=mentalfloss.com
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
+||html-load.com^$script,domain=dictionary.cambridge.org
 ||*/loader.min.js|$script,domain=dictionary.cambridge.org
 ||error-report.com^$domain=dictionary.cambridge.org
 dictionary.cambridge.org#$#override-property-read window.navigator.connection.rtt 1001
@@ -646,6 +647,7 @@ acouplecooks.com,alexandracooks.com,allkpop.com,amazingribs.com,amybakesbread.co
 acouplecooks.com,alexandracooks.com,allkpop.com,amazingribs.com,amybakesbread.com,bgr.com,budgetbytes.com,cafedelites.com,cookieandkate.com,cookilicious.com,cookingclassy.com,craftsbyamanda.com,culinaryhill.com,damndelicious.net,dinneratthezoo.com,disneydining.com,disneyfoodblog.com,disneytouristblog.com,downshiftology.com,dpreview.com,easydessertrecipes.com,eatingbirdfood.com,eatingonadime.com,eliteprospects.com,feastingathome.com,feelgoodfoodie.net,gearpatrol.com,gimmesomeoven.com,growforagecookferment.com,halfbakedharvest.com,healthyrecipesblogs.com,homemade-gifts-made-easy.com,homemaking.com,hot-thai-kitchen.com,howsweeteats.com,hunker.com,indianhealthyrecipes.com,inspiredtaste.net,islands.com,justapinch.com,justonecookbook.com,krollskorner.com,lifeloveandsugar.com,maangchi.com,minimalistbaker.com,momontimeout.com,mygolfspy.com,natashaskitchen.com,onceuponachef.com,onlinemictest.com,pinchofyum.com,preppykitchen.com,rainbowplantlife.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,slashgear.com,spendwithpennies.com,stockcharts.com,stylebyemilyhenderson.com,sugarspunrun.com,tastesbetterfromscratch.com,tastingtable.com,thebigmansworld.com,thecountrycook.net,theloopywhisk.com,themediterraneandish.com,therecipecritic.com,thereciperebel.com,therecipewell.com,thewholecook.com,thewoksoflife.com,titlecaseconverter.com,tvline.com,twopeasandtheirpod.com,wellplated.com,whec.com,wholesomeyum.com,yummytoddlerfood.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
 acouplecooks.com,alexandracooks.com,allkpop.com,amazingribs.com,amybakesbread.com,bgr.com,budgetbytes.com,cafedelites.com,cookieandkate.com,cookilicious.com,cookingclassy.com,craftsbyamanda.com,culinaryhill.com,damndelicious.net,dinneratthezoo.com,disneydining.com,disneyfoodblog.com,disneytouristblog.com,downshiftology.com,dpreview.com,easydessertrecipes.com,eatingbirdfood.com,eatingonadime.com,eliteprospects.com,feastingathome.com,feelgoodfoodie.net,gearpatrol.com,gimmesomeoven.com,growforagecookferment.com,halfbakedharvest.com,healthyrecipesblogs.com,homemade-gifts-made-easy.com,homemaking.com,hot-thai-kitchen.com,howsweeteats.com,hunker.com,indianhealthyrecipes.com,inspiredtaste.net,islands.com,justapinch.com,justonecookbook.com,krollskorner.com,lifeloveandsugar.com,maangchi.com,minimalistbaker.com,momontimeout.com,mygolfspy.com,natashaskitchen.com,onceuponachef.com,onlinemictest.com,pinchofyum.com,preppykitchen.com,rainbowplantlife.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,slashgear.com,spendwithpennies.com,stockcharts.com,stylebyemilyhenderson.com,sugarspunrun.com,tastesbetterfromscratch.com,tastingtable.com,thebigmansworld.com,thecountrycook.net,theloopywhisk.com,themediterraneandish.com,therecipecritic.com,thereciperebel.com,therecipewell.com,thewholecook.com,thewoksoflife.com,titlecaseconverter.com,tvline.com,twopeasandtheirpod.com,wellplated.com,whec.com,wholesomeyum.com,yummytoddlerfood.com#$#override-property-read Navigator.prototype.onLine false
 ||html-load.com/feed/$domain=acouplecooks.com|alexandracooks.com|allkpop.com|amazingribs.com|amybakesbread.com|bgr.com|budgetbytes.com|cafedelites.com|cookieandkate.com|cookilicious.com|cookingclassy.com|craftsbyamanda.com|culinaryhill.com|damndelicious.net|dinneratthezoo.com|disneydining.com|disneyfoodblog.com|disneytouristblog.com|downshiftology.com|dpreview.com|easydessertrecipes.com|eatingbirdfood.com|eatingonadime.com|eliteprospects.com|feastingathome.com|feelgoodfoodie.net|gearpatrol.com|gimmesomeoven.com|growforagecookferment.com|halfbakedharvest.com|healthyrecipesblogs.com|homemade-gifts-made-easy.com|homemaking.com|hot-thai-kitchen.com|howsweeteats.com|hunker.com|indianhealthyrecipes.com|inspiredtaste.net|islands.com|justapinch.com|justonecookbook.com|krollskorner.com|lifeloveandsugar.com|maangchi.com|minimalistbaker.com|momontimeout.com|mygolfspy.com|natashaskitchen.com|onceuponachef.com|onlinemictest.com|pinchofyum.com|preppykitchen.com|rainbowplantlife.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|slashgear.com|spendwithpennies.com|stockcharts.com|stylebyemilyhenderson.com|sugarspunrun.com|tastesbetterfromscratch.com|tastingtable.com|thebigmansworld.com|thecountrycook.net|theloopywhisk.com|themediterraneandish.com|therecipecritic.com|thereciperebel.com|therecipewell.com|thewholecook.com|thewoksoflife.com|titlecaseconverter.com|tvline.com|twopeasandtheirpod.com|wellplated.com|whec.com|wholesomeyum.com|yummytoddlerfood.com
+||poorlylift.com^$domain=acouplecooks.com|alexandracooks.com|allkpop.com|amazingribs.com|amybakesbread.com|bgr.com|budgetbytes.com|cafedelites.com|cookieandkate.com|cookilicious.com|cookingclassy.com|craftsbyamanda.com|culinaryhill.com|damndelicious.net|dinneratthezoo.com|disneydining.com|disneyfoodblog.com|disneytouristblog.com|downshiftology.com|dpreview.com|easydessertrecipes.com|eatingbirdfood.com|eatingonadime.com|eliteprospects.com|feastingathome.com|feelgoodfoodie.net|gearpatrol.com|gimmesomeoven.com|growforagecookferment.com|halfbakedharvest.com|healthyrecipesblogs.com|homemade-gifts-made-easy.com|homemaking.com|hot-thai-kitchen.com|howsweeteats.com|hunker.com|indianhealthyrecipes.com|inspiredtaste.net|islands.com|justapinch.com|justonecookbook.com|krollskorner.com|lifeloveandsugar.com|maangchi.com|minimalistbaker.com|momontimeout.com|mygolfspy.com|natashaskitchen.com|onceuponachef.com|onlinemictest.com|pinchofyum.com|preppykitchen.com|rainbowplantlife.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|slashgear.com|spendwithpennies.com|stockcharts.com|stylebyemilyhenderson.com|sugarspunrun.com|tastesbetterfromscratch.com|tastingtable.com|thebigmansworld.com|thecountrycook.net|theloopywhisk.com|themediterraneandish.com|therecipecritic.com|thereciperebel.com|therecipewell.com|thewholecook.com|thewoksoflife.com|titlecaseconverter.com|tvline.com|twopeasandtheirpod.com|wellplated.com|whec.com|wholesomeyum.com|yummytoddlerfood.com
 ||error-report.com^$domain=programme.tv
 ||*/loader.min.js^$script,domain=programme.tv
 programme.tv^$csp=script-src-attr 'none'
@@ -953,6 +955,26 @@ trafficnews.jp#$#override-property-read xyo1fm0txa8c true; override-property-rea
 trafficnews.jp#$#abort-current-inline-script eval /xekqfk1c60a/
 ||trafficnews.jp$csp=script-src-attr 'none'
 ||*/sdk.js^$script,domain=trafficnews.jp
+weatherzone.com.au^$csp=script-src-attr 'none'
+||stg.html-load.com^$script,domain=weatherzone.com.au
+||error-report.com^$domain=weatherzone.com.au
+weatherzone.com.au#$#override-property-read as_-1469383479 emptyObj; override-property-read as_521568292 emptyObj; override-property-read as_-443357176 true; override-property-read as_-1970413760 emptyObj; override-property-read as_-2125468531 emptyObj; override-property-read as_369890225 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+weatherzone.com.au#$#override-property-read isAdShieldTurn false
+calculatorsoup.com^$csp=script-src-attr 'none'
+||stg.html-load.com^$script,domain=calculatorsoup.com
+||error-report.com^$domain=calculatorsoup.com
+calculatorsoup.com#$#override-property-read as_-1377875130 emptyObj; override-property-read as_-936640185 emptyObj; override-property-read as_-643962645 true; override-property-read as_-1878905411 emptyObj; override-property-read as_711290288 emptyObj; override-property-read as_169284756 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+calculatorsoup.com#$#override-property-read isAdShieldTurn false
+gamesradar.com^$csp=script-src-attr 'none'
+||stg.html-load.com^$script,domain=gamesradar.com
+||error-report.com^$domain=gamesradar.com
+gamesradar.com#$#override-property-read as_-759423694 emptyObj; override-property-read as_1055485147 emptyObj; override-property-read as_-185795201 true; override-property-read as_-2035756247 emptyObj; override-property-read as_143881668 emptyObj; override-property-read as_1998087592 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+gamesradar.com#$#override-property-read isAdShieldTurn false
+hk01.com^$csp=script-src-attr 'none'
+||html-load.com^$script,domain=hk01.com
+||error-report.com^$domain=hk01.com
+hk01.com#$#override-property-read as_1803715025 emptyObj; override-property-read as_-1091593188 emptyObj; override-property-read as_-1477961216 true; override-property-read as_1691401480 emptyObj; override-property-read as_-278345787 emptyObj; override-property-read as_-399829783 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+hk01.com#$#override-property-read isAdShieldTurn false
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
@@ -3096,6 +3118,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||fizzledesire.com^
 ||flakespunishmentscythe.com^
 ||flamechannel.com^
+||fliffuscatalpa.com^
 ||flintarchedsignature.com^
 ||flossedmoiled.com^
 ||fogramcolcine.com^
@@ -3194,6 +3217,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||infamous-growth.pro^
 ||infantileclass.pro^
 ||infox.sg^
+||injusticebakery.com^
 ||innaterakija.com^
 ||innovations260.net^
 ||innovationswith1200.net^
