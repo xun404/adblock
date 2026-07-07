@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yNoco94z5F7AQPbLBWBCuQ
+! Checksum: AwUKrmXaDq9GCGgXJ8fA8g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607072014
-! Last Modified: 2026年07月07日 20:14
+! Version: 202607072325
+! Last Modified: 2026年07月07日 23:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -955,11 +955,6 @@ trafficnews.jp#$#override-property-read xyo1fm0txa8c true; override-property-rea
 trafficnews.jp#$#abort-current-inline-script eval /xekqfk1c60a/
 ||trafficnews.jp$csp=script-src-attr 'none'
 ||*/sdk.js^$script,domain=trafficnews.jp
-weatherzone.com.au^$csp=script-src-attr 'none'
-||stg.html-load.com^$script,domain=weatherzone.com.au
-||error-report.com^$domain=weatherzone.com.au
-weatherzone.com.au#$#override-property-read as_-1469383479 emptyObj; override-property-read as_521568292 emptyObj; override-property-read as_-443357176 true; override-property-read as_-1970413760 emptyObj; override-property-read as_-2125468531 emptyObj; override-property-read as_369890225 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
-weatherzone.com.au#$#override-property-read isAdShieldTurn false
 calculatorsoup.com^$csp=script-src-attr 'none'
 ||stg.html-load.com^$script,domain=calculatorsoup.com
 ||error-report.com^$domain=calculatorsoup.com
