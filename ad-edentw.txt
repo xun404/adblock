@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AwUKrmXaDq9GCGgXJ8fA8g
+! Checksum: swQv2lPEQBwthhXxwkpZdQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607072325
-! Last Modified: 2026年07月07日 23:25
+! Version: 202607080132
+! Last Modified: 2026年07月08日 01:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -637,6 +637,12 @@ fansided.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=oxfordlearnersdictionaries.com
 ||error-report.com^$domain=oxfordlearnersdictionaries.com
 oxfordlearnersdictionaries.com#$#override-property-read window.navigator.connection.rtt 1001
+||content-loader.com^$script,domain=oxfordlearnersdictionaries.com
+||html-load.com^$script,domain=oxfordlearnersdictionaries.com
+||d3d4gnv047l844.cloudfront.net^$script,domain=oxfordlearnersdictionaries.com
+||stg.html-load.com/session$domain=oxfordlearnersdictionaries.com
+||oxfordlearnersdictionaries.com^$csp=script-src-attr 'none'
+oxfordlearnersdictionaries.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
 maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-container-id], [data-google-query-id])
 maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
 slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asload/;
@@ -653,6 +659,12 @@ acouplecooks.com,alexandracooks.com,allkpop.com,amazingribs.com,amybakesbread.co
 programme.tv^$csp=script-src-attr 'none'
 programme.tv#$#prevent-element-src-loading script /loader\.min\.js/
 programme-tv.net#$#prevent-element-src-loading script /\/feed\//; prevent-element-src-loading script /\/cache\//
+||content-loader.com^$script,domain=programme-tv.net
+||html-load.com^$script,domain=programme-tv.net
+||d59gpuqareznf.cloudfront.net^$script,domain=programme-tv.net
+||stg.html-load.com/session$domain=programme-tv.net
+||programme-tv.net^$csp=script-src-attr 'none'
+programme-tv.net#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
 ||error-report.com/report$domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 ||*/loader.min.js^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#override-property-read Navigator.prototype.onLine false
@@ -666,6 +678,13 @@ base64encode.org^$csp=script-src-attr 'none'
 base64encode.org#$#prevent-element-src-loading script /sdk\.js/
 ||*/sdk.js^$script,domain=base64encode.org
 ||error-report.com^$domain=base64encode.org
+||content-loader.com^$script,domain=base64decode.org
+||html-load.com^$script,domain=base64decode.org
+||d37j8pfxu2iogi.cloudfront.net^$script,domain=base64decode.org
+||stg.html-load.com/session$domain=base64decode.org
+||error-report.com^$domain=base64decode.org
+||base64decode.org^$csp=script-src-attr 'none'
+base64decode.org#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
 goldderby.com#$#override-property-read confirm noopFunc
 goldderby.com#$#override-property-read d3d3LmdvbGRkZXJieS5jb21fb25sb2Fk undefined
 ||error-report.com^$domain=goldderby.com
@@ -947,6 +966,14 @@ guitarworld.com#$#override-property-read window.x9vhy6gdq24a true; override-prop
 ||drawbut.com/feed/$domain=hochi.news
 ||flux-cdn.com/client/hochi/sport-hochi.min.js^$script,domain=hochi.news
 hochi.news#$#override-property-read Navigator.prototype.onLine false
+||content-loader.com^$script,domain=hochi.news
+||html-load.com^$script,domain=hochi.news
+||duhquietly.com^$script,domain=hochi.news
+||html-load.com/session$domain=hochi.news
+||duhquietly.com/session$domain=hochi.news
+||error-report.com^$domain=hochi.news
+||hochi.news^$csp=script-src-attr 'none'
+hochi.news#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
 daily.co.jp#$#override-property-read xe9n5cg1zqh true; override-property-read x7uc73wzo8y true; override-property-read xnejkm092kcr true
 daily.co.jp#$#abort-current-inline-script eval /x7uc73wzo8y/
 ||daily.co.jp$csp=script-src-attr 'none'
@@ -965,6 +992,41 @@ hk01.com^$csp=script-src-attr 'none'
 ||error-report.com^$domain=hk01.com
 hk01.com#$#override-property-read as_1803715025 emptyObj; override-property-read as_-1091593188 emptyObj; override-property-read as_-1477961216 true; override-property-read as_1691401480 emptyObj; override-property-read as_-278345787 emptyObj; override-property-read as_-399829783 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 hk01.com#$#override-property-read isAdShieldTurn false
+||content-loader.com^$script,domain=seriouseats.com
+||html-load.com^$script,domain=seriouseats.com
+||d12llxoeoqg343.cloudfront.net^$script,domain=seriouseats.com
+||html-load.com/session$domain=seriouseats.com
+||error-report.com^$domain=seriouseats.com
+||seriouseats.com^$csp=script-src-attr 'none'
+seriouseats.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+||content-loader.com^$script,domain=kurir.rs
+||html-load.com^$script,domain=kurir.rs
+||dxniuftypzlky.cloudfront.net^$script,domain=kurir.rs
+||stg.html-load.com/session$domain=kurir.rs
+||error-report.com^$domain=kurir.rs
+||kurir.rs^$csp=script-src-attr 'none'
+kurir.rs#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+||content-loader.com^$script,domain=pockettactics.com
+||html-load.com^$script,domain=pockettactics.com
+||d3edfxwiftnsxy.cloudfront.net^$script,domain=pockettactics.com
+||stg.html-load.com/session$domain=pockettactics.com
+||error-report.com^$domain=pockettactics.com
+||pockettactics.com^$csp=script-src-attr 'none'
+pockettactics.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+||content-loader.com^$script,domain=stocktwits.com
+||html-load.com^$script,domain=stocktwits.com
+||d3edfxwiftnsxy.cloudfront.net^$script,domain=stocktwits.com
+||stg.html-load.com/session$domain=stocktwits.com
+||error-report.com^$domain=stocktwits.com
+||stocktwits.com^$csp=script-src-attr 'none'
+stocktwits.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+omnicalculator.com#$#override-property-read as_1336353459 true; override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true
+||content-loader.com^$script,domain=omnicalculator.com
+||d2zs9z3hmfhcr6.cloudfront.net^$script,domain=omnicalculator.com
+||html-load.com^$script,domain=omnicalculator.com
+||stg.html-load.com/session$domain=omnicalculator.com
+||error-report.com^$domain=omnicalculator.com
+||omnicalculator.com^$csp=script-src-attr 'none'
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
