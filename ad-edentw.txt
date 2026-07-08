@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q6zP5ZiqL51B+kOyBu7GZg
+! Checksum: re+Yu89IdSGoJym4EH+RDQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607081835
-! Last Modified: 2026年07月08日 18:35
+! Version: 202607082107
+! Last Modified: 2026年07月08日 21:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -873,7 +873,7 @@ vimm.net#$#override-property-read Navigator.prototype.onLine false
 ||error-report.com^$domain=wenxuecity.com
 ||html-load.cc^$script,domain=hfboards.com
 ||error-report.com^$domain=hfboards.com
-trilltrill.jp#$#prevent-element-src-loading script /\/feed\//
+||duhquietly.com^$domain=trilltrill.jp
 ||flux-cdn.com/client/trill/trill.min.js^$script,domain=trilltrill.jp
 ||html-load.com^$script,domain=trilltrill.jp
 ||*/loader.min.js|$script,domain=trilltrill.jp
@@ -882,12 +882,14 @@ trilltrill.jp#$#override-property-read document.write noopFunc
 ||error-report.com^$domain=trilltrill.jp
 trilltrill.jp$csp=script-src-attr 'none'
 ||*/core.js^$script,domain=trilltrill.jp
-trilltrill.jp#$#override-property-read as_647643726 true
-trilltrill.jp#$#override-property-read as_1724902207 true
+trilltrill.jp#$#override-property-read as_647643726 true; override-property-read as_1724902207 true
 ||blahwhoever.com^$script,domain=trilltrill.jp
 ||cdn.caprofitx.com^$script,domain=trilltrill.jp
 ||poorlylift.com^$script,domain=trilltrill.jp
 trilltrill.jp#$#override-property-read as_1198118810 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read isAdShieldTurn false
+trilltrill.jp#$#override-property-read as_1070684987 true; override-property-read as_-2058917661 true; override-property-read as_-640454281 emptyObj; override-property-read as_448569654 emptyObj
+trilltrill.jp#$#prevent-element-src-loading script /\/(feed|session|script)\//
+trilltrill.jp#$#override-property-read confirm trueFunc
 ||html-load.com^$script,domain=euronews.com
 euronews.com#$#override-property-read as_1155195780 true; override-property-read as_279146697 true; override-property-read as_242250477 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_0-1060912359 true; override-property-read as_9-1833899436 true; override-property-read as_1-889137453 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
 ||html-load.com/feed/$domain=euronews.com
