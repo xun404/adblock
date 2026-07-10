@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OR4NFMGUW6RhravQUybWcA
+! Checksum: slZFbRti/sCRE+coGmsepw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607101648
-! Last Modified: 2026年07月10日 16:48
+! Version: 202607102312
+! Last Modified: 2026年07月10日 23:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -993,6 +993,7 @@ trafficnews.jp#$#abort-current-inline-script eval /xekqfk1c60a/
 calculatorsoup.com^$csp=script-src-attr 'none'
 ||stg.html-load.com^$script,domain=calculatorsoup.com
 ||error-report.com^$domain=calculatorsoup.com
+||duhquietly.com^$domain=calculatorsoup.com
 calculatorsoup.com#$#override-property-read as_-1377875130 emptyObj; override-property-read as_-936640185 emptyObj; override-property-read as_-643962645 true; override-property-read as_-1878905411 emptyObj; override-property-read as_711290288 emptyObj; override-property-read as_169284756 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 calculatorsoup.com#$#override-property-read isAdShieldTurn false
 hk01.com^$csp=script-src-attr 'none'
@@ -1035,6 +1036,18 @@ omnicalculator.com#$#override-property-read as_1336353459 true; override-propert
 ||stg.html-load.com/session$domain=omnicalculator.com
 ||error-report.com^$domain=omnicalculator.com
 ||omnicalculator.com^$csp=script-src-attr 'none'
+||doviz.com$csp=script-src-attr 'none'
+||stg.html-load.com^$script,domain=doviz.com
+||duhquietly.com^$script,domain=doviz.com
+||error-report.com^$domain=doviz.com
+doviz.com#$#override-property-read as_2025345168 emptyObj; override-property-read as_1100318047 emptyObj; override-property-read as_221087453 true; override-property-read as_-1763784112 emptyObj; override-property-read as_-1565483035 emptyObj; override-property-read as_-1244322961 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+doviz.com#$#override-property-read isAdShieldTurn false
+||nemzetisport.hu$csp=script-src-attr 'none'
+||stg.html-load.com^$script,domain=nemzetisport.hu
+||duhquietly.com^$script,domain=nemzetisport.hu
+||error-report.com^$domain=nemzetisport.hu
+nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+nemzetisport.hu#$#override-property-read isAdShieldTurn false
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
@@ -1222,7 +1235,7 @@ wco.*,wcostream.*#$#abort-current-inline-script document.createElement adsbox; o
 3movierulz.tv,7-up.net,7deadlysins.tv,abcvideo.cc,avimobilemovies.co,aznewhomes4u.com,batimovie.com,canonprinterdownload.com,celebritiesempire.com,dailyuploads.net,dood.*,doods.*,doodstream.*,dooodster.*,downloadgamexbox.com,dragonballsuperdub.com,dramacool.movie,dramacool.video,fanproj.net,filmovi.co,fullasianmovies.com,gamepc18.net,giaoxudaiphu.com,haqqinda.az,hot-chicks.website,hotshotgamers.net,hunstulovers.net,indishare.org,isohunt.lol,isohuntz.net,kshows.to,livecricket.is,mobilemovies.info,movies123.xyz,mybet.tips,myrightspot.com,naijal.com,pornlibrary.net,premiumkeyesetnod32.blogspot.com,prostream.to,putlocker68.com,putlockers.fm,putlockertv.ist,sandup.co,thevideobee.to,uqload.*,vidbem.com,vidbm.com,videojinni.com,vidfast.*,vidlox.me,vidshar.tv,vidshare.tv,vidstreaming.io,vostfrserie.biz,watchblackclover.com,watchdbzsuper.tv,watchmha2dub.com,watchshokugeki.com,youdbox.com#$#abort-current-inline-script Math zfgloaded
 ! #CV-685
 cloudvideo.tv,flashx.tv,gomovies.*,gostream.nu,govid.*,hdvid.tv,openloadmovies.*,vidshare.tv#$#abort-on-property-write Fingerprint2
-advertape,bunkr-albums.io,bunkr.*,charlessheimprove.com,game3rb.com,jefferycontrolmodel.com,jennifereconomicgive.com,kissjav.*,lauradaydo.com,myvidplay.com,richardquestionbuilding.com,streamtape.*#$#abort-on-property-read window.open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
+advertape,bunkr-albums.io,bunkr.*,charlessheimprove.com,game3rb.com,jefferycontrolmodel.com,jennifereconomicgive.com,kissjav.*,lauradaydo.com,myvidplay.com,richardquestionbuilding.com,pamelachangemission.com,streamtape.*#$#abort-on-property-read window.open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 123putlocker.club#$#abort-current-inline-script _0xbc13
 ! #CV-692
 biter.tv,flashx.tv,thevid.net,yuudrive.me#$#abort-on-property-read _pop
@@ -2084,6 +2097,7 @@ wykop.pl#$#hide-if-matches-xpath './/section[starts-with(@data-label, "ad: ")]/s
 ! video ads
 ||g.cda.pl/player*?ads&vi*^$xmlhttprequest,domain=cda.pl
 ! Popup/Popunder/Clickunder
+ebd.cda.pl#$#abort-on-property-write window.open
 filmy69.pl,oglaszamy24.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 oglaszamy24.pl#$#abort-on-property-write onload
 ! *** abp-filters-anti-cv:portuguese.txt ***
@@ -2392,7 +2406,7 @@ www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem20.net#$#json-prune props.children.[].props.tvc
 hh2d.top#$#abort-current-inline-script $ adblock
 tram3d.mom#$#abort-current-inline-script setTimeout appendChild
-cliphubs.com,viet69hay.site#$#abort-current-inline-script document.addEventListener pop
+cliphubs.com,viet69hay.cfd#$#abort-current-inline-script document.addEventListener pop
 monkeydtruyen.com#$#simulate-mouse-event '.affClick[style=" display:block; "]' '.affClick img'
 ||s.shopee.vn^$popup,domain=monkeydtruyen.com
 /player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.xxx
@@ -2404,12 +2418,12 @@ truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh18z.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-anime47.best,chichvn.men,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,xemsexhihi.cc,thefaplive.com,truyensieuhay.com,qmhsex.xyz#$#abort-on-property-read document.cookie
+anime47.best,chichvn.men,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,xemsexhihi.vip,thefaplive.com,truyensieuhay.com,qmhsex.xyz#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.life,sexvtv.net,animehay08.site,cliphot69.shop,phimsexsuong3x.net,damconuong.shop,demo.14412882.com,doctruyen3qhub3.com,dualeotruyenhn.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen12.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,vipphimsexhay.com,quatvn.lol,sayhentai.cx,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.life,sexvtv.net,animehay08.site,cliphot69.shop,phimsexsuong3x.net,damconuong.shop,demo.14412882.com,doctruyen3qhub3.com,dualeotruyenhn.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen12.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.mom,sayhentai.cx,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,www.1phim10.com#$#abort-on-property-read localStorage
 xnhau.xxx#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.meme,animevietsub.meme,tram3d.my#$#abort-current-inline-script eval $._Eu
@@ -2443,7 +2457,7 @@ ios.codevn.net#$#abort-current-inline-script jQuery Popup
 cdn.codexa.fun#$#abort-current-inline-script $ arrDirectLink
 laophatgia.fit#$#abort-current-inline-script document.getElementsByClassName reading-content
 www.sieutamphim.pro#$#abort-on-property-write _$_d52e
-quatvn.lol#$#abort-current-inline-script window.addEventListene localStorage
+quatvn.mom#$#abort-current-inline-script window.addEventListene localStorage
 checkscam.vn#$#abort-current-inline-script document.addEventListener open
 haysexvn.shop#$#abort-current-inline-script document.addEventListener adx
 clipphot.vip#$#abort-current-inline-script document.addEventListener POP
@@ -2456,7 +2470,7 @@ xoilaczkkz.tv#$#abort-current-inline-script jQuery open
 www.asu.baby#$#abort-on-property-read initialAdURLs
 cap3.study#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 animehay08.site#$#prevent-listener click popup
-rophimzz.fit,motphimw.fm#$#prevent-listener click ads
+rophimzz.live,motphimw.fm#$#prevent-listener click ads
 laodong.vn#$#abort-current-inline-script window.addEventListener AdBlock
 ! *** abp-filters-anti-cv:RM.txt ***
 ! #RM-1
