@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XEpSm4uueIlKv4MNBra2pQ
+! Checksum: CT/ypSDBy3Lb/991pbUaHA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607132019
-! Last Modified: 2026年07月13日 20:19
+! Version: 202607132322
+! Last Modified: 2026年07月13日 23:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -759,6 +759,12 @@ billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefine
 geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
 ||*/loader.min.js|$script,domain=geoguessr.com
 invoice-generator.com#$#abort-on-property-write adngin
+||invoice-generator.com$csp=script-src-attr 'none'
+||html-load.com^$script,domain=invoice-generator.com
+||content-loader.com^$script,domain=invoice-generator.com
+||error-report.com^$domain=invoice-generator.com
+invoice-generator.com#$#override-property-read isAdShieldTurn false
+invoice-generator.com#$#override-property-read as_525622783 true; override-property-read as_-1078548891 true; override-property-read as_-965980156 true
 nationalpost.com#$#hide-if-matches-xpath './/section[contains(@aria-describedby,"advertisment")]/ancestor-or-self::*[1]'
 mr2oc.com#$#abort-on-property-read window.confirm
 mr2oc.com#$#override-property-read window.navigator.connection.rtt 2000
@@ -871,6 +877,7 @@ index.hr#$#override-property-read as_971745573 true; override-property-read as_6
 ||content-loader.com/session/$domain=index.hr
 ||html-load.com/session/$domain=index.hr
 ||html-load.com^$script,domain=vimm.net
+||content-loader.com^$script,domain=vimm.net
 ||error-report.com^$domain=vimm.net
 vimm.net#$#override-property-read Navigator.prototype.onLine false
 ||html-load.cc^$script,domain=worldofsolitaire.com
@@ -1048,6 +1055,18 @@ doviz.com#$#override-property-read isAdShieldTurn false
 ||error-report.com^$domain=nemzetisport.hu
 nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
+||tunebat.com$csp=script-src-attr 'none'
+||html-load.com^$script,domain=tunebat.com
+||content-loader.com^$script,domain=tunebat.com
+||error-report.com^$domain=tunebat.com
+tunebat.com#$#override-property-read isAdShieldTurn false
+tunebat.com#$#override-property-read as_1304145770 emptyObj; override-property-read as_601629091 emptyObj; override-property-read as_336432199 true; override-property-read as_1150850259 emptyObj; override-property-read as_144435546 emptyObj; override-property-read as_1184513214 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read as_525622783 true; override-property-read as_-1078548891 true
+||onlineradiobox.com$csp=script-src-attr 'none'
+||html-load.com^$script,domain=onlineradiobox.com
+||content-loader.com^$script,domain=onlineradiobox.com
+||error-report.com^$domain=onlineradiobox.com
+onlineradiobox.com#$#override-property-read isAdShieldTurn false
+onlineradiobox.com#$#override-property-read as_525622783 true; override-property-read as_-1078548891 true
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
@@ -1407,7 +1426,7 @@ lukesitturn.com,voe.sx,xatovjatsosg.com#$#abort-on-property-write window.zfgload
 moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop; abort-current-inline-script TextEncoder /shown_at/;
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
 ext.to,hyhd.org,streamingnow.mov,knaben.xyz,vidsrc-embed.ru#$#abort-on-property-read Adcash
-actvid.*,cataz.*,cineb.*,himovies.sx,player.videasy.*,movies2watch.*,movies4us.co,musichq.*,theflixertv.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
+actvid.*,cataz.*,cineb.*,himovies.sx,player.videasy.*,vidfast.*,vsembed.ru,movies2watch.*,movies4us.co,musichq.*,theflixertv.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
 player.videasy.*#$#prevent-element-src-loading script /\/scripts\/ab\.js/
 1afav.net,1film.to,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,7us7m00f.fun,andyday-tv.lol,andydayz.*,animeheaven.*,bf0skv.org,boosterx.stream,camcaps.*,desi-porn.tube,dinisglows.com,dsvplay.com,emturbovid.com,extratorrent.st,fc2stream.*,flaswish.com,flemmix.*,flyflix.*,fmovies-co.net,fmovies.*,fmovies24-to.com,hltv.org,hqq.*,hyhd.org,hurawatch.*,jilliandescribecompany.com,jkanime.*,kaliscan.*,kaotic.com,krakenfiles.com,lauradaydo.com,lukesitturn.com,mdfx9dc8n.net,mediagraming.com,mixdrop.*,movearnpre.*,oneupload.*,pandamovies.org,primesrc.me,primevid.*,primewire.*,putlocker.*,spankbang.com,streameeeeee.site,supervideo.cc,supjav.com,supremejav.com,tipfly.xyz,toflix.*,turbovidhls.com,ups2up.*,videasy.net,vidello.*,vidsuper.nevidply.com,vidsrc-embed.ru,vidwish.*,vixcloud.*,voe.sx,walterprettytheir.com,web.netmovies.*,xatovjatsosg.com,xprime.*,younetu.*,zgdpo8nr.fun,zxcstream.xyz#$#abort-on-property-write window.open
 ||vidsuper.net/api/script.js^$script,third-party,domain=cinevibe.to
@@ -1483,6 +1502,8 @@ primewire.*#$#abort-on-property-write window.onclick
 abyssplayer.com#$#abort-on-property-write document.onclick; abort-on-property-write document.ontouchend
 vidsrc.*#$#timer-override 3600000 /0x|sandCheck/ noop interval
 bysebuho.com,bysesayeveum.com#$#timer-override 1000000 readyWait
+peachify.top#$#prevent-listener click /atob|_blank/
+vidnest.fun#$#timer-override 1 window.location.replace noop timeout
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1777,6 +1798,7 @@ toongod.*#$#hide-if-matches-xpath '//div[div/iframe[contains(@src, "?iframeId=")
 ||api.cineby.homes/sbx.js
 ||vidrock.ru/sbx.js
 zdnet.com#$#hide-if-matches-xpath './/video-js[@id][@playsinline][@aria-label]/video[@id]/ancestor::div[@data-video-location="MODAL"][@data-video-article-placement]'; hide-if-matches-xpath './/div[@data-video-location="MODAL"][@data-video-article-placement][.//div[@id][contains(@class,"video-container")]]'
+myflixerfree.*#$#override-property-read vastAdData undefined
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -3484,6 +3506,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||pamphiltre.com^
 ||papaneecorche.com^
 ||paralyzedhelmetnell.com^
+||parrbetire.com^
 ||parodostaunter.qpon^
 ||pastel-help.com^
 ||patchstoopedconceited.com^
