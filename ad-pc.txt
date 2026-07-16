@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5/aO5AH5aRNk9pldGI/glQ
+! Checksum: qBNH9Yv1OOWt1KxyFiFXXA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202607152307
-! Last Modified: 2026年07月15日 23:07
+! Version: 202607160856
+! Last Modified: 2026年07月16日 08:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -76457,6 +76457,7 @@ cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
 news18.com##[id*="_Ad_Mid"]
 bridgebase.com##[id*="_ad"]
+noon.com##[id*="adMultiProductsBanner"]
 slashdot.org,sourceforge.net##[id*="mongo-"]
 homedepot.com##[id*="sponsored"]
 80.lv##[id^="Image_bner_"]
@@ -77370,6 +77371,7 @@ flashscore.*,livescore.*,soccer24.com##.zone
 momondo.*##[class$="-result-item-container"]:has([aria-label="Ad disclaimer"])
 momondo.*##[class$="result-item-container"]:has([class$="provider-ad-badge"])
 momondo.*##[class*="mod-pres-default"]:has(div[class*="ad-badge"])
+deliveroo.*##[class^="Carousel"] li[class^="Slide-"]:has(div[style*="d815008c-8a59-40e3-9c64-79b841bf482c"])
 walmart.*##[data-automation="flipkartDisplayAds"]
 tripadvisor.*##[data-automation="nova-ad-InlineNova"]
 wayfair.*##[data-enzyme-id="Display-Ad-Container"]
@@ -77662,6 +77664,7 @@ petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 petco.com##[class*="rmn-banner"]:has([class*="SponsoredText"])
 cargurus.com##[class*="tileFrame"]:has([data-testid="sponsored-text"])
+noon.com##[class*="topSection"]:has([class*="adText"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 independent.co.uk,standard.co.uk,the-independent.com##[class] > :has(> [data-mpu])
@@ -77691,7 +77694,9 @@ etsy.com##[data-page-type="listing_page_similar_listings_grid"]:has([id^="ad-lis
 etsy.com##[data-page-type="listing_page_similar_listings_row"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
+noon.com##[data-qa="plp-grid"] [data-qa="plp-product-box"]:has(svg[width="20"] > path[d])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
+noon.com##[data-qa="widget_recommendedProducts"]:has(svg[width="20"] > path[d])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]:has([data-ad-card-root="true"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
