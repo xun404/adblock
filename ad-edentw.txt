@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bfQwOv0CkwKdZdfg+jKTzw
+! Checksum: BLIq4gu7FRfD+G8gaMG16Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607172356
-! Last Modified: 2026年07月17日 23:56
+! Version: 202607180138
+! Last Modified: 2026年07月18日 01:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1840,6 +1840,9 @@ toongod.*#$#hide-if-matches-xpath '//div[div/iframe[contains(@src, "?iframeId=")
 ||api.cineby.homes/sbx.js
 ||vidrock.ru/sbx.js
 zdnet.com#$#hide-if-matches-xpath './/video-js[@id][@playsinline][@aria-label]/video[@id]/ancestor::div[@data-video-location="MODAL"][@data-video-article-placement]'; hide-if-matches-xpath './/div[@data-video-location="MODAL"][@data-video-article-placement][.//div[@id][contains(@class,"video-container")]]'
+||players.brightcove.net^$script,domain=zdnet.com
+zdnet.com##.c-pageArticleSingle_player.c-avStickyVideo
+||brightcove.com^$xmlhttprequest,domain=zdnet.com
 myflixerfree.*#$#override-property-read vastAdData undefined
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
