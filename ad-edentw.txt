@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dm2RVCjW+nz62YjCtMMtsQ
+! Checksum: t8F64LmHSa6IGqr2SDt8Ng
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607201922
-! Last Modified: 2026年07月20日 19:22
+! Version: 202607210103
+! Last Modified: 2026年07月21日 01:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -642,7 +642,7 @@ oxfordlearnersdictionaries.com#$#override-property-read window.navigator.connect
 ||d3d4gnv047l844.cloudfront.net^$script,domain=oxfordlearnersdictionaries.com
 ||stg.html-load.com/session$domain=oxfordlearnersdictionaries.com
 ||oxfordlearnersdictionaries.com^$csp=script-src-attr 'none'
-oxfordlearnersdictionaries.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+oxfordlearnersdictionaries.com#$#override-property-read as_-979609477 true; override-property-read as_-1318557697 true; override-property-read as_-959343976 true; override-property-read as_-700311684 true
 maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-container-id], [data-google-query-id])
 maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
 slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asload/;
@@ -669,7 +669,7 @@ programme-tv.net#$#prevent-element-src-loading script /\/feed\//; prevent-elemen
 ||d59gpuqareznf.cloudfront.net^$script,domain=programme-tv.net
 ||stg.html-load.com/session$domain=programme-tv.net
 ||programme-tv.net^$csp=script-src-attr 'none'
-programme-tv.net#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+programme-tv.net#$#override-property-read as_-979609477 true; override-property-read as_-1318557697 true; override-property-read as_-959343976 true; override-property-read as_-700311684 true
 ||error-report.com/report$domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 ||*/loader.min.js^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#override-property-read Navigator.prototype.onLine false
@@ -730,12 +730,14 @@ deadline.com#$#override-property-read as_6-1892307320 true; override-property-re
 variety.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=variety.com
 ||error-report.com^$domain=variety.com
+||gladlythattoady.com^$script,domain=variety.com
 variety.com#$#prevent-element-src-loading script /loader\.min\.js/
 variety.com#$#override-property-read confirm noopFunc
 variety.com#$#override-property-read dmFyaWV0eS5jb21fb25sb2Fk undefined
 billboard.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=billboard.com
 ||error-report.com^$domain=billboard.com
+||gladlythattoady.com^$script,domain=billboard.com
 billboard.com#$#prevent-element-src-loading script /loader\.min\.js/
 billboard.com#$#override-property-read confirm noopFunc
 billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefined
@@ -1043,7 +1045,7 @@ seriouseats.com#$#override-property-read as_-400652451 true; override-property-r
 ||stg.html-load.com/session$domain=kurir.rs
 ||error-report.com^$domain=kurir.rs
 ||kurir.rs^$csp=script-src-attr 'none'
-kurir.rs#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+kurir.rs#$#override-property-read as_-979609477 true; override-property-read as_-1318557697 true; override-property-read as_-959343976 true; override-property-read as_-700311684 true
 ||content-loader.com^$script,domain=pockettactics.com
 ||html-load.com^$script,domain=pockettactics.com
 ||d3edfxwiftnsxy.cloudfront.net^$script,domain=pockettactics.com
@@ -1058,7 +1060,7 @@ pockettactics.com#$#override-property-read as_-400652451 true; override-property
 ||error-report.com^$domain=stocktwits.com
 ||stocktwits.com^$csp=script-src-attr 'none'
 stocktwits.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
-omnicalculator.com#$#override-property-read as_1336353459 true; override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true
+omnicalculator.com#$#override-property-read as_-979609477 true; override-property-read as_-1318557697 true; override-property-read as_-959343976 true; override-property-read as_-700311684 true
 ||content-loader.com^$script,domain=omnicalculator.com
 ||d2zs9z3hmfhcr6.cloudfront.net^$script,domain=omnicalculator.com
 ||html-load.com^$script,domain=omnicalculator.com
@@ -1075,6 +1077,7 @@ doviz.com#$#override-property-read isAdShieldTurn false
 ||nemzetisport.hu$csp=script-src-attr 'none'
 ||stg.html-load.com^$script,domain=nemzetisport.hu
 ||duhquietly.com^$script,domain=nemzetisport.hu
+||gadzooksrudely.com^$script,domain=nemzetisport.hu
 ||error-report.com^$domain=nemzetisport.hu
 nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
@@ -1089,7 +1092,7 @@ tunebat.com#$#override-property-read as_1304145770 emptyObj; override-property-r
 ||content-loader.com^$script,domain=onlineradiobox.com
 ||error-report.com^$domain=onlineradiobox.com
 onlineradiobox.com#$#override-property-read isAdShieldTurn false
-onlineradiobox.com#$#override-property-read as_525622783 true; override-property-read as_-1078548891 true
+onlineradiobox.com#$#override-property-read as_-979609477 true; override-property-read as_-1318557697 true; override-property-read as_-959343976 true; override-property-read as_-700311684 true
 puckpedia.com#$#override-property-read as_6157826194 true; override-property-read as_81102588177 true; override-property-read as_1-1474630059 true; override-property-read as_4243119001 true; override-property-read as_7-876391118 true; override-property-read as_0841357942 true; override-property-read as_31957894831 true; override-property-read as_6-619323405 true; override-property-read as_91098425655 true; override-property-read as_2-1478792581 true; override-property-read as_51696664596 true; override-property-read as_8-1481765811 true; override-property-read as_1235983249 true; override-property-read as_41953732309 true
 ||html-load.com^$script,domain=puckpedia.com
 ||content-loader.com^$script,domain=puckpedia.com
