@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H7KDw0Ur/5ucFUTTW3zS8g
+! Checksum: PGVFwaF2uVD/nLu2Q+mJYw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607212321
-! Last Modified: 2026年07月21日 23:21
+! Version: 202607220055
+! Last Modified: 2026年07月22日 00:55
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1055,7 +1055,7 @@ hk01.com#$#override-property-read isAdShieldTurn false
 ||html-load.com/session$domain=seriouseats.com
 ||error-report.com^$domain=seriouseats.com
 ||seriouseats.com^$csp=script-src-attr 'none'
-seriouseats.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+seriouseats.com#$#override-property-read as_-945714655 true; override-property-read as_-979609477 true;override-property-read as_-1318557697 true; override-property-read as_-959343976 true; override-property-read as_-700311684 true
 ||content-loader.com^$script,domain=kurir.rs
 ||html-load.com^$script,domain=kurir.rs
 ||dxniuftypzlky.cloudfront.net^$script,domain=kurir.rs
@@ -1103,7 +1103,7 @@ nemzetisport.hu#$#override-property-read isAdShieldTurn false
 ||content-loader.com^$script,domain=tunebat.com
 ||error-report.com^$domain=tunebat.com
 tunebat.com#$#override-property-read isAdShieldTurn false
-tunebat.com#$#override-property-read as_1304145770 emptyObj; override-property-read as_601629091 emptyObj; override-property-read as_336432199 true; override-property-read as_1150850259 emptyObj; override-property-read as_144435546 emptyObj; override-property-read as_1184513214 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read as_525622783 true; override-property-read as_-1078548891 true
+tunebat.com#$#override-property-read as_-979609477 true; override-property-read as_-833145920 true; override-property-read as_771025754 true; override-property-read as_-1318557697 true; override-property-read as_-1172094140 true; override-property-read as_1731451646 true; override-property-read as_-959343976 true
 ||onlineradiobox.com$csp=script-src-attr 'none'
 ||html-load.com^$script,domain=onlineradiobox.com
 ||content-loader.com^$script,domain=onlineradiobox.com
@@ -1575,6 +1575,7 @@ bysebuho.com,bysesayeveum.com#$#timer-override 1000000 readyWait
 peachify.top#$#prevent-listener click /atob|_blank/
 vidnest.fun#$#timer-override 1 window.location.replace noop timeout
 vidrock.ru#$#prevent-element-src-loading script /acscdn\.com|aclib/
+zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestream_cnwpop
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -3347,6 +3348,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||foothotgoback.com^
 ||fordedcostaea.com^
 ||formulearchin.com^
+||franceswaps.com^
 ||fremtencycl.com^
 ||freshacceleronparalleldynamics.net^
 ||fretumlimpsey.com^
@@ -3545,6 +3547,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||myricylhoihere.com^
 ||mystifycabala.com^
 ||mythosupflow.com^
+||nahorclysmic.shop^
 ||nainepidia.com^
 ||nairydeices.com^
 ||nappieoxbows.com^
@@ -3820,6 +3823,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||uttergleeks.com^
 ||vd.7vid.net^
 ||vector26060.com^
+||verdedagon.com^
 ||versinehopper.com^
 ||vextslows.com^
 ||villagetraitgarret.com^
@@ -3831,6 +3835,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||votingcompetencetendon.com^
 ||vowelywisely.com^
 ||vyar221.net^
+||wahabipygoferonymy.cyou^
 ||waivinggilim.com^
 ||warkedmalie.com^
 ||warthcoes.com^
@@ -3855,6 +3860,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yakdudism.com^
 ||yallowafridi.com^
 ||yawnfulharpa.com^
+||yetherloaf.cyou^
 ||yb28b.com^
 ||ydstinkle.com^
 ||yield70.net^
