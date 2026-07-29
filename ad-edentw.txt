@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rvUbMz/40msJaKDDo7bgPg
+! Checksum: bqcpMbvjsMcqCYF8JSQgcA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607292114
-! Last Modified: 2026年07月29日 21:14
+! Version: 202607292329
+! Last Modified: 2026年07月29日 23:29
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -852,6 +852,7 @@ kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||drawbut.com^$domain=kuruma-news.jp
 ||gadzooksrudely.com^$domain=kuruma-news.jp
 ||grubbytrain.com^$domain=kuruma-news.jp
+||pishrust.com^$domain=kuruma-news.jp
 @@||error-report.com^$xmlhttprequest,domain=kuruma-news.jp
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=kuruma-news.jp
 kuruma-news.jp^$csp=script-src-attr 'none'
@@ -904,10 +905,12 @@ euronews.com#$#override-property-read as_971745573 true; override-property-read 
 euronews.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|\\[0,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError/' ''
 ||grubbytrain.com/feed/$domain=euronews.com
 ||grubbytrain.com/session/$domain=euronews.com
+||html-load.com^$script,domain=oricon.co.jp
 ||html-load.com/feed/$domain=oricon.co.jp
 ||content-loader.com/feed/$domain=oricon.co.jp
 ||cdn.caprofitx.com^$domain=oricon.co.jp
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
+oricon.co.jp#$#replace-argument Element.prototype.setAttribute 1 ',11,4)' ''
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
 fandom.com#$#abort-current-inline-script eval /ZnVuY3Rpb24/
@@ -1004,7 +1007,8 @@ calculatorsoup.com^$csp=script-src-attr 'none'
 ||duhquietly.com^$domain=calculatorsoup.com
 ||gadzooksrudely.com^$domain=calculatorsoup.com
 ||grubbytrain.com^$script,domain=calculatorsoup.com
-calculatorsoup.com#$#override-property-read as_-1377875130 emptyObj; override-property-read as_-936640185 emptyObj; override-property-read as_-643962645 true; override-property-read as_-1878905411 emptyObj; override-property-read as_711290288 emptyObj; override-property-read as_169284756 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+||pishrust.com^$domain=calculatorsoup.com
+calculatorsoup.com#$#override-property-read as_1242808210 true; override-property-read as_-700311684 true; override-property-read as_-1039259904 true; override-property-read as_1278692676 true
 calculatorsoup.com#$#override-property-read isAdShieldTurn false
 calculatorsoup.com#$#replace-argument Element.prototype.setAttribute 1 ';await new' ''
 hk01.com^$csp=script-src-attr 'none'
@@ -1060,9 +1064,11 @@ doviz.com#$#override-property-read isAdShieldTurn false
 ||duhquietly.com^$script,domain=nemzetisport.hu
 ||gadzooksrudely.com^$script,domain=nemzetisport.hu
 ||grubbytrain.com^$domain=nemzetisport.hu
+||pishrust.com^$domain=nemzetisport.hu
 ||error-report.com^$domain=nemzetisport.hu
 nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
+nemzetisport.hu#$#hide-if-contains-visible-text /hirdetés/ 'div[data-x][data-x-type]' 'span'
 ||tunebat.com$csp=script-src-attr 'none'
 ||html-load.com^$script,domain=tunebat.com
 ||content-loader.com^$script,domain=tunebat.com
@@ -1914,7 +1920,7 @@ www.facebook.com,web.facebook.com#$#replace-xhr-response '/"(instream_extra_conf
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"instream_video_ad_breaks":.[{]/' '"instream_video_ad_breaks":[],"__xb":[{'
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($.data.node)' null '' /SponsoredData/;
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath3 '//div[@aria-posinset][.//*[self::h3 or self::h4]//span/a[@href][matches(@href,"__cft__.0.=[A-Za-z0-9_-]{290,}")][not(contains(@href,"/groups/"))][not(contains(@href,"section_header_type"))]]'
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^\s*(?:[AaDd]{2}|[SsPpOoNnRrIiÉé]{9,11}|[CcOoMmAaNnDdIiTtÉé]{9,11}|[PpAaTtRrOoCcIiNnDd]{10,12}|[BbEeRrSsPpOoNn]{9,11}|[SsPpOoNnRrIiZzAaTt]{12,14}|[SsPpOoNnRrOoWwAaEe]{11,13}|[ĐđƯưỢợCcTtÀàIiRr\s]{11,13})\s*$/ 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"], div[aria-posinset] a[href="#"]'
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^\s*(?:[AaDd]{2}|[SsPpOoNnRrIiÉé]{9,11}|[CcOoMmAaNnDdIiTtÉé]{9,11}|[PpAaTtRrOoCcIiNnDd]{10,12}|[BbEeRrSsPpOoNn]{9,11}|[SsPpOoNnRrIiZzAaTt]{12,14}|[SsPpOoNnRrOoWwAaEe]{11,13}|[ĐđƯưỢợCcTtÀàIiRr\s]{11,13})\s*$/ 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"], div[aria-posinset] a[href="#"]'; hide-if-contains-visible-text /^(?:[Aa][Dd]|Sponsored|esondSpored|.*Spored.*|(?=.*[sS])(?=.*[pP])(?=.*[oO])(?=.*[rR])(?=.*[dD])[a-zA-Z]+)$/ 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"] span:not([style*="top"])'
 ! rp
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"label":"FBUnifiedVideoContainer.*"sponsored_data":\{"__typename":"SponsoredData".*\}/' '{}' '"sponsored_data":\{"__typename":"SponsoredData"'
 ! mp
@@ -1926,7 +1932,7 @@ www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges
 www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeedUnitItem.nodes.0.{}.nodes.0.rhc_ad'
 www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[].rhc_ad'
 www.facebook.com,web.facebook.com#$#json-prune 'data.viewer.companionUnits.nodes.[].item_collection.nodes.[].rhc_ad'
-www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//a[@target="_blank"][(not(@attributionsrc) and (contains(concat(" ",@rel," ")," tag") or contains(@rel,"bookmark") or contains(@rel,"search") or contains(@rel,"help") or contains(@rel,"author") or contains(@rel,"prev") or contains(@rel,"next"))) or (@aria-labelledby and (@attributionsrc="blank" or @attributionsrc="unknown")) or (contains(@attributionsrc,"privacy_sandbox") and (contains(@rel,"noopener") or contains(@rel,"nofollow") or contains(@rel,"noreferrer") or contains(@rel,"external")))]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; hide-if-matches-xpath '//div[@role="complementary"]//a[not(@attributionsrc)][contains(@rel,"next")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class]/..'; hide-if-matches-xpath '//div[@role="complementary"]//div[contains(@class,"xwib8y2") and contains(@class,"x1y1aw1k")][.//a[@target="_blank"][contains(@rel,"nofollow") and contains(@rel,"noreferrer") and (contains(@rel,"alternate") or contains(@rel,"license"))]]/parent::div'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[not(@attributionsrc)][contains(@rel,"next")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/ancestor::div[4]/..'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[contains(@rel,"next")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/ancestor::div[4]/..'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[contains(@rel,"noopener")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/ancestor::div[4]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feedImage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feedlmage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feedlrnage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feeclImage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"railImage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; race stop;
+www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//a[@target="_blank"][(not(@attributionsrc) and (contains(concat(" ",@rel," ")," tag") or contains(@rel,"bookmark") or contains(@rel,"search") or contains(@rel,"help") or contains(@rel,"author") or contains(@rel,"prev") or contains(@rel,"next"))) or (@aria-labelledby and (@attributionsrc="blank" or @attributionsrc="unknown")) or (contains(@attributionsrc,"privacy_sandbox") and (contains(@rel,"noopener") or contains(@rel,"nofollow") or contains(@rel,"noreferrer") or contains(@rel,"external")))]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; hide-if-matches-xpath '//div[@role="complementary"]//a[not(@attributionsrc)][contains(@rel,"next")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class]/..'; hide-if-matches-xpath '//div[@role="complementary"]//div[contains(@class,"xwib8y2") and contains(@class,"x1y1aw1k")][.//a[@target="_blank"][contains(@rel,"nofollow") and contains(@rel,"noreferrer") and (contains(@rel,"alternate") or contains(@rel,"license"))]]/parent::div'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[not(@attributionsrc)][contains(@rel,"next")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/ancestor::div[4]/..'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[contains(@rel,"next")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/ancestor::div[4]/..'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[contains(@rel,"noopener")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/ancestor::div[4]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feedImage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feedlmage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feedlrnage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"feeclImage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"railImage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"sidebarImage")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'; race stop;
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! wp
@@ -2832,7 +2838,7 @@ olx.com.br###advertising-top-banner
 otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-text(reklama))
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
-pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Geborg|Gesponsord|Gesponsert|Patrocinado|Promocionado|Sponsored|Sponsoreret|Sponsorisées|Sponsorizat|Sponsorizzato|Sponsoroitu|Sponsorlu|Sponsorowane|Sponsrad|Sponset|Szponzorált|Спонсирοванный|Спонсорирано|Спонсируемый|Спонсорований|Sponzorirano|Sponzorované|Χορηγούμενο/ 'div[role="listitem"][role][style]' 'div[title]' 'content: "Promoted by";' 'font-weight: 600;'; hide-if-matches-xpath '//div[@title][contains(.,"贊助內容") or contains(.,"赞助的 Pin 图") or contains(.,"広告") or contains(.,"후원 핀") or contains(.,"స్పాన్సర్ చేసారు") or contains(.,"স্পনসর করা") or contains(.,"प्रायोजित") or contains(.,"ממומן") or contains(.,"قيد الدعم") or contains(.,"ממומן") or contains(.,"Được tài trợ") or contains(.,"May Sponsor") or contains(.,"Sponsored") or contains(.,"Sponsorisées") or contains(.,"Gesponsert") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; race stop;
+pinterest.*#$#race start; hide-if-contains-visible-text /Bersponsor|Ditaja|Geborg|Gesponsord|Gesponsert|Patrocinado|Promocionado|Sponsored|Sponsoreret|Sponsorisées|Sponsorizat|Sponsorizzato|Sponsoroitu|Sponsorlu|Sponsorowane|Sponsrad|Sponset|Szponzorált|Спонсирοванный|Спонсорирано|Спонсируемый|Спонсорований|Sponzorirano|Sponzorované|Χορηγούμενο/ 'div[role="listitem"][role][style]' 'div[title]' 'content: "Promoted by";' 'font-weight: 600;'; hide-if-matches-xpath '//div[@data-test-id="pinrep-footer"]//*[not(*)][contains("|Ad|Sponsored|Sponsorisé|Sponsorisées|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|May Sponsor|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|",concat("|",normalize-space(substring-before(concat(normalize-space(.),"\u2022"),"\u2022")),"|"))]/ancestor::div[@data-grid-item="true"][1]'; hide-if-matches-xpath '//div[@title][contains(.,"贊助內容") or contains(.,"赞助的 Pin 图") or contains(.,"広告") or contains(.,"후원 핀") or contains(.,"స్పాన్సర్ చేసారు") or contains(.,"স্পনসর করা") or contains(.,"प्रायोजित") or contains(.,"ממומן") or contains(.,"قيد الدعم") or contains(.,"ממומן") or contains(.,"Được tài trợ") or contains(.,"May Sponsor") or contains(.,"Sponsored") or contains(.,"Sponsorisées") or contains(.,"Gesponsert") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]'; race stop;
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
