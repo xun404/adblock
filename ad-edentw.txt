@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Sy1uu2q2GunsvMhOdReuug
+! Checksum: rvUbMz/40msJaKDDo7bgPg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202607291605
-! Last Modified: 2026年07月29日 16:05
+! Version: 202607292114
+! Last Modified: 2026年07月29日 21:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2924,6 +2924,7 @@ walmart.*#$#hide-if-matches-xpath './/div[text()="Sponsored"]//ancestor::section
 nextdoor.com#$#hide-if-contains-visible-text /S[^a-z0-9]*p[^a-z0-9]*[oο][^a-z0-9]*n[^a-z0-9]*s[^a-z0-9]*[oο][^a-z0-9]*r[^a-z0-9]*e[^a-z0-9]*d/i '[data-feed-item-type="PROMO"]'
 ! la
 nextdoor.com#$#hide-if-matches-xpath '//div[a//span[contains(@class,"Badge")][text()="Ad"]]/parent::div/..'
+nextdoor.com#$#hide-if-matches-xpath '//span[@data-block][translate(normalize-space(.),"\u0410\u0430\u0391\u03B1\u2060\u200B\u200C\u200D\uFEFF","AaAa")="Ad"][not(ancestor::div[@data-testid="feed-item-card"])]/ancestor::div[@role][@data-block][1]/ancestor::div[3]'
 ! #RM-88
 ! pp
 nordstrom.com#$#hide-if-matches-xpath './/header/h3[.="Sponsored"]/ancestor::div[contains(@id,"sponsored")]/parent::div'
