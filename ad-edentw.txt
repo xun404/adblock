@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hBtiCnw6Zx9AwBz/IpiUhw
+! Checksum: 3KbxBfJsu7mJv/8o8kUcFQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202608072150
-! Last Modified: 2026年08月07日 21:50
+! Version: 202608072326
+! Last Modified: 2026年08月07日 23:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -293,7 +293,7 @@ novinky.cz#$#json-prune 'responsive width height'; abort-current-inline-script c
 seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
 novinky.cz#$#hide-if-matches-xpath '//iframe[@sandbox][contains(@style, "width: 100%")]/ancestor::div[@*[starts-with(name(), "data-") and contains(name(), "advert")]]/parent::div[1]'
 novinky.cz#$#abort-on-iframe-property-write postMessage; abort-on-property-write $sf; abort-on-iframe-property-read addEventListener;
-novinky.cz,seznam.cz,seznamzpravy.cz#$#cookie-remover /adb$|adb\.key|^[a-z]{5,11}/; cookie-remover qusnyQusny;
+novinky.cz,seznam.cz,seznamzpravy.cz#$#cookie-remover /adb$|adb\\.key|^[a-z]{5,11}/; cookie-remover qusnyQusny;
 novinky.cz#$#hide-if-matches-xpath '//div[./article/a/div[./img] and ./article/div/a[@rel="nofollow noopener"]/span]'
 novinky.cz#$#hide-if-matches-xpath '//a[contains(@href, "/ad-info")]/ancestor::div[a[contains(@class,"mol-advert__ad-info-link")]][1]'
 novinky.cz#$#hide-if-matches-xpath '//*[@id="szn-clanky"]//div[starts-with(@id,"sznssp-")]/../../../..'
@@ -385,7 +385,7 @@ zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
 hnonline.sk,info.cz,lupa.cz#$#abort-current-inline-script Math.random adb
 expres.cz,osobnosti.cz,tiscali.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
-blesk.cz,expres.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/
+blesk.cz,expres.cz#$#cookie-remover /^adb$|adb\\.key|^[a-z]{5,11}$/
 blesk.cz##.gam-wrapper
 expres.cz##div[data-redistribute="ad"]
 /partnerJsApi/v3?previousZHashes=&hash=*&clbk=sklik$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
@@ -1492,7 +1492,7 @@ moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop; abo
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
 ext.to,hyhd.org,streamingnow.mov,knaben.xyz,vidsrc-embed.ru#$#abort-on-property-read Adcash
 actvid.*,cataz.*,cineb.*,himovies.sx,player.videasy.*,vidfast.*,vsembed.ru,movies2watch.*,movies4us.co,musichq.*,theflixertv.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
-player.videasy.*#$#prevent-element-src-loading script /\/scripts\/ab\.js/
+player.videasy.*#$#prevent-element-src-loading script /\/scripts\/ab\\.js/
 1afav.net,1film.to,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,7us7m00f.fun,andyday-tv.lol,andydayz.*,animeheaven.*,bf0skv.org,boosterx.stream,camcaps.*,desi-porn.tube,dinisglows.com,dsvplay.com,emturbovid.com,extratorrent.st,fc2stream.*,flaswish.com,flemmix.*,flyflix.*,fmovies-co.net,fmovies.*,fmovies24-to.com,hltv.org,hqq.*,hyhd.org,hurawatch.*,jilliandescribecompany.com,jkanime.*,kaliscan.*,kaotic.com,krakenfiles.com,lauradaydo.com,lukesitturn.com,mdfx9dc8n.net,mediagraming.com,mixdrop.*,movearnpre.*,oneupload.*,pandamovies.org,primesrc.me,primevid.*,primewire.*,putlocker.*,spankbang.com,streameeeeee.site,supervideo.cc,supjav.com,supremejav.com,tipfly.xyz,toflix.*,turbovidhls.com,ups2up.*,videasy.net,vidello.*,vidsuper.nevidply.com,vidsrc-embed.ru,vidwish.*,vixcloud.*,voe.sx,walterprettytheir.com,web.netmovies.*,xatovjatsosg.com,xprime.*,younetu.*,zgdpo8nr.fun,zxcstream.xyz#$#abort-on-property-write window.open
 ||vidsuper.net/api/script.js^$script,third-party,domain=cinevibe.to
 epicplayplay.*#$#abort-current-inline-script document.createElement /fakeelement/
@@ -1505,7 +1505,7 @@ callistanise.com,filelions.*,habetar.com,playerp2p.*,rpmvip.com,upns.*#$#hide-if
 s1p1cd.com,strmup.*#$#override-property-read b4ec4795de7e51b370809da193ce1a7d trueFunc
 kaliscan.com#$#abort-current-inline-script document.createElement pop1stp_pop
 kaliscan.*#$#abort-current-inline-script document.createElement /l\\.parentNode\\.insertBefore\\(s/;
-kaotic.com#$#abort-current-inline-script SNSPAdManager config; abort-on-property-write snspAdManager2; abort-current-inline-script jQuery /config\.pop/; override-property-read __ads true; cookie-remover /___trx/; abort-current-inline-script document.getElementById innerHTML;
+kaotic.com#$#abort-current-inline-script SNSPAdManager config; abort-on-property-write snspAdManager2; abort-current-inline-script jQuery /config\\.pop/; override-property-read __ads true; cookie-remover /___trx/; abort-current-inline-script document.getElementById innerHTML;
 playhydrax.com#$#override-property-read urls emptyArray;
 skidrowcodex.net#$#prevent-listener DOMContentLoaded;
 camcaps.*,vidello.net#$#abort-on-property-write popUnder
@@ -1535,7 +1535,7 @@ vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script St
 younetu.*#$#abort-on-property-read doSecondPop
 netu.ac#$#abort-on-property-read BetterJsPop; abort-on-property-read PopURL; abort-on-property-write window.open; abort-current-inline-script document.createElement 'delete window'; override-property-read adblockcheck false;
 charlessheimprove.com,marissasharecareer.com,richardquestionbuilding.com#$#override-property-read window.sk false; abort-current-inline-script encodeURIComponent;
-updown.*#$#prevent-listener mousedown /shown_at/; prevent-element-src-loading script /\.(cfd|rest|cyou)\//
+updown.*#$#prevent-listener mousedown /shown_at/; prevent-element-src-loading script /\\.(cfd|rest|cyou)\//
 multiup.io#$#abort-current-inline-script decodeURI decodeURIComponent; abort-current-inline-script navigator FingerprintJS
 m1xdrop.*#$#abort-current-inline-script document.createElement; abort-on-property-read window.open;
 flixcdn.*,moviesapi.*#$#abort-on-property-write cache_loader.init; abort-on-property-read window.open
@@ -1545,7 +1545,7 @@ hypnoporn.net,korean18x.com,movies2watch.*,youtubetoany.com,younetu.*#$#abort-cu
 fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 attackertv.vip,movies2watch.*#$#abort-on-property-write zfgformats;
 putlocker.best#$#abort-current-inline-script Math.random _yyvciulw; abort-on-property-read aclib false;
-streamex.sh#$#prevent-element-src-loading script /\/pop\.js/
+streamex.sh#$#prevent-element-src-loading script /\/pop\\.js/
 tranny.one#$#abort-on-property-read trAdLibLoaded
 topcinemaa.com,movies2watch.biz,fbox.art,attackertv.vip,cataz.stream,player.videasy.*,vidfast.*,embdmstrplayer.com,watchseries.*#$#abort-on-iframe-property-read open
 noodlemagazine.com,ukdevilz.com#$#override-property-read zfgcodeloadedonclick 1
@@ -1569,7 +1569,7 @@ vidsrc.*#$#timer-override 3600000 /0x|sandCheck/ noop interval; prevent-element-
 bysebuho.com,bysesayeveum.com#$#timer-override 1000000 readyWait
 peachify.top#$#prevent-listener click /atob|_blank/
 vidnest.fun#$#timer-override 1 window.location.replace noop timeout
-vidrock.ru#$#prevent-element-src-loading script /acscdn\.com|aclib/
+vidrock.ru#$#prevent-element-src-loading script /acscdn\\.com|aclib/
 zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestream_cnwpop
 ||users.videasy.to^$domain=vidking.net|player.videasy.to
 ! MISC
@@ -1650,7 +1650,7 @@ animepahe.*#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
 afreesms.com#$#abort-current-inline-script document.getElementById window.open
 lookmovie.*,lookmovie2.*#$#abort-current-inline-script addEventListener
-lookmovie.*#$#prevent-element-src-loading script /push-sdk\.com/
+lookmovie.*#$#prevent-element-src-loading script /push-sdk\\.com/
 caseyimpactstation.com#$#abort-current-inline-script globalThis '/break;case/'
 smallseotools.com#$#abort-current-inline-script $ ga_pop
 ||smallseotools.com/webimages/garamar*.png^$image,domain=smallseotools.com
@@ -1796,7 +1796,7 @@ redd.tube#$#abort-on-property-read config
 stuff.co.nz#$#hide-if-matches-xpath '//div[@class="sponsored-container"]/div[@class="sponsored"]/ancestor-or-self::a[@class="cx-item"]'
 ups2up.*##div[style]>iframe[style]
 subtaboo.com#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1769px; height: 1010px; z-index: 2147483647;"]/ancestor-or-self::div[1]';
-showboxmovies.net,up4stream.*,uqload.*,xprime.tv#$#abort-current-inline-script document.createElement /String\.fromCharCode.*[0-9]{2,3}/
+showboxmovies.net,up4stream.*,uqload.*,xprime.tv#$#abort-current-inline-script document.createElement /String\\.fromCharCode.*[0-9]{2,3}/
 perezhilton.com##.lazy-ad-parent
 1flix.*#$#abort-current-inline-script Array.prototype.reduce;
 theflixertv.*#$#hide-if-matches-xpath './/div[@dir][@style][attribute::*[starts-with(name(), "data-")]]/ancestor-or-self::*[1]'
@@ -1832,7 +1832,7 @@ akazukinbtc.thefap.net#$#abort-current-inline-script EventTarget.prototype.addEv
 kickasstorrents.*#$#abort-on-property-write ospen
 egydead.*#$#abort-current-inline-script Promise JSON.parse
 hltv.org#$#hide-if-matches-xpath '//img[contains(@class,"day-only") or contains(@class, "night-only")][@loading="lazy"]/ancestor::a[@rel]/parent::div[@id]'
-asnwish.com,movielair.cc#$#abort-current-inline-script document.createElement __directlink; abort-current-inline-script document.createElement /blocked\.html/
+asnwish.com,movielair.cc#$#abort-current-inline-script document.createElement __directlink; abort-current-inline-script document.createElement /blocked\\.html/
 streamingcommunityz.*#$#abort-on-property-read document.head.append
 myflixerz.*#$#hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 miraculous.to#$#prevent-listener hashchange; prevent-listener popstate
@@ -1850,7 +1850,7 @@ pastpapers.papacambridge.com#$#hide-if-matches-xpath './/a//following-sibling::i
 dailyworld.com##div[class][style^="height"], div[class="secondary"] {remove:true;}
 animetsu.net#$#hide-if-matches-xpath './/iframe[@sandbox][@srcdoc]/parent::div[@style]/ancestor::div[@dir="ltr"][style]'
 vixsrc.*#$#abort-on-property-read dispatchEvent; hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]'; abort-on-property-read window.open; abort-current-inline-script String.fromCharCode 2147483647;
-vsembed.ru#$#override-property-read sb_test true; prevent-element-src-loading script /\/\/[a-z0-9]+\.[a-z0-9]{14,}\.[a-z]{2,12}\//; prevent-listener mousedown /shown_at/
+vsembed.ru#$#override-property-read sb_test true; prevent-element-src-loading script /\/\/[a-z0-9]+\\.[a-z0-9]{14,}\\.[a-z]{2,12}\//; prevent-listener mousedown /shown_at/
 brittanyaheadnew.com,maryspecialwatch.com#$#abort-on-property-read open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob; abort-on-property-read BetterJsPop; abort-current-inline-script encodeURIComponent;
 bysesukior.com,bysewihe.com,bysebuho.com,398fitus.com#$#abort-current-inline-script EventTarget.prototype.addEventListener 'delete window'; abort-on-property-read open; timer-override setTimeout readyWait; override-property-read window.ZorDon false
 javsek.net#$#abort-current-inline-script screen /shocked-failure/
@@ -2051,8 +2051,7 @@ cpasbien.*#$#hide-if-matches-xpath '//div[contains(@style,"z-index: 2147483647")
 ||horizontallyresearchpolar.com^$popup,domain=nakastream.tv
 nakastream.*#$#replace-fetch-response /("adsterraSmartLink[0-9]?":")[^"]+/ '$1' 'adsterraSmartLink'
 french-stream.*,fs15.lol,fs17.lol,fs21.lol#$#override-property-read aclib.runPop noopFunc
-french-stream.*#$#prevent-element-src-loading script /magasinpanda\.qpon/
-playmogo.com#$#prevent-element-src-loading script /doodcdn\.io\/ads\/ad\.js/
+playmogo.com#$#prevent-element-src-loading script /doodcdn\\.io\/ads\/ad\\.js/
 ! *** abp-filters-anti-cv:german.txt ***
 ! Popup/Popunder/Clickunder
 deutschsex.com,frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -2571,7 +2570,7 @@ quykhu.com#$#abort-current-inline-script document.addEventListener atob
 thiendia3.com#$#abort-current-inline-script document.addEventListener adState
 xoilaczkkz.tv#$#abort-current-inline-script jQuery open
 www.asu.baby#$#abort-on-property-read initialAdURLs
-cap3.forum#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
+cap3.forum#$#prevent-listener click /setTimeout|e\\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 animehay10.site#$#prevent-listener click popup
 rophims.bz,motphimw.blue,phimmoi.com.mx#$#prevent-listener click ads
 laodong.vn#$#abort-current-inline-script window.addEventListener AdBlock
@@ -2815,8 +2814,9 @@ noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ad")]/ancestor::div[cont
 noon.com#$#hide-if-matches-xpath './/div/*[@width][@fill="none"][@viewBox]/*[@fill="white"][@fill-opacity]/ancestor::a[contains(@class,"productBoxLink")]/parent::div[@data-qa]//parent::div[contains(@class,"Recommendations_")]/ancestor::div[contains(@class,"PdpRecommendations")][1]'
 noon.com#$#hide-if-matches-xpath './/*[local-name()="svg"][@width][@fill="none"]/*[local-name()="rect"]/ancestor::div[@id="noon-modules"]/parent::div[contains(@class,"PdpWidgets_widgetContainer")]'
 ! HP
-noon.com#$#hide-if-matches-xpath './/div/*[@width][@fill="none"][@viewBox]/*[@fill="white"][@fill-opacity]/ancestor::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
-noon.com#$#hide-if-matches-xpath './/*[local-name()="svg"][@width][@fill="none"]/*[local-name()="rect"]/ancestor::a[@href]/parent::div/parent::div[contains(@class,"AdBannerSliderDesktop_bannerSlide")]'
+noon.com##div[class*="_carouselItem_"]:has(a[href*="&pcl="], a[href*="?pcl="])
+noon.com##div[data-qa="plp-product-box"]:has(a[href*="&pcl="], a[href*="?pcl="])
+||noon.com/_vs/nc/mp-adserver-api-display/*$xmlhttprequest,domain=noon.com
 ! #RM-82
 ! CA
 flipkart.com#$#hide-if-contains Sponsored 'div[style*="position: absolute"][style*="transform"]' 'div[dir="auto"]'
