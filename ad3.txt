@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8Qj3MDHUtTd/CPPJETtJqQ
+! Checksum: /QkHQSsuM5XWel5YseHzFA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202608102155
-! Last Modified: 2026年08月10日 21:55
+! Version: 202608111034
+! Last Modified: 2026年08月11日 10:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1769,6 +1769,10 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||95ktftpt6.com^
+||dhrbpvqqoovnxm.com^
+||ped146qez.com^
+||54igqsjd9.com^
 ||7996epzfh.com^
 ||itm1yqknq.com^
 ||qnw0cru1i5.com^
@@ -18667,8 +18671,7 @@ bing.com##.b_algo:has(.b_ads1line)
 bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com##.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com###b_results > li:has(.b_adProvider)
-bing.com,~www.bing.com##.b_algo:has(p[style="display: none !important;"])
-bing.com,~www.bing.com#?#.b_algo p:-abp-properties(display: inline-block;)
+bing.com##.b_algo:has(.sb_adTA_title_link_cn)
 !#Bingfeng.tw
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
@@ -31732,6 +31735,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rudder-tracking.rudderstack.com^
 ||rudderstack.com/v1/track
 ||rum-collector.leaderint.workers.dev^
+||rum.aliyuncs.com^
 ||rum.azion.com^
 ||rum.azioncdn.net^
 ||rum.corewebvitals.io^
