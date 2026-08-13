@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mnycpoUZ4PBsZZRWsHv7+A
+! Checksum: 3IG7XYL6zFH8xNpvRe1xtw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202608132158
-! Last Modified: 2026年08月13日 21:58
+! Version: 202608140028
+! Last Modified: 2026年08月14日 00:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1586,6 +1586,17 @@ zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestre
 superflixapi.pro#$#prevent-listener /click|touchend/ /pop_opened/
 xn--kcksk7a2bl5le7b6doc1h3f.com#$#prevent-listener /click|touchend/ /triggerPop/
 popcornmovies.*#$#prevent-element-src-loading script /\\.(cfd|qpon|rest)\\//
+dramafren.org#$#prevent-window-open /otieu/ 2 iframe
+xvideos-full.com#$#prevent-window-open /overloadenjoy/ 2 iframe
+pornx.to#$#prevent-window-open /./ 1 iframe
+comix.to#$#prevent-window-open /./ 2 iframe
+pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe
+mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*/ 1000 iframe
+kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
+/rollbar.min.css$script,domain=streamingnow.mov
+||vidnees.workers.dev/fetch?url=$domain=vidnest.fun
+vidnest.*#$#prevent-window-open /[?&](step1|step2|param4|zid|tvc)=/ 2 obj
+streamingnow.mov#$#prevent-window-open _blank 2 obj
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1887,13 +1898,6 @@ zdnet.com##.c-pageArticleSingle_player.c-avStickyVideo
 myflixerfree.*#$#override-property-read vastAdData undefined
 ||cdn.staticmoly.me/*$domain=vidmoly.biz
 eliteprospects.com#$#hide-if-matches-xpath './/div[contains(@class,"AdSlot_")]/parent::aside[starts-with(@class,"AdSlot_")]'
-dramafren.org#$#prevent-window-open /otieu/ 2 iframe
-xvideos-full.com#$#prevent-window-open /overloadenjoy/ 2 iframe
-pornx.to#$#prevent-window-open /./ 1 iframe
-comix.to#$#prevent-window-open /./ 2 iframe
-pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe
-mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*/ 1000 iframe
-kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -3243,6 +3247,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cashooshut.com^
 ||casteschagoma.com^
 ||cathinunquit.com^
+||caulkedwhys.shop^
 ||cautelaunsent.com^
 ||cautiousfloor.com^
 ||cayosunhairs.com^
@@ -3361,6 +3366,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||edenizemortary.com^
 ||effic.pro^
 ||eidersrettory.com^
+||ejpeyuforzksu.online^
 ||electron8.net^
 ||elihucyprus.com^
 ||eliminatedfertilizer.com^
@@ -3446,6 +3452,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||gentrycheaper.com^
 ||gerentstaperly.com^
 ||gestatejiggly.com^
+||gfkffnyncyicj.space^
 ||ghabovethec.info^
 ||ghurrytacoma.com^
 ||gigglemagnetismunaired.com^
@@ -3763,6 +3770,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ruddytoph.com^
 ||runtime8000.com^
 ||russismvarsha.com^
+||rvpfhiincsu.com^
 ||sableviolet.com^
 ||sadpicture.com^
 ||sandboxto370.com^
@@ -3952,6 +3960,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||visageagar.com^
 ||votingcompetencetendon.com^
 ||vowelywisely.com^
+||vulturkipskin.cfd^
 ||vyar221.net^
 ||waivinggilim.com^
 ||warkedmalie.com^
@@ -3967,6 +3976,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||wiltinfume.com^
 ||winksullenwaistcoat.com^
 ||wistfulseverely.com^
+||witsafenuddleunbaked.qpon^
 ||wochuadaribah.com^
 ||wolfmandiked.com^
 ||woodsytenline.com^
