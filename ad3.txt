@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V35bWb+mRBUFhEOrKRD0yw
+! Checksum: iiHXS1efI+1gzDeTJMaedg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202608170052
-! Last Modified: 2026年08月17日 00:52
+! Version: 202608171004
+! Last Modified: 2026年08月17日 10:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1769,6 +1769,10 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||t4s8t6p39.com^
+||hztrfbokggvlle.com^
+||qvijpi426.com^
+||crusher28.com^
 ||qab0m5irus.com^
 ||alnhfq9ov4.com^
 ||grinder15.top^
@@ -22577,6 +22581,8 @@ m.babytree.com##script + a[class]
 /collectsysteminfo?
 /com.snowplowanalytics.snowplow/*$domain=~7plus.com.au
 /com_joomlawatch/img.php
+/com_jrealtimeanalytics/js/heatmap.js
+/com_jrealtimeanalytics/js/stream.js
 /commerce-events-listener.js
 /common/analytics.js
 /common/ga.js
@@ -33478,6 +33484,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dnt-userreport.com^
 ||er.sanoma-sndp.fi/stats/
 ||er.sanoma-sndp.fi/v2/stats/
+||handshake.gravito.net^
 ||nelonenmedia.fi/logger/
 ||tags.op-palvelut.fi^
 ||vine.eu/track/
@@ -35542,6 +35549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pdffiller.com/funnel.php?
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
+||pearos.xyz/track.php
 ||pelisfree.site/cdn-cgi/trace
 ||pendo.scopus.com/data/ptm.gif
 ||pepin.padlet.com^
