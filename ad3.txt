@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vrxZ+G2BwAKDyeP6VFyF1w
+! Checksum: WLzw+aeZWPS5YSBbuMjRbA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202608192357
-! Last Modified: 2026年08月19日 23:57
+! Version: 202608201000
+! Last Modified: 2026年08月20日 10:00
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1769,6 +1769,11 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||3o6a7kbcwo.com^
+||0c484j022z.com^
+||trestle59.com^
+||aytgk8rfu4.com^
+||pwzrfznosfblpi.com^
 ||rkdyj4usf.com^
 ||b11yn56zn.com^
 ||stepladder46.top^
@@ -74610,6 +74615,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cloudflare.com/cdn-cgi/trace$domain=d1milano.com|gingerfulhair.com|infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
+@@||cloudimanage.com/admin/api/audithub/v1/customers/*/analytics/events/crawl$~third-party
 @@||cloudimg.io/*/analytics.$script,domain=michelinman.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
