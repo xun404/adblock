@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VZqIWFD9X153yyaU4kwoxQ
+! Checksum: L63QbYn2hq5js/nbamreWw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202608202359
-! Last Modified: 2026年08月20日 23:59
+! Version: 202608210101
+! Last Modified: 2026年08月21日 01:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -3030,6 +3030,11 @@ kroger.com##.kac-product-grid-cell:has(.kac-product-badge--sponsored)
 ! sp
 dribbble.com#$#hide-if-contains /Promoted/ 'article' 'article drb-tooltip > div'
 dribbble.com##article:has([data-track-cta="Learn more about Promoted Services"])
+! #RM-222
+chatgpt.com#$#hide-if-matches-xpath 'id("thread")//h3[normalize-space(text())="Sponsored"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1] | id("thread")//span[normalize-space(text())="Ad"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1]' 'id("thread")'
+chatgpt.com#$#hide-if-matches-xpath '//div[contains(concat(" ",normalize-space(@class)," ")," opacity-100 ") and contains(concat(" ",normalize-space(@class)," ")," transition-opacity ") and contains(concat(" ",normalize-space(@class)," ")," ease-out ") and contains(.,"Sponsored options")]'
+chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Ad")]'
+chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Sponsored")]'
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
