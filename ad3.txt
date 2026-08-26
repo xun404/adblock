@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7V3iJxBmIzYf73BNmpBiWg
+! Checksum: jcEmH5n0NzsH1YK1z3UXrg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202608261805
-! Last Modified: 2026年08月26日 18:05
+! Version: 202608262133
+! Last Modified: 2026年08月26日 21:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1778,6 +1778,8 @@ newduba.cn###jq_youxi
 ||zj5mqsb06x.com^
 ||qmtrnqp900.com^
 ||hi6uqvisz9.com^
+||ws9jdpz802.com^
+||rpjjpm.site^
 ||2nbg86d2x.com^
 ||nyfmjnegeupjxu.com^
 ||hqeiwwnkce.icu^
@@ -18862,7 +18864,6 @@ yydstxt*.com/js/cdn.
 ||xiguasuwu.com/static/m.
 ||bqqg.cc/n.
 ||bqqg.cc/w.
-||fd80s.com/static/m.
 ||chachefa.com^*.js?v=
 ||jjjxsw.com/js/common.
 ||diyibanzhu*.com/js/html
@@ -74683,6 +74684,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 @@||soundcore.com/metrics/gtd?id=$script,~third-party
 @@||spark.co.nz/content/*/utag.sync.js$domain=skinny.co.nz
+@@||speed.cloudflare.com/__log$~third-party
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
