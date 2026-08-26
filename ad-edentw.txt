@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mPThJbdhDRrWIqZBY03JOg
+! Checksum: X9rd8qw6nDLk9TWyJIgKAA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202608261956
-! Last Modified: 2026年08月26日 19:56
+! Version: 202608270005
+! Last Modified: 2026年08月27日 00:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1164,6 +1164,36 @@ weeronline.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 welt.de#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 makeitmeme.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/vendor.js|$script,rewrite=abp-resource:blank-js,domain=makeitmeme.com
+buienalarm.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=buienalarm.nl
+kurashiru.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=kurashiru.com
+||*/core.js|$script,rewrite=abp-resource:blank-js,domain=sat24.com
+sat24.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+hotcopper.com.au#$#prevent-element-src-loading script /loader/
+hotcopper.com.au#$#override-property-read Navigator.prototype.onLine false
+||*/loader.min.js|$script,domain=hotcopper.com.au
+||*/core.js|$script,rewrite=abp-resource:blank-js,domain=meteovista.be
+meteovista.be#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=games.gg
+games.gg#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+mamastar.jp#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=mamastar.jp
+uesp.net#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/lib.js|$script,rewrite=abp-resource:blank-js,domain=uesp.net
+gumtree.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=gumtree.com
+||html-load.com^$script,xmlhttprequest,domain=weerplaza.nl
+weerplaza.nl#$#replace-argument Element.prototype.setAttribute 1 '/[\\s\\S]*(error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError)[\\s\\S]*/' ''
+worldjournal.com#$#override-property-read Navigator.prototype.onLine false
+||*/loader.min.js|$script,domain=worldjournal.com
+riftbound.gg#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=riftbound.gg
+motorsport.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/lib.js|$script,rewrite=abp-resource:blank-js,domain=motorsport.com
+fragrantica.com#$#abort-current-inline-script Object.getOwnPropertyDescriptor /HTMLIFrameElement_contentWindow|Collectors/
+||error-report.com^$domain=fragrantica.com
+||html-load.cc^$script,domain=fragrantica.com
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
 namemc.com,idokep.hu,gamesradar.com,weatherzone.com.au,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,calculatorsoup.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamebanana.com,gamewith.jp,gazetaprawna.pl,geoguessr.com,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,leboncoin.fr,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de,www.wetter.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
 puzzle-nonograms.com#$#prevent-element-src-loading script /ad-shield/
