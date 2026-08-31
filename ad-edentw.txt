@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m/TevPnJVEXzrtqt7iMkcQ
+! Checksum: jwTluzDY6OKmykVrpr5VKw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202608312218
-! Last Modified: 2026年08月31日 22:18
+! Version: 202609010417
+! Last Modified: 2026年09月01日 04:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -756,6 +756,7 @@ variety.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=variety.com
 ||error-report.com^$domain=variety.com
 ||gladlythattoady.com^$script,domain=variety.com
+||findingmid.com/session/$domain=variety.com
 variety.com#$#prevent-element-src-loading script /loader\\.min\\.js/
 variety.com#$#override-property-read confirm noopFunc
 variety.com#$#override-property-read dmFyaWV0eS5jb21fb25sb2Fk undefined
@@ -763,6 +764,7 @@ billboard.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=billboard.com
 ||error-report.com^$domain=billboard.com
 ||gladlythattoady.com^$script,domain=billboard.com
+||findingmid.com/session/$domain=billboard.com
 billboard.com#$#prevent-element-src-loading script /loader\\.min\\.js/
 billboard.com#$#override-property-read confirm noopFunc
 billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefined
@@ -931,6 +933,7 @@ euronews.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|
 ||grubbytrain.com/feed/$domain=euronews.com
 ||grubbytrain.com/session/$domain=euronews.com
 ||lox.legalendowmad.com^$domain=euronews.com
+||hencewafer.com/blog/$domain=euronews.com
 ||html-load.com^$script,domain=oricon.co.jp
 ||html-load.com/feed/$domain=oricon.co.jp
 ||content-loader.com/feed/$domain=oricon.co.jp
@@ -973,6 +976,7 @@ fandom.com##.bxc
 ||html-load.com^$script,domain=kuruma-news.jp
 ||rewardingfill.com^$domain=kuruma-news.jp
 ||duhrawhide.com^$domain=kuruma-news.jp
+||hencewafer.com/render/$domain=kuruma-news.jp
 kuruma-news.jp#$#prevent-element-src-loading script /\/feed\//
 ||content-loader.com^$script,domain=www.wetter.com
 ||html-load.com^$script,domain=www.wetter.com
@@ -1162,6 +1166,9 @@ puckpedia.com#$#prevent-element-src-loading script /html-load\\.com|content-load
 ||stg.html-load.com^$script,domain=movie-locations.com
 ||error-report.com^$domain=movie-locations.com
 movie-locations.com#$#override-property-read as_-807486254 true; override-property-read as_1397897591 true; override-property-read as_1058949371 true; override-property-read as_720001151 true; override-property-read as_-1858225736 true
+||error-report.com^$domain=newsinlevels.com
+||*/loader.min.js|$script,domain=newsinlevels.com
+newsinlevels.com#$#override-property-read Navigator.prototype.onLine false
 leagueofgraphs.com#$#override-property-read __as_e true
 last.fm#$#override-property-read __as_e true
 game8.co#$#override-property-read __as_e true
@@ -1690,9 +1697,11 @@ kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
 /rollbar.min.css$script,domain=streamingnow.mov
 ||vidnees.workers.dev/fetch?url=$domain=vidnest.fun
 vidnest.*#$#prevent-window-open /[?&](step1|step2|param4|zid|tvc)=/ 2 obj
-streamingnow.mov#$#prevent-window-open _blank 2 obj
+streamingnow.*#$#prevent-window-open _blank 2000 obj
 flixmomo.tv#$#override-property-read d209d49aa17db3b2d31e017b1106d2e0 true false
 |kingaceweb.com^$popup
+||runerose.xyz^$popup
+serienstream.to,tracylocalschool.com#$#prevent-window-open _blank 1000 obj
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2646,8 +2655,8 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.sex,clipsexhot.pro,animehay11.site,cliphot69.info,phimsexsuong3x.net,damconuong.sbs,demo.14412882.com,doctruyen3qhub.vip,dualeotruyencw.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen16.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.boats,sayhentai.cx,xinh3x.it.com,sexdiary.club,sexviet88z.cc,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88z.cc,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
-javgiga.wordpress.com,www.1phim25.com#$#abort-on-property-read localStorage
+buomtv.sex,phimheovn.net,animehay11.site,cliphot69.info,phimsexsuong3x.net,damconuong.sbs,demo.14412882.com,doctruyen3qhub.vip,dualeotruyencw.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen16.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.boats,sayhentai.cx,xinh3x.it.com,sexdiary.club,sexviet88z.cc,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88z.cc,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+javgiga.wordpress.com,www.1phim26.com#$#abort-on-property-read localStorage
 xnhau.city#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.li,animevietsub.li,tram3d.my#$#abort-current-inline-script eval $._Eu
 phimlongtieng.net#$#abort-current-inline-script document.createElement script
@@ -2685,7 +2694,7 @@ checkscam.vn#$#abort-current-inline-script document.addEventListener open
 haysexvn.shop#$#abort-current-inline-script document.addEventListener adx
 clipphot.co#$#abort-current-inline-script document.addEventListener POP
 audiotruyenfull.com#$#abort-current-inline-script document.addEventListener ai_run
-audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.1phim25.com#$#abort-current-inline-script setTimeout Aff
+audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.1phim26.com#$#abort-current-inline-script setTimeout Aff
 pheclip.chat,phim18vip.site,sieudam.fit,subnhanh.plus#$#abort-current-inline-script $ pop
 quykhu.com#$#abort-current-inline-script document.addEventListener atob
 thiendia3.com#$#abort-current-inline-script document.addEventListener adState
