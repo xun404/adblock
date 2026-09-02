@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SAmeYahCBdfDdSTC4Iff+g
+! Checksum: pgRoYdqeK1xXYj6AP7DaHg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202609020050
-! Last Modified: 2026年09月02日 00:50
+! Version: 202609021936
+! Last Modified: 2026年09月02日 19:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2084,7 +2084,7 @@ www.facebook.com,web.facebook.com#$#replace-xhr-response '/"instream_video_ad_br
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($.data.node)' null '' /SponsoredData/;
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?:[Aa][Dd]|Sponsored|esondSpored|.*Spored.*|(?=.*[sS])(?=.*[pP])(?=.*[oO])(?=.*[rR])(?=.*[dD])[a-zA-Z]+)$/ 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"] span:not([style*="top"])'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^[^A-Za-z0-9]*(?:(?:[AaDd][^A-Za-z0-9]*){2,3}|(?:[SsPpOoNnRrIiEeDdÉé][^A-Za-z0-9]*){9,11}|(?:[CcOoMmAaNnDdIiTtÉéEe][^A-Za-z0-9]*){9,11}|(?:[PpAaTtRrOoCcIiNnDdEe][^A-Za-z0-9]*){10,12}|(?:[BbEeRrSsPpOoNn][^A-Za-z0-9]*){9,11}|(?:[SsPpOoNnRrIiZzAaTtEe][^A-Za-z0-9]*){12,14}|(?:[SsPpOoNnRrOoWwAaEe][^A-Za-z0-9]*){11,13}|(?:[ĐđƯưỢợCcTtÀàIiRr][^A-Za-z0-9]*){9,11})$/i 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"], div[aria-posinset] a[href="#"]'
-www.facebook.com,web.facebook.com#$#hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg^^'
+www.facebook.com,web.facebook.com#$#hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^'
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href^="?"] span[style*="absolute"]
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href="#"] span[style*="absolute"]
 ! rp
@@ -2096,7 +2096,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="main"]//
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"thistleVane")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"mosaicPlover")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -2786,45 +2786,15 @@ samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/follow
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #RM-9
 ! sl, sc
-instacart.*##li:has(fp-ads-tag):not(:has(h2))
-instacart.*#$#race start; hide-if-matches-xpath './/*[ self::div[span[text()="Spons"] and span[contains(text(), "ored")]] or self::*[@data-fp-eligible] ]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/*[ self::div[span[text()="Spon"] and span[contains(text(), "ored")]] or self::*[@data-fp-eligible] ]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/*[ self::div[span[text()="Spo"] and span[contains(text(), "ored")]] or self::*[@data-fp-eligible] ]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/sp-ads-tag[div[span[contains(text(),"Sponsor")]and span[contains(text(),"ed")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/sp-ads-tag[div[span[contains(text(),"Sponso")]and span[contains(text(),"ed")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/sp-ads-tag[div[span[contains(text(),"Sponso")]and span[contains(text(),"d")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-ads-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/sp-ads-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-sp-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-ads-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-sp-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-fp-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-cc-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-fp-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-cc-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-pl-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-pl-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-rt-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-rt-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-hm-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-hm-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-lm-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-lm-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-bn-tag[div[span[contains(text(),"S")]and span[contains(text(),"ponsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-bn-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-wd-tag[div[span[contains(text(),"Sp")]and span[contains(text(),"onsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-wd-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/*[div[span[contains(text(),"Sponso")]and span[contains(text(),"red")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-pt-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-vt-tag[div[span[contains(text(),"Sponsore")]and span[contains(text(),"d")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-vt-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-mv-tag[div[span[contains(text(),"Sponsor")]and span[contains(text(),"ed")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-mv-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-tr-tag[div[span[contains(text(),"Sp")]and span[contains(text(),"onsored")]]]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-tr-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-jn-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-px-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/div[@role="group"]/section[*[div[span]]]/ancestor::li[1]'; hide-if-matches-xpath './/ic-tq-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-gy-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-mk-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-zr-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-nb-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/ic-nt-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]'; race stop;
+instacart.*#$#hide-if-matches-xpath './/ic-nt-tag/ancestor::li[1]/ancestor-or-self::*[self::div[child::li]or self::li[not(parent::div)]][1]';
 ! ta
-instacart.*##div[id][class]:has(> div:first-child > a img[alt*="Sponsored"], > div[aria-hidden="true"]:last-child)
-instacart.*##div[id][class]:has(> div:first-of-type > a img[alt*="Sponsored"], > div[aria-hidden="true"]:last-child)
-instacart.*##div:has(> div[id] > div > a > picture > img[src*="display.instacart.com"][alt*="Sponsored"])
-instacart.*##div[id]:has(img[src*="display.instacart.com"][alt*="Sponsored"]):has(> div[aria-hidden="true"])
-instacart.*##div[id]:has(img[src*="display.instacart.com"][alt*="Sponsored"]):has(> div > div[aria-hidden="true"])
-instacart.*##div[id]:has(> section img[src*="display.instacart.com"][alt*="Sponsored"]):has(> div div[aria-hidden="true"])
-instacart.*##div[id]:has(> div[id$="-content"] li[data-testid^="compact-"])
 instacart.*##div[id][class]:has(> span[aria-hidden="true"]:first-child):has(> section > span > a > picture > img[src*="display.instacart.com"][alt*="Sponsored"])
 ! tc
-instacart.*##div[id][class]:has(> a > img):has(ul li:first-of-type a div[style*="display:"] span)
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> div[id$="-inner"] > div[role="region"][aria-label="item carousel"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> div[id] > div[role="region"][aria-label="item carousel"])
-instacart.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> div[id] > div[role="region"][aria-label="item carousel"])
-instacart.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section[id] > div[role="region"][aria-label="item carousel"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div[role="region"][aria-label="item carousel"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="item carousel"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="items list"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="product carousel"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="browse items"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="shoppable items"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="featured items"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[role="region"][aria-label="featured items"])
-instacart.*##div[id]:has(> div[id$="-content"] li[data-testid="compact-shoppable-header"])
-instacart.*##div[id]:has(> a img[src*="display.instacart.com"]):has(> a > div > div span + span):has(> section div[role="region"])
-instacart.*##div[id]:has(> a img[src*="display.instacart.com"]):has(> a h2):has(> section div[role="region"])
-instacart.*##div[id]:has(> div > a img[src*="display.instacart.com"]):has(> div > a h2):has(> section div[data-testid="shoppable-list-sliding-carousel"])
-instacart.*##div[id]:has(> div > a img[src*="display.instacart.com"]):has(> div > a h2):has(> section div[data-testid^="shoppable-list-"])
-instacart.*##div[id]:has(> div > a img[src*="display.instacart.com"]):has(> div > a h2):has(> section div[data-testid$="-carousel-container"])
 instacart.*##div[id]:has(> div > a img[src*="display.instacart.com"]):has(> div > a h2):has(> section) > *
 instacart.*##div[id]:has(div > a img[src*="display.instacart.com"]):has(div > a h2):has(> section) > *
 instacart.*#?#:xpath(.//img[contains(@src,"display.instacart.com")]/following-sibling::div/h2/ancestor::a[1]/parent::div/following-sibling::section/parent::div[@id]/*/parent::div)
 instacart.*#?#:xpath(.//img[contains(@src,"display.instacart.com")]/following-sibling::div/h2/ancestor::a[1]/parent::div//following::section/parent::div[@id]/*/parent::div)
 ! mc
-instacart.*##div[id][class]:has(> a > div:first-child img):has(> a div[style*="display:"] span)
-instacart.*##div:has(> div > div > h2 + span):has(img[alt="Advertisement"])
-instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section[id] > div[role="region"][aria-label="item carousel"])
 instacart.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid*="carousel"]) > *
 instacart.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid^="shoppable-"]) > *
 ! tp
@@ -3209,32 +3179,13 @@ fiverr.com#?#div.slide:has(span[data-track-tag^="typography"]:-abp-contains(/Anz
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
 ! SP
-sameday.costco.*#$#race start; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spon")] and descendant::span[contains(text(),"ored")]]/ancestor::li[1]'; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(),"ored")]]/ancestor::li[1]'; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(),"ed")]]/ancestor::li[1]'; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spon")] and descendant::span[contains(text(),"d")]]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//sp-ads-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-ads-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-sp-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-fp-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-cc-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-cc-tag/ancestor::li[1]'; hide-if-matches-xpath './/ic-fp-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-pl-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-vt-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-vt-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-mv-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-mv-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-tr-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-tr-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-jn-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-jn-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-px-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-px-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-nx-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-nx-tag/ancestor::li[1]'; hide-if-matches-xpath './/ic-tq-tag/ancestor::li[1]'; hide-if-matches-xpath 'ic-tq-tag'; hide-if-matches-xpath './/div[@role="group"][.//ic-gy-tag]/ancestor::li[1]';  hide-if-matches-xpath './/ic-gy-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-mk-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-mk-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-zr-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-zr-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-nb-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-nb-tag/ancestor::li[1]'; hide-if-matches-xpath './/ic-nt-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-nt-tag]/ancestor::li[1]'; race stop;
+sameday.costco.*#$#race start; hide-if-matches-xpath './/ic-nt-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-nt-tag]/ancestor::li[1]'; race stop;
 ! ca
 sameday.costco.*#$#hide-if-matches-xpath './/div[@style]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored") or contains(@alt,"Advertisement")]/ancestor-or-self::div[@id][@class][1]'
-sameday.costco.*##div[id]:has(> div[id] > ul li[data-testid="compact-shoppable-header"])
-sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div[role="region"][aria-label="item carousel"])
-sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="item carousel"])
-sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[role="region"][aria-label="items list"])
-sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section img[alt="Advertisement"]):has(> section > div > div[role="region"][aria-label="items list"])
-sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="product carousel"])
-sameday.costco.*##div[id]:has(> a[href*="/store/costco/brands/"] img[src*="display.instacart.com"]):has(> section > div > div[role="region"][aria-label="browse items"])
-sameday.costco.*##div:has(> div > div[id] > div[id$="-content"] li[data-testid="compact-shoppable-header"])
-sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[role="region"][aria-label="items carousel"])
-sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid="shoppable-list-sliding-carousel"])
-sameday.costco.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid="shoppable-list-sliding-carousel"])
-sameday.costco.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid^="shoppable-list-"])
-sameday.costco.*##div[id]:has(> div[id$="-content"] li[data-testid^="compact-"])
-sameday.costco.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid$="-carousel-container"])
-sameday.costco.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid*="carousel"])
-sameday.costco.*##div[id]:has(> div[id$="-content"] > a img[src*="display.instacart.com"]):has(> div[id$="-content"] div[data-testid*="carousel"])
-sameday.costco.*##div[id]:has(> div[id$="-content"] > a img[src*="display.instacart.com"]):has(> div[id$="-content"] div[data-testid^="shoppable-"])
-sameday.costco.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid^="shoppable-"])
-sameday.costco.*##div[id]:has(> div[id$="-content"] > a img[src*="display.instacart.com"]):has(> div[id$="-content"] li img[src*="display.instacart.com"])
 sameday.costco.*##div[id]:has(> div > a img[src*="display.instacart.com"]):has(> div > a h2):has(> section)
 sameday.costco.*##div[id]:has(div > a img[src*="display.instacart.com"]):has(div > a h2):has(> section)
 ! mc
-sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(), "d")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/div[contains(@id,"-inner")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; hide-if-matches-xpath '//div[@id]/div[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; hide-if-matches-xpath '//div[@id]/section[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; race stop;
+sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/div[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; hide-if-matches-xpath '//div[@id]/section[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; race stop;
 sameday.costco.*#$#abort-current-inline-script setTimeout ic-detect-ad-block; override-property-read ADBLOCK_DETECTED false
 ! #RM-207
 ||app.golfgalaxy.com^$domain=golfgalaxy.com|dickssportinggoods.com
@@ -3422,12 +3373,12 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||admirable-nurse.com^
 ||adolescentewe.com^
 ||advancementpains.com^
-||afforcebibbs.com^
 ||afoundeprouder.com^
 ||ageismssoning.com^
 ||agriculturalcoyhose.com^
 ||akanexterna.com^
 ||akhlamesouchy.com^
+||akrabatable.com^
 ||alaryrousts.com^
 ||alchemmauls.com^
 ||algediduala.com^
@@ -3465,7 +3416,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||atrepsykayasth.com
 ||attentiveshock.com^
 ||attuneuvito.com^
-||aufaitties.com^
 ||aveuglediking.com^
 ||awkwardmonopoly.com^
 ||awolhalling.com^
@@ -3558,6 +3508,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||chairsgliosis.com^
 ||chalkedwhiningromance.com^
 ||chambulwacs.com^
+||chaponrearing.com^
 ||chawlejeg.com^
 ||cheefulfrary.com^
 ||chelaology.com^
@@ -3807,7 +3758,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||honkoutsing.com^
 ||hoodlumbragget.com^
 ||hooperguze.com^
-||hoopoohonesty.com^
 ||horsiergrassed.com^
 ||hotcheslepton.com^
 ||hottedholster.com^
@@ -3895,6 +3845,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||lengthenclipperglossy.com^
 ||lepidpomps.com^
 ||lettenfluoric.com^
+||letticolivean.com^
 ||leucosmutty.com^
 ||lieusjabbed.com^
 ||liftjoinant.com^
@@ -3951,6 +3902,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nainepidia.com^
 ||nairydeices.com^
 ||nappieoxbows.com^
+||navajospoule.com^
 ||ndrimmers.com^
 ||negliglesson.com^
 ||netembed.xyz^
@@ -4036,7 +3988,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||punglecensual.com^
 ||punkasananym.com^
 ||pyxisdewrot.com^
-||qfthkikdoahsw.space^
 ||qs251.com^
 ||quarrelsomebitter.com^
 ||quaukruffed.com^
@@ -4084,6 +4035,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||russismvarsha.com^
 ||sableviolet.com^
 ||sadpicture.com^
+||sampanhuntley.com^
 ||sandboxto370.com^
 ||sansaradivulse.com^
 ||santosunflat.com^
@@ -4197,12 +4149,14 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||taujubarb.com^
 ||tauliabridler.com^
 ||taylorbrining.com^
+||tcwvvosfnvk.com^
 ||teenerdormer.com^
 ||teetymitring.com^
 ||tehseelaves.com^
 ||templatein13.net^
 ||tendencystrangely.com^
 ||tergantbegnaw.com^
+||thalaolefin.com^
 ||thatdisform.cyou^
 ||theoreticalassertshame.com^
 ||thiazinamus.com^
@@ -4243,6 +4197,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||twiltpyoid.com^
 ||tyliontentful.com^
 ||tzetzessmoking.com^
+||udderliquidbase.com^
 ||ultrathots.live^
 ||uncodedsmoothy.com^
 ||uncrookcurry.com^
@@ -4303,6 +4258,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||woodsytenline.com^
 ||wormierfiver.com^
 ||wurreseek.com^
+||xwafyzovqu.icu^
 ||yakdudism.com^
 ||yallowafridi.com^
 ||yawnfulharpa.com^

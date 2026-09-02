@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4DRucs7mCkMVMg+FonExDg
+! Checksum: rwQOytEb7IlvQBFaF5bQeA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202609021416
-! Last Modified: 2026年09月02日 14:16
+! Version: 202609021936
+! Last Modified: 2026年09月02日 19:36
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1751,7 +1751,7 @@ newduba.cn###jq_youxi
 ##.newsAD
 ##.art-layer-ad
 ##._v_ad_container
-###__nuxt > div > .footer
+###__nuxt > div > .footer > .floatWindow + div:not([class]):not([id])
 ##.kkb-href
 ##.kkm-href
 !----------------------------------Ads-Union----------------------------------!
@@ -1781,6 +1781,8 @@ newduba.cn###jq_youxi
 ||ez2q38b1ik.com^
 ||qwt9oyg741.com^
 ||11fkkw8h3i.com^
+||n7hnij4fah.com^
+||8poz7uwoho.com^
 ||or6p0f4i8.com^
 ||btm9uso7t.com^
 ||saddlebag32.com^
@@ -11248,6 +11250,8 @@ meijutt.*/js/pcjs/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 !------------------------Specific element hiding rules------------------------!
 169bbs.com##.a_f
+kanju.ai##.movie-player-info-ad-grid
+kanju.ai##.movie-player-info-ad-heading
 fuliba2023.net,fuliba2025.net,fuliba.net##.article-topbanner
 techbang.com##.ads-reserve
 json.cn##.show-hide-adv
