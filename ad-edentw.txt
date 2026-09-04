@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7Hm0S4sDI7hN8IkzfM043g
+! Checksum: 1jFZqSO68YM6sUrqWx+cJA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202609041936
-! Last Modified: 2026年09月04日 19:36
+! Version: 202609050347
+! Last Modified: 2026年09月05日 03:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -808,6 +808,8 @@ pcgamesn.com#$#abort-on-property-read window.confirm
 ||*/loader.min.js|$script,domain=pcgamesn.com
 ||html-load.com^$script,domain=pcgamesn.com
 ||aroundsadly.com/session/$domain=pcgamesn.com
+pcgamer.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
+pcgamer.com##div[data-bordeaux-hook-loaded]
 ||slakeonlythigh.com^$script,domain=pcgamer.com
 ||html-load.com^$script,domain=pcgamer.com
 ||*/loader.min.js|$script,domain=pcgamer.com
@@ -825,6 +827,8 @@ pcgamer.com#$#override-property-read as_1003867235 true; override-property-read 
 ||pcgamer.com$csp=script-src-attr 'none'
 pcgamer.com#$#abort-current-inline-script eval /x50p3331wdfu/
 pcgamer.com#$#override-property-read window.x9vhy6gdq24a true; override-property-read window.x6ze2g6tew62 true; override-property-read window.x50p3331wdfu true
+goodto.com,homesandgardens.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
+goodto.com,homesandgardens.com##div[data-bordeaux-hook-loaded]
 ||d2gx36c54v062j.cloudfront.net^$script,domain=golfmonthly.com
 ||html-load.com^$script,xmlhttprequest,domain=golfmonthly.com
 ||error-report.com^$domain=golfmonthly.com
@@ -838,6 +842,8 @@ golfmonthly.com#$#prevent-element-src-loading iframe /report\\.error-report\\.co
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=golfmonthly.com
 ||zowiejump.com^$script,domain=golfmonthly.com
 golfmonthly.com##iframe[src^="data:text/html;base64,"][style*="z-index:2147483647"] {remove:true;}
+golfmonthly.com##div[data-bordeaux-hook-loaded]
+golfmonthly.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
 nikkansports.com#$#hide-if-matches-xpath './/div[contains(@id,"adUnit")]/parent::*[@id][1]'
 ||html-load.com^$script,domain=nikkansports.com
 nikkansports.com#$#override-property-read adshield.isAdBlockerDetected false
@@ -2440,7 +2446,7 @@ animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.creat
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
 vestivrn.ru#$#abort-on-property-read video.preroll
 dota2.ru#$#abort-on-property-read helpUsImproveSite
-fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; prevent-listener click 0x; prevent-listener click preventDefault; prevent-listener click '(e)}'; prevent-listener DOMContentLoaded 0x
+fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; abort-on-property-read Event.prototype.preventDefault; abort-on-property-read HTMLDivElement.prototype.getBoundingClientRect
 ||fastpic.org^$addheader=response:set-cookie:removeads=1; path=/; max-age=31536000
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
