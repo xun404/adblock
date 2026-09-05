@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hzguH/vGuWng4U1HxxrEKw
+! Checksum: Y89J1l40OF03uUlpVVtL6g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202609050819
-! Last Modified: 2026年09月05日 08:19
+! Version: 202609051250
+! Last Modified: 2026年09月05日 12:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2196,6 +2196,9 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 ||jxdbvmmau.com^
+||e9zrvermi.com^
+||nqrsdhemqmfdry.com^
+||wrksb2gt0.com^
 ||mudguard68.com^
 ||pavxtxikkjrdfy.com^
 ||cq5nsp7kya.com^
@@ -11687,7 +11690,9 @@ meijutt.*/js/pcjs/
 ||ab3de9.gamersky.com^
 ||teacher.php.cn/php/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
+||ping0.cc/images/fx/*.gif
 !------------------------Specific element hiding rules------------------------!
+ping0.cc#?#div:-abp-has(>a>.tipbd)
 169bbs.com##.a_f
 kanju.ai##.movie-player-info-ad-grid
 kanju.ai##.movie-player-info-ad-heading
@@ -11734,8 +11739,6 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.xdeles
-ping0.cc###adiright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
