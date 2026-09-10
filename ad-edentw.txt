@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 43pEkGgnJgapwFQFZGf1+A
+! Checksum: rOoFjqxs00dDFoYvqozwGQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202609101307
-! Last Modified: 2026年09月10日 13:07
+! Version: 202609101758
+! Last Modified: 2026年09月10日 17:58
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -773,6 +773,11 @@ billboard.com#$#override-property-read confirm noopFunc
 billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefined
 ||html-load.com^$script,domain=9gag.com
 ||aroundsadly.com/session/$domain=9gag.com
+||*/p.js?$script,domain=9gag.com
+||*/app.js|$script,domain=9gag.com
+||*/core.js|$script,domain=9gag.com
+||*/main.js|$script,domain=9gag.com
+||error-report.com^$domain=9gag.com
 9gag.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|\\[0,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError/' ''
 ||error-report.com^$domain=geoguessr.com
 geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
@@ -2161,7 +2166,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="main"]//
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"chalkPivot")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"tundraQuill")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -3583,6 +3588,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||calombotubelet.com^
 ||calyxesdefames.com^
 ||camarongabertduftry.cyou^
+||candid-revenue.com^
 ||cantinonoxial.shop^
 ||capital-order.pro^
 ||capmaneleazar.com^
@@ -3606,6 +3612,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||chinnedomagra.com^
 ||chivwempover.com^
 ||chivwtusseh.com^
+||chuhratumbeki.com^
 ||chyazickukang.com^
 ||cinnamonmisfire.com^
 ||clairesopilia.shop^
@@ -3633,6 +3640,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||coolstels.com^
 ||coombrecuse.com^
 ||corbedpeckers.com^
+||cormelsseity.com^
 ||corralsspatio.shop^
 ||corruptioneasiestsubmarine.com^
 ||corvoidhas.com^
@@ -3657,11 +3665,13 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cunnidissait.com^
 ||curtcoracii.com^
 ||cuseccharm.com^
+||cutchbatete.com^
 ||cutoffclerks.com^
 ||cuvetteacknown.com^
 ||cyberspace92.net^
 ||dabblespaver.com^
 ||daffytrainel.com^
+||dagheshwisshe.com^
 ||dagobasaspasia.com^
 ||dalkawe.com^
 ||deaferfutiley.com^
@@ -3709,6 +3719,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||eartabunseely.com^
 ||easingraphany.com^
 ||ecolesmauve.com^
+||ecologystoter.com^
 ||ecosystemeo.com^
 ||edenizemortary.com^
 ||effic.pro^
@@ -3932,7 +3943,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||juvenileconstant.com^
 ||jwxggyivum.icu^
 ||kafalouder.com^
-||kainitsplainy.com^
 ||kalingacurvant.com^
 ||kamseenkophs.com^
 ||karakuloutmate.com^
@@ -3994,6 +4004,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||maltobrolly.com^
 ||malwaaliquot.com^
 ||mambasscious.com^
+||mamerstonto.com^
 ||mappersavarish.com^
 ||mapssufeism.com^
 ||maraywreath.com^
@@ -4021,6 +4032,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||mploejuiashsatea.com^
 ||mudejartitoism.com^
 ||muggurssalited.com^
+||mulchimbiber.com^
 ||muragetunnel.com^
 ||myricylhoihere.com^
 ||mystifycabala.com^
@@ -4028,7 +4040,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nainepidia.com^
 ||nairydeices.com^
 ||nappieoxbows.com^
-||nauseamouths.com^
 ||nauticaldiscipline.com^
 ||ndrimmers.com^
 ||negliglesson.com^
@@ -4112,6 +4123,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||plungescreeve.com^
 ||poculalienly.com^
 ||poilusqrt.com^
+||portiasaigon.com^
 ||potentymoa.com^
 ||prabblenutrify.com^
 ||preservedsober.com^
@@ -4266,8 +4278,10 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||studyingiodineproposal.com^
 ||stuffedclipse.com^
 ||stulmunshent.com^
+||stuntednicht.com^
 ||suavecitoo.org^
 ||succubmisship.com^
+||suffectbanjos.com^
 ||sullowspatio.com^
 ||sultoneframer.com^
 ||sunnyreception.com^
