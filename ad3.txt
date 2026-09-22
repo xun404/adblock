@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EfiaQSytQmX1krte/xzzBQ
+! Checksum: 9CI2lih9T6IEGymMKPmmRg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202609220729
-! Last Modified: 2026年09月22日 07:29
+! Version: 202609220947
+! Last Modified: 2026年09月22日 09:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1710,6 +1710,7 @@ newduba.cn###jq_youxi
 ||tpvqrzryebtfhu.com^
 ||03mnj87wir.com^
 ||corkscrew33.com^
+||mkyc81u6je.com^
 ||gangplank39.com^
 ||ug2k8bslb.com^
 ||vzzvfpvwyyhfvo.com^
@@ -23068,6 +23069,7 @@ m.babytree.com##script + a[class]
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
@@ -30564,6 +30566,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iadvize.com/collector/
 ||ibmcloud.com/collector/
 ||icbdr.com/images/pixel.gif
+||ichnaea-web.netflix.com^
 ||icontact.com/icp/core/signup/tracking.gif?
 ||icu.newsroom.bi/ingest.php
 ||id.a-mx.com^
@@ -30917,6 +30920,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mochiads.com/clk/
 ||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
+||mon-sg.byteintlapi.com^
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
@@ -32900,6 +32904,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||163.com/sn.gif?
 ||3.cn/cesu/r?
 ||360.cn/mapping_service?
+||4399logs.4399doc.com^
 ||4gtv.tv/js/ga_
 ||66hao.cc^
 ||adv-sv-stat.focus.cn^
@@ -32977,11 +32982,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcs.zijieapi.com^
 ||miao.baidu.com/abdr?
 ||mon.zijieapi.com^
+||ms.xunyou.com^
 ||msg.71.am^
 ||netease.com/track/
 ||netease.com/web/performance?
 ||nos.netease.com/udc-web/*.log.js
 ||oocommapi2.aswatson.com/kf/*/tracking/
+||opt.doubao.com^
+||oss.weread.qq.com^
 ||p.aty.sohu.com^
 ||p.tencentmind.com^
 ||pos.baidu.com^
@@ -73150,6 +73158,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/
 ||sbeacon.sina.com.cn^
+||sdata.chatglm.cn^
 ||sentry.music.163.com^
 ||sfp.safe.baidu.com^
 ||shopee.tw/__t__
@@ -73196,6 +73205,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||titan24.com/scripts/stats.js
 ||tj.img4399.com^
 ||tk.d.mi.com^
+||tongji.duote.com^
 ||tongji.mafengwo.cn^
 ||tongji.techweb.com.cn^
 ||tongji.xinmin.cn^
