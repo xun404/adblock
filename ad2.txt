@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ox0pF6xJDsb7WmtKzZtzaw
+! Checksum: mq2G5TkY/0OfIv9sQ7rISQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202609220947
-! Last Modified: 2026年09月22日 09:47
+! Version: 202609221553
+! Last Modified: 2026年09月22日 15:53
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -15,6 +15,7 @@
 -*-*-*-*.alpha^$script,third-party
 /7755com-*00x*.gif
 /static/tb/kyqp.gif
+://ads-img2026.
 :866/o.js$script,third-party
 /phoenix-share/js/code.123.bg.
 .com/co/$domain=1anime.me
@@ -1711,6 +1712,9 @@ newduba.cn###jq_youxi
 ||03mnj87wir.com^
 ||corkscrew33.com^
 ||mkyc81u6je.com^
+||12yr3wkwi5.com^
+||p5doaulee2.com^
+||kavxx.com^
 ||gangplank39.com^
 ||ug2k8bslb.com^
 ||vzzvfpvwyyhfvo.com^
@@ -10932,6 +10936,7 @@ meijutt.*/js/pcjs/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||ping0.cc/images/gx/*.gif
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
+||haobax.com/ad
 !------------------------Specific element hiding rules------------------------!
 ping0.cc##.xeeles
 ping0.cc###adjright
@@ -17350,10 +17355,8 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.
 !#3
 !#4hu.tv
 ||cszpra.com^*.gif
-##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
-##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
-##.kkb-href
-##.kkm-href
+4hu.tv##body > #__nuxt:first-child + #teleports ~ div[data-tag]
+##body > #__nuxt:first-child > div > .container > div[data-topmenu] + div + div[data-pg-wrap]
 !#58.com
 58.com###rightRetui
 58.com##.S_table_ding_box
