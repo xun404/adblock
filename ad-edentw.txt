@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P0HLhPIu1aB/7P8k2oHjHA
+! Checksum: pD/bt6KN/tooEhJuBGDygw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610010334
-! Last Modified: 2026年10月01日 03:34
+! Version: 202610020344
+! Last Modified: 2026年10月02日 03:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -689,6 +689,7 @@ base64decode.org#$#replace-argument Element.prototype.setAttribute 1 ';await new
 ||stg.saw.anenstdecodenear.com^$domain=base64decode.org
 ||stg.cash.expertminus.com^$script,domain=base64decode.org
 ||doingsupposing.com^$script,domain=base64decode.org
+||pleasedmad.com^$domain=base64decode.org
 ||content-loader.com^$script,domain=base64decode.org
 ||error-report.com^$domain=base64decode.org
 base64decode.org#$#override-property-read as_1397897591 true; override-property-read as_-1618216930 true; override-property-read as_-1279268710 true
@@ -859,6 +860,7 @@ nikkansports.com#$#override-property-read adshield.isAdBlockerDetected false
 ||speee-ad.akamaized.net^$third-party,domain=nikkansports.com
 ||delivery.speee-ad.jp^$domain=nikkansports.com
 ||durationmedia.net^$script,domain=nikkansports.com
+||evenyippee.com^$domain=freeconvert.com
 ||whoeverbeyond.com^$script,domain=freeconvert.com
 ||googlesyndication.com^$domain=freeconvert.com
 ||error-report.com^$domain=freeconvert.com
@@ -887,6 +889,7 @@ kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||gadzooksrudely.com^$domain=kuruma-news.jp
 ||grubbytrain.com^$domain=kuruma-news.jp
 ||pishrust.com^$domain=kuruma-news.jp
+||evenyippee.com^$domain=kuruma-news.jp
 ||lox.legalendowmad.com^$domain=kuruma-news.jp
 @@||error-report.com^$xmlhttprequest,domain=kuruma-news.jp
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=kuruma-news.jp
@@ -961,6 +964,7 @@ euronews.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|
 ||frizzsince.com^$domain=index.hr|euronews.com
 ||colourpike.com^$domain=euronews.com
 ||hmphpeppery.com^$domain=euronews.com
+||pleasedmad.com^$domain=euronews.com
 ||html-load.com^$script,domain=oricon.co.jp
 ||html-load.com/feed/$domain=oricon.co.jp
 ||content-loader.com/feed/$domain=oricon.co.jp
@@ -1172,6 +1176,7 @@ doviz.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||stg.pssthumidity.com^$domain=nemzetisport.hu
 ||amidstdeploy.com^$script,domain=nemzetisport.hu
 ||nicelyfrom.com^$domain=nemzetisport.hu
+||evenyippee.com^$domain=nemzetisport.hu
 nemzetisport.hu#$#override-property-read as_-1052889225 true; override-property-read as_1152494620 true; override-property-read as_1298958177 true; override-property-read as_663851184 true; override-property-read as_1411526912 true; override-property-read as_-1279268710 true; override-property-read as_926115135 true; override-property-read as_1072578692 true; override-property-read as_-1618216930 true
 nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
@@ -1792,6 +1797,7 @@ animesuge.at,netprime.bz#$#prevent-listener click /param4=lc/; prevent-listener 
 ||runerose.xyz^$popup
 serienstream.to,tracylocalschool.com#$#prevent-window-open _blank 1000 obj
 aidrama.me#$#prevent-listener click /last_ad_time/
+njavtv.com#$#prevent-window-open '/pop?url='
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2111,7 +2117,7 @@ nba.com#$#override-property-read __NEXT_DATA__.props.clientConfigSettings.videoA
 xnxx.com#$#override-property-read html5player.loadVideoPostRollAds noopFunc; override-property-read html5player.loadVideoPreRollAds noopfunc
 ||wheelroot.com^$domain=noodlemagazine.com|ukdevilz.com
 ||kintg.site^$domain=noodlemagazine.com|ukdevilz.com
-tvnz.co.nz#$#replace-fetch-response /"adType":"ssai"/ "adType":"none"; replace-fetch-response /"aopUrl":"[^"]*"/ '"aopUrl":""'
+tvnz.co.nz#$#replace-fetch-response '/"adType":"ssai"/' '"adType":"none"'; replace-fetch-response '/"aopUrl":"[^"]*"/' '"aopUrl":""'
 pluto.tv#$#replace-xhr-response /<Period[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*>.+?<[/]Period>|<Period[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*>.+?<[/]Period>|start="[^"]*"|mediaPresentationDuration="[^"]*"/ '' 'urn:mpeg:dash'
 pluto.tv#$#json-prune 'adBreaks.[].startingOffset adBreaks.[].adBreakDuration adBreaks.[].ads adBreaks.[].startTime adBreak adBreakLocations' 'adBreaks'
 ! Japanese sites
@@ -2173,6 +2179,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains '/^(?:Sponsored
 www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)(?:$|[^A-Za-z0-9]*·)/' 'div[aria-posinset]' 'div[aria-posinset] div[role="button"][tabindex="0"]'
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href^="?"] span[style*="absolute"]
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href="#"] span[style*="absolute"]
+www.facebook.com,web.facebook.com#$#hide-if-shadow-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]'
 ! rp
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"label":"FBUnifiedVideoContainer.*"sponsored_data":\{"__typename":"SponsoredData".*\}/' '{}' '"sponsored_data":\{"__typename":"SponsoredData"'
 ! mp
@@ -2180,7 +2187,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"slateHarrow")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"cobaltHeron")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -3622,7 +3629,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cantinonoxial.shop^
 ||capital-order.pro^
 ||capmaneleazar.com^
-||caribanpitmans.com^
 ||caromedlusk.com^
 ||casherscamize.com^
 ||cashooshut.com^
@@ -3634,6 +3640,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ccoyaballots.com^
 ||cedar-linen-cdn-64.workers.dev^
 ||cenotessnawle.com^
+||ceriphtibbit.cfd^
 ||chairsgliosis.com^
 ||chalkedwhiningromance.com^
 ||chambulwacs.com^
@@ -3646,7 +3653,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||chivwempover.com^
 ||chivwtusseh.com^
 ||chuhratumbeki.com^
-||chwanakaro.com^
 ||chyazickukang.com^
 ||cinnamonmisfire.com^
 ||cissoiddownset.com^
@@ -3691,6 +3697,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cranchdotal.com^
 ||creasolunshort.com^
 ||creeperpummels.com^
+||creptbabysitter.com^
 ||crimeanplayful.com^
 ||criticismgodlessauthors.com^
 ||crossingshare.com^
@@ -3710,6 +3717,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||dagheshwisshe.com^
 ||dagobasaspasia.com^
 ||dalkawe.com^
+||darklewawa.com^
 ||decafeligiblyhad.com^
 ||deckedpreeze.com^
 ||deckenexodium.com^
@@ -3906,7 +3914,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||gyrocarkluck.com^
 ||halmfrisii.com^
 ||hambonejataco.com^
-||hameltnoummos.com^
 ||hardyforges.com^
 ||hattyrhombi.com^
 ||haydntaal.com^
@@ -3920,7 +3927,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||henryslyceal.com^
 ||henterjacksaw.com^
 ||heparinspirol.com^
-||herdicmurkest.com^
 ||hestherchiffer.com^
 ||hexingteeting.com^
 ||highathel.com^
@@ -4029,6 +4035,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||lawmanbevor.com^
 ||lawscrax.com^
 ||laymanesprit.com^
+||lcqeurxbcj.icu^
 ||leaninghaed.shop^
 ||lebbekperjury.com^
 ||legistfetus.com^
@@ -4086,15 +4093,14 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||mimamsaslews.com^
 ||mingieglossed.com^
 ||minhahchicky.com^
-||minusesasfast.com^
 ||mirakdunes.com^
+||mistimecargo.com^
 ||misusedhough.com^
 ||modern-oven.com^
 ||moluccadecoyed.com^
 ||momentsjuergen.com^
 ||monkismtheban.com^
 ||mopanepottern.com^
-||moraeirrupt.com^
 ||mortemmoca.com^
 ||mountaindriftevolutiontechnologies.net^
 ||mountrobbervaliant.com^
@@ -4105,7 +4111,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||muggurssalited.com^
 ||muragetunnel.com^
 ||musilylithol.com^
-||mutterssurbase.com^
+||myagkotela.link^
 ||myricylhoihere.com^
 ||mystifycabala.com^
 ||mythosupflow.com^
@@ -4133,7 +4139,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nosydorymen.com^
 ||novaleelds.com^
 ||nplaf.com^
-||nuancedmorosis.com^
 ||nubbycoolly.com^
 ||nucleonfashing.com^
 ||nylastmangy.com^
@@ -4141,11 +4146,9 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||obdtfijian.com^
 ||obeliacallay.com^
 ||oblivioncertain.com^
-||odylismnumina.com^
 ||officialplenty.com^
 ||offletsoroche.life^
 ||oldnessdernly.qpon^
-||olivedrawer.com^
 ||omegatootler.rest^
 ||omegoidergoted.com^
 ||ommateabeanos.com^
@@ -4174,6 +4177,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||oxidesearching.com^
 ||oxyacidalogia.com^
 ||pagurusfibrose.com^
+||paleoak.top^
 ||pamphiltre.com^
 ||papaneecorche.com^
 ||paralyzedhelmetnell.com^
@@ -4214,7 +4218,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||preyfultarried.com^
 ||pricinganalytics.cfd^
 ||primary808.net^
-||primasphobist.com^
 ||prizefamily.com^
 ||proceduresto3.net^
 ||prognosiscoloredpractical.com^
@@ -4234,6 +4237,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||radarcatalystmomentumindustries.com^
 ||raggedapproaching.com^
 ||raglanyakking.com^
+||ragtagscanella.com^
 ||rancorsmiserly.com^
 ||randanspartan.com^
 ||randeriridium.com^
@@ -4341,7 +4345,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||socagercornet.com^
 ||sociabletension.com^
 ||socialconventcontext.com^
-||sodlessteargas.com^
 ||solubleleonine.com^
 ||solutions2000.com^
 ||somasaweel.com^
@@ -4462,6 +4465,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||troutshyp.com^
 ||trovesleepit.com^
 ||trustedpromise.com^
+||truthful-game.com^
 ||truvidplayer.com^
 ||trypsinneutral.com^
 ||tuckedshowing.com^
@@ -4552,7 +4556,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yelloadwise.ir^
 ||yield70.net^
 ||yogisgeishas.com^
-||yowlingmiscues.com^
 ||zakahbldr.com^
 ||zapasizzard.com^
 ||zealousimage.com^
