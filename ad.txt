@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8qdZrRc5EkRqFRvjE8Y19A
+! Checksum: tMKSCzBlBCe7e2gJ7Z057w
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202610040954
-! Last Modified: 2026年10月04日 09:54
+! Version: 202610041640
+! Last Modified: 2026年10月04日 16:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2137,6 +2137,12 @@ newduba.cn###jq_youxi
 ||sprinkler69.com^
 ||2ju7b73ton.com^
 ||59ufs4hof5.com^
+||adbfkaoxvm.in^
+||0fs3mb0hh7.com^
+||esaqwot.com^
+||lurhtbf.com^
+||xdnjqtn.com^
+||h32rbpk7ne.com^
 ||rotovator44.top^
 ||8tjomzqlw.com^
 ||lelzbtm2o.com^
@@ -7489,10 +7495,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||3dmgame.com/page/img/shangcheng
 ||3dmgame.com/page/js/push_browser.js
 ||3dmgame.com/sw/zjworld/js/index.
-||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
 ||3dmgame.com/templets/index/js/huandeng.js
-||3dmgame.com/templets/xiazai/g
 ||3dmgame.com/tools/gamead?
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=Index/adv&
@@ -11494,6 +11498,10 @@ meijutt.*/js/pcjs/
 ||huangguo.me/static/js/linePromo.
 !------------------------Specific element hiding rules------------------------!
 xc6b.com##.cHeadImg
+3dmgame.com##.addownbox_gaosu
+3dmgame.com##.Gmaeinfobtn_tab > .patchshow
+3dmgame.com##a[href*=".3dmgame.hk"]
+3dmgame.com##div[style^="width:274px;height:368px"]
 55188.com##.page-aside
 55188.com###bbslist
 sohu.com##a[data-url*=".mediav.com"]
@@ -13063,7 +13071,6 @@ ltn.com.tw##.C3.boxTitle
 zhihu.com##.Card.Banner
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
-3dmgame.com##.Content_L > p
 imeee.cn##.DA336
 91lai.com##.D_guanggaotu11
 91lai.com##.D_guanggaotu2
@@ -13075,10 +13082,6 @@ jinhua.com.cn##.FocusAD
 angelweb.cn##.GG960x90
 aiyuke.com##.GGad
 yahoo.com##.GeminiPortalStreamAd_handleViewport
-3dmgame.com##.Gmaeinfobtn + span
-3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
-3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
-3dmgame.com##.Gmaeinfobtn_tab > span
 zhihu.com##.GoodsRecommendCard
 downg.com##.Gs_d[href$=".exe"]
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
@@ -14071,7 +14074,6 @@ dayanzai.me##.down_show_intro_first_box
 greenxiazai.com##.downbtn > a:last-child
 portablesoft.org##.downcenter
 51xiazai.cn##.downgs
-3dmgame.com##.downl_list + script + div
 duote.com##.download-box:first-child
 downkr.com##.download-btn > .text-right
 downg.com##.download-list:first-child
@@ -15984,7 +15986,6 @@ wdzzz.com##.zz_nr
 159i.com#?#div:-abp-has(> img+a)
 1point3acres.com#?#div[id^="portal_block"]:-abp-has(a[href*="fiverr.com"])
 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."])
-3dmgame.com#?#.downl_list:-abp-has(style)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
@@ -19273,6 +19274,7 @@ yemancomic.com##.z-index-99 > a
 ||wodeshucheng5.com^*/1
 ||wodeshucheng5.com^*/0
 ||niepo.net/api/arrayid/analytics.
+||rqr.cc/mm.
 $csp=script-src 'self' * 'unsafe-inline',domain=156xsbb.com|ltbook.net|shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|sswwxs.com|akexs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 !#Novels
