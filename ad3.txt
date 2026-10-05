@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BJq6getSmwP3IpPRs/wy1A
+! Checksum: Wxdbyfgc6A/tJI/7Ri0Ziw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202610042255
-! Last Modified: 2026年10月04日 22:55
+! Version: 202610050910
+! Last Modified: 2026年10月05日 09:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1686,6 +1686,10 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||dishwasher46.com^
+||8hvq8jskh.com^
+||bedwlzqwkxpzfc.com^
+||2wg8pp90e.com^
 ||buyrbto5z2.com^
 ||vbhbzhjaeudztw.com^
 ||sprinkler69.com^
@@ -17455,8 +17459,8 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.
 !#3
 !#4hu.tv
 ||cszpra.com^*.gif
-##body > #__nuxt:first-child ~ div[data-tag] > div > div > button[aria-label] + div[class]
-##body > #__nuxt:first-child > div > .container > div[data-topmenu] + div + div[data-pg-wrap]
+##body > #__nuxt:first-child ~ div[class] > div > div > button[aria-label] + div[class]
+##body > #__nuxt:first-child > div > .container > div[class^="pg-"] > div[style*="important"]
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
 ##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 !#58.com
@@ -30770,6 +30774,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ippen.space/idat
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
+||ipv4.art/claim
+||ipv4.games/claim
 ||iq.sixaxisllc.com^
 ||iqzone.com^$third-party
 ||iraiser.eu/analytics.js
@@ -31700,6 +31706,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ssr.streamrail.net^
 ||st.cdnco.us^
 ||st.linkfire.com^
+||st.putler.com^
 ||staging-pt.ispot.tv^
 ||starman.fathomdns.com^
 ||stas.outbrain.com^
