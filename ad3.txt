@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1F4l+SZWGmd+Rcx3s4lNGg
+! Checksum: HiWs+I+f0ex8Jfouv9o+QA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202610060118
-! Last Modified: 2026年10月06日 01:18
+! Version: 202610061115
+! Last Modified: 2026年10月06日 11:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1685,6 +1685,11 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||6y10di5jko.com^
+||tightrope23.com^
+||zhzrvjmyqvdhrc.com^
+||gcqgmgq.com^
+||wkduza2x10.com^
 ||dishwasher46.com^
 ||8hvq8jskh.com^
 ||bedwlzqwkxpzfc.com^
@@ -35754,6 +35759,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.codeur.com^
 ||stats.darkreader.app^
 ||stats.davidickedelivery.com^
+||stats.flixcloud.cc^
 ||stats.gateio.ch^
 ||stats.habr.com^
 ||stats.hexa.watch^
@@ -74561,6 +74567,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||gtm.idealo.*/gtm.js?$domain=idealo.at|idealo.co.uk|idealo.de|idealo.es|idealo.fr|idealo.it
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
+@@||heimdall.hearstapps.com/voltron$third-party,xmlhttprequest,domain=caranddriver.com
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|corsair.com|furniturevillage.co.uk|luggagehero.com
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com

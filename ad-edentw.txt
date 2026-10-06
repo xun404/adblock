@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qd9ghkB/eDvjHwRsFPoVmg
+! Checksum: sieABLxw/FOk1UW/CAM+3Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610060118
-! Last Modified: 2026年10月06日 01:18
+! Version: 202610061115
+! Last Modified: 2026年10月06日 11:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -51,6 +51,9 @@ movieffm.net#$#abort-on-property-read window.open
 169bbs.com#$#hide-if-matches-xpath './/img[@style]/parent::a[contains(@href,"ads")]/ancestor::div[1]'
 ||ping0.cc/images/bx/*.gif^$image,domain=ping0.cc
 ping0.cc#$#hide-if-matches-xpath './/span[@class="tipad"]/following::img/parent::a[@rel][@target="_blank"]'
+tr1098.top#$#abort-on-property-write idia
+tr1098.top#$#override-property-read __SITE_MKM_DISABLED__ true
+tr1098.top#$#hide-if-matches-xpath '//a[contains(@href,"/traffic/go?")]/ancestor::div[contains(@class,"banner-slot")][1] | //div[@id="ads-tubiao"]'; hide-if-matches-xpath '//section[contains(@class,"footer-partners")]'
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
 ahri8.top,madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -699,6 +702,7 @@ base64decode.org#$#replace-argument Element.prototype.setAttribute 1 ';await new
 ||content-loader.com^$script,domain=base64decode.org
 ||error-report.com^$domain=base64decode.org
 base64decode.org#$#override-property-read as_1397897591 true; override-property-read as_-1618216930 true; override-property-read as_-1279268710 true
+base64decode.org#$#json-override isActive false hasActiveAutoRecovery
 base64encode.org#$#replace-argument Element.prototype.setAttribute 1 ';await new' ''
 ||html-load.com^$script,domain=base64encode.org
 goldderby.com#$#override-property-read confirm noopFunc
@@ -1805,6 +1809,7 @@ popcornmovies.*#$#prevent-element-src-loading script /\\.(cfd|qpon|rest)\\//
 dramafren.org#$#prevent-window-open /otieu/ 2 iframe
 xvideos-full.com#$#prevent-window-open /overloadenjoy/ 2 iframe
 flixmomo.*,mumu.*,vidcore.*,vidbolt.*,pornx.to#$#prevent-window-open /./ 1000 iframe
+mumu.*#$#simulate-mouse-event '.video-link$delay=0'
 comix.to#$#prevent-window-open /./ 2000 iframe
 pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe
 mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*/ 1000 iframe
@@ -1822,7 +1827,8 @@ animesuge.at,netprime.bz#$#prevent-listener click /param4=lc/; prevent-listener 
 ||runerose.xyz^$popup
 serienstream.to,tracylocalschool.com#$#prevent-window-open _blank 1000 obj
 aidrama.me#$#prevent-listener click /last_ad_time/
-njavtv.com#$#prevent-window-open '/pop?url='
+missav.*,missav123.com,missav888.com,njavtv.com#$#prevent-window-open '/pop?url='
+hdtube.porn,pornid.xxx,rat.xxx,sexvid.xxx,zbporn.com#$#abort-on-property-read pu
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2127,6 +2133,7 @@ eliteprospects.com#$#hide-if-matches-xpath './/div[contains(@class,"AdSlot_")]/p
 netprime.bz#$#override-property-read __ZONE_ID_148438 true
 ||helium1.net/*/loader.js$domain=canadafreepress.com
 beforeitsnews.com#$#hide-if-matches-xpath './/a[@rel="sponsored"]/parent::p/ancestor::div[@id][contains(@style,"margin")]'
+hdtube.porn,pornid.xxx,rat.xxx,sexvid.xxx,zbporn.com#$#hide-if-matches-xpath '//iframe[contains(@src,"?zone=") or contains(@src,"?n=")]/parent::div'; hide-if-matches-xpath '//div[@id="sp-player"]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -2359,6 +2366,7 @@ westmanga.fun#$#abort-on-property-read doOpen1 false; override-property-read puS
 metrolagu.*#$#abort-on-property-write window.open;
 poop.*#$#abort-current-inline-script String.fromCharCode 2147483647; abort-on-property-read window.open;
 bokepindo13.*,bokepindoh.*#$#abort-on-property-read open
+bebasbokep.online#$#prevent-window-open /./ 1000 iframe
 ! MISC
 komikdewasa.*#$#override-property-read R undefined; prevent-listener click tampilkanUrl; abort-on-property-write window.open; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 animasu.*#$#hide-if-matches-xpath './/img[contains(@alt,"H")][@class="lazyload"]/parent::a[@title]/parent::div[starts-with(@class,"kolom")]'
