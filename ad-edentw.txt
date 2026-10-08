@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z8VMRf5PLDPvq1ft2OJFHg
+! Checksum: wftY/6YRMt7eC8droXwdNA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610081721
-! Last Modified: 2026年10月08日 17:21
+! Version: 202610090048
+! Last Modified: 2026年10月09日 00:48
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1325,6 +1325,8 @@ fragrantica.com#$#abort-current-inline-script Object.getOwnPropertyDescriptor /H
 ||html-load.cc^$script,domain=fragrantica.com
 dogdrip.net#$#json-override isActive false hasActiveAutoRecovery
 dogdrip.net#$#json-override isActive false eventSampleRatio
+gamebanana.com#$#json-override isActive false applyRatio
+myinstants.com#$#json-override isActive false applyRatio
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
 /^https:\/\/[a-z]{3,5}\.[a-z]{7,}\.com\/[a-z]{3,}\/[A-Za-z0-9_-]{4,10}\.js$/$script,third-party,match-case,domain=base64decode.org|deadline.com|euronews.com|fandom.com|goldderby.com|index.hr|indiewire.com|rollingstone.com
 /^https:\/\/[a-z]{3,5}\.[a-z]{6,}\.com\/[a-z]{3,}\/[A-Za-z0-9_-]+\.js$/$script,third-party,match-case,domain=fandom.com
@@ -1823,7 +1825,9 @@ xvideos-full.com#$#prevent-window-open /overloadenjoy/ 2 iframe
 flashmovies.xyz,flixmomo.*,mumu.*,vidcore.*,vidbolt.*,pornx.to#$#prevent-window-open /./ 1000 iframe
 mumu.*#$#simulate-mouse-event '.video-link$delay=0'
 comix.to#$#prevent-window-open /./ 2000 iframe
-pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe
+pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe; abort-on-property-write doAdRedirect; prevent-window-open !/^(https:\\/\\/pdftoshokan\\.com)?\\/(manga\\/|decode\\.php)/;
+pdftoshokan.com#$#replace-outbound-value atob /^https?:\\/\\/[^\\/]+\\/v1\\/link\\.php\\?.*idzone=.*$/ '#'
+pdftoshokan.com#$#replace-argument window.open 1 /^_blank$/ _self
 mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*/ 1000 iframe
 kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
 /rollbar.min.css$script,domain=streamingnow.mov
@@ -1845,6 +1849,9 @@ cinemove.cc#$#override-property-read __cmAdOpening true
 cinemove.cc#$#replace-fetch-response '"enabled":true' '"enabled":false' iptvInterstitial
 movy.sx#$#prevent-element-src-loading script /^(https:)?\/\/[a-z]{2}\\.[a-z]+\\.com\/[A-Za-z0-9_-]{10,16}\/[A-Za-z0-9]+$/
 vidsrc.*,vidy.*#$#prevent-element-src-loading script /^https:\/\/[a-z0-9]+\\.[a-z0-9]+\\.[a-z]+\/k[A-Za-z0-9]{8,}\/[A-Za-z]{5}$/
+filthyhero.com##base[target="_blank"] {remove:true;}
+filthyhero.com#$#override-property-read opener null
+||filthyhero.com/bounce-test.js^$script,domain=filthyhero.com
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2239,7 +2246,7 @@ www.facebook.com,web.facebook.com#$#hide-if-shadow-contains '/^[^A-Za-z0-9]*(?:S
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"basaltWren")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"copperSedge")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -2940,7 +2947,7 @@ samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/follow
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #RM-9
 ! sl, sc
-instacart.*#$#hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]';
+instacart.*#$#hide-if-matches-xpath './/ic-cn-tag/ancestor::li[1]';
 ! ta
 instacart.*##div[id][class]:has(> span[aria-hidden="true"]:first-child):has(> section > span > a > picture > img[src*="display.instacart.com"][alt*="Sponsored"])
 ! tc
@@ -3305,7 +3312,7 @@ otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-t
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
 pinterest.*#?#div[data-grid-item]:has(div[title]:-abp-contains(/^(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
-pinterest.com#$#json-prune 'resource_response.data.[-].promoter resource_response.data.results.[-].promoter'
+pinterest.com#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data'
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
@@ -3339,7 +3346,7 @@ fiverr.com#?#div.slide:has(span[data-track-tag^="typography"]:-abp-contains(/Anz
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
 ! SP
-sameday.costco.*#$#race start; hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-ms-tag]/ancestor::li[1]'; race stop;
+sameday.costco.*#$#race start; hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-ms-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-cn-tag]/ancestor::li[1]'; race stop;
 ! ca
 sameday.costco.*##div[id]:has(> div[id] > a img[src*="display.instacart.com"]):has(> div[id] li img[src*="display.instacart.com"])
 sameday.costco.*##div[id]:has(> div > div > div > a img[src*="display.instacart.com"]):has(> div > div > div > a h2)
@@ -3388,7 +3395,7 @@ nordstrom.com#$#hide-if-contains-visible-text Sponsored 'article' 'span'
 kroger.com#$#hide-if-matches-xpath './/div[@class="PremiumPlacementCarousel"]/div[contains(text(),"Sponsored")]/ancestor::div[@data-testid]/parent::div'
 kroger.com#$#hide-if-matches-xpath './/div[@class="flex"]/span[contains(text(),"Sponsored")]/ancestor::div[@data-citrus-component="Card"]/../parent::li'
 ! pl
-kroger.com#$#hide-if-matches-xpath './/div[@class="flex"]/span[contains(text(),"Sponsored")]/ancestor::div[@class="ProductCard-tags"]/../parent::div[@data-testid][@style]'
+kroger.com#$#hide-if-matches-xpath './/div[@class="flex"]/span[contains(text(),"Sponsored")]/ancestor::div[@class="ProductCard-tags"]/../parent::div[@data-testid][@style]/parent::div[@class="ImpressionLayer"]'
 kroger.com##li.citrus-Carousel-item:has([data-testid="featured-product-tag"])
 kroger.com##.AutoGrid-cell:has([data-testid="featured-product-tag"])
 ! ba
@@ -3397,15 +3404,30 @@ kroger.com##.AutoGrid-cell:has(> .CuratedCarousel > [data-testid="carousel-featu
 kroger.com#$#hide-if-matches-xpath './/div[@class="flex"]/span[contains(text(),"Sponsored")]/ancestor::div[@class="ProductCard-tags"]/../parent::li'
 ! cb
 kroger.com##.kac-product-grid-cell:has(.kac-product-badge--sponsored)
-! #RM-232
+! #RM-188
 ! sp
 dribbble.com#$#hide-if-contains /Promoted/ 'article' 'article drb-tooltip > div'
 dribbble.com##article:has([data-track-cta="Learn more about Promoted Services"])
+dribbble.com#$#hide-if-matches-xpath '//article[contains(@class,"service-result")][.//div[contains(@class,"service-result__title-container")]/drb-tooltip]'
+dribbble.com#$#hide-if-contains-visible-text /^Promoted$/ 'article.service-result' 'article.service-result drb-tooltip > span'
 ! #RM-222
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//h3[normalize-space(text())="Sponsored"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1] | id("thread")//span[normalize-space(text())="Ad"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1]' 'id("thread")'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//*[contains(concat(" ",normalize-space(@class)," ")," bg-token-bg-tertiary ") and contains(concat(" ",normalize-space(@class)," ")," rounded-full ") and normalize-space(text())="Ad"]/ancestor::div[contains(concat(" ",normalize-space(@class)," ")," border-t ")][1]'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Ad")]'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Sponsored")]'
+chatgpt.com#$#replace-argument JSON.parse 0 /"type":"ads","visibility"/ '"type":"x_ads","visibility"'
+! tracking
+chatgpt.com#$#cookie-remover __obi
+||chatgpt.com/*/bazaar/obi/sync-token^$domain=chatgpt.com
+||chatgpt.com/*/bazaar/event^$domain=chatgpt.com
+||chatgpt.com/*/bazaar/signal-event^$domain=chatgpt.com
+||bzr.openai.com^
+||bzrcdn.openai.com/sdk/$script
+||chatgpt.com/ces/v1/t^$xmlhttprequest,ping,domain=chatgpt.com
+||chatgpt.com/ces/v1/p^$xmlhttprequest,ping,domain=chatgpt.com
+||chatgpt.com/ces/v1/rgstr^$xmlhttprequest,ping,domain=chatgpt.com
+||chatgpt.com/ces/statsc/$xmlhttprequest,ping,domain=chatgpt.com
+||chatgpt.com/unauth-mweb/events/$xmlhttprequest,ping,domain=chatgpt.com
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
@@ -3711,6 +3733,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cissoiddownset.com^
 ||civieicerya.com^
 ||clairesopilia.shop^
+||clanpages.org^
 ||claroia570.com^
 ||cleanerfoldopenly.com^
 ||closishcool.com^
@@ -3819,6 +3842,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ducatflapper.com^
 ||ductilevoider.com^
 ||dudgeonideo.com^
+||dunanscastle.org^
 ||dynamitefinishingmimic.com^
 ||eartabunseely.com^
 ||easingraphany.com^
@@ -3918,6 +3942,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||fustianwaked.com^
 ||fuzeszoeal.com^
 ||fwlkaipvff.icu^
+||fzjzttppcyaij.space^
 ||gaggedtetrode.com^
 ||gainedtelephone.com^
 ||gappedpeatmen.com^
