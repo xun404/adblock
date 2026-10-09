@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yfut4/KZOXBZSnNh6fvV4Q
+! Checksum: O4feN8givfYDnRMndLKOOg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202610090048
-! Last Modified: 2026年10月09日 00:48
+! Version: 202610091026
+! Last Modified: 2026年10月09日 10:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1684,6 +1684,10 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||gb742ld0c.com^
+||juggler36.com^
+||bdxwfvlszerxbi.com^
+||iemshbwfg.com^
 ||w8n97pkzn6.com^
 ||leotard54.com^
 ||dabetlewtbdppi.com^
@@ -10426,7 +10430,6 @@ meijutt.*/js/pcjs/
 ||tb58.net/plugin.php?id=tb58_
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tcmap.com.cn/js/b_
-||techritual.com/wp-content/uploads/*/HDcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
@@ -12425,7 +12428,6 @@ pchome.com.tw###test2
 loldk.com###test_ad + #model
 tumutanzi.com###text-3
 vjmedia.com.hk###text-33
-stoneip.info###text-57
 zh141.com###text1
 firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
@@ -30238,6 +30240,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||elpais.com/t.gif
 ||emarketeer.com/tracker/
 ||emrld.cc^$script
+||emrld.ltd/collect
 ||enc-90128738.b-cdn.net^
 ||endorsal.io/check/
 ||engagelab.com/ma-report/
@@ -30972,6 +30975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mm-sdk-analytics.api.cx.metamask.io^
 ||mmcdn.com/events/
 ||mmi.bemobile.ua^
+||mn-tz.com/adv_out.js
 ||mochiads.com/clk/
 ||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
@@ -31721,6 +31725,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wpmucdn.com^
 ||stats.zoogletools.net^
 ||stats.zotabox.com^
+||stats.zruvix.com^
 ||stats2.indianpornempire.com^
 ||statsadv.dadapro.com^$third-party
 ||statsapi.screen9.com^
@@ -33856,6 +33861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.kkb.com.tr^
 ||analytics.qushad.com^
 ||analytics.ticimax.cloud^
+||analytics.tsoftapps.com^
 ||analytics.turk.pro^$third-party
 ||app.kulgacdn.com/js/script.js
 ||apps.ihlasdigitalassets.com/stats
@@ -33869,6 +33875,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kolayik.com/gjyo/
 ||log.collectaction.com^
 ||sayac.kapital.com.tr^
+||sdk.mdznconnect.com/data-collector/
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||track.livasoft.com.tr^
@@ -35052,6 +35059,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lyngsat.com/system/loadclick.js
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
 ||m365.cloud.microsoft/events
+||ma.gamersnexus.net^
 ||ma.redhat.com^
 ||macys.com/tag_path/
 ||mail.proton.me/api/data/v1/stats
@@ -35863,6 +35871,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thehackernews.com/ga/c
 ||thehackernews.com/ga4/c
 ||thehealthsite.com/apstag.js
+||theinfatuation.com/api/logger
 ||theladders.com/api/user-tracking/
 ||thepoorswiss.com/tps/cfwa-collect
 ||thesun.co.uk/assets/client/analyticsListeners~
@@ -36084,6 +36093,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vk.com/al_video.php?act=track_player_events
 ||vk.com/al_video.php?act=watch_stat
 ||vk.com/js/lib/px.js
+||voidemail.org/js/track.js
 ||vortex.hulu.com^
 ||voyeur-house.tv/js/track.js
 ||vpsbenchmarks.com/plausible.vpsb.js
@@ -75150,6 +75160,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||picsearch.com/js/comscore.js$domain=dn.se
 !---------- Thai ----------
 !---------- Turkish ----------
+@@||canliradyodinle.fm/live/fm/gtag.min.js$~third-party
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||merlincdn.net^*/common/images/spacer.gif$image,domain=turkcell.com.tr
 !---------- Ukrainian ----------
