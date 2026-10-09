@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3IZrCs/Jcl8ZSejm2S7YNQ
+! Checksum: MeXo4jsawEybqH9GZLwy8Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610100108
-! Last Modified: 2026年10月10日 01:08
+! Version: 202610100550
+! Last Modified: 2026年10月10日 05:50
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1855,7 +1855,7 @@ vidsrc.*#$#timer-override 3600000 /0x|sandCheck/ noop interval; prevent-element-
 bysebuho.com,bysesayeveum.com#$#timer-override 1000000 readyWait
 peachify.top#$#prevent-listener click /atob|_blank/
 peachify.top#$#replace-argument atob 0 aHR0cHM6Ly '!'
-vidnest.fun#$#timer-override 1 window.location.replace noop timeout
+vidnest.*#$#timer-override 1 window.location.replace noop timeout
 vidrock.ru#$#prevent-element-src-loading script /acscdn\\.com|aclib/
 zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestream_cnwpop
 ||users.videasy.to^$domain=vidking.net|player.videasy.to
@@ -1874,7 +1874,7 @@ mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*
 kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
 /rollbar.min.css$script,domain=streamingnow.mov
 ||vidnees.workers.dev/fetch?url=$domain=vidnest.fun
-vidnest.*#$#prevent-window-open /[?&](step1|step2|param4|zid|tvc)=/ 2 obj
+vidnest.*#$#prevent-window-open /[?&](step1|step2|param4|zid|tvc)=/ 2 obj; prevent-element-src-loading script /[.]workers[.]dev[/]fetch[?]url=/
 streamingnow.*#$#prevent-window-open _blank 2000 obj
 flixmomo.tv#$#override-property-read d209d49aa17db3b2d31e017b1106d2e0 true false
 animesuge.at,netprime.bz#$#prevent-listener click /param4=lc/; prevent-listener mouseout /clientY/
@@ -1894,6 +1894,8 @@ vidsrc.*,vidy.*#$#prevent-element-src-loading script /^https:\/\/[a-z0-9]+\\.[a-
 filthyhero.com##base[target="_blank"] {remove:true;}
 filthyhero.com#$#override-property-read opener null
 ||filthyhero.com/bounce-test.js^$script,domain=filthyhero.com
+stellarconductornexus.com#$#prevent-window-open /./
+streamingnow.mov,stellarconductornexus.com#$#override-property-read AtcshAltNm noopFunc
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
