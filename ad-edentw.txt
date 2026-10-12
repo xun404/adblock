@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L8SFutVJHj5Opo+rzGvzCg
+! Checksum: mbJK3/zqEOo6ajNFLBv/MQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610121737
-! Last Modified: 2026年10月12日 17:37
+! Version: 202610130357
+! Last Modified: 2026年10月13日 03:57
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -501,6 +501,7 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|winfuture.de|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com|gutefrage.net|tz.de
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com|picrew.me
 ||aroundsadly.com/session/$domain=manta.com
+manta.com#$#json-override isActive false isUnregistered
 bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,loawa.com,sourceforge.net,tz.de,winfuture.de#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 convertcase.net,eurointegration.com.ua,golf-live.at,manta.com,wfmz.com#$#abort-current-inline-script Symbol error-report.com
 dictionary.cambridge.org,malaymail.com#$#abort-current-inline-script setTimeout /error-report.com/
@@ -511,6 +512,7 @@ collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false hasA
 collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false autoRecovery
 collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false eventSampleRatio
 collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false applyRatio
+collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false isUnregistered
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
 bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,loawa.com,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
 bab.la,collinsdictionary.com,gazetaprawna.pl,gutefrage.net,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
@@ -662,6 +664,7 @@ oxfordlearnersdictionaries.com#$#json-override isActive false hasActiveAutoRecov
 oxfordlearnersdictionaries.com#$#json-override isActive false autoRecovery
 oxfordlearnersdictionaries.com#$#json-override isActive false eventSampleRatio
 oxfordlearnersdictionaries.com#$#json-override isActive false applyRatio
+oxfordlearnersdictionaries.com#$#json-override isActive false isUnregistered
 maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-container-id], [data-google-query-id])
 maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
 slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asload/;
@@ -686,6 +689,7 @@ programme.tv^$csp=script-src-attr 'none'
 programme.tv#$#prevent-element-src-loading script /loader\\.min\\.js/
 programme.tv,programme-tv.net#$#json-override isActive false eventSampleRatio
 programme.tv,programme-tv.net#$#json-override isActive false applyRatio
+programme.tv,programme-tv.net#$#json-override isActive false isUnregistered
 ||*/bundle.js^$script,domain=programme-tv.net
 ||*/bundle/*$script,domain=programme-tv.net
 programme-tv.net#$#prevent-element-src-loading script /bundle/
@@ -697,6 +701,7 @@ voici.fr,femmeactuelle.fr,caminteresse.fr#$#abort-current-inline-script btoa /la
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#prevent-element-src-loading iframe /report\\.error-report\\.com/
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#json-override isActive false eventSampleRatio
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#json-override isActive false applyRatio
+voici.fr,femmeactuelle.fr,caminteresse.fr#$#json-override isActive false isUnregistered
 ||html-load.com^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 ||aroundsadly.com/session/$domain=voici.fr|caminteresse.fr|femmeactuelle.fr
 ||error-report.com^$domain=voici.fr|femmeactuelle.fr|caminteresse.fr
@@ -712,6 +717,7 @@ base64decode.org#$#json-override isActive false hasActiveAutoRecovery
 base64decode.org#$#json-override isActive false autoRecovery
 base64decode.org#$#json-override isActive false eventSampleRatio
 base64decode.org#$#json-override isActive false applyRatio
+base64decode.org#$#json-override isActive false isUnregistered
 base64encode.org#$#replace-argument Element.prototype.setAttribute 1 ';await new' ''
 ||html-load.com^$script,domain=base64encode.org
 goldderby.com#$#override-property-read confirm noopFunc
@@ -728,6 +734,7 @@ goldderby.com#$#json-override isActive false hasActiveAutoRecovery
 goldderby.com#$#json-override isActive false autoRecovery
 goldderby.com#$#json-override isActive false eventSampleRatio
 goldderby.com#$#json-override isActive false applyRatio
+goldderby.com#$#json-override isActive false isUnregistered
 hollywoodreporter.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=hollywoodreporter.com
 ||error-report.com^$domain=hollywoodreporter.com
@@ -754,6 +761,7 @@ rollingstone.com#$#json-override isActive false hasActiveAutoRecovery
 rollingstone.com#$#json-override isActive false autoRecovery
 rollingstone.com#$#json-override isActive false eventSampleRatio
 rollingstone.com#$#json-override isActive false applyRatio
+rollingstone.com#$#json-override isActive false isUnregistered
 indiewire.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=indiewire.com
 ||error-report.com^$domain=indiewire.com
@@ -767,6 +775,7 @@ indiewire.com#$#json-override isActive false hasActiveAutoRecovery
 indiewire.com#$#json-override isActive false autoRecovery
 indiewire.com#$#json-override isActive false eventSampleRatio
 indiewire.com#$#json-override isActive false applyRatio
+indiewire.com#$#json-override isActive false isUnregistered
 deadline.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=deadline.com
 ||error-report.com^$domain=deadline.com
@@ -783,6 +792,7 @@ deadline.com#$#json-override isActive false hasActiveAutoRecovery
 deadline.com#$#json-override isActive false autoRecovery
 deadline.com#$#json-override isActive false eventSampleRatio
 deadline.com#$#json-override isActive false applyRatio
+deadline.com#$#json-override isActive false isUnregistered
 variety.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=variety.com
 ||error-report.com^$domain=variety.com
@@ -843,6 +853,7 @@ dreadcentral.com##iframe[src*="error-report.com"] {remove:true;}
 ||error-report.com^$domain=dreadcentral.com
 ||*/loader.min.js|$script,domain=dreadcentral.com
 dreadcentral.com^$csp=script-src-attr 'none'
+pcgamesn.com#$#json-override isActive false isUnregistered
 pcgamesn.com#$#json-override isActive false hasActiveAutoRecovery
 pcgamesn.com#$#json-override isActive false eventSampleRatio
 pcgamesn.com#$#json-override isActive false applyRatio
@@ -871,6 +882,7 @@ pcgamer.com#$#abort-current-inline-script eval /x50p3331wdfu/
 pcgamer.com#$#override-property-read window.x9vhy6gdq24a true; override-property-read window.x6ze2g6tew62 true; override-property-read window.x50p3331wdfu true
 pcgamer.com#$#json-override isActive false eventSampleRatio
 pcgamer.com#$#json-override isActive false applyRatio
+pcgamer.com#$#json-override isActive false isUnregistered
 goodto.com,homesandgardens.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
 goodto.com,homesandgardens.com##div[data-bordeaux-hook-loaded]
 ||d2gx36c54v062j.cloudfront.net^$script,domain=golfmonthly.com
@@ -893,6 +905,7 @@ nikkansports.com#$#hide-if-matches-xpath './/div[contains(@id,"adUnit")]/parent:
 nikkansports.com#$#override-property-read adshield.isAdBlockerDetected false
 nikkansports.com#$#json-override isActive false eventSampleRatio
 nikkansports.com#$#json-override isActive false applyRatio
+nikkansports.com#$#json-override isActive false isUnregistered
 ||speee-ad.akamaized.net^$third-party,domain=nikkansports.com
 ||delivery.speee-ad.jp^$domain=nikkansports.com
 ||durationmedia.net^$script,domain=nikkansports.com
@@ -963,6 +976,7 @@ index.hr#$#json-override isActive false hasActiveAutoRecovery
 index.hr#$#json-override isActive false autoRecovery
 index.hr#$#json-override isActive false eventSampleRatio
 index.hr#$#json-override isActive false applyRatio
+index.hr#$#json-override isActive false isUnregistered
 ||html-load.com^$script,domain=vimm.net
 ||content-loader.com^$script,domain=vimm.net
 ||error-report.com^$domain=vimm.net
@@ -1050,6 +1064,7 @@ fandom.com#$#json-override isActive false hasActiveAutoRecovery
 fandom.com#$#json-override isActive false autoRecovery
 fandom.com#$#json-override isActive false eventSampleRatio
 fandom.com#$#json-override isActive false applyRatio
+fandom.com#$#json-override isActive false isUnregistered
 ||html-load.com^$script,domain=kuruma-news.jp
 ||rewardingfill.com^$domain=kuruma-news.jp
 ||duhrawhide.com^$domain=kuruma-news.jp
@@ -1063,6 +1078,7 @@ www.wetter.com#$#override-property-read wcomBlock noopFunc false; override-prope
 space.com#$#prevent-element-src-loading script /\/feed\//
 space.com#$#json-override isActive false eventSampleRatio
 space.com#$#json-override isActive false applyRatio
+space.com#$#json-override isActive false isUnregistered
 ||error-report.com^$domain=space.com
 ||stg.html-load.com^$script,domain=space.com
 ||html-load.com^$script,domain=space.com
@@ -1073,6 +1089,7 @@ space.com#$#json-override isActive false applyRatio
 ||space.com$csp=script-src-attr 'none'
 space.com#$#abort-current-inline-script eval /x50p3331wdfu/
 space.com#$#override-property-read window.x9vhy6gdq24a true; override-property-read window.x6ze2g6tew62 true; override-property-read window.x50p3331wdfu true
+tomshardware.com#$#json-override isActive false isUnregistered
 tomshardware.com#$#json-override isActive false eventSampleRatio
 tomshardware.com#$#json-override isActive false applyRatio
 tomshardware.com#$#prevent-element-src-loading script /\/feed\//
@@ -1086,6 +1103,7 @@ tomshardware.com#$#prevent-element-src-loading script /\/feed\//
 ||tomshardware.com$csp=script-src-attr 'none'
 tomshardware.com#$#abort-current-inline-script eval /x50p3331wdfu/
 tomshardware.com#$#override-property-read window.x9vhy6gdq24a true; override-property-read window.x6ze2g6tew62 true; override-property-read window.x50p3331wdfu true
+tomsguide.com#$#json-override isActive false isUnregistered
 tomsguide.com#$#json-override isActive false eventSampleRatio
 tomsguide.com#$#json-override isActive false applyRatio
 tomsguide.com#$#prevent-element-src-loading script /\/feed\//
@@ -1115,6 +1133,7 @@ guitarworld.com#$#override-property-read window.x9vhy6gdq24a true; override-prop
 hochi.news#$#override-property-read Navigator.prototype.onLine false
 hochi.news#$#json-override isActive false eventSampleRatio
 hochi.news#$#json-override isActive false applyRatio
+hochi.news#$#json-override isActive false isUnregistered
 ||content-loader.com^$script,domain=hochi.news
 ||html-load.com^$script,domain=hochi.news
 ||duhquietly.com^$script,domain=hochi.news
@@ -1160,6 +1179,7 @@ hk01.com^$csp=script-src-attr 'none'
 hk01.com#$#override-property-read isAdShieldTurn false
 hk01.com#$#json-override isActive false eventSampleRatio
 hk01.com#$#json-override isActive false applyRatio
+hk01.com#$#json-override isActive false isUnregistered
 ||*/lib.js^$script,domain=seriouseats.com
 ||content-loader.com^$script,domain=seriouseats.com
 ||html-load.com^$script,domain=seriouseats.com
@@ -1185,6 +1205,7 @@ pockettactics.com#$#json-override isActive false hasActiveAutoRecovery
 pockettactics.com#$#json-override isActive false autoRecovery
 pockettactics.com#$#json-override isActive false eventSampleRatio
 pockettactics.com#$#json-override isActive false applyRatio
+pockettactics.com#$#json-override isActive false isUnregistered
 ||content-loader.com^$script,domain=stocktwits.com
 ||html-load.com^$script,domain=stocktwits.com
 ||aroundsadly.com/session/$domain=stocktwits.com
@@ -1194,6 +1215,8 @@ pockettactics.com#$#json-override isActive false applyRatio
 ||stocktwits.com^$csp=script-src-attr 'none'
 stocktwits.com#$#json-override isActive false eventSampleRatio
 stocktwits.com#$#json-override isActive false applyRatio
+stocktwits.com#$#json-override isActive false isUnregistered
+omnicalculator.com#$#json-override isActive false isUnregistered
 omnicalculator.com#$#json-override isActive false eventSampleRatio
 omnicalculator.com#$#json-override isActive false applyRatio
 ||content-loader.com^$script,domain=omnicalculator.com
@@ -1238,6 +1261,7 @@ tunebat.com#$#override-property-read Navigator.prototype.onLine false
 tunebat.com#$#override-property-read isAdShieldTurn false
 tunebat.com#$#json-override isActive false eventSampleRatio
 tunebat.com#$#json-override isActive false applyRatio
+tunebat.com#$#json-override isActive false isUnregistered
 ||onlineradiobox.com$csp=script-src-attr 'none'
 ||html-load.com^$script,domain=onlineradiobox.com
 ||content-loader.com^$script,domain=onlineradiobox.com
@@ -1249,6 +1273,7 @@ onlineradiobox.com#$#json-override isActive false hasActiveAutoRecovery
 onlineradiobox.com#$#json-override isActive false autoRecovery
 onlineradiobox.com#$#json-override isActive false eventSampleRatio
 onlineradiobox.com#$#json-override isActive false applyRatio
+onlineradiobox.com#$#json-override isActive false isUnregistered
 ||html-load.com^$script,domain=puckpedia.com
 ||content-loader.com^$script,domain=puckpedia.com
 ||gadzooksrudely.com^$script,domain=puckpedia.com
@@ -1290,6 +1315,7 @@ makeitmeme.com#$#json-override isActive false hasActiveAutoRecovery
 makeitmeme.com#$#json-override isActive false autoRecovery
 makeitmeme.com#$#json-override isActive false eventSampleRatio
 makeitmeme.com#$#json-override isActive false applyRatio
+makeitmeme.com#$#json-override isActive false isUnregistered
 ||*/vendor.js|$script,rewrite=abp-resource:blank-js,domain=makeitmeme.com
 ||error-report.com^$domain=makeitmeme.com
 buienalarm.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
@@ -1315,18 +1341,21 @@ meteovista.be#$#json-override isActive false hasActiveAutoRecovery
 meteovista.be#$#json-override isActive false autoRecovery
 meteovista.be#$#json-override isActive false eventSampleRatio
 meteovista.be#$#json-override isActive false applyRatio
+meteovista.be#$#json-override isActive false isUnregistered
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=games.gg
 games.gg#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 mamastar.jp#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=mamastar.jp
 uesp.net#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/lib.js|$script,rewrite=abp-resource:blank-js,domain=uesp.net
+gumtree.com#$#json-override isActive false isUnregistered
 gumtree.com#$#json-override isActive false eventSampleRatio
 gumtree.com#$#json-override isActive false applyRatio
 gumtree.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=gumtree.com
 ||html-load.com^$script,xmlhttprequest,domain=weerplaza.nl
 weerplaza.nl#$#replace-argument Element.prototype.setAttribute 1 '/[\\s\\S]*(error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError)[\\s\\S]*/' ''
+worldjournal.com#$#json-override isActive false isUnregistered
 worldjournal.com#$#json-override isActive false eventSampleRatio
 worldjournal.com#$#override-property-read isAdShieldTurn false
 worldjournal.com#$#json-override isActive false applyRatio
@@ -1341,15 +1370,19 @@ motorsport.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_re
 ||*/lib.js|$script,rewrite=abp-resource:blank-js,domain=motorsport.com
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=silkroadrecipes.com
 silkroadrecipes.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+silkroadrecipes.com#$#json-override isActive false isUnregistered
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=souvlakiforthesoul.com
 souvlakiforthesoul.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 souvlakiforthesoul.com#$#json-override isActive false applyRatio
+souvlakiforthesoul.com#$#json-override isActive false isUnregistered
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=thecafesucrefarine.com
 thecafesucrefarine.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 thecafesucrefarine.com#$#json-override isActive false applyRatio
+thecafesucrefarine.com#$#json-override isActive false isUnregistered
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=mychemicalfreehouse.net
 mychemicalfreehouse.net#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 mychemicalfreehouse.net#$#json-override isActive false applyRatio
+mychemicalfreehouse.net#$#json-override isActive false isUnregistered
 ||html-load.cc^$script
 cults3d.com#$#prevent-element-src-loading script /\/script\/[A-Za-z0-9_-]+/
 ||*/app.js|$script,rewrite=abp-resource:blank-js,domain=hna.de
@@ -1364,6 +1397,7 @@ fragrantica.com#$#abort-current-inline-script Object.getOwnPropertyDescriptor /H
 dogdrip.net#$#json-override isActive false hasActiveAutoRecovery
 dogdrip.net#$#json-override isActive false eventSampleRatio
 dogdrip.net#$#json-override isActive false applyRatio
+dogdrip.net#$#json-override isActive false isUnregistered
 gamebanana.com#$#json-override isActive false applyRatio
 myinstants.com#$#json-override isActive false applyRatio
 u.gg#$#json-override isActive false applyRatio
@@ -1397,6 +1431,7 @@ giphy.com#$#prevent-element-src-loading script /ad-shield/
 word.tips#$#prevent-element-src-loading script /ad-shield/
 slickdeals.net#$#prevent-element-src-loading script /ad-shield/
 drudgereport.com#$#prevent-element-src-loading script /html-load/
+people.com#$#json-override isActive false isUnregistered
 yahoo.com#$#json-override isActive false autoRecovery
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
@@ -2289,12 +2324,13 @@ www.facebook.com,web.facebook.com##div[aria-posinset] a[href^="?"] span[style*="
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href="#"] span[style*="absolute"]
 www.facebook.com,web.facebook.com#$#hide-if-shadow-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]'
 www.facebook.com,web.facebook.com#$#hide-if-shadow-contains '/^[^A-Za-z0-9]*(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)[^A-Za-z0-9]*$/' 'div[aria-posinset]'
+www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)[^A-Za-z0-9]*$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^'
 ! rp
 ! mp
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"peatHalyard")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"oxbowLumen")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -3361,8 +3397,8 @@ olx.pl,olx.ro,olx.bg,olx.pt,olx.ua,olx.kz,olx.uz#$#json-prune 'listing.listing'
 otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-text(reklama))
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
-pinterest.*#?#div[data-grid-item]:has(div[title]:-abp-contains(/^(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
-pinterest.com#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data'
+pinterest.*#?#div[data-grid-item]:has(a:has-text(/(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
+pinterest.*#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data initialReduxState.resources.UserHomefeedResource.{}.data.[-].ad_data'
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
@@ -3502,9 +3538,6 @@ mail.ru#@#.tgb-wrapper
 mail.ru#@#[href^="https://dzen.ru"]
 @@://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:
 mail.ru#@#[href*="https://dzen.ru"]
-! pinterest on hover issue
-pinterest.com#@#div[data-grid-item]:has(a[rel="nofollow"][href^="http"])
-pinterest.com#@#div[data-grid-item]:has(div[data-test-id="pinrep-video"]):has(a[rel="nofollow"][href^="http"])
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
