@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OX8Gyhm239BbIfzafwqqFg
+! Checksum: YBhftKNODiPhNXAXN3SN0g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610131740
-! Last Modified: 2026年10月13日 17:40
+! Version: 202610140144
+! Last Modified: 2026年10月14日 01:44
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1728,7 +1728,7 @@ cine.to#$#abort-on-property-read document.head.appendChild
 nhentai.net#$#override-property-read _n_app.popunder null;
 asianporn.li,bunkr-albums.io,familyporn.tv,forums.socialmediagirls.com,masahub.net,rule34.*#$#abort-on-property-write zfgloadedpopup;
 hitomi.la#$#override-property-read popsource null; override-property-read adsdir null; override-property-read ad_cookieconsent false; override-property-read D4zz undefined; abort-on-property-read _pop; abort-on-property-read hitomi; abort-on-property-read open; override-property-read ad_idzone null; abort-on-property-read ylmkAp.addZone; override-property-read ad_popup_fallback false; prevent-listener /click|load/ popMagic; abort-current-inline-script EventTarget.prototype.addEventListener wpadmngr
-8teenxxx.com,between-legs.com,pornblade.com,pornfelix.com#$#prevent-listener /click|load/ popMagic
+8teenxxx.com,between-legs.com,pornblade.com,pornfelix.com,xxxcinema.tube#$#prevent-listener /click|load/ popMagic
 ahvsh.com,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbplay2.com,sbrapid.com,streamhide.to,streamsb.com,streamsb.net,streamwish.*,viewsb.com#$#abort-on-property-read __Y
 sxyprn.*#$#abort-current-inline-script vast_urls; override-property-read D4zz undefined
 *$script,third-party,domain=sxyprn.com
@@ -1934,6 +1934,7 @@ filthyhero.com#$#override-property-read opener null
 ||filthyhero.com/bounce-test.js^$script,domain=filthyhero.com
 stellarconductornexus.com#$#prevent-window-open /./
 streamingnow.mov,stellarconductornexus.com#$#override-property-read AtcshAltNm noopFunc
+xxxcinema.tube#$#prevent-window-open /./ 1000
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2171,6 +2172,7 @@ theflixertv.*#$#hide-if-matches-xpath './/div[@dir][@style][attribute::*[starts-
 streamcloud.my#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 1815px; z-index: 2147483647;"]/self::*[1]'
 /player/html.php?aid=*&video_id=*&referer=https*kissjav*^$domain=kissjav.li|kissjav.com
 /getimage.php$domain=gay-torrents.net
+||spellknight.com^$script,domain=independent.co.uk
 kissjav.li##.asside-link
 flaswish.com#$#abort-on-property-read myScriptManager; abort-on-property-read hg_plugin_MN.init
 sourceforge.net#$#hide-if-matches-xpath './/a[contains(@href,"campaign=display")]/parent::div[@class][1]'
@@ -2253,6 +2255,7 @@ xhamster.*,xhamster1.desi,xhamster2.com,xhamster3.com,xhamster19.com,xhaccess.co
 ||porndoe.com/movie/preroll/*$media,rewrite=abp-resource:blank-mp4,domain=porntrex.com
 ||xanimu.com/ablck$domain=xanimu.com
 ||xanimu.com/*.php$domain=xanimu.com
+||bxcdn.net^$media,domain=xxxcinema.tube,rewrite=abp-resource:blank-mp4
 ||ark.tubi.video/v2/*.mp4^$domain=tubitv.com
 mega.nz#$#replace-fetch-response '/aurl/' '' /mega.co.nz/
 ||up4stream.com/*.mp4^$domain=ups2up.fun
@@ -2335,7 +2338,7 @@ www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsore
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"oxbowLumen")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"rimeTussock")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -3744,7 +3747,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bnbagnut.com^
 ||bolasarpen.com^
 ||boltedacyetic.cfd^
-||bongaropianyl.qpon^
 ||bonjourands.com^
 ||bonnockconsul.com^
 ||boomedpetards.com^
@@ -3833,7 +3835,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cokeymythos.com^
 ||colordownbye.com^
 ||comalesmirled.com^
-||combitedoeglic.com^
 ||comics18.cam^
 ||completiondistant.com^
 ||compoerhayz.com^
@@ -4007,6 +4008,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||flakespunishmentscythe.com^
 ||flossedmoiled.com^
 ||focheglyzy.com^
+||focipalaeic.com^
 ||fogramcolcine.com^
 ||fondleaegipan.shop^
 ||foodycallat.com^
@@ -4044,6 +4046,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||gentrycheaper.com^
 ||gerentstaperly.com^
 ||gestatejiggly.com^
+||gftidukiy.com^
 ||ghabovethec.info^
 ||ghurrytacoma.com^
 ||gigglemagnetismunaired.com^
@@ -4140,6 +4143,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||impatientbelievable.com^
 ||impedegrimy.com^
 ||impendfinnip.com^
+||imperiomanhwa.com^
 ||inciseclog.com^
 ||increepbordure.com^
 ||indazinassumer.com^
@@ -4225,6 +4229,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ligninkeftiu.com^
 ||lilianiacchos.com^
 ||limbecculvers.com^
+||linen-meadow-cdn-25.workers.dev^
 ||lingamretene.com^
 ||liquidateliar.com^
 ||lirdawkin.com^
@@ -4249,6 +4254,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||mamerstonto.com^
 ||manhoodinvoluntaryplash.com^
 ||maolmjnsxhry.com^
+||maolmjxkiyqaz.com^
 ||mappersavarish.com^
 ||mapssufeism.com^
 ||maraywreath.com^
@@ -4306,6 +4312,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ningposkidi.com^
 ||niseistopless.cyou^
 ||nitrogencloudelevationsystems.com^
+||njedcfkcwpcze.site^
 ||noemisnakier.com^
 ||noondayroughie.com^
 ||norimoncremes.com^
@@ -4321,6 +4328,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||oblivioncertain.com^
 ||obviouswait.com^
 ||offletsoroche.life^
+||offsetorthodoxsilk.com^
 ||oldnessdernly.qpon^
 ||omegatootler.rest^
 ||omegoidergoted.com^
@@ -4454,6 +4462,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||roledipocras.com^
 ||roommatepetition.com^
 ||rosasyndic.com^
+||rsxetdsqpkuck.site^
 ||ruamupr.com^
 ||ruddytoph.com^
 ||ruderalweiring.com^
@@ -4636,6 +4645,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||topiccaroler.com^
 ||topperanlases.com^
 ||torsinieveta.com^
+||torusbanners.com^
 ||totoabalyric.com^
 ||touchyjewed.com^
 ||towerhavenet.com^
@@ -4687,6 +4697,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||uttergleeks.com^
 ||vaisyabam.com^
 ||valesbraises.com^
+||vastuspotleg.com^
 ||vd.7vid.net^
 ||vector26060.com^
 ||verdedagon.com^
