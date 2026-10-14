@@ -2,6 +2,8 @@
 
 > Fork: [@halflife](https://github.com/o0HalfLife0o) & [@halflife-list](https://github.com/o0HalfLife0o/list)
 
+> 选择建议：**桌面端**用 ad-pc；**移动端**追求轻量（体积小、省流量）用 ad.txt 系列，需要全量覆盖（含 EasyList、EasyPrivacy、anti-AD）用 ad-mo；遇到"请关闭广告拦截器"提示时配合 ad-edentw。
+
 1. ad-pc.txt：[推荐桌面端]合并自 Easylist、EasylistChina、anti-AD、EasyPrivacy、CJX'sAnnoyance，以及补充的一些规则；
     - [jsdelivr源: https://cdn.jsdelivr.net/gh/xun404/adblock@main/ad-pc.txt](https://cdn.jsdelivr.net/gh/xun404/adblock@main/ad-pc.txt)
     - [github源: https://raw.githubusercontent.com/xun404/adblock/main/ad-pc.txt](https://raw.githubusercontent.com/xun404/adblock/main/ad-pc.txt)
