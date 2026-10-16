@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xUtTgUCzB9rs6bHNaSB6Og
+! Checksum: rRw04XL+ReOy16nsf0uB3g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610160231
-! Last Modified: 2026年10月16日 02:31
+! Version: 202610162039
+! Last Modified: 2026年10月16日 20:39
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -513,8 +513,8 @@ collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false auto
 collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false eventSampleRatio
 collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false applyRatio
 collinsdictionary.com,gutefrage.net,pons.com#$#json-override isActive false isUnregistered
-collinsdictionary.com#$#abort-on-property-read as_1593038143; abort-on-property-read as_-699057757; abort-on-property-read as_779790742; abort-on-property-read as_1947979066
-pons.com#$#abort-on-property-read as_363214439; abort-on-property-read as_1107183819; abort-on-property-read as_-1522416967; abort-on-property-read as_249304733; abort-on-property-read as_-1591366398
+collinsdictionary.com#$#abort-on-property-read as_779790743; abort-on-property-read as_1593038144; abort-on-property-read as_1593038143; abort-on-property-read as_-699057757; abort-on-property-read as_779790742; abort-on-property-read as_1947979066
+pons.com#$#abort-on-property-read as_-1591366397; abort-on-property-read as_-1522416966; abort-on-property-read as_363214440; abort-on-property-read as_363214439; abort-on-property-read as_1107183819; abort-on-property-read as_-1522416967; abort-on-property-read as_249304733; abort-on-property-read as_-1591366398
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
 bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,loawa.com,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
 bab.la,collinsdictionary.com,gazetaprawna.pl,gutefrage.net,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
@@ -553,9 +553,9 @@ awealthofcommonsense.com#$#cookie-remover /adblocker/ true
 rvtravel.com#$#cookie-remover /adblocker/ true
 sallysbakingaddiction.com#$#cookie-remover /adblocker/ true
 amandascookin.com#$#json-override isActive false isUnregistered
-amandascookin.com#$#abort-on-property-read as_-1371906360; abort-on-property-read as_1479027692; abort-on-property-read as_811976433; abort-on-property-read as_567424213
+amandascookin.com#$#abort-on-property-read as_-1371906359; abort-on-property-read as_811976434; abort-on-property-read as_-1371906360; abort-on-property-read as_1479027692; abort-on-property-read as_811976433; abort-on-property-read as_567424213
 awealthofcommonsense.com#$#json-override isActive false isUnregistered
-awealthofcommonsense.com#$#abort-on-property-read as_-1155292836; abort-on-property-read as_538854784; abort-on-property-read as_-1612486381; abort-on-property-read as_-1735584649
+awealthofcommonsense.com#$#abort-on-property-read as_-1155292835; abort-on-property-read as_-1612486380; abort-on-property-read as_-1155292836; abort-on-property-read as_538854784; abort-on-property-read as_-1612486381; abort-on-property-read as_-1735584649
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=picrew.me
 ||picrew.me^$csp=script-src-attr 'none'
 text-compare.com#$#override-property-read Element.prototype.remove noopFunc
@@ -582,6 +582,7 @@ ecouter-en-direct.com##div>div[class^="ad_mobil"] {remove:true;}
 ecouter-en-direct.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=ecouter-en-direct.com
 ||error-report.com^$domain=ecouter-en-direct.com
+@@||html-load.com/loader.min.js$script,domain=ecouter-en-direct.com
 ||*/loader.min.js|$script,domain=wordhippo.com
 ||error-report.com^$domain=wordhippo.com
 ||*/loader.min.js|$script,domain=percentagecalculator.net
@@ -610,7 +611,7 @@ issuya.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=motorbikecatalog.com
 ||error-report.com^$domain=motorbikecatalog.com
 motorbikecatalog.com#$#json-override isActive false isUnregistered
-motorbikecatalog.com#$#abort-on-property-read as_-1353912456; abort-on-property-read as_-1400790884; abort-on-property-read as_-1241598911; abort-on-property-read as_-899760603
+motorbikecatalog.com#$#abort-on-property-read as_-1241598910; abort-on-property-read as_-1353912455; abort-on-property-read as_-1353912456; abort-on-property-read as_-1400790884; abort-on-property-read as_-1241598911; abort-on-property-read as_-899760603
 ||*/loader.min.js|$script,domain=flatpanelshd.com
 ||error-report.com^$domain=flatpanelshd.com
 flatpanelshd.com#$#replace-outbound-value 'atob' 'c3RyaW5n' 'false'
@@ -662,7 +663,7 @@ oxfordlearnersdictionaries.com#$#json-override isActive false autoRecovery
 oxfordlearnersdictionaries.com#$#json-override isActive false eventSampleRatio
 oxfordlearnersdictionaries.com#$#json-override isActive false applyRatio
 oxfordlearnersdictionaries.com#$#json-override isActive false isUnregistered
-oxfordlearnersdictionaries.com#$#abort-on-property-read as_2130291311; abort-on-property-read as_-1481223469; abort-on-property-read as_-1663645704; abort-on-property-read as_1811339548
+oxfordlearnersdictionaries.com#$#abort-on-property-read as_-1663645703; abort-on-property-read as_2130291312; abort-on-property-read as_2130291311; abort-on-property-read as_-1481223469; abort-on-property-read as_-1663645704; abort-on-property-read as_1811339548
 maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-container-id], [data-google-query-id])
 maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
 slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asload/;
@@ -689,9 +690,8 @@ programme.tv#$#prevent-element-src-loading script /loader\\.min\\.js/
 programme.tv,programme-tv.net#$#json-override isActive false eventSampleRatio
 programme.tv,programme-tv.net#$#json-override isActive false applyRatio
 programme.tv,programme-tv.net#$#json-override isActive false isUnregistered
-programme-tv.net#$#abort-on-property-read as_727030116; abort-on-property-read as_-77606008; abort-on-property-read as_1764960941; abort-on-property-read as_1198726545
-programme-tv.net#$#abort-on-property-read as_727030116; abort-on-property-read as_-77606008; abort-on-property-read as_1764960941; abort-on-property-read as_1198726545
-programme.tv#$#abort-on-property-read as_-1178201866; abort-on-property-read as_2002091162; abort-on-property-read as_-240537921; abort-on-property-read as_-1733741789
+programme-tv.net#$#abort-on-property-read as_1764960942; abort-on-property-read as_727030117; abort-on-property-read as_727030116; abort-on-property-read as_-77606008; abort-on-property-read as_1764960941; abort-on-property-read as_1198726545
+programme.tv#$#abort-on-property-read as_-240537920; abort-on-property-read as_-1178201865; abort-on-property-read as_-1178201866; abort-on-property-read as_2002091162; abort-on-property-read as_-240537921; abort-on-property-read as_-1733741789
 ||*/bundle.js^$script,domain=programme-tv.net
 ||*/bundle/*$script,domain=programme-tv.net
 programme-tv.net#$#prevent-element-src-loading script /bundle/
@@ -704,9 +704,9 @@ voici.fr,femmeactuelle.fr,caminteresse.fr#$#prevent-element-src-loading iframe /
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#json-override isActive false eventSampleRatio
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#json-override isActive false applyRatio
 voici.fr,femmeactuelle.fr,caminteresse.fr#$#json-override isActive false isUnregistered
-caminteresse.fr#$#abort-on-property-read as_902563393; abort-on-property-read as_-282226651; abort-on-property-read as_381855704; abort-on-property-read as_1005871356
-femmeactuelle.fr#$#abort-on-property-read as_151603923; abort-on-property-read as_1142146615; abort-on-property-read as_1189534748; abort-on-property-read as_-1876488128
-voici.fr#$#abort-on-property-read as_-1957502362; abort-on-property-read as_-1545649654; abort-on-property-read as_-2026451793; abort-on-property-read as_-526539501
+caminteresse.fr#$#abort-on-property-read as_381855705; abort-on-property-read as_902563394; abort-on-property-read as_902563393; abort-on-property-read as_-282226651; abort-on-property-read as_381855704; abort-on-property-read as_1005871356
+femmeactuelle.fr#$#abort-on-property-read as_1189534749; abort-on-property-read as_151603924; abort-on-property-read as_151603923; abort-on-property-read as_1142146615; abort-on-property-read as_1189534748; abort-on-property-read as_-1876488128
+voici.fr#$#abort-on-property-read as_-2026451792; abort-on-property-read as_-1957502361; abort-on-property-read as_-1957502362; abort-on-property-read as_-1545649654; abort-on-property-read as_-2026451793; abort-on-property-read as_-526539501
 ||html-load.com^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
 ||aroundsadly.com/session/$domain=voici.fr|caminteresse.fr|femmeactuelle.fr
 ||error-report.com^$domain=voici.fr|femmeactuelle.fr|caminteresse.fr
@@ -723,7 +723,7 @@ base64decode.org#$#json-override isActive false autoRecovery
 base64decode.org#$#json-override isActive false eventSampleRatio
 base64decode.org#$#json-override isActive false applyRatio
 base64decode.org#$#json-override isActive false isUnregistered
-base64decode.org#$#abort-on-property-read as_1250255253; abort-on-property-read as_1463538297; abort-on-property-read as_-2006781218; abort-on-property-read as_-1555096446
+base64decode.org#$#abort-on-property-read as_-2006781217; abort-on-property-read as_1250255254; abort-on-property-read as_1250255253; abort-on-property-read as_1463538297; abort-on-property-read as_-2006781218; abort-on-property-read as_-1555096446
 base64encode.org#$#replace-argument Element.prototype.setAttribute 1 ';await new' ''
 ||html-load.com^$script,domain=base64encode.org
 goldderby.com#$#override-property-read confirm noopFunc
@@ -768,7 +768,7 @@ rollingstone.com#$#json-override isActive false autoRecovery
 rollingstone.com#$#json-override isActive false eventSampleRatio
 rollingstone.com#$#json-override isActive false applyRatio
 rollingstone.com#$#json-override isActive false isUnregistered
-rollingstone.com#$#abort-on-property-read as_-1225462466; abort-on-property-read as_2031574005; abort-on-property-read as_1893749977; abort-on-property-read as_-1124884766
+rollingstone.com#$#abort-on-property-read as_-1225462465; abort-on-property-read as_2031574006; abort-on-property-read as_-1225462466; abort-on-property-read as_2031574005; abort-on-property-read as_1893749977; abort-on-property-read as_-1124884766
 indiewire.com^$csp=script-src-attr 'none'
 ||*/loader.min.js^$script,domain=indiewire.com
 ||error-report.com^$domain=indiewire.com
@@ -844,7 +844,7 @@ invoice-generator.com#$#override-property-read Navigator.prototype.onLine false
 invoice-generator.com#$#override-property-read isAdShieldTurn false
 nationalpost.com#$#hide-if-matches-xpath './/section[contains(@aria-describedby,"advertisment")]/ancestor-or-self::*[1]'
 nationalpost.com#$#json-override isActive false isUnregistered
-nationalpost.com#$#abort-on-property-read as_696175056; abort-on-property-read as_-867668748; abort-on-property-read as_-341755769; abort-on-property-read as_-2144001301
+nationalpost.com#$#abort-on-property-read as_696175057; abort-on-property-read as_-341755768; abort-on-property-read as_696175056; abort-on-property-read as_-867668748; abort-on-property-read as_-341755769; abort-on-property-read as_-2144001301
 mr2oc.com#$#abort-on-property-read window.confirm
 mr2oc.com#$#override-property-read window.navigator.connection.rtt 2000
 mr2oc.com#$#timer-override 1 3000 noop timeout; timer-override 1 getBoundingClientRect noop interval; timer-override 1 body.remove noop interval
@@ -865,7 +865,7 @@ pcgamesn.com#$#json-override isActive false isUnregistered
 pcgamesn.com#$#json-override isActive false hasActiveAutoRecovery
 pcgamesn.com#$#json-override isActive false eventSampleRatio
 pcgamesn.com#$#json-override isActive false applyRatio
-pcgamesn.com#$#abort-on-property-read as_-1397588610; abort-on-property-read as_1959714741; abort-on-property-read as_651569305; abort-on-property-read as_1210703650
+pcgamesn.com#$#abort-on-property-read as_-1397588609; abort-on-property-read as_1959714742; abort-on-property-read as_-1397588610; abort-on-property-read as_1959714741; abort-on-property-read as_651569305; abort-on-property-read as_1210703650
 pcgamesn.com#$#override-property-read window.navigator.connection.rtt 2000
 @@||error-report.com^$xmlhttprequest,domain=pcgamesn.com
 ||*/loader.min.js|$script,domain=pcgamesn.com
@@ -891,11 +891,11 @@ pcgamer.com#$#override-property-read window.x9vhy6gdq24a true; override-property
 pcgamer.com#$#json-override isActive false eventSampleRatio
 pcgamer.com#$#json-override isActive false applyRatio
 pcgamer.com#$#json-override isActive false isUnregistered
-pcgamer.com#$#abort-on-property-read as_1234901204; abort-on-property-read as_1612760824; abort-on-property-read as_156769771; abort-on-property-read as_799513423
+pcgamer.com#$#abort-on-property-read as_156769772; abort-on-property-read as_1234901205; abort-on-property-read as_1234901204; abort-on-property-read as_1612760824; abort-on-property-read as_156769771; abort-on-property-read as_799513423
 goodto.com,homesandgardens.com#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
 goodto.com,homesandgardens.com##div[data-bordeaux-hook-loaded]
 goodto.com#$#json-override isActive false isUnregistered
-goodto.com#$#abort-on-property-read as_330297837; abort-on-property-read as_118478033; abort-on-property-read as_-1505595914; abort-on-property-read as_230791578
+goodto.com#$#abort-on-property-read as_-1505595913; abort-on-property-read as_330297838; abort-on-property-read as_330297837; abort-on-property-read as_118478033; abort-on-property-read as_-1505595914; abort-on-property-read as_230791578
 ||d2gx36c54v062j.cloudfront.net^$script,domain=golfmonthly.com
 ||html-load.com^$script,xmlhttprequest,domain=golfmonthly.com
 ||error-report.com^$domain=golfmonthly.com
@@ -916,7 +916,7 @@ nikkansports.com#$#override-property-read adshield.isAdBlockerDetected false
 nikkansports.com#$#json-override isActive false eventSampleRatio
 nikkansports.com#$#json-override isActive false applyRatio
 nikkansports.com#$#json-override isActive false isUnregistered
-nikkansports.com#$#abort-on-property-read as_-583864571; abort-on-property-read as_-1621795396; abort-on-property-read as_68684256; abort-on-property-read as_1345016809
+nikkansports.com#$#abort-on-property-read as_-583864570; abort-on-property-read as_-1621795395; abort-on-property-read as_-583864571; abort-on-property-read as_-1621795396; abort-on-property-read as_68684256; abort-on-property-read as_1345016809
 ||speee-ad.akamaized.net^$third-party,domain=nikkansports.com
 ||delivery.speee-ad.jp^$domain=nikkansports.com
 ||durationmedia.net^$script,domain=nikkansports.com
@@ -988,7 +988,7 @@ index.hr#$#json-override isActive false autoRecovery
 index.hr#$#json-override isActive false eventSampleRatio
 index.hr#$#json-override isActive false applyRatio
 index.hr#$#json-override isActive false isUnregistered
-index.hr#$#abort-on-property-read as_-765194927; abort-on-property-read as_-696245496; abort-on-property-read as_3514412; abort-on-property-read as_1022624565
+index.hr#$#abort-on-property-read as_-765194926; abort-on-property-read as_-696245495; abort-on-property-read as_-765194927; abort-on-property-read as_-696245496; abort-on-property-read as_3514412; abort-on-property-read as_1022624565
 ||html-load.com^$script,domain=vimm.net
 ||content-loader.com^$script,domain=vimm.net
 ||error-report.com^$domain=vimm.net
@@ -1091,7 +1091,7 @@ space.com#$#prevent-element-src-loading script /\/feed\//
 space.com#$#json-override isActive false eventSampleRatio
 space.com#$#json-override isActive false applyRatio
 space.com#$#json-override isActive false isUnregistered
-space.com#$#abort-on-property-read as_2139601837; abort-on-property-read as_235302545; abort-on-property-read as_2169476; abort-on-property-read as_1762946216
+space.com#$#abort-on-property-read as_2169477; abort-on-property-read as_2139601838; abort-on-property-read as_2139601837; abort-on-property-read as_235302545; abort-on-property-read as_2169476; abort-on-property-read as_1762946216
 ||error-report.com^$domain=space.com
 ||stg.html-load.com^$script,domain=space.com
 ||html-load.com^$script,domain=space.com
@@ -1105,7 +1105,7 @@ space.com#$#override-property-read window.x9vhy6gdq24a true; override-property-r
 tomshardware.com#$#json-override isActive false isUnregistered
 tomshardware.com#$#json-override isActive false eventSampleRatio
 tomshardware.com#$#json-override isActive false applyRatio
-tomshardware.com#$#abort-on-property-read as_-1484257986; abort-on-property-read as_-1031227678; abort-on-property-read as_-446327161; abort-on-property-read as_245104875
+tomshardware.com#$#abort-on-property-read as_-446327160; abort-on-property-read as_-1484257985; abort-on-property-read as_-1484257986; abort-on-property-read as_-1031227678; abort-on-property-read as_-446327161; abort-on-property-read as_245104875
 tomshardware.com#$#prevent-element-src-loading script /\/feed\//
 ||error-report.com^$domain=tomshardware.com
 ||stg.html-load.com^$script,domain=tomshardware.com
@@ -1120,7 +1120,7 @@ tomshardware.com#$#override-property-read window.x9vhy6gdq24a true; override-pro
 tomsguide.com#$#json-override isActive false isUnregistered
 tomsguide.com#$#json-override isActive false eventSampleRatio
 tomsguide.com#$#json-override isActive false applyRatio
-tomsguide.com#$#abort-on-property-read as_848810914; abort-on-property-read as_939841606; abort-on-property-read as_-148377863; abort-on-property-read as_1093137117
+tomsguide.com#$#abort-on-property-read as_-148377862; abort-on-property-read as_848810915; abort-on-property-read as_848810914; abort-on-property-read as_939841606; abort-on-property-read as_-148377863; abort-on-property-read as_1093137117
 tomsguide.com#$#prevent-element-src-loading script /\/feed\//
 ||stg.html-load.com^$script,domain=tomsguide.com
 ||error-report.com^$domain=tomsguide.com
@@ -1133,17 +1133,17 @@ tomsguide.com#$#prevent-element-src-loading script /\/feed\//
 tomsguide.com#$#abort-current-inline-script eval /x50p3331wdfu/
 tomsguide.com#$#override-property-read window.x9vhy6gdq24a true; override-property-read window.x6ze2g6tew62 true; override-property-read window.x50p3331wdfu true
 cinemablend.com#$#json-override isActive false isUnregistered
-cinemablend.com#$#abort-on-property-read as_1886406654; abort-on-property-read as_-1887852953; abort-on-property-read as_-565856053; abort-on-property-read as_722241954
+cinemablend.com#$#abort-on-property-read as_1886406655; abort-on-property-read as_-1887852952; abort-on-property-read as_1886406654; abort-on-property-read as_-1887852953; abort-on-property-read as_-565856053; abort-on-property-read as_722241954
 livingetc.com#$#json-override isActive false isUnregistered
-livingetc.com#$#abort-on-property-read as_-436934903; abort-on-property-read as_560253874; abort-on-property-read as_-213451690; abort-on-property-read as_-60156179
+livingetc.com#$#abort-on-property-read as_-436934902; abort-on-property-read as_560253875; abort-on-property-read as_-436934903; abort-on-property-read as_560253874; abort-on-property-read as_-213451690; abort-on-property-read as_-60156179
 techradar.com#$#json-override isActive false isUnregistered
-techradar.com#$#abort-on-property-read as_386586158; abort-on-property-read as_1383774935; abort-on-property-read as_-1777598149; abort-on-property-read as_-1624302638
+techradar.com#$#abort-on-property-read as_386586159; abort-on-property-read as_1383774936; abort-on-property-read as_386586158; abort-on-property-read as_1383774935; abort-on-property-read as_-1777598149; abort-on-property-read as_-1624302638
 theweek.com#$#json-override isActive false isUnregistered
-theweek.com#$#abort-on-property-read as_281736995; abort-on-property-read as_1359868428; abort-on-property-read as_2116439687; abort-on-property-read as_-1365280208
+theweek.com#$#abort-on-property-read as_281736996; abort-on-property-read as_1359868429; abort-on-property-read as_281736995; abort-on-property-read as_1359868428; abort-on-property-read as_2116439687; abort-on-property-read as_-1365280208
 whathifi.com#$#json-override isActive false isUnregistered
-whathifi.com#$#abort-on-property-read as_-1521593274; abort-on-property-read as_1835710077; abort-on-property-read as_-641063583; abort-on-property-read as_-81929238
+whathifi.com#$#abort-on-property-read as_-1521593273; abort-on-property-read as_1835710078; abort-on-property-read as_-1521593274; abort-on-property-read as_1835710077; abort-on-property-read as_-641063583; abort-on-property-read as_-81929238
 windowscentral.com#$#json-override isActive false isUnregistered
-windowscentral.com#$#abort-on-property-read as_1857111568; abort-on-property-read as_838001415; abort-on-property-read as_643018091; abort-on-property-read as_-1162045132
+windowscentral.com#$#abort-on-property-read as_1857111569; abort-on-property-read as_838001416; abort-on-property-read as_1857111568; abort-on-property-read as_838001415; abort-on-property-read as_643018091; abort-on-property-read as_-1162045132
 androidcentral.com,cinemablend.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,golfmonthly.com,guitarworld.com,homesandgardens.com,kiplinger.com,loudersound.com,marieclaire.com,musicradar.com,theweek.com,tvtechnology.com,whathifi.com,whowhatwear.com,windowscentral.com#$#abort-current-inline-script document.createElement html-load.com
 ||error-report.com^$domain=guitarworld.com
 ||stg.html-load.com^$script,domain=guitarworld.com
@@ -1162,7 +1162,7 @@ hochi.news#$#override-property-read Navigator.prototype.onLine false
 hochi.news#$#json-override isActive false eventSampleRatio
 hochi.news#$#json-override isActive false applyRatio
 hochi.news#$#json-override isActive false isUnregistered
-hochi.news#$#abort-on-property-read as_656175119; abort-on-property-read as_-1802898426; abort-on-property-read as_433492083; abort-on-property-read as_321178538
+hochi.news#$#abort-on-property-read as_656175120; abort-on-property-read as_-1802898425; abort-on-property-read as_656175119; abort-on-property-read as_-1802898426; abort-on-property-read as_433492083; abort-on-property-read as_321178538
 ||content-loader.com^$script,domain=hochi.news
 ||html-load.com^$script,domain=hochi.news
 ||duhquietly.com^$script,domain=hochi.news
@@ -1194,7 +1194,7 @@ hk01.com#$#override-property-read isAdShieldTurn false
 hk01.com#$#json-override isActive false eventSampleRatio
 hk01.com#$#json-override isActive false applyRatio
 hk01.com#$#json-override isActive false isUnregistered
-hk01.com#$#abort-on-property-read as_1846149954; abort-on-property-read as_1915099385; abort-on-property-read as_469343453; abort-on-property-read as_1488453606
+hk01.com#$#abort-on-property-read as_1846149955; abort-on-property-read as_1915099386; abort-on-property-read as_1846149954; abort-on-property-read as_1915099385; abort-on-property-read as_469343453; abort-on-property-read as_1488453606
 @@||html-load.com/loader.min.js$script,domain=seriouseats.com
 ||*/lib.js^$script,domain=seriouseats.com
 ||content-loader.com^$script,domain=seriouseats.com
@@ -1224,7 +1224,7 @@ pockettactics.com#$#json-override isActive false autoRecovery
 pockettactics.com#$#json-override isActive false eventSampleRatio
 pockettactics.com#$#json-override isActive false applyRatio
 pockettactics.com#$#json-override isActive false isUnregistered
-pockettactics.com#$#abort-on-property-read as_-1360813277; abort-on-property-read as_823069516; abort-on-property-read as_-805174416; abort-on-property-read as_106429063
+pockettactics.com#$#abort-on-property-read as_-1360813276; abort-on-property-read as_823069517; abort-on-property-read as_-1360813277; abort-on-property-read as_823069516; abort-on-property-read as_-805174416; abort-on-property-read as_106429063
 ||content-loader.com^$script,domain=stocktwits.com
 ||html-load.com^$script,domain=stocktwits.com
 ||aroundsadly.com/session/$domain=stocktwits.com
@@ -1235,7 +1235,7 @@ pockettactics.com#$#abort-on-property-read as_-1360813277; abort-on-property-rea
 stocktwits.com#$#json-override isActive false eventSampleRatio
 stocktwits.com#$#json-override isActive false applyRatio
 stocktwits.com#$#json-override isActive false isUnregistered
-stocktwits.com#$#abort-on-property-read as_1857764269; abort-on-property-read as_-1589122012; abort-on-property-read as_853143185; abort-on-property-read as_395949640
+stocktwits.com#$#abort-on-property-read as_1857764270; abort-on-property-read as_-1589122011; abort-on-property-read as_1857764269; abort-on-property-read as_-1589122012; abort-on-property-read as_853143185; abort-on-property-read as_395949640
 omnicalculator.com#$#json-override isActive false isUnregistered
 omnicalculator.com#$#json-override isActive false eventSampleRatio
 omnicalculator.com#$#json-override isActive false applyRatio
@@ -1282,7 +1282,7 @@ tunebat.com#$#override-property-read isAdShieldTurn false
 tunebat.com#$#json-override isActive false eventSampleRatio
 tunebat.com#$#json-override isActive false applyRatio
 tunebat.com#$#json-override isActive false isUnregistered
-tunebat.com#$#abort-on-property-read as_-315617701; abort-on-property-read as_762513732; abort-on-property-read as_-27148353; abort-on-property-read as_786099048
+tunebat.com#$#abort-on-property-read as_-315617700; abort-on-property-read as_762513733; abort-on-property-read as_-315617701; abort-on-property-read as_762513732; abort-on-property-read as_-27148353; abort-on-property-read as_786099048
 ||onlineradiobox.com$csp=script-src-attr 'none'
 ||html-load.com^$script,domain=onlineradiobox.com
 ||content-loader.com^$script,domain=onlineradiobox.com
@@ -1295,7 +1295,7 @@ onlineradiobox.com#$#json-override isActive false autoRecovery
 onlineradiobox.com#$#json-override isActive false eventSampleRatio
 onlineradiobox.com#$#json-override isActive false applyRatio
 onlineradiobox.com#$#json-override isActive false isUnregistered
-onlineradiobox.com#$#abort-on-property-read as_-2086841855; abort-on-property-read as_1189015288; abort-on-property-read as_-1750914075; abort-on-property-read as_54149148
+onlineradiobox.com#$#abort-on-property-read as_-2086841854; abort-on-property-read as_1189015289; abort-on-property-read as_-2086841855; abort-on-property-read as_1189015288; abort-on-property-read as_-1750914075; abort-on-property-read as_54149148
 ||html-load.com^$script,domain=puckpedia.com
 ||content-loader.com^$script,domain=puckpedia.com
 ||gadzooksrudely.com^$script,domain=puckpedia.com
@@ -1340,7 +1340,7 @@ makeitmeme.com#$#json-override isActive false autoRecovery
 makeitmeme.com#$#json-override isActive false eventSampleRatio
 makeitmeme.com#$#json-override isActive false applyRatio
 makeitmeme.com#$#json-override isActive false isUnregistered
-makeitmeme.com#$#abort-on-property-read as_797157511; abort-on-property-read as_1645238526; abort-on-property-read as_-540306709; abort-on-property-read as_-997500254
+makeitmeme.com#$#abort-on-property-read as_797157512; abort-on-property-read as_1645238527; abort-on-property-read as_797157511; abort-on-property-read as_1645238526; abort-on-property-read as_-540306709; abort-on-property-read as_-997500254
 ||*/vendor.js|$script,rewrite=abp-resource:blank-js,domain=makeitmeme.com
 ||error-report.com^$domain=makeitmeme.com
 buienalarm.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
@@ -1355,7 +1355,7 @@ kurashiru.com#$#json-override isActive false eventSampleRatio
 kurashiru.com#$#json-override isActive false applyRatio
 kurashiru.com#$#json-override isActive false isUnregistered
 kurashiru.com#$#abort-on-iframe-property-read JSON.parse
-kurashiru.com#$#abort-on-property-read as_342655996; abort-on-property-read as_1339844773; abort-on-property-read as_1795245449; abort-on-property-read as_1948540960
+kurashiru.com#$#abort-on-property-read as_342655997; abort-on-property-read as_1339844774; abort-on-property-read as_342655996; abort-on-property-read as_1339844773; abort-on-property-read as_1795245449; abort-on-property-read as_1948540960
 @@||html-load.com/sdk.js$script,domain=kurashiru.com
 ||html-load.com/media/$domain=kurashiru.com
 ||*/core.js|$script,rewrite=abp-resource:blank-js,domain=sat24.com
@@ -1370,7 +1370,7 @@ meteovista.be#$#json-override isActive false autoRecovery
 meteovista.be#$#json-override isActive false eventSampleRatio
 meteovista.be#$#json-override isActive false applyRatio
 meteovista.be#$#json-override isActive false isUnregistered
-meteovista.be#$#abort-on-property-read as_-1676119691; abort-on-property-read as_-678930914; abort-on-property-read as_-1300140094; abort-on-property-read as_-1146844583
+meteovista.be#$#abort-on-property-read as_-1676119690; abort-on-property-read as_-678930913; abort-on-property-read as_-1676119691; abort-on-property-read as_-678930914; abort-on-property-read as_-1300140094; abort-on-property-read as_-1146844583
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=games.gg
 games.gg#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 mamastar.jp#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
@@ -1388,7 +1388,7 @@ worldjournal.com#$#json-override isActive false isUnregistered
 worldjournal.com#$#json-override isActive false eventSampleRatio
 worldjournal.com#$#override-property-read isAdShieldTurn false
 worldjournal.com#$#json-override isActive false applyRatio
-worldjournal.com#$#abort-on-property-read as_-731258205; abort-on-property-read as_-1769189030; abort-on-property-read as_-358510594; abort-on-property-read as_917821959
+worldjournal.com#$#abort-on-property-read as_-731258204; abort-on-property-read as_-1769189029; abort-on-property-read as_-731258205; abort-on-property-read as_-1769189030; abort-on-property-read as_-358510594; abort-on-property-read as_917821959
 worldjournal.com#$#override-property-read Navigator.prototype.onLine false
 ||*/loader.min.js|$script,domain=worldjournal.com
 ||stg.html-load.com^$script,domain=worldjournal.com
@@ -1405,17 +1405,17 @@ silkroadrecipes.com#$#json-override isActive false isUnregistered
 souvlakiforthesoul.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 souvlakiforthesoul.com#$#json-override isActive false applyRatio
 souvlakiforthesoul.com#$#json-override isActive false isUnregistered
-souvlakiforthesoul.com#$#abort-on-property-read as_-105779511; abort-on-property-read as_-664913856; abort-on-property-read as_877686445; abort-on-property-read as_423923556
+souvlakiforthesoul.com#$#abort-on-property-read as_-105779510; abort-on-property-read as_-664913855; abort-on-property-read as_-105779511; abort-on-property-read as_-664913856; abort-on-property-read as_877686445; abort-on-property-read as_423923556
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=thecafesucrefarine.com
 thecafesucrefarine.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 thecafesucrefarine.com#$#json-override isActive false applyRatio
 thecafesucrefarine.com#$#json-override isActive false isUnregistered
-thecafesucrefarine.com#$#abort-on-property-read as_-158883315; abort-on-property-read as_-718017660; abort-on-property-read as_1621220593; abort-on-property-read as_1167457704
+thecafesucrefarine.com#$#abort-on-property-read as_-158883314; abort-on-property-read as_-718017659; abort-on-property-read as_-158883315; abort-on-property-read as_-718017660; abort-on-property-read as_1621220593; abort-on-property-read as_1167457704
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=mychemicalfreehouse.net
 mychemicalfreehouse.net#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 mychemicalfreehouse.net#$#json-override isActive false applyRatio
 mychemicalfreehouse.net#$#json-override isActive false isUnregistered
-mychemicalfreehouse.net#$#abort-on-property-read as_1756279504; abort-on-property-read as_1602983993; abort-on-property-read as_-50787299; abort-on-property-read as_1130960372
+mychemicalfreehouse.net#$#abort-on-property-read as_1756279505; abort-on-property-read as_1602983994; abort-on-property-read as_1756279504; abort-on-property-read as_1602983993; abort-on-property-read as_-50787299; abort-on-property-read as_1130960372
 ||html-load.cc^$script
 cults3d.com#$#prevent-element-src-loading script /\/script\/[A-Za-z0-9_-]+/
 ||*/app.js|$script,rewrite=abp-resource:blank-js,domain=hna.de
@@ -1431,18 +1431,18 @@ dogdrip.net#$#json-override isActive false hasActiveAutoRecovery
 dogdrip.net#$#json-override isActive false eventSampleRatio
 dogdrip.net#$#json-override isActive false applyRatio
 dogdrip.net#$#json-override isActive false isUnregistered
-dogdrip.net#$#abort-on-property-read as_105643211; abort-on-property-read as_1183774644; abort-on-property-read as_-1535930920; abort-on-property-read as_1945788975
+dogdrip.net#$#abort-on-property-read as_105643212; abort-on-property-read as_1183774645; abort-on-property-read as_105643211; abort-on-property-read as_1183774644; abort-on-property-read as_-1535930920; abort-on-property-read as_1945788975
 gamebanana.com#$#json-override isActive false applyRatio
 myinstants.com#$#json-override isActive false applyRatio
 myinstants.com#$#json-override isActive false isUnregistered
-myinstants.com#$#abort-on-property-read as_1223731164; abort-on-property-read as_2071812179; abort-on-property-read as_1156903863; abort-on-property-read as_1614097408
+myinstants.com#$#abort-on-property-read as_1223731165; abort-on-property-read as_2071812180; abort-on-property-read as_1223731164; abort-on-property-read as_2071812179; abort-on-property-read as_1156903863; abort-on-property-read as_1614097408
 u.gg#$#json-override isActive false applyRatio
 u.gg#$#json-override isActive false isUnregistered
-u.gg#$#abort-on-property-read as_-437869852; abort-on-property-read as_-991417317; abort-on-property-read as_-246219512; abort-on-property-read as_601861503
+u.gg#$#abort-on-property-read as_-437869851; abort-on-property-read as_-991417316; abort-on-property-read as_-437869852; abort-on-property-read as_-991417317; abort-on-property-read as_-246219512; abort-on-property-read as_601861503
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
-/^https:\/\/[a-z]{3,5}\.[a-z]{7,}\.com\/[a-z]{3,}\/[A-Za-z0-9_-]{4,10}\.js$/$script,third-party,match-case,domain=base64decode.org|deadline.com|euronews.com|fandom.com|goldderby.com|index.hr|indiewire.com|rollingstone.com
-/^https:\/\/[a-z]{3,5}\.[a-z]{6,}\.com\/[a-z]{3,}\/[A-Za-z0-9_-]+\.js$/$script,third-party,match-case,domain=fandom.com
+/^https:\/\/(?:[a-z]{2,5}\.){1,2}[a-z]{6,}\.com\/(?:[a-z]{3,}-[a-z]{2,}\/[A-Za-z0-9_-]{4,}\.js$|script\/[a-z0-9.-]+\.js(?:\?|))/script,third-party,match-case,domain=base64decode.org|deadline.com|euronews.com|fandom.com|goldderby.com|index.hr|indiewire.com|rollingstone.com
 namemc.com,idokep.hu,gamesradar.com,weatherzone.com,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamewith.jp,gazetaprawna.pl,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de,www.wetter.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
+movie-locations.com,ecouter-en-direct.com,base64decode.org,caminteresse.fr,collinsdictionary.com,femmeactuelle.fr,goodto.com,index.hr,livingetc.com,makeitmeme.com,meteovista.be,motorbikecatalog.com,myinstants.com,nikkansports.com,onlineradiobox.com,oxfordlearnersdictionaries.com,pcgamesn.com,pockettactics.com,pons.com,programme-tv.net,programme.tv,space.com,stocktwits.com,techradar.com,tomsguide.com,tomshardware.com,voici.fr,worldjournal.com#$#override-property-read Object.prototype.serverBotDetected true
 puzzle-nonograms.com#$#prevent-element-src-loading script /ad-shield/
 urbandictionary.com#$#prevent-element-src-loading script /ad-shield/
 asahi.com#$#prevent-element-src-loading script /ad-shield/
@@ -1707,25 +1707,26 @@ instagram.com#$#json-prune data.xdt_injected_story_units.ad_media_items
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
 factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-lines") and contains(text(),"ADVERTISEMENT")]/parent::div[@class="ad-text-box"]/ancestor::div[@class][@style]'
 ! #CV-4801
-||coffeefire.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||peoplebrain.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||socialsend.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||jewelryagency.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||ampscamp.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||consumerdebtnegotiation.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||techglow.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||quicktattoo.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||firsthoughtstudios.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||reviewacousticguitar.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||superstarorganizer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||replantable.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||dusthorses.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||topratedwaterfilter.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||massivesalad.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||visualcommservices.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-||musicenforcer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
-/^https:\/\/[^\/]+\/(?:[a-z0-9]+\/){15}/$third-party,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|reuters.com
-addictinggames.com,convertcase.net,coolmathgames.com,dailykos.com,danslescoulisses.com,eater.com,gamebanana.com,gameslantern.com,hayertv.com,icy-veins.com,knowyourmeme.com,prydwen.gg,sporcle.com,the-independent.com,wowhead.com#$#replace-fetch-response '/^{"[/][0-9]+[/][^]*/' '' '"html",'
+||coffeefire.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||peoplebrain.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||socialsend.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||jewelryagency.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||ampscamp.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||consumerdebtnegotiation.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||techglow.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||quicktattoo.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||firsthoughtstudios.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||reviewacousticguitar.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||superstarorganizer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||replantable.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||dusthorses.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||topratedwaterfilter.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||massivesalad.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||visualcommservices.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||musicenforcer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+||flowerybunch.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
+/^https:\/\/[^\/]+\/(?:[a-z0-9]+\/){15}/$third-party,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|reuters.com
+addictinggames.com,convertcase.net,coolmathgames.com,dailykos.com,danslescoulisses.com,eater.com,gamebanana.com,gameslantern.com,hayertv.com,icy-veins.com,knowyourmeme.com,prydwen.gg,sporcle.com,the-independent.com,wowhead.com,theweathernetwork.com,nj.com,boredpanda.com#$#replace-fetch-response '/^{"[/][0-9]+[/][^]*/' '' '"html",'
 ! Popup/Popunder/Clickunder
 0123movies.*,123freemovies.net,123movies.*,123movieshub.tc,adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,animepahe.*,anitube.*,bigtitsxxxfree.com,cineby.*,cinevo.nl,configspc.com,dood.*,doods.*,doodstream.*,dooodster.*,fastream.to,govid.*,hclips.com,hd-analporn.com,hentai2w.com,hotmovs.com,hxfile.co,komikcast.com,mavavid.com,mstream.fun,mstream.icu,mstream.tech,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.*,porn.com,porndollz.com,pornhat.com,prmovies.*,realgfporn.com,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.me,tapewithadblock.org,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
 adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,adblockstrtape.link,baytorrent.eu.org,dood.*,doods.*,doodstream.*,dooodster.*,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.*,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javjunkies.com,javmost.com,latinblog.tv,limetorrents.info,loadsubs.net,mixdrop.*,mypiratebay.*,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,strtape.*,strtapeadblock.me,tapewithadblock.org,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,voe.sx,youdbox.com#$#abort-on-property-write _pop
@@ -1968,9 +1969,12 @@ vidsrc.*,vidy.*#$#prevent-element-src-loading script /^https:\/\/[a-z0-9]+\\.[a-
 filthyhero.com##base[target="_blank"] {remove:true;}
 filthyhero.com#$#override-property-read opener null
 ||filthyhero.com/bounce-test.js^$script,domain=filthyhero.com
-stellarconductornexus.com#$#prevent-window-open /./
+cine.su,stellarconductornexus.com,yomovies.*#$#prevent-window-open /./
 streamingnow.mov,stellarconductornexus.com#$#override-property-read AtcshAltNm noopFunc
 xxxcinema.tube,hianimes.se,supernatural-spn.com,plplayer.online,kalarona.orgzokoanime.video#$#prevent-window-open /./ 1000
+cine.su#$#prevent-element-src-loading script '/0fdd0b'
+superflixapi.*,playerflix.*,myembed.*#$#prevent-window-open /^/
+playerflix.*#$#prevent-element-src-loading script /mypopads|r=pop|cdnflow/
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2284,6 +2288,7 @@ beforeitsnews.com#$#hide-if-matches-xpath './/a[@rel="sponsored"]/parent::p/ance
 hdtube.porn,pornid.xxx,rat.xxx,sexvid.xxx,zbporn.com#$#hide-if-matches-xpath '//iframe[contains(@src,"?zone=") or contains(@src,"?n=")]/parent::div'; hide-if-matches-xpath '//div[@id="sp-player"]'
 alphaporno.com,crocotube.com,tubewolf.com,zedporn.com#$#hide-if-matches-xpath './/span[starts-with(@id,"TA-TAB-") or starts-with(@id,"TAm-TAB-")]/a[@target="_blank"][contains(@class,"pignr")]'
 alphaporno.com,crocotube.com,tubewolf.com,zedporn.com#$#hide-if-matches-xpath '//div[strong[normalize-space(text())="Advertisement"] or h2[normalize-space(text())="Advertisement"] or div[normalize-space(text())="Advertisement"]][.//span[starts-with(@id,"TA-") or starts-with(@id,"TAm-")]]'
+playerflix.*#$#hide-if-matches-xpath '//a[@target="_blank"][contains(@style,"2147483647")]'
 ! Video ads
 xhamster.*,xhamster1.desi,xhamster2.com,xhamster3.com,xhamster19.com,xhaccess.com,xhopen.com,xhbig.com,xhvid.com,xhtotal.com,xhofficial.com,xhspot.com,megaxh.com#$#replace-xhr-response <Ad <Xd VAST
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -2371,6 +2376,7 @@ www.facebook.com,web.facebook.com##div[aria-posinset] a[href="#"] span[style*="a
 www.facebook.com,web.facebook.com#$#hide-if-shadow-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]'
 www.facebook.com,web.facebook.com#$#hide-if-shadow-contains '/^[^A-Za-z0-9]*(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)[^A-Za-z0-9]*$/' 'div[aria-posinset]'
 www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)[^A-Za-z0-9]*$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^'
+www.facebook.com,web.facebook.com#$#hide-if-contains '/(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^'
 ! rp
 ! mp
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
@@ -2465,7 +2471,7 @@ cpasbien.*#$#abort-on-property-read aclib false
 cpasbien.*#$#hide-if-matches-xpath '//div[contains(@style,"z-index: 2147483647")]/ancestor-or-self::*[1]'; hide-if-matches-xpath './/iframe[(@style="position: absolute; top: -1000px; left: -1000px; visibility: hidden; border: medium none; background-color: transparent;")][@width and @height]/self::*[1]'
 ||horizontallyresearchpolar.com^$popup,domain=nakastream.tv
 nakastream.*#$#replace-fetch-response /("adsterraSmartLink[0-9]?":")[^"]+/ '$1' 'adsterraSmartLink'
-french-stream.*,fs15.lol,fs17.lol,fs21.lol#$#override-property-read aclib.runPop noopFunc; prevent-window-open /./ iframe
+french-stream.*,fs15.lol,fs17.lol,fs21.lol,fs26.lol#$#override-property-read aclib.runPop noopFunc; prevent-window-open /./ iframe
 playmogo.com#$#prevent-element-src-loading script /doodcdn\\.io\/ads\/ad\\.js/
 ! *** abp-filters-anti-cv:german.txt ***
 ! Popup/Popunder/Clickunder
@@ -2645,6 +2651,8 @@ xvideosporno.blog.br#$#abort-current-inline-script document.querySelectorAll pop
 tvparapobreskids.com#$#prevent-listener click /InstallTrigger/
 tvparapobreskids.com#$#override-property-read aclib emptyObject; abort-on-property-read aclib.runPop
 ||aboveboardcomplicate.com^$popup
+! Popup/Popunder/Clickunder
+redecanais.in#$#prevent-window-open /^/
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
@@ -3840,6 +3848,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cautiousfloor.com^
 ||cayosunhairs.com^
 ||ccoyaballots.com^
+||cdnnegwqsajnx.online^
 ||cedar-linen-cdn-64.workers.dev^
 ||cenotessnawle.com^
 ||ceriphtibbit.cfd^
@@ -4358,6 +4367,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||noemisnakier.com^
 ||noondayroughie.com^
 ||norimoncremes.com^
+||northwavepoint.com^
 ||nosefelt.com^
 ||nosydorymen.com^
 ||novaleelds.com^
