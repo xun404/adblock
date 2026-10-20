@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1cStDa6obi2ODtgWqWvilQ
+! Checksum: TMxv6s043MbxR4Zvil6XZQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202610201000
-! Last Modified: 2026年10月20日 10:00
+! Version: 202610201551
+! Last Modified: 2026年10月20日 15:51
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1336,6 +1336,8 @@ newduba.cn###jq_youxi
 ||v3ekghfm2l.com^
 ||dkphbpakvgftxm.com^
 ||8kbg4gnw32.com^
+||cmn4xjgp67.com^
+||bp44bqnvdb.com^
 ||lm1o9ejjs.com^
 ||velocity83.com^
 ||5j01ouj0l.com^
@@ -29964,10 +29966,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qq.com/stats?
 ||quadpay.com/analytics/
 ||qualifioapp.com/egw/events
-||qualtrics.com/jfe/$script,third-party
-||qualtrics.com/sie/$script,third-party
-||qualtrics.com/WRSiteInterceptEngine/$third-party
-||qualtrics.com^*/metrics
+||qualtrics.com/WRSiteInterceptEngine/?Q_Impress=
 ||quantcast.com/?log
 ||quantcast.mgr.consensu.org/?log
 ||qubitanalytics.appspot.com^
@@ -73489,7 +73488,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de
 @@||showheroes.com/pubtag.js$domain=rollingstone.de
-@@||siteintercept.qualtrics.com/$domain=idealo.de
 @@||sophi.io/assets/demeter/$script,domain=faz.net
 @@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
