@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8PltacpsCSqbG0Ih/qFuCw
+! Checksum: 4RYDln4wx9iQcjob/U8lWw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610210237
-! Last Modified: 2026年10月21日 02:37
+! Version: 202610212202
+! Last Modified: 2026年10月21日 22:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1351,16 +1351,9 @@ buienalarm.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=buienalarm.nl
 buienalarm.nl^$csp=script-src-attr 'none'
 ||error-report.com^$domain=buienalarm.nl
-kurashiru.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
-||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=kurashiru.com
+||html-load.com/sdk.js$script,rewrite=abp-resource:blank-js,domain=kurashiru.com
 ||error-report.com^$domain=kurashiru.com
-kurashiru.com#$#json-override isActive false hasActiveAutoRecovery
-kurashiru.com#$#json-override isActive false eventSampleRatio
-kurashiru.com#$#json-override isActive false applyRatio
-kurashiru.com#$#json-override isActive false isUnregistered
-kurashiru.com#$#abort-on-property-read as_342655997; abort-on-property-read as_1339844774; abort-on-property-read as_342655996; abort-on-property-read as_1339844773; abort-on-property-read as_1795245449; abort-on-property-read as_1948540960
-@@||html-load.com/sdk.js$script,domain=kurashiru.com
-||html-load.com/media/$domain=kurashiru.com
+kurashiru.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/core.js|$script,rewrite=abp-resource:blank-js,domain=sat24.com
 sat24.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 hotcopper.com.au#$#prevent-element-src-loading script /loader/
@@ -1444,9 +1437,11 @@ u.gg#$#json-override isActive false applyRatio
 u.gg#$#json-override isActive false isUnregistered
 u.gg#$#abort-on-property-read as_-437869851; abort-on-property-read as_-991417316; abort-on-property-read as_-437869852; abort-on-property-read as_-991417317; abort-on-property-read as_-246219512; abort-on-property-read as_601861503
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
+decanter.com#$#blob-override '"isActive"' '"isActivX"' 'Terminate - not active'
 /^https:\/\/(?:[a-z]{2,5}\.){1,2}[a-z]{6,}\.com\/(?:[a-z]{3,}(?:[-_][a-z]{2,}|[A-Z][a-z]{1,})\/[A-Za-z0-9_-]{4,}\.js$|script\/[a-z0-9.-]+\.js(?:\?|))/$script,third-party,match-case,domain=base64decode.org|deadline.com|euronews.com|fandom.com|goldderby.com|index.hr|indiewire.com|rollingstone.com
+/^https:\/\/(?:[a-z]+\.)?[a-z]+\.(?:com|net|cc)\/script\/[a-z0-9]*[A-Z][A-Za-z0-9_-]*[A-Z][A-Za-z0-9_-]+\.js/$script,third-party,match-case,domain=billboard.com|variety.com|u.gg|addictinggames.com
 namemc.com,idokep.hu,gamesradar.com,weatherzone.com,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamewith.jp,gazetaprawna.pl,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de,www.wetter.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
-kurashiru.com,movie-locations.com,ecouter-en-direct.com,base64decode.org,caminteresse.fr,collinsdictionary.com,femmeactuelle.fr,goodto.com,index.hr,livingetc.com,makeitmeme.com,meteovista.be,motorbikecatalog.com,myinstants.com,nikkansports.com,onlineradiobox.com,oxfordlearnersdictionaries.com,pcgamesn.com,pockettactics.com,pons.com,programme-tv.net,programme.tv,space.com,stocktwits.com,techradar.com,tomsguide.com,tomshardware.com,voici.fr,worldjournal.com#$#override-property-read Object.prototype.serverBotDetected true; replace-outbound-value 'TextDecoder.prototype.decode' '/("isActive":)true/' '$1false'; replace-outbound-value atob '/("isActive":)true/' '$1false';
+movie-locations.com,ecouter-en-direct.com,base64decode.org,caminteresse.fr,collinsdictionary.com,femmeactuelle.fr,goodto.com,index.hr,livingetc.com,makeitmeme.com,meteovista.be,motorbikecatalog.com,myinstants.com,nikkansports.com,onlineradiobox.com,oxfordlearnersdictionaries.com,pcgamesn.com,pockettactics.com,pons.com,programme-tv.net,programme.tv,space.com,stocktwits.com,techradar.com,tomsguide.com,tomshardware.com,voici.fr,worldjournal.com#$#override-property-read Object.prototype.serverBotDetected true; replace-outbound-value 'TextDecoder.prototype.decode' '/("isActive":)true/' '$1false'; replace-outbound-value atob '/("isActive":)true/' '$1false';
 androidcentral.com,bab.la,cinemablend.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,dogdrip.net,gamebanana.com,gamesradar.com,golfmonthly.com,guitarworld.com,gumtree.com,hk01.com,homesandgardens.com,kiplinger.com,loudersound.com,manta.com,marieclaire.com,musicradar.com,mychemicalfreehouse.net,nationalpost.com,nemzetisport.hu,silkroadrecipes.com,thecafesucrefarine.com,theweek.com,tunebat.com,tvtechnology.com,urbandictionary.com,weeronline.nl,welt.de,whathifi.com,whowhatwear.com,windowscentral.com#$#replace-outbound-value atob '/("isActive":)true/' '$1false'
 hochi.news,nikkansports.com,tunebat.com,worldjournal.com#$#replace-fetch-response 9wc9rgu89icuqo9wu39iu9qo 9wc9rgu89icuqo9wu3909p90
 puzzle-nonograms.com#$#prevent-element-src-loading script /ad-shield/
@@ -1732,6 +1727,7 @@ factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contain
 ||musicenforcer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
 ||flowerybunch.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com
 /^https:\/\/[^\/]+\/(?:[a-z0-9]+\/){15}/$third-party,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|reuters.com
+/^https:\/\/[a-z]+\.(?:com|net)\/(?:[a-z0-9_\/]+[.-](?:v[0-9]|module|bundle|vendor|app|index|min|main|prod)\.js|[a-z0-9]+[A-Z][A-Za-z0-9]+[A-Z][A-Za-z0-9]+)/$script,third-party,match-case,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|reuters.com|deadline.com|goldderby.com|indiewire.com|rollingstone.com|nationalpost.com
 addictinggames.com,convertcase.net,coolmathgames.com,dailykos.com,danslescoulisses.com,eater.com,gamebanana.com,gameslantern.com,hayertv.com,icy-veins.com,knowyourmeme.com,prydwen.gg,sporcle.com,the-independent.com,wowhead.com,theweathernetwork.com,nj.com,boredpanda.com#$#replace-fetch-response '/^{"[/][0-9]+[/][^]*/' '' '"html",'
 ! Popup/Popunder/Clickunder
 0123movies.*,123freemovies.net,123movies.*,123movieshub.tc,adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,animepahe.*,anitube.*,bigtitsxxxfree.com,cineby.*,cinevo.nl,configspc.com,dood.*,doods.*,doodstream.*,dooodster.*,fastream.to,govid.*,hclips.com,hd-analporn.com,hentai2w.com,hotmovs.com,hxfile.co,komikcast.com,mavavid.com,mstream.fun,mstream.icu,mstream.tech,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.*,porn.com,porndollz.com,pornhat.com,prmovies.*,realgfporn.com,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.me,tapewithadblock.org,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
@@ -1933,6 +1929,7 @@ vids.*#$#abort-current-inline-script document.createElement pop_tag
 streamvid.*#$#abort-current-inline-script setTimeout _0x
 primewire.*#$#abort-on-property-write window.onclick
 abyssplayer.com#$#abort-on-property-write document.onclick; abort-on-property-write document.ontouchend
+abysplayer.xyz,player.321movies.xyz,abyssplayer.com,asmrfreeplayer.fun,jetvid.top,fembedx.top,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com#$#prevent-window-open !abyss.to 1000
 vidsrc.*#$#timer-override 3600000 /0x|sandCheck/ noop interval; prevent-element-src-loading script /afjpd=/;
 bysebuho.com,bysesayeveum.com#$#timer-override 1000000 readyWait
 peachify.top#$#prevent-listener click /atob|_blank/
@@ -2300,6 +2297,9 @@ gearspace.com#$#hide-if-matches-xpath '//a[contains(@class,"samBgBannerItem") or
 kaa.lt#$#hide-if-matches-xpath '//div[div[contains(@class,"show-item")][.//div[contains(@class,"native-ad-cover")] or .//iframe]] | //div[contains(@class,"v-system-bar")][a[contains(@href,"/d.php?z=")]] | //a[contains(@class,"v-list-item")][contains(@href,"/d.php?z=") or contains(@class,"romantic-highlight")]'
 streamcash.to#$#override-property-read AtcshAltNm noopFunc; json-override 'gv xh' null 'vid src'
 streamcash.to##[doskip]
+coincodex.com##app-root > app-placeholder-debug + div:not([class*=\"-\"])
+coincodex.com##app-sidebar-skyscraper
+coincodex.com#$#override-property-read coincodex.shouldBlockAdsAndAnalytics trueFunc
 ! Video ads
 xhamster.*,xhamster1.desi,xhamster2.com,xhamster3.com,xhamster19.com,xhaccess.com,xhopen.com,xhbig.com,xhvid.com,xhtotal.com,xhofficial.com,xhspot.com,megaxh.com#$#replace-xhr-response <Ad <Xd VAST
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -3571,6 +3571,7 @@ chatgpt.com#$#hide-if-matches-xpath 'id("thread")//h3[normalize-space(text())="S
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//*[contains(concat(" ",normalize-space(@class)," ")," bg-token-bg-tertiary ") and contains(concat(" ",normalize-space(@class)," ")," rounded-full ") and normalize-space(text())="Ad"]/ancestor::div[contains(concat(" ",normalize-space(@class)," ")," border-t ")][1]'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Ad")]'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Sponsored")]'
+chatgpt.com#$#hide-if-matches-xpath '//div[div[@role="link"] and .//*[normalize-space(text())="Ad" or normalize-space(text())="Ad options"]]/ancestor::div[1]/../parent::div'
 ! tracking
 chatgpt.com#$#cookie-remover __obi
 ||chatgpt.com/*/bazaar/obi/sync-token^$domain=chatgpt.com
