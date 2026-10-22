@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: brWinZNMYfTSVEBXO9sZzg
+! Checksum: w/0Jplkqgi7HP1IkMVSrcQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202610222200
-! Last Modified: 2026年10月22日 22:00
+! Version: 202610230243
+! Last Modified: 2026年10月23日 02:43
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -976,6 +976,12 @@ scribd.com#$#override-property-read x633x2pdvurd true
 scribd.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/api.js|$script,rewrite=abp-resource:blank-js,domain=tibiopedia.pl
 tibiopedia.pl#$#prevent-listener message /data===/
+||error-report.com^$domain=satkurier.pl
+||html-load.com/vendor.js$script,rewrite=abp-resource:blank-js,domain=satkurier.pl
+satkurier.pl#$#prevent-listener message /data===/
+||html-load.com/api.js$script,rewrite=abp-resource:blank-js,domain=uppercutmma.com
+||error-report.com^$domain=uppercutmma.com
+uppercutmma.com#$#prevent-listener message /data===/
 index.hr#$#override-property-read window.isAdShieldTurn false
 index.hr#$#replace-argument Element.prototype.setAttribute 1 ';await new' ''
 ||html-load.com^$script,domain=index.hr
@@ -1087,10 +1093,6 @@ fandom.com#$#json-override isActive false isUnregistered
 ||hencewafer.com/render/$domain=kuruma-news.jp
 ||nicelyfrom.com^$domain=kuruma-news.jp
 kuruma-news.jp#$#prevent-element-src-loading script /\/feed\//
-||content-loader.com^$script,domain=www.wetter.com
-||html-load.com^$script,domain=www.wetter.com
-www.wetter.com#$#abort-on-property-write window.alert
-www.wetter.com#$#override-property-read wcomBlock noopFunc false; override-property-read wcomAdFrameworkInit noopFunc false; override-property-read hasDisplayAds false;
 space.com#$#prevent-element-src-loading script /\/feed\//
 space.com#$#json-override isActive false eventSampleRatio
 space.com#$#json-override isActive false applyRatio
@@ -1440,7 +1442,7 @@ spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adbl
 decanter.com#$#blob-override '"isActive"' '"isActivX"' 'not active'
 /^https:\/\/(?:[a-z]{2,5}\.){1,2}[a-z]{6,}\.com\/(?:[a-z]{3,}(?:[-_][a-z]{2,}|[A-Z][a-z]{1,})\/[A-Za-z0-9_-]{4,}\.js$|script\/[a-z0-9.-]+\.js(?:\?|))/$script,third-party,match-case,domain=base64decode.org|deadline.com|euronews.com|fandom.com|goldderby.com|index.hr|indiewire.com|rollingstone.com
 /^https:\/\/(?:[a-z]+\.)?[a-z]+\.(?:com|net|cc)\/script\/[a-z0-9]*[A-Z][A-Za-z0-9_-]*[A-Z][A-Za-z0-9_-]+\.js/$script,third-party,match-case,domain=billboard.com|variety.com|u.gg|addictinggames.com
-namemc.com,idokep.hu,gamesradar.com,weatherzone.com,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamewith.jp,gazetaprawna.pl,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de,www.wetter.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
+namemc.com,idokep.hu,gamesradar.com,weatherzone.com,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamewith.jp,gazetaprawna.pl,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
 movie-locations.com,ecouter-en-direct.com,base64decode.org,caminteresse.fr,collinsdictionary.com,femmeactuelle.fr,goodto.com,index.hr,livingetc.com,makeitmeme.com,meteovista.be,motorbikecatalog.com,myinstants.com,nikkansports.com,onlineradiobox.com,oxfordlearnersdictionaries.com,pcgamesn.com,pockettactics.com,pons.com,programme-tv.net,programme.tv,space.com,stocktwits.com,techradar.com,tomsguide.com,tomshardware.com,voici.fr,worldjournal.com#$#override-property-read Object.prototype.serverBotDetected true; replace-outbound-value 'TextDecoder.prototype.decode' '/("isActive":)true/' '$1false'; replace-outbound-value atob '/("isActive":)true/' '$1false'; blob-override '"isActive"' '"isActivX"'
 androidcentral.com,bab.la,cinemablend.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,dogdrip.net,gamebanana.com,gamesradar.com,golfmonthly.com,guitarworld.com,gumtree.com,hk01.com,homesandgardens.com,kiplinger.com,loudersound.com,manta.com,marieclaire.com,musicradar.com,mychemicalfreehouse.net,nationalpost.com,nemzetisport.hu,silkroadrecipes.com,thecafesucrefarine.com,theweek.com,tunebat.com,tvtechnology.com,urbandictionary.com,weeronline.nl,welt.de,whathifi.com,whowhatwear.com,windowscentral.com#$#replace-outbound-value atob '/("isActive":)true/' '$1false'; blob-override '"isActive"' '"isActivX"' 'not active'
 hochi.news,nikkansports.com,tunebat.com,worldjournal.com#$#replace-fetch-response 9wc9rgu89icuqo9wu39iu9qo 9wc9rgu89icuqo9wu3909p90; blob-override '"isActive"' '"isActivX"'
@@ -1708,28 +1710,28 @@ instagram.com#$#json-prune data.xdt_injected_story_units.ad_media_items
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
 factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-lines") and contains(text(),"ADVERTISEMENT")]/parent::div[@class="ad-text-box"]/ancestor::div[@class][@style]'
 ! #CV-4801
-||coffeefire.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||peoplebrain.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||socialsend.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||jewelryagency.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||ampscamp.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||consumerdebtnegotiation.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||techglow.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||quicktattoo.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||firsthoughtstudios.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||reviewacousticguitar.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||superstarorganizer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||replantable.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||dusthorses.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||topratedwaterfilter.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||massivesalad.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||visualcommservices.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||musicenforcer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||flowerybunch.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||largetony.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-||figbirddesign.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-/^https:\/\/[^\/]+\/(?:[a-z0-9]+\/){15}/$third-party,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|reuters.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
-/^https:\/\/[a-z]+\.(?:com|net)\/(?:[a-z0-9_\/]+[.-](?:v[0-9]|module|bundle|vendor|app|index|min|main|prod)\.js|[a-z0-9]+[A-Z][A-Za-z0-9]+[A-Z][A-Za-z0-9]+)/$script,third-party,match-case,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|reuters.com|deadline.com|goldderby.com|indiewire.com|rollingstone.com|nationalpost.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com
+||coffeefire.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||peoplebrain.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||socialsend.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||jewelryagency.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||ampscamp.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||consumerdebtnegotiation.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||techglow.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||quicktattoo.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||firsthoughtstudios.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||reviewacousticguitar.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||superstarorganizer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||replantable.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||dusthorses.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||topratedwaterfilter.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||massivesalad.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||visualcommservices.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||musicenforcer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||flowerybunch.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||largetony.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+||figbirddesign.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+/^https:\/\/[^\/]+\/(?:[a-z0-9]+\/){15}/$third-party,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|reuters.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
+/^https:\/\/[a-z]+\.(?:com|net)\/(?:[a-z0-9_\/]+[.-](?:v[0-9]|module|bundle|vendor|app|index|min|main|prod)\.js|[a-z0-9]+[A-Z][A-Za-z0-9]+[A-Z][A-Za-z0-9]+)/$script,third-party,match-case,domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|reuters.com|deadline.com|goldderby.com|indiewire.com|rollingstone.com|nationalpost.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com
 addictinggames.com,convertcase.net,coolmathgames.com,dailykos.com,danslescoulisses.com,eater.com,gamebanana.com,gameslantern.com,hayertv.com,icy-veins.com,knowyourmeme.com,prydwen.gg,sporcle.com,the-independent.com,theweathernetwork.com,nj.com,boredpanda.com,wusa9.com,11alive.com,9news.com,kgw.com,denofgeek.com,ebaumsworld.com#$#replace-fetch-response '/^{"[/][0-9]+[/][^]*/' '' '"html",'
 ! Popup/Popunder/Clickunder
 0123movies.*,123freemovies.net,123movies.*,123movieshub.tc,adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,animepahe.*,anitube.*,bigtitsxxxfree.com,cineby.*,cinevo.nl,configspc.com,dood.*,doods.*,doodstream.*,dooodster.*,fastream.to,govid.*,hclips.com,hd-analporn.com,hentai2w.com,hotmovs.com,hxfile.co,komikcast.com,mavavid.com,mstream.fun,mstream.icu,mstream.tech,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.*,porn.com,porndollz.com,pornhat.com,prmovies.*,realgfporn.com,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.me,tapewithadblock.org,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
@@ -1869,7 +1871,7 @@ tabootube.to#$#prevent-listener click popMaigc
 callistanise.com,filelions.*,habetar.com,playerp2p.*,rpmvip.com,upns.*#$#hide-if-matches-xpath './/div[contains(translate(@style, " ", ""), "position:fixed;inset:0px;z-index:2147483647")]/self::div'
 s1p1cd.com,strmup.*#$#override-property-read b4ec4795de7e51b370809da193ce1a7d trueFunc
 kaliscan.com#$#abort-current-inline-script document.createElement pop1stp_pop
-kaliscan.*#$#abort-current-inline-script document.createElement /l\\.parentNode\\.insertBefore\\(s/;
+kaliscan.*,hdgay.net,hdporner.*,hentaianimezone.com,yespornhd.com,asiangaysex.net,manhwatop.com#$#abort-current-inline-script document.createElement /l\\.parentNode\\.insertBefore\\(s/;
 planetsuzy.org,kaotic.com#$#abort-current-inline-script SNSPAdManager config; abort-on-property-write snspAdManager2; abort-current-inline-script jQuery /config\\.pop/; override-property-read __ads true; cookie-remover /___trx/; abort-current-inline-script document.getElementById innerHTML;
 playhydrax.com#$#override-property-read urls emptyArray;
 skidrowcodex.net#$#prevent-listener DOMContentLoaded;
@@ -3696,6 +3698,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||777beta.net^
 ||8080inbroadband.com^
 ||890broadwave.com^
+||93n6tx.net^
 ||94summary.net^
 ||99gt8.com^
 ||abamawristed.shop^
@@ -3722,10 +3725,12 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||ageismssoning.com^
 ||aggromiler.com^
 ||agriculturalcoyhose.com^
+||airingsjerky.com^
 ||akanexterna.com^
 ||akhlamesouchy.com^
 ||akrabatable.com^
 ||alaryrousts.com^
+||aleckspales.cfd^
 ||algarotfixated.com^
 ||algazelatuami.com^
 ||algediduala.com^
@@ -3809,7 +3814,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bigotcomet.com^
 ||bihalvegoldi.com^
 ||biliounsee.cyou^
-||billyerdurango.com^
 ||bimongtrowman.com^
 ||binioujipper.com^
 ||binmanoboles.com^
@@ -3835,6 +3839,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||borghaswing.com^
 ||bossy-hat.com^
 ||botakissed.com^
+||botcheszest.com^
 ||botisopper.com^
 ||boucleseidolic.com^
 ||boulderdilli.com^
@@ -3984,14 +3989,17 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||deposedassuage.com^
 ||depurgeholour.com^
 ||dernergazeful.com^
+||detergesateens.com^
 ||detinetcallant.com^
 ||deusvardy.com^
 ||dhunchifidia.com^
 ||diagnosedecorationvideotape.com^
 ||diamberproetid.com^
 ||didspack.com^
+||dilemisubring.qpon^
 ||dimetryubiquit.com^
 ||dinespendn.com^
+||dingerepilobe.com^
 ||dinkiersenhora.com^
 ||dinusoronoko.com^
 ||dirgesimious.com^
@@ -4095,6 +4103,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||fixuresrethink.cfd^
 ||fizzledesire.com^
 ||flakespunishmentscythe.com^
+||fletherpetos.com^
 ||flossedmoiled.com^
 ||focheglyzy.com^
 ||fogramcolcine.com^
@@ -4141,6 +4150,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||girellaharelip.com^
 ||girlgamingempire.org^
 ||glamournakedemployee.com^
+||glaucusworries.com^
 ||glazenrattoon.com^
 ||gloamsenceint.com^
 ||gloriouscottage.com^
@@ -4270,6 +4280,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||jahvismresined.com^
 ||jasjas.xyz^
 ||jaspersfamilia.cyou^
+||jewellyosselet.com^
 ||jgtjw.com^
 ||jigool.org^
 ||jokeconnate.com^
@@ -4348,7 +4359,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||mamerstonto.com^
 ||manhoodinvoluntaryplash.com^
 ||manipulativecommitment.com^
-||maoistshellers.com^
 ||maolmjnsxhry.com^
 ||maolmjxkiyqaz.com^
 ||mappersavarish.com^
@@ -4389,7 +4399,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||muggurssalited.com^
 ||mumbledcollut.com^
 ||muragetunnel.com^
-||murzasaeume.com^
 ||myagkotela.link^
 ||myricylhoihere.com^
 ||mystifycabala.com^
@@ -4474,7 +4483,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||peccaryentraps.com^
 ||peeredupseize.com^
 ||pelickhereon.com^
-||pentyneyoga.com^
 ||pepscarn.com^
 ||performanceingredientgoblet.com^
 ||persinners.com^
@@ -4486,7 +4494,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||pilleustrig.com^
 ||pilotijuly.com^
 ||pincersmidnight.com^
-||pioletfroom.com^
 ||pitpropsizygia.com^
 ||plaitluctual.com^
 ||plugmenrheda.com^
@@ -4592,6 +4599,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||schizypdq.com^
 ||scrivencaccias.com^
 ||scrollpushyfar.com^
+||scrubsrha.com^
 ||scudapogees.com^
 ||sculshbises.com^
 ||sdeathteacup.com^
@@ -4603,7 +4611,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||sellrestrictionplucky.com^
 ||semicticken.com^
 ||semuadisini.xyz^
-||sepoygalliot.com^
 ||septanepoints.com^
 ||septierpranker.com^
 ||serenadislive.com^
@@ -4628,9 +4635,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||sikagaylies.com^
 ||simplistic-package.com^
 ||simplistic-walk.com^
-||singleencycl.com^
 ||singletplatformgleamenterprises.com^
-||silentstenacy.qpon^
 ||sitefleck.com^
 ||sjv.io^
 ||sk2bvq.net^
@@ -4689,6 +4694,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||stulmunshent.com^
 ||stuntednicht.com^
 ||suavecitoo.org^
+||substwigful.com^
 ||succubmisship.com^
 ||suerreguiler.cfd^
 ||sullowspatio.com^
@@ -4792,6 +4798,8 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||uncodedsmoothy.com^
 ||uncrookcurry.com^
 ||undoubtedlydoerdivided.com^
+||unedgedshank.com^
+||unfortunateheart.com^
 ||ungagedhulloo.com^
 ||ungreeninwrit.com^
 ||unhangignore.com^
@@ -4842,6 +4850,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||warthcoes.com^
 ||washwayrefool.com^
 ||watchcolleague.com^
+||waughyciliary.com^
 ||weather36.com^
 ||weldssantar.com^
 ||weznkotoko.com^
@@ -4859,7 +4868,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||wolfmandiked.com^
 ||woodsytenline.com^
 ||wormierfiver.com^
-||worthsloner.com^
 ||wurreseek.com^
 ||xcafuqqbgb.icu^
 ||xoanonpacking.com^
@@ -4868,6 +4876,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yakdudism.com^
 ||yallowafridi.com^
 ||yawnfulharpa.com^
+||yawningparkas.com^
 ||yb28b.com^
 ||ydstinkle.com^
 ||yelloadwise.ir^
@@ -4882,6 +4891,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||zeugmatacket.com^
 ||zhenivalka.link^
 ||zjptg.com^
+||zlatobryuga.link^
 ||zoeacaring.com^
 ||zorbklqyoabvj.top^
 ||zosteralatency.com^
