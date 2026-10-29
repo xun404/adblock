@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TIAcrXHD6FEAipEPxtSSKA
+! Checksum: ZybPVEtCaEqwA4unp+4UrA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202610290045
-! Last Modified: 2026年10月29日 00:45
+! Version: 202610291647
+! Last Modified: 2026年10月29日 16:47
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1776,6 +1776,12 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||hash.trafficmanager.net^
 ||trafficmanager.net/o.js
+||ndhfz9zw2.com^
+||itkdb58mo.com^
+||jlpfbhmefcthbk.com^
+||bookshelf07.com^
+||1chtx8re2.com^
+||4l0h5xxoc.com^
 ||fireplace32.com^
 ||x781w71m0j.com^
 ||dvtkppqczzfhpk.com^
@@ -16582,9 +16588,9 @@ guailie.com#@#.google-ad
 !#2
 !#3
 !#4hu.tv
-##body > #__nuxt + #teleports ~ div[class] > span[aria-hidden="true"] + div[class] + div[class]
-##body > #__nuxt + #teleports ~ div[class] > span[aria-hidden="true"] + div[class]
-##body > #__nuxt > div > .container > div[class^="menu-"] + div + div[class^="pg-v-sec-"][style*="important"]
+##body > meta[name="robots"] + script + #__nuxt + #teleports ~ div[class] > span[aria-hidden="true"] + div[class] + div[class]
+##body > meta[name="robots"] + script + #__nuxt + #teleports ~ div[class] > span[aria-hidden="true"] + div[class]
+##body > meta[name="robots"] + script + #__nuxt > div > .container > div[class^="menu-"] + div + div[class^="pg-v-sec-"][style*="important"]
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
 ##body > #__nuxt:first-child > div > .container > div[class^="pg-"] > div[style*="important"]
 ##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
