@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: afXjoPDHRlEASZ5ETpPa+g
+! Checksum: nx4AA4fp8VVXWna1iUs9IQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202611050210
-! Last Modified: 2026年11月05日 02:10
+! Version: 202611052342
+! Last Modified: 2026年11月05日 23:42
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2420,7 +2420,6 @@ theflixertv.*#$#hide-if-matches-xpath './/div[@dir][@style][attribute::*[starts-
 streamcloud.my#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 1815px; z-index: 2147483647;"]/self::*[1]'
 /player/html.php?aid=*&video_id=*&referer=https*kissjav*^$domain=kissjav.li|kissjav.com
 /getimage.php$domain=gay-torrents.net
-||spellknight.com^$script,domain=independent.co.uk
 jobnib.com#$#override-property-read __jnRd true; hide-if-contains /Sponsored/ 'div[id][data-nosnippet][style]' 'div ^^sh^^ span'
 kissjav.li##.asside-link
 flaswish.com#$#abort-on-property-read myScriptManager; abort-on-property-read hg_plugin_MN.init
@@ -2634,7 +2633,6 @@ www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsore
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($..instream_video_ad_breaks_comet)' null '' /"instream_video_ad_breaks_comet":\{/
 ! mp
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[starts-with(@href,"https://l.facebook.com/l.php") or contains(@href,"/ads/about/")][ancestor::div[@role="main"]]/ancestor::div[not(.//a[contains(@href,"/marketplace/item/")] or .//a[contains(@href,"/marketplace/profile/")] or .//h1)][last()]'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 www.facebook.com#$#json-override 'jsonpath($..[?(@.node.__typename=="MarketplaceFeedAdStory")].node)' null '' /MarketplaceFeedAdStory/
 ! sb
@@ -3221,7 +3219,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.biz,hangngon.tv,animehay16.site,cliphot69.golf,phimsexsuong3x.net,damconuong.icu,demo.14412882.com,doctruyen3qhub.fit,dualeotruyenqo.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen21.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.8phimx.com,hotphimxxxhay.com,quatvn.si,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.live,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.fun,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.biz,heoxinh.tv,animehay16.site,cliphot69.golf,phimsexsuong3x.net,damconuong.cool,demo.14412882.com,doctruyen3qhub.fit,dualeotruyenqo.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen21.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.8phimx.com,hotphimxxxhay.com,quatvn.si,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.live,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.fun,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,ww2.8phimx.com#$#abort-on-property-read localStorage
 xnhau.pink#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.news,animevietsub.news,tram3d.my#$#abort-current-inline-script eval $._Eu
@@ -3237,9 +3235,8 @@ ombak700.org#$#abort-on-property-read sp
 phimtho.cc#$#abort-current-inline-script $ p0pUpRandom
 cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_window_shoppe
 truyensextv.com,yanhh3d.de,x.chinav.sex#$#abort-current-inline-script document.addEventListener opup
-imail.edu.vn#$#abort-current-inline-script setTimeout Aff; abort-current-inline-script setTimeout ad_block
 www.toptruyenzone14.com#$#abort-current-inline-script setTimeout open
-www.curvegrad.com#$#abort-current-inline-script addEvent popu
+www.pumpcrate.com#$#abort-current-inline-script addEvent popu
 www.sieutamphim.fun,freeplayervideo.com,player-cdn.com,playhydrax.com,qmhv3.mom,hopphim.online,streamc.xyz,qmhv3.mom,qmh.garden#$#override-property-read open noopFunc
 abysscdn.com,freeplayervideo.com,player-cdn.com,playhydrax.com#$#abort-current-inline-script document.getElementById openPop
 nettruyenar.com#$#abort-on-property-read links
@@ -3265,7 +3262,7 @@ quykhu.com#$#abort-current-inline-script document.addEventListener atob
 www.asu.baby#$#abort-on-property-read initialAdURLs
 cap3.video#$#prevent-listener click /setTimeout|e\\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 animehay16.site#$#prevent-listener click popup
-rophimz.li,motphimc.tv,phimmoic.vip#$#prevent-listener click ads
+rophimz.so,motphimc.com.mx,phimmoic.vip#$#prevent-listener click ads
 laodong.vn#$#abort-current-inline-script window.addEventListener AdBlock
 18tube.uk#$#abort-current-inline-script document.addEventListener ads
 motchilln.biz,fcloud.live#$#prevent-listener click links
