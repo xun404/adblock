@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LWuYGEaMPD4+/xpeedwCsQ
+! Checksum: /aUnbUki8rfr73MBgrCE6Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202611110205
-! Last Modified: 2026年11月11日 02:05
+! Version: 202611110738
+! Last Modified: 2026年11月11日 07:38
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -703,6 +703,8 @@ collinsdictionary.com#$#abort-on-property-read as_779790743; abort-on-property-r
 collinsdictionary.com#$#abort-on-property-write YXNfZXNzZW50aWFsY29sbGluc2RpY3Rpb25hcnkuY29t; abort-on-property-write YXNfZXNzZW50aWFsd3d3LmNvbGxpbnNkaWN0aW9uYXJ5LmNvbQ
 pons.com#$#abort-on-property-read as_-1591366397; abort-on-property-read as_-1522416966; abort-on-property-read as_363214440; abort-on-property-read as_363214439; abort-on-property-read as_1107183819; abort-on-property-read as_-1522416967; abort-on-property-read as_249304733; abort-on-property-read as_-1591366398
 pons.com#$#abort-on-property-write YXNfZXNzZW50aWFscG9ucy5jb20; abort-on-property-write YXNfZXNzZW50aWFsd3d3LnBvbnMuY29t; abort-on-property-write YXNfZXNzZW50aWFsZW4ucG9ucy5jb20
+@@||magicalblouse.com^$script,xmlhttprequest,domain=pons.com
+pons.com#$#replace-argument Reflect.get 1 /isActive/ isUnregistered
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
 bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,loawa.com,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
 bab.la,collinsdictionary.com,gazetaprawna.pl,gutefrage.net,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
@@ -899,6 +901,7 @@ caminteresse.fr#$#abort-on-property-read as_381855705; abort-on-property-read as
 caminteresse.fr#$#abort-on-property-write YXNfZXNzZW50aWFsY2FtaW50ZXJlc3NlLmZy; abort-on-property-write YXNfZXNzZW50aWFsd3d3LmNhbWludGVyZXNzZS5mcg
 femmeactuelle.fr#$#abort-on-property-read as_1189534749; abort-on-property-read as_151603924; abort-on-property-read as_151603923; abort-on-property-read as_1142146615; abort-on-property-read as_1189534748; abort-on-property-read as_-1876488128
 femmeactuelle.fr#$#abort-on-property-write YXNfZXNzZW50aWFsZmVtbWVhY3R1ZWxsZS5mcg; abort-on-property-write YXNfZXNzZW50aWFsd3d3LmZlbW1lYWN0dWVsbGUuZnI
+caminteresse.fr#$#override-property-read NetworkInformation.prototype.rtt 1000
 voici.fr#$#abort-on-property-read as_-2026451792; abort-on-property-read as_-1957502361; abort-on-property-read as_-1957502362; abort-on-property-read as_-1545649654; abort-on-property-read as_-2026451793; abort-on-property-read as_-526539501
 voici.fr#$#abort-on-property-write YXNfZXNzZW50aWFsdm9pY2kuZnI; abort-on-property-write YXNfZXNzZW50aWFsd3d3LnZvaWNpLmZy
 ||html-load.com^$script,domain=voici.fr|femmeactuelle.fr|caminteresse.fr
@@ -1269,6 +1272,8 @@ fandom.com#$#override-property-read xvhs4e3ps8l true
 ||html-load.com^$script,domain=fandom.com
 fandom.com#$#prevent-element-src-loading script /^https?://[^/]+/(app|vendor|main|core)[.]js|html-load[.]com|content-loader[.]com|norexceptdrug[.]com|pssthumidity[.]com|duhrawhide[.]com|gadzooksrudely[.]com/
 fandom.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|\\[0,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError/' ''
+fandom.com#$#replace-outbound-value Array.prototype.join '/([[]"is",[a-zA-Z0-9_$]+[(][0-9]+[)]][[][a-zA-Z0-9_$]+[(][0-9]+[)]][(]""[)];if[(]![a-zA-Z0-9_$.]+[[][a-zA-Z0-9_$]+[  (][0-9]+[)]])&&(?=Object[.]is[(][a-zA-Z0-9_$]+[(][a-zA-Z0-9_$]+,[a-zA-Z0-9_$]+[)],!1[)][)]return )/' '$1||'
+fandom.com#$#replace-fetch-response '/([[]"is",[a-zA-Z0-9_$]+[(][0-9]+[)]][[][a-zA-Z0-9_$]+[(][0-9]+[)]][(]""[)];if[(]![a-zA-Z0-9_$.]+[[][a-zA-Z0-9_$]+[(][0-9]+[)]])&&(?=Object[.]is[(][a-zA-Z0-9_$]+[(][a-zA-Z0-9_$]+,[a-zA-Z0-9_$]+[)],!1[)][)]return )/' '$1||' 'Object.is('
 fandom.com##.bottom-ads-container
 fandom.com##.gpt-ad
 fandom.com##.ad-slot-placeholder
@@ -1501,8 +1506,7 @@ hochi.news#$#json-override isActive false applyRatio
 hochi.news#$#json-override isActive false isUnregistered
 hochi.news#$#abort-on-property-read as_656175120; abort-on-property-read as_-1802898425; abort-on-property-read as_656175119; abort-on-property-read as_-1802898426; abort-on-property-read as_433492083; abort-on-property-read as_321178538
 hochi.news#$#abort-on-property-write YXNfZXNzZW50aWFsaG9jaGkubmV3cw; abort-on-property-write YXNfZXNzZW50aWFsd3d3LmhvY2hpLm5ld3M
-||content-loader.com^$script,domain=hochi.news
-||html-load.com^$script,domain=hochi.news
+hochi.news#$#replace-argument Reflect.get 1 /isActive/ isUnregistered
 ||duhquietly.com^$script,domain=hochi.news
 ||html-load.com/session$domain=hochi.news
 ||duhquietly.com/session$domain=hochi.news
@@ -1534,6 +1538,7 @@ hk01.com#$#json-override isActive false applyRatio
 hk01.com#$#json-override isActive false isUnregistered
 hk01.com#$#abort-on-property-read as_1846149955; abort-on-property-read as_1915099386; abort-on-property-read as_1846149954; abort-on-property-read as_1915099385; abort-on-property-read as_469343453; abort-on-property-read as_1488453606
 hk01.com#$#abort-on-property-write YXNfZXNzZW50aWFsaGswMS5jb20; abort-on-property-write YXNfZXNzZW50aWFsd3d3LmhrMDEuY29t
+hk01.com#$#replace-argument Reflect.get 1 /isActive/ isUnregistered
 @@||html-load.com/loader.min.js$script,domain=seriouseats.com
 ||*/lib.js^$script,domain=seriouseats.com
 ||content-loader.com^$script,domain=seriouseats.com
@@ -1550,8 +1555,6 @@ seriouseats.com#$#replace-outbound-value Array.prototype.join '/([[]"is",[a-zA-Z
 ||stg.html-load.com/session$domain=kurir.rs
 ||error-report.com^$domain=kurir.rs
 ||kurir.rs^$csp=script-src-attr 'none'
-||content-loader.com^$script,domain=pockettactics.com
-||html-load.com^$script,domain=pockettactics.com
 ||d3edfxwiftnsxy.cloudfront.net^$script,domain=pockettactics.com
 ||stg.html-load.com/session$domain=pockettactics.com
 ||aroundsadly.com/session/$domain=pockettactics.com
@@ -1564,6 +1567,8 @@ pockettactics.com#$#json-override isActive false applyRatio
 pockettactics.com#$#json-override isActive false isUnregistered
 pockettactics.com#$#abort-on-property-read as_-1360813276; abort-on-property-read as_823069517; abort-on-property-read as_-1360813277; abort-on-property-read as_823069516; abort-on-property-read as_-805174416; abort-on-property-read as_106429063
 pockettactics.com#$#abort-on-property-write YXNfZXNzZW50aWFscG9ja2V0dGFjdGljcy5jb20; abort-on-property-write YXNfZXNzZW50aWFsd3d3LnBvY2tldHRhY3RpY3MuY29t
+@@||magicalblouse.com^$script,xmlhttprequest,domain=pockettactics.com
+pockettactics.com#$#replace-argument Reflect.get 1 /isActive/ isUnregistered
 ||content-loader.com^$script,domain=stocktwits.com
 ||html-load.com^$script,domain=stocktwits.com
 ||aroundsadly.com/session/$domain=stocktwits.com
@@ -1613,9 +1618,7 @@ nemzetisport.hu#$#abort-on-property-write YXNfZXNzZW50aWFsbmVtemV0aXNwb3J0Lmh1; 
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
 nemzetisport.hu#$#hide-if-contains-visible-text /hirdetés/ 'div[data-x][data-x-type]' 'span'
 ||tunebat.com$csp=script-src-attr 'none'
-||html-load.com^$script,domain=tunebat.com
 ||aroundsadly.com/session/$domain=tunebat.com
-||content-loader.com^$script,domain=tunebat.com
 ||error-report.com^$domain=tunebat.com
 tunebat.com#$#override-property-read Navigator.prototype.onLine false
 tunebat.com#$#override-property-read isAdShieldTurn false
@@ -1624,6 +1627,7 @@ tunebat.com#$#json-override isActive false applyRatio
 tunebat.com#$#json-override isActive false isUnregistered
 tunebat.com#$#abort-on-property-read as_-315617700; abort-on-property-read as_762513733; abort-on-property-read as_-315617701; abort-on-property-read as_762513732; abort-on-property-read as_-27148353; abort-on-property-read as_786099048
 tunebat.com#$#abort-on-property-write YXNfZXNzZW50aWFsdHVuZWJhdC5jb20
+tunebat.com#$#replace-argument Reflect.get 1 /isActive/ isUnregistered
 ||onlineradiobox.com$csp=script-src-attr 'none'
 ||html-load.com^$script,domain=onlineradiobox.com
 ||content-loader.com^$script,domain=onlineradiobox.com
@@ -1674,6 +1678,7 @@ weeronline.nl#$#json-override isActive false applyRatio
 ||*/core.js|$script,rewrite=abp-resource:blank-js,domain=weeronline.nl
 ||html-load.com^$domain=weeronline.nl
 ||nicelyfrom.com^$domain=weeronline.nl
+weeronline.nl#$#replace-outbound-value Array.prototype.join '/^(x[a-z0-9]{8,}[(][)];)[(]async(?:[]function[(][)]|[(][)]=>)[{](?=.*report\\.error-report\\.com\\/modal)/' '$1(async()=>{return;'
 ||*/vendor.js|$script,rewrite=abp-resource:blank-js,domain=welt.de
 welt.de#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 makeitmeme.com##div[class*="_leftBanner_"] , div[class*="_rightBanner_"]
@@ -1698,6 +1703,7 @@ kurashiru.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/core.js|$script,rewrite=abp-resource:blank-js,domain=sat24.com
 sat24.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 sat24.com#$#abort-on-property-write YXNfZXNzZW50aWFsc2F0MjQuY29t; abort-on-property-write YXNfZXNzZW50aWFsd3d3LnNhdDI0LmNvbQ
+sat24.com#$#replace-outbound-value Array.prototype.join '/^(x[a-z0-9]{8,}[(][)];)[(]async(?:[]function[(][)]|[(][)]=>)[{](?=.*report\\.error-report\\.com\\/modal)/' '$1(async()=>{return;'
 hotcopper.com.au#$#prevent-element-src-loading script /loader/
 hotcopper.com.au#$#override-property-read Navigator.prototype.onLine false
 ||*/loader.min.js|$script,domain=hotcopper.com.au
@@ -2082,8 +2088,6 @@ m.youtube.com##.video-ads.ytp-ad-module
 www.youtube.com#$#hide-if-matches-xpath '//ytd-rich-item-renderer[./div[@id="content"]/ytd-ad-slot-renderer/div[@id="fulfilled-layout"]/ytd-in-feed-ad-layout-renderer/div[@id="rendering-content"]/video-display-full-layout-view-model//feed-ad-metadata-view-model[.//ad-badge-view-model[following-sibling::ad-details-line-view-model]]]'
 youtube.com#@##sticker-layer
 www.youtube.com#$#hide-if-matches-xpath './/img[@alt][@style]/parent::div[@class="ytImageStickerHost"]/ancestor::yt-overlay-sticker/parent::div'; hide-if-matches-xpath './/img[@alt][@style]/parent::div[@class="ytImageStickerHost"]/ancestor::yt-overlay-sticker'
-www.youtube.com#$#hide-if-matches-xpath '//a[@rel="nofollow"][starts-with(@href,"https://")][not(contains(@href,"youtube.com"))]/ancestor::node()[.//video][1][count(.//a[starts-with(@href,"/watch")]) < 5]/ancestor-or-self::node()[preceding-sibling::node()[name()] or following-sibling::node()[name()]][1][count(.//a[starts-with(@href,"/watch")]) < 5]'
-www.youtube.com#$#hide-if-matches-xpath '//a[@rel="nofollow"][starts-with(@href,"https://")][not(contains(@href,"youtube.com"))]/ancestor::node()[.//a[starts-with(@href,"/watch")]][1]/ancestor-or-self::node()[preceding-sibling::node()[.//a[starts-with(@href,"/watch")]//img] or following-sibling::node()[.//a[starts-with(@href,"/watch")]//img]][1][count(.//a[starts-with(@href,"/watch")]) < 5]'
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
@@ -2786,6 +2790,10 @@ xnxx.com#$#override-property-read html5player.loadVideoPostRollAds noopFunc; ove
 tvnz.co.nz#$#replace-fetch-response '/"adType":"ssai"/' '"adType":"none"'; replace-fetch-response '/"aopUrl":"[^"]*"/' '"aopUrl":""'
 pluto.tv#$#replace-xhr-response /<Period[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*>.+?<[/]Period>|<Period[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*>.+?<[/]Period>|start="[^"]*"|mediaPresentationDuration="[^"]*"/ '' 'urn:mpeg:dash'
 pluto.tv#$#json-prune 'adBreaks.[].startingOffset adBreaks.[].adBreakDuration adBreaks.[].ads adBreaks.[].startTime adBreak adBreakLocations' 'adBreaks'
+pluto.tv#$#replace-fetch-response /<Period[^>]*>(?:(?!<[/]Period>)[^])*?<BaseURL>https:[/][/][^<]*plutotv.net[/](?:v1|mp4)[/][^<]*<[/]BaseURL>(?:(?!<[/]Period>)[^])*?<[/]Period>|start="[^"]*"|mediaPresentationDuration="[^"]*"/ '' 'urn:mpeg:dash'
+pluto.tv#$#replace-fetch-response 'jsonpath($.adBreaks)' '[]' 'url:session.json'
+pluto.tv##.pause-panel
+||service-ad-image.prd.pluto.tv^$xmlhttprequest,domain=pluto.tv
 fctv33hd.*,fctv33.io,mpanrc4imind.my,mp77g69ainei3gx2voxygen.ru,006hndchurch05g7ifbreathing.sbs,diuyzbnotevd3ieinstead.sbs#$#hide-if-matches-xpath '/html/div[@data-shb]'; prevent-element-src-loading script /^https:[/][/][^/]+[/][a-zA-Z0-9]+[/][0-9]+$/;
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
@@ -3569,25 +3577,18 @@ samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/follow
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #RM-9
 ! sl, sc
-instacart.*#$#hide-if-matches-xpath './/bl-tag/ancestor::li[1]';
+instacart.*#$#hide-if-matches-xpath './/section[*[span[span]]]/ancestor::li[1]'
 ! ta
 instacart.*##div[id][class]:has(> span[aria-hidden="true"]:first-child):has(> section > span > a > picture > img[src*="display.instacart.com"][alt*="Sponsored"])
 instacart.*##div[id][class]:has(> section > span > a > picture > img[src*="display.instacart.com"][alt*="Sponsored"])
+instacart.*##section[data-item-list]:has(> div > div > div > div > span > span:first-child + span:last-child)
 ! tc
-instacart.*##div[id]:has(> div > a img[src*="display.instacart.com"]):has(> div > a h2):has(> section) > *
-instacart.*##div[id]:has(div > a img[src*="display.instacart.com"]):has(div > a h2):has(> section) > *
-instacart.*#?#:xpath(.//img[contains(@src,"display.instacart.com")]/following-sibling::div/h2/ancestor::a[1]/parent::div//following::section/parent::div[@id]/*/parent::div)
-instacart.*#?#:xpath(.//img[contains(@src, "display.instacart.com")]/ancestor::div[@id][1][div/section])
-instacart.*##div:has(> div > div > a > img[src*="display.instacart.com"]):has(b[aria-hidden="true"])
-instacart.*##div:has(> div > div > a > img[alt="Advertisement"])
-instacart.*#?#:xpath(.//img[contains(@src,"display.instacart.com")]/following-sibling::div/h2/ancestor::a[1]/ancestor::div[@id][1])
+instacart.*#?#:xpath(.//img[contains(@src,"display.instacart.com")]/following-sibling::section/h2/ancestor::a[1]/ancestor::div[@id][1][div/div/section])
 instacart.*##div:has(> div > div > a img[src*="display.instacart.com"]):has(> div > div > a h2) > *
 ! mc
-instacart.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid*="carousel"]) > *
-instacart.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid^="shoppable-"]) > *
-instacart.*##div:has(> div > div + section [data-testid="display-ad-item-track"]) > *
 instacart.*##section[data-item-list]:has(> div:first-child span > span:first-child + span:empty + span)
 instacart.*#$#hide-if-matches-xpath './/div[h2][div[text()="Sponsored"]]'
+instacart.*##div[id]:has(> div > div > section > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> div > div > a > picture > img[src*="display.instacart.com"]) > *
 ! tp
 instacart.*##div:has(> div > div > h2 + div > span > span + b[aria-hidden="true"] + span)
 instacart.*#$#abort-current-inline-script setTimeout ic-detect-ad-block; override-property-read ADBLOCK_DETECTED false;
@@ -3974,10 +3975,11 @@ fiverr.com#?#div.slide:has(span[data-track-tag^="typography"]:-abp-contains(/Anz
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
 ! SP
-sameday.costco.*#$#race start; hide-if-matches-xpath './/bl-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//bl-tag]/ancestor::li[1]'; race stop;
+sameday.costco.*#$#race start; hide-if-matches-xpath './/pv-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//pv-tag]/ancestor::li[1]'; race stop;
 ! ca
 sameday.costco.*##div[id]:has(> div[id] > a img[src*="display.instacart.com"]):has(> div[id] li img[src*="display.instacart.com"])
 sameday.costco.*##div[id]:has(> div > div > div > a img[src*="display.instacart.com"]):has(> div > div > div > a h2)
+sameday.costco.*##div[id]:has(> div > div > section > a img[src*="display.instacart.com"]):has(> div > div > section > a h2)
 ! mc
 sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/div[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; hide-if-matches-xpath '//div[@id]/section[contains(@id,"-content")][a[img[contains(@alt,"Ad")]] or .//div[starts-with(@id,"video-player")]]/parent::div'; race stop;
 sameday.costco.*#$#abort-current-inline-script setTimeout ic-detect-ad-block; override-property-read ADBLOCK_DETECTED false
