@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /aUnbUki8rfr73MBgrCE6Q
+! Checksum: 6aSTOY+XcM/93S1NSP7uHA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202611110738
-! Last Modified: 2026年11月11日 07:38
+! Version: 202611112330
+! Last Modified: 2026年11月11日 23:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2976,7 +2976,7 @@ winfuture.de#$#hide-if-matches-xpath './/span[.="ANZEIGE"]/ancestor::div[contain
 celleheute.de#$#hide-if-matches-xpath '//*[@data-image-info]/img[contains(@style,"440")]/ancestor::div[@id][@class][1]//parent::div[@data-hook]/parent::div[@id and @class]'; hide-if-matches-xpath './/a[@data-testid]/*[@data-image-info]/img[contains(@style,"300")]/ancestor::a[@target]/parent::div[@id][@class][1]'; hide-if-contains-visible-text /Anzeige/ 'p>span[class][style]';
 freenet.de#$#hide-if-matches-xpath '//div[@class]/img[@referrerpolicy]/ancestor::div[@class][1]'
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-onvista.de#$#hide-if-contains /^Werbung$/ div.rounded-2xl 'div.rounded-2xl span ^^sh^^ span'
+onvista.de#$#hide-if-contains /^Werbung$/ div.rounded-2xl 'div.rounded-2xl span ^^sh^^ span'; hide-if-contains /^Werbung$/ .ov-carousel__item '.ov-carousel__item span ^^sh^^ span'
 ||xnxx-sexfilme.com/*==/^$domain=xnxx-sexfilme.com
 ||xnxx-sexfilme.com/*froload.js?v=2^$domain=xnxx-sexfilme.com
 ||pushpad.xyz^$third-party,domain=xnxx-sexfilme.com
@@ -3450,11 +3450,11 @@ truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh18z.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-anime47.best,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,asexhihi.net,thefaplive.com,truyensieuhay.com,qmhsex.shop#$#abort-on-property-read document.cookie
+anime47.best,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,haysexhihi.me,thefaplive.com,truyensieuhay.com,qmhsex.shop#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.biz,heo69.tube,animehay16.site,cliphot69.golf,phimsexsuong3x.net,damconuong.cool,demo.14412882.com,doctruyen3qhub.fit,dualeotruyenjv.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen21.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.8phimx.com,hotphimxxxhay.com,quatvn.best,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.live,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.fun,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.biz,heo69.tube,animehay16.site,cliphot69.golf,phimsexsuong3x.net,damconuong.cool,demo.14412882.com,doctruyen3qhub.club,dualeotruyenjv.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen21.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.8phimx.com,hotphimxxxhay.com,quatvn.best,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.live,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.fun,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,ww2.8phimx.com#$#abort-on-property-read localStorage
 xnhau.pink#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.best,animevietsub.best,tram3d.my#$#abort-current-inline-script eval $._Eu
@@ -4374,6 +4374,7 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||chairsgliosis.com^
 ||chalkedwhiningromance.com^
 ||chambulwacs.com^
+||charkshiite.qpon^
 ||cheefulfrary.com^
 ||chelaology.com^
 ||cheriesjaunt.com^
@@ -4398,7 +4399,6 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||cobalt-river-cdn-55.workers.dev^
 ||cobolgammed.com^
 ||coccihoverly.com^
-||coelarwhosome.com^
 ||coesitecubbing.com^
 ||cogwayskerb.com^
 ||cokeymythos.com^
@@ -4427,6 +4427,7 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||corylussunroof.com^
 ||couloirmatrass.com^
 ||couponbright.com^
+||coutersraying.com^
 ||cowergawsie.com^
 ||cowpencinclis.com^
 ||cowtownpeppy.com^
@@ -4472,7 +4473,6 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||densenbl.com^
 ||deployskind.com^
 ||deposedassuage.com^
-||depurgearomas.com^
 ||depurgeholour.com^
 ||dernergazeful.com^
 ||detergesateens.com^
@@ -4494,6 +4494,7 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||discussiondaub.com^
 ||dishoneststyle.com^
 ||dismastlemosi.com^
+||disnestazorian.com^
 ||distaltenths.com^
 ||distinguishanatotal.com^
 ||dittoforgive.com^
@@ -4745,6 +4746,7 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||indexconcretehavendynamics.com^
 ||indiumaspalax.com^
 ||indriwhats.com^
+||indurecarone.com^
 ||indusacta.com^
 ||infamouscomer.com^
 ||infox.sg^
@@ -4926,7 +4928,6 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||nosefelt.com^
 ||nosydorymen.com^
 ||novaleelds.com^
-||nozzleslaxate.com^
 ||nplaf.com^
 ||nubbycoolly.com^
 ||nucleonfashing.com^
@@ -4975,7 +4976,6 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||pamphiltre.com^
 ||papaneecorche.com^
 ||paralyzedhelmetnell.com^
-||parergygrates.com^
 ||parodostaunter.qpon^
 ||parrbetire.com^
 ||pastel-help.com^
@@ -5226,6 +5226,7 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||tackerhelosis.com^
 ||taffykhirka.com^
 ||tagalodrome.com^
+||taigasginep.com^
 ||talionunoiled.com^
 ||talipesspirts.com^
 ||talliedpurring.com^
@@ -5330,7 +5331,6 @@ open.spotify.com#$#replace-fetch-response /https:\\/\\/[a-zA-Z0-9\\-]+\\.?(?:spo
 ||uttergleeks.com^
 ||vaisyabam.com^
 ||valesbraises.com^
-||vangloeducat.com^
 ||vd.7vid.net^
 ||vector26060.com^
 ||verdedagon.com^
