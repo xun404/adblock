@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D/RKLQEmou7hlT19dt3LFA
+! Checksum: O4YOwdYF9T+OebypDHrxkA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202611181239
-! Last Modified: 2026年11月18日 12:39
+! Version: 202611182227
+! Last Modified: 2026年11月18日 22:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1320,6 +1320,10 @@ newduba.cn###jq_youxi
 ||ii4mju7bta.com^
 ||jsdikro5nj.com^
 ||ked61ojxow.com^
+||1uei2j0mz0.com^
+||crzzbyrea5.com^
+||eu4as22g0c.com^
+||0x2jt61f3l.com^
 ||tmn70vp2u.com^
 ||i20k3b5yi.com^
 ||i5dtd6dfl.com^
@@ -21649,6 +21653,8 @@ m.babytree.com##script + a[class]
 /index.php/analytics/cookieAnalytics|$xmlhttprequest
 /index.track?
 /indextools.js
+/ingest/array/*/config.js
+/ingest/i/v0/*
 /init?*&fallbackUserId=
 /inline-pixel.js
 /inpl.measure.jssc
@@ -21962,6 +21968,7 @@ m.babytree.com##script + a[class]
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/collect?
 /monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
@@ -22272,6 +22279,7 @@ m.babytree.com##script + a[class]
 /printpixel.js
 /printtracker.js
 /prnx_track.js
+/pro-analytics.
 /probance_tracker-min.js
 /probance_tracker.js
 /prod/ncg/ncg.js
@@ -23167,6 +23175,7 @@ m.babytree.com##script + a[class]
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
 /web-vitals-analytics.js
+/web-vitals-with-attribution.js
 /web-vitals.iife.js
 /web/push?
 /web_analytics/*
@@ -29217,6 +29226,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event.api.instant.one^
 ||event.collector.scopely.io^
 ||event.instiengage.com^
+||event.prod.asgard.hullabalook.com^
 ||event.syftdata.com^
 ||event.syndigo.cloud^
 ||event.webcollage.net^
@@ -29371,6 +29381,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.editorx.com^
 ||frontend-logger.flippback.com/api/logging
 ||fs-client-logger.herokuapp.com^
+||fscdn.eppo.cloud/api/flag-config/v1/config?
 ||fst-ec.perimeterx.net^
 ||ftimg.net/js/log.js?
 ||ftm.fluencyinc.co^
@@ -29403,6 +29414,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gateway.dev/log
 ||gateway.foresee.com^
 ||gateway.src-play.com/Analytics/
+||gator.volces.com^
 ||gcion.com/gcion.ashx?
 ||gcp.fasthorse.workers.dev^
 ||gecko.space/count.js
@@ -29732,6 +29744,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||letv.com/cloud_pl/
 ||letv.com/env/
 ||levelaccess.net/analytics/
+||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/$domain=kimi.ai
 ||lh.bigcrunch.com^
 ||lhinsights.com/collect?
 ||libs.platform.californiatimes.com/meteringjs/
@@ -30010,6 +30023,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nile.works/TargetingWebAPP/
 ||ninja.onap.io^
 ||nitrous-analytics.s3.amazonaws.com^
+||nlog.instajob.ai^
 ||noa.yahoo.com^
 ||noflake-aggregator-http.narvar.com^
 ||nojscontainer.pepperjam.com^$third-party
@@ -30304,6 +30318,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
 ||pv-track.pxtrkapp.com^
+||pv-track.venatus.com^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
 ||px-cloud.net/b/c/beacon
@@ -30509,6 +30524,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sezzle.com/v1/event/log
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
+||sg-fp.apitd.net^
 ||sgali-mcs.byteoversea.com^
 ||sgm-w.jd.com^
 ||shallspark.com/athena/tracking/
@@ -30797,6 +30813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t2.profityi.com/api/visit/
 ||t2.t2b.click^
 ||ta.trs.cn^
+||tab.volces.com/service/2/abtest_config/
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 ||tag-manager.playbuzz.com^
@@ -30836,6 +30853,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tarteaucitron.io/log/
 ||tatadigital.com/analytics-engine/
 ||td.doubleclick.net^
+||tdum.alibaba.com/dss.js
 ||technolutions.net/ping?
 ||technorati.com/technoratimedia-pixel.js
 ||techtarget.com^*/GetCookiesWithCallback?
@@ -33123,6 +33141,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appanalysis.banggood.com^
 ||apple-mapkit.com/mw/v1/reportAnalytics
 ||aptoide-mmp.aptoide.com^
+||arc.msn.com^
 ||arena.ai/rpc/e/
 ||arena.ai/rpc/i/v0/e/
 ||argtesa.com/cdn-cgi/trace
@@ -33283,6 +33302,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||character.ai/scripts/googlefc-config.js
 ||chartkidmatt.com/nectar_analytics
 ||chartkidmatt.com/page_view
 ||chase.com/apps/services/clientBeacon.html
@@ -33403,6 +33423,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||convert.guru/pageview^
 ||cookpad.com/*/activity_logs
 ||copilot-telemetry.githubusercontent.com^
+||copilot.com/events
 ||core-features.cambridge.org/proxy/client/metrics
 ||coros.com/traceapi
 ||count.all.biz^
@@ -34317,6 +34338,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pdffiller.com/funnel.php?
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
+||peachr.tv/s.js
 ||pearos.xyz/track.php
 ||pelisfree.site/cdn-cgi/trace
 ||pendo.scopus.com/data/ptm.gif
@@ -34402,6 +34424,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||private.wccftech.com^
 ||prod-events.nykaa.com^
 ||prod-foxkit.kts.fox^
+||prodregistryv2.org^$domain=character.ai
 ||progressive.com/Log/
 ||projectmultatuli.org/analytics/
 ||promos.investing.com/*/digibox.gif?
@@ -35189,6 +35212,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wstats.e-wok.tv^
 ||www-backend.strinova.com/api/common/uid
 ||www.airbnb.*/gtg/$script
+||www.bing.com/th?pid=$domain=copilot.com
 ||www.ebay.*/gh/dfpsvc?
 ||www.eventim.*/orchestra/
 ||www.vivastreet.*/cfgtg/
@@ -73503,6 +73527,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
+@@||d2gt2ux04o03l1.cloudfront.net^$third-party,domain=avery.com
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 @@||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js$domain=tatacliq.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
