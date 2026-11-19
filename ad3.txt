@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kBsbDx8y2qXR8OhuEIcfNA
+! Checksum: g4A8Lya8D8X3X3kiI7BnZA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202611190614
-! Last Modified: 2026年11月19日 06:14
+! Version: 202611191145
+! Last Modified: 2026年11月19日 11:45
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1314,6 +1314,9 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||hash.trafficmanager.net^
 ||trafficmanager.net/o.js
+||trapezoid76.com^
+||ac0vjhnpp.com^
+||pfac2u4n5.com^
 ||enar18ahs1.com^
 ||variance36.com^
 ||hy851xvexj.com^
@@ -21029,6 +21032,7 @@ m.babytree.com##script + a[class]
 /collect/view_count?
 /collect?appName
 /collect?callback=
+/collect?configId=
 /collect?d=
 /collect?data=
 /collect?eid=
@@ -21603,6 +21607,7 @@ m.babytree.com##script + a[class]
 /i.php?i=
 /i.png?id=
 /i/api/kn/afterclick/*$~third-party,xmlhttprequest
+/i/v0/e/*
 /i2a.js
 /i2yesCounter.js
 /i?e=pv&url=
@@ -22074,6 +22079,9 @@ m.babytree.com##script + a[class]
 /orichipixel.min.js
 /ot_e404.gif?
 /OtAutoBlock.js
+/otel/v1/logs
+/otel/v1/metrics
+/otel/v1/traces
 /ouibounce.min.js
 /outbrain.js$~xmlhttprequest
 /outbrainAd.
@@ -23218,6 +23226,7 @@ m.babytree.com##script + a[class]
 /wix-engage-visitors-
 /wlexpert_tracker.js
 /wmxtracker.js
+/woocommerce-analytics/*
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-analytify-forms/assets/js/tracking.js
@@ -33922,6 +33931,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inq.com/tagserver/logging/logline
 ||insideevs.com/analytics.js
 ||insights-mxp-cdn.coursecareers.com^
+||insights.builderprofile.aws.dev^
 ||instagram.com/ajax/bz
 ||instagram.com/ajax/qm/?
 ||instructables.com/counter
@@ -34197,6 +34207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtg.macpaw.com^
 ||mtm.bondagevalley.cc^
 ||mtrics.cdc.gov^
+||muse.ai/api/auth/caa-events
 ||musescore.com/components/data?
 ||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
@@ -34275,6 +34286,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ocular.hotukdeals.com^
 ||ocular.pepperdeals.com^
 ||odysee.com/reports/
+||offloop.org/_vid/v1/collect
 ||ohm-dot-hackster-io.appspot.com^
 ||oklink.com/jsstat/
 ||okx.com/jsstat/sb?
@@ -34313,6 +34325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.ost2.fyi/event^
 ||p.sfx.ms/is/invis.gif
 ||p.spotidownloader.com^
+||p.teamily.ai^
 ||pac.thescottishsun.co.uk^
 ||pac.thesun.co.uk^
 ||pac.thetimes.com^
@@ -34552,6 +34565,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.gofile.io^
 ||s.infogram.com^
 ||s.joinhoney.com/evs
+||s.sintra.ai^
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
 ||s.wayfair.com^
@@ -34786,7 +34800,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtapewithadblock.xyz/stat/
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
-||stuff.co.nz/otel/
 ||stytch.com/sdk/v1/events
 ||suaurl.com/adblock/js/smarttag.js
 ||substrate.office.com/search/api/v1/events
@@ -34948,7 +34961,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tms.hft.greenchef.com^
 ||tms.hft.hellofresh.com^
 ||tnaflix.com/stats.php
-||together.ai/otel/v1/traces
 ||toms.com/*/FacebookCAPI-Event
 ||toms.com/*/PinterestCAPI-Event
 ||tongji-res.meizu.com^
@@ -72844,7 +72856,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||nvapi.nicovideo.jp/v1/bandit-machine/
 ||odsyms15.com/impression?
 ||oita-press.co.jp/js2020/analytics.js
-||portal.kotodaman.jp/api/otel/v1/logs
 ||pvtag.yahoo.co.jp^
 ||pw.gigazine.net^
 ||pzd.rakuten.co.jp^
