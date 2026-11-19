@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uLgG+6NPFlmUsm+T16cU1Q
+! Checksum: nx8++zfSacUAzIUpG8NCXw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202611192145
-! Last Modified: 2026年11月19日 21:45
+! Version: 202611200622
+! Last Modified: 2026年11月20日 06:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1912,7 +1912,7 @@ weeronline.nl#$#json-override isActive false applyRatio
 ||*/core.js|$script,rewrite=abp-resource:blank-js,domain=weeronline.nl
 ||html-load.com^$domain=weeronline.nl
 ||nicelyfrom.com^$domain=weeronline.nl
-weeronline.nl#$#replace-outbound-value Array.prototype.join '/^(x[a-z0-9]{8,}[(][)];)[(]async(?:[]function[(][)]|[(][)]=>)[{](?=.*report\\.error-report\\.com\\/modal)/' '$1(async()=>{return;'
+weeronline.nl#$#replace-outbound-value Array.prototype.join '/^(x[a-z0-9]{8,}[(][)].)[(]async(?:[]function[(][)]|[(][)]=>)[{](?=.*report[.]error-report[.]com[/]modal)/' '$1(async()=>{})||(async()=>{'
 ||*/vendor.js|$script,rewrite=abp-resource:blank-js,domain=welt.de
 welt.de#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 makeitmeme.com##div[class*="_leftBanner_"] , div[class*="_rightBanner_"]
@@ -1937,7 +1937,7 @@ kurashiru.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/core.js|$script,rewrite=abp-resource:blank-js,domain=sat24.com
 sat24.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 sat24.com#$#abort-on-property-write YXNfZXNzZW50aWFsc2F0MjQuY29t; abort-on-property-write YXNfZXNzZW50aWFsd3d3LnNhdDI0LmNvbQ
-sat24.com#$#replace-outbound-value Array.prototype.join '/^(x[a-z0-9]{8,}[(][)];)[(]async(?:[]function[(][)]|[(][)]=>)[{](?=.*report\\.error-report\\.com\\/modal)/' '$1(async()=>{return;'
+sat24.com#$#replace-outbound-value Array.prototype.join '/^(x[a-z0-9]{8,}[(][)].)[(]async(?:[]function[(][)]|[(][)]=>)[{](?=.*report[.]error-report[.]com[/]modal)/' '$1(async()=>{})||(async()=>{'
 hotcopper.com.au#$#prevent-element-src-loading script /loader/
 hotcopper.com.au#$#override-property-read Navigator.prototype.onLine false
 ||*/loader.min.js|$script,domain=hotcopper.com.au
@@ -2044,6 +2044,7 @@ euronews.com,hk01.com,kuruma-news.jp,robbreport.com,oilprice.com,slateforums.com
 euronews.com,hk01.com,kuruma-news.jp,robbreport.com,oilprice.com,slateforums.com,intelligencer.ca,leaderpost.com,lfpress.com,montrealgazette.com,pembrokeobserver.com,recorder.ca,standard-freeholder.com,thestarphoenix.com,thewhig.com,timminspress.com#$#replace-fetch-response '/if[(](!1===[a-zA-Z0-9_$]+[[][[]"is",[a-zA-Z0-9_$]+[(][0-9]+[)]][[][a-zA-Z0-9_$]+[(][0-9]+[)]][(]""[)]]&&![a-zA-Z0-9_$]+&&![a-zA-Z0-9_$]+)[)]return/' ';($1);return' '["is",'
 barkinganddagenhampost.co.uk,basingstokegazette.co.uk,boardingschoolreview.com,bordertelegraph.com,bournemouthecho.co.uk,bracknellnews.co.uk,bridgwatermercury.co.uk,bridportnews.co.uk,bucksfreepress.co.uk,burnhamandhighbridgeweeklynews.co.uk,burytimes.co.uk,civicx.com,clactonandfrintongazette.co.uk,clydebankpost.co.uk,communitycollegereview.com,countytimes.co.uk,cravenherald.co.uk,dailyecho.co.uk,darlingtonandstocktontimes.co.uk,dorsetecho.co.uk,dudleynews.co.uk,eadt.co.uk,ealingtimes.co.uk,echo-news.co.uk,edp24.co.uk,enfieldindependent.co.uk,euronews.com,eveningnews24.co.uk,eveshamjournal.co.uk,falmouthpacket.co.uk,funandnews.de,gazette-news.co.uk,gazetteandherald.co.uk,gazetteseries.co.uk,greatbritishlife.co.uk,guardian-series.co.uk,hamhigh.co.uk,hampshirechronicle.co.uk,harrowtimes.co.uk,heraldscotland.com,herefordtimes.com,hertsad.co.uk,ilfordrecorder.co.uk,impartialreporter.com,index.hr,ipswichstar.co.uk,jlwranglerforums.com,keighleynews.co.uk,lancashiretelegraph.co.uk,leaderlive.co.uk,ledburyreporter.co.uk,maldonandburnhamstandard.co.uk,motorsport.com,mustang6g.com,mytuner-radio.com,newhamrecorder.co.uk,newsandstar.co.uk,newsshopper.co.uk,northwalespioneer.co.uk,northwichguardian.co.uk,nwemail.co.uk,oxfordmail.co.uk,pinkun.com,pocketgamer.com,privateschoolreview.com,publicschoolreview.com,radio-italiane.it,radio-singapore.com,radio-south-africa.co.za,ratemyfishtank.com,richmondandtwickenhamtimes.co.uk,romfordrecorder.co.uk,salisburyjournal.co.uk,savvytime.com,somersetcountygazette.co.uk,southwalesguardian.co.uk,speisekarte.de,stourbridgenews.co.uk,swindonadvertiser.co.uk,theargus.co.uk,theboltonnews.co.uk,thecomet.net,thenational.scot,thenorthernecho.co.uk,theresident.co.uk,thesimsresource.com,thetelegraphandargus.co.uk,thewestmorlandgazette.co.uk,thewestonmercury.co.uk,warringtonguardian.co.uk,watfordobserver.co.uk,whitehavennews.co.uk,whtimes.co.uk,wiltshiretimes.co.uk,witneygazette.co.uk,worcesternews.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk#$#abort-current-inline-script document.createElement /data-sdk|last_bfa_at/
 barkinganddagenhampost.co.uk,basingstokegazette.co.uk,boardingschoolreview.com,bordertelegraph.com,bournemouthecho.co.uk,bracknellnews.co.uk,bridgwatermercury.co.uk,bridportnews.co.uk,bucksfreepress.co.uk,burnhamandhighbridgeweeklynews.co.uk,burytimes.co.uk,civicx.com,clactonandfrintongazette.co.uk,clydebankpost.co.uk,communitycollegereview.com,countytimes.co.uk,cravenherald.co.uk,dailyecho.co.uk,darlingtonandstocktontimes.co.uk,dorsetecho.co.uk,dudleynews.co.uk,eadt.co.uk,ealingtimes.co.uk,echo-news.co.uk,edp24.co.uk,enfieldindependent.co.uk,euronews.com,eveningnews24.co.uk,eveshamjournal.co.uk,falmouthpacket.co.uk,funandnews.de,gazette-news.co.uk,gazetteandherald.co.uk,gazetteseries.co.uk,greatbritishlife.co.uk,guardian-series.co.uk,hamhigh.co.uk,hampshirechronicle.co.uk,harrowtimes.co.uk,heraldscotland.com,herefordtimes.com,hertsad.co.uk,ilfordrecorder.co.uk,impartialreporter.com,index.hr,ipswichstar.co.uk,jlwranglerforums.com,keighleynews.co.uk,lancashiretelegraph.co.uk,leaderlive.co.uk,ledburyreporter.co.uk,maldonandburnhamstandard.co.uk,motorsport.com,mustang6g.com,mytuner-radio.com,newhamrecorder.co.uk,newsandstar.co.uk,newsshopper.co.uk,northwalespioneer.co.uk,northwichguardian.co.uk,nwemail.co.uk,oxfordmail.co.uk,pinkun.com,pocketgamer.com,privateschoolreview.com,publicschoolreview.com,radio-italiane.it,radio-singapore.com,radio-south-africa.co.za,ratemyfishtank.com,richmondandtwickenhamtimes.co.uk,romfordrecorder.co.uk,salisburyjournal.co.uk,savvytime.com,somersetcountygazette.co.uk,southwalesguardian.co.uk,speisekarte.de,stourbridgenews.co.uk,swindonadvertiser.co.uk,theargus.co.uk,theboltonnews.co.uk,thecomet.net,thenational.scot,thenorthernecho.co.uk,theresident.co.uk,thesimsresource.com,thetelegraphandargus.co.uk,thewestmorlandgazette.co.uk,thewestonmercury.co.uk,warringtonguardian.co.uk,watfordobserver.co.uk,whitehavennews.co.uk,whtimes.co.uk,wiltshiretimes.co.uk,witneygazette.co.uk,worcesternews.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk#$#abort-on-property-read __as_ready_resolve
+savvytime.com,index.hr,uppercutmma.com,makeitmeme.com#$#replace-outbound-value Array.prototype.join '/if[(]!([A-Za-z_$][A-Za-z0-9_$]*[(]t,e,[A-Za-z_$][A-Za-z0-9_$]*[)][)]return;)/' 'if( $1'
 collinsdictionary.com,ecouter-en-direct.com,funandnews.de,meteovista.be,nemzetisport.hu,nikkansports.com,onlineradiobox.com,people.com,radio-australia.org#$#replace-outbound-value Response.prototype.text '/if[(]!([A-Za-z_$][A-Za-z0-9_$]*[(]t,e,[A-Za-z_$][A-Za-z0-9_$]*[)][)]return;)/' 'if( $1'
 ||page-kit.io/sdk.js$script,rewrite=abp-resource:blank-js,domain=bloxd.io|murlok.io
 ||html-load.com/core.js$script,rewrite=abp-resource:blank-js,domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|theprovince.com|tj.news|torontosun.com|vancouversun.com
@@ -2548,7 +2549,7 @@ sulasok.*,sulasokvids.*#$#abort-current-inline-script  Date.now shouldRun; abort
 sulasok.*,sulasokvids.*#$#hide-if-matches-xpath './/*[contains(@id,"gate-")]/ancestor-or-self::*[1]'
 vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script String.fromCharCode 2147483647
 ||1337x.*/ma.js^$domain=1337x.to
-1337x.*#$#abort-on-property-write window.onload false
+1337x.*#$#abort-on-property-write window.onload false;
 younetu.*#$#abort-on-property-read doSecondPop
 netu.ac#$#abort-on-property-read BetterJsPop; abort-on-property-read PopURL; abort-on-property-write window.open; abort-current-inline-script document.createElement 'delete window'; override-property-read adblockcheck false;
 charlessheimprove.com,marissasharecareer.com,richardquestionbuilding.com#$#override-property-read window.sk false; abort-current-inline-script encodeURIComponent;
@@ -2652,8 +2653,9 @@ krx18.com#$#prevent-listener click handlePopunder; prevent-listener blur handleP
 vidload.online#$#prevent-listener /play|waiting|ended/ /Banner|updateCustomPlayOverlay/
 5moviesporn.io#$#prevent-window-open /[/]api[/]v1[/]direct[/]/
 luxuretv.com#$#abort-current-inline-script $ /ltvClicksBeforeActivation|loadIM/
-pornsub.cc#$#prevent-listener /click|blur/ handlePopunder
+1337x.*,pornsub.cc#$#prevent-listener /click|blur/ handlePopunder
 gayforfans.com,otubex.com#$#abort-current-inline-script document.createElement coverTags
+datavaults.co,fuckingfast.*,uploadrar.com,multiup.io#$#abort-current-inline-script document.defaultView.atob ''
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -3128,9 +3130,9 @@ www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsore
 ! rp
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($..instream_video_ad_breaks_comet)' null '' /"instream_video_ad_breaks_comet":\{/
 ! mp
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
-www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
-www.facebook.com#$#json-override 'jsonpath($..[?(@.node.__typename=="MarketplaceFeedAdStory")].node)' null '' /MarketplaceFeedAdStory/
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])][ancestor::div[@role="main"]]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span'
+www.facebook.com,web.facebook.com#$#json-override 'jsonpath($.*.data.node)' null '' '/^(?!.*\\s{64}).*(?:CometStorySponsoredLabelStrategy|"th_dat_spo":\{)/'
+www.facebook.com,web.facebook.com#$#json-override 'jsonpath($..__bbox.result.data.node)' null '' '/^(?!.*\\s{64}).*(?:CometStorySponsoredLabelStrategy|"th_dat_spo":\{)/'
 ! sb
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and translate(.,"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ","")="" and string-length(translate(.,"abcdefghijklmnopqrstuvwxyz",""))=1 and contains("abcdefghijklmnopqrstuvwxyz",substring(.,1,1)) and contains("abcdefghijklmnopqrstuvwxyz",substring(.,string-length(.),1))]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($..auxColumnUnits.nodes)' emptyArray '' /AdsSideFeedUnit/
@@ -3241,6 +3243,10 @@ xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write Spacial
 chip.de,focus.de#$#json-override 'showAdLoading enableHomadDesktop' false adWaterfallSettings
 t-online.de#$#skip-video 'video:has(> source[src*="hmediacdn.com"])' '//video[source[contains(@src,"hmediacdn.com")]]' -skip-to:0
 chip.de,focus.de,golem.de#$#replace-xhr-response 'jsonpath($.enabled)' false /force_disabled|testadtags/
+||n-tv.de/videoPlayer/homadClientConfig.json$xmlhttprequest,rewrite=abp-resource:blank-text,domain=n-tv.de
+||smartclip.net/select$xmlhttprequest,rewrite=abp-resource:blank-html,domain=n-tv.de|gala.de|essen-und-trinken.de|brigitte.de|eltern.de
+*/__assets/homad/$xmlhttprequest,rewrite=abp-resource:blank-text,domain=gala.de|essen-und-trinken.de|eltern.de
+familie.de#$#prevent-listener mp_requestAds; timer-override 1 videoAd.loading '' timeout
 ! MISC
 winfuture.de#$#hide-if-matches-xpath './/span[.="ANZEIGE"]/ancestor::div[contains(@class,"news210") or contains(@class,"news330")]'
 celleheute.de#$#hide-if-matches-xpath '//*[@data-image-info]/img[contains(@style,"440")]/ancestor::div[@id][@class][1]//parent::div[@data-hook]/parent::div[@id and @class]'; hide-if-matches-xpath './/a[@data-testid]/*[@data-image-info]/img[contains(@style,"300")]/ancestor::a[@target]/parent::div[@id][@class][1]'; hide-if-contains-visible-text /Anzeige/ 'p>span[class][style]';
@@ -3877,7 +3883,7 @@ ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandit
 ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'div[class="brwrvr__item-card__body"]' 'span[class="su-sponsored-label__sep"] > span[aria-labelledby]';
 ! pp
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"]' 'div ^^sh^^ *[role^="text"]'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"] ^^sh^^ > div' 'div ^^sh^^ *[role^="text"]'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"][style] ^^sh^^ *' 'div ^^sh^^ *';
-ebay.*#$#hide-if-contains-visible-text 'Sponsored' div.x-evo-middle-river section[data-viewport]
+ebay.*#$#hide-if-contains-visible-text 'Sponsored' 'div.x-evo-middle-river section[data-viewport]'
 ! sp
 ebay.*#$#hide-if-matches-xpath './/span[contains(.,"Sponsored") or contains(.,"Anzeigen") or contains(.,"Sponsorisés") or contains(.,"Commandités") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzati") or contains(.,"贊助")]/ancestor::div[@data-hscroll]/parent::li[contains(@class,"ITEMS_CAROUSEL")][1]'
 ebay.*#$#hide-if-matches-xpath './/script[contains(text(),"SRP")]' '' 'load'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado)/ 'script[style]~ div.srp-main ul > li[data-viewport]' 'script[style]~ div.srp-main ul > li[data-viewport] *[aria-hidden]'
@@ -4324,6 +4330,9 @@ dribbble.com#$#hide-if-matches-xpath '//li[@data-thumbnail-id][@data-boost-id!="
 tiktok.com#$#replace-argument JSON.parse 0 '"enable_ads":{"vid":"v2"}' '"enable_ads":{"vid":"v1"}'
 ! #RM-58
 carrefour.es#$#hide-if-contains /^Patrocinado$/ 'div.x-root-container ^^sh^^ li.x-base-grid__item' 'div.x-root-container ^^sh^^ li.x-base-grid__item div.x-text2-sm'
+! #RM-243
+wolt.com#$#hide-if-contains-visible-text '/^(Sponsored|Sponsorisé|Reklam|Sponsoreret|Gesponsert|Sponsoreeritud|Sponzorirano|Жарнама|Sponsorēts|Remiama|Szponzorált|Sponsorowane|Sponset|Sponsorizat|Sponsorizuar|Sponzorované|Sponzorisano|Sponsoroitu|Sponsrad|Sponsorlu|Kostað|Χορηγούμενο|Спонзорирано|Реклама|Спонсоровані|ממומן|خاضع للرعاية|დასპონსორებული)$/' li 'li button'
+wolt.com#$#hide-if-contains-visible-text '/^(Sponsored|Sponsorisé|Reklam|Sponsoreret|Gesponsert|Sponsoreeritud|Sponzorirano|Жарнама|Sponsorēts|Remiama|Szponzorált|Sponsorowane|Sponset|Sponsorizat|Sponsorizuar|Sponzorované|Sponzorisano|Sponsoroitu|Sponsrad|Sponsorlu|Kostað|Χορηγούμενο|Спонзорирано|Реклама|Спонсоровані|ממומן|خاضع للرعاية|დასპონსორებული)$/' 'section[data-test-id="MainDiscoveryContent"] > div > div' 'button[data-test-id="carousel-header-image-title-see-all-button"] + button'
 ! #RM-222
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//h3[normalize-space(text())="Sponsored"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1] | id("thread")//span[normalize-space(text())="Ad"]/ancestor::div[starts-with(@class,"border-") and not(.//div[@data-message-author-role])][1]' 'id("thread")'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//*[contains(concat(" ",normalize-space(@class)," ")," bg-token-bg-tertiary ") and contains(concat(" ",normalize-space(@class)," ")," rounded-full ") and normalize-space(text())="Ad"]/ancestor::div[contains(concat(" ",normalize-space(@class)," ")," border-t ")][1]'
