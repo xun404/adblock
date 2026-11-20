@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nx8++zfSacUAzIUpG8NCXw
+! Checksum: VEbiNRQnw3gVpVb6fg+d5A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202611200622
-! Last Modified: 2026年11月20日 06:22
+! Version: 202611202128
+! Last Modified: 2026年11月20日 21:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -4222,8 +4222,8 @@ otomoto.*,otodom.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-
 otodom.*#$#hide-if-matches-xpath './/div[style[contains(text(), "Reklama")]]'
 otodom.*#$#hide-if-matches-xpath './/div[@*[starts-with(name(), "data-") and contains(., "baxter-slot")]]/parent::div[@*[starts-with(name(), "data-") and contains(.,"AdUnit") or contains(.,"SidebarAdContainer")]]'
 ! #RM-117
-pinterest.*#?#div[data-grid-item]:has(a:has-text(/(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
-pinterest.*#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data initialReduxState.resources.UserHomefeedResource.{}.data.[-].ad_data'
+pinterest.*#?#div[data-grid-item]:has(a:-abp-contains(/(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)[\u200B-\u200D\uFEFF]*$/))
+pinterest.*#$#json-prune 'resource_response.data.[-].ad_destination_url resource_response.data.results.[-].ad_destination_url initialReduxState.resources.{}.{}.data.[-].ad_destination_url initialReduxState.resources.{}.{}.data.results.[-].ad_destination_url'
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
@@ -4487,7 +4487,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||agriculturalcoyhose.com^
 ||airingsjerky.com^
 ||akanexterna.com^
-||akazgatate.com^
 ||akhlamesouchy.com^
 ||akrabatable.com^
 ||alaryrousts.com^
@@ -4513,7 +4512,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||andoroxcheek.com^
 ||andriesmemoir.com^
 ||anihazels.com^
-||animizecribber.com^
 ||aniwatchbackend.cfd^
 ||anniversaryvacuumambassador.com^
 ||annussleys.com^
@@ -4591,12 +4589,11 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bleckaugrim.com^
 ||bleezyhyper.cyou^
 ||blogpeak.com^
+||blownshortia.com^
 ||blurbsoutpry.com^
 ||blurtsbrerd.com^
 ||bnbagnut.com^
-||bokoseosate.com^
 ||bolasarpen.com^
-||bollingpatties.com^
 ||boltedacyetic.cfd^
 ||bonjourands.com^
 ||bonnockconsul.com^
@@ -4808,13 +4805,13 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||duskishwinrace.com^
 ||dynamitefinishingmimic.com^
 ||eartabunseely.com^
-||earthspetti.com^
 ||easingraphany.com^
 ||ecolesmauve.com^
 ||ecologystoter.com^
 ||ecosystemeo.com^
 ||edenizemortary.com^
 ||effic.pro^
+||eheuaugen.cyou^
 ||eidersrettory.com^
 ||electron8.net^
 ||elementalconsessionconsession.com^
@@ -5024,7 +5021,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||icky-rough.com^
 ||idlerelief.com^
 ||ignoresfahlerz.com^
-||ikebanascapose.com^
 ||imberbefamose.com^
 ||imbondozorils.com^
 ||imbutidi.com^
@@ -5155,7 +5151,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||manawell.net^
 ||manhoodinvoluntaryplash.com^
 ||manipulativecommitment.com^
-||mantelsignore.com^
+||mantletpirojki.com^
 ||maolmjnsxhry.com^
 ||maolmjxkiyqaz.com^
 ||mappersavarish.com^
@@ -5229,6 +5225,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nplaf.com^
 ||nubbycoolly.com^
 ||nucleonfashing.com^
+||nutcakesinking.click^
 ||nuvorel.xyz^
 ||obanlazed.com^
 ||obdtfijian.com^
@@ -5324,10 +5321,10 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||prizefamily.com^
 ||proceduresto3.net^
 ||prognosiscoloredpractical.com^
-||ptinusmufasal.com^
 ||publicretia.com^
 ||pucaanova.com^
 ||puceronplouky.com^
+||punkaactuary.com^
 ||punkasananym.com^
 ||punyconvert.com^
 ||pwpamtcvrg.icu^
@@ -5382,6 +5379,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||richardghain.com^
 ||ridge-linen-cdn-76.workers.dev^
 ||rilletsshivoo.com^
+||rimpleoopak.com^
 ||river-pine-cdn-57.workers.dev^
 ||river-prism-cdn-93.workers.dev^
 ||roamersitemise.com^
@@ -5404,6 +5402,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||safarsomaten.com^
 ||samograyka.link^
 ||sandboxto370.com^
+||sandburceride.com^
 ||sangleygunsman.com^
 ||sansaradivulse.com^
 ||santosunflat.com^
@@ -5454,13 +5453,13 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||simplistic-walk.com^
 ||sinebryuga.link^
 ||singletplatformgleamenterprises.com^
-||sireniaellipse.com^
 ||sitefleck.com^
 ||sjv.io^
 ||sk2bvq.net^
 ||skewlycrepy.com^
 ||skinnedjets.com^
 ||skirlakawai.com^
+||skydovemanit.com^
 ||skypipevatican.com^
 ||slatterflowers.com^
 ||sleeklyyallaer.com^
@@ -5528,7 +5527,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||swailsrecoal.com^
 ||swiwetduchan.shop^
 ||synapse22.net^
-||synaxisgesten.com^
 ||sync960.com^
 ||synonymcrawling.com^
 ||sznplayer.cz^
@@ -5608,7 +5606,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||truvidplayer.com^
 ||trypsinneutral.com^
 ||tuckedshowing.com^
-||tuffoonaskant.com^
 ||tuftierrummage.com^
 ||turbodeter.com^
 ||tutelaebunga.com^
@@ -5623,7 +5620,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||uncodedsmoothy.com^
 ||uncrookcurry.com^
 ||undoubtedlydoerdivided.com^
-||unfortunateheart.com^
 ||ungagedhulloo.com^
 ||ungreeninwrit.com^
 ||unhangignore.com^
@@ -5678,7 +5674,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||weather36.com^
 ||weldssantar.com^
 ||wellgroomed-imagination.com^
-||weznennuied.com^
 ||weznkotoko.com^
 ||whelmlegge.com^
 ||whistledwifeeverywhere.com^
@@ -5702,7 +5697,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yakanorby.com^
 ||yakdudism.com^
 ||yallowafridi.com^
-||yaupdizzy.com^
 ||yawnfulharpa.com^
 ||yb28b.com^
 ||ydstinkle.com^
@@ -5730,7 +5724,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ! *** abp-filters-anti-cv:3rd-party/cloudfront.txt ***
 ||d2f9q8zryik75d.cloudfront.net^
 ||d33f51dyacx7bd.cloudfront.net^
-||dv5vwlgir0hsc.cloudfront.net^
 ||dvwztnx4ab3fl.cloudfront.net^
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
