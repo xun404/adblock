@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lr/1behB5+g8elIII0XOEg
+! Checksum: K4u1iuLqINNX5YkLFg3m5Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202611230642
-! Last Modified: 2026年11月23日 06:42
+! Version: 202611231154
+! Last Modified: 2026年11月23日 11:54
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1314,6 +1314,10 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||hash.trafficmanager.net^
 ||trafficmanager.net/o.js
+||4eyn3s9wj.com^
+||semicircle59.com^
+||4vzi54g47.com^
+||kmbvclcac.com^
 ||ambifpskje.com^
 ||93cwt9hr8s.com^
 ||dw3wytlo38.com^
@@ -20167,6 +20171,7 @@ m.babytree.com##script + a[class]
 /?swift-performance-tracking
 /_/api/v2/analytics/?
 /_/lite/performance/*
+/__activity.gif?
 /__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
@@ -20425,6 +20430,7 @@ m.babytree.com##script + a[class]
 /api/datafast/*
 /api/drpStats
 /api/event-rfkj/*
+/api/event/collect|
 /api/front/v2/observability$ping
 /api/internal/pixel?
 /api/log-visit
@@ -20669,6 +20675,7 @@ m.babytree.com##script + a[class]
 /chartbeat.min.js
 /chcounter/counter.php
 /check.php?referrer=
+/checkout/offer/trackShow
 /chicken.gif?*=
 /cklink.gif?
 /cklog.js
@@ -23569,9 +23576,11 @@ omni.soundestlink.com$image
 ||4tm4ezb2lqlx.com^
 ||5gtb.com^
 ||6dp0i7.ru^
+||6s83mz9kbtrj.com^
 ||a3kvau184uea.com^
 ||a47b.com^
 ||a8723.com^
+||a9f3k7z2m1.com^
 ||acsbapp.com^
 ||adcontroll.com^
 ||addefend-platform.com^
@@ -23614,6 +23623,7 @@ omni.soundestlink.com$image
 ||australiarevival.com^
 ||avads.net^
 ||awmonitor.com^
+||ayc0zsm69431gfebd.info.com^
 ||b3mxnuvcer.com^
 ||bfmio.com^
 ||bgalytics.com^
@@ -23639,18 +23649,14 @@ omni.soundestlink.com$image
 ||bx-cloud.com^
 ||bxtag.com^
 ||bydst.com^
+||bytes.media^
 ||c-stat.eu^
 ||cadsuta.net^
 ||cafirebreather.com^
 ||cbdatatracker.com^
 ||cdjbf8trk.com^
 ||cdn-vitals.com^
-||cdn.a9f3k7z2m1.com^
-||cdn.m2z7r9k4p1.com^
-||cdn.q4x8n6b2t5.com^
 ||cdn.sy-d.io^
-||cdn.t2037ulzqct5.com^
-||cdn.x7k9m2q4z8r1.com^
 ||cdnhst.xyz^
 ||cdnlogs.org^
 ||cdnwidget.com^
@@ -23845,6 +23851,7 @@ omni.soundestlink.com$image
 ||itsstats.wp1.site^
 ||jcpclick.com^
 ||jubbie.de^
+||jzkdrpijw30voy0.club^
 ||kit22.com^
 ||klarinsights.net^
 ||krxd.net^
@@ -23867,6 +23874,7 @@ omni.soundestlink.com$image
 ||lrkt-in.com^
 ||lsdm.co^
 ||lyfnh.io^
+||m2z7r9k4p1.com^
 ||maggieeatstheangel.com^
 ||mapixl.com^
 ||markadver.com^
@@ -23955,6 +23963,7 @@ omni.soundestlink.com$image
 ||pzapi-kg.com^
 ||pzimff.com^
 ||q0losid.com^
+||q4x8n6b2t5.com^
 ||qntm.pro^
 ||qovani.com^
 ||queen-one.net^
@@ -24024,6 +24033,7 @@ omni.soundestlink.com$image
 ||sy57d8wi.com^
 ||syncingbridge.com^
 ||t13.io^
+||t2037ulzqct5.com^
 ||takingbackjuly.com^
 ||targetemsecure.blob.core.windows.net^
 ||tatpek.com^
@@ -24087,6 +24097,7 @@ omni.soundestlink.com$image
 ||wlt-jupiter.de^
 ||wmgroup.us^
 ||woodpeckerlog.com^
+||x7k9m2q4z8r1.com^
 ||xanalytics.vip^
 ||y5kvsuy8wr7c.com^
 ||yardianalytics.com^
@@ -24726,6 +24737,7 @@ omni.soundestlink.com$image
 ||demandscience.com^$third-party
 ||departapp.com^$third-party
 ||deqwas.net^$third-party
+||derbysoftsec.com^$third-party
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||device9.com^$third-party
@@ -25816,6 +25828,7 @@ omni.soundestlink.com$image
 ||ptztvpremium.com^$third-party
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
+||pubfluencers.com^$third-party
 ||publicgood.com^$third-party
 ||publicidees.com^$third-party
 ||publytics.net^$third-party
@@ -28125,6 +28138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.sayprimer.com^
 ||analytics.scorpion.co^
 ||analytics.shareaholic.com^
+||analytics.shelbyklein.com^
 ||analytics.shorte.st^
 ||analytics.shorthand.com^
 ||analytics.sitewit.com^
@@ -29086,6 +29100,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||filament-stats.herokuapp.com^
 ||files.envoke.com^*_nvk_tracking.js
 ||filesonic.com/referral/$third-party
+||fingerprint.blockifyapp.com^
 ||fingerprinter-production.herokuapp.com^
 ||firebaselogging-pa.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
@@ -29372,6 +29387,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||insiderdata360online.com/service/platform.js
 ||insight.mintel.com^$third-party
 ||insight.rapid7.com^$third-party
+||insights-tag.convertkit.com^
 ||insights.algolia.io^
 ||insights.playpilot.net^
 ||insights.sitesearch360.com^
@@ -29854,6 +29870,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||orion.bendingspoons.com^
 ||orts.wixawin.com^$third-party
 ||osano.com/js/?action_name=
+||otel-hfo.fareharbor.engineering/v1/traces
 ||otg.mblycdn.com/bundles/cmp.js
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
@@ -30352,6 +30369,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
+||sr-cdn.shiprocket.in/sr-promise/static/iframe.html
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||src.freshmarketer.in^
 ||src.fwusercontent.com^
 ||srvmath.com^*/analytics.js
@@ -34200,6 +34219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pulse.genki.world^
 ||pulsepoint.ideal.house^
 ||pumpkin.abine.com^
+||pureinfotech.com/media/api/send
 ||pushsquare.com/blank.gif
 ||px.srvcs.tumblr.com^
 ||pxl.indeed.com^
@@ -34680,6 +34700,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thetimes.co.uk/track?
 ||thetruth.com/pd.js
 ||thetruthaboutcars.com/api/slots
+||theverge.com/SendEventData
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||think.ing.com/ajax/ajax_cookie_consent$~third-party,xmlhttprequest
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
