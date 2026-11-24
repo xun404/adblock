@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tr2rnYhoFpQYh4E5oVrXRQ
+! Checksum: mEQ3OvuA0A5YiKIijjfCiQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202611241029
-! Last Modified: 2026年11月24日 10:29
+! Version: 202611242052
+! Last Modified: 2026年11月24日 20:52
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -565,6 +565,7 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ||calmantler.com^
 ||candidpick.com^
 ||capablearea.com^
+||capablejeans.com^
 ||certainlyyum.com^
 ||certainsugar.com^
 ||c.fakt.pl^
@@ -756,6 +757,7 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ||midwifemoist.com^
 ||misguidedfast.com^
 ||misreportmeh.com^
+||modernmoth.com^
 ||mostlyfor.com^
 ||nearinasmuch.com^
 ||nearlyfooeyminus.com^
@@ -889,6 +891,8 @@ marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="con
 ||uselesslyswiftprovided.com^
 ||verveinborn.com^
 ||video-loads.com^
+||violettrail.info^
+||violettrail.pro^
 ||warmlyanti.com^
 ||whatinstancedeck.com^
 ||whatwetly.com^
@@ -3742,7 +3746,7 @@ xem20.net#$#json-prune props.children.[].props.tvc
 hh2d.top#$#abort-current-inline-script $ adblock
 tram3d.mom#$#abort-current-inline-script setTimeout appendChild
 cliphubs.com,viet69hayz.pics#$#abort-current-inline-script document.addEventListener pop
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.moda
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.plus
 pxhero.net#$#cookie-remover ads_num true
 truyenfull.live#$#override-property-read ads_show 0
 giovang.guru#$#json-prune 0.default_ads_video
@@ -3758,10 +3762,10 @@ anime47.best,clipvn.sbs,comong.info,forum.timfshare.com,gaisexhihi.pro,honghotdu
 metruyenchu.com#$#abort-on-property-write window.onclick
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.biz,choigai.mobi,animehay17.site,cliphot69.golf,phimsexsuong3x.net,damconuong.help,demo.14412882.com,doctruyen3qhub.club,dualeotruyengf.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen22.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.motphimy.com,hotphimxxxhay.com,quatvn.stream,sayhentai.cx,ftscontent.com,sexdiary.club,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.cloud,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.biz,xemphim3x.pro,animehay17.site,cliphot69.golf,phimsexsuong3x.net,damconuong.help,demo.14412882.com,doctruyen3qhub.club,dualeotruyengf.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen22.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.motphimy.com,hotphimxxxhay.com,quatvn.stream,sayhentai.cx,ftscontent.com,sexdiary.club,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.cloud,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,ww2.motphimy.com#$#abort-on-property-read localStorage
-xnhau.moda#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
-xnhau.moda#$#prevent-window-open /^/
+xnhau.plus#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
+xnhau.plus#$#prevent-window-open /^/
 animevietsub.zone,animevietsub.zone,tram3d.my#$#abort-current-inline-script eval $._Eu
 ww2.motphimy.com#$#abort-current-inline-script document.createElement script
 dualeotruyengf.com#$#abort-current-inline-script document.addEventListener popunder
@@ -3807,7 +3811,7 @@ motchillw.ac#$#prevent-listener click sessionStorage
 qmhv3.one,qmh.garden#$#abort-on-property-read sessionStorage
 beatvn.online#$#abort-current-inline-script document.addEventListener Redirect
 onflix.lat#$#prevent-listener click fast_link
-tophim.click#$#prevent-listener click pop
+tophim.pics#$#prevent-listener click pop
 vlxx.*#$#abort-on-property-write oc
 ! *** abp-filters-anti-cv:RM.txt ***
 ! #RM-1
@@ -4364,6 +4368,7 @@ chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"borde
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Sponsored")]'
 chatgpt.com#$#hide-if-matches-xpath '//div[div[@role="link"] and .//*[normalize-space(text())="Ad" or normalize-space(text())="Ad options"]]/ancestor::div[1]/../parent::div'
 chatgpt.com#$#hide-if-matches-xpath '//button[@aria-haspopup="menu"][@aria-labelledby][preceding-sibling::span][preceding-sibling::div//img[@inert][starts-with(@src,"data:image/")]]/ancestor::div[.//div[@role="link"]][1][not(.//div[@data-message-author-role] or .//li[@data-message-role])][not(ancestor-or-self::div[contains(@style,"width: 1px")])]'
+chatgpt.com#$#hide-if-matches-xpath '//button[@aria-haspopup="menu"][@aria-labelledby]/ancestor::div[.//div[@role="link"]][1][.//img[@inert][starts-with(@src,"data:image/")]]'
 ! tracking
 chatgpt.com#$#cookie-remover __obi
 ||chatgpt.com/*/bazaar/obi/sync-token^$domain=chatgpt.com
@@ -4595,6 +4600,7 @@ open.spotify.com#$#use-blob
 ||bedimmilvago.click^
 ||bedlessresizes.com^
 ||befitkersey.com^
+||behearbkpt.com^
 ||beigekismat.com^
 ||belchlipin.com^
 ||benselshrap.com^
@@ -4673,6 +4679,7 @@ open.spotify.com#$#use-blob
 ||casherscamize.com^
 ||cashooshut.com^
 ||caskcabinetsnow.com^
+||caterergismos.rest^
 ||caterpillarmournful.com^
 ||cathinunquit.com^
 ||cautelaunsent.com^
@@ -5194,6 +5201,7 @@ open.spotify.com#$#use-blob
 ||mediabuysolutions.com^
 ||medialsgleet.com^
 ||mediumdirt.com^
+||meiotussive.com^
 ||mevrgxr.com^
 ||mewlersunluck.com^
 ||mexicalsubsea.com^
@@ -5346,6 +5354,7 @@ open.spotify.com#$#use-blob
 ||publicretia.com^
 ||pucaanova.com^
 ||puceronplouky.com^
+||pulsedoysters.com^
 ||punkasananym.com^
 ||punyconvert.com^
 ||pwpamtcvrg.icu^
@@ -5407,7 +5416,6 @@ open.spotify.com#$#use-blob
 ||roledipocras.com^
 ||roommatepetition.com^
 ||rosasyndic.com^
-||routhssortly.com^
 ||ruamupr.com^
 ||ruddytoph.com^
 ||ruderalweiring.com^
@@ -5452,6 +5460,7 @@ open.spotify.com#$#use-blob
 ||serenadislive.com^
 ||sergehoolock.com^
 ||sergeizamang.qpon^
+||serragebewit.com^
 ||severe-capital.com^
 ||shalakobiarchy.com^
 ||shameful-farm.com^
@@ -5486,7 +5495,6 @@ open.spotify.com#$#use-blob
 ||slenderclarify.com^
 ||slimgather.com^
 ||slubplenism.com^
-||smaltska.com^
 ||smilingdollarsauxiliary.com^
 ||smockeddesmoid.qpon^
 ||smokestallyho.com^
@@ -5532,7 +5540,6 @@ open.spotify.com#$#use-blob
 ||studyingiodineproposal.com^
 ||stuffedclipse.com^
 ||stulmunshent.com^
-||stunnedlanced.com^
 ||stuntednicht.com^
 ||suavecitoo.org^
 ||succubmisship.com^
@@ -5554,7 +5561,6 @@ open.spotify.com#$#use-blob
 ||tackerhelosis.com^
 ||taffykhirka.com^
 ||tagalodrome.com^
-||taigasginep.com^
 ||taishfaugh.com^
 ||talionunoiled.com^
 ||talipesspirts.com^
@@ -5579,6 +5585,7 @@ open.spotify.com#$#use-blob
 ||thatdisform.cyou^
 ||theoreticalassertshame.com^
 ||thiazinamus.com^
+||thicketwahine.com^
 ||thilkariste.com^
 ||thimpardas.com^
 ||thirstacock.com^
